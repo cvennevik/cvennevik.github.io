@@ -2,3 +2,6 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'beautiful-hugo'
+
+[Params]
+  selfHosted = true

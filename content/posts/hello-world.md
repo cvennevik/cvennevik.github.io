@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
-date: 2022-11-18T20:01:40+01:00
-draft: true
+date: 2023-01-03T09:57:00+11:00
+draft: false
 ---
 
 Lorem, ipsum!

@@ -1,1 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cecilie Vennevik</title><link>https://www.cvennevik.no/</link><description>Recent content on Cecilie Vennevik</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 08 Jan 2023 09:55:00 +1100</lastBuildDate><atom:link href="https://www.cvennevik.no/index.xml" rel="self" type="application/rss+xml"/><item><title>Code Reviews Are Overloaded</title><link>https://www.cvennevik.no/post/code-reviews-are-overloaded/</link><pubDate>Sun, 08 Jan 2023 09:55:00 +1100</pubDate><guid>https://www.cvennevik.no/post/code-reviews-are-overloaded/</guid><description>On the pains of mandated code reviews, and how to reduce them.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cecilie Vennevik</title><link>https://www.cvennevik.no/</link><description>Recent content on Cecilie Vennevik</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 08 Jan 2023 09:55:00 +1100</lastBuildDate><atom:link href="https://www.cvennevik.no/index.xml" rel="self" type="application/rss+xml"/><item><title>Code Reviews Are Overloaded</title><link>https://www.cvennevik.no/post/code-reviews-are-overloaded/</link><pubDate>Sun, 08 Jan 2023 09:55:00 +1100</pubDate><guid>https://www.cvennevik.no/post/code-reviews-are-overloaded/</guid><description>On the pains of mandated code reviews, and how to reduce them.</description><content>&lt;h2 id="table-of-contents">Table of contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#code-reviews-are-effective">Code reviews are effective&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#branching-causes-problems">Branching causes problems&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#mandatory-code-reviews-encourage-long-lived-branches">Mandatory code reviews encourage long-lived branches&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#code-reviews-are-hard-to-replace">Code reviews are hard to replace&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#code-reviews-hurt-more-the-more-they-try-to-do">Code reviews hurt more the more they try to do&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#limit-your-code-reviews-to-the-most-important-concerns">Limit your code reviews to the most important concerns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#this-is-a-suggested-experiment">This is a suggested experiment&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="code-reviews-are-effective">Code reviews are effective&lt;/h2>
+&lt;p>&lt;strong>Code reviews are effective for uncovering bugs.&lt;/strong> We have multiple large studies backing this claim, estimating that the bug-detection rate of code reviews is in the ballpark of 50%. This is better evidence than we have for most software development practices. From &lt;a href="https://en.wikipedia.org/wiki/Code_review#Efficiency_and_effectiveness_of_reviews">the Wikipedia article on code review&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>Capers Jones&amp;rsquo; ongoing analysis of over 12,000 software development projects showed that the latent defect discovery rate of formal inspection is in the 60-65% range. For informal inspection, the figure is less than 50%. The latent defect discovery rate for most forms of testing is about 30%. A code review case study published in the book Best Kept Secrets of Peer Code Review found that lightweight reviews can uncover as many bugs as formal reviews, but were faster and more cost-effective in contradiction to the study done by Capers Jones.&lt;/p>
+&lt;/blockquote>
+&lt;p>In addition to their primary value in discovering bugs, they can also be used to assess and improve many other aspects of the code. Design, readability, maintainability, code quality, test quality and coverage, consistency with project style guidelines and documentation are all areas where reviewers can find issues and suggest improvements. The act of reviewing and giving feedback can even help transfer knowledge between developers and be a tool for mentoring and learning.&lt;/p>
+&lt;p>On account of these benefits, code reviews have become wildly popular, and most software projects mandate that all changes must be approved by one or more reviewers. This virtually always means a &lt;em>pull request based workflow&lt;/em>, where developers branch out from mainline, make some changes, then open a pull request that requires approval from a reviewer to merge back into mainline. At time of writing, this is the predominant way of working in our industry.&lt;/p>
+&lt;h2 id="branching-causes-problems">Branching causes problems&lt;/h2>
+&lt;p>In projects using pull requests, the most popular strategy for branching is &lt;em>feature branching&lt;/em>, creating a branch for a single feature and opening a pull request when the feature is complete. This is a convenient and intuitive way of organizing changes. However, these feature branches tend to be long-lived (on the order of days or weeks), and long-lived branches cause some serious issues.&lt;/p>
+&lt;p>In part four of Thierry de Pauw&amp;rsquo;s article series &lt;a href="https://thinkinglabs.io/articles/2021/04/26/on-the-evilness-of-feature-branching.html">On the Evilness of Feature Branching&lt;/a>, he goes into &lt;a href="https://thinkinglabs.io/articles/2022/05/30/on-the-evilness-of-feature-branching-the-problems.html">the problems&lt;/a> of feature branching. The article is worth reading in full, but to summarize some of its points:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>It delays feedback&lt;/strong> on how well changes integrate with other team members&amp;rsquo; work and how it runs in production.&lt;/li>
+&lt;li>&lt;strong>It causes rework&lt;/strong> through merge conflicts.&lt;/li>
+&lt;li>&lt;strong>It discourages refactoring&lt;/strong> as they have a high risk of causing merge conflicts.&lt;/li>
+&lt;li>&lt;strong>It introduces batch work and inventory&lt;/strong>, trapping valuable work in the system and worsening the throughput, quality, stability and lead time of changes.&lt;/li>
+&lt;li>&lt;strong>It increases risks&lt;/strong> by batching changes into large sets which are more likely to break, and harder to find the cause of when they do.&lt;/li>
+&lt;/ul>
+&lt;p>Key to these issues is that they are more frequent and more severe the longer the branches live and the larger the changes are. Conversely, shorter-lived branches and smaller changes cause less issues. We can nearly eliminate the branching issues by pushing this all the way to &lt;a href="https://martinfowler.com/articles/branching-patterns.html#continuous-integration">continuous integration&lt;/a>, where everyone&amp;rsquo;s work is merged into mainline every day, potentially even multiple times an hour.&lt;/p>
+&lt;p>Code reviews make this infeasible for most software teams.&lt;/p>
+&lt;h2 id="mandatory-code-reviews-encourage-long-lived-branches">Mandatory code reviews encourage long-lived branches&lt;/h2>
+&lt;p>When merging your work requires another developer to review and approve it, merging &lt;em>will&lt;/em> happen less frequently, and pull requests &lt;em>will not&lt;/em> shrink beyond a certain size. Dragan Stepanović explains this best in his article &lt;a href="https://www.infoq.com/articles/co-creation-patterns-software-development/">From Async Code Reviews to Co-Creation Patterns&lt;/a>.&lt;/p>
+&lt;p>In short, code reviews introduce long wait times to the integration process. First, after a pull request is opened, the author waits for a review. Then, if the reviewer discovers any issues they think the author should handle, the reviewer waits for the author to respond to the feedback. This cycle repeats some number of times until the reviewer is satisfied and approves the pull request.&lt;/p>
+&lt;p>These wait times encourage developers to start new work in the meanwhile (increasing work-in-progress), and to batch their changes into larger pull requests. This, again, makes each review take longer, making it harder for developers to find time to review them, and increasing the odds of multiple rounds of review - increasing wait times even more! This vicious cycle results in pull requests often taking multiple days before they are able to be merged.&lt;/p>
+&lt;p>If a team still tries to make a push for continuous integration in this environment, they are fighting against the stream. The more frequently team members try to integrate, the more often they have to interrupt each other to review and respond to reviews. Developer attention bounces between multiple tasks, flow efficiency (time spent &lt;em>working&lt;/em> to time spent &lt;em>waiting&lt;/em>) plummets, and productivity drops. Every team will hit a point where the pain of this is too high and will stop integrating their changes any more frequently - typically stopping well short of continuous integration.&lt;/p>
+&lt;h2 id="code-reviews-are-hard-to-replace">Code reviews are hard to replace&lt;/h2>
+&lt;p>Many developers who recognize these problems assert that this kind of code review is a net negative and should be done away with altogether. Dave Farley, co-author of &lt;em>Continuous Delivery&lt;/em>, insists that &lt;a href="https://www.davefarley.net/?p=247">you are better off not branching at all&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Don&amp;rsquo;t Branch!&lt;/li>
+&lt;li>Don&amp;rsquo;t Branch!&lt;/li>
+&lt;li>Don&amp;rsquo;t Branch!&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Instead of doing after-the-fact code review, he and others recommend that you support the quality of your software through other practices. The top recommendations are pair programming and mob/ensemble programming, which function as a sort of continuous code review while boosting the flow of work and knowledge sharing within your team. Test-driven development and a &amp;ldquo;&lt;em>&lt;a href="https://www.jamesshore.com/v2/books/aoad2/no_bugs">No Bugs&lt;/a>&lt;/em>&amp;rdquo;, root-cause eliminating attitude help reduce bug rates even further. By employing these practices, you may achieve better results than relying on code reviews. And I &lt;em>want&lt;/em> to believe this.&lt;/p>
+&lt;p>However, in teams that frequently catch serious errors in code review, &lt;strong>this is hard to sell&lt;/strong>. Most developers do not use these alternative practices, and asking people to change the way they work and spend time practicing new skills is a big ask for most teams. Without these changes, slashing code review will in all likelihood lead to more defects being pushed to mainline and escaping to production. Software teams have very reasonable motives for not wanting to do this.&lt;/p>
+&lt;p>This leaves me conflicted. I cannot in good conscience say that most teams should drop mandatory code reviews and that this will not cause major issues. Yet, I am thoroughly convinced that continuous integration &lt;em>is&lt;/em> a better way of working.&lt;/p>
+&lt;p>Trapped in the middle, I am here to suggest a compromise: &lt;strong>Code reviews should be reduced to their bare essentials.&lt;/strong>&lt;/p>
+&lt;h2 id="code-reviews-hurt-more-the-more-they-try-to-do">Code reviews hurt more the more they try to do&lt;/h2>
+&lt;p>Here is my line of reasoning:&lt;/p>
+&lt;ol>
+&lt;li>When you look for more things in a code review, it becomes more demanding and time-consuming.&lt;/li>
+&lt;li>When code reviews get harder, developers will put them off, and wait times will grow.&lt;/li>
+&lt;li>When wait times grow, branches will live longer and pull requests will get larger, feeding the cycle and causing integration pain.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Conclusion:&lt;/strong> &lt;em>The more things you look for in a code review, the more you will experience integration pain.&lt;/em> Conversely, if you reduce the number of things you look for in a code review, you will be able to integrate your work more frequently. If review gets easy enough, you may even find continuous integration feasible!&lt;/p>
+&lt;p>With this in mind, it becomes clear that we have made the review process very hard for ourselves. The most common thing to do is to include &lt;em>every possible thing&lt;/em> worth having an opinion on in the scope of review. For instance, take &lt;a href="https://google.github.io/eng-practices/review/reviewer/looking-for.html#summary">Google&amp;rsquo;s sumary of what a reviewer should look for&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>In doing a code review, you should make sure that:&lt;/p>
+&lt;ul>
+&lt;li>The code is well-designed.&lt;/li>
+&lt;li>The functionality is good for the users of the code.&lt;/li>
+&lt;li>Any UI changes are sensible and look good.&lt;/li>
+&lt;li>Any parallel programming is done safely.&lt;/li>
+&lt;li>The code isn’t more complex than it needs to be.&lt;/li>
+&lt;li>The developer isn’t implementing things they might need in the future but don’t know they need now.&lt;/li>
+&lt;li>Code has appropriate unit tests.&lt;/li>
+&lt;li>Tests are well-designed.&lt;/li>
+&lt;li>The developer used clear names for everything.&lt;/li>
+&lt;li>Comments are clear and useful, and mostly explain why instead of what.&lt;/li>
+&lt;li>Code is appropriately documented (generally in g3doc).&lt;/li>
+&lt;li>The code conforms to our style guides.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>&lt;strong>This is a lot!&lt;/strong> A lot of things to pay attention to while reviewing, a lot to write feedback on, a lot of comments for the author to respond to. Several concerns like code quality and design (and without an authoritative style guide, code style and formatting) are highly subjective, and have a higher chance of causing disagreements, discussions, and multiple rounds of review - skyrocketing wait times.&lt;/p>
+&lt;p>Not only does this bucket list of concerns make review harder, but discussions of fuzzier, less critical issues drown out discussion of bugs. Quoting &lt;a href="https://en.wikipedia.org/wiki/Code_review#Efficiency_and_effectiveness_of_reviews">the Wikipedia article&lt;/a> again:&lt;/p>
+&lt;blockquote>
+&lt;p>Empirical studies provided evidence that up to 75% of code review defects affect software evolvability/maintainability rather than functionality [&amp;hellip;] This also means that less than 15% of the issues discussed in code reviews are related to bugs.&lt;/p>
+&lt;/blockquote>
+&lt;p>Despite our primary motivation for mandating code review being bug reduction, we spend the majority of our attention on other, less critical issues. Combining this diluted focus with its influence to make pull requests larger, it is likely that trying to improve more things with code review actually makes matters worse.&lt;/p>
+&lt;h2 id="limit-your-code-reviews-to-the-most-important-concerns">Limit your code reviews to the most important concerns&lt;/h2>
+&lt;p>Since mandatory code reviews cause more issues the more concerns they look for, they should be stripped down to the bare minimum of concerns that must be improved before merge. This will reduce the costs of review while improving its effectiveness for the concerns you do look for. What this bare minimum set is may vary from project to project, and you are free to decide what this is for yourself.&lt;/p>
+&lt;p>&lt;strong>Personally, I am convinced that you should cut any concern from your list that is not externally visible and can be improved later.&lt;/strong> This includes:&lt;/p>
+&lt;ul>
+&lt;li>Formatting and code style&lt;/li>
+&lt;li>Code quality and internal design details&lt;/li>
+&lt;li>Comments and documentation&lt;/li>
+&lt;li>Test coverage and quality&lt;/li>
+&lt;/ul>
+&lt;p>All of these things are (more or less) valuable, and we want to do them well. However, &lt;strong>none of them are externally visible&lt;/strong>, meaning it does not matter to our users if we merge and deploy them to production. Additionally, &lt;strong>all of them can be improved later&lt;/strong>, and frequent low-friction integration makes it &lt;em>easier&lt;/em> to make such improvements. Including them in review would harm integration frequency, which makes it harder to improve the quality of our codebase when we discover these issues while working.&lt;/p>
+&lt;p>If a developer opens pull requests that aren&amp;rsquo;t up to snuff on any of these points, you have a couple of alternatives instead of checking it during review:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Talk to the developer about it.&lt;/strong> Make sure you agree to a common set of standards, and that they have the environment and resources to learn how to fulfill them. This is a longer term solution that will save you frustration in the long run.&lt;/li>
+&lt;li>&lt;strong>Fix it yourself.&lt;/strong> If you see room for improvement beyond your team&amp;rsquo;s common set of standards, do it yourself instead of asking the author to do it. It is more effective and efficient, and it contributes to your team&amp;rsquo;s sense of collective code ownership - you all have the right and responsibility to make improvements when you see them. And, since this change is to an issue that should be ignored by reviewers, it should be quick and easy to approve and merge back into mainline.&lt;/li>
+&lt;/ol>
+&lt;p>Conversely, changes that are externally visible, or cannot be improved later, are more worth reviewing:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Bugs and security issues.&lt;/strong> We should ideally never introduce any of these, and we want to minimize the chance of any of them escaping to production.&lt;/li>
+&lt;li>&lt;strong>Design decisions that are hard to undo.&lt;/strong> This includes both external API designs (which are very hard to change once they are public), user interface designs, and any changes to functionality. The cost of getting these wrong is high, so it is worth spending extra effort getting them right.&lt;/li>
+&lt;/ul>
+&lt;p>By limiting your review scope to these core concerns, you minimize the cost of mandating code reviews, while maintaining quality control on the issues you care the most about.&lt;/p>
+&lt;p>&lt;em>(Limiting and focusing the objective of code review like this also makes it easier to see when code reviews become obsolete - when bug rates drop to acceptable levels pre-review, and when you discuss and refine your irreversible design decisions outside of review. It is very easy to imagine high-performing teams working like this.)&lt;/em>&lt;/p>
+&lt;h2 id="this-is-a-suggested-experiment">This is a suggested experiment&lt;/h2>
+&lt;p>While this strategy of cutting the scope of review makes a lot of sense to me, I cannot predict how it will play out for you, in your team, in your circumstances. I do not know to what degree it will make reviews easier and reduce integration pain, and I do not know what unexpected side effects it will have.&lt;/p>
+&lt;p>What I do believe is that this experiment is low risk, it is not very disruptive, and the potential rewards are great enough that &lt;strong>you should try it out&lt;/strong>. Talk it out with your team, find a scope of review to try, trial it for a week or two, then reflect on how it went. If you do not like the results, you can always go back to your old way of working afterwards.&lt;/p>
+&lt;p>&lt;strong>If you try this, or have already tried it, please message me to share your experience!&lt;/strong> Contact me on Mastodon at &lt;a href="https://hachyderm.io/@cvennevik">@cvennevik@hachyderm.io&lt;/a> (so I can share it further, if you like!), or email me at &lt;a href="mailto:cvennevik@gmail.com">cvennevik@gmail.com&lt;/a>.&lt;/p></content></item></channel></rss>

@@ -1,7 +1,6 @@
 ---
 title: "Code Reviews Are Overloaded"
-date: 2023-01-07T13:40:00+11:00
-draft: true
+date: 2023-01-08T09:55:00+11:00
 summary: "On the pains of mandated code reviews, and how to reduce them."
 ---
 

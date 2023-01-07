@@ -5,16 +5,17 @@ draft: true
 summary: "On the pains of mandated code reviews, and how to reduce them."
 ---
 
-# Table of contents
+## Table of contents
+
 - [Code reviews are effective](#code-reviews-are-effective)
 - [Branching causes problems](#branching-causes-problems)
 - [Mandatory code reviews encourage long-lived branches](#mandatory-code-reviews-encourage-long-lived-branches)
 - [Code reviews are hard to replace](#code-reviews-are-hard-to-replace)
-- [Code reviews hurt more the more they try to do](#code-reviews-try-to-do-too-many-things)
+- [Code reviews hurt more the more they try to do](#code-reviews-hurt-more-the-more-they-try-to-do)
 - [Limit your code reviews to the most important concerns](#limit-your-code-reviews-to-the-most-important-concerns)
 - [This is a suggested experiment](#this-is-a-suggested-experiment)
 
-# Code reviews are effective
+## Code reviews are effective
 
 **Code reviews are effective for uncovering bugs.** We have multiple large studies backing this claim, estimating that the bug-detection rate of code reviews is in the ballpark of 50%. This is better evidence than we have for most software development practices. From [the Wikipedia article on code review](https://en.wikipedia.org/wiki/Code_review#Efficiency_and_effectiveness_of_reviews):
 
@@ -24,11 +25,12 @@ In addition to their primary value in discovering bugs, they can also be used to
 
 On account of these benefits, code reviews have become wildly popular, and most software projects mandate that all changes must be approved by one or more reviewers. This virtually always means a _pull request based workflow_, where developers branch out from mainline, make some changes, then open a pull request that requires approval from a reviewer to merge back into mainline. At time of writing, this is the predominant way of working in our industry.
 
-# Branching causes problems
+## Branching causes problems
 
 In projects using pull requests, the most popular strategy for branching is _feature branching_, creating a branch for a single feature and opening a pull request when the feature is complete. This is a convenient and intuitive way of organizing changes. However, these feature branches tend to be long-lived (on the order of days or weeks), and long-lived branches cause some serious issues.
 
 In part four of Thierry de Pauw's article series [On the Evilness of Feature Branching](https://thinkinglabs.io/articles/2021/04/26/on-the-evilness-of-feature-branching.html), he goes into [the problems](https://thinkinglabs.io/articles/2022/05/30/on-the-evilness-of-feature-branching-the-problems.html) of feature branching. The article is worth reading in full, but to summarize some of its points:
+
 - **It delays feedback** on how well changes integrate with other team members' work and how it runs in production.
 - **It causes rework** through merge conflicts.
 - **It discourages refactoring** as they have a high risk of causing merge conflicts.
@@ -39,7 +41,7 @@ Key to these issues is that they are more frequent and more severe the longer th
 
 Code reviews make this infeasible for most software teams.
 
-# Mandatory code reviews encourage long-lived branches
+## Mandatory code reviews encourage long-lived branches
 
 When merging your work requires another developer to review and approve it, merging _will_ happen less frequently, and pull requests _will not_ shrink beyond a certain size. Dragan Stepanović explains this best in his article [From Async Code Reviews to Co-Creation Patterns](https://www.infoq.com/articles/co-creation-patterns-software-development/).
 
@@ -49,9 +51,10 @@ These wait times encourage developers to start new work in the meanwhile (increa
 
 If a team still tries to make a push for continuous integration in this environment, they are fighting against the stream. The more frequently team members try to integrate, the more often they have to interrupt each other to review and respond to reviews. Developer attention bounces between multiple tasks, flow efficiency (time spent _working_ to time spent _waiting_) plummets, and productivity drops. Every team will hit a point where the pain of this is too high and will stop integrating their changes any more frequently - typically stopping well short of continuous integration.
 
-# Code reviews are hard to replace
+## Code reviews are hard to replace
 
 Many developers who recognize these problems assert that this kind of code review is a net negative and should be done away with altogether. Dave Farley, co-author of _Continuous Delivery_, insists that [you are better off not branching at all](https://www.davefarley.net/?p=247):
+
 > - Don't Branch!
 > - Don't Branch!
 > - Don't Branch!
@@ -64,19 +67,20 @@ This leaves me conflicted. I cannot in good conscience say that most teams shoul
 
 Trapped in the middle, I am here to suggest a compromise: **Code reviews should be reduced to their bare essentials.**
 
-# Code reviews hurt more the more they try to do
+## Code reviews hurt more the more they try to do
 
 Here is my line of reasoning:
 
 1. When you look for more things in a code review, it becomes more demanding and time-consuming.
 2. When code reviews get harder, developers will put them off, and wait times will grow.
-3. When wait times grow, branches will live longer and pull requests will get larger, feeding the cycle and causing integration pain. 
+3. When wait times grow, branches will live longer and pull requests will get larger, feeding the cycle and causing integration pain.
 
 **Conclusion:** _The more things you look for in a code review, the more you will experience integration pain._ Conversely, if you reduce the number of things you look for in a code review, you will be able to integrate your work more frequently. If review gets easy enough, you may even find continuous integration feasible!
 
-With this in mind, it becomes clear that we have made the review process very hard for ourselves. The most common thing to do is to include _every possible thing_ worth having an opinion on in the scope of review. For instance, take [Google's sumary of what a reviewer should look for](https://google.github.io/eng-practices/review/reviewer/looking-for.html#summary): 
+With this in mind, it becomes clear that we have made the review process very hard for ourselves. The most common thing to do is to include _every possible thing_ worth having an opinion on in the scope of review. For instance, take [Google's sumary of what a reviewer should look for](https://google.github.io/eng-practices/review/reviewer/looking-for.html#summary):
 
 > In doing a code review, you should make sure that:
+>
 > - The code is well-designed.
 > - The functionality is good for the users of the code.
 > - Any UI changes are sensible and look good.
@@ -98,10 +102,12 @@ Not only does this bucket list of concerns make review harder, but discussions o
 
 Despite our primary motivation for mandating code review being bug reduction, we spend the majority of our attention on other, less critical issues. Combining this diluted focus with its influence to make pull requests larger, it is likely that trying to improve more things with code review actually makes matters worse.
 
-# Limit your code reviews to the most important concerns
+## Limit your code reviews to the most important concerns
+
 Since mandatory code reviews cause more issues the more concerns they look for, they should be stripped down to the bare minimum of concerns that must be improved before merge. This will reduce the costs of review while improving its effectiveness for the concerns you do look for. What this bare minimum set is may vary from project to project, and you are free to decide what this is for yourself.
 
 **Personally, I am convinced that you should cut any concern from your list that is not externally visible and can be improved later.** This includes:
+
 - Formatting and code style
 - Code quality and internal design details
 - Comments and documentation
@@ -110,6 +116,7 @@ Since mandatory code reviews cause more issues the more concerns they look for, 
 All of these things are (more or less) valuable, and we want to do them well. However, **none of them are externally visible**, meaning it does not matter to our users if we merge and deploy them to production. Additionally, **all of them can be improved later**, and frequent low-friction integration makes it _easier_ to make such improvements. Including them in review would harm integration frequency, which makes it harder to improve the quality of our codebase when we discover these issues while working.
 
 If a developer opens pull requests that aren't up to snuff on any of these points, you have a couple of alternatives instead of checking it during review:
+
 1. **Talk to the developer about it.** Make sure you agree to a common set of standards, and that they have the environment and resources to learn how to fulfill them. This is a longer term solution that will save you frustration in the long run.
 2. **Fix it yourself.** If you see room for improvement beyond your team's common set of standards, do it yourself instead of asking the author to do it. It is more effective and efficient, and it contributes to your team's sense of collective code ownership - you all have the right and responsibility to make improvements when you see them. And, since this change is to an issue that should be ignored by reviewers, it should be quick and easy to approve and merge back into mainline.
 
@@ -122,7 +129,7 @@ By limiting your review scope to these core concerns, you minimize the cost of m
 
 _(Limiting and focusing the objective of code review like this also makes it easier to see when code reviews become obsolete - when bug rates drop to acceptable levels pre-review, and when you discuss and refine your irreversible design decisions outside of review. It is very easy to imagine high-performing teams working like this.)_
 
-# This is a suggested experiment
+## This is a suggested experiment
 
 While this strategy of cutting the scope of review makes a lot of sense to me, I cannot predict how it will play out for you, in your team, in your circumstances. I do not know to what degree it will make reviews easier and reduce integration pain, and I do not know what unexpected side effects it will have.
 

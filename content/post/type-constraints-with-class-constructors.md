@@ -149,6 +149,6 @@ The point I am trying to make with the variety of examples is that there is a lo
 
 ## A warning
 
-This trick comes with a caveat: **If possible, you are better off enforcing constraints with simpler alternatives.** I prefer using more concise type system features when I can. For TypeScript, you can browse the [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html) and [Creating Types from Types](https://www.typescriptlang.org/docs/handbook/2/types-from-types.html) pages of the TypeScript handbook for inspiration.
+This trick comes with a caveat: **If possible, you are better off enforcing constraints with simpler alternatives.** I prefer using more concise type system features when I can. For TypeScript, you can browse the [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html), [Object Types](https://www.typescriptlang.org/docs/handbook/2/objects.html) and [Creating Types from Types](https://www.typescriptlang.org/docs/handbook/2/types-from-types.html) pages of the TypeScript handbook for inspiration.
 
 When simpler alternatives for type checks are insufficient, class constructor validation is a powerful alternative to fall back on.

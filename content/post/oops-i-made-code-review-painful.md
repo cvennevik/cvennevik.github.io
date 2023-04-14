@@ -7,6 +7,8 @@ A few months ago I wrote [a post](https://www.cvennevik.no/post/code-reviews-are
 
 Boy howdy, I do not enjoy this at all.
 
+<!--more-->
+
 There is one critical issue I did not consider in my original post: whether or not the different parts of review were any enjoyable or engaging. As it turns out, by trimming out every "non-essential" concern from my reviews, I have trimmed away every bit of the activity that was somewhat enjoyable and engaging. My slimmed-down review process is fast, efficient, and insufferable.
 
 Evaluating and discussing design choices, suggesting renames and refactorings, and taking the time to find and point out things I like - these were all things that engaged the parts of my brain that I enjoy using. It was inefficient and slow and occasionally tiring, but at the end of a review session, I was satisfied with my work.

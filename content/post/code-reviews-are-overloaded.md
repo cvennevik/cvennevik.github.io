@@ -135,3 +135,5 @@ While this strategy of cutting the scope of review makes a lot of sense to me, I
 What I do believe is that this experiment is low risk, it is not very disruptive, and the potential rewards are great enough that **you should try it out**. Talk it out with your team, find a scope of review to try, trial it for a week or two, then reflect on how it went. If you do not like the results, you can always go back to your old way of working afterwards.
 
 **If you try this, or have already tried it, please message me to share your experience!** Contact me on Mastodon at [@cvennevik@hachyderm.io](https://hachyderm.io/@cvennevik) (so I can share it further, if you like!), or email me at cvennevik@gmail.com.
+
+_Edit, April 14th 2023: [I wrote a post describing my experience following this idea.](https://www.cvennevik.no/post/oops-i-made-code-review-painful/)_

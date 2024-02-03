@@ -9,9 +9,8 @@ body {
   display: flex;
   flex-flow: column;
   height: 100vh;
-}
-@media (prefers-color-scheme: dark) {
-  body {
+
+  @media (prefers-color-scheme: dark) {
     background: black;
     color: white;
   }
@@ -26,13 +25,6 @@ main {
   flex: 1 0 auto;
 }
 
-@media only screen and (max-width: 767px) {
-main {
-    margin-left: 0;
-    margin-right: 0;
-}
-}
-
 p {
   line-height: 1.5;
   margin: 6px 0;
@@ -41,7 +33,6 @@ p + p {
     margin: 24px 0 6px 0;
 }
 p a {
-  /* text-decoration: underline */
   color: #008AFF;
 }
 @media (prefers-color-scheme: dark) {
@@ -66,18 +57,6 @@ a:hover,
 a:focus {
   color: #0085a1;
 }
-blockquote {
-  color: #808080;
-  font-style: italic;
-}
-blockquote p:first-child {
-  margin-top: 0;
-}
-@media (prefers-color-scheme: dark) {
-  blockquote {
-    border-left: 5px solid #444;
-  }
-}
 hr.small {
   max-width: 100px;
   margin: 15px auto;
@@ -89,40 +68,8 @@ hr.small {
 .main-content {
   padding-top: 80px;
 }
-@media only screen and (min-width: 768px) {
-  .main-content {
-    padding-top: 130px;
-  }
-}
 
-.main-explain-area {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 15px inherit;
-}
-
-.hideme {
-  display: none;
-}
-
-div.panel-body a.list-group-item {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  border-radius: 0;
-  border: none;
-  font-size: 16px;
-}
-div.panel-group .panel {
-    border-radius: 0;
-}
-div.panel-group .panel+.panel {
-    margin-top: 0;
-}
-
-div.panel-body a.list-group-item.view-all {
-  font-weight: 600;
-}
-
-::-moz-selection, ::selection {
+::selection {
   color: white;
   text-shadow: none;
   background: #0085a1;
@@ -240,19 +187,14 @@ footer .footer-links {
   margin-bottom: 10px;
 }
 .post-preview .post-meta,
-.post-heading .post-meta,
-.page-meta {
+.post-heading .post-meta {
   color: #808080;
   font-size: 18px;
   font-style: italic;
   margin: 0 0 10px;
 }
-.page-meta {
-  align-self: center;
-}
 .post-preview .post-meta a,
-.post-heading .post-meta a,
-.page-meta a {
+.post-heading .post-meta a {
   color: #404040;
   text-decoration: none;
 }
@@ -361,8 +303,5 @@ footer .footer-links {
   }
   pre code {
     color: #ccc;
-  }
-  .list-group-item {
-    background-color: #333;
   }
 }

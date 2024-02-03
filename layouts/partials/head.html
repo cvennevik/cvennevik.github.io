@@ -1,13 +1,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 {{ if .IsHome }}
-  {{- with ($.Scratch.Get "Title") }}
-    <title>{{ . }}</title>
-  {{- end }}
+    <title>Cecilie Vennevik</title>
 {{ else }}
-  {{- with ($.Scratch.Get "Title") }}
-    <title>{{ . }} - {{ $.Site.Title }}</title>
-  {{- end }}
+    <title>{{ .Title }} - Cecilie Vennevik</title>
 {{ end }}
 {{- with ($.Scratch.Get "Description") }}
   <meta name="description" content="{{ . }}">

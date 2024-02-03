@@ -56,6 +56,7 @@ a {
 a:hover,
 a:focus {
   color: #0085a1;
+  text-decoration: none;
 }
 hr.small {
   max-width: 100px;
@@ -93,8 +94,6 @@ hr.small {
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus {
-  color: #0085a1;
-
   @media (prefers-color-scheme: dark) {
     color: #b0e0ff;
   }
@@ -162,7 +161,6 @@ footer .footer-links {
 }
 
 .post-preview a {
-  text-decoration: none;
   color: #404040;
 }
 @media (prefers-color-scheme: dark) {
@@ -173,7 +171,6 @@ footer .footer-links {
 
 .post-preview a:focus,
 .post-preview a:hover {
-  text-decoration: none;
   color: #0085a1;
 }
 
@@ -196,7 +193,6 @@ footer .footer-links {
 .post-preview .post-meta a,
 .post-heading .post-meta a {
   color: #404040;
-  text-decoration: none;
 }
 .post-preview .post-entry {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;

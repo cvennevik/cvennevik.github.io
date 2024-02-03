@@ -16,6 +16,11 @@ body {
     color: white;
   }
 }
+
+.container {
+  max-width: 800px;
+}
+
 .container[role=main] {
   margin-bottom:50px;
   flex: 1 0 auto;

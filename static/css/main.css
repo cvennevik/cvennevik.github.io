@@ -443,12 +443,10 @@ footer .footer-links {
   margin: 80px 0 20px;
   position: relative;
 }
-.intro-header .page-heading,
-.intro-header .categories-heading {
+.intro-header .page-heading {
   text-align: center;
 }
-.intro-header .page-heading h1,
-.intro-header .categories-heading h1 {
+.intro-header .page-heading h1 {
   margin-top: 0;
   font-size: 50px;
 }
@@ -473,9 +471,6 @@ footer .footer-links {
     margin-top: 130px;
   }
   .intro-header .page-heading h1,
-  .intro-header .categories-heading h1 {
-    font-size: 80px;
-  }
   .intro-header .post-heading h1 {
     font-size: 50px;
   }

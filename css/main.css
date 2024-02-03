@@ -365,13 +365,18 @@ footer .theme-by {
   text-align: center;
   margin: 10px 0 0;
 }
+footer .footer-links {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 10px;
+  justify-content: center;
+}
 
 @media only screen and (min-width: 768px) {
   footer {
     padding: 50px 0;
-  }
-  footer .footer-links {
-    font-size: 18px;
   }
   footer .copyright {
     font-size: 16px;

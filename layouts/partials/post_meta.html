@@ -1,0 +1,9 @@
+<span class="post-meta">
+  {{ $lastmodstr := default ("January 2, 2006") .Site.Params.dateformat | .Lastmod.Format }}
+  {{ $datestr := default ("January 2, 2006") .Site.Params.dateformat | .Date.Format }}
+  Posted on {{ $datestr }}
+  {{ if ne $datestr $lastmodstr }}
+    &nbsp;(Last modified on {{ $lastmodstr }})
+  {{ end }}
+</span>
+

@@ -1,0 +1,40 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          {{ range .Site.Data.beautifulhugo.social.social_icons }}
+            {{- if isset $.Site.Author .id }}
+              <li>
+		{{ if or ( hasPrefix ( index $.Site.Author .id ) "http://" ) ( hasPrefix ( index $.Site.Author .id ) "https://" ) }}
+		  <a {{ if .rel }}rel="{{ .rel }}"{{- end -}} href="{{ printf "%s" (index $.Site.Author .id) }}" title="{{ .title }}">
+		{{ else }}
+		  <a {{ if .rel }}rel="{{ .rel }}"{{- end -}} href="{{ printf .url (index $.Site.Author .id) }}" title="{{ .title }}">
+		{{ end }}
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            {{- end -}}
+          {{ end }}
+          {{ if .Site.Params.rss }}
+          <li>
+            <a href="/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+        <!-- Please don't remove this, keep my open source work credited :) -->
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> powered &nbsp;&bull;&nbsp; Theme based on <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>, adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>

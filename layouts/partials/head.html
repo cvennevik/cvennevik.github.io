@@ -1,0 +1,22 @@
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+{{ if .IsHome }}
+  {{- with ($.Scratch.Get "Title") }}
+    <title>{{ . }}</title>
+  {{- end }}
+{{ else }}
+  {{- with ($.Scratch.Get "Title") }}
+    <title>{{ . }} - {{ $.Site.Title }}</title>
+  {{- end }}
+{{ end }}
+{{- with ($.Scratch.Get "Description") }}
+  <meta name="description" content="{{ . }}">
+{{- end }}
+{{- with .Site.Author.name }}
+  <meta name="author" content="{{ . }}"/>
+{{- end }}
+  <link rel="alternate" href="{{ "index.xml" | absLangURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
+  <link rel="stylesheet" href="{{ "fontawesome/css/all.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ "css/fonts.css" | absURL }}" />

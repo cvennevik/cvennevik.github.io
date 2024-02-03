@@ -182,24 +182,12 @@ footer .footer-links {
   font-style: italic;
   margin: 0 0 10px;
 }
-.post-preview .post-meta a,
-.post-heading .post-meta a {
-  color: #404040;
-}
 .post-preview .post-entry {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-.post-entry-container {
-  display: inline-block;
-  width: 100%;
 }
 .post-entry {
   width: 100%;
   margin-top: 10px;
-}
-.post-preview .post-read-more {
-  font-weight: 800;
-  float: right;
 }
 
 @media only screen and (min-width: 768px) {

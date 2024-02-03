@@ -32,14 +32,6 @@ p {
 p + p {
     margin: 24px 0 6px 0;
 }
-p a {
-  color: #008AFF;
-}
-@media (prefers-color-scheme: dark) {
-  p a {
-    color: #50afff;
-  }
-}
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -160,17 +152,17 @@ footer .footer-links {
   border-bottom: 0;
 }
 
-.post-preview a {
+.post-preview .post-title {
   color: #404040;
 }
 @media (prefers-color-scheme: dark) {
-  .post-preview a {
+  .post-preview .post-title {
     color: #AAA;
   }
 }
 
-.post-preview a:focus,
-.post-preview a:hover {
+.post-preview .post-title:focus,
+.post-preview .post-title:hover {
   color: #0085a1;
 }
 

@@ -2,12 +2,10 @@
   <div role="main" class="container">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <div class="posts-list">
-        {{ $pag := .Paginate (where site.RegularPages "Type" "=" "post") }}
-        {{ range $pag.Pages }}
-          {{ partial "post_preview" . }}
+        {{ range .Paginator.Pages }}
+          {{ partial "post_preview.html" . }}
         {{ end }}
       </div>
-
       {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
         <ul class="pager main-pager">
           {{ if .Paginator.HasPrev }}

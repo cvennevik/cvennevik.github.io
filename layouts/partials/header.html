@@ -1,15 +1,9 @@
-{{ if .IsHome }}
-  {{ $.Scratch.Set "title" "Blog" }}
-{{ else }}
-  {{ $.Scratch.Set "title" .Title }}
-{{ end }}
-{{ $title := $.Scratch.Get "title" }}
-
 <header class="{{ .Type }}-header">
-  <h1>{{ with $title }}{{.}}{{ else }}<br/>{{ end }}</h1>
-  {{ if eq .Type "post" }}
-    <span class="post-meta">{{ "January 2, 2006" | .Date.Format }}</span>
-  {{ else }}
+  {{ if .IsHome }}
+    <h1>Blog</h1>
     <hr class="small">
+  {{ else }}
+    <h1>{{ .Title }}</h1>
+    <span class="post-meta">{{ "January 2, 2006" | .Date.Format }}</span>
   {{ end }}
 </header>

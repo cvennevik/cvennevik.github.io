@@ -146,15 +146,6 @@ footer .footer-links {
   justify-content: center;
 }
 
-@media only screen and (min-width: 768px) {
-  footer {
-    padding: 50px 0;
-  }
-  footer .copyright {
-    font-size: 16px;
-  }
-}
-
 @media (prefers-color-scheme: dark) {
   footer {
     background: #444;

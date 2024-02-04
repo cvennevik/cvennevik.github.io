@@ -86,7 +86,7 @@ hr.small {
   max-width: 100px;
 }
 
-.navbar-custom {
+.navbar {
   background: #F5F5F5;
   border-bottom: 1px solid #EAEAEA;
   color: #404040;
@@ -100,7 +100,7 @@ hr.small {
   }
 }
 
-.navbar-custom .navbar-brand {
+.navbar .navbar-brand {
   color: #404040;
   float: left;
   font-size: 18px;
@@ -113,8 +113,8 @@ hr.small {
   }
 }
 
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus {
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
   color: #0085a1;
 
   @media (prefers-color-scheme: dark) {
@@ -144,15 +144,6 @@ footer .footer-links {
   font-size: 18px;
   gap: 10px;
   justify-content: center;
-}
-
-@media only screen and (min-width: 768px) {
-  footer {
-    padding: 50px 0;
-  }
-  footer .copyright {
-    font-size: 16px;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -226,7 +217,7 @@ footer .footer-links {
 .pager .previous {
   float: left;
 }
-.pager li a {
+.pager a {
   background: #FFF;
   border: 1px solid #ddd;
   color: #404040;
@@ -239,13 +230,13 @@ footer .footer-links {
   text-transform: uppercase;
 }
 @media (prefers-color-scheme: dark) {
-  .pager li a {
+  .pager a {
     background: #444;
     color: white;
   }
 }
-.pager li a:hover,
-.pager li a:focus {
+.pager a:hover,
+.pager a:focus {
   background: #0085a1;
   border: 1px solid #0085a1;
   color: #FFF;

@@ -86,7 +86,7 @@ hr.small {
   max-width: 100px;
 }
 
-.navbar-custom {
+.navbar {
   background: #F5F5F5;
   border-bottom: 1px solid #EAEAEA;
   color: #404040;
@@ -100,7 +100,7 @@ hr.small {
   }
 }
 
-.navbar-custom .navbar-brand {
+.navbar .navbar-brand {
   color: #404040;
   float: left;
   font-size: 18px;
@@ -113,8 +113,8 @@ hr.small {
   }
 }
 
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus {
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
   color: #0085a1;
 
   @media (prefers-color-scheme: dark) {

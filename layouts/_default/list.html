@@ -1,31 +1,31 @@
 {{ define "main" }}
-<div class="posts-list">
-  {{ range .Paginator.Pages }}
-    <article class="post-preview">
-      <a href="{{ .Permalink }}">
-        <h2 class="post-title">{{ .Title }}</h2>
-      </a>
-      <p class="post-meta">
-        <span class="post-meta">{{ "January 2, 2006" | .Date.Format }}</span>
-      </p>
-      <div class="post-entry">
-        {{ .Summary }}
-      </div>
-    </article>
+  <div class="posts-list">
+    {{ range .Paginator.Pages }}
+      <article class="post-preview">
+        <a href="{{ .Permalink }}">
+          <h2 class="post-title">{{ .Title }}</h2>
+        </a>
+        <p class="post-meta">
+          <span class="post-meta">{{ "January 2, 2006" | .Date.Format }}</span>
+        </p>
+        <div class="post-entry">
+          {{ .Summary }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+  {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+    <ul class="pager main-pager">
+      {{ if .Paginator.HasPrev }}
+        <li class="previous">
+          <a href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; Newer</a>
+        </li>
+      {{ end }}
+      {{ if .Paginator.HasNext }}
+        <li class="next">
+          <a href="{{ .Permalink }}page/{{ .Paginator.Next.PageNumber }}/">Older &rarr;</a>
+        </li>
+      {{ end }}
+    </ul>
   {{ end }}
-</div>
-{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-  <ul class="pager main-pager">
-    {{ if .Paginator.HasPrev }}
-      <li class="previous">
-        <a href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; Newer</a>
-      </li>
-    {{ end }}
-    {{ if .Paginator.HasNext }}
-      <li class="next">
-        <a href="{{ .Permalink }}page/{{ .Paginator.Next.PageNumber }}/">Older &rarr;</a>
-      </li>
-    {{ end }}
-  </ul>
-{{ end }}
 {{ end }}

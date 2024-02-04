@@ -1,9 +1,0 @@
-<header class="{{ .Type }}-header">
-  {{ if .IsHome }}
-    <h1>Blog</h1>
-    <hr class="small">
-  {{ else }}
-    <h1>{{ .Title }}</h1>
-    <span class="post-meta">{{ "January 2, 2006" | .Date.Format }}</span>
-  {{ end }}
-</header>

@@ -18,7 +18,6 @@
       <a class="navbar-brand" href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
     </nav>
     <main>
-      {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
       {{ block "main" . }}{{ end }}
     </main>
     <footer>

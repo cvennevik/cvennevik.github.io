@@ -5,7 +5,7 @@
 {{ end }}
 {{ $title := $.Scratch.Get "title" }}
 
-<header class="{{ .Type }}-heading">
+<header class="{{ .Type }}-header">
   {{ if eq .Type "list" }}
     <h1>{{ if .Data.Singular }}#{{ end }}{{ .Title }}</h1>
   {{ else }}

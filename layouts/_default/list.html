@@ -19,7 +19,7 @@
     {{ end }}
   </div>
   {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-    <nav class="pager main-pager">
+    <nav class="pager">
       {{ if .Paginator.HasPrev }}
         <a class="previous" href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; Newer</a>
       {{ end }}

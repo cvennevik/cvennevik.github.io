@@ -6,7 +6,7 @@
     <description>Recent posts on Cecilie Vennevik's blog</description>
     <language>en-us</language>
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
-    <atom:link href={{ .Permalink }} rel="self" type="application/rss+xml" />
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
     {{ range .Site.RegularPages | first 20 }}
     <item>
       <title>{{ .Title }}</title>

@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
   <head>
-    {{ partial "head.html" . }}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    {{ if .IsHome }}
+        <title>Cecilie Vennevik</title>
+    {{ else }}
+        <title>{{ .Title }} - Cecilie Vennevik</title>
+    {{ end }}
+    <meta name="author" content="Cecilie Vennevik"/>
+    <link rel="alternate" href="{{ "index.xml" | absLangURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
+    <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
+    <link rel="stylesheet" href="{{ "css/fonts.css" | absURL }}" />
   </head>
   <body>
-    {{ partial "nav.html" . }}
+    <nav class="navbar-custom">
+      <a class="navbar-brand" href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+    </nav>
     <main>
       {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
       {{ block "main" . }}{{ end }}
     </main>
-    {{ partial "footer.html" . }}
+    <footer>
+      <div class="footer-links">
+        <a rel="me" href="https://hachyderm.io/@cvennevik" title="Mastodon">Mastodon</a>
+        <a href="https://twitter.com/cvennevik" title="Twitter">Twitter (unused)</a>
+        <a href="/index.xml" title="RSS">RSS</a>
+      </div>
+      <!-- Please don't remove this, keep my open source work credited :) -->
+      <p class="theme-by">
+        Theme based on <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>, adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+      </p>
+    </footer>
   </body>
 </html>
 

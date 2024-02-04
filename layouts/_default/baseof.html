@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
+<html lang="en-us" itemscope itemtype="http://schema.org/WebPage">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -9,13 +9,13 @@
         <title>{{ .Title }} - Cecilie Vennevik</title>
     {{ end }}
     <meta name="author" content="Cecilie Vennevik"/>
-    <link rel="alternate" href="{{ "index.xml" | absLangURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
+    <link rel="alternate" href="{{ "index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
     <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
     <link rel="stylesheet" href="{{ "css/fonts.css" | absURL }}" />
   </head>
   <body>
     <nav class="navbar-custom">
-      <a class="navbar-brand" href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+      <a class="navbar-brand" href="{{ "" | absURL }}">{{ .Site.Title }}</a>
     </nav>
     <main>
       {{ block "main" . }}{{ end }}

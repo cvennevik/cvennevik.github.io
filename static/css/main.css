@@ -217,7 +217,7 @@ footer .footer-links {
 .pager .previous {
   float: left;
 }
-.pager li a {
+.pager a {
   background: #FFF;
   border: 1px solid #ddd;
   color: #404040;
@@ -230,13 +230,13 @@ footer .footer-links {
   text-transform: uppercase;
 }
 @media (prefers-color-scheme: dark) {
-  .pager li a {
+  .pager a {
     background: #444;
     color: white;
   }
 }
-.pager li a:hover,
-.pager li a:focus {
+.pager a:hover,
+.pager a:focus {
   background: #0085a1;
   border: 1px solid #0085a1;
   color: #FFF;

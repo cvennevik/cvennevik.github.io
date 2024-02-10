@@ -1,4 +1,4 @@
-This is the source code of https://www.cvennevik.no/.
+This is the source code of https://www.cvennevik.no/. It uses [Eleventy](https://www.11ty.dev/docs/) to generate plain HTML and CSS files, and deploys those files to my [GitHub Pages](https://pages.github.com/) site https://cvennevik.github.io/, which I have configured to use my personal domain `www.cvennevik.no`.
 
 To run this project locally:
 

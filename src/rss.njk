@@ -1,0 +1,28 @@
+---
+permalink: index.xml
+eleventyExcludeFromCollections: true
+baseURL: https://www.cvennevik.no/
+---
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cecilie Vennevik's blog</title>
+    <link>{{ baseURL }}</link>
+    <description>Recent posts on Cecilie Vennevik's blog</description>
+    <language>en</language>
+    {%- set lastPost = collections.posts | last %}
+    <lastBuildDate>{{ lastPost.date | dateToRfc2822 }}</lastBuildDate>
+    <atom:link href="{{ permalink | absoluteUrl(baseURL) }}" rel="self" type="application/rss+xml"/>
+    {%- for post in collections.posts | reverse %}
+    {%- set absolutePostUrl = post.url | absoluteUrl(baseURL) %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>{{ absolutePostUrl }}</link>
+      <pubDate>{{ post.date | dateToRfc2822 }}</pubDate>
+      <guid>{{ absolutePostUrl }}</guid>
+      <description><![CDATA[{{ post | renderPostSummary | safe }}]]></description>
+      <content:encoded><![CDATA[{{ post.templateContent | safe }}]]></content:encoded>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

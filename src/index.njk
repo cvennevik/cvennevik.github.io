@@ -1,0 +1,22 @@
+{% from 'base.njk' import base %}
+{% call base(headTitle = 'Cecilie Vennevik') %}
+<header class="page-header">
+    <h1>Blog</h1>
+    <hr class="small"/>
+</header>
+<div class="posts-list">
+    {% for post in collections.posts | reverse %}
+        <article class="post-preview">
+            <a href="{{ post.url }}">
+                <h2 class="post-title">{{ post.data.title }}</h2>
+            </a>
+            <p class="post-meta">
+                <span class="post-meta">{{ post.date | renderFullDate }}</span>
+            </p>
+            <div class="post-entry">
+                {{ post | renderPostSummary | safe }}
+            </div>
+        </article>
+    {% endfor %}
+</div>
+{% endcall %}

@@ -5,7 +5,7 @@
     <hr class="small"/>
 </header>
 <div class="posts-list">
-    {% for post in collections.posts | reverse %}
+    {% for post in collections.blogposts | reverse %}
         <article class="post-preview">
             <a href="{{ post.url }}">
                 <h2 class="post-title">{{ post.data.title }}</h2>
@@ -14,7 +14,7 @@
                 <span class="post-meta">{{ post.date | renderFullDate }}</span>
             </p>
             <div class="post-entry">
-                {{ post | renderPostSummary | safe }}
+                {{ post | renderBlogPostSummary | safe }}
             </div>
         </article>
     {% endfor %}

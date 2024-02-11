@@ -25,7 +25,7 @@ module.exports = function (eleventyConfig) {
       .setLocale("en-US")
       .toLocaleString(DateTime.DATE_FULL);
   });
-  eleventyConfig.addFilter("renderPostSummary", (post) => {
+  eleventyConfig.addFilter("renderBlogPostSummary", (post) => {
     return md.render(post.data.summary ?? post.page.excerpt);
   });
 

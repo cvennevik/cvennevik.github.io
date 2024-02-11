@@ -3,7 +3,7 @@ title: "Oops, I made code review painful"
 date: 2023-04-14T22:15:00+02:00
 ---
 
-A few months ago I wrote [a post](https://www.cvennevik.no/post/code-reviews-are-overloaded/) suggesting that you should limit your pull request reviews to their bare essentials, the "bare essentials" here meaning "bugs and irreversible design decisions." I've had the chance to try doing this at work, and now I can share my findings with you:
+A few months ago I wrote [a post](https://www.cvennevik.no/blog/code-reviews-are-overloaded/) suggesting that you should limit your pull request reviews to their bare essentials, the "bare essentials" here meaning "bugs and irreversible design decisions." I've had the chance to try doing this at work, and now I can share my findings with you:
 
 Boy howdy, I do not enjoy this at all.
 

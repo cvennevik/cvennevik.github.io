@@ -136,4 +136,4 @@ What I do believe is that this experiment is low risk, it is not very disruptive
 
 **If you try this, or have already tried it, please message me to share your experience!** Contact me on Mastodon at [@cvennevik@hachyderm.io](https://hachyderm.io/@cvennevik) (so I can share it further, if you like!), or email me at <cvennevik@gmail.com>.
 
-_Edit, April 14th 2023: [I wrote a post describing my experience following this idea.](https://www.cvennevik.no/post/oops-i-made-code-review-painful/)_
+_Edit, April 14th 2023: [I wrote a post describing my experience following this idea.](https://www.cvennevik.no/blog/oops-i-made-code-review-painful/)_

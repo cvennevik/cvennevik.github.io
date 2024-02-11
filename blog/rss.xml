@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <title>undefined - Cecilie Vennevik</title>
+            <meta name="author" content="Cecilie Vennevik"/>
+            <link rel="alternate" href="/blog/rss.xml" type="application/rss+xml" title="Cecilie Vennevik's blog"/>
+            <link rel="stylesheet" href="/css/main.css"/>
+        </head>
+        <body>
+            <nav class="navbar">
+                <a class="navbar-brand" href="/">Cecilie Vennevik</a>
+            </nav>
+            <main>
+            
+<header>
+    <h1></h1>
+    <span class="post-meta">Invalid DateTime</span>
+</header>
+<article class="blog-post">
+    <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cecilie Vennevik's blog</title>
@@ -9,9 +31,9 @@
     <atom:link href="https://www.cvennevik.no/blog/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Oops, I made code review painful</title>
-      <link>https://www.cvennevik.no/post/oops-i-made-code-review-painful/</link>
+      <link>https://www.cvennevik.no/blog/oops-i-made-code-review-painful/</link>
       <pubDate>Fri, 14 Apr 2023 20:15:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/post/oops-i-made-code-review-painful/</guid>
+      <guid>https://www.cvennevik.no/blog/oops-i-made-code-review-painful/</guid>
       <description><![CDATA[<p>A few months ago I wrote <a href="https://www.cvennevik.no/post/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
 <p>Boy howdy, I do not enjoy this at all.</p>
 ]]></description>
@@ -29,9 +51,9 @@
     
     <item>
       <title>A corner-cutter&#39;s confession</title>
-      <link>https://www.cvennevik.no/post/a-corner-cutters-confession/</link>
+      <link>https://www.cvennevik.no/blog/a-corner-cutters-confession/</link>
       <pubDate>Thu, 09 Feb 2023 20:45:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/post/a-corner-cutters-confession/</guid>
+      <guid>https://www.cvennevik.no/blog/a-corner-cutters-confession/</guid>
       <description><![CDATA[<p>Listen. I know I should have done this one better.</p>
 ]]></description>
       <content:encoded><![CDATA[<p>Listen. I know I should have done this one better.</p>
@@ -48,9 +70,9 @@
     
     <item>
       <title>&#39;Technical debt&#39; is an incomplete model</title>
-      <link>https://www.cvennevik.no/post/technical-debt-is-an-incomplete-model/</link>
+      <link>https://www.cvennevik.no/blog/technical-debt-is-an-incomplete-model/</link>
       <pubDate>Sun, 05 Feb 2023 10:51:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/post/technical-debt-is-an-incomplete-model/</guid>
+      <guid>https://www.cvennevik.no/blog/technical-debt-is-an-incomplete-model/</guid>
       <description><![CDATA[<p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
 ]]></description>
       <content:encoded><![CDATA[<p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
@@ -72,9 +94,9 @@
     
     <item>
       <title>I am a social animal</title>
-      <link>https://www.cvennevik.no/post/i-am-a-social-animal/</link>
+      <link>https://www.cvennevik.no/blog/i-am-a-social-animal/</link>
       <pubDate>Sat, 04 Feb 2023 07:42:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/post/i-am-a-social-animal/</guid>
+      <guid>https://www.cvennevik.no/blog/i-am-a-social-animal/</guid>
       <description><![CDATA[<p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
 <p>I cope with it.</p>
 ]]></description>
@@ -97,9 +119,9 @@
     
     <item>
       <title>Enforcing advanced type constraints with class constructors in TypeScript</title>
-      <link>https://www.cvennevik.no/post/type-constraints-with-class-constructors/</link>
+      <link>https://www.cvennevik.no/blog/type-constraints-with-class-constructors/</link>
       <pubDate>Fri, 20 Jan 2023 06:37:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/post/type-constraints-with-class-constructors/</guid>
+      <guid>https://www.cvennevik.no/blog/type-constraints-with-class-constructors/</guid>
       <description><![CDATA[<p>For those really hard-to-define types.</p>
 ]]></description>
       <content:encoded><![CDATA[<p>Frequently, when programming, I am working with data that I expect to follow a set of constraints.</p>
@@ -224,9 +246,9 @@ console.log(new EstimateRange(10, 7, 0));
     
     <item>
       <title>Using TypeScript to prevent common mistakes</title>
-      <link>https://www.cvennevik.no/post/using-typescript-to-prevent-common-mistakes/</link>
+      <link>https://www.cvennevik.no/blog/using-typescript-to-prevent-common-mistakes/</link>
       <pubDate>Tue, 17 Jan 2023 00:43:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/post/using-typescript-to-prevent-common-mistakes/</guid>
+      <guid>https://www.cvennevik.no/blog/using-typescript-to-prevent-common-mistakes/</guid>
       <description><![CDATA[<p>A partial answer to what I like about static type systems.</p>
 ]]></description>
       <content:encoded><![CDATA[<p>I have been struggling to write an article about type systems for about a week now. The ideas and angles I want to take kept changing between each writing session, preventing me from ever completing a single coherent article.</p>
@@ -331,9 +353,9 @@ function placeIconAtMousePosition () {
     
     <item>
       <title>Code reviews are overloaded</title>
-      <link>https://www.cvennevik.no/post/code-reviews-are-overloaded/</link>
+      <link>https://www.cvennevik.no/blog/code-reviews-are-overloaded/</link>
       <pubDate>Sat, 07 Jan 2023 22:55:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/post/code-reviews-are-overloaded/</guid>
+      <guid>https://www.cvennevik.no/blog/code-reviews-are-overloaded/</guid>
       <description><![CDATA[<p>On the pains of mandated code reviews, and how to reduce them.</p>
 ]]></description>
       <content:encoded><![CDATA[<h2 id="table-of-contents">Table of contents</h2>
@@ -447,3 +469,15 @@ function placeIconAtMousePosition () {
     
   </channel>
 </rss>
+</article>
+
+            </main>
+            <footer>
+                <div class="footer-links">
+                    <a rel="me" href="https://hachyderm.io/@cvennevik" title="Mastodon">Mastodon</a>
+                    <a href="https://twitter.com/cvennevik" title="Twitter">Twitter (unused)</a>
+                    <a href="/blog/rss.xml" title="RSS">RSS</a>
+                </div>
+            </footer>
+        </body>
+    </html>

@@ -1,0 +1,152 @@
+
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <title>Enforcing advanced type constraints with class constructors in TypeScript - Cecilie Vennevik</title>
+            <meta name="author" content="Cecilie Vennevik"/>
+            <link rel="alternate" href="/blog/rss.xml" type="application/rss+xml" title="Cecilie Vennevik's blog"/>
+            <link rel="stylesheet" href="/css/main.css"/>
+        </head>
+        <body>
+            <nav class="navbar">
+                <a class="navbar-brand" href="/">Cecilie Vennevik</a>
+            </nav>
+            <main>
+            
+<header>
+    <h1>Enforcing advanced type constraints with class constructors in TypeScript</h1>
+    <span class="post-meta">January 20, 2023</span>
+</header>
+<article class="blog-post">
+    <p>Frequently, when programming, I am working with data that I expect to follow a set of constraints.</p>
+<ul>
+<li>This parameter must be a string.</li>
+<li>This return value cannot be null.</li>
+<li>This object must have a username property.</li>
+</ul>
+<p>Constraints like these are typically common and easy to express in statically typed languages.</p>
+<p>Sometimes (actually a lot of times) I am working with data that should follow stricter, more complicated constraints.</p>
+<ul>
+<li>This user-submitted application cannot have the <code>approvedTime</code> value set.</li>
+<li>This username must be non-empty and cannot have special characters.</li>
+<li>This <code>from</code> value must be before the <code>to</code> value.</li>
+</ul>
+<p>These constraints can be more tricky to express in a type definition, and I rarely see it attempted. Instead, I see functions either assume the data is valid, or run validation checks on the data that throw an error if it breaks a rule.</p>
+<p>Following the advice of <em>&quot;parse, don't validate&quot;</em> (see <a href="https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/">the wonderful post by Alexis King</a>), I would rather that the type itself is able to enforce its own constraints. This guarantees and preserves the validity of the data as you pass it on to other functions, and reduces the risk of insufficient <em>and</em> redundant validation checks around your codebase.</p>
+<p>With a few tricks, most constraints you can imagine can be enforced with a type definition. In this case, I'll be showing how to use <strong>classes</strong> to guarantee constraints on TypeScript data that simple <code>type</code> and <code>interface</code> declarations are unable to. (This technique also works in any statically typed language that supports classes.)</p>
+<h2 id="the-technique">The technique</h2>
+<ol>
+<li>Define a class containing the values you want to wrap.</li>
+<li>In the constructor, check for any constraints you are interested in.</li>
+<li>Throw an error if any of the constructor checks fail.</li>
+</ol>
+<p>Key to this technique being widely applicable is that <strong>you are allowed to write class wrappers for single values.</strong> You incur some overhead for having to instantiate each value as a class, and having to access the instance's value to use it, but in return you can enforce any constraint you can imagine in its constructor. Make this tradeoff at your own discretion.</p>
+<p>To illustrate the technique, I've spun up a few examples showing what you can do with it.</p>
+<h2 id="a-palindrome-type">A palindrome type</h2>
+<pre><code class="language-ts">class Palindrome {
+    readonly value: string;
+
+    constructor (value: string) {
+        const reversedValue = value.split('').reverse().join('');
+        if (value !== reversedValue) {
+            throw new Error(`&quot;${value}&quot; is not a palindrome`);
+        }
+
+        this.value = value;
+    }
+}
+</code></pre>
+<p>To ensure the string is a palindrome, we reverse it and check if the reversed string is equal to the original string. If not, we throw an error. Then we save the string to the <code>value</code> field.</p>
+<p>In practice, usage looks like this:</p>
+<pre><code class="language-ts">const palindrome = new Palindrome('())(');
+console.log(palindrome); // Output: Palindrome { value: '())(' }
+console.log(palindrome.value); // Output: '())('
+
+const invalidPalindrome = new Palindrome('(())');
+// Error: &quot;(())&quot; is not a palindrome
+</code></pre>
+<p>The <code>Palindrome</code> class guarantees that every instance of <code>Palindrome</code> contains a string that has passed the constructor validation. If you have any functions that <em>must</em> have a palindrome, the <code>Palindrome</code> type is an effective way to enforce it.</p>
+<p>If you would rather not throw an error, but check if the string is a palindrome and handle the invalid case another way, you can create a parse method that wraps the palindrome creation in a <code>try</code> block, and return <code>undefined</code> if it fails:</p>
+<pre><code class="language-ts">class Palindrome {
+    // ...
+
+    static parse (value: string): Palindrome | undefined {
+        try {
+            return new Palindrome(value);
+        } catch (error) {
+            return error;
+        }
+    }
+}
+
+console.log(Palindrome.parse('())(')); // Output: Palindrome { value: '())(' }
+console.log(Palindrome.parse('(())')); // Output: undefined
+</code></pre>
+<h2 id="a-sorted-array">A sorted array</h2>
+<p>A constructor does not have to throw errors to ensure a constraint. It can also do the work to transform data to a desired form, then pin it in place.</p>
+<p>For instance, you can create a <code>SortedArray</code> class that sorts your array for you:</p>
+<pre><code class="language-ts">class SortedArray&lt;T&gt; {
+    // Mark as ReadonlyArray to ensure contents stay sorted
+    readonly contents: ReadonlyArray&lt;T&gt;;
+
+    constructor (contents: T[]) {
+        // Copy the array so we do not reorder the original array,
+        // and prevent changes to the original array from affecting our sorted array
+        const copy = [...contents];
+        copy.sort();
+        this.contents = copy;
+    }
+}
+
+const sortedArray = new SortedArray([0, 5, 3, 4, 4, 2]);
+console.log(sortedArray.contents); // Output: [ 0, 2, 3, 4, 4, 5 ]
+</code></pre>
+<p>This may be useful if you are working with algorithms that expect a sorted array, like search.</p>
+<h2 id="a-range-with-an-estimate">A range with an estimate</h2>
+<p>Classes can, of course, also enforce constraints for multiple values. While I was experimenting with a game-playing traditional AI, my search algorithm used an <code>EstimateRange</code> data type to describe the minimum, estimate, and maximum value of a given game state. To make sense, the minimum cannot be greater than the maximum, and the estimate must be between them.</p>
+<p>Here is how this can be enforced in TypeScript:</p>
+<pre><code class="language-ts">class EstimateRange {
+    readonly minimum: number;
+    readonly estimate: number;
+    readonly maximum: number;
+
+    constructor (minimum: number, estimate: number, maximum: number) {
+        if (minimum &gt; maximum) {
+            throw new Error(`Minimum (${minimum}) is greater than maximum (${maximum})`);
+        } else if (estimate &gt; maximum) {
+            throw new Error(`Estimate (${estimate}) is greater than maximum (${maximum})`);
+        } else if (estimate &lt; minimum) {
+            throw new Error(`Estimate (${estimate}) is less than minimum (${minimum})`);
+        }
+
+        this.minimum = minimum;
+        this.estimate = estimate;
+        this.maximum = maximum;
+    }
+}
+
+console.log(new EstimateRange(0, 7, 10));
+// Output: EstimateRange { minimum: 0, estimate: 7, maximum: 10 }
+
+console.log(new EstimateRange(10, 7, 0));
+// Error: Minimum (10) is greater than maximum (0)
+</code></pre>
+<p>The point I am trying to make with the variety of examples is that there is a lot you can do with classes. The constraints you can enforce are mostly limited by your imagination.</p>
+<h2 id="a-warning">A warning</h2>
+<p>This trick comes with a caveat: <strong>If possible, you are better off enforcing constraints with simpler alternatives.</strong> I prefer using more concise type system features when I can. For TypeScript, you can browse the <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html">Everyday Types</a>, <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html">Object Types</a> and <a href="https://www.typescriptlang.org/docs/handbook/2/types-from-types.html">Creating Types from Types</a> pages of the TypeScript handbook for inspiration.</p>
+<p>When simpler alternatives for type checks are insufficient, class constructor validation is a powerful alternative to fall back on.</p>
+
+</article>
+
+            </main>
+            <footer>
+                <div class="footer-links">
+                    <a rel="me" href="https://hachyderm.io/@cvennevik" title="Mastodon">Mastodon</a>
+                    <a href="https://twitter.com/cvennevik" title="Twitter">Twitter (unused)</a>
+                    <a href="/blog/rss.xml" title="RSS">RSS</a>
+                </div>
+            </footer>
+        </body>
+    </html>

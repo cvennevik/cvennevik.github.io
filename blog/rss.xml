@@ -34,10 +34,10 @@
       <link>https://www.cvennevik.no/blog/oops-i-made-code-review-painful/</link>
       <pubDate>Fri, 14 Apr 2023 20:15:00 +0000</pubDate>
       <guid>https://www.cvennevik.no/blog/oops-i-made-code-review-painful/</guid>
-      <description><![CDATA[<p>A few months ago I wrote <a href="https://www.cvennevik.no/post/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
+      <description><![CDATA[<p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
 <p>Boy howdy, I do not enjoy this at all.</p>
 ]]></description>
-      <content:encoded><![CDATA[<p>A few months ago I wrote <a href="https://www.cvennevik.no/post/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
+      <content:encoded><![CDATA[<p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
 <p>Boy howdy, I do not enjoy this at all.</p>
 <p>There is one critical issue I did not consider in my original post: whether or not the different parts of review were any enjoyable or engaging. As it turns out, by trimming out every &quot;non-essential&quot; concern from my reviews, I have trimmed away every bit of the activity that was somewhat enjoyable and engaging. My slimmed-down review process is fast, efficient, and insufferable.</p>
 <p>Evaluating and discussing design choices, suggesting renames and refactorings, and taking the time to find and point out things I like - these were all things that engaged the parts of my brain that I enjoy using. It was inefficient and slow and occasionally tiring, but at the end of a review session, I was satisfied with my work.</p>
@@ -463,7 +463,7 @@ function placeIconAtMousePosition () {
 <p>While this strategy of cutting the scope of review makes a lot of sense to me, I cannot predict how it will play out for you, in your team, in your circumstances. I do not know to what degree it will make reviews easier and reduce integration pain, and I do not know what unexpected side effects it will have.</p>
 <p>What I do believe is that this experiment is low risk, it is not very disruptive, and the potential rewards are great enough that <strong>you should try it out</strong>. Talk it out with your team, find a scope of review to try, trial it for a week or two, then reflect on how it went. If you do not like the results, you can always go back to your old way of working afterwards.</p>
 <p><strong>If you try this, or have already tried it, please message me to share your experience!</strong> Contact me on Mastodon at <a href="https://hachyderm.io/@cvennevik">@cvennevik@hachyderm.io</a> (so I can share it further, if you like!), or email me at <a href="mailto:cvennevik@gmail.com">cvennevik@gmail.com</a>.</p>
-<p><em>Edit, April 14th 2023: <a href="https://www.cvennevik.no/post/oops-i-made-code-review-painful/">I wrote a post describing my experience following this idea.</a></em></p>
+<p><em>Edit, April 14th 2023: <a href="https://www.cvennevik.no/blog/oops-i-made-code-review-painful/">I wrote a post describing my experience following this idea.</a></em></p>
 ]]></content:encoded>
     </item>
     

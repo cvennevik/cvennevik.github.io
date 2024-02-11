@@ -1,5 +1,8 @@
-{% from 'base.njk' import base %}
-{% call base(headTitle = title + ' - Cecilie Vennevik') %}
+---
+layout: base.njk
+headTitle: "{{ title }} - Cecilie Vennevik"
+---
+
 <header>
     <h1>{{ title }}</h1>
     <span class="post-meta">{{ date | renderFullDate }}</span>
@@ -7,4 +10,3 @@
 <article class="blog-post">
     {{ content | safe }}
 </article>
-{% endcall %}

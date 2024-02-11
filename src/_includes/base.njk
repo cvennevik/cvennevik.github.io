@@ -1,27 +1,25 @@
-{% macro base(headTitle) %}
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <title>{{ headTitle }}</title>
-            <meta name="author" content="Cecilie Vennevik"/>
-            <link rel="alternate" href="/blog/rss.xml" type="application/rss+xml" title="Cecilie Vennevik's blog"/>
-            <link rel="stylesheet" href="/css/main.css"/>
-        </head>
-        <body>
-            <nav class="navbar">
-                <a class="navbar-brand" href="/">Cecilie Vennevik</a>
-            </nav>
-            <main>
-            {{ caller() | safe }}
-            </main>
-            <footer>
-                <div class="footer-links">
-                    <a rel="me" href="https://hachyderm.io/@cvennevik" title="Mastodon">Mastodon</a>
-                    <a href="https://twitter.com/cvennevik" title="Twitter">Twitter (unused)</a>
-                    <a href="/blog/rss.xml" title="RSS">RSS</a>
-                </div>
-            </footer>
-        </body>
-    </html>
-{% endmacro %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>{{ headTitle }}</title>
+        <meta name="author" content="Cecilie Vennevik"/>
+        <link rel="alternate" href="/blog/rss.xml" type="application/rss+xml" title="Cecilie Vennevik's blog"/>
+        <link rel="stylesheet" href="/css/main.css"/>
+    </head>
+    <body>
+        <nav class="navbar">
+            <a class="navbar-brand" href="/">Cecilie Vennevik</a>
+        </nav>
+        <main>
+            {{ content | safe }}
+        </main>
+        <footer>
+            <div class="footer-links">
+                <a rel="me" href="https://hachyderm.io/@cvennevik" title="Mastodon">Mastodon</a>
+                <a href="https://twitter.com/cvennevik" title="Twitter">Twitter (unused)</a>
+                <a href="/blog/rss.xml" title="RSS">RSS</a>
+            </div>
+        </footer>
+    </body>
+</html>

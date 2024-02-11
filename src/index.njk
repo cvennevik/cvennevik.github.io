@@ -1,5 +1,8 @@
-{% from 'base.njk' import base %}
-{% call base(headTitle = 'Cecilie Vennevik') %}
+---
+layout: base.njk
+headTitle: Cecilie Vennevik
+---
+
 <header class="page-header">
     <h1>Blog</h1>
     <hr class="small"/>
@@ -19,4 +22,3 @@
         </article>
     {% endfor %}
 </div>
-{% endcall %}

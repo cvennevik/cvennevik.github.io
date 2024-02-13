@@ -8,10 +8,6 @@ There's a lot of good websites out there. These are a few I have found that I wa
 
 It's mostly blogs writing about software development. I read a lot of them.
 
-## Personal
-
-- **[Sara Joy](https://sarajoy.dev/)**
-
 ## Articles
 
 - **[A Very Good Blog](https://gkeenan.co/avgb/)**, by Keenan
@@ -33,6 +29,7 @@ It's mostly blogs writing about software development. I read a lot of them.
 - **[Eric Bailey](https://ericwbailey.website/)**
   - [My jeans’ metadata may outlive the company that sold them](https://ericwbailey.website/published/my-jeans-metadata-may-outlive-the-company-that-sold-them/)
   - [Sandcastles](https://ericwbailey.website/published/sandcastles/)
+  - [The five types of people who produce inaccessible code](https://ericwbailey.website/published/the-five-types-of-people-who-produce-inaccessible-code/)
 - **[Felienne Hermans](https://www.felienne.com/)**
   - [What is programming anyway? (video)](https://vimeo.com/210570493)
     - _(Excel spreadsheets are programming, fight me)_
@@ -85,3 +82,4 @@ It's mostly blogs writing about software development. I read a lot of them.
 ## Other???
 
 - **[RSS JOY](https://rs.sjoy.lol/)**
+- **[Sara Joy](https://sarajoy.dev/)**

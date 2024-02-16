@@ -1,3 +1,5 @@
+/* #region GENERAL */
+
 :root {
 	--bg-color-1: #FFF;
 	--bg-color-2: #F5F5F5;
@@ -25,26 +27,12 @@
 
 html,
 body {
-	height: 100%;
-}
-
-body {
 	background: var(--bg-color-1);
 	color: var(--text-color-1);
-	display: flex;
-	flex-direction: column;
+	height: 100%;
 	font-family: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
-	margin: 0;
-}
-
-main {
-	margin-bottom: 50px;
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 800px;
-	padding: 15px;
 }
 
 h1,
@@ -131,15 +119,14 @@ pre code {
 	color: inherit;
 }
 
-footer {
-	align-items: center;
-	background: var(--bg-color-2);
+/* #endregion */
+
+/* #region PAGE SECTIONS */
+
+body {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
-	justify-content: center;
-	margin-top: auto;
-	padding: 30px 0;
+	margin: 0;
 }
 
 .navbar {
@@ -152,6 +139,18 @@ footer {
 	float: left;
 	font-size: 18px;
 	padding: 15px 15px;
+}
+
+main {
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 800px;
+	padding: 15px;
+}
+
+.page-header {
+	text-align: center;
 }
 
 .post-title:not(:hover, :focus) {
@@ -174,6 +173,15 @@ footer {
 	margin: 0 0 10px;
 }
 
-.page-header {
-	text-align: center;
+footer {
+	align-items: center;
+	background: var(--bg-color-2);
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	margin-top: auto;
+	padding: 30px 0;
 }
+
+/* #endregion */

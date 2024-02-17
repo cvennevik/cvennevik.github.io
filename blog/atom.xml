@@ -1,21 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Cecilie Vennevik's blog</title>
-    <link>https://www.cvennevik.no/blog/</link>
-    <description>Recent posts on Cecilie Vennevik's blog</description>
-    <language>en</language>
-    <lastBuildDate>Fri, 14 Apr 2023 20:15:00 +0000</lastBuildDate>
-    <atom:link href="https://www.cvennevik.no/blog/rss.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>Oops, I made code review painful</title>
-      <link>https://www.cvennevik.no/blog/oops-i-made-code-review-painful/</link>
-      <pubDate>Fri, 14 Apr 2023 20:15:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/blog/oops-i-made-code-review-painful/</guid>
-      <description><![CDATA[<p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://www.cvennevik.no/blog/</id>
+  <link href="https://www.cvennevik.no/blog/"/>
+  <link rel="self" href="https://www.cvennevik.no/blog/atom.xml"/>
+  <title>Cecilie Vennevik's blog</title>
+  <author>
+    <name>Cecilie Vennevik</name>
+  </author>
+  <icon>https://www.cvennevik.no/img/logo-100px.jpg</icon>
+  <updated>2023-04-14T20:15:00.000+00:00</updated>
+  <entry>
+    <title type="html">Oops, I made code review painful</title>
+    <link href="https://www.cvennevik.no/blog/oops-i-made-code-review-painful/"/>
+    <id>https://www.cvennevik.no/blog/oops-i-made-code-review-painful/</id>
+    <published>2023-04-14T20:15:00.000+00:00</published>
+    <updated>2023-04-14T20:15:00.000+00:00</updated>
+    <summary type="html"><![CDATA[<p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
 <p>Boy howdy, I do not enjoy this at all.</p>
-]]></description>
-      <content:encoded><![CDATA[<p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
 <p>Boy howdy, I do not enjoy this at all.</p>
 <p>There is one critical issue I did not consider in my original post: whether or not the different parts of review were any enjoyable or engaging. As it turns out, by trimming out every &quot;non-essential&quot; concern from my reviews, I have trimmed away every bit of the activity that was somewhat enjoyable and engaging. My slimmed-down review process is fast, efficient, and insufferable.</p>
 <p>Evaluating and discussing design choices, suggesting renames and refactorings, and taking the time to find and point out things I like - these were all things that engaged the parts of my brain that I enjoy using. It was inefficient and slow and occasionally tiring, but at the end of a review session, I was satisfied with my work.</p>
@@ -24,17 +27,18 @@
 <p>Now that I've subjected myself to my own suggested experiment, my feelings on pull requests reviews have cooled significantly. I do not want to do any more of these &quot;efficient&quot; reviews than I absolutely have to. Yet despite not enjoying it, I do not want to go back to the way I reviewed code before. Even if it is more bearable, it is still slow, inefficient and tiring.</p>
 <p>Honestly, at this point, I just want to be subjected to as little code review possible, both as a reviewer and a author. This is something I am working on!</p>
 <p>I'm a big fan of the <a href="https://martinfowler.com/articles/ship-show-ask.html">Ship / Show / Ask</a> model, which makes pull request reviews something authors explicitly opt into. To start pushing the needle away from &quot;ask for review on all changes all the time,&quot; I have asked for and received permission to merge low-risk changes without review. And if you haven't tried it before, let me tell you, being able to merge refactoring and test work straight into mainline feels so very freeing. I highly recommend it.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>A corner-cutter&#39;s confession</title>
-      <link>https://www.cvennevik.no/blog/a-corner-cutters-confession/</link>
-      <pubDate>Thu, 09 Feb 2023 20:45:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/blog/a-corner-cutters-confession/</guid>
-      <description><![CDATA[<p>Listen. I know I should have done this one better.</p>
-]]></description>
-      <content:encoded><![CDATA[<p>Listen. I know I should have done this one better.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html">A corner-cutter&#39;s confession</title>
+    <link href="https://www.cvennevik.no/blog/a-corner-cutters-confession/"/>
+    <id>https://www.cvennevik.no/blog/a-corner-cutters-confession/</id>
+    <published>2023-02-09T20:45:00.000+00:00</published>
+    <updated>2023-02-09T20:45:00.000+00:00</updated>
+    <summary type="html"><![CDATA[<p>Listen. I know I should have done this one better.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Listen. I know I should have done this one better.</p>
 <p>Yes, I didn't spend time improving the design before I went to work. I slotted my change right into the design that was already there. It fit okay! With some slight cruft, duplication, and clunky call chaining, but still! Don't look at me like that - even Kent Beck says &quot;making the change easy&quot; is the hard part, and my job is hard enough!</p>
 <p>And yes, yes, I didn't write any tests first. I know it would have made my work easier, and refactoring less error-prone. And it would have helped me out in the design process. But I knew what I needed to do (mostly)! And I could just boot up the app and test it manually - it was familiar and convenient!</p>
 <p>What's that? Did I write any tests after, then? Oh, no, I didn't do that either. I'd, uh, already tested all the use cases manually by the time I finished. It felt like a waste of time not to merge the work and move on. Yes, I have no cheap way of catching regressions now, I know, I know. Can we move on?</p>
@@ -43,17 +47,18 @@
 <p>I just... I know it's better to move slowly and deliberately. I know it's a matter of practice. And I know it relieves stress in the end.</p>
 <p>But there's just so much code, so many loose threads, and so much work to do. I can only bear so much of it in my head.</p>
 <p>Can you fault me for going along with the flow?</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>&#39;Technical debt&#39; is an incomplete model</title>
-      <link>https://www.cvennevik.no/blog/technical-debt-is-an-incomplete-model/</link>
-      <pubDate>Sun, 05 Feb 2023 10:51:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/blog/technical-debt-is-an-incomplete-model/</guid>
-      <description><![CDATA[<p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
-]]></description>
-      <content:encoded><![CDATA[<p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html">&#39;Technical debt&#39; is an incomplete model</title>
+    <link href="https://www.cvennevik.no/blog/technical-debt-is-an-incomplete-model/"/>
+    <id>https://www.cvennevik.no/blog/technical-debt-is-an-incomplete-model/</id>
+    <published>2023-02-05T10:51:00.000+00:00</published>
+    <updated>2023-02-05T10:51:00.000+00:00</updated>
+    <summary type="html"><![CDATA[<p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
 <p>The &quot;technical debt&quot; metaphor is used to explain that we accrue <em>design flaws</em> as we work. These design flaws make it harder to change the system - the more flaws we have, the more we &quot;pay interest&quot; in increased time and effort to make new changes. To make the system easier to change again, we need to &quot;pay down the debt&quot; by fixing the design flaws. If we do not keep our &quot;technical debt&quot; in check, we risk accumulating so many design flaws that it is no longer economic to develop the system any further - we hit &quot;technical bankruptcy.&quot;</p>
 <p>While this is a useful model, I've come to find it insufficient. It frames &quot;cost of change&quot; as something developers harm by introducing design flaws, and repair by removing design flaws. It is centered on the negative case.</p>
 <p>The lessons I have learned about managing cost of change from the Extreme Programming community clashes with this framing, because the &quot;technical debt&quot; metaphor does not support the possibility that the cost of change can go <em>down</em> as you add changes to your system.</p>
@@ -67,18 +72,19 @@
 <p>When James Shore describes this design strategy in <em>The Art of Agile Development</em>, he gives the example of a JavaScript project he did for one of his screencasts. As he added more and more features related to networking, each feature took less and less time to implement - from 12 hours, to 6 hours, to 3 hours, to under an hour - despite the later features being no less intricate than the earlier ones!</p>
 <p>By improving the design with each and every change, the design does not merely stay out of our way. The design <em>actively supports and enables new changes</em>. By keeping the design clean while extending it with more functionality, we can make the system do more and more things with less effort. The codebase becomes a precious asset that accelerates our development, speeding us up instead of slowing us down.</p>
 <p>These ways of reducing the cost of change are ill described as &quot;paying down technical debt.&quot; Instead, it is more accurate to say we are <strong><em>building technical wealth</em></strong>.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>I am a social animal</title>
-      <link>https://www.cvennevik.no/blog/i-am-a-social-animal/</link>
-      <pubDate>Sat, 04 Feb 2023 07:42:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/blog/i-am-a-social-animal/</guid>
-      <description><![CDATA[<p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html">I am a social animal</title>
+    <link href="https://www.cvennevik.no/blog/i-am-a-social-animal/"/>
+    <id>https://www.cvennevik.no/blog/i-am-a-social-animal/</id>
+    <published>2023-02-04T07:42:00.000+00:00</published>
+    <updated>2023-02-04T07:42:00.000+00:00</updated>
+    <summary type="html"><![CDATA[<p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
 <p>I cope with it.</p>
-]]></description>
-      <content:encoded><![CDATA[<p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
 <p>I cope with it.</p>
 <p>I muster the energy I have for the day. I devise elaborate techniques to focus myself. I work pomodoros. I meditate. I put on white noise. I journal. I break the work down into little digestible steps.</p>
 <p>And so I manage being alone.</p>
@@ -92,17 +98,18 @@
 <p>The air in the office is still. And I would do well not to disturb it.</p>
 <p>I sit back down in my seat. I look at the time.</p>
 <p>It is winter, yet.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Enforcing advanced type constraints with class constructors in TypeScript</title>
-      <link>https://www.cvennevik.no/blog/type-constraints-with-class-constructors/</link>
-      <pubDate>Fri, 20 Jan 2023 06:37:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/blog/type-constraints-with-class-constructors/</guid>
-      <description><![CDATA[<p>For those really hard-to-define types.</p>
-]]></description>
-      <content:encoded><![CDATA[<p>Frequently, when programming, I am working with data that I expect to follow a set of constraints.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html">Enforcing advanced type constraints with class constructors in TypeScript</title>
+    <link href="https://www.cvennevik.no/blog/type-constraints-with-class-constructors/"/>
+    <id>https://www.cvennevik.no/blog/type-constraints-with-class-constructors/</id>
+    <published>2023-01-20T06:37:00.000+00:00</published>
+    <updated>2023-01-20T06:37:00.000+00:00</updated>
+    <summary type="html"><![CDATA[<p>For those really hard-to-define types.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Frequently, when programming, I am working with data that I expect to follow a set of constraints.</p>
 <ul>
 <li>This parameter must be a string.</li>
 <li>This return value cannot be null.</li>
@@ -219,17 +226,18 @@ console.log(new EstimateRange(10, 7, 0));
 <h2 id="a-warning">A warning</h2>
 <p>This trick comes with a caveat: <strong>If possible, you are better off enforcing constraints with simpler alternatives.</strong> I prefer using more concise type system features when I can. For TypeScript, you can browse the <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html">Everyday Types</a>, <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html">Object Types</a> and <a href="https://www.typescriptlang.org/docs/handbook/2/types-from-types.html">Creating Types from Types</a> pages of the TypeScript handbook for inspiration.</p>
 <p>When simpler alternatives for type checks are insufficient, class constructor validation is a powerful alternative to fall back on.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Using TypeScript to prevent common mistakes</title>
-      <link>https://www.cvennevik.no/blog/using-typescript-to-prevent-common-mistakes/</link>
-      <pubDate>Tue, 17 Jan 2023 00:43:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/blog/using-typescript-to-prevent-common-mistakes/</guid>
-      <description><![CDATA[<p>A partial answer to what I like about static type systems.</p>
-]]></description>
-      <content:encoded><![CDATA[<p>I have been struggling to write an article about type systems for about a week now. The ideas and angles I want to take kept changing between each writing session, preventing me from ever completing a single coherent article.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html">Using TypeScript to prevent common mistakes</title>
+    <link href="https://www.cvennevik.no/blog/using-typescript-to-prevent-common-mistakes/"/>
+    <id>https://www.cvennevik.no/blog/using-typescript-to-prevent-common-mistakes/</id>
+    <published>2023-01-17T00:43:00.000+00:00</published>
+    <updated>2023-01-17T00:43:00.000+00:00</updated>
+    <summary type="html"><![CDATA[<p>A partial answer to what I like about static type systems.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>I have been struggling to write an article about type systems for about a week now. The ideas and angles I want to take kept changing between each writing session, preventing me from ever completing a single coherent article.</p>
 <p>After venting about this on Mastodon, another user asked me what I thought about static types. They were mostly experienced with dynamically typed languages, and prefer the flexibility they offer.</p>
 <p>It turns out this question was all I needed to focus and get my writing back on track - you may take this blog post as my longform answer.</p>
 <p>In short: I think static types are a useful tool to prevent us from making very common mistakes. Like, really common. Like &quot;half of the bugs I investigate in JavaScript applications are caused by this&quot; common.</p>
@@ -326,17 +334,18 @@ function placeIconAtMousePosition () {
 }
 </code></pre>
 <p>I like to set up development environments so it is easy to write correct code and hard to write incorrect code. Static types are only one of several tools I use for this, but they are one of my favorites. They tell us what we can and cannot do with our data, and they are effective for catching very common mistakes. Because of this, I find the overhead of opting into static typing with TypeScript well worth it.</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Code reviews are overloaded</title>
-      <link>https://www.cvennevik.no/blog/code-reviews-are-overloaded/</link>
-      <pubDate>Sat, 07 Jan 2023 22:55:00 +0000</pubDate>
-      <guid>https://www.cvennevik.no/blog/code-reviews-are-overloaded/</guid>
-      <description><![CDATA[<p>On the pains of mandated code reviews, and how to reduce them.</p>
-]]></description>
-      <content:encoded><![CDATA[<h2 id="table-of-contents">Table of contents</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html">Code reviews are overloaded</title>
+    <link href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/"/>
+    <id>https://www.cvennevik.no/blog/code-reviews-are-overloaded/</id>
+    <published>2023-01-07T22:55:00.000+00:00</published>
+    <updated>2023-01-07T22:55:00.000+00:00</updated>
+    <summary type="html"><![CDATA[<p>On the pains of mandated code reviews, and how to reduce them.</p>
+]]></summary>
+    <content type="html"><![CDATA[<h2 id="table-of-contents">Table of contents</h2>
 <ul>
 <li><a href="#code-reviews-are-effective">Code reviews are effective</a></li>
 <li><a href="#branching-causes-problems">Branching causes problems</a></li>
@@ -442,8 +451,7 @@ function placeIconAtMousePosition () {
 <p>What I do believe is that this experiment is low risk, it is not very disruptive, and the potential rewards are great enough that <strong>you should try it out</strong>. Talk it out with your team, find a scope of review to try, trial it for a week or two, then reflect on how it went. If you do not like the results, you can always go back to your old way of working afterwards.</p>
 <p><strong>If you try this, or have already tried it, please message me to share your experience!</strong> Contact me on Mastodon at <a href="https://hachyderm.io/@cvennevik">@cvennevik@hachyderm.io</a> (so I can share it further, if you like!), or email me at <a href="mailto:cvennevik@gmail.com">cvennevik@gmail.com</a>.</p>
 <p><em>Edit, April 14th 2023: <a href="https://www.cvennevik.no/blog/oops-i-made-code-review-painful/">I wrote a post describing my experience following this idea.</a></em></p>
-]]></content:encoded>
-    </item>
-    
-  </channel>
-</rss>
+]]></content>
+  </entry>
+  
+</feed>

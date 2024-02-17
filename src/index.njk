@@ -1,22 +1,26 @@
 ---
-layout: base.njk
+layout: body.njk
 ---
 
-<header class="page-header">
-    <h1>Blog</h1>
-</header>
-<div class="posts-list">
-    {% for post in collections.blogposts | reverse %}
-        <article class="post-preview">
-            <a href="{{ post.url }}">
-                <h2 class="post-title">{{ post.data.title }}</h2>
-            </a>
-            <p class="post-meta">
-                <span class="post-meta">{{ post.date | renderFullDate }}</span>
-            </p>
-            <div class="post-entry">
-                {{ post | renderBlogPostSummary | safe }}
-            </div>
-        </article>
-    {% endfor %}
-</div>
+<main class="frontpage">
+    <header>
+        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+            <title>Welcome to my website</title>
+            <path id="top-curve" d="M 100 100 C 100 90, 250 -40, 400 100" stroke="transparent" fill="transparent"/>
+            <path id="bottom-curve" d="M 100 400 C 100 410, 250 540, 400 400" stroke="transparent" fill="transparent"/>  
+            <text textLength="340">
+                <textPath xlink:href="#top-curve">Welcome to</textPath>
+            </text>
+            <text textLength="340">
+                <textPath xlink:href="#bottom-curve" dominant-baseline="hanging">my website</textPath>
+            </text>
+        </svg>
+        <img src="/img/logo-500px.jpg" alt="A seal in a wine glass">
+    </header>
+    <div class="links">
+        <a href="/blog/">Blog</a>
+        <a href="/webroll/">Webroll</a>
+        <a rel="me" href="https://hachyderm.io/@cvennevik">Mastodon</a>
+        <a href="/blog/rss.xml">RSS</a>
+    </div>
+</main>

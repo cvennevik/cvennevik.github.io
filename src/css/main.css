@@ -1,10 +1,19 @@
+/* #region FONTS */
+@font-face {
+	font-family: babycakes;
+	src: url('/font/babycakes.ttf') format('opentype');
+}
+/* #endregion FONTS */
+
 /* #region GENERAL */
 
 :root {
 	--bg-color: #fff;
+	--bg-color-darker: #e8e8e8;
+	--primary-color: #89cff0;
 	--text-color: #212;
-	--link-color: hsl(212, 92%, 45%);
-	--link-color-focus: hsl(212, 92%, 60%);
+	--link-color: #086391;
+	--link-color-focus: #89cff0;
 }
 
 * {
@@ -91,7 +100,7 @@ pre {
 }
 
 pre {
-	background-color: var(--bg-color);
+	background-color: var(--bg-color-darker);
 	font-size: 13px;
 	padding: 10px;
 	white-space: pre-wrap;
@@ -104,7 +113,7 @@ pre code {
 	color: inherit;
 }
 
-/* #endregion */
+/* #endregion GENERAL */
 
 /* #region PAGE SECTIONS */
 
@@ -114,15 +123,25 @@ body {
 	margin: 0;
 }
 
-.navbar {
-	background: var(--bg-color);
-	font-weight: 800;
+nav {
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 
-.navbar-brand {
+.home-logo {
+	border-radius: 100%;
 	float: left;
-	font-size: 18px;
-	padding: 15px 15px;
+	height: auto;
+	margin: 20px;
+	width: 50px;
+}
+
+a:hover .home-logo,
+a:focus .home-logo {
+	border: 5px solid var(--primary-color);
+	width: 60px;
+	margin: 15px;
 }
 
 main {
@@ -131,6 +150,47 @@ main {
 	margin-left: auto;
 	max-width: 800px;
 	padding: 15px;
+}
+
+.frontpage header {
+	display: grid;
+	height: auto;
+	margin: 40px 0px;;
+	max-width: 500px;
+}
+
+.frontpage header * {
+	grid-column: 1;
+	grid-row: 1;
+	height: 100%;
+	width: 100%;
+}
+
+.frontpage header img {
+	z-index: 1;
+	border-radius: 100%;
+	padding: 10%;
+}
+
+.frontpage header svg {
+	z-index: 2;
+}
+
+.frontpage header svg text {
+	fill: var(--primary-color);
+	font-family: babycakes;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.frontpage .links {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	margin-top: auto;
+	padding: 30px 0;
 }
 
 .page-header {
@@ -148,15 +208,4 @@ main {
 	margin: 0 0 10px;
 }
 
-footer {
-	align-items: center;
-	background: var(--bg-color);
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	justify-content: center;
-	margin-top: auto;
-	padding: 30px 0;
-}
-
-/* #endregion */
+/* #endregion PAGE SECTIONS */

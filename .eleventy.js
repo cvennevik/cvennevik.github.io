@@ -6,7 +6,11 @@ const md = markdownIt({ html: true }).use(markdownItAnchor, { tabIndex: false })
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css/");
+  eleventyConfig.addPassthroughCopy("src/img/");
+  eleventyConfig.addPassthroughCopy("src/font/");
   eleventyConfig.addWatchTarget("src/css/");
+  eleventyConfig.addWatchTarget("src/img/");
+  eleventyConfig.addWatchTarget("src/font/");
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
     excerpt_separator: "<!--more-->",

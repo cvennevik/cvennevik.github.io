@@ -24,6 +24,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("dateToRfc2822", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toRFC2822();
   });
+  eleventyConfig.addFilter("dateToIsoTime", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toISO();
+  });
   eleventyConfig.addFilter("renderFullDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj)
       .setLocale("en-US")

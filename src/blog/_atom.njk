@@ -1,0 +1,32 @@
+---
+layout: null
+permalink: /blog/atom.xml
+eleventyExcludeFromCollections: true
+baseURL: https://www.cvennevik.no/
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>{{ "/blog/" | absoluteUrl(baseURL) }}</id>
+  <link href="{{ "/blog/" | absoluteUrl(baseURL) }}"/>
+  <link rel="self" href="{{ permalink | absoluteUrl(baseURL) }}"/>
+  <title>Cecilie Vennevik's blog</title>
+  <author>
+    <name>Cecilie Vennevik</name>
+  </author>
+  <icon>{{ "/img/logo-100px.jpg" | absoluteUrl(baseURL) }}</icon>
+  {%- set lastPost = collections.blogposts | last %}
+  <updated>{{ lastPost.date | dateToIsoTime }}</updated>
+
+  {%- for post in collections.blogposts | reverse %}
+  {%- set absolutePostUrl = post.url | absoluteUrl(baseURL) %}
+  <entry>
+    <title type="html">{{ post.data.title }}</title>
+    <link href="{{ absolutePostUrl }}"/>
+    <id>{{ absolutePostUrl }}</id>
+    <published>{{ post.date | dateToIsoTime }}</published>
+    <updated>{{ post.date | dateToIsoTime }}</updated>
+    <summary type="html"><![CDATA[{{ post | renderBlogPostSummary | safe }}]]></summary>
+    <content type="html"><![CDATA[{{ post.templateContent | safe }}]]></content>
+  </entry>
+  {% endfor %}
+</feed>

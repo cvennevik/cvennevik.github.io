@@ -152,38 +152,38 @@ main {
 	padding: 15px;
 }
 
-.frontpage header {
+.front-page header {
 	display: grid;
 	height: auto;
 	margin: 40px 0px;;
 	max-width: 500px;
 }
 
-.frontpage header * {
+.front-page header * {
 	grid-column: 1;
 	grid-row: 1;
 	height: 100%;
 	width: 100%;
 }
 
-.frontpage header img {
+.front-page header img {
 	z-index: 1;
 	border-radius: 100%;
 	padding: 10%;
 }
 
-.frontpage header svg {
+.front-page header svg {
 	z-index: 2;
 }
 
-.frontpage header svg text {
+.front-page header svg text {
 	fill: var(--primary-color);
 	font-family: babycakes;
 	font-size: 36px;
 	text-transform: uppercase;
 }
 
-.frontpage .links {
+.front-page .links {
 	align-items: center;
 	display: flex;
 	flex-direction: column;

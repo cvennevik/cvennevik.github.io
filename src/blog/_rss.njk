@@ -8,7 +8,7 @@ baseURL: https://www.cvennevik.no/
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cecilie Vennevik's blog</title>
-    <link>{{ baseURL }}</link>
+    <link>{{ '/blog/' | absoluteUrl(baseURL) }}</link>
     <description>Recent posts on Cecilie Vennevik's blog</description>
     <language>en</language>
     {%- set lastPost = collections.blogposts | last %}

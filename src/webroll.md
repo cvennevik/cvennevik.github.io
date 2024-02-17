@@ -1,6 +1,6 @@
 ---
 title: Webroll - Cecilie Vennevik
-layout: base.njk
+layout: page.njk
 ---
 
 # Webroll

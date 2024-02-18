@@ -129,19 +129,20 @@ nav {
 	width: 100%;
 }
 
+.home-icon-container {
+	height: 140px;
+	width: 140px;
+}
+
 .home-icon {
 	border-radius: 100%;
-	float: left;
-	height: auto;
 	margin: 20px;
-	width: 100px;
 }
 
 a:hover .home-icon,
 a:focus .home-icon {
-	border: 5px solid var(--primary-color);
-	width: 110px;
-	margin: 15px;
+	border: 5px solid var(--primary-color); /* Ends up as 4.8px on my machine...??? */
+	margin: 15.2px;
 }
 
 main {

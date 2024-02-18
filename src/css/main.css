@@ -129,7 +129,7 @@ nav {
 	width: 100%;
 }
 
-.home-logo {
+.home-icon {
 	border-radius: 100%;
 	float: left;
 	height: auto;
@@ -137,8 +137,8 @@ nav {
 	width: 100px;
 }
 
-a:hover .home-logo,
-a:focus .home-logo {
+a:hover .home-icon,
+a:focus .home-icon {
 	border: 5px solid var(--primary-color);
 	width: 110px;
 	margin: 15px;

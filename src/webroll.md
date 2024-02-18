@@ -55,6 +55,10 @@ It's mostly blogs writing about software development. I read a lot of them.
   - [Being the Best](https://jessitron.com/2024/01/23/being-the-best/)
   - [One Secret to Quality Software](https://jessitron.com/2020/05/08/one-secret-to-quality-software/)
   - [Software development pushes us to get better as people](https://jessitron.com/2021/11/28/software-development-pushes-us-to-get-better-as-people/)
+- **[Jim Nielsen's blog](https://blog.jim-nielsen.com/)**
+  - [The Case for Design Engineers](https://blog.jim-nielsen.com/2022/the-case-for-design-engineers/)
+  - [It's Humans All the Way Down](https://blog.jim-nielsen.com/2024/humans-all-the-way-down/)
+  - [Blogging and Composting](https://blog.jim-nielsen.com/2023/blogging-and-compositing/)
 - **[Luna's Blog](https://moonbase.lgbt/blog/)**
   - [Adventures in the GBA BIOS](https://moonbase.lgbt/blog/adventures-in-the-gba-bios/)
   - [Video Game Preservation and Minecraft](https://moonbase.lgbt/blog/minecraft-data-hoarding/)

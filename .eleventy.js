@@ -33,7 +33,7 @@ module.exports = function (eleventyConfig) {
       .toLocaleString(DateTime.DATE_FULL);
   });
   eleventyConfig.addFilter("renderBlogPostSummary", (post) => {
-    return md.render(post.data.summary ?? post.page.excerpt);
+    return md.render(post.data.summary ?? post.page.excerpt ?? "");
   });
 
   /*** RETURN ***/

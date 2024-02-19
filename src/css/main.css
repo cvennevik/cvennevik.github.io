@@ -100,17 +100,14 @@ pre {
 }
 
 pre {
-	background-color: var(--bg-color-darker);
+	background-color: #222;
+	border: 5px solid #888;
+	color: white;
 	font-size: 13px;
 	padding: 10px;
 	white-space: pre-wrap;
 	word-break: break-all;
 	word-wrap: break-word;
-}
-
-pre code {
-	background: inherit;
-	color: inherit;
 }
 
 /* #endregion GENERAL */

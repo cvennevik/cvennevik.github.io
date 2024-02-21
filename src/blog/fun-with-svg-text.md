@@ -161,7 +161,7 @@ It turns out I was bang on the money. They _are_ magical.
 
 I cannot hope to give a servicable tutorial for how they work - try the [Bézier curve tutorial](https://developer.mozilla.org/en-US/docs/Glossary/Bezier_curve) and [SVG Paths tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths) on MDN for that.
 
-In short, they consist of some number of _control points_, and move from the first control point to the second control point via the fun math-y thing the animation demonstrates. Two control points makes a linear curve (a line), three makes a quadratic curve, four makes a cubic curve, and so on.
+In short, they consist of some number of _control points_, and move from the first control point to the final control point via the fun math-y thing the animation demonstrates. Two control points makes a linear curve (a line), three makes a quadratic curve, four makes a cubic curve, and so on.
 
 This gave me just enough to go on to make a symmetric pair of cubic curves that gently curve around the image.
 

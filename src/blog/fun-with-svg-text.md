@@ -6,7 +6,7 @@ summary: Please let me ramble at you.
 
 Last weekend, I redesigned my blog. As part of this redesign, I wanted to make something fun for my front page. I started sketching a bit on paper, got an idea, and soon I was doing a search for "css curved text".
 
-The first result I found was a the [Curved Text Along a Path tutorial](https://css-tricks.com/snippets/svg/curved-text-along-path/) by Geoff Graham on CSS Tricks. It demonstrates how to add curved text to a web page using an inline SVG.
+The first result I found was the [Curved Text Along a Path tutorial](https://css-tricks.com/snippets/svg/curved-text-along-path/) by Geoff Graham on CSS Tricks. It demonstrates how to add curved text to a web page using an inline SVG.
 
 It was perfect.
 

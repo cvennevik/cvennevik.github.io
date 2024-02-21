@@ -5,8 +5,155 @@
     <link>https://www.cvennevik.no/blog/</link>
     <description>Recent posts on Cecilie Vennevik's blog</description>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Apr 2023 20:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Feb 2024 20:15:00 +0000</lastBuildDate>
     <atom:link href="https://www.cvennevik.no/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Having fun with SVG text</title>
+      <link>https://www.cvennevik.no/blog/fun-with-svg-text/</link>
+      <pubDate>Wed, 21 Feb 2024 20:15:00 +0000</pubDate>
+      <guid>https://www.cvennevik.no/blog/fun-with-svg-text/</guid>
+      <description><![CDATA[<p>Please let me ramble at you.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>Last weekend, I redesigned my blog. As part of this redesign, I wanted to make something fun for my front page. I started sketching a bit on paper, got an idea, and soon I was doing a search for &quot;css curved text&quot;.</p>
+<p>The first result I found was a the <a href="https://css-tricks.com/snippets/svg/curved-text-along-path/">Curved Text Along a Path tutorial</a> by Geoff Graham on CSS Tricks. It demonstrates how to add curved text to a web page using an inline SVG.</p>
+<p>It was perfect.</p>
+<p>About half an hour of experimenting and browsing the MDN Web Docs later, I was looking at the end result. It's the most beautiful thing I've made in years.</p>
+<figure>
+    <img
+        src="/img/2024-02-18-front-page-screenshot.jpg"
+        alt="My new front page, with links to my blog, webroll, Mastodon, and most prominently: a circular photo of a seal plush stuffed into a wine glass, with &quot;Welcome to my website&quot; written in balloon letters around the photo.">
+    <figcaption>Pictured: My sweet little boy, trapped in glass.</figcaption>
+</figure>
+<p>Now, unless you have an above-average interest in HTML, CSS and vector graphics, you may want to tap out of this page now, because the rest of this will be me nerding out over how the sausage is made.</p>
+<p>...</p>
+<p>Still here?</p>
+<p>Good! Let's jump in.</p>
+<h2 id="where-we're-going%2C-we-don't-need-photoshop">Where we're going, we don't need Photoshop</h2>
+<pre class="language-html"><code class="language-html">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>svg</span> <span class="token attr-name">viewBox</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0 0 500 500<span class="token punctuation">"</span></span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>http://www.w3.org/2000/svg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Welcome to my website<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>top-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 100 C 100 90, 250 -40, 400 100<span class="token punctuation">"</span></span> <span class="token attr-name">stroke</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span> <span class="token attr-name">fill</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bottom-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 400 C 100 410, 250 540, 400 400<span class="token punctuation">"</span></span> <span class="token attr-name">stroke</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span> <span class="token attr-name">fill</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>text</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">textLength</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>340<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textPath</span> <span class="token attr-name"><span class="token namespace">xlink:</span>href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#top-curve<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Welcome to<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textPath</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>text</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>text</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">textLength</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>340<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textPath</span> <span class="token attr-name"><span class="token namespace">xlink:</span>href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#bottom-curve<span class="token punctuation">"</span></span> <span class="token attr-name">dominant-baseline</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>hanging<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>my website<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textPath</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>text</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>svg</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/logo-500px.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>A seal in a wine glass<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">></span></span></code></pre>
+<p>This is the complete HTML for the front page header image and text. It is made up of two main elements:</p>
+<ul>
+<li>The <code>&lt;img&gt;</code> element, which draws the circular photo in the middle.</li>
+<li>The <code>&lt;svg&gt;</code> element, which draws the text around it.</li>
+</ul>
+<h2 id="a-side-note-on-screen-readers">A side note on screen readers</h2>
+<p>The word <em>&quot;draw&quot;</em> can be a bit misleading here, because it may lead you to believe the text is purely graphical.</p>
+<figure>
+    <img
+        src="/img/2024-02-18-front-page-marked-text.jpg"
+        alt="Me selecting and highlighting part of the &quot;Welcome to&quot; text.">
+    <figcaption>This brings me a silly amount of joy.</figcaption>
+</figure>
+<p>Yes - the SVG text functions pretty much like regular text! You can select it, copy it, and screen readers will even read it!</p>
+<p><strong>That last point is a problem.</strong> When testing how the SVG reads with the built-in screen reader on Windows 11, it was... bad. It just does not read well. It may be that other screen readers handle SVG text better, but I do not want to rely on it.</p>
+<p>To improve on this, I went with the most robust-looking solution I could find: I added a <code>&lt;title&gt;</code> element with equivalent text to the SVG, and hid the text elements from screen readers with <code>aria-hidden=&quot;true&quot;</code>. This made the reading experience significantly more pleasant.</p>
+<p><em>(If you know of better, more accessible ways to do this, please contact me so I can update this post.)</em></p>
+<h2 id="styling">Styling</h2>
+<p>To reliably wrap the text around the photo, I needed some reliable styling, and I needed that styling to be responsive across different screen sizes.</p>
+<p>I solved this using a CSS grid where:</p>
+<ul>
+<li>The <code>&lt;img&gt;</code> and <code>&lt;svg&gt;</code> elements are always perfectly square.</li>
+<li>They are always the same size.</li>
+<li>They shrink on smaller screens.</li>
+<li>They are placed directly on top of each other.</li>
+</ul>
+<pre class="language-css"><code class="language-css"><span class="token selector">.home-page header</span> <span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 40px 0px<span class="token punctuation">;</span>
+    <span class="token property">max-width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span> <span class="token comment">/* Will shrink, but keep height proportional if the screen is narrow */</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.home-page header *</span> <span class="token punctuation">{</span>
+    <span class="token comment">/* Place all child elements in the same, single cell of the grid */</span>
+    <span class="token property">grid-column</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+    <span class="token property">grid-row</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+    <span class="token comment">/* Ensure identical height and width */</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.home-page header img</span> <span class="token punctuation">{</span>
+    <span class="token property">z-index</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+    <span class="token property">border-radius</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span> <span class="token comment">/* Makes the image circular */</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 10%<span class="token punctuation">;</span> <span class="token comment">/* Clears space for text around the image */</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.home-page header svg</span> <span class="token punctuation">{</span>
+    <span class="token property">z-index</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p>The image is made square by, well, being a square image. The SVG is made square by the <code>viewBox=&quot;0 0 500 500&quot;</code> property, which defines the internal dimensions of the SVG - the draw positions range from <code>(0,0)</code> to <code>(500,500)</code>.</p>
+<p>And while we're in CSS world - the actual SVG text is also styled using CSS!</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">.home-page header svg text</span> <span class="token punctuation">{</span>
+    <span class="token property">fill</span><span class="token punctuation">:</span> #89cff0<span class="token punctuation">;</span>
+    <span class="token property">font-family</span><span class="token punctuation">:</span> babycakes<span class="token punctuation">;</span> <span class="token comment">/* Balloon font! https://www.fontspace.com/babycakes-font-f20531 */</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 36px<span class="token punctuation">;</span>
+    <span class="token property">text-transform</span><span class="token punctuation">:</span> uppercase<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<h2 id="text%2C-paths%2C-and-text-paths">Text, paths, and text paths</h2>
+<p>Let's look at the contents of the <code>&lt;svg&gt;</code> again, and remove <code>&lt;title&gt;</code> and <code>aria-hidden</code> for brevity.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>top-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 100 C 100 90, 250 -40, 400 100<span class="token punctuation">"</span></span> <span class="token attr-name">stroke</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span> <span class="token attr-name">fill</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bottom-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 400 C 100 410, 250 540, 400 400<span class="token punctuation">"</span></span> <span class="token attr-name">stroke</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span> <span class="token attr-name">fill</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>text</span> <span class="token attr-name">textLength</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>340<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textPath</span> <span class="token attr-name"><span class="token namespace">xlink:</span>href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#top-curve<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Welcome to<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textPath</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>text</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>text</span> <span class="token attr-name">textLength</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>340<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textPath</span> <span class="token attr-name"><span class="token namespace">xlink:</span>href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#bottom-curve<span class="token punctuation">"</span></span> <span class="token attr-name">dominant-baseline</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>hanging<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>my website<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textPath</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>text</span><span class="token punctuation">></span></span></code></pre>
+<p>The <code>&lt;text&gt;</code> elements draw text. The <code>textLength</code> attributes say how many pixels long the text should be, and squishes or stretches the text to make it so. I gave both the top and bottom text elements <code>textLength=&quot;340&quot;</code> so they would stretch evenly left-to-right.</p>
+<p>Inside them are the <code>&lt;textPath&gt;</code> elements, which draw text along a given path. The <code>xlink:href</code> attributes say which path they should follow. The <code>dominant-baseline=&quot;hanging&quot;</code> attribute places the bottom text <em>below</em> the path, instead of above it.</p>
+<p>Finally, the transparent <code>&lt;path&gt;</code> elements supply the curves, as defined by their <code>d</code> attribute.</p>
+<p>Can we talk about the curves? I <em>need</em> to talk to you about the curves.</p>
+<h2 id="b%C3%A9zier%2C-you-beautiful-man">Bézier, you beautiful man</h2>
+<p>Okay, so I've been in the rough vicinity of graphics and animation long enough to have heard &quot;Bézier curves&quot; referenced a few dozen times in my life. I never took the time to look up what they were. I assumed they were complicated and slightly magical, only taught in spellbooks sourced from the Graphics Wizards' tower.</p>
+<p>To draw my text exactly how I wanted it, I needed Bézier curves. So I had to up look how they worked, and what all of the coordinates in the code samples meant.</p>
+<p>It turns out I was bang on the money. They <em>are</em> magical.</p>
+<figure>
+    <img
+        src="/img/bezier-quadratic.gif"
+        alt="Animation of a quadratic (three control point) Bézier curve">
+    <figcaption>Ah, Bézier, you've done it again!</figcaption>
+</figure>
+<p>I cannot hope to give a servicable tutorial for how they work - try the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Bezier_curve">Bézier curve tutorial</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths">SVG Paths tutorial</a> on MDN for that.</p>
+<p>In short, they consist of some number of <em>control points</em>, and move from the first control point to the second control point via the fun math-y thing the animation demonstrates. Two control points makes a linear curve (a line), three makes a quadratic curve, four makes a cubic curve, and so on.</p>
+<p>This gave me just enough to go on to make a symmetric pair of cubic curves that gently curve around the image.</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Cubic curve from (100,100), via (100,90) and (250,-40), to (400,100) --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>top-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 100 C 100 90, 250 -40, 400 100<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span></code></pre>
+<p>Now, uh. In the middle of writing this, while reading the linked SVG Paths tutorial, I realized I could have made this using a simpler quadratic curve instead.</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Quadratic curve from (100,95), via (250,-25), to (400,94) --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>top-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 95 Q 250 -25, 400 95<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span></code></pre>
+<p>And. I also realized there's a non-Bézier &quot;arc&quot; curve. For drawing arcs. Like around a circle.</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Arc from (100,100), in a 210 px radius with sweep-flag enabled, to (400,100) --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>top-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 100 A 210 210 0 0 1 400 100<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span></code></pre>
+<p>It turns out arcs are a little bit complicated so for this use case I'm happy keeping it a Bézier curve.</p>
+<p>Though... throwing a couple of arcs together <em>is</em> a simple way to draw a full circle path... so maybe...</p>
+<p>I've already written up everything I learned so far, so let's close on this.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 100 A 210 210 0 0 1 400 400 A 210 210 0 0 1 100 100<span class="token punctuation">"</span></span> <span class="token attr-name">stroke</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span> <span class="token attr-name">fill</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>text</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">textLength</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1320<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textPath</span> <span class="token attr-name"><span class="token namespace">xlink:</span>href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#curve<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+        Imperial futures are only ever stolen presents.
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textPath</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>text</span><span class="token punctuation">></span></span></code></pre>
+<figure>
+    <img
+        src="/img/2024-02-21-imperial-futures-are-only-ever-stolen-presents.jpg"
+        alt="My front page image, but now in a full circle around the photo it says &quot;Imperial futures are only ever stolen presents.&quot;">
+    <figcaption>That's all, folks!</figcaption>
+</figure>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Oops, I made code review painful</title>
       <link>https://www.cvennevik.no/blog/oops-i-made-code-review-painful/</link>

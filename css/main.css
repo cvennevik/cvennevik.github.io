@@ -99,6 +99,10 @@ pre {
 	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+code {
+	background-color: var(--bg-color-darker);
+}
+
 pre {
 	background-color: #222;
 	border: 5px solid #888;
@@ -108,6 +112,28 @@ pre {
 	white-space: pre-wrap;
 	word-break: break-all;
 	word-wrap: break-word;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 20px 0px;
+}
+
+figure img {
+	border: 5px solid var(--bg-color-darker);
+	border-radius: 5px;
+}
+
+figcaption {
+	font-style: italic;
+	margin-top: .5em;
+	text-align: center;
 }
 
 /* #endregion GENERAL */
@@ -152,8 +178,7 @@ main {
 
 .home-page header {
 	display: grid;
-	height: auto;
-	margin: 40px 0px;;
+	margin: 40px 0px;
 	max-width: 500px;
 }
 

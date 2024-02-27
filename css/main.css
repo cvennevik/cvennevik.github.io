@@ -3,7 +3,9 @@
 	src: url('/font/Babycakes.ttf') format('opentype');
 }
 
-* {
+*,
+*::after,
+*::before {
 	box-sizing: border-box;
 }
 
@@ -31,7 +33,6 @@ h3,
 h4,
 h5,
 h6 {
-	margin-top: 1em;
 	font-weight: bold;
 	line-height: 1.1;
 }
@@ -125,7 +126,7 @@ a:focus .home-icon {
 	display: grid;
 }
 
-.home-page header > * {
+.home-page header>* {
 	grid-column: 1;
 	grid-row: 1;
 	height: 100%;

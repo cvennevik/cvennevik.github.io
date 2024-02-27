@@ -11,9 +11,6 @@
 	--bg-color: #fff;
 	--bg-color-darker: #e8e8e8;
 	--primary-color: #89cff0;
-	--text-color: #212;
-	--link-color: #086391;
-	--link-color-focus: #89cff0;
 }
 
 * {
@@ -23,7 +20,7 @@
 html,
 body {
 	background: var(--bg-color);
-	color: var(--text-color);
+	color: #212;
 	height: 100%;
 	font-family: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
 	font-size: 18px;
@@ -79,12 +76,12 @@ h6 {
 }
 
 a {
-	color: var(--link-color);
+	color: #086391;
 	text-decoration-thickness: 1.5px;
 }
 
 a:focus, a:hover {
-	color: var(--link-color-focus);
+	color: #89cff0;
 	text-decoration-thickness: 2.5px;
 }
 

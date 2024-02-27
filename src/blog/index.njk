@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
         <a href="{{ post.url }}">
             <h2>{{ post.data.title }}</h2>
         </a>
-        <span class="post-meta">{{ post.date | renderFullDate }}</span>
+        <p class="post-meta">{{ post.date | renderFullDate }}</p>
         <div>
             {{ post | renderBlogPostSummary | safe }}
         </div>

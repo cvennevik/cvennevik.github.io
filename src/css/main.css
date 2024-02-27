@@ -26,10 +26,6 @@ body {
 	line-height: 1.5;
 }
 
-body {
-	padding: 1rem;
-}
-
 h1,
 h2,
 h3,
@@ -127,6 +123,7 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 50rem;
+	padding: 1rem;
 }
 
 nav {

@@ -2,15 +2,16 @@
  * a11y-dark theme for JavaScript, CSS, and HTML
  * Based on the okaidia theme: https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-okaidia.css
  * @author ericwbailey
+ * Modified by cvennevik
  */
 
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #f8f8f2;
 	background: none;
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 	text-align: left;
-	/*white-space: pre; Removed because I prefer having the code wrap on small screens - Cecilie */
+	white-space: pre-wrap;
 	word-spacing: normal;
 	word-break: normal;
 	word-wrap: normal;

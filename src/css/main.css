@@ -1,30 +1,28 @@
-/* #region FONTS */
 @font-face {
 	font-family: babycakes;
 	src: url('/font/Babycakes.ttf') format('opentype');
-}
-
-/* #endregion FONTS */
-
-/* #region GENERAL */
-
-:root {
-	--bg-color: #fff;
-	--bg-color-darker: #e8e8e8;
-	--primary-color: #89cff0;
 }
 
 * {
 	box-sizing: border-box;
 }
 
-html,
-body {
+html {
+	--bg-color: #fff;
+	--bg-color-darker: #e8e8e8;
+	--primary-color: #89cff0;
 	background: var(--bg-color);
 	color: #212;
-	height: 100%;
 	font-family: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+	height: 100%;
 	line-height: 1.5;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 50rem;
+	padding: 1rem;
+	padding-bottom: 2rem;
 }
 
 h1,
@@ -34,7 +32,7 @@ h4,
 h5,
 h6 {
 	margin-top: 1em;
-	font-weight: 800;
+	font-weight: bold;
 	line-height: 1.1;
 }
 
@@ -64,7 +62,6 @@ h6 {
 
 a {
 	color: #086391;
-	text-decoration-thickness: .1em;
 }
 
 a:focus,
@@ -78,18 +75,8 @@ blockquote {
 	padding: 0 1rem;
 }
 
-code,
-pre {
-	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
 code {
 	background-color: var(--bg-color-darker);
-}
-
-pre {
-	color: white;
-	white-space: pre-wrap;
 }
 
 img {
@@ -114,20 +101,6 @@ figcaption {
 	text-align: center;
 }
 
-/* #endregion GENERAL */
-
-/* #region PAGE SECTIONS */
-
-body {
-	display: flex;
-	flex-direction: column;
-	margin: 0;
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 50rem;
-	padding: 1rem;
-}
-
 nav {
 	display: flex;
 	justify-content: center;
@@ -148,16 +121,11 @@ a:focus .home-icon {
 	border: .3rem solid var(--primary-color);
 }
 
-main {
-	margin-bottom: 3rem;
-}
-
 .home-page header {
 	display: grid;
-	margin: 2rem 0;
 }
 
-.home-page header * {
+.home-page header > * {
 	grid-column: 1;
 	grid-row: 1;
 	height: 100%;
@@ -165,13 +133,8 @@ main {
 }
 
 .home-page header img {
-	z-index: 1;
 	border-radius: 100%;
 	padding: 10%;
-}
-
-.home-page header svg {
-	z-index: 2;
 }
 
 .home-page header svg text {
@@ -192,5 +155,3 @@ main {
 .post-meta {
 	font-style: italic;
 }
-
-/* #endregion PAGE SECTIONS */

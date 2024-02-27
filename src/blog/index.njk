@@ -13,8 +13,6 @@ eleventyExcludeFromCollections: true
             <h2>{{ post.data.title }}</h2>
         </a>
         <p class="post-meta">{{ post.date | renderFullDate }}</p>
-        <div>
-            {{ post | renderBlogPostSummary | safe }}
-        </div>
+        {{ post | renderBlogPostSummary | safe }}
     </article>
 {% endfor %}

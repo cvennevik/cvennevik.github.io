@@ -3,6 +3,7 @@
 	font-family: babycakes;
 	src: url('/font/Babycakes.ttf') format('opentype');
 }
+
 /* #endregion FONTS */
 
 /* #region GENERAL */
@@ -65,7 +66,8 @@ a {
 	text-decoration-thickness: .1em;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
 	color: #89cff0;
 }
 

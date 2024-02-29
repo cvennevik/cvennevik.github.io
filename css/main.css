@@ -144,6 +144,11 @@ figcaption {
 }
 
 .home-page .links {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5rem;
+	gap: 0.5em;
+	margin-block-start: 1em;
 	text-align: center;
 }
 

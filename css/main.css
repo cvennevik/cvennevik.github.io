@@ -101,13 +101,12 @@ figcaption {
 	text-align: center;
 }
 
-nav {
-	display: flex;
-	justify-content: center;
-	width: 100%;
+.page-banner {
+	text-align: center;
 }
 
 .home-link {
+	display: inline-block;
 	height: 6rem;
 	width: 6rem;
 }

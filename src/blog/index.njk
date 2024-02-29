@@ -4,15 +4,15 @@ title: Blog
 eleventyExcludeFromCollections: true
 ---
 
-<header class="page-header">
+<div class="blog">
     <h1>Blog</h1>
-</header>
-{% for post in collections.blogposts | reverse %}
-    <article class="post-preview">
-        <a href="{{ post.url }}">
-            <h2>{{ post.data.title }}</h2>
-        </a>
-        <span class="post-date">{{ post.date | renderFullDate }}</span>
-        {{ post | renderBlogPostSummary | safe }}
-    </article>
-{% endfor %}
+    {% for post in collections.blogposts | reverse %}
+        <article class="post-preview">
+            <a href="{{ post.url }}">
+                <h2>{{ post.data.title }}</h2>
+            </a>
+            <span class="post-date">{{ post.date | renderFullDate }}</span>
+            {{ post | renderBlogPostSummary | safe }}
+        </article>
+    {% endfor %}
+</div>

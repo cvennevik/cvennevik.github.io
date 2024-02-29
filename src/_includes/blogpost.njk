@@ -2,11 +2,9 @@
 layout: page.njk
 ---
 
-<a href="/blog/">&larr; Blog</a>
-<header>
+<article>
+    <a href="/blog/">&larr; Blog</a>
     <h1>{{ title }}</h1>
     <span class="post-date">{{ date | renderFullDate }}</span>
-</header>
-<article>
     {{ content | safe }}
 </article>

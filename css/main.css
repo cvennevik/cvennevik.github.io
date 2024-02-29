@@ -10,10 +10,7 @@
 }
 
 html {
-	--bg-color: #fff;
-	--bg-color-darker: #e8e8e8;
-	--primary-color: #89cff0;
-	background: var(--bg-color);
+	background: #fff;
 	color: #212;
 	font-family: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
 	height: 100%;
@@ -79,7 +76,7 @@ blockquote {
 }
 
 code {
-	background-color: var(--bg-color-darker);
+	background-color: #e8e8e8;
 }
 
 img {
@@ -94,7 +91,7 @@ figure {
 }
 
 figure img {
-	border: .3rem solid var(--bg-color-darker);
+	border: .3rem solid #e8e8e8;
 	border-radius: .3rem;
 }
 
@@ -121,7 +118,7 @@ nav {
 
 .home-link:hover img,
 .home-link:focus img {
-	border: .3rem solid var(--primary-color);
+	border: .3rem solid #89cff0;
 }
 
 .home-page header {
@@ -141,7 +138,7 @@ nav {
 }
 
 .home-page header svg text {
-	fill: var(--primary-color);
+	fill: #89cff0;
 	font-family: babycakes;
 	font-size: 36px;
 	text-transform: uppercase;
@@ -151,7 +148,7 @@ nav {
 	text-align: center;
 }
 
-.page-header {
+.blog h1 {
 	text-align: center;
 }
 

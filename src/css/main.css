@@ -10,22 +10,23 @@
 }
 
 :root {
+	--border-color: #eee;
+	--home-link-focus-color: #89cff0;
+
 	--background-color: #fff;
 	--text-color: #212;
-	--border-color: #eee;
 	--code-background-color: #eee;
 	--link-color: #086391;
 	--link-focus-color: #89cff0;
-	--home-link-focus-color: #89cff0;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--background-color: #222;
 		--text-color: #fff;
+		--code-background-color: #444;
 		--link-color: #89cff0;
 		--link-focus-color: #b8e2f6;
-		--code-background-color: #444;
 	}
 }
 

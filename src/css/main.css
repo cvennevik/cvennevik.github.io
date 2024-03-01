@@ -82,6 +82,7 @@ h6 {
 
 a {
 	color: var(--link-color);
+	transition: color .1s;
 }
 
 a:focus,
@@ -137,6 +138,7 @@ figcaption {
 
 .home-link img {
 	border-radius: 100%;
+	transition: border-width .1s;
 }
 
 .home-link:hover img,

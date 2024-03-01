@@ -9,9 +9,29 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--background-color: #fff;
+	--text-color: #212;
+	--border-color: #eee;
+	--code-background-color: #eee;
+	--link-color: #086391;
+	--link-focus-color: #89cff0;
+	--home-link-focus-color: #89cff0;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--background-color: #222;
+		--text-color: #fff;
+		--link-color: #89cff0;
+		--link-focus-color: #4f9ec5;
+		--code-background-color: #444;
+	}
+}
+
 html {
-	background: #fff;
-	color: #212;
+	background-color: var(--background-color);
+	color: var(--text-color);
 	font-family: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
 	height: 100%;
 	line-height: 1.5;
@@ -61,22 +81,27 @@ h6 {
 }
 
 a {
-	color: #086391;
+	color: var(--link-color);
+	transition: color .1s;
 }
 
 a:focus,
 a:hover {
-	color: #89cff0;
+	color: var(--link-focus-color);
 }
 
 blockquote {
-	border-left: .3rem solid #eee;
+	border-left: .3rem solid var(--border-color);
 	margin: 1rem 0;
 	padding: 0 1rem;
 }
 
 code {
-	background-color: #e8e8e8;
+	background-color: var(--code-background-color);
+}
+
+pre code {
+	font-size: 0.9em;
 }
 
 img {
@@ -91,7 +116,7 @@ figure {
 }
 
 figure img {
-	border: .3rem solid #e8e8e8;
+	border: .3rem solid var(--border-color);
 	border-radius: .3rem;
 }
 
@@ -113,11 +138,12 @@ figcaption {
 
 .home-link img {
 	border-radius: 100%;
+	transition: border-width .1s;
 }
 
 .home-link:hover img,
 .home-link:focus img {
-	border: .3rem solid #89cff0;
+	border: .3rem solid var(--home-link-focus-color);
 }
 
 .home-page header {

@@ -1,9 +1,9 @@
 ---
-title: Webroll
+title: Blogroll
 layout: page.njk
 ---
 
-# Webroll
+# Blogroll
 
 There's a lot of good websites out there. These are a few I have found that I want to share with you and share with my future self.
 

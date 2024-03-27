@@ -1,9 +1,9 @@
 ---
-title: Webroll
+title: Blogrollroll
 layout: page.njk
 ---
 
-# Webrollroll
+# Blogrollroll
 
 Okay so I think it's really fun surfing people's recommendations so I'm going to dump a whole bunch of people's blogrolls and the like on this page and then I will never run out of stuff to look at.
 

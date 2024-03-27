@@ -51,6 +51,10 @@ It's mostly blogs writing about software development. I read a lot of them.
   - [Are We Really Engineers?](https://www.hillelwayne.com/post/are-we-really-engineers/)
   - [Crimes with Python's Pattern Matching](https://www.hillelwayne.com/post/python-abc/)
   - [Ten weird things you can buy online (and why you would)](https://www.hillelwayne.com/post/weird-things-you-can-buy/)
+- **[Infrequently Noted](https://infrequently.org/)**, by Alex Russell
+  - [Can You Afford It?: Real-world Web Performance Budgets](https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/)
+  - [The Performance Inequality Gap, 2024](https://infrequently.org/2024/01/performance-inequality-gap-2024/)
+  - [Why Are Tech Reporters Sleeping On The Biggest App Store Story?](https://infrequently.org/2024/01/the-web-is-the-app-store/)
 - **[Jessitron](https://jessitron.com/)**
   - [Being the Best](https://jessitron.com/2024/01/23/being-the-best/)
   - [One Secret to Quality Software](https://jessitron.com/2020/05/08/one-secret-to-quality-software/)

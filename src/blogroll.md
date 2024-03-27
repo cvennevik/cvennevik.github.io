@@ -31,6 +31,10 @@ It's mostly blogs writing about software development. I read a lot of them.
   - [My jeans’ metadata may outlive the company that sold them](https://ericwbailey.website/published/my-jeans-metadata-may-outlive-the-company-that-sold-them/)
   - [Sandcastles](https://ericwbailey.website/published/sandcastles/)
   - [The five types of people who produce inaccessible code](https://ericwbailey.website/published/the-five-types-of-people-who-produce-inaccessible-code/)
+- **[Evan Boehs](https://boehs.org/)**
+  - [Npm Install Everything, and the Complete and Utter Chaos That Follows](https://boehs.org/node/npm-everything)
+  - [Internet Evanescence](https://boehs.org/node/internet-evanescence)
+  - [Garden](https://boehs.org/in/garden)
 - **[Felienne Hermans](https://www.felienne.com/)**
   - [What is programming anyway? (video)](https://vimeo.com/210570493)
     - _(Excel spreadsheets are programming, fight me)_

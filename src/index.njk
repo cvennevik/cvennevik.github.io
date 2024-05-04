@@ -2,27 +2,80 @@
 layout: body.njk
 ---
 
-<div class="home-page">
-    <header>
-        <img src="/img/logo-500px.jpg" alt="A seal in a wine glass">
-        <svg viewbox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-            <title>Welcome to my website</title>
-            <path id="top-curve" d="M 100 100 C 100 90, 250 -40, 400 100" stroke="transparent" fill="transparent"/>
-            <path id="bottom-curve" d="M 100 400 C 100 410, 250 540, 400 400" stroke="transparent" fill="transparent"/>
-            <text aria-hidden="true" textlength="340">
-                <textPath xlink:href="#top-curve">Welcome to</textPath>
-            </text>
-            <text aria-hidden="true" textlength="340">
-                <textPath xlink:href="#bottom-curve" dominant-baseline="hanging">my website</textPath>
-            </text>
-        </svg>
-    </header>
-    <nav class="links">
-        <a href="/blog/">Blog</a>
-        <a href="/blogroll/">Blogroll</a>
-        <a href="/blogrollroll/">Blogrollroll</a>
-        <a rel="me" href="https://hachyderm.io/@cvennevik">Mastodon</a>
-    </nav>
-    <label for="motion-toggle">Enable motion</label>
-    <input id="motion-toggle" type="checkbox">
-</div>
+<style>
+    header {
+        display: grid;
+    }
+    header > * {
+        grid-column: 1;
+        grid-row: 1;
+        height: 100%;
+        width: 100%;
+    }
+    @keyframes wobble-image {
+        from {
+            transform: rotate(1deg);
+        }
+        to {
+            transform: rotate(-1deg);
+        }
+    }
+    @keyframes wobble-text {
+        from {
+            transform: rotate(-2deg);
+        }
+        to {
+            transform: rotate(2deg);
+        }
+    }
+    :has(#motion-toggle:checked) header img {
+        animation: 2s infinite -1s ease-in-out alternate wobble-image;
+    }
+    :has(#motion-toggle:checked) header svg {
+        animation: 2s infinite -1s ease-in-out alternate wobble-text;
+    }
+    header img {
+        border-radius: 100%;
+        padding: 10%;
+    }
+    @font-face {
+        font-family: babycakes;
+        src: url('/font/Babycakes.ttf') format('opentype');
+    }
+    header svg text {
+        fill: #89cff0;
+        font-family: babycakes;
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        gap: 0.5em;
+        margin-block-start: 1em;
+        text-align: center;
+    }
+</style>
+<header>
+    <img src="/img/logo-500px.jpg" alt="A seal in a wine glass">
+    <svg viewbox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+        <title>Welcome to my website</title>
+        <path id="top-curve" d="M 100 100 C 100 90, 250 -40, 400 100" stroke="transparent" fill="transparent"/>
+        <path id="bottom-curve" d="M 100 400 C 100 410, 250 540, 400 400" stroke="transparent" fill="transparent"/>
+        <text aria-hidden="true" textlength="340">
+            <textPath xlink:href="#top-curve">Welcome to</textPath>
+        </text>
+        <text aria-hidden="true" textlength="340">
+            <textPath xlink:href="#bottom-curve" dominant-baseline="hanging">my website</textPath>
+        </text>
+    </svg>
+</header>
+<nav>
+    <a href="/blog/">Blog</a>
+    <a href="/blogroll/">Blogroll</a>
+    <a href="/blogrollroll/">Blogrollroll</a>
+    <a rel="me" href="https://hachyderm.io/@cvennevik">Mastodon</a>
+</nav>
+<label for="motion-toggle">Enable motion</label>
+<input id="motion-toggle" type="checkbox">

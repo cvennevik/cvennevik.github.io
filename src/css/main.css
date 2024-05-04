@@ -1,8 +1,3 @@
-@font-face {
-	font-family: babycakes;
-	src: url('/font/Babycakes.ttf') format('opentype');
-}
-
 *,
 *::after,
 *::before {
@@ -145,66 +140,6 @@ figcaption {
 .home-link:hover img,
 .home-link:focus img {
 	border: .3rem solid var(--home-link-focus-color);
-}
-
-.home-page header {
-	display: grid;
-}
-
-.home-page header>* {
-	grid-column: 1;
-	grid-row: 1;
-	height: 100%;
-	width: 100%;
-}
-
-@keyframes wobble-image {
-	from {
-		transform: rotate(1deg);
-	}
-
-	to {
-		transform: rotate(-1deg);
-	}
-}
-
-@keyframes wobble-text {
-	from {
-		transform: rotate(-2deg);
-	}
-
-	to {
-		transform: rotate(2deg);
-	}
-}
-
-.home-page:has(#motion-toggle:checked) header img {
-	animation: 2s infinite -1s ease-in-out alternate wobble-image;
-}
-
-.home-page:has(#motion-toggle:checked) header svg {
-	animation: 2s infinite -1s ease-in-out alternate wobble-text;
-}
-
-.home-page header img {
-	border-radius: 100%;
-	padding: 10%;
-}
-
-.home-page header svg text {
-	fill: #89cff0;
-	font-family: babycakes;
-	font-size: 36px;
-	text-transform: uppercase;
-}
-
-.home-page .links {
-	display: flex;
-	flex-direction: column;
-	font-size: 1.5rem;
-	gap: 0.5em;
-	margin-block-start: 1em;
-	text-align: center;
 }
 
 .blog h1 {

@@ -4,15 +4,18 @@ title: Blog
 eleventyExcludeFromCollections: true
 ---
 
-<div class="blog">
-    <h1>Blog</h1>
-    {% for post in collections.blogposts | reverse %}
-        <article class="post-preview">
-            <a href="{{ post.url }}">
-                <h2>{{ post.data.title }}</h2>
-            </a>
-            <span class="post-date">{{ post.date | renderFullDate }}</span>
-            {{ post | renderBlogPostSummary | safe }}
-        </article>
-    {% endfor %}
-</div>
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
+<h1>Blog</h1>
+{% for post in collections.blogposts | reverse %}
+    <article class="post-preview">
+        <a href="{{ post.url }}">
+            <h2>{{ post.data.title }}</h2>
+        </a>
+        <span class="post-date">{{ post.date | renderFullDate }}</span>
+        {{ post | renderBlogPostSummary | safe }}
+    </article>
+{% endfor %}

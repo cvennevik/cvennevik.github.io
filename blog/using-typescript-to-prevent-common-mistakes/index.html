@@ -12,16 +12,42 @@
     </head>
     <body>
         
-<header class="page-banner">
-    <a class="home-link" href="/">
+<style>
+    header {
+        text-align: center;
+    }
+
+    header a {
+        display: inline-block;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    header a img {
+        border-radius: 100%;
+        transition: border-width .1s;
+    }
+
+    header a:hover img,
+    header a:focus img {
+        border: .3rem solid var(--home-link-focus-color);
+    }
+</style>
+<header>
+    <a href="/">
         <img src="/img/logo-250px.jpg" title="Home">
     </a>
 </header>
 
+<style>
+    h1 {
+        margin-block-start: 0;
+    }
+</style>
 <a href="/blog/">&larr; Blog</a>
-<article class="blog-post">
+<article>
     <h1>Using TypeScript to prevent common mistakes</h1>
-    <span class="post-date">January 17, 2023</span>
+    <i>January 17, 2023</i>
     <p>I have been struggling to write an article about type systems for about a week now. The ideas and angles I want to take kept changing between each writing session, preventing me from ever completing a single coherent article.</p>
 <p>After venting about this on Mastodon, another user asked me what I thought about static types. They were mostly experienced with dynamically typed languages, and prefer the flexibility they offer.</p>
 <p>It turns out this question was all I needed to focus and get my writing back on track - you may take this blog post as my longform answer.</p>

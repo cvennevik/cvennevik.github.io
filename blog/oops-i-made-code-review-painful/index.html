@@ -12,16 +12,42 @@
     </head>
     <body>
         
-<header class="page-banner">
-    <a class="home-link" href="/">
+<style>
+    header {
+        text-align: center;
+    }
+
+    header a {
+        display: inline-block;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    header a img {
+        border-radius: 100%;
+        transition: border-width .1s;
+    }
+
+    header a:hover img,
+    header a:focus img {
+        border: .3rem solid var(--home-link-focus-color);
+    }
+</style>
+<header>
+    <a href="/">
         <img src="/img/logo-250px.jpg" title="Home">
     </a>
 </header>
 
+<style>
+    h1 {
+        margin-block-start: 0;
+    }
+</style>
 <a href="/blog/">&larr; Blog</a>
-<article class="blog-post">
+<article>
     <h1>Oops, I made code review painful</h1>
-    <span class="post-date">April 14, 2023</span>
+    <i>April 14, 2023</i>
     <p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
 <p>Boy howdy, I do not enjoy this at all.</p>
 <p>There is one critical issue I did not consider in my original post: whether or not the different parts of review were any enjoyable or engaging. As it turns out, by trimming out every &quot;non-essential&quot; concern from my reviews, I have trimmed away every bit of the activity that was somewhat enjoyable and engaging. My slimmed-down review process is fast, efficient, and insufferable.</p>

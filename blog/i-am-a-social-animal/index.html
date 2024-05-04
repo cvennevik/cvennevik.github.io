@@ -12,16 +12,42 @@
     </head>
     <body>
         
-<header class="page-banner">
-    <a class="home-link" href="/">
+<style>
+    header {
+        text-align: center;
+    }
+
+    header a {
+        display: inline-block;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    header a img {
+        border-radius: 100%;
+        transition: border-width .1s;
+    }
+
+    header a:hover img,
+    header a:focus img {
+        border: .3rem solid var(--home-link-focus-color);
+    }
+</style>
+<header>
+    <a href="/">
         <img src="/img/logo-250px.jpg" title="Home">
     </a>
 </header>
 
+<style>
+    h1 {
+        margin-block-start: 0;
+    }
+</style>
 <a href="/blog/">&larr; Blog</a>
-<article class="blog-post">
+<article>
     <h1>I am a social animal</h1>
-    <span class="post-date">February 4, 2023</span>
+    <i>February 4, 2023</i>
     <p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
 <p>I cope with it.</p>
 <p>I muster the energy I have for the day. I devise elaborate techniques to focus myself. I work pomodoros. I meditate. I put on white noise. I journal. I break the work down into little digestible steps.</p>

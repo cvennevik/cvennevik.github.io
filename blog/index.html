@@ -12,89 +12,113 @@
     </head>
     <body>
         
-<header class="page-banner">
-    <a class="home-link" href="/">
+<style>
+    header {
+        text-align: center;
+    }
+
+    header a {
+        display: inline-block;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    header a img {
+        border-radius: 100%;
+        transition: border-width .1s;
+    }
+
+    header a:hover img,
+    header a:focus img {
+        border: .3rem solid var(--home-link-focus-color);
+    }
+</style>
+<header>
+    <a href="/">
         <img src="/img/logo-250px.jpg" title="Home">
     </a>
 </header>
 
-<div class="blog">
-    <h1>Blog</h1>
-    
-        <article class="post-preview">
-            <a href="/blog/fun-with-svg-text/">
-                <h2>Having fun with SVG text</h2>
-            </a>
-            <span class="post-date">February 21, 2024</span>
-            <p>Please let me ramble at you.</p>
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
+<h1>Blog</h1>
 
-        </article>
-    
-        <article class="post-preview">
-            <a href="/blog/oops-i-made-code-review-painful/">
-                <h2>Oops, I made code review painful</h2>
-            </a>
-            <span class="post-date">April 14, 2023</span>
-            <p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
+    <article>
+        <a href="/blog/fun-with-svg-text/">
+            <h2>Having fun with SVG text</h2>
+        </a>
+        <i>February 21, 2024</i>
+        <p>Please let me ramble at you.</p>
+
+    </article>
+
+    <article>
+        <a href="/blog/oops-i-made-code-review-painful/">
+            <h2>Oops, I made code review painful</h2>
+        </a>
+        <i>April 14, 2023</i>
+        <p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
 <p>Boy howdy, I do not enjoy this at all.</p>
 
-        </article>
-    
-        <article class="post-preview">
-            <a href="/blog/a-corner-cutters-confession/">
-                <h2>A corner-cutter&#39;s confession</h2>
-            </a>
-            <span class="post-date">February 9, 2023</span>
-            <p>Listen. I know I should have done this one better.</p>
+    </article>
 
-        </article>
-    
-        <article class="post-preview">
-            <a href="/blog/technical-debt-is-an-incomplete-model/">
-                <h2>&#39;Technical debt&#39; is an incomplete model</h2>
-            </a>
-            <span class="post-date">February 5, 2023</span>
-            <p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
+    <article>
+        <a href="/blog/a-corner-cutters-confession/">
+            <h2>A corner-cutter&#39;s confession</h2>
+        </a>
+        <i>February 9, 2023</i>
+        <p>Listen. I know I should have done this one better.</p>
 
-        </article>
-    
-        <article class="post-preview">
-            <a href="/blog/i-am-a-social-animal/">
-                <h2>I am a social animal</h2>
-            </a>
-            <span class="post-date">February 4, 2023</span>
-            <p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
+    </article>
+
+    <article>
+        <a href="/blog/technical-debt-is-an-incomplete-model/">
+            <h2>&#39;Technical debt&#39; is an incomplete model</h2>
+        </a>
+        <i>February 5, 2023</i>
+        <p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
+
+    </article>
+
+    <article>
+        <a href="/blog/i-am-a-social-animal/">
+            <h2>I am a social animal</h2>
+        </a>
+        <i>February 4, 2023</i>
+        <p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
 <p>I cope with it.</p>
 
-        </article>
-    
-        <article class="post-preview">
-            <a href="/blog/type-constraints-with-class-constructors/">
-                <h2>Enforcing advanced type constraints with class constructors in TypeScript</h2>
-            </a>
-            <span class="post-date">January 20, 2023</span>
-            <p>For those really hard-to-define types.</p>
+    </article>
 
-        </article>
-    
-        <article class="post-preview">
-            <a href="/blog/using-typescript-to-prevent-common-mistakes/">
-                <h2>Using TypeScript to prevent common mistakes</h2>
-            </a>
-            <span class="post-date">January 17, 2023</span>
-            <p>A partial answer to what I like about static type systems.</p>
+    <article>
+        <a href="/blog/type-constraints-with-class-constructors/">
+            <h2>Enforcing advanced type constraints with class constructors in TypeScript</h2>
+        </a>
+        <i>January 20, 2023</i>
+        <p>For those really hard-to-define types.</p>
 
-        </article>
-    
-        <article class="post-preview">
-            <a href="/blog/code-reviews-are-overloaded/">
-                <h2>Code reviews are overloaded</h2>
-            </a>
-            <span class="post-date">January 7, 2023</span>
-            <p>On the pains of mandated code reviews, and how to reduce them.</p>
+    </article>
 
-        </article>
-    
-</div>
+    <article>
+        <a href="/blog/using-typescript-to-prevent-common-mistakes/">
+            <h2>Using TypeScript to prevent common mistakes</h2>
+        </a>
+        <i>January 17, 2023</i>
+        <p>A partial answer to what I like about static type systems.</p>
+
+    </article>
+
+    <article>
+        <a href="/blog/code-reviews-are-overloaded/">
+            <h2>Code reviews are overloaded</h2>
+        </a>
+        <i>January 7, 2023</i>
+        <p>On the pains of mandated code reviews, and how to reduce them.</p>
+
+    </article>
+
     </body>
 </html>

@@ -12,8 +12,29 @@
     </head>
     <body>
         
-<header class="page-banner">
-    <a class="home-link" href="/">
+<style>
+    header {
+        text-align: center;
+    }
+
+    header a {
+        display: inline-block;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    header a img {
+        border-radius: 100%;
+        transition: border-width .1s;
+    }
+
+    header a:hover img,
+    header a:focus img {
+        border: .3rem solid var(--home-link-focus-color);
+    }
+</style>
+<header>
+    <a href="/">
         <img src="/img/logo-250px.jpg" title="Home">
     </a>
 </header>

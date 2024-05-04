@@ -12,16 +12,42 @@
     </head>
     <body>
         
-<header class="page-banner">
-    <a class="home-link" href="/">
+<style>
+    header {
+        text-align: center;
+    }
+
+    header a {
+        display: inline-block;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    header a img {
+        border-radius: 100%;
+        transition: border-width .1s;
+    }
+
+    header a:hover img,
+    header a:focus img {
+        border: .3rem solid var(--home-link-focus-color);
+    }
+</style>
+<header>
+    <a href="/">
         <img src="/img/logo-250px.jpg" title="Home">
     </a>
 </header>
 
+<style>
+    h1 {
+        margin-block-start: 0;
+    }
+</style>
 <a href="/blog/">&larr; Blog</a>
-<article class="blog-post">
+<article>
     <h1>Having fun with SVG text</h1>
-    <span class="post-date">February 21, 2024</span>
+    <i>February 21, 2024</i>
     <p>Last weekend, I redesigned my blog. As part of this redesign, I wanted to make something fun for my front page. I started sketching a bit on paper, got an idea, and soon I was doing a search for &quot;css curved text&quot;.</p>
 <p>The first result I found was the <a href="https://css-tricks.com/snippets/svg/curved-text-along-path/">Curved Text Along a Path tutorial</a> by Geoff Graham on CSS Tricks. It demonstrates how to add curved text to a web page using an inline SVG.</p>
 <p>It was perfect.</p>

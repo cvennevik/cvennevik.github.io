@@ -158,6 +158,34 @@ figcaption {
 	width: 100%;
 }
 
+@keyframes wobble-image {
+	from {
+		transform: rotate(1deg);
+	}
+
+	to {
+		transform: rotate(-1deg);
+	}
+}
+
+@keyframes wobble-text {
+	from {
+		transform: rotate(-2deg);
+	}
+
+	to {
+		transform: rotate(2deg);
+	}
+}
+
+.home-page:has(#motion-toggle:checked) header img {
+	animation: 2s infinite -1s ease-in-out alternate wobble-image;
+}
+
+.home-page:has(#motion-toggle:checked) header svg {
+	animation: 2s infinite -1s ease-in-out alternate wobble-text;
+}
+
 .home-page header img {
 	border-radius: 100%;
 	padding: 10%;

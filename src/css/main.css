@@ -92,7 +92,7 @@ blockquote {
 	padding: 0 1rem;
 }
 
-code {
+:not(pre) > code {
 	background-color: var(--code-background-color);
 }
 

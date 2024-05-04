@@ -121,31 +121,3 @@ figcaption {
 	margin-top: .5em;
 	text-align: center;
 }
-
-.page-banner {
-	text-align: center;
-}
-
-.home-link {
-	display: inline-block;
-	height: 6rem;
-	width: 6rem;
-}
-
-.home-link img {
-	border-radius: 100%;
-	transition: border-width .1s;
-}
-
-.home-link:hover img,
-.home-link:focus img {
-	border: .3rem solid var(--home-link-focus-color);
-}
-
-.post-date {
-	font-style: italic;
-}
-
-.blog-post h1 {
-	margin-block-start: 0;
-}

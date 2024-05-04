@@ -2,9 +2,14 @@
 layout: page.njk
 ---
 
+<style>
+    h1 {
+        margin-block-start: 0;
+    }
+</style>
 <a href="/blog/">&larr; Blog</a>
-<article class="blog-post">
+<article>
     <h1>{{ title }}</h1>
-    <span class="post-date">{{ date | renderFullDate }}</span>
+    <i>{{ date | renderFullDate }}</i>
     {{ content | safe }}
 </article>

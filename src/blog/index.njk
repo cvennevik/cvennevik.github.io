@@ -11,11 +11,11 @@ eleventyExcludeFromCollections: true
 </style>
 <h1>Blog</h1>
 {% for post in collections.blogposts | reverse %}
-    <article class="post-preview">
+    <article>
         <a href="{{ post.url }}">
             <h2>{{ post.data.title }}</h2>
         </a>
-        <span class="post-date">{{ post.date | renderFullDate }}</span>
+        <i>{{ post.date | renderFullDate }}</i>
         {{ post | renderBlogPostSummary | safe }}
     </article>
 {% endfor %}

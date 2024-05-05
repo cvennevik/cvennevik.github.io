@@ -8,7 +8,6 @@
         <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/rss.xml" type="application/rss+xml">
         <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/atom.xml" type="application/atom+xml">
         <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/prism-a11y-dark.css">
     </head>
     <body>
         
@@ -55,88 +54,95 @@
 <p>Here's a few examples to illustrate the types of mistakes I'm talking about, and how adding static types with TypeScript helps prevent them.</p>
 <h2 id="mistake-%231%3A-accessing-undefined-property-names">Mistake #1: Accessing undefined property names</h2>
 <p>Say we are working with an object containing user profile data, and we want to send an email to that user. To do this, we access the user's email address via <code>user.emailAddress</code> and pass it to <code>sendEmail</code>.</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">sendEmailToUser</span> <span class="token punctuation">(</span>user<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token function">sendEmail</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span>emailAddress<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+<pre><code class="language-ts">function sendEmailToUser (user) {
+    sendEmail(user.emailAddress);
+}
+</code></pre>
 <p>But what if we are mistaken? What if the <code>user</code> object's property is actually named <code>emailaddress</code>, or <code>address</code>, or <code>username</code>, or - gasp - it does not actually have a property for email address at all? Well, then this code will instead attempt to send an email to <code>undefined</code>. That's no good.</p>
 <p>To check for this potential issue, let us say we found the <code>UserProfile</code> type that describes the user data we expect, and specify that <code>user</code> is of type <code>UserProfile</code>.</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">interface</span> <span class="token class-name">UserProfile</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-    contactInfo<span class="token operator">:</span> <span class="token punctuation">{</span>
-        <span class="token comment">// ...</span>
-        emailAddress<span class="token operator">:</span> <span class="token builtin">string</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+<pre><code class="language-ts">interface UserProfile {
+    // ...
+    contactInfo: {
+        // ...
+        emailAddress: string
+    }
+}
 
-<span class="token keyword">function</span> <span class="token function">sendEmailToUser</span> <span class="token punctuation">(</span>user<span class="token operator">:</span> UserProfile<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token function">sendEmail</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span>emailAddress<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Causes a build error!</span>
-<span class="token punctuation">}</span></code></pre>
+function sendEmailToUser (user: UserProfile) {
+    sendEmail(user.emailAddress); // Causes a build error!
+}
+</code></pre>
 <p>Oops! It turns out the <code>user.emailAddress</code> property does not exist. Now, because we are trying to access a property that does not exist on <code>UserProfile</code>, the TypeScript compiler produces an error.</p>
 <p>The <code>UserProfile</code> type instead tells us that a <code>user.contactInfo.emailAddress</code> property exists. This is likely what we actually wanted to use, and replacing <code>user.emailAddress</code> with this will make the error go away.</p>
 <h2 id="mistake-%232%3A-passing-invalid-data">Mistake #2: Passing invalid data</h2>
 <p>Say we are working with a map, and want to place an icon at the spot where the user's mouse pointer is:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">getMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-<span class="token punctuation">}</span>
+<pre><code class="language-ts">function getMousePosition () {
+    // ...
+}
 
-<span class="token keyword">function</span> <span class="token function">setIconPosition</span> <span class="token punctuation">(</span>position<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-<span class="token punctuation">}</span>
+function setIconPosition (position) {
+    // ...
+}
 
-<span class="token keyword">function</span> <span class="token function">placeIconAtMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> mousePosition <span class="token operator">=</span> <span class="token function">getMousePosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">setIconPosition</span><span class="token punctuation">(</span>mousePosition<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+function placeIconAtMousePosition () {
+    const mousePosition = getMousePosition();
+    setIconPosition(mousePosition);
+}
+</code></pre>
 <p>What can go wrong here? Well, we do not know the structure of the data <code>getMousePosition</code> returns, nor what <code>setIconPosition</code> accepts. Even if we already know we are working with longitude and latitude positions in the same coordinate system, the position could be represented as a <code>{ lon, lat }</code> object, or an <code>{ x, y }</code> object, or a <code>[lon, lat]</code> array (or even a <code>[lat, lon]</code> array!).</p>
 <p>Without type annotations, this code looks perfectly valid, even if the data structures may be incompatible. Now, if we add the correct types to the functions using TypeScript, the incompatibility comes to light:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">getMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token punctuation">{</span> lon<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> lat<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token punctuation">}</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-<span class="token punctuation">}</span>
+<pre><code class="language-ts">function getMousePosition (): { lon: number, lat: number } {
+    // ...
+}
 
-<span class="token keyword">function</span> <span class="token function">setIconPosition</span> <span class="token punctuation">(</span>position<span class="token operator">:</span> <span class="token punctuation">{</span> x<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> y<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-<span class="token punctuation">}</span>
+function setIconPosition (position: { x: number, y: number }) {
+    // ...
+}
 
-<span class="token keyword">function</span> <span class="token function">placeIconAtMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> mousePosition <span class="token operator">=</span> <span class="token function">getMousePosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">setIconPosition</span><span class="token punctuation">(</span>mousePosition<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Causes a build error!</span>
-<span class="token punctuation">}</span></code></pre>
+function placeIconAtMousePosition () {
+    const mousePosition = getMousePosition();
+    setIconPosition(mousePosition); // Causes a build error!
+}
+</code></pre>
 <p>With the function types specified, TypeScript reports that we made a mistake passing <code>mousePosition</code> directly into <code>setIconPosition</code>. Instead, we should convert the <code>{ lon, lat }</code> object to an <code>{ x, y }</code> object.</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">placeIconAtMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> mousePosition <span class="token operator">=</span> <span class="token function">getMousePosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">setIconPosition</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-        x<span class="token operator">:</span> mousePosition<span class="token punctuation">.</span>lon<span class="token punctuation">,</span>
-        y<span class="token operator">:</span> mousePosition<span class="token punctuation">.</span>lat
-    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+<pre><code class="language-ts">function placeIconAtMousePosition () {
+    const mousePosition = getMousePosition();
+    setIconPosition({
+        x: mousePosition.lon,
+        y: mousePosition.lat
+    });
+}
+</code></pre>
 <h2 id="mistake-%233%3A-not-handling-undefined-values">Mistake #3: Not handling undefined values</h2>
 <p>The third common mistake TypeScript can prevent is the famed <em>&quot;billion dollar mistake&quot;</em>: <s>null</s> undefined values!</p>
 <p>Let's reuse the map position code example and see what happens when we modify it. Say we change the implementation of <code>getMousePosition</code> so it returns <code>undefined</code> when the mouse is outside the map. TypeScript will not permit this since this does not match the return type of <code>getMousePosition</code>, so we change the return type so it can also be <code>undefined</code>:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">getMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token punctuation">{</span> lon<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> lat<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token punctuation">}</span> <span class="token operator">|</span> <span class="token keyword">undefined</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-<span class="token punctuation">}</span>
+<pre><code class="language-ts">function getMousePosition (): { lon: number, lat: number } | undefined {
+    // ...
+}
 
-<span class="token keyword">function</span> <span class="token function">setIconPosition</span> <span class="token punctuation">(</span>position<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-<span class="token punctuation">}</span>
+function setIconPosition (position) {
+    // ...
+}
 
-<span class="token keyword">function</span> <span class="token function">placeIconAtMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> mousePosition <span class="token operator">=</span> <span class="token function">getMousePosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">setIconPosition</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-        x<span class="token operator">:</span> mousePosition<span class="token punctuation">.</span>lon<span class="token punctuation">,</span> <span class="token comment">// Causes a build error!</span>
-        y<span class="token operator">:</span> mousePosition<span class="token punctuation">.</span>lat
-    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+function placeIconAtMousePosition () {
+    const mousePosition = getMousePosition();
+    setIconPosition({
+        x: mousePosition.lon, // Causes a build error!
+        y: mousePosition.lat
+    });
+}
+</code></pre>
 <p>Oh no! This change actually breaks <code>placeIconAtMousePosition</code>, because it was written with the assumption that <code>getMousePosition</code> always returns a valid position. When it instead returns <code>undefined</code>, the code will throw a runtime error when trying to access <code>mousePosition.lon</code>.</p>
 <p>If we were working with untyped JavaScript, this mistake may have managed to sneak in. Luckily, TypeScript caught this error for us. It refuses to compile until we have correctly handled the case where <code>mousePosition</code> is undefined. If we add a check for it, the error disappears:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">placeIconAtMousePosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> mousePosition <span class="token operator">=</span> <span class="token function">getMousePosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>mousePosition <span class="token operator">===</span> <span class="token keyword">undefined</span><span class="token punctuation">)</span> <span class="token keyword">return</span><span class="token punctuation">;</span>
-    <span class="token function">setIconPosition</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-        x<span class="token operator">:</span> mousePosition<span class="token punctuation">.</span>lon<span class="token punctuation">,</span>
-        y<span class="token operator">:</span> mousePosition<span class="token punctuation">.</span>lat
-    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+<pre><code class="language-ts">function placeIconAtMousePosition() {
+    const mousePosition = getMousePosition();
+    if (mousePosition === undefined) return;
+    setIconPosition({
+        x: mousePosition.lon,
+        y: mousePosition.lat
+    });
+}
+</code></pre>
 <p>I like to set up development environments so it is easy to write correct code and hard to write incorrect code. Static types are only one of several tools I use for this, but they are one of my favorites. They tell us what we can and cannot do with our data, and they are effective for catching very common mistakes. Because of this, I find the overhead of opting into static typing with TypeScript well worth it.</p>
 
 </article>

@@ -8,7 +8,6 @@
         <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/rss.xml" type="application/rss+xml">
         <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/atom.xml" type="application/atom+xml">
         <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/prism-a11y-dark.css">
     </head>
     <body>
         
@@ -73,89 +72,94 @@
 <p>Key to this technique being widely applicable is that <strong>you are allowed to write class wrappers for single values.</strong> You incur some overhead for having to instantiate each value as a class, and having to access the instance's value to use it, but in return you can enforce any constraint you can imagine in its constructor. Make this tradeoff at your own discretion.</p>
 <p>To illustrate the technique, I've spun up a few examples showing what you can do with it.</p>
 <h2 id="a-palindrome-type">A palindrome type</h2>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">class</span> <span class="token class-name">Palindrome</span> <span class="token punctuation">{</span>
-    <span class="token keyword">readonly</span> value<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+<pre><code class="language-ts">class Palindrome {
+    readonly value: string;
 
-    <span class="token function">constructor</span> <span class="token punctuation">(</span>value<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">const</span> reversedValue <span class="token operator">=</span> value<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">reverse</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>value <span class="token operator">!==</span> reversedValue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">"</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>value<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">" is not a palindrome</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
+    constructor (value: string) {
+        const reversedValue = value.split('').reverse().join('');
+        if (value !== reversedValue) {
+            throw new Error(`&quot;${value}&quot; is not a palindrome`);
+        }
 
-        <span class="token keyword">this</span><span class="token punctuation">.</span>value <span class="token operator">=</span> value<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span></code></pre>
+        this.value = value;
+    }
+}
+</code></pre>
 <p>To ensure the string is a palindrome, we reverse it and check if the reversed string is equal to the original string. If not, we throw an error. Then we save the string to the <code>value</code> field.</p>
 <p>In practice, usage looks like this:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">const</span> palindrome <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Palindrome</span><span class="token punctuation">(</span><span class="token string">'())('</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>palindrome<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: Palindrome { value: '())(' }</span>
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>palindrome<span class="token punctuation">.</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: '())('</span>
+<pre><code class="language-ts">const palindrome = new Palindrome('())(');
+console.log(palindrome); // Output: Palindrome { value: '())(' }
+console.log(palindrome.value); // Output: '())('
 
-<span class="token keyword">const</span> invalidPalindrome <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Palindrome</span><span class="token punctuation">(</span><span class="token string">'(())'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment">// Error: "(())" is not a palindrome</span></code></pre>
+const invalidPalindrome = new Palindrome('(())');
+// Error: &quot;(())&quot; is not a palindrome
+</code></pre>
 <p>The <code>Palindrome</code> class guarantees that every instance of <code>Palindrome</code> contains a string that has passed the constructor validation. If you have any functions that <em>must</em> have a palindrome, the <code>Palindrome</code> type is an effective way to enforce it.</p>
 <p>If you would rather not throw an error, but check if the string is a palindrome and handle the invalid case another way, you can create a parse method that wraps the palindrome creation in a <code>try</code> block, and return <code>undefined</code> if it fails:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">class</span> <span class="token class-name">Palindrome</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
+<pre><code class="language-ts">class Palindrome {
+    // ...
 
-    <span class="token keyword">static</span> <span class="token function">parse</span> <span class="token punctuation">(</span>value<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span><span class="token operator">:</span> Palindrome <span class="token operator">|</span> <span class="token keyword">undefined</span> <span class="token punctuation">{</span>
-        <span class="token keyword">try</span> <span class="token punctuation">{</span>
-            <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Palindrome</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>error<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">return</span> error<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+    static parse (value: string): Palindrome | undefined {
+        try {
+            return new Palindrome(value);
+        } catch (error) {
+            return error;
+        }
+    }
+}
 
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Palindrome<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span><span class="token string">'())('</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: Palindrome { value: '())(' }</span>
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Palindrome<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span><span class="token string">'(())'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: undefined</span></code></pre>
+console.log(Palindrome.parse('())(')); // Output: Palindrome { value: '())(' }
+console.log(Palindrome.parse('(())')); // Output: undefined
+</code></pre>
 <h2 id="a-sorted-array">A sorted array</h2>
 <p>A constructor does not have to throw errors to ensure a constraint. It can also do the work to transform data to a desired form, then pin it in place.</p>
 <p>For instance, you can create a <code>SortedArray</code> class that sorts your array for you:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">class</span> <span class="token class-name">SortedArray<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token punctuation">{</span>
-    <span class="token comment">// Mark as ReadonlyArray to ensure contents stay sorted</span>
-    <span class="token keyword">readonly</span> contents<span class="token operator">:</span> ReadonlyArray<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span><span class="token punctuation">;</span>
+<pre><code class="language-ts">class SortedArray&lt;T&gt; {
+    // Mark as ReadonlyArray to ensure contents stay sorted
+    readonly contents: ReadonlyArray&lt;T&gt;;
 
-    <span class="token function">constructor</span> <span class="token punctuation">(</span>contents<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token comment">// Copy the array so we do not reorder the original array,</span>
-        <span class="token comment">// and prevent changes to the original array from affecting our sorted array</span>
-        <span class="token keyword">const</span> copy <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token operator">...</span>contents<span class="token punctuation">]</span><span class="token punctuation">;</span>
-        copy<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>contents <span class="token operator">=</span> copy<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+    constructor (contents: T[]) {
+        // Copy the array so we do not reorder the original array,
+        // and prevent changes to the original array from affecting our sorted array
+        const copy = [...contents];
+        copy.sort();
+        this.contents = copy;
+    }
+}
 
-<span class="token keyword">const</span> sortedArray <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SortedArray</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>sortedArray<span class="token punctuation">.</span>contents<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: [ 0, 2, 3, 4, 4, 5 ]</span></code></pre>
+const sortedArray = new SortedArray([0, 5, 3, 4, 4, 2]);
+console.log(sortedArray.contents); // Output: [ 0, 2, 3, 4, 4, 5 ]
+</code></pre>
 <p>This may be useful if you are working with algorithms that expect a sorted array, like search.</p>
 <h2 id="a-range-with-an-estimate">A range with an estimate</h2>
 <p>Classes can, of course, also enforce constraints for multiple values. While I was experimenting with a game-playing traditional AI, my search algorithm used an <code>EstimateRange</code> data type to describe the minimum, estimate, and maximum value of a given game state. To make sense, the minimum cannot be greater than the maximum, and the estimate must be between them.</p>
 <p>Here is how this can be enforced in TypeScript:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">class</span> <span class="token class-name">EstimateRange</span> <span class="token punctuation">{</span>
-    <span class="token keyword">readonly</span> minimum<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
-    <span class="token keyword">readonly</span> estimate<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
-    <span class="token keyword">readonly</span> maximum<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<pre><code class="language-ts">class EstimateRange {
+    readonly minimum: number;
+    readonly estimate: number;
+    readonly maximum: number;
 
-    <span class="token function">constructor</span> <span class="token punctuation">(</span>minimum<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> estimate<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> maximum<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>minimum <span class="token operator">></span> maximum<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Minimum (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>minimum<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">) is greater than maximum (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>maximum<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">)</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>estimate <span class="token operator">></span> maximum<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Estimate (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>estimate<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">) is greater than maximum (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>maximum<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">)</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>estimate <span class="token operator">&lt;</span> minimum<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Estimate (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>estimate<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">) is less than minimum (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>minimum<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">)</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
+    constructor (minimum: number, estimate: number, maximum: number) {
+        if (minimum &gt; maximum) {
+            throw new Error(`Minimum (${minimum}) is greater than maximum (${maximum})`);
+        } else if (estimate &gt; maximum) {
+            throw new Error(`Estimate (${estimate}) is greater than maximum (${maximum})`);
+        } else if (estimate &lt; minimum) {
+            throw new Error(`Estimate (${estimate}) is less than minimum (${minimum})`);
+        }
 
-        <span class="token keyword">this</span><span class="token punctuation">.</span>minimum <span class="token operator">=</span> minimum<span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>estimate <span class="token operator">=</span> estimate<span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>maximum <span class="token operator">=</span> maximum<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+        this.minimum = minimum;
+        this.estimate = estimate;
+        this.maximum = maximum;
+    }
+}
 
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EstimateRange</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment">// Output: EstimateRange { minimum: 0, estimate: 7, maximum: 10 }</span>
+console.log(new EstimateRange(0, 7, 10));
+// Output: EstimateRange { minimum: 0, estimate: 7, maximum: 10 }
 
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EstimateRange</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment">// Error: Minimum (10) is greater than maximum (0)</span></code></pre>
+console.log(new EstimateRange(10, 7, 0));
+// Error: Minimum (10) is greater than maximum (0)
+</code></pre>
 <p>The point I am trying to make with the variety of examples is that there is a lot you can do with classes. The constraints you can enforce are mostly limited by your imagination.</p>
 <h2 id="a-warning">A warning</h2>
 <p>This trick comes with a caveat: <strong>If possible, you are better off enforcing constraints with simpler alternatives.</strong> I prefer using more concise type system features when I can. For TypeScript, you can browse the <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html">Everyday Types</a>, <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html">Object Types</a> and <a href="https://www.typescriptlang.org/docs/handbook/2/types-from-types.html">Creating Types from Types</a> pages of the TypeScript handbook for inspiration.</p>

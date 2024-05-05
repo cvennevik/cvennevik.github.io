@@ -29,20 +29,21 @@
 <p>Still here?</p>
 <p>Good! Let's jump in.</p>
 <h2 id="where-we're-going%2C-we-don't-need-photoshop">Where we're going, we don't need Photoshop</h2>
-<pre class="language-html"><code class="language-html">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">></span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>svg</span> <span class="token attr-name">viewBox</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0 0 500 500<span class="token punctuation">"</span></span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>http://www.w3.org/2000/svg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Welcome to my website<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>top-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 100 C 100 90, 250 -40, 400 100<span class="token punctuation">"</span></span> <span class="token attr-name">stroke</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span> <span class="token attr-name">fill</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bottom-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 400 C 100 410, 250 540, 400 400<span class="token punctuation">"</span></span> <span class="token attr-name">stroke</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span> <span class="token attr-name">fill</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>text</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">textLength</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>340<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textPath</span> <span class="token attr-name"><span class="token namespace">xlink:</span>href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#top-curve<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Welcome to<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textPath</span><span class="token punctuation">></span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>text</span><span class="token punctuation">></span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>text</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">textLength</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>340<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textPath</span> <span class="token attr-name"><span class="token namespace">xlink:</span>href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#bottom-curve<span class="token punctuation">"</span></span> <span class="token attr-name">dominant-baseline</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>hanging<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>my website<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textPath</span><span class="token punctuation">></span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>text</span><span class="token punctuation">></span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>svg</span><span class="token punctuation">></span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/img/logo-500px.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>A seal in a wine glass<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>header</span><span class="token punctuation">></span></span></code></pre>
+<pre><code class="language-html">&lt;header&gt;
+    &lt;svg viewBox=&quot;0 0 500 500&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+        &lt;title&gt;Welcome to my website&lt;/title&gt;
+        &lt;path id=&quot;top-curve&quot; d=&quot;M 100 100 C 100 90, 250 -40, 400 100&quot; stroke=&quot;transparent&quot; fill=&quot;transparent&quot;/&gt;
+        &lt;path id=&quot;bottom-curve&quot; d=&quot;M 100 400 C 100 410, 250 540, 400 400&quot; stroke=&quot;transparent&quot; fill=&quot;transparent&quot;/&gt;
+        &lt;text aria-hidden=&quot;true&quot; textLength=&quot;340&quot;&gt;
+            &lt;textPath xlink:href=&quot;#top-curve&quot;&gt;Welcome to&lt;/textPath&gt;
+        &lt;/text&gt;
+        &lt;text aria-hidden=&quot;true&quot; textLength=&quot;340&quot;&gt;
+            &lt;textPath xlink:href=&quot;#bottom-curve&quot; dominant-baseline=&quot;hanging&quot;&gt;my website&lt;/textPath&gt;
+        &lt;/text&gt;
+    &lt;/svg&gt;
+    &lt;img src=&quot;/img/logo-500px.jpg&quot; alt=&quot;A seal in a wine glass&quot;&gt;
+&lt;/header&gt;
+</code></pre>
 <p>This is the complete HTML for the front page header image and text. It is made up of two main elements:</p>
 <ul>
 <li>The <code>&lt;img&gt;</code> element, which draws the circular photo in the middle.</li>
@@ -69,48 +70,51 @@
 <li>They shrink on smaller screens.</li>
 <li>They are placed directly on top of each other.</li>
 </ul>
-<pre class="language-css"><code class="language-css"><span class="token selector">.home-page header</span> <span class="token punctuation">{</span>
-    <span class="token property">display</span><span class="token punctuation">:</span> grid<span class="token punctuation">;</span>
-    <span class="token property">margin</span><span class="token punctuation">:</span> 40px 0px<span class="token punctuation">;</span>
-    <span class="token property">max-width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span> <span class="token comment">/* Will shrink, but keep height proportional if the screen is narrow */</span>
-<span class="token punctuation">}</span>
+<pre><code class="language-css">.home-page header {
+    display: grid;
+    margin: 40px 0px;
+    max-width: 500px; /* Will shrink, but keep height proportional if the screen is narrow */
+}
 
-<span class="token selector">.home-page header *</span> <span class="token punctuation">{</span>
-    <span class="token comment">/* Place all child elements in the same, single cell of the grid */</span>
-    <span class="token property">grid-column</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
-    <span class="token property">grid-row</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
-    <span class="token comment">/* Ensure identical height and width */</span>
-    <span class="token property">height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
-    <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
+.home-page header * {
+    /* Place all child elements in the same, single cell of the grid */
+    grid-column: 1;
+    grid-row: 1;
+    /* Ensure identical height and width */
+    height: 100%;
+    width: 100%;
+}
 
-<span class="token selector">.home-page header img</span> <span class="token punctuation">{</span>
-    <span class="token property">z-index</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
-    <span class="token property">border-radius</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span> <span class="token comment">/* Makes the image circular */</span>
-    <span class="token property">padding</span><span class="token punctuation">:</span> 10%<span class="token punctuation">;</span> <span class="token comment">/* Clears space for text around the image */</span>
-<span class="token punctuation">}</span>
+.home-page header img {
+    z-index: 1;
+    border-radius: 100%; /* Makes the image circular */
+    padding: 10%; /* Clears space for text around the image */
+}
 
-<span class="token selector">.home-page header svg</span> <span class="token punctuation">{</span>
-    <span class="token property">z-index</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+.home-page header svg {
+    z-index: 2;
+}
+</code></pre>
 <p>The image is made square by, well, being a square image. The SVG is made square by the <code>viewBox=&quot;0 0 500 500&quot;</code> property, which defines the internal dimensions of the SVG - the draw positions range from <code>(0,0)</code> to <code>(500,500)</code>.</p>
 <p>And while we're in CSS world - the actual SVG text is also styled using CSS!</p>
-<pre class="language-css"><code class="language-css"><span class="token selector">.home-page header svg text</span> <span class="token punctuation">{</span>
-    <span class="token property">fill</span><span class="token punctuation">:</span> #89cff0<span class="token punctuation">;</span>
-    <span class="token property">font-family</span><span class="token punctuation">:</span> babycakes<span class="token punctuation">;</span> <span class="token comment">/* Balloon font! https://www.fontspace.com/babycakes-font-f20531 */</span>
-    <span class="token property">font-size</span><span class="token punctuation">:</span> 36px<span class="token punctuation">;</span>
-    <span class="token property">text-transform</span><span class="token punctuation">:</span> uppercase<span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+<pre><code class="language-css">.home-page header svg text {
+    fill: #89cff0;
+    font-family: babycakes; /* Balloon font! https://www.fontspace.com/babycakes-font-f20531 */
+    font-size: 36px;
+    text-transform: uppercase;
+}
+</code></pre>
 <h2 id="text%2C-paths%2C-and-text-paths">Text, paths, and text paths</h2>
 <p>Let's look at the contents of the <code>&lt;svg&gt;</code> again, and remove <code>&lt;title&gt;</code> and <code>aria-hidden</code> for brevity.</p>
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>top-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 100 C 100 90, 250 -40, 400 100<span class="token punctuation">"</span></span> <span class="token attr-name">stroke</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span> <span class="token attr-name">fill</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bottom-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 400 C 100 410, 250 540, 400 400<span class="token punctuation">"</span></span> <span class="token attr-name">stroke</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span> <span class="token attr-name">fill</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>text</span> <span class="token attr-name">textLength</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>340<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textPath</span> <span class="token attr-name"><span class="token namespace">xlink:</span>href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#top-curve<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Welcome to<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textPath</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>text</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>text</span> <span class="token attr-name">textLength</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>340<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textPath</span> <span class="token attr-name"><span class="token namespace">xlink:</span>href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#bottom-curve<span class="token punctuation">"</span></span> <span class="token attr-name">dominant-baseline</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>hanging<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>my website<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textPath</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>text</span><span class="token punctuation">></span></span></code></pre>
+<pre><code class="language-html">&lt;path id=&quot;top-curve&quot; d=&quot;M 100 100 C 100 90, 250 -40, 400 100&quot; stroke=&quot;transparent&quot; fill=&quot;transparent&quot;/&gt;
+&lt;path id=&quot;bottom-curve&quot; d=&quot;M 100 400 C 100 410, 250 540, 400 400&quot; stroke=&quot;transparent&quot; fill=&quot;transparent&quot;/&gt;
+&lt;text textLength=&quot;340&quot;&gt;
+    &lt;textPath xlink:href=&quot;#top-curve&quot;&gt;Welcome to&lt;/textPath&gt;
+&lt;/text&gt;
+&lt;text textLength=&quot;340&quot;&gt;
+    &lt;textPath xlink:href=&quot;#bottom-curve&quot; dominant-baseline=&quot;hanging&quot;&gt;my website&lt;/textPath&gt;
+&lt;/text&gt;
+</code></pre>
 <p>The <code>&lt;text&gt;</code> elements draw text. The <code>textLength</code> attributes say how many pixels long the text should be, and squishes or stretches the text to make it so. I gave both the top and bottom text elements <code>textLength=&quot;340&quot;</code> so they would stretch evenly left-to-right.</p>
 <p>Inside them are the <code>&lt;textPath&gt;</code> elements, which draw text along a given path. The <code>xlink:href</code> attributes say which path they should follow. The <code>dominant-baseline=&quot;hanging&quot;</code> attribute places the bottom text <em>below</em> the path, instead of above it.</p>
 <p>Finally, the transparent <code>&lt;path&gt;</code> elements supply the curves, as defined by their <code>d</code> attribute.</p>
@@ -128,23 +132,27 @@
 <p>I cannot hope to give a servicable tutorial for how they work - try the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Bezier_curve">Bézier curve tutorial</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths">SVG Paths tutorial</a> on MDN for that.</p>
 <p>In short, they consist of some number of <em>control points</em>, and move from the first control point to the final control point via the fun math-y thing the animation demonstrates. Two control points makes a linear curve (a line), three makes a quadratic curve, four makes a cubic curve, and so on.</p>
 <p>This gave me just enough to go on to make a symmetric pair of cubic curves that gently curve around the image.</p>
-<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Cubic curve from (100,100), via (100,90) and (250,-40), to (400,100) --></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>top-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 100 C 100 90, 250 -40, 400 100<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span></code></pre>
+<pre><code class="language-html">&lt;!-- Cubic curve from (100,100), via (100,90) and (250,-40), to (400,100) --&gt;
+&lt;path id=&quot;top-curve&quot; d=&quot;M 100 100 C 100 90, 250 -40, 400 100&quot;/&gt;
+</code></pre>
 <p>Now, uh. In the middle of writing this, while reading the linked SVG Paths tutorial, I realized I could have made this using a simpler quadratic curve instead.</p>
-<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Quadratic curve from (100,95), via (250,-25), to (400,94) --></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>top-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 95 Q 250 -25, 400 95<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span></code></pre>
+<pre><code class="language-html">&lt;!-- Quadratic curve from (100,95), via (250,-25), to (400,94) --&gt;
+&lt;path id=&quot;top-curve&quot; d=&quot;M 100 95 Q 250 -25, 400 95&quot;/&gt;
+</code></pre>
 <p>And. I also realized there's a non-Bézier &quot;arc&quot; curve. For drawing arcs. Like around a circle.</p>
-<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- Arc from (100,100), in a 210 px radius with sweep-flag enabled, to (400,100) --></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>top-curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 100 A 210 210 0 0 1 400 100<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span></code></pre>
+<pre><code class="language-html">&lt;!-- Arc from (100,100), in a 210 px radius with sweep-flag enabled, to (400,100) --&gt;
+&lt;path id=&quot;top-curve&quot; d=&quot;M 100 100 A 210 210 0 0 1 400 100&quot;/&gt;
+</code></pre>
 <p>It turns out arcs are a little bit complicated so for this use case I'm happy keeping it a Bézier curve.</p>
 <p>Though... throwing a couple of arcs together <em>is</em> a simple way to draw a full circle path... so maybe...</p>
 <p>I've already written up everything I learned so far, so let's close on this.</p>
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>curve<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M 100 100 A 210 210 0 0 1 400 400 A 210 210 0 0 1 100 100<span class="token punctuation">"</span></span> <span class="token attr-name">stroke</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span> <span class="token attr-name">fill</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>transparent<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>text</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">textLength</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1320<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>textPath</span> <span class="token attr-name"><span class="token namespace">xlink:</span>href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#curve<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<pre><code class="language-html">&lt;path id=&quot;curve&quot; d=&quot;M 100 100 A 210 210 0 0 1 400 400 A 210 210 0 0 1 100 100&quot; stroke=&quot;transparent&quot; fill=&quot;transparent&quot;/&gt;
+&lt;text aria-hidden=&quot;true&quot; textLength=&quot;1320&quot;&gt;
+    &lt;textPath xlink:href=&quot;#curve&quot;&gt;
         Imperial futures are only ever stolen presents.
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>textPath</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>text</span><span class="token punctuation">></span></span></code></pre>
+    &lt;/textPath&gt;
+&lt;/text&gt;
+</code></pre>
 <figure>
     <img
         src="/img/2024-02-21-imperial-futures-are-only-ever-stolen-presents.jpg"
@@ -274,89 +282,94 @@
 <p>Key to this technique being widely applicable is that <strong>you are allowed to write class wrappers for single values.</strong> You incur some overhead for having to instantiate each value as a class, and having to access the instance's value to use it, but in return you can enforce any constraint you can imagine in its constructor. Make this tradeoff at your own discretion.</p>
 <p>To illustrate the technique, I've spun up a few examples showing what you can do with it.</p>
 <h2 id="a-palindrome-type">A palindrome type</h2>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">class</span> <span class="token class-name">Palindrome</span> <span class="token punctuation">{</span>
-    <span class="token keyword">readonly</span> value<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+<pre><code class="language-ts">class Palindrome {
+    readonly value: string;
 
-    <span class="token function">constructor</span> <span class="token punctuation">(</span>value<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">const</span> reversedValue <span class="token operator">=</span> value<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">reverse</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>value <span class="token operator">!==</span> reversedValue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">"</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>value<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">" is not a palindrome</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
+    constructor (value: string) {
+        const reversedValue = value.split('').reverse().join('');
+        if (value !== reversedValue) {
+            throw new Error(`&quot;${value}&quot; is not a palindrome`);
+        }
 
-        <span class="token keyword">this</span><span class="token punctuation">.</span>value <span class="token operator">=</span> value<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span></code></pre>
+        this.value = value;
+    }
+}
+</code></pre>
 <p>To ensure the string is a palindrome, we reverse it and check if the reversed string is equal to the original string. If not, we throw an error. Then we save the string to the <code>value</code> field.</p>
 <p>In practice, usage looks like this:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">const</span> palindrome <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Palindrome</span><span class="token punctuation">(</span><span class="token string">'())('</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>palindrome<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: Palindrome { value: '())(' }</span>
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>palindrome<span class="token punctuation">.</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: '())('</span>
+<pre><code class="language-ts">const palindrome = new Palindrome('())(');
+console.log(palindrome); // Output: Palindrome { value: '())(' }
+console.log(palindrome.value); // Output: '())('
 
-<span class="token keyword">const</span> invalidPalindrome <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Palindrome</span><span class="token punctuation">(</span><span class="token string">'(())'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment">// Error: "(())" is not a palindrome</span></code></pre>
+const invalidPalindrome = new Palindrome('(())');
+// Error: &quot;(())&quot; is not a palindrome
+</code></pre>
 <p>The <code>Palindrome</code> class guarantees that every instance of <code>Palindrome</code> contains a string that has passed the constructor validation. If you have any functions that <em>must</em> have a palindrome, the <code>Palindrome</code> type is an effective way to enforce it.</p>
 <p>If you would rather not throw an error, but check if the string is a palindrome and handle the invalid case another way, you can create a parse method that wraps the palindrome creation in a <code>try</code> block, and return <code>undefined</code> if it fails:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">class</span> <span class="token class-name">Palindrome</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
+<pre><code class="language-ts">class Palindrome {
+    // ...
 
-    <span class="token keyword">static</span> <span class="token function">parse</span> <span class="token punctuation">(</span>value<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span><span class="token operator">:</span> Palindrome <span class="token operator">|</span> <span class="token keyword">undefined</span> <span class="token punctuation">{</span>
-        <span class="token keyword">try</span> <span class="token punctuation">{</span>
-            <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Palindrome</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>error<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">return</span> error<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+    static parse (value: string): Palindrome | undefined {
+        try {
+            return new Palindrome(value);
+        } catch (error) {
+            return error;
+        }
+    }
+}
 
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Palindrome<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span><span class="token string">'())('</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: Palindrome { value: '())(' }</span>
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Palindrome<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span><span class="token string">'(())'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: undefined</span></code></pre>
+console.log(Palindrome.parse('())(')); // Output: Palindrome { value: '())(' }
+console.log(Palindrome.parse('(())')); // Output: undefined
+</code></pre>
 <h2 id="a-sorted-array">A sorted array</h2>
 <p>A constructor does not have to throw errors to ensure a constraint. It can also do the work to transform data to a desired form, then pin it in place.</p>
 <p>For instance, you can create a <code>SortedArray</code> class that sorts your array for you:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">class</span> <span class="token class-name">SortedArray<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span></span> <span class="token punctuation">{</span>
-    <span class="token comment">// Mark as ReadonlyArray to ensure contents stay sorted</span>
-    <span class="token keyword">readonly</span> contents<span class="token operator">:</span> ReadonlyArray<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">></span><span class="token punctuation">;</span>
+<pre><code class="language-ts">class SortedArray&lt;T&gt; {
+    // Mark as ReadonlyArray to ensure contents stay sorted
+    readonly contents: ReadonlyArray&lt;T&gt;;
 
-    <span class="token function">constructor</span> <span class="token punctuation">(</span>contents<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token comment">// Copy the array so we do not reorder the original array,</span>
-        <span class="token comment">// and prevent changes to the original array from affecting our sorted array</span>
-        <span class="token keyword">const</span> copy <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token operator">...</span>contents<span class="token punctuation">]</span><span class="token punctuation">;</span>
-        copy<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>contents <span class="token operator">=</span> copy<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+    constructor (contents: T[]) {
+        // Copy the array so we do not reorder the original array,
+        // and prevent changes to the original array from affecting our sorted array
+        const copy = [...contents];
+        copy.sort();
+        this.contents = copy;
+    }
+}
 
-<span class="token keyword">const</span> sortedArray <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SortedArray</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>sortedArray<span class="token punctuation">.</span>contents<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Output: [ 0, 2, 3, 4, 4, 5 ]</span></code></pre>
+const sortedArray = new SortedArray([0, 5, 3, 4, 4, 2]);
+console.log(sortedArray.contents); // Output: [ 0, 2, 3, 4, 4, 5 ]
+</code></pre>
 <p>This may be useful if you are working with algorithms that expect a sorted array, like search.</p>
 <h2 id="a-range-with-an-estimate">A range with an estimate</h2>
 <p>Classes can, of course, also enforce constraints for multiple values. While I was experimenting with a game-playing traditional AI, my search algorithm used an <code>EstimateRange</code> data type to describe the minimum, estimate, and maximum value of a given game state. To make sense, the minimum cannot be greater than the maximum, and the estimate must be between them.</p>
 <p>Here is how this can be enforced in TypeScript:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">class</span> <span class="token class-name">EstimateRange</span> <span class="token punctuation">{</span>
-    <span class="token keyword">readonly</span> minimum<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
-    <span class="token keyword">readonly</span> estimate<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
-    <span class="token keyword">readonly</span> maximum<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">;</span>
+<pre><code class="language-ts">class EstimateRange {
+    readonly minimum: number;
+    readonly estimate: number;
+    readonly maximum: number;
 
-    <span class="token function">constructor</span> <span class="token punctuation">(</span>minimum<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> estimate<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> maximum<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>minimum <span class="token operator">></span> maximum<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Minimum (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>minimum<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">) is greater than maximum (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>maximum<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">)</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>estimate <span class="token operator">></span> maximum<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Estimate (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>estimate<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">) is greater than maximum (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>maximum<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">)</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>estimate <span class="token operator">&lt;</span> minimum<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Estimate (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>estimate<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">) is less than minimum (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>minimum<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">)</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
+    constructor (minimum: number, estimate: number, maximum: number) {
+        if (minimum &gt; maximum) {
+            throw new Error(`Minimum (${minimum}) is greater than maximum (${maximum})`);
+        } else if (estimate &gt; maximum) {
+            throw new Error(`Estimate (${estimate}) is greater than maximum (${maximum})`);
+        } else if (estimate &lt; minimum) {
+            throw new Error(`Estimate (${estimate}) is less than minimum (${minimum})`);
+        }
 
-        <span class="token keyword">this</span><span class="token punctuation">.</span>minimum <span class="token operator">=</span> minimum<span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>estimate <span class="token operator">=</span> estimate<span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>maximum <span class="token operator">=</span> maximum<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+        this.minimum = minimum;
+        this.estimate = estimate;
+        this.maximum = maximum;
+    }
+}
 
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EstimateRange</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment">// Output: EstimateRange { minimum: 0, estimate: 7, maximum: 10 }</span>
+console.log(new EstimateRange(0, 7, 10));
+// Output: EstimateRange { minimum: 0, estimate: 7, maximum: 10 }
 
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EstimateRange</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment">// Error: Minimum (10) is greater than maximum (0)</span></code></pre>
+console.log(new EstimateRange(10, 7, 0));
+// Error: Minimum (10) is greater than maximum (0)
+</code></pre>
 <p>The point I am trying to make with the variety of examples is that there is a lot you can do with classes. The constraints you can enforce are mostly limited by your imagination.</p>
 <h2 id="a-warning">A warning</h2>
 <p>This trick comes with a caveat: <strong>If possible, you are better off enforcing constraints with simpler alternatives.</strong> I prefer using more concise type system features when I can. For TypeScript, you can browse the <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html">Everyday Types</a>, <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html">Object Types</a> and <a href="https://www.typescriptlang.org/docs/handbook/2/types-from-types.html">Creating Types from Types</a> pages of the TypeScript handbook for inspiration.</p>
@@ -378,88 +391,95 @@
 <p>Here's a few examples to illustrate the types of mistakes I'm talking about, and how adding static types with TypeScript helps prevent them.</p>
 <h2 id="mistake-%231%3A-accessing-undefined-property-names">Mistake #1: Accessing undefined property names</h2>
 <p>Say we are working with an object containing user profile data, and we want to send an email to that user. To do this, we access the user's email address via <code>user.emailAddress</code> and pass it to <code>sendEmail</code>.</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">sendEmailToUser</span> <span class="token punctuation">(</span>user<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token function">sendEmail</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span>emailAddress<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+<pre><code class="language-ts">function sendEmailToUser (user) {
+    sendEmail(user.emailAddress);
+}
+</code></pre>
 <p>But what if we are mistaken? What if the <code>user</code> object's property is actually named <code>emailaddress</code>, or <code>address</code>, or <code>username</code>, or - gasp - it does not actually have a property for email address at all? Well, then this code will instead attempt to send an email to <code>undefined</code>. That's no good.</p>
 <p>To check for this potential issue, let us say we found the <code>UserProfile</code> type that describes the user data we expect, and specify that <code>user</code> is of type <code>UserProfile</code>.</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">interface</span> <span class="token class-name">UserProfile</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-    contactInfo<span class="token operator">:</span> <span class="token punctuation">{</span>
-        <span class="token comment">// ...</span>
-        emailAddress<span class="token operator">:</span> <span class="token builtin">string</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+<pre><code class="language-ts">interface UserProfile {
+    // ...
+    contactInfo: {
+        // ...
+        emailAddress: string
+    }
+}
 
-<span class="token keyword">function</span> <span class="token function">sendEmailToUser</span> <span class="token punctuation">(</span>user<span class="token operator">:</span> UserProfile<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token function">sendEmail</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span>emailAddress<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Causes a build error!</span>
-<span class="token punctuation">}</span></code></pre>
+function sendEmailToUser (user: UserProfile) {
+    sendEmail(user.emailAddress); // Causes a build error!
+}
+</code></pre>
 <p>Oops! It turns out the <code>user.emailAddress</code> property does not exist. Now, because we are trying to access a property that does not exist on <code>UserProfile</code>, the TypeScript compiler produces an error.</p>
 <p>The <code>UserProfile</code> type instead tells us that a <code>user.contactInfo.emailAddress</code> property exists. This is likely what we actually wanted to use, and replacing <code>user.emailAddress</code> with this will make the error go away.</p>
 <h2 id="mistake-%232%3A-passing-invalid-data">Mistake #2: Passing invalid data</h2>
 <p>Say we are working with a map, and want to place an icon at the spot where the user's mouse pointer is:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">getMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-<span class="token punctuation">}</span>
+<pre><code class="language-ts">function getMousePosition () {
+    // ...
+}
 
-<span class="token keyword">function</span> <span class="token function">setIconPosition</span> <span class="token punctuation">(</span>position<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-<span class="token punctuation">}</span>
+function setIconPosition (position) {
+    // ...
+}
 
-<span class="token keyword">function</span> <span class="token function">placeIconAtMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> mousePosition <span class="token operator">=</span> <span class="token function">getMousePosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">setIconPosition</span><span class="token punctuation">(</span>mousePosition<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+function placeIconAtMousePosition () {
+    const mousePosition = getMousePosition();
+    setIconPosition(mousePosition);
+}
+</code></pre>
 <p>What can go wrong here? Well, we do not know the structure of the data <code>getMousePosition</code> returns, nor what <code>setIconPosition</code> accepts. Even if we already know we are working with longitude and latitude positions in the same coordinate system, the position could be represented as a <code>{ lon, lat }</code> object, or an <code>{ x, y }</code> object, or a <code>[lon, lat]</code> array (or even a <code>[lat, lon]</code> array!).</p>
 <p>Without type annotations, this code looks perfectly valid, even if the data structures may be incompatible. Now, if we add the correct types to the functions using TypeScript, the incompatibility comes to light:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">getMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token punctuation">{</span> lon<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> lat<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token punctuation">}</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-<span class="token punctuation">}</span>
+<pre><code class="language-ts">function getMousePosition (): { lon: number, lat: number } {
+    // ...
+}
 
-<span class="token keyword">function</span> <span class="token function">setIconPosition</span> <span class="token punctuation">(</span>position<span class="token operator">:</span> <span class="token punctuation">{</span> x<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> y<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-<span class="token punctuation">}</span>
+function setIconPosition (position: { x: number, y: number }) {
+    // ...
+}
 
-<span class="token keyword">function</span> <span class="token function">placeIconAtMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> mousePosition <span class="token operator">=</span> <span class="token function">getMousePosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">setIconPosition</span><span class="token punctuation">(</span>mousePosition<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Causes a build error!</span>
-<span class="token punctuation">}</span></code></pre>
+function placeIconAtMousePosition () {
+    const mousePosition = getMousePosition();
+    setIconPosition(mousePosition); // Causes a build error!
+}
+</code></pre>
 <p>With the function types specified, TypeScript reports that we made a mistake passing <code>mousePosition</code> directly into <code>setIconPosition</code>. Instead, we should convert the <code>{ lon, lat }</code> object to an <code>{ x, y }</code> object.</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">placeIconAtMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> mousePosition <span class="token operator">=</span> <span class="token function">getMousePosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">setIconPosition</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-        x<span class="token operator">:</span> mousePosition<span class="token punctuation">.</span>lon<span class="token punctuation">,</span>
-        y<span class="token operator">:</span> mousePosition<span class="token punctuation">.</span>lat
-    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+<pre><code class="language-ts">function placeIconAtMousePosition () {
+    const mousePosition = getMousePosition();
+    setIconPosition({
+        x: mousePosition.lon,
+        y: mousePosition.lat
+    });
+}
+</code></pre>
 <h2 id="mistake-%233%3A-not-handling-undefined-values">Mistake #3: Not handling undefined values</h2>
 <p>The third common mistake TypeScript can prevent is the famed <em>&quot;billion dollar mistake&quot;</em>: <s>null</s> undefined values!</p>
 <p>Let's reuse the map position code example and see what happens when we modify it. Say we change the implementation of <code>getMousePosition</code> so it returns <code>undefined</code> when the mouse is outside the map. TypeScript will not permit this since this does not match the return type of <code>getMousePosition</code>, so we change the return type so it can also be <code>undefined</code>:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">getMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token punctuation">{</span> lon<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> lat<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token punctuation">}</span> <span class="token operator">|</span> <span class="token keyword">undefined</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-<span class="token punctuation">}</span>
+<pre><code class="language-ts">function getMousePosition (): { lon: number, lat: number } | undefined {
+    // ...
+}
 
-<span class="token keyword">function</span> <span class="token function">setIconPosition</span> <span class="token punctuation">(</span>position<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">// ...</span>
-<span class="token punctuation">}</span>
+function setIconPosition (position) {
+    // ...
+}
 
-<span class="token keyword">function</span> <span class="token function">placeIconAtMousePosition</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> mousePosition <span class="token operator">=</span> <span class="token function">getMousePosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token function">setIconPosition</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-        x<span class="token operator">:</span> mousePosition<span class="token punctuation">.</span>lon<span class="token punctuation">,</span> <span class="token comment">// Causes a build error!</span>
-        y<span class="token operator">:</span> mousePosition<span class="token punctuation">.</span>lat
-    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+function placeIconAtMousePosition () {
+    const mousePosition = getMousePosition();
+    setIconPosition({
+        x: mousePosition.lon, // Causes a build error!
+        y: mousePosition.lat
+    });
+}
+</code></pre>
 <p>Oh no! This change actually breaks <code>placeIconAtMousePosition</code>, because it was written with the assumption that <code>getMousePosition</code> always returns a valid position. When it instead returns <code>undefined</code>, the code will throw a runtime error when trying to access <code>mousePosition.lon</code>.</p>
 <p>If we were working with untyped JavaScript, this mistake may have managed to sneak in. Luckily, TypeScript caught this error for us. It refuses to compile until we have correctly handled the case where <code>mousePosition</code> is undefined. If we add a check for it, the error disappears:</p>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">function</span> <span class="token function">placeIconAtMousePosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> mousePosition <span class="token operator">=</span> <span class="token function">getMousePosition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>mousePosition <span class="token operator">===</span> <span class="token keyword">undefined</span><span class="token punctuation">)</span> <span class="token keyword">return</span><span class="token punctuation">;</span>
-    <span class="token function">setIconPosition</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-        x<span class="token operator">:</span> mousePosition<span class="token punctuation">.</span>lon<span class="token punctuation">,</span>
-        y<span class="token operator">:</span> mousePosition<span class="token punctuation">.</span>lat
-    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+<pre><code class="language-ts">function placeIconAtMousePosition() {
+    const mousePosition = getMousePosition();
+    if (mousePosition === undefined) return;
+    setIconPosition({
+        x: mousePosition.lon,
+        y: mousePosition.lat
+    });
+}
+</code></pre>
 <p>I like to set up development environments so it is easy to write correct code and hard to write incorrect code. Static types are only one of several tools I use for this, but they are one of my favorites. They tell us what we can and cannot do with our data, and they are effective for catching very common mistakes. Because of this, I find the overhead of opting into static typing with TypeScript well worth it.</p>
 ]]></content:encoded>
     </item>

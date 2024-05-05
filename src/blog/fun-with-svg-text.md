@@ -30,20 +30,20 @@ Good! Let's jump in.
 ## Where we're going, we don't need Photoshop
 
 ```html
-    <header>
-        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-            <title>Welcome to my website</title>
-            <path id="top-curve" d="M 100 100 C 100 90, 250 -40, 400 100" stroke="transparent" fill="transparent"/>
-            <path id="bottom-curve" d="M 100 400 C 100 410, 250 540, 400 400" stroke="transparent" fill="transparent"/>
-            <text aria-hidden="true" textLength="340">
-                <textPath xlink:href="#top-curve">Welcome to</textPath>
-            </text>
-            <text aria-hidden="true" textLength="340">
-                <textPath xlink:href="#bottom-curve" dominant-baseline="hanging">my website</textPath>
-            </text>
-        </svg>
-        <img src="/img/logo-500px.jpg" alt="A seal in a wine glass">
-    </header>
+<header>
+    <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+        <title>Welcome to my website</title>
+        <path id="top-curve" d="M 100 100 C 100 90, 250 -40, 400 100" stroke="transparent" fill="transparent"/>
+        <path id="bottom-curve" d="M 100 400 C 100 410, 250 540, 400 400" stroke="transparent" fill="transparent"/>
+        <text aria-hidden="true" textLength="340">
+            <textPath xlink:href="#top-curve">Welcome to</textPath>
+        </text>
+        <text aria-hidden="true" textLength="340">
+            <textPath xlink:href="#bottom-curve" dominant-baseline="hanging">my website</textPath>
+        </text>
+    </svg>
+    <img src="/img/logo-500px.jpg" alt="A seal in a wine glass">
+</header>
 ```
 
 This is the complete HTML for the front page header image and text. It is made up of two main elements:

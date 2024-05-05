@@ -1,6 +1,5 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { DateTime } = require("luxon");
 
 const md = markdownIt({ html: true }).use(markdownItAnchor, { tabIndex: false });
@@ -17,7 +16,6 @@ module.exports = function (eleventyConfig) {
     excerpt_separator: "<!--more-->",
   });
   eleventyConfig.setLibrary('md', md);
-  eleventyConfig.addPlugin(syntaxHighlight);
 
   /*** FILTERS ***/
   eleventyConfig.addFilter("absoluteUrl", (url, base) => {

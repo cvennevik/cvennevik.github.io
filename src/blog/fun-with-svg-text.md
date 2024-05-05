@@ -57,7 +57,7 @@ The word _"draw"_ can be a bit misleading here, because it may lead you to belie
 
 <figure>
     <img
-        src="/img/2024-02-18-front-page-marked-text.jpg"
+        src="/img/2024-02-18-front-page-marked-text-v2.jpg"
         alt="Me selecting and highlighting part of the &quot;Welcome to&quot; text.">
     <figcaption>This brings me a silly amount of joy.</figcaption>
 </figure>

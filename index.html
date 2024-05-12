@@ -39,6 +39,22 @@
 	}
 }
 
+:root:has(#light-color-scheme:checked) {
+	--background-color: #fff;
+	--text-color: #212;
+	--code-background-color: #eee;
+	--link-color: #086391;
+	--link-focus-color: #89cff0;
+}
+
+:root:has(#dark-color-scheme:checked) {
+	--background-color: #222;
+	--text-color: #fff;
+	--code-background-color: #444;
+	--link-color: #89cff0;
+	--link-focus-color: #b8e2f6;
+}
+
 html {
 	background-color: var(--background-color);
 	color: var(--text-color);
@@ -310,6 +326,15 @@ customElements.define(
     <fieldset>
         <label for="motion-toggle">Enable motion</label>
         <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
+    </fieldset>
+    <fieldset>
+        <legend>Color scheme</legend>
+        <label for="default-color-scheme">Default</label>
+        <input type="radio" name="color-scheme" id="default-color-scheme" data-persist-key="default-color-scheme" checked>
+        <label for="light-color-scheme">Light</label>
+        <input type="radio" name="color-scheme" id="light-color-scheme" data-persist-key="light-color-scheme">
+        <label for="dark-color-scheme">Dark</label>
+        <input type="radio" name="color-scheme" id="dark-color-scheme" data-persist-key="dark-color-scheme">
     </fieldset>
 </input-persist>
 

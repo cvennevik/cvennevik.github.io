@@ -80,5 +80,9 @@ layout: base.njk
     <a href="/blogrollroll/">Blogrollroll</a>
     <a rel="me" href="https://hachyderm.io/@cvennevik">Mastodon</a>
 </nav>
-<label for="motion-toggle">Enable motion</label>
-<input id="motion-toggle" type="checkbox">
+<input-persist>
+    <fieldset>
+        <label for="motion-toggle">Enable motion</label>
+        <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
+    </fieldset>
+</input-persist>

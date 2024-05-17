@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Cecilie Vennevik</title>
+        <title>Influences - Cecilie Vennevik</title>
         <link rel="icon" type="image/jpg" href="/img/logo-32px.jpg" sizes="32x32">
         <link rel="icon" type="image/jpg" href="/img/logo-48px.jpg" sizes="48x48">
         <link rel="icon" type="image/jpg" href="/img/logo-64px.jpg" sizes="64x64">
@@ -246,98 +246,44 @@ customElements.define(
         
 <style>
     header {
-        display: grid;
-    }
-    header > * {
-        grid-column: 1;
-        grid-row: 1;
-        height: 100%;
-        width: 100%;
-    }
-    @keyframes wobble-image {
-        from {
-            transform: rotate(1deg);
-        }
-        to {
-            transform: rotate(-1deg);
-        }
-    }
-    @keyframes wobble-text {
-        from {
-            transform: rotate(-2deg);
-        }
-        to {
-            transform: rotate(2deg);
-        }
-    }
-    :has(#motion-toggle:checked) header img {
-        animation: 2s infinite -1s ease-in-out alternate wobble-image;
-    }
-    :has(#motion-toggle:checked) header svg {
-        animation: 2s infinite -1s ease-in-out alternate wobble-text;
-    }
-    header img {
-        border-radius: 100%;
-        padding: 10%;
-    }
-    @font-face {
-        font-family: babycakes-uppercase;
-        src:
-            url('/font/Babycakes-uppercase.woff2') format('woff2'),
-            url('/font/Babycakes-uppercase.ttf') format('opentype');
-    }
-    header svg text {
-        fill: #89cff0;
-        stroke: #086391;
-        font-family: babycakes-uppercase;
-        font-size: 36px;
-        text-transform: uppercase;
-    }
-    nav {
-        display: flex;
-        flex-direction: column;
-        font-size: 1.5rem;
-        gap: 0.5em;
-        margin-block-start: 1em;
         text-align: center;
+    }
+
+    header a {
+        display: inline-block;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    header a img {
+        border-radius: 100%;
+        transition: border-width .1s;
+    }
+
+    header a:hover img,
+    header a:focus img {
+        border: .3rem solid var(--home-link-focus-color);
     }
 </style>
 <header>
-    <img src="/img/logo-500px.jpg" alt="A seal in a wine glass">
-    <svg viewbox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-        <title>Welcome to my website</title>
-        <path id="top-curve" d="M 100 100 C 100 90, 250 -40, 400 100" stroke="transparent" fill="transparent"/>
-        <path id="bottom-curve" d="M 100 400 C 100 410, 250 540, 400 400" stroke="transparent" fill="transparent"/>
-        <text aria-hidden="true" textlength="340">
-            <textPath xlink:href="#top-curve">Welcome to</textPath>
-        </text>
-        <text aria-hidden="true" textlength="340">
-            <textPath xlink:href="#bottom-curve" dominant-baseline="hanging">my website</textPath>
-        </text>
-    </svg>
+    <a href="/">
+        <img src="/img/logo-250px.jpg" title="Home">
+    </a>
 </header>
-<nav>
-    <a href="/blog/">Blog</a>
-    <a href="/blogroll/">Blogroll</a>
-    <a href="/blogrollroll/">Blogrollroll</a>
-    <a href="/influences/">Influences</a>
-    <a rel="me" href="https://hachyderm.io/@cvennevik">Mastodon</a>
-</nav>
-<input-persist>
-    <fieldset>
-        <label for="motion-toggle">Enable motion</label>
-        <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
-    </fieldset>
-    <fieldset>
-        <legend>Color scheme</legend>
-        <label for="auto-color-scheme">Auto</label>
-        <input type="radio" name="color-scheme" id="auto-color-scheme" data-persist-key="auto-color-scheme" checked>
-        <label for="light-color-scheme">Light</label>
-        <input type="radio" name="color-scheme" id="light-color-scheme" data-persist-key="light-color-scheme">
-        <label for="dark-color-scheme">Dark</label>
-        <input type="radio" name="color-scheme" id="dark-color-scheme" data-persist-key="dark-color-scheme">
-    </fieldset>
-</input-persist>
+<h1 id="influences">Influences</h1>
+<p>These are some of the things that have stuck with me and inform the way I think about things.</p>
+<ul>
+<li><em>A Philosophy of Software Design</em>, the book by John Ousterhout</li>
+<li><a href="https://blog.aurynn.com/2015/12/16-contempt-culture/">Contempt Culture</a></li>
+<li><a href="https://www.simplermachines.com/the-god-of-chairs/">Do you follow the God of Chairs?</a></li>
+<li><em>Domain-Driven Design</em>, the book by Eric Evans</li>
+<li><a href="https://www.jamesshore.com/v2/books/aoad2/design">Evolutionary Design</a>, as described in <em>Art of Agile Development</em> by James Shore</li>
+<li><a href="https://www.jamesshore.com/v2/projects/lunch-and-learn/how-to-fix-a-bug">How to Fix a Bug</a> / <a href="https://www.jamesshore.com/v2/books/aoad2/no_bugs">No Bugs</a></li>
+<li><a href="http://farawaytimes.blogspot.com/2023/02/how-to-make-good-small-games.html">How To Make Good Small Games</a></li>
+<li><a href="https://gkeenan.co/avgb/rss-readers-make-me-want-to-jump-into-a-vat-of-acid">RSS readers make me want to jump into a vat of acid!</a></li>
+<li><a href="https://blog.jim-nielsen.com/2022/a-web-for-all/">The Optional Chaining Operator, “Modern” Browsers, and My Mom</a></li>
+<li><a href="https://infrequently.org/2024/01/performance-inequality-gap-2024/">The Performance Inequality Gap, 2024</a></li>
+</ul>
 
     </body>
 </html>

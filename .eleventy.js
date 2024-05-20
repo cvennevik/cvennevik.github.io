@@ -1,8 +1,7 @@
 const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
 const { DateTime } = require("luxon");
 
-const md = markdownIt({ html: true }).use(markdownItAnchor, { tabIndex: false });
+const md = markdownIt({ html: true });
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css/");
@@ -15,7 +14,6 @@ module.exports = function (eleventyConfig) {
     excerpt: true,
     excerpt_separator: "<!--more-->",
   });
-  eleventyConfig.setLibrary('md', md);
 
   /*** FILTERS ***/
   eleventyConfig.addFilter("absoluteUrl", (url, base) => {

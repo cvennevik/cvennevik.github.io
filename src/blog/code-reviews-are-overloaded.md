@@ -4,16 +4,6 @@ date: 2023-01-08T09:55:00+11:00
 summary: "On the pains of mandated code reviews, and how to reduce them."
 ---
 
-## Table of contents
-
-- [Code reviews are effective](#code-reviews-are-effective)
-- [Branching causes problems](#branching-causes-problems)
-- [Mandatory code reviews encourage long-lived branches](#mandatory-code-reviews-encourage-long-lived-branches)
-- [Code reviews are hard to replace](#code-reviews-are-hard-to-replace)
-- [Code reviews hurt more the more they try to do](#code-reviews-hurt-more-the-more-they-try-to-do)
-- [Limit your code reviews to the most important concerns](#limit-your-code-reviews-to-the-most-important-concerns)
-- [This is a suggested experiment](#this-is-a-suggested-experiment)
-
 ## Code reviews are effective
 
 **Code reviews are effective for uncovering bugs.** We have multiple large studies backing this claim, estimating that the bug-detection rate of code reviews is in the ballpark of 50%. This is better evidence than we have for most software development practices. From [the Wikipedia article on code review](https://en.wikipedia.org/wiki/Code_review#Efficiency_and_effectiveness_of_reviews):

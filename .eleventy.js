@@ -1,6 +1,6 @@
-const markdownIt = require("markdown-it");
+import markdownIt from "markdown-it";
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/img/");
   eleventyConfig.addPassthroughCopy("src/font/");
   eleventyConfig.addWatchTarget("src/img/");

@@ -21,9 +21,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("absoluteUrl", (url, base) => {
     return new URL(url, base).toString();
   });
-  eleventyConfig.addFilter("dateToRfc2822", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toRFC2822();
-  });
   eleventyConfig.addFilter("dateToIsoTime", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toISO();
   });

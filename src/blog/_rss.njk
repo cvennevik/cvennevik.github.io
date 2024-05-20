@@ -12,14 +12,14 @@ baseURL: https://www.cvennevik.no/
     <description>Recent posts on Cecilie Vennevik's blog</description>
     <language>en</language>
     {%- set lastPost = collections.blogposts | last %}
-    <lastBuildDate>{{ lastPost.date | dateToRfc2822 }}</lastBuildDate>
+    <lastBuildDate>{{ lastPost.date.toUTCString() }}</lastBuildDate>
     <atom:link href="{{ permalink | absoluteUrl(baseURL) }}" rel="self" type="application/rss+xml"/>
     {%- for post in collections.blogposts | reverse %}
     {%- set absolutePostUrl = post.url | absoluteUrl(baseURL) %}
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ absolutePostUrl }}</link>
-      <pubDate>{{ post.date | dateToRfc2822 }}</pubDate>
+      <pubDate>{{ post.date.toUTCString() }}</pubDate>
       <guid>{{ absolutePostUrl }}</guid>
       <description><![CDATA[{{ post | renderBlogPostSummary | safe }}]]></description>
       <content:encoded><![CDATA[{{ post.templateContent | safe }}]]></content:encoded>

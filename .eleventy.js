@@ -1,8 +1,6 @@
 const markdownIt = require("markdown-it");
 const { DateTime } = require("luxon");
 
-const md = markdownIt({ html: true });
-
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/img/");
   eleventyConfig.addPassthroughCopy("src/font/");
@@ -19,7 +17,7 @@ module.exports = function (eleventyConfig) {
       .toLocaleString(DateTime.DATE_FULL);
   });
   eleventyConfig.addFilter("renderBlogPostSummary", (post) => {
-    return md.render(post.data.summary ?? post.page.excerpt ?? "");
+    return markdownIt({ html: true }).render(post.data.summary ?? post.page.excerpt ?? "");
   });
 
   /*** RETURN ***/

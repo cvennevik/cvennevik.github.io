@@ -292,7 +292,7 @@ customElements.define(
 <p>It turns out this question was all I needed to focus and get my writing back on track - you may take this blog post as my longform answer.</p>
 <p>In short: I think static types are a useful tool to prevent us from making very common mistakes. Like, really common. Like &quot;half of the bugs I investigate in JavaScript applications are caused by this&quot; common.</p>
 <p>Here's a few examples to illustrate the types of mistakes I'm talking about, and how adding static types with TypeScript helps prevent them.</p>
-<h2 id="mistake-%231%3A-accessing-undefined-property-names">Mistake #1: Accessing undefined property names</h2>
+<h2>Mistake #1: Accessing undefined property names</h2>
 <p>Say we are working with an object containing user profile data, and we want to send an email to that user. To do this, we access the user's email address via <code>user.emailAddress</code> and pass it to <code>sendEmail</code>.</p>
 <pre><code class="language-ts">function sendEmailToUser (user) {
     sendEmail(user.emailAddress);
@@ -314,7 +314,7 @@ function sendEmailToUser (user: UserProfile) {
 </code></pre>
 <p>Oops! It turns out the <code>user.emailAddress</code> property does not exist. Now, because we are trying to access a property that does not exist on <code>UserProfile</code>, the TypeScript compiler produces an error.</p>
 <p>The <code>UserProfile</code> type instead tells us that a <code>user.contactInfo.emailAddress</code> property exists. This is likely what we actually wanted to use, and replacing <code>user.emailAddress</code> with this will make the error go away.</p>
-<h2 id="mistake-%232%3A-passing-invalid-data">Mistake #2: Passing invalid data</h2>
+<h2>Mistake #2: Passing invalid data</h2>
 <p>Say we are working with a map, and want to place an icon at the spot where the user's mouse pointer is:</p>
 <pre><code class="language-ts">function getMousePosition () {
     // ...
@@ -353,7 +353,7 @@ function placeIconAtMousePosition () {
     });
 }
 </code></pre>
-<h2 id="mistake-%233%3A-not-handling-undefined-values">Mistake #3: Not handling undefined values</h2>
+<h2>Mistake #3: Not handling undefined values</h2>
 <p>The third common mistake TypeScript can prevent is the famed <em>&quot;billion dollar mistake&quot;</em>: <s>null</s> undefined values!</p>
 <p>Let's reuse the map position code example and see what happens when we modify it. Say we change the implementation of <code>getMousePosition</code> so it returns <code>undefined</code> when the mouse is outside the map. TypeScript will not permit this since this does not match the return type of <code>getMousePosition</code>, so we change the return type so it can also be <code>undefined</code>:</p>
 <pre><code class="language-ts">function getMousePosition (): { lon: number, lat: number } | undefined {

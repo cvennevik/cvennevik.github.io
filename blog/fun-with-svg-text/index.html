@@ -301,7 +301,7 @@ customElements.define(
 <p>...</p>
 <p>Still here?</p>
 <p>Good! Let's jump in.</p>
-<h2 id="where-we're-going%2C-we-don't-need-photoshop">Where we're going, we don't need Photoshop</h2>
+<h2>Where we're going, we don't need Photoshop</h2>
 <pre><code class="language-html">&lt;header&gt;
     &lt;svg viewBox=&quot;0 0 500 500&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
         &lt;title&gt;Welcome to my website&lt;/title&gt;
@@ -322,7 +322,7 @@ customElements.define(
 <li>The <code>&lt;img&gt;</code> element, which draws the circular photo in the middle.</li>
 <li>The <code>&lt;svg&gt;</code> element, which draws the text around it.</li>
 </ul>
-<h2 id="a-side-note-on-screen-readers">A side note on screen readers</h2>
+<h2>A side note on screen readers</h2>
 <p>The word <em>&quot;draw&quot;</em> can be a bit misleading here, because it may lead you to believe the text is purely graphical.</p>
 <figure>
     <img
@@ -334,7 +334,7 @@ customElements.define(
 <p><strong>That last point is a problem.</strong> When testing how the SVG reads with the built-in screen reader on Windows 11, it was... bad. It just does not read well. It may be that other screen readers handle SVG text better, but I do not want to rely on it.</p>
 <p>To improve on this, I went with the most robust-looking solution I could find: I added a <code>&lt;title&gt;</code> element with equivalent text to the SVG, and hid the text elements from screen readers with <code>aria-hidden=&quot;true&quot;</code>. This made the reading experience significantly more pleasant.</p>
 <p><em>(If you know of better, more accessible ways to do this, please contact me so I can update this post.)</em></p>
-<h2 id="styling">Styling</h2>
+<h2>Styling</h2>
 <p>To reliably wrap the text around the photo, I needed some reliable styling, and I needed that styling to be responsive across different screen sizes.</p>
 <p>I solved this using a CSS grid where:</p>
 <ul>
@@ -377,7 +377,7 @@ customElements.define(
     text-transform: uppercase;
 }
 </code></pre>
-<h2 id="text%2C-paths%2C-and-text-paths">Text, paths, and text paths</h2>
+<h2>Text, paths, and text paths</h2>
 <p>Let's look at the contents of the <code>&lt;svg&gt;</code> again, and remove <code>&lt;title&gt;</code> and <code>aria-hidden</code> for brevity.</p>
 <pre><code class="language-html">&lt;path id=&quot;top-curve&quot; d=&quot;M 100 100 C 100 90, 250 -40, 400 100&quot; stroke=&quot;transparent&quot; fill=&quot;transparent&quot;/&gt;
 &lt;path id=&quot;bottom-curve&quot; d=&quot;M 100 400 C 100 410, 250 540, 400 400&quot; stroke=&quot;transparent&quot; fill=&quot;transparent&quot;/&gt;
@@ -392,7 +392,7 @@ customElements.define(
 <p>Inside them are the <code>&lt;textPath&gt;</code> elements, which draw text along a given path. The <code>xlink:href</code> attributes say which path they should follow. The <code>dominant-baseline=&quot;hanging&quot;</code> attribute places the bottom text <em>below</em> the path, instead of above it.</p>
 <p>Finally, the transparent <code>&lt;path&gt;</code> elements supply the curves, as defined by their <code>d</code> attribute.</p>
 <p>Can we talk about the curves? I <em>need</em> to talk to you about the curves.</p>
-<h2 id="b%C3%A9zier%2C-you-beautiful-man">Bézier, you beautiful man</h2>
+<h2>Bézier, you beautiful man</h2>
 <p>Okay, so I've been in the rough vicinity of graphics and animation long enough to have heard &quot;Bézier curves&quot; referenced a few dozen times in my life. I never took the time to look up what they were. I assumed they were complicated and slightly magical, only taught in spellbooks sourced from the Graphics Wizards' tower.</p>
 <p>To draw my text exactly how I wanted it, I needed Bézier curves. So I had to up look how they worked, and what all of the coordinates in the code samples meant.</p>
 <p>It turns out I was bang on the money. They <em>are</em> magical.</p>

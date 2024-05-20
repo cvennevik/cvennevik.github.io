@@ -8,13 +8,13 @@
     <name>Cecilie Vennevik</name>
   </author>
   <icon>https://www.cvennevik.no/img/logo-100px.jpg</icon>
-  <updated>2024-02-21T20:15:00.000+00:00</updated>
+  <updated>2024-02-21T20:15:00.000Z</updated>
   <entry>
     <title type="html">Having fun with SVG text</title>
     <link href="https://www.cvennevik.no/blog/fun-with-svg-text/"/>
     <id>https://www.cvennevik.no/blog/fun-with-svg-text/</id>
-    <published>2024-02-21T20:15:00.000+00:00</published>
-    <updated>2024-02-21T20:15:00.000+00:00</updated>
+    <published>2024-02-21T20:15:00.000Z</published>
+    <updated>2024-02-21T20:15:00.000Z</updated>
     <summary type="html"><![CDATA[<p>Please let me ramble at you.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Last weekend, I redesigned my blog. As part of this redesign, I wanted to make something fun for my front page. I started sketching a bit on paper, got an idea, and soon I was doing a search for &quot;css curved text&quot;.</p>
@@ -31,7 +31,7 @@
 <p>...</p>
 <p>Still here?</p>
 <p>Good! Let's jump in.</p>
-<h2 id="where-we're-going%2C-we-don't-need-photoshop">Where we're going, we don't need Photoshop</h2>
+<h2>Where we're going, we don't need Photoshop</h2>
 <pre><code class="language-html">&lt;header&gt;
     &lt;svg viewBox=&quot;0 0 500 500&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
         &lt;title&gt;Welcome to my website&lt;/title&gt;
@@ -52,7 +52,7 @@
 <li>The <code>&lt;img&gt;</code> element, which draws the circular photo in the middle.</li>
 <li>The <code>&lt;svg&gt;</code> element, which draws the text around it.</li>
 </ul>
-<h2 id="a-side-note-on-screen-readers">A side note on screen readers</h2>
+<h2>A side note on screen readers</h2>
 <p>The word <em>&quot;draw&quot;</em> can be a bit misleading here, because it may lead you to believe the text is purely graphical.</p>
 <figure>
     <img
@@ -64,7 +64,7 @@
 <p><strong>That last point is a problem.</strong> When testing how the SVG reads with the built-in screen reader on Windows 11, it was... bad. It just does not read well. It may be that other screen readers handle SVG text better, but I do not want to rely on it.</p>
 <p>To improve on this, I went with the most robust-looking solution I could find: I added a <code>&lt;title&gt;</code> element with equivalent text to the SVG, and hid the text elements from screen readers with <code>aria-hidden=&quot;true&quot;</code>. This made the reading experience significantly more pleasant.</p>
 <p><em>(If you know of better, more accessible ways to do this, please contact me so I can update this post.)</em></p>
-<h2 id="styling">Styling</h2>
+<h2>Styling</h2>
 <p>To reliably wrap the text around the photo, I needed some reliable styling, and I needed that styling to be responsive across different screen sizes.</p>
 <p>I solved this using a CSS grid where:</p>
 <ul>
@@ -107,7 +107,7 @@
     text-transform: uppercase;
 }
 </code></pre>
-<h2 id="text%2C-paths%2C-and-text-paths">Text, paths, and text paths</h2>
+<h2>Text, paths, and text paths</h2>
 <p>Let's look at the contents of the <code>&lt;svg&gt;</code> again, and remove <code>&lt;title&gt;</code> and <code>aria-hidden</code> for brevity.</p>
 <pre><code class="language-html">&lt;path id=&quot;top-curve&quot; d=&quot;M 100 100 C 100 90, 250 -40, 400 100&quot; stroke=&quot;transparent&quot; fill=&quot;transparent&quot;/&gt;
 &lt;path id=&quot;bottom-curve&quot; d=&quot;M 100 400 C 100 410, 250 540, 400 400&quot; stroke=&quot;transparent&quot; fill=&quot;transparent&quot;/&gt;
@@ -122,7 +122,7 @@
 <p>Inside them are the <code>&lt;textPath&gt;</code> elements, which draw text along a given path. The <code>xlink:href</code> attributes say which path they should follow. The <code>dominant-baseline=&quot;hanging&quot;</code> attribute places the bottom text <em>below</em> the path, instead of above it.</p>
 <p>Finally, the transparent <code>&lt;path&gt;</code> elements supply the curves, as defined by their <code>d</code> attribute.</p>
 <p>Can we talk about the curves? I <em>need</em> to talk to you about the curves.</p>
-<h2 id="b%C3%A9zier%2C-you-beautiful-man">Bézier, you beautiful man</h2>
+<h2>Bézier, you beautiful man</h2>
 <p>Okay, so I've been in the rough vicinity of graphics and animation long enough to have heard &quot;Bézier curves&quot; referenced a few dozen times in my life. I never took the time to look up what they were. I assumed they were complicated and slightly magical, only taught in spellbooks sourced from the Graphics Wizards' tower.</p>
 <p>To draw my text exactly how I wanted it, I needed Bézier curves. So I had to up look how they worked, and what all of the coordinates in the code samples meant.</p>
 <p>It turns out I was bang on the money. They <em>are</em> magical.</p>
@@ -169,8 +169,8 @@
     <title type="html">Oops, I made code review painful</title>
     <link href="https://www.cvennevik.no/blog/oops-i-made-code-review-painful/"/>
     <id>https://www.cvennevik.no/blog/oops-i-made-code-review-painful/</id>
-    <published>2023-04-14T20:15:00.000+00:00</published>
-    <updated>2023-04-14T20:15:00.000+00:00</updated>
+    <published>2023-04-14T20:15:00.000Z</published>
+    <updated>2023-04-14T20:15:00.000Z</updated>
     <summary type="html"><![CDATA[<p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
 <p>Boy howdy, I do not enjoy this at all.</p>
 ]]></summary>
@@ -190,8 +190,8 @@
     <title type="html">A corner-cutter&#39;s confession</title>
     <link href="https://www.cvennevik.no/blog/a-corner-cutters-confession/"/>
     <id>https://www.cvennevik.no/blog/a-corner-cutters-confession/</id>
-    <published>2023-02-09T20:45:00.000+00:00</published>
-    <updated>2023-02-09T20:45:00.000+00:00</updated>
+    <published>2023-02-09T20:45:00.000Z</published>
+    <updated>2023-02-09T20:45:00.000Z</updated>
     <summary type="html"><![CDATA[<p>Listen. I know I should have done this one better.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Listen. I know I should have done this one better.</p>
@@ -210,8 +210,8 @@
     <title type="html">&#39;Technical debt&#39; is an incomplete model</title>
     <link href="https://www.cvennevik.no/blog/technical-debt-is-an-incomplete-model/"/>
     <id>https://www.cvennevik.no/blog/technical-debt-is-an-incomplete-model/</id>
-    <published>2023-02-05T10:51:00.000+00:00</published>
-    <updated>2023-02-05T10:51:00.000+00:00</updated>
+    <published>2023-02-05T10:51:00.000Z</published>
+    <updated>2023-02-05T10:51:00.000Z</updated>
     <summary type="html"><![CDATA[<p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
@@ -235,8 +235,8 @@
     <title type="html">I am a social animal</title>
     <link href="https://www.cvennevik.no/blog/i-am-a-social-animal/"/>
     <id>https://www.cvennevik.no/blog/i-am-a-social-animal/</id>
-    <published>2023-02-04T07:42:00.000+00:00</published>
-    <updated>2023-02-04T07:42:00.000+00:00</updated>
+    <published>2023-02-04T07:42:00.000Z</published>
+    <updated>2023-02-04T07:42:00.000Z</updated>
     <summary type="html"><![CDATA[<p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
 <p>I cope with it.</p>
 ]]></summary>
@@ -261,8 +261,8 @@
     <title type="html">Enforcing advanced type constraints with class constructors in TypeScript</title>
     <link href="https://www.cvennevik.no/blog/type-constraints-with-class-constructors/"/>
     <id>https://www.cvennevik.no/blog/type-constraints-with-class-constructors/</id>
-    <published>2023-01-20T06:37:00.000+00:00</published>
-    <updated>2023-01-20T06:37:00.000+00:00</updated>
+    <published>2023-01-20T06:37:00.000Z</published>
+    <updated>2023-01-20T06:37:00.000Z</updated>
     <summary type="html"><![CDATA[<p>For those really hard-to-define types.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Frequently, when programming, I am working with data that I expect to follow a set of constraints.</p>
@@ -281,7 +281,7 @@
 <p>These constraints can be more tricky to express in a type definition, and I rarely see it attempted. Instead, I see functions either assume the data is valid, or run validation checks on the data that throw an error if it breaks a rule.</p>
 <p>Following the advice of <em>&quot;parse, don't validate&quot;</em> (see <a href="https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/">the wonderful post by Alexis King</a>), I would rather that the type itself is able to enforce its own constraints. This guarantees and preserves the validity of the data as you pass it on to other functions, and reduces the risk of insufficient <em>and</em> redundant validation checks around your codebase.</p>
 <p>With a few tricks, most constraints you can imagine can be enforced with a type definition. In this case, I'll be showing how to use <strong>classes</strong> to guarantee constraints on TypeScript data that simple <code>type</code> and <code>interface</code> declarations are unable to. (This technique also works in any statically typed language that supports classes.)</p>
-<h2 id="the-technique">The technique</h2>
+<h2>The technique</h2>
 <ol>
 <li>Define a class containing the values you want to wrap.</li>
 <li>In the constructor, check for any constraints you are interested in.</li>
@@ -289,7 +289,7 @@
 </ol>
 <p>Key to this technique being widely applicable is that <strong>you are allowed to write class wrappers for single values.</strong> You incur some overhead for having to instantiate each value as a class, and having to access the instance's value to use it, but in return you can enforce any constraint you can imagine in its constructor. Make this tradeoff at your own discretion.</p>
 <p>To illustrate the technique, I've spun up a few examples showing what you can do with it.</p>
-<h2 id="a-palindrome-type">A palindrome type</h2>
+<h2>A palindrome type</h2>
 <pre><code class="language-ts">class Palindrome {
     readonly value: string;
 
@@ -329,7 +329,7 @@ const invalidPalindrome = new Palindrome('(())');
 console.log(Palindrome.parse('())(')); // Output: Palindrome { value: '())(' }
 console.log(Palindrome.parse('(())')); // Output: undefined
 </code></pre>
-<h2 id="a-sorted-array">A sorted array</h2>
+<h2>A sorted array</h2>
 <p>A constructor does not have to throw errors to ensure a constraint. It can also do the work to transform data to a desired form, then pin it in place.</p>
 <p>For instance, you can create a <code>SortedArray</code> class that sorts your array for you:</p>
 <pre><code class="language-ts">class SortedArray&lt;T&gt; {
@@ -349,7 +349,7 @@ const sortedArray = new SortedArray([0, 5, 3, 4, 4, 2]);
 console.log(sortedArray.contents); // Output: [ 0, 2, 3, 4, 4, 5 ]
 </code></pre>
 <p>This may be useful if you are working with algorithms that expect a sorted array, like search.</p>
-<h2 id="a-range-with-an-estimate">A range with an estimate</h2>
+<h2>A range with an estimate</h2>
 <p>Classes can, of course, also enforce constraints for multiple values. While I was experimenting with a game-playing traditional AI, my search algorithm used an <code>EstimateRange</code> data type to describe the minimum, estimate, and maximum value of a given game state. To make sense, the minimum cannot be greater than the maximum, and the estimate must be between them.</p>
 <p>Here is how this can be enforced in TypeScript:</p>
 <pre><code class="language-ts">class EstimateRange {
@@ -379,7 +379,7 @@ console.log(new EstimateRange(10, 7, 0));
 // Error: Minimum (10) is greater than maximum (0)
 </code></pre>
 <p>The point I am trying to make with the variety of examples is that there is a lot you can do with classes. The constraints you can enforce are mostly limited by your imagination.</p>
-<h2 id="a-warning">A warning</h2>
+<h2>A warning</h2>
 <p>This trick comes with a caveat: <strong>If possible, you are better off enforcing constraints with simpler alternatives.</strong> I prefer using more concise type system features when I can. For TypeScript, you can browse the <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html">Everyday Types</a>, <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html">Object Types</a> and <a href="https://www.typescriptlang.org/docs/handbook/2/types-from-types.html">Creating Types from Types</a> pages of the TypeScript handbook for inspiration.</p>
 <p>When simpler alternatives for type checks are insufficient, class constructor validation is a powerful alternative to fall back on.</p>
 ]]></content>
@@ -389,8 +389,8 @@ console.log(new EstimateRange(10, 7, 0));
     <title type="html">Using TypeScript to prevent common mistakes</title>
     <link href="https://www.cvennevik.no/blog/using-typescript-to-prevent-common-mistakes/"/>
     <id>https://www.cvennevik.no/blog/using-typescript-to-prevent-common-mistakes/</id>
-    <published>2023-01-17T00:43:00.000+00:00</published>
-    <updated>2023-01-17T00:43:00.000+00:00</updated>
+    <published>2023-01-17T00:43:00.000Z</published>
+    <updated>2023-01-17T00:43:00.000Z</updated>
     <summary type="html"><![CDATA[<p>A partial answer to what I like about static type systems.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>I have been struggling to write an article about type systems for about a week now. The ideas and angles I want to take kept changing between each writing session, preventing me from ever completing a single coherent article.</p>
@@ -398,7 +398,7 @@ console.log(new EstimateRange(10, 7, 0));
 <p>It turns out this question was all I needed to focus and get my writing back on track - you may take this blog post as my longform answer.</p>
 <p>In short: I think static types are a useful tool to prevent us from making very common mistakes. Like, really common. Like &quot;half of the bugs I investigate in JavaScript applications are caused by this&quot; common.</p>
 <p>Here's a few examples to illustrate the types of mistakes I'm talking about, and how adding static types with TypeScript helps prevent them.</p>
-<h2 id="mistake-%231%3A-accessing-undefined-property-names">Mistake #1: Accessing undefined property names</h2>
+<h2>Mistake #1: Accessing undefined property names</h2>
 <p>Say we are working with an object containing user profile data, and we want to send an email to that user. To do this, we access the user's email address via <code>user.emailAddress</code> and pass it to <code>sendEmail</code>.</p>
 <pre><code class="language-ts">function sendEmailToUser (user) {
     sendEmail(user.emailAddress);
@@ -420,7 +420,7 @@ function sendEmailToUser (user: UserProfile) {
 </code></pre>
 <p>Oops! It turns out the <code>user.emailAddress</code> property does not exist. Now, because we are trying to access a property that does not exist on <code>UserProfile</code>, the TypeScript compiler produces an error.</p>
 <p>The <code>UserProfile</code> type instead tells us that a <code>user.contactInfo.emailAddress</code> property exists. This is likely what we actually wanted to use, and replacing <code>user.emailAddress</code> with this will make the error go away.</p>
-<h2 id="mistake-%232%3A-passing-invalid-data">Mistake #2: Passing invalid data</h2>
+<h2>Mistake #2: Passing invalid data</h2>
 <p>Say we are working with a map, and want to place an icon at the spot where the user's mouse pointer is:</p>
 <pre><code class="language-ts">function getMousePosition () {
     // ...
@@ -459,7 +459,7 @@ function placeIconAtMousePosition () {
     });
 }
 </code></pre>
-<h2 id="mistake-%233%3A-not-handling-undefined-values">Mistake #3: Not handling undefined values</h2>
+<h2>Mistake #3: Not handling undefined values</h2>
 <p>The third common mistake TypeScript can prevent is the famed <em>&quot;billion dollar mistake&quot;</em>: <s>null</s> undefined values!</p>
 <p>Let's reuse the map position code example and see what happens when we modify it. Say we change the implementation of <code>getMousePosition</code> so it returns <code>undefined</code> when the mouse is outside the map. TypeScript will not permit this since this does not match the return type of <code>getMousePosition</code>, so we change the return type so it can also be <code>undefined</code>:</p>
 <pre><code class="language-ts">function getMousePosition (): { lon: number, lat: number } | undefined {
@@ -497,28 +497,18 @@ function placeIconAtMousePosition () {
     <title type="html">Code reviews are overloaded</title>
     <link href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/"/>
     <id>https://www.cvennevik.no/blog/code-reviews-are-overloaded/</id>
-    <published>2023-01-07T22:55:00.000+00:00</published>
-    <updated>2023-01-07T22:55:00.000+00:00</updated>
+    <published>2023-01-07T22:55:00.000Z</published>
+    <updated>2023-01-07T22:55:00.000Z</updated>
     <summary type="html"><![CDATA[<p>On the pains of mandated code reviews, and how to reduce them.</p>
 ]]></summary>
-    <content type="html"><![CDATA[<h2 id="table-of-contents">Table of contents</h2>
-<ul>
-<li><a href="#code-reviews-are-effective">Code reviews are effective</a></li>
-<li><a href="#branching-causes-problems">Branching causes problems</a></li>
-<li><a href="#mandatory-code-reviews-encourage-long-lived-branches">Mandatory code reviews encourage long-lived branches</a></li>
-<li><a href="#code-reviews-are-hard-to-replace">Code reviews are hard to replace</a></li>
-<li><a href="#code-reviews-hurt-more-the-more-they-try-to-do">Code reviews hurt more the more they try to do</a></li>
-<li><a href="#limit-your-code-reviews-to-the-most-important-concerns">Limit your code reviews to the most important concerns</a></li>
-<li><a href="#this-is-a-suggested-experiment">This is a suggested experiment</a></li>
-</ul>
-<h2 id="code-reviews-are-effective">Code reviews are effective</h2>
+    <content type="html"><![CDATA[<h2>Code reviews are effective</h2>
 <p><strong>Code reviews are effective for uncovering bugs.</strong> We have multiple large studies backing this claim, estimating that the bug-detection rate of code reviews is in the ballpark of 50%. This is better evidence than we have for most software development practices. From <a href="https://en.wikipedia.org/wiki/Code_review#Efficiency_and_effectiveness_of_reviews">the Wikipedia article on code review</a>:</p>
 <blockquote>
 <p>Capers Jones' ongoing analysis of over 12,000 software development projects showed that the latent defect discovery rate of formal inspection is in the 60-65% range. For informal inspection, the figure is less than 50%. The latent defect discovery rate for most forms of testing is about 30%. A code review case study published in the book Best Kept Secrets of Peer Code Review found that lightweight reviews can uncover as many bugs as formal reviews, but were faster and more cost-effective in contradiction to the study done by Capers Jones.</p>
 </blockquote>
 <p>In addition to their primary value in discovering bugs, they can also be used to assess and improve many other aspects of the code. Design, readability, maintainability, code quality, test quality and coverage, consistency with project style guidelines and documentation are all areas where reviewers can find issues and suggest improvements. The act of reviewing and giving feedback can even help transfer knowledge between developers and be a tool for mentoring and learning.</p>
 <p>On account of these benefits, code reviews have become wildly popular, and most software projects mandate that all changes must be approved by one or more reviewers. This virtually always means a <em>pull request based workflow</em>, where developers branch out from mainline, make some changes, then open a pull request that requires approval from a reviewer to merge back into mainline. At time of writing, this is the predominant way of working in our industry.</p>
-<h2 id="branching-causes-problems">Branching causes problems</h2>
+<h2>Branching causes problems</h2>
 <p>In projects using pull requests, the most popular strategy for branching is <em>feature branching</em>, creating a branch for a single feature and opening a pull request when the feature is complete. This is a convenient and intuitive way of organizing changes. However, these feature branches tend to be long-lived (on the order of days or weeks), and long-lived branches cause some serious issues.</p>
 <p>In part four of Thierry de Pauw's article series <a href="https://thinkinglabs.io/articles/2021/04/26/on-the-evilness-of-feature-branching.html">On the Evilness of Feature Branching</a>, he goes into <a href="https://thinkinglabs.io/articles/2022/05/30/on-the-evilness-of-feature-branching-the-problems.html">the problems</a> of feature branching. The article is worth reading in full, but to summarize some of its points:</p>
 <ul>
@@ -530,12 +520,12 @@ function placeIconAtMousePosition () {
 </ul>
 <p>Key to these issues is that they are more frequent and more severe the longer the branches live and the larger the changes are. Conversely, shorter-lived branches and smaller changes cause less issues. We can nearly eliminate the branching issues by pushing this all the way to <a href="https://martinfowler.com/articles/branching-patterns.html#continuous-integration">continuous integration</a>, where everyone's work is merged into mainline every day, potentially even multiple times an hour.</p>
 <p>Code reviews make this infeasible for most software teams.</p>
-<h2 id="mandatory-code-reviews-encourage-long-lived-branches">Mandatory code reviews encourage long-lived branches</h2>
+<h2>Mandatory code reviews encourage long-lived branches</h2>
 <p>When merging your work requires another developer to review and approve it, merging <em>will</em> happen less frequently, and pull requests <em>will not</em> shrink beyond a certain size. Dragan Stepanović explains this best in his article <a href="https://www.infoq.com/articles/co-creation-patterns-software-development/">From Async Code Reviews to Co-Creation Patterns</a>.</p>
 <p>In short, code reviews introduce long wait times to the integration process. First, after a pull request is opened, the author waits for a review. Then, if the reviewer discovers any issues they think the author should handle, the reviewer waits for the author to respond to the feedback. This cycle repeats some number of times until the reviewer is satisfied and approves the pull request.</p>
 <p>These wait times encourage developers to start new work in the meanwhile (increasing work-in-progress), and to batch their changes into larger pull requests. This, again, makes each review take longer, making it harder for developers to find time to review them, and increasing the odds of multiple rounds of review - increasing wait times even more! This vicious cycle results in pull requests often taking multiple days before they are able to be merged.</p>
 <p>If a team still tries to make a push for continuous integration in this environment, they are fighting against the stream. The more frequently team members try to integrate, the more often they have to interrupt each other to review and respond to reviews. Developer attention bounces between multiple tasks, flow efficiency (time spent <em>working</em> to time spent <em>waiting</em>) plummets, and productivity drops. Every team will hit a point where the pain of this is too high and will stop integrating their changes any more frequently - typically stopping well short of continuous integration.</p>
-<h2 id="code-reviews-are-hard-to-replace">Code reviews are hard to replace</h2>
+<h2>Code reviews are hard to replace</h2>
 <p>Many developers who recognize these problems assert that this kind of code review is a net negative and should be done away with altogether. Dave Farley, co-author of <em>Continuous Delivery</em>, insists that <a href="https://www.davefarley.net/?p=247">you are better off not branching at all</a>:</p>
 <blockquote>
 <ul>
@@ -548,7 +538,7 @@ function placeIconAtMousePosition () {
 <p>However, in teams that frequently catch serious errors in code review, <strong>this is hard to sell</strong>. Most developers do not use these alternative practices, and asking people to change the way they work and spend time practicing new skills is a big ask for most teams. Without these changes, slashing code review will in all likelihood lead to more defects being pushed to mainline and escaping to production. Software teams have very reasonable motives for not wanting to do this.</p>
 <p>This leaves me conflicted. I cannot in good conscience say that most teams should drop mandatory code reviews and that this will not cause major issues. Yet, I am thoroughly convinced that continuous integration <em>is</em> a better way of working.</p>
 <p>Trapped in the middle, I am here to suggest a compromise: <strong>Code reviews should be reduced to their bare essentials.</strong></p>
-<h2 id="code-reviews-hurt-more-the-more-they-try-to-do">Code reviews hurt more the more they try to do</h2>
+<h2>Code reviews hurt more the more they try to do</h2>
 <p>Here is my line of reasoning:</p>
 <ol>
 <li>When you look for more things in a code review, it becomes more demanding and time-consuming.</li>
@@ -580,7 +570,7 @@ function placeIconAtMousePosition () {
 <p>Empirical studies provided evidence that up to 75% of code review defects affect software evolvability/maintainability rather than functionality [...] This also means that less than 15% of the issues discussed in code reviews are related to bugs.</p>
 </blockquote>
 <p>Despite our primary motivation for mandating code review being bug reduction, we spend the majority of our attention on other, less critical issues. Combining this diluted focus with its influence to make pull requests larger, it is likely that trying to improve more things with code review actually makes matters worse.</p>
-<h2 id="limit-your-code-reviews-to-the-most-important-concerns">Limit your code reviews to the most important concerns</h2>
+<h2>Limit your code reviews to the most important concerns</h2>
 <p>Since mandatory code reviews cause more issues the more concerns they look for, they should be stripped down to the bare minimum of concerns that must be improved before merge. This will reduce the costs of review while improving its effectiveness for the concerns you do look for. What this bare minimum set is may vary from project to project, and you are free to decide what this is for yourself.</p>
 <p><strong>Personally, I am convinced that you should cut any concern from your list that is not externally visible and can be improved later.</strong> This includes:</p>
 <ul>
@@ -602,7 +592,7 @@ function placeIconAtMousePosition () {
 </ul>
 <p>By limiting your review scope to these core concerns, you minimize the cost of mandating code reviews, while maintaining quality control on the issues you care the most about.</p>
 <p><em>(Limiting and focusing the objective of code review like this also makes it easier to see when code reviews become obsolete - when bug rates drop to acceptable levels pre-review, and when you discuss and refine your irreversible design decisions outside of review. It is very easy to imagine high-performing teams working like this.)</em></p>
-<h2 id="this-is-a-suggested-experiment">This is a suggested experiment</h2>
+<h2>This is a suggested experiment</h2>
 <p>While this strategy of cutting the scope of review makes a lot of sense to me, I cannot predict how it will play out for you, in your team, in your circumstances. I do not know to what degree it will make reviews easier and reduce integration pain, and I do not know what unexpected side effects it will have.</p>
 <p>What I do believe is that this experiment is low risk, it is not very disruptive, and the potential rewards are great enough that <strong>you should try it out</strong>. Talk it out with your team, find a scope of review to try, trial it for a week or two, then reflect on how it went. If you do not like the results, you can always go back to your old way of working afterwards.</p>
 <p><strong>If you try this, or have already tried it, please message me to share your experience!</strong> Contact me on Mastodon at <a href="https://hachyderm.io/@cvennevik">@cvennevik@hachyderm.io</a> (so I can share it further, if you like!), or email me at <a href="mailto:cvennevik@gmail.com">cvennevik@gmail.com</a>.</p>

@@ -5,7 +5,7 @@ date: 2023-02-05T11:51:00+01:00
 
 We throw around the "technical debt" metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of "technical debt."
 
-<!--more-->
+---
 
 The "technical debt" metaphor is used to explain that we accrue _design flaws_ as we work. These design flaws make it harder to change the system - the more flaws we have, the more we "pay interest" in increased time and effort to make new changes. To make the system easier to change again, we need to "pay down the debt" by fixing the design flaws. If we do not keep our "technical debt" in check, we risk accumulating so many design flaws that it is no longer economic to develop the system any further - we hit "technical bankruptcy."
 

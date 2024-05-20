@@ -5,7 +5,7 @@ date: 2023-02-09T21:45:00+01:00
 
 Listen. I know I should have done this one better.
 
-<!--more-->
+---
 
 Yes, I didn't spend time improving the design before I went to work. I slotted my change right into the design that was already there. It fit okay! With some slight cruft, duplication, and clunky call chaining, but still! Don't look at me like that - even Kent Beck says "making the change easy" is the hard part, and my job is hard enough!
 

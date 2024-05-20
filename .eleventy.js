@@ -10,10 +10,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
   eleventyConfig.addWatchTarget("src/css/");
   eleventyConfig.addWatchTarget("src/img/");
-  eleventyConfig.setFrontMatterParsingOptions({
-    excerpt: true,
-    excerpt_separator: "<!--more-->",
-  });
+  eleventyConfig.setFrontMatterParsingOptions({ excerpt: true });
 
   /*** FILTERS ***/
   eleventyConfig.addFilter("absoluteUrl", (url, base) => {

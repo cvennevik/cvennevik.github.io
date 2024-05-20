@@ -10,6 +10,6 @@ layout: page.njk
 <a href="/blog/">&larr; Blog</a>
 <article>
     <h1>{{ title }}</h1>
-    <i>{{ date | renderFullDate }}</i>
+    <i>{{ date.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}</i>
     {{ content | safe }}
 </article>

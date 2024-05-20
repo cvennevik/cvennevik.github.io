@@ -15,16 +15,15 @@ baseURL: https://www.cvennevik.no/
   </author>
   <icon>{{ "/img/logo-100px.jpg" | absoluteUrl(baseURL) }}</icon>
   {%- set lastPost = collections.blogposts | last %}
-  <updated>{{ lastPost.date | dateToIsoTime }}</updated>
-
+  <updated>{{ lastPost.date.toISOString() }}</updated>
   {%- for post in collections.blogposts | reverse %}
   {%- set absolutePostUrl = post.url | absoluteUrl(baseURL) %}
   <entry>
     <title type="html">{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
     <id>{{ absolutePostUrl }}</id>
-    <published>{{ post.date | dateToIsoTime }}</published>
-    <updated>{{ post.date | dateToIsoTime }}</updated>
+    <published>{{ post.date.toISOString() }}</published>
+    <updated>{{ post.date.toISOString() }}</updated>
     <summary type="html"><![CDATA[{{ post | renderBlogPostSummary | safe }}]]></summary>
     <content type="html"><![CDATA[{{ post.templateContent | safe }}]]></content>
   </entry>

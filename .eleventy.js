@@ -21,9 +21,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("absoluteUrl", (url, base) => {
     return new URL(url, base).toString();
   });
-  eleventyConfig.addFilter("dateToIsoTime", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toISO();
-  });
   eleventyConfig.addFilter("renderFullDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj)
       .setLocale("en-US")

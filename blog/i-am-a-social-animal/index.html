@@ -257,14 +257,12 @@ customElements.define(
         </script>
     </head>
     <body>
-        <dialog id="site-settings-dialog">
+        <dialog aria-labelledby="site-settings-title" id="site-settings-dialog">
             <h1 id="site-settings-title">Site settings</h1>
-            <form aria-labelledby="site-settings-title" method="dialog">
+            <form method="dialog">
                 <input-persist>
-                    <fieldset>
-                        <label for="motion-toggle">Enable motion</label>
-                        <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
-                    </fieldset>
+                    <label for="motion-toggle">Enable motion</label>
+                    <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
                     <fieldset>
                         <legend>Color scheme</legend>
                         <label for="auto-color-scheme">Auto</label>

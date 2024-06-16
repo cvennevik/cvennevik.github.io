@@ -167,6 +167,10 @@ figcaption {
 	margin-top: .5em;
 	text-align: center;
 }
+
+.js-disabled .js-only {
+	display: none;
+}
         </style>
         <script>
             // <input-persist> observes all contained input elements with a [data-persist-key] attribute.
@@ -253,6 +257,26 @@ customElements.define(
         </script>
     </head>
     <body>
+        <dialog id="site-settings-dialog">
+    <button onclick="document.getElementById('site-settings-dialog').close()">
+        Close site settings
+    </button>
+    <input-persist>
+        <fieldset>
+            <label for="motion-toggle">Enable motion</label>
+            <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
+        </fieldset>
+        <fieldset>
+            <legend>Color scheme</legend>
+            <label for="auto-color-scheme">Auto</label>
+            <input type="radio" name="color-scheme" id="auto-color-scheme" data-persist-key="auto-color-scheme" checked>
+            <label for="light-color-scheme">Light</label>
+            <input type="radio" name="color-scheme" id="light-color-scheme" data-persist-key="light-color-scheme">
+            <label for="dark-color-scheme">Dark</label>
+            <input type="radio" name="color-scheme" id="dark-color-scheme" data-persist-key="dark-color-scheme">
+        </fieldset>
+    </input-persist>
+</dialog>
         
 <style>
     header {
@@ -332,34 +356,9 @@ customElements.define(
     <a href="/blogrollroll/">Blogrollroll</a>
     <a href="/influences/">Influences</a>
     <a rel="me" href="https://hachyderm.io/@cvennevik">Mastodon</a>
-</nav>
-<style>
-    .js-disabled .site-settings-button {
-        display: none;
-    }
-</style>
-<button class="site-settings-button" onclick="document.getElementById('site-settings-dialog').showModal()">
-    Open site settings
-</button>
-<dialog id="site-settings-dialog">
-    <button onclick="document.getElementById('site-settings-dialog').close()">
-        Close site settings
+    <button class="js-only site-settings-button" onclick="document.getElementById('site-settings-dialog').showModal()">
+        Open site settings
     </button>
-    <input-persist>
-        <fieldset>
-            <label for="motion-toggle">Enable motion</label>
-            <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
-        </fieldset>
-        <fieldset>
-            <legend>Color scheme</legend>
-            <label for="auto-color-scheme">Auto</label>
-            <input type="radio" name="color-scheme" id="auto-color-scheme" data-persist-key="auto-color-scheme" checked>
-            <label for="light-color-scheme">Light</label>
-            <input type="radio" name="color-scheme" id="light-color-scheme" data-persist-key="light-color-scheme">
-            <label for="dark-color-scheme">Dark</label>
-            <input type="radio" name="color-scheme" id="dark-color-scheme" data-persist-key="dark-color-scheme">
-        </fieldset>
-    </input-persist>
-</dialog>
+</nav>
     </body>
 </html>

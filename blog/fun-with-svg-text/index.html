@@ -258,10 +258,8 @@ customElements.define(
     </head>
     <body>
         <dialog id="site-settings-dialog">
-            <form method="dialog">
-                <button type="submit">
-                    Close site settings
-                </button>
+            <h1 id="site-settings-title">Site settings</h1>
+            <form aria-labelledby="site-settings-title" method="dialog">
                 <input-persist>
                     <fieldset>
                         <label for="motion-toggle">Enable motion</label>
@@ -278,6 +276,7 @@ customElements.define(
                         <input type="radio" name="color-scheme" id="dark-color-scheme" data-persist-key="dark-color-scheme">
                     </fieldset>
                 </input-persist>
+                <button type="submit">Close</button>
             </form>
         </dialog>
         

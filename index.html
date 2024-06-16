@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="js-disabled">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Cecilie Vennevik</title>
@@ -248,6 +248,9 @@ customElements.define(
 );
 
         </script>
+        <script>
+            document.documentElement.classList.remove('js-disabled');
+        </script>
     </head>
     <body>
         
@@ -330,21 +333,33 @@ customElements.define(
     <a href="/influences/">Influences</a>
     <a rel="me" href="https://hachyderm.io/@cvennevik">Mastodon</a>
 </nav>
-<input-persist>
-    <fieldset>
-        <label for="motion-toggle">Enable motion</label>
-        <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
-    </fieldset>
-    <fieldset>
-        <legend>Color scheme</legend>
-        <label for="auto-color-scheme">Auto</label>
-        <input type="radio" name="color-scheme" id="auto-color-scheme" data-persist-key="auto-color-scheme" checked>
-        <label for="light-color-scheme">Light</label>
-        <input type="radio" name="color-scheme" id="light-color-scheme" data-persist-key="light-color-scheme">
-        <label for="dark-color-scheme">Dark</label>
-        <input type="radio" name="color-scheme" id="dark-color-scheme" data-persist-key="dark-color-scheme">
-    </fieldset>
-</input-persist>
-
+<style>
+    .js-disabled .site-settings-button {
+        display: none;
+    }
+</style>
+<button class="site-settings-button" onclick="document.getElementById('site-settings-dialog').showModal()">
+    Open site settings
+</button>
+<dialog id="site-settings-dialog">
+    <button onclick="document.getElementById('site-settings-dialog').close()">
+        Close site settings
+    </button>
+    <input-persist>
+        <fieldset>
+            <label for="motion-toggle">Enable motion</label>
+            <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
+        </fieldset>
+        <fieldset>
+            <legend>Color scheme</legend>
+            <label for="auto-color-scheme">Auto</label>
+            <input type="radio" name="color-scheme" id="auto-color-scheme" data-persist-key="auto-color-scheme" checked>
+            <label for="light-color-scheme">Light</label>
+            <input type="radio" name="color-scheme" id="light-color-scheme" data-persist-key="light-color-scheme">
+            <label for="dark-color-scheme">Dark</label>
+            <input type="radio" name="color-scheme" id="dark-color-scheme" data-persist-key="dark-color-scheme">
+        </fieldset>
+    </input-persist>
+</dialog>
     </body>
 </html>

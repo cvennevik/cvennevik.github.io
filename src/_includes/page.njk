@@ -4,6 +4,7 @@ layout: base.njk
 
 <style>
     header {
+        position: relative;
         text-align: center;
     }
 
@@ -22,10 +23,18 @@ layout: base.njk
     header a:focus img {
         border: .3rem solid var(--home-link-focus-color);
     }
+
+    .site-settings-button {
+        position: absolute;
+        right: 0;
+    }
 </style>
 <header>
     <a href="/">
         <img src="/img/logo-250px.jpg" title="Home">
     </a>
+    <button class="site-settings-button js-only" onclick="document.getElementById('site-settings-dialog').showModal()">
+        Open site settings
+    </button>
 </header>
 {{ content | safe }}

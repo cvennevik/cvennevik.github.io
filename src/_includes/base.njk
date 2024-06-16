@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="js-disabled">
     <head>
+        <script>document.documentElement.classList.remove('js-disabled');</script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title + " - Cecilie Vennevik" if title else "Cecilie Vennevik" }}</title>
         <link rel="icon" type="image/jpg" href="/img/logo-32px.jpg" sizes="32x32">
@@ -14,9 +15,6 @@
         </style>
         <script>
             {% include 'input-persist.js' %}
-        </script>
-        <script>
-            document.documentElement.classList.remove('js-disabled');
         </script>
     </head>
     <body>

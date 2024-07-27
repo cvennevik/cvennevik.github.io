@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" class="js-disabled">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Freewriting - Cecilie Vennevik</title>
+        <link rel="icon" type="image/jpg" href="/img/logo-32px.jpg" sizes="32x32">
+        <link rel="icon" type="image/jpg" href="/img/logo-48px.jpg" sizes="48x48">
+        <link rel="icon" type="image/jpg" href="/img/logo-64px.jpg" sizes="64x64">
+        <meta name="author" content="Cecilie Vennevik">
+        <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/rss.xml" type="application/rss+xml">
+        <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/atom.xml" type="application/atom+xml">
+        <style>
+            *,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+:root {
+	--codeblock-color: #eee;
+	--codeblock-background-color: #2b2b2b;
+	--home-link-focus-color: #89cff0;
+
+	--background-color: #f0f9fd;
+	--foreground-color: rgba(255, 255, 255, 30%);
+	--border-color: rgba(0, 0, 0, 10%);
+	--text-color: #212;
+	--code-background-color: rgba(0, 0, 0, 10%);
+	--link-color: #086391;
+	--link-focus-color: #89cff0;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-color: #222;
+		--foreground-color: #444;
+		--border-color: rgba(255, 255, 255, 10%);
+		--text-color: #fff;
+		--code-background-color: #444;
+		--link-color: #89cff0;
+		--link-focus-color: #b8e2f6;
+	}
+}
+
+:root:has(#light-color-scheme:checked) {
+	--background-color: #f0f9fd;
+	--foreground-color: rgba(255, 255, 255, 30%);
+	--border-color: rgba(0, 0, 0, 10%);
+	--text-color: #212;
+	--code-background-color: rgba(0, 0, 0, 10%);
+	--link-color: #086391;
+	--link-focus-color: #89cff0;
+}
+
+:root:has(#dark-color-scheme:checked) {
+	--background-color: #222;
+	--foreground-color: #444;
+	--border-color: rgba(255, 255, 255, 10%);
+	--text-color: #fff;
+	--code-background-color: #444;
+	--link-color: #89cff0;
+	--link-focus-color: #b8e2f6;
+}
+
+html {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	font-family: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+	height: 100%;
+	line-height: 1.5;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 50rem;
+	padding: 1rem;
+	padding-bottom: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+	line-height: 1.1;
+	margin-block-start: 1em;
+	margin-block-end: 0;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-size: 1.3rem;
+}
+
+h6 {
+	font-size: 1.2rem;
+}
+
+a {
+	color: var(--link-color);
+	transition: color .1s;
+}
+
+a:focus,
+a:hover {
+	color: var(--link-focus-color);
+}
+
+blockquote {
+	border-left: .3rem solid var(--border-color);
+	margin: 1rem 0;
+	padding: 0 1rem;
+}
+
+:not(pre)>code {
+	background-color: var(--code-background-color);
+}
+
+pre {
+	background-color: var(--codeblock-background-color);
+	border-radius: 0.5em;
+	color: var(--codeblock-color);
+	font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	hyphens: none;
+	line-height: 1.4;
+	padding: 1em;
+	overflow: auto;
+	tab-size: 4;
+	white-space: pre-wrap;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 1.3rem 0;
+}
+
+figure img {
+	border: .3rem solid var(--border-color);
+	border-radius: .3rem;
+}
+
+figcaption {
+	font-style: italic;
+	margin-top: .5em;
+	text-align: center;
+}
+
+.js-disabled .js-only {
+	display: none;
+}
+        </style>
+        <script>
+            // <input-persist> observes all contained input elements with a [data-persist-key] attribute.
+// When the user changes the value of an input element, it saves that value to local storage.
+// The [data-persist-key] attribute specifies the storage key.
+// When an input element first loads - or is placed - inside <input-parsist>, its value is set to the stored value.
+//
+// <input-persist> supports the following elements:
+// - <input type="checkbox">
+// - <input type="radio">
+customElements.define(
+  "input-persist",
+  class extends HTMLElement {
+    connectedCallback() {
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          mutation.removedNodes.forEach((node) => {
+            node.removeEventListener("input", this);
+          });
+          mutation.addedNodes.forEach((node) => {
+            if (node.nodeName == "INPUT") {
+              node.addEventListener("input", this);
+              const persistKey = node.dataset.persistKey;
+              if (!persistKey) return;
+
+              const savedValue = localStorage.getItem(persistKey);
+              if (savedValue) {
+                switch (node.type) {
+                  case "checkbox":
+                  case "radio":
+                    node.checked = savedValue === "checked";
+                    break;
+                  default:
+                    console.warn(
+                      `input-persist: cannot persist unsupported element <input type=${node.type}>.`,
+                      node
+                    );
+                    break;
+                }
+              }
+            }
+          });
+        });
+      });
+      observer.observe(this, { childList: true, subtree: true });
+    }
+
+    handleEvent(event) {
+      const persistKey = event.target.dataset.persistKey;
+      if (!persistKey) return;
+
+      switch (event.target.type) {
+        case "checkbox":
+          localStorage.setItem(
+            persistKey,
+            event.target.checked ? "checked" : "unchecked"
+          );
+          break;
+        case "radio":
+          const radioName = event.target.getAttribute("name");
+          this.querySelectorAll(`input[name=${radioName}]`).forEach((radio) => {
+            if (radio.dataset.persistKey) {
+              localStorage.setItem(
+                radio.dataset.persistKey,
+                radio === event.target ? "checked" : "unchecked"
+              );
+            }
+          });
+          break;
+        default:
+          console.warn(
+            `input-persist: cannot persist unsupported element <input type=${event.target.type}>.`,
+            event.target
+          );
+          break;
+      }
+    }
+  }
+);
+
+        </script>
+        <script>
+            document.documentElement.classList.remove('js-disabled');
+        </script>
+    </head>
+    <body>
+        <dialog aria-labelledby="site-settings-title" id="site-settings-dialog">
+            <h1 id="site-settings-title">Site settings</h1>
+            <form method="dialog">
+                <input-persist>
+                    <label for="motion-toggle">Enable motion</label>
+                    <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
+                    <fieldset>
+                        <legend>Color scheme</legend>
+                        <label for="auto-color-scheme">Auto</label>
+                        <input type="radio" name="color-scheme" id="auto-color-scheme" data-persist-key="auto-color-scheme"
+                            checked>
+                        <label for="light-color-scheme">Light</label>
+                        <input type="radio" name="color-scheme" id="light-color-scheme" data-persist-key="light-color-scheme">
+                        <label for="dark-color-scheme">Dark</label>
+                        <input type="radio" name="color-scheme" id="dark-color-scheme" data-persist-key="dark-color-scheme">
+                    </fieldset>
+                </input-persist>
+                <button type="submit">Close</button>
+            </form>
+        </dialog>
+        
+<style>
+    header {
+        position: relative;
+        text-align: center;
+    }
+
+    header a {
+        display: inline-block;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    header a img {
+        border-radius: 100%;
+        transition: border-width .1s;
+    }
+
+    header a:hover img,
+    header a:focus img {
+        border: .3rem solid var(--home-link-focus-color);
+    }
+
+    .site-settings-button {
+        position: absolute;
+        right: 0;
+    }
+</style>
+<header>
+    <a href="/">
+        <img src="/img/logo-250px.jpg" title="Home">
+    </a>
+    <button class="site-settings-button js-only" onclick="document.getElementById('site-settings-dialog').showModal()">
+        Open site settings
+    </button>
+</header>
+<h1>Freewriting #1: Why do I want to write?</h1>
+<p><em>July 27, 2024</em></p>
+<p>I'm not typically a person for “meta” content - writing about writing, speaking about speaking, that kind of thing - but I will make an exception for this time.</p>
+<p>Good morning. It's 08:55 AM, July 27, 2024, and I am writing my first “morning page,” or whatever I will end up calling this. “This” being 500+ words of whatever I am able to write in the moment. It only has a couple of rules: no editing as I go, no editing after the fact (probably), and I will publish it on my website for people to read. So if you are reading this, then I've managed to commit to writing at least one of these. Here's to however many more.</p>
+<p>I want to answer for myself why I am writing this. I got the idea to do this after reading <a href="https://www.simplermachines.com/how-to-write/">Nat Bennett's post on “how to write,”</a> and part of his recipe for getting good at writing is to write a lot. “A lot” being ~500 words, every day, for a few years. That's a lot of words. As I finished reading it, I thought, “I want to do this. Doing this would be good for me.” So here I am, typing away on my phone, while still on holiday, because I know that waiting another week to type it up at a computer likely means I will never do this at all.</p>
+<p>I've pushed myself to get going with this, and I am doing it, and I am enjoying it, but I do not know why it is good for me. Nothing more than vague gestures at “expressing myself” and “quiet focus time” and “thinking aid.” Let me try to expand upon those and see what the feeling actually is.</p>
+<p>Lately, my participation online has been quite passive. I read a lot - well, I skim a lot most of the time, I don't even read very closely. And I do not engage with what other people are saying. I rarely say things myself, out of all the time I spend on my phone, seeing what people are saying on Mastodon, on their blogs, on Discord.</p>
+<p>The quiet consumption makes me feel like a non-being. I fall out of touch. I forget what I sound like. Anonymous, even to myself.</p>
+<p>So that's part of what I want to address with writing: this social, spiritual need to be a creature with a voice.</p>
+<p>The second reason I can think of, “quiet focus time,” feels equally important to me. Important context: in March, I became a parent to an incredible daughter. I love her to bits and she makes me happy. And to no one’s surprise, having an infant to look after means changing your round-the-clock schedule and takes a lot of time and energy. I do not have as much time to do “me” things as I did before, and it is much more scattered, unpredictable, and prone to interruption. Even now, on this post-travel sleep-in morning, I might have to abruptly wrap this up because my daughter will wake up and need my attention.</p>
+<p>It's not surprising, then, that I fill my free time with simple, low-effort, low-attention activities. Like YouTube videos and social media. And uh, living like that turns my brain into itchy mush.</p>
+<p>Little writing sessions like this, then, becomes a way to carve out a quiet space where I am conscious and in control. It centers me.</p>
+<p>Ideally, I would be conscious and in control when I am being a parent and a spouse and a friend, too, but I am too fallible for that right now. I would like to be better at it. Here's hoping that focusing on these words will help me focus on the things that matter, too.</p>
+<p>I said something about “thinking aid.” Yes, I do find it easier to think when I am writing it out. And thinking has been more difficult lately. I want this writing to clarify the vague, foggy outlines I have in my mind. It's been quite foggy lately, what with the weird sleep and busy schedule.</p>
+<p>Already, this is helping.</p>
+<p>And already, fifty minutes and however many words in, I feel drained. This is quite mentally taxing. If I make this a habit, I have to balance this so I have energy left for all the rest of my daily life. That bit that is already quite packed and strained.</p>
+<p>Oh well. A problem for tomorrow.</p>
+<p>Be well.</p>
+
+    </body>
+</html>

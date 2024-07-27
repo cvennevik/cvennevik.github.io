@@ -1,5 +1,5 @@
 ---
-title: Freewriting #1: Why do I want to write?
+title: "Freewriting #1: Why do I want to write?"
 layout: page.njk
 ---
 

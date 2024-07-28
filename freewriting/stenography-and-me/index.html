@@ -1,5 +1,318 @@
-<p>title: &quot;Freewriting #2: Stenography and me&quot;
-layout: page.njk</p>
+<!DOCTYPE html>
+<html lang="en" class="js-disabled">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Freewriting #2: Stenography and me - Cecilie Vennevik</title>
+        <link rel="icon" type="image/jpg" href="/img/logo-32px.jpg" sizes="32x32">
+        <link rel="icon" type="image/jpg" href="/img/logo-48px.jpg" sizes="48x48">
+        <link rel="icon" type="image/jpg" href="/img/logo-64px.jpg" sizes="64x64">
+        <meta name="author" content="Cecilie Vennevik">
+        <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/rss.xml" type="application/rss+xml">
+        <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/atom.xml" type="application/atom+xml">
+        <style>
+            *,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+:root {
+	--codeblock-color: #eee;
+	--codeblock-background-color: #2b2b2b;
+	--home-link-focus-color: #89cff0;
+
+	--background-color: #f0f9fd;
+	--foreground-color: rgba(255, 255, 255, 30%);
+	--border-color: rgba(0, 0, 0, 10%);
+	--text-color: #212;
+	--code-background-color: rgba(0, 0, 0, 10%);
+	--link-color: #086391;
+	--link-focus-color: #89cff0;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-color: #222;
+		--foreground-color: #444;
+		--border-color: rgba(255, 255, 255, 10%);
+		--text-color: #fff;
+		--code-background-color: #444;
+		--link-color: #89cff0;
+		--link-focus-color: #b8e2f6;
+	}
+}
+
+:root:has(#light-color-scheme:checked) {
+	--background-color: #f0f9fd;
+	--foreground-color: rgba(255, 255, 255, 30%);
+	--border-color: rgba(0, 0, 0, 10%);
+	--text-color: #212;
+	--code-background-color: rgba(0, 0, 0, 10%);
+	--link-color: #086391;
+	--link-focus-color: #89cff0;
+}
+
+:root:has(#dark-color-scheme:checked) {
+	--background-color: #222;
+	--foreground-color: #444;
+	--border-color: rgba(255, 255, 255, 10%);
+	--text-color: #fff;
+	--code-background-color: #444;
+	--link-color: #89cff0;
+	--link-focus-color: #b8e2f6;
+}
+
+html {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	font-family: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+	height: 100%;
+	line-height: 1.5;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 50rem;
+	padding: 1rem;
+	padding-bottom: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+	line-height: 1.1;
+	margin-block-start: 1em;
+	margin-block-end: 0;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-size: 1.3rem;
+}
+
+h6 {
+	font-size: 1.2rem;
+}
+
+a {
+	color: var(--link-color);
+	transition: color .1s;
+}
+
+a:focus,
+a:hover {
+	color: var(--link-focus-color);
+}
+
+blockquote {
+	border-left: .3rem solid var(--border-color);
+	margin: 1rem 0;
+	padding: 0 1rem;
+}
+
+:not(pre)>code {
+	background-color: var(--code-background-color);
+}
+
+pre {
+	background-color: var(--codeblock-background-color);
+	border-radius: 0.5em;
+	color: var(--codeblock-color);
+	font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	hyphens: none;
+	line-height: 1.4;
+	padding: 1em;
+	overflow: auto;
+	tab-size: 4;
+	white-space: pre-wrap;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 1.3rem 0;
+}
+
+figure img {
+	border: .3rem solid var(--border-color);
+	border-radius: .3rem;
+}
+
+figcaption {
+	font-style: italic;
+	margin-top: .5em;
+	text-align: center;
+}
+
+.js-disabled .js-only {
+	display: none;
+}
+        </style>
+        <script>
+            // <input-persist> observes all contained input elements with a [data-persist-key] attribute.
+// When the user changes the value of an input element, it saves that value to local storage.
+// The [data-persist-key] attribute specifies the storage key.
+// When an input element first loads - or is placed - inside <input-parsist>, its value is set to the stored value.
+//
+// <input-persist> supports the following elements:
+// - <input type="checkbox">
+// - <input type="radio">
+customElements.define(
+  "input-persist",
+  class extends HTMLElement {
+    connectedCallback() {
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          mutation.removedNodes.forEach((node) => {
+            node.removeEventListener("input", this);
+          });
+          mutation.addedNodes.forEach((node) => {
+            if (node.nodeName == "INPUT") {
+              node.addEventListener("input", this);
+              const persistKey = node.dataset.persistKey;
+              if (!persistKey) return;
+
+              const savedValue = localStorage.getItem(persistKey);
+              if (savedValue) {
+                switch (node.type) {
+                  case "checkbox":
+                  case "radio":
+                    node.checked = savedValue === "checked";
+                    break;
+                  default:
+                    console.warn(
+                      `input-persist: cannot persist unsupported element <input type=${node.type}>.`,
+                      node
+                    );
+                    break;
+                }
+              }
+            }
+          });
+        });
+      });
+      observer.observe(this, { childList: true, subtree: true });
+    }
+
+    handleEvent(event) {
+      const persistKey = event.target.dataset.persistKey;
+      if (!persistKey) return;
+
+      switch (event.target.type) {
+        case "checkbox":
+          localStorage.setItem(
+            persistKey,
+            event.target.checked ? "checked" : "unchecked"
+          );
+          break;
+        case "radio":
+          const radioName = event.target.getAttribute("name");
+          this.querySelectorAll(`input[name=${radioName}]`).forEach((radio) => {
+            if (radio.dataset.persistKey) {
+              localStorage.setItem(
+                radio.dataset.persistKey,
+                radio === event.target ? "checked" : "unchecked"
+              );
+            }
+          });
+          break;
+        default:
+          console.warn(
+            `input-persist: cannot persist unsupported element <input type=${event.target.type}>.`,
+            event.target
+          );
+          break;
+      }
+    }
+  }
+);
+
+        </script>
+        <script>
+            document.documentElement.classList.remove('js-disabled');
+        </script>
+    </head>
+    <body>
+        <dialog aria-labelledby="site-settings-title" id="site-settings-dialog">
+            <h1 id="site-settings-title">Site settings</h1>
+            <form method="dialog">
+                <input-persist>
+                    <label for="motion-toggle">Enable motion</label>
+                    <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
+                    <fieldset>
+                        <legend>Color scheme</legend>
+                        <label for="auto-color-scheme">Auto</label>
+                        <input type="radio" name="color-scheme" id="auto-color-scheme" data-persist-key="auto-color-scheme"
+                            checked>
+                        <label for="light-color-scheme">Light</label>
+                        <input type="radio" name="color-scheme" id="light-color-scheme" data-persist-key="light-color-scheme">
+                        <label for="dark-color-scheme">Dark</label>
+                        <input type="radio" name="color-scheme" id="dark-color-scheme" data-persist-key="dark-color-scheme">
+                    </fieldset>
+                </input-persist>
+                <button type="submit">Close</button>
+            </form>
+        </dialog>
+        
+<style>
+    header {
+        position: relative;
+        text-align: center;
+    }
+
+    header a {
+        display: inline-block;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    header a img {
+        border-radius: 100%;
+        transition: border-width .1s;
+    }
+
+    header a:hover img,
+    header a:focus img {
+        border: .3rem solid var(--home-link-focus-color);
+    }
+
+    .site-settings-button {
+        position: absolute;
+        right: 0;
+    }
+</style>
+<header>
+    <a href="/">
+        <img src="/img/logo-250px.jpg" title="Home">
+    </a>
+    <button class="site-settings-button js-only" onclick="document.getElementById('site-settings-dialog').showModal()">
+        Open site settings
+    </button>
+</header>
 <h1>Freewriting #2: Stenography and me</h1>
 <p><em>July 28, 2024</em></p>
 <p>Back in August 2022, I came upon the concept of “stenography” for the first time. Basically - and I'm likely butchering the real meaning here - it's the art of writing really quickly using shorthand writing systems. Well, if “shorthand” also includes writing on those specialized keyboards that court recorders use.</p>
@@ -14,3 +327,6 @@ layout: page.njk</p>
 <p>I had to abandon stenography and conserve my tendons. The keyboard is still packed away in its case, on a bookshelf in my home, waiting for me to pick it up again or to find it a better home.</p>
 <p>There's a common saying in programming that typing speed is never the bottleneck when you write software. And in this case, I managed to hurt a whole different bottleneck in my quest to type faster.</p>
 <p>Still, I do not regret the attempt.</p>
+
+    </body>
+</html>

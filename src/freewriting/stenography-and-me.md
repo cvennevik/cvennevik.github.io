@@ -1,3 +1,4 @@
+---
 title: "Freewriting #2: Stenography and me"
 layout: page.njk
 ---

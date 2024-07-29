@@ -27,7 +27,7 @@ Oh, and maybe the biggest reason for doing it this way: I figured out how to wri
 
 ---
 
-I want to thank Ron Jeffries for inspiring me to write this. He’s written some lovely and entertaining series of blog posts of his own coding projects, and is currently writing a Sudoku solver ([first post here](https://ronjeffries.com/articles/-x024/-z00/0/). It looked fun enough that I was reminded of my old solver and wanted to do something similar myself.
+I want to thank Ron Jeffries for inspiring me to write this. He’s written some lovely and entertaining series of blog posts of his own coding projects, and is currently writing a Sudoku solver ([first post here](https://ronjeffries.com/articles/-x024/-z00/0/)). It looked fun enough that I was reminded of my old solver and wanted to do something similar myself.
 
 I could get into what my goals with this are, what I am prioritizing, what I am deprioritizing, what to expect - but I'm growing tired of writing preamble. I'd rather my next bit of writing to actually get into it. We can figure all that big-picture stuff out as we go.
 

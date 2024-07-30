@@ -5,8 +5,146 @@
     <link>https://www.cvennevik.no/blog/</link>
     <description>Recent posts on Cecilie Vennevik's blog</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Aug 2024 10:05:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2024 20:40:00 GMT</lastBuildDate>
     <atom:link href="https://www.cvennevik.no/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Slay the Spire #1: HTML first</title>
+      <link>https://www.cvennevik.no/blog/slay-the-spire-01-html-first/</link>
+      <pubDate>Fri, 30 Aug 2024 20:40:00 GMT</pubDate>
+      <guid>https://www.cvennevik.no/blog/slay-the-spire-01-html-first/</guid>
+      <description><![CDATA[<p>There are few things as daunting as a blank page.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>There are few things as daunting as a blank page.</p>
+<p>Right now, all my solver project has to show for itself is a little bit of preamble and a vague idea. I do not have a scaffold to work on. I do not have a plan. I do not even have any clearly defined goals.</p>
+<p>Before it's too late, let's get something down on the page, so we can look at it and discuss it. Let's write some HTML, in our first file, <code>index.html</code>.</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Page title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>My editor is kind enough to generate an empty HTML snippet for me. Let's replace the title:</p>
+<pre><code class="language-html">&lt;title&gt;Slay the Spire solver&lt;/title&gt;
+</code></pre>
+<p>And let's add our first heading to the body:</p>
+<pre><code class="language-html">&lt;h1&gt;Slay the Spire solver&lt;/h1&gt;
+</code></pre>
+<p>It's a thoroughly uninspiring name, and I want to find a more unique and identifiable name soon. Let's delay that until we have a bit of functionality, so we can pick a name that captures what our application actually does.</p>
+<p>Opening the page, everything seems to display as expected! This is our Hello World. We now have something to start adding to.</p>
+<p>At this point, I would consider making our first commit to version control. Alas: I do not have a development machine with me. I am coding this on my phone, using the first Android app I was able to find for web development. I do not have any version control set up, nor any command line available. Until I return home from my vacation, our process and tooling will stay exceedingly simple. So: no commiting anything right now.</p>
+<p>Let's proceed to add something interesting. To start analyzing games and available actions and potential outcomes, I will at minimum need to display a game state. Let's start with that.</p>
+<p>First, some player data:</p>
+<pre><code class="language-html">&lt;h2&gt;Player: Ironclad&lt;/h2&gt;
+&lt;p&gt;Health: 80/80&lt;/p&gt;
+</code></pre>
+<p>Already, I am forced to decide on how to present the data. I could structure this as a table, or as a list, or lists of lists, or sections, or something else entirely.</p>
+<p>I've decided on using headings to separate the game state data into labeled sections for a few reasons:</p>
+<ul>
+<li>Headings are important for screen reader navigation.</li>
+<li>Heading levels let me organize the data into a hierarchy of content.</li>
+<li>Headings do not require any &quot;nesting&quot; of markup elements, compared to tables, lists, and lists of lists.</li>
+</ul>
+<p>For simple data like player health, I've opted to keep it to a dead simple paragraph tag. In my first sketches of this (<em>mea culpa</em>, I did try some of this out without you, before I had the space to write), I tried making it a table, or an unordered list. In the end, it all seemed like too much structure. A single-line paragraph for player health will suffice for now.</p>
+<p>Now what other game state exists? There's the cards in hand, cards in draw pile, and cards in discard pile. Let's write up some example lists, for a realistic first turn:</p>
+<pre><code class="language-html">&lt;h3&gt;Hand&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Bash&lt;/li&gt;
+    &lt;li&gt;Defend&lt;/li&gt;
+    &lt;li&gt;Defend&lt;/li&gt;
+    &lt;li&gt;Defend&lt;/li&gt;
+    &lt;li&gt;Strike&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Draw pile&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Defend&lt;/li&gt;
+    &lt;li&gt;Strike&lt;/li&gt;
+    &lt;li&gt;Strike&lt;/li&gt;
+    &lt;li&gt;Strike&lt;/li&gt;
+    &lt;li&gt;Strike&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Discard pile&lt;/h3&gt;
+&lt;p&gt;Empty&lt;/p&gt;
+</code></pre>
+<p>Your hand can contain up to 10 cards, and your draw and discard piles can contain any number of cards, so these make sense as lists. Implicitly, I am structuring them as unordered sets, as order in hand does not matter and order in draw pile is typically unknown. Let's sort them alphabetically for consistency.</p>
+<p>Though, that draw pile is taking up a lot of screen space for a relatively unimportant piece of information. What if we made it collapsible, in a <code>&lt;details&gt;</code> element?</p>
+<pre><code class="language-html">&lt;details&gt;
+    &lt;summary&gt;Draw pile&lt;/summary&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Defend&lt;/li&gt;
+        &lt;li&gt;Strike&lt;/li&gt;
+        &lt;li&gt;Strike&lt;/li&gt;
+        &lt;li&gt;Strike&lt;/li&gt;
+        &lt;li&gt;Strike&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/details&gt;
+</code></pre>
+<p>Hmm, too little information when collapsed. Maybe if we add the card count to the summary...</p>
+<pre><code class="language-html">&lt;summary&gt;Draw pile (5)&lt;/summary&gt;
+</code></pre>
+<p>This sits well with me. It also neatly mirrors the game UI, which only shows you the number of cards in draw pile by default.</p>
+<p>Let's turn the hand and discard pile into <code>&lt;details&gt;</code> elements, too.</p>
+<pre><code class="language-html">&lt;details&gt;
+    &lt;summary&gt;Hand (5)&lt;/summary&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Bash&lt;/li&gt;
+        &lt;li&gt;Defend&lt;/li&gt;
+        &lt;li&gt;Defend&lt;/li&gt;
+        &lt;li&gt;Defend&lt;/li&gt;
+        &lt;li&gt;Strike&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/details&gt;
+&lt;!-- Draw pile --&gt;
+&lt;details&gt;
+    &lt;summary&gt;Discard pile (0)&lt;/summary&gt;
+&lt;/details&gt;
+</code></pre>
+<p>Ah, but the hand should be open by default, because cards in hand are immediately relevant.</p>
+<pre><code class="language-html">&lt;details open&gt;
+</code></pre>
+<p>That looks alright. In the future, I think I will want to add a little extra information to the cards, like energy cost, card type, effect, and such. For the &quot;sketching&quot; I'm doing now, I think it's better to skip it and add more essential things.</p>
+<p>One more piece of player data: relics, which grant passive effects.The Ironclad's starting relic is <em>Burning Blood</em>, which heals 6 health at the end of every combat.</p>
+<p>Ah, correction: It heals 6 <em>HP</em> at the start of every combat, according to the Slay the Spire wiki. I forgot the game uses the term &quot;HP,&quot; not &quot;health.&quot; Let's fix our display:</p>
+<pre><code class="language-html">&lt;p&gt;HP: 80/80&lt;/p&gt;
+</code></pre>
+<p>And now, another <code>&lt;details&gt;</code> list for relics:</p>
+<pre><code class="language-html">&lt;details&gt;
+    &lt;summary&gt;Relics (1)&lt;/summary&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Burning Blood (At the end of combat, heal 6 HP)&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/details&gt;
+</code></pre>
+<p>You know, I think the description would work well in italics. And though the <code>&lt;i&gt;</code> tag doesn't mean &quot;italic&quot; anymore, based on <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i#usage_notes">MDN's usage notes</a>, I think I can swing it as semantically valid.</p>
+<pre><code class="language-html">&lt;li&gt;Burning Blood &lt;i&gt;(At the end of combat, heal 6 HP)&lt;/i&gt;&lt;/li&gt;
+</code></pre>
+<p>I think that's every bit of player information. It's enough for our UI to start taking shape, at least.</p>
+<p>Let's add the second half of the game state: the enemy. I want to start with the <em>Jaw Worm</em>, one of the three enemies you can encounter on the first floor.</p>
+<pre><code class="language-html">&lt;h2&gt;Enemies&lt;/h2&gt;
+&lt;h3&gt;Jaw Worm&lt;/h3&gt;
+&lt;p&gt;HP: 42/42&lt;/p&gt;
+</code></pre>
+<p>We nest the &quot;Jaw Worm&quot; heading under an &quot;Enemies&quot; heading, since encounters can have more than one enemy.</p>
+<p>Other than HP, we also know our enemies' <em>intention</em>, what move they will make when we end the turn. The Jaw Worm has three possible moves, but always starts with <em>Chomp</em>.</p>
+<pre><code class="language-html">&lt;p&gt;Next move: Chomp &lt;i&gt;(Deal 11 damage)&lt;/i&gt;&lt;/p&gt;
+</code></pre>
+<p>Huh, I don't really like the italics here. Somehow I like it for relics, but not for enemy moves. Maybe because relics are more memorable and their descriptions are longer.</p>
+<pre><code class="language-html">&lt;p&gt;Next move: Chomp (Deal 11 damage)&lt;/p&gt;
+</code></pre>
+<p>That's better.</p>
+<hr>
+<p>It's growing late, so we wrap the post here.</p>
+<p>So far, I am happy with how smooth the process is. We've gone from &quot;nothing&quot; to &quot;something,&quot; which is major progress. I'm much more comfortable with the default, unstyled HTML look than I expected. At some point I will want to improve the presentation for clarity and usability, but the raw look will serve us well until the document structure stabilizes.</p>
+<p>I'm also very happy I started drafting the HTML first instead of diving into JavaScript and writing logic. My C# version of the solver started with game logic, and the UI never graduated beyond printing game state to the console. It's very satisfying to me that this version is already more visually interesting than my last attempt.</p>
+<p>More than that, I realize that starting with the HTML is extremely helpful for clarifying what I am making. It takes all my fuzzy, loose thoughts, and puts them in concrete terms on the page. It helps me see them better. It frees up my mind to think of next steps. It lets me start planning what features I want, see where they will fit in, start seeing friction and flaws where I need to adapt the design.</p>
+<p>I feel very prepared to expand on this tomorrow. Probably writing more HTML, still: actions and outcomes. Until then!</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Slay the Spire #0: Preamble</title>
       <link>https://www.cvennevik.no/blog/slay-the-spire-00-preamble/</link>

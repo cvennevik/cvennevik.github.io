@@ -1,6 +1,6 @@
 ---
 title: "Slay the Spire #1: HTML first"
-date: 2024-08-30T22:40:00+02:00
+date: 2024-07-30T22:40:00+02:00
 ---
 
 There are few things as daunting as a blank page.

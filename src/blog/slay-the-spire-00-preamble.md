@@ -1,6 +1,6 @@
 ---
 title: "Slay the Spire #0: Preamble"
-date: 2024-08-29T12:05:00+02:00
+date: 2024-07-29T12:05:00+02:00
 ---
 
 I want to make a Slay the Spire solver again.

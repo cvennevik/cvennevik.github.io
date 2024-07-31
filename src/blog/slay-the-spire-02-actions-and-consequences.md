@@ -1,6 +1,6 @@
 ---
 title: "Slay the Spire #2: Actions and consequences"
-date: 2024-08-01T16:10:00+02:00
+date: 2024-07-31T16:10:00+02:00
 summary: "Expanding on our HTML sketch."
 ---
 

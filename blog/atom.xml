@@ -8,7 +8,185 @@
     <name>Cecilie Vennevik</name>
   </author>
   <icon>https://www.cvennevik.no/img/logo-100px.jpg</icon>
-  <updated>2024-07-30T20:40:00.000Z</updated>
+  <updated>2024-08-01T14:10:00.000Z</updated>
+  <entry>
+    <title type="html">Slay the Spire #2: Actions and consequences</title>
+    <link href="https://www.cvennevik.no/blog/slay-the-spire-02-actions-and-consequences/"/>
+    <id>https://www.cvennevik.no/blog/slay-the-spire-02-actions-and-consequences/</id>
+    <published>2024-08-01T14:10:00.000Z</published>
+    <updated>2024-08-01T14:10:00.000Z</updated>
+    <summary type="html"><![CDATA[<p>Expanding on our HTML sketch.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>This seems like a good time as any to start talking about what I want out of this project. In-between writing, I've had some time to mull it over.</p>
+<p>I want to create a &quot;solver&quot; for Slay the Spire which functions as a <strong>highly interactive analytical tool</strong>. I am imagining it showing the possible actions you can take in any situation, their possible outcomes and their probabilities, and then letting you select an outcome to view and analyze further. I want a tree of past and future game states to move through. I want a search algorithm for optimal actions that is <strong>explainable, auditable, and tunable</strong>. I want to be able to <strong>query</strong> for specific outcomes like &quot;highest possible health remaining&quot; and &quot;highest guaranteed health remaining&quot; and &quot;least turns taken.&quot;</p>
+<p>So, what I want is less a &quot;solver,&quot; something that spits out the solution for you to follow, makes you a passive user, and more a tool that invites you to be an active participant in the analytical process.</p>
+<p>I think that's a neat vision to work towards.</p>
+<hr>
+<p>Today I want to sketch some more HTML and get some essential features in place. Particularly:</p>
+<ul>
+<li>Every possible action you can take in a game state</li>
+<li>Every possible outcome from a given action</li>
+</ul>
+<p>Slay the Spire is a card game with a lot of inherent randomness in card draw order, as well as many random card effects, and some randomness in enemy moves. At any time in the game, you likely have many different cards you can play, and you can always end the turn. The game can branch in many different directions depending on the actions you choose, and branches yet again in the random outcomes actions have.</p>
+<p>These branching paths are what we are here to explore. We need to display them.</p>
+<p>For the opening scenario we've sketched, there are four possible actions we can take:</p>
+<ul>
+<li>Play Bash on Jaw Worm</li>
+<li>Play Strike on Jaw Worm</li>
+<li>Play Defend</li>
+<li>End the turn</li>
+</ul>
+<p>One action at a time. Bash is an <em>attack</em> card that costs 2 energy to play, and reads: <em>&quot;Deal 8 damage. Apply 2 Vulnerable.&quot;</em> The result of playing it is:</p>
+<ul>
+<li>We go from 3 energy (our starting amount) to 1 energy.</li>
+<li>Bash moves from the hand to the discard pile.</li>
+<li>Jaw Worm goes from 42 to 34 HP.</li>
+<li>Jaw Worm gets 2 turns of the <em>Vulnerable</em> debuff, which causes it to take 50% more damage from attacks.</li>
+</ul>
+<p>I realize now I forgot to add energy to the page last time. Better fix that first.</p>
+<pre><code class="language-html">&lt;h2&gt;Player: Ironclad&lt;/h2&gt;
+&lt;p&gt;HP: 80/80&lt;/p&gt;
+&lt;p&gt;Energy: 3/3&lt;/p&gt;
+</code></pre>
+<p>Now. How do we present the action of playing Bash? I suspect this will be first hard and nuanced problem to solve. Let's be naive and continue to use headings for our first draft (and if we're lucky, the naive solution will be good enough):</p>
+<pre><code class="language-html">&lt;h2&gt;Actions&lt;/h2&gt;
+&lt;h3&gt;Play Bash on Jaw Worm&lt;/h3&gt;
+</code></pre>
+<p>Now the outcome, which is guaranteed:</p>
+<pre><code class="language-html">&lt;h3&gt;Play Bash on Jaw Worm&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Energy: -2&lt;/li&gt;
+    &lt;li&gt;Hand: -1 Bash&lt;/li&gt;
+    &lt;li&gt;Discard pile: +1 Bash&lt;/li&gt;
+    &lt;li&gt;Jaw Worm: -8 HP, +2 Vulnerable&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<p>I am terribly, terribly unsure about how to present the outcomes of actions.</p>
+<p>We could present them as the complete resulting game state, but that would take a lot of space and make it difficult to see what has changed. So presenting the change seems better.</p>
+<p>We could present the change in a number of different ways. We could do &quot;Energy: -2&quot; or &quot;-2 Energy&quot; or &quot;3 → 1 Energy&quot; or &quot;Energy: 1/3.&quot; We could do &quot;Hand: -1 Bash&quot; or &quot;Hand: -Bash&quot; or &quot;Hand: Defend, Defend, Defend, Strike&quot; or &quot;Bash: Hand → Discard.&quot; Enemy damage has yet more possibilities: &quot;Jaw Worm: -8 HP&quot; or Jaw Worm: 34/42 HP&quot; or &quot;Jaw Worm: -8 (34) HP&quot; or Jaw Worm: 42 → 34 HP.&quot; And so on and so on.</p>
+<p>How in the world are we to pick a single way to present this? Well, I have some preferences:</p>
+<ul>
+<li>It should be concise. Some actions will have many possible outcomes and many effects per outcome, so we may have to fit dozens of outcomes and hundreds of effects on the page. This data should be as digestible and comparable as possible.</li>
+<li>I was going to write a speculative preference about sets of changes being easy to combine and &quot;do addition on,&quot; as I'm curious about modeling the data that way, but it sounded less and less important as I tried to write it. Discarding this idea for now.</li>
+</ul>
+<p>Let's aim for concise, digestible, and comparable, then. And for that, the first idea I sketched seems... fine. Good enough to sketch some more.</p>
+<p>Two more card actions. Playing <em>Strike</em> costs 1 energy and deals 6 damage.</p>
+<pre><code class="language-html">&lt;h3&gt;Play Strike on Jaw Worm&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Energy: -1&lt;/li&gt;
+    &lt;li&gt;Hand: -1 Strike&lt;/li&gt;
+    &lt;li&gt;Discard pile: +1 Strike&lt;/li&gt;
+    &lt;li&gt;Jaw Worm: -6 HP&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<p><em>Defend</em> is a <em>skill</em> card that costs 1 energy and reads &quot;Gain 5 Block.&quot; <em>Block</em> prevents the next X damage you would take this turn.</p>
+<pre><code class="language-html">&lt;h3&gt;Play Defend&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Energy: -1&lt;/li&gt;
+    &lt;li&gt;Armor: +5&lt;/li&gt;
+    &lt;li&gt;Hand: -1 Defend&lt;/li&gt;
+    &lt;li&gt;Discard pile: +1 Defend&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<p>Hmm. What if we combined Energy and Armor to one line affecting the player?</p>
+<pre><code class="language-html">&lt;h3&gt;Play Defend&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Player: -1 Energy, +5 Armor&lt;/li&gt;
+    &lt;li&gt;Hand: -1 Defend&lt;/li&gt;
+    &lt;li&gt;Discard pile: +1 Defend&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<p>I kind of like that, &quot;-1 Energy&quot; reads nicer than &quot;Energy: -1.&quot; We could make them separate list items instead of bundling them, but enemies can also gain and lose armor, so I like the clarity of writing &quot;Player&quot; and &quot;Jaw Worm&quot; in front of changes to HP, armor, buffs and debuffs.</p>
+<p>Let's change the other two actions to match.</p>
+<pre><code class="language-html">&lt;h3&gt;Play Bash on Jaw Worm&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Player: -2 Energy&lt;/li&gt;
+    &lt;li&gt;Hand: -1 Bash&lt;/li&gt;
+    &lt;li&gt;Discard pile: +1 Bash&lt;/li&gt;
+    &lt;li&gt;Jaw Worm: -8 HP, +2 Vulnerable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Play Strike on Jaw Worm&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Player: -1 Energy&lt;/li&gt;
+    &lt;li&gt;Hand: -1 Strike&lt;/li&gt;
+    &lt;li&gt;Discard pile: +1 Strike&lt;/li&gt;
+    &lt;li&gt;Jaw Worm: -6 HP&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<p>Looks good!</p>
+<p>Okay, now for the big one: &quot;End turn.&quot; This causes a few things to happen:</p>
+<ul>
+<li>We discard our hand to the discard pile.</li>
+<li>The enemy makes their move, hitting us for 11 damage.</li>
+<li>We draw five cards from the draw pile.
+<ul>
+<li>We have precisely five cards in the draw pile, so we know which cards we will draw.</li>
+</ul>
+</li>
+<li>We refresh our energy, setting it back to 3.</li>
+<li>The enemy picks a new next move.
+<ul>
+<li><strong>This is random.</strong> After using Chomp, the Jaw Worm has:
+<ul>
+<li>45% chance of using Bellow (gain 3 Strength and 6 Block)</li>
+<li>30% chance of using Thrash (deal 7 damage, gain 5 Block)</li>
+<li><em>Normally</em> 25% chance of using Chomp again (deal 11 damage), but it cannot use Chomp twice in a row. The wiki isn't clear on this, but I assume this means that Bellow and Thrash become proportionally more likely, to 60% chance and 40% chance, respectively.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>This means that ending the turn has two possible outcomes we need to present! How?</p>
+<p>Well, headings seem to have been serving us well, so I see no reason to stop now.</p>
+<pre><code class="language-html">&lt;h3&gt;End turn&lt;/h3&gt;
+&lt;h4&gt;60%&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Player: -11 HP&lt;/li&gt;
+    &lt;li&gt;Hand: -1 Bash, -2 Defend, +3 Strike&lt;/li&gt;
+    &lt;li&gt;Draw pile: -4 Strike, -1 Defend&lt;/li&gt;
+    &lt;li&gt;Discard pile: +1 Bash, +3 Defend, +1 Strike&lt;/li&gt;
+    &lt;li&gt;Jaw Worm: next move Bellow (gain 3 Strength and 6 Block)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;40%&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Player: -11 HP&lt;/li&gt;
+    &lt;li&gt;Hand: -1 Bash, -2 Defend, +3 Strike&lt;/li&gt;
+    &lt;li&gt;Draw pile: -4 Strike, -1 Defend&lt;/li&gt;
+    &lt;li&gt;Discard pile: +1 Bash, +3 Defend, +1 Strike&lt;/li&gt;
+    &lt;li&gt;Jaw Worm: next move Thrash (deal 7 damage, gain 5 Block)&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<p>You know, this kind of works? It could be a lot more overwhelming. (It will become more overwhelming as we add more cards.)</p>
+<p>Most details of the two outcomes are identical, guaranteed. What if we move the guaranteed bits to right after &quot;End turn,&quot; before the probabilities? Would that be better?</p>
+<pre><code class="language-html">&lt;h3&gt;End turn&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Player: -11 HP&lt;/li&gt;
+    &lt;li&gt;Hand: -1 Bash, -2 Defend, +3 Strike&lt;/li&gt;
+    &lt;li&gt;Draw pile: -4 Strike, -1 Defend&lt;/li&gt;
+    &lt;li&gt;Discard pile: +1 Bash, +3 Defend, +1 Strike&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;60%&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Jaw Worm: next move Bellow (gain 3 Strength and 6 Block)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;40%&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Jaw Worm: next move Thrash (deal 7 damage, gain 5 Block)&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<p>Cons: We've gone from two blocks of changes to three, and need to mentally combine them. Pros: There is less to read, and we can clearly separate between guaranteed effects and random effects.</p>
+<p>I think the pros outweigh the cons here. The pro/con calculus might shake out differently as game states get more complicated, but I'm happy to gently commit to this structure.</p>
+<p>I'm less sure about how we present large changes to the hand, draw, and discard piles. I find it kind of messy to read. Not so much that I have other ideas I want to try out right now, but enough that I think we should keep an eye on it for later.</p>
+<p>The &quot;60%&quot; and &quot;40%&quot; subheadings also look a bit too similar to the action headings with our raw, default HTML style. We will probably want to nest them more visibly under their parent heading very soon.</p>
+<hr>
+<p>Our little HTML sketch is getting quite fleshed out now. A little less straightforward, a little less certain, and a little more deliberative than last time, but we're still making forward progress.</p>
+<p>I think we need, and I can get away with, one more round of HTML sketching before we can start thinking about implementing functionality. Right now, this is purely a document, with no hint of anywhere to interact. I don't know where the buttons will go! Or links? Are we using links? And what will happen when we click them?</p>
+<p>Too many questions. Need more answers.</p>
+<p>If you're reading this and these problems are getting your mind going as much as mine, feel free to message me <a href="mailto:cvennevik@gmail.com">by email</a> or <a href="https://www.hachyderm.io/@cvennevik">by fedi</a>. I'm not going to chat the project away outside of my blog, but I welcome ideas and suggestions.</p>
+<p>Until next time!</p>
+]]></content>
+  </entry>
+  
   <entry>
     <title type="html">Slay the Spire #1: HTML first</title>
     <link href="https://www.cvennevik.no/blog/slay-the-spire-01-html-first/"/>

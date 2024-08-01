@@ -5,8 +5,80 @@
     <link>https://www.cvennevik.no/blog/</link>
     <description>Recent posts on Cecilie Vennevik's blog</description>
     <language>en</language>
-    <lastBuildDate>Wed, 31 Jul 2024 14:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2024 10:40:00 GMT</lastBuildDate>
     <atom:link href="https://www.cvennevik.no/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Slay the Spire #3: Introducing links</title>
+      <link>https://www.cvennevik.no/blog/slay-the-spire-03-introducing-links/</link>
+      <pubDate>Thu, 01 Aug 2024 10:40:00 GMT</pubDate>
+      <guid>https://www.cvennevik.no/blog/slay-the-spire-03-introducing-links/</guid>
+      <description><![CDATA[<p>For good and ill.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>So I've been thinking.</p>
+<p>Last time, I said we were aiming to explore the branching paths a game of Slay the Spire can take. A key feature - maybe <em>the</em> key feature - would be to view the resulting state of an action's outcome. And I think that means selecting an outcome, then having that outcome's state displayed on the screen, with all of its actions and all of their outcomes. And then you should be able to view a <em>next</em> outcome a level deeper, and again, and you should be able to move back to a previous one you have viewed.</p>
+<p>This app needs to let you <strong>navigate between states.</strong></p>
+<p>That means links. With custom behavior. And messing with the browser history so back/forward buttons work as expected.</p>
+<p>I mean, <em>maybe</em> we can avoid that? Maybe the links can have query strings defining the complete next state? But no, no, the page should show you the path from the initial state, dozens and dozens of actions deep, with links to jump back to them. We can't fit all of that data into a query string, because I'm pretty sure browsers won't guarantee what happens when URLs exceed 2048 characters. And there's all kinds of other persistent state we may want.</p>
+<p>I think there's no way around it.</p>
+<p>Boy, what a can of worms we have in store for us.</p>
+<hr>
+<p>Thankfully, to sketch out the HTML, we can leave that can of worms on the table, unopened. That's all implementation details, and we're not implementing anything yet.</p>
+<p>So. Every outcome wants a link. Every link wants text that describes the page it leads to. The outcome headings are precisely that. Let's reuse them.</p>
+<pre><code class="language-html">&lt;h3&gt;&lt;a href=&quot;&quot;&gt;Play Bash on Jaw Worm&lt;/a&gt;&lt;/h3&gt;
+</code></pre>
+<p>Yeah, visually, that looks good to me. I'm unsure about the <code>href</code> value - I know that <code>href=&quot;#&quot;</code> is safe for links that shouldn't take you off the current page, but <code>href=&quot;&quot;</code> seems to have the same effect. Let me look up what the difference is.</p>
+<p>Huh. Hard to test on my phone, but some people say that <code>href=&quot;&quot;</code> actually reloads the page, while <code>href=&quot;#&quot;</code> jumps to the top of the page? The latter seems like less trouble. If it's the wrong approach, it should be easy to fix later.</p>
+<pre><code class="language-html">&lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Play Bash on Jaw Worm&lt;/a&gt;&lt;/h3&gt;
+</code></pre>
+<p>Now for Strike:</p>
+<pre><code class="language-html">&lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Play Strike on Jaw Worm&lt;/a&gt;&lt;/h3&gt;
+</code></pre>
+<p>And Defend:</p>
+<pre><code class="language-html">&lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Play Defend&lt;/a&gt;&lt;/h3&gt;
+</code></pre>
+<p>And end turn... uh oh:</p>
+<pre><code class="language-html">&lt;h3&gt;End turn&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Player: -11 HP&lt;/li&gt;
+    &lt;li&gt;Hand: -1 Bash, -2 Defend, +3 Strike&lt;/li&gt;
+    &lt;li&gt;Draw pile: -4 Strike, -1 Defend&lt;/li&gt;
+    &lt;li&gt;Discard pile: +1 Bash, +3 Defend, +1 Strike&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;60%&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Jaw Worm: next move Bellow (gain 3 Strength and 6 Block)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;40%&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Jaw Worm: next move Thrash (deal 7 damage, gain 5 Block)&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<p>I mean. It <em>works</em>. But &quot;60%&quot; and &quot;40%&quot; seem like terrible link texts, especially when we get more outcomes on the page with the same probabilities. I want link texts, taken out of context of where they are on the page, to give a decent idea of what they lead to, and to be unique.</p>
+<p>Maybe if we expand the headings, swallow the cost of duplicating some text, it would be better.</p>
+<pre><code class="language-html">&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;End turn (60%)&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;End turn (40%)&lt;/a&gt;&lt;/h4&gt;
+</code></pre>
+<p>Yeah. Better. And actually makes the page more readable to me. Still, the links won't be unique in the cases where they have the same probability.</p>
+<p>Could we, uh, number them?</p>
+<pre><code class="language-html">&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;End turn 1 (60%)&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;End turn 2 (40%)&lt;/a&gt;&lt;/h4&gt;
+</code></pre>
+<p>Looks... kind of weird, but I don't have a better idea for making them unique. Now we have two unexplained numbers right next to each other. It reads confusing to me, the meaning of the percentage looks <em>more</em> ambiguous now.</p>
+<p>Would adding more text help us, again?</p>
+<pre><code class="language-html">&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;End turn 1 (60% chance)&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;End turn 2 (40% chance)&lt;/a&gt;&lt;/h4&gt;
+</code></pre>
+<p>It's all subjective, so I don't know if other people finds this clearer, but this is my favorite so far. I'm happy to proceed with this.</p>
+<p>Nice! The headings look better, and we now have links that promise us that we can explore all the ways the game can go. I like the look of this!</p>
+<p>We actually have enough HTML sketched up now that we could stop it here and start working on implementing the logic, making this skeleton come alive. I think that's the right thing to do. Sketching up more features at this point would help surface design issues we will run into, but I trust our ability to solve them later better than our ability to prepare for them now.</p>
+<hr>
+<p>A lovely thing about these blog posts, these dev logs, is that it forces me to put each and every little thing I do into words. It forces me to justify my decisions. As a result, my development so far has been more deliberative, more steady and well-reasoned, than anything I can remember developing in private. I am very happy with every little step we've made along the way, even if - or maybe <em>because</em> - it's very small pieces of work, all in all.</p>
+<p>These posts also crystallize my train of thought in a way where it's easy for me to pick up where I left off. If - sorry, <em>when</em> - I stop working on this project for a while, I have enough context made permanent on these pages that I should be able to pick it up exactly where I left off, even if it has been years.</p>
+<p>I wonder if I'll have to put that theory to the test someday. Oh well.</p>
+<p>Next time, let's write some JavaScript. Let's make things <em>change</em>.</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Slay the Spire #2: Actions and consequences</title>
       <link>https://www.cvennevik.no/blog/slay-the-spire-02-actions-and-consequences/</link>

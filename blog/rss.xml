@@ -5,8 +5,42 @@
     <link>https://www.cvennevik.no/blog/</link>
     <description>Recent posts on Cecilie Vennevik's blog</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Aug 2024 10:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Aug 2024 19:26:00 GMT</lastBuildDate>
     <atom:link href="https://www.cvennevik.no/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Slay the Spire #4: Links are real, and strong, and they are my friend</title>
+      <link>https://www.cvennevik.no/blog/slay-the-spire-04-links-are-real/</link>
+      <pubDate>Sat, 03 Aug 2024 19:26:00 GMT</pubDate>
+      <guid>https://www.cvennevik.no/blog/slay-the-spire-04-links-are-real/</guid>
+      <description><![CDATA[<p>Maybe fake links are bad, actually?</p>
+]]></description>
+      <content:encoded><![CDATA[<p>The thing about doing a project as daily writing-and-coding sessions is you get a lot of time inbetween sessions to mull things over. Two things have been stuck in my mind since last time:</p>
+<ol>
+<li>My unease with the navigation issue, overriding and re-implementing link behavior.</li>
+<li>How to dynamically render the HTML based on game state.</li>
+</ol>
+<p>I have a good idea for that second issue now, but I just returned from holiday, and lack the time and energy to finish it today. Ideally, I'd like to get a bit of coding done in each post I do, but if I leave this post in the pipes for a third day in a row, I'm going to feel constipated.</p>
+<p>Today, we're only talking navigation.</p>
+<hr>
+<p>To recap the navigation issue: I concluded that we want to navigate between game states, as if they were pages, and that links are the most appropriate UI control for that. I also concluded that <em>we will have too much state to keep all the data in URLs</em>, meaning we have to override normal link behavior and re-implement it all to work with our application state.</p>
+<p>I was aware, at the time, that it would be messy and difficult to do right. Having sat with it for a day, it now looks <em>even worse</em> in my mind.</p>
+<p>When pages have state stored outside the URL, and links modify that state instead of navigating to a URL, here are all the affordances I can think of that we lose:</p>
+<ul>
+<li>Page history</li>
+<li>Navigating to the next/previous page</li>
+<li>Opening links in a new tab</li>
+<li>Reloading pages without losing data</li>
+<li>Browser bookmarks</li>
+<li>Sharing page links with others</li>
+</ul>
+<p>Some of those items sound like a pain to re-implement to the standard of normal links. The rest of them sound <em>impossible</em> to re-implement to the same standard.</p>
+<p>These affordances are <em>useful</em> and <em>expected</em>. Messing them up would make our app <em>kind of crap</em>. I don't want to make this project kind of crap, I want to make it <em>nice</em>. Messing with link behavior would make a mess that we cannot clean up.</p>
+<p>However. I was struck with an idea. I think it <em>is</em> possible to fit all the necessary page state in less than a couple thousand characters. And if we accomplish that, the constraint that pushed us down this dark path in the first place is gone.</p>
+<p>In other words:</p>
+<p><strong>Plain links are back on menu!</strong></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Slay the Spire #3: Introducing links</title>
       <link>https://www.cvennevik.no/blog/slay-the-spire-03-introducing-links/</link>

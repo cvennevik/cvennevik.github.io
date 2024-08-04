@@ -8,7 +8,257 @@
     <name>Cecilie Vennevik</name>
   </author>
   <icon>https://www.cvennevik.no/img/logo-100px.jpg</icon>
-  <updated>2024-08-03T19:26:00.000Z</updated>
+  <updated>2024-08-04T14:15:00.000Z</updated>
+  <entry>
+    <title type="html">Slay the Spire #5: Going dynamic</title>
+    <link href="https://www.cvennevik.no/blog/slay-the-spire-05-going-dynamic/"/>
+    <id>https://www.cvennevik.no/blog/slay-the-spire-05-going-dynamic/</id>
+    <published>2024-08-04T14:15:00.000Z</published>
+    <updated>2024-08-04T14:15:00.000Z</updated>
+    <summary type="html"><![CDATA[<p>A little less HTML, a little more JavaScript.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>Hello! I am now, for the first time, writing this at a desktop computer. I'm kind of uncomfortable with how quickly I am able to write (I tend to stumble mentally when my typing catches up to my thinking), but this should make the development process a lot smoother.</p>
+<p>Today we're going to have some fun. We're going to make our page content dynamic, based on the page URL.</p>
+<p>To do that, we have to commit to an approach for rendering dynamic HTML.</p>
+<p>I'm a professional web developer. As is the way of things, of modern web development, I've only ever really worked with JavaScript frameworks. My experience with authoring dynamic web pages is mainly by using Vue. Building this project as a Vue app would be familiar and easy to me.</p>
+<p>Here's the rub: I don't want to use a JavaScript framework for this project.</p>
+<p>There's a mix of reasons for this, some more frivolous than others. If I'm being honest, the core reason is a certain sense of <em>craft snobbishness</em>. I like to author lean web pages that are fast to transfer, fast to parse, fast to run. Wherever possible, I like to build things myself using the features of the platform, instead of introducing dependencies like frameworks and libraries. I like to keep the total technology stack simple, shallow, shelf-stable.</p>
+<p>I know, rationally, that it won't make a difference to user experience if I author this using a performant framework like Svelte or Solid. It would probably be less code to write, in total. I might get things done quicker. Be more productive.</p>
+<p>But I don't wanna. I don't even wanna install any npm packages. I wanna try doing this all with vanilla JavaScript. Call it a learning experience, because I've never rendered dynamic UI in vanilla JavaScript before. But by God I am going to stumble my way through this and drag you with me.</p>
+<hr>
+<p>I did a little bit of research to see what approaches exist for changing the DOM with JavaScript. Of the ones I found, one stood out as being the least fuss to get started with: <code>innerHTML</code>.</p>
+<p>Here's what we do: Add a little script to the bottom of our document...</p>
+<pre><code class="language-html">&lt;script&gt;
+
+&lt;/script&gt;
+</code></pre>
+<p>...and set <code>document.body.innerHTML</code>.</p>
+<pre><code class="language-html">&lt;script&gt;
+    document.body.innerHTML = &quot;&lt;h1&gt;Hello World&lt;/h1&gt;&quot;;
+&lt;/script&gt;
+</code></pre>
+<p>Now our page says &quot;Hello World&quot;! We've successfully changed the page content with JavaScript, in one line of fairly uncomplicated code. Sadly, this also replaces all the HTML we've written up to this point, but we're about to fix that.</p>
+<p>Bear with me. The next step may not be for the faint of heart.</p>
+<pre><code class="language-html">&lt;body&gt;
+    &lt;!-- Cut... --&gt;
+&lt;/body&gt;
+&lt;script&gt;
+    // ...and paste.
+    document.body.innerHTML = `
+        &lt;h1&gt;Slay the Spire solver&lt;/h1&gt;
+        &lt;h2&gt;Player: Ironclad&lt;/h2&gt;
+        &lt;p&gt;HP: 80/80&lt;/p&gt;
+        &lt;p&gt;Energy: 3/3&lt;/p&gt;
+        &lt;details open&gt;
+            &lt;summary&gt;Hand (5)&lt;/summary&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Bash&lt;/li&gt;
+                &lt;li&gt;Defend&lt;/li&gt;
+                &lt;li&gt;Defend&lt;/li&gt;
+                &lt;li&gt;Defend&lt;/li&gt;
+                &lt;li&gt;Strike&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/details&gt;
+        &lt;details&gt;
+            &lt;summary&gt;Draw pile (5)&lt;/summary&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Defend&lt;/li&gt;
+                &lt;li&gt;Strike&lt;/li&gt;
+                &lt;li&gt;Strike&lt;/li&gt;
+                &lt;li&gt;Strike&lt;/li&gt;
+                &lt;li&gt;Strike&lt;/li&gt;
+            &lt;/ul&gt;     
+        &lt;/details&gt;
+        &lt;details&gt;
+            &lt;summary&gt;Discard pile (0)&lt;/summary&gt;
+        &lt;/details&gt;
+        &lt;details&gt;
+            &lt;summary&gt;Relics (1)&lt;/summary&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Burning Blood &lt;i&gt;(At the end of combat, heal 6 HP)&lt;/i&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/details&gt;
+        &lt;h2&gt;Enemies&lt;/h2&gt;
+        &lt;h3&gt;Jaw Worm&lt;/h3&gt;
+        &lt;p&gt;HP: 42/42&lt;/p&gt;
+        &lt;p&gt;Next move: Chomp (Deal 11 damage)&lt;/p&gt;
+        &lt;h2&gt;Actions&lt;/h2&gt;
+        &lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Play Bash on Jaw Worm&lt;/a&gt;&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Player: -2 Energy&lt;/li&gt;
+            &lt;li&gt;Hand: -1 Bash&lt;/li&gt;
+            &lt;li&gt;Discard pile: +1 Bash&lt;/li&gt;
+            &lt;li&gt;Jaw Worm: -8 HP, +2 Vulnerable&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Play Strike on Jaw Worm&lt;/a&gt;&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Player: -1 Energy&lt;/li&gt;
+            &lt;li&gt;Hand: -1 Strike&lt;/li&gt;
+            &lt;li&gt;Discard pile: +1 Strike&lt;/li&gt;
+            &lt;li&gt;Jaw Worm: -6 HP&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Play Defend&lt;/a&gt;&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Player: -1 Energy, +5 Armor&lt;/li&gt;
+            &lt;li&gt;Hand: -1 Defend&lt;/li&gt;
+            &lt;li&gt;Discard pile: +1 Defend&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h3&gt;End turn&lt;/h3&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Player: -11 HP&lt;/li&gt;
+            &lt;li&gt;Hand: -1 Bash, -2 Defend, +3 Strike&lt;/li&gt;
+            &lt;li&gt;Draw pile: -4 Strike, -1 Defend&lt;/li&gt;
+            &lt;li&gt;Discard pile: +1 Bash, +3 Defend, +1 Strike&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h4&gt;&lt;a href=&quot;#&quot;&gt;End turn 1 (60% chance)&lt;/a&gt;&lt;/h4&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Jaw Worm: next move Bellow (gain 3 Strength and 6 Block)&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h4&gt;&lt;a href=&quot;#&quot;&gt;End turn 2 (40% chance)&lt;/a&gt;&lt;/h4&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Jaw Worm: next move Thrash (deal 7 damage, gain 5 Block)&lt;/li&gt;
+        &lt;/ul&gt;
+    `;
+&lt;/script&gt;
+</code></pre>
+<p>Now - as long as you have JavaScript enabled - the page looks just like before. We've committed a slight crime against HTML by turning it into a JavaScript string, but hey, we're still authoring HTML, just uh, not in the actual HTML itself.</p>
+<p>Oh, we should leave a note for visitors with JavaScript disabled...</p>
+<pre><code class="language-html">&lt;body&gt;
+    &lt;noscript&gt;
+        This application only works with JavaScript enabled.
+    &lt;/noscript&gt;
+&lt;/body&gt;
+</code></pre>
+<p>Testing it by disabling JavaScript in the browser devtools. Yeah, it works.</p>
+<p>Now what was the point of this crime? Well, now we can do this:</p>
+<pre><code class="language-html">&lt;script&gt;
+    let queryString = window.location.search;
+    document.body.innerHTML = `
+        &lt;h1&gt;Slay the Spire solver&lt;/h1&gt;
+        &lt;p&gt;Query string: ${queryString}&lt;/p&gt;
+        ...
+    `;
+&lt;/script&gt;
+</code></pre>
+<p>Opening <code>index.html</code>, and the new paragraph just says &quot;Query string&quot;. But if we open <code>index.html?hello=world</code>, we get &quot;Query string: ?hello=world&quot;! <strong>We can now use the query string to change page contents!</strong></p>
+<p>Okay okay let's roll back that example and do something useful with this. Let's try setting the player HP using <code>?hp=80</code>.</p>
+<pre><code class="language-js">let queryParams = new URLSearchParams(window.location.search);
+let hp = queryParams.get('hp');
+document.body.innerHTML = `
+    ...
+    &lt;p&gt;HP: ${hp}/80&lt;/p&gt;
+    ...
+`;
+</code></pre>
+<p>Visiting <code>index.html?hp=80</code>, it works! Oh, but visiting <code>index.html</code> it now says &quot;HP: null/80&quot;. We had better fall back to a default value when it's not set.</p>
+<pre><code class="language-js">let hp = queryParams.get('hp') ?? 80;
+</code></pre>
+<p>There, back to normal. We can do the same for energy:</p>
+<pre><code class="language-js">let energy = queryParams.get('energy') ?? 3;
+// ...
+&lt;p&gt;Energy: ${energy}/3&lt;/p&gt;
+</code></pre>
+<p>For cards in hand it's not as straightforward because it's a list. We could do <code>?hand=Bash,Defend,Defend,Defend,Strike</code>, and generate the list like this:</p>
+<pre><code class="language-js">let hand = queryParams.get('hand')?.split(',') ?? ['Bash', 'Defend', 'Defend', 'Defend', 'Strike'];
+// ...
+&lt;details open&gt;
+    &lt;summary&gt;Hand (${hand.length})&lt;/summary&gt;
+    &lt;ul&gt;
+        ${hand.map(card =&gt;
+            `&lt;li&gt;${card}&lt;/li&gt;`
+        ).join('')}
+    &lt;/ul&gt;
+&lt;/details&gt;
+</code></pre>
+<p>Same for discard pile and draw pile!</p>
+<pre><code class="language-js">let drawPile = queryParams.get('draw')?.split(',') ?? ['Defend', 'Strike', 'Strike', 'Strike', 'Strike'];
+let discardPile = queryParams.get('discard')?.split(',') ?? [];
+// ...
+&lt;details&gt;
+    &lt;summary&gt;Draw pile (${drawPile.length})&lt;/summary&gt;
+    &lt;ul&gt;
+        ${drawPile.map(card =&gt;
+            `&lt;li&gt;${card}&lt;/li&gt;`
+        ).join('')}
+    &lt;/ul&gt;
+&lt;/details&gt;
+&lt;details&gt;
+    &lt;summary&gt;Discard pile (${discardPile.length})&lt;/summary&gt;
+    &lt;ul&gt;
+        ${discardPile.map(card =&gt;
+            `&lt;li&gt;${card}&lt;/li&gt;`
+        ).join('')}
+    &lt;/ul&gt;
+&lt;/details&gt;
+</code></pre>
+<p>And for completeness, though we won't change them our scenario, let's set maximum HP, maximum energy, and relics.</p>
+<pre><code class="language-js">let maxHp = queryParams.get('maxhp') ?? 80;
+let maxEnergy = queryParams.get('maxenergy') ?? 3;
+let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
+// ...
+&lt;p&gt;HP: ${hp}/${maxHp}&lt;/p&gt;
+&lt;p&gt;Energy: ${energy}/${maxEnergy}&lt;/p&gt;
+// ...
+&lt;details&gt;
+    &lt;summary&gt;Relics (${relics.length})&lt;/summary&gt;
+    &lt;ul&gt;
+        ${relics.map(relic =&gt;
+            `&lt;li&gt;${relic}&lt;/li&gt;`
+        ).join('')}
+    &lt;/ul&gt;
+&lt;/details&gt;
+</code></pre>
+<p>Sweet. All the player data can be controlled by query string now. Oh, but we lost one thing in the process: the description for Burning Blood. I think we could write relic descriptions in an object, and look it up from there:</p>
+<pre><code class="language-js">let relicDescriptions = { 'Burning Blood': 'At the end of combat, heal 6 HP' };
+// ...
+`&lt;li&gt;${relic} &lt;i&gt;(${relicDescriptions[relic]})&lt;/i&gt;&lt;/li&gt;`
+</code></pre>
+<p>Yeah, works fine!</p>
+<p>Next up would be enemy state, but I'm running out of time and energy for the day, and it looks tricky enough that I want to make it its own session. Before we wrap, let's make our links do something. We can't set all of the state yet, so we will just set the parts we are able to:</p>
+<pre><code class="language-html">&lt;h3&gt;
+    &lt;a href=&quot;?maxhp=80&amp;maxenergy=3&amp;relics=Burning%20Blood&amp;hp=80&amp;energy=1&amp;hand=Defend,Defend,Defend,Strike&amp;draw=Defend,Strike,Strike,Strike,Strike&amp;discard=Bash&quot;&gt;
+        Play Bash on Jaw Worm
+    &lt;/a&gt;
+&lt;/h3&gt;
+&lt;h3&gt;
+    &lt;a href=&quot;?maxhp=80&amp;maxenergy=3&amp;relics=Burning%20Blood&amp;hp=80&amp;energy=2&amp;hand=Bash,Defend,Defend,Defend&amp;draw=Defend,Strike,Strike,Strike,Strike&amp;discard=Strike&quot;&gt;
+        Play Strike on Jaw Worm
+    &lt;/a&gt;
+&lt;/h3&gt;
+&lt;h3&gt;
+    &lt;a href=&quot;?maxhp=80&amp;maxenergy=3&amp;relics=Burning%20Blood&amp;hp=80&amp;energy=2&amp;hand=Bash,Defend,Defend,Strike&amp;draw=Defend,Strike,Strike,Strike,Strike&amp;discard=Defend&quot;&gt;
+        Play Defend
+    &lt;/a&gt;
+&lt;/h3&gt;
+&lt;h4&gt;
+    &lt;a href=&quot;?maxhp=80&amp;maxenergy=3&amp;relics=Burning%20Blood&amp;hp=69&amp;energy=3&amp;hand=Defend,Strike,Strike,Strike,Strike&amp;draw=&amp;discard=Bash,Defend,Defend,Defend,Strike&quot;&gt;
+        End turn 1 (60% chance)
+    &lt;/a&gt;
+&lt;/h4&gt;
+&lt;h4&gt;
+    &lt;a href=&quot;?maxhp=80&amp;maxenergy=3&amp;relics=Burning%20Blood&amp;hp=69&amp;energy=3&amp;hand=Defend,Strike,Strike,Strike,Strike&amp;draw=&amp;discard=Bash,Defend,Defend,Defend,Strike&quot;&gt;
+        End turn 2 (40% chance)
+    &lt;/a&gt;
+&lt;/h4&gt;
+</code></pre>
+<p>Now we have it! We have links to different game states! 🎉</p>
+<p>There's just a few things left to fix before the scenario is fully-functioning, for some strained definition of &quot;just a few&quot;:</p>
+<ol>
+<li>Controlling enemy state via query string</li>
+<li>Adding player armor</li>
+<li>Adding enemy armor and debuffs</li>
+<li>Generating valid actions based on the current state</li>
+</ol>
+<p>The first item will probably be one session of work, and the second and third another session. The fourth might take a little bit longer. Probably longer than all the work to that point put together.</p>
+<p>Caveats before closing:</p>
+<ul>
+<li><code>innerHTML</code> is very simple and fun to work with. Setting it is also a <strong>security risk</strong> in case of malicious user input. Here, we're interpolating query parameters directly into the HTML, so it's trivial to craft URLs that add <em>anything</em> to the document. It's not ideal, but I'm choosing to accept this risk for now.</li>
+<li>This simple scheme of using query parameters for each part of the state takes a lot of characters, and complex game states may need thousands of characters in the query string. Down the line, we'll want to encode this data in a more compact way.</li>
+</ul>
+<p>Mmh. Tired now. Write more later.</p>
+]]></content>
+  </entry>
+  
   <entry>
     <title type="html">Slay the Spire #4: Links are real, and strong, and they are my friend</title>
     <link href="https://www.cvennevik.no/blog/slay-the-spire-04-links-are-real/"/>

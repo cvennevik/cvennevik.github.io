@@ -62,7 +62,7 @@
 <p>Commit: &quot;Rename to Crystal Spire&quot;.</p>
 <p>That's nice.</p>
 <hr>
-<p><em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/2110563631b80369ec3d862d730d0b902e77a8b3/index.html">Latest commit: &quot;Rename to Crystal Spire&quot;</a></em></p>
+<p><em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/2110563631b80369ec3d862d730d0b902e77a8b3/index.html">Last commit: &quot;Rename to Crystal Spire&quot;</a></em></p>
 ]]></content:encoded>
     </item>
     
@@ -327,6 +327,8 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
 <li>This simple scheme of using query parameters for each part of the state takes a lot of characters, and complex game states may need thousands of characters in the query string. Down the line, we'll want to encode this data in a more compact way.</li>
 </ul>
 <p>Mmh. Tired now. Write more later.</p>
+<hr>
+<p><em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/f6b46cd46502af1e872869ac2c8f6de71cfaa657/index.html">Last commit: &quot;#5: Going dynamic&quot;</a></em></p>
 ]]></content:encoded>
     </item>
     
@@ -361,6 +363,8 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
 <p>However. I was struck with an idea. I think it <em>is</em> possible to fit all the necessary page state in less than a couple thousand characters. And if we accomplish that, the constraint that pushed us down this dark path in the first place is gone.</p>
 <p>In other words:</p>
 <p><strong>Plain links are back on menu!</strong></p>
+<hr>
+<p><em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/12d6098e07ecd5de448b3d76e96805c9496145bb/index.html">Last commit: &quot;#3: Introducing links&quot;</a></em></p>
 ]]></content:encoded>
     </item>
     
@@ -433,6 +437,8 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
 <p>These posts also crystallize my train of thought in a way where it's easy for me to pick up where I left off. If - sorry, <em>when</em> - I stop working on this project for a while, I have enough context made permanent on these pages that I should be able to pick it up exactly where I left off, even if it has been years.</p>
 <p>I wonder if I'll have to put that theory to the test someday. Oh well.</p>
 <p>Next time, let's write some JavaScript. Let's make things <em>change</em>.</p>
+<hr>
+<p><em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/12d6098e07ecd5de448b3d76e96805c9496145bb/index.html">Last commit: &quot;#3: Introducing links&quot;</a></em></p>
 ]]></content:encoded>
     </item>
     
@@ -610,6 +616,8 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
 <p>Too many questions. Need more answers.</p>
 <p>If you're reading this and these problems are getting your mind going as much as mine, feel free to message me <a href="mailto:cvennevik@gmail.com">by email</a> or <a href="https://www.hachyderm.io/@cvennevik">by fedi</a>. I'm not going to chat the project away outside of my blog, but I welcome ideas and suggestions.</p>
 <p>Until next time!</p>
+<hr>
+<p><em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/2fb0c59bcc6ab0799d350b69c9859b1059b7d95d/index.html">Last commit: &quot;#2: Actions and consequences&quot;</a></em></p>
 ]]></content:encoded>
     </item>
     
@@ -748,6 +756,8 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
 <p>I'm also very happy I started drafting the HTML first instead of diving into JavaScript and writing logic. My C# version of the solver started with game logic, and the UI never graduated beyond printing game state to the console. It's very satisfying to me that this version is already more visually interesting than my last attempt.</p>
 <p>More than that, I realize that starting with the HTML is extremely helpful for clarifying what I am making. It takes all my fuzzy, loose thoughts, and puts them in concrete terms on the page. It helps me see them better. It frees up my mind to think of next steps. It lets me start planning what features I want, see where they will fit in, start seeing friction and flaws where I need to adapt the design.</p>
 <p>I feel very prepared to expand on this tomorrow. Probably writing more HTML, still: actions and outcomes. Until then!</p>
+<hr>
+<p><em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/13ea21e15f66564b20ea0972187ce772c4437653/index.html">Last commit: &quot;#1: HTML first&quot;</a></em></p>
 ]]></content:encoded>
     </item>
     

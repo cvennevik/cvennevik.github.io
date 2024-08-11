@@ -3,7 +3,7 @@
     <head>
         <script>document.documentElement.classList.remove('js-disabled');</script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Blog - Cecilie Vennevik</title>
+        <title>Slay the Spire #6: Let&#39;s go to Codeberg! - Cecilie Vennevik</title>
         <link rel="icon" type="image/jpg" href="/img/logo-32px.jpg" sizes="32x32">
         <link rel="icon" type="image/jpg" href="/img/logo-48px.jpg" sizes="48x48">
         <link rel="icon" type="image/jpg" href="/img/logo-64px.jpg" sizes="64x64">
@@ -314,155 +314,63 @@ customElements.define(
 
 <style>
     h1 {
-        text-align: center;
+        margin-block-start: 0;
     }
 </style>
-<h1>Blog</h1>
+<a href="/blog/">&larr; Blog</a>
+<article>
+    <h1>Slay the Spire #6: Let&#39;s go to Codeberg!</h1>
+    <i>August 11, 2024</i>
+    <p>It's been a week since the last post of this series now, so I can definitely say that the pace of this series is slowing down after the end-of-holiday rush.</p>
+<p>I've been thinking, for this project, that I want to make things fit into little steps, little sessions. If all I have is a little less than an hour, then I want to be able to fit writing a post and making some progress into that little hour. I have a few minutes to spare this evening, so let's see if we can put something out this week and give this thing a little heartbeat.</p>
+<hr>
+<p>I think it's time we set up version control for this. I want to have the file backed up somewhere else, I want to have a version history I can look back through, and I want to be able to link to specific snapshots of the code in these posts. No time better than now to get that set up.</p>
+<p>Currently I host all my code on GitHub. I've thought about moving to a different host for anti-GitHub-Microsoft-monopoly reasons, but...</p>
+<p>I was going to say I don't have time to set it up elsewhere right now, but do I know that's true? Let's set this project up on another Git hosting service I've been vaguely aware of: <a href="https://codeberg.org/">Codeberg</a>. It's a &quot;democratic, community-driven non-profit.&quot; Sounds neat!</p>
+<h2>Step 1: Create account</h2>
+<ul>
+<li>Took me a couple of minutes, mostly waiting for the &quot;confirm your account&quot; email to show up.</li>
+</ul>
+<h2>Step 2: Go to settings and set up the SSH keys I expect I'll need</h2>
+<ul>
+<li>Oh hey I can set my pronouns for my profile here! Neat.</li>
+<li>I already have an SSH public/private key pair set up locally, so probably I can just add my public key to Codeberg...?</li>
+<li>Yup! Looks like it worked.</li>
+</ul>
+<h2>Step 3: Create a repository for our project</h2>
+<ul>
+<li>Gah, I already have a project named &quot;slay-the-spire-solver&quot; from my 2022 go at this. And naming it generically would be <em>boring</em>.</li>
+<li>I think... I can make a swing for it an pick a name for the project now. What about...</li>
+<li><strong>Crystal Spire?</strong></li>
+<li>It's <em>just</em> unique enough (searching for it online gives me results for a World of Warcraft quest/item, I'm fine colliding with that), and crystal is a sort of material you can see through, but can also split light many, many ways? Sort of like we want to look through battles throughout the Spire?</li>
+<li>That's it, I'm committing to it. <a href="https://codeberg.org/cvennevik/crystal-spire">cvennevik/crystal-spire</a> created. Description: &quot;A tool for analyzing combat encounters in Slay the Spire.&quot;</li>
+</ul>
+<h2>Step 4: Initialize the repository with our code</h2>
+<ul>
+<li>Okay so I want to do something here that will make this step harder. I want to create commits, retroactively, for the state of the code after each of the blog posts that I've written so far. I think it would be fun to follow the evolution of the project step by step like that.</li>
+<li>I'll create a fresh &quot;crystal-spire&quot; directory on my computer and initialize the Git repository there.</li>
+<li>Then, following my old blog posts, copying and pasting, let's see what we get...
+<ul>
+<li>First post. Create an initial index.html. <a href="https://codeberg.org/cvennevik/crystal-spire/commit/13ea21e15f66564b20ea0972187ce772c4437653">Commit: <em>&quot;#1: HTML first&quot;</em></a>.</li>
+<li>Second post. <a href="https://codeberg.org/cvennevik/crystal-spire/commit/2fb0c59bcc6ab0799d350b69c9859b1059b7d95d">Commit: <em>&quot;#2: Actions and consequences&quot;</em></a>.</li>
+<li>Third post. <a href="https://codeberg.org/cvennevik/crystal-spire/commit/12d6098e07ecd5de448b3d76e96805c9496145bb">Commit: <em>&quot;#3: Introducing links&quot;</em></a>.</li>
+<li>Fourth post has no code changes.</li>
+<li>Fifth post. Phew, here I can just copy and paste my latest version. <a href="https://codeberg.org/cvennevik/crystal-spire/commit/f6b46cd46502af1e872869ac2c8f6de71cfaa657">Commit: <em>&quot;#5: Going dynamic&quot;</em></a>.</li>
+</ul>
+</li>
+</ul>
+<p>And... that's it. The project is now version controlled. This is very comforting to me, as I like to use Git to keep track of current changes, and I commit frequently. When something's broken or half-done, it's stressful to me to have a lot of code in the air. I like being able to scrap everything I've done and return to a last known healthy point. Especially for a project like this that I want to make friendly to my short attention spans.</p>
+<p>I'm going to go back and put links to these in all the previous posts. Ideally, I'd also want a link to the live version of the code at each version, so you can check it out and play around, but that looks non-trivial. Another time, maybe.</p>
+<p>Now. One extra commit. To make the naming consistent.</p>
+<pre><code class="language-html">&lt;title&gt;Crystal Spire&lt;/title&gt;
+</code></pre>
+<pre><code class="language-html">&lt;h1&gt;Crystal Spire&lt;/h1&gt;
+</code></pre>
+<p>Commit: &quot;Rename to Crystal Spire&quot;.</p>
+<p>That's nice.</p>
+<hr>
+<p><em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/2110563631b80369ec3d862d730d0b902e77a8b3/index.html">Latest commit: &quot;Rename to Crystal Spire&quot;</a></em></p>
 
-    <article>
-        <a href="/blog/slay-the-spire-06-lets-go-to-codeberg/">
-            <h2>Slay the Spire #6: Let&#39;s go to Codeberg!</h2>
-        </a>
-        <i>August 11, 2024</i>
-        <p>Setting up version control.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/i-can-do-hard-things/">
-            <h2>I can do hard things</h2>
-        </a>
-        <i>August 11, 2024</i>
-        
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-05-going-dynamic/">
-            <h2>Slay the Spire #5: Going dynamic</h2>
-        </a>
-        <i>August 4, 2024</i>
-        <p>A little less HTML, a little more JavaScript.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-04-links-are-real/">
-            <h2>Slay the Spire #4: Links are real, and strong, and they are my friend</h2>
-        </a>
-        <i>August 3, 2024</i>
-        <p>Maybe fake links are bad, actually?</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-03-introducing-links/">
-            <h2>Slay the Spire #3: Introducing links</h2>
-        </a>
-        <i>August 1, 2024</i>
-        <p>For good and ill.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-02-actions-and-consequences/">
-            <h2>Slay the Spire #2: Actions and consequences</h2>
-        </a>
-        <i>July 31, 2024</i>
-        <p>Expanding on our HTML sketch.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-01-html-first/">
-            <h2>Slay the Spire #1: HTML first</h2>
-        </a>
-        <i>July 30, 2024</i>
-        <p>There are few things as daunting as a blank page.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-00-preamble/">
-            <h2>Slay the Spire #0: Preamble</h2>
-        </a>
-        <i>July 29, 2024</i>
-        <p>I want to make a Slay the Spire solver again.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/fun-with-svg-text/">
-            <h2>Having fun with SVG text</h2>
-        </a>
-        <i>February 21, 2024</i>
-        <p>Please let me ramble at you.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/oops-i-made-code-review-painful/">
-            <h2>Oops, I made code review painful</h2>
-        </a>
-        <i>April 14, 2023</i>
-        <p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
-<p>Boy howdy, I do not enjoy this at all.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/a-corner-cutters-confession/">
-            <h2>A corner-cutter&#39;s confession</h2>
-        </a>
-        <i>February 9, 2023</i>
-        <p>Listen. I know I should have done this one better.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/technical-debt-is-an-incomplete-model/">
-            <h2>&#39;Technical debt&#39; is an incomplete model</h2>
-        </a>
-        <i>February 5, 2023</i>
-        <p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/i-am-a-social-animal/">
-            <h2>I am a social animal</h2>
-        </a>
-        <i>February 4, 2023</i>
-        <p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
-<p>I cope with it.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/type-constraints-with-class-constructors/">
-            <h2>Enforcing advanced type constraints with class constructors in TypeScript</h2>
-        </a>
-        <i>January 20, 2023</i>
-        <p>For those really hard-to-define types.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/using-typescript-to-prevent-common-mistakes/">
-            <h2>Using TypeScript to prevent common mistakes</h2>
-        </a>
-        <i>January 17, 2023</i>
-        <p>A partial answer to what I like about static type systems.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/code-reviews-are-overloaded/">
-            <h2>Code reviews are overloaded</h2>
-        </a>
-        <i>January 7, 2023</i>
-        <p>On the pains of mandated code reviews, and how to reduce them.</p>
-
-    </article>
-
+</article>
     </body>
 </html>

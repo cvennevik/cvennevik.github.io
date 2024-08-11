@@ -67,4 +67,4 @@ That's nice.
 
 ---
 
-_[Latest commit: "Rename to Crystal Spire"](https://codeberg.org/cvennevik/crystal-spire/src/commit/2110563631b80369ec3d862d730d0b902e77a8b3/index.html)_
+_[Last commit: "Rename to Crystal Spire"](https://codeberg.org/cvennevik/crystal-spire/src/commit/2110563631b80369ec3d862d730d0b902e77a8b3/index.html)_

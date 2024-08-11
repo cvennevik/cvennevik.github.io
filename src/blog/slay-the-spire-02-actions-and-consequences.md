@@ -215,3 +215,7 @@ Too many questions. Need more answers.
 If you're reading this and these problems are getting your mind going as much as mine, feel free to message me [by email](mailto:cvennevik@gmail.com) or [by fedi](https://www.hachyderm.io/@cvennevik). I'm not going to chat the project away outside of my blog, but I welcome ideas and suggestions.
 
 Until next time!
+
+---
+
+_[Last commit: "#2: Actions and consequences"](https://codeberg.org/cvennevik/crystal-spire/src/commit/2fb0c59bcc6ab0799d350b69c9859b1059b7d95d/index.html)_

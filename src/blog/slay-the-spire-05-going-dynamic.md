@@ -302,3 +302,7 @@ Caveats before closing:
 - This simple scheme of using query parameters for each part of the state takes a lot of characters, and complex game states may need thousands of characters in the query string. Down the line, we'll want to encode this data in a more compact way.
 
 Mmh. Tired now. Write more later.
+
+---
+
+_[Last commit: "#5: Going dynamic"](https://codeberg.org/cvennevik/crystal-spire/src/commit/f6b46cd46502af1e872869ac2c8f6de71cfaa657/index.html)_

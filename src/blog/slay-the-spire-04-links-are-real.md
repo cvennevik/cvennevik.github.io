@@ -39,3 +39,7 @@ However. I was struck with an idea. I think it _is_ possible to fit all the nece
 In other words:
 
 **Plain links are back on menu!**
+
+---
+
+_[Last commit: "#3: Introducing links"](https://codeberg.org/cvennevik/crystal-spire/src/commit/12d6098e07ecd5de448b3d76e96805c9496145bb/index.html)_

@@ -112,3 +112,7 @@ These posts also crystallize my train of thought in a way where it's easy for me
 I wonder if I'll have to put that theory to the test someday. Oh well.
 
 Next time, let's write some JavaScript. Let's make things _change_.
+
+---
+
+_[Last commit: "#3: Introducing links"](https://codeberg.org/cvennevik/crystal-spire/src/commit/12d6098e07ecd5de448b3d76e96805c9496145bb/index.html)_

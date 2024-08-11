@@ -197,3 +197,7 @@ I'm also very happy I started drafting the HTML first instead of diving into Jav
 More than that, I realize that starting with the HTML is extremely helpful for clarifying what I am making. It takes all my fuzzy, loose thoughts, and puts them in concrete terms on the page. It helps me see them better. It frees up my mind to think of next steps. It lets me start planning what features I want, see where they will fit in, start seeing friction and flaws where I need to adapt the design.
 
 I feel very prepared to expand on this tomorrow. Probably writing more HTML, still: actions and outcomes. Until then!
+
+---
+
+_[Last commit: "#1: HTML first"](https://codeberg.org/cvennevik/crystal-spire/src/commit/13ea21e15f66564b20ea0972187ce772c4437653/index.html)_

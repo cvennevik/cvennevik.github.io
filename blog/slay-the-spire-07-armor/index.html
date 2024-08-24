@@ -3,7 +3,7 @@
     <head>
         <script>document.documentElement.classList.remove('js-disabled');</script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Blog - Cecilie Vennevik</title>
+        <title>Slay the Spire #7: Armor - Cecilie Vennevik</title>
         <link rel="icon" type="image/jpg" href="/img/logo-32px.jpg" sizes="32x32">
         <link rel="icon" type="image/jpg" href="/img/logo-48px.jpg" sizes="48x48">
         <link rel="icon" type="image/jpg" href="/img/logo-64px.jpg" sizes="64x64">
@@ -314,163 +314,47 @@ customElements.define(
 
 <style>
     h1 {
-        text-align: center;
+        margin-block-start: 0;
     }
 </style>
-<h1>Blog</h1>
+<a href="/blog/">&larr; Blog</a>
+<article>
+    <h1>Slay the Spire #7: Armor</h1>
+    <i>August 24, 2024</i>
+    <p>We're back! Nearly two weeks since the last post now. Hard to find time to write as a working parent.</p>
+<p>Currently, our page is a bit of dynamically rendered HTML. Some of the content is based on the query string, others are hard-coded. The next logical step is making a little bit less of it hard-coded. Adding armor seems like a nice way to warm up.</p>
+<p>Hmm. First I want to do a little refactoring. I want to extract our JavaScript to a separate file. It's not strictly necessary, and has a couple of cons (like adding another round-trip time on first page load, and not being able to throw our whole project around as a single HTML file), but it has several pros that I want right now:</p>
+<ul>
+<li>We can look at all the already-getting-quite-hairy parsing logic and templating without looking at all the HTML wrapping it.</li>
+<li>We can comfortably remove one level of indentation.</li>
+<li>Down the line, we want to be able to <em>test</em> the code, and having a separate file we can import the code from will help us out a lot.</li>
+</ul>
+<p>So, creating a file... What's the default name people give JavaScript files now, anyway? script.js? main.js? index.js? index.js lines up neatly with index.html in the file explorer, so let's go with that.</p>
+<p>Wow, I've forgotten how to link to external JavaScript files from HTML, it's been so long since I set up a new project without a build system. Quick jump to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script">MDN <code>&lt;script&gt;</code> element page</a>...</p>
+<p>Whew, there's quite a few attributes to choose from nowadays! But after copying and pasting our JavaScript to the new file, it looks like we don't need any of the <code>type</code> or <code>async</code> or <code>defer</code> stuff, all we need to write is:</p>
+<pre><code class="language-html">&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>I'm wondering if we should also add <code>type=&quot;module&quot;</code>. JavaScript modules are the modern way of structuring code, but a quick scan of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules">the JavaScript modules page</a> reminds me that, yeah, it only really matters for exporting and importing code, and I'm not planning on splitting index.js into multiple files anytime soon. Let's keep it dead simple and omit it.</p>
+<p>Commit: &quot;Extract JavaScript to index.js&quot;.</p>
+<p>Back to armor. Let's start by sketching it up in hardcoded HTML:</p>
+<pre><code class="language-html">&lt;p&gt;Armor: 5&lt;/p&gt;
+</code></pre>
+<p>Yeah, that's simple. And when there is no armor, we want to omit that paragraph entirely. Let's make it dynamic by adding a query parameter for &quot;armor&quot;:</p>
+<pre><code class="language-js">let armor = queryParams.get('armor');
+</code></pre>
+<p>We're not assigning a fallback value here if &quot;armor&quot; is missing, because a <code>null</code> value is going to work fine the way we'll use it:</p>
+<pre><code class="language-js">${armor ? `&lt;p&gt;Armor: ${armor}&lt;/p&gt;` : ''}
+</code></pre>
+<p>JavaScript type coercion is great, actually. If <code>armor</code> is any kind of <a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy">falsy value</a>, like <code>null</code>, <code>undefined</code>, or <code>0</code>, it evaluates to <code>false</code> and we render an empty string. If it has a <a href="https://developer.mozilla.org/en-US/docs/Glossary/Truthy">truthy value</a> - in other words, if we have any kind of armor - we render it in a paragraph. This is really handy and terse! But we need to see that it works, first. Let's add <code>&amp;armor=5</code> to our &quot;Play Defend&quot; query string:</p>
+<pre><code class="language-html">&lt;a href=&quot;?maxhp=80&amp;maxenergy=3&amp;relics=Burning%20Blood&amp;hp=80&amp;armor=5&amp;energy=2&amp;hand=Bash,Defend,Defend,Strike&amp;draw=Defend,Strike,Strike,Strike,Strike&amp;discard=Defend&quot;&gt;
+    Play Defend
+&lt;/a&gt;
+</code></pre>
+<p>Wow, these URLs are getting terribly long. But it works! We get &quot;Armor: 5&quot; on that page, and nothing on the others. Commit: &quot;Render armor based on query parameter&quot;</p>
+<p>Ah, my hour is already up. Small progress, but progress nonetheless.</p>
+<hr>
+<p><em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/bc434acde371050735ad5e59736efdcb6ca71861/">Last commit: Render armor based on query parameter</a></em></p>
 
-    <article>
-        <a href="/blog/slay-the-spire-07-armor/">
-            <h2>Slay the Spire #7: Armor</h2>
-        </a>
-        <i>August 24, 2024</i>
-        
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-06-lets-go-to-codeberg/">
-            <h2>Slay the Spire #6: Let&#39;s go to Codeberg!</h2>
-        </a>
-        <i>August 11, 2024</i>
-        <p>Setting up version control.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/i-can-do-hard-things/">
-            <h2>I can do hard things</h2>
-        </a>
-        <i>August 11, 2024</i>
-        
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-05-going-dynamic/">
-            <h2>Slay the Spire #5: Going dynamic</h2>
-        </a>
-        <i>August 4, 2024</i>
-        <p>A little less HTML, a little more JavaScript.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-04-links-are-real/">
-            <h2>Slay the Spire #4: Links are real, and strong, and they are my friend</h2>
-        </a>
-        <i>August 3, 2024</i>
-        <p>Maybe fake links are bad, actually?</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-03-introducing-links/">
-            <h2>Slay the Spire #3: Introducing links</h2>
-        </a>
-        <i>August 1, 2024</i>
-        <p>For good and ill.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-02-actions-and-consequences/">
-            <h2>Slay the Spire #2: Actions and consequences</h2>
-        </a>
-        <i>July 31, 2024</i>
-        <p>Expanding on our HTML sketch.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-01-html-first/">
-            <h2>Slay the Spire #1: HTML first</h2>
-        </a>
-        <i>July 30, 2024</i>
-        <p>There are few things as daunting as a blank page.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/slay-the-spire-00-preamble/">
-            <h2>Slay the Spire #0: Preamble</h2>
-        </a>
-        <i>July 29, 2024</i>
-        <p>I want to make a Slay the Spire solver again.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/fun-with-svg-text/">
-            <h2>Having fun with SVG text</h2>
-        </a>
-        <i>February 21, 2024</i>
-        <p>Please let me ramble at you.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/oops-i-made-code-review-painful/">
-            <h2>Oops, I made code review painful</h2>
-        </a>
-        <i>April 14, 2023</i>
-        <p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
-<p>Boy howdy, I do not enjoy this at all.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/a-corner-cutters-confession/">
-            <h2>A corner-cutter&#39;s confession</h2>
-        </a>
-        <i>February 9, 2023</i>
-        <p>Listen. I know I should have done this one better.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/technical-debt-is-an-incomplete-model/">
-            <h2>&#39;Technical debt&#39; is an incomplete model</h2>
-        </a>
-        <i>February 5, 2023</i>
-        <p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/i-am-a-social-animal/">
-            <h2>I am a social animal</h2>
-        </a>
-        <i>February 4, 2023</i>
-        <p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
-<p>I cope with it.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/type-constraints-with-class-constructors/">
-            <h2>Enforcing advanced type constraints with class constructors in TypeScript</h2>
-        </a>
-        <i>January 20, 2023</i>
-        <p>For those really hard-to-define types.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/using-typescript-to-prevent-common-mistakes/">
-            <h2>Using TypeScript to prevent common mistakes</h2>
-        </a>
-        <i>January 17, 2023</i>
-        <p>A partial answer to what I like about static type systems.</p>
-
-    </article>
-
-    <article>
-        <a href="/blog/code-reviews-are-overloaded/">
-            <h2>Code reviews are overloaded</h2>
-        </a>
-        <i>January 7, 2023</i>
-        <p>On the pains of mandated code reviews, and how to reduce them.</p>
-
-    </article>
-
+</article>
     </body>
 </html>

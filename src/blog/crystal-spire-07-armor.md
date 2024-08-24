@@ -1,11 +1,11 @@
 ---
-title: "Slay the Spire #7: Armor"
+title: "Crystal Spire #7: Armor"
 date: 2024-08-24T11:30:00+02:00
 ---
 
 ---
 
-We're back! Nearly two weeks since the last post now. Hard to find time to write as a working parent.
+We're back! With an updated series title! Nearly two weeks since the last post now. Hard to find time to write as a working parent.
 
 Currently, our page is a bit of dynamically rendered HTML. Some of the content is based on the query string, others are hard-coded. The next logical step is making a little bit less of it hard-coded. Adding armor seems like a nice way to warm up.
 

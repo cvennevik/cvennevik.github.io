@@ -12,7 +12,6 @@
       <link>https://www.cvennevik.no/blog/crystal-spire-07-armor/</link>
       <pubDate>Sat, 24 Aug 2024 09:30:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/crystal-spire-07-armor/</guid>
-      <description><![CDATA[]]></description>
       <content:encoded><![CDATA[<p>We're back! With an updated series title! Nearly two weeks since the last post now. Hard to find time to write as a working parent.</p>
 <p>Currently, our page is a bit of dynamically rendered HTML. Some of the content is based on the query string, others are hard-coded. The next logical step is making a little bit less of it hard-coded. Adding armor seems like a nice way to warm up.</p>
 <p>Hmm. First I want to do a little refactoring. I want to extract our JavaScript to a separate file. It's not strictly necessary, and has a couple of cons (like adding another round-trip time on first page load, and not being able to throw our whole project around as a single HTML file), but it has several pros that I want right now:</p>
@@ -54,8 +53,6 @@
       <link>https://www.cvennevik.no/blog/slay-the-spire-06-lets-go-to-codeberg/</link>
       <pubDate>Sun, 11 Aug 2024 20:30:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/slay-the-spire-06-lets-go-to-codeberg/</guid>
-      <description><![CDATA[<p>Setting up version control.</p>
-]]></description>
       <content:encoded><![CDATA[<p>It's been a week since the last post of this series now, so I can definitely say that the pace of this series is slowing down after the end-of-holiday rush.</p>
 <p>I've been thinking, for this project, that I want to make things fit into little steps, little sessions. If all I have is a little less than an hour, then I want to be able to fit writing a post and making some progress into that little hour. I have a few minutes to spare this evening, so let's see if we can put something out this week and give this thing a little heartbeat.</p>
 <hr>
@@ -113,7 +110,6 @@
       <link>https://www.cvennevik.no/blog/i-can-do-hard-things/</link>
       <pubDate>Sun, 11 Aug 2024 09:00:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/i-can-do-hard-things/</guid>
-      <description><![CDATA[]]></description>
       <content:encoded><![CDATA[<p>A couple of days ago a friend shared the post <a href="https://heydingus.net/blog/2024/8/you-and-i-can-do-hard-things">&quot;You (And I) Can Do Hard Things&quot; by Jarrod Blundy</a>. It placed the phrase &quot;you can do hard things&quot; squarely into my mind where it has been bouncing around since.</p>
 <p>This morning I read <a href="https://angryweasel.substack.com/p/learning-and-hacking">&quot;Learning and Hacking&quot; by Alan Page</a>, which includes a copy of the essay &quot;Always Put Yourself On The Steepest Learning Curve.&quot; And now that's bouncing around in my mind too.</p>
 <p>Add a shot of recent personal events, shake vigorously, and now I am <strong>losing my mind</strong>.</p>
@@ -127,8 +123,6 @@
       <link>https://www.cvennevik.no/blog/slay-the-spire-05-going-dynamic/</link>
       <pubDate>Sun, 04 Aug 2024 14:15:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/slay-the-spire-05-going-dynamic/</guid>
-      <description><![CDATA[<p>A little less HTML, a little more JavaScript.</p>
-]]></description>
       <content:encoded><![CDATA[<p>Hello! I am now, for the first time, writing this at a desktop computer. I'm kind of uncomfortable with how quickly I am able to write (I tend to stumble mentally when my typing catches up to my thinking), but this should make the development process a lot smoother.</p>
 <p>Today we're going to have some fun. We're going to make our page content dynamic, based on the page URL.</p>
 <p>To do that, we have to commit to an approach for rendering dynamic HTML.</p>
@@ -379,8 +373,6 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
       <link>https://www.cvennevik.no/blog/slay-the-spire-04-links-are-real/</link>
       <pubDate>Sat, 03 Aug 2024 19:26:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/slay-the-spire-04-links-are-real/</guid>
-      <description><![CDATA[<p>Maybe fake links are bad, actually?</p>
-]]></description>
       <content:encoded><![CDATA[<p>The thing about doing a project as daily writing-and-coding sessions is you get a lot of time inbetween sessions to mull things over. Two things have been stuck in my mind since last time:</p>
 <ol>
 <li>My unease with the navigation issue, overriding and re-implementing link behavior.</li>
@@ -415,8 +407,6 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
       <link>https://www.cvennevik.no/blog/slay-the-spire-03-introducing-links/</link>
       <pubDate>Thu, 01 Aug 2024 10:40:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/slay-the-spire-03-introducing-links/</guid>
-      <description><![CDATA[<p>For good and ill.</p>
-]]></description>
       <content:encoded><![CDATA[<p>So I've been thinking.</p>
 <p>Last time, I said we were aiming to explore the branching paths a game of Slay the Spire can take. A key feature - maybe <em>the</em> key feature - would be to view the resulting state of an action's outcome. And I think that means selecting an outcome, then having that outcome's state displayed on the screen, with all of its actions and all of their outcomes. And then you should be able to view a <em>next</em> outcome a level deeper, and again, and you should be able to move back to a previous one you have viewed.</p>
 <p>This app needs to let you <strong>navigate between states.</strong></p>
@@ -489,8 +479,6 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
       <link>https://www.cvennevik.no/blog/slay-the-spire-02-actions-and-consequences/</link>
       <pubDate>Wed, 31 Jul 2024 14:10:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/slay-the-spire-02-actions-and-consequences/</guid>
-      <description><![CDATA[<p>Expanding on our HTML sketch.</p>
-]]></description>
       <content:encoded><![CDATA[<p>This seems like a good time as any to start talking about what I want out of this project. In-between writing, I've had some time to mull it over.</p>
 <p>I want to create a &quot;solver&quot; for Slay the Spire which functions as a <strong>highly interactive analytical tool</strong>. I am imagining it showing the possible actions you can take in any situation, their possible outcomes and their probabilities, and then letting you select an outcome to view and analyze further. I want a tree of past and future game states to move through. I want a search algorithm for optimal actions that is <strong>explainable, auditable, and tunable</strong>. I want to be able to <strong>query</strong> for specific outcomes like &quot;highest possible health remaining&quot; and &quot;highest guaranteed health remaining&quot; and &quot;least turns taken.&quot;</p>
 <p>So, what I want is less a &quot;solver,&quot; something that spits out the solution for you to follow, makes you a passive user, and more a tool that invites you to be an active participant in the analytical process.</p>
@@ -668,8 +656,6 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
       <link>https://www.cvennevik.no/blog/slay-the-spire-01-html-first/</link>
       <pubDate>Tue, 30 Jul 2024 20:40:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/slay-the-spire-01-html-first/</guid>
-      <description><![CDATA[<p>There are few things as daunting as a blank page.</p>
-]]></description>
       <content:encoded><![CDATA[<p>There are few things as daunting as a blank page.</p>
 <p>Right now, all my solver project has to show for itself is a little bit of preamble and a vague idea. I do not have a scaffold to work on. I do not have a plan. I do not even have any clearly defined goals.</p>
 <p>Before it's too late, let's get something down on the page, so we can look at it and discuss it. Let's write some HTML, in our first file, <code>index.html</code>.</p>
@@ -808,8 +794,6 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
       <link>https://www.cvennevik.no/blog/slay-the-spire-00-preamble/</link>
       <pubDate>Mon, 29 Jul 2024 10:05:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/slay-the-spire-00-preamble/</guid>
-      <description><![CDATA[<p>I want to make a Slay the Spire solver again.</p>
-]]></description>
       <content:encoded><![CDATA[<p>I want to make a Slay the Spire solver again.</p>
 <p>For the uninitiated: Slay the Spire is a video game where you fight your way through floor after floor of enemies until you face the Heart of the Spire. To get there, you have to defeat the enemies in turn-based battles by playing cards from your deck, of which there are dozens and dozens of different kinds - ones that hurt the enemy, ones that protect you, ones that power you up or weaken the enemy, and so on. At any point in a run, if you run out of health, you die and the run is over.</p>
 <p>If you want to understand the game better and have a bit more context for what I'll be working with here, I suggest watching somebody playing a full run of the game - my favorite Slay the Spire streamers are <a href="http://www.youtube.com/@Baalorlord">Baalorlord</a> and <a href="http://www.youtube.com/@Jorbs">Jorbs</a>. <a href="https://youtu.be/vYkxc7eknWk">Here's a video of Baalorlord playing a run with the Ironclad that I quite like</a>.</p>
@@ -832,8 +816,6 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
       <link>https://www.cvennevik.no/blog/fun-with-svg-text/</link>
       <pubDate>Wed, 21 Feb 2024 20:15:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/fun-with-svg-text/</guid>
-      <description><![CDATA[<p>Please let me ramble at you.</p>
-]]></description>
       <content:encoded><![CDATA[<p>Last weekend, I redesigned my blog. As part of this redesign, I wanted to make something fun for my front page. I started sketching a bit on paper, got an idea, and soon I was doing a search for &quot;css curved text&quot;.</p>
 <p>The first result I found was the <a href="https://css-tricks.com/snippets/svg/curved-text-along-path/">Curved Text Along a Path tutorial</a> by Geoff Graham on CSS Tricks. It demonstrates how to add curved text to a web page using an inline SVG.</p>
 <p>It was perfect.</p>
@@ -987,9 +969,6 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
       <link>https://www.cvennevik.no/blog/oops-i-made-code-review-painful/</link>
       <pubDate>Fri, 14 Apr 2023 20:15:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/oops-i-made-code-review-painful/</guid>
-      <description><![CDATA[<p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
-<p>Boy howdy, I do not enjoy this at all.</p>
-]]></description>
       <content:encoded><![CDATA[<p>A few months ago I wrote <a href="https://www.cvennevik.no/blog/code-reviews-are-overloaded/">a post</a> suggesting that you should limit your pull request reviews to their bare essentials, the &quot;bare essentials&quot; here meaning &quot;bugs and irreversible design decisions.&quot; I've had the chance to try doing this at work, and now I can share my findings with you:</p>
 <p>Boy howdy, I do not enjoy this at all.</p>
 <p>There is one critical issue I did not consider in my original post: whether or not the different parts of review were any enjoyable or engaging. As it turns out, by trimming out every &quot;non-essential&quot; concern from my reviews, I have trimmed away every bit of the activity that was somewhat enjoyable and engaging. My slimmed-down review process is fast, efficient, and insufferable.</p>
@@ -1007,8 +986,6 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
       <link>https://www.cvennevik.no/blog/a-corner-cutters-confession/</link>
       <pubDate>Thu, 09 Feb 2023 20:45:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/a-corner-cutters-confession/</guid>
-      <description><![CDATA[<p>Listen. I know I should have done this one better.</p>
-]]></description>
       <content:encoded><![CDATA[<p>Listen. I know I should have done this one better.</p>
 <p>Yes, I didn't spend time improving the design before I went to work. I slotted my change right into the design that was already there. It fit okay! With some slight cruft, duplication, and clunky call chaining, but still! Don't look at me like that - even Kent Beck says &quot;making the change easy&quot; is the hard part, and my job is hard enough!</p>
 <p>And yes, yes, I didn't write any tests first. I know it would have made my work easier, and refactoring less error-prone. And it would have helped me out in the design process. But I knew what I needed to do (mostly)! And I could just boot up the app and test it manually - it was familiar and convenient!</p>
@@ -1026,8 +1003,6 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
       <link>https://www.cvennevik.no/blog/technical-debt-is-an-incomplete-model/</link>
       <pubDate>Sun, 05 Feb 2023 10:51:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/technical-debt-is-an-incomplete-model/</guid>
-      <description><![CDATA[<p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
-]]></description>
       <content:encoded><![CDATA[<p>We throw around the &quot;technical debt&quot; metaphor a lot in software development. On project after project, we experience the system becoming harder to change as we work on it. Rushed design decisions come back to bite us in the butt. Progress slows to a crawl. We say we have accrued a lot of &quot;technical debt.&quot;</p>
 <p>The &quot;technical debt&quot; metaphor is used to explain that we accrue <em>design flaws</em> as we work. These design flaws make it harder to change the system - the more flaws we have, the more we &quot;pay interest&quot; in increased time and effort to make new changes. To make the system easier to change again, we need to &quot;pay down the debt&quot; by fixing the design flaws. If we do not keep our &quot;technical debt&quot; in check, we risk accumulating so many design flaws that it is no longer economic to develop the system any further - we hit &quot;technical bankruptcy.&quot;</p>
 <p>While this is a useful model, I've come to find it insufficient. It frames &quot;cost of change&quot; as something developers harm by introducing design flaws, and repair by removing design flaws. It is centered on the negative case.</p>
@@ -1050,9 +1025,6 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
       <link>https://www.cvennevik.no/blog/i-am-a-social-animal/</link>
       <pubDate>Sat, 04 Feb 2023 07:42:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/i-am-a-social-animal/</guid>
-      <description><![CDATA[<p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
-<p>I cope with it.</p>
-]]></description>
       <content:encoded><![CDATA[<p>I do not thrive alone at the computer. I do not thrive in peace and quiet. I do not thrive with a well-defined problem in front of me, with my headphones on, and a whole day ahead of me before I have to interact with another human.</p>
 <p>I cope with it.</p>
 <p>I muster the energy I have for the day. I devise elaborate techniques to focus myself. I work pomodoros. I meditate. I put on white noise. I journal. I break the work down into little digestible steps.</p>
@@ -1075,8 +1047,6 @@ let relics = queryParams.get('relics')?.split(',') ?? ['Burning Blood'];
       <link>https://www.cvennevik.no/blog/type-constraints-with-class-constructors/</link>
       <pubDate>Fri, 20 Jan 2023 06:37:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/type-constraints-with-class-constructors/</guid>
-      <description><![CDATA[<p>For those really hard-to-define types.</p>
-]]></description>
       <content:encoded><![CDATA[<p>Frequently, when programming, I am working with data that I expect to follow a set of constraints.</p>
 <ul>
 <li>This parameter must be a string.</li>
@@ -1202,8 +1172,6 @@ console.log(new EstimateRange(10, 7, 0));
       <link>https://www.cvennevik.no/blog/using-typescript-to-prevent-common-mistakes/</link>
       <pubDate>Tue, 17 Jan 2023 00:43:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/using-typescript-to-prevent-common-mistakes/</guid>
-      <description><![CDATA[<p>A partial answer to what I like about static type systems.</p>
-]]></description>
       <content:encoded><![CDATA[<p>I have been struggling to write an article about type systems for about a week now. The ideas and angles I want to take kept changing between each writing session, preventing me from ever completing a single coherent article.</p>
 <p>After venting about this on Mastodon, another user asked me what I thought about static types. They were mostly experienced with dynamically typed languages, and prefer the flexibility they offer.</p>
 <p>It turns out this question was all I needed to focus and get my writing back on track - you may take this blog post as my longform answer.</p>
@@ -1309,8 +1277,6 @@ function placeIconAtMousePosition () {
       <link>https://www.cvennevik.no/blog/code-reviews-are-overloaded/</link>
       <pubDate>Sat, 07 Jan 2023 22:55:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/code-reviews-are-overloaded/</guid>
-      <description><![CDATA[<p>On the pains of mandated code reviews, and how to reduce them.</p>
-]]></description>
       <content:encoded><![CDATA[<h2>Code reviews are effective</h2>
 <p><strong>Code reviews are effective for uncovering bugs.</strong> We have multiple large studies backing this claim, estimating that the bug-detection rate of code reviews is in the ballpark of 50%. This is better evidence than we have for most software development practices. From <a href="https://en.wikipedia.org/wiki/Code_review#Efficiency_and_effectiveness_of_reviews">the Wikipedia article on code review</a>:</p>
 <blockquote>

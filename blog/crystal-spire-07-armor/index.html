@@ -3,7 +3,7 @@
     <head>
         <script>document.documentElement.classList.remove('js-disabled');</script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Slay the Spire #7: Armor - Cecilie Vennevik</title>
+        <title>Crystal Spire #7: Armor - Cecilie Vennevik</title>
         <link rel="icon" type="image/jpg" href="/img/logo-32px.jpg" sizes="32x32">
         <link rel="icon" type="image/jpg" href="/img/logo-48px.jpg" sizes="48x48">
         <link rel="icon" type="image/jpg" href="/img/logo-64px.jpg" sizes="64x64">
@@ -319,9 +319,9 @@ customElements.define(
 </style>
 <a href="/blog/">&larr; Blog</a>
 <article>
-    <h1>Slay the Spire #7: Armor</h1>
+    <h1>Crystal Spire #7: Armor</h1>
     <i>August 24, 2024</i>
-    <p>We're back! Nearly two weeks since the last post now. Hard to find time to write as a working parent.</p>
+    <p>We're back! With an updated series title! Nearly two weeks since the last post now. Hard to find time to write as a working parent.</p>
 <p>Currently, our page is a bit of dynamically rendered HTML. Some of the content is based on the query string, others are hard-coded. The next logical step is making a little bit less of it hard-coded. Adding armor seems like a nice way to warm up.</p>
 <p>Hmm. First I want to do a little refactoring. I want to extract our JavaScript to a separate file. It's not strictly necessary, and has a couple of cons (like adding another round-trip time on first page load, and not being able to throw our whole project around as a single HTML file), but it has several pros that I want right now:</p>
 <ul>

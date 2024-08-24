@@ -8,12 +8,12 @@
     <lastBuildDate>Sat, 24 Aug 2024 09:30:00 GMT</lastBuildDate>
     <atom:link href="https://www.cvennevik.no/blog/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Slay the Spire #7: Armor</title>
-      <link>https://www.cvennevik.no/blog/slay-the-spire-07-armor/</link>
+      <title>Crystal Spire #7: Armor</title>
+      <link>https://www.cvennevik.no/blog/crystal-spire-07-armor/</link>
       <pubDate>Sat, 24 Aug 2024 09:30:00 GMT</pubDate>
-      <guid>https://www.cvennevik.no/blog/slay-the-spire-07-armor/</guid>
+      <guid>https://www.cvennevik.no/blog/crystal-spire-07-armor/</guid>
       <description><![CDATA[]]></description>
-      <content:encoded><![CDATA[<p>We're back! Nearly two weeks since the last post now. Hard to find time to write as a working parent.</p>
+      <content:encoded><![CDATA[<p>We're back! With an updated series title! Nearly two weeks since the last post now. Hard to find time to write as a working parent.</p>
 <p>Currently, our page is a bit of dynamically rendered HTML. Some of the content is based on the query string, others are hard-coded. The next logical step is making a little bit less of it hard-coded. Adding armor seems like a nice way to warm up.</p>
 <p>Hmm. First I want to do a little refactoring. I want to extract our JavaScript to a separate file. It's not strictly necessary, and has a couple of cons (like adding another round-trip time on first page load, and not being able to throw our whole project around as a single HTML file), but it has several pros that I want right now:</p>
 <ul>

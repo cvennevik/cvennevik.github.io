@@ -30,26 +30,6 @@
 	}
 }
 
-:root:has(#light-color-scheme:checked) {
-	--background-color: #f0f9fd;
-	--foreground-color: rgba(255, 255, 255, 30%);
-	--border-color: rgba(0, 0, 0, 10%);
-	--text-color: #212;
-	--code-background-color: rgba(0, 0, 0, 10%);
-	--link-color: #086391;
-	--link-focus-color: #89cff0;
-}
-
-:root:has(#dark-color-scheme:checked) {
-	--background-color: #222;
-	--foreground-color: #444;
-	--border-color: rgba(255, 255, 255, 10%);
-	--text-color: #fff;
-	--code-background-color: #444;
-	--link-color: #89cff0;
-	--link-focus-color: #b8e2f6;
-}
-
 html {
 	background-color: var(--background-color);
 	color: var(--text-color);

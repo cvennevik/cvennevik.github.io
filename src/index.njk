@@ -12,28 +12,6 @@ layout: base.njk
         height: 100%;
         width: 100%;
     }
-    @keyframes wobble-image {
-        from {
-            transform: rotate(1deg);
-        }
-        to {
-            transform: rotate(-1deg);
-        }
-    }
-    @keyframes wobble-text {
-        from {
-            transform: rotate(-2deg);
-        }
-        to {
-            transform: rotate(2deg);
-        }
-    }
-    :has(#motion-toggle:checked) header img {
-        animation: 2s infinite -1s ease-in-out alternate wobble-image;
-    }
-    :has(#motion-toggle:checked) header svg {
-        animation: 2s infinite -1s ease-in-out alternate wobble-text;
-    }
     header img {
         border-radius: 100%;
         padding: 10%;
@@ -80,7 +58,4 @@ layout: base.njk
     <a href="/blogrollroll/">Blogrollroll</a>
     <a href="/influences/">Influences</a>
     <a rel="me" href="https://hachyderm.io/@cvennevik">Mastodon</a>
-    <button class="js-only site-settings-button" onclick="document.getElementById('site-settings-dialog').showModal()">
-        Open site settings
-    </button>
 </nav>

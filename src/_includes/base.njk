@@ -13,31 +13,8 @@
         <style>
             {% include 'base.css' %}
         </style>
-        <script>
-            {% include 'input-persist.js' %}
-        </script>
     </head>
     <body>
-        <dialog aria-labelledby="site-settings-title" id="site-settings-dialog">
-            <h1 id="site-settings-title">Site settings</h1>
-            <form method="dialog">
-                <input-persist>
-                    <label for="motion-toggle">Enable motion</label>
-                    <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
-                    <fieldset>
-                        <legend>Color scheme</legend>
-                        <label for="auto-color-scheme">Auto</label>
-                        <input type="radio" name="color-scheme" id="auto-color-scheme" data-persist-key="auto-color-scheme"
-                            checked>
-                        <label for="light-color-scheme">Light</label>
-                        <input type="radio" name="color-scheme" id="light-color-scheme" data-persist-key="light-color-scheme">
-                        <label for="dark-color-scheme">Dark</label>
-                        <input type="radio" name="color-scheme" id="dark-color-scheme" data-persist-key="dark-color-scheme">
-                    </fieldset>
-                </input-persist>
-                <button type="submit">Close</button>
-            </form>
-        </dialog>
         {{ content | safe }}
     </body>
 </html>

@@ -1,9 +1,6 @@
 ---
 title: "Slay the Spire #5: Going dynamic"
 date: 2024-08-04T16:15:00+02:00
-summary: "A little less HTML, a little more JavaScript."
----
-
 ---
 
 Hello! I am now, for the first time, writing this at a desktop computer. I'm kind of uncomfortable with how quickly I am able to write (I tend to stumble mentally when my typing catches up to my thinking), but this should make the development process a lot smoother.

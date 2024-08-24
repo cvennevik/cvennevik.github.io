@@ -21,7 +21,6 @@ baseURL: https://www.cvennevik.no/
       <link>{{ absolutePostUrl }}</link>
       <pubDate>{{ post.date.toUTCString() }}</pubDate>
       <guid>{{ absolutePostUrl }}</guid>
-      <description><![CDATA[{{ post | renderBlogPostSummary | safe }}]]></description>
       <content:encoded><![CDATA[{{ post.templateContent | safe }}]]></content:encoded>
     </item>
     {% endfor %}

@@ -7,8 +7,6 @@ I do not thrive alone at the computer. I do not thrive in peace and quiet. I do 
 
 I cope with it.
 
----
-
 I muster the energy I have for the day. I devise elaborate techniques to focus myself. I work pomodoros. I meditate. I put on white noise. I journal. I break the work down into little digestible steps.
 
 And so I manage being alone.

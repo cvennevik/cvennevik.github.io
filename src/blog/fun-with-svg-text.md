@@ -1,7 +1,6 @@
 ---
 title: Having fun with SVG text
 date: 2024-02-21T21:15:00+01:00
-summary: Please let me ramble at you.
 ---
 
 Last weekend, I redesigned my blog. As part of this redesign, I wanted to make something fun for my front page. I started sketching a bit on paper, got an idea, and soon I was doing a search for "css curved text".

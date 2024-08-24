@@ -1,9 +1,6 @@
 ---
 title: "Slay the Spire #3: Introducing links"
 date: 2024-08-01T12:40:00+02:00
-summary: "For good and ill."
----
-
 ---
 
 So I've been thinking. 

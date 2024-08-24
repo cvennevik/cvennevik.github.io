@@ -1,9 +1,6 @@
 ---
 title: "Slay the Spire #6: Let's go to Codeberg!"
 date: 2024-08-11T22:30:00+02:00
-summary: "Setting up version control."
----
-
 ---
 
 It's been a week since the last post of this series now, so I can definitely say that the pace of this series is slowing down after the end-of-holiday rush.

@@ -15,6 +15,5 @@ title: Blog
             <h2>{{ post.data.title }}</h2>
         </a>
         <i>{{ post.date.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}</i>
-        {{ post | renderBlogPostSummary | safe }}
     </article>
 {% endfor %}

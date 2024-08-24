@@ -1,9 +1,6 @@
 ---
 title: "Slay the Spire #4: Links are real, and strong, and they are my friend"
 date: 2024-08-03T21:26:00+02:00
-summary: "Maybe fake links are bad, actually?"
----
-
 ---
 
 The thing about doing a project as daily writing-and-coding sessions is you get a lot of time inbetween sessions to mull things over. Two things have been stuck in my mind since last time:

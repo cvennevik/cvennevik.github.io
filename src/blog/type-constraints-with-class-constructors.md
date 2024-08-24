@@ -1,7 +1,6 @@
 ---
 title: "Enforcing advanced type constraints with class constructors in TypeScript"
 date: 2023-01-20T17:37:00+11:00
-summary: "For those really hard-to-define types."
 ---
 
 Frequently, when programming, I am working with data that I expect to follow a set of constraints.

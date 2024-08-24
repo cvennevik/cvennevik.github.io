@@ -1,7 +1,6 @@
 ---
 title: "Using TypeScript to prevent common mistakes"
 date: 2023-01-17T11:43:00+11:00
-summary: "A partial answer to what I like about static type systems."
 ---
 
 I have been struggling to write an article about type systems for about a week now. The ideas and angles I want to take kept changing between each writing session, preventing me from ever completing a single coherent article.

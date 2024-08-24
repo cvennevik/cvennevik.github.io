@@ -24,7 +24,6 @@ baseURL: https://www.cvennevik.no/
     <id>{{ absolutePostUrl }}</id>
     <published>{{ post.date.toISOString() }}</published>
     <updated>{{ post.date.toISOString() }}</updated>
-    <summary type="html"><![CDATA[{{ post | renderBlogPostSummary | safe }}]]></summary>
     <content type="html"><![CDATA[{{ post.templateContent | safe }}]]></content>
   </entry>
   {% endfor %}

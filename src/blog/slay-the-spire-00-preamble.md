@@ -5,8 +5,6 @@ date: 2024-07-29T12:05:00+02:00
 
 I want to make a Slay the Spire solver again.
 
----
-
 For the uninitiated: Slay the Spire is a video game where you fight your way through floor after floor of enemies until you face the Heart of the Spire. To get there, you have to defeat the enemies in turn-based battles by playing cards from your deck, of which there are dozens and dozens of different kinds - ones that hurt the enemy, ones that protect you, ones that power you up or weaken the enemy, and so on. At any point in a run, if you run out of health, you die and the run is over.
 
 If you want to understand the game better and have a bit more context for what I'll be working with here, I suggest watching somebody playing a full run of the game - my favorite Slay the Spire streamers are [Baalorlord](http://www.youtube.com/@Baalorlord) and [Jorbs](http://www.youtube.com/@Jorbs). [Here's a video of Baalorlord playing a run with the Ironclad that I quite like](https://youtu.be/vYkxc7eknWk).

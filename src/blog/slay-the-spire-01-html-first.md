@@ -5,8 +5,6 @@ date: 2024-07-30T22:40:00+02:00
 
 There are few things as daunting as a blank page.
 
----
-
 Right now, all my solver project has to show for itself is a little bit of preamble and a vague idea. I do not have a scaffold to work on. I do not have a plan. I do not even have any clearly defined goals.
 
 Before it's too late, let's get something down on the page, so we can look at it and discuss it. Let's write some HTML, in our first file, `index.html`.

@@ -1,9 +1,6 @@
 ---
 title: "Slay the Spire #2: Actions and consequences"
 date: 2024-07-31T16:10:00+02:00
-summary: "Expanding on our HTML sketch."
----
-
 ---
 
 This seems like a good time as any to start talking about what I want out of this project. In-between writing, I've had some time to mull it over.

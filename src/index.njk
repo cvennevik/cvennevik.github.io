@@ -3,33 +3,38 @@ layout: base.njk
 ---
 
 <style>
-    header {
-        display: grid;
-    }
-    header > * {
-        grid-column: 1;
-        grid-row: 1;
-        height: 100%;
-        width: 100%;
-    }
-    header img {
-        border-radius: 100%;
-        padding: 10%;
-    }
     @font-face {
         font-family: babycakes-uppercase;
         src:
             url('/font/Babycakes-uppercase.woff2') format('woff2'),
             url('/font/Babycakes-uppercase.ttf') format('opentype');
     }
-    header svg text {
+
+    .splash {
+        display: grid;
+    }
+
+    .splash > * {
+        grid-column: 1;
+        grid-row: 1;
+        height: 100%;
+        width: 100%;
+    }
+
+    .splash img {
+        border-radius: 100%;
+        padding: 10%;
+    }
+
+    .splash svg text {
         fill: #89cff0;
         stroke: #086391;
         font-family: babycakes-uppercase;
         font-size: 36px;
         text-transform: uppercase;
     }
-    nav {
+
+    .links {
         display: flex;
         flex-direction: column;
         font-size: 1.5rem;
@@ -38,7 +43,7 @@ layout: base.njk
         text-align: center;
     }
 </style>
-<header>
+<header class="splash">
     <img src="/img/logo-500px.jpg" alt="A seal in a wine glass">
     <svg viewbox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
         <title>Welcome to my website</title>
@@ -52,7 +57,7 @@ layout: base.njk
         </text>
     </svg>
 </header>
-<nav>
+<nav class="links">
     <a href="/blog/">Blog</a>
     <a href="/blogroll/">Blogroll</a>
     <a href="/blogrollroll/">Blogrollroll</a>

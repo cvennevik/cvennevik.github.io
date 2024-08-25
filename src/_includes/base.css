@@ -16,6 +16,10 @@
 	--code-background-color: rgba(0, 0, 0, 10%);
 	--link-color: #086391;
 	--link-focus-color: #89cff0;
+	--navbar-background-color: #89cff0;
+	--navbar-background-border-color: #086391;
+	--navbar-link-color: #086391;
+	--navbar-link-focus-color: #f0f9fd;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,6 +31,10 @@
 		--code-background-color: #444;
 		--link-color: #89cff0;
 		--link-focus-color: #b8e2f6;
+		--navbar-background-color: #086391;
+		--navbar-background-border-color: #034c70;
+		--navbar-link-color: #89cff0;
+		--navbar-link-focus-color: #f0f9fd;
 	}
 }
 
@@ -39,6 +47,43 @@ html {
 }
 
 body {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	--link-color: var(--navbar-link-color);
+	--link-focus-color: var(--navbar-link-focus-color);
+	background-color: var(--navbar-background-color);
+	border-bottom: .25rem solid var(--navbar-background-border-color);
+	align-items: center;
+	display: flex;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.navbar img {
+	border-radius: 100%;
+	display: inline-block;
+	height: 2rem;
+	width: 2rem;
+}
+
+.crumbs {
+	align-items: center;
+	display: flex;
+	gap: .5rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.crumbs li {
+	display: flex;
+	gap: .5rem;
+}
+
+main {
 	margin: 0 auto;
 	max-width: 50rem;
 	padding: 1rem;

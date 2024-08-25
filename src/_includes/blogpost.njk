@@ -1,15 +1,25 @@
----
-layout: page.njk
----
+{% extends "base.njk" %}
 
+{% block crumbs %}
+<li>
+    <a href="/">Home</a>
+    <span aria-hidden="true">/</span>
+</li>
+<li>
+    <a href="/blog/">Blog</a>
+    <span aria-hidden="true">/</span>
+</li>
+{% endblock %}
+
+{% block main %}
 <style>
     h1 {
         margin-block-start: 0;
     }
 </style>
-<a href="/blog/">&larr; Blog</a>
 <article>
     <h1>{{ title }}</h1>
     <i>{{ date.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}</i>
     {{ content | safe }}
 </article>
+{% endblock %}

@@ -15,6 +15,18 @@
         </style>
     </head>
     <body>
-        {{ content | safe }}
+        <header class="navbar">
+            <img src="/img/logo-250px.jpg" alt="Seal-in-a-glass logo">
+            <ol class="crumbs">
+                {% block crumbs %}
+                <li>Home</li>
+                {% endblock %}
+            </ol>
+        </header>
+        <main>
+            {% block main %}
+            {{ content | safe }}
+            {% endblock %}
+        </main>
     </body>
 </html>

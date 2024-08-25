@@ -1,37 +1,9 @@
----
-layout: base.njk
----
+{% extends "base.njk" %}
 
-<style>
-    header {
-        position: relative;
-        text-align: center;
-    }
-
-    header a {
-        display: inline-block;
-        height: 6rem;
-        width: 6rem;
-    }
-
-    header a img {
-        border-radius: 100%;
-        transition: border-width .1s;
-    }
-
-    header a:hover img,
-    header a:focus img {
-        border: .3rem solid var(--home-link-focus-color);
-    }
-
-    .site-settings-button {
-        position: absolute;
-        right: 0;
-    }
-</style>
-<header>
-    <a href="/">
-        <img src="/img/logo-250px.jpg" title="Home">
-    </a>
-</header>
-{{ content | safe }}
+{% block crumbs %}
+<li>
+    <a href="/">Home</a>
+    <span aria-hidden="true">/</span>
+</li>
+<li>{{ title }}</li>
+{% endblock %}

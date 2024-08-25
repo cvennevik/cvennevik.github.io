@@ -76,6 +76,10 @@ body > header {
 	width: 2rem;
 }
 
+.navbar nav {
+	flex-grow: 1;
+}
+
 .crumbs {
 	align-items: center;
 	display: flex;

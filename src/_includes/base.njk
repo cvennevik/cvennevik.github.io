@@ -17,6 +17,7 @@
     <body>
         <header>
             <div class="navbar">
+                {% block header %}
                 <img src="/img/logo-250px.jpg" alt="Seal-in-a-glass logo">
                 <nav aria-labelledby="navbar-label">
                     <span id="navbar-label">You are here.</span>
@@ -25,6 +26,7 @@
                         {% endblock %}
                     </ol>
                 </nav>
+                {% endblock %}
             </div>
         </header>
         <main>

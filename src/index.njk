@@ -1,13 +1,47 @@
----
-layout: base.njk
----
+{% extends "base.njk" %}
 
+{% block header %}
+{{ super() }}
+<div>
+    <label>Wiggle
+        <input id="motion-toggle" type="checkbox">
+    </label>
+</div>
+{% endblock %}
+
+{% block main %}
 <style>
     @font-face {
         font-family: babycakes-uppercase;
         src:
             url('/font/Babycakes-uppercase.woff2') format('woff2'),
             url('/font/Babycakes-uppercase.ttf') format('opentype');
+    }
+
+    @keyframes wobble-image {
+        from {
+            transform: rotate(1deg);
+        }
+        to {
+            transform: rotate(-1deg);
+        }
+    }
+
+    @keyframes wobble-text {
+        from {
+            transform: rotate(-2deg);
+        }
+        to {
+            transform: rotate(2deg);
+        }
+    }
+
+    :has(#motion-toggle:checked) header img {
+        animation: 2s infinite -1s ease-in-out alternate wobble-image;
+    }
+
+    :has(#motion-toggle:checked) header svg {
+        animation: 2s infinite -1s ease-in-out alternate wobble-text;
     }
 
     .splash {
@@ -70,3 +104,4 @@ layout: base.njk
     <a href="/influences/">Influences</a>
     <a rel="me" href="https://hachyderm.io/@cvennevik">Mastodon</a>
 </nav>
+{% endblock %}

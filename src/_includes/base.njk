@@ -18,11 +18,10 @@
         <header>
             <div class="navbar">
                 <img src="/img/logo-250px.jpg" alt="Seal-in-a-glass logo">
-                <nav>
-                    You are here.
+                <nav aria-labelledby="navbar-label">
+                    <span id="navbar-label">You are here.</span>
                     <ol class="crumbs">
                         {% block crumbs %}
-                        <li>Home</li>
                         {% endblock %}
                     </ol>
                 </nav>

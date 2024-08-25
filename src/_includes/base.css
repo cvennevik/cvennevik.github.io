@@ -60,10 +60,12 @@ body > header {
 
 .navbar {
 	align-items: center;
+	box-sizing: content-box;
 	display: flex;
 	gap: 1rem;
 	margin: auto;
 	max-width: 50rem;
+	min-height: 3rem;
 	padding: .5rem 1rem;
 }
 

@@ -29,6 +29,10 @@
 	--code-background-color: rgba(0, 0, 0, 10%);
 	--link-color: #086391;
 	--link-focus-color: #89cff0;
+	--header-background-color: #89cff0;
+	--header-background-border-color: #086391;
+	--header-link-color: #086391;
+	--header-link-focus-color: #f0f9fd;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,6 +44,10 @@
 		--code-background-color: #444;
 		--link-color: #89cff0;
 		--link-focus-color: #b8e2f6;
+		--header-background-color: #086391;
+		--header-background-border-color: #034c70;
+		--header-link-color: #89cff0;
+		--header-link-focus-color: #f0f9fd;
 	}
 }
 
@@ -52,18 +60,63 @@ html {
 }
 
 body {
+	margin: 0;
+	padding: 0;
+}
+
+body > header {
+	--link-color: var(--header-link-color);
+	--link-focus-color: var(--header-link-focus-color);
+	background-color: var(--header-background-color);
+	border-bottom: .25rem solid var(--header-background-border-color);
+}
+
+.navbar {
+	align-items: center;
+	box-sizing: content-box;
+	display: flex;
+	gap: 1rem;
+	margin: auto;
+	max-width: 50rem;
+	min-height: 3rem;
+	padding: .5rem 1rem;
+}
+
+.navbar img {
+	border-radius: 100%;
+	display: inline-block;
+	height: 2rem;
+	width: 2rem;
+}
+
+.crumbs {
+	align-items: center;
+	display: flex;
+	gap: .5rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.crumbs li {
+	display: flex;
+	gap: .5rem;
+}
+
+main {
 	margin: 0 auto;
 	max-width: 50rem;
 	padding: 1rem;
-	padding-bottom: 2rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.3rem; }
+h6 { font-size: 1.2rem; }
+
+h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 	line-height: 1.1;
 	margin-block-start: 1em;
@@ -71,27 +124,7 @@ h6 {
 }
 
 h1 {
-	font-size: 2.5rem;
-}
-
-h2 {
-	font-size: 2rem;
-}
-
-h3 {
-	font-size: 1.75rem;
-}
-
-h4 {
-	font-size: 1.5rem;
-}
-
-h5 {
-	font-size: 1.3rem;
-}
-
-h6 {
-	font-size: 1.2rem;
+	margin-block-start: 0;
 }
 
 a {
@@ -110,7 +143,7 @@ blockquote {
 	padding: 0 1rem;
 }
 
-:not(pre)>code {
+:not(pre) > code {
 	background-color: var(--code-background-color);
 }
 
@@ -152,46 +185,34 @@ figcaption {
         </style>
     </head>
     <body>
-        
-<style>
-    header {
-        position: relative;
-        text-align: center;
-    }
+        <header>
+            <div class="navbar">
+                <img src="/img/logo-250px.jpg" alt="Seal-in-a-glass logo">
+                <nav aria-labelledby="navbar-label">
+                    <span id="navbar-label">You are here.</span>
+                    <ol class="crumbs">
+                        
+<li>
+    <a href="/">Home</a>
+    <span aria-hidden="true">/</span>
+</li>
+<li>
+    <a href="/blog/">Blog</a>
+    <span aria-hidden="true">/</span>
+</li>
+<li>Post</li>
 
-    header a {
-        display: inline-block;
-        height: 6rem;
-        width: 6rem;
-    }
-
-    header a img {
-        border-radius: 100%;
-        transition: border-width .1s;
-    }
-
-    header a:hover img,
-    header a:focus img {
-        border: .3rem solid var(--home-link-focus-color);
-    }
-
-    .site-settings-button {
-        position: absolute;
-        right: 0;
-    }
-</style>
-<header>
-    <a href="/">
-        <img src="/img/logo-250px.jpg" title="Home">
-    </a>
-</header>
-
+                    </ol>
+                </nav>
+            </div>
+        </header>
+        <main>
+            
 <style>
     h1 {
         margin-block-start: 0;
     }
 </style>
-<a href="/blog/">&larr; Blog</a>
 <article>
     <h1>Enforcing advanced type constraints with class constructors in TypeScript</h1>
     <i>January 20, 2023</i>
@@ -314,5 +335,7 @@ console.log(new EstimateRange(10, 7, 0));
 <p>When simpler alternatives for type checks are insufficient, class constructor validation is a powerful alternative to fall back on.</p>
 
 </article>
+
+        </main>
     </body>
 </html>

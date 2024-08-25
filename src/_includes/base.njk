@@ -15,13 +15,18 @@
         </style>
     </head>
     <body>
-        <header class="navbar">
-            <img src="/img/logo-250px.jpg" alt="Seal-in-a-glass logo">
-            <ol class="crumbs">
-                {% block crumbs %}
-                <li>Home</li>
-                {% endblock %}
-            </ol>
+        <header>
+            <div class="navbar">
+                <img src="/img/logo-250px.jpg" alt="Seal-in-a-glass logo">
+                <nav>
+                    You are here.
+                    <ol class="crumbs">
+                        {% block crumbs %}
+                        <li>Home</li>
+                        {% endblock %}
+                    </ol>
+                </nav>
+            </div>
         </header>
         <main>
             {% block main %}

@@ -21,23 +21,23 @@ const CONTENT_TYPES = [
   'text/xml'
 ];
 
-const feeds = {
-  "feeds": [
-    "https://hnrss.org/frontpage?points=10&comments=5&count=35"
-  ],
-  "blogs": [
-    "https://xeiaso.net/blog.rss",
-    "https://drewdevault.com/blog/index.xml",
-    "https://danluu.com/atom.xml",
-    "https://kevinfiol.com/atom.xml",
-    "https://terrysfreegameoftheweek.com/feed/",
-    "https://fasterthanli.me/index.xml"
-  ]
-};
+await build();
 
-await build({ feeds });
+async function build() {
+  const feeds = {
+    "feeds": [
+      "https://hnrss.org/frontpage?points=10&comments=5&count=35"
+    ],
+    "blogs": [
+      "https://xeiaso.net/blog.rss",
+      "https://drewdevault.com/blog/index.xml",
+      "https://danluu.com/atom.xml",
+      "https://kevinfiol.com/atom.xml",
+      "https://terrysfreegameoftheweek.com/feed/",
+      "https://fasterthanli.me/index.xml"
+    ]
+  };
 
-async function build({ feeds }) {
   let allItems = [];
   const parser = new Parser();
   const errors = [];

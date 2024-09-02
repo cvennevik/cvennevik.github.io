@@ -21,12 +21,11 @@ const CONTENT_TYPES = [
   'text/xml'
 ];
 
-const config = readCfg('./src/config.json');
 const feeds = readCfg('./src/feeds.json');
 
-await build({ config, feeds });
+await build({ feeds });
 
-async function build({ config, feeds }) {
+async function build({ feeds }) {
   let allItems = [];
   const parser = new Parser();
   const errors = [];
@@ -114,7 +113,7 @@ async function build({ config, feeds }) {
   // sort `all articles` view
   allItems.sort((a, b) => byDateSort(a, b));
 
-  const now = getNowDate(config.timezone_offset).toString();
+  const now = new Date();
   const html = template({ allItems, groups, now, errors });
 
   writeFileSync(resolve(OUTFILE_PATH), html, { encoding: 'utf8' });
@@ -136,13 +135,6 @@ function byDateSort(dateStrA, dateStrB) {
   const [aDate, bDate] = [parseDate(dateStrA), parseDate(dateStrB)];
   if (!aDate || !bDate) return 0;
   return bDate - aDate;
-}
-
-function getNowDate(offset = 0) {
-  let d = new Date();
-  const utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-  d = new Date(utc + (3600000 * offset));
-  return d;
 }
 
 function readCfg(path) {

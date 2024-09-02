@@ -95,17 +95,7 @@ async function build({ config, feeds, cache, writeCache = false }) {
                 : contents.link + item.link;
           }
 
-          // 3. redirects
-          if (config.redirects) {
-            // need to parse hostname methodically due to unreliable feeds
-            const url = new URL(item.link);
-            const tokens = url.hostname.split('.');
-            const host = tokens[tokens.length - 2];
-            const redirect = config.redirects[host];
-            if (redirect) item.link = `https://${redirect}${url.pathname}${url.search}`;
-          }
-
-          // 4. escape html in titles
+          // 3. escape html in titles
           item.title = escapeHtml(item.title);
         });
 

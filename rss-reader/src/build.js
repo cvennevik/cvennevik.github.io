@@ -8,7 +8,7 @@
 
 import Parser from 'rss-parser';
 import { resolve } from 'node:path';
-import { readFileSync, writeFileSync } from 'node:fs';
+import { writeFileSync } from 'node:fs';
 import { template } from './template.js';
 
 const OUTFILE_PATH = './output/index.html';
@@ -21,7 +21,19 @@ const CONTENT_TYPES = [
   'text/xml'
 ];
 
-const feeds = readCfg('./src/feeds.json');
+const feeds = {
+  "feeds": [
+    "https://hnrss.org/frontpage?points=10&comments=5&count=35"
+  ],
+  "blogs": [
+    "https://xeiaso.net/blog.rss",
+    "https://drewdevault.com/blog/index.xml",
+    "https://danluu.com/atom.xml",
+    "https://kevinfiol.com/atom.xml",
+    "https://terrysfreegameoftheweek.com/feed/",
+    "https://fasterthanli.me/index.xml"
+  ]
+};
 
 await build({ feeds });
 
@@ -136,27 +148,6 @@ function byDateSort(dateStrA, dateStrB) {
   if (!aDate || !bDate) return 0;
   return bDate - aDate;
 }
-
-function readCfg(path) {
-  let contents, json;
-
-  try {
-    contents = readFileSync(resolve(path), { encoding: 'utf8' });
-  } catch (e) {
-    console.warn(`Warning: Config at ${path} does not exist`);
-    return {};
-  }
-
-  try {
-    json = JSON.parse(contents);
-  } catch (e) {
-    console.error('Error: Config is Invalid JSON: ' + path);
-    process.exit(1);
-  }
-
-  return json;
-}
-
 
 function escapeHtml(html) {
   return html.replaceAll('&', '&amp;')

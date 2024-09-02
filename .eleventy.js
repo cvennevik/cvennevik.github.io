@@ -1,5 +1,3 @@
-import markdownIt from "markdown-it";
-
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/img/");
   eleventyConfig.addPassthroughCopy("src/font/");

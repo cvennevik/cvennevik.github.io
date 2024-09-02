@@ -7,9 +7,7 @@
     "node": ">=18.x"
   },
   "scripts": {
-    "build": "node src/build.js",
-    "write": "node src/build.js --write",
-    "cached": "node src/build.js --cached"
+    "build": "node src/build.js"
   },
   "author": "kevinfiol",
   "license": "ISC",

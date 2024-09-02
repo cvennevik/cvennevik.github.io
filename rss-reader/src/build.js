@@ -11,10 +11,6 @@ import { resolve } from 'node:path';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { template } from './template.js';
 
-const WRITE = process.argv.includes('--write');
-const USE_CACHE = !WRITE && process.argv.includes('--cached');
-
-const CACHE_PATH = './src/cache.json';
 const OUTFILE_PATH = './output/index.html';
 const CONTENT_TYPES = [
   'application/json',
@@ -26,13 +22,12 @@ const CONTENT_TYPES = [
 ];
 
 const config = readCfg('./src/config.json');
-const feeds = USE_CACHE ? {} : readCfg('./src/feeds.json');
-const cache = USE_CACHE ? readCfg(CACHE_PATH) : {};
+const feeds = readCfg('./src/feeds.json');
 
-await build({ config, feeds, cache, writeCache: WRITE });
+await build({ config, feeds });
 
-async function build({ config, feeds, cache, writeCache = false }) {
-  let allItems = cache.allItems || [];
+async function build({ config, feeds }) {
+  let allItems = [];
   const parser = new Parser();
   const errors = [];
   const groupContents = {};
@@ -108,15 +103,7 @@ async function build({ config, feeds, cache, writeCache = false }) {
     }
   }
 
-  const groups = cache.groups || Object.entries(groupContents);
-
-  if (writeCache) {
-    writeFileSync(
-      resolve(CACHE_PATH),
-      JSON.stringify({ groups, allItems }),
-      'utf8'
-    );
-  }
+  const groups = Object.entries(groupContents);
 
   // for each group, sort the feeds
   // sort the feeds by comparing the isoDate of the first items of each feed

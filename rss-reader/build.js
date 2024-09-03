@@ -24,7 +24,7 @@ const CONTENT_TYPES = [
 await build();
 
 async function build() {
-  const feeds = {
+  const FEEDS = {
     "feeds": [
       "https://hnrss.org/frontpage?points=10&comments=5&count=35"
     ],
@@ -43,11 +43,11 @@ async function build() {
   const errors = [];
   const groupContents = {};
 
-  for (const groupName in feeds) {
+  for (const groupName in FEEDS) {
     groupContents[groupName] = [];
 
     const results = await Promise.allSettled(
-      Object.values(feeds[groupName]).map(url =>
+      Object.values(FEEDS[groupName]).map(url =>
         fetch(url, { method: 'GET' })
           .then(res => [url, res])
           .catch(e => {

@@ -25,7 +25,7 @@ await build();
 
 async function build() {
   const FEEDS = {
-    "blogs": [
+    "feeds": [
       "http://agileotter.blogspot.com/feeds/posts/default",
       "http://feeds.hanselman.com/ScottHanselman",
       "https://www.tbray.org/ongoing/ongoing.atom",
@@ -144,13 +144,17 @@ async function build() {
     groupContents[groupName] = [];
 
     const results = await Promise.allSettled(
-      Object.values(FEEDS[groupName]).map(url =>
-        fetch(url, { method: 'GET' })
-          .then(res => [url, res])
+      Object.values(FEEDS[groupName]).map(url => {
+        const start = Date.now()
+        return fetch(url, { method: 'GET' })
+          .then(res => {
+            console.info(`Fetched ${url} in ${(Date.now() - start) / 1000}s`)
+            return [url, res]
+          })
           .catch(e => {
             throw [url, e];
           })
-      )
+      })
     );
 
     for (const result of results) {

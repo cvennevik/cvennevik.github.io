@@ -223,9 +223,6 @@ async function build() {
     feeds.sort((a, b) => byDateSort(a.items[0], b.items[0]));
   });
 
-  // sort `all articles` view
-  allItems.sort((a, b) => byDateSort(a, b));
-
   const now = new Date();
   const html = template({ allItems, groups, now, errors });
 

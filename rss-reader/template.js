@@ -21,7 +21,7 @@ const article = (item) => `
   </article>
 `;
 
-export const template = ({ allItems, groups, errors, now }) => (`
+export const template = ({ groups, errors, now }) => (`
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +40,6 @@ export const template = ({ allItems, groups, errors, now }) => (`
       <header>
         <h1 class="inline" style="user-select: none;">🦉</h1>
         <ul class="group-selector">
-          <li><a href="#all-articles">all articles</a></li>
           ${forEach(groups, group => `
             <li><a href="#${group[0]}">${group[0]}</a></li>
           `)}
@@ -66,11 +65,6 @@ export const template = ({ allItems, groups, errors, now }) => (`
     </div>
 
     <main>
-      <section id="all-articles">
-        <h2>all articles</h2>
-        ${forEach(allItems, item => article(item))}
-      </section>
-
       ${forEach(groups, ([groupName, feeds]) => `
         <section id="${groupName}">
           <h2>${groupName}</h2>

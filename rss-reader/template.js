@@ -4,91 +4,61 @@ const forEach = (arr, fn) => {
   return str;
 };
 
-const article = (item) => `
-  <article class="item">
-    <header class="item__header">
-      <a href="${item.link}" target='_blank' rel='noopener norefferer nofollow'>
-        ${item.title}
-      </a>
-    </header>
-
-    <small>
-      ${item.feedUrl ? `<span class="item__feed-url monospace">${item.feedUrl}</span>` : ''}
-      <ul class="article-links">
-        <li class="monospace">${item.timestamp || ''}</li>
-      </ul>
-    </small>
-  </article>
-`;
-
 export const template = ({ groups, errors, now }) => (`
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>🦉 reader</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>Cecilie's Feed Reader</title>
+  <style>
+    summary { cursor: pointer; }
+    summary:hover { opacity: .75; }
+    .feed-url { color: #aaa; }
+  </style>
 </head>
 <body>
-  <div class="app">
-    <input type="checkbox" class="menu-btn" id="menu-btn" />
-    <label class="menu-label" for="menu-btn"></label>
+  <h1>Cecilie's Feed Reader</h1>
+  <p>
+    Last updated ${now.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric'})}.
+  </p>
 
-    <div class="sidebar">
-      <header>
-        <h1 class="inline" style="user-select: none;">🦉</h1>
-        <ul class="group-selector">
-          ${forEach(groups, group => `
-            <li><a href="#${group[0]}">${group[0]}</a></li>
-          `)}
-        </ul>
-      </header>
+  <main>
+    ${forEach(groups, ([groupName, feeds]) => `
+      <h2>${groupName}</h2>
 
-      <footer>
-        ${errors.length > 0 ? `
-          <h2>Errors</h2>
-          <p>There were errors trying to parse these feeds:</p>
+      ${forEach(feeds, feed => `
+        <details>
+          <summary>
+            ${feed.title}
+            <span class="feed-url">(${feed.feed})</span>
+          </summary>
           <ul>
-          ${forEach(errors, error => `
-            <li>${error}</li>
-          `)}
+            ${forEach(feed.items, item => `
+              <li>${item.timestamp}: <a href="${item.link}">${item.title}</a></li>
+            `)}
           </ul>
-        ` : ''
-        }
-
-        <p>
-          Last updated ${now}. Powered by <a href="https://github.com/kevinfiol/rss-reader">Bubo Reader</a>, a project by <a href="https://george.mand.is">George Mandis</a> and <a href="https://kevinfiol.com">Kevin Fiol</a>.
-        </p>
-      </footer>
-    </div>
-
-    <main>
-      ${forEach(groups, ([groupName, feeds]) => `
-        <section id="${groupName}">
-          <h2>${groupName}</h2>
-
-          ${forEach(feeds, feed => `
-            <details>
-              <summary>
-                <span class="feed-title">${feed.title}</span> 
-                <span class="feed-url">
-                  <small>
-                    (${feed.feed})
-                  </small>
-                </span>
-                <div class="feed-timestamp">
-                  <small>Latest: ${feed.items[0] && feed.items[0].timestamp || ''}</small>
-                </div>
-              </summary>
-              ${forEach(feed.items, item => article(item))}
-            </details>
-          `)}
-        </section>
+        </details>
       `)}
-    </main>
-  </div>
+    `)}
+  </main>
+
+  <footer>
+    ${errors.length > 0 ? `
+      <h2>Errors</h2>
+      <p>There were errors trying to parse these feeds:</p>
+      <ul>
+      ${forEach(errors, error => `
+        <li>${error}</li>
+      `)}
+      </ul>
+    ` : ''
+    }
+
+    <p>
+      Powered by <a href="https://github.com/kevinfiol/rss-reader">Bubo Reader</a>, a project by <a href="https://george.mand.is">George Mandis</a> and <a href="https://kevinfiol.com">Kevin Fiol</a>.
+    </p>
+  </footer>
 </body>
 </html>
 `);

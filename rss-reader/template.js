@@ -87,11 +87,6 @@ export const template = ({ groups, errors, now }) => (`
           `)}
         </section>
       `)}
-
-        <div class="default-text">
-          <p>🦉📚 welcome to bubo reader</p>
-          <p>select a feed group to get started</p>
-        </div>
     </main>
   </div>
 </body>

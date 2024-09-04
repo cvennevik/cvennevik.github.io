@@ -131,7 +131,6 @@ summary {
   top: 0;
   padding-top: 0.65rem;
   padding-bottom: 0.65rem;
-  user-select: none;
   cursor:pointer;
   font-family: monospace;
   background-color: var(--bg-color);
@@ -244,33 +243,7 @@ footer:hover {
   opacity: 1;
 }
 
-section {
-  z-index: 1;
-  /* ! Everything below is needed ! */
-  display: none;
-  height: 100%;
-  width: 100%;
-  background-color: var(--bg-color);
-}
-
 section > h2 {
   margin-top: 0;
   padding-top: 19px;
-}
-
-section:target { /* Show section */
-  display: block;
-}
-
-section:target ~ .default-text {
-  display: none;
-}
-
-
-.default-text {
-  text-align: center;
-  position: relative;
-  top: 5%;
-  font-family: monospace;
-  font-size: 2em;
 }

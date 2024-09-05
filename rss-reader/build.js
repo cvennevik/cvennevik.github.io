@@ -11,19 +11,9 @@ import { resolve } from 'node:path';
 import { writeFileSync } from 'node:fs';
 import { template } from './template.js';
 
-/**
- * Config
- */
 
+/* Config */
 const OUTFILE_PATH = './output/index.html';
-const CONTENT_TYPES = [
-  'application/json',
-  'application/atom+xml',
-  'application/rss+xml',
-  'application/xml',
-  'application/octet-stream',
-  'text/xml'
-];
 const FEEDS = {
   "feeds": [
     "http://agileotter.blogspot.com/feeds/posts/default",
@@ -134,11 +124,17 @@ const FEEDS = {
     "https://lalaland.mataroa.blog/rss/",
   ]
 };
+const CONTENT_TYPES = [
+  'application/json',
+  'application/atom+xml',
+  'application/rss+xml',
+  'application/xml',
+  'application/octet-stream',
+  'text/xml'
+];
 
 
-/**
- * Utils
- */
+/* Utils */
 function parseDate(item) {
   let date = item
     ? (item.isoDate || item.pubDate)
@@ -162,10 +158,8 @@ function escapeHtml(html) {
     .replaceAll('"', '&quot;');
 }
 
-/**
- * Build
- */
 
+/* Build */
 const parser = new Parser();
 const errors = [];
 const groupContents = {};

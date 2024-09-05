@@ -7,7 +7,6 @@
  */
 
 import Parser from 'rss-parser';
-import { resolve } from 'node:path';
 import { writeFileSync } from 'node:fs';
 import { template } from './template.js';
 
@@ -247,5 +246,5 @@ groups.forEach(([_groupName, feeds]) => {
 const now = new Date();
 const html = template({ groups, now, errors });
 
-writeFileSync(resolve(OUTFILE_PATH), html, { encoding: 'utf8' });
+writeFileSync(OUTFILE_PATH, html, { encoding: 'utf8' });
 console.log(`Reader built successfully at: ${OUTFILE_PATH}`);

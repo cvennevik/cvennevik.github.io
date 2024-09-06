@@ -236,45 +236,28 @@ const groupFeeds = {};
 for (const groupName in FEED_URL_GROUPS) {
   groupFeeds[groupName] = [];
 
-  const results = await Promise.allSettled(
-    Object.values(FEED_URL_GROUPS[groupName]).map(url => {
+  await Promise.allSettled(
+    Object.values(FEED_URL_GROUPS[groupName]).map(async url => {
       const start = Date.now()
-      return fetch(url, { method: 'GET' })
-        .then(res => {
-          console.info(`Fetched ${url} in ${(Date.now() - start) / 1000}s`)
-          return [url, res]
-        })
-        .catch(e => {
-          throw [url, e];
-        })
+      try {
+        const response = await fetch(url, { method: 'GET' });
+        console.info(`Fetched ${url} in ${(Date.now() - start) / 1000}s`);
+
+        const body = await response.text();
+        const feed = await parser.parseString(body);
+        feed.feedUrl = url;
+        feed.items = feed.items.slice(0, MAX_ITEMS_PER_FEED);
+        feed.items.forEach((item) => {
+          item.title = escapeHtml(item.title);
+        });
+
+        groupFeeds[groupName].push(feed);
+      } catch (e) {
+        console.error(e);
+        errors.push(url);
+      }
     })
   );
-
-  for (const result of results) {
-    if (result.status === 'rejected') {
-      const [url, error] = result.reason;
-      errors.push(url);
-      console.error(`Error fetching ${url}:\n`, error);
-      continue;
-    }
-
-    const [url, response] = result.value;
-
-    try {
-      const body = await response.text();
-      const feed = await parser.parseString(body);
-      feed.feedUrl = url;
-      feed.items = feed.items.slice(0, MAX_ITEMS_PER_FEED);
-      feed.items.forEach((item) => {
-        item.title = escapeHtml(item.title);
-      });
-
-      groupFeeds[groupName].push(feed);
-    } catch (e) {
-      console.error(e);
-      errors.push(url)
-    }
-  }
 }
 
 const groups = Object.entries(groupFeeds);

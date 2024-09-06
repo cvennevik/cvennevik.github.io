@@ -214,12 +214,6 @@ function template({ groups, errors, now }) {
 
 
 /* Build */
-function byDateSort(itemA, itemB) {
-  if (itemA.isoDate == itemB.isoDate) return 0;
-  if (itemA.isoDate > itemB.isoDate) return -1;
-  return 1;
-}
-
 function escapeHtml(html) {
   if (!html) return html;
   return html.replaceAll('&', '&amp;')
@@ -259,8 +253,12 @@ for (const groupName in FEED_URL_GROUPS) {
 
 const groups = Object.entries(groupFeeds);
 groups.forEach(([_groupName, feeds]) => {
-  // for each group, sort the feeds by first item date
-  feeds.sort((a, b) => byDateSort(a.items[0], b.items[0]));
+  // for each group, sort feeds by most recently updated
+  feeds.sort((a, b) => {
+    if (a.items[0].isoDate == b.items[0].isoDate) return 0;
+    if (a.items[0].isoDate < b.items[0].isoDate) return 1;
+    return -1;
+  });
 });
 
 const now = new Date();

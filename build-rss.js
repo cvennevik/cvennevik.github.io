@@ -261,10 +261,6 @@ for (const groupName in FEED_URL_GROUPS) {
     try {
       const body = await response.text();
       const feed = await parser.parseString(body);
-
-      if (!feed.items.length === 0)
-        throw Error(`Feed at ${url} contains no items.`)
-
       feed.feedUrl = url;
       feed.items.sort(byDateSort);
       feed.items.forEach((item) => {

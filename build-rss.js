@@ -31,7 +31,7 @@ import { writeFileSync } from 'node:fs';
 
 
 /* Config */
-const OUTFILE_PATH = './rss-reader.html';
+const OUTFILE_PATH = './feeds-data.json';
 const MAX_ITEMS_PER_FEED = 5;
 const FEED_URL_GROUPS = {
   "feeds": [
@@ -236,13 +236,22 @@ for (const groupName in FEED_URL_GROUPS) {
         const response = await fetch(url, { method: 'GET' });
         const body = await response.text();
         const feed = await parser.parseString(body);
-        feed.feedUrl = url;
-        feed.items = feed.items.slice(0, MAX_ITEMS_PER_FEED);
-        feed.items.forEach((item) => {
-          item.title = escapeHtml(item.title);
+        const items = feed.items
+          .slice(0, MAX_ITEMS_PER_FEED)
+          .map(item => {
+            // Only keep the fields we use, to save space
+            return {
+              title: escapeHtml(item.title),
+              isoDate: item.isoDate,
+              link: item.link
+            }
         });
 
-        groupFeeds[groupName].push(feed);
+        groupFeeds[groupName].push({
+          title: feed.title,
+          feedUrl: url,
+          items
+        });
       } catch (e) {
         console.error(e);
         errors.push(url);
@@ -261,8 +270,6 @@ groups.forEach(([_groupName, feeds]) => {
   });
 });
 
-const now = new Date();
-const html = template({ groups, now, errors });
-
-writeFileSync(OUTFILE_PATH, html, { encoding: 'utf8' });
-console.log(`Reader built successfully at: ${OUTFILE_PATH}`);
+const fetchDate = new Date();
+writeFileSync(OUTFILE_PATH, JSON.stringify({ groups, fetchDate, errors }), { encoding: 'utf8' });
+console.log(`Feed data fetched successfully at: ${OUTFILE_PATH}`);

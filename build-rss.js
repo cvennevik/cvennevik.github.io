@@ -32,6 +32,7 @@ import { writeFileSync } from 'node:fs';
 
 /* Config */
 const OUTFILE_PATH = './rss-reader.html';
+const MAX_ITEMS_PER_FEED = 5;
 const FEED_URL_GROUPS = {
   "feeds": [
     "http://agileotter.blogspot.com/feeds/posts/default",
@@ -182,7 +183,7 @@ function template({ groups, errors, now }) {
           </summary>
           <ul>
             ${forEach(feed.items, item => `
-              <li>${item.isoDate}: <a href="${item.link}">${item.title}</a></li>
+              <li>${item.isoDate.split('T')[0]}: <a href="${item.link}">${item.title}</a></li>
             `)}
           </ul>
         </details>
@@ -262,7 +263,7 @@ for (const groupName in FEED_URL_GROUPS) {
       const body = await response.text();
       const feed = await parser.parseString(body);
       feed.feedUrl = url;
-      feed.items.sort(byDateSort);
+      feed.items = feed.items.slice(0, MAX_ITEMS_PER_FEED);
       feed.items.forEach((item) => {
         item.title = escapeHtml(item.title);
       });

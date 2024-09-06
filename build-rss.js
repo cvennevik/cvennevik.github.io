@@ -276,10 +276,8 @@ for (const groupName in FEED_URL_GROUPS) {
 }
 
 const groups = Object.entries(groupFeeds);
-
-// for each group, sort the feeds
-// sort the feeds by comparing the isoDate of the first items of each feed
 groups.forEach(([_groupName, feeds]) => {
+  // for each group, sort the feeds by first item date
   feeds.sort((a, b) => byDateSort(a.items[0], b.items[0]));
 });
 

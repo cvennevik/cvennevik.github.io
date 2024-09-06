@@ -152,30 +152,6 @@ const CONTENT_TYPES = [
 ];
 
 
-/* Utils */
-function parseDate(item) {
-  let date = item
-    ? (item.isoDate || item.pubDate)
-    : undefined;
-
-  return date ? new Date(date) : undefined;
-}
-
-function byDateSort(dateStrA, dateStrB) {
-  const [aDate, bDate] = [parseDate(dateStrA), parseDate(dateStrB)];
-  if (!aDate || !bDate) return 0;
-  return bDate - aDate;
-}
-
-function escapeHtml(html) {
-  if (!html) return html;
-  return html.replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('\'', '&apos;')
-    .replaceAll('"', '&quot;');
-}
-
 /* Template */
 function forEach(arr, fn) {
   let str = '';
@@ -243,7 +219,23 @@ function template({ groups, errors, now }) {
 `);
 }
 
+
 /* Build */
+function byDateSort(itemA, itemB) {
+  const aDate = new Date(itemA.isoDate || itemA.pubDate)
+  const bDate = new Date(itemB.isoDate || itemB.pubDate)
+  return bDate - aDate;
+}
+
+function escapeHtml(html) {
+  if (!html) return html;
+  return html.replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('\'', '&apos;')
+    .replaceAll('"', '&quot;');
+}
+
 const parser = new Parser();
 const errors = [];
 const groupContents = {};

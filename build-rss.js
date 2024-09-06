@@ -31,7 +31,7 @@ import { writeFileSync } from 'node:fs';
 
 
 /* Config */
-const OUTFILE_PATH = './output/index.html';
+const OUTFILE_PATH = './rss-reader.html';
 const FEEDS = {
   "feeds": [
     "http://agileotter.blogspot.com/feeds/posts/default",

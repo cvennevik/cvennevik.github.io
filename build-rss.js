@@ -32,7 +32,7 @@ import { writeFileSync } from 'node:fs';
 
 /* Config */
 const OUTFILE_PATH = './rss-reader.html';
-const FEEDS = {
+const FEED_URL_GROUPS = {
   "feeds": [
     "http://agileotter.blogspot.com/feeds/posts/default",
     "http://feeds.hanselman.com/ScottHanselman",
@@ -182,7 +182,7 @@ function template({ groups, errors, now }) {
           </summary>
           <ul>
             ${forEach(feed.items, item => `
-              <li>${item.timestamp}: <a href="${item.link}">${item.title}</a></li>
+              <li>${item.isoDate}: <a href="${item.link}">${item.title}</a></li>
             `)}
           </ul>
         </details>
@@ -231,11 +231,11 @@ const parser = new Parser();
 const errors = [];
 const groupFeeds = {};
 
-for (const groupName in FEEDS) {
+for (const groupName in FEED_URL_GROUPS) {
   groupFeeds[groupName] = [];
 
   const results = await Promise.allSettled(
-    Object.values(FEEDS[groupName]).map(url => {
+    Object.values(FEED_URL_GROUPS[groupName]).map(url => {
       const start = Date.now()
       return fetch(url, { method: 'GET' })
         .then(res => {
@@ -266,28 +266,12 @@ for (const groupName in FEEDS) {
         throw Error(`Feed at ${url} contains no items.`)
 
       feed.feedUrl = url;
-      feed.title = feed.title || feed.link;
-      groupFeeds[groupName].push(feed);
-
-      // item sort & normalization
       feed.items.sort(byDateSort);
       feed.items.forEach((item) => {
-        // 1. try to normalize date attribute naming
-        const dateAttr = item.pubDate || item.isoDate || item.date || item.published;
-        item.timestamp = new Date(dateAttr).toLocaleDateString();
-
-        // 2. correct link url if it lacks the hostname
-        if (item.link && item.link.split('http').length === 1) {
-          item.link =
-            // if the hostname ends with a /, and the item link begins with a /
-            feed.link.slice(-1) === '/' && item.link.slice(0, 1) === '/'
-              ? feed.link + item.link.slice(1)
-              : feed.link + item.link;
-        }
-
-        // 3. escape html in titles
         item.title = escapeHtml(item.title);
       });
+
+      groupFeeds[groupName].push(feed);
     } catch (e) {
       console.error(e);
       errors.push(url)

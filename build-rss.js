@@ -178,7 +178,7 @@ function template({ groups, errors, now }) {
         <details>
           <summary>
             ${feed.title}
-            <span class="feed-url">(${feed.feed})</span>
+            <span class="feed-url">(${feed.feedUrl})</span>
           </summary>
           <ul>
             ${forEach(feed.items, item => `
@@ -229,10 +229,10 @@ function escapeHtml(html) {
 
 const parser = new Parser();
 const errors = [];
-const groupContents = {};
+const groupFeeds = {};
 
 for (const groupName in FEEDS) {
-  groupContents[groupName] = [];
+  groupFeeds[groupName] = [];
 
   const results = await Promise.allSettled(
     Object.values(FEEDS[groupName]).map(url => {
@@ -260,20 +260,18 @@ for (const groupName in FEEDS) {
 
     try {
       const body = await response.text();
-      const contents = typeof body === 'string'
-        ? await parser.parseString(body)
-        : body;
+      const feed = await parser.parseString(body);
 
-      if (!contents.items.length === 0)
+      if (!feed.items.length === 0)
         throw Error(`Feed at ${url} contains no items.`)
 
-      contents.feed = url;
-      contents.title = contents.title || contents.link;
-      groupContents[groupName].push(contents);
+      feed.feedUrl = url;
+      feed.title = feed.title || feed.link;
+      groupFeeds[groupName].push(feed);
 
       // item sort & normalization
-      contents.items.sort(byDateSort);
-      contents.items.forEach((item) => {
+      feed.items.sort(byDateSort);
+      feed.items.forEach((item) => {
         // 1. try to normalize date attribute naming
         const dateAttr = item.pubDate || item.isoDate || item.date || item.published;
         item.timestamp = new Date(dateAttr).toLocaleDateString();
@@ -282,9 +280,9 @@ for (const groupName in FEEDS) {
         if (item.link && item.link.split('http').length === 1) {
           item.link =
             // if the hostname ends with a /, and the item link begins with a /
-            contents.link.slice(-1) === '/' && item.link.slice(0, 1) === '/'
-              ? contents.link + item.link.slice(1)
-              : contents.link + item.link;
+            feed.link.slice(-1) === '/' && item.link.slice(0, 1) === '/'
+              ? feed.link + item.link.slice(1)
+              : feed.link + item.link;
         }
 
         // 3. escape html in titles
@@ -297,7 +295,7 @@ for (const groupName in FEEDS) {
   }
 }
 
-const groups = Object.entries(groupContents);
+const groups = Object.entries(groupFeeds);
 
 // for each group, sort the feeds
 // sort the feeds by comparing the isoDate of the first items of each feed

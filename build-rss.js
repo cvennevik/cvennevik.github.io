@@ -142,15 +142,6 @@ const FEEDS = {
     "https://lalaland.mataroa.blog/rss/",
   ]
 };
-const CONTENT_TYPES = [
-  'application/json',
-  'application/atom+xml',
-  'application/rss+xml',
-  'application/xml',
-  'application/octet-stream',
-  'text/xml'
-];
-
 
 /* Template */
 function forEach(arr, fn) {
@@ -268,12 +259,6 @@ for (const groupName in FEEDS) {
     const [url, response] = result.value;
 
     try {
-      // e.g., `application/xml; charset=utf-8` -> `application/xml`
-      const contentType = response.headers.get('content-type').split(';')[0];
-
-      if (!CONTENT_TYPES.includes(contentType))
-        throw Error(`Feed at ${url} has invalid content-type.`)
-
       const body = await response.text();
       const contents = typeof body === 'string'
         ? await parser.parseString(body)

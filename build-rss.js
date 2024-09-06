@@ -160,6 +160,7 @@ function template({ groups, errors, now }) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cecilie's Feed Reader</title>
   <style>
+    details + details { margin-block-start: 0.5rem; }
     summary { cursor: pointer; }
     summary:hover { opacity: .75; }
     .feed-url { color: #aaa; }

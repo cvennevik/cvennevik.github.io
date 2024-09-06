@@ -238,11 +238,8 @@ for (const groupName in FEED_URL_GROUPS) {
 
   await Promise.allSettled(
     Object.values(FEED_URL_GROUPS[groupName]).map(async url => {
-      const start = Date.now()
       try {
         const response = await fetch(url, { method: 'GET' });
-        console.info(`Fetched ${url} in ${(Date.now() - start) / 1000}s`);
-
         const body = await response.text();
         const feed = await parser.parseString(body);
         feed.feedUrl = url;

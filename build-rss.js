@@ -222,9 +222,9 @@ function template({ groups, errors, now }) {
 
 /* Build */
 function byDateSort(itemA, itemB) {
-  const aDate = new Date(itemA.isoDate || itemA.pubDate)
-  const bDate = new Date(itemB.isoDate || itemB.pubDate)
-  return bDate - aDate;
+  if (itemA.isoDate == itemB.isoDate) return 0;
+  if (itemA.isoDate > itemB.isoDate) return -1;
+  return 1;
 }
 
 function escapeHtml(html) {

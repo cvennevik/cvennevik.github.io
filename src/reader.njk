@@ -1,0 +1,42 @@
+---
+layout: page.njk
+title: Feed reader
+---
+
+<style>
+    details { padding: 0.25rem; }
+    details:nth-of-type(2n) { background-color: rgba(128, 128, 128, 5%); }
+    summary { cursor: pointer; }
+    summary:hover { opacity: 0.75; }
+    .feed-url { opacity: 0.75; }
+</style>
+<h1>{{ title }}</h1>
+<p>Last updated {{ feedsData.fetchDate.split('T')[0] }}.</p>
+{% for group in feedsData.groups %}
+    <h2>{{ group.name }}</h2>
+    {% for feed in group.feeds %}
+    <details>
+        <summary>
+            {{ feed.title }}
+            <span class="feed-url">({{ feed.feedUrl }})</span>
+        </summary>
+        <ul>
+            {% for item in feed.items %}
+            <li>
+                {{ item.isoDate.split('T')[0] }}:
+                <a href="{{ item.link }}">{{ item.title if item.title else 'Untitled' }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </details>
+    {% endfor %}
+{% endfor %}
+{% if feedsData.errors.length > 0 %}
+<h2>Errors</h2>
+<p>There were errors while processing these feeds:</p>
+<ul>
+    {% for error in feedsData.errors %}
+    <li>{{ error }}</li>
+    {% endfor %}
+</ul>
+{% endif%}

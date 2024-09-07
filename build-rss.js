@@ -31,10 +31,10 @@ import { writeFileSync } from 'node:fs';
 
 
 /* Config */
-const OUTFILE_PATH = './feeds-data.json';
+const OUTFILE_PATH = './src/_data/feedsData.json';
 const MAX_ITEMS_PER_FEED = 5;
 const FEED_URL_GROUPS = {
-  "feeds": [
+  "Feeds": [
     "http://agileotter.blogspot.com/feeds/posts/default",
     "http://feeds.hanselman.com/ScottHanselman",
     "https://www.tbray.org/ongoing/ongoing.atom",
@@ -98,7 +98,6 @@ const FEED_URL_GROUPS = {
     "https://coding-is-like-cooking.info/feed/",
     "https://www.drcathicks.com/blog-feed.xml",
     "https://moonbase.lgbt/blog/atom.xml",
-    "https://hollycummins.com/rss.xml",
     "https://knowler.dev/feed.xml",
     "https://hazelweakly.me/atom.xml",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
@@ -144,85 +143,7 @@ const FEED_URL_GROUPS = {
   ]
 };
 
-/* Template */
-function forEach(arr, fn) {
-  let str = '';
-  arr.forEach(i => str += fn(i) || '');
-  return str;
-}
-
-function template({ groups, errors, now }) {
-  return (`
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cecilie's Feed Reader</title>
-  <style>
-    details + details { margin-block-start: 0.5rem; }
-    summary { cursor: pointer; }
-    summary:hover { opacity: .75; }
-    .feed-url { color: #aaa; }
-  </style>
-</head>
-<body>
-  <h1>Cecilie's Feed Reader</h1>
-  <p>
-    Last updated ${now.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}.
-  </p>
-
-  <main>
-    ${forEach(groups, ([groupName, feeds]) => `
-      <h2>${groupName}</h2>
-
-      ${forEach(feeds, feed => `
-        <details>
-          <summary>
-            ${feed.title}
-            <span class="feed-url">(${feed.feedUrl})</span>
-          </summary>
-          <ul>
-            ${forEach(feed.items, item => `
-              <li>${item.isoDate.split('T')[0]}: <a href="${item.link}">${item.title}</a></li>
-            `)}
-          </ul>
-        </details>
-      `)}
-    `)}
-  </main>
-
-  <footer>
-    ${errors.length > 0 ? `
-      <h2>Errors</h2>
-      <p>There were errors trying to parse these feeds:</p>
-      <ul>
-      ${forEach(errors, error => `
-        <li>${error}</li>
-      `)}
-      </ul>
-    ` : ''}
-
-    <p>
-      Powered by <a href="https://github.com/kevinfiol/rss-reader">Bubo Reader</a>, a project by <a href="https://george.mand.is">George Mandis</a> and <a href="https://kevinfiol.com">Kevin Fiol</a>.
-    </p>
-  </footer>
-</body>
-</html>
-`);
-}
-
-
 /* Build */
-function escapeHtml(html) {
-  if (!html) return html;
-  return html.replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('\'', '&apos;')
-    .replaceAll('"', '&quot;');
-}
-
 const parser = new Parser();
 const errors = [];
 const groupFeeds = {};
@@ -241,7 +162,7 @@ for (const groupName in FEED_URL_GROUPS) {
           .map(item => {
             // Only keep the fields we use, to save space
             return {
-              title: escapeHtml(item.title),
+              title: item.title,
               isoDate: item.isoDate,
               link: item.link
             }
@@ -260,16 +181,19 @@ for (const groupName in FEED_URL_GROUPS) {
   );
 }
 
-const groups = Object.entries(groupFeeds);
-groups.forEach(([_groupName, feeds]) => {
+const groups = [];
+Object.entries(groupFeeds).forEach(([name, feeds]) => {
   // for each group, sort feeds by most recently updated
   feeds.sort((a, b) => {
     if (a.items[0].isoDate == b.items[0].isoDate) return 0;
     if (a.items[0].isoDate < b.items[0].isoDate) return 1;
     return -1;
   });
-});
+
+  groups.push({ name, feeds });
+})
 
 const fetchDate = new Date();
-writeFileSync(OUTFILE_PATH, JSON.stringify({ groups, fetchDate, errors }), { encoding: 'utf8' });
+const outputJson = JSON.stringify({ groups, fetchDate, errors }, null, 2);
+writeFileSync(OUTFILE_PATH, outputJson, { encoding: 'utf8' });
 console.log(`Feed data fetched successfully at: ${OUTFILE_PATH}`);

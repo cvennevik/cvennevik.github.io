@@ -1,0 +1,3954 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="dark light">
+        <title>Feed reader - Cecilie Vennevik</title>
+        <link rel="icon" type="image/jpg" href="/img/logo-32px.jpg" sizes="32x32">
+        <link rel="icon" type="image/jpg" href="/img/logo-48px.jpg" sizes="48x48">
+        <link rel="icon" type="image/jpg" href="/img/logo-64px.jpg" sizes="64x64">
+        <meta name="author" content="Cecilie Vennevik">
+        <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/rss.xml" type="application/rss+xml">
+        <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/atom.xml" type="application/atom+xml">
+        <style>
+            *,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+:root {
+	--codeblock-color: #eee;
+	--codeblock-background-color: #2b2b2b;
+	--home-link-focus-color: #89cff0;
+
+	--background-color: #f0f9fd;
+	--foreground-color: rgba(255, 255, 255, 30%);
+	--border-color: rgba(0, 0, 0, 10%);
+	--text-color: #212;
+	--code-background-color: rgba(0, 0, 0, 10%);
+	--link-color: #086391;
+	--link-focus-color: #89cff0;
+	--header-background-color: #89cff0;
+	--header-background-border-color: #086391;
+	--header-link-color: #086391;
+	--header-link-focus-color: #f0f9fd;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-color: #222;
+		--foreground-color: #444;
+		--border-color: rgba(255, 255, 255, 10%);
+		--text-color: #fff;
+		--code-background-color: #444;
+		--link-color: #89cff0;
+		--link-focus-color: #b8e2f6;
+		--header-background-color: #086391;
+		--header-background-border-color: #034c70;
+		--header-link-color: #89cff0;
+		--header-link-focus-color: #f0f9fd;
+	}
+}
+
+html {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	font-family: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
+	height: 100%;
+	line-height: 1.5;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body > header {
+	--link-color: var(--header-link-color);
+	--link-focus-color: var(--header-link-focus-color);
+	background-color: var(--header-background-color);
+	border-bottom: .25rem solid var(--header-background-border-color);
+}
+
+.navbar {
+	align-items: center;
+	box-sizing: content-box;
+	display: flex;
+	gap: 1rem;
+	margin: auto;
+	max-width: 50rem;
+	min-height: 3rem;
+	padding: .5rem 1rem;
+}
+
+.navbar img {
+	border-radius: 100%;
+	display: inline-block;
+	height: 2rem;
+	width: 2rem;
+}
+
+.navbar nav {
+	flex-grow: 1;
+}
+
+.crumbs {
+	align-items: center;
+	display: flex;
+	gap: .5rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.crumbs li {
+	display: flex;
+	gap: .5rem;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 50rem;
+	padding: 1rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.3rem; }
+h6 { font-size: 1.2rem; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	line-height: 1.1;
+	margin-block-start: 1em;
+	margin-block-end: 0;
+}
+
+h1 {
+	margin-block-start: 0;
+}
+
+a {
+	color: var(--link-color);
+	transition: color .1s;
+}
+
+a:focus,
+a:hover {
+	color: var(--link-focus-color);
+}
+
+blockquote {
+	border-left: .3rem solid var(--border-color);
+	margin: 1rem 0;
+	padding: 0 1rem;
+}
+
+:not(pre) > code {
+	background-color: var(--code-background-color);
+}
+
+pre {
+	background-color: var(--codeblock-background-color);
+	border-radius: 0.5em;
+	color: var(--codeblock-color);
+	font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	hyphens: none;
+	line-height: 1.4;
+	padding: 1em;
+	overflow: auto;
+	tab-size: 4;
+	white-space: pre-wrap;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 1.3rem 0;
+}
+
+figure img {
+	border: .3rem solid var(--border-color);
+	border-radius: .3rem;
+}
+
+figcaption {
+	font-style: italic;
+	margin-top: .5em;
+	text-align: center;
+}
+
+        </style>
+        <script>
+            // <input-persist> observes all contained input elements with a [data-persist-key] attribute.
+// When the user changes the value of an input element, it saves that value to local storage.
+// The [data-persist-key] attribute specifies the storage key.
+// When an input element first loads - or is placed - inside <input-parsist>, its value is set to the stored value.
+//
+// <input-persist> supports the following elements:
+// - <input type="checkbox">
+// - <input type="radio">
+customElements.define(
+  "input-persist",
+  class extends HTMLElement {
+    connectedCallback() {
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          mutation.removedNodes.forEach((node) => {
+            node.removeEventListener("input", this);
+          });
+          mutation.addedNodes.forEach((node) => {
+            if (node.nodeName == "INPUT") {
+              node.addEventListener("input", this);
+              const persistKey = node.dataset.persistKey;
+              if (!persistKey) return;
+
+              const savedValue = localStorage.getItem(persistKey);
+              if (savedValue) {
+                switch (node.type) {
+                  case "checkbox":
+                  case "radio":
+                    node.checked = savedValue === "checked";
+                    break;
+                  default:
+                    console.warn(
+                      `input-persist: cannot persist unsupported element <input type=${node.type}>.`,
+                      node
+                    );
+                    break;
+                }
+              }
+            }
+          });
+        });
+      });
+      observer.observe(this, { childList: true, subtree: true });
+    }
+
+    handleEvent(event) {
+      const persistKey = event.target.dataset.persistKey;
+      if (!persistKey) return;
+
+      switch (event.target.type) {
+        case "checkbox":
+          localStorage.setItem(
+            persistKey,
+            event.target.checked ? "checked" : "unchecked"
+          );
+          break;
+        case "radio":
+          const radioName = event.target.getAttribute("name");
+          this.querySelectorAll(`input[name=${radioName}]`).forEach((radio) => {
+            if (radio.dataset.persistKey) {
+              localStorage.setItem(
+                radio.dataset.persistKey,
+                radio === event.target ? "checked" : "unchecked"
+              );
+            }
+          });
+          break;
+        default:
+          console.warn(
+            `input-persist: cannot persist unsupported element <input type=${event.target.type}>.`,
+            event.target
+          );
+          break;
+      }
+    }
+  }
+);
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                
+                <img src="/img/logo-250px.jpg" alt="Seal-in-a-glass logo">
+                <nav aria-labelledby="navbar-label">
+                    <span id="navbar-label">You are here.</span>
+                    <ol class="crumbs">
+                        
+<li>
+    <a href="/">Home</a>
+    <span aria-hidden="true">/</span>
+</li>
+<li>Feed reader</li>
+
+                    </ol>
+                </nav>
+                
+            </div>
+        </header>
+        <main>
+            
+            
+<style>
+    details { padding: 0.25rem; }
+    details:nth-of-type(2n) { background-color: rgba(128, 128, 128, 5%); }
+    summary { cursor: pointer; }
+    summary:hover { opacity: 0.75; }
+    .feed-url { opacity: 0.75; }
+</style>
+<h1>Feed reader</h1>
+<p>Last updated 2024-09-07.</p>
+
+    <h2>Feeds</h2>
+    
+    <details>
+        <summary>
+            Tooth of the Weasel
+            <span class="feed-url">(https://angryweasel.com/blog/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-06:
+                <a href="https://angryweasel.com/blog/five-for-friday-september-6-2024/">Five for Friday – September 6, 2024</a>
+            </li>
+            
+            <li>
+                2024-08-23:
+                <a href="https://angryweasel.com/blog/five-for-friday-august-23-2024/">Five for Friday – August 23, 2024</a>
+            </li>
+            
+            <li>
+                2024-08-16:
+                <a href="https://angryweasel.com/blog/five-for-friday-august-16-2024/">Five for Friday – August 16, 2024</a>
+            </li>
+            
+            <li>
+                2024-08-10:
+                <a href="https://angryweasel.com/blog/five-for-friday-august-9-2024/">Five For Friday – August 9, 2024</a>
+            </li>
+            
+            <li>
+                2024-08-02:
+                <a href="https://angryweasel.com/blog/five-for-friday-august-2-2024/">Five for Friday – August 2, 2024</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Havn
+            <span class="feed-url">(https://havn.blog/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-06:
+                <a href="https://havn.blog/2024/09/06/no-you-dont.html">No, You Don’t Need USB-A on Your Desktop Computer</a>
+            </li>
+            
+            <li>
+                2024-09-05:
+                <a href="https://havn.blog/2024/09/05/161428.html">The Beauty of Third-Party Services</a>
+            </li>
+            
+            <li>
+                2024-09-03:
+                <a href="https://havn.blog/2024/09/03/from-my-latest.html">Untitled</a>
+            </li>
+            
+            <li>
+                2024-09-02:
+                <a href="https://havn.blog/2024/09/02/please-stop-saying.html">Please Stop Saying &quot;Telegram Isn&#39;t Encrypted&quot;</a>
+            </li>
+            
+            <li>
+                2024-09-01:
+                <a href="https://havn.blog/2024/09/01/a-good-conversation.html">A Good Conversation About Apple and APIs</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Go Make Things
+            <span class="feed-url">(https://gomakethings.com/feed/index.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-06:
+                <a href="https://gomakethings.com/the-goal-isnt-to-write-less-code/">The goal isn&#39;t to write less code</a>
+            </li>
+            
+            <li>
+                2024-09-05:
+                <a href="https://gomakethings.com/ai-myth-it-lets-me-write-code-i-cant-on-my-own/">AI Myth: It lets me write code I can&#39;t on my own</a>
+            </li>
+            
+            <li>
+                2024-09-04:
+                <a href="https://gomakethings.com/ai-myth-it-lets-me-move-faster/">AI myth: it lets me move faster</a>
+            </li>
+            
+            <li>
+                2024-09-03:
+                <a href="https://gomakethings.com/ai-myth-i-can-find-things-cant-find-with-google/">AI myth: I can find things can&#39;t find with Google</a>
+            </li>
+            
+            <li>
+                2024-08-30:
+                <a href="https://gomakethings.com/is-the-tide-finally-turning/">Is the tide finally turning?</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            dbushell.com (microblog)
+            <span class="feed-url">(https://dbushell.com/notes/rss.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-06:
+                <a href="https://dbushell.com/notes/2024-09-06T12:48Z/">Untitled</a>
+            </li>
+            
+            <li>
+                2024-09-05:
+                <a href="https://dbushell.com/notes/2024-09-05T05:31Z/">Untitled</a>
+            </li>
+            
+            <li>
+                2024-09-03:
+                <a href="https://dbushell.com/notes/2024-09-03T06:17Z/">Untitled</a>
+            </li>
+            
+            <li>
+                2024-09-03:
+                <a href="https://dbushell.com/notes/2024-09-03T05:44Z/">Untitled</a>
+            </li>
+            
+            <li>
+                2024-09-02:
+                <a href="https://dbushell.com/notes/2024-09-02T07:43Z/">Untitled</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Frills
+            <span class="feed-url">(https://frills.dev/all.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-06:
+                <a href="https://frills.dev/changelog/240906/">Changelog –
+        6 Sep 2024
+      </a>
+            </li>
+            
+            <li>
+                2024-09-02:
+                <a href="https://ismy.blue/">Is my blue your blue?</a>
+            </li>
+            
+            <li>
+                2024-08-31:
+                <a href="https://eieio.games/essays/the-secret-in-one-million-checkboxes/">The secret inside One Million Checkboxes</a>
+            </li>
+            
+            <li>
+                2024-06-18:
+                <a href="https://frills.dev/changelog/240618/">Changelog –
+        18 Jun 2024
+      </a>
+            </li>
+            
+            <li>
+                2024-06-14:
+                <a href="https://frills.dev/blog/240614-gemini/">Gemini</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Martin Fowler
+            <span class="feed-url">(https://martinfowler.com/feed.atom)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-05:
+                <a href="https://martinfowler.com/articles/fitness-functions-data-products.html">Governing data products using fitness functions</a>
+            </li>
+            
+            <li>
+                2024-09-04:
+                <a href="https://martinfowler.com/bliki/CycleTime.html">Bliki: Cycle Time</a>
+            </li>
+            
+            <li>
+                2024-08-22:
+                <a href="https://martinfowler.com/articles/2024-strangler-fig-rewrite.html">Rewriting Strangler Fig</a>
+            </li>
+            
+            <li>
+                2024-08-15:
+                <a href="https://martinfowler.com/articles/exploring-gen-ai.html#memo-09">Onboarding to a &quot;legacy&quot; codebase with the help of AI</a>
+            </li>
+            
+            <li>
+                2024-07-31:
+                <a href="https://martinfowler.com/articles/2024-eaa-catalog-refresh.html">Refresh of the PoEAA catalog page</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            macwright.com
+            <span class="feed-url">(https://macwright.com/rss.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-05:
+                <a href="https://macwright.com/2024/09/05/recently.html">Recently</a>
+            </li>
+            
+            <li>
+                2024-08-01:
+                <a href="https://macwright.com/2024/08/01/recently.html">Recently</a>
+            </li>
+            
+            <li>
+                2024-07-30:
+                <a href="https://macwright.com/2024/07/30/reverse-engineer-a-day.html">Reverse engineering a day’s worth of websites</a>
+            </li>
+            
+            <li>
+                2024-06-02:
+                <a href="https://macwright.com/2024/06/02/freeform.html">Obsidian Freeform</a>
+            </li>
+            
+            <li>
+                2024-06-01:
+                <a href="https://macwright.com/2024/06/01/recently.html">Recently</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Jim Nielsen’s Blog
+            <span class="feed-url">(https://blog.jim-nielsen.com/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-04:
+                <a href="https://blog.jim-nielsen.com/2024/personal-website-vulnerability/">Personal Websites Are As Vulnerable As Us</a>
+            </li>
+            
+            <li>
+                2024-09-03:
+                <a href="https://blog.jim-nielsen.com/2024/sanding-ui/">Sanding UI</a>
+            </li>
+            
+            <li>
+                2024-08-29:
+                <a href="https://blog.jim-nielsen.com/2024/the-humble-link/">The Humble Link</a>
+            </li>
+            
+            <li>
+                2024-08-28:
+                <a href="https://blog.jim-nielsen.com/2024/notes-from-pen-and-teller/">Notes from Pen &amp; Teller’s Masterclass</a>
+            </li>
+            
+            <li>
+                2024-08-25:
+                <a href="https://blog.jim-nielsen.com/2024/notes-site-via-content-in-dropbox/">New Workflow for Publishing Notes: Content in Dropbox, Code in GitHub</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            ongoing by Tim Bray
+            <span class="feed-url">(https://www.tbray.org/ongoing/ongoing.atom)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-04:
+                <a href="https://www.tbray.org/ongoing/When/202x/2024/09/04/0dependencies">0 dependencies!</a>
+            </li>
+            
+            <li>
+                2024-08-28:
+                <a href="https://www.tbray.org/ongoing/When/202x/2024/08/28/Q-Numbers-2">Q Numbers Redux</a>
+            </li>
+            
+            <li>
+                2024-08-31:
+                <a href="https://www.tbray.org/ongoing/When/202x/2024/08/31/QNum-Redux-Explained">Q Numbers Redux Explained</a>
+            </li>
+            
+            <li>
+                2024-08-25:
+                <a href="https://www.tbray.org/ongoing/When/202x/2024/08/25/Mozart-Requiem">Mozart Requiem</a>
+            </li>
+            
+            <li>
+                2024-08-20:
+                <a href="https://www.tbray.org/ongoing/When/202x/2024/08/20/2024-Election-Junky">2024 Pollscrolling</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Computer Things
+            <span class="feed-url">(https://buttondown.email/hillelwayne/rss)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-04:
+                <a href="https://buttondown.com/hillelwayne/archive/what-could-be-added-to-tla/">Thoughts on &quot;The Future of TLA+&quot;</a>
+            </li>
+            
+            <li>
+                2024-08-27:
+                <a href="https://buttondown.com/hillelwayne/archive/state-and-time-are-the-same-thing/">State and time are the same thing</a>
+            </li>
+            
+            <li>
+                2024-08-21:
+                <a href="https://buttondown.com/hillelwayne/archive/an-idea-for-teaching-formal-methods-better/">An idea for teaching formal methods better</a>
+            </li>
+            
+            <li>
+                2024-08-14:
+                <a href="https://buttondown.com/hillelwayne/archive/texttools-dot-py/">Texttools dot py</a>
+            </li>
+            
+            <li>
+                2024-07-31:
+                <a href="https://buttondown.com/hillelwayne/archive/why-i-prefer-rst-to-markdown/">Why I prefer rST to markdown</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Evan Boehs in the blog
+            <span class="feed-url">(https://boehs.org/in/blog.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-04:
+                <a href="https://boehs.org/node/apple-intelligence">Apple Should Use Intelligence to Get It into Their Heads That We Don&#39;t Want This.</a>
+            </li>
+            
+            <li>
+                2024-05-18:
+                <a href="https://boehs.org/node/old-tech">I Don&#39;t Hate Technology When It Works.</a>
+            </li>
+            
+            <li>
+                2024-05-03:
+                <a href="https://boehs.org/node/bountysource">Bountysource Stole at Least $21,000 from Open Source Developers</a>
+            </li>
+            
+            <li>
+                2024-04-26:
+                <a href="https://boehs.org/node/medicicnes">It’s Been a Year and Georgia.gov Continues to Be Hacked</a>
+            </li>
+            
+            <li>
+                2024-04-13:
+                <a href="https://boehs.org/node/truth-social">You Have Power: Making Truth Social Comply with the Agpl</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            niksilver.com
+            <span class="feed-url">(https://niksilver.com/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-03:
+                <a href="https://niksilver.com/2024/09/03/when-stakeholders-just-want-features/">When stakeholders just want features</a>
+            </li>
+            
+            <li>
+                2024-08-27:
+                <a href="https://niksilver.com/2024/08/27/keep-velocity-simple/">Keep velocity simple</a>
+            </li>
+            
+            <li>
+                2024-08-20:
+                <a href="https://niksilver.com/2024/08/20/how-user-needs-guide-us/">How user needs guide us</a>
+            </li>
+            
+            <li>
+                2024-08-06:
+                <a href="https://niksilver.com/2024/08/06/the-build-vs-buy-spectrum/">The build vs buy spectrum</a>
+            </li>
+            
+            <li>
+                2024-07-23:
+                <a href="https://niksilver.com/2024/07/23/the-unit-of-delivery-is-the-team/">The unit of delivery is the team</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            sunshowers.io on sunshowers
+            <span class="feed-url">(https://sunshowers.io/index.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-03:
+                <a href="https://sunshowers.io/posts/beyond-ctrl-c-signals/">Beyond Ctrl-C: The dark corners of Unix signal handling</a>
+            </li>
+            
+            <li>
+                2024-08-04:
+                <a href="https://sunshowers.io/posts/rustc-segfault-illumos/">Debugging a rustc segfault on illumos</a>
+            </li>
+            
+            <li>
+                2024-07-02:
+                <a href="https://sunshowers.io/posts/be-an-adult/">Professionals demonstrate empathy</a>
+            </li>
+            
+            <li>
+                2023-10-09:
+                <a href="https://sunshowers.io/posts/am5-ryzen-7000-ecc-ram/">ECC RAM on AMD Ryzen 7000 desktop CPUs</a>
+            </li>
+            
+            <li>
+                2023-10-05:
+                <a href="https://sunshowers.io/posts/tmp-cleaner/">Dealing with tempfile cleaners</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            A Tester&#39;s Journey
+            <span class="feed-url">(https://www.lisihocke.com/feeds/posts/default)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-02:
+                <a href="https://www.lisihocke.com/2024/09/socrates-2024-a-community-to-grow-with.html">SoCraTes 2024 - A Community to Grow With</a>
+            </li>
+            
+            <li>
+                2024-08-15:
+                <a href="https://www.lisihocke.com/2024/08/contributing-in-new-ways-getting-over-the-hump.html">Contributing in New Ways - Getting over the Hump</a>
+            </li>
+            
+            <li>
+                2024-05-20:
+                <a href="https://www.lisihocke.com/2024/05/newcrafts-paris-2024-a-memorable-conference-to-rave-about.html">NewCrafts Paris 2024 - A Memorable Conference to Rave About</a>
+            </li>
+            
+            <li>
+                2024-03-17:
+                <a href="https://www.lisihocke.com/2024/03/contributing-in-new-ways-everything-everywhere-all-at-once.html"> Contributing in New Ways - Everything Everywhere All at Once</a>
+            </li>
+            
+            <li>
+                2024-01-02:
+                <a href="https://www.lisihocke.com/2024/01/my-personal-challenge-for-2024-scary-new-grounds.html">My Personal Challenge for 2024 - Scary New Grounds</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            A Seasoned Tester&#39;s Crystal Ball
+            <span class="feed-url">(https://visible-quality.blogspot.com/feeds/posts/default)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-02:
+                <a href="https://visible-quality.blogspot.com/2024/09/who-are-you-paying-to-learn-ai-with-you.html">Who Are You Paying to Learn AI with You?</a>
+            </li>
+            
+            <li>
+                2024-09-02:
+                <a href="https://visible-quality.blogspot.com/2024/09/do-testers-need-to-be-devops-engineers.html">Do testers need to be devops engineers too?</a>
+            </li>
+            
+            <li>
+                2024-08-31:
+                <a href="https://visible-quality.blogspot.com/2024/08/ethical-stress-of-consulting-work.html">Ethical Stress of the Consulting Work</a>
+            </li>
+            
+            <li>
+                2024-08-22:
+                <a href="https://visible-quality.blogspot.com/2024/08/prepare-to-shift-down.html">Prepare to shift down</a>
+            </li>
+            
+            <li>
+                2024-08-20:
+                <a href="https://visible-quality.blogspot.com/2024/08/how-to-make-testing-fun-and-enjoyable.html">How to make testing fun and enjoyable?</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Baldur Bjarnason&#39;s Notes on the Web
+            <span class="feed-url">(https://feedpress.me/baldurbjarnason)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-02:
+                <a href="https://www.baldurbjarnason.com/2024/links-32/">Links (2 September 2024)</a>
+            </li>
+            
+            <li>
+                2024-09-02:
+                <a href="https://www.baldurbjarnason.com/2024/on-reading-time/">A note on estimated reading times</a>
+            </li>
+            
+            <li>
+                2024-09-02:
+                <a href="https://www.baldurbjarnason.com/2024/a-short-conversation-on-individual-responsibility/">A short conversation on individual responsibility</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Adrian Roselli
+            <span class="feed-url">(https://adrianroselli.com/feed)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-02:
+                <a href="https://adrianroselli.com/2024/09/under-engineered-estimated-reading-time-feature.html">Under-Engineered Estimated Reading Time Feature</a>
+            </li>
+            
+            <li>
+                2024-09-01:
+                <a href="https://adrianroselli.com/2024/09/semi-annual-reminder-to-learn-and-hire-for-web-standards.html">Semi-Annual Reminder to Learn and Hire for Web Standards</a>
+            </li>
+            
+            <li>
+                2024-08-30:
+                <a href="https://adrianroselli.com/2024/08/mountain-chicken.html">Mountain Chicken!</a>
+            </li>
+            
+            <li>
+                2024-08-28:
+                <a href="https://adrianroselli.com/2024/08/talkin-tables-webaim-conference-2024.html">Talkin’ Tables — WebAIM Conference 2024</a>
+            </li>
+            
+            <li>
+                2024-08-14:
+                <a href="https://adrianroselli.com/2024/08/before-filing-that-keyboard-bug.html">Before Filing that Keyboard Bug…</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            leanrada.com notes
+            <span class="feed-url">(https://leanrada.com/rss.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-02:
+                <a href="https://leanrada.com/notes/motion-sickness-app?ref=rss">I made an app to fix my motion sickness</a>
+            </li>
+            
+            <li>
+                2024-07-15:
+                <a href="https://leanrada.com/notes/stop-using-ease-out?ref=rss">Stop using ease-out in your UIs!</a>
+            </li>
+            
+            <li>
+                2024-05-05:
+                <a href="https://leanrada.com/notes/pure-css-halftone?ref=rss">Creating a halftone effect with CSS</a>
+            </li>
+            
+            <li>
+                2024-03-25:
+                <a href="https://leanrada.com/notes/ai-art-not-generative-art?ref=rss">AI art is not generative art</a>
+            </li>
+            
+            <li>
+                2024-03-01:
+                <a href="https://leanrada.com/notes/htmz-story?ref=rss">htmz story</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+             The Jolly Teapot
+            <span class="feed-url">(https://thejollyteapot.com/feed.rss)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-01:
+                <a href="http://thejollyteapot.com/2024/09/1/maybe-news-websites-can-stop-embedding-tweets-now"> Maybe news websites can stop embedding tweets now </a>
+            </li>
+            
+            <li>
+                2024-08-28:
+                <a href="http://thejollyteapot.com/august-2024-blend"> August blend of links </a>
+            </li>
+            
+            <li>
+                2024-07-26:
+                <a href="http://thejollyteapot.com/july-2024-blend"> July blend of links </a>
+            </li>
+            
+            <li>
+                2024-07-20:
+                <a href="http://thejollyteapot.com/2024/07/20/what-else-can-i-remove"> What else can I remove? </a>
+            </li>
+            
+            <li>
+                2024-07-14:
+                <a href="http://thejollyteapot.com/2024/07/14/users-of-the-fourth-kind"> Users of the fourth kind </a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            The Beautiful Mess
+            <span class="feed-url">(https://cutlefish.substack.com/feed)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-01:
+                <a href="https://cutlefish.substack.com/p/tbm-308-boundary-of-safely-challenged">TBM 308: Boundary of Safely Challenged Assumptions</a>
+            </li>
+            
+            <li>
+                2024-08-28:
+                <a href="https://cutlefish.substack.com/p/the-x-files-6557-of-2024-edition">The &quot;X&quot; Files (65.57% of 2024 Edition)</a>
+            </li>
+            
+            <li>
+                2024-08-25:
+                <a href="https://cutlefish.substack.com/p/tbm-308-no-unforced-errors">TBM 308: No Unforced Errors</a>
+            </li>
+            
+            <li>
+                2024-08-18:
+                <a href="https://cutlefish.substack.com/p/tbm-307-the-p-word-legitimacy-and">TBM 307: The &quot;P&quot; Word, Legitimacy, and Challenging Our Default Models and Frames</a>
+            </li>
+            
+            <li>
+                2024-08-12:
+                <a href="https://cutlefish.substack.com/p/tbm-303-the-current-tech-puzzle-with">TBM 303: The Current Tech Puzzle (With Diverse Takes)</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            dbushell.com
+            <span class="feed-url">(https://dbushell.com/rss.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-01:
+                <a href="https://dbushell.com/2024/09/01/hmmarkdown/">Hmmarkdown</a>
+            </li>
+            
+            <li>
+                2024-08-12:
+                <a href="https://dbushell.com/2024/08/12/docker-network-bugs-and-fixes/">Docker Network Bugs and Fixes</a>
+            </li>
+            
+            <li>
+                2024-08-09:
+                <a href="https://dbushell.com/2024/08/09/jsr-and-deno-final-review/">JSR and Deno: Final Review 🚮</a>
+            </li>
+            
+            <li>
+                2024-08-05:
+                <a href="https://dbushell.com/2024/08/05/the-deno-package-paradox/">The Deno Package Paradox</a>
+            </li>
+            
+            <li>
+                2024-07-30:
+                <a href="https://dbushell.com/2024/07/30/self-hosted-update-summer-2024/">Summer 2024: Self-Hosted Update</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Robin Rendle
+            <span class="feed-url">(https://robinrendle.com/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-01:
+                <a href="https://robinrendle.com/notes/notes-on-font-licensing/">Notes on font licensing</a>
+            </li>
+            
+            <li>
+                2024-08-30:
+                <a href="https://robinrendle.com/notes/no-ones-ready-for-this/">No one’s ready for this</a>
+            </li>
+            
+            <li>
+                2024-08-30:
+                <a href="https://robinrendle.com/notes/a-message-in-binary/">A message in binary</a>
+            </li>
+            
+            <li>
+                2024-08-29:
+                <a href="https://robinrendle.com/notes/departure-mono/">Departure Mono</a>
+            </li>
+            
+            <li>
+                2024-08-15:
+                <a href="https://robinrendle.com/notes/moonbound/">Moonbound</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Simpler Machines
+            <span class="feed-url">(https://www.simplermachines.com/rss/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-09-01:
+                <a href="https://www.simplermachines.com/mere-being-2/">Mere Being 016 - August - Iron Supplements, Digestion, Love</a>
+            </li>
+            
+            <li>
+                2024-08-26:
+                <a href="https://www.simplermachines.com/pivots-dont-start-enough-businesses/">Pivots don&#39;t start enough businesses</a>
+            </li>
+            
+            <li>
+                2024-08-20:
+                <a href="https://www.simplermachines.com/how-team-assignment-worked-at-pivotal/">How team assignment worked at Pivotal (at least on Cloud Foundry)</a>
+            </li>
+            
+            <li>
+                2024-08-12:
+                <a href="https://www.simplermachines.com/testing-transactions-in-elixir/">Testing Transactions in Elixir</a>
+            </li>
+            
+            <li>
+                2024-08-06:
+                <a href="https://www.simplermachines.com/man-i-miss-pairing/">Man, I miss pairing</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            The Weasel Speaks
+            <span class="feed-url">(https://angryweasel.substack.com/feed)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-31:
+                <a href="https://angryweasel.substack.com/p/fencepost">Fencepost</a>
+            </li>
+            
+            <li>
+                2024-08-24:
+                <a href="https://angryweasel.substack.com/p/every-culture-tells-a-story">Every Culture Tells a Story</a>
+            </li>
+            
+            <li>
+                2024-08-17:
+                <a href="https://angryweasel.substack.com/p/eyes-shut">Eyes Shut</a>
+            </li>
+            
+            <li>
+                2024-08-11:
+                <a href="https://angryweasel.substack.com/p/learning-and-hacking">Learning and Hacking</a>
+            </li>
+            
+            <li>
+                2024-08-04:
+                <a href="https://angryweasel.substack.com/p/notorious">Notorious?</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Scattered Thoughts
+            <span class="feed-url">(https://www.scattered-thoughts.net/atom.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-31:
+                <a href="https://www.scattered-thoughts.net/log/0048/">0048: zest progress, zest ordering, wasm alignment, umbra papers, future of fast code, new internet, books, other stuff</a>
+            </li>
+            
+            <li>
+                2024-07-11:
+                <a href="https://www.scattered-thoughts.net/log/0047/">0047: babys second wasm compiler, zig honggfuzz, values can be values, dont look UB, surely you can be serious, other links, books</a>
+            </li>
+            
+            <li>
+                2024-07-09:
+                <a href="https://www.scattered-thoughts.net/writing/babys-second-wasm-compiler/">Baby&#39;s second wasm compiler</a>
+            </li>
+            
+            <li>
+                2024-06-03:
+                <a href="https://www.scattered-thoughts.net/writing/ruminating-about-mutable-value-semantics/">Ruminating about mutable value semantics</a>
+            </li>
+            
+            <li>
+                2024-05-02:
+                <a href="https://www.scattered-thoughts.net/log/0046/">0046: zest syntax, zest progress, sponsors-only repos, future compilers, error-handling implementations, suboperators, why we drive</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Good Tech Things
+            <span class="feed-url">(https://newsletter.goodtechthings.com/feed)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-30:
+                <a href="https://newsletter.goodtechthings.com/p/the-death-of-the-modified-developer">The death of the [modified] developer</a>
+            </li>
+            
+            <li>
+                2024-07-30:
+                <a href="https://newsletter.goodtechthings.com/p/the-end-of-the-everything-cloud">The end of the Everything Cloud</a>
+            </li>
+            
+            <li>
+                2024-07-17:
+                <a href="https://newsletter.goodtechthings.com/p/the-case-for-conferences-in-2024">The case for conferences in 2024</a>
+            </li>
+            
+            <li>
+                2024-06-19:
+                <a href="https://newsletter.goodtechthings.com/p/this-is-what-software-development">This is what software development looks like now</a>
+            </li>
+            
+            <li>
+                2024-05-28:
+                <a href="https://newsletter.goodtechthings.com/p/i-made-a-new-cartoon-thing-for-you">I made a new cartoon thing for you to try</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Stories by Kevlin Henney on Medium
+            <span class="feed-url">(https://medium.com/feed/@kevlinhenney)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-29:
+                <a href="https://kevlinhenney.medium.com/oh-snap-f38b2f2b8d27?source=rss-d9a09a07fe23------2">Oh, Snap!</a>
+            </li>
+            
+            <li>
+                2024-07-23:
+                <a href="https://kevlinhenney.medium.com/faq-whats-a-kevlinhenney-cc98d172f811?source=rss-d9a09a07fe23------2">FAQ: What’s a @KevlinHenney?</a>
+            </li>
+            
+            <li>
+                2024-03-15:
+                <a href="https://kevlinhenney.medium.com/stories-of-your-code-075aab1cf3a9?source=rss-d9a09a07fe23------2">Stories of Your Code</a>
+            </li>
+            
+            <li>
+                2023-03-27:
+                <a href="https://kevlinhenney.medium.com/programmers-have-a-lot-on-their-minds-b58c62c37391?source=rss-d9a09a07fe23------2">Programmers Have a Lot on Their Minds</a>
+            </li>
+            
+            <li>
+                2022-07-27:
+                <a href="https://kevlinhenney.medium.com/the-right-tool-for-the-job-d6d3a80cecf8?source=rss-d9a09a07fe23------2">The Right Tool for the Job?</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            drcathicks
+            <span class="feed-url">(https://www.drcathicks.com/blog-feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-28:
+                <a href="https://www.drcathicks.com/post/cat-the-bridges-summit-references-and-resources">Cat @ the Bridges Summit: References and Resources</a>
+            </li>
+            
+            <li>
+                2024-07-04:
+                <a href="https://www.drcathicks.com/post/the-uncertainty">The Uncertainty</a>
+            </li>
+            
+            <li>
+                2024-04-25:
+                <a href="https://www.drcathicks.com/post/an-open-access-developer-science-roundup">An open access developer science roundup</a>
+            </li>
+            
+            <li>
+                2024-01-12:
+                <a href="https://www.drcathicks.com/post/covid-data-log">Covid Data Log</a>
+            </li>
+            
+            <li>
+                2023-12-08:
+                <a href="https://www.drcathicks.com/post/engineering-managers-do-triage-work-do-we-know-this">Engineering Managers do Triage work. Do we know this?</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Jessitron
+            <span class="feed-url">(https://jessitron.com/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-28:
+                <a href="https://jessitron.com/2024/08/28/bridges-summit/">Bridges Summit</a>
+            </li>
+            
+            <li>
+                2024-06-16:
+                <a href="https://jessitron.com/2024/06/16/stupid-bash-tricks-a-self-updating-script/">Stupid bash tricks: a self-updating script</a>
+            </li>
+            
+            <li>
+                2024-05-11:
+                <a href="https://jessitron.com/2024/05/11/working-with-others-is-different-from-working/">Working with others is different from working.</a>
+            </li>
+            
+            <li>
+                2024-05-01:
+                <a href="https://jessitron.com/2024/05/01/fear-and-participation/">Fear and participation</a>
+            </li>
+            
+            <li>
+                2024-03-13:
+                <a href="https://jessitron.com/2024/03/13/talk-experimenting-in-sociotechnical-systems/">talk: Experimenting in Sociotechnical Systems</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Chelsea Troy
+            <span class="feed-url">(https://chelseatroy.com/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-28:
+                <a href="https://chelseatroy.com/2024/08/28/does-ai-benefit-the-world/">Does AI benefit the world?</a>
+            </li>
+            
+            <li>
+                2024-07-03:
+                <a href="https://chelseatroy.com/2024/07/03/programmers-identity-crises-and-moral-panic/">The Programmers’ Identity Crisis: how do we use our powers for ‘good’?</a>
+            </li>
+            
+            <li>
+                2024-06-23:
+                <a href="https://chelseatroy.com/2024/06/23/how-do-we-build-the-future-with-ai/">How do we build the future with AI?</a>
+            </li>
+            
+            <li>
+                2024-05-26:
+                <a href="https://chelseatroy.com/2024/05/26/how-does-ai-impact-my-job-as-a-programmer/">How does AI impact my job as a programmer?</a>
+            </li>
+            
+            <li>
+                2024-03-29:
+                <a href="https://chelseatroy.com/2024/03/29/how-do-we-evaluate-people-for-their-technical-leadership/">How do we evaluate people for their technical leadership?</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            HeydonWorks
+            <span class="feed-url">(https://heydonworks.com/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-28:
+                <a href="https://heydonworks.com/article/the-aside-element/">The aside element</a>
+            </li>
+            
+            <li>
+                2024-08-19:
+                <a href="https://heydonworks.com/article/the-article-element/">The article element</a>
+            </li>
+            
+            <li>
+                2024-08-15:
+                <a href="https://heydonworks.com/article/the-area-element/">The area element</a>
+            </li>
+            
+            <li>
+                2024-08-12:
+                <a href="https://heydonworks.com/article/the-address-element/">The address element</a>
+            </li>
+            
+            <li>
+                2024-08-07:
+                <a href="https://heydonworks.com/article/the-abbr-element/">The abbr element</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Kodemaker sin blogg
+            <span class="feed-url">(https://www.kodemaker.no/atom.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-27:
+                <a href="https://www.kodemaker.no/blogg/2024-08-27-trees-and-zippers/">Moro med trær og glidlåser</a>
+            </li>
+            
+            <li>
+                2024-08-21:
+                <a href="https://www.kodemaker.no/blogg/2024-08-21-lokal-llm/">AI Chat, aka Large Language Model (LLM) lokalt</a>
+            </li>
+            
+            <li>
+                2024-07-03:
+                <a href="https://www.kodemaker.no/blogg/2024-07-csp/">Nettlesere uten tilsyn</a>
+            </li>
+            
+            <li>
+                2024-06-26:
+                <a href="https://www.kodemaker.no/blogg/2024-06-26-i-postgresql-er-et-aar-360-dager/">I PostgreSQL er et år 360 dager (og annen moro)</a>
+            </li>
+            
+            <li>
+                2024-06-19:
+                <a href="https://www.kodemaker.no/blogg/2024-06-19-flyway/">Effektivisering av databaseendringer med Flyway i Kotlin</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Ross Wintle
+            <span class="feed-url">(https://rosswintle.uk/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-26:
+                <a href="https://rosswintle.uk/2024/08/book-the-way-of-kings-brandon-sanderson/">Book: The Way of Kings – Brandon Sanderson</a>
+            </li>
+            
+            <li>
+                2024-08-26:
+                <a href="https://rosswintle.uk/2024/08/book-down-and-out-in-the-magic-kingdom-cory-doctorow/">Book: Down and out in the Magic Kingdom – Cory Doctorow</a>
+            </li>
+            
+            <li>
+                2024-08-26:
+                <a href="https://rosswintle.uk/2024/08/book-living-better-alastair-campbell/">Book: Living Better – Alastair Campbell</a>
+            </li>
+            
+            <li>
+                2024-08-26:
+                <a href="https://rosswintle.uk/2024/08/book-tribes-seth-godin/">Book: Tribes – Seth Godin</a>
+            </li>
+            
+            <li>
+                2024-08-11:
+                <a href="https://rosswintle.uk/2024/08/wordpress-rest-api-auth-nonces-in-post-requests/">WordPress REST API Auth nonces in POST requests</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Joep Schuurkes
+            <span class="feed-url">(https://smallsheds.garden/blog/feed.atom)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-24:
+                <a href="https://smallsheds.garden/blog/2024/what-do-you-fix-when-you-fix-a-test/">What do you fix when you fix a test?</a>
+            </li>
+            
+            <li>
+                2024-05-26:
+                <a href="https://smallsheds.garden/blog/2024/the-difference-between-a-test-case-and-a-requirement-is-the-moment-of-discovery/">The difference between a test case and a requirement is the moment of discovery</a>
+            </li>
+            
+            <li>
+                2024-05-08:
+                <a href="https://smallsheds.garden/blog/2024/two-short-checklists-for-scrum/">Two short checklists for Scrum</a>
+            </li>
+            
+            <li>
+                2024-04-01:
+                <a href="https://smallsheds.garden/blog/2024/the-difference-between-a-dead-and-an-alive-agile-manifesto/">The difference between a dead and an alive Agile Manifesto</a>
+            </li>
+            
+            <li>
+                2024-03-23:
+                <a href="https://smallsheds.garden/blog/2024/notes-from-the-march-24-frogs-conf-open-space/">Notes from the March &#39;24 FroGS conf open space</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Cecilie Vennevik&#39;s blog
+            <span class="feed-url">(https://www.cvennevik.no/blog/rss.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-24:
+                <a href="https://www.cvennevik.no/blog/crystal-spire-07-armor/">Crystal Spire #7: Armor</a>
+            </li>
+            
+            <li>
+                2024-08-11:
+                <a href="https://www.cvennevik.no/blog/slay-the-spire-06-lets-go-to-codeberg/">Slay the Spire #6: Let&#39;s go to Codeberg!</a>
+            </li>
+            
+            <li>
+                2024-08-11:
+                <a href="https://www.cvennevik.no/blog/i-can-do-hard-things/">I can do hard things</a>
+            </li>
+            
+            <li>
+                2024-08-04:
+                <a href="https://www.cvennevik.no/blog/slay-the-spire-05-going-dynamic/">Slay the Spire #5: Going dynamic</a>
+            </li>
+            
+            <li>
+                2024-08-03:
+                <a href="https://www.cvennevik.no/blog/slay-the-spire-04-links-are-real/">Slay the Spire #4: Links are real, and strong, and they are my friend</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Hazel Weakly
+            <span class="feed-url">(https://hazelweakly.me/atom.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-21:
+                <a href="https://hazelweakly.me/blog/home-baked-abstractions-store-bought-implementations/">Home Baked Abstractions, Store Bought Implementations</a>
+            </li>
+            
+            <li>
+                2024-08-13:
+                <a href="https://hazelweakly.me/blog/why-i-do-what-i-do/">Why I Do What I Do</a>
+            </li>
+            
+            <li>
+                2024-06-20:
+                <a href="https://hazelweakly.me/blog/pick-your-distributed-poison/">Pick Your Distributed Poison</a>
+            </li>
+            
+            <li>
+                2024-06-10:
+                <a href="https://hazelweakly.me/blog/i-just-want-the-simple-thing/">I Just Want The Simple Thing</a>
+            </li>
+            
+            <li>
+                2024-04-12:
+                <a href="https://hazelweakly.me/blog/i-miss-the-days-of-humanity/">I Miss the Days of Humanity</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Eric Bailey
+            <span class="feed-url">(https://ericwbailey.website/feed/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-21:
+                <a href="https://ericwbailey.website/published/basic-keyboard-shortcut-support-for-focused-links/">Basic keyboard shortcut support for focused links</a>
+            </li>
+            
+            <li>
+                2024-07-29:
+                <a href="https://ericwbailey.website/published/these-three-links-spell-out-a-big-uh-oh-for-where-things-are-headed-when-placed-in-context-with-each-other/">These three links spell out a big uh oh for where things are headed when placed in context with each other</a>
+            </li>
+            
+            <li>
+                2024-07-19:
+                <a href="https://www.smashingmagazine.com/2024/07/getting-bottom-minimum-wcag-conformant-interactive-element-size/">Getting To The Bottom Of Minimum WCAG-Conformant Interactive Element Size</a>
+            </li>
+            
+            <li>
+                2024-07-16:
+                <a href="https://ericwbailey.website/published/dungeons-and-dragons-taught-me-how-to-write-alt-text/">Dungeons &amp; Dragons taught me how to write alt text</a>
+            </li>
+            
+            <li>
+                2024-07-03:
+                <a href="https://ericwbailey.website/published/short-note-disavowing-snake-people-30-slither-with-a-hiss/">Short note: Disavowing Snake People 3.0: Slither with a Hiss</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Kyle Shevlin&#39;s Blog RSS Feed
+            <span class="feed-url">(https://kyleshevlin.com/rss.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-20:
+                <a href="https://kyleshevlin.com/never-call-new-date-inside-your-components/">Never Call &lt;code&gt;new Date()&lt;/code&gt; Inside Your Components</a>
+            </li>
+            
+            <li>
+                2024-08-02:
+                <a href="https://kyleshevlin.com/composable-flourishes/">Composable Flourishes</a>
+            </li>
+            
+            <li>
+                2024-07-30:
+                <a href="https://kyleshevlin.com/prefer-alphabetized-object-keys/">Prefer Alphabetized Object Keys</a>
+            </li>
+            
+            <li>
+                2024-06-15:
+                <a href="https://kyleshevlin.com/responsive-design-and-composition/">Responsive Design and Composition</a>
+            </li>
+            
+            <li>
+                2024-05-23:
+                <a href="https://kyleshevlin.com/design-system-retrospective/">Design System Retrospective</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            James Shore
+            <span class="feed-url">(https://www.jamesshore.com/v2/feed)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-20:
+                <a href="https://www.jamesshore.com/v2/blog/2024/update-on-software-engineering-career-ladder">Update on Software Engineering Career Ladder</a>
+            </li>
+            
+            <li>
+                2024-05-15:
+                <a href="https://www.jamesshore.com/v2/blog/2024/agile-fluency-ebook-in-portuguese">Agile Fluency eBook in Portuguese</a>
+            </li>
+            
+            <li>
+                2024-05-12:
+                <a href="https://www.jamesshore.com/v2/blog/2024/free-self-guided-testing-without-mocks-training">Free Self-Guided “Testing Without Mocks” Training</a>
+            </li>
+            
+            <li>
+                2024-05-05:
+                <a href="https://www.jamesshore.com/v2/blog/2024/a-useful-productivity-measure">A Useful Productivity Measure?</a>
+            </li>
+            
+            <li>
+                2024-04-27:
+                <a href="https://www.jamesshore.com/v2/blog/2024/a-software-engineering-career-ladder">A Software Engineering Career Ladder</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Julia Evans
+            <span class="feed-url">(https://jvns.ca/atom.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-19:
+                <a href="https://jvns.ca/blog/2024/08/19/migrating-mess-with-dns-to-use-powerdns/">Migrating Mess With DNS to use PowerDNS</a>
+            </li>
+            
+            <li>
+                2024-08-06:
+                <a href="https://jvns.ca/blog/2024/08/06/go-structs-copied-on-assignment/">Go structs are copied on assignment (and other things about Go I&#39;d missed)</a>
+            </li>
+            
+            <li>
+                2024-07-08:
+                <a href="https://jvns.ca/blog/2024/07/08/readline/">Entering text in the terminal is complicated</a>
+            </li>
+            
+            <li>
+                2024-07-03:
+                <a href="https://jvns.ca/blog/2024/07/03/reasons-to-use-job-control/">Reasons to use your shell&#39;s job control</a>
+            </li>
+            
+            <li>
+                2024-06-03:
+                <a href="https://jvns.ca/blog/2024/04/25/new-zine--how-git-works-/">New zine: How Git Works!</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Hiccupps
+            <span class="feed-url">(https://qahiccupps.blogspot.com/feeds/posts/default)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-18:
+                <a href="https://qahiccupps.blogspot.com/2024/08/around-testing-world-in-28-ways.html">Around the Testing World in 28 Ways</a>
+            </li>
+            
+            <li>
+                2024-07-24:
+                <a href="https://qahiccupps.blogspot.com/2024/07/the-way-to-test.html">The Way to Test?</a>
+            </li>
+            
+            <li>
+                2024-07-23:
+                <a href="https://qahiccupps.blogspot.com/2024/07/olivestrike.html">Olivestrike!</a>
+            </li>
+            
+            <li>
+                2024-07-07:
+                <a href="https://qahiccupps.blogspot.com/2024/07/express-listen-and-field.html">Express, Listen, and Field</a>
+            </li>
+            
+            <li>
+                2024-07-01:
+                <a href="https://qahiccupps.blogspot.com/2024/07/llewt-2024.html">LLEWT 2024</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            That HTML Blog
+            <span class="feed-url">(https://thathtml.blog/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-16:
+                <a href="https://thathtml.blog/2024/08/action-web-components/">Action Web Components Which Span the Server-Client Divide</a>
+            </li>
+            
+            <li>
+                2024-08-16:
+                <a href="https://thathtml.blog/2024/08/just-a-spec-browser-wars/">Browser Wars, State of JS, and the Birth of the Internet on Just a Spec</a>
+            </li>
+            
+            <li>
+                2024-07-17:
+                <a href="https://thathtml.blog/2024/07/if-only-css-could-if/">If Only CSS Could if()</a>
+            </li>
+            
+            <li>
+                2024-07-08:
+                <a href="https://thathtml.blog/2024/07/progressive-enhancement/">I Am Once Again Asking You to Build Progressively Enhanced Websites</a>
+            </li>
+            
+            <li>
+                2024-07-01:
+                <a href="https://thathtml.blog/2024/07/css-motion-blur/">CSS Doesn’t Offer Motion Blur…But It Should</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Infrequently Noted
+            <span class="feed-url">(https://infrequently.org/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-16:
+                <a href="https://infrequently.org/2024/08/the-way-out/">Reckoning: Part 4 — The Way Out</a>
+            </li>
+            
+            <li>
+                2024-08-14:
+                <a href="https://infrequently.org/2024/08/caprock/">Reckoning: Part 3 — Caprock</a>
+            </li>
+            
+            <li>
+                2024-08-13:
+                <a href="https://infrequently.org/2024/08/object-lesson/">Reckoning: Part 2 — Object Lesson</a>
+            </li>
+            
+            <li>
+                2024-08-12:
+                <a href="https://infrequently.org/2024/08/the-landscape/">Reckoning: Part 1 — The Landscape</a>
+            </li>
+            
+            <li>
+                2024-07-30:
+                <a href="https://infrequently.org/2024/07/misfire/">Misfire</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Marc Brooker&#39;s Blog
+            <span class="feed-url">(https://brooker.co.za/blog/rss.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-14:
+                <a href="http://brooker.co.za/blog/2024/08/14/gc-metastable.html">Garbage Collection and Metastability</a>
+            </li>
+            
+            <li>
+                2024-07-29:
+                <a href="http://brooker.co.za/blog/2024/07/29/aurora-serverless.html">Resource Management in Aurora Serverless</a>
+            </li>
+            
+            <li>
+                2024-07-25:
+                <a href="http://brooker.co.za/blog/2024/07/25/cap-again.html">Let&#39;s Consign CAP to the Cabinet of Curiosities</a>
+            </li>
+            
+            <li>
+                2024-06-04:
+                <a href="http://brooker.co.za/blog/2024/06/04/scale.html">Not Just Scale</a>
+            </li>
+            
+            <li>
+                2024-05-09:
+                <a href="http://brooker.co.za/blog/2024/05/09/nagle.html">It&#39;s always TCP_NODELAY. Every damn time.</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            
+            <span class="feed-url">(https://danluu.com/atom.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-11:
+                <a href="https://danluu.com/codenames/">How good can you be at Codenames without knowing any words?</a>
+            </li>
+            
+            <li>
+                2024-06-16:
+                <a href="https://danluu.com/ai-bias/">A discussion of discussions on AI bias</a>
+            </li>
+            
+            <li>
+                2024-05-26:
+                <a href="https://danluu.com/ftc-google-antitrust/">What the FTC got wrong in the Google antitrust investigation</a>
+            </li>
+            
+            <li>
+                2024-03-16:
+                <a href="https://danluu.com/slow-device/">How web bloat impacts users with slow devices</a>
+            </li>
+            
+            <li>
+                2024-02-18:
+                <a href="https://danluu.com/diseconomies-scale/">Diseconomies of scale in fraud, spam, support, and moderation</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            charity.wtf
+            <span class="feed-url">(https://charity.wtf/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-07:
+                <a href="https://charity.wtf/2024/08/07/is-it-time-to-version-observability-signs-point-to-yes/">Is It Time To Version Observability? (Signs Point To Yes)</a>
+            </li>
+            
+            <li>
+                2024-07-24:
+                <a href="https://charity.wtf/2024/07/24/pragmatism-neutrality-and-leadership/">Pragmatism, Neutrality and Leadership</a>
+            </li>
+            
+            <li>
+                2024-01-05:
+                <a href="https://charity.wtf/2024/01/05/questionable-advice-my-boss-says-we-dont-need-any-engineering-managers-is-he-right/">Questionable Advice: “My boss says we don’t need any engineering managers. Is he right?”</a>
+            </li>
+            
+            <li>
+                2023-12-15:
+                <a href="https://charity.wtf/2023/12/15/why-should-you-or-anyone-become-an-engineering-manager/">Becoming An Engineering Manager Can Make You Better At Life And Relationships</a>
+            </li>
+            
+            <li>
+                2023-08-17:
+                <a href="https://charity.wtf/2023/08/17/how-to-communicate-when-trust-is-low-without-digging-yourself-into-a-deeper-hole/">How to Communicate When Trust Is Low (Without Digging Yourself Into A Deeper Hole)</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Agile Otter Blog
+            <span class="feed-url">(http://agileotter.blogspot.com/feeds/posts/default)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-06:
+                <a href="http://agileotter.blogspot.com/2024/08/basic-microphone-usage.html">Basic Microphone Usage</a>
+            </li>
+            
+            <li>
+                2024-05-24:
+                <a href="http://agileotter.blogspot.com/2024/05/profitable-struggle-and-unprofitable.html">Profitable Struggle and Unprofitable Struggle</a>
+            </li>
+            
+            <li>
+                2024-02-27:
+                <a href="http://agileotter.blogspot.com/2024/02/definition-by-dysfunction.html">Definition-by-Dysfunction</a>
+            </li>
+            
+            <li>
+                2024-02-27:
+                <a href="http://agileotter.blogspot.com/2024/02/listicle-on-flow-and-teamwork.html">Listicle on Flow and Teamwork</a>
+            </li>
+            
+            <li>
+                2024-01-15:
+                <a href="http://agileotter.blogspot.com/2024/01/fundamentally-wrong.html">Fundamentally Wrong</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Nonlinear.Garden
+            <span class="feed-url">(https://nonlinear.garden/rss.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-08-02:
+                <a href="https://nonlinear.garden/archive/astral-truth/">Astral Truth</a>
+            </li>
+            
+            <li>
+                2024-02-17:
+                <a href="https://nonlinear.garden/archive/slicing/">Slicing</a>
+            </li>
+            
+            <li>
+                2024-01-01:
+                <a href="https://nonlinear.garden/archive/problem-zero/">Problem Zero</a>
+            </li>
+            
+            <li>
+                2023-11-08:
+                <a href="https://nonlinear.garden/archive/boundary-mistakes/">Boundary Mistakes</a>
+            </li>
+            
+            <li>
+                2023-10-28:
+                <a href="https://nonlinear.garden/archive/iteration-is-the-only-way-i-know/">Iteration Is The Only Way I Know</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            artemis.sh
+            <span class="feed-url">(https://artemis.sh/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-07-29:
+                <a href="https://artemis.sh/2024/07/29/the-serenity-of-j1.html">The Serenity of -j1</a>
+            </li>
+            
+            <li>
+                2024-06-19:
+                <a href="https://artemis.sh/2024/06/19/do-you-really-want-to-write.html">So, do you actually want to write?</a>
+            </li>
+            
+            <li>
+                2024-06-18:
+                <a href="https://artemis.sh/2024/06/18/scarecrow.html">Save Scarecrow, a Massive Physical Media Collection</a>
+            </li>
+            
+            <li>
+                2024-04-12:
+                <a href="https://artemis.sh/2024/04/12/x86-distribution-options.html">There are still quite a few 32-bit x86 Linux distributions</a>
+            </li>
+            
+            <li>
+                2024-04-10:
+                <a href="https://artemis.sh/2024/04/10/trying-netbsd-on-vaio.html">Trying out NetBSD on our Vaio</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            No Boilerplate
+            <span class="feed-url">(https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-07-27:
+                <a href="https://www.youtube.com/watch?v=kul0z3OTmVM">The &quot;Brainmade&quot; Mark</a>
+            </li>
+            
+            <li>
+                2024-06-16:
+                <a href="https://www.youtube.com/watch?v=Kdpfhj3VM04">Compiler-Driven Development in Rust</a>
+            </li>
+            
+            <li>
+                2024-03-19:
+                <a href="https://www.youtube.com/watch?v=DhY3fu-YgHU">The Autism Constellation</a>
+            </li>
+            
+            <li>
+                2024-02-25:
+                <a href="https://www.youtube.com/watch?v=CwfKlX3rA6E">NixOS: Everything Everywhere All At Once</a>
+            </li>
+            
+            <li>
+                2024-01-19:
+                <a href="https://www.youtube.com/watch?v=voRBS0r4EyI">In Search of Code Purity</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Good Tech Things
+            <span class="feed-url">(https://www.goodtechthings.com/rss/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-07-26:
+                <a href="https://www.goodtechthings.com/gravediggers/">Gravediggers</a>
+            </li>
+            
+            <li>
+                2024-07-25:
+                <a href="https://www.goodtechthings.com/crowdstrike-conspiracy-theories/">Crowdstrike Conspiracy Theories</a>
+            </li>
+            
+            <li>
+                2024-06-07:
+                <a href="https://www.goodtechthings.com/search-engines/">Search Engines</a>
+            </li>
+            
+            <li>
+                2024-05-23:
+                <a href="https://www.goodtechthings.com/vulnerability-industrial-complex/">Vulnerability-Industrial Complex</a>
+            </li>
+            
+            <li>
+                2024-05-20:
+                <a href="https://www.goodtechthings.com/three-databases/">Three Databases</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Marit van Dijk
+            <span class="feed-url">(https://maritvandijk.com/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-07-26:
+                <a href="https://maritvandijk.com/find-action/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=find-action">IntelliJ IDEA Pro Tips: Find Action</a>
+            </li>
+            
+            <li>
+                2024-07-04:
+                <a href="https://maritvandijk.com/is-your-code-vulnerable/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=is-your-code-vulnerable">Is your code vulnerable?</a>
+            </li>
+            
+            <li>
+                2024-06-13:
+                <a href="https://maritvandijk.com/cherry-pick-git-commit/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=cherry-pick-git-commit">Cherry Picking Git Commits To A Different Branch</a>
+            </li>
+            
+            <li>
+                2024-03-15:
+                <a href="https://maritvandijk.com/tips-reading-code/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=tips-reading-code">Tips for reading code</a>
+            </li>
+            
+            <li>
+                2024-02-08:
+                <a href="https://maritvandijk.com/reading-code-like-pro/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=reading-code-like-pro">Reading Code like a pro</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            TestAndAnalysis
+            <span class="feed-url">(https://testandanalysis.home.blog/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-07-23:
+                <a href="https://testandanalysis.home.blog/2024/07/23/my-new-guiding-principles-are-helping-me-to-automate-tests/">My new guiding principles are helping me to automate tests.</a>
+            </li>
+            
+            <li>
+                2024-07-16:
+                <a href="https://testandanalysis.home.blog/2024/07/16/whoever-you-are-whatever-you-have-achieved-you-should-recognise-the-achievements-of-others/">Whoever you are, whatever you have achieved you should recognise the achievements of others</a>
+            </li>
+            
+            <li>
+                2024-07-09:
+                <a href="https://testandanalysis.home.blog/2024/07/09/use-code-reviews-to-have-discussions-about-your-test-automation-code/">Use code reviews to have discussions about your test automation code</a>
+            </li>
+            
+            <li>
+                2024-07-02:
+                <a href="https://testandanalysis.home.blog/2024/07/02/two-ways-of-learning-that-benefit-testing/">Two ways of learning that benefit testing</a>
+            </li>
+            
+            <li>
+                2024-06-25:
+                <a href="https://testandanalysis.home.blog/2024/06/25/a-great-self-organising-team/">A Great Self-Organising Team</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            draganstepanovic.com
+            <span class="feed-url">(https://dragan-stepanovic.github.io/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-07-20:
+                <a href="https://dragan-stepanovic.github.io//2024/07/20/one-thing-leaders.html">One thing leaders often fail to understand</a>
+            </li>
+            
+            <li>
+                2024-07-02:
+                <a href="https://dragan-stepanovic.github.io//2024/07/02/on-rotation-times.html">A couple of tips on rotation times in a pair/mob</a>
+            </li>
+            
+            <li>
+                2024-06-07:
+                <a href="https://dragan-stepanovic.github.io//2024/06/07/empirical-is-continuous.html">Empirical design is continuous design</a>
+            </li>
+            
+            <li>
+                2024-06-05:
+                <a href="https://dragan-stepanovic.github.io//2024/06/05/on-time-obsession.html">On the &quot;on time&quot; obsession</a>
+            </li>
+            
+            <li>
+                2024-05-27:
+                <a href="https://dragan-stepanovic.github.io//2024/05/27/slicing-for-resiliency.html">Slicing for business resiliency</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Blog on Hillel Wayne
+            <span class="feed-url">(https://www.hillelwayne.com/post/index.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-07-15:
+                <a href="https://www.hillelwayne.com/post/toolbox-languages/">Toolbox languages</a>
+            </li>
+            
+            <li>
+                2024-06-17:
+                <a href="https://www.hillelwayne.com/post/composing-tla/">Composing TLA+ Specifications with State Machines</a>
+            </li>
+            
+            <li>
+                2024-05-01:
+                <a href="https://www.hillelwayne.com/post/software-friction/">Software Friction</a>
+            </li>
+            
+            <li>
+                2024-04-10:
+                <a href="https://www.hillelwayne.com/post/alloy-facts/">Don&#39;t let Alloy facts make your specs a fiction</a>
+            </li>
+            
+            <li>
+                2024-04-01:
+                <a href="https://www.hillelwayne.com/post/tale-of-daniel/">The Tale of Daniel</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Nathan Knowler
+            <span class="feed-url">(https://knowler.dev/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-07-11:
+                <a href="https://knowler.dev/blog/a-custom-element-smoke-test">A custom element smoke test</a>
+            </li>
+            
+            <li>
+                2024-06-29:
+                <a href="https://knowler.dev/blog/read-the-platform">Read the Platform</a>
+            </li>
+            
+            <li>
+                2024-06-15:
+                <a href="https://knowler.dev/blog/maintaining-dotfiles">Maintaining dotfiles</a>
+            </li>
+            
+            <li>
+                2024-06-13:
+                <a href="https://knowler.dev/blog/html-web-components-are-an-antipattern">“HTML Web Components” are an antipattern…</a>
+            </li>
+            
+            <li>
+                2024-06-07:
+                <a href="https://knowler.dev/blog/please-keep-your-hands-arms-and-legs-inside-the-custom-element">Please keep your hands, arms, and legs inside the custom element</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            .:. brainsik
+            <span class="feed-url">(https://brainsik.net/index.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-07-09:
+                <a href="https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/">Successfully Migrating to Caddy from Nginx</a>
+            </li>
+            
+            <li>
+                2023-01-01:
+                <a href="https://brainsik.net/2022/gpg-key-transition-2022/">GPG Key Transition 2022</a>
+            </li>
+            
+            <li>
+                2014-08-15:
+                <a href="https://brainsik.net/2014/moving-phones-from-copper-to-fiber/">The problem with moving phones from copper to fiber: power</a>
+            </li>
+            
+            <li>
+                2014-08-09:
+                <a href="https://brainsik.net/2014/the-secret-government-rulebook-for-labeling-you-a-terrorist/">The Secret Government Rulebook For Labeling You a Terrorist</a>
+            </li>
+            
+            <li>
+                2014-07-07:
+                <a href="https://brainsik.net/2014/virtualenv-burrito-2-7/">virtualenv-burrito 2.7</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Quantum Steps
+            <span class="feed-url">(https://read.ceilfors.com/feed)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-07-08:
+                <a href="https://read.ceilfors.com/p/how-to-become-a-production-blocker">How to become a Production Blocker in a CI Theatre</a>
+            </li>
+            
+            <li>
+                2024-06-17:
+                <a href="https://read.ceilfors.com/p/concrete-examples-to-deepen-understanding">Seek concrete examples to deepen problem understanding: Lessons from Eric Evans (Part 2)</a>
+            </li>
+            
+            <li>
+                2024-06-07:
+                <a href="https://read.ceilfors.com/p/unspoken-secrets-of-ddd-lessons-from-eric-evans">The Unspoken Secrets of DDD: Lessons from Eric Evans </a>
+            </li>
+            
+            <li>
+                2023-11-24:
+                <a href="https://read.ceilfors.com/p/crossing-the-road-together">Crossing the Road Together</a>
+            </li>
+            
+            <li>
+                2023-11-17:
+                <a href="https://read.ceilfors.com/p/write-forgettable-code">Write Forgettable Code</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Marvin Hagemeister
+            <span class="feed-url">(https://marvinh.dev/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-07-06:
+                <a href="https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/">Speeding up the JavaScript ecosystem - Isolated Declarations</a>
+            </li>
+            
+            <li>
+                2024-05-15:
+                <a href="https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/">Speeding up the JavaScript ecosystem - Server Side JSX</a>
+            </li>
+            
+            <li>
+                2023-11-01:
+                <a href="https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/">Speeding up the JavaScript ecosystem - Tailwind CSS</a>
+            </li>
+            
+            <li>
+                2023-10-08:
+                <a href="https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-7/">Speeding up the JavaScript ecosystem - The barrel file debacle</a>
+            </li>
+            
+            <li>
+                2023-09-21:
+                <a href="https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-6/">Speeding up the JavaScript ecosystem - Polyfills gone rogue</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            lalaland
+            <span class="feed-url">(https://lalaland.mataroa.blog/rss/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-06-30:
+                <a href="https://fum.lol/blog/beginnings/">on beginnings</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            2ality – JavaScript and more
+            <span class="feed-url">(https://2ality.com/feeds/posts.atom)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-06-26:
+                <a href="https://2ality.com/2024/06/ecmascript-2024.html">Ecma International approves ECMAScript 2024: What’s new?</a>
+            </li>
+            
+            <li>
+                2024-06-01:
+                <a href="https://2ality.com/2024/06/array-buffers-es2024.html">ECMAScript 2024 features: resizing and transferring ArrayBuffers</a>
+            </li>
+            
+            <li>
+                2024-05-19:
+                <a href="https://2ality.com/2024/05/proposal-symbols-as-weakmap-keys.html">ECMAScript 2023 feature: symbols as WeakMap keys</a>
+            </li>
+            
+            <li>
+                2024-05-16:
+                <a href="https://2ality.com/2024/05/proposal-duplicate-named-capturing-groups.html">ECMAScript 2025 feature: duplicate named capturing groups for regular expressions</a>
+            </li>
+            
+            <li>
+                2024-05-14:
+                <a href="https://2ality.com/2024/05/proposal-promise-with-resolvers.html">ECMAScript 2024 feature: &lt;code&gt;Promise.withResolvers()&lt;/code&gt;</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Curly Tail, Curly Braces
+            <span class="feed-url">(https://www.worthe-it.co.za/atom.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-06-25:
+                <a href="https://www.worthe-it.co.za/blog/2024-06-26-new-songbook-added-to-this-blog.html">New Songbook Added to this Blog</a>
+            </li>
+            
+            <li>
+                2024-02-25:
+                <a href="https://www.worthe-it.co.za/blog/2024-02-26-my-approach-to-advent-of-code-puzzles.html">My approach to Advent of Code puzzles</a>
+            </li>
+            
+            <li>
+                2023-10-24:
+                <a href="https://www.worthe-it.co.za/blog/2023-10-25-make-the-computer-do-it.html">Make the computer do it!</a>
+            </li>
+            
+            <li>
+                2023-08-19:
+                <a href="https://www.worthe-it.co.za/blog/2023-08-20-building-a-digital-music-collection-in-2023.html">Building a digital music collection in 2023</a>
+            </li>
+            
+            <li>
+                2023-06-13:
+                <a href="https://www.worthe-it.co.za/blog/2023-06-14-release-announcement.html">Release Announcement: South African ID Parser (JavaScript library) v1.1.0</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            The Code Whisperer
+            <span class="feed-url">(https://blog.thecodewhisperer.com/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-06-21:
+                <a href="https://blog.thecodewhisperer.com/permalink/refactoring-just-enough">Refactoring Just Enough</a>
+            </li>
+            
+            <li>
+                2024-03-25:
+                <a href="https://blog.thecodewhisperer.com/permalink/tdd-youre-probably-doing-it-just-fine">TDD: You&#39;re Probably Doing It Just Fine</a>
+            </li>
+            
+            <li>
+                2024-01-08:
+                <a href="https://blog.thecodewhisperer.com/permalink/tdd-for-those-who-dont-know-how-to-design-software">TDD: For Those Who Don&#39;t Know How to Design Software</a>
+            </li>
+            
+            <li>
+                2023-12-20:
+                <a href="https://blog.thecodewhisperer.com/permalink/a-guard-clause-is-maybe-a-tiny-parser">A Guard Clause Is Maybe a Tiny Parser</a>
+            </li>
+            
+            <li>
+                2023-09-17:
+                <a href="https://blog.thecodewhisperer.com/permalink/which-kinds-of-tests-should-i-write-revisited">Which Kinds of Tests Should I Write? Revisited</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Luna’s Blog
+            <span class="feed-url">(https://moonbase.lgbt/blog/atom.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-06-16:
+                <a href="https://moonbase.lgbt/blog/i-want-to-order-a-pizza/">I want to order a pizza.</a>
+            </li>
+            
+            <li>
+                2024-02-05:
+                <a href="https://moonbase.lgbt/blog/how-my-blog-handles-images/">How My Blog Handles Images</a>
+            </li>
+            
+            <li>
+                2024-01-04:
+                <a href="https://moonbase.lgbt/blog/minimum-wage-clock/">Minimum Wage Clock</a>
+            </li>
+            
+            <li>
+                2023-12-31:
+                <a href="https://moonbase.lgbt/blog/i-want-to-see-my-friends-posts/">I want to see my friends’ posts.</a>
+            </li>
+            
+            <li>
+                2023-11-27:
+                <a href="https://moonbase.lgbt/blog/the-problem-with-doctor-who/">The Problem with Doctor Who</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Johan Halse wrote this
+            <span class="feed-url">(https://johan.hal.se/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-06-10:
+                <a href="https://johan.hal.se/wrote/2024/06/11/being-a-dick/">Being a dick</a>
+            </li>
+            
+            <li>
+                2024-06-04:
+                <a href="https://johan.hal.se/wrote/2024/06/05/parenting/">Parenting</a>
+            </li>
+            
+            <li>
+                2024-03-04:
+                <a href="https://johan.hal.se/wrote/2024/03/05/churn/">Churn</a>
+            </li>
+            
+            <li>
+                2024-02-27:
+                <a href="https://johan.hal.se/wrote/2024/02/28/care/">Care</a>
+            </li>
+            
+            <li>
+                2024-02-19:
+                <a href="https://johan.hal.se/wrote/2024/02/20/im-not-holding-it-wrong-youre-holding-it-wrong/">I&#39;m not holding it wrong, YOU&#39;RE holding it wrong</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            spydergrrl consulting
+            <span class="feed-url">(http://feeds.feedburner.com/Spydergrrl)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-06-07:
+                <a href="https://spydergrrl.com/2024/06/07/designing-team-experience-building-open/">Designing the team experience: Building an open and supportive team culture through design</a>
+            </li>
+            
+            <li>
+                2024-04-11:
+                <a href="https://spydergrrl.com/2024/04/11/its-ok-to-set-boundaries-at-work/">It’s ok to set boundaries at work</a>
+            </li>
+            
+            <li>
+                2023-05-18:
+                <a href="https://spydergrrl.com/2023/05/18/no-one-knows-about-my-most-successful/">My most successful UX project (that no one knows about)</a>
+            </li>
+            
+            <li>
+                2023-01-27:
+                <a href="https://spydergrrl.com/2023/01/27/spydergrrl-talks-ux-theatre-on-good/">spydergrrl talks UX Theatre on Good Morning UX</a>
+            </li>
+            
+            <li>
+                2022-04-19:
+                <a href="https://spydergrrl.com/2022/04/19/human-centered-performance-reviews/">Designing human-centered performance reviews</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Felienne Hermans
+            <span class="feed-url">(https://www.felienne.com/feed)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-06-05:
+                <a href="https://www.felienne.com/archives/8392">Why *not* to use LLMs in computer science education?</a>
+            </li>
+            
+            <li>
+                2024-06-03:
+                <a href="https://www.felienne.com/archives/8367">Why to use LLMs in computer science education?</a>
+            </li>
+            
+            <li>
+                2024-05-29:
+                <a href="https://www.felienne.com/archives/8364">Why so fatalistic about AI?</a>
+            </li>
+            
+            <li>
+                2024-04-03:
+                <a href="https://www.felienne.com/archives/8314">We need a ring theory for sexism (and other injustices)</a>
+            </li>
+            
+            <li>
+                2024-01-10:
+                <a href="https://www.felienne.com/archives/8136">The case of Claudine Gay was not about  plagiarism</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Fernando Borretti
+            <span class="feed-url">(https://borretti.me/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-06-05:
+                <a href="https://borretti.me/article/the-best-emacs-microfeature">The Best Emacs Microfeature</a>
+            </li>
+            
+            <li>
+                2024-06-02:
+                <a href="https://borretti.me/article/the-design-space-of-wikis">The Design Space of Wikis</a>
+            </li>
+            
+            <li>
+                2024-03-29:
+                <a href="https://borretti.me/article/type-inference-was-a-mistake">Type Inference Was a Mistake</a>
+            </li>
+            
+            <li>
+                2024-01-05:
+                <a href="https://borretti.me/article/thoughts-llm-agents">Thoughts on LLM Agents</a>
+            </li>
+            
+            <li>
+                2023-07-30:
+                <a href="https://borretti.me/article/you-need-more-constraints">You Need More Constraints</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Pablo Curell Mompo&#39;s
+            <span class="feed-url">(https://blog.codemanship.dev/rss.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-05-29:
+                <a href="https://blog.codemanship.dev/retrospectives">Retrospectives</a>
+            </li>
+            
+            <li>
+                2024-05-27:
+                <a href="https://blog.codemanship.dev/so-we-tried-ensemble-programming">So we tried Ensemble Programming</a>
+            </li>
+            
+            <li>
+                2024-03-06:
+                <a href="https://blog.codemanship.dev/test-factories-should-not-have-randomness-but-why">Test factories should not have randomness, but... Why?</a>
+            </li>
+            
+            <li>
+                2024-01-31:
+                <a href="https://blog.codemanship.dev/dependencies-in-knowledge-and-practices">Dependencies in Knowledge and Practices</a>
+            </li>
+            
+            <li>
+                2023-10-27:
+                <a href="https://blog.codemanship.dev/some-subjects-are-inherently-better-to-learn">Some subjects are inherently better to learn</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Matthew Skelton
+            <span class="feed-url">(https://blog.matthewskelton.net/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-05-21:
+                <a href="https://blog.matthewskelton.net/2024/05/21/they-tried-to-make-me-do-a-reorg-but-i-said-no-no-no/">They tried to make me do a reorg, but I said no, no, no</a>
+            </li>
+            
+            <li>
+                2023-08-15:
+                <a href="https://blog.matthewskelton.net/2023/08/15/how-to-write-a-talk-about-team-topologies/">How to write a talk about Team Topologies</a>
+            </li>
+            
+            <li>
+                2023-04-08:
+                <a href="https://blog.matthewskelton.net/2023/04/08/expert-consultation-sessions-now-available-online/">Expert consultation sessions now available online</a>
+            </li>
+            
+            <li>
+                2020-03-17:
+                <a href="https://blog.matthewskelton.net/2020/03/17/why-are-deployment-pipelines-important/">Why are deployment pipelines important?</a>
+            </li>
+            
+            <li>
+                2019-03-14:
+                <a href="https://blog.matthewskelton.net/2019/03/14/tips-for-facilitating-round-table-discussions/">Tips for facilitating round-table discussions</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+             tis.so
+            <span class="feed-url">(https://tis.so/feed.rss)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-05-08:
+                <a href="https://tis.so/transmission"> Transmission </a>
+            </li>
+            
+            <li>
+                2024-05-07:
+                <a href="https://tis.so/magic-rites-in-the-lore-of-economics"> Magic rites in the lore of economics </a>
+            </li>
+            
+            <li>
+                2024-05-06:
+                <a href="https://tis.so/aesthetics-as-holistic-systems-analysis"> Aesthetics as holistic systems analysis </a>
+            </li>
+            
+            <li>
+                2024-05-05:
+                <a href="https://tis.so/boundaries-and-agents"> Boundaries and agents </a>
+            </li>
+            
+            <li>
+                2024-05-04:
+                <a href="https://tis.so/on-dexterity"> On dexterity </a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            ThinkingLabs
+            <span class="feed-url">(https://thinkinglabs.io/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-05-06:
+                <a href="https://thinkinglabs.io/articles/2024/05/06/a-cost-savings-case-for-team-topologies.html">A Cost-Savings Case for Team Topologies</a>
+            </li>
+            
+            <li>
+                2024-04-01:
+                <a href="https://thinkinglabs.io/articles/2024/04/01/what-works-for-me-as-a-speaker.html">What Works For Me as a Speaker</a>
+            </li>
+            
+            <li>
+                2024-03-17:
+                <a href="https://thinkinglabs.io/notes/2024/03/17/leanagilex-no-more-estimates-a-teams-story-of-transcending-story-points-antre-schweighofer.html">Notes - No more estimates: a team’s story of transcending story points</a>
+            </li>
+            
+            <li>
+                2024-03-17:
+                <a href="https://thinkinglabs.io/notes/2024/03/17/dddeu-estimates-or-noestimates-lets-explore-the-possibilities-woody-zuil.html">Notes - Estimates or No Estimates, Let’s explore the possibilities</a>
+            </li>
+            
+            <li>
+                2024-02-22:
+                <a href="https://thinkinglabs.io/articles/2024/02/22/the-good-and-the-dysfunctional-of-pull-requests.html">The Good and the Dysfunctional of Pull Requests</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            More Questions Than Answers
+            <span class="feed-url">(https://unremarkabletester.com/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-05-01:
+                <a href="https://unremarkabletester.com/2024/05/01/three-ingredients-for-tasty-platform-capabilities/">Three Ingredients for Tasty Platform Capabilities</a>
+            </li>
+            
+            <li>
+                2023-05-25:
+                <a href="https://unremarkabletester.com/2023/05/25/how-product-management-can-improve-development-experience/">How Product Management can Improve Development Experience</a>
+            </li>
+            
+            <li>
+                2023-05-16:
+                <a href="https://unremarkabletester.com/2023/05/16/care-tips-for-product-plans/">Care Tips for Product Plans</a>
+            </li>
+            
+            <li>
+                2022-11-28:
+                <a href="https://unremarkabletester.com/2022/11/28/developer-collaboration-practices/">Developer Collaboration Practices</a>
+            </li>
+            
+            <li>
+                2022-11-13:
+                <a href="https://unremarkabletester.com/2022/11/13/__trashed/">Intentionally “Failing” the DORA Metrics</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Scott Hanselman&#39;s Blog
+            <span class="feed-url">(http://feeds.hanselman.com/ScottHanselman)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-04-25:
+                <a href="http://feeds.hanselman.com/~/882544025/0/scotthanselman~Open-Sourcing-DOS">Open Sourcing DOS 4</a>
+            </li>
+            
+            <li>
+                2024-03-07:
+                <a href="http://feeds.hanselman.com/~/873234002/0/scotthanselman~Updating-to-NET-updating-to-IHostBuilder-and-running-Playwright-Tests-within-NUnit-headless-or-headed-on-any-OS">Updating to .NET 8, updating to IHostBuilder, and running Playwright Tests within NUnit headless or headed on any OS</a>
+            </li>
+            
+            <li>
+                2023-06-27:
+                <a href="http://feeds.hanselman.com/~/749206136/0/scotthanselman~Using-WSL-and-Lets-Encrypt-to-create-Azure-App-Service-SSL-Wildcard-Certificates">Using WSL and Let&#39;s Encrypt to create Azure App Service SSL Wildcard Certificates</a>
+            </li>
+            
+            <li>
+                2023-04-25:
+                <a href="http://feeds.hanselman.com/~/737271731/0/scotthanselman~GitHub-Copilot-for-CLI-for-PowerShell">GitHub Copilot for CLI for PowerShell</a>
+            </li>
+            
+            <li>
+                2022-12-18:
+                <a href="http://feeds.hanselman.com/~/722495722/0/scotthanselman~Use-your-own-user-domain-for-Mastodon-discoverability-with-the-WebFinger-Protocol-without-hosting-a-server">Use your own user @ domain for Mastodon discoverability with the WebFinger Protocol without hosting a server</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Jennifer++
+            <span class="feed-url">(https://jenniferplusplus.com/rss/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-04-05:
+                <a href="https://jenniferplusplus.com/the-free-software-commons/">The free software commons</a>
+            </li>
+            
+            <li>
+                2023-12-25:
+                <a href="https://jenniferplusplus.com/no-universal-translators/">Letterbook - No universal translators</a>
+            </li>
+            
+            <li>
+                2023-08-16:
+                <a href="https://jenniferplusplus.com/letterbook/">Letterbook</a>
+            </li>
+            
+            <li>
+                2023-05-31:
+                <a href="https://jenniferplusplus.com/mental-maps-part-2-incidents-and-observability/">Mental maps, part 2: incidents and observability</a>
+            </li>
+            
+            <li>
+                2023-05-24:
+                <a href="https://jenniferplusplus.com/complex-vs-complicated/">Complex vs complicated</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Musings about software
+            <span class="feed-url">(https://www.softwaremaxims.com/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-04-01:
+                <a href="https://softwaremaxims.com/blog/open-source-hobbyists-turf">You Are All On The Hobbyists Maintainers’ Turf Now</a>
+            </li>
+            
+            <li>
+                2023-08-23:
+                <a href="https://softwaremaxims.com/blog/memory-safety-end-history">Where did the Rust go?</a>
+            </li>
+            
+            <li>
+                2023-07-14:
+                <a href="https://softwaremaxims.com/blog/cloud-not-optional">The Cloud Is Not Optional</a>
+            </li>
+            
+            <li>
+                2023-06-06:
+                <a href="https://softwaremaxims.com/blog/remove-constraints">Remove Constraints To Get Results</a>
+            </li>
+            
+            <li>
+                2023-05-27:
+                <a href="https://softwaremaxims.com/blog/2fa-community-participation">What Security Tokens For 2FA Say About FOSS Consumers</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Stories by Dupdob on Medium
+            <span class="feed-url">(https://medium.com/feed/@Cyrdup)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-03-26:
+                <a href="https://medium.com/@Cyrdup/viendez-bosser-chez-nous-8b6942532cbe?source=rss-1824ed49307c------2">Viendez bosser chez nous!</a>
+            </li>
+            
+            <li>
+                2023-04-11:
+                <a href="https://medium.com/@Cyrdup/tests-unitaires-5-certaines-lignes-de-code-nont-pas-besoin-de-test-5cf5096e2942?source=rss-1824ed49307c------2">Tests unitaires #5: certaines lignes de code n’ont pas besoin de test</a>
+            </li>
+            
+            <li>
+                2023-03-07:
+                <a href="https://medium.com/@Cyrdup/icm-4-the-anger-52eb9fba6dfa?source=rss-1824ed49307c------2">ICM #4: The anger</a>
+            </li>
+            
+            <li>
+                2023-03-01:
+                <a href="https://medium.com/@Cyrdup/icm-3-the-lie-e6ea40222351?source=rss-1824ed49307c------2">ICM #3: The lie</a>
+            </li>
+            
+            <li>
+                2023-02-24:
+                <a href="https://medium.com/@Cyrdup/icm-2-conways-law-4ce72d730d15?source=rss-1824ed49307c------2">ICM #2: Conway’s Law</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Mathias Verraes
+            <span class="feed-url">(https://verraes.net/feed.atom)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-03-10:
+                <a href="https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/">How to Fix a Bug: Tests, Hypotheses, Timeboxes</a>
+            </li>
+            
+            <li>
+                2024-01-08:
+                <a href="https://verraes.net/2024/01/critical-software-redesign/">Critical Software Redesign: Creating the Environment for Large Scale Change</a>
+            </li>
+            
+            <li>
+                2023-07-03:
+                <a href="https://verraes.net/2023/07/surfacing-worldviews-in-design/">Surfacing Worldviews in Design</a>
+            </li>
+            
+            <li>
+                2023-05-28:
+                <a href="https://verraes.net/2023/05/eventsourcing-testing-patterns/">EventSourcing Testing Patterns</a>
+            </li>
+            
+            <li>
+                2023-05-16:
+                <a href="https://verraes.net/2023/05/devjourney-podcast/">From Music to Languages and Models (DevJourney Podcast)</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            GeePawHill.org
+            <span class="feed-url">(https://www.geepawhill.org/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-02-23:
+                <a href="https://www.geepawhill.org/2024/02/23/optimize-for-our-humans/">Optimize for Our Humans</a>
+            </li>
+            
+            <li>
+                2023-02-02:
+                <a href="https://www.geepawhill.org/2023/02/02/why-only-change-frames/">Why Only Change Frames?</a>
+            </li>
+            
+            <li>
+                2023-01-26:
+                <a href="https://www.geepawhill.org/2023/01/26/the-frame-changing-triad/">The Frame-Changing Triad</a>
+            </li>
+            
+            <li>
+                2023-01-20:
+                <a href="https://www.geepawhill.org/2023/01/20/changing-the-frame/">Changing The Frame</a>
+            </li>
+            
+            <li>
+                2022-11-11:
+                <a href="https://www.geepawhill.org/2022/11/11/slowing-decisions-down/">Slowing Decisions Down</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            esther derby associates, inc.
+            <span class="feed-url">(https://www.estherderby.com/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-02-15:
+                <a href="https://estherderby.com/what-is-in-your-organizational-closet/">What Is in Your Organizational Closet?</a>
+            </li>
+            
+            <li>
+                2022-01-18:
+                <a href="https://estherderby.com/shaping-patterns/">Shaping Patterns</a>
+            </li>
+            
+            <li>
+                2021-11-15:
+                <a href="https://estherderby.com/the-fingerprint-principle/">The Fingerprint Principle</a>
+            </li>
+            
+            <li>
+                2021-08-10:
+                <a href="https://estherderby.com/the-forest-succession-principle/">The Forest Succession Principle</a>
+            </li>
+            
+            <li>
+                2021-05-23:
+                <a href="https://estherderby.com/filling-a-team-position/">Filling a Team Position</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Chocolate Driven Development
+            <span class="feed-url">(https://chocolatedrivendevelopment.com/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-02-13:
+                <a href="https://chocolatedrivendevelopment.com/2024/02/13/dependency-graphs/">Dependency graphs as a design tool</a>
+            </li>
+            
+            <li>
+                2024-01-18:
+                <a href="https://chocolatedrivendevelopment.com/2024/01/18/tdd-as-a-code-reading-tool/">TDD in the context of writing code to be read</a>
+            </li>
+            
+            <li>
+                2023-11-23:
+                <a href="https://chocolatedrivendevelopment.com/2023/11/23/review/">Publish first, review later</a>
+            </li>
+            
+            <li>
+                2023-11-23:
+                <a href="https://chocolatedrivendevelopment.com/2023/11/23/wunderbaum/">Wunderbaum testing</a>
+            </li>
+            
+            <li>
+                2023-11-16:
+                <a href="https://chocolatedrivendevelopment.com/2023/11/16/question-trick/">The question trick</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            uncenter.dev
+            <span class="feed-url">(https://uncenter.dev/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-01-31:
+                <a href="https://uncenter.dev/posts/learning-fortran/">Learning the oldest programming language</a>
+            </li>
+            
+            <li>
+                2024-01-03:
+                <a href="https://uncenter.dev/posts/npm-install-everything/">The package that broke npm (accidentally)</a>
+            </li>
+            
+            <li>
+                2023-03-23:
+                <a href="https://uncenter.dev/posts/spellchecking-with-eleventy/">Spell-checking blog posts with cSpell</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            jakelazaroff.com
+            <span class="feed-url">(https://jakelazaroff.com/rss.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-01-29:
+                <a href="https://jakelazaroff.com/words/the-web-component-success-story/">The Web Component Success Story</a>
+            </li>
+            
+            <li>
+                2024-01-03:
+                <a href="https://jakelazaroff.com/words/the-website-vs-web-app-dichotomy-doesnt-exist/">The Website vs. Web App Dichotomy Doesn&#39;t Exist</a>
+            </li>
+            
+            <li>
+                2023-11-27:
+                <a href="https://jakelazaroff.com/words/web-components-eliminate-javascript-framework-lock-in/">Web Components Eliminate JavaScript Framework Lock-in</a>
+            </li>
+            
+            <li>
+                2023-11-13:
+                <a href="https://jakelazaroff.com/words/frameworks-cover-up-skill-issues-and-thats-a-good-thing/">Frameworks Cover Up Skill Issues, And That&#39;s a Good Thing</a>
+            </li>
+            
+            <li>
+                2023-10-25:
+                <a href="https://jakelazaroff.com/words/web-components-will-outlive-your-javascript-framework/">Web Components Will Outlive Your JavaScript Framework</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            RSS Feed | Niko Heikkilä
+            <span class="feed-url">(https://nikoheikkila.fi/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-01-15:
+                <a href="https://nikoheikkila.fi/blog/film-review-poor-things-2023/">Film Review: Poor Things (2023)</a>
+            </li>
+            
+            <li>
+                2023-10-14:
+                <a href="https://nikoheikkila.fi/blog/five-essential-pointers-for-improving-your-product-and-process-quality/">Five Essential Pointers for Improving Your Product and Process Quality</a>
+            </li>
+            
+            <li>
+                2023-05-07:
+                <a href="https://nikoheikkila.fi/blog/clean-frontend-architecture-with-sveltekit/continuous-deployments/">Clean Frontend Architecture with SvelteKit: Enabling Safe and Continuous Deployments</a>
+            </li>
+            
+            <li>
+                2023-05-03:
+                <a href="https://nikoheikkila.fi/blog/clean-frontend-architecture-with-sveltekit/acceptance-testing/">Clean Frontend Architecture with SvelteKit: Building Confidence with Acceptance Testing</a>
+            </li>
+            
+            <li>
+                2023-05-02:
+                <a href="https://nikoheikkila.fi/blog/clean-frontend-architecture-with-sveltekit/server-side-routes-and-components/">Clean Frontend Architecture with SvelteKit: Server-Side Routes and Components</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            ample code
+            <span class="feed-url">(https://einarwh.wordpress.com/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2024-01-12:
+                <a href="https://einarwh.wordpress.com/2024/01/12/the-ai-puppet-dance/">The AI Puppet Dance</a>
+            </li>
+            
+            <li>
+                2023-05-20:
+                <a href="https://einarwh.wordpress.com/2023/05/20/inspirational-math/">Inspirational math</a>
+            </li>
+            
+            <li>
+                2023-04-25:
+                <a href="https://einarwh.wordpress.com/2023/04/25/drift-into-debt/">Drift into debt</a>
+            </li>
+            
+            <li>
+                2023-03-29:
+                <a href="https://einarwh.wordpress.com/2023/03/29/dont-settle-for-a-playground/">Don’t settle for a playground</a>
+            </li>
+            
+            <li>
+                2023-02-05:
+                <a href="https://einarwh.wordpress.com/2023/02/05/dragging-a-dead-priest-programs-and-programmers-in-time/">Dragging a dead priest: programs and programmers in time</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Oddly Influenced
+            <span class="feed-url">(https://feeds.transistor.fm/oddly-influenced)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-12-31:
+                <a href="https://podcast.oddly-influenced.dev/episodes/e45-the-offloaded-brain-part-5-i-propose-a-software-design-style">E45: The offloaded brain, part 5: I propose a software design style</a>
+            </li>
+            
+            <li>
+                2023-12-04:
+                <a href="https://podcast.oddly-influenced.dev/episodes/e44-an-interview-with-david-chapman-about-the-offloaded-brain">E44: The offloaded brain, part 4: an interview with David Chapman</a>
+            </li>
+            
+            <li>
+                2023-11-07:
+                <a href="https://podcast.oddly-influenced.dev/episodes/e43-the-offloaded-brain-part-3-dynamical-systems">E43: The offloaded brain, part 3: dynamical systems</a>
+            </li>
+            
+            <li>
+                2023-10-27:
+                <a href="https://podcast.oddly-influenced.dev/episodes/e42-the-offloaded-brain-part-2-applications">E42: The offloaded brain, part 2: applications</a>
+            </li>
+            
+            <li>
+                2023-10-12:
+                <a href="https://podcast.oddly-influenced.dev/episodes/e41-the-offloaded-brain-part-1-behavior">E41: The offloaded brain, part 1: behavior</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            CodeAesthetic
+            <span class="feed-url">(https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-12-23:
+                <a href="https://www.youtube.com/watch?v=nuML9SmdbJ4">Dear Functional Bros</a>
+            </li>
+            
+            <li>
+                2023-08-04:
+                <a href="https://www.youtube.com/watch?v=J1f5b4vcxCQ">Dependency Injection, The Best Pattern</a>
+            </li>
+            
+            <li>
+                2023-02-10:
+                <a href="https://www.youtube.com/watch?v=tKbV6BpH-C8">Premature Optimization</a>
+            </li>
+            
+            <li>
+                2023-01-16:
+                <a href="https://www.youtube.com/watch?v=Bf7vDBBOBUA">Don&#39;t Write Comments</a>
+            </li>
+            
+            <li>
+                2022-12-22:
+                <a href="https://www.youtube.com/watch?v=hxGOiiR9ZKg">The Flaws of Inheritance</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            apenwarr
+            <span class="feed-url">(https://apenwarr.ca/log/rss.php)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-12-05:
+                <a href="https://apenwarr.ca/log/20231204">
+      NPS, the good parts
+    </a>
+            </li>
+            
+            <li>
+                2023-10-06:
+                <a href="https://apenwarr.ca/log/20231006">
+      Interesting
+    </a>
+            </li>
+            
+            <li>
+                2023-07-11:
+                <a href="https://apenwarr.ca/log/20230605">
+      Tech debt metaphor maximalism
+    </a>
+            </li>
+            
+            <li>
+                2023-07-11:
+                <a href="https://apenwarr.ca/log/20230415">
+      Systems design 2: What we hope we know
+    </a>
+            </li>
+            
+            <li>
+                2022-01-01:
+                <a href="https://apenwarr.ca/log/20211229">
+      The Gift of It&#39;s Your Problem Now
+    </a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Codemanship&#39;s Blog
+            <span class="feed-url">(https://codemanship.wordpress.com/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-12-01:
+                <a href="https://codemanship.wordpress.com/2023/12/01/the-bluffers-guide-to-principles-of-software-engineering-management/">The Bluffer’s Guide to Principles of Software Engineering Management</a>
+            </li>
+            
+            <li>
+                2023-11-29:
+                <a href="https://codemanship.wordpress.com/2023/11/29/the-bluffers-guide-to-a-spiral-model-of-software-development-and-enhancement/">The Bluffer’s Guide to A Spiral Model of Software Development and Enhancement</a>
+            </li>
+            
+            <li>
+                2023-11-24:
+                <a href="https://codemanship.wordpress.com/2023/11/24/the-bluffers-guide-to-managing-the-development-of-large-software-systems/">The Bluffer’s Guide to Managing The Development of Large Software Systems</a>
+            </li>
+            
+            <li>
+                2023-11-23:
+                <a href="https://codemanship.wordpress.com/2023/11/23/the-bluffers-guide-to-the-design-of-everyday-things/">The Bluffer’s Guide to The Design of Everyday Things</a>
+            </li>
+            
+            <li>
+                2023-11-22:
+                <a href="https://codemanship.wordpress.com/2023/11/22/the-bluffers-guide-to-structured-programming/">The Bluffer’s Guide to Structured Programming</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Coding Horror
+            <span class="feed-url">(https://blog.codinghorror.com/rss/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-11-30:
+                <a href="https://blog.codinghorror.com/i-fight-for-the-users/">I Fight For The Users</a>
+            </li>
+            
+            <li>
+                2022-03-04:
+                <a href="https://blog.codinghorror.com/the-2030-self-driving-car-bet/">The 2030 Self-Driving Car Bet</a>
+            </li>
+            
+            <li>
+                2021-12-31:
+                <a href="https://blog.codinghorror.com/updating-the-single-most-influential-book-of-the-basic-era/">Updating The Single Most Influential Book of the BASIC Era</a>
+            </li>
+            
+            <li>
+                2020-04-19:
+                <a href="https://blog.codinghorror.com/building-a-pc-part-ix-downsizing/">Building a PC, Part IX: Downsizing</a>
+            </li>
+            
+            <li>
+                2019-09-12:
+                <a href="https://blog.codinghorror.com/the-rise-of-the-electric-scooter/">The Rise of the Electric Scooter</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            One Page a Day Keeps the Burnout Away
+            <span class="feed-url">(https://businessjournaling.substack.com/feed)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-11-10:
+                <a href="https://businessjournaling.substack.com/p/journaling-is-much-more-than-just">Journaling is much more than “just” a business booster...</a>
+            </li>
+            
+            <li>
+                2023-11-03:
+                <a href="https://businessjournaling.substack.com/p/business-journaling-can-be-your-private">Business Journaling can be your private coach and sparring partner...</a>
+            </li>
+            
+            <li>
+                2023-10-27:
+                <a href="https://businessjournaling.substack.com/p/business-journaling-contains-several">Business Journaling contains several hidden, powerful effectiveness nuggets...</a>
+            </li>
+            
+            <li>
+                2023-10-20:
+                <a href="https://businessjournaling.substack.com/p/business-journaling-helps-you-to">Business Journaling helps you to develop your (professional) personality…</a>
+            </li>
+            
+            <li>
+                2023-10-13:
+                <a href="https://businessjournaling.substack.com/p/the-secrets-about-business-journaling">The Secrets about Business Journaling</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Blog on Dan North &amp; Associates Limited
+            <span class="feed-url">(https://dannorth.net/blog/index.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-10-23:
+                <a href="https://dannorth.net/hugo-redirects/">Using Hugo as a redirect service</a>
+            </li>
+            
+            <li>
+                2023-10-04:
+                <a href="https://dannorth.net/mckinsey-review/">McKinsey Developer Productivity Review</a>
+            </li>
+            
+            <li>
+                2023-09-02:
+                <a href="https://dannorth.net/the-worst-programmer/">The Worst Programmer I Know</a>
+            </li>
+            
+            <li>
+                2023-06-21:
+                <a href="https://dannorth.net/advice-to-a-new-speaker/">Advice to a New Speaker</a>
+            </li>
+            
+            <li>
+                2023-05-09:
+                <a href="https://dannorth.net/seek-first-to-understand/">Seek First to Understand</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Gregor Riegler
+            <span class="feed-url">(https://gregorriegler.com/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-10-21:
+                <a href="http://gregorriegler.com/2023/10/21/geecon-prague-summary.html">Takeaways from GeeCon Prague 2023</a>
+            </li>
+            
+            <li>
+                2023-01-30:
+                <a href="http://gregorriegler.com/2023/01/30/solo-programming-considered-bad.html">Solo Programming Considered Harmful</a>
+            </li>
+            
+            <li>
+                2022-07-21:
+                <a href="http://gregorriegler.com/2022/07/21/Getting-better-at-CI.html">Getting better at CI</a>
+            </li>
+            
+            <li>
+                2022-01-07:
+                <a href="http://gregorriegler.com/2022/01/07/running-a-company-coding-dojo.html">Running a Company Coding Dojo</a>
+            </li>
+            
+            <li>
+                2021-11-15:
+                <a href="http://gregorriegler.com/2021/11/15/Expense-Report-Kata-5.html">Expense Report Kata - Refactor Primitive Obsession (5/5)</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Niko Heikkilä
+            <span class="feed-url">(https://world.hey.com/niko.heikkila/feed.atom)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-10-14:
+                <a href="https://world.hey.com/niko.heikkila/five-essential-pointers-for-improving-your-product-and-process-quality-ca13c7dd">Five Essential Pointers for Improving Your Product and Process Quality</a>
+            </li>
+            
+            <li>
+                2023-10-06:
+                <a href="https://world.hey.com/niko.heikkila/feedback-friday-13413923">Feedback Friday</a>
+            </li>
+            
+            <li>
+                2023-06-02:
+                <a href="https://world.hey.com/niko.heikkila/podcast-on-pair-ensemble-programming-c462c19d">Podcast on Pair &amp; Ensemble Programming</a>
+            </li>
+            
+            <li>
+                2023-05-30:
+                <a href="https://world.hey.com/niko.heikkila/don-t-fall-in-love-with-your-end-to-end-tests-00e4f8e5">Don&#39;t Fall in Love With Your End-to-End Tests</a>
+            </li>
+            
+            <li>
+                2022-11-08:
+                <a href="https://world.hey.com/niko.heikkila/clear-writing-indicates-clear-thinking-dc2691d9">Clear Writing Indicates Clear Thinking</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Llama the ultimate
+            <span class="feed-url">(https://llama-the-ultimate.org/feed.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-08-20:
+                <a href="https://llama-the-ultimate.org/notes/datetime.html">A base 60 datetime format</a>
+            </li>
+            
+            <li>
+                2023-08-14:
+                <a href="https://llama-the-ultimate.org/notes/slides.html">Presentation-mode</a>
+            </li>
+            
+            <li>
+                2023-08-07:
+                <a href="https://llama-the-ultimate.org/notes/lines.html">Lines</a>
+            </li>
+            
+            <li>
+                2023-04-05:
+                <a href="https://llama-the-ultimate.org/notes/palette.html">An 8-bit palette</a>
+            </li>
+            
+            <li>
+                2023-04-04:
+                <a href="https://llama-the-ultimate.org/notes/elem.html">JavaScript DOM framework</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Coding Is Like Cooking
+            <span class="feed-url">(https://coding-is-like-cooking.info/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-08-07:
+                <a href="https://coding-is-like-cooking.info/2023/08/barbie/">Barbie</a>
+            </li>
+            
+            <li>
+                2023-02-20:
+                <a href="https://coding-is-like-cooking.info/2023/02/ive-gone-independent/">I’ve Gone Independent</a>
+            </li>
+            
+            <li>
+                2022-12-19:
+                <a href="https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/">Hold an Open Space Event in just One Hour</a>
+            </li>
+            
+            <li>
+                2022-06-30:
+                <a href="https://coding-is-like-cooking.info/2022/06/samman-coaching-in-2021/">Samman Coaching in 2021</a>
+            </li>
+            
+            <li>
+                2022-06-30:
+                <a href="https://coding-is-like-cooking.info/2022/06/book-review-practical-remote-pair-programming-by-adrian-bolboaca/">Book Review: Practical Remote Pair Programming by Adrian Bolboaca</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Hello world
+            <span class="feed-url">(https://qristin.wordpress.com/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-08-06:
+                <a href="https://qristin.wordpress.com/2023/08/06/hvordan-far-vi-det-private-til-a-levere-god-ux-innen-helse/">Hvordan får vi det private til å levere god UX innen helse?</a>
+            </li>
+            
+            <li>
+                2023-07-03:
+                <a href="https://qristin.wordpress.com/2023/07/03/akson-er-dodt-hva-na/">Akson er dødt – hva nå?</a>
+            </li>
+            
+            <li>
+                2022-08-28:
+                <a href="https://qristin.wordpress.com/2022/08/28/what-does-it-take-to-be-a-good-programmer/">What does it take to be a good programmer?</a>
+            </li>
+            
+            <li>
+                2020-08-03:
+                <a href="https://qristin.wordpress.com/2020/08/03/en-bok-til-11-milliarder/">En bok til 11 milliarder</a>
+            </li>
+            
+            <li>
+                2020-08-01:
+                <a href="https://qristin.wordpress.com/2020/08/01/nei-systemene-ma-ikke-snakke-sammen/">Nei, systemene må ikke snakke sammen</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Rise and Fall of DevOps - Medium
+            <span class="feed-url">(https://riseandfallofdevops.com/feed)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-06-13:
+                <a href="https://riseandfallofdevops.com/recommended-cd-resources-ae830a21ec40?source=rss----4e762a0ebc75---4">Recommended CD Resources</a>
+            </li>
+            
+            <li>
+                2023-03-20:
+                <a href="https://riseandfallofdevops.com/5-minute-devops-designing-product-teams-33b82e6c1c5c?source=rss----4e762a0ebc75---4">5 Minute DevOps: Designing Product Teams</a>
+            </li>
+            
+            <li>
+                2022-11-14:
+                <a href="https://riseandfallofdevops.com/5-minute-devops-pain-driven-development-e4d664be8cea?source=rss----4e762a0ebc75---4">5-Minute DevOps: Pain-Driven Development</a>
+            </li>
+            
+            <li>
+                2022-11-02:
+                <a href="https://riseandfallofdevops.com/5-minute-devops-cd-is-pointless-5c906d0fd164?source=rss----4e762a0ebc75---4">5 Minute DevOps: CD is Pointless</a>
+            </li>
+            
+            <li>
+                2022-10-20:
+                <a href="https://riseandfallofdevops.com/learning-from-interactions-at-the-devops-enterprise-summit-fb64a123629?source=rss----4e762a0ebc75---4">Learning from Interactions at the DevOps Enterprise Summit</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Sasha&#39;s blog
+            <span class="feed-url">(https://blog.ferrata.dev/rss/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-04-21:
+                <a href="https://blog.ferrata.dev/wrong-job-for-a-tool-but-a-fun-one/">Wrong job for a tool. But a fun one.</a>
+            </li>
+            
+            <li>
+                2023-02-22:
+                <a href="https://blog.ferrata.dev/team-equals-product/">Team equals Product</a>
+            </li>
+            
+            <li>
+                2023-02-08:
+                <a href="https://blog.ferrata.dev/better-struggle-together/">Better struggle together!</a>
+            </li>
+            
+            <li>
+                2022-12-10:
+                <a href="https://blog.ferrata.dev/hacking-ghost-blog-design/">Hacking Ghost blog design</a>
+            </li>
+            
+            <li>
+                2022-11-28:
+                <a href="https://blog.ferrata.dev/weaponize-your-imposter-syndrome/">Weaponize your imposter syndrome</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Samuel Ytterbrink
+            <span class="feed-url">(https://www.youtube.com/feeds/videos.xml?channel_id=UCgWtfN4QMkZq_zizqQh9dfw)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-04-09:
+                <a href="https://www.youtube.com/watch?v=XDZWv-AOefs">Showing how I code: Fixing issue 353 in purescript plugin</a>
+            </li>
+            
+            <li>
+                2023-03-10:
+                <a href="https://www.youtube.com/watch?v=T4cORywy2gA">Working on the Purescript intellij plugin in Kotlin</a>
+            </li>
+            
+            <li>
+                2023-03-08:
+                <a href="https://www.youtube.com/watch?v=LkHZIBTKh74">Refactoring Purescript using Intellij plugin [v0.75.10]</a>
+            </li>
+            
+            <li>
+                2023-03-04:
+                <a href="https://www.youtube.com/watch?v=RHMw8CeM-v4">Introduction with Purescript plugin for intellij [v0.75.0]</a>
+            </li>
+            
+            <li>
+                2023-02-21:
+                <a href="https://www.youtube.com/watch?v=vjr7DhQ0dDk">Purescript example using Deku and Intellij Purescript Plugin [v0.73.5]</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            CTPopup1
+            <span class="feed-url">(https://popup1.taymor.io/feed)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2023-02-07:
+                <a href="https://popup1.taymor.io/what-language-are-we-in?pk_campaign=rss-feed">What language are we in?</a>
+            </li>
+            
+            <li>
+                2023-01-31:
+                <a href="https://popup1.taymor.io/on-making-progress-on-gnarly-projects?pk_campaign=rss-feed">On making progress on gnarly projects</a>
+            </li>
+            
+            <li>
+                2023-01-25:
+                <a href="https://popup1.taymor.io/thoughts-on-learning-new-things?pk_campaign=rss-feed">Thoughts on learning new things</a>
+            </li>
+            
+            <li>
+                2023-01-20:
+                <a href="https://popup1.taymor.io/a-6-week-popup-blog-on-software-popup-1?pk_campaign=rss-feed">A 6 week popup blog on software - Popup 1</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Dave Farley’s Weblog
+            <span class="feed-url">(https://www.davefarley.net/?feed=rss2)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2022-12-10:
+                <a href="https://www.davefarley.net/?p=370">MSEC – The Modern Software Engineer’s Companion</a>
+            </li>
+            
+            <li>
+                2022-11-23:
+                <a href="https://www.davefarley.net/?p=366">5 Things I Learned About Being a Technical Lead</a>
+            </li>
+            
+            <li>
+                2022-07-15:
+                <a href="https://www.davefarley.net/?p=360">Team Topologies – Book Review</a>
+            </li>
+            
+            <li>
+                2022-01-30:
+                <a href="https://www.davefarley.net/?p=352">What is Modern Software Engineering?</a>
+            </li>
+            
+            <li>
+                2021-03-07:
+                <a href="https://www.davefarley.net/?p=341">Women in Computing</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Buffadoo
+            <span class="feed-url">(https://buffadoo.nl/feed/)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2022-12-01:
+                <a href="https://buffadoo.nl/2022/12/01/how-not-to-sell-technical-debt-dutch-system-architecture-conference/">How (not) to sell technical debt</a>
+            </li>
+            
+            <li>
+                2020-12-29:
+                <a href="https://buffadoo.nl/2020/12/29/the-hidden-costs-of-software-inventory/">The hidden costs of software inventory</a>
+            </li>
+            
+            <li>
+                2020-10-16:
+                <a href="https://buffadoo.nl/2020/10/16/lean/">Lean</a>
+            </li>
+            
+            <li>
+                2020-10-05:
+                <a href="https://buffadoo.nl/2020/10/05/the-gardeners-dilemma/">The gardeners dilemma</a>
+            </li>
+            
+            <li>
+                2020-10-05:
+                <a href="https://buffadoo.nl/2020/10/05/why-your-team-needs-a-code-down-ambition/">Your team needs a code down ambition</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Posts on Stian Lågstad
+            <span class="feed-url">(https://stianlagstad.no/posts/index.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2022-11-12:
+                <a href="https://stianlagstad.no/2022/11/how-to-install-nixos-on-a-raspberry-pi-3b/">How to install NixOS on a Raspberry Pi 3b</a>
+            </li>
+            
+            <li>
+                2022-10-23:
+                <a href="https://stianlagstad.no/2022/10/you-should-print-your-application-configuration-on-startup/">You should print your application configuration on startup</a>
+            </li>
+            
+            <li>
+                2022-08-06:
+                <a href="https://stianlagstad.no/2022/08/deploy-umami-analytics-with-kubernetes/">Deploy Umami analytics with Kubernetes</a>
+            </li>
+            
+            <li>
+                2022-05-29:
+                <a href="https://stianlagstad.no/2022/05/parse-dont-validate-python-edition/">Parse, don&#39;t validate - Python edition</a>
+            </li>
+            
+            <li>
+                2020-09-04:
+                <a href="https://stianlagstad.no/2020/09/dual-booting-nixos-and-windows-10-a-step-by-step-guide/">Dual booting NixOS and Windows 10 - A step by step guide</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+    <details>
+        <summary>
+            Alexis King’s Blog
+            <span class="feed-url">(https://lexi-lambda.github.io/feeds/all.atom.xml)</span>
+        </summary>
+        <ul>
+            
+            <li>
+                2021-03-25:
+                <a href="https://lexi-lambda.github.io/blog/2021/03/25/an-introduction-to-typeclass-metaprogramming/">An introduction to typeclass metaprogramming</a>
+            </li>
+            
+            <li>
+                2020-11-01:
+                <a href="https://lexi-lambda.github.io/blog/2020/11/01/names-are-not-type-safety/">Names are not type safety</a>
+            </li>
+            
+            <li>
+                2020-08-13:
+                <a href="https://lexi-lambda.github.io/blog/2020/08/13/types-as-axioms-or-playing-god-with-static-types/">Types as axioms, or: playing god with static types</a>
+            </li>
+            
+            <li>
+                2020-01-19:
+                <a href="https://lexi-lambda.github.io/blog/2020/01/19/no-dynamic-type-systems-are-not-inherently-more-open/">No, dynamic type systems are not inherently more open</a>
+            </li>
+            
+            <li>
+                2019-11-05:
+                <a href="https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/">Parse, don’t validate</a>
+            </li>
+            
+        </ul>
+    </details>
+    
+
+
+            
+        </main>
+    </body>
+</html>

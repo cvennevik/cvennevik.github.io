@@ -11,10 +11,11 @@ A page for me to dump pages to remember.
 
 - [Solo Programming Considered Harmful](https://gregorriegler.com/2023/01/30/solo-programming-considered-bad.html)
 
-## Blogs
+## Sites
 
 - [CTPopup1](https://popup1.taymor.io/)
 - [Llama the ultimate](https://llama-the-ultimate.org/)
+- [Esther Derby](https://estherderby.com/)
 
 ## Podcasts
 

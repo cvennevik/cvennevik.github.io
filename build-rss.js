@@ -133,10 +133,6 @@ for (const groupName in FEED_URL_GROUPS) {
         const items = feed.items
           .slice(0, MAX_ITEMS_PER_FEED)
           .map(item => {
-            if (url == 'https://garoof.no/feed.xml') {
-              item.link = item.link.replace('www.example.com', 'garoof.no'); // thanks garoof
-            }
-
             // Only keep the fields we use, to save space
             return {
               title: item.title,

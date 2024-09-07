@@ -112,6 +112,7 @@ const FEED_URL_GROUPS = {
     "https://lalaland.mataroa.blog/rss/",
     "https://garoof.no/feed.xml",
     "https://flamedfury.com/feed.xml",
+    "https://mikegrindle.com/feed.xml",
   ]
 };
 

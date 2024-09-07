@@ -130,6 +130,11 @@ for (const groupName in FEED_URL_GROUPS) {
         const body = await response.text();
         const feed = await parser.parseString(body);
         const items = feed.items
+          .sort((a, b) => {
+            if (a.isoDate == b.isoDate) return 0;
+            if (a.isoDate < b.isoDate) return 1;
+            return -1;
+          })
           .slice(0, MAX_ITEMS_PER_FEED)
           .map(item => {
             // Only keep the fields we use, to save space

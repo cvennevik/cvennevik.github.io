@@ -140,6 +140,7 @@ const FEED_URL_GROUPS = {
     "https://dbushell.com/notes/rss.xml",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCgWtfN4QMkZq_zizqQh9dfw",
     "https://lalaland.mataroa.blog/rss/",
+    "https://garoof.no/feed.xml",
   ]
 };
 
@@ -160,6 +161,10 @@ for (const groupName in FEED_URL_GROUPS) {
         const items = feed.items
           .slice(0, MAX_ITEMS_PER_FEED)
           .map(item => {
+            if (url == 'https://garoof.no/feed.xml') {
+              item.link = item.link.replace('www.example.com', 'garoof.no'); // thanks garoof
+            }
+
             // Only keep the fields we use, to save space
             return {
               title: item.title,

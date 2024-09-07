@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "New Music Friday #1",
+              "isoDate": "2024-09-07T08:47:12.000Z",
+              "link": "https://flamedfury.com/posts/new-music-friday-1/"
+            },
+            {
+              "title": "Monthly Recap: August 2024",
+              "isoDate": "2024-09-02T03:54:13.000Z",
+              "link": "https://flamedfury.com/posts/monthly-recap-august-2024/"
+            },
+            {
+              "title": "Millennial Energy",
+              "isoDate": "2024-08-17T23:58:10.000Z",
+              "link": "https://flamedfury.com/posts/millennial-energy/"
+            },
+            {
+              "title": "What's Your Style?",
+              "isoDate": "2024-08-15T16:15:52.000Z",
+              "link": "https://flamedfury.com/posts/whats-your-style/"
+            },
+            {
+              "title": "IndieWeb 101",
+              "isoDate": "2024-08-14T22:20:54.000Z",
+              "link": "https://flamedfury.com/posts/indieweb-101/"
+            }
+          ]
+        },
+        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -2348,6 +2379,6 @@
       ]
     }
   ],
-  "fetchDate": "2024-09-07T11:09:09.657Z",
+  "fetchDate": "2024-09-07T11:12:02.615Z",
   "errors": []
 }

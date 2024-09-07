@@ -58,7 +58,6 @@ const FEED_URL_GROUPS = {
     "https://buttondown.email/hillelwayne/rss",
     "https://adrianroselli.com/feed",
     "https://www.geepawhill.org/feed/",
-    "https://www.estherderby.com/feed/",
     "https://cutlefish.substack.com/feed",
     "https://heydonworks.com/feed.xml",
     "https://verraes.net/feed.atom",

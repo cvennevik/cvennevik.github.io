@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "The Beautiful Mess",
+          "feedUrl": "https://cutlefish.substack.com/feed",
+          "items": [
+            {
+              "title": "TBM 310: Trees, Journeys, and Loops (and the Functional Model Trap)",
+              "isoDate": "2024-09-15T18:57:15.000Z",
+              "link": "https://cutlefish.substack.com/p/tbm-310-trees-journeys-and-loops"
+            },
+            {
+              "title": "TBM 309: Zombie Practices and Processes",
+              "isoDate": "2024-09-08T05:40:42.000Z",
+              "link": "https://cutlefish.substack.com/p/tbm-309-zombie-practices-and-processes"
+            },
+            {
+              "title": "TBM 308: Boundary of Safely Challenged Assumptions",
+              "isoDate": "2024-09-01T19:15:06.000Z",
+              "link": "https://cutlefish.substack.com/p/tbm-308-boundary-of-safely-challenged"
+            },
+            {
+              "title": "The \"X\" Files (65.57% of 2024 Edition)",
+              "isoDate": "2024-08-28T06:32:23.000Z",
+              "link": "https://cutlefish.substack.com/p/the-x-files-6557-of-2024-edition"
+            },
+            {
+              "title": "TBM 308: No Unforced Errors",
+              "isoDate": "2024-08-25T18:36:08.000Z",
+              "link": "https://cutlefish.substack.com/p/tbm-308-no-unforced-errors"
+            }
+          ]
+        },
+        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -605,37 +636,6 @@
               "title": "Book: Down and out in the Magic Kingdom – Cory Doctorow",
               "isoDate": "2024-08-26T10:26:22.000Z",
               "link": "https://rosswintle.uk/2024/08/book-down-and-out-in-the-magic-kingdom-cory-doctorow/"
-            }
-          ]
-        },
-        {
-          "title": "The Beautiful Mess",
-          "feedUrl": "https://cutlefish.substack.com/feed",
-          "items": [
-            {
-              "title": "TBM 309: Zombie Practices and Processes",
-              "isoDate": "2024-09-08T05:40:42.000Z",
-              "link": "https://cutlefish.substack.com/p/tbm-309-zombie-practices-and-processes"
-            },
-            {
-              "title": "TBM 308: Boundary of Safely Challenged Assumptions",
-              "isoDate": "2024-09-01T19:15:06.000Z",
-              "link": "https://cutlefish.substack.com/p/tbm-308-boundary-of-safely-challenged"
-            },
-            {
-              "title": "The \"X\" Files (65.57% of 2024 Edition)",
-              "isoDate": "2024-08-28T06:32:23.000Z",
-              "link": "https://cutlefish.substack.com/p/the-x-files-6557-of-2024-edition"
-            },
-            {
-              "title": "TBM 308: No Unforced Errors",
-              "isoDate": "2024-08-25T18:36:08.000Z",
-              "link": "https://cutlefish.substack.com/p/tbm-308-no-unforced-errors"
-            },
-            {
-              "title": "TBM 307: The \"P\" Word, Legitimacy, and Challenging Our Default Models and Frames",
-              "isoDate": "2024-08-18T18:12:06.000Z",
-              "link": "https://cutlefish.substack.com/p/tbm-307-the-p-word-legitimacy-and"
             }
           ]
         },
@@ -1504,6 +1504,37 @@
               "title": "Iteration Is The Only Way I Know",
               "isoDate": "2023-10-28T05:57:35.000Z",
               "link": "https://nonlinear.garden/archive/iteration-is-the-only-way-i-know/"
+            }
+          ]
+        },
+        {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "Memories of some fantastic internships",
+              "isoDate": "2024-07-31T00:00:00.000Z",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships"
+            },
+            {
+              "title": "Playing like a kid again",
+              "isoDate": "2024-06-30T00:00:00.000Z",
+              "link": "https://dubroy.com/blog/playing-like-a-kid-again"
+            },
+            {
+              "title": "Taking learning seriously",
+              "isoDate": "2024-05-30T00:00:00.000Z",
+              "link": "https://dubroy.com/blog/taking-learning-seriously"
+            },
+            {
+              "title": "Bytecode VMs in surprising places",
+              "isoDate": "2024-04-30T00:00:00.000Z",
+              "link": "https://dubroy.com/blog/bytecode-vms-in-surprising-places"
+            },
+            {
+              "title": "Two little interpreters",
+              "isoDate": "2024-03-26T00:00:00.000Z",
+              "link": "https://dubroy.com/blog/two-little-interpreters"
             }
           ]
         },
@@ -2441,7 +2472,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-09-15T18:51:44.611Z",
+  "fetchDate": "2024-09-15T20:31:31.701Z",
   "errors": [
     "https://coding-is-like-cooking.info/feed/"
   ]

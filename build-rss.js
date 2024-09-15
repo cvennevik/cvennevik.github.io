@@ -116,6 +116,7 @@ const FEED_URL_GROUPS = {
     "https://sarajoy.dev/rss.xml",
     "https://molily.de/feed.xml",
     "https://fynn.be/feed.xml",
+    "https://dubroy.com/blog/rss.xml",
   ]
 };
 

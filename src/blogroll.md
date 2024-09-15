@@ -11,15 +11,16 @@ I keep finding sites I want to add, so to give every entry their time in the lim
 
 <style>
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   section {
     background-color: var(--foreground-color);
-    border: 0.25rem solid var(--border-color);
-    border-radius: 1rem;
-    box-shadow: 0 0 10px var(--border-color);
+    border: 0.1rem solid var(--border-color);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px var(--border-color);
     padding: 1rem;
+    padding-bottom: 0.75rem;
   }
 
   section + section {

@@ -105,6 +105,7 @@ _by Alex Russell_
 
 _by Keenan_
 
+- [I really like everyone on my blogroll, but I'm sorry to say that it must die](https://gkeenan.co/avgb/i-really-like-everyone-on-my-blogroll-but-im-sorry-to-say-that-it-must-die/)
 - [Please please please please please please share your big dumb beautiful self with the world](https://gkeenan.co/avgb/please-please-please-please-please-please-share-your-big-dumb-beautiful-self-with-the-world)
 
 </section>
@@ -112,6 +113,8 @@ _by Keenan_
 <section>
 
 ## [Sara Joy](https://sarajoy.dev/)
+
+No particular links here - the front page is the best bit! Give it an explore!
 
 </section>
 

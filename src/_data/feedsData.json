@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Brief Note on Disclosures in Fieldsets",
+              "isoDate": "2024-09-14T12:34:04.000Z",
+              "link": "https://adrianroselli.com/2024/09/brief-note-on-disclosures-in-fieldsets.html"
+            },
+            {
+              "title": "Under-Engineered Estimated Reading Time Feature",
+              "isoDate": "2024-09-02T04:13:40.000Z",
+              "link": "https://adrianroselli.com/2024/09/under-engineered-estimated-reading-time-feature.html"
+            },
+            {
+              "title": "Semi-Annual Reminder to Learn and Hire for Web Standards",
+              "isoDate": "2024-09-01T05:52:24.000Z",
+              "link": "https://adrianroselli.com/2024/09/semi-annual-reminder-to-learn-and-hire-for-web-standards.html"
+            },
+            {
+              "title": "Mountain Chicken!",
+              "isoDate": "2024-08-30T11:54:18.000Z",
+              "link": "https://adrianroselli.com/2024/08/mountain-chicken.html"
+            },
+            {
+              "title": "Talkin’ Tables — WebAIM Conference 2024",
+              "isoDate": "2024-08-28T16:00:36.000Z",
+              "link": "https://adrianroselli.com/2024/08/talkin-tables-webaim-conference-2024.html"
+            }
+          ]
+        },
+        {
+          "title": "Fynn Becker",
+          "feedUrl": "https://fynn.be/feed.xml",
+          "items": [
+            {
+              "title": "I rebuilt my website from scratch with WebC",
+              "isoDate": "2024-09-14T12:00:00.000Z",
+              "link": "https://fynn.be/blog/website-rebuilt-webc/"
+            },
+            {
+              "title": "Farewell Star Trek: Discovery",
+              "isoDate": "2024-05-30T12:00:00.000Z",
+              "link": "https://fynn.be/blog/farewell-star-trek-discovery/"
+            },
+            {
+              "title": "Forced colors and Windows contrast themes",
+              "isoDate": "2024-05-16T12:00:00.000Z",
+              "link": "https://fynn.be/talks/forced-colors-windows-contrast-themes/"
+            },
+            {
+              "title": "Accessibility is not a tech problem",
+              "isoDate": "2024-04-23T12:00:00.000Z",
+              "link": "https://fynn.be/talks/accessibility-is-not-a-tech-problem/"
+            },
+            {
+              "title": "Sunset v25",
+              "isoDate": "2023-11-16T12:00:00.000Z",
+              "link": "https://fynn.be/sunset/v25/"
+            }
+          ]
+        },
+        {
+          "title": " The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": " Is Safari now a bad web browser? ",
+              "isoDate": "2024-09-14T11:04:31.000Z",
+              "link": "http://thejollyteapot.com/2024/09/14/is-safari-now-a-bad-web-browser"
+            },
+            {
+              "title": " Nine quick observations from the 2024 iPhone event ",
+              "isoDate": "2024-09-10T07:36:25.000Z",
+              "link": "http://thejollyteapot.com/2024/09/10/nine-quick-observations-from-the-2024-iphone-event"
+            },
+            {
+              "title": " One year of publishing “Blend of links” posts ",
+              "isoDate": "2024-09-08T17:08:21.000Z",
+              "link": "http://thejollyteapot.com/2024/09/8/one-year-of-publishing-blend-of-links-posts"
+            },
+            {
+              "title": " Maybe news websites can stop embedding tweets now ",
+              "isoDate": "2024-09-01T19:17:52.000Z",
+              "link": "http://thejollyteapot.com/2024/09/1/maybe-news-websites-can-stop-embedding-tweets-now"
+            },
+            {
+              "title": " August 2024 blend of links ",
+              "isoDate": "2024-08-28T19:53:52.000Z",
+              "link": "http://thejollyteapot.com/august-2024-blend"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Netscape, Now!",
+              "isoDate": "2024-09-13T00:00:00.000Z",
+              "link": "https://moonbase.lgbt/blog/netscape-now/"
+            },
+            {
+              "title": "I don’t want to go back.",
+              "isoDate": "2024-09-11T00:00:00.000Z",
+              "link": "https://moonbase.lgbt/blog/i-dont-want-to-go-back/"
+            },
+            {
+              "title": "I want to order a pizza.",
+              "isoDate": "2024-06-16T00:00:00.000Z",
+              "link": "https://moonbase.lgbt/blog/i-want-to-order-a-pizza/"
+            },
+            {
+              "title": "Lightning Talk: Fizz Buzz, Again",
+              "isoDate": "2024-05-31T00:00:00.000Z",
+              "link": "https://moonbase.lgbt/blog/fizz-buzz-again/"
+            },
+            {
+              "title": "How My Blog Handles Images",
+              "isoDate": "2024-02-05T00:00:00.000Z",
+              "link": "https://moonbase.lgbt/blog/how-my-blog-handles-images/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (microblog)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -26,6 +150,37 @@
             {
               "isoDate": "2024-09-03T06:17:00.000Z",
               "link": "https://dbushell.com/notes/2024-09-03T06:17Z/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Reasons I still love the fish shell",
+              "isoDate": "2024-09-12T15:09:12.000Z",
+              "link": "https://jvns.ca/blog/2024/09/12/reasons-i--still--love-fish/"
+            },
+            {
+              "title": "Migrating Mess With DNS to use PowerDNS",
+              "isoDate": "2024-08-19T08:15:28.000Z",
+              "link": "https://jvns.ca/blog/2024/08/19/migrating-mess-with-dns-to-use-powerdns/"
+            },
+            {
+              "title": "Go structs are copied on assignment (and other things about Go I'd missed)",
+              "isoDate": "2024-08-06T08:38:35.000Z",
+              "link": "https://jvns.ca/blog/2024/08/06/go-structs-copied-on-assignment/"
+            },
+            {
+              "title": "Entering text in the terminal is complicated",
+              "isoDate": "2024-07-08T13:00:15.000Z",
+              "link": "https://jvns.ca/blog/2024/07/08/readline/"
+            },
+            {
+              "title": "Reasons to use your shell's job control",
+              "isoDate": "2024-07-03T08:00:20.000Z",
+              "link": "https://jvns.ca/blog/2024/07/03/reasons-to-use-job-control/"
             }
           ]
         },
@@ -185,33 +340,33 @@
           ]
         },
         {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "title": "molily",
+          "feedUrl": "https://molily.de/feed.xml",
           "items": [
             {
-              "title": "I don’t want to go back.",
-              "isoDate": "2024-09-11T00:00:00.000Z",
-              "link": "https://moonbase.lgbt/blog/i-dont-want-to-go-back/"
+              "title": "Something went wrong",
+              "isoDate": "2024-09-10T22:00:00.000Z",
+              "link": "https://molily.de/something-went-wrong/"
             },
             {
-              "title": "I want to order a pizza.",
-              "isoDate": "2024-06-16T00:00:00.000Z",
-              "link": "https://moonbase.lgbt/blog/i-want-to-order-a-pizza/"
+              "title": "Full circle development",
+              "isoDate": "2023-11-10T23:00:00.000Z",
+              "link": "https://molily.de/full-circle-development/"
             },
             {
-              "title": "How My Blog Handles Images",
-              "isoDate": "2024-02-05T00:00:00.000Z",
-              "link": "https://moonbase.lgbt/blog/how-my-blog-handles-images/"
+              "title": "Planet of the Beavers",
+              "isoDate": "2023-10-06T22:00:00.000Z",
+              "link": "https://molily.de/planet-of-the-beavers/"
             },
             {
-              "title": "Minimum Wage Clock",
-              "isoDate": "2024-01-04T00:00:00.000Z",
-              "link": "https://moonbase.lgbt/blog/minimum-wage-clock/"
+              "title": "On browser compatibility and support baselines",
+              "isoDate": "2023-05-12T22:00:00.000Z",
+              "link": "https://molily.de/browser-compatibility-baseline/"
             },
             {
-              "title": "I want to see my friends’ posts.",
-              "isoDate": "2023-12-31T00:00:00.000Z",
-              "link": "https://moonbase.lgbt/blog/i-want-to-see-my-friends-posts/"
+              "title": "ECMAScript modules and browser compatibility",
+              "isoDate": "2023-04-20T22:00:00.000Z",
+              "link": "https://molily.de/ecmascript-modules/"
             }
           ]
         },
@@ -243,37 +398,6 @@
               "title": "Texttools dot py",
               "isoDate": "2024-08-14T17:19:46.000Z",
               "link": "https://buttondown.com/hillelwayne/archive/texttools-dot-py/"
-            }
-          ]
-        },
-        {
-          "title": " The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": " Nine quick observations from the 2024 iPhone event ",
-              "isoDate": "2024-09-10T07:36:25.000Z",
-              "link": "http://thejollyteapot.com/2024/09/10/nine-quick-observations-from-the-2024-iphone-event"
-            },
-            {
-              "title": " One year of publishing “Blend of links” posts ",
-              "isoDate": "2024-09-08T17:08:21.000Z",
-              "link": "http://thejollyteapot.com/2024/09/8/one-year-of-publishing-blend-of-links-posts"
-            },
-            {
-              "title": " Maybe news websites can stop embedding tweets now ",
-              "isoDate": "2024-09-01T19:17:52.000Z",
-              "link": "http://thejollyteapot.com/2024/09/1/maybe-news-websites-can-stop-embedding-tweets-now"
-            },
-            {
-              "title": " August blend of links ",
-              "isoDate": "2024-08-28T19:53:52.000Z",
-              "link": "http://thejollyteapot.com/august-2024-blend"
-            },
-            {
-              "title": " July blend of links ",
-              "isoDate": "2024-07-26T20:40:10.000Z",
-              "link": "http://thejollyteapot.com/july-2024-blend"
             }
           ]
         },
@@ -764,37 +888,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Under-Engineered Estimated Reading Time Feature",
-              "isoDate": "2024-09-02T04:13:40.000Z",
-              "link": "https://adrianroselli.com/2024/09/under-engineered-estimated-reading-time-feature.html"
-            },
-            {
-              "title": "Semi-Annual Reminder to Learn and Hire for Web Standards",
-              "isoDate": "2024-09-01T05:52:24.000Z",
-              "link": "https://adrianroselli.com/2024/09/semi-annual-reminder-to-learn-and-hire-for-web-standards.html"
-            },
-            {
-              "title": "Mountain Chicken!",
-              "isoDate": "2024-08-30T11:54:18.000Z",
-              "link": "https://adrianroselli.com/2024/08/mountain-chicken.html"
-            },
-            {
-              "title": "Talkin’ Tables — WebAIM Conference 2024",
-              "isoDate": "2024-08-28T16:00:36.000Z",
-              "link": "https://adrianroselli.com/2024/08/talkin-tables-webaim-conference-2024.html"
-            },
-            {
-              "title": "Before Filing that Keyboard Bug…",
-              "isoDate": "2024-08-14T16:22:57.000Z",
-              "link": "https://adrianroselli.com/2024/08/before-filing-that-keyboard-bug.html"
-            }
-          ]
-        },
-        {
           "title": "leanrada.com notes",
           "feedUrl": "https://leanrada.com/rss.xml",
           "items": [
@@ -1198,37 +1291,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Migrating Mess With DNS to use PowerDNS",
-              "isoDate": "2024-08-19T08:15:28.000Z",
-              "link": "https://jvns.ca/blog/2024/08/19/migrating-mess-with-dns-to-use-powerdns/"
-            },
-            {
-              "title": "Go structs are copied on assignment (and other things about Go I'd missed)",
-              "isoDate": "2024-08-06T08:38:35.000Z",
-              "link": "https://jvns.ca/blog/2024/08/06/go-structs-copied-on-assignment/"
-            },
-            {
-              "title": "Entering text in the terminal is complicated",
-              "isoDate": "2024-07-08T13:00:15.000Z",
-              "link": "https://jvns.ca/blog/2024/07/08/readline/"
-            },
-            {
-              "title": "Reasons to use your shell's job control",
-              "isoDate": "2024-07-03T08:00:20.000Z",
-              "link": "https://jvns.ca/blog/2024/07/03/reasons-to-use-job-control/"
-            },
-            {
-              "title": "New zine: How Git Works!",
-              "isoDate": "2024-06-03T09:45:11.000Z",
-              "link": "https://jvns.ca/blog/2024/04/25/new-zine--how-git-works-/"
-            }
-          ]
-        },
-        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -1504,6 +1566,37 @@
               "title": "In Search of Code Purity",
               "isoDate": "2024-01-19T15:00:11.000Z",
               "link": "https://www.youtube.com/watch?v=voRBS0r4EyI"
+            }
+          ]
+        },
+        {
+          "title": "Sara Joy",
+          "feedUrl": "https://sarajoy.dev/rss.xml",
+          "items": [
+            {
+              "title": "Weaknote 2024-07-25 (a tab amnesty)",
+              "isoDate": "2024-07-25T09:49:00.000Z",
+              "link": "https://sarajoy.dev/blog/notes/20240725/"
+            },
+            {
+              "title": "Everybody's Free (To Write Websites)",
+              "isoDate": "2024-07-16T00:00:00.000Z",
+              "link": "https://sarajoy.dev/blog/write-websites/"
+            },
+            {
+              "title": "Weaknote 2024-07-14",
+              "isoDate": "2024-07-14T20:00:00.000Z",
+              "link": "https://sarajoy.dev/blog/notes/20240714/"
+            },
+            {
+              "title": "It's just... fun?",
+              "isoDate": "2024-06-30T17:07:00.000Z",
+              "link": "https://sarajoy.dev/blog/short/2024-06-30-it-s-just-fun/"
+            },
+            {
+              "title": "Good Box",
+              "isoDate": "2024-05-18T14:08:00.000Z",
+              "link": "https://sarajoy.dev/blog/short/2024-05-18-good-box/"
             }
           ]
         },
@@ -2253,37 +2346,6 @@
           ]
         },
         {
-          "title": "Coding Is Like Cooking",
-          "feedUrl": "https://coding-is-like-cooking.info/feed/",
-          "items": [
-            {
-              "title": "Barbie",
-              "isoDate": "2023-08-07T07:05:30.000Z",
-              "link": "https://coding-is-like-cooking.info/2023/08/barbie/"
-            },
-            {
-              "title": "I’ve Gone Independent",
-              "isoDate": "2023-02-20T10:55:09.000Z",
-              "link": "https://coding-is-like-cooking.info/2023/02/ive-gone-independent/"
-            },
-            {
-              "title": "Hold an Open Space Event in just One Hour",
-              "isoDate": "2022-12-19T12:01:42.000Z",
-              "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
-            },
-            {
-              "title": "Samman Coaching in 2021",
-              "isoDate": "2022-06-30T05:54:40.000Z",
-              "link": "https://coding-is-like-cooking.info/2022/06/samman-coaching-in-2021/"
-            },
-            {
-              "title": "Book Review: Practical Remote Pair Programming by Adrian Bolboaca",
-              "isoDate": "2022-06-30T05:53:01.000Z",
-              "link": "https://coding-is-like-cooking.info/2022/06/book-review-practical-remote-pair-programming-by-adrian-bolboaca/"
-            }
-          ]
-        },
-        {
           "title": "Hello world",
           "feedUrl": "https://qristin.wordpress.com/feed/",
           "items": [
@@ -2379,6 +2441,8 @@
       ]
     }
   ],
-  "fetchDate": "2024-09-12T20:18:57.325Z",
-  "errors": []
+  "fetchDate": "2024-09-15T18:51:44.611Z",
+  "errors": [
+    "https://coding-is-like-cooking.info/feed/"
+  ]
 }

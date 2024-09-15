@@ -8,6 +8,7 @@ layout: page.njk
 These are some of the things that have stuck with me and inform the way I think about things.
 
 - _A Philosophy of Software Design_, the book by John Ousterhout
+- [Cold-blooded software](https://dubroy.com/blog/cold-blooded-software/)
 - [Contempt Culture](https://blog.aurynn.com/2015/12/16-contempt-culture/)
 - [Do you follow the God of Chairs?](https://www.simplermachines.com/the-god-of-chairs/)
 - _Domain-Driven Design_, the book by Eric Evans

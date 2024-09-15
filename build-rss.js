@@ -113,6 +113,9 @@ const FEED_URL_GROUPS = {
     "https://garoof.no/feed.xml",
     "https://flamedfury.com/feed.xml",
     "https://mikegrindle.com/feed.xml",
+    "https://sarajoy.dev/rss.xml",
+    "https://molily.de/feed.xml",
+    "https://fynn.be/feed.xml",
   ]
 };
 

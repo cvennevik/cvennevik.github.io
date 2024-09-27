@@ -1,9 +1,8 @@
 name: Rebuild feeds data
 
 on:
-  push:
-    schedule:
-      - cron: "0 3 * * *" # 3 AM
+  schedule:
+    - cron: "0 3 * * *" # 3 AM
   workflow_dispatch:
 
 jobs:

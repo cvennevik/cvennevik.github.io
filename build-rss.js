@@ -117,6 +117,8 @@ const FEED_URL_GROUPS = {
     "https://molily.de/feed.xml",
     "https://fynn.be/feed.xml",
     "https://dubroy.com/blog/rss.xml",
+    "https://anniemueller.com/posts_feed",
+    "https://ntietz.com/atom.xml"
   ]
 };
 

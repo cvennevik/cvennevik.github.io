@@ -13,6 +13,7 @@ Okay so I think it's really fun surfing people's recommendations so I'm going to
 - [Dave Rupert's likes (daverupert.com/likes)](https://daverupert.com/likes/)
 - [Eric Bailey's blogroll (ericwbailey.website/blogroll)](https://ericwbailey.website/blogroll/)
 - [Evan Boehs's blogroll (boehs.org/blogroll)](https://boehs.org/blogroll)
-- [Keenan's blogroll (https://gkeenan.co/blogroll)](https://gkeenan.co/blogroll)
+- [fLaMEd fury links](https://flamedfury.com/links/)
+- [fLaMEd fury bookmarks](https://flamedfury.com/bookmarks/)
 - [RSS JOY (rs.sjoy.lol)](https://rs.sjoy.lol/)
 - [Sara Joy's blogroll (sarajoy.dev/blog/roll)](https://sarajoy.dev/blog/roll/)

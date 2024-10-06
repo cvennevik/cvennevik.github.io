@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Big Apple Blues",
+              "isoDate": "2024-10-05T19:18:03.000Z",
+              "link": "https://robinrendle.com/notes/big-apple-blues/"
+            },
+            {
+              "title": "Coming home",
+              "isoDate": "2024-09-28T15:16:08.000Z",
+              "link": "https://robinrendle.com/notes/coming-home/"
+            },
+            {
+              "title": "Hire HTML and CSS people",
+              "isoDate": "2024-09-21T15:41:00.000Z",
+              "link": "https://robinrendle.com/notes/hire-html-people/"
+            },
+            {
+              "title": "Every webpage deserves to be a place",
+              "isoDate": "2024-09-16T15:02:31.000Z",
+              "link": "https://robinrendle.com/notes/every-webpage-deserves-to-be-a-place/"
+            },
+            {
+              "title": "Notes on font licensing",
+              "isoDate": "2024-09-01T06:20:37.000Z",
+              "link": "https://robinrendle.com/notes/notes-on-font-licensing/"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "New Music Friday #2",
+              "isoDate": "2024-10-05T10:08:32.000Z",
+              "link": "https://flamedfury.com/posts/new-music-friday-2/"
+            },
+            {
+              "title": "The Genuine Articulate",
+              "isoDate": "2024-10-02T09:44:03.000Z",
+              "link": "https://flamedfury.com/posts/the-genuine-articulate/"
+            },
+            {
+              "title": "Monthly Recap: September 2024",
+              "isoDate": "2024-10-01T20:57:08.000Z",
+              "link": "https://flamedfury.com/posts/monthly-recap-september-2024/"
+            },
+            {
+              "title": "A Social Web",
+              "isoDate": "2024-09-26T14:28:23.000Z",
+              "link": "https://flamedfury.com/posts/a-social-web/"
+            },
+            {
+              "title": "Wellington Brick Show 2024",
+              "isoDate": "2024-09-18T08:50:53.000Z",
+              "link": "https://flamedfury.com/posts/wellington-brick-show-2024/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -402,37 +464,6 @@
           ]
         },
         {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "The Genuine Articulate",
-              "isoDate": "2024-10-02T09:44:03.000Z",
-              "link": "https://flamedfury.com/posts/the-genuine-articulate/"
-            },
-            {
-              "title": "Monthly Recap: September 2024",
-              "isoDate": "2024-10-01T20:57:08.000Z",
-              "link": "https://flamedfury.com/posts/monthly-recap-september-2024/"
-            },
-            {
-              "title": "A Social Web",
-              "isoDate": "2024-09-26T14:28:23.000Z",
-              "link": "https://flamedfury.com/posts/a-social-web/"
-            },
-            {
-              "title": "Wellington Brick Show 2024",
-              "isoDate": "2024-09-18T08:50:53.000Z",
-              "link": "https://flamedfury.com/posts/wellington-brick-show-2024/"
-            },
-            {
-              "title": "RELICS: A New World Rises",
-              "isoDate": "2024-09-09T20:04:06.000Z",
-              "link": "https://flamedfury.com/posts/relics-a-new-world-rises/"
-            }
-          ]
-        },
-        {
           "title": "GeePawHill.org",
           "feedUrl": "https://www.geepawhill.org/feed/",
           "items": [
@@ -822,37 +853,6 @@
               "title": "Responsive Design and Composition",
               "isoDate": "2024-06-15T02:34:01.000Z",
               "link": "https://kyleshevlin.com/responsive-design-and-composition/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Coming home",
-              "isoDate": "2024-09-28T15:16:08.000Z",
-              "link": "https://robinrendle.com/notes/coming-home/"
-            },
-            {
-              "title": "Hire HTML and CSS people",
-              "isoDate": "2024-09-21T15:41:00.000Z",
-              "link": "https://robinrendle.com/notes/hire-html-people/"
-            },
-            {
-              "title": "Every webpage deserves to be a place",
-              "isoDate": "2024-09-16T15:02:31.000Z",
-              "link": "https://robinrendle.com/notes/every-webpage-deserves-to-be-a-place/"
-            },
-            {
-              "title": "Notes on font licensing",
-              "isoDate": "2024-09-01T06:20:37.000Z",
-              "link": "https://robinrendle.com/notes/notes-on-font-licensing/"
-            },
-            {
-              "title": "No one’s ready for this",
-              "isoDate": "2024-08-30T06:53:09.000Z",
-              "link": "https://robinrendle.com/notes/no-ones-ready-for-this/"
             }
           ]
         },
@@ -1794,11 +1794,6 @@
               "title": "Boundary Mistakes",
               "isoDate": "2023-11-08T02:57:39.000Z",
               "link": "https://nonlinear.garden/archive/boundary-mistakes/"
-            },
-            {
-              "title": "Iteration Is The Only Way I Know",
-              "isoDate": "2023-10-28T05:57:35.000Z",
-              "link": "https://nonlinear.garden/archive/iteration-is-the-only-way-i-know/"
             }
           ]
         },
@@ -2508,7 +2503,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-05T03:18:25.838Z",
+  "fetchDate": "2024-10-06T03:22:35.260Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

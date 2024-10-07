@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Just do the thing",
+              "isoDate": "2024-10-06T21:02:15.000Z",
+              "link": "https://anniemueller.com/posts/just-do-the-thing"
+            },
+            {
+              "title": "To walk open-eyed through the earth:",
+              "isoDate": "2024-10-06T03:55:00.000Z",
+              "link": "https://anniemueller.com/posts/to-walk-open-eyed-through-the-earth"
+            },
+            {
+              "title": "Feeling alive is where it’s at",
+              "isoDate": "2024-10-05T00:42:33.000Z",
+              "link": "https://anniemueller.com/posts/feeling-alive-is-where-its-at"
+            },
+            {
+              "title": "A brief history of (my) blogging",
+              "isoDate": "2024-10-04T00:20:42.000Z",
+              "link": "https://anniemueller.com/posts/a-brief-history-of-my-blogging"
+            },
+            {
+              "title": "Sometimes, sadness",
+              "isoDate": "2024-10-03T00:58:42.000Z",
+              "link": "https://anniemueller.com/posts/sometimes-sadness"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "Smolderingly fast b-trees",
+              "isoDate": "2024-10-06T00:00:00.000Z",
+              "link": "https://www.scattered-thoughts.net/writing/smolderingly-fast-btrees/"
+            },
+            {
+              "title": "HYTRADBOI 2025",
+              "isoDate": "2024-09-21T00:00:00.000Z",
+              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025/"
+            },
+            {
+              "title": "0048: zest progress, zest ordering, wasm alignment, umbra papers, future of fast code, new internet, books, other stuff",
+              "isoDate": "2024-08-31T00:00:00.000Z",
+              "link": "https://www.scattered-thoughts.net/log/0048/"
+            },
+            {
+              "title": "0047: babys second wasm compiler, zig honggfuzz, values can be values, dont look UB, surely you can be serious, other links, books",
+              "isoDate": "2024-07-11T00:00:00.000Z",
+              "link": "https://www.scattered-thoughts.net/log/0047/"
+            },
+            {
+              "title": "Baby's second wasm compiler",
+              "isoDate": "2024-07-09T00:00:00.000Z",
+              "link": "https://www.scattered-thoughts.net/writing/babys-second-wasm-compiler/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Asheville",
+              "isoDate": "2024-10-06T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/asheville/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Rust needs a web framework for lazy developers",
+              "isoDate": "2024-09-30T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/rust-needs-a-web-framework-for-lazy-developers/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "What I tell people new to on-call",
+              "isoDate": "2024-09-23T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/what-i-tell-people-new-to-oncall/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Personnel update",
+              "isoDate": "2024-09-16T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/personnel-update/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Making progress on side projects with content-driven development",
+              "isoDate": "2024-09-09T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/making-progress-with-content-driven-development/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -62,37 +155,6 @@
               "title": "Wellington Brick Show 2024",
               "isoDate": "2024-09-18T08:50:53.000Z",
               "link": "https://flamedfury.com/posts/wellington-brick-show-2024/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Feeling alive is where it’s at",
-              "isoDate": "2024-10-05T00:42:33.000Z",
-              "link": "https://anniemueller.com/posts/feeling-alive-is-where-its-at"
-            },
-            {
-              "title": "A brief history of (my) blogging",
-              "isoDate": "2024-10-04T00:20:42.000Z",
-              "link": "https://anniemueller.com/posts/a-brief-history-of-my-blogging"
-            },
-            {
-              "title": "Sometimes, sadness",
-              "isoDate": "2024-10-03T00:58:42.000Z",
-              "link": "https://anniemueller.com/posts/sometimes-sadness"
-            },
-            {
-              "title": "Prodigy stories from ye olde Internet",
-              "isoDate": "2024-10-02T17:33:43.000Z",
-              "link": "https://anniemueller.com/posts/prodigy-stories-from-ye-olde-internet"
-            },
-            {
-              "title": "Time zones",
-              "isoDate": "2024-10-01T14:06:02.000Z",
-              "link": "https://anniemueller.com/posts/time-zones"
             }
           ]
         },
@@ -795,37 +857,6 @@
           ]
         },
         {
-          "title": "ntietz.com blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Rust needs a web framework for lazy developers",
-              "isoDate": "2024-09-30T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/rust-needs-a-web-framework-for-lazy-developers/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "What I tell people new to on-call",
-              "isoDate": "2024-09-23T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/what-i-tell-people-new-to-oncall/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Personnel update",
-              "isoDate": "2024-09-16T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/personnel-update/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Making progress on side projects with content-driven development",
-              "isoDate": "2024-09-09T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/making-progress-with-content-driven-development/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Reasons to write design docs",
-              "isoDate": "2024-09-02T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/reasons-to-write-design-docs/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
           "title": "Kyle Shevlin's Blog RSS Feed",
           "feedUrl": "https://kyleshevlin.com/rss.xml",
           "items": [
@@ -1008,37 +1039,6 @@
               "title": "Mental maps, part 2: incidents and observability",
               "isoDate": "2023-05-31T21:48:51.000Z",
               "link": "https://jenniferplusplus.com/mental-maps-part-2-incidents-and-observability/"
-            }
-          ]
-        },
-        {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "HYTRADBOI 2025",
-              "isoDate": "2024-09-21T00:00:00.000Z",
-              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025/"
-            },
-            {
-              "title": "0048: zest progress, zest ordering, wasm alignment, umbra papers, future of fast code, new internet, books, other stuff",
-              "isoDate": "2024-08-31T00:00:00.000Z",
-              "link": "https://www.scattered-thoughts.net/log/0048/"
-            },
-            {
-              "title": "0047: babys second wasm compiler, zig honggfuzz, values can be values, dont look UB, surely you can be serious, other links, books",
-              "isoDate": "2024-07-11T00:00:00.000Z",
-              "link": "https://www.scattered-thoughts.net/log/0047/"
-            },
-            {
-              "title": "Baby's second wasm compiler",
-              "isoDate": "2024-07-09T00:00:00.000Z",
-              "link": "https://www.scattered-thoughts.net/writing/babys-second-wasm-compiler/"
-            },
-            {
-              "title": "Ruminating about mutable value semantics",
-              "isoDate": "2024-06-03T00:00:00.000Z",
-              "link": "https://www.scattered-thoughts.net/writing/ruminating-about-mutable-value-semantics/"
             }
           ]
         },
@@ -1794,6 +1794,11 @@
               "title": "Boundary Mistakes",
               "isoDate": "2023-11-08T02:57:39.000Z",
               "link": "https://nonlinear.garden/archive/boundary-mistakes/"
+            },
+            {
+              "title": "Iteration Is The Only Way I Know",
+              "isoDate": "2023-10-28T05:57:35.000Z",
+              "link": "https://nonlinear.garden/archive/iteration-is-the-only-way-i-know/"
             }
           ]
         },
@@ -2503,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-06T03:22:35.260Z",
+  "fetchDate": "2024-10-07T03:22:31.632Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

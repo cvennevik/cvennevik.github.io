@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Prototyping Magic Tricks and Software",
+              "isoDate": "2024-10-14T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/prototyping-magic-and-software/"
+            },
+            {
+              "title": "Grateful: Colors in console.log()",
+              "isoDate": "2024-10-09T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/color-console-log/"
+            },
+            {
+              "title": "Ryan Dahl Talks Deno on The Changelog",
+              "isoDate": "2024-10-07T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/ryan-dahl-talks-deno-on-changelog/"
+            },
+            {
+              "title": "“Easier and More Convenient” They Said…",
+              "isoDate": "2024-10-04T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/easy-and-convenient-they-say/"
+            },
+            {
+              "title": "Putting the “Person” in “Personal Website”",
+              "isoDate": "2024-10-02T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/person-in-personal-website/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Rage against the AI machine",
+              "isoDate": "2024-10-14T14:30:00.000Z",
+              "link": "https://gomakethings.com/rage-against-the-ai-machine/"
+            },
+            {
+              "title": "HTML for People",
+              "isoDate": "2024-10-11T14:30:00.000Z",
+              "link": "https://gomakethings.com/html-for-people/"
+            },
+            {
+              "title": "Plain Vanilla Web",
+              "isoDate": "2024-10-10T14:30:00.000Z",
+              "link": "https://gomakethings.com/plain-vanilla-web/"
+            },
+            {
+              "title": "User-defined Web Components",
+              "isoDate": "2024-10-07T14:30:00.000Z",
+              "link": "https://gomakethings.com/user-defined-web-components/"
+            },
+            {
+              "title": "Web Components: the good, the bad, and the ugly",
+              "isoDate": "2024-10-02T14:30:00.000Z",
+              "link": "https://gomakethings.com/web-components-the-good-the-bad-and-the-ugly/"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "The Death Of Slim Shady",
+              "isoDate": "2024-10-14T10:34:43.000Z",
+              "link": "https://flamedfury.com/posts/the-death-of-slim-shady/"
+            },
+            {
+              "title": "Firefox, From The Ashes?",
+              "isoDate": "2024-10-07T20:53:09.000Z",
+              "link": "https://flamedfury.com/posts/firefox-from-the-ashes/"
+            },
+            {
+              "title": "New Music Friday #2",
+              "isoDate": "2024-10-05T10:08:32.000Z",
+              "link": "https://flamedfury.com/posts/new-music-friday-2/"
+            },
+            {
+              "title": "The Genuine Articulate",
+              "isoDate": "2024-10-02T09:44:03.000Z",
+              "link": "https://flamedfury.com/posts/the-genuine-articulate/"
+            },
+            {
+              "title": "Monthly Recap: September 2024",
+              "isoDate": "2024-10-01T20:57:08.000Z",
+              "link": "https://flamedfury.com/posts/monthly-recap-september-2024/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Matt’s Malware",
+              "isoDate": "2024-10-14T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/10/14/matts-malware/"
+            },
+            {
+              "title": "Hey! Deno 2 looks fun!",
+              "isoDate": "2024-10-10T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/10/10/deno-2/"
+            },
+            {
+              "title": "An Interesting HTML Parser Conundrum",
+              "isoDate": "2024-10-01T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/10/01/html-parser-conundrum/"
+            },
+            {
+              "title": "Misleading Container Queries",
+              "isoDate": "2024-09-23T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/09/23/misleading-container-queries/"
+            },
+            {
+              "title": "Dumb Home",
+              "isoDate": "2024-09-19T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/09/19/dumb-home/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -31,6 +155,68 @@
               "title": "Systems and change",
               "isoDate": "2024-10-10T00:56:24.000Z",
               "link": "https://anniemueller.com/posts/systems-and-change-systems-are-never-perfect"
+            }
+          ]
+        },
+        {
+          "title": "HeydonWorks",
+          "feedUrl": "https://heydonworks.com/feed.xml",
+          "items": [
+            {
+              "title": "The blockquote element",
+              "isoDate": "2024-10-14T00:00:00.000Z",
+              "link": "https://heydonworks.com/article/the-blockquote-element/"
+            },
+            {
+              "title": "The bdo element",
+              "isoDate": "2024-10-02T00:00:00.000Z",
+              "link": "https://heydonworks.com/article/the-bdo-element/"
+            },
+            {
+              "title": "The bdi element",
+              "isoDate": "2024-09-30T00:00:00.000Z",
+              "link": "https://heydonworks.com/article/the-bdi-element/"
+            },
+            {
+              "title": "The b element",
+              "isoDate": "2024-09-28T00:00:00.000Z",
+              "link": "https://heydonworks.com/article/the-b-element/"
+            },
+            {
+              "title": "The audio element",
+              "isoDate": "2024-09-10T00:00:00.000Z",
+              "link": "https://heydonworks.com/article/the-audio-element/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Making Rust builds fail from YAML config mistakes",
+              "isoDate": "2024-10-14T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/rust-complain-yaml-errors/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Licensing can be joyful (and legally dubious)",
+              "isoDate": "2024-10-07T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/licensing-joy-gal/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Asheville",
+              "isoDate": "2024-10-06T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/asheville/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Rust needs a web framework for lazy developers",
+              "isoDate": "2024-09-30T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/rust-needs-a-web-framework-for-lazy-developers/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "What I tell people new to on-call",
+              "isoDate": "2024-09-23T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/what-i-tell-people-new-to-oncall/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -154,37 +340,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "HTML for People",
-              "isoDate": "2024-10-11T14:30:00.000Z",
-              "link": "https://gomakethings.com/html-for-people/"
-            },
-            {
-              "title": "Plain Vanilla Web",
-              "isoDate": "2024-10-10T14:30:00.000Z",
-              "link": "https://gomakethings.com/plain-vanilla-web/"
-            },
-            {
-              "title": "User-defined Web Components",
-              "isoDate": "2024-10-07T14:30:00.000Z",
-              "link": "https://gomakethings.com/user-defined-web-components/"
-            },
-            {
-              "title": "Web Components: the good, the bad, and the ugly",
-              "isoDate": "2024-10-02T14:30:00.000Z",
-              "link": "https://gomakethings.com/web-components-the-good-the-bad-and-the-ugly/"
-            },
-            {
-              "title": "Web Components vs. State-Based UI",
-              "isoDate": "2024-10-01T14:30:00.000Z",
-              "link": "https://gomakethings.com/web-components-vs.-state-based-ui/"
-            }
-          ]
-        },
-        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -247,64 +402,33 @@
           ]
         },
         {
-          "title": "dbushell.com",
-          "feedUrl": "https://dbushell.com/rss.xml",
+          "title": "Hazel Weakly",
+          "feedUrl": "https://hazelweakly.me/atom.xml",
           "items": [
             {
-              "title": "Hey! Deno 2 looks fun!",
-              "isoDate": "2024-10-10T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/10/10/deno-2/"
+              "title": "OpenTelemetry Challenges: Handling Long-Running Spans",
+              "isoDate": "2024-10-10T00:00:00.000Z",
+              "link": "https://hazelweakly.me/blog/opentelemetry-challenges-handling-long-running-spans/"
             },
             {
-              "title": "An Interesting HTML Parser Conundrum",
-              "isoDate": "2024-10-01T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/10/01/html-parser-conundrum/"
+              "title": "The 4 Evolutions of Your Observability Journey",
+              "isoDate": "2024-10-03T00:00:00.000Z",
+              "link": "https://hazelweakly.me/blog/the-four-evolutions-of-your-observability-journey/"
             },
             {
-              "title": "Misleading Container Queries",
-              "isoDate": "2024-09-23T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/09/23/misleading-container-queries/"
+              "title": "Cache Me Not, Cache Me, Cache Me Not",
+              "isoDate": "2024-09-19T00:00:00.000Z",
+              "link": "https://hazelweakly.me/blog/cache-me-not-cache-me-cache-me-not/"
             },
             {
-              "title": "Dumb Home",
-              "isoDate": "2024-09-19T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/09/19/dumb-home/"
+              "title": "Home Baked Abstractions, Store Bought Implementations",
+              "isoDate": "2024-08-21T00:00:00.000Z",
+              "link": "https://hazelweakly.me/blog/home-baked-abstractions-store-bought-implementations/"
             },
             {
-              "title": "Is the Tailscale Magic Fading?",
-              "isoDate": "2024-09-09T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/09/09/tailscale-magic-fading/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Grateful: Colors in console.log()",
-              "isoDate": "2024-10-09T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/color-console-log/"
-            },
-            {
-              "title": "Ryan Dahl Talks Deno on The Changelog",
-              "isoDate": "2024-10-07T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/ryan-dahl-talks-deno-on-changelog/"
-            },
-            {
-              "title": "“Easier and More Convenient” They Said…",
-              "isoDate": "2024-10-04T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/easy-and-convenient-they-say/"
-            },
-            {
-              "title": "Putting the “Person” in “Personal Website”",
-              "isoDate": "2024-10-02T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/person-in-personal-website/"
-            },
-            {
-              "title": "Randomness, Serendipity, and an “I Wouldn’t Recommend This” Algorithm",
-              "isoDate": "2024-09-29T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/wouldnt-recommend-this-algorithm/"
+              "title": "Why I Do What I Do",
+              "isoDate": "2024-08-13T00:00:00.000Z",
+              "link": "https://hazelweakly.me/blog/why-i-do-what-i-do/"
             }
           ]
         },
@@ -485,37 +609,6 @@
           ]
         },
         {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Firefox, From The Ashes?",
-              "isoDate": "2024-10-07T20:53:09.000Z",
-              "link": "https://flamedfury.com/posts/firefox-from-the-ashes/"
-            },
-            {
-              "title": "New Music Friday #2",
-              "isoDate": "2024-10-05T10:08:32.000Z",
-              "link": "https://flamedfury.com/posts/new-music-friday-2/"
-            },
-            {
-              "title": "The Genuine Articulate",
-              "isoDate": "2024-10-02T09:44:03.000Z",
-              "link": "https://flamedfury.com/posts/the-genuine-articulate/"
-            },
-            {
-              "title": "Monthly Recap: September 2024",
-              "isoDate": "2024-10-01T20:57:08.000Z",
-              "link": "https://flamedfury.com/posts/monthly-recap-september-2024/"
-            },
-            {
-              "title": "A Social Web",
-              "isoDate": "2024-09-26T14:28:23.000Z",
-              "link": "https://flamedfury.com/posts/a-social-web/"
-            }
-          ]
-        },
-        {
           "title": "Julia Evans",
           "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
@@ -574,37 +667,6 @@
               "title": "Web Components Eliminate JavaScript Framework Lock-in",
               "isoDate": "2023-11-27T00:00:00.000Z",
               "link": "https://jakelazaroff.com/words/web-components-eliminate-javascript-framework-lock-in/"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Licensing can be joyful (and legally dubious)",
-              "isoDate": "2024-10-07T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/licensing-joy-gal/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Asheville",
-              "isoDate": "2024-10-06T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/asheville/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Rust needs a web framework for lazy developers",
-              "isoDate": "2024-09-30T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/rust-needs-a-web-framework-for-lazy-developers/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "What I tell people new to on-call",
-              "isoDate": "2024-09-23T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/what-i-tell-people-new-to-oncall/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Personnel update",
-              "isoDate": "2024-09-16T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/personnel-update/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -826,37 +888,6 @@
           ]
         },
         {
-          "title": "Hazel Weakly",
-          "feedUrl": "https://hazelweakly.me/atom.xml",
-          "items": [
-            {
-              "title": "The 4 Evolutions of Your Observability Journey",
-              "isoDate": "2024-10-03T00:00:00.000Z",
-              "link": "https://hazelweakly.me/blog/the-four-evolutions-of-your-observability-journey/"
-            },
-            {
-              "title": "Cache Me Not, Cache Me, Cache Me Not",
-              "isoDate": "2024-09-19T00:00:00.000Z",
-              "link": "https://hazelweakly.me/blog/cache-me-not-cache-me-cache-me-not/"
-            },
-            {
-              "title": "Home Baked Abstractions, Store Bought Implementations",
-              "isoDate": "2024-08-21T00:00:00.000Z",
-              "link": "https://hazelweakly.me/blog/home-baked-abstractions-store-bought-implementations/"
-            },
-            {
-              "title": "Why I Do What I Do",
-              "isoDate": "2024-08-13T00:00:00.000Z",
-              "link": "https://hazelweakly.me/blog/why-i-do-what-i-do/"
-            },
-            {
-              "title": "Pick Your Distributed Poison",
-              "isoDate": "2024-06-20T00:00:00.000Z",
-              "link": "https://hazelweakly.me/blog/pick-your-distributed-poison/"
-            }
-          ]
-        },
-        {
           "title": "GeePawHill.org",
           "feedUrl": "https://www.geepawhill.org/feed/",
           "items": [
@@ -884,37 +915,6 @@
               "title": "Changing The Frame",
               "isoDate": "2023-01-20T16:43:55.000Z",
               "link": "https://www.geepawhill.org/2023/01/20/changing-the-frame/"
-            }
-          ]
-        },
-        {
-          "title": "HeydonWorks",
-          "feedUrl": "https://heydonworks.com/feed.xml",
-          "items": [
-            {
-              "title": "The bdo element",
-              "isoDate": "2024-10-02T00:00:00.000Z",
-              "link": "https://heydonworks.com/article/the-bdo-element/"
-            },
-            {
-              "title": "The bdi element",
-              "isoDate": "2024-09-30T00:00:00.000Z",
-              "link": "https://heydonworks.com/article/the-bdi-element/"
-            },
-            {
-              "title": "The b element",
-              "isoDate": "2024-09-28T00:00:00.000Z",
-              "link": "https://heydonworks.com/article/the-b-element/"
-            },
-            {
-              "title": "The audio element",
-              "isoDate": "2024-09-10T00:00:00.000Z",
-              "link": "https://heydonworks.com/article/the-audio-element/"
-            },
-            {
-              "title": "The aside element",
-              "isoDate": "2024-08-28T00:00:00.000Z",
-              "link": "https://heydonworks.com/article/the-aside-element/"
             }
           ]
         },
@@ -2508,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-14T03:23:20.813Z",
+  "fetchDate": "2024-10-15T03:21:26.471Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

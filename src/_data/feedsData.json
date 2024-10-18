@@ -4,6 +4,161 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "How to do the RSS",
+              "isoDate": "2024-10-18T00:21:30.000Z",
+              "link": "https://anniemueller.com/posts/how-to-do-the-rss"
+            },
+            {
+              "title": "How to be confident",
+              "isoDate": "2024-10-16T01:31:23.000Z",
+              "link": "https://anniemueller.com/posts/how-to-be-confident"
+            },
+            {
+              "title": "The week has gone, the week is ahead",
+              "isoDate": "2024-10-14T03:05:38.000Z",
+              "link": "https://anniemueller.com/posts/the-week-has-gone-the-week-is-ahead"
+            },
+            {
+              "title": "I love your week notes and day notes and art and lists",
+              "isoDate": "2024-10-13T02:14:02.000Z",
+              "link": "https://anniemueller.com/posts/i-love-your-week-notes-and-day-notes-and-art-and-lists"
+            },
+            {
+              "title": "I have to talk about my secret hairstyle",
+              "isoDate": "2024-10-11T15:27:28.000Z",
+              "link": "https://anniemueller.com/posts/i-have-to-talk-about-my-secret-hairstyle"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Styling web components",
+              "isoDate": "2024-10-17T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-web-components/"
+            },
+            {
+              "title": "AI is exploitation",
+              "isoDate": "2024-10-16T14:30:00.000Z",
+              "link": "https://gomakethings.com/ai-is-exploitation/"
+            },
+            {
+              "title": "Rage against the AI machine",
+              "isoDate": "2024-10-14T14:30:00.000Z",
+              "link": "https://gomakethings.com/rage-against-the-ai-machine/"
+            },
+            {
+              "title": "HTML for People",
+              "isoDate": "2024-10-11T14:30:00.000Z",
+              "link": "https://gomakethings.com/html-for-people/"
+            },
+            {
+              "title": "Plain Vanilla Web",
+              "isoDate": "2024-10-10T14:30:00.000Z",
+              "link": "https://gomakethings.com/plain-vanilla-web/"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "Paper: Feminism in Programming Language Design",
+              "isoDate": "2024-10-17T10:20:17.000Z",
+              "link": "https://www.felienne.com/archives/8470"
+            },
+            {
+              "title": "Soon all UX will be a Skinner box",
+              "isoDate": "2024-09-11T10:27:54.000Z",
+              "link": "https://www.felienne.com/archives/8440"
+            },
+            {
+              "title": "Why *not* to use LLMs in computer science education?",
+              "isoDate": "2024-06-05T09:20:09.000Z",
+              "link": "https://www.felienne.com/archives/8392"
+            },
+            {
+              "title": "Why to use LLMs in computer science education?",
+              "isoDate": "2024-06-03T06:25:57.000Z",
+              "link": "https://www.felienne.com/archives/8367"
+            },
+            {
+              "title": "Why so fatalistic about AI?",
+              "isoDate": "2024-05-29T10:42:29.000Z",
+              "link": "https://www.felienne.com/archives/8364"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "The Practices That Make Continuous Integration - Fix a Broken Build within 10 Minutes",
+              "isoDate": "2024-10-17T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/articles/2024/10/17/the-practices-that-make-continuous-integration-fix-a-broken-build-within-10-minutes.html"
+            },
+            {
+              "title": "The Practices That Make Continuous Integration - Trigger the Build on Every Push",
+              "isoDate": "2024-10-15T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/articles/2024/10/15/the-practices-that-make-continuous-integration-trigger-the-build-on-every-push.html"
+            },
+            {
+              "title": "Notes - The Code Quality Advantage: Debunking the speed vs. quality myth with empirical insights",
+              "isoDate": "2024-10-04T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/notes/2024/10/04/agilecam-the-code-quality-advantage-adam-tornhill.html"
+            },
+            {
+              "title": "Notes - Keynote: How to say no to things you actually do not want to do",
+              "isoDate": "2024-10-04T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/notes/2024/10/04/agilecam-keynote-how-to-say-no-to-things-you-actually-do-not-want-to-do-aino-vonge-corry.html"
+            },
+            {
+              "title": "The Practices That Make Continuous Integration - Push Every Day",
+              "isoDate": "2024-09-16T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/articles/2024/09/16/the-practices-that-make-continuous-integration-push-every-day.html"
+            }
+          ]
+        },
+        {
+          "title": "leanrada.com notes",
+          "feedUrl": "https://leanrada.com/rss.xml",
+          "items": [
+            {
+              "title": "Centering a div in a div in 2020",
+              "isoDate": "2024-10-17T00:00:00.000Z",
+              "link": "https://leanrada.com/notes/how-to-center-in-css?ref=rss"
+            },
+            {
+              "title": "I made an app to fix my motion sickness",
+              "isoDate": "2024-09-02T00:00:00.000Z",
+              "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
+            },
+            {
+              "title": "Stop using ease-out in your UIs!",
+              "isoDate": "2024-07-15T00:00:00.000Z",
+              "link": "https://leanrada.com/notes/stop-using-ease-out?ref=rss"
+            },
+            {
+              "title": "Creating a halftone effect with CSS",
+              "isoDate": "2024-05-05T00:00:00.000Z",
+              "link": "https://leanrada.com/notes/pure-css-halftone?ref=rss"
+            },
+            {
+              "title": "AI art is not generative art",
+              "isoDate": "2024-03-25T00:00:00.000Z",
+              "link": "https://leanrada.com/notes/ai-art-not-generative-art?ref=rss"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -128,37 +283,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "AI is exploitation",
-              "isoDate": "2024-10-16T14:30:00.000Z",
-              "link": "https://gomakethings.com/ai-is-exploitation/"
-            },
-            {
-              "title": "Rage against the AI machine",
-              "isoDate": "2024-10-14T14:30:00.000Z",
-              "link": "https://gomakethings.com/rage-against-the-ai-machine/"
-            },
-            {
-              "title": "HTML for People",
-              "isoDate": "2024-10-11T14:30:00.000Z",
-              "link": "https://gomakethings.com/html-for-people/"
-            },
-            {
-              "title": "Plain Vanilla Web",
-              "isoDate": "2024-10-10T14:30:00.000Z",
-              "link": "https://gomakethings.com/plain-vanilla-web/"
-            },
-            {
-              "title": "User-defined Web Components",
-              "isoDate": "2024-10-07T14:30:00.000Z",
-              "link": "https://gomakethings.com/user-defined-web-components/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -176,37 +300,6 @@
               "title": "Links (16 October 2024)",
               "isoDate": "2024-10-16T10:51:04.000Z",
               "link": "https://www.baldurbjarnason.com/2024/links-38/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "How to be confident",
-              "isoDate": "2024-10-16T01:31:23.000Z",
-              "link": "https://anniemueller.com/posts/how-to-be-confident"
-            },
-            {
-              "title": "The week has gone, the week is ahead",
-              "isoDate": "2024-10-14T03:05:38.000Z",
-              "link": "https://anniemueller.com/posts/the-week-has-gone-the-week-is-ahead"
-            },
-            {
-              "title": "I love your week notes and day notes and art and lists",
-              "isoDate": "2024-10-13T02:14:02.000Z",
-              "link": "https://anniemueller.com/posts/i-love-your-week-notes-and-day-notes-and-art-and-lists"
-            },
-            {
-              "title": "I have to talk about my secret hairstyle",
-              "isoDate": "2024-10-11T15:27:28.000Z",
-              "link": "https://anniemueller.com/posts/i-have-to-talk-about-my-secret-hairstyle"
-            },
-            {
-              "title": "I wonder if I was a good wife",
-              "isoDate": "2024-10-11T00:58:48.000Z",
-              "link": "https://anniemueller.com/posts/i-wonder-if-i-was-a-good-wife"
             }
           ]
         },
@@ -295,37 +388,6 @@
             {
               "isoDate": "2024-10-10T05:01:00.000Z",
               "link": "https://dbushell.com/notes/2024-10-10T05:01Z/"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "The Practices That Make Continuous Integration - Trigger the Build on Every Push",
-              "isoDate": "2024-10-15T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/articles/2024/10/15/the-practices-that-make-continuous-integration-trigger-the-build-on-every-push.html"
-            },
-            {
-              "title": "Notes - The Code Quality Advantage: Debunking the speed vs. quality myth with empirical insights",
-              "isoDate": "2024-10-04T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/notes/2024/10/04/agilecam-the-code-quality-advantage-adam-tornhill.html"
-            },
-            {
-              "title": "Notes - Keynote: How to say no to things you actually do not want to do",
-              "isoDate": "2024-10-04T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/notes/2024/10/04/agilecam-keynote-how-to-say-no-to-things-you-actually-do-not-want-to-do-aino-vonge-corry.html"
-            },
-            {
-              "title": "The Practices That Make Continuous Integration - Push Every Day",
-              "isoDate": "2024-09-16T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/articles/2024/09/16/the-practices-that-make-continuous-integration-push-every-day.html"
-            },
-            {
-              "title": "The Practices That Make Continuous Integration - Make the Build Self-Testing",
-              "isoDate": "2024-09-15T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/articles/2024/09/15/the-practices-that-make-continuous-integration-make-the-build-self-testing.html"
             }
           ]
         },
@@ -1369,37 +1431,6 @@
           ]
         },
         {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "Soon all UX will be a Skinner box",
-              "isoDate": "2024-09-11T10:27:54.000Z",
-              "link": "https://www.felienne.com/archives/8440"
-            },
-            {
-              "title": "Why *not* to use LLMs in computer science education?",
-              "isoDate": "2024-06-05T09:20:09.000Z",
-              "link": "https://www.felienne.com/archives/8392"
-            },
-            {
-              "title": "Why to use LLMs in computer science education?",
-              "isoDate": "2024-06-03T06:25:57.000Z",
-              "link": "https://www.felienne.com/archives/8367"
-            },
-            {
-              "title": "Why so fatalistic about AI?",
-              "isoDate": "2024-05-29T10:42:29.000Z",
-              "link": "https://www.felienne.com/archives/8364"
-            },
-            {
-              "title": "We need a ring theory for sexism (and other injustices)",
-              "isoDate": "2024-04-03T12:10:33.000Z",
-              "link": "https://www.felienne.com/archives/8314"
-            }
-          ]
-        },
-        {
           "title": "Blog on Hillel Wayne",
           "feedUrl": "https://www.hillelwayne.com/post/index.xml",
           "items": [
@@ -1582,37 +1613,6 @@
               "title": "Dealing with tempfile cleaners",
               "isoDate": "2023-10-05T00:00:00.000Z",
               "link": "https://sunshowers.io/posts/tmp-cleaner/"
-            }
-          ]
-        },
-        {
-          "title": "leanrada.com notes",
-          "feedUrl": "https://leanrada.com/rss.xml",
-          "items": [
-            {
-              "title": "I made an app to fix my motion sickness",
-              "isoDate": "2024-09-02T00:00:00.000Z",
-              "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
-            },
-            {
-              "title": "Stop using ease-out in your UIs!",
-              "isoDate": "2024-07-15T00:00:00.000Z",
-              "link": "https://leanrada.com/notes/stop-using-ease-out?ref=rss"
-            },
-            {
-              "title": "Creating a halftone effect with CSS",
-              "isoDate": "2024-05-05T00:00:00.000Z",
-              "link": "https://leanrada.com/notes/pure-css-halftone?ref=rss"
-            },
-            {
-              "title": "AI art is not generative art",
-              "isoDate": "2024-03-25T00:00:00.000Z",
-              "link": "https://leanrada.com/notes/ai-art-not-generative-art?ref=rss"
-            },
-            {
-              "title": "htmz story",
-              "isoDate": "2024-03-01T00:00:00.000Z",
-              "link": "https://leanrada.com/notes/htmz-story?ref=rss"
             }
           ]
         },
@@ -1825,6 +1825,11 @@
               "title": "Boundary Mistakes",
               "isoDate": "2023-11-08T02:57:39.000Z",
               "link": "https://nonlinear.garden/archive/boundary-mistakes/"
+            },
+            {
+              "title": "Iteration Is The Only Way I Know",
+              "isoDate": "2023-10-28T05:57:35.000Z",
+              "link": "https://nonlinear.garden/archive/iteration-is-the-only-way-i-know/"
             }
           ]
         },
@@ -2503,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-17T03:20:33.386Z",
+  "fetchDate": "2024-10-18T03:22:30.549Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Macros in Rust, the wrong way",
+              "isoDate": "2024-10-18T17:30:00.000Z",
+              "link": "https://moonbase.lgbt/blog/rust-macros-the-wrong-way/"
+            },
+            {
+              "title": "Look, a squirrel!",
+              "isoDate": "2024-10-16T15:45:00.000Z",
+              "link": "https://moonbase.lgbt/blog/look-a-squirrel/"
+            },
+            {
+              "title": "A silly bug in my blog engine",
+              "isoDate": "2024-10-13T17:10:00.000Z",
+              "link": "https://moonbase.lgbt/blog/a-silly-bug-in-my-blog-engine/"
+            },
+            {
+              "title": "Location metadata in Cohost data exports",
+              "isoDate": "2024-10-12T16:25:00.000Z",
+              "link": "https://moonbase.lgbt/blog/cohost-data-export-location-metadata/"
+            },
+            {
+              "title": "Have you seen this bug?",
+              "isoDate": "2024-10-07T00:00:00.000Z",
+              "link": "https://moonbase.lgbt/blog/have-you-seen-this-bug/"
+            }
+          ]
+        },
+        {
+          "title": "Tooth of the Weasel",
+          "feedUrl": "https://angryweasel.com/blog/feed/",
+          "items": [
+            {
+              "title": "Five for Friday – October 18,2024",
+              "isoDate": "2024-10-18T14:54:37.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-october-182024/"
+            },
+            {
+              "title": "Five for Friday – October 11, 2024",
+              "isoDate": "2024-10-11T18:27:59.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-october-11-2024/"
+            },
+            {
+              "title": "Five for Friday – October 4, 2024",
+              "isoDate": "2024-10-04T19:54:29.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-october-4-2024/"
+            },
+            {
+              "title": "Five for Friday – September 27, 2024",
+              "isoDate": "2024-09-27T14:43:43.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-september-27-2024/"
+            },
+            {
+              "title": "Five for Friday – September 20, 2024",
+              "isoDate": "2024-09-20T20:00:29.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-september-20-2024/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "When is the shadow DOM useful?",
+              "isoDate": "2024-10-18T14:30:00.000Z",
+              "link": "https://gomakethings.com/when-is-the-shadow-dom-useful/"
+            },
+            {
+              "title": "Styling web components",
+              "isoDate": "2024-10-17T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-web-components/"
+            },
+            {
+              "title": "AI is exploitation",
+              "isoDate": "2024-10-16T14:30:00.000Z",
+              "link": "https://gomakethings.com/ai-is-exploitation/"
+            },
+            {
+              "title": "Rage against the AI machine",
+              "isoDate": "2024-10-14T14:30:00.000Z",
+              "link": "https://gomakethings.com/rage-against-the-ai-machine/"
+            },
+            {
+              "title": "HTML for People",
+              "isoDate": "2024-10-11T14:30:00.000Z",
+              "link": "https://gomakethings.com/html-for-people/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "isoDate": "2024-10-18T12:29:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-18T12:29Z/"
+            },
+            {
+              "isoDate": "2024-10-15T05:31:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-15T05:31Z/"
+            },
+            {
+              "isoDate": "2024-10-15T05:23:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-15T05:23Z/"
+            },
+            {
+              "isoDate": "2024-10-13T14:47:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-13T14:47Z/"
+            },
+            {
+              "isoDate": "2024-10-13T07:44:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-13T07:44Z/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -31,37 +150,6 @@
               "title": "I have to talk about my secret hairstyle",
               "isoDate": "2024-10-11T15:27:28.000Z",
               "link": "https://anniemueller.com/posts/i-have-to-talk-about-my-secret-hairstyle"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Styling web components",
-              "isoDate": "2024-10-17T14:30:00.000Z",
-              "link": "https://gomakethings.com/styling-web-components/"
-            },
-            {
-              "title": "AI is exploitation",
-              "isoDate": "2024-10-16T14:30:00.000Z",
-              "link": "https://gomakethings.com/ai-is-exploitation/"
-            },
-            {
-              "title": "Rage against the AI machine",
-              "isoDate": "2024-10-14T14:30:00.000Z",
-              "link": "https://gomakethings.com/rage-against-the-ai-machine/"
-            },
-            {
-              "title": "HTML for People",
-              "isoDate": "2024-10-11T14:30:00.000Z",
-              "link": "https://gomakethings.com/html-for-people/"
-            },
-            {
-              "title": "Plain Vanilla Web",
-              "isoDate": "2024-10-10T14:30:00.000Z",
-              "link": "https://gomakethings.com/plain-vanilla-web/"
             }
           ]
         },
@@ -221,37 +309,6 @@
           ]
         },
         {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "Look, a squirrel!",
-              "isoDate": "2024-10-16T15:45:00.000Z",
-              "link": "https://moonbase.lgbt/blog/look-a-squirrel/"
-            },
-            {
-              "title": "A silly bug in my blog engine",
-              "isoDate": "2024-10-13T17:10:00.000Z",
-              "link": "https://moonbase.lgbt/blog/a-silly-bug-in-my-blog-engine/"
-            },
-            {
-              "title": "Location metadata in Cohost data exports",
-              "isoDate": "2024-10-12T16:25:00.000Z",
-              "link": "https://moonbase.lgbt/blog/cohost-data-export-location-metadata/"
-            },
-            {
-              "title": "Have you seen this bug?",
-              "isoDate": "2024-10-07T00:00:00.000Z",
-              "link": "https://moonbase.lgbt/blog/have-you-seen-this-bug/"
-            },
-            {
-              "title": "UED: Polynomial",
-              "isoDate": "2024-10-05T00:00:00.000Z",
-              "link": "https://moonbase.lgbt/blog/ued-polynomial/"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -362,32 +419,6 @@
               "title": "The case for conferences in 2024",
               "isoDate": "2024-07-17T18:30:18.000Z",
               "link": "https://newsletter.goodtechthings.com/p/the-case-for-conferences-in-2024"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "isoDate": "2024-10-15T05:31:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-15T05:31Z/"
-            },
-            {
-              "isoDate": "2024-10-15T05:23:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-15T05:23Z/"
-            },
-            {
-              "isoDate": "2024-10-13T14:47:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-13T14:47Z/"
-            },
-            {
-              "isoDate": "2024-10-13T07:44:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-13T07:44Z/"
-            },
-            {
-              "isoDate": "2024-10-10T05:01:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-10T05:01Z/"
             }
           ]
         },
@@ -543,37 +574,6 @@
               "title": "The difference between a dead and an alive Agile Manifesto",
               "isoDate": "2024-04-01T22:00:00.000Z",
               "link": "https://smallsheds.garden/blog/2024/the-difference-between-a-dead-and-an-alive-agile-manifesto/"
-            }
-          ]
-        },
-        {
-          "title": "Tooth of the Weasel",
-          "feedUrl": "https://angryweasel.com/blog/feed/",
-          "items": [
-            {
-              "title": "Five for Friday – October 11, 2024",
-              "isoDate": "2024-10-11T18:27:59.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-october-11-2024/"
-            },
-            {
-              "title": "Five for Friday – October 4, 2024",
-              "isoDate": "2024-10-04T19:54:29.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-october-4-2024/"
-            },
-            {
-              "title": "Five for Friday – September 27, 2024",
-              "isoDate": "2024-09-27T14:43:43.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-september-27-2024/"
-            },
-            {
-              "title": "Five for Friday – September 20, 2024",
-              "isoDate": "2024-09-20T20:00:29.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-september-20-2024/"
-            },
-            {
-              "title": "Five for Friday – September 6, 2024",
-              "isoDate": "2024-09-06T22:04:40.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-september-6-2024/"
             }
           ]
         },
@@ -2508,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-18T03:22:30.549Z",
+  "fetchDate": "2024-10-19T03:18:58.920Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

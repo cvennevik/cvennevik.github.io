@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "isoDate": "2024-10-19T14:30:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-19T14:30Z/"
+            },
+            {
+              "isoDate": "2024-10-18T12:29:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-18T12:29Z/"
+            },
+            {
+              "isoDate": "2024-10-15T05:31:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-15T05:31Z/"
+            },
+            {
+              "isoDate": "2024-10-15T05:23:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-15T05:23Z/"
+            },
+            {
+              "isoDate": "2024-10-13T14:47:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-13T14:47Z/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "The Practices That Make Continuous Integration - Have Reliable Tests",
+              "isoDate": "2024-10-19T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/articles/2024/10/19/the-practices-that-make-continuous-integration-have-reliable-tests.html"
+            },
+            {
+              "title": "The Practices That Make Continuous Integration - Fix a Broken Build within 10 Minutes",
+              "isoDate": "2024-10-17T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/articles/2024/10/17/the-practices-that-make-continuous-integration-fix-a-broken-build-within-10-minutes.html"
+            },
+            {
+              "title": "The Practices That Make Continuous Integration - Trigger the Build on Every Push",
+              "isoDate": "2024-10-15T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/articles/2024/10/15/the-practices-that-make-continuous-integration-trigger-the-build-on-every-push.html"
+            },
+            {
+              "title": "Notes - The Code Quality Advantage: Debunking the speed vs. quality myth with empirical insights",
+              "isoDate": "2024-10-04T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/notes/2024/10/04/agilecam-the-code-quality-advantage-adam-tornhill.html"
+            },
+            {
+              "title": "Notes - Keynote: How to say no to things you actually do not want to do",
+              "isoDate": "2024-10-04T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/notes/2024/10/04/agilecam-keynote-how-to-say-no-to-things-you-actually-do-not-want-to-do-aino-vonge-corry.html"
+            }
+          ]
+        },
+        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -97,32 +154,6 @@
           ]
         },
         {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "isoDate": "2024-10-18T12:29:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-18T12:29Z/"
-            },
-            {
-              "isoDate": "2024-10-15T05:31:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-15T05:31Z/"
-            },
-            {
-              "isoDate": "2024-10-15T05:23:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-15T05:23Z/"
-            },
-            {
-              "isoDate": "2024-10-13T14:47:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-13T14:47Z/"
-            },
-            {
-              "isoDate": "2024-10-13T07:44:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-13T07:44Z/"
-            }
-          ]
-        },
-        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -181,37 +212,6 @@
               "title": "Why so fatalistic about AI?",
               "isoDate": "2024-05-29T10:42:29.000Z",
               "link": "https://www.felienne.com/archives/8364"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "The Practices That Make Continuous Integration - Fix a Broken Build within 10 Minutes",
-              "isoDate": "2024-10-17T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/articles/2024/10/17/the-practices-that-make-continuous-integration-fix-a-broken-build-within-10-minutes.html"
-            },
-            {
-              "title": "The Practices That Make Continuous Integration - Trigger the Build on Every Push",
-              "isoDate": "2024-10-15T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/articles/2024/10/15/the-practices-that-make-continuous-integration-trigger-the-build-on-every-push.html"
-            },
-            {
-              "title": "Notes - The Code Quality Advantage: Debunking the speed vs. quality myth with empirical insights",
-              "isoDate": "2024-10-04T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/notes/2024/10/04/agilecam-the-code-quality-advantage-adam-tornhill.html"
-            },
-            {
-              "title": "Notes - Keynote: How to say no to things you actually do not want to do",
-              "isoDate": "2024-10-04T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/notes/2024/10/04/agilecam-keynote-how-to-say-no-to-things-you-actually-do-not-want-to-do-aino-vonge-corry.html"
-            },
-            {
-              "title": "The Practices That Make Continuous Integration - Push Every Day",
-              "isoDate": "2024-09-16T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/articles/2024/09/16/the-practices-that-make-continuous-integration-push-every-day.html"
             }
           ]
         },
@@ -2508,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-19T03:18:58.920Z",
+  "fetchDate": "2024-10-20T03:25:07.504Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

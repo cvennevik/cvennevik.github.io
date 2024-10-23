@@ -4,6 +4,187 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Faith doesn’t look like being brave",
+              "isoDate": "2024-10-23T01:06:29.000Z",
+              "link": "https://anniemueller.com/posts/faith-doesnt-look-like-being-brave"
+            },
+            {
+              "title": "Relationship circles",
+              "isoDate": "2024-10-21T01:58:23.000Z",
+              "link": "https://anniemueller.com/posts/relationship-circles"
+            },
+            {
+              "title": "How to do the RSS",
+              "isoDate": "2024-10-18T00:21:30.000Z",
+              "link": "https://anniemueller.com/posts/how-to-do-the-rss"
+            },
+            {
+              "title": "How to be confident",
+              "isoDate": "2024-10-16T01:31:23.000Z",
+              "link": "https://anniemueller.com/posts/how-to-be-confident"
+            },
+            {
+              "title": "The week has gone, the week is ahead",
+              "isoDate": "2024-10-14T03:05:38.000Z",
+              "link": "https://anniemueller.com/posts/the-week-has-gone-the-week-is-ahead"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "A11y Camp: Keynote Slides",
+              "isoDate": "2024-10-22T21:49:55.000Z",
+              "link": "https://adrianroselli.com/2024/10/a11y-camp-keynote-slides.html"
+            },
+            {
+              "title": "Brief Note on Disclosures in Fieldsets",
+              "isoDate": "2024-09-14T12:34:04.000Z",
+              "link": "https://adrianroselli.com/2024/09/brief-note-on-disclosures-in-fieldsets.html"
+            },
+            {
+              "title": "Under-Engineered Estimated Reading Time Feature",
+              "isoDate": "2024-09-02T04:13:40.000Z",
+              "link": "https://adrianroselli.com/2024/09/under-engineered-estimated-reading-time-feature.html"
+            },
+            {
+              "title": "Semi-Annual Reminder to Learn and Hire for Web Standards",
+              "isoDate": "2024-09-01T05:52:24.000Z",
+              "link": "https://adrianroselli.com/2024/09/semi-annual-reminder-to-learn-and-hire-for-web-standards.html"
+            },
+            {
+              "title": "Mountain Chicken!",
+              "isoDate": "2024-08-30T11:54:18.000Z",
+              "link": "https://adrianroselli.com/2024/08/mountain-chicken.html"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "TLA from first principles",
+              "isoDate": "2024-10-22T17:14:21.000Z",
+              "link": "https://buttondown.com/hillelwayne/archive/tla-from-first-principles/"
+            },
+            {
+              "title": "Be Suspicious of Success",
+              "isoDate": "2024-10-16T15:08:39.000Z",
+              "link": "https://buttondown.com/hillelwayne/archive/be-suspicious-of-success/"
+            },
+            {
+              "title": "How to convince engineers that formal methods is cool",
+              "isoDate": "2024-10-08T16:18:55.000Z",
+              "link": "https://buttondown.com/hillelwayne/archive/how-to-convince-engineers-that-formal-methods-is/"
+            },
+            {
+              "title": "Refactoring Invariants",
+              "isoDate": "2024-09-24T20:06:10.000Z",
+              "link": "https://buttondown.com/hillelwayne/archive/refactoring-invariants/"
+            },
+            {
+              "title": "Goodhart's Law in Software Engineering",
+              "isoDate": "2024-09-17T16:33:40.000Z",
+              "link": "https://buttondown.com/hillelwayne/archive/goodharts-law-in-software-engineering/"
+            }
+          ]
+        },
+        {
+          "title": "Chelsea Troy",
+          "feedUrl": "https://chelseatroy.com/feed/",
+          "items": [
+            {
+              "title": "How to flub (and not flub) group decision-making on technical teams",
+              "isoDate": "2024-10-22T15:58:37.000Z",
+              "link": "https://chelseatroy.com/2024/10/22/how-to-flub-and-not-flub-group-decision-making-on-technical-teams/"
+            },
+            {
+              "title": "Decision-Making Pitfalls for Technical Leaders",
+              "isoDate": "2024-10-16T16:12:47.000Z",
+              "link": "https://chelseatroy.com/2024/10/16/decision-making-pitfalls-for-technical-leaders/"
+            },
+            {
+              "title": "Does AI benefit the world?",
+              "isoDate": "2024-08-28T17:00:39.000Z",
+              "link": "https://chelseatroy.com/2024/08/28/does-ai-benefit-the-world/"
+            },
+            {
+              "title": "The Programmers’ Identity Crisis: how do we use our powers for ‘good’?",
+              "isoDate": "2024-07-03T02:36:53.000Z",
+              "link": "https://chelseatroy.com/2024/07/03/programmers-identity-crises-and-moral-panic/"
+            },
+            {
+              "title": "How do we build the future with AI?",
+              "isoDate": "2024-06-23T21:21:18.000Z",
+              "link": "https://chelseatroy.com/2024/06/23/how-do-we-build-the-future-with-ai/"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Online following and Starter Packs",
+              "isoDate": "2024-10-22T14:40:00.000Z",
+              "link": "https://moonbase.lgbt/blog/online-following-starter-packs/"
+            },
+            {
+              "title": "UED: Parasocial",
+              "isoDate": "2024-10-20T17:20:00.000Z",
+              "link": "https://moonbase.lgbt/blog/ued-parasocial/"
+            },
+            {
+              "title": "Macros in Rust, the wrong way",
+              "isoDate": "2024-10-18T17:30:00.000Z",
+              "link": "https://moonbase.lgbt/blog/rust-macros-the-wrong-way/"
+            },
+            {
+              "title": "Look, a squirrel!",
+              "isoDate": "2024-10-16T15:45:00.000Z",
+              "link": "https://moonbase.lgbt/blog/look-a-squirrel/"
+            },
+            {
+              "title": "A silly bug in my blog engine",
+              "isoDate": "2024-10-13T17:10:00.000Z",
+              "link": "https://moonbase.lgbt/blog/a-silly-bug-in-my-blog-engine/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "isoDate": "2024-10-22T14:24:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-22T14:24Z/"
+            },
+            {
+              "isoDate": "2024-10-19T14:30:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-19T14:30Z/"
+            },
+            {
+              "isoDate": "2024-10-18T12:29:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-18T12:29Z/"
+            },
+            {
+              "isoDate": "2024-10-15T05:31:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-15T05:31Z/"
+            },
+            {
+              "isoDate": "2024-10-15T05:23:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-15T05:23Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -149,37 +330,6 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Relationship circles",
-              "isoDate": "2024-10-21T01:58:23.000Z",
-              "link": "https://anniemueller.com/posts/relationship-circles"
-            },
-            {
-              "title": "How to do the RSS",
-              "isoDate": "2024-10-18T00:21:30.000Z",
-              "link": "https://anniemueller.com/posts/how-to-do-the-rss"
-            },
-            {
-              "title": "How to be confident",
-              "isoDate": "2024-10-16T01:31:23.000Z",
-              "link": "https://anniemueller.com/posts/how-to-be-confident"
-            },
-            {
-              "title": "The week has gone, the week is ahead",
-              "isoDate": "2024-10-14T03:05:38.000Z",
-              "link": "https://anniemueller.com/posts/the-week-has-gone-the-week-is-ahead"
-            },
-            {
-              "title": "I love your week notes and day notes and art and lists",
-              "isoDate": "2024-10-13T02:14:02.000Z",
-              "link": "https://anniemueller.com/posts/i-love-your-week-notes-and-day-notes-and-art-and-lists"
-            }
-          ]
-        },
-        {
           "title": "ntietz.com blog - technically a blog",
           "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
@@ -207,37 +357,6 @@
               "title": "Rust needs a web framework for lazy developers",
               "isoDate": "2024-09-30T00:00:00.000Z",
               "link": "https://ntietz.com/blog/rust-needs-a-web-framework-for-lazy-developers/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "UED: Parasocial",
-              "isoDate": "2024-10-20T17:20:00.000Z",
-              "link": "https://moonbase.lgbt/blog/ued-parasocial/"
-            },
-            {
-              "title": "Macros in Rust, the wrong way",
-              "isoDate": "2024-10-18T17:30:00.000Z",
-              "link": "https://moonbase.lgbt/blog/rust-macros-the-wrong-way/"
-            },
-            {
-              "title": "Look, a squirrel!",
-              "isoDate": "2024-10-16T15:45:00.000Z",
-              "link": "https://moonbase.lgbt/blog/look-a-squirrel/"
-            },
-            {
-              "title": "A silly bug in my blog engine",
-              "isoDate": "2024-10-13T17:10:00.000Z",
-              "link": "https://moonbase.lgbt/blog/a-silly-bug-in-my-blog-engine/"
-            },
-            {
-              "title": "Location metadata in Cohost data exports",
-              "isoDate": "2024-10-12T16:25:00.000Z",
-              "link": "https://moonbase.lgbt/blog/cohost-data-export-location-metadata/"
             }
           ]
         },
@@ -331,32 +450,6 @@
               "title": "0048: zest progress, zest ordering, wasm alignment, umbra papers, future of fast code, new internet, books, other stuff",
               "isoDate": "2024-08-31T00:00:00.000Z",
               "link": "https://www.scattered-thoughts.net/log/0048/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "isoDate": "2024-10-19T14:30:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-19T14:30Z/"
-            },
-            {
-              "isoDate": "2024-10-18T12:29:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-18T12:29Z/"
-            },
-            {
-              "isoDate": "2024-10-15T05:31:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-15T05:31Z/"
-            },
-            {
-              "isoDate": "2024-10-15T05:23:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-15T05:23Z/"
-            },
-            {
-              "isoDate": "2024-10-13T14:47:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-13T14:47Z/"
             }
           ]
         },
@@ -481,68 +574,6 @@
               "title": "AI art is not generative art",
               "isoDate": "2024-03-25T00:00:00.000Z",
               "link": "https://leanrada.com/notes/ai-art-not-generative-art?ref=rss"
-            }
-          ]
-        },
-        {
-          "title": "Chelsea Troy",
-          "feedUrl": "https://chelseatroy.com/feed/",
-          "items": [
-            {
-              "title": "Decision-Making Pitfalls for Technical Leaders",
-              "isoDate": "2024-10-16T16:12:47.000Z",
-              "link": "https://chelseatroy.com/2024/10/16/decision-making-pitfalls-for-technical-leaders/"
-            },
-            {
-              "title": "Does AI benefit the world?",
-              "isoDate": "2024-08-28T17:00:39.000Z",
-              "link": "https://chelseatroy.com/2024/08/28/does-ai-benefit-the-world/"
-            },
-            {
-              "title": "The Programmers’ Identity Crisis: how do we use our powers for ‘good’?",
-              "isoDate": "2024-07-03T02:36:53.000Z",
-              "link": "https://chelseatroy.com/2024/07/03/programmers-identity-crises-and-moral-panic/"
-            },
-            {
-              "title": "How do we build the future with AI?",
-              "isoDate": "2024-06-23T21:21:18.000Z",
-              "link": "https://chelseatroy.com/2024/06/23/how-do-we-build-the-future-with-ai/"
-            },
-            {
-              "title": "How does AI impact my job as a programmer?",
-              "isoDate": "2024-05-26T12:25:21.000Z",
-              "link": "https://chelseatroy.com/2024/05/26/how-does-ai-impact-my-job-as-a-programmer/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Be Suspicious of Success",
-              "isoDate": "2024-10-16T15:08:39.000Z",
-              "link": "https://buttondown.com/hillelwayne/archive/be-suspicious-of-success/"
-            },
-            {
-              "title": "How to convince engineers that formal methods is cool",
-              "isoDate": "2024-10-08T16:18:55.000Z",
-              "link": "https://buttondown.com/hillelwayne/archive/how-to-convince-engineers-that-formal-methods-is/"
-            },
-            {
-              "title": "Refactoring Invariants",
-              "isoDate": "2024-09-24T20:06:10.000Z",
-              "link": "https://buttondown.com/hillelwayne/archive/refactoring-invariants/"
-            },
-            {
-              "title": "Goodhart's Law in Software Engineering",
-              "isoDate": "2024-09-17T16:33:40.000Z",
-              "link": "https://buttondown.com/hillelwayne/archive/goodharts-law-in-software-engineering/"
-            },
-            {
-              "title": "Why Not Comments",
-              "isoDate": "2024-09-10T19:40:29.000Z",
-              "link": "https://buttondown.com/hillelwayne/archive/why-not-comments/"
             }
           ]
         },
@@ -1365,37 +1396,6 @@
               "title": "on beginnings",
               "isoDate": "2024-06-30T00:00:00.000Z",
               "link": "https://fum.lol/blog/beginnings/"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Brief Note on Disclosures in Fieldsets",
-              "isoDate": "2024-09-14T12:34:04.000Z",
-              "link": "https://adrianroselli.com/2024/09/brief-note-on-disclosures-in-fieldsets.html"
-            },
-            {
-              "title": "Under-Engineered Estimated Reading Time Feature",
-              "isoDate": "2024-09-02T04:13:40.000Z",
-              "link": "https://adrianroselli.com/2024/09/under-engineered-estimated-reading-time-feature.html"
-            },
-            {
-              "title": "Semi-Annual Reminder to Learn and Hire for Web Standards",
-              "isoDate": "2024-09-01T05:52:24.000Z",
-              "link": "https://adrianroselli.com/2024/09/semi-annual-reminder-to-learn-and-hire-for-web-standards.html"
-            },
-            {
-              "title": "Mountain Chicken!",
-              "isoDate": "2024-08-30T11:54:18.000Z",
-              "link": "https://adrianroselli.com/2024/08/mountain-chicken.html"
-            },
-            {
-              "title": "Talkin’ Tables — WebAIM Conference 2024",
-              "isoDate": "2024-08-28T16:00:36.000Z",
-              "link": "https://adrianroselli.com/2024/08/talkin-tables-webaim-conference-2024.html"
             }
           ]
         },
@@ -2508,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-22T03:21:16.765Z",
+  "fetchDate": "2024-10-23T03:20:26.548Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

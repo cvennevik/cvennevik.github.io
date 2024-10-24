@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "How to program good",
+              "isoDate": "2024-10-23T19:57:00.000Z",
+              "link": "https://garoof.no/notes/how-to-program-good.html"
+            },
+            {
+              "title": "Not even glue",
+              "isoDate": "2024-10-03T22:07:00.000Z",
+              "link": "https://garoof.no/notes/not-even-glue.html"
+            },
+            {
+              "title": "Ward Cunningham's debt metaphor",
+              "isoDate": "2024-09-20T20:09:00.000Z",
+              "link": "https://garoof.no/notes/technical-debt-cunningham.html"
+            },
+            {
+              "title": "Bools surfacing",
+              "isoDate": "2024-09-18T20:58:00.000Z",
+              "link": "https://garoof.no/notes/bools-surfacing.html"
+            },
+            {
+              "title": "Attempting to SVG some ASCII art diagrams",
+              "isoDate": "2024-08-30T15:25:00.000Z",
+              "link": "https://garoof.no/notes/ascii-svg.html"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "The Lowest Common Denominator: www",
+              "isoDate": "2024-10-23T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/lowest-common-denominator/"
+            },
+            {
+              "title": "Tech’s Epithet: “Enabled By Default”",
+              "isoDate": "2024-10-21T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/enabled-by-default/"
+            },
+            {
+              "title": "Prompting the Wrong Question",
+              "isoDate": "2024-10-16T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/prompting-the-wrong-question/"
+            },
+            {
+              "title": "Prototyping Magic Tricks and Software",
+              "isoDate": "2024-10-14T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/prototyping-magic-and-software/"
+            },
+            {
+              "title": "Grateful: Colors in console.log()",
+              "isoDate": "2024-10-09T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/color-console-log/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "How to add custom events to Web Components",
+              "isoDate": "2024-10-23T14:30:00.000Z",
+              "link": "https://gomakethings.com/how-to-add-custom-events-to-web-components/"
+            },
+            {
+              "title": "As little code as possible",
+              "isoDate": "2024-10-21T14:30:00.000Z",
+              "link": "https://gomakethings.com/as-little-code-as-possible/"
+            },
+            {
+              "title": "When is the shadow DOM useful?",
+              "isoDate": "2024-10-18T14:30:00.000Z",
+              "link": "https://gomakethings.com/when-is-the-shadow-dom-useful/"
+            },
+            {
+              "title": "Styling web components",
+              "isoDate": "2024-10-17T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-web-components/"
+            },
+            {
+              "title": "AI is exploitation",
+              "isoDate": "2024-10-16T14:30:00.000Z",
+              "link": "https://gomakethings.com/ai-is-exploitation/"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "Devbox: Reproduserbare utviklermiljø uten Docker eller virtuelle maskiner",
+              "isoDate": "2024-10-23T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-10-23-devbox/"
+            },
+            {
+              "title": "Verdien av å lære seg små programmeringsspråk",
+              "isoDate": "2024-10-21T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-10-21-verdien-av-smaa-programmeringsspraak/"
+            },
+            {
+              "title": "Erstatt gammelt med nytt - uten stress",
+              "isoDate": "2024-10-09T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-10-09-migrering/"
+            },
+            {
+              "title": "Jujutsu: det beste av Git, Mercurial og Darcs",
+              "isoDate": "2024-09-26T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-09-26-jujutsu/"
+            },
+            {
+              "title": "Fossil: Prosjektstyring i en bitte liten SQL database",
+              "isoDate": "2024-09-25T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-09-25-fossil/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -31,6 +155,37 @@
               "title": "The week has gone, the week is ahead",
               "isoDate": "2024-10-14T03:05:38.000Z",
               "link": "https://anniemueller.com/posts/the-week-has-gone-the-week-is-ahead"
+            }
+          ]
+        },
+        {
+          "title": "draganstepanovic.com",
+          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
+          "items": [
+            {
+              "title": "A huge assumption with Ship/Show/Ask",
+              "isoDate": "2024-10-23T00:00:00.000Z",
+              "link": "https://dragan-stepanovic.github.io//2024/10/23/a-huge-assumption.html"
+            },
+            {
+              "title": "“Let's pair/mob when it makes sense”.",
+              "isoDate": "2024-10-03T00:00:00.000Z",
+              "link": "https://dragan-stepanovic.github.io//2024/10/03/lets-pair-when-it-makes-sense.html"
+            },
+            {
+              "title": "If you halve the amount of effort you put into producing a PR",
+              "isoDate": "2024-10-03T00:00:00.000Z",
+              "link": "https://dragan-stepanovic.github.io//2024/10/03/if-you-halve-the-effort.html"
+            },
+            {
+              "title": "One thing leaders often fail to understand",
+              "isoDate": "2024-07-20T00:00:00.000Z",
+              "link": "https://dragan-stepanovic.github.io//2024/07/20/one-thing-leaders.html"
+            },
+            {
+              "title": "A couple of tips on rotation times in a pair/mob",
+              "isoDate": "2024-07-02T00:00:00.000Z",
+              "link": "https://dragan-stepanovic.github.io//2024/07/02/on-rotation-times.html"
             }
           ]
         },
@@ -216,68 +371,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Tech’s Epithet: “Enabled By Default”",
-              "isoDate": "2024-10-21T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/enabled-by-default/"
-            },
-            {
-              "title": "Prompting the Wrong Question",
-              "isoDate": "2024-10-16T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/prompting-the-wrong-question/"
-            },
-            {
-              "title": "Prototyping Magic Tricks and Software",
-              "isoDate": "2024-10-14T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/prototyping-magic-and-software/"
-            },
-            {
-              "title": "Grateful: Colors in console.log()",
-              "isoDate": "2024-10-09T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/color-console-log/"
-            },
-            {
-              "title": "Ryan Dahl Talks Deno on The Changelog",
-              "isoDate": "2024-10-07T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/ryan-dahl-talks-deno-on-changelog/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "As little code as possible",
-              "isoDate": "2024-10-21T14:30:00.000Z",
-              "link": "https://gomakethings.com/as-little-code-as-possible/"
-            },
-            {
-              "title": "When is the shadow DOM useful?",
-              "isoDate": "2024-10-18T14:30:00.000Z",
-              "link": "https://gomakethings.com/when-is-the-shadow-dom-useful/"
-            },
-            {
-              "title": "Styling web components",
-              "isoDate": "2024-10-17T14:30:00.000Z",
-              "link": "https://gomakethings.com/styling-web-components/"
-            },
-            {
-              "title": "AI is exploitation",
-              "isoDate": "2024-10-16T14:30:00.000Z",
-              "link": "https://gomakethings.com/ai-is-exploitation/"
-            },
-            {
-              "title": "Rage against the AI machine",
-              "isoDate": "2024-10-14T14:30:00.000Z",
-              "link": "https://gomakethings.com/rage-against-the-ai-machine/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -295,37 +388,6 @@
               "title": "Non-violence as a societal value",
               "isoDate": "2024-10-21T10:34:04.000Z",
               "link": "https://www.baldurbjarnason.com/2024/non-violence-as-a-societal-value/"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Verdien av å lære seg små programmeringsspråk",
-              "isoDate": "2024-10-21T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-10-21-verdien-av-smaa-programmeringsspraak/"
-            },
-            {
-              "title": "Erstatt gammelt med nytt - uten stress",
-              "isoDate": "2024-10-09T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-10-09-migrering/"
-            },
-            {
-              "title": "Jujutsu: det beste av Git, Mercurial og Darcs",
-              "isoDate": "2024-09-26T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-09-26-jujutsu/"
-            },
-            {
-              "title": "Fossil: Prosjektstyring i en bitte liten SQL database",
-              "isoDate": "2024-09-25T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-09-25-fossil/"
-            },
-            {
-              "title": "Radicle: Distribuert GitHub",
-              "isoDate": "2024-09-24T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-09-24-radicle/"
             }
           ]
         },
@@ -981,37 +1043,6 @@
           ]
         },
         {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Not even glue",
-              "isoDate": "2024-10-03T22:07:00.000Z",
-              "link": "https://garoof.no/notes/not-even-glue.html"
-            },
-            {
-              "title": "Ward Cunningham's debt metaphor",
-              "isoDate": "2024-09-20T20:09:00.000Z",
-              "link": "https://garoof.no/notes/technical-debt-cunningham.html"
-            },
-            {
-              "title": "Bools surfacing",
-              "isoDate": "2024-09-18T20:58:00.000Z",
-              "link": "https://garoof.no/notes/bools-surfacing.html"
-            },
-            {
-              "title": "Attempting to SVG some ASCII art diagrams",
-              "isoDate": "2024-08-30T15:25:00.000Z",
-              "link": "https://garoof.no/notes/ascii-svg.html"
-            },
-            {
-              "title": "Webby Lua",
-              "isoDate": "2024-08-24T13:28:00.000Z",
-              "link": "https://garoof.no/notes/webby-lua.html"
-            }
-          ]
-        },
-        {
           "title": "ample code",
           "feedUrl": "https://einarwh.wordpress.com/feed/",
           "items": [
@@ -1070,37 +1101,6 @@
               "title": "Whatever It Is, I Probably Don’t Need It",
               "isoDate": "2024-09-11T15:53:23.000Z",
               "link": "https://mikegrindle.com/posts/min"
-            }
-          ]
-        },
-        {
-          "title": "draganstepanovic.com",
-          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
-          "items": [
-            {
-              "title": "“Let's pair/mob when it makes sense”.",
-              "isoDate": "2024-10-03T00:00:00.000Z",
-              "link": "https://dragan-stepanovic.github.io//2024/10/03/lets-pair-when-it-makes-sense.html"
-            },
-            {
-              "title": "If you halve the amount of effort you put into producing a PR",
-              "isoDate": "2024-10-03T00:00:00.000Z",
-              "link": "https://dragan-stepanovic.github.io//2024/10/03/if-you-halve-the-effort.html"
-            },
-            {
-              "title": "One thing leaders often fail to understand",
-              "isoDate": "2024-07-20T00:00:00.000Z",
-              "link": "https://dragan-stepanovic.github.io//2024/07/20/one-thing-leaders.html"
-            },
-            {
-              "title": "A couple of tips on rotation times in a pair/mob",
-              "isoDate": "2024-07-02T00:00:00.000Z",
-              "link": "https://dragan-stepanovic.github.io//2024/07/02/on-rotation-times.html"
-            },
-            {
-              "title": "Empirical design is continuous design",
-              "isoDate": "2024-06-07T00:00:00.000Z",
-              "link": "https://dragan-stepanovic.github.io//2024/06/07/empirical-is-continuous.html"
             }
           ]
         },
@@ -2508,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-23T03:20:26.548Z",
+  "fetchDate": "2024-10-24T03:20:12.692Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

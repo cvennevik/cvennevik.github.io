@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Fumbling for the words",
+              "isoDate": "2024-10-24T23:53:34.000Z",
+              "link": "https://anniemueller.com/posts/fumbling-for-the-words"
+            },
+            {
+              "title": "Faith doesn’t look like being brave",
+              "isoDate": "2024-10-23T01:06:29.000Z",
+              "link": "https://anniemueller.com/posts/faith-doesnt-look-like-being-brave"
+            },
+            {
+              "title": "Relationship circles",
+              "isoDate": "2024-10-21T01:58:23.000Z",
+              "link": "https://anniemueller.com/posts/relationship-circles"
+            },
+            {
+              "title": "How to do the RSS",
+              "isoDate": "2024-10-18T00:21:30.000Z",
+              "link": "https://anniemueller.com/posts/how-to-do-the-rss"
+            },
+            {
+              "title": "How to be confident",
+              "isoDate": "2024-10-16T01:31:23.000Z",
+              "link": "https://anniemueller.com/posts/how-to-be-confident"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "On command palettes and competition",
+              "isoDate": "2024-10-24T09:03:32.000Z",
+              "link": "https://rosswintle.uk/2024/10/wordpress-command-palette-competition/"
+            },
+            {
+              "title": "Book: Extra Focus – Jesse J Anderson",
+              "isoDate": "2024-09-08T18:32:33.000Z",
+              "link": "https://rosswintle.uk/2024/09/book-extra-focus-jesse-j-anderson/"
+            },
+            {
+              "title": "Book: Recursion – Blake Crouch",
+              "isoDate": "2024-09-08T11:54:01.000Z",
+              "link": "https://rosswintle.uk/2024/09/book-recursion-blake-crouch/"
+            },
+            {
+              "title": "The New Reeder App",
+              "isoDate": "2024-09-07T11:23:25.000Z",
+              "link": "https://rosswintle.uk/2024/09/the-new-reeder-app/"
+            },
+            {
+              "title": "Book: The Way of Kings – Brandon Sanderson",
+              "isoDate": "2024-08-26T19:08:59.000Z",
+              "link": "https://rosswintle.uk/2024/08/book-the-way-of-kings-brandon-sanderson/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "isoDate": "2024-10-24T07:27:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-24T07:27Z/"
+            },
+            {
+              "isoDate": "2024-10-22T14:24:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-22T14:24Z/"
+            },
+            {
+              "isoDate": "2024-10-19T14:30:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-19T14:30Z/"
+            },
+            {
+              "isoDate": "2024-10-18T12:29:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-18T12:29Z/"
+            },
+            {
+              "isoDate": "2024-10-15T05:31:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-15T05:31Z/"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "Det vi ikke snakker om når vi snakker om teknisk gjeld",
+              "isoDate": "2024-10-24T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-10-teknisk-gjeld/"
+            },
+            {
+              "title": "Devbox: Reproduserbare utviklermiljø uten Docker eller virtuelle maskiner",
+              "isoDate": "2024-10-23T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-10-23-devbox/"
+            },
+            {
+              "title": "Verdien av å lære seg små programmeringsspråk",
+              "isoDate": "2024-10-21T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-10-21-verdien-av-smaa-programmeringsspraak/"
+            },
+            {
+              "title": "Erstatt gammelt med nytt - uten stress",
+              "isoDate": "2024-10-09T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-10-09-migrering/"
+            },
+            {
+              "title": "Jujutsu: det beste av Git, Mercurial og Darcs",
+              "isoDate": "2024-09-26T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-09-26-jujutsu/"
+            }
+          ]
+        },
+        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -93,68 +212,6 @@
               "title": "AI is exploitation",
               "isoDate": "2024-10-16T14:30:00.000Z",
               "link": "https://gomakethings.com/ai-is-exploitation/"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Devbox: Reproduserbare utviklermiljø uten Docker eller virtuelle maskiner",
-              "isoDate": "2024-10-23T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-10-23-devbox/"
-            },
-            {
-              "title": "Verdien av å lære seg små programmeringsspråk",
-              "isoDate": "2024-10-21T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-10-21-verdien-av-smaa-programmeringsspraak/"
-            },
-            {
-              "title": "Erstatt gammelt med nytt - uten stress",
-              "isoDate": "2024-10-09T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-10-09-migrering/"
-            },
-            {
-              "title": "Jujutsu: det beste av Git, Mercurial og Darcs",
-              "isoDate": "2024-09-26T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-09-26-jujutsu/"
-            },
-            {
-              "title": "Fossil: Prosjektstyring i en bitte liten SQL database",
-              "isoDate": "2024-09-25T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-09-25-fossil/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Faith doesn’t look like being brave",
-              "isoDate": "2024-10-23T01:06:29.000Z",
-              "link": "https://anniemueller.com/posts/faith-doesnt-look-like-being-brave"
-            },
-            {
-              "title": "Relationship circles",
-              "isoDate": "2024-10-21T01:58:23.000Z",
-              "link": "https://anniemueller.com/posts/relationship-circles"
-            },
-            {
-              "title": "How to do the RSS",
-              "isoDate": "2024-10-18T00:21:30.000Z",
-              "link": "https://anniemueller.com/posts/how-to-do-the-rss"
-            },
-            {
-              "title": "How to be confident",
-              "isoDate": "2024-10-16T01:31:23.000Z",
-              "link": "https://anniemueller.com/posts/how-to-be-confident"
-            },
-            {
-              "title": "The week has gone, the week is ahead",
-              "isoDate": "2024-10-14T03:05:38.000Z",
-              "link": "https://anniemueller.com/posts/the-week-has-gone-the-week-is-ahead"
             }
           ]
         },
@@ -310,32 +367,6 @@
               "title": "A silly bug in my blog engine",
               "isoDate": "2024-10-13T17:10:00.000Z",
               "link": "https://moonbase.lgbt/blog/a-silly-bug-in-my-blog-engine/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "isoDate": "2024-10-22T14:24:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-22T14:24Z/"
-            },
-            {
-              "isoDate": "2024-10-19T14:30:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-19T14:30Z/"
-            },
-            {
-              "isoDate": "2024-10-18T12:29:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-18T12:29Z/"
-            },
-            {
-              "isoDate": "2024-10-15T05:31:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-15T05:31Z/"
-            },
-            {
-              "isoDate": "2024-10-15T05:23:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-15T05:23Z/"
             }
           ]
         },
@@ -1524,37 +1555,6 @@
           ]
         },
         {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "Book: Extra Focus – Jesse J Anderson",
-              "isoDate": "2024-09-08T18:32:33.000Z",
-              "link": "https://rosswintle.uk/2024/09/book-extra-focus-jesse-j-anderson/"
-            },
-            {
-              "title": "Book: Recursion – Blake Crouch",
-              "isoDate": "2024-09-08T11:54:01.000Z",
-              "link": "https://rosswintle.uk/2024/09/book-recursion-blake-crouch/"
-            },
-            {
-              "title": "The New Reeder App",
-              "isoDate": "2024-09-07T11:23:25.000Z",
-              "link": "https://rosswintle.uk/2024/09/the-new-reeder-app/"
-            },
-            {
-              "title": "Book: The Way of Kings – Brandon Sanderson",
-              "isoDate": "2024-08-26T19:08:59.000Z",
-              "link": "https://rosswintle.uk/2024/08/book-the-way-of-kings-brandon-sanderson/"
-            },
-            {
-              "title": "Book: Down and out in the Magic Kingdom – Cory Doctorow",
-              "isoDate": "2024-08-26T10:26:22.000Z",
-              "link": "https://rosswintle.uk/2024/08/book-down-and-out-in-the-magic-kingdom-cory-doctorow/"
-            }
-          ]
-        },
-        {
           "title": "drcathicks",
           "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
           "items": [
@@ -2508,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-24T03:20:12.692Z",
+  "fetchDate": "2024-10-25T03:22:11.052Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

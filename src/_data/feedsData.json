@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Tooth of the Weasel",
+          "feedUrl": "https://angryweasel.com/blog/feed/",
+          "items": [
+            {
+              "title": "Five for Friday – October 25, 2024",
+              "isoDate": "2024-10-25T19:03:23.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-october-25-2024/"
+            },
+            {
+              "title": "Five for Friday – October 18,2024",
+              "isoDate": "2024-10-18T14:54:37.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-october-182024/"
+            },
+            {
+              "title": "Five for Friday – October 11, 2024",
+              "isoDate": "2024-10-11T18:27:59.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-october-11-2024/"
+            },
+            {
+              "title": "Five for Friday – October 4, 2024",
+              "isoDate": "2024-10-04T19:54:29.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-october-4-2024/"
+            },
+            {
+              "title": "Five for Friday – September 27, 2024",
+              "isoDate": "2024-09-27T14:43:43.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-september-27-2024/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "We’re All Content Creators for Machines",
+              "isoDate": "2024-10-25T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/machine-content-creators/"
+            },
+            {
+              "title": "The Lowest Common Denominator: www",
+              "isoDate": "2024-10-23T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/lowest-common-denominator/"
+            },
+            {
+              "title": "Tech’s Epithet: “Enabled By Default”",
+              "isoDate": "2024-10-21T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/enabled-by-default/"
+            },
+            {
+              "title": "Prompting the Wrong Question",
+              "isoDate": "2024-10-16T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/prompting-the-wrong-question/"
+            },
+            {
+              "title": "Prototyping Magic Tricks and Software",
+              "isoDate": "2024-10-14T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/prototyping-magic-and-software/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
+            {
+              "title": "This post is not about body wash",
+              "isoDate": "2024-10-25T16:22:10.000Z",
+              "link": "https://anniemueller.com/posts/this-post-is-not-about-body-wash"
+            },
             {
               "title": "Fumbling for the words",
               "isoDate": "2024-10-24T23:53:34.000Z",
@@ -26,11 +93,6 @@
               "title": "How to do the RSS",
               "isoDate": "2024-10-18T00:21:30.000Z",
               "link": "https://anniemueller.com/posts/how-to-do-the-rss"
-            },
-            {
-              "title": "How to be confident",
-              "isoDate": "2024-10-16T01:31:23.000Z",
-              "link": "https://anniemueller.com/posts/how-to-be-confident"
             }
           ]
         },
@@ -150,37 +212,6 @@
               "title": "Attempting to SVG some ASCII art diagrams",
               "isoDate": "2024-08-30T15:25:00.000Z",
               "link": "https://garoof.no/notes/ascii-svg.html"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "The Lowest Common Denominator: www",
-              "isoDate": "2024-10-23T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/lowest-common-denominator/"
-            },
-            {
-              "title": "Tech’s Epithet: “Enabled By Default”",
-              "isoDate": "2024-10-21T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/enabled-by-default/"
-            },
-            {
-              "title": "Prompting the Wrong Question",
-              "isoDate": "2024-10-16T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/prompting-the-wrong-question/"
-            },
-            {
-              "title": "Prototyping Magic Tricks and Software",
-              "isoDate": "2024-10-14T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/prototyping-magic-and-software/"
-            },
-            {
-              "title": "Grateful: Colors in console.log()",
-              "isoDate": "2024-10-09T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/color-console-log/"
             }
           ]
         },
@@ -454,37 +485,6 @@
           ]
         },
         {
-          "title": " The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": " October 2024 blend of links ",
-              "isoDate": "2024-10-20T16:33:52.000Z",
-              "link": "http://thejollyteapot.com/october-2024-blend"
-            },
-            {
-              "title": " Why are static site generators so complicated to use? ",
-              "isoDate": "2024-10-15T18:16:48.000Z",
-              "link": "http://thejollyteapot.com/2024/10/15/why-are-static-site-generators-so-complicated-to-use"
-            },
-            {
-              "title": " September 2024 blend of links ",
-              "isoDate": "2024-09-27T22:00:00.000Z",
-              "link": "http://thejollyteapot.com/september-2024-blend"
-            },
-            {
-              "title": " The wonderful rabbit hole of BBEdit ",
-              "isoDate": "2024-09-26T22:00:00.000Z",
-              "link": "http://thejollyteapot.com/2024/09/27/the-wonderful-rabbit-hole-of-bbedit"
-            },
-            {
-              "title": " Third-party apps and services I use on my devices, 2024 edition ",
-              "isoDate": "2024-09-16T22:00:00.000Z",
-              "link": "http://thejollyteapot.com/2024/09/17/third-party-apps-and-services-i-use-on-my-devices-2024-edition"
-            }
-          ]
-        },
-        {
           "title": "More Questions Than Answers",
           "feedUrl": "https://unremarkabletester.com/feed/",
           "items": [
@@ -547,6 +547,37 @@
           ]
         },
         {
+          "title": " The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": " October 2024 blend of links ",
+              "isoDate": "2024-10-19T22:00:00.000Z",
+              "link": "http://thejollyteapot.com/october-2024-blend"
+            },
+            {
+              "title": " Why are static site generators so complicated to use? ",
+              "isoDate": "2024-10-15T18:16:48.000Z",
+              "link": "http://thejollyteapot.com/2024/10/15/why-are-static-site-generators-so-complicated-to-use"
+            },
+            {
+              "title": " September 2024 blend of links ",
+              "isoDate": "2024-09-27T22:00:00.000Z",
+              "link": "http://thejollyteapot.com/september-2024-blend"
+            },
+            {
+              "title": " The wonderful rabbit hole of BBEdit ",
+              "isoDate": "2024-09-26T22:00:00.000Z",
+              "link": "http://thejollyteapot.com/2024/09/27/the-wonderful-rabbit-hole-of-bbedit"
+            },
+            {
+              "title": " Third-party apps and services I use on my devices, 2024 edition ",
+              "isoDate": "2024-09-16T22:00:00.000Z",
+              "link": "http://thejollyteapot.com/2024/09/17/third-party-apps-and-services-i-use-on-my-devices-2024-edition"
+            }
+          ]
+        },
+        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -574,37 +605,6 @@
               "title": "Notes - Keynote: How to say no to things you actually do not want to do",
               "isoDate": "2024-10-04T00:00:00.000Z",
               "link": "https://thinkinglabs.io/notes/2024/10/04/agilecam-keynote-how-to-say-no-to-things-you-actually-do-not-want-to-do-aino-vonge-corry.html"
-            }
-          ]
-        },
-        {
-          "title": "Tooth of the Weasel",
-          "feedUrl": "https://angryweasel.com/blog/feed/",
-          "items": [
-            {
-              "title": "Five for Friday – October 18,2024",
-              "isoDate": "2024-10-18T14:54:37.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-october-182024/"
-            },
-            {
-              "title": "Five for Friday – October 11, 2024",
-              "isoDate": "2024-10-11T18:27:59.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-october-11-2024/"
-            },
-            {
-              "title": "Five for Friday – October 4, 2024",
-              "isoDate": "2024-10-04T19:54:29.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-october-4-2024/"
-            },
-            {
-              "title": "Five for Friday – September 27, 2024",
-              "isoDate": "2024-09-27T14:43:43.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-september-27-2024/"
-            },
-            {
-              "title": "Five for Friday – September 20, 2024",
-              "isoDate": "2024-09-20T20:00:29.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-september-20-2024/"
             }
           ]
         },
@@ -2508,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-25T03:22:11.052Z",
+  "fetchDate": "2024-10-26T03:18:11.926Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Sara Joy",
+          "feedUrl": "https://sarajoy.dev/rss.xml",
+          "items": [
+            {
+              "title": "Come to the light-dark() Side",
+              "isoDate": "2024-10-26T14:53:00.000Z",
+              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
+            },
+            {
+              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
+              "isoDate": "2024-09-30T00:00:00.000Z",
+              "link": "https://sarajoy.dev/blog/see-and-point/"
+            },
+            {
+              "title": "Sara Uses",
+              "isoDate": "2024-09-10T14:30:00.000Z",
+              "link": "https://sarajoy.dev/blog/uses/"
+            },
+            {
+              "title": "Weaknote 2024-07-25 (a tab amnesty)",
+              "isoDate": "2024-07-25T09:49:00.000Z",
+              "link": "https://sarajoy.dev/blog/notes/20240725/"
+            },
+            {
+              "title": "Everybody's Free (To Write Websites)",
+              "isoDate": "2024-07-16T00:00:00.000Z",
+              "link": "https://sarajoy.dev/blog/write-websites/"
+            }
+          ]
+        },
+        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -1291,37 +1322,6 @@
           ]
         },
         {
-          "title": "Sara Joy",
-          "feedUrl": "https://sarajoy.dev/rss.xml",
-          "items": [
-            {
-              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
-              "isoDate": "2024-09-30T00:00:00.000Z",
-              "link": "https://sarajoy.dev/blog/see-and-point/"
-            },
-            {
-              "title": "Sara Uses",
-              "isoDate": "2024-09-10T14:30:00.000Z",
-              "link": "https://sarajoy.dev/blog/uses/"
-            },
-            {
-              "title": "Weaknote 2024-07-25 (a tab amnesty)",
-              "isoDate": "2024-07-25T09:49:00.000Z",
-              "link": "https://sarajoy.dev/blog/notes/20240725/"
-            },
-            {
-              "title": "Everybody's Free (To Write Websites)",
-              "isoDate": "2024-07-16T00:00:00.000Z",
-              "link": "https://sarajoy.dev/blog/write-websites/"
-            },
-            {
-              "title": "Weaknote 2024-07-14",
-              "isoDate": "2024-07-14T20:00:00.000Z",
-              "link": "https://sarajoy.dev/blog/notes/20240714/"
-            }
-          ]
-        },
-        {
           "title": "Kyle Shevlin's Blog RSS Feed",
           "feedUrl": "https://kyleshevlin.com/rss.xml",
           "items": [
@@ -2508,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-26T03:18:11.926Z",
+  "fetchDate": "2024-10-27T03:23:44.988Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

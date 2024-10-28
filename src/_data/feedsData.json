@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "It sure will",
+              "isoDate": "2024-10-28T02:06:34.000Z",
+              "link": "https://anniemueller.com/posts/it-sure-will"
+            },
+            {
+              "title": "This post is not about body wash",
+              "isoDate": "2024-10-25T16:22:10.000Z",
+              "link": "https://anniemueller.com/posts/this-post-is-not-about-body-wash"
+            },
+            {
+              "title": "Fumbling for the words",
+              "isoDate": "2024-10-24T23:53:34.000Z",
+              "link": "https://anniemueller.com/posts/fumbling-for-the-words"
+            },
+            {
+              "title": "Faith doesn’t look like being brave",
+              "isoDate": "2024-10-23T01:06:29.000Z",
+              "link": "https://anniemueller.com/posts/faith-doesnt-look-like-being-brave"
+            },
+            {
+              "title": "Relationship circles",
+              "isoDate": "2024-10-21T01:58:23.000Z",
+              "link": "https://anniemueller.com/posts/relationship-circles"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Using less memory to look up IP addresses in Mess With DNS",
+              "isoDate": "2024-10-27T07:47:04.000Z",
+              "link": "https://jvns.ca/blog/2024/10/27/asn-ip-address-memory/"
+            },
+            {
+              "title": "Some notes on upgrading Hugo",
+              "isoDate": "2024-10-07T09:19:57.000Z",
+              "link": "https://jvns.ca/blog/2024/10/07/some-notes-on-upgrading-hugo/"
+            },
+            {
+              "title": "Terminal colours are tricky",
+              "isoDate": "2024-10-01T10:01:44.000Z",
+              "link": "https://jvns.ca/blog/2024/10/01/terminal-colours/"
+            },
+            {
+              "title": "Some Go web dev notes",
+              "isoDate": "2024-09-27T11:16:00.000Z",
+              "link": "https://jvns.ca/blog/2024/09/27/some-go-web-dev-notes/"
+            },
+            {
+              "title": "Reasons I still love the fish shell",
+              "isoDate": "2024-09-12T15:09:12.000Z",
+              "link": "https://jvns.ca/blog/2024/09/12/reasons-i--still--love-fish/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "isoDate": "2024-10-27T06:45:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-27T06:45Z/"
+            },
+            {
+              "isoDate": "2024-10-24T07:27:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-24T07:27Z/"
+            },
+            {
+              "isoDate": "2024-10-22T14:24:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-22T14:24Z/"
+            },
+            {
+              "isoDate": "2024-10-19T14:30:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-19T14:30Z/"
+            },
+            {
+              "isoDate": "2024-10-18T12:29:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-18T12:29Z/"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "Platform Strategy and Its Discontents",
+              "isoDate": "2024-10-27T00:00:00.000Z",
+              "link": "https://infrequently.org/2024/10/platforms-are-competitions/"
+            },
+            {
+              "title": "Reckoning: Part 4 — The Way Out",
+              "isoDate": "2024-08-16T00:00:00.000Z",
+              "link": "https://infrequently.org/2024/08/the-way-out/"
+            },
+            {
+              "title": "Reckoning: Part 3 — Caprock",
+              "isoDate": "2024-08-14T00:00:00.000Z",
+              "link": "https://infrequently.org/2024/08/caprock/"
+            },
+            {
+              "title": "Reckoning: Part 2 — Object Lesson",
+              "isoDate": "2024-08-13T00:00:00.000Z",
+              "link": "https://infrequently.org/2024/08/object-lesson/"
+            },
+            {
+              "title": "Reckoning: Part 1 — The Landscape",
+              "isoDate": "2024-08-12T00:00:00.000Z",
+              "link": "https://infrequently.org/2024/08/the-landscape/"
+            }
+          ]
+        },
+        {
           "title": "Sara Joy",
           "feedUrl": "https://sarajoy.dev/rss.xml",
           "items": [
@@ -97,37 +216,6 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "This post is not about body wash",
-              "isoDate": "2024-10-25T16:22:10.000Z",
-              "link": "https://anniemueller.com/posts/this-post-is-not-about-body-wash"
-            },
-            {
-              "title": "Fumbling for the words",
-              "isoDate": "2024-10-24T23:53:34.000Z",
-              "link": "https://anniemueller.com/posts/fumbling-for-the-words"
-            },
-            {
-              "title": "Faith doesn’t look like being brave",
-              "isoDate": "2024-10-23T01:06:29.000Z",
-              "link": "https://anniemueller.com/posts/faith-doesnt-look-like-being-brave"
-            },
-            {
-              "title": "Relationship circles",
-              "isoDate": "2024-10-21T01:58:23.000Z",
-              "link": "https://anniemueller.com/posts/relationship-circles"
-            },
-            {
-              "title": "How to do the RSS",
-              "isoDate": "2024-10-18T00:21:30.000Z",
-              "link": "https://anniemueller.com/posts/how-to-do-the-rss"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -155,32 +243,6 @@
               "title": "Book: The Way of Kings – Brandon Sanderson",
               "isoDate": "2024-08-26T19:08:59.000Z",
               "link": "https://rosswintle.uk/2024/08/book-the-way-of-kings-brandon-sanderson/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "isoDate": "2024-10-24T07:27:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-24T07:27Z/"
-            },
-            {
-              "isoDate": "2024-10-22T14:24:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-22T14:24Z/"
-            },
-            {
-              "isoDate": "2024-10-19T14:30:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-19T14:30Z/"
-            },
-            {
-              "isoDate": "2024-10-18T12:29:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-18T12:29Z/"
-            },
-            {
-              "isoDate": "2024-10-15T05:31:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-15T05:31Z/"
             }
           ]
         },
@@ -981,37 +1043,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Some notes on upgrading Hugo",
-              "isoDate": "2024-10-07T09:19:57.000Z",
-              "link": "https://jvns.ca/blog/2024/10/07/some-notes-on-upgrading-hugo/"
-            },
-            {
-              "title": "Terminal colours are tricky",
-              "isoDate": "2024-10-01T10:01:44.000Z",
-              "link": "https://jvns.ca/blog/2024/10/01/terminal-colours/"
-            },
-            {
-              "title": "Some Go web dev notes",
-              "isoDate": "2024-09-27T11:16:00.000Z",
-              "link": "https://jvns.ca/blog/2024/09/27/some-go-web-dev-notes/"
-            },
-            {
-              "title": "Reasons I still love the fish shell",
-              "isoDate": "2024-09-12T15:09:12.000Z",
-              "link": "https://jvns.ca/blog/2024/09/12/reasons-i--still--love-fish/"
-            },
-            {
-              "title": "Migrating Mess With DNS to use PowerDNS",
-              "isoDate": "2024-08-19T08:15:28.000Z",
-              "link": "https://jvns.ca/blog/2024/08/19/migrating-mess-with-dns-to-use-powerdns/"
-            }
-          ]
-        },
-        {
           "title": "jakelazaroff.com",
           "feedUrl": "https://jakelazaroff.com/rss.xml",
           "items": [
@@ -1706,37 +1737,6 @@
               "title": "A Software Engineering Career Ladder",
               "isoDate": "2024-04-27T21:28:01.000Z",
               "link": "https://www.jamesshore.com/v2/blog/2024/a-software-engineering-career-ladder"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Reckoning: Part 4 — The Way Out",
-              "isoDate": "2024-08-16T00:00:00.000Z",
-              "link": "https://infrequently.org/2024/08/the-way-out/"
-            },
-            {
-              "title": "Reckoning: Part 3 — Caprock",
-              "isoDate": "2024-08-14T00:00:00.000Z",
-              "link": "https://infrequently.org/2024/08/caprock/"
-            },
-            {
-              "title": "Reckoning: Part 2 — Object Lesson",
-              "isoDate": "2024-08-13T00:00:00.000Z",
-              "link": "https://infrequently.org/2024/08/object-lesson/"
-            },
-            {
-              "title": "Reckoning: Part 1 — The Landscape",
-              "isoDate": "2024-08-12T00:00:00.000Z",
-              "link": "https://infrequently.org/2024/08/the-landscape/"
-            },
-            {
-              "title": "Misfire",
-              "isoDate": "2024-07-30T00:00:00.000Z",
-              "link": "https://infrequently.org/2024/07/misfire/"
             }
           ]
         },
@@ -2508,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-27T03:23:44.988Z",
+  "fetchDate": "2024-10-28T03:25:14.870Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

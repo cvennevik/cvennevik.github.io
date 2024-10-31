@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Data URLs from PNGs and stuf",
+              "isoDate": "2024-10-30T20:40:00.000Z",
+              "link": "https://garoof.no/notes/data-url-stuf.html"
+            },
+            {
+              "title": "How to program good",
+              "isoDate": "2024-10-23T19:57:00.000Z",
+              "link": "https://garoof.no/notes/how-to-program-good.html"
+            },
+            {
+              "title": "Not even glue",
+              "isoDate": "2024-10-03T22:07:00.000Z",
+              "link": "https://garoof.no/notes/not-even-glue.html"
+            },
+            {
+              "title": "Ward Cunningham's debt metaphor",
+              "isoDate": "2024-09-20T20:09:00.000Z",
+              "link": "https://garoof.no/notes/technical-debt-cunningham.html"
+            },
+            {
+              "title": "Bools surfacing",
+              "isoDate": "2024-09-18T20:58:00.000Z",
+              "link": "https://garoof.no/notes/bools-surfacing.html"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -31,6 +62,130 @@
               "title": "Tech’s Epithet: “Enabled By Default”",
               "isoDate": "2024-10-21T19:00:00.000Z",
               "link": "https://blog.jim-nielsen.com/2024/enabled-by-default/"
+            }
+          ]
+        },
+        {
+          "title": "Kyle Shevlin's Blog RSS Feed",
+          "feedUrl": "https://kyleshevlin.com/rss.xml",
+          "items": [
+            {
+              "title": "Prefer Explicit Maps",
+              "isoDate": "2024-10-30T16:19:36.000Z",
+              "link": "https://kyleshevlin.com/prefer-explicit-maps/"
+            },
+            {
+              "title": "My <code>git</code> Workflow for Refactoring",
+              "isoDate": "2024-09-29T16:34:56.000Z",
+              "link": "https://kyleshevlin.com/my-git-workflow-for-refactoring/"
+            },
+            {
+              "title": "Never Call <code>new Date()</code> Inside Your Components",
+              "isoDate": "2024-08-20T19:12:27.000Z",
+              "link": "https://kyleshevlin.com/never-call-new-date-inside-your-components/"
+            },
+            {
+              "title": "Composable Flourishes",
+              "isoDate": "2024-08-02T02:28:47.000Z",
+              "link": "https://kyleshevlin.com/composable-flourishes/"
+            },
+            {
+              "title": "Prefer Alphabetized Object Keys",
+              "isoDate": "2024-07-30T15:27:23.000Z",
+              "link": "https://kyleshevlin.com/prefer-alphabetized-object-keys/"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Minimal-JavaScript, Server-First Web Components with Declarative Shadow DOM",
+              "isoDate": "2024-10-30T16:12:40.000Z",
+              "link": "https://thathtml.blog/2024/10/custom-elements-from-server-templates-with-htmx/"
+            },
+            {
+              "title": "And That’s a Wrap! Catching Up on Just a Spec Season 2",
+              "isoDate": "2024-10-04T16:39:16.000Z",
+              "link": "https://thathtml.blog/2024/10/season-2-wrapped-for-just-a-spec/"
+            },
+            {
+              "title": "Crafting Visual Art with CSS Custom Properties",
+              "isoDate": "2024-10-03T21:33:02.000Z",
+              "link": "https://thathtml.blog/2024/10/visual-art-with-custom-properties/"
+            },
+            {
+              "title": "The selectmenu Element is No More…Long Live select!",
+              "isoDate": "2024-09-19T21:44:14.000Z",
+              "link": "https://thathtml.blog/2024/09/new-select-styling-proposal/"
+            },
+            {
+              "title": "Action Web Components Which Span the Server-Client Divide",
+              "isoDate": "2024-08-16T16:44:49.000Z",
+              "link": "https://thathtml.blog/2024/08/action-web-components/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Web Components and FOUC",
+              "isoDate": "2024-10-30T14:30:00.000Z",
+              "link": "https://gomakethings.com/web-components-and-fouc/"
+            },
+            {
+              "title": "How to add custom events to Web Components",
+              "isoDate": "2024-10-23T14:30:00.000Z",
+              "link": "https://gomakethings.com/how-to-add-custom-events-to-web-components/"
+            },
+            {
+              "title": "As little code as possible",
+              "isoDate": "2024-10-21T14:30:00.000Z",
+              "link": "https://gomakethings.com/as-little-code-as-possible/"
+            },
+            {
+              "title": "When is the shadow DOM useful?",
+              "isoDate": "2024-10-18T14:30:00.000Z",
+              "link": "https://gomakethings.com/when-is-the-shadow-dom-useful/"
+            },
+            {
+              "title": "Styling web components",
+              "isoDate": "2024-10-17T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-web-components/"
+            }
+          ]
+        },
+        {
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
+          "items": [
+            {
+              "title": "Finding My Flow (Again)",
+              "isoDate": "2024-10-30T09:42:54.000Z",
+              "link": "https://mikegrindle.com/posts/flow"
+            },
+            {
+              "title": "'Worth Having, Worth Waiting For' (Newsletter #4)",
+              "isoDate": "2024-10-03T11:56:55.000Z",
+              "link": "https://mikegrindle.com/newsletter/itm-4"
+            },
+            {
+              "title": "Little Scraps Of Thought",
+              "isoDate": "2024-09-25T10:04:34.000Z",
+              "link": "https://mikegrindle.com/posts/scraps"
+            },
+            {
+              "title": "When Hüsker Dü Was the \"Fastest Band in The World\"",
+              "isoDate": "2024-09-18T09:33:43.000Z",
+              "link": "https://mikegrindle.com/posts/land-speed-record"
+            },
+            {
+              "title": "Bit of the Universe, Thinking to Itself (Newsletter #3)",
+              "isoDate": "2024-09-16T09:35:38.000Z",
+              "link": "https://mikegrindle.com/newsletter/itm-3"
             }
           ]
         },
@@ -175,37 +330,6 @@
           ]
         },
         {
-          "title": "draganstepanovic.com",
-          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
-          "items": [
-            {
-              "title": "The scary thing with overly complex solutions",
-              "isoDate": "2024-10-29T00:00:00.000Z",
-              "link": "https://dragan-stepanovic.github.io//2024/10/29/scary-thing.html"
-            },
-            {
-              "title": "The opposite of Extreme Programming",
-              "isoDate": "2024-10-29T00:00:00.000Z",
-              "link": "https://dragan-stepanovic.github.io//2024/10/29/opposite-of-xp.html"
-            },
-            {
-              "title": "We need fewer assumptions to test",
-              "isoDate": "2024-10-29T00:00:00.000Z",
-              "link": "https://dragan-stepanovic.github.io//2024/10/29/fewer-assumptions.html"
-            },
-            {
-              "title": "A huge assumption with Ship/Show/Ask",
-              "isoDate": "2024-10-23T00:00:00.000Z",
-              "link": "https://dragan-stepanovic.github.io//2024/10/23/a-huge-assumption.html"
-            },
-            {
-              "title": "“Let's pair/mob when it makes sense”.",
-              "isoDate": "2024-10-03T00:00:00.000Z",
-              "link": "https://dragan-stepanovic.github.io//2024/10/03/lets-pair-when-it-makes-sense.html"
-            }
-          ]
-        },
-        {
           "title": "jakelazaroff.com",
           "feedUrl": "https://jakelazaroff.com/rss.xml",
           "items": [
@@ -233,6 +357,37 @@
               "title": "The Website vs. Web App Dichotomy Doesn't Exist",
               "isoDate": "2024-01-03T00:00:00.000Z",
               "link": "https://jakelazaroff.com/words/the-website-vs-web-app-dichotomy-doesnt-exist/"
+            }
+          ]
+        },
+        {
+          "title": "draganstepanovic.com",
+          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
+          "items": [
+            {
+              "title": "The scary thing with overly complex solutions",
+              "isoDate": "2024-10-29T00:00:00.000Z",
+              "link": "https://dragan-stepanovic.github.io//2024/10/29/scary-thing.html"
+            },
+            {
+              "title": "The opposite of Extreme Programming",
+              "isoDate": "2024-10-29T00:00:00.000Z",
+              "link": "https://dragan-stepanovic.github.io//2024/10/29/opposite-of-xp.html"
+            },
+            {
+              "title": "We need fewer assumptions to test",
+              "isoDate": "2024-10-29T00:00:00.000Z",
+              "link": "https://dragan-stepanovic.github.io//2024/10/29/fewer-assumptions.html"
+            },
+            {
+              "title": "A huge assumption with Ship/Show/Ask",
+              "isoDate": "2024-10-23T00:00:00.000Z",
+              "link": "https://dragan-stepanovic.github.io//2024/10/23/a-huge-assumption.html"
+            },
+            {
+              "title": "“Let's pair/mob when it makes sense”.",
+              "isoDate": "2024-10-03T00:00:00.000Z",
+              "link": "https://dragan-stepanovic.github.io//2024/10/03/lets-pair-when-it-makes-sense.html"
             }
           ]
         },
@@ -481,68 +636,6 @@
               "title": "Jujutsu: det beste av Git, Mercurial og Darcs",
               "isoDate": "2024-09-26T05:00:00.000Z",
               "link": "https://www.kodemaker.no/blogg/2024-09-26-jujutsu/"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "How to program good",
-              "isoDate": "2024-10-23T19:57:00.000Z",
-              "link": "https://garoof.no/notes/how-to-program-good.html"
-            },
-            {
-              "title": "Not even glue",
-              "isoDate": "2024-10-03T22:07:00.000Z",
-              "link": "https://garoof.no/notes/not-even-glue.html"
-            },
-            {
-              "title": "Ward Cunningham's debt metaphor",
-              "isoDate": "2024-09-20T20:09:00.000Z",
-              "link": "https://garoof.no/notes/technical-debt-cunningham.html"
-            },
-            {
-              "title": "Bools surfacing",
-              "isoDate": "2024-09-18T20:58:00.000Z",
-              "link": "https://garoof.no/notes/bools-surfacing.html"
-            },
-            {
-              "title": "Attempting to SVG some ASCII art diagrams",
-              "isoDate": "2024-08-30T15:25:00.000Z",
-              "link": "https://garoof.no/notes/ascii-svg.html"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "How to add custom events to Web Components",
-              "isoDate": "2024-10-23T14:30:00.000Z",
-              "link": "https://gomakethings.com/how-to-add-custom-events-to-web-components/"
-            },
-            {
-              "title": "As little code as possible",
-              "isoDate": "2024-10-21T14:30:00.000Z",
-              "link": "https://gomakethings.com/as-little-code-as-possible/"
-            },
-            {
-              "title": "When is the shadow DOM useful?",
-              "isoDate": "2024-10-18T14:30:00.000Z",
-              "link": "https://gomakethings.com/when-is-the-shadow-dom-useful/"
-            },
-            {
-              "title": "Styling web components",
-              "isoDate": "2024-10-17T14:30:00.000Z",
-              "link": "https://gomakethings.com/styling-web-components/"
-            },
-            {
-              "title": "AI is exploitation",
-              "isoDate": "2024-10-16T14:30:00.000Z",
-              "link": "https://gomakethings.com/ai-is-exploitation/"
             }
           ]
         },
@@ -1074,37 +1167,6 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "And That’s a Wrap! Catching Up on Just a Spec Season 2",
-              "isoDate": "2024-10-04T16:39:16.000Z",
-              "link": "https://thathtml.blog/2024/10/season-2-wrapped-for-just-a-spec/"
-            },
-            {
-              "title": "Crafting Visual Art with CSS Custom Properties",
-              "isoDate": "2024-10-03T21:33:02.000Z",
-              "link": "https://thathtml.blog/2024/10/visual-art-with-custom-properties/"
-            },
-            {
-              "title": "The selectmenu Element is No More…Long Live select!",
-              "isoDate": "2024-09-19T21:44:14.000Z",
-              "link": "https://thathtml.blog/2024/09/new-select-styling-proposal/"
-            },
-            {
-              "title": "Action Web Components Which Span the Server-Client Divide",
-              "isoDate": "2024-08-16T16:44:49.000Z",
-              "link": "https://thathtml.blog/2024/08/action-web-components/"
-            },
-            {
-              "title": "Browser Wars, State of JS, and the Birth of the Internet on Just a Spec",
-              "isoDate": "2024-08-16T15:57:57.000Z",
-              "link": "https://thathtml.blog/2024/08/just-a-spec-browser-wars/"
-            }
-          ]
-        },
-        {
           "title": "Pablo Curell Mompo's",
           "feedUrl": "https://blog.codemanship.dev/rss.xml",
           "items": [
@@ -1163,37 +1225,6 @@
               "title": "Don’t settle for a playground",
               "isoDate": "2023-03-29T18:39:46.000Z",
               "link": "https://einarwh.wordpress.com/2023/03/29/dont-settle-for-a-playground/"
-            }
-          ]
-        },
-        {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
-          "items": [
-            {
-              "title": "'Worth Having, Worth Waiting For' (Newsletter #4)",
-              "isoDate": "2024-10-03T11:56:55.000Z",
-              "link": "https://mikegrindle.com/newsletter/itm-4"
-            },
-            {
-              "title": "Little Scraps Of Thought",
-              "isoDate": "2024-09-25T10:04:34.000Z",
-              "link": "https://mikegrindle.com/posts/scraps"
-            },
-            {
-              "title": "When Hüsker Dü Was the \"Fastest Band in The World\"",
-              "isoDate": "2024-09-18T09:33:43.000Z",
-              "link": "https://mikegrindle.com/posts/land-speed-record"
-            },
-            {
-              "title": "Bit of the Universe, Thinking to Itself (Newsletter #3)",
-              "isoDate": "2024-09-16T09:35:38.000Z",
-              "link": "https://mikegrindle.com/newsletter/itm-3"
-            },
-            {
-              "title": "Whatever It Is, I Probably Don’t Need It",
-              "isoDate": "2024-09-11T15:53:23.000Z",
-              "link": "https://mikegrindle.com/posts/min"
             }
           ]
         },
@@ -1349,37 +1380,6 @@
               "title": "NixOS: Everything Everywhere All At Once",
               "isoDate": "2024-02-25T15:47:18.000Z",
               "link": "https://www.youtube.com/watch?v=CwfKlX3rA6E"
-            }
-          ]
-        },
-        {
-          "title": "Kyle Shevlin's Blog RSS Feed",
-          "feedUrl": "https://kyleshevlin.com/rss.xml",
-          "items": [
-            {
-              "title": "My <code>git</code> Workflow for Refactoring",
-              "isoDate": "2024-09-29T16:34:56.000Z",
-              "link": "https://kyleshevlin.com/my-git-workflow-for-refactoring/"
-            },
-            {
-              "title": "Never Call <code>new Date()</code> Inside Your Components",
-              "isoDate": "2024-08-20T19:12:27.000Z",
-              "link": "https://kyleshevlin.com/never-call-new-date-inside-your-components/"
-            },
-            {
-              "title": "Composable Flourishes",
-              "isoDate": "2024-08-02T02:28:47.000Z",
-              "link": "https://kyleshevlin.com/composable-flourishes/"
-            },
-            {
-              "title": "Prefer Alphabetized Object Keys",
-              "isoDate": "2024-07-30T15:27:23.000Z",
-              "link": "https://kyleshevlin.com/prefer-alphabetized-object-keys/"
-            },
-            {
-              "title": "Responsive Design and Composition",
-              "isoDate": "2024-06-15T02:34:01.000Z",
-              "link": "https://kyleshevlin.com/responsive-design-and-composition/"
             }
           ]
         },
@@ -2508,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-10-30T03:21:48.179Z",
+  "fetchDate": "2024-10-31T03:23:02.835Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

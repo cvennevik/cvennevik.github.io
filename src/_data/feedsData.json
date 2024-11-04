@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "isoDate": "2024-11-03T05:11:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-03T05:11Z/"
+            },
+            {
+              "isoDate": "2024-11-01T16:22:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-01T16:22Z/"
+            },
+            {
+              "isoDate": "2024-10-31T05:09:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-31T05:09Z/"
+            },
+            {
+              "isoDate": "2024-10-29T14:22:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-29T14:22Z/"
+            },
+            {
+              "isoDate": "2024-10-27T06:45:00.000Z",
+              "link": "https://dbushell.com/notes/2024-10-27T06:45Z/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently: Cycling and Autumn",
+              "isoDate": "2024-11-03T00:00:00.000Z",
+              "link": "https://macwright.com/2024/11/03/recently.html"
+            },
+            {
+              "title": "Recently",
+              "isoDate": "2024-10-01T00:00:00.000Z",
+              "link": "https://macwright.com/2024/10/01/recently.html"
+            },
+            {
+              "title": "Recently",
+              "isoDate": "2024-09-05T00:00:00.000Z",
+              "link": "https://macwright.com/2024/09/05/recently.html"
+            },
+            {
+              "title": "Recently",
+              "isoDate": "2024-08-01T00:00:00.000Z",
+              "link": "https://macwright.com/2024/08/01/recently.html"
+            },
+            {
+              "title": "Reverse engineering a day’s worth of websites",
+              "isoDate": "2024-07-30T00:00:00.000Z",
+              "link": "https://macwright.com/2024/07/30/reverse-engineer-a-day.html"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Raising the Continuous Integration Bar",
+              "isoDate": "2024-11-03T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/articles/2024/11/03/raising-the-continuous-integration-bar.html"
+            },
+            {
+              "title": "Continuous Integrations! Where to Start?",
+              "isoDate": "2024-11-01T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/articles/2024/11/01/continuous-integration-where-to-start.html"
+            },
+            {
+              "title": "The Practices That Make Continuous Integration - Broadcast the Codebase’s Health",
+              "isoDate": "2024-10-29T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/articles/2024/10/29/the-practices-that-make-continuous-integration-broadcast-the-codebase-health.html"
+            },
+            {
+              "title": "The Practices That Make Continuous Integration - Have Reliable Tests",
+              "isoDate": "2024-10-19T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/articles/2024/10/19/the-practices-that-make-continuous-integration-have-reliable-tests.html"
+            },
+            {
+              "title": "The Practices That Make Continuous Integration - Fix a Broken Build within 10 Minutes",
+              "isoDate": "2024-10-17T00:00:00.000Z",
+              "link": "https://thinkinglabs.io/articles/2024/10/17/the-practices-that-make-continuous-integration-fix-a-broken-build-within-10-minutes.html"
+            }
+          ]
+        },
+        {
+          "title": "leanrada.com notes",
+          "feedUrl": "https://leanrada.com/rss.xml",
+          "items": [
+            {
+              "title": "CSS sprite sheet animations",
+              "isoDate": "2024-11-03T00:00:00.000Z",
+              "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
+            },
+            {
+              "title": "Centering a div in a div in 2020",
+              "isoDate": "2024-10-17T00:00:00.000Z",
+              "link": "https://leanrada.com/notes/how-to-center-in-css?ref=rss"
+            },
+            {
+              "title": "I made an app to fix my motion sickness",
+              "isoDate": "2024-09-02T00:00:00.000Z",
+              "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
+            },
+            {
+              "title": "Stop using ease-out in your UIs!",
+              "isoDate": "2024-07-15T00:00:00.000Z",
+              "link": "https://leanrada.com/notes/stop-using-ease-out?ref=rss"
+            },
+            {
+              "title": "Creating a halftone effect with CSS",
+              "isoDate": "2024-05-05T00:00:00.000Z",
+              "link": "https://leanrada.com/notes/pure-css-halftone?ref=rss"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -128,32 +247,6 @@
           ]
         },
         {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "isoDate": "2024-11-01T16:22:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-01T16:22Z/"
-            },
-            {
-              "isoDate": "2024-10-31T05:09:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-31T05:09Z/"
-            },
-            {
-              "isoDate": "2024-10-29T14:22:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-29T14:22Z/"
-            },
-            {
-              "isoDate": "2024-10-27T06:45:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-27T06:45Z/"
-            },
-            {
-              "isoDate": "2024-10-24T07:27:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-24T07:27Z/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -212,37 +305,6 @@
               "title": "When Hüsker Dü Was the \"Fastest Band in The World\"",
               "isoDate": "2024-09-18T09:33:43.000Z",
               "link": "https://mikegrindle.com/posts/land-speed-record"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "Continuous Integrations! Where to start?",
-              "isoDate": "2024-11-01T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/articles/2024/11/01/continuous-integration-where-to-start.html"
-            },
-            {
-              "title": "The Practices That Make Continuous Integration - Broadcast the Codebase’s Health",
-              "isoDate": "2024-10-29T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/articles/2024/10/29/the-practices-that-make-continuous-integration-broadcast-the-codebase-health.html"
-            },
-            {
-              "title": "The Practices That Make Continuous Integration - Have Reliable Tests",
-              "isoDate": "2024-10-19T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/articles/2024/10/19/the-practices-that-make-continuous-integration-have-reliable-tests.html"
-            },
-            {
-              "title": "The Practices That Make Continuous Integration - Fix a Broken Build within 10 Minutes",
-              "isoDate": "2024-10-17T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/articles/2024/10/17/the-practices-that-make-continuous-integration-fix-a-broken-build-within-10-minutes.html"
-            },
-            {
-              "title": "The Practices That Make Continuous Integration - Trigger the Build on Every Push",
-              "isoDate": "2024-10-15T00:00:00.000Z",
-              "link": "https://thinkinglabs.io/articles/2024/10/15/the-practices-that-make-continuous-integration-trigger-the-build-on-every-push.html"
             }
           ]
         },
@@ -950,37 +1012,6 @@
           ]
         },
         {
-          "title": "leanrada.com notes",
-          "feedUrl": "https://leanrada.com/rss.xml",
-          "items": [
-            {
-              "title": "Centering a div in a div in 2020",
-              "isoDate": "2024-10-17T00:00:00.000Z",
-              "link": "https://leanrada.com/notes/how-to-center-in-css?ref=rss"
-            },
-            {
-              "title": "I made an app to fix my motion sickness",
-              "isoDate": "2024-09-02T00:00:00.000Z",
-              "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
-            },
-            {
-              "title": "Stop using ease-out in your UIs!",
-              "isoDate": "2024-07-15T00:00:00.000Z",
-              "link": "https://leanrada.com/notes/stop-using-ease-out?ref=rss"
-            },
-            {
-              "title": "Creating a halftone effect with CSS",
-              "isoDate": "2024-05-05T00:00:00.000Z",
-              "link": "https://leanrada.com/notes/pure-css-halftone?ref=rss"
-            },
-            {
-              "title": "AI art is not generative art",
-              "isoDate": "2024-03-25T00:00:00.000Z",
-              "link": "https://leanrada.com/notes/ai-art-not-generative-art?ref=rss"
-            }
-          ]
-        },
-        {
           "title": "Good Tech Things",
           "feedUrl": "https://newsletter.goodtechthings.com/feed",
           "items": [
@@ -1349,37 +1380,6 @@
               "title": "Testing Transactions in Elixir",
               "isoDate": "2024-08-12T23:18:29.000Z",
               "link": "https://www.simplermachines.com/testing-transactions-in-elixir/"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "isoDate": "2024-10-01T00:00:00.000Z",
-              "link": "https://macwright.com/2024/10/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "isoDate": "2024-09-05T00:00:00.000Z",
-              "link": "https://macwright.com/2024/09/05/recently.html"
-            },
-            {
-              "title": "Recently",
-              "isoDate": "2024-08-01T00:00:00.000Z",
-              "link": "https://macwright.com/2024/08/01/recently.html"
-            },
-            {
-              "title": "Reverse engineering a day’s worth of websites",
-              "isoDate": "2024-07-30T00:00:00.000Z",
-              "link": "https://macwright.com/2024/07/30/reverse-engineer-a-day.html"
-            },
-            {
-              "title": "Obsidian Freeform",
-              "isoDate": "2024-06-02T00:00:00.000Z",
-              "link": "https://macwright.com/2024/06/02/freeform.html"
             }
           ]
         },
@@ -2508,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-11-03T03:24:55.635Z",
+  "fetchDate": "2024-11-04T03:24:35.229Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

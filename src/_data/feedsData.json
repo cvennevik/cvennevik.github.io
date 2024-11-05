@@ -4,6 +4,192 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "What’s the deal with WebKit Font Smoothing?",
+              "isoDate": "2024-11-05T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/11/05/webkit-font-smoothing/"
+            },
+            {
+              "title": "Return of the Front-end!",
+              "isoDate": "2024-11-01T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/11/01/return-of-the-front-end/"
+            },
+            {
+              "title": "HTTP Tunnel and Proxy in JavaScript",
+              "isoDate": "2024-10-22T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/10/22/http-tunnel-proxy/"
+            },
+            {
+              "title": "Matt’s Malware",
+              "isoDate": "2024-10-14T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/10/14/matts-malware/"
+            },
+            {
+              "title": "Hey! Deno 2 looks fun!",
+              "isoDate": "2024-10-10T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/10/10/deno-2/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "What’s the most consequential decision you made in your life to lead you to this moment?",
+              "isoDate": "2024-11-05T02:57:05.000Z",
+              "link": "https://anniemueller.com/posts/whats-the-most-consequential-decision-you-made-in-your-life-to-lead-you-to-this-moment"
+            },
+            {
+              "title": "What makes me vulnerable?",
+              "isoDate": "2024-11-01T22:26:56.000Z",
+              "link": "https://anniemueller.com/posts/what-makes-me-vulnerable"
+            },
+            {
+              "title": "Doing dumb stuff faster is still dumb",
+              "isoDate": "2024-10-31T18:18:37.000Z",
+              "link": "https://anniemueller.com/posts/doing-dumb-stuff-faster-is-still-dumb"
+            },
+            {
+              "title": "Bits and pieces",
+              "isoDate": "2024-10-30T02:18:30.000Z",
+              "link": "https://anniemueller.com/posts/bits-and-pieces"
+            },
+            {
+              "title": "It sure will",
+              "isoDate": "2024-10-28T02:06:34.000Z",
+              "link": "https://anniemueller.com/posts/it-sure-will"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Job Screening Blog Post",
+              "isoDate": "2024-11-04T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/design-engineer-job-screener/"
+            },
+            {
+              "title": "Hacker News Clones",
+              "isoDate": "2024-11-02T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/hacker-news-clones/"
+            },
+            {
+              "title": "Quality Means The Flexibility to Change",
+              "isoDate": "2024-10-30T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/easy-changes/"
+            },
+            {
+              "title": "For Sale: Used Domain (**Clean Title**)",
+              "isoDate": "2024-10-28T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/used-domain-clean-title/"
+            },
+            {
+              "title": "We’re All Content Creators for Machines",
+              "isoDate": "2024-10-25T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/machine-content-creators/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Styling the Shadow DOM with Web Components",
+              "isoDate": "2024-11-04T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-the-shadow-dom-with-web-components/"
+            },
+            {
+              "title": "Listening to events inside a Web Component (from outside the Web Component)",
+              "isoDate": "2024-10-31T14:30:00.000Z",
+              "link": "https://gomakethings.com/listening-to-events-inside-a-web-component-from-outside-the-web-component/"
+            },
+            {
+              "title": "Web Components and FOUC",
+              "isoDate": "2024-10-30T14:30:00.000Z",
+              "link": "https://gomakethings.com/web-components-and-fouc/"
+            },
+            {
+              "title": "How to add custom events to Web Components",
+              "isoDate": "2024-10-23T14:30:00.000Z",
+              "link": "https://gomakethings.com/how-to-add-custom-events-to-web-components/"
+            },
+            {
+              "title": "As little code as possible",
+              "isoDate": "2024-10-21T14:30:00.000Z",
+              "link": "https://gomakethings.com/as-little-code-as-possible/"
+            }
+          ]
+        },
+        {
+          "title": "HeydonWorks",
+          "feedUrl": "https://heydonworks.com/feed.xml",
+          "items": [
+            {
+              "title": "The button element",
+              "isoDate": "2024-11-04T00:00:00.000Z",
+              "link": "https://heydonworks.com/article/the-button-element/"
+            },
+            {
+              "title": "The body element",
+              "isoDate": "2024-10-31T00:00:00.000Z",
+              "link": "https://heydonworks.com/article/the-body-element/"
+            },
+            {
+              "title": "The blockquote element",
+              "isoDate": "2024-10-14T00:00:00.000Z",
+              "link": "https://heydonworks.com/article/the-blockquote-element/"
+            },
+            {
+              "title": "The bdo element",
+              "isoDate": "2024-10-02T00:00:00.000Z",
+              "link": "https://heydonworks.com/article/the-bdo-element/"
+            },
+            {
+              "title": "The bdi element",
+              "isoDate": "2024-09-30T00:00:00.000Z",
+              "link": "https://heydonworks.com/article/the-bdi-element/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Parsing arguments in Rust with no dependencies",
+              "isoDate": "2024-11-04T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/parsing-arguments-rust-no-deps/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "They want your ethics for $105",
+              "isoDate": "2024-10-28T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/ethics-105-dollars/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Debugging my wife's alarm clock",
+              "isoDate": "2024-10-21T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/debugging-my-wifes-alarm-clock/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Making Rust builds fail from YAML config mistakes",
+              "isoDate": "2024-10-14T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/rust-complain-yaml-errors/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Licensing can be joyful (and legally dubious)",
+              "isoDate": "2024-10-07T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/licensing-joy-gal/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (microblog)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -123,37 +309,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Hacker News Clones",
-              "isoDate": "2024-11-02T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/hacker-news-clones/"
-            },
-            {
-              "title": "Quality Means The Flexibility to Change",
-              "isoDate": "2024-10-30T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/easy-changes/"
-            },
-            {
-              "title": "For Sale: Used Domain (**Clean Title**)",
-              "isoDate": "2024-10-28T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/used-domain-clean-title/"
-            },
-            {
-              "title": "We’re All Content Creators for Machines",
-              "isoDate": "2024-10-25T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/machine-content-creators/"
-            },
-            {
-              "title": "The Lowest Common Denominator: www",
-              "isoDate": "2024-10-23T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/lowest-common-denominator/"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -212,68 +367,6 @@
               "title": "Five for Friday – October 4, 2024",
               "isoDate": "2024-10-04T19:54:29.000Z",
               "link": "https://angryweasel.com/blog/five-for-friday-october-4-2024/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "What makes me vulnerable?",
-              "isoDate": "2024-11-01T22:26:56.000Z",
-              "link": "https://anniemueller.com/posts/what-makes-me-vulnerable"
-            },
-            {
-              "title": "Doing dumb stuff faster is still dumb",
-              "isoDate": "2024-10-31T18:18:37.000Z",
-              "link": "https://anniemueller.com/posts/doing-dumb-stuff-faster-is-still-dumb"
-            },
-            {
-              "title": "Bits and pieces",
-              "isoDate": "2024-10-30T02:18:30.000Z",
-              "link": "https://anniemueller.com/posts/bits-and-pieces"
-            },
-            {
-              "title": "It sure will",
-              "isoDate": "2024-10-28T02:06:34.000Z",
-              "link": "https://anniemueller.com/posts/it-sure-will"
-            },
-            {
-              "title": "This post is not about body wash",
-              "isoDate": "2024-10-25T16:22:10.000Z",
-              "link": "https://anniemueller.com/posts/this-post-is-not-about-body-wash"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Return of the Front-end!",
-              "isoDate": "2024-11-01T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/11/01/return-of-the-front-end/"
-            },
-            {
-              "title": "HTTP Tunnel and Proxy in JavaScript",
-              "isoDate": "2024-10-22T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/10/22/http-tunnel-proxy/"
-            },
-            {
-              "title": "Matt’s Malware",
-              "isoDate": "2024-10-14T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/10/14/matts-malware/"
-            },
-            {
-              "title": "Hey! Deno 2 looks fun!",
-              "isoDate": "2024-10-10T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/10/10/deno-2/"
-            },
-            {
-              "title": "An Interesting HTML Parser Conundrum",
-              "isoDate": "2024-10-01T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/10/01/html-parser-conundrum/"
             }
           ]
         },
@@ -371,37 +464,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Listening to events inside a Web Component (from outside the Web Component)",
-              "isoDate": "2024-10-31T14:30:00.000Z",
-              "link": "https://gomakethings.com/listening-to-events-inside-a-web-component-from-outside-the-web-component/"
-            },
-            {
-              "title": "Web Components and FOUC",
-              "isoDate": "2024-10-30T14:30:00.000Z",
-              "link": "https://gomakethings.com/web-components-and-fouc/"
-            },
-            {
-              "title": "How to add custom events to Web Components",
-              "isoDate": "2024-10-23T14:30:00.000Z",
-              "link": "https://gomakethings.com/how-to-add-custom-events-to-web-components/"
-            },
-            {
-              "title": "As little code as possible",
-              "isoDate": "2024-10-21T14:30:00.000Z",
-              "link": "https://gomakethings.com/as-little-code-as-possible/"
-            },
-            {
-              "title": "When is the shadow DOM useful?",
-              "isoDate": "2024-10-18T14:30:00.000Z",
-              "link": "https://gomakethings.com/when-is-the-shadow-dom-useful/"
-            }
-          ]
-        },
-        {
           "title": "Julia Evans",
           "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
@@ -460,37 +522,6 @@
               "title": "September 2024 blend of links",
               "isoDate": "2024-09-28T02:00:00.000Z",
               "link": "https://thejollyteapot.com/september-2024-blend/"
-            }
-          ]
-        },
-        {
-          "title": "HeydonWorks",
-          "feedUrl": "https://heydonworks.com/feed.xml",
-          "items": [
-            {
-              "title": "The body element",
-              "isoDate": "2024-10-31T00:00:00.000Z",
-              "link": "https://heydonworks.com/article/the-body-element/"
-            },
-            {
-              "title": "The blockquote element",
-              "isoDate": "2024-10-14T00:00:00.000Z",
-              "link": "https://heydonworks.com/article/the-blockquote-element/"
-            },
-            {
-              "title": "The bdo element",
-              "isoDate": "2024-10-02T00:00:00.000Z",
-              "link": "https://heydonworks.com/article/the-bdo-element/"
-            },
-            {
-              "title": "The bdi element",
-              "isoDate": "2024-09-30T00:00:00.000Z",
-              "link": "https://heydonworks.com/article/the-bdi-element/"
-            },
-            {
-              "title": "The b element",
-              "isoDate": "2024-09-28T00:00:00.000Z",
-              "link": "https://heydonworks.com/article/the-b-element/"
             }
           ]
         },
@@ -729,68 +760,6 @@
               "title": "Macros in Rust, the wrong way",
               "isoDate": "2024-10-18T17:30:00.000Z",
               "link": "https://moonbase.lgbt/blog/rust-macros-the-wrong-way/"
-            }
-          ]
-        },
-        {
-          "title": "",
-          "feedUrl": "https://danluu.com/atom.xml",
-          "items": [
-            {
-              "title": "Steve Ballmer was an underrated CEO",
-              "isoDate": "2024-10-28T00:00:00.000Z",
-              "link": "https://danluu.com/ballmer/"
-            },
-            {
-              "title": "How good can you be at Codenames without knowing any words?",
-              "isoDate": "2024-08-11T00:00:00.000Z",
-              "link": "https://danluu.com/codenames/"
-            },
-            {
-              "title": "A discussion of discussions on AI bias",
-              "isoDate": "2024-06-16T00:00:00.000Z",
-              "link": "https://danluu.com/ai-bias/"
-            },
-            {
-              "title": "What the FTC got wrong in the Google antitrust investigation",
-              "isoDate": "2024-05-26T00:00:00.000Z",
-              "link": "https://danluu.com/ftc-google-antitrust/"
-            },
-            {
-              "title": "How web bloat impacts users with slow devices",
-              "isoDate": "2024-03-16T00:00:00.000Z",
-              "link": "https://danluu.com/slow-device/"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "They want your ethics for $105",
-              "isoDate": "2024-10-28T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/ethics-105-dollars/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Debugging my wife's alarm clock",
-              "isoDate": "2024-10-21T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/debugging-my-wifes-alarm-clock/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Making Rust builds fail from YAML config mistakes",
-              "isoDate": "2024-10-14T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/rust-complain-yaml-errors/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Licensing can be joyful (and legally dubious)",
-              "isoDate": "2024-10-07T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/licensing-joy-gal/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Asheville",
-              "isoDate": "2024-10-06T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/asheville/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -1803,6 +1772,37 @@
           ]
         },
         {
+          "title": "",
+          "feedUrl": "https://danluu.com/atom.xml",
+          "items": [
+            {
+              "title": "How good can you be at Codenames without knowing any words?",
+              "isoDate": "2024-08-11T00:00:00.000Z",
+              "link": "https://danluu.com/codenames/"
+            },
+            {
+              "title": "A discussion of discussions on AI bias",
+              "isoDate": "2024-06-16T00:00:00.000Z",
+              "link": "https://danluu.com/ai-bias/"
+            },
+            {
+              "title": "What the FTC got wrong in the Google antitrust investigation",
+              "isoDate": "2024-05-26T00:00:00.000Z",
+              "link": "https://danluu.com/ftc-google-antitrust/"
+            },
+            {
+              "title": "How web bloat impacts users with slow devices",
+              "isoDate": "2024-03-16T00:00:00.000Z",
+              "link": "https://danluu.com/slow-device/"
+            },
+            {
+              "title": "Diseconomies of scale in fraud, spam, support, and moderation",
+              "isoDate": "2024-02-18T00:00:00.000Z",
+              "link": "https://danluu.com/diseconomies-scale/"
+            }
+          ]
+        },
+        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
@@ -2508,7 +2508,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-11-04T03:24:35.229Z",
+  "fetchDate": "2024-11-05T03:18:22.207Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

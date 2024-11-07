@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Generalities",
+              "isoDate": "2024-11-06T16:09:00.000Z",
+              "link": "https://garoof.no/notes/generalities.html"
+            },
+            {
+              "title": "Data URLs from PNGs and stuf",
+              "isoDate": "2024-10-30T20:40:00.000Z",
+              "link": "https://garoof.no/notes/data-url-stuf.html"
+            },
+            {
+              "title": "How to program good",
+              "isoDate": "2024-10-23T19:57:00.000Z",
+              "link": "https://garoof.no/notes/how-to-program-good.html"
+            },
+            {
+              "title": "Not even glue",
+              "isoDate": "2024-10-03T22:07:00.000Z",
+              "link": "https://garoof.no/notes/not-even-glue.html"
+            },
+            {
+              "title": "Ward Cunningham's debt metaphor",
+              "isoDate": "2024-09-20T20:09:00.000Z",
+              "link": "https://garoof.no/notes/technical-debt-cunningham.html"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Plan B it is",
+              "isoDate": "2024-11-06T14:37:04.000Z",
+              "link": "https://www.baldurbjarnason.com/2024/plan-b-it-is/"
+            },
+            {
+              "title": "A bit of a redesign",
+              "isoDate": "2024-11-05T12:06:00.000Z",
+              "link": "https://www.baldurbjarnason.com/notes/redesign/"
+            },
+            {
+              "title": "The risks of OpenAI's Whisper audio transcription model",
+              "isoDate": "2024-10-29T16:48:04.000Z",
+              "link": "https://www.baldurbjarnason.com/2024/openai-whisper-risks/"
+            },
+            {
+              "title": "Photos (29 October 2024)",
+              "isoDate": "2024-10-29T16:03:04.000Z",
+              "link": "https://www.baldurbjarnason.com/2024/photos-12/"
+            },
+            {
+              "title": "Links (29 October 2024)",
+              "isoDate": "2024-10-29T15:56:04.000Z",
+              "link": "https://www.baldurbjarnason.com/2024/links-40/"
+            }
+          ]
+        },
+        {
           "title": "The Weblog of fLaMEd",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -31,6 +93,94 @@
               "title": "New Music Friday #2",
               "isoDate": "2024-10-05T10:08:32.000Z",
               "link": "https://flamedfury.com/posts/new-music-friday-2/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "isoDate": "2024-11-06T08:38:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-06T08:38Z/"
+            },
+            {
+              "isoDate": "2024-11-05T14:16:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-05T14:16Z/"
+            },
+            {
+              "isoDate": "2024-11-05T06:17:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-05T06:17Z/"
+            },
+            {
+              "isoDate": "2024-11-03T05:11:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-03T05:11Z/"
+            },
+            {
+              "isoDate": "2024-11-01T16:22:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-01T16:22Z/"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "En diskusjon med Claude, Dunning–Kruger i aksjon",
+              "isoDate": "2024-11-06T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-11-en-diskusjon-med-ai/"
+            },
+            {
+              "title": "Det vi ikke snakker om når vi snakker om teknisk gjeld",
+              "isoDate": "2024-10-24T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-10-teknisk-gjeld/"
+            },
+            {
+              "title": "Devbox: Reproduserbare utviklermiljø uten Docker eller virtuelle maskiner",
+              "isoDate": "2024-10-23T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-10-23-devbox/"
+            },
+            {
+              "title": "Verdien av å lære seg små programmeringsspråk",
+              "isoDate": "2024-10-21T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-10-21-verdien-av-smaa-programmeringsspraak/"
+            },
+            {
+              "title": "Erstatt gammelt med nytt - uten stress",
+              "isoDate": "2024-10-09T05:00:00.000Z",
+              "link": "https://www.kodemaker.no/blogg/2024-10-09-migrering/"
+            }
+          ]
+        },
+        {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "We Showed Up. We Fought. We Lost.",
+              "isoDate": "2024-11-06T00:00:00.000Z",
+              "link": "https://boehs.org/node/election-2024"
+            },
+            {
+              "title": "Apple Should Use Intelligence to Get It into Their Heads That We Don't Want This.",
+              "isoDate": "2024-06-10T00:00:00.000Z",
+              "link": "https://boehs.org/node/apple-intelligence"
+            },
+            {
+              "title": "I Don't Hate Technology When It Works.",
+              "isoDate": "2024-05-18T00:00:00.000Z",
+              "link": "https://boehs.org/node/old-tech"
+            },
+            {
+              "title": "Bountysource Stole at Least $21,000 from Open Source Developers",
+              "isoDate": "2024-05-03T00:00:00.000Z",
+              "link": "https://boehs.org/node/bountysource"
+            },
+            {
+              "title": "It’s Been a Year and Georgia.gov Continues to Be Hacked",
+              "isoDate": "2024-04-26T00:00:00.000Z",
+              "link": "https://boehs.org/node/medicicnes"
             }
           ]
         },
@@ -124,63 +274,6 @@
               "title": "How to add custom events to Web Components",
               "isoDate": "2024-10-23T14:30:00.000Z",
               "link": "https://gomakethings.com/how-to-add-custom-events-to-web-components/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "isoDate": "2024-11-05T14:16:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-05T14:16Z/"
-            },
-            {
-              "isoDate": "2024-11-05T06:17:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-05T06:17Z/"
-            },
-            {
-              "isoDate": "2024-11-03T05:11:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-03T05:11Z/"
-            },
-            {
-              "isoDate": "2024-11-01T16:22:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-01T16:22Z/"
-            },
-            {
-              "isoDate": "2024-10-31T05:09:00.000Z",
-              "link": "https://dbushell.com/notes/2024-10-31T05:09Z/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "A bit of a redesign",
-              "isoDate": "2024-11-05T12:06:00.000Z",
-              "link": "https://www.baldurbjarnason.com/notes/redesign/"
-            },
-            {
-              "title": "The risks of OpenAI's Whisper audio transcription model",
-              "isoDate": "2024-10-29T16:48:04.000Z",
-              "link": "https://www.baldurbjarnason.com/2024/openai-whisper-risks/"
-            },
-            {
-              "title": "Photos (29 October 2024)",
-              "isoDate": "2024-10-29T16:03:04.000Z",
-              "link": "https://www.baldurbjarnason.com/2024/photos-12/"
-            },
-            {
-              "title": "Links (29 October 2024)",
-              "isoDate": "2024-10-29T15:56:04.000Z",
-              "link": "https://www.baldurbjarnason.com/2024/links-40/"
-            },
-            {
-              "title": "Photos (21 October 2024)",
-              "isoDate": "2024-10-21T13:40:04.000Z",
-              "link": "https://www.baldurbjarnason.com/2024/photos-11/"
             }
           ]
         },
@@ -650,37 +743,6 @@
           ]
         },
         {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Data URLs from PNGs and stuf",
-              "isoDate": "2024-10-30T20:40:00.000Z",
-              "link": "https://garoof.no/notes/data-url-stuf.html"
-            },
-            {
-              "title": "How to program good",
-              "isoDate": "2024-10-23T19:57:00.000Z",
-              "link": "https://garoof.no/notes/how-to-program-good.html"
-            },
-            {
-              "title": "Not even glue",
-              "isoDate": "2024-10-03T22:07:00.000Z",
-              "link": "https://garoof.no/notes/not-even-glue.html"
-            },
-            {
-              "title": "Ward Cunningham's debt metaphor",
-              "isoDate": "2024-09-20T20:09:00.000Z",
-              "link": "https://garoof.no/notes/technical-debt-cunningham.html"
-            },
-            {
-              "title": "Bools surfacing",
-              "isoDate": "2024-09-18T20:58:00.000Z",
-              "link": "https://garoof.no/notes/bools-surfacing.html"
-            }
-          ]
-        },
-        {
           "title": "Kyle Shevlin's Blog RSS Feed",
           "feedUrl": "https://kyleshevlin.com/rss.xml",
           "items": [
@@ -925,37 +987,6 @@
               "title": "Everybody's Free (To Write Websites)",
               "isoDate": "2024-07-16T00:00:00.000Z",
               "link": "https://sarajoy.dev/blog/write-websites/"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Det vi ikke snakker om når vi snakker om teknisk gjeld",
-              "isoDate": "2024-10-24T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-10-teknisk-gjeld/"
-            },
-            {
-              "title": "Devbox: Reproduserbare utviklermiljø uten Docker eller virtuelle maskiner",
-              "isoDate": "2024-10-23T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-10-23-devbox/"
-            },
-            {
-              "title": "Verdien av å lære seg små programmeringsspråk",
-              "isoDate": "2024-10-21T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-10-21-verdien-av-smaa-programmeringsspraak/"
-            },
-            {
-              "title": "Erstatt gammelt med nytt - uten stress",
-              "isoDate": "2024-10-09T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-10-09-migrering/"
-            },
-            {
-              "title": "Jujutsu: det beste av Git, Mercurial og Darcs",
-              "isoDate": "2024-09-26T05:00:00.000Z",
-              "link": "https://www.kodemaker.no/blogg/2024-09-26-jujutsu/"
             }
           ]
         },
@@ -1654,37 +1685,6 @@
               "title": "Covid Data Log",
               "isoDate": "2024-01-12T15:19:08.000Z",
               "link": "https://www.drcathicks.com/post/covid-data-log"
-            }
-          ]
-        },
-        {
-          "title": "Evan Boehs in the blog",
-          "feedUrl": "https://boehs.org/in/blog.xml",
-          "items": [
-            {
-              "title": "Apple Should Use Intelligence to Get It into Their Heads That We Don't Want This.",
-              "isoDate": "2024-09-04T11:52:42.000Z",
-              "link": "https://boehs.org/node/apple-intelligence"
-            },
-            {
-              "title": "I Don't Hate Technology When It Works.",
-              "isoDate": "2024-05-18T00:00:00.000Z",
-              "link": "https://boehs.org/node/old-tech"
-            },
-            {
-              "title": "Bountysource Stole at Least $21,000 from Open Source Developers",
-              "isoDate": "2024-05-03T00:00:00.000Z",
-              "link": "https://boehs.org/node/bountysource"
-            },
-            {
-              "title": "It’s Been a Year and Georgia.gov Continues to Be Hacked",
-              "isoDate": "2024-04-26T00:00:00.000Z",
-              "link": "https://boehs.org/node/medicicnes"
-            },
-            {
-              "title": "You Have Power: Making Truth Social Comply with the Agpl",
-              "isoDate": "2024-04-13T00:00:00.000Z",
-              "link": "https://boehs.org/node/truth-social"
             }
           ]
         },
@@ -2518,7 +2518,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-11-06T03:17:45.166Z",
+  "fetchDate": "2024-11-07T03:20:38.309Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

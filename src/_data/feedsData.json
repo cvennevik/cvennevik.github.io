@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The tech industry is about to get a lot worse",
+              "isoDate": "2024-11-07T14:30:00.000Z",
+              "link": "https://gomakethings.com/the-tech-industry-is-about-to-get-a-lot-worse/"
+            },
+            {
+              "title": "Styling Web Component shadow DOM elements with inline styles",
+              "isoDate": "2024-11-05T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-web-component-shadow-dom-elements-with-inline-styles/"
+            },
+            {
+              "title": "Styling the Shadow DOM with Web Components",
+              "isoDate": "2024-11-04T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-the-shadow-dom-with-web-components/"
+            },
+            {
+              "title": "Listening to events inside a Web Component (from outside the Web Component)",
+              "isoDate": "2024-10-31T14:30:00.000Z",
+              "link": "https://gomakethings.com/listening-to-events-inside-a-web-component-from-outside-the-web-component/"
+            },
+            {
+              "title": "Web Components and FOUC",
+              "isoDate": "2024-10-30T14:30:00.000Z",
+              "link": "https://gomakethings.com/web-components-and-fouc/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Photos (7 November 2024)",
+              "isoDate": "2024-11-07T10:39:04.000Z",
+              "link": "https://www.baldurbjarnason.com/notes/photos-november-2024/"
+            },
+            {
+              "title": "Links (7 November 2024)",
+              "isoDate": "2024-11-07T10:21:04.000Z",
+              "link": "https://www.baldurbjarnason.com/notes/links-2024-1/"
+            },
+            {
+              "title": "The deterioration of Google",
+              "isoDate": "2024-11-07T10:00:04.000Z",
+              "link": "https://www.baldurbjarnason.com/2024/the-deterioration-of-google/"
+            },
+            {
+              "title": "Plan B it is",
+              "isoDate": "2024-11-06T14:37:04.000Z",
+              "link": "https://www.baldurbjarnason.com/2024/plan-b-it-is/"
+            },
+            {
+              "title": "A bit of a redesign",
+              "isoDate": "2024-11-05T12:06:00.000Z",
+              "link": "https://www.baldurbjarnason.com/notes/redesign/"
+            }
+          ]
+        },
+        {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "One way to do applied research",
+              "isoDate": "2024-11-07T00:00:00.000Z",
+              "link": "https://dubroy.com/blog/one-way-to-do-applied-research"
+            },
+            {
+              "title": "Memories of some fantastic internships",
+              "isoDate": "2024-07-31T00:00:00.000Z",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships"
+            },
+            {
+              "title": "Playing like a kid again",
+              "isoDate": "2024-06-30T00:00:00.000Z",
+              "link": "https://dubroy.com/blog/playing-like-a-kid-again"
+            },
+            {
+              "title": "Taking learning seriously",
+              "isoDate": "2024-05-30T00:00:00.000Z",
+              "link": "https://dubroy.com/blog/taking-learning-seriously"
+            },
+            {
+              "title": "Bytecode VMs in surprising places",
+              "isoDate": "2024-04-30T00:00:00.000Z",
+              "link": "https://dubroy.com/blog/bytecode-vms-in-surprising-places"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Persisting State to localStorage in Recoil Across Browser Tabs",
+              "isoDate": "2024-11-06T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/localstorage-recoil/"
+            },
+            {
+              "title": "Job Screening Blog Post",
+              "isoDate": "2024-11-04T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/design-engineer-job-screener/"
+            },
+            {
+              "title": "Hacker News Clones",
+              "isoDate": "2024-11-02T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/hacker-news-clones/"
+            },
+            {
+              "title": "Quality Means The Flexibility to Change",
+              "isoDate": "2024-10-30T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/easy-changes/"
+            },
+            {
+              "title": "For Sale: Used Domain (**Clean Title**)",
+              "isoDate": "2024-10-28T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/used-domain-clean-title/"
+            }
+          ]
+        },
+        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -31,37 +155,6 @@
               "title": "Ward Cunningham's debt metaphor",
               "isoDate": "2024-09-20T20:09:00.000Z",
               "link": "https://garoof.no/notes/technical-debt-cunningham.html"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Plan B it is",
-              "isoDate": "2024-11-06T14:37:04.000Z",
-              "link": "https://www.baldurbjarnason.com/2024/plan-b-it-is/"
-            },
-            {
-              "title": "A bit of a redesign",
-              "isoDate": "2024-11-05T12:06:00.000Z",
-              "link": "https://www.baldurbjarnason.com/notes/redesign/"
-            },
-            {
-              "title": "The risks of OpenAI's Whisper audio transcription model",
-              "isoDate": "2024-10-29T16:48:04.000Z",
-              "link": "https://www.baldurbjarnason.com/2024/openai-whisper-risks/"
-            },
-            {
-              "title": "Photos (29 October 2024)",
-              "isoDate": "2024-10-29T16:03:04.000Z",
-              "link": "https://www.baldurbjarnason.com/2024/photos-12/"
-            },
-            {
-              "title": "Links (29 October 2024)",
-              "isoDate": "2024-10-29T15:56:04.000Z",
-              "link": "https://www.baldurbjarnason.com/2024/links-40/"
             }
           ]
         },
@@ -247,37 +340,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Styling Web Component shadow DOM elements with inline styles",
-              "isoDate": "2024-11-05T14:30:00.000Z",
-              "link": "https://gomakethings.com/styling-web-component-shadow-dom-elements-with-inline-styles/"
-            },
-            {
-              "title": "Styling the Shadow DOM with Web Components",
-              "isoDate": "2024-11-04T14:30:00.000Z",
-              "link": "https://gomakethings.com/styling-the-shadow-dom-with-web-components/"
-            },
-            {
-              "title": "Listening to events inside a Web Component (from outside the Web Component)",
-              "isoDate": "2024-10-31T14:30:00.000Z",
-              "link": "https://gomakethings.com/listening-to-events-inside-a-web-component-from-outside-the-web-component/"
-            },
-            {
-              "title": "Web Components and FOUC",
-              "isoDate": "2024-10-30T14:30:00.000Z",
-              "link": "https://gomakethings.com/web-components-and-fouc/"
-            },
-            {
-              "title": "How to add custom events to Web Components",
-              "isoDate": "2024-10-23T14:30:00.000Z",
-              "link": "https://gomakethings.com/how-to-add-custom-events-to-web-components/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -367,37 +429,6 @@
               "title": "The Web Component Success Story",
               "isoDate": "2024-01-29T00:00:00.000Z",
               "link": "https://jakelazaroff.com/words/the-web-component-success-story/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Job Screening Blog Post",
-              "isoDate": "2024-11-04T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/design-engineer-job-screener/"
-            },
-            {
-              "title": "Hacker News Clones",
-              "isoDate": "2024-11-02T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/hacker-news-clones/"
-            },
-            {
-              "title": "Quality Means The Flexibility to Change",
-              "isoDate": "2024-10-30T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/easy-changes/"
-            },
-            {
-              "title": "For Sale: Used Domain (**Clean Title**)",
-              "isoDate": "2024-10-28T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/used-domain-clean-title/"
-            },
-            {
-              "title": "We’re All Content Creators for Machines",
-              "isoDate": "2024-10-25T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/machine-content-creators/"
             }
           ]
         },
@@ -1875,37 +1906,6 @@
           ]
         },
         {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Memories of some fantastic internships",
-              "isoDate": "2024-07-31T00:00:00.000Z",
-              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships"
-            },
-            {
-              "title": "Playing like a kid again",
-              "isoDate": "2024-06-30T00:00:00.000Z",
-              "link": "https://dubroy.com/blog/playing-like-a-kid-again"
-            },
-            {
-              "title": "Taking learning seriously",
-              "isoDate": "2024-05-30T00:00:00.000Z",
-              "link": "https://dubroy.com/blog/taking-learning-seriously"
-            },
-            {
-              "title": "Bytecode VMs in surprising places",
-              "isoDate": "2024-04-30T00:00:00.000Z",
-              "link": "https://dubroy.com/blog/bytecode-vms-in-surprising-places"
-            },
-            {
-              "title": "Two little interpreters",
-              "isoDate": "2024-03-26T00:00:00.000Z",
-              "link": "https://dubroy.com/blog/two-little-interpreters"
-            }
-          ]
-        },
-        {
           "title": "artemis.sh",
           "feedUrl": "https://artemis.sh/feed.xml",
           "items": [
@@ -2518,7 +2518,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-11-07T03:20:38.309Z",
+  "fetchDate": "2024-11-08T03:18:39.213Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Tooth of the Weasel",
+          "feedUrl": "https://angryweasel.com/blog/feed/",
+          "items": [
+            {
+              "title": "Five for Friday – November 8, 2024",
+              "isoDate": "2024-11-09T01:23:05.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-november-8-2024/"
+            },
+            {
+              "title": "Five for Friday – November 1, 2024",
+              "isoDate": "2024-11-01T23:47:46.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-november-1-2024/"
+            },
+            {
+              "title": "Five for Friday – October 25, 2024",
+              "isoDate": "2024-10-25T19:03:23.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-october-25-2024/"
+            },
+            {
+              "title": "Five for Friday – October 18,2024",
+              "isoDate": "2024-10-18T14:54:37.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-october-182024/"
+            },
+            {
+              "title": "Five for Friday – October 11, 2024",
+              "isoDate": "2024-10-11T18:27:59.000Z",
+              "link": "https://angryweasel.com/blog/five-for-friday-october-11-2024/"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "How Do I IndieWeb?",
+              "isoDate": "2024-11-08T19:04:58.000Z",
+              "link": "https://flamedfury.com/posts/how-do-i-indieweb/"
+            },
+            {
+              "title": "Apple AirPods 4",
+              "isoDate": "2024-11-06T13:47:15.000Z",
+              "link": "https://flamedfury.com/posts/apple-airpods-4/"
+            },
+            {
+              "title": "Monthly Recap: October 2024",
+              "isoDate": "2024-10-31T20:13:04.000Z",
+              "link": "https://flamedfury.com/posts/monthly-recap-october-2024/"
+            },
+            {
+              "title": "The Death Of Slim Shady",
+              "isoDate": "2024-10-14T10:34:43.000Z",
+              "link": "https://flamedfury.com/posts/the-death-of-slim-shady/"
+            },
+            {
+              "title": "Firefox, From The Ashes?",
+              "isoDate": "2024-10-07T20:53:09.000Z",
+              "link": "https://flamedfury.com/posts/firefox-from-the-ashes/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Styling Web Component shadow DOM elements with an inline link element",
+              "isoDate": "2024-11-08T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-web-component-shadow-dom-elements-with-an-inline-link-element/"
+            },
             {
               "title": "The tech industry is about to get a lot worse",
               "isoDate": "2024-11-07T14:30:00.000Z",
@@ -26,11 +93,63 @@
               "title": "Listening to events inside a Web Component (from outside the Web Component)",
               "isoDate": "2024-10-31T14:30:00.000Z",
               "link": "https://gomakethings.com/listening-to-events-inside-a-web-component-from-outside-the-web-component/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Fill up your cup",
+              "isoDate": "2024-11-08T12:00:00.000Z",
+              "link": "https://frills.dev/blog/241108-fill-up-your-cup/"
             },
             {
-              "title": "Web Components and FOUC",
-              "isoDate": "2024-10-30T14:30:00.000Z",
-              "link": "https://gomakethings.com/web-components-and-fouc/"
+              "title": "Changelog –\n        1 Nov 2024\n      ",
+              "isoDate": "2024-11-01T00:00:00.000Z",
+              "link": "https://frills.dev/changelog/241101/"
+            },
+            {
+              "title": "Changelog –\n        2 Oct 2024\n      ",
+              "isoDate": "2024-10-02T00:00:00.000Z",
+              "link": "https://frills.dev/changelog/241002/"
+            },
+            {
+              "title": "Changelog –\n        6 Sep 2024\n      ",
+              "isoDate": "2024-09-06T00:00:00.000Z",
+              "link": "https://frills.dev/changelog/240906/"
+            },
+            {
+              "title": "Is my blue your blue?",
+              "isoDate": "2024-09-02T00:00:00.000Z",
+              "link": "https://ismy.blue/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "isoDate": "2024-11-08T09:16:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-08T09:16Z/"
+            },
+            {
+              "isoDate": "2024-11-08T06:54:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-08T06:54Z/"
+            },
+            {
+              "isoDate": "2024-11-06T08:38:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-06T08:38Z/"
+            },
+            {
+              "isoDate": "2024-11-05T14:16:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-05T14:16Z/"
+            },
+            {
+              "isoDate": "2024-11-05T06:17:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-05T06:17Z/"
             }
           ]
         },
@@ -155,63 +274,6 @@
               "title": "Ward Cunningham's debt metaphor",
               "isoDate": "2024-09-20T20:09:00.000Z",
               "link": "https://garoof.no/notes/technical-debt-cunningham.html"
-            }
-          ]
-        },
-        {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Apple AirPods 4",
-              "isoDate": "2024-11-06T13:47:15.000Z",
-              "link": "https://flamedfury.com/posts/apple-airpods-4/"
-            },
-            {
-              "title": "Monthly Recap: October 2024",
-              "isoDate": "2024-10-31T20:13:04.000Z",
-              "link": "https://flamedfury.com/posts/monthly-recap-october-2024/"
-            },
-            {
-              "title": "The Death Of Slim Shady",
-              "isoDate": "2024-10-14T10:34:43.000Z",
-              "link": "https://flamedfury.com/posts/the-death-of-slim-shady/"
-            },
-            {
-              "title": "Firefox, From The Ashes?",
-              "isoDate": "2024-10-07T20:53:09.000Z",
-              "link": "https://flamedfury.com/posts/firefox-from-the-ashes/"
-            },
-            {
-              "title": "New Music Friday #2",
-              "isoDate": "2024-10-05T10:08:32.000Z",
-              "link": "https://flamedfury.com/posts/new-music-friday-2/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "isoDate": "2024-11-06T08:38:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-06T08:38Z/"
-            },
-            {
-              "isoDate": "2024-11-05T14:16:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-05T14:16Z/"
-            },
-            {
-              "isoDate": "2024-11-05T06:17:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-05T06:17Z/"
-            },
-            {
-              "isoDate": "2024-11-03T05:11:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-03T05:11Z/"
-            },
-            {
-              "isoDate": "2024-11-01T16:22:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-01T16:22Z/"
             }
           ]
         },
@@ -619,37 +681,6 @@
           ]
         },
         {
-          "title": "Tooth of the Weasel",
-          "feedUrl": "https://angryweasel.com/blog/feed/",
-          "items": [
-            {
-              "title": "Five for Friday – November 1, 2024",
-              "isoDate": "2024-11-01T23:47:46.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-november-1-2024/"
-            },
-            {
-              "title": "Five for Friday – October 25, 2024",
-              "isoDate": "2024-10-25T19:03:23.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-october-25-2024/"
-            },
-            {
-              "title": "Five for Friday – October 18,2024",
-              "isoDate": "2024-10-18T14:54:37.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-october-182024/"
-            },
-            {
-              "title": "Five for Friday – October 11, 2024",
-              "isoDate": "2024-10-11T18:27:59.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-october-11-2024/"
-            },
-            {
-              "title": "Five for Friday – October 4, 2024",
-              "isoDate": "2024-10-04T19:54:29.000Z",
-              "link": "https://angryweasel.com/blog/five-for-friday-october-4-2024/"
-            }
-          ]
-        },
-        {
           "title": "Mike Grindle's Blog",
           "feedUrl": "https://mikegrindle.com/feed.xml",
           "items": [
@@ -677,37 +708,6 @@
               "title": "When Hüsker Dü Was the \"Fastest Band in The World\"",
               "isoDate": "2024-09-18T09:33:43.000Z",
               "link": "https://mikegrindle.com/posts/land-speed-record"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Changelog –\n        1 Nov 2024\n      ",
-              "isoDate": "2024-11-01T00:00:00.000Z",
-              "link": "https://frills.dev/changelog/241101/"
-            },
-            {
-              "title": "Changelog –\n        2 Oct 2024\n      ",
-              "isoDate": "2024-10-02T00:00:00.000Z",
-              "link": "https://frills.dev/changelog/241002/"
-            },
-            {
-              "title": "Changelog –\n        6 Sep 2024\n      ",
-              "isoDate": "2024-09-06T00:00:00.000Z",
-              "link": "https://frills.dev/changelog/240906/"
-            },
-            {
-              "title": "Is my blue your blue?",
-              "isoDate": "2024-09-02T00:00:00.000Z",
-              "link": "https://ismy.blue/"
-            },
-            {
-              "title": "The secret inside One Million Checkboxes",
-              "isoDate": "2024-08-31T00:00:00.000Z",
-              "link": "https://eieio.games/essays/the-secret-in-one-million-checkboxes/"
             }
           ]
         },
@@ -2518,7 +2518,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-11-08T03:18:39.213Z",
+  "fetchDate": "2024-11-09T03:17:54.473Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

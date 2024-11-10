@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jessitron",
+          "feedUrl": "https://jessitron.com/feed/",
+          "items": [
+            {
+              "title": "How hard can it be to buy software?",
+              "isoDate": "2024-11-09T17:11:18.000Z",
+              "link": "https://jessitron.com/2024/11/09/how-hard-can-it-be-to-buy-software/"
+            },
+            {
+              "title": "I can write the code. Getting something done is another matter.",
+              "isoDate": "2024-09-11T23:46:01.000Z",
+              "link": "https://jessitron.com/2024/09/11/i-can-write-the-code-getting-something-done-is-another-matter/"
+            },
+            {
+              "title": "Going Deep on Gamification",
+              "isoDate": "2024-09-11T23:43:48.000Z",
+              "link": "https://jessitron.com/2024/09/11/going-deep-on-gamification/"
+            },
+            {
+              "title": "Bridges Summit",
+              "isoDate": "2024-08-28T18:26:26.000Z",
+              "link": "https://jessitron.com/2024/08/28/bridges-summit/"
+            },
+            {
+              "title": "Stupid bash tricks: a self-updating script",
+              "isoDate": "2024-06-16T20:26:21.000Z",
+              "link": "https://jessitron.com/2024/06/16/stupid-bash-tricks-a-self-updating-script/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "isoDate": "2024-11-09T11:31:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-09T11:31Z/"
+            },
+            {
+              "isoDate": "2024-11-09T09:50:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-09T09:50Z/"
+            },
+            {
+              "isoDate": "2024-11-08T09:16:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-08T09:16Z/"
+            },
+            {
+              "isoDate": "2024-11-08T06:54:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-08T06:54Z/"
+            },
+            {
+              "isoDate": "2024-11-06T08:38:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-06T08:38Z/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "New microblog with TILs",
+              "isoDate": "2024-11-09T09:24:29.000Z",
+              "link": "https://jvns.ca/blog/2024/11/09/new-microblog/"
+            },
+            {
+              "title": "ASCII control characters in my terminal",
+              "isoDate": "2024-10-31T08:00:10.000Z",
+              "link": "https://jvns.ca/blog/2024/10/31/ascii-control-characters/"
+            },
+            {
+              "title": "Using less memory to look up IP addresses in Mess With DNS",
+              "isoDate": "2024-10-27T07:47:04.000Z",
+              "link": "https://jvns.ca/blog/2024/10/27/asn-ip-address-memory/"
+            },
+            {
+              "title": "Some notes on upgrading Hugo",
+              "isoDate": "2024-10-07T09:19:57.000Z",
+              "link": "https://jvns.ca/blog/2024/10/07/some-notes-on-upgrading-hugo/"
+            },
+            {
+              "title": "Terminal colours are tricky",
+              "isoDate": "2024-10-01T10:01:44.000Z",
+              "link": "https://jvns.ca/blog/2024/10/01/terminal-colours/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Bits and pieces again",
+              "isoDate": "2024-11-09T03:46:24.000Z",
+              "link": "https://anniemueller.com/posts/bits-and-pieces-again"
+            },
+            {
+              "title": "In which poetry saves my soul",
+              "isoDate": "2024-11-05T15:55:54.000Z",
+              "link": "https://anniemueller.com/posts/in-which-poetry-saves-my-soul"
+            },
+            {
+              "title": "What’s the most consequential decision you made in your life to lead you to this moment?",
+              "isoDate": "2024-11-05T02:57:05.000Z",
+              "link": "https://anniemueller.com/posts/whats-the-most-consequential-decision-you-made-in-your-life-to-lead-you-to-this-moment"
+            },
+            {
+              "title": "What makes me vulnerable?",
+              "isoDate": "2024-11-01T22:26:56.000Z",
+              "link": "https://anniemueller.com/posts/what-makes-me-vulnerable"
+            },
+            {
+              "title": "Doing dumb stuff faster is still dumb",
+              "isoDate": "2024-10-31T18:18:37.000Z",
+              "link": "https://anniemueller.com/posts/doing-dumb-stuff-faster-is-still-dumb"
+            }
+          ]
+        },
+        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -31,6 +150,37 @@
               "title": "Five for Friday – October 11, 2024",
               "isoDate": "2024-10-11T18:27:59.000Z",
               "link": "https://angryweasel.com/blog/five-for-friday-october-11-2024/"
+            }
+          ]
+        },
+        {
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
+          "items": [
+            {
+              "title": "Being intentional about exploratory testing",
+              "isoDate": "2024-11-08T23:00:00.000Z",
+              "link": "https://smallsheds.garden/blog/2024/being-intentional-about-exploratory-testing/"
+            },
+            {
+              "title": "The Fluxx ensemble exercise",
+              "isoDate": "2024-10-12T22:00:00.000Z",
+              "link": "https://smallsheds.garden/blog/2024/the-fluxx-ensemble-exercise/"
+            },
+            {
+              "title": "What do you fix when you fix a test?",
+              "isoDate": "2024-08-24T22:00:00.000Z",
+              "link": "https://smallsheds.garden/blog/2024/what-do-you-fix-when-you-fix-a-test/"
+            },
+            {
+              "title": "The difference between a test case and a requirement is the moment of discovery",
+              "isoDate": "2024-05-26T22:00:00.000Z",
+              "link": "https://smallsheds.garden/blog/2024/the-difference-between-a-test-case-and-a-requirement-is-the-moment-of-discovery/"
+            },
+            {
+              "title": "Two short checklists for Scrum",
+              "isoDate": "2024-05-08T22:00:00.000Z",
+              "link": "https://smallsheds.garden/blog/2024/two-short-checklists-for-scrum/"
             }
           ]
         },
@@ -124,32 +274,6 @@
               "title": "Is my blue your blue?",
               "isoDate": "2024-09-02T00:00:00.000Z",
               "link": "https://ismy.blue/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "isoDate": "2024-11-08T09:16:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-08T09:16Z/"
-            },
-            {
-              "isoDate": "2024-11-08T06:54:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-08T06:54Z/"
-            },
-            {
-              "isoDate": "2024-11-06T08:38:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-06T08:38Z/"
-            },
-            {
-              "isoDate": "2024-11-05T14:16:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-05T14:16Z/"
-            },
-            {
-              "isoDate": "2024-11-05T06:17:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-05T06:17Z/"
             }
           ]
         },
@@ -367,37 +491,6 @@
               "title": "Refactoring Invariants",
               "isoDate": "2024-09-24T20:06:10.000Z",
               "link": "https://buttondown.com/hillelwayne/archive/refactoring-invariants/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "In which poetry saves my soul",
-              "isoDate": "2024-11-05T15:55:54.000Z",
-              "link": "https://anniemueller.com/posts/in-which-poetry-saves-my-soul"
-            },
-            {
-              "title": "What’s the most consequential decision you made in your life to lead you to this moment?",
-              "isoDate": "2024-11-05T02:57:05.000Z",
-              "link": "https://anniemueller.com/posts/whats-the-most-consequential-decision-you-made-in-your-life-to-lead-you-to-this-moment"
-            },
-            {
-              "title": "What makes me vulnerable?",
-              "isoDate": "2024-11-01T22:26:56.000Z",
-              "link": "https://anniemueller.com/posts/what-makes-me-vulnerable"
-            },
-            {
-              "title": "Doing dumb stuff faster is still dumb",
-              "isoDate": "2024-10-31T18:18:37.000Z",
-              "link": "https://anniemueller.com/posts/doing-dumb-stuff-faster-is-still-dumb"
-            },
-            {
-              "title": "Bits and pieces",
-              "isoDate": "2024-10-30T02:18:30.000Z",
-              "link": "https://anniemueller.com/posts/bits-and-pieces"
             }
           ]
         },
@@ -739,37 +832,6 @@
               "title": "The Programmers’ Identity Crisis: how do we use our powers for ‘good’?",
               "isoDate": "2024-07-03T02:36:53.000Z",
               "link": "https://chelseatroy.com/2024/07/03/programmers-identity-crises-and-moral-panic/"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "ASCII control characters in my terminal",
-              "isoDate": "2024-10-31T08:00:10.000Z",
-              "link": "https://jvns.ca/blog/2024/10/31/ascii-control-characters/"
-            },
-            {
-              "title": "Using less memory to look up IP addresses in Mess With DNS",
-              "isoDate": "2024-10-27T07:47:04.000Z",
-              "link": "https://jvns.ca/blog/2024/10/27/asn-ip-address-memory/"
-            },
-            {
-              "title": "Some notes on upgrading Hugo",
-              "isoDate": "2024-10-07T09:19:57.000Z",
-              "link": "https://jvns.ca/blog/2024/10/07/some-notes-on-upgrading-hugo/"
-            },
-            {
-              "title": "Terminal colours are tricky",
-              "isoDate": "2024-10-01T10:01:44.000Z",
-              "link": "https://jvns.ca/blog/2024/10/01/terminal-colours/"
-            },
-            {
-              "title": "Some Go web dev notes",
-              "isoDate": "2024-09-27T11:16:00.000Z",
-              "link": "https://jvns.ca/blog/2024/09/27/some-go-web-dev-notes/"
             }
           ]
         },
@@ -1142,37 +1204,6 @@
               "title": "The case for conferences in 2024",
               "isoDate": "2024-07-17T18:30:18.000Z",
               "link": "https://newsletter.goodtechthings.com/p/the-case-for-conferences-in-2024"
-            }
-          ]
-        },
-        {
-          "title": "Joep Schuurkes",
-          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
-          "items": [
-            {
-              "title": "The Fluxx ensemble exercise",
-              "isoDate": "2024-10-12T22:00:00.000Z",
-              "link": "https://smallsheds.garden/blog/2024/the-fluxx-ensemble-exercise/"
-            },
-            {
-              "title": "What do you fix when you fix a test?",
-              "isoDate": "2024-08-24T22:00:00.000Z",
-              "link": "https://smallsheds.garden/blog/2024/what-do-you-fix-when-you-fix-a-test/"
-            },
-            {
-              "title": "The difference between a test case and a requirement is the moment of discovery",
-              "isoDate": "2024-05-26T22:00:00.000Z",
-              "link": "https://smallsheds.garden/blog/2024/the-difference-between-a-test-case-and-a-requirement-is-the-moment-of-discovery/"
-            },
-            {
-              "title": "Two short checklists for Scrum",
-              "isoDate": "2024-05-08T22:00:00.000Z",
-              "link": "https://smallsheds.garden/blog/2024/two-short-checklists-for-scrum/"
-            },
-            {
-              "title": "The difference between a dead and an alive Agile Manifesto",
-              "isoDate": "2024-04-01T22:00:00.000Z",
-              "link": "https://smallsheds.garden/blog/2024/the-difference-between-a-dead-and-an-alive-agile-manifesto/"
             }
           ]
         },
@@ -1592,37 +1623,6 @@
               "title": "Sunset v25",
               "isoDate": "2023-11-16T12:00:00.000Z",
               "link": "https://fynn.be/sunset/v25/"
-            }
-          ]
-        },
-        {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "I can write the code. Getting something done is another matter.",
-              "isoDate": "2024-09-11T23:46:01.000Z",
-              "link": "https://jessitron.com/2024/09/11/i-can-write-the-code-getting-something-done-is-another-matter/"
-            },
-            {
-              "title": "Going Deep on Gamification",
-              "isoDate": "2024-09-11T23:43:48.000Z",
-              "link": "https://jessitron.com/2024/09/11/going-deep-on-gamification/"
-            },
-            {
-              "title": "Bridges Summit",
-              "isoDate": "2024-08-28T18:26:26.000Z",
-              "link": "https://jessitron.com/2024/08/28/bridges-summit/"
-            },
-            {
-              "title": "Stupid bash tricks: a self-updating script",
-              "isoDate": "2024-06-16T20:26:21.000Z",
-              "link": "https://jessitron.com/2024/06/16/stupid-bash-tricks-a-self-updating-script/"
-            },
-            {
-              "title": "Working with others is different from working.",
-              "isoDate": "2024-05-11T20:37:48.000Z",
-              "link": "https://jessitron.com/2024/05/11/working-with-others-is-different-from-working/"
             }
           ]
         },
@@ -2518,7 +2518,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-11-09T03:17:54.473Z",
+  "fetchDate": "2024-11-10T03:19:39.361Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

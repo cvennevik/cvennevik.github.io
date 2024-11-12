@@ -4,6 +4,280 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Choo Choo World",
+              "isoDate": "2024-12-11T00:00:00.000Z",
+              "link": "https://choochooworld.com"
+            },
+            {
+              "title": "Fill up your cup",
+              "isoDate": "2024-11-08T12:00:00.000Z",
+              "link": "https://frills.dev/blog/241108-fill-up-your-cup/"
+            },
+            {
+              "title": "Changelog –\n        1 Nov 2024\n      ",
+              "isoDate": "2024-11-01T00:00:00.000Z",
+              "link": "https://frills.dev/changelog/241101/"
+            },
+            {
+              "title": "Changelog –\n        2 Oct 2024\n      ",
+              "isoDate": "2024-10-02T00:00:00.000Z",
+              "link": "https://frills.dev/changelog/241002/"
+            },
+            {
+              "title": "Changelog –\n        6 Sep 2024\n      ",
+              "isoDate": "2024-09-06T00:00:00.000Z",
+              "link": "https://frills.dev/changelog/240906/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Navigations on the Web",
+              "isoDate": "2024-11-11T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/navigations-on-the-web/"
+            },
+            {
+              "title": "Persisting State to localStorage in Recoil Across Browser Tabs",
+              "isoDate": "2024-11-06T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/localstorage-recoil/"
+            },
+            {
+              "title": "Job Screening Blog Post",
+              "isoDate": "2024-11-04T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/design-engineer-job-screener/"
+            },
+            {
+              "title": "Hacker News Clones",
+              "isoDate": "2024-11-02T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/hacker-news-clones/"
+            },
+            {
+              "title": "Quality Means The Flexibility to Change",
+              "isoDate": "2024-10-30T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/easy-changes/"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Some tweets",
+              "isoDate": "2024-11-11T18:18:00.000Z",
+              "link": "https://garoof.no/notes/tweets.html"
+            },
+            {
+              "title": "Generalities",
+              "isoDate": "2024-11-06T16:16:00.000Z",
+              "link": "https://garoof.no/notes/generalities.html"
+            },
+            {
+              "title": "Data URLs from PNGs and stuf",
+              "isoDate": "2024-10-30T20:20:00.000Z",
+              "link": "https://garoof.no/notes/data-url-stuf.html"
+            },
+            {
+              "title": "How to program good",
+              "isoDate": "2024-10-23T19:19:00.000Z",
+              "link": "https://garoof.no/notes/how-to-program-good.html"
+            },
+            {
+              "title": "Not even glue",
+              "isoDate": "2024-10-03T22:22:00.000Z",
+              "link": "https://garoof.no/notes/not-even-glue.html"
+            }
+          ]
+        },
+        {
+          "title": "drcathicks",
+          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
+          "items": [
+            {
+              "title": "On disclosure",
+              "isoDate": "2024-11-11T17:20:48.000Z",
+              "link": "https://www.drcathicks.com/post/on-disclosure"
+            },
+            {
+              "title": "Corporate Attribution Error",
+              "isoDate": "2024-09-07T15:53:40.000Z",
+              "link": "https://www.drcathicks.com/post/corporate-attribution-error"
+            },
+            {
+              "title": "Cat @ the Bridges Summit: References and Resources",
+              "isoDate": "2024-08-28T18:26:48.000Z",
+              "link": "https://www.drcathicks.com/post/cat-the-bridges-summit-references-and-resources"
+            },
+            {
+              "title": "The Uncertainty",
+              "isoDate": "2024-07-04T17:06:47.000Z",
+              "link": "https://www.drcathicks.com/post/the-uncertainty"
+            },
+            {
+              "title": "An open access developer science roundup",
+              "isoDate": "2024-04-25T14:59:22.000Z",
+              "link": "https://www.drcathicks.com/post/an-open-access-developer-science-roundup"
+            }
+          ]
+        },
+        {
+          "title": "Kyle Shevlin's Blog RSS Feed",
+          "feedUrl": "https://kyleshevlin.com/rss.xml",
+          "items": [
+            {
+              "title": "What ADHD Feels Like to Me",
+              "isoDate": "2024-11-11T16:48:05.000Z",
+              "link": "https://kyleshevlin.com/what-adhd-feels-like-to-me/"
+            },
+            {
+              "title": "Prefer Explicit Maps",
+              "isoDate": "2024-10-30T16:19:36.000Z",
+              "link": "https://kyleshevlin.com/prefer-explicit-maps/"
+            },
+            {
+              "title": "My <code>git</code> Workflow for Refactoring",
+              "isoDate": "2024-09-29T16:34:56.000Z",
+              "link": "https://kyleshevlin.com/my-git-workflow-for-refactoring/"
+            },
+            {
+              "title": "Never Call <code>new Date()</code> Inside Your Components",
+              "isoDate": "2024-08-20T19:12:27.000Z",
+              "link": "https://kyleshevlin.com/never-call-new-date-inside-your-components/"
+            },
+            {
+              "title": "Composable Flourishes",
+              "isoDate": "2024-08-02T02:28:47.000Z",
+              "link": "https://kyleshevlin.com/composable-flourishes/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Styling the shadow DOM with CSS variables in Web Components",
+              "isoDate": "2024-11-11T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-the-shadow-dom-with-css-variables-in-web-components/"
+            },
+            {
+              "title": "Styling Web Component shadow DOM elements with an inline link element",
+              "isoDate": "2024-11-08T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-web-component-shadow-dom-elements-with-an-inline-link-element/"
+            },
+            {
+              "title": "The tech industry is about to get a lot worse",
+              "isoDate": "2024-11-07T14:30:00.000Z",
+              "link": "https://gomakethings.com/the-tech-industry-is-about-to-get-a-lot-worse/"
+            },
+            {
+              "title": "Styling Web Component shadow DOM elements with inline styles",
+              "isoDate": "2024-11-05T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-web-component-shadow-dom-elements-with-inline-styles/"
+            },
+            {
+              "title": "Styling the Shadow DOM with Web Components",
+              "isoDate": "2024-11-04T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-the-shadow-dom-with-web-components/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Queer Comfort Viewing: cozy coming of age movies",
+              "isoDate": "2024-11-11T14:00:00.000Z",
+              "link": "https://www.baldurbjarnason.com/notes/queer-comfort-viewing-coming-of-age/"
+            },
+            {
+              "title": "Links (11 November 2024)",
+              "isoDate": "2024-11-11T12:32:04.000Z",
+              "link": "https://www.baldurbjarnason.com/notes/links-2024-11-11/"
+            },
+            {
+              "title": "The Counterculture Switch: creating in a hostile environment",
+              "isoDate": "2024-11-11T12:00:04.000Z",
+              "link": "https://www.baldurbjarnason.com/2024/counterculture-switch/"
+            },
+            {
+              "title": "Photos (7 November 2024)",
+              "isoDate": "2024-11-07T10:39:04.000Z",
+              "link": "https://www.baldurbjarnason.com/notes/photos-november-2024/"
+            },
+            {
+              "title": "Links (7 November 2024)",
+              "isoDate": "2024-11-07T10:21:04.000Z",
+              "link": "https://www.baldurbjarnason.com/notes/links-2024-1/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "isoDate": "2024-11-11T13:02:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-11T13:02Z/"
+            },
+            {
+              "isoDate": "2024-11-09T11:31:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-09T11:31Z/"
+            },
+            {
+              "isoDate": "2024-11-09T09:50:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-09T09:50Z/"
+            },
+            {
+              "isoDate": "2024-11-08T09:16:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-08T09:16Z/"
+            },
+            {
+              "isoDate": "2024-11-08T06:54:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-08T06:54Z/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "REM? PX? Why not both?",
+              "isoDate": "2024-11-11T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/11/11/rem-or-px/"
+            },
+            {
+              "title": "What’s the deal with WebKit Font Smoothing?",
+              "isoDate": "2024-11-05T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/11/05/webkit-font-smoothing/"
+            },
+            {
+              "title": "Return of the Front-end!",
+              "isoDate": "2024-11-01T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/11/01/return-of-the-front-end/"
+            },
+            {
+              "title": "HTTP Tunnel and Proxy in JavaScript",
+              "isoDate": "2024-10-22T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/10/22/http-tunnel-proxy/"
+            },
+            {
+              "title": "Matt’s Malware",
+              "isoDate": "2024-10-14T10:00:00.000Z",
+              "link": "https://dbushell.com/2024/10/14/matts-malware/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -66,6 +340,37 @@
           ]
         },
         {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Supporting coworkers, employees, and friends in this time",
+              "isoDate": "2024-11-11T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/supporting-friends-and-coworkers-in-this-time/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Parsing arguments in Rust with no dependencies",
+              "isoDate": "2024-11-04T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/parsing-arguments-rust-no-deps/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "They want your ethics for $105",
+              "isoDate": "2024-10-28T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/ethics-105-dollars/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Debugging my wife's alarm clock",
+              "isoDate": "2024-10-21T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/debugging-my-wifes-alarm-clock/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Making Rust builds fail from YAML config mistakes",
+              "isoDate": "2024-10-14T00:00:00.000Z",
+              "link": "https://ntietz.com/blog/rust-complain-yaml-errors/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -93,32 +398,6 @@
               "title": "Stupid bash tricks: a self-updating script",
               "isoDate": "2024-06-16T20:26:21.000Z",
               "link": "https://jessitron.com/2024/06/16/stupid-bash-tricks-a-self-updating-script/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "isoDate": "2024-11-09T11:31:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-09T11:31Z/"
-            },
-            {
-              "isoDate": "2024-11-09T09:50:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-09T09:50Z/"
-            },
-            {
-              "isoDate": "2024-11-08T09:16:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-08T09:16Z/"
-            },
-            {
-              "isoDate": "2024-11-08T06:54:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-08T06:54Z/"
-            },
-            {
-              "isoDate": "2024-11-06T08:38:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-06T08:38Z/"
             }
           ]
         },
@@ -247,99 +526,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Styling Web Component shadow DOM elements with an inline link element",
-              "isoDate": "2024-11-08T14:30:00.000Z",
-              "link": "https://gomakethings.com/styling-web-component-shadow-dom-elements-with-an-inline-link-element/"
-            },
-            {
-              "title": "The tech industry is about to get a lot worse",
-              "isoDate": "2024-11-07T14:30:00.000Z",
-              "link": "https://gomakethings.com/the-tech-industry-is-about-to-get-a-lot-worse/"
-            },
-            {
-              "title": "Styling Web Component shadow DOM elements with inline styles",
-              "isoDate": "2024-11-05T14:30:00.000Z",
-              "link": "https://gomakethings.com/styling-web-component-shadow-dom-elements-with-inline-styles/"
-            },
-            {
-              "title": "Styling the Shadow DOM with Web Components",
-              "isoDate": "2024-11-04T14:30:00.000Z",
-              "link": "https://gomakethings.com/styling-the-shadow-dom-with-web-components/"
-            },
-            {
-              "title": "Listening to events inside a Web Component (from outside the Web Component)",
-              "isoDate": "2024-10-31T14:30:00.000Z",
-              "link": "https://gomakethings.com/listening-to-events-inside-a-web-component-from-outside-the-web-component/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Fill up your cup",
-              "isoDate": "2024-11-08T12:00:00.000Z",
-              "link": "https://frills.dev/blog/241108-fill-up-your-cup/"
-            },
-            {
-              "title": "Changelog –\n        1 Nov 2024\n      ",
-              "isoDate": "2024-11-01T00:00:00.000Z",
-              "link": "https://frills.dev/changelog/241101/"
-            },
-            {
-              "title": "Changelog –\n        2 Oct 2024\n      ",
-              "isoDate": "2024-10-02T00:00:00.000Z",
-              "link": "https://frills.dev/changelog/241002/"
-            },
-            {
-              "title": "Changelog –\n        6 Sep 2024\n      ",
-              "isoDate": "2024-09-06T00:00:00.000Z",
-              "link": "https://frills.dev/changelog/240906/"
-            },
-            {
-              "title": "Is my blue your blue?",
-              "isoDate": "2024-09-02T00:00:00.000Z",
-              "link": "https://ismy.blue/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Photos (7 November 2024)",
-              "isoDate": "2024-11-07T10:39:04.000Z",
-              "link": "https://www.baldurbjarnason.com/notes/photos-november-2024/"
-            },
-            {
-              "title": "Links (7 November 2024)",
-              "isoDate": "2024-11-07T10:21:04.000Z",
-              "link": "https://www.baldurbjarnason.com/notes/links-2024-1/"
-            },
-            {
-              "title": "The deterioration of Google",
-              "isoDate": "2024-11-07T10:00:04.000Z",
-              "link": "https://www.baldurbjarnason.com/2024/the-deterioration-of-google/"
-            },
-            {
-              "title": "Plan B it is",
-              "isoDate": "2024-11-06T14:37:04.000Z",
-              "link": "https://www.baldurbjarnason.com/2024/plan-b-it-is/"
-            },
-            {
-              "title": "A bit of a redesign",
-              "isoDate": "2024-11-05T12:06:00.000Z",
-              "link": "https://www.baldurbjarnason.com/notes/redesign/"
-            }
-          ]
-        },
-        {
           "title": "Patrick Dubroy's blog",
           "feedUrl": "https://dubroy.com/blog/rss.xml",
           "items": [
@@ -367,68 +553,6 @@
               "title": "Bytecode VMs in surprising places",
               "isoDate": "2024-04-30T00:00:00.000Z",
               "link": "https://dubroy.com/blog/bytecode-vms-in-surprising-places"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Persisting State to localStorage in Recoil Across Browser Tabs",
-              "isoDate": "2024-11-06T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/localstorage-recoil/"
-            },
-            {
-              "title": "Job Screening Blog Post",
-              "isoDate": "2024-11-04T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/design-engineer-job-screener/"
-            },
-            {
-              "title": "Hacker News Clones",
-              "isoDate": "2024-11-02T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/hacker-news-clones/"
-            },
-            {
-              "title": "Quality Means The Flexibility to Change",
-              "isoDate": "2024-10-30T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/easy-changes/"
-            },
-            {
-              "title": "For Sale: Used Domain (**Clean Title**)",
-              "isoDate": "2024-10-28T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/used-domain-clean-title/"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Generalities",
-              "isoDate": "2024-11-06T16:09:00.000Z",
-              "link": "https://garoof.no/notes/generalities.html"
-            },
-            {
-              "title": "Data URLs from PNGs and stuf",
-              "isoDate": "2024-10-30T20:40:00.000Z",
-              "link": "https://garoof.no/notes/data-url-stuf.html"
-            },
-            {
-              "title": "How to program good",
-              "isoDate": "2024-10-23T19:57:00.000Z",
-              "link": "https://garoof.no/notes/how-to-program-good.html"
-            },
-            {
-              "title": "Not even glue",
-              "isoDate": "2024-10-03T22:07:00.000Z",
-              "link": "https://garoof.no/notes/not-even-glue.html"
-            },
-            {
-              "title": "Ward Cunningham's debt metaphor",
-              "isoDate": "2024-09-20T20:09:00.000Z",
-              "link": "https://garoof.no/notes/technical-debt-cunningham.html"
             }
           ]
         },
@@ -526,37 +650,6 @@
           ]
         },
         {
-          "title": "dbushell.com",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "What’s the deal with WebKit Font Smoothing?",
-              "isoDate": "2024-11-05T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/11/05/webkit-font-smoothing/"
-            },
-            {
-              "title": "Return of the Front-end!",
-              "isoDate": "2024-11-01T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/11/01/return-of-the-front-end/"
-            },
-            {
-              "title": "HTTP Tunnel and Proxy in JavaScript",
-              "isoDate": "2024-10-22T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/10/22/http-tunnel-proxy/"
-            },
-            {
-              "title": "Matt’s Malware",
-              "isoDate": "2024-10-14T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/10/14/matts-malware/"
-            },
-            {
-              "title": "Hey! Deno 2 looks fun!",
-              "isoDate": "2024-10-10T10:00:00.000Z",
-              "link": "https://dbushell.com/2024/10/10/deno-2/"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -646,37 +739,6 @@
               "title": "The bdi element",
               "isoDate": "2024-09-30T00:00:00.000Z",
               "link": "https://heydonworks.com/article/the-bdi-element/"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Parsing arguments in Rust with no dependencies",
-              "isoDate": "2024-11-04T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/parsing-arguments-rust-no-deps/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "They want your ethics for $105",
-              "isoDate": "2024-10-28T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/ethics-105-dollars/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Debugging my wife's alarm clock",
-              "isoDate": "2024-10-21T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/debugging-my-wifes-alarm-clock/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Making Rust builds fail from YAML config mistakes",
-              "isoDate": "2024-10-14T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/rust-complain-yaml-errors/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Licensing can be joyful (and legally dubious)",
-              "isoDate": "2024-10-07T00:00:00.000Z",
-              "link": "https://ntietz.com/blog/licensing-joy-gal/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -863,37 +925,6 @@
               "title": "The Programmers’ Identity Crisis: how do we use our powers for ‘good’?",
               "isoDate": "2024-07-03T02:36:53.000Z",
               "link": "https://chelseatroy.com/2024/07/03/programmers-identity-crises-and-moral-panic/"
-            }
-          ]
-        },
-        {
-          "title": "Kyle Shevlin's Blog RSS Feed",
-          "feedUrl": "https://kyleshevlin.com/rss.xml",
-          "items": [
-            {
-              "title": "Prefer Explicit Maps",
-              "isoDate": "2024-10-30T16:19:36.000Z",
-              "link": "https://kyleshevlin.com/prefer-explicit-maps/"
-            },
-            {
-              "title": "My <code>git</code> Workflow for Refactoring",
-              "isoDate": "2024-09-29T16:34:56.000Z",
-              "link": "https://kyleshevlin.com/my-git-workflow-for-refactoring/"
-            },
-            {
-              "title": "Never Call <code>new Date()</code> Inside Your Components",
-              "isoDate": "2024-08-20T19:12:27.000Z",
-              "link": "https://kyleshevlin.com/never-call-new-date-inside-your-components/"
-            },
-            {
-              "title": "Composable Flourishes",
-              "isoDate": "2024-08-02T02:28:47.000Z",
-              "link": "https://kyleshevlin.com/composable-flourishes/"
-            },
-            {
-              "title": "Prefer Alphabetized Object Keys",
-              "isoDate": "2024-07-30T15:27:23.000Z",
-              "link": "https://kyleshevlin.com/prefer-alphabetized-object-keys/"
             }
           ]
         },
@@ -1685,37 +1716,6 @@
               "title": "ECMAScript modules and browser compatibility",
               "isoDate": "2023-04-20T22:00:00.000Z",
               "link": "https://molily.de/ecmascript-modules/"
-            }
-          ]
-        },
-        {
-          "title": "drcathicks",
-          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
-          "items": [
-            {
-              "title": "Corporate Attribution Error",
-              "isoDate": "2024-09-07T15:53:40.000Z",
-              "link": "https://www.drcathicks.com/post/corporate-attribution-error"
-            },
-            {
-              "title": "Cat @ the Bridges Summit: References and Resources",
-              "isoDate": "2024-08-28T18:26:48.000Z",
-              "link": "https://www.drcathicks.com/post/cat-the-bridges-summit-references-and-resources"
-            },
-            {
-              "title": "The Uncertainty",
-              "isoDate": "2024-07-04T17:06:47.000Z",
-              "link": "https://www.drcathicks.com/post/the-uncertainty"
-            },
-            {
-              "title": "An open access developer science roundup",
-              "isoDate": "2024-04-25T14:59:22.000Z",
-              "link": "https://www.drcathicks.com/post/an-open-access-developer-science-roundup"
-            },
-            {
-              "title": "Covid Data Log",
-              "isoDate": "2024-01-12T15:19:08.000Z",
-              "link": "https://www.drcathicks.com/post/covid-data-log"
             }
           ]
         },
@@ -2518,7 +2518,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-11-11T03:20:01.207Z",
+  "fetchDate": "2024-11-12T03:16:54.473Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

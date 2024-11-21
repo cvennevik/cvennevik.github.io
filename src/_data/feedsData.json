@@ -4,6 +4,32 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "We Showed Up. We Fought. We Lost.",
+              "link": "https://boehs.org/node/election-2024"
+            },
+            {
+              "title": "Apple Should Use Intelligence to Get It into Their Heads That We Don't Want This.",
+              "link": "https://boehs.org/node/apple-intelligence"
+            },
+            {
+              "title": "I Don't Hate Technology When It Works.",
+              "link": "https://boehs.org/node/old-tech"
+            },
+            {
+              "title": "Bountysource Stole at Least $21,000 from Open Source Developers",
+              "link": "https://boehs.org/node/bountysource"
+            },
+            {
+              "title": "It’s Been a Year and Georgia.gov Continues to Be Hacked",
+              "link": "https://boehs.org/node/medicicnes"
+            }
+          ]
+        },
+        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
@@ -31,6 +57,130 @@
               "title": "Changelog –\n        6 Sep 2024\n      ",
               "isoDate": "2024-09-06T00:00:00.000Z",
               "link": "https://frills.dev/changelog/240906/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Captchas Turned Notification Exploits",
+              "isoDate": "2024-11-20T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/bad-captchas/"
+            },
+            {
+              "title": "Named Blogs",
+              "isoDate": "2024-11-18T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/named-blogs/"
+            },
+            {
+              "title": "Reading and Writing as Human Expression & Connection",
+              "isoDate": "2024-11-15T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/writing-is-human-expression/"
+            },
+            {
+              "title": "The Beauty of Building",
+              "isoDate": "2024-11-13T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/beauty-of-building/"
+            },
+            {
+              "title": "Navigations on the Web",
+              "isoDate": "2024-11-11T19:00:00.000Z",
+              "link": "https://blog.jim-nielsen.com/2024/navigations-on-the-web/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Attribute styling",
+              "isoDate": "2024-11-20T14:30:00.000Z",
+              "link": "https://gomakethings.com/attribute-styling/"
+            },
+            {
+              "title": "Combining light DOM and shadow DOM in a Web Component",
+              "isoDate": "2024-11-19T14:30:00.000Z",
+              "link": "https://gomakethings.com/combining-light-dom-and-shadow-dom-in-a-web-component/"
+            },
+            {
+              "title": "Styling Web Component elements in the shadow DOM with constructable stylesheets",
+              "isoDate": "2024-11-18T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-web-component-elements-in-the-shadow-dom-with-constructable-stylesheets/"
+            },
+            {
+              "title": "Styling Web Component elements in the shadow DOM with parts",
+              "isoDate": "2024-11-13T14:30:00.000Z",
+              "link": "https://gomakethings.com/styling-web-component-elements-in-the-shadow-dom-with-parts/"
+            },
+            {
+              "title": "The web is a gift. The web is a weapon.",
+              "isoDate": "2024-11-12T14:30:00.000Z",
+              "link": "https://gomakethings.com/the-web-is-a-gift.-the-web-is-a-weapon./"
+            }
+          ]
+        },
+        {
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
+          "items": [
+            {
+              "title": "On the Pineapple Plant in My Window",
+              "isoDate": "2024-11-20T12:12:02.000Z",
+              "link": "https://mikegrindle.com/posts/pineapple"
+            },
+            {
+              "title": "I Forgot My Sister's Birthday and Started a Tradition",
+              "isoDate": "2024-11-18T15:58:09.000Z",
+              "link": "https://mikegrindle.com/posts/sister"
+            },
+            {
+              "title": "Growing Roots",
+              "isoDate": "2024-11-12T11:38:05.000Z",
+              "link": "https://mikegrindle.com/posts/roots"
+            },
+            {
+              "title": "5 Punk Albums",
+              "isoDate": "2024-11-01T09:54:40.000Z",
+              "link": "https://mikegrindle.com/posts/5-punk"
+            },
+            {
+              "title": "Finding My Flow (Again)",
+              "isoDate": "2024-10-30T09:42:54.000Z",
+              "link": "https://mikegrindle.com/posts/flow"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Mastodon’s weaknesses and how to fix them",
+              "isoDate": "2024-11-20T00:00:00.000Z",
+              "link": "https://2ality.com/2024/11/mastodon-weaknesses.html"
+            },
+            {
+              "title": "Ecma International approves ECMAScript 2024: What’s new?",
+              "isoDate": "2024-06-26T00:00:00.000Z",
+              "link": "https://2ality.com/2024/06/ecmascript-2024.html"
+            },
+            {
+              "title": "ECMAScript 2024 features: resizing and transferring ArrayBuffers",
+              "isoDate": "2024-06-01T00:00:00.000Z",
+              "link": "https://2ality.com/2024/06/array-buffers-es2024.html"
+            },
+            {
+              "title": "ECMAScript 2023 feature: symbols as WeakMap keys",
+              "isoDate": "2024-05-19T00:00:00.000Z",
+              "link": "https://2ality.com/2024/05/proposal-symbols-as-weakmap-keys.html"
+            },
+            {
+              "title": "ECMAScript 2025 feature: duplicate named capturing groups for regular expressions",
+              "isoDate": "2024-05-16T00:00:00.000Z",
+              "link": "https://2ality.com/2024/05/proposal-duplicate-named-capturing-groups.html"
             }
           ]
         },
@@ -128,37 +278,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Combining light DOM and shadow DOM in a Web Component",
-              "isoDate": "2024-11-19T14:30:00.000Z",
-              "link": "https://gomakethings.com/combining-light-dom-and-shadow-dom-in-a-web-component/"
-            },
-            {
-              "title": "Styling Web Component elements in the shadow DOM with constructable stylesheets",
-              "isoDate": "2024-11-18T14:30:00.000Z",
-              "link": "https://gomakethings.com/styling-web-component-elements-in-the-shadow-dom-with-constructable-stylesheets/"
-            },
-            {
-              "title": "Styling Web Component elements in the shadow DOM with parts",
-              "isoDate": "2024-11-13T14:30:00.000Z",
-              "link": "https://gomakethings.com/styling-web-component-elements-in-the-shadow-dom-with-parts/"
-            },
-            {
-              "title": "The web is a gift. The web is a weapon.",
-              "isoDate": "2024-11-12T14:30:00.000Z",
-              "link": "https://gomakethings.com/the-web-is-a-gift.-the-web-is-a-weapon./"
-            },
-            {
-              "title": "Styling the shadow DOM with CSS variables in Web Components",
-              "isoDate": "2024-11-11T14:30:00.000Z",
-              "link": "https://gomakethings.com/styling-the-shadow-dom-with-css-variables-in-web-components/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (microblog)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -247,37 +366,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Named Blogs",
-              "isoDate": "2024-11-18T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/named-blogs/"
-            },
-            {
-              "title": "Reading and Writing as Human Expression & Connection",
-              "isoDate": "2024-11-15T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/writing-is-human-expression/"
-            },
-            {
-              "title": "The Beauty of Building",
-              "isoDate": "2024-11-13T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/beauty-of-building/"
-            },
-            {
-              "title": "Navigations on the Web",
-              "isoDate": "2024-11-11T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/navigations-on-the-web/"
-            },
-            {
-              "title": "Persisting State to localStorage in Recoil Across Browser Tabs",
-              "isoDate": "2024-11-06T19:00:00.000Z",
-              "link": "https://blog.jim-nielsen.com/2024/localstorage-recoil/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -305,37 +393,6 @@
               "title": "Queer Comfort Viewing: cozy coming of age movies",
               "isoDate": "2024-11-11T14:00:00.000Z",
               "link": "https://www.baldurbjarnason.com/notes/queer-comfort-viewing-coming-of-age/"
-            }
-          ]
-        },
-        {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
-          "items": [
-            {
-              "title": "I Forgot My Sister's Birthday and Started a Tradition",
-              "isoDate": "2024-11-18T15:58:09.000Z",
-              "link": "https://mikegrindle.com/posts/sister"
-            },
-            {
-              "title": "Growing Roots",
-              "isoDate": "2024-11-12T11:38:05.000Z",
-              "link": "https://mikegrindle.com/posts/roots"
-            },
-            {
-              "title": "5 Punk Albums",
-              "isoDate": "2024-11-01T09:54:40.000Z",
-              "link": "https://mikegrindle.com/posts/5-punk"
-            },
-            {
-              "title": "Finding My Flow (Again)",
-              "isoDate": "2024-10-30T09:42:54.000Z",
-              "link": "https://mikegrindle.com/posts/flow"
-            },
-            {
-              "title": "'Worth Having, Worth Waiting For' (Newsletter #4)",
-              "isoDate": "2024-10-03T11:56:55.000Z",
-              "link": "https://mikegrindle.com/newsletter/itm-4"
             }
           ]
         },
@@ -925,37 +982,6 @@
               "title": "Bytecode VMs in surprising places",
               "isoDate": "2024-04-30T00:00:00.000Z",
               "link": "https://dubroy.com/blog/bytecode-vms-in-surprising-places"
-            }
-          ]
-        },
-        {
-          "title": "Evan Boehs in the blog",
-          "feedUrl": "https://boehs.org/in/blog.xml",
-          "items": [
-            {
-              "title": "We Showed Up. We Fought. We Lost.",
-              "isoDate": "2024-11-06T00:00:00.000Z",
-              "link": "https://boehs.org/node/election-2024"
-            },
-            {
-              "title": "Apple Should Use Intelligence to Get It into Their Heads That We Don't Want This.",
-              "isoDate": "2024-06-10T00:00:00.000Z",
-              "link": "https://boehs.org/node/apple-intelligence"
-            },
-            {
-              "title": "I Don't Hate Technology When It Works.",
-              "isoDate": "2024-05-18T00:00:00.000Z",
-              "link": "https://boehs.org/node/old-tech"
-            },
-            {
-              "title": "Bountysource Stole at Least $21,000 from Open Source Developers",
-              "isoDate": "2024-05-03T00:00:00.000Z",
-              "link": "https://boehs.org/node/bountysource"
-            },
-            {
-              "title": "It’s Been a Year and Georgia.gov Continues to Be Hacked",
-              "isoDate": "2024-04-26T00:00:00.000Z",
-              "link": "https://boehs.org/node/medicicnes"
             }
           ]
         },
@@ -2030,37 +2056,6 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Ecma International approves ECMAScript 2024: What’s new?",
-              "isoDate": "2024-06-26T00:00:00.000Z",
-              "link": "https://2ality.com/2024/06/ecmascript-2024.html"
-            },
-            {
-              "title": "ECMAScript 2024 features: resizing and transferring ArrayBuffers",
-              "isoDate": "2024-06-01T00:00:00.000Z",
-              "link": "https://2ality.com/2024/06/array-buffers-es2024.html"
-            },
-            {
-              "title": "ECMAScript 2023 feature: symbols as WeakMap keys",
-              "isoDate": "2024-05-19T00:00:00.000Z",
-              "link": "https://2ality.com/2024/05/proposal-symbols-as-weakmap-keys.html"
-            },
-            {
-              "title": "ECMAScript 2025 feature: duplicate named capturing groups for regular expressions",
-              "isoDate": "2024-05-16T00:00:00.000Z",
-              "link": "https://2ality.com/2024/05/proposal-duplicate-named-capturing-groups.html"
-            },
-            {
-              "title": "ECMAScript 2024 feature: <code>Promise.withResolvers()</code>",
-              "isoDate": "2024-05-14T00:00:00.000Z",
-              "link": "https://2ality.com/2024/05/proposal-promise-with-resolvers.html"
-            }
-          ]
-        },
-        {
           "title": "Curly Tail, Curly Braces",
           "feedUrl": "https://www.worthe-it.co.za/atom.xml",
           "items": [
@@ -2518,7 +2513,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-11-20T03:26:38.522Z",
+  "fetchDate": "2024-11-21T03:26:20.682Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

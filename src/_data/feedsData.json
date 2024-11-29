@@ -61,6 +61,32 @@
           ]
         },
         {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "isoDate": "2024-11-28T12:12:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-28T12:12Z/"
+            },
+            {
+              "isoDate": "2024-11-28T07:59:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-28T07:59Z/"
+            },
+            {
+              "isoDate": "2024-11-27T07:32:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-27T07:32Z/"
+            },
+            {
+              "isoDate": "2024-11-26T15:49:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-26T15:49Z/"
+            },
+            {
+              "isoDate": "2024-11-23T10:48:00.000Z",
+              "link": "https://dbushell.com/notes/2024-11-23T10:48Z/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -127,7 +153,7 @@
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
             {
-              "title": "'The Intelligence Illusion (Second Edition): Why generative models are bad for business' Black Friday launch sale",
+              "title": "'The Intelligence Illusion (Second Edition): Why generative models are bad for business' – Black Friday launch sale",
               "isoDate": "2024-11-27T13:39:00.000Z",
               "link": "https://www.baldurbjarnason.com/2024/intelligence-illusion-2nd-ed-launch-black-friday/"
             },
@@ -150,63 +176,6 @@
               "title": "Queer Comfort Viewing: 'Surprise! You're less straight than you thought you were!' movies and series",
               "isoDate": "2024-11-18T10:43:00.000Z",
               "link": "https://www.baldurbjarnason.com/notes/queer-comfort-viewing/surprise-you-are-not-straight/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "isoDate": "2024-11-27T07:32:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-27T07:32Z/"
-            },
-            {
-              "isoDate": "2024-11-26T15:49:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-26T15:49Z/"
-            },
-            {
-              "isoDate": "2024-11-23T10:48:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-23T10:48Z/"
-            },
-            {
-              "isoDate": "2024-11-23T09:42:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-23T09:42Z/"
-            },
-            {
-              "isoDate": "2024-11-21T15:02:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-21T15:02Z/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Safety and stability",
-              "isoDate": "2024-11-27T04:41:34.000Z",
-              "link": "https://robinrendle.com/notes/safety-and-stability/"
-            },
-            {
-              "title": "into the wreck",
-              "isoDate": "2024-10-10T16:07:12.000Z",
-              "link": "https://robinrendle.com/notes/into-the-wreck/"
-            },
-            {
-              "title": "The Disappearance of an Internet Domain",
-              "isoDate": "2024-10-09T16:40:33.000Z",
-              "link": "https://robinrendle.com/notes/the-disappearance-of-an-internet-domain/"
-            },
-            {
-              "title": "Big Apple Blues",
-              "isoDate": "2024-10-05T19:18:03.000Z",
-              "link": "https://robinrendle.com/notes/big-apple-blues/"
-            },
-            {
-              "title": "Coming home",
-              "isoDate": "2024-09-28T15:16:08.000Z",
-              "link": "https://robinrendle.com/notes/coming-home/"
             }
           ]
         },
@@ -2513,9 +2482,10 @@
       ]
     }
   ],
-  "fetchDate": "2024-11-28T03:30:38.698Z",
+  "fetchDate": "2024-11-29T03:30:09.113Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
-    "https://angryweasel.substack.com/feed"
+    "https://angryweasel.substack.com/feed",
+    "https://robinrendle.com/feed.xml"
   ]
 }

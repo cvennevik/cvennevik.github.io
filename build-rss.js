@@ -147,7 +147,7 @@ for (const groupName in FEED_URL_GROUPS) {
             // Only keep the fields we use, to save space
             return {
               title: item.title,
-              isoDate: item.isoDate,
+              date: item.isoDate ? item.isoDate.split('T')[0] : '0000-00-00',
               link: item.link
             }
         });
@@ -169,8 +169,8 @@ const groups = [];
 Object.entries(groupFeeds).forEach(([name, feeds]) => {
   // for each group, sort feeds by most recently updated
   feeds.sort((a, b) => {
-    if (a.items[0].isoDate == b.items[0].isoDate) return 0;
-    if (a.items[0].isoDate < b.items[0].isoDate) return 1;
+    if (a.items[0].date == b.items[0].date) return 0;
+    if (a.items[0].date < b.items[0].date) return 1;
     return -1;
   });
 

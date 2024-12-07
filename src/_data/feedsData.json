@@ -4,90 +4,121 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Evan Boehs in the blog",
-          "feedUrl": "https://boehs.org/in/blog.xml",
-          "items": [
-            {
-              "title": "The Fascinating Security Model of Dark Web Marketplaces",
-              "link": "https://boehs.org/node/dark-web-security"
-            },
-            {
-              "title": "We Showed Up. We Fought. We Lost.",
-              "link": "https://boehs.org/node/election-2024"
-            },
-            {
-              "title": "Apple Should Use Intelligence to Get It into Their Heads That We Don't Want This.",
-              "link": "https://boehs.org/node/apple-intelligence"
-            },
-            {
-              "title": "I Don't Hate Technology When It Works.",
-              "link": "https://boehs.org/node/old-tech"
-            },
-            {
-              "title": "Bountysource Stole at Least $21,000 from Open Source Developers",
-              "link": "https://boehs.org/node/bountysource"
-            }
-          ]
-        },
-        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
               "title": "Choo Choo World",
-              "isoDate": "2024-12-11T00:00:00.000Z",
+              "date": "2024-12-11",
               "link": "https://choochooworld.com"
             },
             {
               "title": "Legends & Lattes",
-              "isoDate": "2024-11-22T13:00:00.000Z",
+              "date": "2024-11-22",
               "link": "https://frills.dev/blog/241122-legends-lattes/"
             },
             {
               "title": "Fill up your cup",
-              "isoDate": "2024-11-08T12:00:00.000Z",
+              "date": "2024-11-08",
               "link": "https://frills.dev/blog/241108-fill-up-your-cup/"
             },
             {
               "title": "Changelog –\n        1 Nov 2024\n      ",
-              "isoDate": "2024-11-01T00:00:00.000Z",
+              "date": "2024-11-01",
               "link": "https://frills.dev/changelog/241101/"
             },
             {
               "title": "Changelog –\n        2 Oct 2024\n      ",
-              "isoDate": "2024-10-02T00:00:00.000Z",
+              "date": "2024-10-02",
               "link": "https://frills.dev/changelog/241002/"
             }
           ]
         },
         {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
             {
-              "title": "AI is not Designed for You",
-              "isoDate": "2024-12-06T14:36:58.000Z",
-              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
+              "title": "Code shufflin’",
+              "date": "2024-12-07",
+              "link": "https://robinrendle.com/notes/code-shufflin/"
             },
             {
-              "title": "From Coder to Creator: My Journey",
-              "isoDate": "2024-09-30T12:35:19.000Z",
-              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
+              "title": "Frameworkism",
+              "date": "2024-12-01",
+              "link": "https://robinrendle.com/notes/frameworkism/"
             },
             {
-              "title": "The \"Brainmade\" Mark",
-              "isoDate": "2024-07-27T07:59:25.000Z",
-              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
+              "title": "The eras of CSS",
+              "date": "2024-11-29",
+              "link": "https://robinrendle.com/notes/the-eras-of-css/"
             },
             {
-              "title": "Compiler-Driven Development in Rust",
-              "isoDate": "2024-06-16T13:43:23.000Z",
-              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
+              "title": "Safety and stability",
+              "date": "2024-11-27",
+              "link": "https://robinrendle.com/notes/safety-and-stability/"
             },
             {
-              "title": "The Autism Constellation",
-              "isoDate": "2024-03-19T15:12:39.000Z",
-              "link": "https://www.youtube.com/watch?v=DhY3fu-YgHU"
+              "title": "into the wreck",
+              "date": "2024-10-10",
+              "link": "https://robinrendle.com/notes/into-the-wreck/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2024-12-07",
+              "link": "https://dbushell.com/notes/2024-12-07T08:28Z/"
+            },
+            {
+              "date": "2024-12-06",
+              "link": "https://dbushell.com/notes/2024-12-06T08:14Z/"
+            },
+            {
+              "date": "2024-12-05",
+              "link": "https://dbushell.com/notes/2024-12-05T06:29Z/"
+            },
+            {
+              "date": "2024-12-02",
+              "link": "https://dbushell.com/notes/2024-12-02T19:21Z/"
+            },
+            {
+              "date": "2024-11-28",
+              "link": "https://dbushell.com/notes/2024-11-28T12:12Z/"
+            }
+          ]
+        },
+        {
+          "title": "The Beautiful Mess",
+          "feedUrl": "https://cutlefish.substack.com/feed",
+          "items": [
+            {
+              "title": "TBM 326: Adhocracies and Bureaucracies",
+              "date": "2024-12-06",
+              "link": "https://cutlefish.substack.com/p/tbm-326-adhocracies-and-bureaucracies"
+            },
+            {
+              "title": "TBM 325: Skeptoptimism – Thinking Slow, Acting Fast",
+              "date": "2024-12-01",
+              "link": "https://cutlefish.substack.com/p/tbm-325-skeptoptimism-thinking-slow"
+            },
+            {
+              "title": "TBM 324: Goal-O-Rama",
+              "date": "2024-11-27",
+              "link": "https://cutlefish.substack.com/p/tbm-324-goal-o-rama"
+            },
+            {
+              "title": "TBM 323: Quick Tool Tips",
+              "date": "2024-11-21",
+              "link": "https://cutlefish.substack.com/p/tbm-323-quick-tool-tips"
+            },
+            {
+              "title": "TBM 322: Work Shape Mix",
+              "date": "2024-11-20",
+              "link": "https://cutlefish.substack.com/p/tbm-322-work-shape-mix"
             }
           ]
         },
@@ -97,85 +128,28 @@
           "items": [
             {
               "title": "Buildless testing",
-              "isoDate": "2024-12-06T14:30:00.000Z",
+              "date": "2024-12-06",
               "link": "https://gomakethings.com/buildless-testing/"
             },
             {
               "title": "The code complexity journey",
-              "isoDate": "2024-12-05T14:30:00.000Z",
+              "date": "2024-12-05",
               "link": "https://gomakethings.com/the-code-complexity-journey/"
             },
             {
               "title": "Building a code sandbox",
-              "isoDate": "2024-12-04T14:30:00.000Z",
+              "date": "2024-12-04",
               "link": "https://gomakethings.com/building-a-code-sandbox/"
             },
             {
               "title": "The web, community, and UX",
-              "isoDate": "2024-12-03T14:30:00.000Z",
+              "date": "2024-12-03",
               "link": "https://gomakethings.com/the-web-community-and-ux/"
             },
             {
               "title": "Code readbility",
-              "isoDate": "2024-12-02T14:30:00.000Z",
+              "date": "2024-12-02",
               "link": "https://gomakethings.com/code-readbility/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "isoDate": "2024-12-06T08:14:00.000Z",
-              "link": "https://dbushell.com/notes/2024-12-06T08:14Z/"
-            },
-            {
-              "isoDate": "2024-12-05T06:29:00.000Z",
-              "link": "https://dbushell.com/notes/2024-12-05T06:29Z/"
-            },
-            {
-              "isoDate": "2024-12-02T19:21:00.000Z",
-              "link": "https://dbushell.com/notes/2024-12-02T19:21Z/"
-            },
-            {
-              "isoDate": "2024-11-28T12:12:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-28T12:12Z/"
-            },
-            {
-              "isoDate": "2024-11-28T07:59:00.000Z",
-              "link": "https://dbushell.com/notes/2024-11-28T07:59Z/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "DSQL Vignette: Wait! Isn't That Impossible?",
-              "isoDate": "2024-12-06T00:00:00.000Z",
-              "link": "http://brooker.co.za/blog/2024/12/06/inside-dsql-cap.html"
-            },
-            {
-              "title": "DSQL Vignette: Transactions and Durability",
-              "isoDate": "2024-12-05T00:00:00.000Z",
-              "link": "http://brooker.co.za/blog/2024/12/05/inside-dsql-writes.html"
-            },
-            {
-              "title": "DSQL Vignette: Reads and Compute",
-              "isoDate": "2024-12-04T00:00:00.000Z",
-              "link": "http://brooker.co.za/blog/2024/12/04/inside-dsql.html"
-            },
-            {
-              "title": "DSQL Vignette: Aurora DSQL, and A Personal Story",
-              "isoDate": "2024-12-03T00:00:00.000Z",
-              "link": "http://brooker.co.za/blog/2024/12/03/aurora-dsql.html"
-            },
-            {
-              "title": "Ten Years of AWS Lambda",
-              "isoDate": "2024-11-14T00:00:00.000Z",
-              "link": "http://brooker.co.za/blog/2024/11/14/lambda-ten-years.html"
             }
           ]
         },
@@ -185,28 +159,90 @@
           "items": [
             {
               "title": "Bandcamp wrapped",
-              "isoDate": "2024-12-06T00:00:00.000Z",
+              "date": "2024-12-06",
               "link": "https://macwright.com/2024/12/06/bandcamp-wrapped.html"
             },
             {
               "title": "Recently: Cycling and Autumn",
-              "isoDate": "2024-11-03T00:00:00.000Z",
+              "date": "2024-11-03",
               "link": "https://macwright.com/2024/11/03/recently.html"
             },
             {
               "title": "Recently",
-              "isoDate": "2024-10-01T00:00:00.000Z",
+              "date": "2024-10-01",
               "link": "https://macwright.com/2024/10/01/recently.html"
             },
             {
               "title": "Recently",
-              "isoDate": "2024-09-05T00:00:00.000Z",
+              "date": "2024-09-05",
               "link": "https://macwright.com/2024/09/05/recently.html"
             },
             {
               "title": "Recently",
-              "isoDate": "2024-08-01T00:00:00.000Z",
+              "date": "2024-08-01",
               "link": "https://macwright.com/2024/08/01/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "AI is not Designed for You",
+              "date": "2024-12-06",
+              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
+            },
+            {
+              "title": "From Coder to Creator: My Journey",
+              "date": "2024-09-30",
+              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
+            },
+            {
+              "title": "The \"Brainmade\" Mark",
+              "date": "2024-07-27",
+              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
+            },
+            {
+              "title": "Compiler-Driven Development in Rust",
+              "date": "2024-06-16",
+              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
+            },
+            {
+              "title": "The Autism Constellation",
+              "date": "2024-03-19",
+              "link": "https://www.youtube.com/watch?v=DhY3fu-YgHU"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "DSQL Vignette: Wait! Isn't That Impossible?",
+              "date": "2024-12-06",
+              "link": "http://brooker.co.za/blog/2024/12/06/inside-dsql-cap.html"
+            },
+            {
+              "title": "DSQL Vignette: Transactions and Durability",
+              "date": "2024-12-05",
+              "link": "http://brooker.co.za/blog/2024/12/05/inside-dsql-writes.html"
+            },
+            {
+              "title": "DSQL Vignette: Reads and Compute",
+              "date": "2024-12-04",
+              "link": "http://brooker.co.za/blog/2024/12/04/inside-dsql.html"
+            },
+            {
+              "title": "DSQL Vignette: Aurora DSQL, and A Personal Story",
+              "date": "2024-12-03",
+              "link": "http://brooker.co.za/blog/2024/12/03/aurora-dsql.html"
+            },
+            {
+              "title": "Ten Years of AWS Lambda",
+              "date": "2024-11-14",
+              "link": "http://brooker.co.za/blog/2024/11/14/lambda-ten-years.html"
             }
           ]
         },
@@ -216,27 +252,27 @@
           "items": [
             {
               "title": "Let's pause for a moment, I need time to think",
-              "isoDate": "2024-12-05T16:15:00.000Z",
+              "date": "2024-12-05",
               "link": "https://www.baldurbjarnason.com/notes/2024/pause-for-a-moment/"
             },
             {
               "title": "Photos (2 December 2024)",
-              "isoDate": "2024-12-02T10:54:00.000Z",
+              "date": "2024-12-02",
               "link": "https://www.baldurbjarnason.com/notes/photos/photos-13/"
             },
             {
               "title": "Links (2 December 2024)",
-              "isoDate": "2024-12-02T10:29:00.000Z",
+              "date": "2024-12-02",
               "link": "https://www.baldurbjarnason.com/notes/2024/links-43/"
             },
             {
               "title": "Photos (29 November 2024)",
-              "isoDate": "2024-11-29T10:39:00.000Z",
+              "date": "2024-11-29",
               "link": "https://www.baldurbjarnason.com/notes/photos/photos-12/"
             },
             {
               "title": "Links (29 November 2024)",
-              "isoDate": "2024-11-29T10:29:00.000Z",
+              "date": "2024-11-29",
               "link": "https://www.baldurbjarnason.com/notes/2024/links-42/"
             }
           ]
@@ -247,27 +283,27 @@
           "items": [
             {
               "title": "Cool People Link to Text Fragments",
-              "isoDate": "2024-12-05T10:00:00.000Z",
+              "date": "2024-12-05",
               "link": "https://dbushell.com/2024/12/05/url-fragment-text-directives/"
             },
             {
               "title": "Links Initiative",
-              "isoDate": "2024-11-25T10:00:00.000Z",
+              "date": "2024-11-25",
               "link": "https://dbushell.com/2024/11/25/links-initiative/"
             },
             {
               "title": "Static Search with Pagefind",
-              "isoDate": "2024-11-21T10:00:00.000Z",
+              "date": "2024-11-21",
               "link": "https://dbushell.com/2024/11/21/static-search-page-find/"
             },
             {
               "title": "Generate Open Graph Images with Playwright",
-              "isoDate": "2024-11-15T10:00:00.000Z",
+              "date": "2024-11-15",
               "link": "https://dbushell.com/2024/11/15/generate-open-graph-images-with-playwright/"
             },
             {
               "title": "REM? PX? Why not both?",
-              "isoDate": "2024-11-11T10:00:00.000Z",
+              "date": "2024-11-11",
               "link": "https://dbushell.com/2024/11/11/rem-or-px/"
             }
           ]
@@ -278,49 +314,18 @@
           "items": [
             {
               "title": "adventurous",
-              "isoDate": "2024-12-05T00:00:00.000Z",
+              "date": "2024-12-05",
               "link": "https://fum.lol/blog/advent-2024/"
             },
             {
               "title": "much ado about email",
-              "isoDate": "2024-09-18T00:00:00.000Z",
+              "date": "2024-09-18",
               "link": "https://fum.lol/blog/much-ado-about-email/"
             },
             {
               "title": "on beginnings",
-              "isoDate": "2024-06-30T00:00:00.000Z",
+              "date": "2024-06-30",
               "link": "https://fum.lol/blog/beginnings/"
-            }
-          ]
-        },
-        {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "There’s a New Custom Element Superclass on the Block",
-              "isoDate": "2024-12-04T17:11:30.000Z",
-              "link": "https://thathtml.blog/2024/12/new-custom-element-superclass-on-the-block/"
-            },
-            {
-              "title": "Minimal-JavaScript, Server-First Web Components with Declarative Shadow DOM",
-              "isoDate": "2024-10-30T16:12:40.000Z",
-              "link": "https://thathtml.blog/2024/10/custom-elements-from-server-templates-with-htmx/"
-            },
-            {
-              "title": "And That’s a Wrap! Catching Up on Just a Spec Season 2",
-              "isoDate": "2024-10-04T16:39:16.000Z",
-              "link": "https://thathtml.blog/2024/10/season-2-wrapped-for-just-a-spec/"
-            },
-            {
-              "title": "Crafting Visual Art with CSS Custom Properties",
-              "isoDate": "2024-10-03T21:33:02.000Z",
-              "link": "https://thathtml.blog/2024/10/visual-art-with-custom-properties/"
-            },
-            {
-              "title": "The selectmenu Element is No More…Long Live select!",
-              "isoDate": "2024-09-19T21:44:14.000Z",
-              "link": "https://thathtml.blog/2024/09/new-select-styling-proposal/"
             }
           ]
         },
@@ -330,28 +335,59 @@
           "items": [
             {
               "title": "Returning to Sunnydale",
-              "isoDate": "2024-12-04T10:58:36.000Z",
+              "date": "2024-12-04",
               "link": "https://mikegrindle.com/posts/snow"
             },
             {
               "title": "Snow Days",
-              "isoDate": "2024-12-02T11:12:32.000Z",
+              "date": "2024-12-02",
               "link": "https://mikegrindle.com/posts/snow"
             },
             {
               "title": "Saying Goodbye to a Family Home",
-              "isoDate": "2024-11-26T11:35:34.000Z",
+              "date": "2024-11-26",
               "link": "https://mikegrindle.com/posts/home"
             },
             {
               "title": "If It’s Good, It’s Wonderful. If It’s Bad, It’s Experience (Newsletter)",
-              "isoDate": "2024-11-21T11:02:34.000Z",
+              "date": "2024-11-21",
               "link": "https://mikegrindle.com/newsletter/itm-5"
             },
             {
               "title": "On the Pineapple Plant in My Window",
-              "isoDate": "2024-11-20T12:12:02.000Z",
+              "date": "2024-11-20",
               "link": "https://mikegrindle.com/posts/pineapple"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "There’s a New Custom Element Superclass on the Block",
+              "date": "2024-12-04",
+              "link": "https://thathtml.blog/2024/12/new-custom-element-superclass-on-the-block/"
+            },
+            {
+              "title": "Minimal-JavaScript, Server-First Web Components with Declarative Shadow DOM",
+              "date": "2024-10-30",
+              "link": "https://thathtml.blog/2024/10/custom-elements-from-server-templates-with-htmx/"
+            },
+            {
+              "title": "And That’s a Wrap! Catching Up on Just a Spec Season 2",
+              "date": "2024-10-04",
+              "link": "https://thathtml.blog/2024/10/season-2-wrapped-for-just-a-spec/"
+            },
+            {
+              "title": "Crafting Visual Art with CSS Custom Properties",
+              "date": "2024-10-03",
+              "link": "https://thathtml.blog/2024/10/visual-art-with-custom-properties/"
+            },
+            {
+              "title": "The selectmenu Element is No More…Long Live select!",
+              "date": "2024-09-19",
+              "link": "https://thathtml.blog/2024/09/new-select-styling-proposal/"
             }
           ]
         },
@@ -361,27 +397,27 @@
           "items": [
             {
               "title": "Workshops that work",
-              "isoDate": "2024-12-04T00:00:00.000Z",
+              "date": "2024-12-04",
               "link": "https://chocolatedrivendevelopment.com/2024/12/04/workshop-work/"
             },
             {
               "title": "Dependency graphs as a design tool",
-              "isoDate": "2024-02-13T00:00:00.000Z",
+              "date": "2024-02-13",
               "link": "https://chocolatedrivendevelopment.com/2024/02/13/dependency-graphs/"
             },
             {
               "title": "TDD in the context of writing code to be read",
-              "isoDate": "2024-01-18T00:00:00.000Z",
+              "date": "2024-01-18",
               "link": "https://chocolatedrivendevelopment.com/2024/01/18/tdd-as-a-code-reading-tool/"
             },
             {
               "title": "Publish first, review later",
-              "isoDate": "2023-11-23T00:00:00.000Z",
+              "date": "2023-11-23",
               "link": "https://chocolatedrivendevelopment.com/2023/11/23/review/"
             },
             {
               "title": "Wunderbaum testing",
-              "isoDate": "2023-11-23T00:00:00.000Z",
+              "date": "2023-11-23",
               "link": "https://chocolatedrivendevelopment.com/2023/11/23/wunderbaum/"
             }
           ]
@@ -392,28 +428,59 @@
           "items": [
             {
               "title": "Some Advent of Code Lua",
-              "isoDate": "2024-12-03T22:22:00.000Z",
+              "date": "2024-12-03",
               "link": "https://garoof.no/notes/aoc-lua.html"
             },
             {
               "title": "One more generalities example",
-              "isoDate": "2024-11-15T13:13:00.000Z",
+              "date": "2024-11-15",
               "link": "https://garoof.no/notes/generalities.html#pub-ZkDHFH"
             },
             {
               "title": "RESTful Sokoban SPA to go",
-              "isoDate": "2024-11-13T23:23:00.000Z",
+              "date": "2024-11-13",
               "link": "https://garoof.no/notes/restful-sokoban-spa.html"
             },
             {
               "title": "Some tweets",
-              "isoDate": "2024-11-11T18:18:00.000Z",
+              "date": "2024-11-11",
               "link": "https://garoof.no/notes/tweets.html"
             },
             {
               "title": "Generalities",
-              "isoDate": "2024-11-06T16:16:00.000Z",
+              "date": "2024-11-06",
               "link": "https://garoof.no/notes/generalities.html"
+            }
+          ]
+        },
+        {
+          "title": "The Weasel Speaks",
+          "feedUrl": "https://angryweasel.substack.com/feed",
+          "items": [
+            {
+              "title": "Risky Business",
+              "date": "2024-12-03",
+              "link": "https://angryweasel.substack.com/p/risky-business"
+            },
+            {
+              "title": "Easier Said Than Done",
+              "date": "2024-11-23",
+              "link": "https://angryweasel.substack.com/p/easier-said-than-done"
+            },
+            {
+              "title": "They Won't Wanna",
+              "date": "2024-11-10",
+              "link": "https://angryweasel.substack.com/p/they-wont-wanna"
+            },
+            {
+              "title": "The Leader's Primer on Well-Being",
+              "date": "2024-11-03",
+              "link": "https://angryweasel.substack.com/p/the-leaders-primer-on-well-being"
+            },
+            {
+              "title": "It's Not Your Decision",
+              "date": "2024-10-27",
+              "link": "https://angryweasel.substack.com/p/its-not-your-decision"
             }
           ]
         },
@@ -423,27 +490,27 @@
           "items": [
             {
               "title": "Joy is in the doing",
-              "isoDate": "2024-12-03T19:30:37.000Z",
+              "date": "2024-12-03",
               "link": "https://anniemueller.com/posts/joy-is-in-the-doing"
             },
             {
               "title": "November is over, finally",
-              "isoDate": "2024-12-02T18:42:41.000Z",
+              "date": "2024-12-02",
               "link": "https://anniemueller.com/posts/november-is-over-finally"
             },
             {
               "title": "Elements of creativity",
-              "isoDate": "2024-11-27T03:42:09.000Z",
+              "date": "2024-11-27",
               "link": "https://anniemueller.com/posts/elements-of-creativity"
             },
             {
               "title": "Several hundred things at a time",
-              "isoDate": "2024-11-25T23:51:00.000Z",
+              "date": "2024-11-25",
               "link": "https://anniemueller.com/posts/several-hundred-things-at-a-time"
             },
             {
               "title": "The problem with individuality",
-              "isoDate": "2024-11-23T04:22:17.000Z",
+              "date": "2024-11-23",
               "link": "https://anniemueller.com/posts/the-problem-with-individuality"
             }
           ]
@@ -454,27 +521,27 @@
           "items": [
             {
               "title": "Contrast Is Clarifying",
-              "isoDate": "2024-12-02T19:00:00.000Z",
+              "date": "2024-12-02",
               "link": "https://blog.jim-nielsen.com/2024/contrast-is-clarifying/"
             },
             {
               "title": "Nothing Is Something",
-              "isoDate": "2024-11-27T19:00:00.000Z",
+              "date": "2024-11-27",
               "link": "https://blog.jim-nielsen.com/2024/nothing-is-something/"
             },
             {
               "title": "Nabbing macOS Icon Artwork",
-              "isoDate": "2024-11-24T19:00:00.000Z",
+              "date": "2024-11-24",
               "link": "https://blog.jim-nielsen.com/2024/nabbing-macos-icons/"
             },
             {
               "title": "Captchas Turned Notification Exploits",
-              "isoDate": "2024-11-20T19:00:00.000Z",
+              "date": "2024-11-20",
               "link": "https://blog.jim-nielsen.com/2024/bad-captchas/"
             },
             {
               "title": "Named Blogs",
-              "isoDate": "2024-11-18T19:00:00.000Z",
+              "date": "2024-11-18",
               "link": "https://blog.jim-nielsen.com/2024/named-blogs/"
             }
           ]
@@ -485,59 +552,28 @@
           "items": [
             {
               "title": "Evolving my ergonomic setup (or, my laptop with extra steps)",
-              "isoDate": "2024-12-02T00:00:00.000Z",
+              "date": "2024-12-02",
               "link": "https://ntietz.com/blog/evolving-ergo-setup/?utm_source=atom&utm_medium=feed"
             },
             {
               "title": "Terminology isn't universal",
-              "isoDate": "2024-11-25T00:00:00.000Z",
+              "date": "2024-11-25",
               "link": "https://ntietz.com/blog/terminology-isnt-universal/?utm_source=atom&utm_medium=feed"
             },
             {
               "title": "Abusing Talon to use my eye tracker in a project",
-              "isoDate": "2024-11-18T00:00:00.000Z",
+              "date": "2024-11-18",
               "link": "https://ntietz.com/blog/abusing-talon-eyetracker/?utm_source=atom&utm_medium=feed"
             },
             {
               "title": "Supporting coworkers, employees, and friends in this time",
-              "isoDate": "2024-11-11T00:00:00.000Z",
+              "date": "2024-11-11",
               "link": "https://ntietz.com/blog/supporting-friends-and-coworkers-in-this-time/?utm_source=atom&utm_medium=feed"
             },
             {
               "title": "Parsing arguments in Rust with no dependencies",
-              "isoDate": "2024-11-04T00:00:00.000Z",
+              "date": "2024-11-04",
               "link": "https://ntietz.com/blog/parsing-arguments-rust-no-deps/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Frameworkism",
-              "isoDate": "2024-12-01T18:17:26.000Z",
-              "link": "https://robinrendle.com/notes/frameworkism/"
-            },
-            {
-              "title": "The eras of CSS",
-              "isoDate": "2024-11-29T18:03:00.000Z",
-              "link": "https://robinrendle.com/notes/the-eras-of-css/"
-            },
-            {
-              "title": "Safety and stability",
-              "isoDate": "2024-11-27T04:41:34.000Z",
-              "link": "https://robinrendle.com/notes/safety-and-stability/"
-            },
-            {
-              "title": "into the wreck",
-              "isoDate": "2024-10-10T16:07:12.000Z",
-              "link": "https://robinrendle.com/notes/into-the-wreck/"
-            },
-            {
-              "title": "The Disappearance of an Internet Domain",
-              "isoDate": "2024-10-09T16:40:33.000Z",
-              "link": "https://robinrendle.com/notes/the-disappearance-of-an-internet-domain/"
             }
           ]
         },
@@ -547,59 +583,28 @@
           "items": [
             {
               "title": "A Cumulative Culture Theory of Developer Problem-Solving: new preprint",
-              "isoDate": "2024-12-01T16:29:00.000Z",
+              "date": "2024-12-01",
               "link": "https://www.drcathicks.com/post/a-cumulative-culture-theory-of-developer-problem-solving-new-preprint"
             },
             {
               "title": "On disclosure",
-              "isoDate": "2024-11-11T17:20:48.000Z",
+              "date": "2024-11-11",
               "link": "https://www.drcathicks.com/post/on-disclosure"
             },
             {
               "title": "Corporate Attribution Error",
-              "isoDate": "2024-09-07T15:53:40.000Z",
+              "date": "2024-09-07",
               "link": "https://www.drcathicks.com/post/corporate-attribution-error"
             },
             {
               "title": "Cat @ the Bridges Summit: References and Resources",
-              "isoDate": "2024-08-28T18:26:48.000Z",
+              "date": "2024-08-28",
               "link": "https://www.drcathicks.com/post/cat-the-bridges-summit-references-and-resources"
             },
             {
               "title": "The Uncertainty",
-              "isoDate": "2024-07-04T17:06:47.000Z",
+              "date": "2024-07-04",
               "link": "https://www.drcathicks.com/post/the-uncertainty"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Development Advent Calendars for 2024",
-              "isoDate": "2024-12-01T15:48:32.000Z",
-              "link": "https://adrianroselli.com/2024/12/development-advent-calendars-for-2024.html"
-            },
-            {
-              "title": "Avoid Read-only Controls",
-              "isoDate": "2024-11-21T16:45:35.000Z",
-              "link": "https://adrianroselli.com/2024/11/avoid-read-only-controls.html"
-            },
-            {
-              "title": "A11y Camp: Keynote Slides",
-              "isoDate": "2024-10-22T21:49:55.000Z",
-              "link": "https://adrianroselli.com/2024/10/a11y-camp-keynote-slides.html"
-            },
-            {
-              "title": "Brief Note on Disclosures in Fieldsets",
-              "isoDate": "2024-09-14T12:34:04.000Z",
-              "link": "https://adrianroselli.com/2024/09/brief-note-on-disclosures-in-fieldsets.html"
-            },
-            {
-              "title": "Under-Engineered Estimated Reading Time Feature",
-              "isoDate": "2024-09-02T04:13:40.000Z",
-              "link": "https://adrianroselli.com/2024/09/under-engineered-estimated-reading-time-feature.html"
             }
           ]
         },
@@ -609,28 +614,59 @@
           "items": [
             {
               "title": "The story behind my name",
-              "isoDate": "2024-12-01T12:00:00.000Z",
+              "date": "2024-12-01",
               "link": "https://fynn.be/blog/story-behind-name/"
             },
             {
               "title": "Selbstbestimmt",
-              "isoDate": "2024-11-23T12:00:00.000Z",
+              "date": "2024-11-23",
               "link": "https://fynn.be/blog/selbstbestimmt/"
             },
             {
               "title": "I rebuilt my website from scratch with WebC",
-              "isoDate": "2024-09-14T12:00:00.000Z",
+              "date": "2024-09-14",
               "link": "https://fynn.be/blog/website-rebuilt-webc/"
             },
             {
               "title": "Farewell Star Trek: Discovery",
-              "isoDate": "2024-05-30T12:00:00.000Z",
+              "date": "2024-05-30",
               "link": "https://fynn.be/blog/farewell-star-trek-discovery/"
             },
             {
               "title": "Forced colors and Windows contrast themes",
-              "isoDate": "2024-05-16T12:00:00.000Z",
+              "date": "2024-05-16",
               "link": "https://fynn.be/talks/forced-colors-windows-contrast-themes/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Development Advent Calendars for 2024",
+              "date": "2024-12-01",
+              "link": "https://adrianroselli.com/2024/12/development-advent-calendars-for-2024.html"
+            },
+            {
+              "title": "Avoid Read-only Controls",
+              "date": "2024-11-21",
+              "link": "https://adrianroselli.com/2024/11/avoid-read-only-controls.html"
+            },
+            {
+              "title": "A11y Camp: Keynote Slides",
+              "date": "2024-10-22",
+              "link": "https://adrianroselli.com/2024/10/a11y-camp-keynote-slides.html"
+            },
+            {
+              "title": "Brief Note on Disclosures in Fieldsets",
+              "date": "2024-09-14",
+              "link": "https://adrianroselli.com/2024/09/brief-note-on-disclosures-in-fieldsets.html"
+            },
+            {
+              "title": "Under-Engineered Estimated Reading Time Feature",
+              "date": "2024-09-02",
+              "link": "https://adrianroselli.com/2024/09/under-engineered-estimated-reading-time-feature.html"
             }
           ]
         },
@@ -640,90 +676,28 @@
           "items": [
             {
               "title": "Operator transposition",
-              "isoDate": "2024-11-30T01:10:00.000Z",
+              "date": "2024-11-30",
               "link": "https://moonbase.lgbt/blog/operator-transposition/"
             },
             {
               "title": "Biiiiiig stretch!",
-              "isoDate": "2024-11-26T19:25:00.000Z",
+              "date": "2024-11-26",
               "link": "https://moonbase.lgbt/blog/big-stretch/"
             },
             {
               "title": "Mixed-type arithmetic in C",
-              "isoDate": "2024-11-25T18:15:00.000Z",
+              "date": "2024-11-25",
               "link": "https://moonbase.lgbt/blog/c-mixed-type-arithmetic/"
             },
             {
               "title": "Honk!",
-              "isoDate": "2024-11-23T22:05:00.000Z",
+              "date": "2024-11-23",
               "link": "https://moonbase.lgbt/blog/honk/"
             },
             {
               "title": "The hardest problem is naming things",
-              "isoDate": "2024-11-21T18:45:00.000Z",
+              "date": "2024-11-21",
               "link": "https://moonbase.lgbt/blog/olympus-naming-things/"
-            }
-          ]
-        },
-        {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "Command vs Control",
-              "isoDate": "2024-11-29T23:04:27.000Z",
-              "link": "https://jessitron.com/2024/11/29/command-vs-control/"
-            },
-            {
-              "title": "Communication Structures in a Growing Organization",
-              "isoDate": "2024-11-25T00:26:14.000Z",
-              "link": "https://jessitron.com/2024/11/24/communication-structures-in-a-growing-organization/"
-            },
-            {
-              "title": "Who turns software into money? GTM",
-              "isoDate": "2024-11-16T23:16:37.000Z",
-              "link": "https://jessitron.com/2024/11/16/who-turns-software-into-money-gtm/"
-            },
-            {
-              "title": "How hard can it be to buy software?",
-              "isoDate": "2024-11-09T17:11:18.000Z",
-              "link": "https://jessitron.com/2024/11/09/how-hard-can-it-be-to-buy-software/"
-            },
-            {
-              "title": "I can write the code. Getting something done is another matter.",
-              "isoDate": "2024-09-11T23:46:01.000Z",
-              "link": "https://jessitron.com/2024/09/11/i-can-write-the-code-getting-something-done-is-another-matter/"
-            }
-          ]
-        },
-        {
-          "title": "Jennifer++",
-          "feedUrl": "https://jenniferplusplus.com/rss/",
-          "items": [
-            {
-              "title": "Gresham's law of programming",
-              "isoDate": "2024-11-29T16:00:06.000Z",
-              "link": "https://jenniferplusplus.com/greshams-law-of-programming/"
-            },
-            {
-              "title": "Test using OpenTelemetry traces in Asp.Net",
-              "isoDate": "2024-09-21T02:37:53.000Z",
-              "link": "https://jenniferplusplus.com/test-traces-in-aspnet/"
-            },
-            {
-              "title": "The free software commons",
-              "isoDate": "2024-04-05T14:03:46.000Z",
-              "link": "https://jenniferplusplus.com/the-free-software-commons/"
-            },
-            {
-              "title": "Letterbook - No universal translators",
-              "isoDate": "2023-12-25T08:07:04.000Z",
-              "link": "https://jenniferplusplus.com/no-universal-translators/"
-            },
-            {
-              "title": "Letterbook",
-              "isoDate": "2023-08-16T06:15:57.000Z",
-              "link": "https://jenniferplusplus.com/letterbook/"
             }
           ]
         },
@@ -733,27 +707,27 @@
           "items": [
             {
               "title": "Why pipes sometimes get \"stuck\": buffering",
-              "isoDate": "2024-11-29T08:23:31.000Z",
+              "date": "2024-11-29",
               "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
             },
             {
               "title": "Importing a frontend Javascript library without a build system",
-              "isoDate": "2024-11-18T09:35:42.000Z",
+              "date": "2024-11-18",
               "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
             },
             {
               "title": "New microblog with TILs",
-              "isoDate": "2024-11-09T09:24:29.000Z",
+              "date": "2024-11-09",
               "link": "https://jvns.ca/blog/2024/11/09/new-microblog/"
             },
             {
               "title": "ASCII control characters in my terminal",
-              "isoDate": "2024-10-31T08:00:10.000Z",
+              "date": "2024-10-31",
               "link": "https://jvns.ca/blog/2024/10/31/ascii-control-characters/"
             },
             {
               "title": "Using less memory to look up IP addresses in Mess With DNS",
-              "isoDate": "2024-10-27T07:47:04.000Z",
+              "date": "2024-10-27",
               "link": "https://jvns.ca/blog/2024/10/27/asn-ip-address-memory/"
             }
           ]
@@ -764,28 +738,90 @@
           "items": [
             {
               "title": "If Not React, Then What?",
-              "isoDate": "2024-11-29T00:00:00.000Z",
+              "date": "2024-11-29",
               "link": "https://infrequently.org/2024/11/if-not-react-then-what/"
             },
             {
               "title": "Platform Strategy and Its Discontents",
-              "isoDate": "2024-10-27T00:00:00.000Z",
+              "date": "2024-10-27",
               "link": "https://infrequently.org/2024/10/platforms-are-competitions/"
             },
             {
               "title": "Reckoning: Part 4 — The Way Out",
-              "isoDate": "2024-08-16T00:00:00.000Z",
+              "date": "2024-08-16",
               "link": "https://infrequently.org/2024/08/the-way-out/"
             },
             {
               "title": "Reckoning: Part 3 — Caprock",
-              "isoDate": "2024-08-14T00:00:00.000Z",
+              "date": "2024-08-14",
               "link": "https://infrequently.org/2024/08/caprock/"
             },
             {
               "title": "Reckoning: Part 2 — Object Lesson",
-              "isoDate": "2024-08-13T00:00:00.000Z",
+              "date": "2024-08-13",
               "link": "https://infrequently.org/2024/08/object-lesson/"
+            }
+          ]
+        },
+        {
+          "title": "Jessitron",
+          "feedUrl": "https://jessitron.com/feed/",
+          "items": [
+            {
+              "title": "Command vs Control",
+              "date": "2024-11-29",
+              "link": "https://jessitron.com/2024/11/29/command-vs-control/"
+            },
+            {
+              "title": "Communication Structures in a Growing Organization",
+              "date": "2024-11-25",
+              "link": "https://jessitron.com/2024/11/24/communication-structures-in-a-growing-organization/"
+            },
+            {
+              "title": "Who turns software into money? GTM",
+              "date": "2024-11-16",
+              "link": "https://jessitron.com/2024/11/16/who-turns-software-into-money-gtm/"
+            },
+            {
+              "title": "How hard can it be to buy software?",
+              "date": "2024-11-09",
+              "link": "https://jessitron.com/2024/11/09/how-hard-can-it-be-to-buy-software/"
+            },
+            {
+              "title": "I can write the code. Getting something done is another matter.",
+              "date": "2024-09-11",
+              "link": "https://jessitron.com/2024/09/11/i-can-write-the-code-getting-something-done-is-another-matter/"
+            }
+          ]
+        },
+        {
+          "title": "Jennifer++",
+          "feedUrl": "https://jenniferplusplus.com/rss/",
+          "items": [
+            {
+              "title": "Gresham's law of programming",
+              "date": "2024-11-29",
+              "link": "https://jenniferplusplus.com/greshams-law-of-programming/"
+            },
+            {
+              "title": "Test using OpenTelemetry traces in Asp.Net",
+              "date": "2024-09-21",
+              "link": "https://jenniferplusplus.com/test-traces-in-aspnet/"
+            },
+            {
+              "title": "The free software commons",
+              "date": "2024-04-05",
+              "link": "https://jenniferplusplus.com/the-free-software-commons/"
+            },
+            {
+              "title": "Letterbook - No universal translators",
+              "date": "2023-12-25",
+              "link": "https://jenniferplusplus.com/no-universal-translators/"
+            },
+            {
+              "title": "Letterbook",
+              "date": "2023-08-16",
+              "link": "https://jenniferplusplus.com/letterbook/"
             }
           ]
         },
@@ -795,27 +831,27 @@
           "items": [
             {
               "title": "Java kommer til å kreve mindre, og gjøre mer",
-              "isoDate": "2024-11-26T05:00:00.000Z",
+              "date": "2024-11-26",
               "link": "https://www.kodemaker.no/blogg/2024-11-26-java-mer-effektivt/"
             },
             {
               "title": "OffentlAI sektor",
-              "isoDate": "2024-11-21T05:00:00.000Z",
+              "date": "2024-11-21",
               "link": "https://www.kodemaker.no/blogg/2024-11-22-offentlai-sektor/"
             },
             {
               "title": "UX-inspirasjon fra din egen verktøykasse",
-              "isoDate": "2024-11-14T05:00:00.000Z",
+              "date": "2024-11-14",
               "link": "https://www.kodemaker.no/blogg/2024-11-14-ux-inspirasjon-fra-din-egen-verktoykasse/"
             },
             {
               "title": "En diskusjon med Claude, Dunning–Kruger i aksjon",
-              "isoDate": "2024-11-06T05:00:00.000Z",
+              "date": "2024-11-06",
               "link": "https://www.kodemaker.no/blogg/2024-11-en-diskusjon-med-ai/"
             },
             {
               "title": "Det vi ikke snakker om når vi snakker om teknisk gjeld",
-              "isoDate": "2024-10-24T05:00:00.000Z",
+              "date": "2024-10-24",
               "link": "https://www.kodemaker.no/blogg/2024-10-teknisk-gjeld/"
             }
           ]
@@ -826,27 +862,27 @@
           "items": [
             {
               "title": "0050 - smolderingly fast b-trees, serious fun, what is the point of an online conference, it's ok to be afraid, HYTRADBOI progress, no other progress, vancouver.systems, not the incentives, llm garbage, books",
-              "isoDate": "2024-11-25T00:00:00.000Z",
+              "date": "2024-11-25",
               "link": "https://www.scattered-thoughts.net/log/0050/"
             },
             {
               "title": "It's ok to be afraid",
-              "isoDate": "2024-11-16T00:00:00.000Z",
+              "date": "2024-11-16",
               "link": "https://www.scattered-thoughts.net/writing/its-ok-to-be-afraid/"
             },
             {
               "title": "What is the point of an online conference?",
-              "isoDate": "2024-10-30T00:00:00.000Z",
+              "date": "2024-10-30",
               "link": "https://www.scattered-thoughts.net/writing/what-is-the-point-of-an-online-conference/"
             },
             {
               "title": "Serious fun",
-              "isoDate": "2024-10-20T00:00:00.000Z",
+              "date": "2024-10-20",
               "link": "https://www.scattered-thoughts.net/writing/serious-fun/"
             },
             {
               "title": "0049: hytradboi 2025, consulting, zest progress, labeled continue, bet against sql, zero-cost costs in debug, packed memory arrays, papers, books",
-              "isoDate": "2024-10-08T00:00:00.000Z",
+              "date": "2024-10-08",
               "link": "https://www.scattered-thoughts.net/log/0049/"
             }
           ]
@@ -857,27 +893,27 @@
           "items": [
             {
               "title": "November 2024 blend of links",
-              "isoDate": "2024-11-24T17:02:55.000Z",
+              "date": "2024-11-24",
               "link": "https://thejollyteapot.com/november-2024-blend/"
             },
             {
               "title": "Some thoughts on RSS and newsletters",
-              "isoDate": "2024-11-13T18:47:31.000Z",
+              "date": "2024-11-13",
               "link": "https://thejollyteapot.com/2024/11/13/some-thoughts-on-rss-and-newsletters/"
             },
             {
               "title": "Website updates",
-              "isoDate": "2024-11-05T07:08:54.000Z",
+              "date": "2024-11-05",
               "link": "https://thejollyteapot.com/2024/11/05/website-updates/"
             },
             {
               "title": "The joy of accidentally weird-looking websites",
-              "isoDate": "2024-10-31T07:03:44.000Z",
+              "date": "2024-10-31",
               "link": "https://thejollyteapot.com/2024/10/31/the-joy-of-accidentally-weird-looking-websites/"
             },
             {
               "title": "The hard truth: People don’t trust billionaires",
-              "isoDate": "2024-10-29T20:55:38.000Z",
+              "date": "2024-10-29",
               "link": "https://thejollyteapot.com/2024/10/29/the-hard-truth-people-don-t-trust-billionaires/"
             }
           ]
@@ -888,27 +924,27 @@
           "items": [
             {
               "title": "Client Freedom",
-              "isoDate": "2024-11-24T00:00:00.000Z",
+              "date": "2024-11-24",
               "link": "https://borretti.me/article/client-freedom"
             },
             {
               "title": "The Best Emacs Microfeature",
-              "isoDate": "2024-06-05T00:00:00.000Z",
+              "date": "2024-06-05",
               "link": "https://borretti.me/article/the-best-emacs-microfeature"
             },
             {
               "title": "The Design Space of Wikis",
-              "isoDate": "2024-06-02T00:00:00.000Z",
+              "date": "2024-06-02",
               "link": "https://borretti.me/article/the-design-space-of-wikis"
             },
             {
               "title": "Type Inference Was a Mistake",
-              "isoDate": "2024-03-29T00:00:00.000Z",
+              "date": "2024-03-29",
               "link": "https://borretti.me/article/type-inference-was-a-mistake"
             },
             {
               "title": "Thoughts on LLM Agents",
-              "isoDate": "2024-01-05T00:00:00.000Z",
+              "date": "2024-01-05",
               "link": "https://borretti.me/article/thoughts-llm-agents"
             }
           ]
@@ -919,28 +955,59 @@
           "items": [
             {
               "title": "Five for Friday – November 22, 2024",
-              "isoDate": "2024-11-23T01:19:19.000Z",
+              "date": "2024-11-23",
               "link": "https://angryweasel.com/blog/five-for-friday-november-22-2024/"
             },
             {
               "title": "Five for Friday – November 15, 2025",
-              "isoDate": "2024-11-15T16:46:28.000Z",
+              "date": "2024-11-15",
               "link": "https://angryweasel.com/blog/five-for-friday-november-15-2025/"
             },
             {
               "title": "Five for Friday – November 8, 2024",
-              "isoDate": "2024-11-09T01:23:05.000Z",
+              "date": "2024-11-09",
               "link": "https://angryweasel.com/blog/five-for-friday-november-8-2024/"
             },
             {
               "title": "Five for Friday – November 1, 2024",
-              "isoDate": "2024-11-01T23:47:46.000Z",
+              "date": "2024-11-01",
               "link": "https://angryweasel.com/blog/five-for-friday-november-1-2024/"
             },
             {
               "title": "Five for Friday – October 25, 2024",
-              "isoDate": "2024-10-25T19:03:23.000Z",
+              "date": "2024-10-25",
               "link": "https://angryweasel.com/blog/five-for-friday-october-25-2024/"
+            }
+          ]
+        },
+        {
+          "title": "jakelazaroff.com",
+          "feedUrl": "https://jakelazaroff.com/rss.xml",
+          "items": [
+            {
+              "title": "Drinking from the Bluesky Firehose",
+              "date": "2024-11-22",
+              "link": "https://jakelazaroff.com/words/drinking-from-the-bluesky-firehose/"
+            },
+            {
+              "title": "What's a Single-Page App?",
+              "date": "2024-11-05",
+              "link": "https://jakelazaroff.com/words/whats-a-single-page-app/"
+            },
+            {
+              "title": "My Modern CSS Reset",
+              "date": "2024-10-29",
+              "link": "https://jakelazaroff.com/words/my-modern-css-reset/"
+            },
+            {
+              "title": "Building a Single-Page App with htmx",
+              "date": "2024-10-07",
+              "link": "https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/"
+            },
+            {
+              "title": "A Local-First Case Study",
+              "date": "2024-10-01",
+              "link": "https://jakelazaroff.com/words/a-local-first-case-study/"
             }
           ]
         },
@@ -950,27 +1017,27 @@
           "items": [
             {
               "title": "The case against living in the Bay Area, for ambitious tech people",
-              "isoDate": "2024-11-22T17:34:06.000Z",
+              "date": "2024-11-22",
               "link": "https://newsletter.goodtechthings.com/p/the-case-against-living-in-the-bay"
             },
             {
               "title": "Tech the Heck? Archera",
-              "isoDate": "2024-10-15T14:57:55.000Z",
+              "date": "2024-10-15",
               "link": "https://newsletter.goodtechthings.com/p/tech-the-heck-archera"
             },
             {
               "title": "Knowledge Worker",
-              "isoDate": "2024-09-18T16:57:37.000Z",
+              "date": "2024-09-18",
               "link": "https://newsletter.goodtechthings.com/p/knowledge-worker"
             },
             {
               "title": "The death of the [modified] developer",
-              "isoDate": "2024-08-30T20:43:45.000Z",
+              "date": "2024-08-30",
               "link": "https://newsletter.goodtechthings.com/p/the-death-of-the-modified-developer"
             },
             {
               "title": "The end of the Everything Cloud",
-              "isoDate": "2024-07-30T18:23:41.000Z",
+              "date": "2024-07-30",
               "link": "https://newsletter.goodtechthings.com/p/the-end-of-the-everything-cloud"
             }
           ]
@@ -981,59 +1048,28 @@
           "items": [
             {
               "title": "I’m switching back to Arc Browser (for now)",
-              "isoDate": "2024-11-22T06:00:00.000Z",
+              "date": "2024-11-22",
               "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
             },
             {
               "title": "To define custom elements or not when distributing them",
-              "isoDate": "2024-10-08T04:12:54.000Z",
+              "date": "2024-10-08",
               "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
             },
             {
               "title": "A custom element smoke test",
-              "isoDate": "2024-07-11T19:31:25.000Z",
+              "date": "2024-07-11",
               "link": "https://knowler.dev/blog/a-custom-element-smoke-test"
             },
             {
               "title": "Read the Platform",
-              "isoDate": "2024-06-29T00:55:18.000Z",
+              "date": "2024-06-29",
               "link": "https://knowler.dev/blog/read-the-platform"
             },
             {
               "title": "Maintaining dotfiles",
-              "isoDate": "2024-06-15T22:39:22.000Z",
+              "date": "2024-06-15",
               "link": "https://knowler.dev/blog/maintaining-dotfiles"
-            }
-          ]
-        },
-        {
-          "title": "jakelazaroff.com",
-          "feedUrl": "https://jakelazaroff.com/rss.xml",
-          "items": [
-            {
-              "title": "Drinking from the Bluesky Firehose",
-              "isoDate": "2024-11-22T00:00:00.000Z",
-              "link": "https://jakelazaroff.com/words/drinking-from-the-bluesky-firehose/"
-            },
-            {
-              "title": "What's a Single-Page App?",
-              "isoDate": "2024-11-05T00:00:00.000Z",
-              "link": "https://jakelazaroff.com/words/whats-a-single-page-app/"
-            },
-            {
-              "title": "My Modern CSS Reset",
-              "isoDate": "2024-10-29T00:00:00.000Z",
-              "link": "https://jakelazaroff.com/words/my-modern-css-reset/"
-            },
-            {
-              "title": "Building a Single-Page App with htmx",
-              "isoDate": "2024-10-07T00:00:00.000Z",
-              "link": "https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/"
-            },
-            {
-              "title": "A Local-First Case Study",
-              "isoDate": "2024-10-01T00:00:00.000Z",
-              "link": "https://jakelazaroff.com/words/a-local-first-case-study/"
             }
           ]
         },
@@ -1043,27 +1079,27 @@
           "items": [
             {
               "title": "Mastodon’s weaknesses and how to fix them",
-              "isoDate": "2024-11-20T00:00:00.000Z",
+              "date": "2024-11-20",
               "link": "https://2ality.com/2024/11/mastodon-weaknesses.html"
             },
             {
               "title": "Ecma International approves ECMAScript 2024: What’s new?",
-              "isoDate": "2024-06-26T00:00:00.000Z",
+              "date": "2024-06-26",
               "link": "https://2ality.com/2024/06/ecmascript-2024.html"
             },
             {
               "title": "ECMAScript 2024 features: resizing and transferring ArrayBuffers",
-              "isoDate": "2024-06-01T00:00:00.000Z",
+              "date": "2024-06-01",
               "link": "https://2ality.com/2024/06/array-buffers-es2024.html"
             },
             {
               "title": "ECMAScript 2023 feature: symbols as WeakMap keys",
-              "isoDate": "2024-05-19T00:00:00.000Z",
+              "date": "2024-05-19",
               "link": "https://2ality.com/2024/05/proposal-symbols-as-weakmap-keys.html"
             },
             {
               "title": "ECMAScript 2025 feature: duplicate named capturing groups for regular expressions",
-              "isoDate": "2024-05-16T00:00:00.000Z",
+              "date": "2024-05-16",
               "link": "https://2ality.com/2024/05/proposal-duplicate-named-capturing-groups.html"
             }
           ]
@@ -1074,59 +1110,28 @@
           "items": [
             {
               "title": "Talks - Continuous Integration! Raising the Bar",
-              "isoDate": "2024-11-20T00:00:00.000Z",
+              "date": "2024-11-20",
               "link": "https://thinkinglabs.io/talks/2024/11/20/continuous-integration-raising-the-bar.html"
             },
             {
               "title": "Raising the Continuous Integration Bar",
-              "isoDate": "2024-11-03T00:00:00.000Z",
+              "date": "2024-11-03",
               "link": "https://thinkinglabs.io/articles/2024/11/03/raising-the-continuous-integration-bar.html"
             },
             {
               "title": "Continuous Integrations! Where to Start?",
-              "isoDate": "2024-11-01T00:00:00.000Z",
+              "date": "2024-11-01",
               "link": "https://thinkinglabs.io/articles/2024/11/01/continuous-integration-where-to-start.html"
             },
             {
               "title": "The Practices That Make Continuous Integration - Broadcast the Codebase’s Health",
-              "isoDate": "2024-10-29T00:00:00.000Z",
+              "date": "2024-10-29",
               "link": "https://thinkinglabs.io/articles/2024/10/29/the-practices-that-make-continuous-integration-broadcast-the-codebase-health.html"
             },
             {
               "title": "The Practices That Make Continuous Integration - Have Reliable Tests",
-              "isoDate": "2024-10-19T00:00:00.000Z",
+              "date": "2024-10-19",
               "link": "https://thinkinglabs.io/articles/2024/10/19/the-practices-that-make-continuous-integration-have-reliable-tests.html"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Hyperproperties",
-              "isoDate": "2024-11-19T19:34:54.000Z",
-              "link": "https://buttondown.com/hillelwayne/archive/hyperproperties/"
-            },
-            {
-              "title": "Five Unusual Raku Features",
-              "isoDate": "2024-11-12T20:06:55.000Z",
-              "link": "https://buttondown.com/hillelwayne/archive/five-unusual-raku-features/"
-            },
-            {
-              "title": "A list of ternary operators",
-              "isoDate": "2024-11-05T18:40:33.000Z",
-              "link": "https://buttondown.com/hillelwayne/archive/a-list-of-ternary-operators/"
-            },
-            {
-              "title": "TLA from first principles",
-              "isoDate": "2024-10-22T17:14:21.000Z",
-              "link": "https://buttondown.com/hillelwayne/archive/tla-from-first-principles/"
-            },
-            {
-              "title": "Be Suspicious of Success",
-              "isoDate": "2024-10-16T15:08:39.000Z",
-              "link": "https://buttondown.com/hillelwayne/archive/be-suspicious-of-success/"
             }
           ]
         },
@@ -1136,27 +1141,27 @@
           "items": [
             {
               "title": "The Consciousness Lottery",
-              "isoDate": "2024-11-19T16:24:07.000Z",
+              "date": "2024-11-19",
               "link": "https://kyleshevlin.com/consciousness-lottery/"
             },
             {
               "title": "How I Built &ldquo;Test Your Focus&rdquo;",
-              "isoDate": "2024-11-15T03:13:17.000Z",
+              "date": "2024-11-15",
               "link": "https://kyleshevlin.com/how-i-built-test-your-focus/"
             },
             {
               "title": "What ADHD Feels Like to Me",
-              "isoDate": "2024-11-11T16:48:05.000Z",
+              "date": "2024-11-11",
               "link": "https://kyleshevlin.com/what-adhd-feels-like-to-me/"
             },
             {
               "title": "Prefer Explicit Maps",
-              "isoDate": "2024-10-30T16:19:36.000Z",
+              "date": "2024-10-30",
               "link": "https://kyleshevlin.com/prefer-explicit-maps/"
             },
             {
               "title": "My <code>git</code> Workflow for Refactoring",
-              "isoDate": "2024-09-29T16:34:56.000Z",
+              "date": "2024-09-29",
               "link": "https://kyleshevlin.com/my-git-workflow-for-refactoring/"
             }
           ]
@@ -1167,28 +1172,59 @@
           "items": [
             {
               "title": "If an incident report",
-              "isoDate": "2024-11-19T00:00:00.000Z",
+              "date": "2024-11-19",
               "link": "https://dragan-stepanovic.github.io//2024/11/19/if-incident-report.html"
             },
             {
               "title": "Let the design guide you",
-              "isoDate": "2024-11-12T00:00:00.000Z",
+              "date": "2024-11-12",
               "link": "https://dragan-stepanovic.github.io//2024/11/12/design-emergence.html"
             },
             {
               "title": "The scary thing with overly complex solutions",
-              "isoDate": "2024-10-29T00:00:00.000Z",
+              "date": "2024-10-29",
               "link": "https://dragan-stepanovic.github.io//2024/10/29/scary-thing.html"
             },
             {
               "title": "The opposite of Extreme Programming",
-              "isoDate": "2024-10-29T00:00:00.000Z",
+              "date": "2024-10-29",
               "link": "https://dragan-stepanovic.github.io//2024/10/29/opposite-of-xp.html"
             },
             {
               "title": "We need fewer assumptions to test",
-              "isoDate": "2024-10-29T00:00:00.000Z",
+              "date": "2024-10-29",
               "link": "https://dragan-stepanovic.github.io//2024/10/29/fewer-assumptions.html"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Hyperproperties",
+              "date": "2024-11-19",
+              "link": "https://buttondown.com/hillelwayne/archive/hyperproperties/"
+            },
+            {
+              "title": "Five Unusual Raku Features",
+              "date": "2024-11-12",
+              "link": "https://buttondown.com/hillelwayne/archive/five-unusual-raku-features/"
+            },
+            {
+              "title": "A list of ternary operators",
+              "date": "2024-11-05",
+              "link": "https://buttondown.com/hillelwayne/archive/a-list-of-ternary-operators/"
+            },
+            {
+              "title": "TLA from first principles",
+              "date": "2024-10-22",
+              "link": "https://buttondown.com/hillelwayne/archive/tla-from-first-principles/"
+            },
+            {
+              "title": "Be Suspicious of Success",
+              "date": "2024-10-16",
+              "link": "https://buttondown.com/hillelwayne/archive/be-suspicious-of-success/"
             }
           ]
         },
@@ -1198,59 +1234,28 @@
           "items": [
             {
               "title": "Turbo Admin: Philosophy and inner-workings",
-              "isoDate": "2024-11-16T20:59:32.000Z",
+              "date": "2024-11-16",
               "link": "https://rosswintle.uk/2024/11/turbo-admin-philosophy-and-workings/"
             },
             {
               "title": "The Turbo Admin “Business Model”",
-              "isoDate": "2024-11-02T10:37:21.000Z",
+              "date": "2024-11-02",
               "link": "https://rosswintle.uk/2024/11/the-turbo-admin-business-model/"
             },
             {
               "title": "On command palettes and competition",
-              "isoDate": "2024-10-24T09:03:32.000Z",
+              "date": "2024-10-24",
               "link": "https://rosswintle.uk/2024/10/wordpress-command-palette-competition/"
             },
             {
               "title": "Book: Extra Focus – Jesse J Anderson",
-              "isoDate": "2024-09-08T18:32:33.000Z",
+              "date": "2024-09-08",
               "link": "https://rosswintle.uk/2024/09/book-extra-focus-jesse-j-anderson/"
             },
             {
               "title": "Book: Recursion – Blake Crouch",
-              "isoDate": "2024-09-08T11:54:01.000Z",
+              "date": "2024-09-08",
               "link": "https://rosswintle.uk/2024/09/book-recursion-blake-crouch/"
-            }
-          ]
-        },
-        {
-          "title": "A Tester's Journey",
-          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "BSides Munich 2024 - We Belong",
-              "isoDate": "2024-11-15T23:16:00.003Z",
-              "link": "https://www.lisihocke.com/2024/11/bsides-munich-2024-we-belong.html"
-            },
-            {
-              "title": "Open Security Conference 2024 - A Memorable Beginning",
-              "isoDate": "2024-10-08T23:20:00.000Z",
-              "link": "https://www.lisihocke.com/2024/10/open-security-conference-2024-a-memorable-beginning.html"
-            },
-            {
-              "title": "SoCraTes 2024 - A Community to Grow With",
-              "isoDate": "2024-09-02T22:55:00.001Z",
-              "link": "https://www.lisihocke.com/2024/09/socrates-2024-a-community-to-grow-with.html"
-            },
-            {
-              "title": "Contributing in New Ways - Getting over the Hump",
-              "isoDate": "2024-08-15T22:04:00.000Z",
-              "link": "https://www.lisihocke.com/2024/08/contributing-in-new-ways-getting-over-the-hump.html"
-            },
-            {
-              "title": "NewCrafts Paris 2024 - A Memorable Conference to Rave About",
-              "isoDate": "2024-05-20T18:44:00.002Z",
-              "link": "https://www.lisihocke.com/2024/05/newcrafts-paris-2024-a-memorable-conference-to-rave-about.html"
             }
           ]
         },
@@ -1260,28 +1265,59 @@
           "items": [
             {
               "title": "DORA Report 2024: Three Ideas to Tackle the Cons of Platform Usage",
-              "isoDate": "2024-11-15T18:20:15.000Z",
+              "date": "2024-11-15",
               "link": "https://unremarkabletester.com/2024/11/15/dora-report-2024-three-ideas-to-tackle-the-cons-of-platform-usage/"
             },
             {
               "title": "Product Owners (What are they Good For?)",
-              "isoDate": "2024-10-20T16:31:12.000Z",
+              "date": "2024-10-20",
               "link": "https://unremarkabletester.com/2024/10/20/product-owners-what-are-they-good-for/"
             },
             {
               "title": "Three Ingredients for Tasty Platform Capabilities",
-              "isoDate": "2024-05-01T21:06:16.000Z",
+              "date": "2024-05-01",
               "link": "https://unremarkabletester.com/2024/05/01/three-ingredients-for-tasty-platform-capabilities/"
             },
             {
               "title": "How Product Management can Improve Development Experience",
-              "isoDate": "2023-05-25T17:16:26.000Z",
+              "date": "2023-05-25",
               "link": "https://unremarkabletester.com/2023/05/25/how-product-management-can-improve-development-experience/"
             },
             {
               "title": "Care Tips for Product Plans",
-              "isoDate": "2023-05-16T19:36:41.000Z",
+              "date": "2023-05-16",
               "link": "https://unremarkabletester.com/2023/05/16/care-tips-for-product-plans/"
+            }
+          ]
+        },
+        {
+          "title": "A Tester's Journey",
+          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "BSides Munich 2024 - We Belong",
+              "date": "2024-11-15",
+              "link": "https://www.lisihocke.com/2024/11/bsides-munich-2024-we-belong.html"
+            },
+            {
+              "title": "Open Security Conference 2024 - A Memorable Beginning",
+              "date": "2024-10-08",
+              "link": "https://www.lisihocke.com/2024/10/open-security-conference-2024-a-memorable-beginning.html"
+            },
+            {
+              "title": "SoCraTes 2024 - A Community to Grow With",
+              "date": "2024-09-02",
+              "link": "https://www.lisihocke.com/2024/09/socrates-2024-a-community-to-grow-with.html"
+            },
+            {
+              "title": "Contributing in New Ways - Getting over the Hump",
+              "date": "2024-08-15",
+              "link": "https://www.lisihocke.com/2024/08/contributing-in-new-ways-getting-over-the-hump.html"
+            },
+            {
+              "title": "NewCrafts Paris 2024 - A Memorable Conference to Rave About",
+              "date": "2024-05-20",
+              "link": "https://www.lisihocke.com/2024/05/newcrafts-paris-2024-a-memorable-conference-to-rave-about.html"
             }
           ]
         },
@@ -1291,27 +1327,27 @@
           "items": [
             {
               "title": "What If Encore Never Leaked?",
-              "isoDate": "2024-11-13T06:36:53.000Z",
+              "date": "2024-11-13",
               "link": "https://flamedfury.com/posts/what-if-encore-never-leaked/"
             },
             {
               "title": "How Do I IndieWeb?",
-              "isoDate": "2024-11-08T19:04:58.000Z",
+              "date": "2024-11-08",
               "link": "https://flamedfury.com/posts/how-do-i-indieweb/"
             },
             {
               "title": "Apple AirPods 4",
-              "isoDate": "2024-11-06T13:47:15.000Z",
+              "date": "2024-11-06",
               "link": "https://flamedfury.com/posts/apple-airpods-4/"
             },
             {
               "title": "Monthly Recap: October 2024",
-              "isoDate": "2024-10-31T20:13:04.000Z",
+              "date": "2024-10-31",
               "link": "https://flamedfury.com/posts/monthly-recap-october-2024/"
             },
             {
               "title": "The Death Of Slim Shady",
-              "isoDate": "2024-10-14T10:34:43.000Z",
+              "date": "2024-10-14",
               "link": "https://flamedfury.com/posts/the-death-of-slim-shady/"
             }
           ]
@@ -1322,27 +1358,27 @@
           "items": [
             {
               "title": "The br element",
-              "isoDate": "2024-11-12T00:00:00.000Z",
+              "date": "2024-11-12",
               "link": "https://heydonworks.com/article/the-br-element/"
             },
             {
               "title": "The button element",
-              "isoDate": "2024-11-04T00:00:00.000Z",
+              "date": "2024-11-04",
               "link": "https://heydonworks.com/article/the-button-element/"
             },
             {
               "title": "The body element",
-              "isoDate": "2024-10-31T00:00:00.000Z",
+              "date": "2024-10-31",
               "link": "https://heydonworks.com/article/the-body-element/"
             },
             {
               "title": "The blockquote element",
-              "isoDate": "2024-10-14T00:00:00.000Z",
+              "date": "2024-10-14",
               "link": "https://heydonworks.com/article/the-blockquote-element/"
             },
             {
               "title": "The bdo element",
-              "isoDate": "2024-10-02T00:00:00.000Z",
+              "date": "2024-10-02",
               "link": "https://heydonworks.com/article/the-bdo-element/"
             }
           ]
@@ -1353,27 +1389,27 @@
           "items": [
             {
               "title": "Don’t forget to localize your icons",
-              "isoDate": "2024-11-11T00:00:00.000Z",
+              "date": "2024-11-11",
               "link": "https://ericwbailey.website/published/dont-forget-to-localize-your-icons/"
             },
             {
               "title": "Making content-aware components using CSS’ <code>:has()</code>, grid, and quantity queries",
-              "isoDate": "2024-09-28T00:00:00.000Z",
+              "date": "2024-09-28",
               "link": "https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/"
             },
             {
               "title": "Heading elements have been added to Project board views to improve screen reader page navigation",
-              "isoDate": "2024-09-23T00:00:00.000Z",
+              "date": "2024-09-23",
               "link": "https://github.blog/changelog/2024-09-23-heading-elements-added-to-project-board-views/"
             },
             {
               "title": "Accessibility preference settings, information architecture, and internalized ableism",
-              "isoDate": "2024-09-17T00:00:00.000Z",
+              "date": "2024-09-17",
               "link": "https://ericwbailey.website/published/accessibility-preference-settings-information-architecture-and-internalized-ableism/"
             },
             {
               "title": "a11y-syntax-highlighting has been updated",
-              "isoDate": "2024-09-09T00:00:00.000Z",
+              "date": "2024-09-09",
               "link": "https://ericwbailey.website/published/a11y-syntax-highlighting-has-been-updated/"
             }
           ]
@@ -1384,27 +1420,27 @@
           "items": [
             {
               "title": "Being intentional about exploratory testing",
-              "isoDate": "2024-11-08T23:00:00.000Z",
+              "date": "2024-11-08",
               "link": "https://smallsheds.garden/blog/2024/being-intentional-about-exploratory-testing/"
             },
             {
               "title": "The Fluxx ensemble exercise",
-              "isoDate": "2024-10-12T22:00:00.000Z",
+              "date": "2024-10-12",
               "link": "https://smallsheds.garden/blog/2024/the-fluxx-ensemble-exercise/"
             },
             {
               "title": "What do you fix when you fix a test?",
-              "isoDate": "2024-08-24T22:00:00.000Z",
+              "date": "2024-08-24",
               "link": "https://smallsheds.garden/blog/2024/what-do-you-fix-when-you-fix-a-test/"
             },
             {
               "title": "The difference between a test case and a requirement is the moment of discovery",
-              "isoDate": "2024-05-26T22:00:00.000Z",
+              "date": "2024-05-26",
               "link": "https://smallsheds.garden/blog/2024/the-difference-between-a-test-case-and-a-requirement-is-the-moment-of-discovery/"
             },
             {
               "title": "Two short checklists for Scrum",
-              "isoDate": "2024-05-08T22:00:00.000Z",
+              "date": "2024-05-08",
               "link": "https://smallsheds.garden/blog/2024/two-short-checklists-for-scrum/"
             }
           ]
@@ -1415,27 +1451,27 @@
           "items": [
             {
               "title": "One way to do applied research",
-              "isoDate": "2024-11-07T00:00:00.000Z",
+              "date": "2024-11-07",
               "link": "https://dubroy.com/blog/one-way-to-do-applied-research"
             },
             {
               "title": "Memories of some fantastic internships",
-              "isoDate": "2024-07-31T00:00:00.000Z",
+              "date": "2024-07-31",
               "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships"
             },
             {
               "title": "Playing like a kid again",
-              "isoDate": "2024-06-30T00:00:00.000Z",
+              "date": "2024-06-30",
               "link": "https://dubroy.com/blog/playing-like-a-kid-again"
             },
             {
               "title": "Taking learning seriously",
-              "isoDate": "2024-05-30T00:00:00.000Z",
+              "date": "2024-05-30",
               "link": "https://dubroy.com/blog/taking-learning-seriously"
             },
             {
               "title": "Bytecode VMs in surprising places",
-              "isoDate": "2024-04-30T00:00:00.000Z",
+              "date": "2024-04-30",
               "link": "https://dubroy.com/blog/bytecode-vms-in-surprising-places"
             }
           ]
@@ -1446,27 +1482,27 @@
           "items": [
             {
               "title": "CSS sprite sheet animations",
-              "isoDate": "2024-11-03T00:00:00.000Z",
+              "date": "2024-11-03",
               "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
             },
             {
               "title": "Centering a div in a div in 2020",
-              "isoDate": "2024-10-17T00:00:00.000Z",
+              "date": "2024-10-17",
               "link": "https://leanrada.com/notes/how-to-center-in-css?ref=rss"
             },
             {
               "title": "I made an app to fix my motion sickness",
-              "isoDate": "2024-09-02T00:00:00.000Z",
+              "date": "2024-09-02",
               "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
             },
             {
               "title": "Stop using ease-out in your UIs!",
-              "isoDate": "2024-07-15T00:00:00.000Z",
+              "date": "2024-07-15",
               "link": "https://leanrada.com/notes/stop-using-ease-out?ref=rss"
             },
             {
               "title": "Creating a halftone effect with CSS",
-              "isoDate": "2024-05-05T00:00:00.000Z",
+              "date": "2024-05-05",
               "link": "https://leanrada.com/notes/pure-css-halftone?ref=rss"
             }
           ]
@@ -1477,27 +1513,27 @@
           "items": [
             {
               "title": "What layoffs teach us about technical leadership",
-              "isoDate": "2024-10-31T20:25:00.000Z",
+              "date": "2024-10-31",
               "link": "https://chelseatroy.com/2024/10/31/what-layoffs-teach-us-about-technical-leadership/"
             },
             {
               "title": "How to flub (and not flub) group decision-making on technical teams",
-              "isoDate": "2024-10-22T15:58:37.000Z",
+              "date": "2024-10-22",
               "link": "https://chelseatroy.com/2024/10/22/how-to-flub-and-not-flub-group-decision-making-on-technical-teams/"
             },
             {
               "title": "Decision-Making Pitfalls for Technical Leaders",
-              "isoDate": "2024-10-16T16:12:47.000Z",
+              "date": "2024-10-16",
               "link": "https://chelseatroy.com/2024/10/16/decision-making-pitfalls-for-technical-leaders/"
             },
             {
               "title": "Does AI benefit the world?",
-              "isoDate": "2024-08-28T17:00:39.000Z",
+              "date": "2024-08-28",
               "link": "https://chelseatroy.com/2024/08/28/does-ai-benefit-the-world/"
             },
             {
               "title": "The Programmers’ Identity Crisis: how do we use our powers for ‘good’?",
-              "isoDate": "2024-07-03T02:36:53.000Z",
+              "date": "2024-07-03",
               "link": "https://chelseatroy.com/2024/07/03/programmers-identity-crises-and-moral-panic/"
             }
           ]
@@ -1508,27 +1544,27 @@
           "items": [
             {
               "title": "Steve Ballmer was an underrated CEO",
-              "isoDate": "2024-10-28T00:00:00.000Z",
+              "date": "2024-10-28",
               "link": "https://danluu.com/ballmer/"
             },
             {
               "title": "How good can you be at Codenames without knowing any words?",
-              "isoDate": "2024-08-11T00:00:00.000Z",
+              "date": "2024-08-11",
               "link": "https://danluu.com/codenames/"
             },
             {
               "title": "A discussion of discussions on AI bias",
-              "isoDate": "2024-06-16T00:00:00.000Z",
+              "date": "2024-06-16",
               "link": "https://danluu.com/ai-bias/"
             },
             {
               "title": "What the FTC got wrong in the Google antitrust investigation",
-              "isoDate": "2024-05-26T00:00:00.000Z",
+              "date": "2024-05-26",
               "link": "https://danluu.com/ftc-google-antitrust/"
             },
             {
               "title": "How web bloat impacts users with slow devices",
-              "isoDate": "2024-03-16T00:00:00.000Z",
+              "date": "2024-03-16",
               "link": "https://danluu.com/slow-device/"
             }
           ]
@@ -1539,27 +1575,27 @@
           "items": [
             {
               "title": "Come to the light-dark() Side",
-              "isoDate": "2024-10-26T14:53:00.000Z",
+              "date": "2024-10-26",
               "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
             },
             {
               "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
-              "isoDate": "2024-09-30T00:00:00.000Z",
+              "date": "2024-09-30",
               "link": "https://sarajoy.dev/blog/see-and-point/"
             },
             {
               "title": "Sara Uses",
-              "isoDate": "2024-09-10T14:30:00.000Z",
+              "date": "2024-09-10",
               "link": "https://sarajoy.dev/blog/uses/"
             },
             {
               "title": "Weaknote 2024-07-25 (a tab amnesty)",
-              "isoDate": "2024-07-25T09:49:00.000Z",
+              "date": "2024-07-25",
               "link": "https://sarajoy.dev/blog/notes/20240725/"
             },
             {
               "title": "Everybody's Free (To Write Websites)",
-              "isoDate": "2024-07-16T00:00:00.000Z",
+              "date": "2024-07-16",
               "link": "https://sarajoy.dev/blog/write-websites/"
             }
           ]
@@ -1570,27 +1606,27 @@
           "items": [
             {
               "title": "You Have One Voice",
-              "isoDate": "2024-10-21T00:00:00.000Z",
+              "date": "2024-10-21",
               "link": "https://hazelweakly.me/blog/you-have-one-voice/"
             },
             {
               "title": "OpenTelemetry Challenges: Handling Long-Running Spans",
-              "isoDate": "2024-10-10T00:00:00.000Z",
+              "date": "2024-10-10",
               "link": "https://hazelweakly.me/blog/opentelemetry-challenges-handling-long-running-spans/"
             },
             {
               "title": "The 4 Evolutions of Your Observability Journey",
-              "isoDate": "2024-10-03T00:00:00.000Z",
+              "date": "2024-10-03",
               "link": "https://hazelweakly.me/blog/the-four-evolutions-of-your-observability-journey/"
             },
             {
               "title": "Cache Me Not, Cache Me, Cache Me Not",
-              "isoDate": "2024-09-19T00:00:00.000Z",
+              "date": "2024-09-19",
               "link": "https://hazelweakly.me/blog/cache-me-not-cache-me-cache-me-not/"
             },
             {
               "title": "Home Baked Abstractions, Store Bought Implementations",
-              "isoDate": "2024-08-21T00:00:00.000Z",
+              "date": "2024-08-21",
               "link": "https://hazelweakly.me/blog/home-baked-abstractions-store-bought-implementations/"
             }
           ]
@@ -1601,27 +1637,27 @@
           "items": [
             {
               "title": "Paper: Feminism in Programming Language Design",
-              "isoDate": "2024-10-17T10:20:17.000Z",
+              "date": "2024-10-17",
               "link": "https://www.felienne.com/archives/8470"
             },
             {
               "title": "Soon all UX will be a Skinner box",
-              "isoDate": "2024-09-11T10:27:54.000Z",
+              "date": "2024-09-11",
               "link": "https://www.felienne.com/archives/8440"
             },
             {
               "title": "Why *not* to use LLMs in computer science education?",
-              "isoDate": "2024-06-05T09:20:09.000Z",
+              "date": "2024-06-05",
               "link": "https://www.felienne.com/archives/8392"
             },
             {
               "title": "Why to use LLMs in computer science education?",
-              "isoDate": "2024-06-03T06:25:57.000Z",
+              "date": "2024-06-03",
               "link": "https://www.felienne.com/archives/8367"
             },
             {
               "title": "Why so fatalistic about AI?",
-              "isoDate": "2024-05-29T10:42:29.000Z",
+              "date": "2024-05-29",
               "link": "https://www.felienne.com/archives/8364"
             }
           ]
@@ -1632,27 +1668,27 @@
           "items": [
             {
               "title": "How Hard Should Your Employer Work To Retain You?",
-              "isoDate": "2024-10-11T00:15:42.000Z",
+              "date": "2024-10-11",
               "link": "https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/"
             },
             {
               "title": "Is It Time To Version Observability? (Signs Point To Yes)",
-              "isoDate": "2024-08-07T22:57:19.000Z",
+              "date": "2024-08-07",
               "link": "https://charity.wtf/2024/08/07/is-it-time-to-version-observability-signs-point-to-yes/"
             },
             {
               "title": "Pragmatism, Neutrality and Leadership",
-              "isoDate": "2024-07-24T21:11:08.000Z",
+              "date": "2024-07-24",
               "link": "https://charity.wtf/2024/07/24/pragmatism-neutrality-and-leadership/"
             },
             {
               "title": "Questionable Advice: “My boss says we don’t need any engineering managers. Is he right?”",
-              "isoDate": "2024-01-05T04:14:38.000Z",
+              "date": "2024-01-05",
               "link": "https://charity.wtf/2024/01/05/questionable-advice-my-boss-says-we-dont-need-any-engineering-managers-is-he-right/"
             },
             {
               "title": "Becoming An Engineering Manager Can Make You Better At Life And Relationships",
-              "isoDate": "2023-12-15T00:34:34.000Z",
+              "date": "2023-12-15",
               "link": "https://charity.wtf/2023/12/15/why-should-you-or-anyone-become-an-engineering-manager/"
             }
           ]
@@ -1663,27 +1699,27 @@
           "items": [
             {
               "title": "Floor and Ceiling raisers",
-              "isoDate": "2024-10-04T09:03:47.000Z",
+              "date": "2024-10-04",
               "link": "https://blog.codemanship.dev/floor-and-ceiling-raisers"
             },
             {
               "title": "Retrospectives",
-              "isoDate": "2024-05-29T13:30:20.000Z",
+              "date": "2024-05-29",
               "link": "https://blog.codemanship.dev/retrospectives"
             },
             {
               "title": "So we tried Ensemble Programming",
-              "isoDate": "2024-05-27T08:35:52.000Z",
+              "date": "2024-05-27",
               "link": "https://blog.codemanship.dev/so-we-tried-ensemble-programming"
             },
             {
               "title": "Test factories should not have randomness, but... Why?",
-              "isoDate": "2024-03-06T10:48:30.000Z",
+              "date": "2024-03-06",
               "link": "https://blog.codemanship.dev/test-factories-should-not-have-randomness-but-why"
             },
             {
               "title": "Dependencies in Knowledge and Practices",
-              "isoDate": "2024-01-31T10:27:39.000Z",
+              "date": "2024-01-31",
               "link": "https://blog.codemanship.dev/dependencies-in-knowledge-and-practices"
             }
           ]
@@ -1694,27 +1730,27 @@
           "items": [
             {
               "title": "The banana test for AI-generated artifacts",
-              "isoDate": "2024-10-03T12:33:20.000Z",
+              "date": "2024-10-03",
               "link": "https://einarwh.wordpress.com/2024/10/03/the-banana-test-for-ai-generated-artifacts/"
             },
             {
               "title": "The AI Puppet Dance",
-              "isoDate": "2024-01-12T17:08:55.000Z",
+              "date": "2024-01-12",
               "link": "https://einarwh.wordpress.com/2024/01/12/the-ai-puppet-dance/"
             },
             {
               "title": "Inspirational math",
-              "isoDate": "2023-05-20T11:09:55.000Z",
+              "date": "2023-05-20",
               "link": "https://einarwh.wordpress.com/2023/05/20/inspirational-math/"
             },
             {
               "title": "Drift into debt",
-              "isoDate": "2023-04-25T17:01:33.000Z",
+              "date": "2023-04-25",
               "link": "https://einarwh.wordpress.com/2023/04/25/drift-into-debt/"
             },
             {
               "title": "Don’t settle for a playground",
-              "isoDate": "2023-03-29T18:39:46.000Z",
+              "date": "2023-03-29",
               "link": "https://einarwh.wordpress.com/2023/03/29/dont-settle-for-a-playground/"
             }
           ]
@@ -1725,27 +1761,27 @@
           "items": [
             {
               "title": "Basic Concepts of the “Making App”",
-              "isoDate": "2024-10-02T02:39:40.000Z",
+              "date": "2024-10-02",
               "link": "https://www.geepawhill.org/2024/10/01/basic-concepts-of-the-making-app/"
             },
             {
               "title": "Optimize for Our Humans",
-              "isoDate": "2024-02-23T17:38:01.000Z",
+              "date": "2024-02-23",
               "link": "https://www.geepawhill.org/2024/02/23/optimize-for-our-humans/"
             },
             {
               "title": "Why Only Change Frames?",
-              "isoDate": "2023-02-02T16:11:31.000Z",
+              "date": "2023-02-02",
               "link": "https://www.geepawhill.org/2023/02/02/why-only-change-frames/"
             },
             {
               "title": "The Frame-Changing Triad",
-              "isoDate": "2023-01-26T17:38:58.000Z",
+              "date": "2023-01-26",
               "link": "https://www.geepawhill.org/2023/01/26/the-frame-changing-triad/"
             },
             {
               "title": "Changing The Frame",
-              "isoDate": "2023-01-20T16:43:55.000Z",
+              "date": "2023-01-20",
               "link": "https://www.geepawhill.org/2023/01/20/changing-the-frame/"
             }
           ]
@@ -1756,27 +1792,27 @@
           "items": [
             {
               "title": "Mere Being 017 - September - Dirt Man",
-              "isoDate": "2024-10-01T03:48:02.000Z",
+              "date": "2024-10-01",
               "link": "https://www.simplermachines.com/mere-being-017-september-dirt-man/"
             },
             {
               "title": "Mere Being 016 - August - Iron Supplements, Digestion, Love",
-              "isoDate": "2024-09-01T04:22:55.000Z",
+              "date": "2024-09-01",
               "link": "https://www.simplermachines.com/mere-being-2/"
             },
             {
               "title": "Pivots don't start enough businesses",
-              "isoDate": "2024-08-26T22:57:58.000Z",
+              "date": "2024-08-26",
               "link": "https://www.simplermachines.com/pivots-dont-start-enough-businesses/"
             },
             {
               "title": "How team assignment worked at Pivotal (at least on Cloud Foundry)",
-              "isoDate": "2024-08-20T00:45:44.000Z",
+              "date": "2024-08-20",
               "link": "https://www.simplermachines.com/how-team-assignment-worked-at-pivotal/"
             },
             {
               "title": "Testing Transactions in Elixir",
-              "isoDate": "2024-08-12T23:18:29.000Z",
+              "date": "2024-08-12",
               "link": "https://www.simplermachines.com/testing-transactions-in-elixir/"
             }
           ]
@@ -1787,27 +1823,27 @@
           "items": [
             {
               "title": "Hiatus",
-              "isoDate": "2024-09-11T00:00:00.000Z",
+              "date": "2024-09-11",
               "link": "https://www.hillelwayne.com/post/hiatus/"
             },
             {
               "title": "Toolbox languages",
-              "isoDate": "2024-07-15T00:00:00.000Z",
+              "date": "2024-07-15",
               "link": "https://www.hillelwayne.com/post/toolbox-languages/"
             },
             {
               "title": "Composing TLA+ Specifications with State Machines",
-              "isoDate": "2024-06-17T00:00:00.000Z",
+              "date": "2024-06-17",
               "link": "https://www.hillelwayne.com/post/composing-tla/"
             },
             {
               "title": "Software Friction",
-              "isoDate": "2024-05-01T00:00:00.000Z",
+              "date": "2024-05-01",
               "link": "https://www.hillelwayne.com/post/software-friction/"
             },
             {
               "title": "Don't let Alloy facts make your specs a fiction",
-              "isoDate": "2024-04-10T00:00:00.000Z",
+              "date": "2024-04-10",
               "link": "https://www.hillelwayne.com/post/alloy-facts/"
             }
           ]
@@ -1818,27 +1854,27 @@
           "items": [
             {
               "title": "Something went wrong",
-              "isoDate": "2024-09-10T22:00:00.000Z",
+              "date": "2024-09-10",
               "link": "https://molily.de/something-went-wrong/"
             },
             {
               "title": "Full circle development",
-              "isoDate": "2023-11-10T23:00:00.000Z",
+              "date": "2023-11-10",
               "link": "https://molily.de/full-circle-development/"
             },
             {
               "title": "Planet of the Beavers",
-              "isoDate": "2023-10-06T22:00:00.000Z",
+              "date": "2023-10-06",
               "link": "https://molily.de/planet-of-the-beavers/"
             },
             {
               "title": "On browser compatibility and support baselines",
-              "isoDate": "2023-05-12T22:00:00.000Z",
+              "date": "2023-05-12",
               "link": "https://molily.de/browser-compatibility-baseline/"
             },
             {
               "title": "ECMAScript modules and browser compatibility",
-              "isoDate": "2023-04-20T22:00:00.000Z",
+              "date": "2023-04-20",
               "link": "https://molily.de/ecmascript-modules/"
             }
           ]
@@ -1849,27 +1885,27 @@
           "items": [
             {
               "title": "Beyond Ctrl-C: The dark corners of Unix signal handling",
-              "isoDate": "2024-09-03T00:00:00.000Z",
+              "date": "2024-09-03",
               "link": "https://sunshowers.io/posts/beyond-ctrl-c-signals/"
             },
             {
               "title": "Debugging a rustc segfault on illumos",
-              "isoDate": "2024-08-04T00:00:00.000Z",
+              "date": "2024-08-04",
               "link": "https://sunshowers.io/posts/rustc-segfault-illumos/"
             },
             {
               "title": "Professionals demonstrate empathy",
-              "isoDate": "2024-07-02T00:00:00.000Z",
+              "date": "2024-07-02",
               "link": "https://sunshowers.io/posts/be-an-adult/"
             },
             {
               "title": "ECC RAM on AMD Ryzen 7000 desktop CPUs",
-              "isoDate": "2023-10-09T00:00:00.000Z",
+              "date": "2023-10-09",
               "link": "https://sunshowers.io/posts/am5-ryzen-7000-ecc-ram/"
             },
             {
               "title": "Dealing with tempfile cleaners",
-              "isoDate": "2023-10-05T00:00:00.000Z",
+              "date": "2023-10-05",
               "link": "https://sunshowers.io/posts/tmp-cleaner/"
             }
           ]
@@ -1880,27 +1916,27 @@
           "items": [
             {
               "title": "Crystal Spire #7: Armor",
-              "isoDate": "2024-08-24T09:30:00.000Z",
+              "date": "2024-08-24",
               "link": "https://www.cvennevik.no/blog/crystal-spire-07-armor/"
             },
             {
               "title": "Slay the Spire #6: Let's go to Codeberg!",
-              "isoDate": "2024-08-11T20:30:00.000Z",
+              "date": "2024-08-11",
               "link": "https://www.cvennevik.no/blog/slay-the-spire-06-lets-go-to-codeberg/"
             },
             {
               "title": "I can do hard things",
-              "isoDate": "2024-08-11T09:00:00.000Z",
+              "date": "2024-08-11",
               "link": "https://www.cvennevik.no/blog/i-can-do-hard-things/"
             },
             {
               "title": "Slay the Spire #5: Going dynamic",
-              "isoDate": "2024-08-04T14:15:00.000Z",
+              "date": "2024-08-04",
               "link": "https://www.cvennevik.no/blog/slay-the-spire-05-going-dynamic/"
             },
             {
               "title": "Slay the Spire #4: Links are real, and strong, and they are my friend",
-              "isoDate": "2024-08-03T19:26:00.000Z",
+              "date": "2024-08-03",
               "link": "https://www.cvennevik.no/blog/slay-the-spire-04-links-are-real/"
             }
           ]
@@ -1911,27 +1947,27 @@
           "items": [
             {
               "title": "Update on Software Engineering Career Ladder",
-              "isoDate": "2024-08-20T02:12:01.000Z",
+              "date": "2024-08-20",
               "link": "https://www.jamesshore.com/v2/blog/2024/update-on-software-engineering-career-ladder"
             },
             {
               "title": "Agile Fluency eBook in Portuguese",
-              "isoDate": "2024-05-15T01:49:01.000Z",
+              "date": "2024-05-15",
               "link": "https://www.jamesshore.com/v2/blog/2024/agile-fluency-ebook-in-portuguese"
             },
             {
               "title": "Free Self-Guided “Testing Without Mocks” Training",
-              "isoDate": "2024-05-12T22:40:01.000Z",
+              "date": "2024-05-12",
               "link": "https://www.jamesshore.com/v2/blog/2024/free-self-guided-testing-without-mocks-training"
             },
             {
               "title": "A Useful Productivity Measure?",
-              "isoDate": "2024-05-05T17:18:01.000Z",
+              "date": "2024-05-05",
               "link": "https://www.jamesshore.com/v2/blog/2024/a-useful-productivity-measure"
             },
             {
               "title": "A Software Engineering Career Ladder",
-              "isoDate": "2024-04-27T21:28:01.000Z",
+              "date": "2024-04-27",
               "link": "https://www.jamesshore.com/v2/blog/2024/a-software-engineering-career-ladder"
             }
           ]
@@ -1942,27 +1978,27 @@
           "items": [
             {
               "title": "Basic Microphone Usage",
-              "isoDate": "2024-08-06T11:00:00.000Z",
+              "date": "2024-08-06",
               "link": "http://agileotter.blogspot.com/2024/08/basic-microphone-usage.html"
             },
             {
               "title": "Profitable Struggle and Unprofitable Struggle",
-              "isoDate": "2024-05-24T14:27:00.000Z",
+              "date": "2024-05-24",
               "link": "http://agileotter.blogspot.com/2024/05/profitable-struggle-and-unprofitable.html"
             },
             {
               "title": "Definition-by-Dysfunction",
-              "isoDate": "2024-02-27T11:58:00.000Z",
+              "date": "2024-02-27",
               "link": "http://agileotter.blogspot.com/2024/02/definition-by-dysfunction.html"
             },
             {
               "title": "Listicle on Flow and Teamwork",
-              "isoDate": "2024-02-27T10:46:00.000Z",
+              "date": "2024-02-27",
               "link": "http://agileotter.blogspot.com/2024/02/listicle-on-flow-and-teamwork.html"
             },
             {
               "title": "Fundamentally Wrong",
-              "isoDate": "2024-01-15T14:12:00.000Z",
+              "date": "2024-01-15",
               "link": "http://agileotter.blogspot.com/2024/01/fundamentally-wrong.html"
             }
           ]
@@ -1973,27 +2009,27 @@
           "items": [
             {
               "title": "Astral Truth",
-              "isoDate": "2024-08-02T00:23:33.000Z",
+              "date": "2024-08-02",
               "link": "https://nonlinear.garden/archive/astral-truth/"
             },
             {
               "title": "Slicing",
-              "isoDate": "2024-02-17T20:49:54.000Z",
+              "date": "2024-02-17",
               "link": "https://nonlinear.garden/archive/slicing/"
             },
             {
               "title": "Problem Zero",
-              "isoDate": "2024-01-01T01:44:18.000Z",
+              "date": "2024-01-01",
               "link": "https://nonlinear.garden/archive/problem-zero/"
             },
             {
               "title": "Boundary Mistakes",
-              "isoDate": "2023-11-08T02:57:39.000Z",
+              "date": "2023-11-08",
               "link": "https://nonlinear.garden/archive/boundary-mistakes/"
             },
             {
               "title": "Iteration Is The Only Way I Know",
-              "isoDate": "2023-10-28T05:57:35.000Z",
+              "date": "2023-10-28",
               "link": "https://nonlinear.garden/archive/iteration-is-the-only-way-i-know/"
             }
           ]
@@ -2004,27 +2040,27 @@
           "items": [
             {
               "title": "The Serenity of -j1",
-              "isoDate": "2024-07-29T00:00:00.000Z",
+              "date": "2024-07-29",
               "link": "https://artemis.sh/2024/07/29/the-serenity-of-j1.html"
             },
             {
               "title": "So, do you actually want to write?",
-              "isoDate": "2024-06-19T00:00:00.000Z",
+              "date": "2024-06-19",
               "link": "https://artemis.sh/2024/06/19/do-you-really-want-to-write.html"
             },
             {
               "title": "Save Scarecrow, a Massive Physical Media Collection",
-              "isoDate": "2024-06-18T00:00:00.000Z",
+              "date": "2024-06-18",
               "link": "https://artemis.sh/2024/06/18/scarecrow.html"
             },
             {
               "title": "There are still quite a few 32-bit x86 Linux distributions",
-              "isoDate": "2024-04-12T00:00:00.000Z",
+              "date": "2024-04-12",
               "link": "https://artemis.sh/2024/04/12/x86-distribution-options.html"
             },
             {
               "title": "Trying out NetBSD on our Vaio",
-              "isoDate": "2024-04-10T00:00:00.000Z",
+              "date": "2024-04-10",
               "link": "https://artemis.sh/2024/04/10/trying-netbsd-on-vaio.html"
             }
           ]
@@ -2035,27 +2071,27 @@
           "items": [
             {
               "title": "Successfully Migrating to Caddy from Nginx",
-              "isoDate": "2024-07-09T17:39:57.000Z",
+              "date": "2024-07-09",
               "link": "https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/"
             },
             {
               "title": "GPG Key Transition 2022",
-              "isoDate": "2023-01-01T02:14:02.000Z",
+              "date": "2023-01-01",
               "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
             },
             {
               "title": "The problem with moving phones from copper to fiber: power",
-              "isoDate": "2014-08-15T10:22:27.000Z",
+              "date": "2014-08-15",
               "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
             },
             {
               "title": "The Secret Government Rulebook For Labeling You a Terrorist",
-              "isoDate": "2014-08-09T13:16:49.000Z",
+              "date": "2014-08-09",
               "link": "https://brainsik.net/2014/the-secret-government-rulebook-for-labeling-you-a-terrorist/"
             },
             {
               "title": "virtualenv-burrito 2.7",
-              "isoDate": "2014-07-07T09:50:35.000Z",
+              "date": "2014-07-07",
               "link": "https://brainsik.net/2014/virtualenv-burrito-2-7/"
             }
           ]
@@ -2066,27 +2102,27 @@
           "items": [
             {
               "title": "How to become a Production Blocker in a CI Theatre",
-              "isoDate": "2024-07-08T09:00:11.000Z",
+              "date": "2024-07-08",
               "link": "https://read.ceilfors.com/p/how-to-become-a-production-blocker"
             },
             {
               "title": "Seek concrete examples to deepen problem understanding: Lessons from Eric Evans (Part 2)",
-              "isoDate": "2024-06-17T09:27:39.000Z",
+              "date": "2024-06-17",
               "link": "https://read.ceilfors.com/p/concrete-examples-to-deepen-understanding"
             },
             {
               "title": "The Unspoken Secrets of DDD: Lessons from Eric Evans ",
-              "isoDate": "2024-06-07T09:58:19.000Z",
+              "date": "2024-06-07",
               "link": "https://read.ceilfors.com/p/unspoken-secrets-of-ddd-lessons-from-eric-evans"
             },
             {
               "title": "Crossing the Road Together",
-              "isoDate": "2023-11-24T09:43:50.000Z",
+              "date": "2023-11-24",
               "link": "https://read.ceilfors.com/p/crossing-the-road-together"
             },
             {
               "title": "Write Forgettable Code",
-              "isoDate": "2023-11-17T14:33:49.000Z",
+              "date": "2023-11-17",
               "link": "https://read.ceilfors.com/p/write-forgettable-code"
             }
           ]
@@ -2097,27 +2133,27 @@
           "items": [
             {
               "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
-              "isoDate": "2024-07-06T00:00:00.000Z",
+              "date": "2024-07-06",
               "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
             },
             {
               "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
-              "isoDate": "2024-05-15T00:00:00.000Z",
+              "date": "2024-05-15",
               "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
             },
             {
               "title": "Speeding up the JavaScript ecosystem - Tailwind CSS",
-              "isoDate": "2023-11-01T00:00:00.000Z",
+              "date": "2023-11-01",
               "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/"
             },
             {
               "title": "Speeding up the JavaScript ecosystem - The barrel file debacle",
-              "isoDate": "2023-10-08T00:00:00.000Z",
+              "date": "2023-10-08",
               "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-7/"
             },
             {
               "title": "Speeding up the JavaScript ecosystem - Polyfills gone rogue",
-              "isoDate": "2023-09-21T00:00:00.000Z",
+              "date": "2023-09-21",
               "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-6/"
             }
           ]
@@ -2128,27 +2164,27 @@
           "items": [
             {
               "title": "New Songbook Added to this Blog",
-              "isoDate": "2024-06-25T22:00:00.000Z",
+              "date": "2024-06-25",
               "link": "https://www.worthe-it.co.za/blog/2024-06-26-new-songbook-added-to-this-blog.html"
             },
             {
               "title": "My approach to Advent of Code puzzles",
-              "isoDate": "2024-02-25T22:00:00.000Z",
+              "date": "2024-02-25",
               "link": "https://www.worthe-it.co.za/blog/2024-02-26-my-approach-to-advent-of-code-puzzles.html"
             },
             {
               "title": "Make the computer do it!",
-              "isoDate": "2023-10-24T22:00:00.000Z",
+              "date": "2023-10-24",
               "link": "https://www.worthe-it.co.za/blog/2023-10-25-make-the-computer-do-it.html"
             },
             {
               "title": "Building a digital music collection in 2023",
-              "isoDate": "2023-08-19T22:00:00.000Z",
+              "date": "2023-08-19",
               "link": "https://www.worthe-it.co.za/blog/2023-08-20-building-a-digital-music-collection-in-2023.html"
             },
             {
               "title": "Release Announcement: South African ID Parser (JavaScript library) v1.1.0",
-              "isoDate": "2023-06-13T22:00:00.000Z",
+              "date": "2023-06-13",
               "link": "https://www.worthe-it.co.za/blog/2023-06-14-release-announcement.html"
             }
           ]
@@ -2159,27 +2195,27 @@
           "items": [
             {
               "title": "Refactoring Just Enough",
-              "isoDate": "2024-06-21T03:00:00.000Z",
+              "date": "2024-06-21",
               "link": "https://blog.thecodewhisperer.com/permalink/refactoring-just-enough"
             },
             {
               "title": "TDD: You're Probably Doing It Just Fine",
-              "isoDate": "2024-03-25T03:00:00.000Z",
+              "date": "2024-03-25",
               "link": "https://blog.thecodewhisperer.com/permalink/tdd-youre-probably-doing-it-just-fine"
             },
             {
               "title": "TDD: For Those Who Don't Know How to Design Software",
-              "isoDate": "2024-01-08T04:00:00.000Z",
+              "date": "2024-01-08",
               "link": "https://blog.thecodewhisperer.com/permalink/tdd-for-those-who-dont-know-how-to-design-software"
             },
             {
               "title": "A Guard Clause Is Maybe a Tiny Parser",
-              "isoDate": "2023-12-20T04:00:00.000Z",
+              "date": "2023-12-20",
               "link": "https://blog.thecodewhisperer.com/permalink/a-guard-clause-is-maybe-a-tiny-parser"
             },
             {
               "title": "Which Kinds of Tests Should I Write? Revisited",
-              "isoDate": "2023-09-17T22:41:00.000Z",
+              "date": "2023-09-17",
               "link": "https://blog.thecodewhisperer.com/permalink/which-kinds-of-tests-should-i-write-revisited"
             }
           ]
@@ -2190,27 +2226,27 @@
           "items": [
             {
               "title": "Designing the team experience: Building an open and supportive team culture through design",
-              "isoDate": "2024-06-07T01:10:00.000Z",
+              "date": "2024-06-07",
               "link": "https://spydergrrl.com/2024/06/07/designing-team-experience-building-open/"
             },
             {
               "title": "It’s ok to set boundaries at work",
-              "isoDate": "2024-04-11T11:49:00.000Z",
+              "date": "2024-04-11",
               "link": "https://spydergrrl.com/2024/04/11/its-ok-to-set-boundaries-at-work/"
             },
             {
               "title": "My most successful UX project (that no one knows about)",
-              "isoDate": "2023-05-18T16:51:00.000Z",
+              "date": "2023-05-18",
               "link": "https://spydergrrl.com/2023/05/18/no-one-knows-about-my-most-successful/"
             },
             {
               "title": "spydergrrl talks UX Theatre on Good Morning UX",
-              "isoDate": "2023-01-27T01:08:00.000Z",
+              "date": "2023-01-27",
               "link": "https://spydergrrl.com/2023/01/27/spydergrrl-talks-ux-theatre-on-good/"
             },
             {
               "title": "Designing human-centered performance reviews",
-              "isoDate": "2022-04-19T02:04:00.000Z",
+              "date": "2022-04-19",
               "link": "https://spydergrrl.com/2022/04/19/human-centered-performance-reviews/"
             }
           ]
@@ -2221,27 +2257,27 @@
           "items": [
             {
               "title": " Transmission ",
-              "isoDate": "2024-05-08T04:00:00.000Z",
+              "date": "2024-05-08",
               "link": "https://tis.so/transmission"
             },
             {
               "title": " Magic rites in the lore of economics ",
-              "isoDate": "2024-05-07T04:00:00.000Z",
+              "date": "2024-05-07",
               "link": "https://tis.so/magic-rites-in-the-lore-of-economics"
             },
             {
               "title": " Aesthetics as holistic systems analysis ",
-              "isoDate": "2024-05-06T04:00:00.000Z",
+              "date": "2024-05-06",
               "link": "https://tis.so/aesthetics-as-holistic-systems-analysis"
             },
             {
               "title": " Boundaries and agents ",
-              "isoDate": "2024-05-05T04:00:00.000Z",
+              "date": "2024-05-05",
               "link": "https://tis.so/boundaries-and-agents"
             },
             {
               "title": " On dexterity ",
-              "isoDate": "2024-05-04T04:00:00.000Z",
+              "date": "2024-05-04",
               "link": "https://tis.so/on-dexterity"
             }
           ]
@@ -2252,27 +2288,27 @@
           "items": [
             {
               "title": "You Are All On The Hobbyists Maintainers’ Turf Now",
-              "isoDate": "2024-04-01T00:00:00.000Z",
+              "date": "2024-04-01",
               "link": "https://softwaremaxims.com/blog/open-source-hobbyists-turf"
             },
             {
               "title": "Where did the Rust go?",
-              "isoDate": "2023-08-23T00:00:00.000Z",
+              "date": "2023-08-23",
               "link": "https://softwaremaxims.com/blog/memory-safety-end-history"
             },
             {
               "title": "The Cloud Is Not Optional",
-              "isoDate": "2023-07-14T00:00:00.000Z",
+              "date": "2023-07-14",
               "link": "https://softwaremaxims.com/blog/cloud-not-optional"
             },
             {
               "title": "Remove Constraints To Get Results",
-              "isoDate": "2023-06-06T00:00:00.000Z",
+              "date": "2023-06-06",
               "link": "https://softwaremaxims.com/blog/remove-constraints"
             },
             {
               "title": "What Security Tokens For 2FA Say About FOSS Consumers",
-              "isoDate": "2023-05-27T00:00:00.000Z",
+              "date": "2023-05-27",
               "link": "https://softwaremaxims.com/blog/2fa-community-participation"
             }
           ]
@@ -2283,27 +2319,27 @@
           "items": [
             {
               "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
-              "isoDate": "2024-03-10T00:00:00.000Z",
+              "date": "2024-03-10",
               "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
             },
             {
               "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
-              "isoDate": "2024-01-08T00:00:00.000Z",
+              "date": "2024-01-08",
               "link": "https://verraes.net/2024/01/critical-software-redesign/"
             },
             {
               "title": "Surfacing Worldviews in Design",
-              "isoDate": "2023-07-03T00:00:00.000Z",
+              "date": "2023-07-03",
               "link": "https://verraes.net/2023/07/surfacing-worldviews-in-design/"
             },
             {
               "title": "EventSourcing Testing Patterns",
-              "isoDate": "2023-05-28T00:00:00.000Z",
+              "date": "2023-05-28",
               "link": "https://verraes.net/2023/05/eventsourcing-testing-patterns/"
             },
             {
               "title": "From Music to Languages and Models (DevJourney Podcast)",
-              "isoDate": "2023-05-16T00:00:00.000Z",
+              "date": "2023-05-16",
               "link": "https://verraes.net/2023/05/devjourney-podcast/"
             }
           ]
@@ -2314,17 +2350,17 @@
           "items": [
             {
               "title": "Learning the oldest programming language",
-              "isoDate": "2024-01-31T00:00:00.000Z",
+              "date": "2024-01-31",
               "link": "https://uncenter.dev/posts/learning-fortran/"
             },
             {
               "title": "The package that broke npm (accidentally)",
-              "isoDate": "2024-01-03T00:00:00.000Z",
+              "date": "2024-01-03",
               "link": "https://uncenter.dev/posts/npm-install-everything/"
             },
             {
               "title": "Spell-checking blog posts with cSpell",
-              "isoDate": "2023-03-23T00:00:00.000Z",
+              "date": "2023-03-23",
               "link": "https://uncenter.dev/posts/spellchecking-with-eleventy/"
             }
           ]
@@ -2335,27 +2371,27 @@
           "items": [
             {
               "title": "Dear Functional Bros",
-              "isoDate": "2023-12-23T17:00:39.000Z",
+              "date": "2023-12-23",
               "link": "https://www.youtube.com/watch?v=nuML9SmdbJ4"
             },
             {
               "title": "Dependency Injection, The Best Pattern",
-              "isoDate": "2023-08-04T15:00:13.000Z",
+              "date": "2023-08-04",
               "link": "https://www.youtube.com/watch?v=J1f5b4vcxCQ"
             },
             {
               "title": "Premature Optimization",
-              "isoDate": "2023-02-10T16:00:35.000Z",
+              "date": "2023-02-10",
               "link": "https://www.youtube.com/watch?v=tKbV6BpH-C8"
             },
             {
               "title": "Don't Write Comments",
-              "isoDate": "2023-01-16T12:30:04.000Z",
+              "date": "2023-01-16",
               "link": "https://www.youtube.com/watch?v=Bf7vDBBOBUA"
             },
             {
               "title": "The Flaws of Inheritance",
-              "isoDate": "2022-12-22T14:04:23.000Z",
+              "date": "2022-12-22",
               "link": "https://www.youtube.com/watch?v=hxGOiiR9ZKg"
             }
           ]
@@ -2366,27 +2402,27 @@
           "items": [
             {
               "title": "\n      NPS, the good parts\n    ",
-              "isoDate": "2023-12-05T05:01:12.000Z",
+              "date": "2023-12-05",
               "link": "https://apenwarr.ca/log/20231204"
             },
             {
               "title": "\n      Interesting\n    ",
-              "isoDate": "2023-10-06T20:59:31.000Z",
+              "date": "2023-10-06",
               "link": "https://apenwarr.ca/log/20231006"
             },
             {
               "title": "\n      Tech debt metaphor maximalism\n    ",
-              "isoDate": "2023-07-11T03:12:47.000Z",
+              "date": "2023-07-11",
               "link": "https://apenwarr.ca/log/20230605"
             },
             {
               "title": "\n      Systems design 2: What we hope we know\n    ",
-              "isoDate": "2023-07-11T03:12:47.000Z",
+              "date": "2023-07-11",
               "link": "https://apenwarr.ca/log/20230415"
             },
             {
               "title": "\n      The Gift of It's Your Problem Now\n    ",
-              "isoDate": "2022-01-01T13:32:51.000Z",
+              "date": "2022-01-01",
               "link": "https://apenwarr.ca/log/20211229"
             }
           ]
@@ -2397,27 +2433,27 @@
           "items": [
             {
               "title": "Barbie",
-              "isoDate": "2023-08-07T07:05:30.000Z",
+              "date": "2023-08-07",
               "link": "https://coding-is-like-cooking.info/2023/08/barbie/"
             },
             {
               "title": "I’ve Gone Independent",
-              "isoDate": "2023-02-20T10:55:09.000Z",
+              "date": "2023-02-20",
               "link": "https://coding-is-like-cooking.info/2023/02/ive-gone-independent/"
             },
             {
               "title": "Hold an Open Space Event in just One Hour",
-              "isoDate": "2022-12-19T12:01:42.000Z",
+              "date": "2022-12-19",
               "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
             },
             {
               "title": "Samman Coaching in 2021",
-              "isoDate": "2022-06-30T05:54:40.000Z",
+              "date": "2022-06-30",
               "link": "https://coding-is-like-cooking.info/2022/06/samman-coaching-in-2021/"
             },
             {
               "title": "Book Review: Practical Remote Pair Programming by Adrian Bolboaca",
-              "isoDate": "2022-06-30T05:53:01.000Z",
+              "date": "2022-06-30",
               "link": "https://coding-is-like-cooking.info/2022/06/book-review-practical-remote-pair-programming-by-adrian-bolboaca/"
             }
           ]
@@ -2428,27 +2464,27 @@
           "items": [
             {
               "title": "Hvordan får vi det private til å levere god UX innen helse?",
-              "isoDate": "2023-08-06T15:10:37.000Z",
+              "date": "2023-08-06",
               "link": "https://qristin.wordpress.com/2023/08/06/hvordan-far-vi-det-private-til-a-levere-god-ux-innen-helse/"
             },
             {
               "title": "Akson er dødt – hva nå?",
-              "isoDate": "2023-07-03T12:41:19.000Z",
+              "date": "2023-07-03",
               "link": "https://qristin.wordpress.com/2023/07/03/akson-er-dodt-hva-na/"
             },
             {
               "title": "What does it take to be a good programmer?",
-              "isoDate": "2022-08-28T11:07:26.000Z",
+              "date": "2022-08-28",
               "link": "https://qristin.wordpress.com/2022/08/28/what-does-it-take-to-be-a-good-programmer/"
             },
             {
               "title": "En bok til 11 milliarder",
-              "isoDate": "2020-08-03T17:58:33.000Z",
+              "date": "2020-08-03",
               "link": "https://qristin.wordpress.com/2020/08/03/en-bok-til-11-milliarder/"
             },
             {
               "title": "Nei, systemene må ikke snakke sammen",
-              "isoDate": "2020-08-01T16:23:43.000Z",
+              "date": "2020-08-01",
               "link": "https://qristin.wordpress.com/2020/08/01/nei-systemene-ma-ikke-snakke-sammen/"
             }
           ]
@@ -2459,27 +2495,27 @@
           "items": [
             {
               "title": "Wrong job for a tool. But a fun one.",
-              "isoDate": "2023-04-21T03:40:38.000Z",
+              "date": "2023-04-21",
               "link": "https://blog.ferrata.dev/wrong-job-for-a-tool-but-a-fun-one/"
             },
             {
               "title": "Team equals Product",
-              "isoDate": "2023-02-22T01:46:23.000Z",
+              "date": "2023-02-22",
               "link": "https://blog.ferrata.dev/team-equals-product/"
             },
             {
               "title": "Better struggle together!",
-              "isoDate": "2023-02-08T05:28:06.000Z",
+              "date": "2023-02-08",
               "link": "https://blog.ferrata.dev/better-struggle-together/"
             },
             {
               "title": "Hacking Ghost blog design",
-              "isoDate": "2022-12-10T18:54:16.000Z",
+              "date": "2022-12-10",
               "link": "https://blog.ferrata.dev/hacking-ghost-blog-design/"
             },
             {
               "title": "Weaponize your imposter syndrome",
-              "isoDate": "2022-11-28T05:22:00.000Z",
+              "date": "2022-11-28",
               "link": "https://blog.ferrata.dev/weaponize-your-imposter-syndrome/"
             }
           ]
@@ -2490,37 +2526,65 @@
           "items": [
             {
               "title": "An introduction to typeclass metaprogramming",
-              "isoDate": "2021-03-25T00:00:00.000Z",
+              "date": "2021-03-25",
               "link": "https://lexi-lambda.github.io/blog/2021/03/25/an-introduction-to-typeclass-metaprogramming/"
             },
             {
               "title": "Names are not type safety",
-              "isoDate": "2020-11-01T00:00:00.000Z",
+              "date": "2020-11-01",
               "link": "https://lexi-lambda.github.io/blog/2020/11/01/names-are-not-type-safety/"
             },
             {
               "title": "Types as axioms, or: playing god with static types",
-              "isoDate": "2020-08-13T00:00:00.000Z",
+              "date": "2020-08-13",
               "link": "https://lexi-lambda.github.io/blog/2020/08/13/types-as-axioms-or-playing-god-with-static-types/"
             },
             {
               "title": "No, dynamic type systems are not inherently more open",
-              "isoDate": "2020-01-19T00:00:00.000Z",
+              "date": "2020-01-19",
               "link": "https://lexi-lambda.github.io/blog/2020/01/19/no-dynamic-type-systems-are-not-inherently-more-open/"
             },
             {
               "title": "Parse, don’t validate",
-              "isoDate": "2019-11-05T00:00:00.000Z",
+              "date": "2019-11-05",
               "link": "https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/"
+            }
+          ]
+        },
+        {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "The Fascinating Security Model of Dark Web Marketplaces",
+              "date": "0000-00-00",
+              "link": "https://boehs.org/node/dark-web-security"
+            },
+            {
+              "title": "We Showed Up. We Fought. We Lost.",
+              "date": "0000-00-00",
+              "link": "https://boehs.org/node/election-2024"
+            },
+            {
+              "title": "Apple Should Use Intelligence to Get It into Their Heads That We Don't Want This.",
+              "date": "0000-00-00",
+              "link": "https://boehs.org/node/apple-intelligence"
+            },
+            {
+              "title": "I Don't Hate Technology When It Works.",
+              "date": "0000-00-00",
+              "link": "https://boehs.org/node/old-tech"
+            },
+            {
+              "title": "Bountysource Stole at Least $21,000 from Open Source Developers",
+              "date": "0000-00-00",
+              "link": "https://boehs.org/node/bountysource"
             }
           ]
         }
       ]
     }
   ],
-  "fetchDate": "2024-12-07T03:30:41.807Z",
-  "errors": [
-    "https://cutlefish.substack.com/feed",
-    "https://angryweasel.substack.com/feed"
-  ]
+  "fetchDate": "2024-12-07T18:12:10.166Z",
+  "errors": []
 }

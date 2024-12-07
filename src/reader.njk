@@ -23,7 +23,7 @@ title: Feed reader
         <ul>
             {% for item in feed.items %}
             <li>
-                {{ item.isoDate.split('T')[0] }}:
+                {{ item.date }}:
                 <a href="{{ item.link }}">{{ item.title if item.title else 'Untitled' }}</a>
             </li>
             {% endfor %}

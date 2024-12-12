@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Emotional buffer zone",
+              "date": "2024-12-12",
+              "link": "https://anniemueller.com/posts/emotional-buffer-zone"
+            },
+            {
+              "title": "Love your body (of work)",
+              "date": "2024-12-10",
+              "link": "https://anniemueller.com/posts/love-your-body-of-work"
+            },
+            {
+              "title": "If you feel okay, feel okay",
+              "date": "2024-12-09",
+              "link": "https://anniemueller.com/posts/if-you-feel-okay-feel-okay"
+            },
+            {
+              "title": "Practice by doing",
+              "date": "2024-12-09",
+              "link": "https://anniemueller.com/posts/practice-by-doing"
+            },
+            {
+              "title": "Joy is in the doing",
+              "date": "2024-12-03",
+              "link": "https://anniemueller.com/posts/joy-is-in-the-doing"
+            }
+          ]
+        },
+        {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Irresponsibility: Estimates and NoEstimates",
+              "date": "2024-12-11",
+              "link": "http://agileotter.blogspot.com/2024/12/irresponsibility-estimates-and.html"
+            },
+            {
+              "title": "Basic Microphone Usage",
+              "date": "2024-08-06",
+              "link": "http://agileotter.blogspot.com/2024/08/basic-microphone-usage.html"
+            },
+            {
+              "title": "Profitable Struggle and Unprofitable Struggle",
+              "date": "2024-05-24",
+              "link": "http://agileotter.blogspot.com/2024/05/profitable-struggle-and-unprofitable.html"
+            },
+            {
+              "title": "Definition-by-Dysfunction",
+              "date": "2024-02-27",
+              "link": "http://agileotter.blogspot.com/2024/02/definition-by-dysfunction.html"
+            },
+            {
+              "title": "Listicle on Flow and Teamwork",
+              "date": "2024-02-27",
+              "link": "http://agileotter.blogspot.com/2024/02/listicle-on-flow-and-teamwork.html"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "How to actually write unit tests",
+              "date": "2024-12-11",
+              "link": "https://gomakethings.com/how-to-actually-write-unit-tests/"
+            },
+            {
+              "title": "An overview of JavaScript testing",
+              "date": "2024-12-10",
+              "link": "https://gomakethings.com/an-overview-of-javascript-testing/"
+            },
+            {
+              "title": "Joining Nebula",
+              "date": "2024-12-09",
+              "link": "https://gomakethings.com/joining-nebula/"
+            },
+            {
+              "title": "Buildless testing",
+              "date": "2024-12-06",
+              "link": "https://gomakethings.com/buildless-testing/"
+            },
+            {
+              "title": "The code complexity journey",
+              "date": "2024-12-05",
+              "link": "https://gomakethings.com/the-code-complexity-journey/"
+            }
+          ]
+        },
+        {
+          "title": "jakelazaroff.com",
+          "feedUrl": "https://jakelazaroff.com/rss.xml",
+          "items": [
+            {
+              "title": "Isomorphic Web Components",
+              "date": "2024-12-11",
+              "link": "https://jakelazaroff.com/words/isomorphic-web-components/"
+            },
+            {
+              "title": "What's a Single-Page App?",
+              "date": "2024-11-05",
+              "link": "https://jakelazaroff.com/words/whats-a-single-page-app/"
+            },
+            {
+              "title": "My Modern CSS Reset",
+              "date": "2024-10-29",
+              "link": "https://jakelazaroff.com/words/my-modern-css-reset/"
+            },
+            {
+              "title": "Building a Single-Page App with htmx",
+              "date": "2024-10-07",
+              "link": "https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/"
+            },
+            {
+              "title": "A Local-First Case Study",
+              "date": "2024-10-01",
+              "link": "https://jakelazaroff.com/words/a-local-first-case-study/"
+            }
+          ]
+        },
+        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
@@ -35,6 +159,37 @@
           ]
         },
         {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Stroustrop's Rule",
+              "date": "2024-12-11",
+              "link": "https://buttondown.com/hillelwayne/archive/stroustrops-rule/"
+            },
+            {
+              "title": "Hyperproperties",
+              "date": "2024-11-19",
+              "link": "https://buttondown.com/hillelwayne/archive/hyperproperties/"
+            },
+            {
+              "title": "Five Unusual Raku Features",
+              "date": "2024-11-12",
+              "link": "https://buttondown.com/hillelwayne/archive/five-unusual-raku-features/"
+            },
+            {
+              "title": "A list of ternary operators",
+              "date": "2024-11-05",
+              "link": "https://buttondown.com/hillelwayne/archive/a-list-of-ternary-operators/"
+            },
+            {
+              "title": "TLA from first principles",
+              "date": "2024-10-22",
+              "link": "https://buttondown.com/hillelwayne/archive/tla-from-first-principles/"
+            }
+          ]
+        },
+        {
           "title": "Chelsea Troy",
           "feedUrl": "https://chelseatroy.com/feed/",
           "items": [
@@ -62,37 +217,6 @@
               "title": "Does AI benefit the world?",
               "date": "2024-08-28",
               "link": "https://chelseatroy.com/2024/08/28/does-ai-benefit-the-world/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "An overview of JavaScript testing",
-              "date": "2024-12-10",
-              "link": "https://gomakethings.com/an-overview-of-javascript-testing/"
-            },
-            {
-              "title": "Joining Nebula",
-              "date": "2024-12-09",
-              "link": "https://gomakethings.com/joining-nebula/"
-            },
-            {
-              "title": "Buildless testing",
-              "date": "2024-12-06",
-              "link": "https://gomakethings.com/buildless-testing/"
-            },
-            {
-              "title": "The code complexity journey",
-              "date": "2024-12-05",
-              "link": "https://gomakethings.com/the-code-complexity-journey/"
-            },
-            {
-              "title": "Building a code sandbox",
-              "date": "2024-12-04",
-              "link": "https://gomakethings.com/building-a-code-sandbox/"
             }
           ]
         },
@@ -155,37 +279,6 @@
               "title": "If It’s Good, It’s Wonderful. If It’s Bad, It’s Experience (Newsletter)",
               "date": "2024-11-21",
               "link": "https://mikegrindle.com/newsletter/itm-5"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Love your body (of work)",
-              "date": "2024-12-10",
-              "link": "https://anniemueller.com/posts/love-your-body-of-work"
-            },
-            {
-              "title": "If you feel okay, feel okay",
-              "date": "2024-12-09",
-              "link": "https://anniemueller.com/posts/if-you-feel-okay-feel-okay"
-            },
-            {
-              "title": "Practice by doing",
-              "date": "2024-12-09",
-              "link": "https://anniemueller.com/posts/practice-by-doing"
-            },
-            {
-              "title": "Joy is in the doing",
-              "date": "2024-12-03",
-              "link": "https://anniemueller.com/posts/joy-is-in-the-doing"
-            },
-            {
-              "title": "November is over, finally",
-              "date": "2024-12-02",
-              "link": "https://anniemueller.com/posts/november-is-over-finally"
             }
           ]
         },
@@ -390,7 +483,7 @@
               "link": "https://ntietz.com/blog/terminology-isnt-universal/?utm_source=atom&utm_medium=feed"
             },
             {
-              "title": "Abusing Talon to use my eye tracker in a project",
+              "title": "Using Talon in a game jam",
               "date": "2024-11-18",
               "link": "https://ntietz.com/blog/abusing-talon-eyetracker/?utm_source=atom&utm_medium=feed"
             },
@@ -826,37 +919,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Why pipes sometimes get \"stuck\": buffering",
-              "date": "2024-11-29",
-              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
-            },
-            {
-              "title": "Importing a frontend Javascript library without a build system",
-              "date": "2024-11-18",
-              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
-            },
-            {
-              "title": "New microblog with TILs",
-              "date": "2024-11-09",
-              "link": "https://jvns.ca/blog/2024/11/09/new-microblog/"
-            },
-            {
-              "title": "ASCII control characters in my terminal",
-              "date": "2024-10-31",
-              "link": "https://jvns.ca/blog/2024/10/31/ascii-control-characters/"
-            },
-            {
-              "title": "Using less memory to look up IP addresses in Mess With DNS",
-              "date": "2024-10-27",
-              "link": "https://jvns.ca/blog/2024/10/27/asn-ip-address-memory/"
-            }
-          ]
-        },
-        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -884,6 +946,37 @@
               "title": "Reckoning: Part 2 — Object Lesson",
               "date": "2024-08-13",
               "link": "https://infrequently.org/2024/08/object-lesson/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Why pipes sometimes get \"stuck\": buffering",
+              "date": "2024-11-29",
+              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
+            },
+            {
+              "title": "Importing a frontend Javascript library without a build system",
+              "date": "2024-11-18",
+              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
+            },
+            {
+              "title": "New microblog with TILs",
+              "date": "2024-11-09",
+              "link": "https://jvns.ca/blog/2024/11/09/new-microblog/"
+            },
+            {
+              "title": "ASCII control characters in my terminal",
+              "date": "2024-10-31",
+              "link": "https://jvns.ca/blog/2024/10/31/ascii-control-characters/"
+            },
+            {
+              "title": "Using less memory to look up IP addresses in Mess With DNS",
+              "date": "2024-10-27",
+              "link": "https://jvns.ca/blog/2024/10/27/asn-ip-address-memory/"
             }
           ]
         },
@@ -1105,37 +1198,6 @@
           ]
         },
         {
-          "title": "jakelazaroff.com",
-          "feedUrl": "https://jakelazaroff.com/rss.xml",
-          "items": [
-            {
-              "title": "Drinking from the Bluesky Firehose",
-              "date": "2024-11-22",
-              "link": "https://jakelazaroff.com/words/drinking-from-the-bluesky-firehose/"
-            },
-            {
-              "title": "What's a Single-Page App?",
-              "date": "2024-11-05",
-              "link": "https://jakelazaroff.com/words/whats-a-single-page-app/"
-            },
-            {
-              "title": "My Modern CSS Reset",
-              "date": "2024-10-29",
-              "link": "https://jakelazaroff.com/words/my-modern-css-reset/"
-            },
-            {
-              "title": "Building a Single-Page App with htmx",
-              "date": "2024-10-07",
-              "link": "https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/"
-            },
-            {
-              "title": "A Local-First Case Study",
-              "date": "2024-10-01",
-              "link": "https://jakelazaroff.com/words/a-local-first-case-study/"
-            }
-          ]
-        },
-        {
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
@@ -1256,37 +1318,6 @@
               "title": "We need fewer assumptions to test",
               "date": "2024-10-29",
               "link": "https://dragan-stepanovic.github.io//2024/10/29/fewer-assumptions.html"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Hyperproperties",
-              "date": "2024-11-19",
-              "link": "https://buttondown.com/hillelwayne/archive/hyperproperties/"
-            },
-            {
-              "title": "Five Unusual Raku Features",
-              "date": "2024-11-12",
-              "link": "https://buttondown.com/hillelwayne/archive/five-unusual-raku-features/"
-            },
-            {
-              "title": "A list of ternary operators",
-              "date": "2024-11-05",
-              "link": "https://buttondown.com/hillelwayne/archive/a-list-of-ternary-operators/"
-            },
-            {
-              "title": "TLA from first principles",
-              "date": "2024-10-22",
-              "link": "https://buttondown.com/hillelwayne/archive/tla-from-first-principles/"
-            },
-            {
-              "title": "Be Suspicious of Success",
-              "date": "2024-10-16",
-              "link": "https://buttondown.com/hillelwayne/archive/be-suspicious-of-success/"
             }
           ]
         },
@@ -1911,37 +1942,6 @@
           ]
         },
         {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Basic Microphone Usage",
-              "date": "2024-08-06",
-              "link": "http://agileotter.blogspot.com/2024/08/basic-microphone-usage.html"
-            },
-            {
-              "title": "Profitable Struggle and Unprofitable Struggle",
-              "date": "2024-05-24",
-              "link": "http://agileotter.blogspot.com/2024/05/profitable-struggle-and-unprofitable.html"
-            },
-            {
-              "title": "Definition-by-Dysfunction",
-              "date": "2024-02-27",
-              "link": "http://agileotter.blogspot.com/2024/02/definition-by-dysfunction.html"
-            },
-            {
-              "title": "Listicle on Flow and Teamwork",
-              "date": "2024-02-27",
-              "link": "http://agileotter.blogspot.com/2024/02/listicle-on-flow-and-teamwork.html"
-            },
-            {
-              "title": "Fundamentally Wrong",
-              "date": "2024-01-15",
-              "link": "http://agileotter.blogspot.com/2024/01/fundamentally-wrong.html"
-            }
-          ]
-        },
-        {
           "title": "Nonlinear.Garden",
           "feedUrl": "https://nonlinear.garden/rss.xml",
           "items": [
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-11T03:31:40.405Z",
+  "fetchDate": "2024-12-12T03:32:36.407Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

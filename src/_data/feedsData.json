@@ -4,9 +4,164 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "New Music Friday #3",
+              "date": "2024-12-13",
+              "link": "https://flamedfury.com/posts/new-music-friday-3/"
+            },
+            {
+              "title": "Monthly Recap: November 2024",
+              "date": "2024-12-03",
+              "link": "https://flamedfury.com/posts/monthly-recap-november-2024/"
+            },
+            {
+              "title": "What If Encore Never Leaked?",
+              "date": "2024-11-13",
+              "link": "https://flamedfury.com/posts/what-if-encore-never-leaked/"
+            },
+            {
+              "title": "How Do I IndieWeb?",
+              "date": "2024-11-08",
+              "link": "https://flamedfury.com/posts/how-do-i-indieweb/"
+            },
+            {
+              "title": "Apple AirPods 4",
+              "date": "2024-11-06",
+              "link": "https://flamedfury.com/posts/apple-airpods-4/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
+            },
+            {
+              "title": "Why pipes sometimes get \"stuck\": buffering",
+              "date": "2024-11-29",
+              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
+            },
+            {
+              "title": "Importing a frontend Javascript library without a build system",
+              "date": "2024-11-18",
+              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
+            },
+            {
+              "title": "New microblog with TILs",
+              "date": "2024-11-09",
+              "link": "https://jvns.ca/blog/2024/11/09/new-microblog/"
+            },
+            {
+              "title": "ASCII control characters in my terminal",
+              "date": "2024-10-31",
+              "link": "https://jvns.ca/blog/2024/10/31/ascii-control-characters/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Making o(m)g:image Part I: Design Iterations",
+              "date": "2024-12-12",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-i/"
+            },
+            {
+              "title": "Introducing o(m)g:image",
+              "date": "2024-12-09",
+              "link": "https://blog.jim-nielsen.com/2024/omgimg/"
+            },
+            {
+              "title": "Contrast Is Clarifying",
+              "date": "2024-12-02",
+              "link": "https://blog.jim-nielsen.com/2024/contrast-is-clarifying/"
+            },
+            {
+              "title": "Nothing Is Something",
+              "date": "2024-11-27",
+              "link": "https://blog.jim-nielsen.com/2024/nothing-is-something/"
+            },
+            {
+              "title": "Nabbing macOS Icon Artwork",
+              "date": "2024-11-24",
+              "link": "https://blog.jim-nielsen.com/2024/nabbing-macos-icons/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Organizing JavaScript tests",
+              "date": "2024-12-12",
+              "link": "https://gomakethings.com/organizing-javascript-tests/"
+            },
+            {
+              "title": "How to actually write unit tests",
+              "date": "2024-12-11",
+              "link": "https://gomakethings.com/how-to-actually-write-unit-tests/"
+            },
+            {
+              "title": "An overview of JavaScript testing",
+              "date": "2024-12-10",
+              "link": "https://gomakethings.com/an-overview-of-javascript-testing/"
+            },
+            {
+              "title": "Joining Nebula",
+              "date": "2024-12-09",
+              "link": "https://gomakethings.com/joining-nebula/"
+            },
+            {
+              "title": "Buildless testing",
+              "date": "2024-12-06",
+              "link": "https://gomakethings.com/buildless-testing/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2024-12-12",
+              "link": "https://dbushell.com/notes/2024-12-12T09:17Z/"
+            },
+            {
+              "date": "2024-12-12",
+              "link": "https://dbushell.com/notes/2024-12-12T06:54Z/"
+            },
+            {
+              "date": "2024-12-09",
+              "link": "https://dbushell.com/notes/2024-12-09T07:43Z/"
+            },
+            {
+              "date": "2024-12-08",
+              "link": "https://dbushell.com/notes/2024-12-08T07:06Z/"
+            },
+            {
+              "date": "2024-12-07",
+              "link": "https://dbushell.com/notes/2024-12-07T08:28Z/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
+            {
+              "title": "Expect obstacles",
+              "date": "2024-12-12",
+              "link": "https://anniemueller.com/posts/expect-obstacles"
+            },
             {
               "title": "Emotional buffer zone",
               "date": "2024-12-12",
@@ -26,11 +181,6 @@
               "title": "Practice by doing",
               "date": "2024-12-09",
               "link": "https://anniemueller.com/posts/practice-by-doing"
-            },
-            {
-              "title": "Joy is in the doing",
-              "date": "2024-12-03",
-              "link": "https://anniemueller.com/posts/joy-is-in-the-doing"
             }
           ]
         },
@@ -62,37 +212,6 @@
               "title": "Listicle on Flow and Teamwork",
               "date": "2024-02-27",
               "link": "http://agileotter.blogspot.com/2024/02/listicle-on-flow-and-teamwork.html"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "How to actually write unit tests",
-              "date": "2024-12-11",
-              "link": "https://gomakethings.com/how-to-actually-write-unit-tests/"
-            },
-            {
-              "title": "An overview of JavaScript testing",
-              "date": "2024-12-10",
-              "link": "https://gomakethings.com/an-overview-of-javascript-testing/"
-            },
-            {
-              "title": "Joining Nebula",
-              "date": "2024-12-09",
-              "link": "https://gomakethings.com/joining-nebula/"
-            },
-            {
-              "title": "Buildless testing",
-              "date": "2024-12-06",
-              "link": "https://gomakethings.com/buildless-testing/"
-            },
-            {
-              "title": "The code complexity journey",
-              "date": "2024-12-05",
-              "link": "https://gomakethings.com/the-code-complexity-journey/"
             }
           ]
         },
@@ -163,9 +282,9 @@
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
             {
-              "title": "Stroustrop's Rule",
+              "title": "Stroustrup's Rule",
               "date": "2024-12-11",
-              "link": "https://buttondown.com/hillelwayne/archive/stroustrops-rule/"
+              "link": "https://buttondown.com/hillelwayne/archive/stroustrups-rule/"
             },
             {
               "title": "Hyperproperties",
@@ -283,37 +402,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Interim note 1: tech",
-              "date": "2024-12-09",
-              "link": "https://www.baldurbjarnason.com/notes/2024/interim-1/"
-            },
-            {
-              "title": "Let's pause for a moment, I need time to think",
-              "date": "2024-12-05",
-              "link": "https://www.baldurbjarnason.com/notes/2024/pause-for-a-moment/"
-            },
-            {
-              "title": "Photos (2 December 2024)",
-              "date": "2024-12-02",
-              "link": "https://www.baldurbjarnason.com/notes/photos/photos-13/"
-            },
-            {
-              "title": "Links (2 December 2024)",
-              "date": "2024-12-02",
-              "link": "https://www.baldurbjarnason.com/notes/2024/links-43/"
-            },
-            {
-              "title": "Photos (29 November 2024)",
-              "date": "2024-11-29",
-              "link": "https://www.baldurbjarnason.com/notes/photos/photos-12/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -345,33 +433,33 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
             {
-              "title": "Introducing o(m)g:image",
+              "title": "Interim note 1: tech",
               "date": "2024-12-09",
-              "link": "https://blog.jim-nielsen.com/2024/omgimg/"
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-1/"
             },
             {
-              "title": "Contrast Is Clarifying",
+              "title": "Let's pause for a moment, I need time to think",
+              "date": "2024-12-05",
+              "link": "https://www.baldurbjarnason.com/notes/2024/pause-for-a-moment/"
+            },
+            {
+              "title": "Photos (2 December 2024)",
               "date": "2024-12-02",
-              "link": "https://blog.jim-nielsen.com/2024/contrast-is-clarifying/"
+              "link": "https://www.baldurbjarnason.com/notes/photos/photos-13/"
             },
             {
-              "title": "Nothing Is Something",
-              "date": "2024-11-27",
-              "link": "https://blog.jim-nielsen.com/2024/nothing-is-something/"
+              "title": "Links (2 December 2024)",
+              "date": "2024-12-02",
+              "link": "https://www.baldurbjarnason.com/notes/2024/links-43/"
             },
             {
-              "title": "Nabbing macOS Icon Artwork",
-              "date": "2024-11-24",
-              "link": "https://blog.jim-nielsen.com/2024/nabbing-macos-icons/"
-            },
-            {
-              "title": "Captchas Turned Notification Exploits",
-              "date": "2024-11-20",
-              "link": "https://blog.jim-nielsen.com/2024/bad-captchas/"
+              "title": "Photos (29 November 2024)",
+              "date": "2024-11-29",
+              "link": "https://www.baldurbjarnason.com/notes/photos/photos-12/"
             }
           ]
         },
@@ -434,32 +522,6 @@
               "title": "Crafting Visual Art with CSS Custom Properties",
               "date": "2024-10-03",
               "link": "https://thathtml.blog/2024/10/visual-art-with-custom-properties/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2024-12-09",
-              "link": "https://dbushell.com/notes/2024-12-09T07:43Z/"
-            },
-            {
-              "date": "2024-12-08",
-              "link": "https://dbushell.com/notes/2024-12-08T07:06Z/"
-            },
-            {
-              "date": "2024-12-07",
-              "link": "https://dbushell.com/notes/2024-12-07T08:28Z/"
-            },
-            {
-              "date": "2024-12-06",
-              "link": "https://dbushell.com/notes/2024-12-06T08:14Z/"
-            },
-            {
-              "date": "2024-12-05",
-              "link": "https://dbushell.com/notes/2024-12-05T06:29Z/"
             }
           ]
         },
@@ -588,37 +650,6 @@
           ]
         },
         {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "DSQL Vignette: Wait! Isn't That Impossible?",
-              "date": "2024-12-06",
-              "link": "http://brooker.co.za/blog/2024/12/06/inside-dsql-cap.html"
-            },
-            {
-              "title": "DSQL Vignette: Transactions and Durability",
-              "date": "2024-12-05",
-              "link": "http://brooker.co.za/blog/2024/12/05/inside-dsql-writes.html"
-            },
-            {
-              "title": "DSQL Vignette: Reads and Compute",
-              "date": "2024-12-04",
-              "link": "http://brooker.co.za/blog/2024/12/04/inside-dsql.html"
-            },
-            {
-              "title": "DSQL Vignette: Aurora DSQL, and A Personal Story",
-              "date": "2024-12-03",
-              "link": "http://brooker.co.za/blog/2024/12/03/aurora-dsql.html"
-            },
-            {
-              "title": "Ten Years of AWS Lambda",
-              "date": "2024-11-14",
-              "link": "http://brooker.co.za/blog/2024/11/14/lambda-ten-years.html"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -646,6 +677,37 @@
               "title": "Recently",
               "date": "2024-08-01",
               "link": "https://macwright.com/2024/08/01/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "DSQL Vignette: Wait! Isn't That Impossible?",
+              "date": "2024-12-06",
+              "link": "http://brooker.co.za/blog/2024/12/06/inside-dsql-cap.html"
+            },
+            {
+              "title": "DSQL Vignette: Transactions and Durability",
+              "date": "2024-12-05",
+              "link": "http://brooker.co.za/blog/2024/12/05/inside-dsql-writes.html"
+            },
+            {
+              "title": "DSQL Vignette: Reads and Compute",
+              "date": "2024-12-04",
+              "link": "http://brooker.co.za/blog/2024/12/04/inside-dsql.html"
+            },
+            {
+              "title": "DSQL Vignette: Aurora DSQL, and A Personal Story",
+              "date": "2024-12-03",
+              "link": "http://brooker.co.za/blog/2024/12/03/aurora-dsql.html"
+            },
+            {
+              "title": "Ten Years of AWS Lambda",
+              "date": "2024-11-14",
+              "link": "http://brooker.co.za/blog/2024/11/14/lambda-ten-years.html"
             }
           ]
         },
@@ -760,37 +822,6 @@
               "title": "Generalities",
               "date": "2024-11-06",
               "link": "https://garoof.no/notes/generalities.html"
-            }
-          ]
-        },
-        {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Monthly Recap: November 2024",
-              "date": "2024-12-03",
-              "link": "https://flamedfury.com/posts/monthly-recap-november-2024/"
-            },
-            {
-              "title": "What If Encore Never Leaked?",
-              "date": "2024-11-13",
-              "link": "https://flamedfury.com/posts/what-if-encore-never-leaked/"
-            },
-            {
-              "title": "How Do I IndieWeb?",
-              "date": "2024-11-08",
-              "link": "https://flamedfury.com/posts/how-do-i-indieweb/"
-            },
-            {
-              "title": "Apple AirPods 4",
-              "date": "2024-11-06",
-              "link": "https://flamedfury.com/posts/apple-airpods-4/"
-            },
-            {
-              "title": "Monthly Recap: October 2024",
-              "date": "2024-10-31",
-              "link": "https://flamedfury.com/posts/monthly-recap-october-2024/"
             }
           ]
         },
@@ -946,37 +977,6 @@
               "title": "Reckoning: Part 2 — Object Lesson",
               "date": "2024-08-13",
               "link": "https://infrequently.org/2024/08/object-lesson/"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Why pipes sometimes get \"stuck\": buffering",
-              "date": "2024-11-29",
-              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
-            },
-            {
-              "title": "Importing a frontend Javascript library without a build system",
-              "date": "2024-11-18",
-              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
-            },
-            {
-              "title": "New microblog with TILs",
-              "date": "2024-11-09",
-              "link": "https://jvns.ca/blog/2024/11/09/new-microblog/"
-            },
-            {
-              "title": "ASCII control characters in my terminal",
-              "date": "2024-10-31",
-              "link": "https://jvns.ca/blog/2024/10/31/ascii-control-characters/"
-            },
-            {
-              "title": "Using less memory to look up IP addresses in Mess With DNS",
-              "date": "2024-10-27",
-              "link": "https://jvns.ca/blog/2024/10/27/asn-ip-address-memory/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-12T03:32:36.407Z",
+  "fetchDate": "2024-12-13T03:33:27.115Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

@@ -4,9 +4,133 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Interim note 2: business thoughts",
+              "date": "2024-12-13",
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-2/"
+            },
+            {
+              "title": "Interim note 1: tech",
+              "date": "2024-12-09",
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-1/"
+            },
+            {
+              "title": "Let's pause for a moment, I need time to think",
+              "date": "2024-12-05",
+              "link": "https://www.baldurbjarnason.com/notes/2024/pause-for-a-moment/"
+            },
+            {
+              "title": "Photos (2 December 2024)",
+              "date": "2024-12-02",
+              "link": "https://www.baldurbjarnason.com/notes/photos/photos-13/"
+            },
+            {
+              "title": "Links (2 December 2024)",
+              "date": "2024-12-02",
+              "link": "https://www.baldurbjarnason.com/notes/2024/links-43/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "TDD for JavaScript with buildless Mocha and Chai",
+              "date": "2024-12-13",
+              "link": "https://gomakethings.com/tdd-for-javascript-with-buildless-mocha-and-chai/"
+            },
+            {
+              "title": "Organizing JavaScript tests",
+              "date": "2024-12-12",
+              "link": "https://gomakethings.com/organizing-javascript-tests/"
+            },
+            {
+              "title": "How to actually write unit tests",
+              "date": "2024-12-11",
+              "link": "https://gomakethings.com/how-to-actually-write-unit-tests/"
+            },
+            {
+              "title": "An overview of JavaScript testing",
+              "date": "2024-12-10",
+              "link": "https://gomakethings.com/an-overview-of-javascript-testing/"
+            },
+            {
+              "title": "Joining Nebula",
+              "date": "2024-12-09",
+              "link": "https://gomakethings.com/joining-nebula/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2024-12-13",
+              "link": "https://dbushell.com/notes/2024-12-13T14:22Z/"
+            },
+            {
+              "date": "2024-12-12",
+              "link": "https://dbushell.com/notes/2024-12-12T09:17Z/"
+            },
+            {
+              "date": "2024-12-12",
+              "link": "https://dbushell.com/notes/2024-12-12T06:54Z/"
+            },
+            {
+              "date": "2024-12-09",
+              "link": "https://dbushell.com/notes/2024-12-09T07:43Z/"
+            },
+            {
+              "date": "2024-12-08",
+              "link": "https://dbushell.com/notes/2024-12-08T07:06Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "I will trade you this muddy shitball for that shiny marble",
+              "date": "2024-12-13",
+              "link": "https://anniemueller.com/posts/i-will-trade-you-this-muddy-shitball-for-that-shiny-marble"
+            },
+            {
+              "title": "Expect obstacles",
+              "date": "2024-12-12",
+              "link": "https://anniemueller.com/posts/expect-obstacles"
+            },
+            {
+              "title": "Emotional buffer zone",
+              "date": "2024-12-12",
+              "link": "https://anniemueller.com/posts/emotional-buffer-zone"
+            },
+            {
+              "title": "Love your body (of work)",
+              "date": "2024-12-10",
+              "link": "https://anniemueller.com/posts/love-your-body-of-work"
+            },
+            {
+              "title": "If you feel okay, feel okay",
+              "date": "2024-12-09",
+              "link": "https://anniemueller.com/posts/if-you-feel-okay-feel-okay"
+            }
+          ]
+        },
+        {
           "title": "The Weblog of fLaMEd",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
+            {
+              "title": "Twisted Metal (2023)",
+              "date": "2024-12-13",
+              "link": "https://flamedfury.com/posts/twisted-metal-2023/"
+            },
             {
               "title": "New Music Friday #3",
               "date": "2024-12-13",
@@ -26,11 +150,6 @@
               "title": "How Do I IndieWeb?",
               "date": "2024-11-08",
               "link": "https://flamedfury.com/posts/how-do-i-indieweb/"
-            },
-            {
-              "title": "Apple AirPods 4",
-              "date": "2024-11-06",
-              "link": "https://flamedfury.com/posts/apple-airpods-4/"
             }
           ]
         },
@@ -93,94 +212,6 @@
               "title": "Nabbing macOS Icon Artwork",
               "date": "2024-11-24",
               "link": "https://blog.jim-nielsen.com/2024/nabbing-macos-icons/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Organizing JavaScript tests",
-              "date": "2024-12-12",
-              "link": "https://gomakethings.com/organizing-javascript-tests/"
-            },
-            {
-              "title": "How to actually write unit tests",
-              "date": "2024-12-11",
-              "link": "https://gomakethings.com/how-to-actually-write-unit-tests/"
-            },
-            {
-              "title": "An overview of JavaScript testing",
-              "date": "2024-12-10",
-              "link": "https://gomakethings.com/an-overview-of-javascript-testing/"
-            },
-            {
-              "title": "Joining Nebula",
-              "date": "2024-12-09",
-              "link": "https://gomakethings.com/joining-nebula/"
-            },
-            {
-              "title": "Buildless testing",
-              "date": "2024-12-06",
-              "link": "https://gomakethings.com/buildless-testing/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2024-12-12",
-              "link": "https://dbushell.com/notes/2024-12-12T09:17Z/"
-            },
-            {
-              "date": "2024-12-12",
-              "link": "https://dbushell.com/notes/2024-12-12T06:54Z/"
-            },
-            {
-              "date": "2024-12-09",
-              "link": "https://dbushell.com/notes/2024-12-09T07:43Z/"
-            },
-            {
-              "date": "2024-12-08",
-              "link": "https://dbushell.com/notes/2024-12-08T07:06Z/"
-            },
-            {
-              "date": "2024-12-07",
-              "link": "https://dbushell.com/notes/2024-12-07T08:28Z/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Expect obstacles",
-              "date": "2024-12-12",
-              "link": "https://anniemueller.com/posts/expect-obstacles"
-            },
-            {
-              "title": "Emotional buffer zone",
-              "date": "2024-12-12",
-              "link": "https://anniemueller.com/posts/emotional-buffer-zone"
-            },
-            {
-              "title": "Love your body (of work)",
-              "date": "2024-12-10",
-              "link": "https://anniemueller.com/posts/love-your-body-of-work"
-            },
-            {
-              "title": "If you feel okay, feel okay",
-              "date": "2024-12-09",
-              "link": "https://anniemueller.com/posts/if-you-feel-okay-feel-okay"
-            },
-            {
-              "title": "Practice by doing",
-              "date": "2024-12-09",
-              "link": "https://anniemueller.com/posts/practice-by-doing"
             }
           ]
         },
@@ -433,37 +464,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Interim note 1: tech",
-              "date": "2024-12-09",
-              "link": "https://www.baldurbjarnason.com/notes/2024/interim-1/"
-            },
-            {
-              "title": "Let's pause for a moment, I need time to think",
-              "date": "2024-12-05",
-              "link": "https://www.baldurbjarnason.com/notes/2024/pause-for-a-moment/"
-            },
-            {
-              "title": "Photos (2 December 2024)",
-              "date": "2024-12-02",
-              "link": "https://www.baldurbjarnason.com/notes/photos/photos-13/"
-            },
-            {
-              "title": "Links (2 December 2024)",
-              "date": "2024-12-02",
-              "link": "https://www.baldurbjarnason.com/notes/2024/links-43/"
-            },
-            {
-              "title": "Photos (29 November 2024)",
-              "date": "2024-11-29",
-              "link": "https://www.baldurbjarnason.com/notes/photos/photos-12/"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -650,37 +650,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Bandcamp wrapped",
-              "date": "2024-12-06",
-              "link": "https://macwright.com/2024/12/06/bandcamp-wrapped.html"
-            },
-            {
-              "title": "Recently: Cycling and Autumn",
-              "date": "2024-11-03",
-              "link": "https://macwright.com/2024/11/03/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2024-10-01",
-              "link": "https://macwright.com/2024/10/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2024-09-05",
-              "link": "https://macwright.com/2024/09/05/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2024-08-01",
-              "link": "https://macwright.com/2024/08/01/recently.html"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -708,6 +677,37 @@
               "title": "Ten Years of AWS Lambda",
               "date": "2024-11-14",
               "link": "http://brooker.co.za/blog/2024/11/14/lambda-ten-years.html"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Bandcamp wrapped",
+              "date": "2024-12-06",
+              "link": "https://macwright.com/2024/12/06/bandcamp-wrapped.html"
+            },
+            {
+              "title": "Recently: Cycling and Autumn",
+              "date": "2024-11-03",
+              "link": "https://macwright.com/2024/11/03/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2024-10-01",
+              "link": "https://macwright.com/2024/10/01/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2024-09-05",
+              "link": "https://macwright.com/2024/09/05/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2024-08-01",
+              "link": "https://macwright.com/2024/08/01/recently.html"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-13T03:33:27.115Z",
+  "fetchDate": "2024-12-14T03:28:22.065Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently 2024",
+              "date": "2024-12-15",
+              "link": "https://macwright.com/2024/12/15/recently.html"
+            },
+            {
+              "title": "Bandcamp wrapped",
+              "date": "2024-12-06",
+              "link": "https://macwright.com/2024/12/06/bandcamp-wrapped.html"
+            },
+            {
+              "title": "Recently: Cycling and Autumn",
+              "date": "2024-11-03",
+              "link": "https://macwright.com/2024/11/03/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2024-10-01",
+              "link": "https://macwright.com/2024/10/01/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2024-09-05",
+              "link": "https://macwright.com/2024/09/05/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
+          "items": [
+            {
+              "title": "The nine skills of exploratory testing",
+              "date": "2024-12-14",
+              "link": "https://smallsheds.garden/blog/2024/the-nine-skills-of-exploratory-testing/"
+            },
+            {
+              "title": "Being intentional about exploratory testing",
+              "date": "2024-11-08",
+              "link": "https://smallsheds.garden/blog/2024/being-intentional-about-exploratory-testing/"
+            },
+            {
+              "title": "The Fluxx ensemble exercise",
+              "date": "2024-10-12",
+              "link": "https://smallsheds.garden/blog/2024/the-fluxx-ensemble-exercise/"
+            },
+            {
+              "title": "What do you fix when you fix a test?",
+              "date": "2024-08-24",
+              "link": "https://smallsheds.garden/blog/2024/what-do-you-fix-when-you-fix-a-test/"
+            },
+            {
+              "title": "The difference between a test case and a requirement is the moment of discovery",
+              "date": "2024-05-26",
+              "link": "https://smallsheds.garden/blog/2024/the-difference-between-a-test-case-and-a-requirement-is-the-moment-of-discovery/"
+            }
+          ]
+        },
+        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -92,37 +154,6 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "I will trade you this muddy shitball for that shiny marble",
-              "date": "2024-12-13",
-              "link": "https://anniemueller.com/posts/i-will-trade-you-this-muddy-shitball-for-that-shiny-marble"
-            },
-            {
-              "title": "Expect obstacles",
-              "date": "2024-12-12",
-              "link": "https://anniemueller.com/posts/expect-obstacles"
-            },
-            {
-              "title": "Emotional buffer zone",
-              "date": "2024-12-12",
-              "link": "https://anniemueller.com/posts/emotional-buffer-zone"
-            },
-            {
-              "title": "Love your body (of work)",
-              "date": "2024-12-10",
-              "link": "https://anniemueller.com/posts/love-your-body-of-work"
-            },
-            {
-              "title": "If you feel okay, feel okay",
-              "date": "2024-12-09",
-              "link": "https://anniemueller.com/posts/if-you-feel-okay-feel-okay"
-            }
-          ]
-        },
-        {
           "title": "The Weblog of fLaMEd",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -150,6 +181,37 @@
               "title": "How Do I IndieWeb?",
               "date": "2024-11-08",
               "link": "https://flamedfury.com/posts/how-do-i-indieweb/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "I will trade you this muddy shitball for that shiny marble",
+              "date": "2024-12-13",
+              "link": "https://anniemueller.com/posts/i-will-trade-you-this-muddy-shitball-for-that-shiny-marble"
+            },
+            {
+              "title": "Expect obstacles",
+              "date": "2024-12-12",
+              "link": "https://anniemueller.com/posts/expect-obstacles"
+            },
+            {
+              "title": "Emotional buffer zone",
+              "date": "2024-12-12",
+              "link": "https://anniemueller.com/posts/emotional-buffer-zone"
+            },
+            {
+              "title": "Love your body (of work)",
+              "date": "2024-12-10",
+              "link": "https://anniemueller.com/posts/love-your-body-of-work"
+            },
+            {
+              "title": "If you feel okay, feel okay",
+              "date": "2024-12-09",
+              "link": "https://anniemueller.com/posts/if-you-feel-okay-feel-okay"
             }
           ]
         },
@@ -681,42 +743,11 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Bandcamp wrapped",
-              "date": "2024-12-06",
-              "link": "https://macwright.com/2024/12/06/bandcamp-wrapped.html"
-            },
-            {
-              "title": "Recently: Cycling and Autumn",
-              "date": "2024-11-03",
-              "link": "https://macwright.com/2024/11/03/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2024-10-01",
-              "link": "https://macwright.com/2024/10/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2024-09-05",
-              "link": "https://macwright.com/2024/09/05/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2024-08-01",
-              "link": "https://macwright.com/2024/08/01/recently.html"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
             {
-              "title": "AI is not Designed for You",
+              "title": "Who Is AI For?",
               "date": "2024-12-06",
               "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
             },
@@ -1411,37 +1442,6 @@
               "title": "a11y-syntax-highlighting has been updated",
               "date": "2024-09-09",
               "link": "https://ericwbailey.website/published/a11y-syntax-highlighting-has-been-updated/"
-            }
-          ]
-        },
-        {
-          "title": "Joep Schuurkes",
-          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
-          "items": [
-            {
-              "title": "Being intentional about exploratory testing",
-              "date": "2024-11-08",
-              "link": "https://smallsheds.garden/blog/2024/being-intentional-about-exploratory-testing/"
-            },
-            {
-              "title": "The Fluxx ensemble exercise",
-              "date": "2024-10-12",
-              "link": "https://smallsheds.garden/blog/2024/the-fluxx-ensemble-exercise/"
-            },
-            {
-              "title": "What do you fix when you fix a test?",
-              "date": "2024-08-24",
-              "link": "https://smallsheds.garden/blog/2024/what-do-you-fix-when-you-fix-a-test/"
-            },
-            {
-              "title": "The difference between a test case and a requirement is the moment of discovery",
-              "date": "2024-05-26",
-              "link": "https://smallsheds.garden/blog/2024/the-difference-between-a-test-case-and-a-requirement-is-the-moment-of-discovery/"
-            },
-            {
-              "title": "Two short checklists for Scrum",
-              "date": "2024-05-08",
-              "link": "https://smallsheds.garden/blog/2024/two-short-checklists-for-scrum/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-15T03:35:26.775Z",
+  "fetchDate": "2024-12-16T03:35:39.987Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

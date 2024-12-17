@@ -4,6 +4,161 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The when and why of state-based UI",
+              "date": "2024-12-16",
+              "link": "https://gomakethings.com/the-when-and-why-of-state-based-ui/"
+            },
+            {
+              "title": "TDD for JavaScript with buildless Mocha and Chai",
+              "date": "2024-12-13",
+              "link": "https://gomakethings.com/tdd-for-javascript-with-buildless-mocha-and-chai/"
+            },
+            {
+              "title": "Organizing JavaScript tests",
+              "date": "2024-12-12",
+              "link": "https://gomakethings.com/organizing-javascript-tests/"
+            },
+            {
+              "title": "How to actually write unit tests",
+              "date": "2024-12-11",
+              "link": "https://gomakethings.com/how-to-actually-write-unit-tests/"
+            },
+            {
+              "title": "An overview of JavaScript testing",
+              "date": "2024-12-10",
+              "link": "https://gomakethings.com/an-overview-of-javascript-testing/"
+            }
+          ]
+        },
+        {
+          "title": "Jessitron",
+          "feedUrl": "https://jessitron.com/feed/",
+          "items": [
+            {
+              "title": "Productivity v Impact",
+              "date": "2024-12-16",
+              "link": "https://jessitron.com/2024/12/15/productivity-v-impact/"
+            },
+            {
+              "title": "Why is every startup’s website so darn useless?",
+              "date": "2024-12-08",
+              "link": "https://jessitron.com/2024/12/08/why-is-every-startups-website-so-darn-useless/"
+            },
+            {
+              "title": "Command vs Control",
+              "date": "2024-11-29",
+              "link": "https://jessitron.com/2024/11/29/command-vs-control/"
+            },
+            {
+              "title": "Communication Structures in a Growing Organization",
+              "date": "2024-11-25",
+              "link": "https://jessitron.com/2024/11/24/communication-structures-in-a-growing-organization/"
+            },
+            {
+              "title": "Who turns software into money? GTM",
+              "date": "2024-11-16",
+              "link": "https://jessitron.com/2024/11/16/who-turns-software-into-money-gtm/"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Advent of Dijkstra",
+              "date": "2024-12-16",
+              "link": "https://garoof.no/notes/aoc-dijkstra.html"
+            },
+            {
+              "title": "Advent of Lua",
+              "date": "2024-12-03",
+              "link": "https://garoof.no/notes/aoc-lua.html"
+            },
+            {
+              "title": "One more generalities example",
+              "date": "2024-11-15",
+              "link": "https://garoof.no/notes/generalities.html#pub-ZkDHFH"
+            },
+            {
+              "title": "RESTful Sokoban SPA to go",
+              "date": "2024-11-13",
+              "link": "https://garoof.no/notes/restful-sokoban-spa.html"
+            },
+            {
+              "title": "Some tweets",
+              "date": "2024-11-11",
+              "link": "https://garoof.no/notes/tweets.html"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Estimating projects sells them short (and that's okay)",
+              "date": "2024-12-16",
+              "link": "https://ntietz.com/blog/estimating-projects-short-sale/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Parsing MIDI messages in Rust",
+              "date": "2024-12-09",
+              "link": "https://ntietz.com/blog/parsing-midi-rust/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Evolving my ergonomic setup (or, my laptop with extra steps)",
+              "date": "2024-12-02",
+              "link": "https://ntietz.com/blog/evolving-ergo-setup/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Terminology isn't universal",
+              "date": "2024-11-25",
+              "link": "https://ntietz.com/blog/terminology-isnt-universal/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Using Talon in a game jam",
+              "date": "2024-11-18",
+              "link": "https://ntietz.com/blog/abusing-talon-eyetracker/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Making o(m)g:image, Part II: As Little JS As Possible",
+              "date": "2024-12-15",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-ii/"
+            },
+            {
+              "title": "Making o(m)g:image, Part I: Design Iterations",
+              "date": "2024-12-12",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-i/"
+            },
+            {
+              "title": "Introducing o(m)g:image",
+              "date": "2024-12-09",
+              "link": "https://blog.jim-nielsen.com/2024/omgimg/"
+            },
+            {
+              "title": "Contrast Is Clarifying",
+              "date": "2024-12-02",
+              "link": "https://blog.jim-nielsen.com/2024/contrast-is-clarifying/"
+            },
+            {
+              "title": "Nothing Is Something",
+              "date": "2024-11-27",
+              "link": "https://blog.jim-nielsen.com/2024/nothing-is-something/"
+            }
+          ]
+        },
+        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -93,37 +248,6 @@
               "title": "Links (2 December 2024)",
               "date": "2024-12-02",
               "link": "https://www.baldurbjarnason.com/notes/2024/links-43/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "TDD for JavaScript with buildless Mocha and Chai",
-              "date": "2024-12-13",
-              "link": "https://gomakethings.com/tdd-for-javascript-with-buildless-mocha-and-chai/"
-            },
-            {
-              "title": "Organizing JavaScript tests",
-              "date": "2024-12-12",
-              "link": "https://gomakethings.com/organizing-javascript-tests/"
-            },
-            {
-              "title": "How to actually write unit tests",
-              "date": "2024-12-11",
-              "link": "https://gomakethings.com/how-to-actually-write-unit-tests/"
-            },
-            {
-              "title": "An overview of JavaScript testing",
-              "date": "2024-12-10",
-              "link": "https://gomakethings.com/an-overview-of-javascript-testing/"
-            },
-            {
-              "title": "Joining Nebula",
-              "date": "2024-12-09",
-              "link": "https://gomakethings.com/joining-nebula/"
             }
           ]
         },
@@ -243,37 +367,6 @@
               "title": "ASCII control characters in my terminal",
               "date": "2024-10-31",
               "link": "https://jvns.ca/blog/2024/10/31/ascii-control-characters/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Making o(m)g:image Part I: Design Iterations",
-              "date": "2024-12-12",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-i/"
-            },
-            {
-              "title": "Introducing o(m)g:image",
-              "date": "2024-12-09",
-              "link": "https://blog.jim-nielsen.com/2024/omgimg/"
-            },
-            {
-              "title": "Contrast Is Clarifying",
-              "date": "2024-12-02",
-              "link": "https://blog.jim-nielsen.com/2024/contrast-is-clarifying/"
-            },
-            {
-              "title": "Nothing Is Something",
-              "date": "2024-11-27",
-              "link": "https://blog.jim-nielsen.com/2024/nothing-is-something/"
-            },
-            {
-              "title": "Nabbing macOS Icon Artwork",
-              "date": "2024-11-24",
-              "link": "https://blog.jim-nielsen.com/2024/nabbing-macos-icons/"
             }
           ]
         },
@@ -588,68 +681,6 @@
           ]
         },
         {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Parsing MIDI messages in Rust",
-              "date": "2024-12-09",
-              "link": "https://ntietz.com/blog/parsing-midi-rust/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Evolving my ergonomic setup (or, my laptop with extra steps)",
-              "date": "2024-12-02",
-              "link": "https://ntietz.com/blog/evolving-ergo-setup/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Terminology isn't universal",
-              "date": "2024-11-25",
-              "link": "https://ntietz.com/blog/terminology-isnt-universal/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Using Talon in a game jam",
-              "date": "2024-11-18",
-              "link": "https://ntietz.com/blog/abusing-talon-eyetracker/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Supporting coworkers, employees, and friends in this time",
-              "date": "2024-11-11",
-              "link": "https://ntietz.com/blog/supporting-friends-and-coworkers-in-this-time/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "Why is every startup’s website so darn useless?",
-              "date": "2024-12-08",
-              "link": "https://jessitron.com/2024/12/08/why-is-every-startups-website-so-darn-useless/"
-            },
-            {
-              "title": "Command vs Control",
-              "date": "2024-11-29",
-              "link": "https://jessitron.com/2024/11/29/command-vs-control/"
-            },
-            {
-              "title": "Communication Structures in a Growing Organization",
-              "date": "2024-11-25",
-              "link": "https://jessitron.com/2024/11/24/communication-structures-in-a-growing-organization/"
-            },
-            {
-              "title": "Who turns software into money? GTM",
-              "date": "2024-11-16",
-              "link": "https://jessitron.com/2024/11/16/who-turns-software-into-money-gtm/"
-            },
-            {
-              "title": "How hard can it be to buy software?",
-              "date": "2024-11-09",
-              "link": "https://jessitron.com/2024/11/09/how-hard-can-it-be-to-buy-software/"
-            }
-          ]
-        },
-        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -822,37 +853,6 @@
               "title": "Wunderbaum testing",
               "date": "2023-11-23",
               "link": "https://chocolatedrivendevelopment.com/2023/11/23/wunderbaum/"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Some Advent of Code Lua",
-              "date": "2024-12-03",
-              "link": "https://garoof.no/notes/aoc-lua.html"
-            },
-            {
-              "title": "One more generalities example",
-              "date": "2024-11-15",
-              "link": "https://garoof.no/notes/generalities.html#pub-ZkDHFH"
-            },
-            {
-              "title": "RESTful Sokoban SPA to go",
-              "date": "2024-11-13",
-              "link": "https://garoof.no/notes/restful-sokoban-spa.html"
-            },
-            {
-              "title": "Some tweets",
-              "date": "2024-11-11",
-              "link": "https://garoof.no/notes/tweets.html"
-            },
-            {
-              "title": "Generalities",
-              "date": "2024-11-06",
-              "link": "https://garoof.no/notes/generalities.html"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-16T03:35:39.987Z",
+  "fetchDate": "2024-12-17T03:30:56.701Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

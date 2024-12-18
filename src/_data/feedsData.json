@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "“Founder Mode” and the Art of Mythmaking",
+              "date": "2024-12-17",
+              "link": "https://charity.wtf/2024/12/17/founder-mode-and-the-art-of-mythmaking/"
+            },
+            {
+              "title": "How Hard Should Your Employer Work To Retain You?",
+              "date": "2024-10-11",
+              "link": "https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/"
+            },
+            {
+              "title": "Is It Time To Version Observability? (Signs Point To Yes)",
+              "date": "2024-08-07",
+              "link": "https://charity.wtf/2024/08/07/is-it-time-to-version-observability-signs-point-to-yes/"
+            },
+            {
+              "title": "Pragmatism, Neutrality and Leadership",
+              "date": "2024-07-24",
+              "link": "https://charity.wtf/2024/07/24/pragmatism-neutrality-and-leadership/"
+            },
+            {
+              "title": "Questionable Advice: “My boss says we don’t need any engineering managers. Is he right?”",
+              "date": "2024-01-05",
+              "link": "https://charity.wtf/2024/01/05/questionable-advice-my-boss-says-we-dont-need-any-engineering-managers-is-he-right/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Don't test implementation details",
+              "date": "2024-12-17",
+              "link": "https://gomakethings.com/dont-test-implementation-details/"
+            },
             {
               "title": "The when and why of state-based UI",
               "date": "2024-12-16",
@@ -26,11 +62,99 @@
               "title": "How to actually write unit tests",
               "date": "2024-12-11",
               "link": "https://gomakethings.com/how-to-actually-write-unit-tests/"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Snapshot Isolation vs Serializability",
+              "date": "2024-12-17",
+              "link": "http://brooker.co.za/blog/2024/12/17/occ-and-isolation.html"
             },
             {
-              "title": "An overview of JavaScript testing",
+              "title": "DSQL Vignette: Wait! Isn't That Impossible?",
+              "date": "2024-12-06",
+              "link": "http://brooker.co.za/blog/2024/12/06/inside-dsql-cap.html"
+            },
+            {
+              "title": "DSQL Vignette: Transactions and Durability",
+              "date": "2024-12-05",
+              "link": "http://brooker.co.za/blog/2024/12/05/inside-dsql-writes.html"
+            },
+            {
+              "title": "DSQL Vignette: Reads and Compute",
+              "date": "2024-12-04",
+              "link": "http://brooker.co.za/blog/2024/12/04/inside-dsql.html"
+            },
+            {
+              "title": "DSQL Vignette: Aurora DSQL, and A Personal Story",
+              "date": "2024-12-03",
+              "link": "http://brooker.co.za/blog/2024/12/03/aurora-dsql.html"
+            }
+          ]
+        },
+        {
+          "title": "A Tester's Journey",
+          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Contributing in New Ways - Finding Closure among New Opportunities",
+              "date": "2024-12-17",
+              "link": "https://www.lisihocke.com/2024/12/contributing-in-new-ways-finding-closure-among-new-opportunities.html"
+            },
+            {
+              "title": "Agile Testing Days 2024 - Reunion for Quality",
+              "date": "2024-12-07",
+              "link": "https://www.lisihocke.com/2024/12/agile-testing-days-2024-reunion-for-quality.html"
+            },
+            {
+              "title": "BSides Munich 2024 - We Belong",
+              "date": "2024-11-15",
+              "link": "https://www.lisihocke.com/2024/11/bsides-munich-2024-we-belong.html"
+            },
+            {
+              "title": "Open Security Conference 2024 - A Memorable Beginning",
+              "date": "2024-10-08",
+              "link": "https://www.lisihocke.com/2024/10/open-security-conference-2024-a-memorable-beginning.html"
+            },
+            {
+              "title": "SoCraTes 2024 - A Community to Grow With",
+              "date": "2024-09-02",
+              "link": "https://www.lisihocke.com/2024/09/socrates-2024-a-community-to-grow-with.html"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Retrospective, financial",
+              "date": "2024-12-17",
+              "link": "https://anniemueller.com/posts/retrospective-financial"
+            },
+            {
+              "title": "I will trade you this muddy shitball for that shiny marble",
+              "date": "2024-12-13",
+              "link": "https://anniemueller.com/posts/i-will-trade-you-this-muddy-shitball-for-that-shiny-marble"
+            },
+            {
+              "title": "Expect obstacles",
+              "date": "2024-12-12",
+              "link": "https://anniemueller.com/posts/expect-obstacles"
+            },
+            {
+              "title": "Emotional buffer zone",
+              "date": "2024-12-12",
+              "link": "https://anniemueller.com/posts/emotional-buffer-zone"
+            },
+            {
+              "title": "Love your body (of work)",
               "date": "2024-12-10",
-              "link": "https://gomakethings.com/an-overview-of-javascript-testing/"
+              "link": "https://anniemueller.com/posts/love-your-body-of-work"
             }
           ]
         },
@@ -305,37 +429,6 @@
               "title": "How Do I IndieWeb?",
               "date": "2024-11-08",
               "link": "https://flamedfury.com/posts/how-do-i-indieweb/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "I will trade you this muddy shitball for that shiny marble",
-              "date": "2024-12-13",
-              "link": "https://anniemueller.com/posts/i-will-trade-you-this-muddy-shitball-for-that-shiny-marble"
-            },
-            {
-              "title": "Expect obstacles",
-              "date": "2024-12-12",
-              "link": "https://anniemueller.com/posts/expect-obstacles"
-            },
-            {
-              "title": "Emotional buffer zone",
-              "date": "2024-12-12",
-              "link": "https://anniemueller.com/posts/emotional-buffer-zone"
-            },
-            {
-              "title": "Love your body (of work)",
-              "date": "2024-12-10",
-              "link": "https://anniemueller.com/posts/love-your-body-of-work"
-            },
-            {
-              "title": "If you feel okay, feel okay",
-              "date": "2024-12-09",
-              "link": "https://anniemueller.com/posts/if-you-feel-okay-feel-okay"
             }
           ]
         },
@@ -650,6 +743,37 @@
           ]
         },
         {
+          "title": "Hazel Weakly",
+          "feedUrl": "https://hazelweakly.me/atom.xml",
+          "items": [
+            {
+              "title": "The Future of Observability: Observability 3.0",
+              "date": "2024-12-09",
+              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
+            },
+            {
+              "title": "You Have One Voice",
+              "date": "2024-10-21",
+              "link": "https://hazelweakly.me/blog/you-have-one-voice/"
+            },
+            {
+              "title": "OpenTelemetry Challenges: Handling Long-Running Spans",
+              "date": "2024-10-10",
+              "link": "https://hazelweakly.me/blog/opentelemetry-challenges-handling-long-running-spans/"
+            },
+            {
+              "title": "The 4 Evolutions of Your Observability Journey",
+              "date": "2024-10-03",
+              "link": "https://hazelweakly.me/blog/the-four-evolutions-of-your-observability-journey/"
+            },
+            {
+              "title": "Cache Me Not, Cache Me, Cache Me Not",
+              "date": "2024-09-19",
+              "link": "https://hazelweakly.me/blog/cache-me-not-cache-me-cache-me-not/"
+            }
+          ]
+        },
+        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -712,73 +836,11 @@
           ]
         },
         {
-          "title": "A Tester's Journey",
-          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Agile Testing Days 2024 - Reunion for Quality",
-              "date": "2024-12-07",
-              "link": "https://www.lisihocke.com/2024/12/agile-testing-days-2024-reunion-for-quality.html"
-            },
-            {
-              "title": "BSides Munich 2024 - We Belong",
-              "date": "2024-11-15",
-              "link": "https://www.lisihocke.com/2024/11/bsides-munich-2024-we-belong.html"
-            },
-            {
-              "title": "Open Security Conference 2024 - A Memorable Beginning",
-              "date": "2024-10-08",
-              "link": "https://www.lisihocke.com/2024/10/open-security-conference-2024-a-memorable-beginning.html"
-            },
-            {
-              "title": "SoCraTes 2024 - A Community to Grow With",
-              "date": "2024-09-02",
-              "link": "https://www.lisihocke.com/2024/09/socrates-2024-a-community-to-grow-with.html"
-            },
-            {
-              "title": "Contributing in New Ways - Getting over the Hump",
-              "date": "2024-08-15",
-              "link": "https://www.lisihocke.com/2024/08/contributing-in-new-ways-getting-over-the-hump.html"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "DSQL Vignette: Wait! Isn't That Impossible?",
-              "date": "2024-12-06",
-              "link": "http://brooker.co.za/blog/2024/12/06/inside-dsql-cap.html"
-            },
-            {
-              "title": "DSQL Vignette: Transactions and Durability",
-              "date": "2024-12-05",
-              "link": "http://brooker.co.za/blog/2024/12/05/inside-dsql-writes.html"
-            },
-            {
-              "title": "DSQL Vignette: Reads and Compute",
-              "date": "2024-12-04",
-              "link": "http://brooker.co.za/blog/2024/12/04/inside-dsql.html"
-            },
-            {
-              "title": "DSQL Vignette: Aurora DSQL, and A Personal Story",
-              "date": "2024-12-03",
-              "link": "http://brooker.co.za/blog/2024/12/03/aurora-dsql.html"
-            },
-            {
-              "title": "Ten Years of AWS Lambda",
-              "date": "2024-11-14",
-              "link": "http://brooker.co.za/blog/2024/11/14/lambda-ten-years.html"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
             {
-              "title": "Who Is AI For?",
+              "title": "AI is not designed for you",
               "date": "2024-12-06",
               "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
             },
@@ -1570,37 +1632,6 @@
           ]
         },
         {
-          "title": "Hazel Weakly",
-          "feedUrl": "https://hazelweakly.me/atom.xml",
-          "items": [
-            {
-              "title": "You Have One Voice",
-              "date": "2024-10-21",
-              "link": "https://hazelweakly.me/blog/you-have-one-voice/"
-            },
-            {
-              "title": "OpenTelemetry Challenges: Handling Long-Running Spans",
-              "date": "2024-10-10",
-              "link": "https://hazelweakly.me/blog/opentelemetry-challenges-handling-long-running-spans/"
-            },
-            {
-              "title": "The 4 Evolutions of Your Observability Journey",
-              "date": "2024-10-03",
-              "link": "https://hazelweakly.me/blog/the-four-evolutions-of-your-observability-journey/"
-            },
-            {
-              "title": "Cache Me Not, Cache Me, Cache Me Not",
-              "date": "2024-09-19",
-              "link": "https://hazelweakly.me/blog/cache-me-not-cache-me-cache-me-not/"
-            },
-            {
-              "title": "Home Baked Abstractions, Store Bought Implementations",
-              "date": "2024-08-21",
-              "link": "https://hazelweakly.me/blog/home-baked-abstractions-store-bought-implementations/"
-            }
-          ]
-        },
-        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -1628,37 +1659,6 @@
               "title": "Why so fatalistic about AI?",
               "date": "2024-05-29",
               "link": "https://www.felienne.com/archives/8364"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "How Hard Should Your Employer Work To Retain You?",
-              "date": "2024-10-11",
-              "link": "https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/"
-            },
-            {
-              "title": "Is It Time To Version Observability? (Signs Point To Yes)",
-              "date": "2024-08-07",
-              "link": "https://charity.wtf/2024/08/07/is-it-time-to-version-observability-signs-point-to-yes/"
-            },
-            {
-              "title": "Pragmatism, Neutrality and Leadership",
-              "date": "2024-07-24",
-              "link": "https://charity.wtf/2024/07/24/pragmatism-neutrality-and-leadership/"
-            },
-            {
-              "title": "Questionable Advice: “My boss says we don’t need any engineering managers. Is he right?”",
-              "date": "2024-01-05",
-              "link": "https://charity.wtf/2024/01/05/questionable-advice-my-boss-says-we-dont-need-any-engineering-managers-is-he-right/"
-            },
-            {
-              "title": "Becoming An Engineering Manager Can Make You Better At Life And Relationships",
-              "date": "2023-12-15",
-              "link": "https://charity.wtf/2023/12/15/why-should-you-or-anyone-become-an-engineering-manager/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-17T03:30:56.701Z",
+  "fetchDate": "2024-12-18T03:26:44.913Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

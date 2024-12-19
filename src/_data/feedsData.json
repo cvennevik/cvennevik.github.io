@@ -4,6 +4,187 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "A formula for debugging (and asking for help)",
+              "date": "2024-12-18",
+              "link": "https://gomakethings.com/a-formula-for-debugging-and-asking-for-help/"
+            },
+            {
+              "title": "Don't test implementation details",
+              "date": "2024-12-17",
+              "link": "https://gomakethings.com/dont-test-implementation-details/"
+            },
+            {
+              "title": "The when and why of state-based UI",
+              "date": "2024-12-16",
+              "link": "https://gomakethings.com/the-when-and-why-of-state-based-ui/"
+            },
+            {
+              "title": "TDD for JavaScript with buildless Mocha and Chai",
+              "date": "2024-12-13",
+              "link": "https://gomakethings.com/tdd-for-javascript-with-buildless-mocha-and-chai/"
+            },
+            {
+              "title": "Organizing JavaScript tests",
+              "date": "2024-12-12",
+              "link": "https://gomakethings.com/organizing-javascript-tests/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Weblogging: Part 2",
+              "date": "2024-12-18",
+              "link": "https://dbushell.com/2024/12/18/weblogging-2/"
+            },
+            {
+              "title": "Weblogging: Part 1",
+              "date": "2024-12-09",
+              "link": "https://dbushell.com/2024/12/09/weblogging-1/"
+            },
+            {
+              "title": "Cool People Link to Text Fragments",
+              "date": "2024-12-05",
+              "link": "https://dbushell.com/2024/12/05/url-fragment-text-directives/"
+            },
+            {
+              "title": "Links Initiative",
+              "date": "2024-11-25",
+              "link": "https://dbushell.com/2024/11/25/links-initiative/"
+            },
+            {
+              "title": "Static Search with Pagefind",
+              "date": "2024-11-21",
+              "link": "https://dbushell.com/2024/11/21/static-search-page-find/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Making o(m)g:image, Part III: The HTML",
+              "date": "2024-12-18",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iii/"
+            },
+            {
+              "title": "Making o(m)g:image, Part II: As Little JS As Possible",
+              "date": "2024-12-15",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-ii/"
+            },
+            {
+              "title": "Making o(m)g:image, Part I: Design Iterations",
+              "date": "2024-12-12",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-i/"
+            },
+            {
+              "title": "Introducing o(m)g:image",
+              "date": "2024-12-09",
+              "link": "https://blog.jim-nielsen.com/2024/omgimg/"
+            },
+            {
+              "title": "Contrast Is Clarifying",
+              "date": "2024-12-02",
+              "link": "https://blog.jim-nielsen.com/2024/contrast-is-clarifying/"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Too many servers",
+              "date": "2024-12-18",
+              "link": "https://moonbase.lgbt/blog/too-many-servers/"
+            },
+            {
+              "title": "Operator transposition",
+              "date": "2024-11-30",
+              "link": "https://moonbase.lgbt/blog/operator-transposition/"
+            },
+            {
+              "title": "Biiiiiig stretch!",
+              "date": "2024-11-26",
+              "link": "https://moonbase.lgbt/blog/big-stretch/"
+            },
+            {
+              "title": "Mixed-type arithmetic in C",
+              "date": "2024-11-25",
+              "link": "https://moonbase.lgbt/blog/c-mixed-type-arithmetic/"
+            },
+            {
+              "title": "Honk!",
+              "date": "2024-11-23",
+              "link": "https://moonbase.lgbt/blog/honk/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2024-12-18",
+              "link": "https://dbushell.com/notes/2024-12-18T12:38Z/"
+            },
+            {
+              "date": "2024-12-13",
+              "link": "https://dbushell.com/notes/2024-12-13T14:22Z/"
+            },
+            {
+              "date": "2024-12-12",
+              "link": "https://dbushell.com/notes/2024-12-12T09:17Z/"
+            },
+            {
+              "date": "2024-12-12",
+              "link": "https://dbushell.com/notes/2024-12-12T06:54Z/"
+            },
+            {
+              "date": "2024-12-09",
+              "link": "https://dbushell.com/notes/2024-12-09T07:43Z/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Formally modeling dreidel, the sequel",
+              "date": "2024-12-18",
+              "link": "https://buttondown.com/hillelwayne/archive/formally-modeling-dreidel-the-sequel/"
+            },
+            {
+              "title": "Stroustrup's Rule",
+              "date": "2024-12-11",
+              "link": "https://buttondown.com/hillelwayne/archive/stroustrups-rule/"
+            },
+            {
+              "title": "Hyperproperties",
+              "date": "2024-11-19",
+              "link": "https://buttondown.com/hillelwayne/archive/hyperproperties/"
+            },
+            {
+              "title": "Five Unusual Raku Features",
+              "date": "2024-11-12",
+              "link": "https://buttondown.com/hillelwayne/archive/five-unusual-raku-features/"
+            },
+            {
+              "title": "A list of ternary operators",
+              "date": "2024-11-05",
+              "link": "https://buttondown.com/hillelwayne/archive/a-list-of-ternary-operators/"
+            }
+          ]
+        },
+        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -31,37 +212,6 @@
               "title": "Questionable Advice: “My boss says we don’t need any engineering managers. Is he right?”",
               "date": "2024-01-05",
               "link": "https://charity.wtf/2024/01/05/questionable-advice-my-boss-says-we-dont-need-any-engineering-managers-is-he-right/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Don't test implementation details",
-              "date": "2024-12-17",
-              "link": "https://gomakethings.com/dont-test-implementation-details/"
-            },
-            {
-              "title": "The when and why of state-based UI",
-              "date": "2024-12-16",
-              "link": "https://gomakethings.com/the-when-and-why-of-state-based-ui/"
-            },
-            {
-              "title": "TDD for JavaScript with buildless Mocha and Chai",
-              "date": "2024-12-13",
-              "link": "https://gomakethings.com/tdd-for-javascript-with-buildless-mocha-and-chai/"
-            },
-            {
-              "title": "Organizing JavaScript tests",
-              "date": "2024-12-12",
-              "link": "https://gomakethings.com/organizing-javascript-tests/"
-            },
-            {
-              "title": "How to actually write unit tests",
-              "date": "2024-12-11",
-              "link": "https://gomakethings.com/how-to-actually-write-unit-tests/"
             }
           ]
         },
@@ -252,37 +402,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Making o(m)g:image, Part II: As Little JS As Possible",
-              "date": "2024-12-15",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-ii/"
-            },
-            {
-              "title": "Making o(m)g:image, Part I: Design Iterations",
-              "date": "2024-12-12",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-i/"
-            },
-            {
-              "title": "Introducing o(m)g:image",
-              "date": "2024-12-09",
-              "link": "https://blog.jim-nielsen.com/2024/omgimg/"
-            },
-            {
-              "title": "Contrast Is Clarifying",
-              "date": "2024-12-02",
-              "link": "https://blog.jim-nielsen.com/2024/contrast-is-clarifying/"
-            },
-            {
-              "title": "Nothing Is Something",
-              "date": "2024-11-27",
-              "link": "https://blog.jim-nielsen.com/2024/nothing-is-something/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -372,32 +491,6 @@
               "title": "Links (2 December 2024)",
               "date": "2024-12-02",
               "link": "https://www.baldurbjarnason.com/notes/2024/links-43/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2024-12-13",
-              "link": "https://dbushell.com/notes/2024-12-13T14:22Z/"
-            },
-            {
-              "date": "2024-12-12",
-              "link": "https://dbushell.com/notes/2024-12-12T09:17Z/"
-            },
-            {
-              "date": "2024-12-12",
-              "link": "https://dbushell.com/notes/2024-12-12T06:54Z/"
-            },
-            {
-              "date": "2024-12-09",
-              "link": "https://dbushell.com/notes/2024-12-09T07:43Z/"
-            },
-            {
-              "date": "2024-12-08",
-              "link": "https://dbushell.com/notes/2024-12-08T07:06Z/"
             }
           ]
         },
@@ -557,37 +650,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Stroustrup's Rule",
-              "date": "2024-12-11",
-              "link": "https://buttondown.com/hillelwayne/archive/stroustrups-rule/"
-            },
-            {
-              "title": "Hyperproperties",
-              "date": "2024-11-19",
-              "link": "https://buttondown.com/hillelwayne/archive/hyperproperties/"
-            },
-            {
-              "title": "Five Unusual Raku Features",
-              "date": "2024-11-12",
-              "link": "https://buttondown.com/hillelwayne/archive/five-unusual-raku-features/"
-            },
-            {
-              "title": "A list of ternary operators",
-              "date": "2024-11-05",
-              "link": "https://buttondown.com/hillelwayne/archive/a-list-of-ternary-operators/"
-            },
-            {
-              "title": "TLA from first principles",
-              "date": "2024-10-22",
-              "link": "https://buttondown.com/hillelwayne/archive/tla-from-first-principles/"
-            }
-          ]
-        },
-        {
           "title": "Chelsea Troy",
           "feedUrl": "https://chelseatroy.com/feed/",
           "items": [
@@ -677,37 +739,6 @@
               "title": "If It’s Good, It’s Wonderful. If It’s Bad, It’s Experience (Newsletter)",
               "date": "2024-11-21",
               "link": "https://mikegrindle.com/newsletter/itm-5"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Weblogging: Part 1",
-              "date": "2024-12-09",
-              "link": "https://dbushell.com/2024/12/09/weblogging-1/"
-            },
-            {
-              "title": "Cool People Link to Text Fragments",
-              "date": "2024-12-05",
-              "link": "https://dbushell.com/2024/12/05/url-fragment-text-directives/"
-            },
-            {
-              "title": "Links Initiative",
-              "date": "2024-11-25",
-              "link": "https://dbushell.com/2024/11/25/links-initiative/"
-            },
-            {
-              "title": "Static Search with Pagefind",
-              "date": "2024-11-21",
-              "link": "https://dbushell.com/2024/11/21/static-search-page-find/"
-            },
-            {
-              "title": "Generate Open Graph Images with Playwright",
-              "date": "2024-11-15",
-              "link": "https://dbushell.com/2024/11/15/generate-open-graph-images-with-playwright/"
             }
           ]
         },
@@ -1008,37 +1039,6 @@
               "title": "Forced colors and Windows contrast themes",
               "date": "2024-05-16",
               "link": "https://fynn.be/talks/forced-colors-windows-contrast-themes/"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "Operator transposition",
-              "date": "2024-11-30",
-              "link": "https://moonbase.lgbt/blog/operator-transposition/"
-            },
-            {
-              "title": "Biiiiiig stretch!",
-              "date": "2024-11-26",
-              "link": "https://moonbase.lgbt/blog/big-stretch/"
-            },
-            {
-              "title": "Mixed-type arithmetic in C",
-              "date": "2024-11-25",
-              "link": "https://moonbase.lgbt/blog/c-mixed-type-arithmetic/"
-            },
-            {
-              "title": "Honk!",
-              "date": "2024-11-23",
-              "link": "https://moonbase.lgbt/blog/honk/"
-            },
-            {
-              "title": "The hardest problem is naming things",
-              "date": "2024-11-21",
-              "link": "https://moonbase.lgbt/blog/olympus-naming-things/"
             }
           ]
         },
@@ -1628,37 +1628,6 @@
               "title": "Everybody's Free (To Write Websites)",
               "date": "2024-07-16",
               "link": "https://sarajoy.dev/blog/write-websites/"
-            }
-          ]
-        },
-        {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "Paper: Feminism in Programming Language Design",
-              "date": "2024-10-17",
-              "link": "https://www.felienne.com/archives/8470"
-            },
-            {
-              "title": "Soon all UX will be a Skinner box",
-              "date": "2024-09-11",
-              "link": "https://www.felienne.com/archives/8440"
-            },
-            {
-              "title": "Why *not* to use LLMs in computer science education?",
-              "date": "2024-06-05",
-              "link": "https://www.felienne.com/archives/8392"
-            },
-            {
-              "title": "Why to use LLMs in computer science education?",
-              "date": "2024-06-03",
-              "link": "https://www.felienne.com/archives/8367"
-            },
-            {
-              "title": "Why so fatalistic about AI?",
-              "date": "2024-05-29",
-              "link": "https://www.felienne.com/archives/8364"
             }
           ]
         },
@@ -2523,9 +2492,10 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-18T03:26:44.913Z",
+  "fetchDate": "2024-12-19T03:27:13.790Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
-    "https://angryweasel.substack.com/feed"
+    "https://angryweasel.substack.com/feed",
+    "https://www.felienne.com/feed"
   ]
 }

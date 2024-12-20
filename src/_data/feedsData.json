@@ -4,33 +4,188 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
             {
-              "title": "A formula for debugging (and asking for help)",
+              "title": "GitHub’s updated Commits page and the interactive list component",
+              "date": "2024-12-20",
+              "link": "https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/"
+            },
+            {
+              "title": "Don’t forget to localize your icons",
+              "date": "2024-11-11",
+              "link": "https://ericwbailey.website/published/dont-forget-to-localize-your-icons/"
+            },
+            {
+              "title": "Making content-aware components using CSS’ <code>:has()</code>, grid, and quantity queries",
+              "date": "2024-09-28",
+              "link": "https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/"
+            },
+            {
+              "title": "Heading elements have been added to Project board views to improve screen reader page navigation",
+              "date": "2024-09-23",
+              "link": "https://github.blog/changelog/2024-09-23-heading-elements-added-to-project-board-views/"
+            },
+            {
+              "title": "Accessibility preference settings, information architecture, and internalized ableism",
+              "date": "2024-09-17",
+              "link": "https://ericwbailey.website/published/accessibility-preference-settings-information-architecture-and-internalized-ableism/"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Satisfying camera noises",
+              "date": "2024-12-20",
+              "link": "https://moonbase.lgbt/blog/satisfying-camera-noises/"
+            },
+            {
+              "title": "Too many servers",
               "date": "2024-12-18",
-              "link": "https://gomakethings.com/a-formula-for-debugging-and-asking-for-help/"
+              "link": "https://moonbase.lgbt/blog/too-many-servers/"
             },
             {
-              "title": "Don't test implementation details",
-              "date": "2024-12-17",
-              "link": "https://gomakethings.com/dont-test-implementation-details/"
+              "title": "Operator transposition",
+              "date": "2024-11-30",
+              "link": "https://moonbase.lgbt/blog/operator-transposition/"
             },
             {
-              "title": "The when and why of state-based UI",
-              "date": "2024-12-16",
-              "link": "https://gomakethings.com/the-when-and-why-of-state-based-ui/"
+              "title": "Biiiiiig stretch!",
+              "date": "2024-11-26",
+              "link": "https://moonbase.lgbt/blog/big-stretch/"
             },
             {
-              "title": "TDD for JavaScript with buildless Mocha and Chai",
+              "title": "Mixed-type arithmetic in C",
+              "date": "2024-11-25",
+              "link": "https://moonbase.lgbt/blog/c-mixed-type-arithmetic/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Interim note 3: text-based media in the age of showmanship",
+              "date": "2024-12-19",
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-3/"
+            },
+            {
+              "title": "Interim note 2: business thoughts",
               "date": "2024-12-13",
-              "link": "https://gomakethings.com/tdd-for-javascript-with-buildless-mocha-and-chai/"
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-2/"
             },
             {
-              "title": "Organizing JavaScript tests",
-              "date": "2024-12-12",
-              "link": "https://gomakethings.com/organizing-javascript-tests/"
+              "title": "Interim note 1: tech",
+              "date": "2024-12-09",
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-1/"
+            },
+            {
+              "title": "Let's pause for a moment, I need time to think",
+              "date": "2024-12-05",
+              "link": "https://www.baldurbjarnason.com/notes/2024/pause-for-a-moment/"
+            },
+            {
+              "title": "Photos (2 December 2024)",
+              "date": "2024-12-02",
+              "link": "https://www.baldurbjarnason.com/notes/photos/photos-13/"
+            }
+          ]
+        },
+        {
+          "title": "The Code Whisperer",
+          "feedUrl": "https://blog.thecodewhisperer.com/feed.xml",
+          "items": [
+            {
+              "title": "Saff Squeeze: Example 1",
+              "date": "2024-12-19",
+              "link": "https://blog.thecodewhisperer.com/permalink/saff-squeeze-example-1"
+            },
+            {
+              "title": "Refactoring Just Enough",
+              "date": "2024-06-21",
+              "link": "https://blog.thecodewhisperer.com/permalink/refactoring-just-enough"
+            },
+            {
+              "title": "TDD: You're Probably Doing It Just Fine",
+              "date": "2024-03-25",
+              "link": "https://blog.thecodewhisperer.com/permalink/tdd-youre-probably-doing-it-just-fine"
+            },
+            {
+              "title": "TDD: For Those Who Don't Know How to Design Software",
+              "date": "2024-01-08",
+              "link": "https://blog.thecodewhisperer.com/permalink/tdd-for-those-who-dont-know-how-to-design-software"
+            },
+            {
+              "title": "A Guard Clause Is Maybe a Tiny Parser",
+              "date": "2023-12-20",
+              "link": "https://blog.thecodewhisperer.com/permalink/a-guard-clause-is-maybe-a-tiny-parser"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Tailwind 4.0: a True “Mea Culpa” Moment",
+              "date": "2024-12-19",
+              "link": "https://thathtml.blog/2024/12/tailwind-4-a-mea-culpa-moment/"
+            },
+            {
+              "title": "Oh Happy Day! React Finally Speaks Web Components",
+              "date": "2024-12-09",
+              "link": "https://thathtml.blog/2024/12/oh-happy-day-react-finally-speaks-web-component/"
+            },
+            {
+              "title": "There’s a New Custom Element Superclass on the Block",
+              "date": "2024-12-04",
+              "link": "https://thathtml.blog/2024/12/new-custom-element-superclass-on-the-block/"
+            },
+            {
+              "title": "Minimal-JavaScript, Server-First Web Components with Declarative Shadow DOM",
+              "date": "2024-10-30",
+              "link": "https://thathtml.blog/2024/10/custom-elements-from-server-templates-with-htmx/"
+            },
+            {
+              "title": "And That’s a Wrap! Catching Up on Just a Spec Season 2",
+              "date": "2024-10-04",
+              "link": "https://thathtml.blog/2024/10/season-2-wrapped-for-just-a-spec/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Artemis",
+              "date": "2024-12-19",
+              "link": "https://artemis.jamesg.blog/"
+            },
+            {
+              "title": "Choo Choo World",
+              "date": "2024-12-11",
+              "link": "https://choochooworld.com"
+            },
+            {
+              "title": "Legends & Lattes",
+              "date": "2024-11-22",
+              "link": "https://frills.dev/blog/241122-legends-lattes/"
+            },
+            {
+              "title": "Fill up your cup",
+              "date": "2024-11-08",
+              "link": "https://frills.dev/blog/241108-fill-up-your-cup/"
+            },
+            {
+              "title": "Changelog –\n        1 Nov 2024\n      ",
+              "date": "2024-11-01",
+              "link": "https://frills.dev/changelog/241101/"
             }
           ]
         },
@@ -97,33 +252,33 @@
           ]
         },
         {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
-              "title": "Too many servers",
+              "title": "A formula for debugging (and asking for help)",
               "date": "2024-12-18",
-              "link": "https://moonbase.lgbt/blog/too-many-servers/"
+              "link": "https://gomakethings.com/a-formula-for-debugging-and-asking-for-help/"
             },
             {
-              "title": "Operator transposition",
-              "date": "2024-11-30",
-              "link": "https://moonbase.lgbt/blog/operator-transposition/"
+              "title": "Don't test implementation details",
+              "date": "2024-12-17",
+              "link": "https://gomakethings.com/dont-test-implementation-details/"
             },
             {
-              "title": "Biiiiiig stretch!",
-              "date": "2024-11-26",
-              "link": "https://moonbase.lgbt/blog/big-stretch/"
+              "title": "The when and why of state-based UI",
+              "date": "2024-12-16",
+              "link": "https://gomakethings.com/the-when-and-why-of-state-based-ui/"
             },
             {
-              "title": "Mixed-type arithmetic in C",
-              "date": "2024-11-25",
-              "link": "https://moonbase.lgbt/blog/c-mixed-type-arithmetic/"
+              "title": "TDD for JavaScript with buildless Mocha and Chai",
+              "date": "2024-12-13",
+              "link": "https://gomakethings.com/tdd-for-javascript-with-buildless-mocha-and-chai/"
             },
             {
-              "title": "Honk!",
-              "date": "2024-11-23",
-              "link": "https://moonbase.lgbt/blog/honk/"
+              "title": "Organizing JavaScript tests",
+              "date": "2024-12-12",
+              "link": "https://gomakethings.com/organizing-javascript-tests/"
             }
           ]
         },
@@ -464,37 +619,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Interim note 2: business thoughts",
-              "date": "2024-12-13",
-              "link": "https://www.baldurbjarnason.com/notes/2024/interim-2/"
-            },
-            {
-              "title": "Interim note 1: tech",
-              "date": "2024-12-09",
-              "link": "https://www.baldurbjarnason.com/notes/2024/interim-1/"
-            },
-            {
-              "title": "Let's pause for a moment, I need time to think",
-              "date": "2024-12-05",
-              "link": "https://www.baldurbjarnason.com/notes/2024/pause-for-a-moment/"
-            },
-            {
-              "title": "Photos (2 December 2024)",
-              "date": "2024-12-02",
-              "link": "https://www.baldurbjarnason.com/notes/photos/photos-13/"
-            },
-            {
-              "title": "Links (2 December 2024)",
-              "date": "2024-12-02",
-              "link": "https://www.baldurbjarnason.com/notes/2024/links-43/"
-            }
-          ]
-        },
-        {
           "title": "The Weblog of fLaMEd",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -615,37 +739,6 @@
               "title": "A Local-First Case Study",
               "date": "2024-10-01",
               "link": "https://jakelazaroff.com/words/a-local-first-case-study/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Choo Choo World",
-              "date": "2024-12-11",
-              "link": "https://choochooworld.com"
-            },
-            {
-              "title": "Legends & Lattes",
-              "date": "2024-11-22",
-              "link": "https://frills.dev/blog/241122-legends-lattes/"
-            },
-            {
-              "title": "Fill up your cup",
-              "date": "2024-11-08",
-              "link": "https://frills.dev/blog/241108-fill-up-your-cup/"
-            },
-            {
-              "title": "Changelog –\n        1 Nov 2024\n      ",
-              "date": "2024-11-01",
-              "link": "https://frills.dev/changelog/241101/"
-            },
-            {
-              "title": "Changelog –\n        2 Oct 2024\n      ",
-              "date": "2024-10-02",
-              "link": "https://frills.dev/changelog/241002/"
             }
           ]
         },
@@ -805,37 +898,6 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Oh Happy Day! React Finally Speaks Web Components",
-              "date": "2024-12-09",
-              "link": "https://thathtml.blog/2024/12/oh-happy-day-react-finally-speaks-web-component/"
-            },
-            {
-              "title": "There’s a New Custom Element Superclass on the Block",
-              "date": "2024-12-04",
-              "link": "https://thathtml.blog/2024/12/new-custom-element-superclass-on-the-block/"
-            },
-            {
-              "title": "Minimal-JavaScript, Server-First Web Components with Declarative Shadow DOM",
-              "date": "2024-10-30",
-              "link": "https://thathtml.blog/2024/10/custom-elements-from-server-templates-with-htmx/"
-            },
-            {
-              "title": "And That’s a Wrap! Catching Up on Just a Spec Season 2",
-              "date": "2024-10-04",
-              "link": "https://thathtml.blog/2024/10/season-2-wrapped-for-just-a-spec/"
-            },
-            {
-              "title": "Crafting Visual Art with CSS Custom Properties",
-              "date": "2024-10-03",
-              "link": "https://thathtml.blog/2024/10/visual-art-with-custom-properties/"
-            }
-          ]
-        },
-        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -871,7 +933,7 @@
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
             {
-              "title": "AI is not designed for you",
+              "title": "AI Is Not Designed for You",
               "date": "2024-12-06",
               "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
             },
@@ -1477,37 +1539,6 @@
           ]
         },
         {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "Don’t forget to localize your icons",
-              "date": "2024-11-11",
-              "link": "https://ericwbailey.website/published/dont-forget-to-localize-your-icons/"
-            },
-            {
-              "title": "Making content-aware components using CSS’ <code>:has()</code>, grid, and quantity queries",
-              "date": "2024-09-28",
-              "link": "https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/"
-            },
-            {
-              "title": "Heading elements have been added to Project board views to improve screen reader page navigation",
-              "date": "2024-09-23",
-              "link": "https://github.blog/changelog/2024-09-23-heading-elements-added-to-project-board-views/"
-            },
-            {
-              "title": "Accessibility preference settings, information architecture, and internalized ableism",
-              "date": "2024-09-17",
-              "link": "https://ericwbailey.website/published/accessibility-preference-settings-information-architecture-and-internalized-ableism/"
-            },
-            {
-              "title": "a11y-syntax-highlighting has been updated",
-              "date": "2024-09-09",
-              "link": "https://ericwbailey.website/published/a11y-syntax-highlighting-has-been-updated/"
-            }
-          ]
-        },
-        {
           "title": "Patrick Dubroy's blog",
           "feedUrl": "https://dubroy.com/blog/rss.xml",
           "items": [
@@ -1628,6 +1659,37 @@
               "title": "Everybody's Free (To Write Websites)",
               "date": "2024-07-16",
               "link": "https://sarajoy.dev/blog/write-websites/"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "Paper: Feminism in Programming Language Design",
+              "date": "2024-10-17",
+              "link": "https://www.felienne.com/archives/8470"
+            },
+            {
+              "title": "Soon all UX will be a Skinner box",
+              "date": "2024-09-11",
+              "link": "https://www.felienne.com/archives/8440"
+            },
+            {
+              "title": "Why *not* to use LLMs in computer science education?",
+              "date": "2024-06-05",
+              "link": "https://www.felienne.com/archives/8392"
+            },
+            {
+              "title": "Why to use LLMs in computer science education?",
+              "date": "2024-06-03",
+              "link": "https://www.felienne.com/archives/8367"
+            },
+            {
+              "title": "Why so fatalistic about AI?",
+              "date": "2024-05-29",
+              "link": "https://www.felienne.com/archives/8364"
             }
           ]
         },
@@ -2097,37 +2159,6 @@
           ]
         },
         {
-          "title": "The Code Whisperer",
-          "feedUrl": "https://blog.thecodewhisperer.com/feed.xml",
-          "items": [
-            {
-              "title": "Refactoring Just Enough",
-              "date": "2024-06-21",
-              "link": "https://blog.thecodewhisperer.com/permalink/refactoring-just-enough"
-            },
-            {
-              "title": "TDD: You're Probably Doing It Just Fine",
-              "date": "2024-03-25",
-              "link": "https://blog.thecodewhisperer.com/permalink/tdd-youre-probably-doing-it-just-fine"
-            },
-            {
-              "title": "TDD: For Those Who Don't Know How to Design Software",
-              "date": "2024-01-08",
-              "link": "https://blog.thecodewhisperer.com/permalink/tdd-for-those-who-dont-know-how-to-design-software"
-            },
-            {
-              "title": "A Guard Clause Is Maybe a Tiny Parser",
-              "date": "2023-12-20",
-              "link": "https://blog.thecodewhisperer.com/permalink/a-guard-clause-is-maybe-a-tiny-parser"
-            },
-            {
-              "title": "Which Kinds of Tests Should I Write? Revisited",
-              "date": "2023-09-17",
-              "link": "https://blog.thecodewhisperer.com/permalink/which-kinds-of-tests-should-i-write-revisited"
-            }
-          ]
-        },
-        {
           "title": "spydergrrl consulting",
           "feedUrl": "http://feeds.feedburner.com/Spydergrrl",
           "items": [
@@ -2492,10 +2523,9 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-19T03:27:13.790Z",
+  "fetchDate": "2024-12-20T03:20:05.751Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
-    "https://angryweasel.substack.com/feed",
-    "https://www.felienne.com/feed"
+    "https://angryweasel.substack.com/feed"
   ]
 }

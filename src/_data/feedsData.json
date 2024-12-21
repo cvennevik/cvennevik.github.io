@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "On Versioning Observabilities (1.0, 2.0, 3.0…10.0?!?)",
+              "date": "2024-12-20",
+              "link": "https://charity.wtf/2024/12/20/on-versioning-observabilities-1-0-2-0-3-0-10-0/"
+            },
+            {
+              "title": "“Founder Mode” and the Art of Mythmaking",
+              "date": "2024-12-17",
+              "link": "https://charity.wtf/2024/12/17/founder-mode-and-the-art-of-mythmaking/"
+            },
+            {
+              "title": "There Is Only One Key Difference Between Observability 1.0 and 2.0",
+              "date": "2024-11-19",
+              "link": "https://charity.wtf/2024/11/19/there-is-only-one-key-difference-between-observability-1-0-and-2-0/"
+            },
+            {
+              "title": "How Hard Should Your Employer Work To Retain You?",
+              "date": "2024-10-11",
+              "link": "https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/"
+            },
+            {
+              "title": "Is It Time To Version Observability? (Signs Point To Yes)",
+              "date": "2024-08-07",
+              "link": "https://charity.wtf/2024/08/07/is-it-time-to-version-observability-signs-point-to-yes/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Testing DOM manipulation and Web Components",
+              "date": "2024-12-20",
+              "link": "https://gomakethings.com/testing-dom-manipulation/"
+            },
+            {
+              "title": "A formula for debugging (and asking for help)",
+              "date": "2024-12-18",
+              "link": "https://gomakethings.com/a-formula-for-debugging-and-asking-for-help/"
+            },
+            {
+              "title": "Don't test implementation details",
+              "date": "2024-12-17",
+              "link": "https://gomakethings.com/dont-test-implementation-details/"
+            },
+            {
+              "title": "The when and why of state-based UI",
+              "date": "2024-12-16",
+              "link": "https://gomakethings.com/the-when-and-why-of-state-based-ui/"
+            },
+            {
+              "title": "TDD for JavaScript with buildless Mocha and Chai",
+              "date": "2024-12-13",
+              "link": "https://gomakethings.com/tdd-for-javascript-with-buildless-mocha-and-chai/"
+            }
+          ]
+        },
+        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -62,6 +124,37 @@
               "title": "Mixed-type arithmetic in C",
               "date": "2024-11-25",
               "link": "https://moonbase.lgbt/blog/c-mixed-type-arithmetic/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Asking too much of the fediverse",
+              "date": "2024-12-20",
+              "link": "https://anniemueller.com/posts/asking-too-much-of-the-fediverse"
+            },
+            {
+              "title": "Retrospective, financial",
+              "date": "2024-12-17",
+              "link": "https://anniemueller.com/posts/retrospective-financial"
+            },
+            {
+              "title": "I will trade you this muddy shitball for that shiny marble",
+              "date": "2024-12-13",
+              "link": "https://anniemueller.com/posts/i-will-trade-you-this-muddy-shitball-for-that-shiny-marble"
+            },
+            {
+              "title": "Expect obstacles",
+              "date": "2024-12-12",
+              "link": "https://anniemueller.com/posts/expect-obstacles"
+            },
+            {
+              "title": "Emotional buffer zone",
+              "date": "2024-12-12",
+              "link": "https://anniemueller.com/posts/emotional-buffer-zone"
             }
           ]
         },
@@ -252,37 +345,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "A formula for debugging (and asking for help)",
-              "date": "2024-12-18",
-              "link": "https://gomakethings.com/a-formula-for-debugging-and-asking-for-help/"
-            },
-            {
-              "title": "Don't test implementation details",
-              "date": "2024-12-17",
-              "link": "https://gomakethings.com/dont-test-implementation-details/"
-            },
-            {
-              "title": "The when and why of state-based UI",
-              "date": "2024-12-16",
-              "link": "https://gomakethings.com/the-when-and-why-of-state-based-ui/"
-            },
-            {
-              "title": "TDD for JavaScript with buildless Mocha and Chai",
-              "date": "2024-12-13",
-              "link": "https://gomakethings.com/tdd-for-javascript-with-buildless-mocha-and-chai/"
-            },
-            {
-              "title": "Organizing JavaScript tests",
-              "date": "2024-12-12",
-              "link": "https://gomakethings.com/organizing-javascript-tests/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (microblog)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -336,37 +398,6 @@
               "title": "A list of ternary operators",
               "date": "2024-11-05",
               "link": "https://buttondown.com/hillelwayne/archive/a-list-of-ternary-operators/"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "“Founder Mode” and the Art of Mythmaking",
-              "date": "2024-12-17",
-              "link": "https://charity.wtf/2024/12/17/founder-mode-and-the-art-of-mythmaking/"
-            },
-            {
-              "title": "How Hard Should Your Employer Work To Retain You?",
-              "date": "2024-10-11",
-              "link": "https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/"
-            },
-            {
-              "title": "Is It Time To Version Observability? (Signs Point To Yes)",
-              "date": "2024-08-07",
-              "link": "https://charity.wtf/2024/08/07/is-it-time-to-version-observability-signs-point-to-yes/"
-            },
-            {
-              "title": "Pragmatism, Neutrality and Leadership",
-              "date": "2024-07-24",
-              "link": "https://charity.wtf/2024/07/24/pragmatism-neutrality-and-leadership/"
-            },
-            {
-              "title": "Questionable Advice: “My boss says we don’t need any engineering managers. Is he right?”",
-              "date": "2024-01-05",
-              "link": "https://charity.wtf/2024/01/05/questionable-advice-my-boss-says-we-dont-need-any-engineering-managers-is-he-right/"
             }
           ]
         },
@@ -429,37 +460,6 @@
               "title": "SoCraTes 2024 - A Community to Grow With",
               "date": "2024-09-02",
               "link": "https://www.lisihocke.com/2024/09/socrates-2024-a-community-to-grow-with.html"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Retrospective, financial",
-              "date": "2024-12-17",
-              "link": "https://anniemueller.com/posts/retrospective-financial"
-            },
-            {
-              "title": "I will trade you this muddy shitball for that shiny marble",
-              "date": "2024-12-13",
-              "link": "https://anniemueller.com/posts/i-will-trade-you-this-muddy-shitball-for-that-shiny-marble"
-            },
-            {
-              "title": "Expect obstacles",
-              "date": "2024-12-12",
-              "link": "https://anniemueller.com/posts/expect-obstacles"
-            },
-            {
-              "title": "Emotional buffer zone",
-              "date": "2024-12-12",
-              "link": "https://anniemueller.com/posts/emotional-buffer-zone"
-            },
-            {
-              "title": "Love your body (of work)",
-              "date": "2024-12-10",
-              "link": "https://anniemueller.com/posts/love-your-body-of-work"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-20T03:20:05.751Z",
+  "fetchDate": "2024-12-21T03:17:24.160Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

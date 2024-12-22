@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "AI/Copilot and deterministic code refactoring",
+              "date": "2024-12-21",
+              "link": "https://rosswintle.uk/2024/12/ai-copilot-and-deterministic-code-refactoring/"
+            },
+            {
+              "title": "I’m not sure I understand themes any more – a strange journey through old WordPress code.",
+              "date": "2024-12-09",
+              "link": "https://rosswintle.uk/2024/12/im-not-sure-i-understand-themes-old-wordpress-code-journey/"
+            },
+            {
+              "title": "Old Tabs: Part 12",
+              "date": "2024-12-09",
+              "link": "https://rosswintle.uk/2024/12/old-tabs-part-12/"
+            },
+            {
+              "title": "Old Tabs: Part 11",
+              "date": "2024-12-08",
+              "link": "https://rosswintle.uk/2024/12/old-tabs-part-11/"
+            },
+            {
+              "title": "Old Tabs: Part 10",
+              "date": "2024-12-08",
+              "link": "https://rosswintle.uk/2024/12/old-tabs-part-10/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Ephemerality in User Interfaces",
+              "date": "2024-12-21",
+              "link": "https://borretti.me/article/ephemerality-in-user-interfaces"
+            },
+            {
+              "title": "Client Freedom",
+              "date": "2024-11-24",
+              "link": "https://borretti.me/article/client-freedom"
+            },
+            {
+              "title": "The Best Emacs Microfeature",
+              "date": "2024-06-05",
+              "link": "https://borretti.me/article/the-best-emacs-microfeature"
+            },
+            {
+              "title": "The Design Space of Wikis",
+              "date": "2024-06-02",
+              "link": "https://borretti.me/article/the-design-space-of-wikis"
+            },
+            {
+              "title": "Type Inference Was a Mistake",
+              "date": "2024-03-29",
+              "link": "https://borretti.me/article/type-inference-was-a-mistake"
+            }
+          ]
+        },
+        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -836,37 +898,6 @@
           ]
         },
         {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "I’m not sure I understand themes any more – a strange journey through old WordPress code.",
-              "date": "2024-12-09",
-              "link": "https://rosswintle.uk/2024/12/im-not-sure-i-understand-themes-old-wordpress-code-journey/"
-            },
-            {
-              "title": "Old Tabs: Part 12",
-              "date": "2024-12-09",
-              "link": "https://rosswintle.uk/2024/12/old-tabs-part-12/"
-            },
-            {
-              "title": "Old Tabs: Part 11",
-              "date": "2024-12-08",
-              "link": "https://rosswintle.uk/2024/12/old-tabs-part-11/"
-            },
-            {
-              "title": "Old Tabs: Part 10",
-              "date": "2024-12-08",
-              "link": "https://rosswintle.uk/2024/12/old-tabs-part-10/"
-            },
-            {
-              "title": "Turbo Admin: Philosophy and inner-workings",
-              "date": "2024-11-16",
-              "link": "https://rosswintle.uk/2024/11/turbo-admin-philosophy-and-workings/"
-            }
-          ]
-        },
-        {
           "title": "Hazel Weakly",
           "feedUrl": "https://hazelweakly.me/atom.xml",
           "items": [
@@ -1256,37 +1287,6 @@
               "title": "The hard truth: People don’t trust billionaires",
               "date": "2024-10-29",
               "link": "https://thejollyteapot.com/2024/10/29/the-hard-truth-people-don-t-trust-billionaires/"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Client Freedom",
-              "date": "2024-11-24",
-              "link": "https://borretti.me/article/client-freedom"
-            },
-            {
-              "title": "The Best Emacs Microfeature",
-              "date": "2024-06-05",
-              "link": "https://borretti.me/article/the-best-emacs-microfeature"
-            },
-            {
-              "title": "The Design Space of Wikis",
-              "date": "2024-06-02",
-              "link": "https://borretti.me/article/the-design-space-of-wikis"
-            },
-            {
-              "title": "Type Inference Was a Mistake",
-              "date": "2024-03-29",
-              "link": "https://borretti.me/article/type-inference-was-a-mistake"
-            },
-            {
-              "title": "Thoughts on LLM Agents",
-              "date": "2024-01-05",
-              "link": "https://borretti.me/article/thoughts-llm-agents"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-21T03:17:24.160Z",
+  "fetchDate": "2024-12-22T03:22:15.318Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

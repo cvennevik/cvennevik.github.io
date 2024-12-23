@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jessitron",
+          "feedUrl": "https://jessitron.com/feed/",
+          "items": [
+            {
+              "title": "OKRs for Evil and Good",
+              "date": "2024-12-23",
+              "link": "https://jessitron.com/2024/12/22/okrs-for-evil-and-good/"
+            },
+            {
+              "title": "Productivity v Impact",
+              "date": "2024-12-16",
+              "link": "https://jessitron.com/2024/12/15/productivity-v-impact/"
+            },
+            {
+              "title": "Why is every startup’s website so darn useless?",
+              "date": "2024-12-08",
+              "link": "https://jessitron.com/2024/12/08/why-is-every-startups-website-so-darn-useless/"
+            },
+            {
+              "title": "Command vs Control",
+              "date": "2024-11-29",
+              "link": "https://jessitron.com/2024/11/29/command-vs-control/"
+            },
+            {
+              "title": "Communication Structures in a Growing Organization",
+              "date": "2024-11-25",
+              "link": "https://jessitron.com/2024/11/24/communication-structures-in-a-growing-organization/"
+            }
+          ]
+        },
+        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -128,37 +159,6 @@
           ]
         },
         {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "GitHub’s updated Commits page and the interactive list component",
-              "date": "2024-12-20",
-              "link": "https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/"
-            },
-            {
-              "title": "Don’t forget to localize your icons",
-              "date": "2024-11-11",
-              "link": "https://ericwbailey.website/published/dont-forget-to-localize-your-icons/"
-            },
-            {
-              "title": "Making content-aware components using CSS’ <code>:has()</code>, grid, and quantity queries",
-              "date": "2024-09-28",
-              "link": "https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/"
-            },
-            {
-              "title": "Heading elements have been added to Project board views to improve screen reader page navigation",
-              "date": "2024-09-23",
-              "link": "https://github.blog/changelog/2024-09-23-heading-elements-added-to-project-board-views/"
-            },
-            {
-              "title": "Accessibility preference settings, information architecture, and internalized ableism",
-              "date": "2024-09-17",
-              "link": "https://ericwbailey.website/published/accessibility-preference-settings-information-architecture-and-internalized-ableism/"
-            }
-          ]
-        },
-        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -186,6 +186,37 @@
               "title": "Mixed-type arithmetic in C",
               "date": "2024-11-25",
               "link": "https://moonbase.lgbt/blog/c-mixed-type-arithmetic/"
+            }
+          ]
+        },
+        {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "GitHub’s updated Commits page and the interactive list component",
+              "date": "2024-12-20",
+              "link": "https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/"
+            },
+            {
+              "title": "Don’t forget to localize your icons",
+              "date": "2024-11-11",
+              "link": "https://ericwbailey.website/published/dont-forget-to-localize-your-icons/"
+            },
+            {
+              "title": "Making content-aware components using CSS’ <code>:has()</code>, grid, and quantity queries",
+              "date": "2024-09-28",
+              "link": "https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/"
+            },
+            {
+              "title": "Heading elements have been added to Project board views to improve screen reader page navigation",
+              "date": "2024-09-23",
+              "link": "https://github.blog/changelog/2024-09-23-heading-elements-added-to-project-board-views/"
+            },
+            {
+              "title": "Accessibility preference settings, information architecture, and internalized ableism",
+              "date": "2024-09-17",
+              "link": "https://ericwbailey.website/published/accessibility-preference-settings-information-architecture-and-internalized-ableism/"
             }
           ]
         },
@@ -522,37 +553,6 @@
               "title": "SoCraTes 2024 - A Community to Grow With",
               "date": "2024-09-02",
               "link": "https://www.lisihocke.com/2024/09/socrates-2024-a-community-to-grow-with.html"
-            }
-          ]
-        },
-        {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "Productivity v Impact",
-              "date": "2024-12-16",
-              "link": "https://jessitron.com/2024/12/15/productivity-v-impact/"
-            },
-            {
-              "title": "Why is every startup’s website so darn useless?",
-              "date": "2024-12-08",
-              "link": "https://jessitron.com/2024/12/08/why-is-every-startups-website-so-darn-useless/"
-            },
-            {
-              "title": "Command vs Control",
-              "date": "2024-11-29",
-              "link": "https://jessitron.com/2024/11/29/command-vs-control/"
-            },
-            {
-              "title": "Communication Structures in a Growing Organization",
-              "date": "2024-11-25",
-              "link": "https://jessitron.com/2024/11/24/communication-structures-in-a-growing-organization/"
-            },
-            {
-              "title": "Who turns software into money? GTM",
-              "date": "2024-11-16",
-              "link": "https://jessitron.com/2024/11/16/who-turns-software-into-money-gtm/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-22T03:22:15.318Z",
+  "fetchDate": "2024-12-23T03:20:58.322Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

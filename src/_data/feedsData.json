@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Joyful, joyful",
+              "date": "2024-12-26",
+              "link": "https://anniemueller.com/posts/joyful-joyful"
+            },
+            {
+              "title": "Asking too much of the fediverse",
+              "date": "2024-12-20",
+              "link": "https://anniemueller.com/posts/asking-too-much-of-the-fediverse"
+            },
+            {
+              "title": "Retrospective, financial",
+              "date": "2024-12-17",
+              "link": "https://anniemueller.com/posts/retrospective-financial"
+            },
+            {
+              "title": "I will trade you this muddy shitball for that shiny marble",
+              "date": "2024-12-13",
+              "link": "https://anniemueller.com/posts/i-will-trade-you-this-muddy-shitball-for-that-shiny-marble"
+            },
+            {
+              "title": "Expect obstacles",
+              "date": "2024-12-12",
+              "link": "https://anniemueller.com/posts/expect-obstacles"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -341,37 +372,6 @@
               "title": "Mixed-type arithmetic in C",
               "date": "2024-11-25",
               "link": "https://moonbase.lgbt/blog/c-mixed-type-arithmetic/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Asking too much of the fediverse",
-              "date": "2024-12-20",
-              "link": "https://anniemueller.com/posts/asking-too-much-of-the-fediverse"
-            },
-            {
-              "title": "Retrospective, financial",
-              "date": "2024-12-17",
-              "link": "https://anniemueller.com/posts/retrospective-financial"
-            },
-            {
-              "title": "I will trade you this muddy shitball for that shiny marble",
-              "date": "2024-12-13",
-              "link": "https://anniemueller.com/posts/i-will-trade-you-this-muddy-shitball-for-that-shiny-marble"
-            },
-            {
-              "title": "Expect obstacles",
-              "date": "2024-12-12",
-              "link": "https://anniemueller.com/posts/expect-obstacles"
-            },
-            {
-              "title": "Emotional buffer zone",
-              "date": "2024-12-12",
-              "link": "https://anniemueller.com/posts/emotional-buffer-zone"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-25T03:18:13.109Z",
+  "fetchDate": "2024-12-26T03:19:31.088Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed"

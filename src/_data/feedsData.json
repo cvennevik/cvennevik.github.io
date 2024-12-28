@@ -4,9 +4,138 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "text-box",
+              "date": "2024-12-27",
+              "link": "https://robinrendle.com/notes/text-box/"
+            },
+            {
+              "title": "Code shufflin’",
+              "date": "2024-12-07",
+              "link": "https://robinrendle.com/notes/code-shufflin/"
+            },
+            {
+              "title": "Frameworkism",
+              "date": "2024-12-01",
+              "link": "https://robinrendle.com/notes/frameworkism/"
+            },
+            {
+              "title": "The eras of CSS",
+              "date": "2024-11-29",
+              "link": "https://robinrendle.com/notes/the-eras-of-css/"
+            },
+            {
+              "title": "Safety and stability",
+              "date": "2024-11-27",
+              "link": "https://robinrendle.com/notes/safety-and-stability/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Implementing SM-2 in Rust",
+              "date": "2024-12-27",
+              "link": "https://borretti.me/article/implementing-sm2-in-rust"
+            },
+            {
+              "title": "Ephemerality in User Interfaces",
+              "date": "2024-12-21",
+              "link": "https://borretti.me/article/ephemerality-in-user-interfaces"
+            },
+            {
+              "title": "Client Freedom",
+              "date": "2024-11-24",
+              "link": "https://borretti.me/article/client-freedom"
+            },
+            {
+              "title": "The Best Emacs Microfeature",
+              "date": "2024-06-05",
+              "link": "https://borretti.me/article/the-best-emacs-microfeature"
+            },
+            {
+              "title": "The Design Space of Wikis",
+              "date": "2024-06-02",
+              "link": "https://borretti.me/article/the-design-space-of-wikis"
+            }
+          ]
+        },
+        {
+          "title": "A Tester's Journey",
+          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "2024 - What a Wild Ride",
+              "date": "2024-12-27",
+              "link": "https://www.lisihocke.com/2024/12/2024-what-a-wild-ride.html"
+            },
+            {
+              "title": "Contributing in New Ways - Finding Closure among New Opportunities",
+              "date": "2024-12-17",
+              "link": "https://www.lisihocke.com/2024/12/contributing-in-new-ways-finding-closure-among-new-opportunities.html"
+            },
+            {
+              "title": "Agile Testing Days 2024 - Reunion for Quality",
+              "date": "2024-12-07",
+              "link": "https://www.lisihocke.com/2024/12/agile-testing-days-2024-reunion-for-quality.html"
+            },
+            {
+              "title": "BSides Munich 2024 - We Belong",
+              "date": "2024-11-15",
+              "link": "https://www.lisihocke.com/2024/11/bsides-munich-2024-we-belong.html"
+            },
+            {
+              "title": "Open Security Conference 2024 - A Memorable Beginning",
+              "date": "2024-10-08",
+              "link": "https://www.lisihocke.com/2024/10/open-security-conference-2024-a-memorable-beginning.html"
+            }
+          ]
+        },
+        {
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
+          "items": [
+            {
+              "title": "Thoughts on a Dark Winter Day",
+              "date": "2024-12-27",
+              "link": "https://mikegrindle.com/posts/2024"
+            },
+            {
+              "title": "Is Everything Okay?",
+              "date": "2024-12-10",
+              "link": "https://mikegrindle.com/posts/okay"
+            },
+            {
+              "title": "Returning to Sunnydale",
+              "date": "2024-12-04",
+              "link": "https://mikegrindle.com/posts/snow"
+            },
+            {
+              "title": "Snow Days",
+              "date": "2024-12-02",
+              "link": "https://mikegrindle.com/posts/snow"
+            },
+            {
+              "title": "Saying Goodbye to a Family Home",
+              "date": "2024-11-26",
+              "link": "https://mikegrindle.com/posts/home"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
+            {
+              "title": "📱Default apps (2024)",
+              "date": "2024-12-27",
+              "link": "https://anniemueller.com/posts/default-apps-2024"
+            },
             {
               "title": "Joyful, joyful",
               "date": "2024-12-26",
@@ -26,42 +155,6 @@
               "title": "I will trade you this muddy shitball for that shiny marble",
               "date": "2024-12-13",
               "link": "https://anniemueller.com/posts/i-will-trade-you-this-muddy-shitball-for-that-shiny-marble"
-            },
-            {
-              "title": "Expect obstacles",
-              "date": "2024-12-12",
-              "link": "https://anniemueller.com/posts/expect-obstacles"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "The real cost of build tools",
-              "date": "2024-12-23",
-              "link": "https://gomakethings.com/the-real-cost-of-build-tools/"
-            },
-            {
-              "title": "Testing DOM manipulation and Web Components",
-              "date": "2024-12-20",
-              "link": "https://gomakethings.com/testing-dom-manipulation/"
-            },
-            {
-              "title": "A formula for debugging (and asking for help)",
-              "date": "2024-12-18",
-              "link": "https://gomakethings.com/a-formula-for-debugging-and-asking-for-help/"
-            },
-            {
-              "title": "Don't test implementation details",
-              "date": "2024-12-17",
-              "link": "https://gomakethings.com/dont-test-implementation-details/"
-            },
-            {
-              "title": "The when and why of state-based UI",
-              "date": "2024-12-16",
-              "link": "https://gomakethings.com/the-when-and-why-of-state-based-ui/"
             }
           ]
         },
@@ -93,6 +186,37 @@
               "title": "Introducing o(m)g:image",
               "date": "2024-12-09",
               "link": "https://blog.jim-nielsen.com/2024/omgimg/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The real cost of build tools",
+              "date": "2024-12-23",
+              "link": "https://gomakethings.com/the-real-cost-of-build-tools/"
+            },
+            {
+              "title": "Testing DOM manipulation and Web Components",
+              "date": "2024-12-20",
+              "link": "https://gomakethings.com/testing-dom-manipulation/"
+            },
+            {
+              "title": "A formula for debugging (and asking for help)",
+              "date": "2024-12-18",
+              "link": "https://gomakethings.com/a-formula-for-debugging-and-asking-for-help/"
+            },
+            {
+              "title": "Don't test implementation details",
+              "date": "2024-12-17",
+              "link": "https://gomakethings.com/dont-test-implementation-details/"
+            },
+            {
+              "title": "The when and why of state-based UI",
+              "date": "2024-12-16",
+              "link": "https://gomakethings.com/the-when-and-why-of-state-based-ui/"
             }
           ]
         },
@@ -217,37 +341,6 @@
               "title": "Terminology isn't universal",
               "date": "2024-11-25",
               "link": "https://ntietz.com/blog/terminology-isnt-universal/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Ephemerality in User Interfaces",
-              "date": "2024-12-21",
-              "link": "https://borretti.me/article/ephemerality-in-user-interfaces"
-            },
-            {
-              "title": "Client Freedom",
-              "date": "2024-11-24",
-              "link": "https://borretti.me/article/client-freedom"
-            },
-            {
-              "title": "The Best Emacs Microfeature",
-              "date": "2024-06-05",
-              "link": "https://borretti.me/article/the-best-emacs-microfeature"
-            },
-            {
-              "title": "The Design Space of Wikis",
-              "date": "2024-06-02",
-              "link": "https://borretti.me/article/the-design-space-of-wikis"
-            },
-            {
-              "title": "Type Inference Was a Mistake",
-              "date": "2024-03-29",
-              "link": "https://borretti.me/article/type-inference-was-a-mistake"
             }
           ]
         },
@@ -557,37 +650,6 @@
           ]
         },
         {
-          "title": "A Tester's Journey",
-          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Contributing in New Ways - Finding Closure among New Opportunities",
-              "date": "2024-12-17",
-              "link": "https://www.lisihocke.com/2024/12/contributing-in-new-ways-finding-closure-among-new-opportunities.html"
-            },
-            {
-              "title": "Agile Testing Days 2024 - Reunion for Quality",
-              "date": "2024-12-07",
-              "link": "https://www.lisihocke.com/2024/12/agile-testing-days-2024-reunion-for-quality.html"
-            },
-            {
-              "title": "BSides Munich 2024 - We Belong",
-              "date": "2024-11-15",
-              "link": "https://www.lisihocke.com/2024/11/bsides-munich-2024-we-belong.html"
-            },
-            {
-              "title": "Open Security Conference 2024 - A Memorable Beginning",
-              "date": "2024-10-08",
-              "link": "https://www.lisihocke.com/2024/10/open-security-conference-2024-a-memorable-beginning.html"
-            },
-            {
-              "title": "SoCraTes 2024 - A Community to Grow With",
-              "date": "2024-09-02",
-              "link": "https://www.lisihocke.com/2024/09/socrates-2024-a-community-to-grow-with.html"
-            }
-          ]
-        },
-        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -867,37 +929,6 @@
           ]
         },
         {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
-          "items": [
-            {
-              "title": "Is Everything Okay?",
-              "date": "2024-12-10",
-              "link": "https://mikegrindle.com/posts/okay"
-            },
-            {
-              "title": "Returning to Sunnydale",
-              "date": "2024-12-04",
-              "link": "https://mikegrindle.com/posts/snow"
-            },
-            {
-              "title": "Snow Days",
-              "date": "2024-12-02",
-              "link": "https://mikegrindle.com/posts/snow"
-            },
-            {
-              "title": "Saying Goodbye to a Family Home",
-              "date": "2024-11-26",
-              "link": "https://mikegrindle.com/posts/home"
-            },
-            {
-              "title": "If It’s Good, It’s Wonderful. If It’s Bad, It’s Experience (Newsletter)",
-              "date": "2024-11-21",
-              "link": "https://mikegrindle.com/newsletter/itm-5"
-            }
-          ]
-        },
-        {
           "title": "Hazel Weakly",
           "feedUrl": "https://hazelweakly.me/atom.xml",
           "items": [
@@ -925,37 +956,6 @@
               "title": "Cache Me Not, Cache Me, Cache Me Not",
               "date": "2024-09-19",
               "link": "https://hazelweakly.me/blog/cache-me-not-cache-me-cache-me-not/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Code shufflin’",
-              "date": "2024-12-07",
-              "link": "https://robinrendle.com/notes/code-shufflin/"
-            },
-            {
-              "title": "Frameworkism",
-              "date": "2024-12-01",
-              "link": "https://robinrendle.com/notes/frameworkism/"
-            },
-            {
-              "title": "The eras of CSS",
-              "date": "2024-11-29",
-              "link": "https://robinrendle.com/notes/the-eras-of-css/"
-            },
-            {
-              "title": "Safety and stability",
-              "date": "2024-11-27",
-              "link": "https://robinrendle.com/notes/safety-and-stability/"
-            },
-            {
-              "title": "into the wreck",
-              "date": "2024-10-10",
-              "link": "https://robinrendle.com/notes/into-the-wreck/"
             }
           ]
         },
@@ -1756,37 +1756,6 @@
           ]
         },
         {
-          "title": "ample code",
-          "feedUrl": "https://einarwh.wordpress.com/feed/",
-          "items": [
-            {
-              "title": "The banana test for AI-generated artifacts",
-              "date": "2024-10-03",
-              "link": "https://einarwh.wordpress.com/2024/10/03/the-banana-test-for-ai-generated-artifacts/"
-            },
-            {
-              "title": "The AI Puppet Dance",
-              "date": "2024-01-12",
-              "link": "https://einarwh.wordpress.com/2024/01/12/the-ai-puppet-dance/"
-            },
-            {
-              "title": "Inspirational math",
-              "date": "2023-05-20",
-              "link": "https://einarwh.wordpress.com/2023/05/20/inspirational-math/"
-            },
-            {
-              "title": "Drift into debt",
-              "date": "2023-04-25",
-              "link": "https://einarwh.wordpress.com/2023/04/25/drift-into-debt/"
-            },
-            {
-              "title": "Don’t settle for a playground",
-              "date": "2023-03-29",
-              "link": "https://einarwh.wordpress.com/2023/03/29/dont-settle-for-a-playground/"
-            }
-          ]
-        },
-        {
           "title": "GeePawHill.org",
           "feedUrl": "https://www.geepawhill.org/feed/",
           "items": [
@@ -2093,6 +2062,37 @@
               "title": "Write Forgettable Code",
               "date": "2023-11-17",
               "link": "https://read.ceilfors.com/p/write-forgettable-code"
+            }
+          ]
+        },
+        {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
+              "date": "2024-07-06",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
+              "date": "2024-05-15",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Tailwind CSS",
+              "date": "2023-11-01",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - The barrel file debacle",
+              "date": "2023-10-08",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-7/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Polyfills gone rogue",
+              "date": "2023-09-21",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-6/"
             }
           ]
         },
@@ -2461,11 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-27T03:19:00.041Z",
+  "fetchDate": "2024-12-28T03:17:18.003Z",
   "errors": [
     "https://rosswintle.uk/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://marvinh.dev/feed.xml"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

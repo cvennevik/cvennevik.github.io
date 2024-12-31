@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Just grab a library",
+              "date": "2024-12-30",
+              "link": "https://gomakethings.com/just-grab-a-library/"
+            },
+            {
+              "title": "The real cost of build tools",
+              "date": "2024-12-23",
+              "link": "https://gomakethings.com/the-real-cost-of-build-tools/"
+            },
+            {
+              "title": "Testing DOM manipulation and Web Components",
+              "date": "2024-12-20",
+              "link": "https://gomakethings.com/testing-dom-manipulation/"
+            },
+            {
+              "title": "A formula for debugging (and asking for help)",
+              "date": "2024-12-18",
+              "link": "https://gomakethings.com/a-formula-for-debugging-and-asking-for-help/"
+            },
+            {
+              "title": "Don't test implementation details",
+              "date": "2024-12-17",
+              "link": "https://gomakethings.com/dont-test-implementation-details/"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "Craftsmanship vs Perfectionism",
+              "date": "2024-12-30",
+              "link": "https://rosswintle.uk/2024/12/craftsmanship-vs-perfectionism/"
+            },
+            {
+              "title": "AI/Copilot and deterministic code refactoring",
+              "date": "2024-12-21",
+              "link": "https://rosswintle.uk/2024/12/ai-copilot-and-deterministic-code-refactoring/"
+            },
+            {
+              "title": "I’m not sure I understand themes any more – a strange journey through old WordPress code.",
+              "date": "2024-12-09",
+              "link": "https://rosswintle.uk/2024/12/im-not-sure-i-understand-themes-old-wordpress-code-journey/"
+            },
+            {
+              "title": "Old Tabs: Part 12",
+              "date": "2024-12-09",
+              "link": "https://rosswintle.uk/2024/12/old-tabs-part-12/"
+            },
+            {
+              "title": "Old Tabs: Part 11",
+              "date": "2024-12-08",
+              "link": "https://rosswintle.uk/2024/12/old-tabs-part-11/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "One bucket at a time",
+              "date": "2024-12-30",
+              "link": "https://anniemueller.com/posts/one-bucket-at-a-time"
+            },
+            {
+              "title": "Retrospective, reading",
+              "date": "2024-12-29",
+              "link": "https://anniemueller.com/posts/retrospective-reading"
+            },
+            {
+              "title": "📱Default apps (2024)",
+              "date": "2024-12-27",
+              "link": "https://anniemueller.com/posts/default-apps-2024"
+            },
+            {
+              "title": "Joyful, joyful",
+              "date": "2024-12-26",
+              "link": "https://anniemueller.com/posts/joyful-joyful"
+            },
+            {
+              "title": "Asking too much of the fediverse",
+              "date": "2024-12-20",
+              "link": "https://anniemueller.com/posts/asking-too-much-of-the-fediverse"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Reflecting on 2024, preparing for 2025",
+              "date": "2024-12-30",
+              "link": "https://ntietz.com/blog/reflecting-on-2024-preparing-for-2025/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Feel, don't think",
+              "date": "2024-12-23",
+              "link": "https://ntietz.com/blog/feel-dont-think/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Estimating projects sells them short (and that's okay)",
+              "date": "2024-12-16",
+              "link": "https://ntietz.com/blog/estimating-projects-short-sale/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Parsing MIDI messages in Rust",
+              "date": "2024-12-09",
+              "link": "https://ntietz.com/blog/parsing-midi-rust/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Evolving my ergonomic setup (or, my laptop with extra steps)",
+              "date": "2024-12-02",
+              "link": "https://ntietz.com/blog/evolving-ergo-setup/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -31,6 +155,68 @@
               "title": "The eras of CSS",
               "date": "2024-11-29",
               "link": "https://robinrendle.com/notes/the-eras-of-css/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Christmas Day",
+              "date": "2024-12-29",
+              "link": "https://blog.jim-nielsen.com/2024/christmas-day/"
+            },
+            {
+              "title": "Making o(m)g:image, Part IV: URLs",
+              "date": "2024-12-23",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iv/"
+            },
+            {
+              "title": "Making o(m)g:image, Part III: The HTML",
+              "date": "2024-12-18",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iii/"
+            },
+            {
+              "title": "Making o(m)g:image, Part II: As Little JS As Possible",
+              "date": "2024-12-15",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-ii/"
+            },
+            {
+              "title": "Making o(m)g:image, Part I: Design Iterations",
+              "date": "2024-12-12",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-i/"
+            }
+          ]
+        },
+        {
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
+          "items": [
+            {
+              "title": "Your default response should be a safe one",
+              "date": "2024-12-28",
+              "link": "https://smallsheds.garden/blog/2024/your-default-response-should-be-a-safe-one/"
+            },
+            {
+              "title": "The nine skills of exploratory testing",
+              "date": "2024-12-14",
+              "link": "https://smallsheds.garden/blog/2024/the-nine-skills-of-exploratory-testing/"
+            },
+            {
+              "title": "Being intentional about exploratory testing",
+              "date": "2024-11-08",
+              "link": "https://smallsheds.garden/blog/2024/being-intentional-about-exploratory-testing/"
+            },
+            {
+              "title": "The Fluxx ensemble exercise",
+              "date": "2024-10-12",
+              "link": "https://smallsheds.garden/blog/2024/the-fluxx-ensemble-exercise/"
+            },
+            {
+              "title": "What do you fix when you fix a test?",
+              "date": "2024-08-24",
+              "link": "https://smallsheds.garden/blog/2024/what-do-you-fix-when-you-fix-a-test/"
             }
           ]
         },
@@ -66,64 +252,64 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "A Tester's Journey",
+          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
           "items": [
             {
-              "title": "Making o(m)g:image, Part IV: URLs",
-              "date": "2024-12-23",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iv/"
+              "title": "2024 - What a Wild Ride",
+              "date": "2024-12-27",
+              "link": "https://www.lisihocke.com/2024/12/2024-what-a-wild-ride.html"
             },
             {
-              "title": "Making o(m)g:image, Part III: The HTML",
-              "date": "2024-12-18",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iii/"
+              "title": "Contributing in New Ways - Finding Closure among New Opportunities",
+              "date": "2024-12-17",
+              "link": "https://www.lisihocke.com/2024/12/contributing-in-new-ways-finding-closure-among-new-opportunities.html"
             },
             {
-              "title": "Making o(m)g:image, Part II: As Little JS As Possible",
-              "date": "2024-12-15",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-ii/"
+              "title": "Agile Testing Days 2024 - Reunion for Quality",
+              "date": "2024-12-07",
+              "link": "https://www.lisihocke.com/2024/12/agile-testing-days-2024-reunion-for-quality.html"
             },
             {
-              "title": "Making o(m)g:image, Part I: Design Iterations",
-              "date": "2024-12-12",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-i/"
+              "title": "BSides Munich 2024 - We Belong",
+              "date": "2024-11-15",
+              "link": "https://www.lisihocke.com/2024/11/bsides-munich-2024-we-belong.html"
             },
             {
-              "title": "Introducing o(m)g:image",
-              "date": "2024-12-09",
-              "link": "https://blog.jim-nielsen.com/2024/omgimg/"
+              "title": "Open Security Conference 2024 - A Memorable Beginning",
+              "date": "2024-10-08",
+              "link": "https://www.lisihocke.com/2024/10/open-security-conference-2024-a-memorable-beginning.html"
             }
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
           "items": [
             {
-              "title": "The real cost of build tools",
-              "date": "2024-12-23",
-              "link": "https://gomakethings.com/the-real-cost-of-build-tools/"
+              "title": "Thoughts on a Dark Winter Day",
+              "date": "2024-12-27",
+              "link": "https://mikegrindle.com/posts/2024"
             },
             {
-              "title": "Testing DOM manipulation and Web Components",
-              "date": "2024-12-20",
-              "link": "https://gomakethings.com/testing-dom-manipulation/"
+              "title": "Is Everything Okay?",
+              "date": "2024-12-10",
+              "link": "https://mikegrindle.com/posts/okay"
             },
             {
-              "title": "A formula for debugging (and asking for help)",
-              "date": "2024-12-18",
-              "link": "https://gomakethings.com/a-formula-for-debugging-and-asking-for-help/"
+              "title": "Returning to Sunnydale",
+              "date": "2024-12-04",
+              "link": "https://mikegrindle.com/posts/snow"
             },
             {
-              "title": "Don't test implementation details",
-              "date": "2024-12-17",
-              "link": "https://gomakethings.com/dont-test-implementation-details/"
+              "title": "Snow Days",
+              "date": "2024-12-02",
+              "link": "https://mikegrindle.com/posts/snow"
             },
             {
-              "title": "The when and why of state-based UI",
-              "date": "2024-12-16",
-              "link": "https://gomakethings.com/the-when-and-why-of-state-based-ui/"
+              "title": "Saying Goodbye to a Family Home",
+              "date": "2024-11-26",
+              "link": "https://mikegrindle.com/posts/home"
             }
           ]
         },
@@ -190,33 +376,33 @@
           ]
         },
         {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
             {
-              "title": "AI/Copilot and deterministic code refactoring",
-              "date": "2024-12-21",
-              "link": "https://rosswintle.uk/2024/12/ai-copilot-and-deterministic-code-refactoring/"
+              "title": "The Joyful Pleasures of DIY Web Services",
+              "date": "2024-12-23",
+              "link": "https://thathtml.blog/2024/12/diy-web-services/"
             },
             {
-              "title": "I’m not sure I understand themes any more – a strange journey through old WordPress code.",
+              "title": "Tailwind 4.0: a True “Mea Culpa” Moment",
+              "date": "2024-12-19",
+              "link": "https://thathtml.blog/2024/12/tailwind-4-a-mea-culpa-moment/"
+            },
+            {
+              "title": "Oh Happy Day! React Finally Speaks Web Components",
               "date": "2024-12-09",
-              "link": "https://rosswintle.uk/2024/12/im-not-sure-i-understand-themes-old-wordpress-code-journey/"
+              "link": "https://thathtml.blog/2024/12/oh-happy-day-react-finally-speaks-web-component/"
             },
             {
-              "title": "Old Tabs: Part 12",
-              "date": "2024-12-09",
-              "link": "https://rosswintle.uk/2024/12/old-tabs-part-12/"
+              "title": "There’s a New Custom Element Superclass on the Block",
+              "date": "2024-12-04",
+              "link": "https://thathtml.blog/2024/12/new-custom-element-superclass-on-the-block/"
             },
             {
-              "title": "Old Tabs: Part 11",
-              "date": "2024-12-08",
-              "link": "https://rosswintle.uk/2024/12/old-tabs-part-11/"
-            },
-            {
-              "title": "Old Tabs: Part 10",
-              "date": "2024-12-08",
-              "link": "https://rosswintle.uk/2024/12/old-tabs-part-10/"
+              "title": "Minimal-JavaScript, Server-First Web Components with Declarative Shadow DOM",
+              "date": "2024-10-30",
+              "link": "https://thathtml.blog/2024/10/custom-elements-from-server-templates-with-htmx/"
             }
           ]
         },
@@ -376,6 +562,37 @@
           ]
         },
         {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Artemis",
+              "date": "2024-12-19",
+              "link": "https://artemis.jamesg.blog/"
+            },
+            {
+              "title": "Choo Choo World",
+              "date": "2024-12-11",
+              "link": "https://choochooworld.com"
+            },
+            {
+              "title": "Legends & Lattes",
+              "date": "2024-11-22",
+              "link": "https://frills.dev/blog/241122-legends-lattes/"
+            },
+            {
+              "title": "Fill up your cup",
+              "date": "2024-11-08",
+              "link": "https://frills.dev/blog/241108-fill-up-your-cup/"
+            },
+            {
+              "title": "Changelog –\n        1 Nov 2024\n      ",
+              "date": "2024-11-01",
+              "link": "https://frills.dev/changelog/241101/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -403,6 +620,63 @@
               "title": "Static Search with Pagefind",
               "date": "2024-11-21",
               "link": "https://dbushell.com/2024/11/21/static-search-page-find/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2024-12-18",
+              "link": "https://dbushell.com/notes/2024-12-18T12:38Z/"
+            },
+            {
+              "date": "2024-12-13",
+              "link": "https://dbushell.com/notes/2024-12-13T14:22Z/"
+            },
+            {
+              "date": "2024-12-12",
+              "link": "https://dbushell.com/notes/2024-12-12T09:17Z/"
+            },
+            {
+              "date": "2024-12-12",
+              "link": "https://dbushell.com/notes/2024-12-12T06:54Z/"
+            },
+            {
+              "date": "2024-12-09",
+              "link": "https://dbushell.com/notes/2024-12-09T07:43Z/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Formally modeling dreidel, the sequel",
+              "date": "2024-12-18",
+              "link": "https://buttondown.com/hillelwayne/archive/formally-modeling-dreidel-the-sequel/"
+            },
+            {
+              "title": "Stroustrup's Rule",
+              "date": "2024-12-11",
+              "link": "https://buttondown.com/hillelwayne/archive/stroustrups-rule/"
+            },
+            {
+              "title": "Hyperproperties",
+              "date": "2024-11-19",
+              "link": "https://buttondown.com/hillelwayne/archive/hyperproperties/"
+            },
+            {
+              "title": "Five Unusual Raku Features",
+              "date": "2024-11-12",
+              "link": "https://buttondown.com/hillelwayne/archive/five-unusual-raku-features/"
+            },
+            {
+              "title": "A list of ternary operators",
+              "date": "2024-11-05",
+              "link": "https://buttondown.com/hillelwayne/archive/a-list-of-ternary-operators/"
             }
           ]
         },
@@ -438,6 +712,37 @@
           ]
         },
         {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Advent of Dijkstra",
+              "date": "2024-12-16",
+              "link": "https://garoof.no/notes/aoc-dijkstra.html"
+            },
+            {
+              "title": "Advent of Lua",
+              "date": "2024-12-03",
+              "link": "https://garoof.no/notes/aoc-lua.html"
+            },
+            {
+              "title": "One more generalities example",
+              "date": "2024-11-15",
+              "link": "https://garoof.no/notes/generalities.html#pub-ZkDHFH"
+            },
+            {
+              "title": "RESTful Sokoban SPA to go",
+              "date": "2024-11-13",
+              "link": "https://garoof.no/notes/restful-sokoban-spa.html"
+            },
+            {
+              "title": "Some tweets",
+              "date": "2024-11-11",
+              "link": "https://garoof.no/notes/tweets.html"
+            }
+          ]
+        },
+        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -465,6 +770,37 @@
               "title": "Recently",
               "date": "2024-09-05",
               "link": "https://macwright.com/2024/09/05/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Twisted Metal (2023)",
+              "date": "2024-12-13",
+              "link": "https://flamedfury.com/posts/twisted-metal-2023/"
+            },
+            {
+              "title": "New Music Friday #3",
+              "date": "2024-12-13",
+              "link": "https://flamedfury.com/posts/new-music-friday-3/"
+            },
+            {
+              "title": "Monthly Recap: November 2024",
+              "date": "2024-12-03",
+              "link": "https://flamedfury.com/posts/monthly-recap-november-2024/"
+            },
+            {
+              "title": "What If Encore Never Leaked?",
+              "date": "2024-11-13",
+              "link": "https://flamedfury.com/posts/what-if-encore-never-leaked/"
+            },
+            {
+              "title": "How Do I IndieWeb?",
+              "date": "2024-11-08",
+              "link": "https://flamedfury.com/posts/how-do-i-indieweb/"
             }
           ]
         },
@@ -686,6 +1022,58 @@
           ]
         },
         {
+          "title": "lalaland",
+          "feedUrl": "https://lalaland.mataroa.blog/rss/",
+          "items": [
+            {
+              "title": "adventurous",
+              "date": "2024-12-05",
+              "link": "https://fum.lol/blog/advent-2024/"
+            },
+            {
+              "title": "much ado about email",
+              "date": "2024-09-18",
+              "link": "https://fum.lol/blog/much-ado-about-email/"
+            },
+            {
+              "title": "on beginnings",
+              "date": "2024-06-30",
+              "link": "https://fum.lol/blog/beginnings/"
+            }
+          ]
+        },
+        {
+          "title": "Chocolate Driven Development",
+          "feedUrl": "https://chocolatedrivendevelopment.com/feed.xml",
+          "items": [
+            {
+              "title": "Workshops that work",
+              "date": "2024-12-04",
+              "link": "https://chocolatedrivendevelopment.com/2024/12/04/workshop-work/"
+            },
+            {
+              "title": "Dependency graphs as a design tool",
+              "date": "2024-02-13",
+              "link": "https://chocolatedrivendevelopment.com/2024/02/13/dependency-graphs/"
+            },
+            {
+              "title": "TDD in the context of writing code to be read",
+              "date": "2024-01-18",
+              "link": "https://chocolatedrivendevelopment.com/2024/01/18/tdd-as-a-code-reading-tool/"
+            },
+            {
+              "title": "Publish first, review later",
+              "date": "2023-11-23",
+              "link": "https://chocolatedrivendevelopment.com/2023/11/23/review/"
+            },
+            {
+              "title": "Wunderbaum testing",
+              "date": "2023-11-23",
+              "link": "https://chocolatedrivendevelopment.com/2023/11/23/wunderbaum/"
+            }
+          ]
+        },
+        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -744,6 +1132,68 @@
               "title": "The Uncertainty",
               "date": "2024-07-04",
               "link": "https://www.drcathicks.com/post/the-uncertainty"
+            }
+          ]
+        },
+        {
+          "title": "Fynn Ellie Becker",
+          "feedUrl": "https://fynn.be/feed.xml",
+          "items": [
+            {
+              "title": "The story behind my name",
+              "date": "2024-12-01",
+              "link": "https://fynn.be/blog/story-behind-name/"
+            },
+            {
+              "title": "Selbstbestimmt",
+              "date": "2024-11-23",
+              "link": "https://fynn.be/blog/selbstbestimmt/"
+            },
+            {
+              "title": "I rebuilt my website from scratch with WebC",
+              "date": "2024-09-14",
+              "link": "https://fynn.be/blog/website-rebuilt-webc/"
+            },
+            {
+              "title": "Farewell Star Trek: Discovery",
+              "date": "2024-05-30",
+              "link": "https://fynn.be/blog/farewell-star-trek-discovery/"
+            },
+            {
+              "title": "Forced colors and Windows contrast themes",
+              "date": "2024-05-16",
+              "link": "https://fynn.be/talks/forced-colors-windows-contrast-themes/"
+            }
+          ]
+        },
+        {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "The Fascinating Security Model of Dark Web Marketplaces",
+              "date": "2024-11-30",
+              "link": "https://boehs.org/node/dark-web-security"
+            },
+            {
+              "title": "We Showed Up. We Fought. We Lost.",
+              "date": "2024-11-06",
+              "link": "https://boehs.org/node/election-2024"
+            },
+            {
+              "title": "Apple Should Use Intelligence to Get It into Their Heads That We Don't Want This.",
+              "date": "2024-06-10",
+              "link": "https://boehs.org/node/apple-intelligence"
+            },
+            {
+              "title": "I Don't Hate Technology When It Works.",
+              "date": "2024-05-18",
+              "link": "https://boehs.org/node/old-tech"
+            },
+            {
+              "title": "Bountysource Stole at Least $21,000 from Open Source Developers",
+              "date": "2024-05-03",
+              "link": "https://boehs.org/node/bountysource"
             }
           ]
         },
@@ -1151,6 +1601,68 @@
           ]
         },
         {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "One way to do applied research",
+              "date": "2024-11-07",
+              "link": "https://dubroy.com/blog/one-way-to-do-applied-research"
+            },
+            {
+              "title": "Memories of some fantastic internships",
+              "date": "2024-07-31",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships"
+            },
+            {
+              "title": "Playing like a kid again",
+              "date": "2024-06-30",
+              "link": "https://dubroy.com/blog/playing-like-a-kid-again"
+            },
+            {
+              "title": "Taking learning seriously",
+              "date": "2024-05-30",
+              "link": "https://dubroy.com/blog/taking-learning-seriously"
+            },
+            {
+              "title": "Bytecode VMs in surprising places",
+              "date": "2024-04-30",
+              "link": "https://dubroy.com/blog/bytecode-vms-in-surprising-places"
+            }
+          ]
+        },
+        {
+          "title": "leanrada.com notes",
+          "feedUrl": "https://leanrada.com/rss.xml",
+          "items": [
+            {
+              "title": "CSS sprite sheet animations",
+              "date": "2024-11-03",
+              "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
+            },
+            {
+              "title": "Centering a div in a div in 2020",
+              "date": "2024-10-17",
+              "link": "https://leanrada.com/notes/how-to-center-in-css?ref=rss"
+            },
+            {
+              "title": "I made an app to fix my motion sickness",
+              "date": "2024-09-02",
+              "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
+            },
+            {
+              "title": "Stop using ease-out in your UIs!",
+              "date": "2024-07-15",
+              "link": "https://leanrada.com/notes/stop-using-ease-out?ref=rss"
+            },
+            {
+              "title": "Creating a halftone effect with CSS",
+              "date": "2024-05-05",
+              "link": "https://leanrada.com/notes/pure-css-halftone?ref=rss"
+            }
+          ]
+        },
+        {
           "title": "",
           "feedUrl": "https://danluu.com/atom.xml",
           "items": [
@@ -1178,6 +1690,37 @@
               "title": "How web bloat impacts users with slow devices",
               "date": "2024-03-16",
               "link": "https://danluu.com/slow-device/"
+            }
+          ]
+        },
+        {
+          "title": "Sara Joy",
+          "feedUrl": "https://sarajoy.dev/rss.xml",
+          "items": [
+            {
+              "title": "Come to the light-dark() Side",
+              "date": "2024-10-26",
+              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
+            },
+            {
+              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
+              "date": "2024-09-30",
+              "link": "https://sarajoy.dev/blog/see-and-point/"
+            },
+            {
+              "title": "Sara Uses",
+              "date": "2024-09-10",
+              "link": "https://sarajoy.dev/blog/uses/"
+            },
+            {
+              "title": "Weaknote 2024-07-25 (a tab amnesty)",
+              "date": "2024-07-25",
+              "link": "https://sarajoy.dev/blog/notes/20240725/"
+            },
+            {
+              "title": "Everybody's Free (To Write Websites)",
+              "date": "2024-07-16",
+              "link": "https://sarajoy.dev/blog/write-websites/"
             }
           ]
         },
@@ -1337,6 +1880,37 @@
           ]
         },
         {
+          "title": "molily",
+          "feedUrl": "https://molily.de/feed.xml",
+          "items": [
+            {
+              "title": "Something went wrong",
+              "date": "2024-09-10",
+              "link": "https://molily.de/something-went-wrong/"
+            },
+            {
+              "title": "Full circle development",
+              "date": "2023-11-10",
+              "link": "https://molily.de/full-circle-development/"
+            },
+            {
+              "title": "Planet of the Beavers",
+              "date": "2023-10-06",
+              "link": "https://molily.de/planet-of-the-beavers/"
+            },
+            {
+              "title": "On browser compatibility and support baselines",
+              "date": "2023-05-12",
+              "link": "https://molily.de/browser-compatibility-baseline/"
+            },
+            {
+              "title": "ECMAScript modules and browser compatibility",
+              "date": "2023-04-20",
+              "link": "https://molily.de/ecmascript-modules/"
+            }
+          ]
+        },
+        {
           "title": "sunshowers",
           "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
@@ -1364,6 +1938,68 @@
               "title": "Dealing with tempfile cleaners",
               "date": "2023-10-05",
               "link": "https://sunshowers.io/posts/tmp-cleaner/"
+            }
+          ]
+        },
+        {
+          "title": "Cecilie Vennevik's blog",
+          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
+          "items": [
+            {
+              "title": "Crystal Spire #7: Armor",
+              "date": "2024-08-24",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-07-armor/"
+            },
+            {
+              "title": "Slay the Spire #6: Let's go to Codeberg!",
+              "date": "2024-08-11",
+              "link": "https://www.cvennevik.no/blog/slay-the-spire-06-lets-go-to-codeberg/"
+            },
+            {
+              "title": "I can do hard things",
+              "date": "2024-08-11",
+              "link": "https://www.cvennevik.no/blog/i-can-do-hard-things/"
+            },
+            {
+              "title": "Slay the Spire #5: Going dynamic",
+              "date": "2024-08-04",
+              "link": "https://www.cvennevik.no/blog/slay-the-spire-05-going-dynamic/"
+            },
+            {
+              "title": "Slay the Spire #4: Links are real, and strong, and they are my friend",
+              "date": "2024-08-03",
+              "link": "https://www.cvennevik.no/blog/slay-the-spire-04-links-are-real/"
+            }
+          ]
+        },
+        {
+          "title": "Nonlinear.Garden",
+          "feedUrl": "https://nonlinear.garden/rss.xml",
+          "items": [
+            {
+              "title": "Astral Truth",
+              "date": "2024-08-02",
+              "link": "https://nonlinear.garden/archive/astral-truth/"
+            },
+            {
+              "title": "Slicing",
+              "date": "2024-02-17",
+              "link": "https://nonlinear.garden/archive/slicing/"
+            },
+            {
+              "title": "Problem Zero",
+              "date": "2024-01-01",
+              "link": "https://nonlinear.garden/archive/problem-zero/"
+            },
+            {
+              "title": "Boundary Mistakes",
+              "date": "2023-11-08",
+              "link": "https://nonlinear.garden/archive/boundary-mistakes/"
+            },
+            {
+              "title": "Iteration Is The Only Way I Know",
+              "date": "2023-10-28",
+              "link": "https://nonlinear.garden/archive/iteration-is-the-only-way-i-know/"
             }
           ]
         },
@@ -1426,6 +2062,37 @@
               "title": "virtualenv-burrito 2.7",
               "date": "2014-07-07",
               "link": "https://brainsik.net/2014/virtualenv-burrito-2-7/"
+            }
+          ]
+        },
+        {
+          "title": "Quantum Steps",
+          "feedUrl": "https://read.ceilfors.com/feed",
+          "items": [
+            {
+              "title": "How to become a Production Blocker in a CI Theatre",
+              "date": "2024-07-08",
+              "link": "https://read.ceilfors.com/p/how-to-become-a-production-blocker"
+            },
+            {
+              "title": "Seek concrete examples to deepen problem understanding: Lessons from Eric Evans (Part 2)",
+              "date": "2024-06-17",
+              "link": "https://read.ceilfors.com/p/concrete-examples-to-deepen-understanding"
+            },
+            {
+              "title": "The Unspoken Secrets of DDD: Lessons from Eric Evans ",
+              "date": "2024-06-07",
+              "link": "https://read.ceilfors.com/p/unspoken-secrets-of-ddd-lessons-from-eric-evans"
+            },
+            {
+              "title": "Crossing the Road Together",
+              "date": "2023-11-24",
+              "link": "https://read.ceilfors.com/p/crossing-the-road-together"
+            },
+            {
+              "title": "Write Forgettable Code",
+              "date": "2023-11-17",
+              "link": "https://read.ceilfors.com/p/write-forgettable-code"
             }
           ]
         },
@@ -1616,6 +2283,27 @@
           ]
         },
         {
+          "title": "uncenter.dev",
+          "feedUrl": "https://uncenter.dev/feed.xml",
+          "items": [
+            {
+              "title": "Learning the oldest programming language",
+              "date": "2024-01-31",
+              "link": "https://uncenter.dev/posts/learning-fortran/"
+            },
+            {
+              "title": "The package that broke npm (accidentally)",
+              "date": "2024-01-03",
+              "link": "https://uncenter.dev/posts/npm-install-everything/"
+            },
+            {
+              "title": "Spell-checking blog posts with cSpell",
+              "date": "2023-03-23",
+              "link": "https://uncenter.dev/posts/spellchecking-with-eleventy/"
+            }
+          ]
+        },
+        {
           "title": "CodeAesthetic",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
           "items": [
@@ -1674,6 +2362,37 @@
               "title": "\n      The Gift of It's Your Problem Now\n    ",
               "date": "2022-01-01",
               "link": "https://apenwarr.ca/log/20211229"
+            }
+          ]
+        },
+        {
+          "title": "Coding Is Like Cooking",
+          "feedUrl": "https://coding-is-like-cooking.info/feed/",
+          "items": [
+            {
+              "title": "Barbie",
+              "date": "2023-08-07",
+              "link": "https://coding-is-like-cooking.info/2023/08/barbie/"
+            },
+            {
+              "title": "I’ve Gone Independent",
+              "date": "2023-02-20",
+              "link": "https://coding-is-like-cooking.info/2023/02/ive-gone-independent/"
+            },
+            {
+              "title": "Hold an Open Space Event in just One Hour",
+              "date": "2022-12-19",
+              "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
+            },
+            {
+              "title": "Samman Coaching in 2021",
+              "date": "2022-06-30",
+              "link": "https://coding-is-like-cooking.info/2022/06/samman-coaching-in-2021/"
+            },
+            {
+              "title": "Book Review: Practical Remote Pair Programming by Adrian Bolboaca",
+              "date": "2022-06-30",
+              "link": "https://coding-is-like-cooking.info/2022/06/book-review-practical-remote-pair-programming-by-adrian-bolboaca/"
             }
           ]
         },
@@ -1773,34 +2492,10 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-30T03:21:33.433Z",
+  "fetchDate": "2024-12-31T03:18:17.051Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://leanrada.com/rss.xml",
-    "https://flamedfury.com/feed.xml",
-    "https://ntietz.com/atom.xml",
-    "https://chocolatedrivendevelopment.com/feed.xml",
-    "https://coding-is-like-cooking.info/feed/",
-    "https://www.lisihocke.com/feeds/posts/default",
-    "https://read.ceilfors.com/feed",
-    "https://thathtml.blog/feed.xml",
-    "https://www.cvennevik.no/blog/rss.xml",
-    "https://frills.dev/all.xml",
-    "https://boehs.org/in/blog.xml",
-    "https://uncenter.dev/feed.xml",
-    "https://smallsheds.garden/blog/feed.atom",
-    "https://dbushell.com/notes/rss.xml",
-    "https://lalaland.mataroa.blog/rss/",
-    "https://garoof.no/feed.xml",
-    "https://nonlinear.garden/rss.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://sarajoy.dev/rss.xml",
-    "https://molily.de/feed.xml",
-    "https://fynn.be/feed.xml",
-    "https://anniemueller.com/posts_feed",
-    "https://dubroy.com/blog/rss.xml",
-    "https://einarwh.wordpress.com/feed/",
-    "https://buttondown.email/hillelwayne/rss"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

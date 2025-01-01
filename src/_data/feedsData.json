@@ -4,9 +4,107 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "Mere Being 018 - December",
+              "date": "2025-01-01",
+              "link": "https://www.simplermachines.com/mere-being-018-december/"
+            },
+            {
+              "title": "Mere Being 017 - September - Dirt Man",
+              "date": "2024-10-01",
+              "link": "https://www.simplermachines.com/mere-being-017-september-dirt-man/"
+            },
+            {
+              "title": "Mere Being 016 - August - Iron Supplements, Digestion, Love",
+              "date": "2024-09-01",
+              "link": "https://www.simplermachines.com/mere-being-2/"
+            },
+            {
+              "title": "Pivots don't start enough businesses",
+              "date": "2024-08-26",
+              "link": "https://www.simplermachines.com/pivots-dont-start-enough-businesses/"
+            },
+            {
+              "title": "How team assignment worked at Pivotal (at least on Cloud Foundry)",
+              "date": "2024-08-20",
+              "link": "https://www.simplermachines.com/how-team-assignment-worked-at-pivotal/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "How I Use Claude",
+              "date": "2025-01-01",
+              "link": "https://borretti.me/article/how-i-use-claude"
+            },
+            {
+              "title": "Implementing SM-2 in Rust",
+              "date": "2024-12-27",
+              "link": "https://borretti.me/article/implementing-sm2-in-rust"
+            },
+            {
+              "title": "Ephemerality in User Interfaces",
+              "date": "2024-12-21",
+              "link": "https://borretti.me/article/ephemerality-in-user-interfaces"
+            },
+            {
+              "title": "Client Freedom",
+              "date": "2024-11-24",
+              "link": "https://borretti.me/article/client-freedom"
+            },
+            {
+              "title": "The Best Emacs Microfeature",
+              "date": "2024-06-05",
+              "link": "https://borretti.me/article/the-best-emacs-microfeature"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "This Glorious Machine",
+              "date": "2024-12-31",
+              "link": "https://robinrendle.com/notes/this-glorious-machine/"
+            },
+            {
+              "title": "2024 in music",
+              "date": "2024-12-29",
+              "link": "https://robinrendle.com/notes/2024-in-music/"
+            },
+            {
+              "title": "text-box",
+              "date": "2024-12-27",
+              "link": "https://robinrendle.com/notes/text-box/"
+            },
+            {
+              "title": "Code shufflin’",
+              "date": "2024-12-07",
+              "link": "https://robinrendle.com/notes/code-shufflin/"
+            },
+            {
+              "title": "Frameworkism",
+              "date": "2024-12-01",
+              "link": "https://robinrendle.com/notes/frameworkism/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Understanding how your code works",
+              "date": "2024-12-31",
+              "link": "https://gomakethings.com/understanding-how-your-code-works/"
+            },
             {
               "title": "Just grab a library",
               "date": "2024-12-30",
@@ -26,11 +124,99 @@
               "title": "A formula for debugging (and asking for help)",
               "date": "2024-12-18",
               "link": "https://gomakethings.com/a-formula-for-debugging-and-asking-for-help/"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Goodnight, Eggbug",
+              "date": "2024-12-31",
+              "link": "https://moonbase.lgbt/blog/goodnight-eggbug/"
             },
             {
-              "title": "Don't test implementation details",
-              "date": "2024-12-17",
-              "link": "https://gomakethings.com/dont-test-implementation-details/"
+              "title": "Satisfying camera noises",
+              "date": "2024-12-20",
+              "link": "https://moonbase.lgbt/blog/satisfying-camera-noises/"
+            },
+            {
+              "title": "Too many servers",
+              "date": "2024-12-18",
+              "link": "https://moonbase.lgbt/blog/too-many-servers/"
+            },
+            {
+              "title": "Operator transposition",
+              "date": "2024-11-30",
+              "link": "https://moonbase.lgbt/blog/operator-transposition/"
+            },
+            {
+              "title": "Biiiiiig stretch!",
+              "date": "2024-11-26",
+              "link": "https://moonbase.lgbt/blog/big-stretch/"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Reflections 2024: Parenthood",
+              "date": "2024-12-31",
+              "link": "https://flamedfury.com/posts/reflections-2024-parenthood/"
+            },
+            {
+              "title": "Twisted Metal (2023)",
+              "date": "2024-12-13",
+              "link": "https://flamedfury.com/posts/twisted-metal-2023/"
+            },
+            {
+              "title": "New Music Friday #3",
+              "date": "2024-12-13",
+              "link": "https://flamedfury.com/posts/new-music-friday-3/"
+            },
+            {
+              "title": "Monthly Recap: November 2024",
+              "date": "2024-12-03",
+              "link": "https://flamedfury.com/posts/monthly-recap-november-2024/"
+            },
+            {
+              "title": "What If Encore Never Leaked?",
+              "date": "2024-11-13",
+              "link": "https://flamedfury.com/posts/what-if-encore-never-leaked/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Podcast Notes: Vlad Prelovac on “The Talk Show”",
+              "date": "2024-12-30",
+              "link": "https://blog.jim-nielsen.com/2024/podcast-notes-talk-show-kagi/"
+            },
+            {
+              "title": "Christmas Day",
+              "date": "2024-12-29",
+              "link": "https://blog.jim-nielsen.com/2024/christmas-day/"
+            },
+            {
+              "title": "Making o(m)g:image, Part IV: URLs",
+              "date": "2024-12-23",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iv/"
+            },
+            {
+              "title": "Making o(m)g:image, Part III: The HTML",
+              "date": "2024-12-18",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iii/"
+            },
+            {
+              "title": "Making o(m)g:image, Part II: As Little JS As Possible",
+              "date": "2024-12-15",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-ii/"
             }
           ]
         },
@@ -128,68 +314,6 @@
           ]
         },
         {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "2024 in music",
-              "date": "2024-12-29",
-              "link": "https://robinrendle.com/notes/2024-in-music/"
-            },
-            {
-              "title": "text-box",
-              "date": "2024-12-27",
-              "link": "https://robinrendle.com/notes/text-box/"
-            },
-            {
-              "title": "Code shufflin’",
-              "date": "2024-12-07",
-              "link": "https://robinrendle.com/notes/code-shufflin/"
-            },
-            {
-              "title": "Frameworkism",
-              "date": "2024-12-01",
-              "link": "https://robinrendle.com/notes/frameworkism/"
-            },
-            {
-              "title": "The eras of CSS",
-              "date": "2024-11-29",
-              "link": "https://robinrendle.com/notes/the-eras-of-css/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Christmas Day",
-              "date": "2024-12-29",
-              "link": "https://blog.jim-nielsen.com/2024/christmas-day/"
-            },
-            {
-              "title": "Making o(m)g:image, Part IV: URLs",
-              "date": "2024-12-23",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iv/"
-            },
-            {
-              "title": "Making o(m)g:image, Part III: The HTML",
-              "date": "2024-12-18",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iii/"
-            },
-            {
-              "title": "Making o(m)g:image, Part II: As Little JS As Possible",
-              "date": "2024-12-15",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-ii/"
-            },
-            {
-              "title": "Making o(m)g:image, Part I: Design Iterations",
-              "date": "2024-12-12",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-i/"
-            }
-          ]
-        },
-        {
           "title": "Joep Schuurkes",
           "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
@@ -217,37 +341,6 @@
               "title": "What do you fix when you fix a test?",
               "date": "2024-08-24",
               "link": "https://smallsheds.garden/blog/2024/what-do-you-fix-when-you-fix-a-test/"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Implementing SM-2 in Rust",
-              "date": "2024-12-27",
-              "link": "https://borretti.me/article/implementing-sm2-in-rust"
-            },
-            {
-              "title": "Ephemerality in User Interfaces",
-              "date": "2024-12-21",
-              "link": "https://borretti.me/article/ephemerality-in-user-interfaces"
-            },
-            {
-              "title": "Client Freedom",
-              "date": "2024-11-24",
-              "link": "https://borretti.me/article/client-freedom"
-            },
-            {
-              "title": "The Best Emacs Microfeature",
-              "date": "2024-06-05",
-              "link": "https://borretti.me/article/the-best-emacs-microfeature"
-            },
-            {
-              "title": "The Design Space of Wikis",
-              "date": "2024-06-02",
-              "link": "https://borretti.me/article/the-design-space-of-wikis"
             }
           ]
         },
@@ -465,37 +558,6 @@
               "title": "Accessibility preference settings, information architecture, and internalized ableism",
               "date": "2024-09-17",
               "link": "https://ericwbailey.website/published/accessibility-preference-settings-information-architecture-and-internalized-ableism/"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "Satisfying camera noises",
-              "date": "2024-12-20",
-              "link": "https://moonbase.lgbt/blog/satisfying-camera-noises/"
-            },
-            {
-              "title": "Too many servers",
-              "date": "2024-12-18",
-              "link": "https://moonbase.lgbt/blog/too-many-servers/"
-            },
-            {
-              "title": "Operator transposition",
-              "date": "2024-11-30",
-              "link": "https://moonbase.lgbt/blog/operator-transposition/"
-            },
-            {
-              "title": "Biiiiiig stretch!",
-              "date": "2024-11-26",
-              "link": "https://moonbase.lgbt/blog/big-stretch/"
-            },
-            {
-              "title": "Mixed-type arithmetic in C",
-              "date": "2024-11-25",
-              "link": "https://moonbase.lgbt/blog/c-mixed-type-arithmetic/"
             }
           ]
         },
@@ -770,37 +832,6 @@
               "title": "Recently",
               "date": "2024-09-05",
               "link": "https://macwright.com/2024/09/05/recently.html"
-            }
-          ]
-        },
-        {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Twisted Metal (2023)",
-              "date": "2024-12-13",
-              "link": "https://flamedfury.com/posts/twisted-metal-2023/"
-            },
-            {
-              "title": "New Music Friday #3",
-              "date": "2024-12-13",
-              "link": "https://flamedfury.com/posts/new-music-friday-3/"
-            },
-            {
-              "title": "Monthly Recap: November 2024",
-              "date": "2024-12-03",
-              "link": "https://flamedfury.com/posts/monthly-recap-november-2024/"
-            },
-            {
-              "title": "What If Encore Never Leaked?",
-              "date": "2024-11-13",
-              "link": "https://flamedfury.com/posts/what-if-encore-never-leaked/"
-            },
-            {
-              "title": "How Do I IndieWeb?",
-              "date": "2024-11-08",
-              "link": "https://flamedfury.com/posts/how-do-i-indieweb/"
             }
           ]
         },
@@ -1694,37 +1725,6 @@
           ]
         },
         {
-          "title": "Sara Joy",
-          "feedUrl": "https://sarajoy.dev/rss.xml",
-          "items": [
-            {
-              "title": "Come to the light-dark() Side",
-              "date": "2024-10-26",
-              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
-            },
-            {
-              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
-              "date": "2024-09-30",
-              "link": "https://sarajoy.dev/blog/see-and-point/"
-            },
-            {
-              "title": "Sara Uses",
-              "date": "2024-09-10",
-              "link": "https://sarajoy.dev/blog/uses/"
-            },
-            {
-              "title": "Weaknote 2024-07-25 (a tab amnesty)",
-              "date": "2024-07-25",
-              "link": "https://sarajoy.dev/blog/notes/20240725/"
-            },
-            {
-              "title": "Everybody's Free (To Write Websites)",
-              "date": "2024-07-16",
-              "link": "https://sarajoy.dev/blog/write-websites/"
-            }
-          ]
-        },
-        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -1814,37 +1814,6 @@
               "title": "Changing The Frame",
               "date": "2023-01-20",
               "link": "https://www.geepawhill.org/2023/01/20/changing-the-frame/"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "Mere Being 017 - September - Dirt Man",
-              "date": "2024-10-01",
-              "link": "https://www.simplermachines.com/mere-being-017-september-dirt-man/"
-            },
-            {
-              "title": "Mere Being 016 - August - Iron Supplements, Digestion, Love",
-              "date": "2024-09-01",
-              "link": "https://www.simplermachines.com/mere-being-2/"
-            },
-            {
-              "title": "Pivots don't start enough businesses",
-              "date": "2024-08-26",
-              "link": "https://www.simplermachines.com/pivots-dont-start-enough-businesses/"
-            },
-            {
-              "title": "How team assignment worked at Pivotal (at least on Cloud Foundry)",
-              "date": "2024-08-20",
-              "link": "https://www.simplermachines.com/how-team-assignment-worked-at-pivotal/"
-            },
-            {
-              "title": "Testing Transactions in Elixir",
-              "date": "2024-08-12",
-              "link": "https://www.simplermachines.com/testing-transactions-in-elixir/"
             }
           ]
         },
@@ -2492,10 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2024-12-31T03:18:17.051Z",
+  "fetchDate": "2025-01-01T03:26:25.183Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://sarajoy.dev/rss.xml"
   ]
 }

@@ -4,6 +4,48 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Love letters 1-5",
+              "date": "2025-01-02",
+              "link": "https://anniemueller.com/posts/love-letters-1-5"
+            },
+            {
+              "title": "One bucket at a time",
+              "date": "2024-12-30",
+              "link": "https://anniemueller.com/posts/one-bucket-at-a-time"
+            },
+            {
+              "title": "Retrospective, reading",
+              "date": "2024-12-29",
+              "link": "https://anniemueller.com/posts/retrospective-reading"
+            },
+            {
+              "title": "📱Default apps (2024)",
+              "date": "2024-12-27",
+              "link": "https://anniemueller.com/posts/default-apps-2024"
+            },
+            {
+              "title": "Joyful, joyful",
+              "date": "2024-12-26",
+              "link": "https://anniemueller.com/posts/joyful-joyful"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "WebAssembly as an ecosystem for programming languages",
+              "date": "2025-01-01",
+              "link": "https://2ality.com/2025/01/webassembly-language-ecosystem.html"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -163,6 +205,11 @@
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
+              "title": "Reflections 2024: Music Rewind",
+              "date": "2024-12-31",
+              "link": "https://flamedfury.com/posts/reflections-2024-music-rewind/"
+            },
+            {
               "title": "Reflections 2024: Parenthood",
               "date": "2024-12-31",
               "link": "https://flamedfury.com/posts/reflections-2024-parenthood/"
@@ -181,11 +228,6 @@
               "title": "Monthly Recap: November 2024",
               "date": "2024-12-03",
               "link": "https://flamedfury.com/posts/monthly-recap-november-2024/"
-            },
-            {
-              "title": "What If Encore Never Leaked?",
-              "date": "2024-11-13",
-              "link": "https://flamedfury.com/posts/what-if-encore-never-leaked/"
             }
           ]
         },
@@ -248,37 +290,6 @@
               "title": "Old Tabs: Part 11",
               "date": "2024-12-08",
               "link": "https://rosswintle.uk/2024/12/old-tabs-part-11/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "One bucket at a time",
-              "date": "2024-12-30",
-              "link": "https://anniemueller.com/posts/one-bucket-at-a-time"
-            },
-            {
-              "title": "Retrospective, reading",
-              "date": "2024-12-29",
-              "link": "https://anniemueller.com/posts/retrospective-reading"
-            },
-            {
-              "title": "📱Default apps (2024)",
-              "date": "2024-12-27",
-              "link": "https://anniemueller.com/posts/default-apps-2024"
-            },
-            {
-              "title": "Joyful, joyful",
-              "date": "2024-12-26",
-              "link": "https://anniemueller.com/posts/joyful-joyful"
-            },
-            {
-              "title": "Asking too much of the fediverse",
-              "date": "2024-12-20",
-              "link": "https://anniemueller.com/posts/asking-too-much-of-the-fediverse"
             }
           ]
         },
@@ -1446,37 +1457,6 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Mastodon’s weaknesses and how to fix them",
-              "date": "2024-11-20",
-              "link": "https://2ality.com/2024/11/mastodon-weaknesses.html"
-            },
-            {
-              "title": "Ecma International approves ECMAScript 2024: What’s new?",
-              "date": "2024-06-26",
-              "link": "https://2ality.com/2024/06/ecmascript-2024.html"
-            },
-            {
-              "title": "ECMAScript 2024 features: resizing and transferring ArrayBuffers",
-              "date": "2024-06-01",
-              "link": "https://2ality.com/2024/06/array-buffers-es2024.html"
-            },
-            {
-              "title": "ECMAScript 2023 feature: symbols as WeakMap keys",
-              "date": "2024-05-19",
-              "link": "https://2ality.com/2024/05/proposal-symbols-as-weakmap-keys.html"
-            },
-            {
-              "title": "ECMAScript 2025 feature: duplicate named capturing groups for regular expressions",
-              "date": "2024-05-16",
-              "link": "https://2ality.com/2024/05/proposal-duplicate-named-capturing-groups.html"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -1721,6 +1701,37 @@
               "title": "How web bloat impacts users with slow devices",
               "date": "2024-03-16",
               "link": "https://danluu.com/slow-device/"
+            }
+          ]
+        },
+        {
+          "title": "Sara Joy",
+          "feedUrl": "https://sarajoy.dev/rss.xml",
+          "items": [
+            {
+              "title": "Come to the light-dark() Side",
+              "date": "2024-10-26",
+              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
+            },
+            {
+              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
+              "date": "2024-09-30",
+              "link": "https://sarajoy.dev/blog/see-and-point/"
+            },
+            {
+              "title": "Sara Uses",
+              "date": "2024-09-10",
+              "link": "https://sarajoy.dev/blog/uses/"
+            },
+            {
+              "title": "Weaknote 2024-07-25 (a tab amnesty)",
+              "date": "2024-07-25",
+              "link": "https://sarajoy.dev/blog/notes/20240725/"
+            },
+            {
+              "title": "Everybody's Free (To Write Websites)",
+              "date": "2024-07-16",
+              "link": "https://sarajoy.dev/blog/write-websites/"
             }
           ]
         },
@@ -2461,11 +2472,10 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-01T03:26:25.183Z",
+  "fetchDate": "2025-01-02T03:18:14.192Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://einarwh.wordpress.com/feed/",
-    "https://sarajoy.dev/rss.xml"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

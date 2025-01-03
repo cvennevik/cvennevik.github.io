@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "A Modern Replacement for Cookie Cruft",
+              "date": "2025-01-03",
+              "link": "https://thathtml.blog/2025/01/cookie-store-api/"
+            },
+            {
+              "title": "The Joyful Pleasures of DIY Web Services",
+              "date": "2024-12-23",
+              "link": "https://thathtml.blog/2024/12/diy-web-services/"
+            },
+            {
+              "title": "Tailwind 4.0: a True “Mea Culpa” Moment",
+              "date": "2024-12-19",
+              "link": "https://thathtml.blog/2024/12/tailwind-4-a-mea-culpa-moment/"
+            },
+            {
+              "title": "Oh Happy Day! React Finally Speaks Web Components",
+              "date": "2024-12-09",
+              "link": "https://thathtml.blog/2024/12/oh-happy-day-react-finally-speaks-web-component/"
+            },
+            {
+              "title": "There’s a New Custom Element Superclass on the Block",
+              "date": "2024-12-04",
+              "link": "https://thathtml.blog/2024/12/new-custom-element-superclass-on-the-block/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Goals for 2025",
+              "date": "2025-01-02",
+              "link": "https://gomakethings.com/goals-for-2025/"
+            },
+            {
+              "title": "Understanding how your code works",
+              "date": "2024-12-31",
+              "link": "https://gomakethings.com/understanding-how-your-code-works/"
+            },
+            {
+              "title": "Just grab a library",
+              "date": "2024-12-30",
+              "link": "https://gomakethings.com/just-grab-a-library/"
+            },
+            {
+              "title": "The real cost of build tools",
+              "date": "2024-12-23",
+              "link": "https://gomakethings.com/the-real-cost-of-build-tools/"
+            },
+            {
+              "title": "Testing DOM manipulation and Web Components",
+              "date": "2024-12-20",
+              "link": "https://gomakethings.com/testing-dom-manipulation/"
+            }
+          ]
+        },
+        {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "I'm Opposed to the Tiktok Ban",
+              "date": "2025-01-02",
+              "link": "https://boehs.org/node/tiktok-ban"
+            },
+            {
+              "title": "The Fascinating Security Model of Dark Web Marketplaces",
+              "date": "2024-11-30",
+              "link": "https://boehs.org/node/dark-web-security"
+            },
+            {
+              "title": "We Showed Up. We Fought. We Lost.",
+              "date": "2024-11-06",
+              "link": "https://boehs.org/node/election-2024"
+            },
+            {
+              "title": "Apple Should Use Intelligence to Get It into Their Heads That We Don't Want This.",
+              "date": "2024-06-10",
+              "link": "https://boehs.org/node/apple-intelligence"
+            },
+            {
+              "title": "I Don't Hate Technology When It Works.",
+              "date": "2024-05-18",
+              "link": "https://boehs.org/node/old-tech"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -139,37 +232,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Understanding how your code works",
-              "date": "2024-12-31",
-              "link": "https://gomakethings.com/understanding-how-your-code-works/"
-            },
-            {
-              "title": "Just grab a library",
-              "date": "2024-12-30",
-              "link": "https://gomakethings.com/just-grab-a-library/"
-            },
-            {
-              "title": "The real cost of build tools",
-              "date": "2024-12-23",
-              "link": "https://gomakethings.com/the-real-cost-of-build-tools/"
-            },
-            {
-              "title": "Testing DOM manipulation and Web Components",
-              "date": "2024-12-20",
-              "link": "https://gomakethings.com/testing-dom-manipulation/"
-            },
-            {
-              "title": "A formula for debugging (and asking for help)",
-              "date": "2024-12-18",
-              "link": "https://gomakethings.com/a-formula-for-debugging-and-asking-for-help/"
-            }
-          ]
-        },
-        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -205,6 +267,11 @@
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
+              "title": "Reflections 2024: Books",
+              "date": "2024-12-31",
+              "link": "https://flamedfury.com/posts/reflections-2024-books/"
+            },
+            {
               "title": "Reflections 2024: Music Rewind",
               "date": "2024-12-31",
               "link": "https://flamedfury.com/posts/reflections-2024-music-rewind/"
@@ -223,11 +290,6 @@
               "title": "New Music Friday #3",
               "date": "2024-12-13",
               "link": "https://flamedfury.com/posts/new-music-friday-3/"
-            },
-            {
-              "title": "Monthly Recap: November 2024",
-              "date": "2024-12-03",
-              "link": "https://flamedfury.com/posts/monthly-recap-november-2024/"
             }
           ]
         },
@@ -476,37 +538,6 @@
               "title": "A Software Engineering Career Ladder",
               "date": "2024-04-27",
               "link": "https://www.jamesshore.com/v2/blog/2024/a-software-engineering-career-ladder"
-            }
-          ]
-        },
-        {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "The Joyful Pleasures of DIY Web Services",
-              "date": "2024-12-23",
-              "link": "https://thathtml.blog/2024/12/diy-web-services/"
-            },
-            {
-              "title": "Tailwind 4.0: a True “Mea Culpa” Moment",
-              "date": "2024-12-19",
-              "link": "https://thathtml.blog/2024/12/tailwind-4-a-mea-culpa-moment/"
-            },
-            {
-              "title": "Oh Happy Day! React Finally Speaks Web Components",
-              "date": "2024-12-09",
-              "link": "https://thathtml.blog/2024/12/oh-happy-day-react-finally-speaks-web-component/"
-            },
-            {
-              "title": "There’s a New Custom Element Superclass on the Block",
-              "date": "2024-12-04",
-              "link": "https://thathtml.blog/2024/12/new-custom-element-superclass-on-the-block/"
-            },
-            {
-              "title": "Minimal-JavaScript, Server-First Web Components with Declarative Shadow DOM",
-              "date": "2024-10-30",
-              "link": "https://thathtml.blog/2024/10/custom-elements-from-server-templates-with-htmx/"
             }
           ]
         },
@@ -1205,37 +1236,6 @@
               "title": "Forced colors and Windows contrast themes",
               "date": "2024-05-16",
               "link": "https://fynn.be/talks/forced-colors-windows-contrast-themes/"
-            }
-          ]
-        },
-        {
-          "title": "Evan Boehs in the blog",
-          "feedUrl": "https://boehs.org/in/blog.xml",
-          "items": [
-            {
-              "title": "The Fascinating Security Model of Dark Web Marketplaces",
-              "date": "2024-11-30",
-              "link": "https://boehs.org/node/dark-web-security"
-            },
-            {
-              "title": "We Showed Up. We Fought. We Lost.",
-              "date": "2024-11-06",
-              "link": "https://boehs.org/node/election-2024"
-            },
-            {
-              "title": "Apple Should Use Intelligence to Get It into Their Heads That We Don't Want This.",
-              "date": "2024-06-10",
-              "link": "https://boehs.org/node/apple-intelligence"
-            },
-            {
-              "title": "I Don't Hate Technology When It Works.",
-              "date": "2024-05-18",
-              "link": "https://boehs.org/node/old-tech"
-            },
-            {
-              "title": "Bountysource Stole at Least $21,000 from Open Source Developers",
-              "date": "2024-05-03",
-              "link": "https://boehs.org/node/bountysource"
             }
           ]
         },
@@ -2472,7 +2472,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-02T03:18:14.192Z",
+  "fetchDate": "2025-01-03T03:19:23.475Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

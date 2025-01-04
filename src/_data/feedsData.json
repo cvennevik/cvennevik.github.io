@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Anticipation, experience, satisfaction",
+              "date": "2025-01-04",
+              "link": "https://anniemueller.com/posts/anticipation-experience-satisfaction"
+            },
+            {
+              "title": "📋 Good advice for somebody",
+              "date": "2025-01-03",
+              "link": "https://anniemueller.com/posts/good-advice-for-somebody"
+            },
+            {
+              "title": "Love letters 1-5",
+              "date": "2025-01-02",
+              "link": "https://anniemueller.com/posts/love-letters-1-5"
+            },
+            {
+              "title": "One bucket at a time",
+              "date": "2024-12-30",
+              "link": "https://anniemueller.com/posts/one-bucket-at-a-time"
+            },
+            {
+              "title": "Retrospective, reading",
+              "date": "2024-12-29",
+              "link": "https://anniemueller.com/posts/retrospective-reading"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Custom attributes in Web Components",
+              "date": "2025-01-03",
+              "link": "https://gomakethings.com/custom-attributes-in-web-components/"
+            },
+            {
+              "title": "Goals for 2025",
+              "date": "2025-01-02",
+              "link": "https://gomakethings.com/goals-for-2025/"
+            },
+            {
+              "title": "Understanding how your code works",
+              "date": "2024-12-31",
+              "link": "https://gomakethings.com/understanding-how-your-code-works/"
+            },
+            {
+              "title": "Just grab a library",
+              "date": "2024-12-30",
+              "link": "https://gomakethings.com/just-grab-a-library/"
+            },
+            {
+              "title": "The real cost of build tools",
+              "date": "2024-12-23",
+              "link": "https://gomakethings.com/the-real-cost-of-build-tools/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Updated Brief Note on Description List Support",
+              "date": "2025-01-03",
+              "link": "https://adrianroselli.com/2025/01/updated-brief-note-on-description-list-support.html"
+            },
+            {
+              "title": "Development Advent Calendars for 2024",
+              "date": "2024-12-01",
+              "link": "https://adrianroselli.com/2024/12/development-advent-calendars-for-2024.html"
+            },
+            {
+              "title": "Avoid Read-only Controls",
+              "date": "2024-11-21",
+              "link": "https://adrianroselli.com/2024/11/avoid-read-only-controls.html"
+            },
+            {
+              "title": "A11y Camp: Keynote Slides",
+              "date": "2024-10-22",
+              "link": "https://adrianroselli.com/2024/10/a11y-camp-keynote-slides.html"
+            },
+            {
+              "title": "Brief Note on Disclosures in Fieldsets",
+              "date": "2024-09-14",
+              "link": "https://adrianroselli.com/2024/09/brief-note-on-disclosures-in-fieldsets.html"
+            }
+          ]
+        },
+        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -35,37 +128,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Goals for 2025",
-              "date": "2025-01-02",
-              "link": "https://gomakethings.com/goals-for-2025/"
-            },
-            {
-              "title": "Understanding how your code works",
-              "date": "2024-12-31",
-              "link": "https://gomakethings.com/understanding-how-your-code-works/"
-            },
-            {
-              "title": "Just grab a library",
-              "date": "2024-12-30",
-              "link": "https://gomakethings.com/just-grab-a-library/"
-            },
-            {
-              "title": "The real cost of build tools",
-              "date": "2024-12-23",
-              "link": "https://gomakethings.com/the-real-cost-of-build-tools/"
-            },
-            {
-              "title": "Testing DOM manipulation and Web Components",
-              "date": "2024-12-20",
-              "link": "https://gomakethings.com/testing-dom-manipulation/"
-            }
-          ]
-        },
-        {
           "title": "Evan Boehs in the blog",
           "feedUrl": "https://boehs.org/in/blog.xml",
           "items": [
@@ -93,37 +155,6 @@
               "title": "I Don't Hate Technology When It Works.",
               "date": "2024-05-18",
               "link": "https://boehs.org/node/old-tech"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Love letters 1-5",
-              "date": "2025-01-02",
-              "link": "https://anniemueller.com/posts/love-letters-1-5"
-            },
-            {
-              "title": "One bucket at a time",
-              "date": "2024-12-30",
-              "link": "https://anniemueller.com/posts/one-bucket-at-a-time"
-            },
-            {
-              "title": "Retrospective, reading",
-              "date": "2024-12-29",
-              "link": "https://anniemueller.com/posts/retrospective-reading"
-            },
-            {
-              "title": "📱Default apps (2024)",
-              "date": "2024-12-27",
-              "link": "https://anniemueller.com/posts/default-apps-2024"
-            },
-            {
-              "title": "Joyful, joyful",
-              "date": "2024-12-26",
-              "link": "https://anniemueller.com/posts/joyful-joyful"
             }
           ]
         },
@@ -267,6 +298,11 @@
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
+              "title": "Reflections 2024: Beer",
+              "date": "2024-12-31",
+              "link": "https://flamedfury.com/posts/reflections-2024-beer/"
+            },
+            {
               "title": "Reflections 2024: Books",
               "date": "2024-12-31",
               "link": "https://flamedfury.com/posts/reflections-2024-books/"
@@ -285,11 +321,6 @@
               "title": "Twisted Metal (2023)",
               "date": "2024-12-13",
               "link": "https://flamedfury.com/posts/twisted-metal-2023/"
-            },
-            {
-              "title": "New Music Friday #3",
-              "date": "2024-12-13",
-              "link": "https://flamedfury.com/posts/new-music-friday-3/"
             }
           ]
         },
@@ -1143,37 +1174,6 @@
               "title": "Wunderbaum testing",
               "date": "2023-11-23",
               "link": "https://chocolatedrivendevelopment.com/2023/11/23/wunderbaum/"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Development Advent Calendars for 2024",
-              "date": "2024-12-01",
-              "link": "https://adrianroselli.com/2024/12/development-advent-calendars-for-2024.html"
-            },
-            {
-              "title": "Avoid Read-only Controls",
-              "date": "2024-11-21",
-              "link": "https://adrianroselli.com/2024/11/avoid-read-only-controls.html"
-            },
-            {
-              "title": "A11y Camp: Keynote Slides",
-              "date": "2024-10-22",
-              "link": "https://adrianroselli.com/2024/10/a11y-camp-keynote-slides.html"
-            },
-            {
-              "title": "Brief Note on Disclosures in Fieldsets",
-              "date": "2024-09-14",
-              "link": "https://adrianroselli.com/2024/09/brief-note-on-disclosures-in-fieldsets.html"
-            },
-            {
-              "title": "Under-Engineered Estimated Reading Time Feature",
-              "date": "2024-09-02",
-              "link": "https://adrianroselli.com/2024/09/under-engineered-estimated-reading-time-feature.html"
             }
           ]
         },
@@ -2472,7 +2472,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-03T03:19:23.475Z",
+  "fetchDate": "2025-01-04T03:17:58.465Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

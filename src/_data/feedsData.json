@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "FTC Catches up to #accessiBe",
+              "date": "2025-01-05",
+              "link": "https://adrianroselli.com/2025/01/ftc-catches-up-to-accessibe.html"
+            },
+            {
+              "title": "Updated Brief Note on Description List Support",
+              "date": "2025-01-03",
+              "link": "https://adrianroselli.com/2025/01/updated-brief-note-on-description-list-support.html"
+            },
+            {
+              "title": "Development Advent Calendars for 2024",
+              "date": "2024-12-01",
+              "link": "https://adrianroselli.com/2024/12/development-advent-calendars-for-2024.html"
+            },
+            {
+              "title": "Avoid Read-only Controls",
+              "date": "2024-11-21",
+              "link": "https://adrianroselli.com/2024/11/avoid-read-only-controls.html"
+            },
+            {
+              "title": "A11y Camp: Keynote Slides",
+              "date": "2024-10-22",
+              "link": "https://adrianroselli.com/2024/10/a11y-camp-keynote-slides.html"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Design artifacts",
+              "date": "2025-01-04",
+              "link": "https://robinrendle.com/notes/design-artifacts/"
+            },
+            {
+              "title": "This Glorious Machine",
+              "date": "2024-12-31",
+              "link": "https://robinrendle.com/notes/this-glorious-machine/"
+            },
+            {
+              "title": "2024 in music",
+              "date": "2024-12-29",
+              "link": "https://robinrendle.com/notes/2024-in-music/"
+            },
+            {
+              "title": "text-box",
+              "date": "2024-12-27",
+              "link": "https://robinrendle.com/notes/text-box/"
+            },
+            {
+              "title": "Code shufflin’",
+              "date": "2024-12-07",
+              "link": "https://robinrendle.com/notes/code-shufflin/"
+            }
+          ]
+        },
+        {
+          "title": "Nathan Knowler",
+          "feedUrl": "https://knowler.dev/feed.xml",
+          "items": [
+            {
+              "title": "Polyfilling hidden until-found",
+              "date": "2025-01-04",
+              "link": "https://knowler.dev/blog/polyfilling-hidden-until-found"
+            },
+            {
+              "title": "I’m switching back to Arc Browser (for now)",
+              "date": "2024-11-22",
+              "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
+            },
+            {
+              "title": "To define custom elements or not when distributing them",
+              "date": "2024-10-08",
+              "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
+            },
+            {
+              "title": "A custom element smoke test",
+              "date": "2024-07-11",
+              "link": "https://knowler.dev/blog/a-custom-element-smoke-test"
+            },
+            {
+              "title": "Read the Platform",
+              "date": "2024-06-29",
+              "link": "https://knowler.dev/blog/read-the-platform"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -62,37 +155,6 @@
               "title": "The real cost of build tools",
               "date": "2024-12-23",
               "link": "https://gomakethings.com/the-real-cost-of-build-tools/"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Updated Brief Note on Description List Support",
-              "date": "2025-01-03",
-              "link": "https://adrianroselli.com/2025/01/updated-brief-note-on-description-list-support.html"
-            },
-            {
-              "title": "Development Advent Calendars for 2024",
-              "date": "2024-12-01",
-              "link": "https://adrianroselli.com/2024/12/development-advent-calendars-for-2024.html"
-            },
-            {
-              "title": "Avoid Read-only Controls",
-              "date": "2024-11-21",
-              "link": "https://adrianroselli.com/2024/11/avoid-read-only-controls.html"
-            },
-            {
-              "title": "A11y Camp: Keynote Slides",
-              "date": "2024-10-22",
-              "link": "https://adrianroselli.com/2024/10/a11y-camp-keynote-slides.html"
-            },
-            {
-              "title": "Brief Note on Disclosures in Fieldsets",
-              "date": "2024-09-14",
-              "link": "https://adrianroselli.com/2024/09/brief-note-on-disclosures-in-fieldsets.html"
             }
           ]
         },
@@ -228,37 +290,6 @@
               "title": "The Best Emacs Microfeature",
               "date": "2024-06-05",
               "link": "https://borretti.me/article/the-best-emacs-microfeature"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "This Glorious Machine",
-              "date": "2024-12-31",
-              "link": "https://robinrendle.com/notes/this-glorious-machine/"
-            },
-            {
-              "title": "2024 in music",
-              "date": "2024-12-29",
-              "link": "https://robinrendle.com/notes/2024-in-music/"
-            },
-            {
-              "title": "text-box",
-              "date": "2024-12-27",
-              "link": "https://robinrendle.com/notes/text-box/"
-            },
-            {
-              "title": "Code shufflin’",
-              "date": "2024-12-07",
-              "link": "https://robinrendle.com/notes/code-shufflin/"
-            },
-            {
-              "title": "Frameworkism",
-              "date": "2024-12-01",
-              "link": "https://robinrendle.com/notes/frameworkism/"
             }
           ]
         },
@@ -1426,37 +1457,6 @@
           ]
         },
         {
-          "title": "Nathan Knowler",
-          "feedUrl": "https://knowler.dev/feed.xml",
-          "items": [
-            {
-              "title": "I’m switching back to Arc Browser (for now)",
-              "date": "2024-11-22",
-              "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
-            },
-            {
-              "title": "To define custom elements or not when distributing them",
-              "date": "2024-10-08",
-              "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
-            },
-            {
-              "title": "A custom element smoke test",
-              "date": "2024-07-11",
-              "link": "https://knowler.dev/blog/a-custom-element-smoke-test"
-            },
-            {
-              "title": "Read the Platform",
-              "date": "2024-06-29",
-              "link": "https://knowler.dev/blog/read-the-platform"
-            },
-            {
-              "title": "Maintaining dotfiles",
-              "date": "2024-06-15",
-              "link": "https://knowler.dev/blog/maintaining-dotfiles"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -2472,7 +2472,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-04T03:17:58.465Z",
+  "fetchDate": "2025-01-05T03:22:45.889Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

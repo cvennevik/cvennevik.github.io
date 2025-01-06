@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jessitron",
+          "feedUrl": "https://jessitron.com/feed/",
+          "items": [
+            {
+              "title": "Hitting OKRs vs Doing Your Job",
+              "date": "2025-01-06",
+              "link": "https://jessitron.com/2025/01/05/hitting-okrs-vs-doing-your-job/"
+            },
+            {
+              "title": "OKRs for Evil and Good",
+              "date": "2024-12-23",
+              "link": "https://jessitron.com/2024/12/22/okrs-for-evil-and-good/"
+            },
+            {
+              "title": "Productivity v Impact",
+              "date": "2024-12-16",
+              "link": "https://jessitron.com/2024/12/15/productivity-v-impact/"
+            },
+            {
+              "title": "Why is every startup’s website so darn useless?",
+              "date": "2024-12-08",
+              "link": "https://jessitron.com/2024/12/08/why-is-every-startups-website-so-darn-useless/"
+            },
+            {
+              "title": "Command vs Control",
+              "date": "2024-11-29",
+              "link": "https://jessitron.com/2024/11/29/command-vs-control/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Digital gardening",
+              "date": "2025-01-05",
+              "link": "https://robinrendle.com/notes/digital-gardening/"
+            },
+            {
+              "title": "Design artifacts",
+              "date": "2025-01-04",
+              "link": "https://robinrendle.com/notes/design-artifacts/"
+            },
+            {
+              "title": "This Glorious Machine",
+              "date": "2024-12-31",
+              "link": "https://robinrendle.com/notes/this-glorious-machine/"
+            },
+            {
+              "title": "2024 in music",
+              "date": "2024-12-29",
+              "link": "https://robinrendle.com/notes/2024-in-music/"
+            },
+            {
+              "title": "text-box",
+              "date": "2024-12-27",
+              "link": "https://robinrendle.com/notes/text-box/"
+            }
+          ]
+        },
+        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -35,64 +97,95 @@
           ]
         },
         {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
             {
-              "title": "Design artifacts",
-              "date": "2025-01-04",
-              "link": "https://robinrendle.com/notes/design-artifacts/"
+              "title": "Are we at peak shittiness?",
+              "date": "2025-01-05",
+              "link": "https://thejollyteapot.com/2025/01/05/are-we-at-peak-shittiness/"
             },
             {
-              "title": "This Glorious Machine",
-              "date": "2024-12-31",
-              "link": "https://robinrendle.com/notes/this-glorious-machine/"
+              "title": "November 2024 blend of links",
+              "date": "2024-11-24",
+              "link": "https://thejollyteapot.com/november-2024-blend/"
             },
             {
-              "title": "2024 in music",
-              "date": "2024-12-29",
-              "link": "https://robinrendle.com/notes/2024-in-music/"
+              "title": "Some thoughts on RSS and newsletters",
+              "date": "2024-11-13",
+              "link": "https://thejollyteapot.com/2024/11/13/some-thoughts-on-rss-and-newsletters/"
             },
             {
-              "title": "text-box",
-              "date": "2024-12-27",
-              "link": "https://robinrendle.com/notes/text-box/"
+              "title": "Website updates",
+              "date": "2024-11-05",
+              "link": "https://thejollyteapot.com/2024/11/05/website-updates/"
             },
             {
-              "title": "Code shufflin’",
-              "date": "2024-12-07",
-              "link": "https://robinrendle.com/notes/code-shufflin/"
+              "title": "The joy of accidentally weird-looking websites",
+              "date": "2024-10-31",
+              "link": "https://thejollyteapot.com/2024/10/31/the-joy-of-accidentally-weird-looking-websites/"
             }
           ]
         },
         {
-          "title": "Nathan Knowler",
-          "feedUrl": "https://knowler.dev/feed.xml",
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
             {
-              "title": "Polyfilling hidden until-found",
+              "title": "You Can Now Subscribe To My Blog via Email",
               "date": "2025-01-04",
-              "link": "https://knowler.dev/blog/polyfilling-hidden-until-found"
+              "link": "https://blog.jim-nielsen.com/2025/subscribe-via-email-now/"
             },
             {
-              "title": "I’m switching back to Arc Browser (for now)",
-              "date": "2024-11-22",
-              "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
+              "title": "Podcast Notes: Vlad Prelovac on “The Talk Show”",
+              "date": "2024-12-30",
+              "link": "https://blog.jim-nielsen.com/2024/podcast-notes-talk-show-kagi/"
             },
             {
-              "title": "To define custom elements or not when distributing them",
-              "date": "2024-10-08",
-              "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
+              "title": "Christmas Day",
+              "date": "2024-12-29",
+              "link": "https://blog.jim-nielsen.com/2024/christmas-day/"
             },
             {
-              "title": "A custom element smoke test",
-              "date": "2024-07-11",
-              "link": "https://knowler.dev/blog/a-custom-element-smoke-test"
+              "title": "Making o(m)g:image, Part IV: URLs",
+              "date": "2024-12-23",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iv/"
             },
             {
-              "title": "Read the Platform",
-              "date": "2024-06-29",
-              "link": "https://knowler.dev/blog/read-the-platform"
+              "title": "Making o(m)g:image, Part III: The HTML",
+              "date": "2024-12-18",
+              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iii/"
+            }
+          ]
+        },
+        {
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
+          "items": [
+            {
+              "title": "Using \"fake it till you make it\" to implement counterstring",
+              "date": "2025-01-04",
+              "link": "https://smallsheds.garden/blog/2025/using-fake-it-till-you-make-it-to-implement-counterstring/"
+            },
+            {
+              "title": "Your default response should be a safe one",
+              "date": "2024-12-28",
+              "link": "https://smallsheds.garden/blog/2024/your-default-response-should-be-a-safe-one/"
+            },
+            {
+              "title": "The nine skills of exploratory testing",
+              "date": "2024-12-14",
+              "link": "https://smallsheds.garden/blog/2024/the-nine-skills-of-exploratory-testing/"
+            },
+            {
+              "title": "Being intentional about exploratory testing",
+              "date": "2024-11-08",
+              "link": "https://smallsheds.garden/blog/2024/being-intentional-about-exploratory-testing/"
+            },
+            {
+              "title": "The Fluxx ensemble exercise",
+              "date": "2024-10-12",
+              "link": "https://smallsheds.garden/blog/2024/the-fluxx-ensemble-exercise/"
             }
           ]
         },
@@ -124,6 +217,37 @@
               "title": "Retrospective, reading",
               "date": "2024-12-29",
               "link": "https://anniemueller.com/posts/retrospective-reading"
+            }
+          ]
+        },
+        {
+          "title": "Nathan Knowler",
+          "feedUrl": "https://knowler.dev/feed.xml",
+          "items": [
+            {
+              "title": "Polyfilling hidden until-found",
+              "date": "2025-01-04",
+              "link": "https://knowler.dev/blog/polyfilling-hidden-until-found"
+            },
+            {
+              "title": "I’m switching back to Arc Browser (for now)",
+              "date": "2024-11-22",
+              "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
+            },
+            {
+              "title": "To define custom elements or not when distributing them",
+              "date": "2024-10-08",
+              "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
+            },
+            {
+              "title": "A custom element smoke test",
+              "date": "2024-07-11",
+              "link": "https://knowler.dev/blog/a-custom-element-smoke-test"
+            },
+            {
+              "title": "Read the Platform",
+              "date": "2024-06-29",
+              "link": "https://knowler.dev/blog/read-the-platform"
             }
           ]
         },
@@ -356,37 +480,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Podcast Notes: Vlad Prelovac on “The Talk Show”",
-              "date": "2024-12-30",
-              "link": "https://blog.jim-nielsen.com/2024/podcast-notes-talk-show-kagi/"
-            },
-            {
-              "title": "Christmas Day",
-              "date": "2024-12-29",
-              "link": "https://blog.jim-nielsen.com/2024/christmas-day/"
-            },
-            {
-              "title": "Making o(m)g:image, Part IV: URLs",
-              "date": "2024-12-23",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iv/"
-            },
-            {
-              "title": "Making o(m)g:image, Part III: The HTML",
-              "date": "2024-12-18",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iii/"
-            },
-            {
-              "title": "Making o(m)g:image, Part II: As Little JS As Possible",
-              "date": "2024-12-15",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-ii/"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -449,37 +542,6 @@
           ]
         },
         {
-          "title": "Joep Schuurkes",
-          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
-          "items": [
-            {
-              "title": "Your default response should be a safe one",
-              "date": "2024-12-28",
-              "link": "https://smallsheds.garden/blog/2024/your-default-response-should-be-a-safe-one/"
-            },
-            {
-              "title": "The nine skills of exploratory testing",
-              "date": "2024-12-14",
-              "link": "https://smallsheds.garden/blog/2024/the-nine-skills-of-exploratory-testing/"
-            },
-            {
-              "title": "Being intentional about exploratory testing",
-              "date": "2024-11-08",
-              "link": "https://smallsheds.garden/blog/2024/being-intentional-about-exploratory-testing/"
-            },
-            {
-              "title": "The Fluxx ensemble exercise",
-              "date": "2024-10-12",
-              "link": "https://smallsheds.garden/blog/2024/the-fluxx-ensemble-exercise/"
-            },
-            {
-              "title": "What do you fix when you fix a test?",
-              "date": "2024-08-24",
-              "link": "https://smallsheds.garden/blog/2024/what-do-you-fix-when-you-fix-a-test/"
-            }
-          ]
-        },
-        {
           "title": "A Tester's Journey",
           "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
           "items": [
@@ -538,37 +600,6 @@
               "title": "Saying Goodbye to a Family Home",
               "date": "2024-11-26",
               "link": "https://mikegrindle.com/posts/home"
-            }
-          ]
-        },
-        {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "OKRs for Evil and Good",
-              "date": "2024-12-23",
-              "link": "https://jessitron.com/2024/12/22/okrs-for-evil-and-good/"
-            },
-            {
-              "title": "Productivity v Impact",
-              "date": "2024-12-16",
-              "link": "https://jessitron.com/2024/12/15/productivity-v-impact/"
-            },
-            {
-              "title": "Why is every startup’s website so darn useless?",
-              "date": "2024-12-08",
-              "link": "https://jessitron.com/2024/12/08/why-is-every-startups-website-so-darn-useless/"
-            },
-            {
-              "title": "Command vs Control",
-              "date": "2024-11-29",
-              "link": "https://jessitron.com/2024/11/29/command-vs-control/"
-            },
-            {
-              "title": "Communication Structures in a Growing Organization",
-              "date": "2024-11-25",
-              "link": "https://jessitron.com/2024/11/24/communication-structures-in-a-growing-organization/"
             }
           ]
         },
@@ -1391,37 +1422,6 @@
               "title": "0049: hytradboi 2025, consulting, zest progress, labeled continue, bet against sql, zero-cost costs in debug, packed memory arrays, papers, books",
               "date": "2024-10-08",
               "link": "https://www.scattered-thoughts.net/log/0049/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "November 2024 blend of links",
-              "date": "2024-11-24",
-              "link": "https://thejollyteapot.com/november-2024-blend/"
-            },
-            {
-              "title": "Some thoughts on RSS and newsletters",
-              "date": "2024-11-13",
-              "link": "https://thejollyteapot.com/2024/11/13/some-thoughts-on-rss-and-newsletters/"
-            },
-            {
-              "title": "Website updates",
-              "date": "2024-11-05",
-              "link": "https://thejollyteapot.com/2024/11/05/website-updates/"
-            },
-            {
-              "title": "The joy of accidentally weird-looking websites",
-              "date": "2024-10-31",
-              "link": "https://thejollyteapot.com/2024/10/31/the-joy-of-accidentally-weird-looking-websites/"
-            },
-            {
-              "title": "The hard truth: People don’t trust billionaires",
-              "date": "2024-10-29",
-              "link": "https://thejollyteapot.com/2024/10/29/the-hard-truth-people-don-t-trust-billionaires/"
             }
           ]
         },
@@ -2472,7 +2472,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-05T03:22:45.889Z",
+  "fetchDate": "2025-01-06T03:23:08.393Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

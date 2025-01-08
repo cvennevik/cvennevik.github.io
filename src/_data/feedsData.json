@@ -4,6 +4,115 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Node’s new built-in support for TypeScript",
+              "date": "2025-01-08",
+              "link": "https://2ality.com/2025/01/nodejs-strip-type.html"
+            },
+            {
+              "title": "WebAssembly as an ecosystem for programming languages",
+              "date": "2025-01-01",
+              "link": "https://2ality.com/2025/01/webassembly-language-ecosystem.html"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Do you dabble? Meander? Peruse and putter?",
+              "date": "2025-01-08",
+              "link": "https://anniemueller.com/posts/do-you-dabble-meander-peruse-and-putter"
+            },
+            {
+              "title": "Love letters 6-8",
+              "date": "2025-01-07",
+              "link": "https://anniemueller.com/posts/love-letters-6-8"
+            },
+            {
+              "title": "Anticipation, experience, satisfaction",
+              "date": "2025-01-04",
+              "link": "https://anniemueller.com/posts/anticipation-experience-satisfaction"
+            },
+            {
+              "title": "📋 Good advice for somebody",
+              "date": "2025-01-03",
+              "link": "https://anniemueller.com/posts/good-advice-for-somebody"
+            },
+            {
+              "title": "Love letters 1-5",
+              "date": "2025-01-02",
+              "link": "https://anniemueller.com/posts/love-letters-1-5"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "HTML-over-the-wire is overrated",
+              "date": "2025-01-07",
+              "link": "https://gomakethings.com/html-over-the-wire-is-overrated/"
+            },
+            {
+              "title": "Cool URLs don't change (but they don't have to last forever)",
+              "date": "2025-01-06",
+              "link": "https://gomakethings.com/cool-urls-dont-change-but-they-dont-have-to-last-forever/"
+            },
+            {
+              "title": "Custom attributes in Web Components",
+              "date": "2025-01-03",
+              "link": "https://gomakethings.com/custom-attributes-in-web-components/"
+            },
+            {
+              "title": "Goals for 2025",
+              "date": "2025-01-02",
+              "link": "https://gomakethings.com/goals-for-2025/"
+            },
+            {
+              "title": "Understanding how your code works",
+              "date": "2024-12-31",
+              "link": "https://gomakethings.com/understanding-how-your-code-works/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Social Inflation",
+              "date": "2025-01-07",
+              "link": "https://blog.jim-nielsen.com/2025/social-inflation/"
+            },
+            {
+              "title": "Push Notifications Are Organizational Marshmallows",
+              "date": "2025-01-06",
+              "link": "https://blog.jim-nielsen.com/2025/notification-marshmallows/"
+            },
+            {
+              "title": "You Can Now Subscribe To My Blog via Email",
+              "date": "2025-01-04",
+              "link": "https://blog.jim-nielsen.com/2025/subscribe-via-email-now/"
+            },
+            {
+              "title": "Podcast Notes: Vlad Prelovac on “The Talk Show”",
+              "date": "2024-12-30",
+              "link": "https://blog.jim-nielsen.com/2024/podcast-notes-talk-show-kagi/"
+            },
+            {
+              "title": "Christmas Day",
+              "date": "2024-12-29",
+              "link": "https://blog.jim-nielsen.com/2024/christmas-day/"
+            }
+          ]
+        },
+        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -35,33 +144,126 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
             {
-              "title": "Love letters 6-8",
+              "title": "Why nextest is process-per-test",
               "date": "2025-01-07",
-              "link": "https://anniemueller.com/posts/love-letters-6-8"
+              "link": "https://sunshowers.io/posts/nextest-process-per-test/"
             },
             {
-              "title": "Anticipation, experience, satisfaction",
-              "date": "2025-01-04",
-              "link": "https://anniemueller.com/posts/anticipation-experience-satisfaction"
+              "title": "Beyond Ctrl-C: The dark corners of Unix signal handling",
+              "date": "2024-09-03",
+              "link": "https://sunshowers.io/posts/beyond-ctrl-c-signals/"
             },
             {
-              "title": "📋 Good advice for somebody",
+              "title": "Debugging a rustc segfault on illumos",
+              "date": "2024-08-04",
+              "link": "https://sunshowers.io/posts/rustc-segfault-illumos/"
+            },
+            {
+              "title": "Professionals demonstrate empathy",
+              "date": "2024-07-02",
+              "link": "https://sunshowers.io/posts/be-an-adult/"
+            },
+            {
+              "title": "ECC RAM on AMD Ryzen 7000 desktop CPUs",
+              "date": "2023-10-09",
+              "link": "https://sunshowers.io/posts/am5-ryzen-7000-ecc-ram/"
+            }
+          ]
+        },
+        {
+          "title": ".:. brainsik",
+          "feedUrl": "https://brainsik.net/index.xml",
+          "items": [
+            {
+              "title": "The LLM Journey Begins?",
+              "date": "2025-01-07",
+              "link": "https://brainsik.net/2025/llm-journey-begins/"
+            },
+            {
+              "title": "Successfully Migrating to Caddy from Nginx",
+              "date": "2024-07-09",
+              "link": "https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/"
+            },
+            {
+              "title": "GPG Key Transition 2022",
+              "date": "2023-01-01",
+              "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
+            },
+            {
+              "title": "The problem with moving phones from copper to fiber: power",
+              "date": "2014-08-15",
+              "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
+            },
+            {
+              "title": "The Secret Government Rulebook For Labeling You a Terrorist",
+              "date": "2014-08-09",
+              "link": "https://brainsik.net/2014/the-secret-government-rulebook-for-labeling-you-a-terrorist/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            },
+            {
+              "title": "Roald Dahl’s The Witches",
               "date": "2025-01-03",
-              "link": "https://anniemueller.com/posts/good-advice-for-somebody"
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
             },
             {
-              "title": "Love letters 1-5",
-              "date": "2025-01-02",
-              "link": "https://anniemueller.com/posts/love-letters-1-5"
+              "title": "I got an iPhone",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
             },
             {
-              "title": "One bucket at a time",
-              "date": "2024-12-30",
-              "link": "https://anniemueller.com/posts/one-bucket-at-a-time"
+              "title": "Artemis",
+              "date": "2024-12-19",
+              "link": "https://artemis.jamesg.blog/"
+            },
+            {
+              "title": "Choo Choo World",
+              "date": "2024-12-11",
+              "link": "https://choochooworld.com"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "\"Logic for Programmers\" Project Update",
+              "date": "2025-01-07",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-project-update/"
+            },
+            {
+              "title": "Formally modeling dreidel, the sequel",
+              "date": "2024-12-18",
+              "link": "https://buttondown.com/hillelwayne/archive/formally-modeling-dreidel-the-sequel/"
+            },
+            {
+              "title": "Stroustrup's Rule",
+              "date": "2024-12-11",
+              "link": "https://buttondown.com/hillelwayne/archive/stroustrups-rule/"
+            },
+            {
+              "title": "Hyperproperties",
+              "date": "2024-11-19",
+              "link": "https://buttondown.com/hillelwayne/archive/hyperproperties/"
+            },
+            {
+              "title": "Five Unusual Raku Features",
+              "date": "2024-11-12",
+              "link": "https://buttondown.com/hillelwayne/archive/five-unusual-raku-features/"
             }
           ]
         },
@@ -97,68 +299,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Push Notifications Are Organizational Marshmallows",
-              "date": "2025-01-06",
-              "link": "https://blog.jim-nielsen.com/2025/notification-marshmallows/"
-            },
-            {
-              "title": "You Can Now Subscribe To My Blog via Email",
-              "date": "2025-01-04",
-              "link": "https://blog.jim-nielsen.com/2025/subscribe-via-email-now/"
-            },
-            {
-              "title": "Podcast Notes: Vlad Prelovac on “The Talk Show”",
-              "date": "2024-12-30",
-              "link": "https://blog.jim-nielsen.com/2024/podcast-notes-talk-show-kagi/"
-            },
-            {
-              "title": "Christmas Day",
-              "date": "2024-12-29",
-              "link": "https://blog.jim-nielsen.com/2024/christmas-day/"
-            },
-            {
-              "title": "Making o(m)g:image, Part IV: URLs",
-              "date": "2024-12-23",
-              "link": "https://blog.jim-nielsen.com/2024/making-omgimg-pt-iv/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Cool URLs don't change (but they don't have to last forever)",
-              "date": "2025-01-06",
-              "link": "https://gomakethings.com/cool-urls-dont-change-but-they-dont-have-to-last-forever/"
-            },
-            {
-              "title": "Custom attributes in Web Components",
-              "date": "2025-01-03",
-              "link": "https://gomakethings.com/custom-attributes-in-web-components/"
-            },
-            {
-              "title": "Goals for 2025",
-              "date": "2025-01-02",
-              "link": "https://gomakethings.com/goals-for-2025/"
-            },
-            {
-              "title": "Understanding how your code works",
-              "date": "2024-12-31",
-              "link": "https://gomakethings.com/understanding-how-your-code-works/"
-            },
-            {
-              "title": "Just grab a library",
-              "date": "2024-12-30",
-              "link": "https://gomakethings.com/just-grab-a-library/"
-            }
-          ]
-        },
-        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -190,37 +330,6 @@
           ]
         },
         {
-          "title": "drcathicks",
-          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
-          "items": [
-            {
-              "title": "Assorted (unsorted) thoughts about trauma-informed research ",
-              "date": "2025-01-06",
-              "link": "https://www.drcathicks.com/post/assorted-unsorted-thoughts-about-trauma-informed-research"
-            },
-            {
-              "title": "A Cumulative Culture Theory of Developer Problem-Solving: new preprint",
-              "date": "2024-12-01",
-              "link": "https://www.drcathicks.com/post/a-cumulative-culture-theory-of-developer-problem-solving-new-preprint"
-            },
-            {
-              "title": "On disclosure",
-              "date": "2024-11-11",
-              "link": "https://www.drcathicks.com/post/on-disclosure"
-            },
-            {
-              "title": "Corporate Attribution Error",
-              "date": "2024-09-07",
-              "link": "https://www.drcathicks.com/post/corporate-attribution-error"
-            },
-            {
-              "title": "Cat @ the Bridges Summit: References and Resources",
-              "date": "2024-08-28",
-              "link": "https://www.drcathicks.com/post/cat-the-bridges-summit-references-and-resources"
-            }
-          ]
-        },
-        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -248,6 +357,37 @@
               "title": "Why to use LLMs in computer science education?",
               "date": "2024-06-03",
               "link": "https://www.felienne.com/archives/8367"
+            }
+          ]
+        },
+        {
+          "title": "drcathicks",
+          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
+          "items": [
+            {
+              "title": "Assorted (unsorted) thoughts about trauma-informed research ",
+              "date": "2025-01-06",
+              "link": "https://www.drcathicks.com/post/assorted-unsorted-thoughts-about-trauma-informed-research"
+            },
+            {
+              "title": "A Cumulative Culture Theory of Developer Problem-Solving: new preprint",
+              "date": "2024-12-01",
+              "link": "https://www.drcathicks.com/post/a-cumulative-culture-theory-of-developer-problem-solving-new-preprint"
+            },
+            {
+              "title": "On disclosure",
+              "date": "2024-11-11",
+              "link": "https://www.drcathicks.com/post/on-disclosure"
+            },
+            {
+              "title": "Corporate Attribution Error",
+              "date": "2024-09-07",
+              "link": "https://www.drcathicks.com/post/corporate-attribution-error"
+            },
+            {
+              "title": "Cat @ the Bridges Summit: References and Resources",
+              "date": "2024-08-28",
+              "link": "https://www.drcathicks.com/post/cat-the-bridges-summit-references-and-resources"
             }
           ]
         },
@@ -495,37 +635,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
-            },
-            {
-              "title": "I got an iPhone",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
-            },
-            {
-              "title": "Artemis",
-              "date": "2024-12-19",
-              "link": "https://artemis.jamesg.blog/"
-            },
-            {
-              "title": "Choo Choo World",
-              "date": "2024-12-11",
-              "link": "https://choochooworld.com"
-            },
-            {
-              "title": "Legends & Lattes",
-              "date": "2024-11-22",
-              "link": "https://frills.dev/blog/241122-legends-lattes/"
-            }
-          ]
-        },
-        {
           "title": "Evan Boehs in the blog",
           "feedUrl": "https://boehs.org/in/blog.xml",
           "items": [
@@ -553,17 +662,6 @@
               "title": "I Don't Hate Technology When It Works.",
               "date": "2024-05-18",
               "link": "https://boehs.org/node/old-tech"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "WebAssembly as an ecosystem for programming languages",
-              "date": "2025-01-01",
-              "link": "https://2ality.com/2025/01/webassembly-language-ecosystem.html"
             }
           ]
         },
@@ -909,37 +1007,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Formally modeling dreidel, the sequel",
-              "date": "2024-12-18",
-              "link": "https://buttondown.com/hillelwayne/archive/formally-modeling-dreidel-the-sequel/"
-            },
-            {
-              "title": "Stroustrup's Rule",
-              "date": "2024-12-11",
-              "link": "https://buttondown.com/hillelwayne/archive/stroustrups-rule/"
-            },
-            {
-              "title": "Hyperproperties",
-              "date": "2024-11-19",
-              "link": "https://buttondown.com/hillelwayne/archive/hyperproperties/"
-            },
-            {
-              "title": "Five Unusual Raku Features",
-              "date": "2024-11-12",
-              "link": "https://buttondown.com/hillelwayne/archive/five-unusual-raku-features/"
-            },
-            {
-              "title": "A list of ternary operators",
-              "date": "2024-11-05",
-              "link": "https://buttondown.com/hillelwayne/archive/a-list-of-ternary-operators/"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -1104,6 +1171,11 @@
               "link": "https://jakelazaroff.com/words/isomorphic-web-components/"
             },
             {
+              "title": "Drinking from the Bluesky Firehose",
+              "date": "2024-11-22",
+              "link": "https://jakelazaroff.com/words/drinking-from-the-bluesky-firehose/"
+            },
+            {
               "title": "What's a Single-Page App?",
               "date": "2024-11-05",
               "link": "https://jakelazaroff.com/words/whats-a-single-page-app/"
@@ -1117,11 +1189,6 @@
               "title": "Building a Single-Page App with htmx",
               "date": "2024-10-07",
               "link": "https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/"
-            },
-            {
-              "title": "A Local-First Case Study",
-              "date": "2024-10-01",
-              "link": "https://jakelazaroff.com/words/a-local-first-case-study/"
             }
           ]
         },
@@ -1891,37 +1958,6 @@
           ]
         },
         {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "Beyond Ctrl-C: The dark corners of Unix signal handling",
-              "date": "2024-09-03",
-              "link": "https://sunshowers.io/posts/beyond-ctrl-c-signals/"
-            },
-            {
-              "title": "Debugging a rustc segfault on illumos",
-              "date": "2024-08-04",
-              "link": "https://sunshowers.io/posts/rustc-segfault-illumos/"
-            },
-            {
-              "title": "Professionals demonstrate empathy",
-              "date": "2024-07-02",
-              "link": "https://sunshowers.io/posts/be-an-adult/"
-            },
-            {
-              "title": "ECC RAM on AMD Ryzen 7000 desktop CPUs",
-              "date": "2023-10-09",
-              "link": "https://sunshowers.io/posts/am5-ryzen-7000-ecc-ram/"
-            },
-            {
-              "title": "Dealing with tempfile cleaners",
-              "date": "2023-10-05",
-              "link": "https://sunshowers.io/posts/tmp-cleaner/"
-            }
-          ]
-        },
-        {
           "title": "Cecilie Vennevik's blog",
           "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
           "items": [
@@ -2011,37 +2047,6 @@
               "title": "Trying out NetBSD on our Vaio",
               "date": "2024-04-10",
               "link": "https://artemis.sh/2024/04/10/trying-netbsd-on-vaio.html"
-            }
-          ]
-        },
-        {
-          "title": ".:. brainsik",
-          "feedUrl": "https://brainsik.net/index.xml",
-          "items": [
-            {
-              "title": "Successfully Migrating to Caddy from Nginx",
-              "date": "2024-07-09",
-              "link": "https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/"
-            },
-            {
-              "title": "GPG Key Transition 2022",
-              "date": "2023-01-01",
-              "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
-            },
-            {
-              "title": "The problem with moving phones from copper to fiber: power",
-              "date": "2014-08-15",
-              "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
-            },
-            {
-              "title": "The Secret Government Rulebook For Labeling You a Terrorist",
-              "date": "2014-08-09",
-              "link": "https://brainsik.net/2014/the-secret-government-rulebook-for-labeling-you-a-terrorist/"
-            },
-            {
-              "title": "virtualenv-burrito 2.7",
-              "date": "2014-07-07",
-              "link": "https://brainsik.net/2014/virtualenv-burrito-2-7/"
             }
           ]
         },
@@ -2472,7 +2477,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-07T03:21:27.416Z",
+  "fetchDate": "2025-01-08T03:19:03.139Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

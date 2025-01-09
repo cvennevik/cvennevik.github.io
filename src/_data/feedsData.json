@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Weblogging: Part 3",
+              "date": "2025-01-08",
+              "link": "https://dbushell.com/2025/01/08/weblogging-3/"
+            },
+            {
+              "title": "Weblogging: Part 2",
+              "date": "2024-12-18",
+              "link": "https://dbushell.com/2024/12/18/weblogging-2/"
+            },
+            {
+              "title": "Weblogging: Part 1",
+              "date": "2024-12-09",
+              "link": "https://dbushell.com/2024/12/09/weblogging-1/"
+            },
+            {
+              "title": "Cool People Link to Text Fragments",
+              "date": "2024-12-05",
+              "link": "https://dbushell.com/2024/12/05/url-fragment-text-directives/"
+            },
+            {
+              "title": "Links Initiative",
+              "date": "2024-11-25",
+              "link": "https://dbushell.com/2024/11/25/links-initiative/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Interim note 4: time-based media",
+              "date": "2025-01-08",
+              "link": "https://www.baldurbjarnason.com/notes/2025/interim-4/"
+            },
+            {
+              "title": "Quick and only partially coherent review of 2024",
+              "date": "2025-01-06",
+              "link": "https://www.baldurbjarnason.com/notes/2025/2024-in-review/"
+            },
+            {
+              "title": "Interim note 3: text-based media in the age of showmanship",
+              "date": "2024-12-19",
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-3/"
+            },
+            {
+              "title": "Interim note 2: business thoughts",
+              "date": "2024-12-13",
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-2/"
+            },
+            {
+              "title": "Interim note 1: tech",
+              "date": "2024-12-09",
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-1/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Your Web Component questions answered!",
+              "date": "2025-01-08",
+              "link": "https://gomakethings.com/your-web-component-questions-answered/"
+            },
+            {
+              "title": "HTML-over-the-wire is overrated",
+              "date": "2025-01-07",
+              "link": "https://gomakethings.com/html-over-the-wire-is-overrated/"
+            },
+            {
+              "title": "Cool URLs don't change (but they don't have to last forever)",
+              "date": "2025-01-06",
+              "link": "https://gomakethings.com/cool-urls-dont-change-but-they-dont-have-to-last-forever/"
+            },
+            {
+              "title": "Custom attributes in Web Components",
+              "date": "2025-01-03",
+              "link": "https://gomakethings.com/custom-attributes-in-web-components/"
+            },
+            {
+              "title": "Goals for 2025",
+              "date": "2025-01-02",
+              "link": "https://gomakethings.com/goals-for-2025/"
+            }
+          ]
+        },
+        {
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
@@ -16,6 +109,94 @@
               "title": "WebAssembly as an ecosystem for programming languages",
               "date": "2025-01-01",
               "link": "https://2ality.com/2025/01/webassembly-language-ecosystem.html"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "Een PABO alleen voor het oudere kind? Onzin!",
+              "date": "2025-01-08",
+              "link": "https://www.felienne.com/archives/8563"
+            },
+            {
+              "title": "Charlie Chaplin and the death of the internet",
+              "date": "2025-01-06",
+              "link": "https://www.felienne.com/archives/8542"
+            },
+            {
+              "title": "Paper: Feminism in Programming Language Design",
+              "date": "2024-10-17",
+              "link": "https://www.felienne.com/archives/8470"
+            },
+            {
+              "title": "Soon all UX will be a Skinner box",
+              "date": "2024-09-11",
+              "link": "https://www.felienne.com/archives/8440"
+            },
+            {
+              "title": "Why *not* to use LLMs in computer science education?",
+              "date": "2024-06-05",
+              "link": "https://www.felienne.com/archives/8392"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Lone Magpie",
+              "date": "2025-01-08",
+              "link": "https://moonbase.lgbt/blog/lone-magpie/"
+            },
+            {
+              "title": "Goodnight, Eggbug",
+              "date": "2024-12-31",
+              "link": "https://moonbase.lgbt/blog/goodnight-eggbug/"
+            },
+            {
+              "title": "Satisfying camera noises",
+              "date": "2024-12-20",
+              "link": "https://moonbase.lgbt/blog/satisfying-camera-noises/"
+            },
+            {
+              "title": "Too many servers",
+              "date": "2024-12-18",
+              "link": "https://moonbase.lgbt/blog/too-many-servers/"
+            },
+            {
+              "title": "Operator transposition",
+              "date": "2024-11-30",
+              "link": "https://moonbase.lgbt/blog/operator-transposition/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-01-08",
+              "link": "https://dbushell.com/notes/2025-01-08T07:57Z/"
+            },
+            {
+              "date": "2025-01-06",
+              "link": "https://dbushell.com/notes/2025-01-06T08:08Z/"
+            },
+            {
+              "date": "2024-12-18",
+              "link": "https://dbushell.com/notes/2024-12-18T12:38Z/"
+            },
+            {
+              "date": "2024-12-13",
+              "link": "https://dbushell.com/notes/2024-12-13T14:22Z/"
+            },
+            {
+              "date": "2024-12-12",
+              "link": "https://dbushell.com/notes/2024-12-12T09:17Z/"
             }
           ]
         },
@@ -47,37 +228,6 @@
               "title": "Love letters 1-5",
               "date": "2025-01-02",
               "link": "https://anniemueller.com/posts/love-letters-1-5"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "HTML-over-the-wire is overrated",
-              "date": "2025-01-07",
-              "link": "https://gomakethings.com/html-over-the-wire-is-overrated/"
-            },
-            {
-              "title": "Cool URLs don't change (but they don't have to last forever)",
-              "date": "2025-01-06",
-              "link": "https://gomakethings.com/cool-urls-dont-change-but-they-dont-have-to-last-forever/"
-            },
-            {
-              "title": "Custom attributes in Web Components",
-              "date": "2025-01-03",
-              "link": "https://gomakethings.com/custom-attributes-in-web-components/"
-            },
-            {
-              "title": "Goals for 2025",
-              "date": "2025-01-02",
-              "link": "https://gomakethings.com/goals-for-2025/"
-            },
-            {
-              "title": "Understanding how your code works",
-              "date": "2024-12-31",
-              "link": "https://gomakethings.com/understanding-how-your-code-works/"
             }
           ]
         },
@@ -268,37 +418,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Quick and only partially coherent review of 2024",
-              "date": "2025-01-06",
-              "link": "https://www.baldurbjarnason.com/notes/2025/2024-in-review/"
-            },
-            {
-              "title": "Interim note 3: text-based media in the age of showmanship",
-              "date": "2024-12-19",
-              "link": "https://www.baldurbjarnason.com/notes/2024/interim-3/"
-            },
-            {
-              "title": "Interim note 2: business thoughts",
-              "date": "2024-12-13",
-              "link": "https://www.baldurbjarnason.com/notes/2024/interim-2/"
-            },
-            {
-              "title": "Interim note 1: tech",
-              "date": "2024-12-09",
-              "link": "https://www.baldurbjarnason.com/notes/2024/interim-1/"
-            },
-            {
-              "title": "Let's pause for a moment, I need time to think",
-              "date": "2024-12-05",
-              "link": "https://www.baldurbjarnason.com/notes/2024/pause-for-a-moment/"
-            }
-          ]
-        },
-        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -326,68 +445,6 @@
               "title": "Command vs Control",
               "date": "2024-11-29",
               "link": "https://jessitron.com/2024/11/29/command-vs-control/"
-            }
-          ]
-        },
-        {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "Charlie Chaplin and the death of the internet",
-              "date": "2025-01-06",
-              "link": "https://www.felienne.com/archives/8542"
-            },
-            {
-              "title": "Paper: Feminism in Programming Language Design",
-              "date": "2024-10-17",
-              "link": "https://www.felienne.com/archives/8470"
-            },
-            {
-              "title": "Soon all UX will be a Skinner box",
-              "date": "2024-09-11",
-              "link": "https://www.felienne.com/archives/8440"
-            },
-            {
-              "title": "Why *not* to use LLMs in computer science education?",
-              "date": "2024-06-05",
-              "link": "https://www.felienne.com/archives/8392"
-            },
-            {
-              "title": "Why to use LLMs in computer science education?",
-              "date": "2024-06-03",
-              "link": "https://www.felienne.com/archives/8367"
-            }
-          ]
-        },
-        {
-          "title": "drcathicks",
-          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
-          "items": [
-            {
-              "title": "Assorted (unsorted) thoughts about trauma-informed research ",
-              "date": "2025-01-06",
-              "link": "https://www.drcathicks.com/post/assorted-unsorted-thoughts-about-trauma-informed-research"
-            },
-            {
-              "title": "A Cumulative Culture Theory of Developer Problem-Solving: new preprint",
-              "date": "2024-12-01",
-              "link": "https://www.drcathicks.com/post/a-cumulative-culture-theory-of-developer-problem-solving-new-preprint"
-            },
-            {
-              "title": "On disclosure",
-              "date": "2024-11-11",
-              "link": "https://www.drcathicks.com/post/on-disclosure"
-            },
-            {
-              "title": "Corporate Attribution Error",
-              "date": "2024-09-07",
-              "link": "https://www.drcathicks.com/post/corporate-attribution-error"
-            },
-            {
-              "title": "Cat @ the Bridges Summit: References and Resources",
-              "date": "2024-08-28",
-              "link": "https://www.drcathicks.com/post/cat-the-bridges-summit-references-and-resources"
             }
           ]
         },
@@ -423,32 +480,6 @@
           ]
         },
         {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-01-06",
-              "link": "https://dbushell.com/notes/2025-01-06T08:08Z/"
-            },
-            {
-              "date": "2024-12-18",
-              "link": "https://dbushell.com/notes/2024-12-18T12:38Z/"
-            },
-            {
-              "date": "2024-12-13",
-              "link": "https://dbushell.com/notes/2024-12-13T14:22Z/"
-            },
-            {
-              "date": "2024-12-12",
-              "link": "https://dbushell.com/notes/2024-12-12T09:17Z/"
-            },
-            {
-              "date": "2024-12-12",
-              "link": "https://dbushell.com/notes/2024-12-12T06:54Z/"
-            }
-          ]
-        },
-        {
           "title": "ntietz.com blog - technically a blog",
           "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
@@ -476,6 +507,37 @@
               "title": "Parsing MIDI messages in Rust",
               "date": "2024-12-09",
               "link": "https://ntietz.com/blog/parsing-midi-rust/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
+          "title": "drcathicks",
+          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
+          "items": [
+            {
+              "title": "Assorted (unsorted) thoughts about trauma-informed research ",
+              "date": "2025-01-06",
+              "link": "https://www.drcathicks.com/post/assorted-unsorted-thoughts-about-trauma-informed-research"
+            },
+            {
+              "title": "A Cumulative Culture Theory of Developer Problem-Solving: new preprint",
+              "date": "2024-12-01",
+              "link": "https://www.drcathicks.com/post/a-cumulative-culture-theory-of-developer-problem-solving-new-preprint"
+            },
+            {
+              "title": "On disclosure",
+              "date": "2024-11-11",
+              "link": "https://www.drcathicks.com/post/on-disclosure"
+            },
+            {
+              "title": "Corporate Attribution Error",
+              "date": "2024-09-07",
+              "link": "https://www.drcathicks.com/post/corporate-attribution-error"
+            },
+            {
+              "title": "Cat @ the Bridges Summit: References and Resources",
+              "date": "2024-08-28",
+              "link": "https://www.drcathicks.com/post/cat-the-bridges-summit-references-and-resources"
             }
           ]
         },
@@ -728,37 +790,6 @@
           ]
         },
         {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "Goodnight, Eggbug",
-              "date": "2024-12-31",
-              "link": "https://moonbase.lgbt/blog/goodnight-eggbug/"
-            },
-            {
-              "title": "Satisfying camera noises",
-              "date": "2024-12-20",
-              "link": "https://moonbase.lgbt/blog/satisfying-camera-noises/"
-            },
-            {
-              "title": "Too many servers",
-              "date": "2024-12-18",
-              "link": "https://moonbase.lgbt/blog/too-many-servers/"
-            },
-            {
-              "title": "Operator transposition",
-              "date": "2024-11-30",
-              "link": "https://moonbase.lgbt/blog/operator-transposition/"
-            },
-            {
-              "title": "Biiiiiig stretch!",
-              "date": "2024-11-26",
-              "link": "https://moonbase.lgbt/blog/big-stretch/"
-            }
-          ]
-        },
-        {
           "title": "The Weblog of fLaMEd",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -852,37 +883,6 @@
           ]
         },
         {
-          "title": "James Shore",
-          "feedUrl": "https://www.jamesshore.com/v2/feed",
-          "items": [
-            {
-              "title": "Jan 8: The Best Product Engineering Org in the World",
-              "date": "2024-12-23",
-              "link": "https://www.jamesshore.com/v2/calendar/2025-01-08"
-            },
-            {
-              "title": "Update on Software Engineering Career Ladder",
-              "date": "2024-08-20",
-              "link": "https://www.jamesshore.com/v2/blog/2024/update-on-software-engineering-career-ladder"
-            },
-            {
-              "title": "Agile Fluency eBook in Portuguese",
-              "date": "2024-05-15",
-              "link": "https://www.jamesshore.com/v2/blog/2024/agile-fluency-ebook-in-portuguese"
-            },
-            {
-              "title": "Free Self-Guided “Testing Without Mocks” Training",
-              "date": "2024-05-12",
-              "link": "https://www.jamesshore.com/v2/blog/2024/free-self-guided-testing-without-mocks-training"
-            },
-            {
-              "title": "A Software Engineering Career Ladder",
-              "date": "2024-04-27",
-              "link": "https://www.jamesshore.com/v2/blog/2024/a-software-engineering-career-ladder"
-            }
-          ]
-        },
-        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -972,37 +972,6 @@
               "title": "A Guard Clause Is Maybe a Tiny Parser",
               "date": "2023-12-20",
               "link": "https://blog.thecodewhisperer.com/permalink/a-guard-clause-is-maybe-a-tiny-parser"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Weblogging: Part 2",
-              "date": "2024-12-18",
-              "link": "https://dbushell.com/2024/12/18/weblogging-2/"
-            },
-            {
-              "title": "Weblogging: Part 1",
-              "date": "2024-12-09",
-              "link": "https://dbushell.com/2024/12/09/weblogging-1/"
-            },
-            {
-              "title": "Cool People Link to Text Fragments",
-              "date": "2024-12-05",
-              "link": "https://dbushell.com/2024/12/05/url-fragment-text-directives/"
-            },
-            {
-              "title": "Links Initiative",
-              "date": "2024-11-25",
-              "link": "https://dbushell.com/2024/11/25/links-initiative/"
-            },
-            {
-              "title": "Static Search with Pagefind",
-              "date": "2024-11-21",
-              "link": "https://dbushell.com/2024/11/21/static-search-page-find/"
             }
           ]
         },
@@ -1989,6 +1958,37 @@
           ]
         },
         {
+          "title": "James Shore",
+          "feedUrl": "https://www.jamesshore.com/v2/feed",
+          "items": [
+            {
+              "title": "Update on Software Engineering Career Ladder",
+              "date": "2024-08-20",
+              "link": "https://www.jamesshore.com/v2/blog/2024/update-on-software-engineering-career-ladder"
+            },
+            {
+              "title": "Agile Fluency eBook in Portuguese",
+              "date": "2024-05-15",
+              "link": "https://www.jamesshore.com/v2/blog/2024/agile-fluency-ebook-in-portuguese"
+            },
+            {
+              "title": "Free Self-Guided “Testing Without Mocks” Training",
+              "date": "2024-05-12",
+              "link": "https://www.jamesshore.com/v2/blog/2024/free-self-guided-testing-without-mocks-training"
+            },
+            {
+              "title": "A Useful Productivity Measure?",
+              "date": "2024-05-05",
+              "link": "https://www.jamesshore.com/v2/blog/2024/a-useful-productivity-measure"
+            },
+            {
+              "title": "A Software Engineering Career Ladder",
+              "date": "2024-04-27",
+              "link": "https://www.jamesshore.com/v2/blog/2024/a-software-engineering-career-ladder"
+            }
+          ]
+        },
+        {
           "title": "Nonlinear.Garden",
           "feedUrl": "https://nonlinear.garden/rss.xml",
           "items": [
@@ -2477,7 +2477,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-08T03:19:03.139Z",
+  "fetchDate": "2025-01-09T03:35:43.937Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

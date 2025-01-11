@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Tooth of the Weasel",
+          "feedUrl": "https://angryweasel.com/blog/feed/",
+          "items": [
+            {
+              "title": "Five for Friday – January 10, 2025",
+              "date": "2025-01-11",
+              "link": "https://angryweasel.com/blog/five-for-friday-january-10-2025/"
+            },
+            {
+              "title": "Five for Friday – November 22, 2024",
+              "date": "2024-11-23",
+              "link": "https://angryweasel.com/blog/five-for-friday-november-22-2024/"
+            },
+            {
+              "title": "Five for Friday – November 15, 2025",
+              "date": "2024-11-15",
+              "link": "https://angryweasel.com/blog/five-for-friday-november-15-2025/"
+            },
+            {
+              "title": "Five for Friday – November 8, 2024",
+              "date": "2024-11-09",
+              "link": "https://angryweasel.com/blog/five-for-friday-november-8-2024/"
+            },
+            {
+              "title": "Five for Friday – November 1, 2024",
+              "date": "2024-11-01",
+              "link": "https://angryweasel.com/blog/five-for-friday-november-1-2024/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "ECMAScript feature: regular expression pattern modifiers",
+              "date": "2025-01-10",
+              "link": "https://2ality.com/2025/01/regexp-modifiers.html"
+            },
+            {
+              "title": "ECMAScript feature: import attributes",
+              "date": "2025-01-09",
+              "link": "https://2ality.com/2025/01/import-attributes.html"
+            },
+            {
+              "title": "Node’s new built-in support for TypeScript",
+              "date": "2025-01-08",
+              "link": "https://2ality.com/2025/01/nodejs-strip-type.html"
+            },
+            {
+              "title": "WebAssembly as an ecosystem for programming languages",
+              "date": "2025-01-01",
+              "link": "https://2ality.com/2025/01/webassembly-language-ecosystem.html"
+            }
+          ]
+        },
+        {
+          "title": "James Shore",
+          "feedUrl": "https://www.jamesshore.com/v2/feed",
+          "items": [
+            {
+              "title": "The Best Product Engineering Org in the World",
+              "date": "2025-01-10",
+              "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
+            },
+            {
+              "title": "Update on Software Engineering Career Ladder",
+              "date": "2024-08-20",
+              "link": "https://www.jamesshore.com/v2/blog/2024/update-on-software-engineering-career-ladder"
+            },
+            {
+              "title": "Agile Fluency eBook in Portuguese",
+              "date": "2024-05-15",
+              "link": "https://www.jamesshore.com/v2/blog/2024/agile-fluency-ebook-in-portuguese"
+            },
+            {
+              "title": "Free Self-Guided “Testing Without Mocks” Training",
+              "date": "2024-05-12",
+              "link": "https://www.jamesshore.com/v2/blog/2024/free-self-guided-testing-without-mocks-training"
+            },
+            {
+              "title": "A Useful Productivity Measure?",
+              "date": "2024-05-05",
+              "link": "https://www.jamesshore.com/v2/blog/2024/a-useful-productivity-measure"
+            }
+          ]
+        },
+        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -62,6 +150,68 @@
               "title": "Oh Happy Day! React Finally Speaks Web Components",
               "date": "2024-12-09",
               "link": "https://thathtml.blog/2024/12/oh-happy-day-react-finally-speaks-web-component/"
+            }
+          ]
+        },
+        {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "Homomorphic Encryption in Ios 18",
+              "date": "2025-01-10",
+              "link": "https://boehs.org/node/homomorphic-encryption"
+            },
+            {
+              "title": "I Was Just Censored by Meta",
+              "date": "2025-01-10",
+              "link": "https://boehs.org/node/meta-censorship"
+            },
+            {
+              "title": "I'm Opposed to the Tiktok Ban",
+              "date": "2025-01-02",
+              "link": "https://boehs.org/node/tiktok-ban"
+            },
+            {
+              "title": "The Fascinating Security Model of Dark Web Marketplaces",
+              "date": "2024-11-30",
+              "link": "https://boehs.org/node/dark-web-security"
+            },
+            {
+              "title": "We Showed Up. We Fought. We Lost.",
+              "date": "2024-11-06",
+              "link": "https://boehs.org/node/election-2024"
+            }
+          ]
+        },
+        {
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
+          "items": [
+            {
+              "title": "Not a Tribute, Just Fleeting Thoughts",
+              "date": "2025-01-10",
+              "link": "https://mikegrindle.com/posts/fleeting"
+            },
+            {
+              "title": "Everything in Solitude, Except Character",
+              "date": "2025-01-09",
+              "link": "https://mikegrindle.com/newsletter/itm-6"
+            },
+            {
+              "title": "Thoughts on a Dark Winter Day",
+              "date": "2024-12-27",
+              "link": "https://mikegrindle.com/posts/2024"
+            },
+            {
+              "title": "Is Everything Okay?",
+              "date": "2024-12-10",
+              "link": "https://mikegrindle.com/posts/okay"
+            },
+            {
+              "title": "Returning to Sunnydale",
+              "date": "2024-12-04",
+              "link": "https://mikegrindle.com/posts/snow"
             }
           ]
         },
@@ -159,27 +309,6 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "ECMAScript feature: import attributes",
-              "date": "2025-01-09",
-              "link": "https://2ality.com/2025/01/import-attributes.html"
-            },
-            {
-              "title": "Node’s new built-in support for TypeScript",
-              "date": "2025-01-08",
-              "link": "https://2ality.com/2025/01/nodejs-strip-type.html"
-            },
-            {
-              "title": "WebAssembly as an ecosystem for programming languages",
-              "date": "2025-01-01",
-              "link": "https://2ality.com/2025/01/webassembly-language-ecosystem.html"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -207,37 +336,6 @@
               "title": "Development Advent Calendars for 2024",
               "date": "2024-12-01",
               "link": "https://adrianroselli.com/2024/12/development-advent-calendars-for-2024.html"
-            }
-          ]
-        },
-        {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
-          "items": [
-            {
-              "title": "Everything in Solitude, Except Character",
-              "date": "2025-01-09",
-              "link": "https://mikegrindle.com/newsletter/itm-6"
-            },
-            {
-              "title": "Thoughts on a Dark Winter Day",
-              "date": "2024-12-27",
-              "link": "https://mikegrindle.com/posts/2024"
-            },
-            {
-              "title": "Is Everything Okay?",
-              "date": "2024-12-10",
-              "link": "https://mikegrindle.com/posts/okay"
-            },
-            {
-              "title": "Returning to Sunnydale",
-              "date": "2024-12-04",
-              "link": "https://mikegrindle.com/posts/snow"
-            },
-            {
-              "title": "Snow Days",
-              "date": "2024-12-02",
-              "link": "https://mikegrindle.com/posts/snow"
             }
           ]
         },
@@ -640,6 +738,37 @@
           ]
         },
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Digital gardening",
+              "date": "2025-01-05",
+              "link": "https://robinrendle.com/notes/digital-gardening/"
+            },
+            {
+              "title": "Design artifacts",
+              "date": "2025-01-04",
+              "link": "https://robinrendle.com/notes/design-artifacts/"
+            },
+            {
+              "title": "This Glorious Machine",
+              "date": "2024-12-31",
+              "link": "https://robinrendle.com/notes/this-glorious-machine/"
+            },
+            {
+              "title": "2024 in music",
+              "date": "2024-12-29",
+              "link": "https://robinrendle.com/notes/2024-in-music/"
+            },
+            {
+              "title": "text-box",
+              "date": "2024-12-27",
+              "link": "https://robinrendle.com/notes/text-box/"
+            }
+          ]
+        },
+        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -729,37 +858,6 @@
               "title": "The Fluxx ensemble exercise",
               "date": "2024-10-12",
               "link": "https://smallsheds.garden/blog/2024/the-fluxx-ensemble-exercise/"
-            }
-          ]
-        },
-        {
-          "title": "Evan Boehs in the blog",
-          "feedUrl": "https://boehs.org/in/blog.xml",
-          "items": [
-            {
-              "title": "I'm Opposed to the Tiktok Ban",
-              "date": "2025-01-02",
-              "link": "https://boehs.org/node/tiktok-ban"
-            },
-            {
-              "title": "The Fascinating Security Model of Dark Web Marketplaces",
-              "date": "2024-11-30",
-              "link": "https://boehs.org/node/dark-web-security"
-            },
-            {
-              "title": "We Showed Up. We Fought. We Lost.",
-              "date": "2024-11-06",
-              "link": "https://boehs.org/node/election-2024"
-            },
-            {
-              "title": "Apple Should Use Intelligence to Get It into Their Heads That We Don't Want This.",
-              "date": "2024-06-10",
-              "link": "https://boehs.org/node/apple-intelligence"
-            },
-            {
-              "title": "I Don't Hate Technology When It Works.",
-              "date": "2024-05-18",
-              "link": "https://boehs.org/node/old-tech"
             }
           ]
         },
@@ -1467,37 +1565,6 @@
           ]
         },
         {
-          "title": "Tooth of the Weasel",
-          "feedUrl": "https://angryweasel.com/blog/feed/",
-          "items": [
-            {
-              "title": "Five for Friday – November 22, 2024",
-              "date": "2024-11-23",
-              "link": "https://angryweasel.com/blog/five-for-friday-november-22-2024/"
-            },
-            {
-              "title": "Five for Friday – November 15, 2025",
-              "date": "2024-11-15",
-              "link": "https://angryweasel.com/blog/five-for-friday-november-15-2025/"
-            },
-            {
-              "title": "Five for Friday – November 8, 2024",
-              "date": "2024-11-09",
-              "link": "https://angryweasel.com/blog/five-for-friday-november-8-2024/"
-            },
-            {
-              "title": "Five for Friday – November 1, 2024",
-              "date": "2024-11-01",
-              "link": "https://angryweasel.com/blog/five-for-friday-november-1-2024/"
-            },
-            {
-              "title": "Five for Friday – October 25, 2024",
-              "date": "2024-10-25",
-              "link": "https://angryweasel.com/blog/five-for-friday-october-25-2024/"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -1928,37 +1995,6 @@
               "title": "Slay the Spire #4: Links are real, and strong, and they are my friend",
               "date": "2024-08-03",
               "link": "https://www.cvennevik.no/blog/slay-the-spire-04-links-are-real/"
-            }
-          ]
-        },
-        {
-          "title": "James Shore",
-          "feedUrl": "https://www.jamesshore.com/v2/feed",
-          "items": [
-            {
-              "title": "Update on Software Engineering Career Ladder",
-              "date": "2024-08-20",
-              "link": "https://www.jamesshore.com/v2/blog/2024/update-on-software-engineering-career-ladder"
-            },
-            {
-              "title": "Agile Fluency eBook in Portuguese",
-              "date": "2024-05-15",
-              "link": "https://www.jamesshore.com/v2/blog/2024/agile-fluency-ebook-in-portuguese"
-            },
-            {
-              "title": "Free Self-Guided “Testing Without Mocks” Training",
-              "date": "2024-05-12",
-              "link": "https://www.jamesshore.com/v2/blog/2024/free-self-guided-testing-without-mocks-training"
-            },
-            {
-              "title": "A Useful Productivity Measure?",
-              "date": "2024-05-05",
-              "link": "https://www.jamesshore.com/v2/blog/2024/a-useful-productivity-measure"
-            },
-            {
-              "title": "A Software Engineering Career Ladder",
-              "date": "2024-04-27",
-              "link": "https://www.jamesshore.com/v2/blog/2024/a-software-engineering-career-ladder"
             }
           ]
         },
@@ -2451,11 +2487,10 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-10T03:23:00.778Z",
+  "fetchDate": "2025-01-11T03:19:31.976Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://einarwh.wordpress.com/feed/",
-    "https://robinrendle.com/feed.xml"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

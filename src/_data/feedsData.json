@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "It’s okay to not know, and it’s okay to wait",
+              "date": "2025-01-14",
+              "link": "https://anniemueller.com/posts/its-okay-to-not-know-and-its-okay-to-wait"
+            },
+            {
+              "title": "Art is the way",
+              "date": "2025-01-11",
+              "link": "https://anniemueller.com/posts/art-is-the-way"
+            },
+            {
+              "title": "False equivalencies",
+              "date": "2025-01-11",
+              "link": "https://anniemueller.com/posts/false-equivalencies"
+            },
+            {
+              "title": "What courage feels like",
+              "date": "2025-01-10",
+              "link": "https://anniemueller.com/posts/what-courage-feels-like"
+            },
+            {
+              "title": "What to worry about",
+              "date": "2025-01-09",
+              "link": "https://anniemueller.com/posts/what-to-worry-about"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Interim note 5: web media and web dev employment",
+              "date": "2025-01-13",
+              "link": "https://www.baldurbjarnason.com/notes/2025/interim-5/"
+            },
+            {
+              "title": "Interim note 4: time-based media",
+              "date": "2025-01-08",
+              "link": "https://www.baldurbjarnason.com/notes/2025/interim-4/"
+            },
+            {
+              "title": "Quick and only partially coherent review of 2024",
+              "date": "2025-01-06",
+              "link": "https://www.baldurbjarnason.com/notes/2025/2024-in-review/"
+            },
+            {
+              "title": "Interim note 3: text-based media in the age of showmanship",
+              "date": "2024-12-19",
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-3/"
+            },
+            {
+              "title": "Interim note 2: business thoughts",
+              "date": "2024-12-13",
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-2/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Free and indie",
+              "date": "2025-01-13",
+              "link": "https://gomakethings.com/free-and-indie/"
+            },
+            {
+              "title": "The :empty pseudo-class in CSS",
+              "date": "2025-01-09",
+              "link": "https://gomakethings.com/the-empty-pseudo-class-in-css/"
+            },
+            {
+              "title": "Your Web Component questions answered!",
+              "date": "2025-01-08",
+              "link": "https://gomakethings.com/your-web-component-questions-answered/"
+            },
+            {
+              "title": "HTML-over-the-wire is overrated",
+              "date": "2025-01-07",
+              "link": "https://gomakethings.com/html-over-the-wire-is-overrated/"
+            },
+            {
+              "title": "Cool URLs don't change (but they don't have to last forever)",
+              "date": "2025-01-06",
+              "link": "https://gomakethings.com/cool-urls-dont-change-but-they-dont-have-to-last-forever/"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "What does it mean for a university to have an opinion?",
+              "date": "2025-01-13",
+              "link": "https://www.felienne.com/archives/8575"
+            },
+            {
+              "title": "Charlie Chaplin and the death of the internet",
+              "date": "2025-01-06",
+              "link": "https://www.felienne.com/archives/8542"
+            },
+            {
+              "title": "Paper: Feminism in Programming Language Design",
+              "date": "2024-10-17",
+              "link": "https://www.felienne.com/archives/8470"
+            },
+            {
+              "title": "Soon all UX will be a Skinner box",
+              "date": "2024-09-11",
+              "link": "https://www.felienne.com/archives/8440"
+            },
+            {
+              "title": "Why *not* to use LLMs in computer science education?",
+              "date": "2024-06-05",
+              "link": "https://www.felienne.com/archives/8392"
+            }
+          ]
+        },
+        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -31,6 +155,99 @@
               "title": "Tailwind 4.0: a True “Mea Culpa” Moment",
               "date": "2024-12-19",
               "link": "https://thathtml.blog/2024/12/tailwind-4-a-mea-culpa-moment/"
+            }
+          ]
+        },
+        {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "Not Feeling Big Tech This Year? Start an Indie Blog!",
+              "date": "2025-01-13",
+              "link": "https://boehs.org/node/2025-call-for-bloggers"
+            },
+            {
+              "title": "Homomorphic Encryption in iOS 18",
+              "date": "2025-01-10",
+              "link": "https://boehs.org/node/homomorphic-encryption"
+            },
+            {
+              "title": "I Was Just Censored by Meta",
+              "date": "2025-01-10",
+              "link": "https://boehs.org/node/meta-censorship"
+            },
+            {
+              "title": "I'm Opposed to the TikTok Ban",
+              "date": "2025-01-02",
+              "link": "https://boehs.org/node/tiktok-ban"
+            },
+            {
+              "title": "The Fascinating Security Model of Dark Web Marketplaces",
+              "date": "2024-11-30",
+              "link": "https://boehs.org/node/dark-web-security"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Beginning of a MIDI GUI in Rust",
+              "date": "2025-01-13",
+              "link": "https://ntietz.com/blog/beginning-rust-midi-gui/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Great things about Rust that aren't just performance",
+              "date": "2025-01-06",
+              "link": "https://ntietz.com/blog/great-things-about-rust-beyond-perf/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Reflecting on 2024, preparing for 2025",
+              "date": "2024-12-30",
+              "link": "https://ntietz.com/blog/reflecting-on-2024-preparing-for-2025/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Feel, don't think",
+              "date": "2024-12-23",
+              "link": "https://ntietz.com/blog/feel-dont-think/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Estimating projects sells them short (and that's okay)",
+              "date": "2024-12-16",
+              "link": "https://ntietz.com/blog/estimating-projects-short-sale/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Gotchas in Naming CSS View Transitions",
+              "date": "2025-01-12",
+              "link": "https://blog.jim-nielsen.com/2025/view-transition-name-gotchas/"
+            },
+            {
+              "title": "Don’t Miss the Product for the Artifacts",
+              "date": "2025-01-09",
+              "link": "https://blog.jim-nielsen.com/2025/dont-miss-the-product-for-the-artifacts/"
+            },
+            {
+              "title": "Social Inflation",
+              "date": "2025-01-07",
+              "link": "https://blog.jim-nielsen.com/2025/social-inflation/"
+            },
+            {
+              "title": "Push Notifications Are Organizational Marshmallows",
+              "date": "2025-01-06",
+              "link": "https://blog.jim-nielsen.com/2025/notification-marshmallows/"
+            },
+            {
+              "title": "You Can Now Subscribe To My Blog via Email",
+              "date": "2025-01-04",
+              "link": "https://blog.jim-nielsen.com/2025/subscribe-via-email-now/"
             }
           ]
         },
@@ -93,6 +310,37 @@
               "title": "Website updates",
               "date": "2024-11-05",
               "link": "https://thejollyteapot.com/2024/11/05/website-updates/"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "The missing tier for query compilers",
+              "date": "2025-01-12",
+              "link": "https://www.scattered-thoughts.net/writing/the-missing-tier-for-query-compilers/"
+            },
+            {
+              "title": "0050 - smolderingly fast b-trees, serious fun, what is the point of an online conference, it's ok to be afraid, HYTRADBOI progress, no other progress, vancouver.systems, not the incentives, llm garbage, books",
+              "date": "2024-11-25",
+              "link": "https://www.scattered-thoughts.net/log/0050/"
+            },
+            {
+              "title": "It's ok to be afraid",
+              "date": "2024-11-16",
+              "link": "https://www.scattered-thoughts.net/writing/its-ok-to-be-afraid/"
+            },
+            {
+              "title": "What is the point of an online conference?",
+              "date": "2024-10-30",
+              "link": "https://www.scattered-thoughts.net/writing/what-is-the-point-of-an-online-conference/"
+            },
+            {
+              "title": "Serious fun",
+              "date": "2024-10-20",
+              "link": "https://www.scattered-thoughts.net/writing/serious-fun/"
             }
           ]
         },
@@ -221,37 +469,6 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Art is the way",
-              "date": "2025-01-11",
-              "link": "https://anniemueller.com/posts/art-is-the-way"
-            },
-            {
-              "title": "False equivalencies",
-              "date": "2025-01-11",
-              "link": "https://anniemueller.com/posts/false-equivalencies"
-            },
-            {
-              "title": "What courage feels like",
-              "date": "2025-01-10",
-              "link": "https://anniemueller.com/posts/what-courage-feels-like"
-            },
-            {
-              "title": "What to worry about",
-              "date": "2025-01-09",
-              "link": "https://anniemueller.com/posts/what-to-worry-about"
-            },
-            {
-              "title": "Do you dabble? Meander? Peruse and putter?",
-              "date": "2025-01-08",
-              "link": "https://anniemueller.com/posts/do-you-dabble-meander-peruse-and-putter"
-            }
-          ]
-        },
-        {
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
@@ -340,37 +557,6 @@
           ]
         },
         {
-          "title": "Evan Boehs in the blog",
-          "feedUrl": "https://boehs.org/in/blog.xml",
-          "items": [
-            {
-              "title": "Homomorphic Encryption in iOS 18",
-              "date": "2025-01-10",
-              "link": "https://boehs.org/node/homomorphic-encryption"
-            },
-            {
-              "title": "I Was Just Censored by Meta",
-              "date": "2025-01-10",
-              "link": "https://boehs.org/node/meta-censorship"
-            },
-            {
-              "title": "I'm Opposed to the TikTok Ban",
-              "date": "2025-01-02",
-              "link": "https://boehs.org/node/tiktok-ban"
-            },
-            {
-              "title": "The Fascinating Security Model of Dark Web Marketplaces",
-              "date": "2024-11-30",
-              "link": "https://boehs.org/node/dark-web-security"
-            },
-            {
-              "title": "We Showed Up. We Fought. We Lost.",
-              "date": "2024-11-06",
-              "link": "https://boehs.org/node/election-2024"
-            }
-          ]
-        },
-        {
           "title": "Mike Grindle's Blog",
           "feedUrl": "https://mikegrindle.com/feed.xml",
           "items": [
@@ -402,68 +588,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "The :empty pseudo-class in CSS",
-              "date": "2025-01-09",
-              "link": "https://gomakethings.com/the-empty-pseudo-class-in-css/"
-            },
-            {
-              "title": "Your Web Component questions answered!",
-              "date": "2025-01-08",
-              "link": "https://gomakethings.com/your-web-component-questions-answered/"
-            },
-            {
-              "title": "HTML-over-the-wire is overrated",
-              "date": "2025-01-07",
-              "link": "https://gomakethings.com/html-over-the-wire-is-overrated/"
-            },
-            {
-              "title": "Cool URLs don't change (but they don't have to last forever)",
-              "date": "2025-01-06",
-              "link": "https://gomakethings.com/cool-urls-dont-change-but-they-dont-have-to-last-forever/"
-            },
-            {
-              "title": "Custom attributes in Web Components",
-              "date": "2025-01-03",
-              "link": "https://gomakethings.com/custom-attributes-in-web-components/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Don’t Miss the Product for the Artifacts",
-              "date": "2025-01-09",
-              "link": "https://blog.jim-nielsen.com/2025/dont-miss-the-product-for-the-artifacts/"
-            },
-            {
-              "title": "Social Inflation",
-              "date": "2025-01-07",
-              "link": "https://blog.jim-nielsen.com/2025/social-inflation/"
-            },
-            {
-              "title": "Push Notifications Are Organizational Marshmallows",
-              "date": "2025-01-06",
-              "link": "https://blog.jim-nielsen.com/2025/notification-marshmallows/"
-            },
-            {
-              "title": "You Can Now Subscribe To My Blog via Email",
-              "date": "2025-01-04",
-              "link": "https://blog.jim-nielsen.com/2025/subscribe-via-email-now/"
-            },
-            {
-              "title": "Podcast Notes: Vlad Prelovac on “The Talk Show”",
-              "date": "2024-12-30",
-              "link": "https://blog.jim-nielsen.com/2024/podcast-notes-talk-show-kagi/"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -491,37 +615,6 @@
               "title": "Development Advent Calendars for 2024",
               "date": "2024-12-01",
               "link": "https://adrianroselli.com/2024/12/development-advent-calendars-for-2024.html"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Interim note 4: time-based media",
-              "date": "2025-01-08",
-              "link": "https://www.baldurbjarnason.com/notes/2025/interim-4/"
-            },
-            {
-              "title": "Quick and only partially coherent review of 2024",
-              "date": "2025-01-06",
-              "link": "https://www.baldurbjarnason.com/notes/2025/2024-in-review/"
-            },
-            {
-              "title": "Interim note 3: text-based media in the age of showmanship",
-              "date": "2024-12-19",
-              "link": "https://www.baldurbjarnason.com/notes/2024/interim-3/"
-            },
-            {
-              "title": "Interim note 2: business thoughts",
-              "date": "2024-12-13",
-              "link": "https://www.baldurbjarnason.com/notes/2024/interim-2/"
-            },
-            {
-              "title": "Interim note 1: tech",
-              "date": "2024-12-09",
-              "link": "https://www.baldurbjarnason.com/notes/2024/interim-1/"
             }
           ]
         },
@@ -738,37 +831,6 @@
           ]
         },
         {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "Charlie Chaplin and the death of the internet",
-              "date": "2025-01-06",
-              "link": "https://www.felienne.com/archives/8542"
-            },
-            {
-              "title": "Paper: Feminism in Programming Language Design",
-              "date": "2024-10-17",
-              "link": "https://www.felienne.com/archives/8470"
-            },
-            {
-              "title": "Soon all UX will be a Skinner box",
-              "date": "2024-09-11",
-              "link": "https://www.felienne.com/archives/8440"
-            },
-            {
-              "title": "Why *not* to use LLMs in computer science education?",
-              "date": "2024-06-05",
-              "link": "https://www.felienne.com/archives/8392"
-            },
-            {
-              "title": "Why to use LLMs in computer science education?",
-              "date": "2024-06-03",
-              "link": "https://www.felienne.com/archives/8367"
-            }
-          ]
-        },
-        {
           "title": "drcathicks",
           "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
           "items": [
@@ -827,37 +889,6 @@
               "title": "BSides Munich 2024 - We Belong",
               "date": "2024-11-15",
               "link": "https://www.lisihocke.com/2024/11/bsides-munich-2024-we-belong.html"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Great things about Rust that aren't just performance",
-              "date": "2025-01-06",
-              "link": "https://ntietz.com/blog/great-things-about-rust-beyond-perf/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Reflecting on 2024, preparing for 2025",
-              "date": "2024-12-30",
-              "link": "https://ntietz.com/blog/reflecting-on-2024-preparing-for-2025/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Feel, don't think",
-              "date": "2024-12-23",
-              "link": "https://ntietz.com/blog/feel-dont-think/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Estimating projects sells them short (and that's okay)",
-              "date": "2024-12-16",
-              "link": "https://ntietz.com/blog/estimating-projects-short-sale/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Parsing MIDI messages in Rust",
-              "date": "2024-12-09",
-              "link": "https://ntietz.com/blog/parsing-midi-rust/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -1530,37 +1561,6 @@
               "title": "Det vi ikke snakker om når vi snakker om teknisk gjeld",
               "date": "2024-10-24",
               "link": "https://www.kodemaker.no/blogg/2024-10-teknisk-gjeld/"
-            }
-          ]
-        },
-        {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "0050 - smolderingly fast b-trees, serious fun, what is the point of an online conference, it's ok to be afraid, HYTRADBOI progress, no other progress, vancouver.systems, not the incentives, llm garbage, books",
-              "date": "2024-11-25",
-              "link": "https://www.scattered-thoughts.net/log/0050/"
-            },
-            {
-              "title": "It's ok to be afraid",
-              "date": "2024-11-16",
-              "link": "https://www.scattered-thoughts.net/writing/its-ok-to-be-afraid/"
-            },
-            {
-              "title": "What is the point of an online conference?",
-              "date": "2024-10-30",
-              "link": "https://www.scattered-thoughts.net/writing/what-is-the-point-of-an-online-conference/"
-            },
-            {
-              "title": "Serious fun",
-              "date": "2024-10-20",
-              "link": "https://www.scattered-thoughts.net/writing/serious-fun/"
-            },
-            {
-              "title": "0049: hytradboi 2025, consulting, zest progress, labeled continue, bet against sql, zero-cost costs in debug, packed memory arrays, papers, books",
-              "date": "2024-10-08",
-              "link": "https://www.scattered-thoughts.net/log/0049/"
             }
           ]
         },
@@ -2487,7 +2487,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-13T03:24:08.413Z",
+  "fetchDate": "2025-01-14T03:14:50.546Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

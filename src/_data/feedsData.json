@@ -8,6 +8,11 @@
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
             {
+              "title": "I am full of schemes",
+              "date": "2025-01-15",
+              "link": "https://anniemueller.com/posts/i-am-full-of-schemes"
+            },
+            {
               "title": "It’s okay to not know, and it’s okay to wait",
               "date": "2025-01-14",
               "link": "https://anniemueller.com/posts/its-okay-to-not-know-and-its-okay-to-wait"
@@ -26,11 +31,125 @@
               "title": "What courage feels like",
               "date": "2025-01-10",
               "link": "https://anniemueller.com/posts/what-courage-feels-like"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "How to show snippets of content only on certain dates in Hugo SSG",
+              "date": "2025-01-14",
+              "link": "https://gomakethings.com/how-to-show-snippets-of-content-only-on-certain-dates-in-hugo-ssg/"
             },
             {
-              "title": "What to worry about",
+              "title": "Free and indie",
+              "date": "2025-01-13",
+              "link": "https://gomakethings.com/free-and-indie/"
+            },
+            {
+              "title": "The :empty pseudo-class in CSS",
               "date": "2025-01-09",
-              "link": "https://anniemueller.com/posts/what-to-worry-about"
+              "link": "https://gomakethings.com/the-empty-pseudo-class-in-css/"
+            },
+            {
+              "title": "Your Web Component questions answered!",
+              "date": "2025-01-08",
+              "link": "https://gomakethings.com/your-web-component-questions-answered/"
+            },
+            {
+              "title": "HTML-over-the-wire is overrated",
+              "date": "2025-01-07",
+              "link": "https://gomakethings.com/html-over-the-wire-is-overrated/"
+            }
+          ]
+        },
+        {
+          "title": "Good Tech Things",
+          "feedUrl": "https://newsletter.goodtechthings.com/feed",
+          "items": [
+            {
+              "title": "Why are tech people suddenly so into homeschooling?",
+              "date": "2025-01-14",
+              "link": "https://newsletter.goodtechthings.com/p/why-are-tech-people-suddenly-so-into"
+            },
+            {
+              "title": "What hath AWS wrought?",
+              "date": "2024-12-10",
+              "link": "https://newsletter.goodtechthings.com/p/what-hath-aws-wrought"
+            },
+            {
+              "title": "The case against living in the Bay Area, for ambitious tech people",
+              "date": "2024-11-22",
+              "link": "https://newsletter.goodtechthings.com/p/the-case-against-living-in-the-bay"
+            },
+            {
+              "title": "Tech the Heck? Archera",
+              "date": "2024-10-15",
+              "link": "https://newsletter.goodtechthings.com/p/tech-the-heck-archera"
+            },
+            {
+              "title": "Knowledge Worker",
+              "date": "2024-09-18",
+              "link": "https://newsletter.goodtechthings.com/p/knowledge-worker"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Journey to the beyond",
+              "date": "2025-01-14",
+              "link": "https://moonbase.lgbt/blog/journey-to-the-beyond/"
+            },
+            {
+              "title": "Lone Magpie",
+              "date": "2025-01-08",
+              "link": "https://moonbase.lgbt/blog/lone-magpie/"
+            },
+            {
+              "title": "Goodnight, Eggbug",
+              "date": "2024-12-31",
+              "link": "https://moonbase.lgbt/blog/goodnight-eggbug/"
+            },
+            {
+              "title": "Satisfying camera noises",
+              "date": "2024-12-20",
+              "link": "https://moonbase.lgbt/blog/satisfying-camera-noises/"
+            },
+            {
+              "title": "Too many servers",
+              "date": "2024-12-18",
+              "link": "https://moonbase.lgbt/blog/too-many-servers/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-01-14",
+              "link": "https://dbushell.com/notes/2025-01-14T12:57Z/"
+            },
+            {
+              "date": "2025-01-08",
+              "link": "https://dbushell.com/notes/2025-01-08T07:57Z/"
+            },
+            {
+              "date": "2025-01-06",
+              "link": "https://dbushell.com/notes/2025-01-06T08:08Z/"
+            },
+            {
+              "date": "2024-12-18",
+              "link": "https://dbushell.com/notes/2024-12-18T12:38Z/"
+            },
+            {
+              "date": "2024-12-13",
+              "link": "https://dbushell.com/notes/2024-12-13T14:22Z/"
             }
           ]
         },
@@ -66,64 +185,33 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
             {
-              "title": "Free and indie",
+              "title": "Using Locally-Installed CLI Tools In Node Projects",
               "date": "2025-01-13",
-              "link": "https://gomakethings.com/free-and-indie/"
+              "link": "https://blog.jim-nielsen.com/2025/local-cli-tools-in-node/"
             },
             {
-              "title": "The :empty pseudo-class in CSS",
+              "title": "Gotchas in Naming CSS View Transitions",
+              "date": "2025-01-12",
+              "link": "https://blog.jim-nielsen.com/2025/view-transition-name-gotchas/"
+            },
+            {
+              "title": "Don’t Miss the Product for the Artifacts",
               "date": "2025-01-09",
-              "link": "https://gomakethings.com/the-empty-pseudo-class-in-css/"
+              "link": "https://blog.jim-nielsen.com/2025/dont-miss-the-product-for-the-artifacts/"
             },
             {
-              "title": "Your Web Component questions answered!",
-              "date": "2025-01-08",
-              "link": "https://gomakethings.com/your-web-component-questions-answered/"
-            },
-            {
-              "title": "HTML-over-the-wire is overrated",
+              "title": "Social Inflation",
               "date": "2025-01-07",
-              "link": "https://gomakethings.com/html-over-the-wire-is-overrated/"
+              "link": "https://blog.jim-nielsen.com/2025/social-inflation/"
             },
             {
-              "title": "Cool URLs don't change (but they don't have to last forever)",
+              "title": "Push Notifications Are Organizational Marshmallows",
               "date": "2025-01-06",
-              "link": "https://gomakethings.com/cool-urls-dont-change-but-they-dont-have-to-last-forever/"
-            }
-          ]
-        },
-        {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "What does it mean for a university to have an opinion?",
-              "date": "2025-01-13",
-              "link": "https://www.felienne.com/archives/8575"
-            },
-            {
-              "title": "Charlie Chaplin and the death of the internet",
-              "date": "2025-01-06",
-              "link": "https://www.felienne.com/archives/8542"
-            },
-            {
-              "title": "Paper: Feminism in Programming Language Design",
-              "date": "2024-10-17",
-              "link": "https://www.felienne.com/archives/8470"
-            },
-            {
-              "title": "Soon all UX will be a Skinner box",
-              "date": "2024-09-11",
-              "link": "https://www.felienne.com/archives/8440"
-            },
-            {
-              "title": "Why *not* to use LLMs in computer science education?",
-              "date": "2024-06-05",
-              "link": "https://www.felienne.com/archives/8392"
+              "link": "https://blog.jim-nielsen.com/2025/notification-marshmallows/"
             }
           ]
         },
@@ -155,6 +243,37 @@
               "title": "Tailwind 4.0: a True “Mea Culpa” Moment",
               "date": "2024-12-19",
               "link": "https://thathtml.blog/2024/12/tailwind-4-a-mea-culpa-moment/"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "What does it mean for a university to have an opinion?",
+              "date": "2025-01-13",
+              "link": "https://www.felienne.com/archives/8575"
+            },
+            {
+              "title": "Charlie Chaplin and the death of the internet",
+              "date": "2025-01-06",
+              "link": "https://www.felienne.com/archives/8542"
+            },
+            {
+              "title": "Paper: Feminism in Programming Language Design",
+              "date": "2024-10-17",
+              "link": "https://www.felienne.com/archives/8470"
+            },
+            {
+              "title": "Soon all UX will be a Skinner box",
+              "date": "2024-09-11",
+              "link": "https://www.felienne.com/archives/8440"
+            },
+            {
+              "title": "Why *not* to use LLMs in computer science education?",
+              "date": "2024-06-05",
+              "link": "https://www.felienne.com/archives/8392"
             }
           ]
         },
@@ -217,37 +336,6 @@
               "title": "Estimating projects sells them short (and that's okay)",
               "date": "2024-12-16",
               "link": "https://ntietz.com/blog/estimating-projects-short-sale/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Gotchas in Naming CSS View Transitions",
-              "date": "2025-01-12",
-              "link": "https://blog.jim-nielsen.com/2025/view-transition-name-gotchas/"
-            },
-            {
-              "title": "Don’t Miss the Product for the Artifacts",
-              "date": "2025-01-09",
-              "link": "https://blog.jim-nielsen.com/2025/dont-miss-the-product-for-the-artifacts/"
-            },
-            {
-              "title": "Social Inflation",
-              "date": "2025-01-07",
-              "link": "https://blog.jim-nielsen.com/2025/social-inflation/"
-            },
-            {
-              "title": "Push Notifications Are Organizational Marshmallows",
-              "date": "2025-01-06",
-              "link": "https://blog.jim-nielsen.com/2025/notification-marshmallows/"
-            },
-            {
-              "title": "You Can Now Subscribe To My Blog via Email",
-              "date": "2025-01-04",
-              "link": "https://blog.jim-nielsen.com/2025/subscribe-via-email-now/"
             }
           ]
         },
@@ -650,63 +738,6 @@
           ]
         },
         {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "Lone Magpie",
-              "date": "2025-01-08",
-              "link": "https://moonbase.lgbt/blog/lone-magpie/"
-            },
-            {
-              "title": "Goodnight, Eggbug",
-              "date": "2024-12-31",
-              "link": "https://moonbase.lgbt/blog/goodnight-eggbug/"
-            },
-            {
-              "title": "Satisfying camera noises",
-              "date": "2024-12-20",
-              "link": "https://moonbase.lgbt/blog/satisfying-camera-noises/"
-            },
-            {
-              "title": "Too many servers",
-              "date": "2024-12-18",
-              "link": "https://moonbase.lgbt/blog/too-many-servers/"
-            },
-            {
-              "title": "Operator transposition",
-              "date": "2024-11-30",
-              "link": "https://moonbase.lgbt/blog/operator-transposition/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-01-08",
-              "link": "https://dbushell.com/notes/2025-01-08T07:57Z/"
-            },
-            {
-              "date": "2025-01-06",
-              "link": "https://dbushell.com/notes/2025-01-06T08:08Z/"
-            },
-            {
-              "date": "2024-12-18",
-              "link": "https://dbushell.com/notes/2024-12-18T12:38Z/"
-            },
-            {
-              "date": "2024-12-13",
-              "link": "https://dbushell.com/notes/2024-12-13T14:22Z/"
-            },
-            {
-              "date": "2024-12-12",
-              "link": "https://dbushell.com/notes/2024-12-12T09:17Z/"
-            }
-          ]
-        },
-        {
           "title": "sunshowers",
           "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
@@ -738,37 +769,6 @@
           ]
         },
         {
-          "title": ".:. brainsik",
-          "feedUrl": "https://brainsik.net/index.xml",
-          "items": [
-            {
-              "title": "The LLM Journey Begins?",
-              "date": "2025-01-07",
-              "link": "https://brainsik.net/2025/llm-journey-begins/"
-            },
-            {
-              "title": "Successfully Migrating to Caddy from Nginx",
-              "date": "2024-07-09",
-              "link": "https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/"
-            },
-            {
-              "title": "GPG Key Transition 2022",
-              "date": "2023-01-01",
-              "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
-            },
-            {
-              "title": "The problem with moving phones from copper to fiber: power",
-              "date": "2014-08-15",
-              "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
-            },
-            {
-              "title": "The Secret Government Rulebook For Labeling You a Terrorist",
-              "date": "2014-08-09",
-              "link": "https://brainsik.net/2014/the-secret-government-rulebook-for-labeling-you-a-terrorist/"
-            }
-          ]
-        },
-        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
@@ -796,6 +796,37 @@
               "title": "Choo Choo World",
               "date": "2024-12-11",
               "link": "https://choochooworld.com"
+            }
+          ]
+        },
+        {
+          "title": ".:. brainsik",
+          "feedUrl": "https://brainsik.net/index.xml",
+          "items": [
+            {
+              "title": "The LLM Journey Begins?",
+              "date": "2025-01-07",
+              "link": "https://brainsik.net/2025/llm-journey-begins/"
+            },
+            {
+              "title": "Successfully Migrating to Caddy from Nginx",
+              "date": "2024-07-09",
+              "link": "https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/"
+            },
+            {
+              "title": "GPG Key Transition 2022",
+              "date": "2023-01-01",
+              "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
+            },
+            {
+              "title": "The problem with moving phones from copper to fiber: power",
+              "date": "2014-08-15",
+              "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
+            },
+            {
+              "title": "The Secret Government Rulebook For Labeling You a Terrorist",
+              "date": "2014-08-09",
+              "link": "https://brainsik.net/2014/the-secret-government-rulebook-for-labeling-you-a-terrorist/"
             }
           ]
         },
@@ -1292,37 +1323,6 @@
               "title": "Does AI benefit the world?",
               "date": "2024-08-28",
               "link": "https://chelseatroy.com/2024/08/28/does-ai-benefit-the-world/"
-            }
-          ]
-        },
-        {
-          "title": "Good Tech Things",
-          "feedUrl": "https://newsletter.goodtechthings.com/feed",
-          "items": [
-            {
-              "title": "What hath AWS wrought?",
-              "date": "2024-12-10",
-              "link": "https://newsletter.goodtechthings.com/p/what-hath-aws-wrought"
-            },
-            {
-              "title": "The case against living in the Bay Area, for ambitious tech people",
-              "date": "2024-11-22",
-              "link": "https://newsletter.goodtechthings.com/p/the-case-against-living-in-the-bay"
-            },
-            {
-              "title": "Tech the Heck? Archera",
-              "date": "2024-10-15",
-              "link": "https://newsletter.goodtechthings.com/p/tech-the-heck-archera"
-            },
-            {
-              "title": "Knowledge Worker",
-              "date": "2024-09-18",
-              "link": "https://newsletter.goodtechthings.com/p/knowledge-worker"
-            },
-            {
-              "title": "The death of the [modified] developer",
-              "date": "2024-08-30",
-              "link": "https://newsletter.goodtechthings.com/p/the-death-of-the-modified-developer"
             }
           ]
         },
@@ -2487,7 +2487,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-14T03:14:50.546Z",
+  "fetchDate": "2025-01-15T03:16:01.028Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

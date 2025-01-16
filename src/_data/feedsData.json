@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "What is a callback function?",
+              "date": "2025-01-15",
+              "link": "https://gomakethings.com/what-is-a-callback-function/"
+            },
+            {
+              "title": "How to show snippets of content only on certain dates in Hugo SSG",
+              "date": "2025-01-14",
+              "link": "https://gomakethings.com/how-to-show-snippets-of-content-only-on-certain-dates-in-hugo-ssg/"
+            },
+            {
+              "title": "Free and indie",
+              "date": "2025-01-13",
+              "link": "https://gomakethings.com/free-and-indie/"
+            },
+            {
+              "title": "The :empty pseudo-class in CSS",
+              "date": "2025-01-09",
+              "link": "https://gomakethings.com/the-empty-pseudo-class-in-css/"
+            },
+            {
+              "title": "Your Web Component questions answered!",
+              "date": "2025-01-08",
+              "link": "https://gomakethings.com/your-web-component-questions-answered/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "A checklist for your <code>tsconfig.json</code>",
+              "date": "2025-01-15",
+              "link": "https://2ality.com/2025/01/tsconfig-json.html"
+            },
+            {
+              "title": "ECMAScript feature: regular expression pattern modifiers",
+              "date": "2025-01-10",
+              "link": "https://2ality.com/2025/01/regexp-modifiers.html"
+            },
+            {
+              "title": "ECMAScript feature: import attributes",
+              "date": "2025-01-09",
+              "link": "https://2ality.com/2025/01/import-attributes.html"
+            },
+            {
+              "title": "Node’s new built-in support for TypeScript",
+              "date": "2025-01-08",
+              "link": "https://2ality.com/2025/01/nodejs-strip-type.html"
+            },
+            {
+              "title": "WebAssembly as an ecosystem for programming languages",
+              "date": "2025-01-01",
+              "link": "https://2ality.com/2025/01/webassembly-language-ecosystem.html"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "The forest beckons",
+              "date": "2025-01-15",
+              "link": "https://moonbase.lgbt/blog/the-forest-beckons/"
+            },
+            {
+              "title": "Journey to the beyond",
+              "date": "2025-01-14",
+              "link": "https://moonbase.lgbt/blog/journey-to-the-beyond/"
+            },
+            {
+              "title": "Lone Magpie",
+              "date": "2025-01-08",
+              "link": "https://moonbase.lgbt/blog/lone-magpie/"
+            },
+            {
+              "title": "Goodnight, Eggbug",
+              "date": "2024-12-31",
+              "link": "https://moonbase.lgbt/blog/goodnight-eggbug/"
+            },
+            {
+              "title": "Satisfying camera noises",
+              "date": "2024-12-20",
+              "link": "https://moonbase.lgbt/blog/satisfying-camera-noises/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "smallweb",
+              "date": "2025-01-15",
+              "link": "https://smallweb.cc/"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            },
+            {
+              "title": "Roald Dahl’s The Witches",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
+            },
+            {
+              "title": "I got an iPhone",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
+            },
+            {
+              "title": "Artemis",
+              "date": "2024-12-19",
+              "link": "https://artemis.jamesg.blog/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -35,33 +159,33 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
             {
-              "title": "How to show snippets of content only on certain dates in Hugo SSG",
-              "date": "2025-01-14",
-              "link": "https://gomakethings.com/how-to-show-snippets-of-content-only-on-certain-dates-in-hugo-ssg/"
+              "title": "What are the Rosettas of formal specification?",
+              "date": "2025-01-15",
+              "link": "https://buttondown.com/hillelwayne/archive/what-are-the-rosettas-of-formal-specification/"
             },
             {
-              "title": "Free and indie",
-              "date": "2025-01-13",
-              "link": "https://gomakethings.com/free-and-indie/"
-            },
-            {
-              "title": "The :empty pseudo-class in CSS",
-              "date": "2025-01-09",
-              "link": "https://gomakethings.com/the-empty-pseudo-class-in-css/"
-            },
-            {
-              "title": "Your Web Component questions answered!",
-              "date": "2025-01-08",
-              "link": "https://gomakethings.com/your-web-component-questions-answered/"
-            },
-            {
-              "title": "HTML-over-the-wire is overrated",
+              "title": "\"Logic for Programmers\" Project Update",
               "date": "2025-01-07",
-              "link": "https://gomakethings.com/html-over-the-wire-is-overrated/"
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-project-update/"
+            },
+            {
+              "title": "Formally modeling dreidel, the sequel",
+              "date": "2024-12-18",
+              "link": "https://buttondown.com/hillelwayne/archive/formally-modeling-dreidel-the-sequel/"
+            },
+            {
+              "title": "Stroustrup's Rule",
+              "date": "2024-12-11",
+              "link": "https://buttondown.com/hillelwayne/archive/stroustrups-rule/"
+            },
+            {
+              "title": "Hyperproperties",
+              "date": "2024-11-19",
+              "link": "https://buttondown.com/hillelwayne/archive/hyperproperties/"
             }
           ]
         },
@@ -97,37 +221,6 @@
           ]
         },
         {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "Journey to the beyond",
-              "date": "2025-01-14",
-              "link": "https://moonbase.lgbt/blog/journey-to-the-beyond/"
-            },
-            {
-              "title": "Lone Magpie",
-              "date": "2025-01-08",
-              "link": "https://moonbase.lgbt/blog/lone-magpie/"
-            },
-            {
-              "title": "Goodnight, Eggbug",
-              "date": "2024-12-31",
-              "link": "https://moonbase.lgbt/blog/goodnight-eggbug/"
-            },
-            {
-              "title": "Satisfying camera noises",
-              "date": "2024-12-20",
-              "link": "https://moonbase.lgbt/blog/satisfying-camera-noises/"
-            },
-            {
-              "title": "Too many servers",
-              "date": "2024-12-18",
-              "link": "https://moonbase.lgbt/blog/too-many-servers/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (microblog)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -150,37 +243,6 @@
             {
               "date": "2024-12-13",
               "link": "https://dbushell.com/notes/2024-12-13T14:22Z/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Interim note 5: web media and web dev employment",
-              "date": "2025-01-13",
-              "link": "https://www.baldurbjarnason.com/notes/2025/interim-5/"
-            },
-            {
-              "title": "Interim note 4: time-based media",
-              "date": "2025-01-08",
-              "link": "https://www.baldurbjarnason.com/notes/2025/interim-4/"
-            },
-            {
-              "title": "Quick and only partially coherent review of 2024",
-              "date": "2025-01-06",
-              "link": "https://www.baldurbjarnason.com/notes/2025/2024-in-review/"
-            },
-            {
-              "title": "Interim note 3: text-based media in the age of showmanship",
-              "date": "2024-12-19",
-              "link": "https://www.baldurbjarnason.com/notes/2024/interim-3/"
-            },
-            {
-              "title": "Interim note 2: business thoughts",
-              "date": "2024-12-13",
-              "link": "https://www.baldurbjarnason.com/notes/2024/interim-2/"
             }
           ]
         },
@@ -216,33 +278,33 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
             {
-              "title": "Select Styling Revisions: What’s New",
+              "title": "Interim note 5: web media and web dev employment",
               "date": "2025-01-13",
-              "link": "https://thathtml.blog/2025/01/revised-select-styling-whats-new/"
+              "link": "https://www.baldurbjarnason.com/notes/2025/interim-5/"
             },
             {
-              "title": "Craft Stylized Text Animations with Khoshnus and SVG",
-              "date": "2025-01-10",
-              "link": "https://thathtml.blog/2025/01/stylized-svg-text-animations-with-khoshnus/"
+              "title": "Interim note 4: time-based media",
+              "date": "2025-01-08",
+              "link": "https://www.baldurbjarnason.com/notes/2025/interim-4/"
             },
             {
-              "title": "A Modern Replacement for Cookie Cruft",
-              "date": "2025-01-03",
-              "link": "https://thathtml.blog/2025/01/cookie-store-api/"
+              "title": "Quick and only partially coherent review of 2024",
+              "date": "2025-01-06",
+              "link": "https://www.baldurbjarnason.com/notes/2025/2024-in-review/"
             },
             {
-              "title": "The Joyful Pleasures of DIY Web Services",
-              "date": "2024-12-23",
-              "link": "https://thathtml.blog/2024/12/diy-web-services/"
-            },
-            {
-              "title": "Tailwind 4.0: a True “Mea Culpa” Moment",
+              "title": "Interim note 3: text-based media in the age of showmanship",
               "date": "2024-12-19",
-              "link": "https://thathtml.blog/2024/12/tailwind-4-a-mea-culpa-moment/"
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-3/"
+            },
+            {
+              "title": "Interim note 2: business thoughts",
+              "date": "2024-12-13",
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-2/"
             }
           ]
         },
@@ -274,6 +336,37 @@
               "title": "Why *not* to use LLMs in computer science education?",
               "date": "2024-06-05",
               "link": "https://www.felienne.com/archives/8392"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Select Styling Revisions: What’s New",
+              "date": "2025-01-13",
+              "link": "https://thathtml.blog/2025/01/revised-select-styling-whats-new/"
+            },
+            {
+              "title": "Craft Stylized Text Animations with Khoshnus and SVG",
+              "date": "2025-01-10",
+              "link": "https://thathtml.blog/2025/01/stylized-svg-text-animations-with-khoshnus/"
+            },
+            {
+              "title": "A Modern Replacement for Cookie Cruft",
+              "date": "2025-01-03",
+              "link": "https://thathtml.blog/2025/01/cookie-store-api/"
+            },
+            {
+              "title": "The Joyful Pleasures of DIY Web Services",
+              "date": "2024-12-23",
+              "link": "https://thathtml.blog/2024/12/diy-web-services/"
+            },
+            {
+              "title": "Tailwind 4.0: a True “Mea Culpa” Moment",
+              "date": "2024-12-19",
+              "link": "https://thathtml.blog/2024/12/tailwind-4-a-mea-culpa-moment/"
             }
           ]
         },
@@ -433,37 +526,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
-            },
-            {
-              "title": "Why pipes sometimes get \"stuck\": buffering",
-              "date": "2024-11-29",
-              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
-            },
-            {
-              "title": "Importing a frontend Javascript library without a build system",
-              "date": "2024-11-18",
-              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
-            },
-            {
-              "title": "New microblog with TILs",
-              "date": "2024-11-09",
-              "link": "https://jvns.ca/blog/2024/11/09/new-microblog/"
-            }
-          ]
-        },
-        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -491,6 +553,37 @@
               "title": "2024 in music",
               "date": "2024-12-29",
               "link": "https://robinrendle.com/notes/2024-in-music/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
+            },
+            {
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
+            },
+            {
+              "title": "Why pipes sometimes get \"stuck\": buffering",
+              "date": "2024-11-29",
+              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
+            },
+            {
+              "title": "Importing a frontend Javascript library without a build system",
+              "date": "2024-11-18",
+              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
+            },
+            {
+              "title": "New microblog with TILs",
+              "date": "2024-11-09",
+              "link": "https://jvns.ca/blog/2024/11/09/new-microblog/"
             }
           ]
         },
@@ -553,32 +646,6 @@
               "title": "Recently",
               "date": "2024-10-01",
               "link": "https://macwright.com/2024/10/01/recently.html"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "ECMAScript feature: regular expression pattern modifiers",
-              "date": "2025-01-10",
-              "link": "https://2ality.com/2025/01/regexp-modifiers.html"
-            },
-            {
-              "title": "ECMAScript feature: import attributes",
-              "date": "2025-01-09",
-              "link": "https://2ality.com/2025/01/import-attributes.html"
-            },
-            {
-              "title": "Node’s new built-in support for TypeScript",
-              "date": "2025-01-08",
-              "link": "https://2ality.com/2025/01/nodejs-strip-type.html"
-            },
-            {
-              "title": "WebAssembly as an ecosystem for programming languages",
-              "date": "2025-01-01",
-              "link": "https://2ality.com/2025/01/webassembly-language-ecosystem.html"
             }
           ]
         },
@@ -769,37 +836,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            },
-            {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
-            },
-            {
-              "title": "I got an iPhone",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
-            },
-            {
-              "title": "Artemis",
-              "date": "2024-12-19",
-              "link": "https://artemis.jamesg.blog/"
-            },
-            {
-              "title": "Choo Choo World",
-              "date": "2024-12-11",
-              "link": "https://choochooworld.com"
-            }
-          ]
-        },
-        {
           "title": ".:. brainsik",
           "feedUrl": "https://brainsik.net/index.xml",
           "items": [
@@ -827,37 +863,6 @@
               "title": "The Secret Government Rulebook For Labeling You a Terrorist",
               "date": "2014-08-09",
               "link": "https://brainsik.net/2014/the-secret-government-rulebook-for-labeling-you-a-terrorist/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "\"Logic for Programmers\" Project Update",
-              "date": "2025-01-07",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-project-update/"
-            },
-            {
-              "title": "Formally modeling dreidel, the sequel",
-              "date": "2024-12-18",
-              "link": "https://buttondown.com/hillelwayne/archive/formally-modeling-dreidel-the-sequel/"
-            },
-            {
-              "title": "Stroustrup's Rule",
-              "date": "2024-12-11",
-              "link": "https://buttondown.com/hillelwayne/archive/stroustrups-rule/"
-            },
-            {
-              "title": "Hyperproperties",
-              "date": "2024-11-19",
-              "link": "https://buttondown.com/hillelwayne/archive/hyperproperties/"
-            },
-            {
-              "title": "Five Unusual Raku Features",
-              "date": "2024-11-12",
-              "link": "https://buttondown.com/hillelwayne/archive/five-unusual-raku-features/"
             }
           ]
         },
@@ -924,37 +929,6 @@
           ]
         },
         {
-          "title": "Nathan Knowler",
-          "feedUrl": "https://knowler.dev/feed.xml",
-          "items": [
-            {
-              "title": "Polyfilling hidden until-found",
-              "date": "2025-01-04",
-              "link": "https://knowler.dev/blog/polyfilling-hidden-until-found"
-            },
-            {
-              "title": "I’m switching back to Arc Browser (for now)",
-              "date": "2024-11-22",
-              "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
-            },
-            {
-              "title": "To define custom elements or not when distributing them",
-              "date": "2024-10-08",
-              "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
-            },
-            {
-              "title": "A custom element smoke test",
-              "date": "2024-07-11",
-              "link": "https://knowler.dev/blog/a-custom-element-smoke-test"
-            },
-            {
-              "title": "Read the Platform",
-              "date": "2024-06-29",
-              "link": "https://knowler.dev/blog/read-the-platform"
-            }
-          ]
-        },
-        {
           "title": "Joep Schuurkes",
           "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
@@ -982,6 +956,37 @@
               "title": "The Fluxx ensemble exercise",
               "date": "2024-10-12",
               "link": "https://smallsheds.garden/blog/2024/the-fluxx-ensemble-exercise/"
+            }
+          ]
+        },
+        {
+          "title": "Nathan Knowler",
+          "feedUrl": "https://knowler.dev/feed.xml",
+          "items": [
+            {
+              "title": "Polyfilling hidden until-found",
+              "date": "2025-01-04",
+              "link": "https://knowler.dev/blog/polyfilling-hidden-until-found"
+            },
+            {
+              "title": "I’m switching back to Arc Browser (for now)",
+              "date": "2024-11-22",
+              "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
+            },
+            {
+              "title": "To define custom elements or not when distributing them",
+              "date": "2024-10-08",
+              "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
+            },
+            {
+              "title": "A custom element smoke test",
+              "date": "2024-07-11",
+              "link": "https://knowler.dev/blog/a-custom-element-smoke-test"
+            },
+            {
+              "title": "Read the Platform",
+              "date": "2024-06-29",
+              "link": "https://knowler.dev/blog/read-the-platform"
             }
           ]
         },
@@ -2487,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-15T03:16:01.028Z",
+  "fetchDate": "2025-01-16T03:15:57.171Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

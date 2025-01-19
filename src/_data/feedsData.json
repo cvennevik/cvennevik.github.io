@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "Een verzameling AI & onderwijs bronnen",
+              "date": "2025-01-18",
+              "link": "https://www.felienne.com/archives/8598"
+            },
+            {
+              "title": "Tech bedrijven paaien Trump, maar waarom doet Labour mee?",
+              "date": "2025-01-16",
+              "link": "https://www.felienne.com/archives/8585"
+            },
+            {
+              "title": "What does it mean for a university to have an opinion?",
+              "date": "2025-01-13",
+              "link": "https://www.felienne.com/archives/8575"
+            },
+            {
+              "title": "Charlie Chaplin and the death of the internet",
+              "date": "2025-01-06",
+              "link": "https://www.felienne.com/archives/8542"
+            },
+            {
+              "title": "Paper: Feminism in Programming Language Design",
+              "date": "2024-10-17",
+              "link": "https://www.felienne.com/archives/8470"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Lurking in the fog",
+              "date": "2025-01-18",
+              "link": "https://moonbase.lgbt/blog/lurking-in-the-fog/"
+            },
+            {
+              "title": "Friend or foe?",
+              "date": "2025-01-16",
+              "link": "https://moonbase.lgbt/blog/friend-or-foe/"
+            },
+            {
+              "title": "The forest beckons",
+              "date": "2025-01-15",
+              "link": "https://moonbase.lgbt/blog/the-forest-beckons/"
+            },
+            {
+              "title": "Journey to the beyond",
+              "date": "2025-01-14",
+              "link": "https://moonbase.lgbt/blog/journey-to-the-beyond/"
+            },
+            {
+              "title": "Lone Magpie",
+              "date": "2025-01-08",
+              "link": "https://moonbase.lgbt/blog/lone-magpie/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (microblog)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -185,33 +247,33 @@
           ]
         },
         {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
             {
-              "title": "Work is just work",
+              "title": "The web is a creative industry and is facing the same decline and shattered economics as film, TV, or publishing",
               "date": "2025-01-16",
-              "link": "https://robinrendle.com/notes/work/"
+              "link": "https://www.baldurbjarnason.com/notes/2025/the-web-is-a-creative-industry/"
             },
             {
-              "title": "Learnable by default",
-              "date": "2025-01-11",
-              "link": "https://robinrendle.com/notes/learnable-by-default/"
+              "title": "Interim note 5: web media and web dev employment",
+              "date": "2025-01-13",
+              "link": "https://www.baldurbjarnason.com/notes/2025/interim-5/"
             },
             {
-              "title": "Digital gardening",
-              "date": "2025-01-05",
-              "link": "https://robinrendle.com/notes/digital-gardening/"
+              "title": "Interim note 4: time-based media",
+              "date": "2025-01-08",
+              "link": "https://www.baldurbjarnason.com/notes/2025/interim-4/"
             },
             {
-              "title": "Design artifacts",
-              "date": "2025-01-04",
-              "link": "https://robinrendle.com/notes/design-artifacts/"
+              "title": "Quick and only partially coherent review of 2024",
+              "date": "2025-01-06",
+              "link": "https://www.baldurbjarnason.com/notes/2025/2024-in-review/"
             },
             {
-              "title": "This Glorious Machine",
-              "date": "2024-12-31",
-              "link": "https://robinrendle.com/notes/this-glorious-machine/"
+              "title": "Interim note 3: text-based media in the age of showmanship",
+              "date": "2024-12-19",
+              "link": "https://www.baldurbjarnason.com/notes/2024/interim-3/"
             }
           ]
         },
@@ -243,6 +305,37 @@
               "title": "Cool People Link to Text Fragments",
               "date": "2024-12-05",
               "link": "https://dbushell.com/2024/12/05/url-fragment-text-directives/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Work is just work",
+              "date": "2025-01-16",
+              "link": "https://robinrendle.com/notes/work/"
+            },
+            {
+              "title": "Learnable by default",
+              "date": "2025-01-11",
+              "link": "https://robinrendle.com/notes/learnable-by-default/"
+            },
+            {
+              "title": "Digital gardening",
+              "date": "2025-01-05",
+              "link": "https://robinrendle.com/notes/digital-gardening/"
+            },
+            {
+              "title": "Design artifacts",
+              "date": "2025-01-04",
+              "link": "https://robinrendle.com/notes/design-artifacts/"
+            },
+            {
+              "title": "This Glorious Machine",
+              "date": "2024-12-31",
+              "link": "https://robinrendle.com/notes/this-glorious-machine/"
             }
           ]
         },
@@ -309,37 +402,6 @@
           ]
         },
         {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "Tech bedrijven paaien Trump, maar waarom doet Labour mee?",
-              "date": "2025-01-16",
-              "link": "https://www.felienne.com/archives/8585"
-            },
-            {
-              "title": "What does it mean for a university to have an opinion?",
-              "date": "2025-01-13",
-              "link": "https://www.felienne.com/archives/8575"
-            },
-            {
-              "title": "Charlie Chaplin and the death of the internet",
-              "date": "2025-01-06",
-              "link": "https://www.felienne.com/archives/8542"
-            },
-            {
-              "title": "Paper: Feminism in Programming Language Design",
-              "date": "2024-10-17",
-              "link": "https://www.felienne.com/archives/8470"
-            },
-            {
-              "title": "Soon all UX will be a Skinner box",
-              "date": "2024-09-11",
-              "link": "https://www.felienne.com/archives/8440"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -367,37 +429,6 @@
               "title": "En diskusjon med Claude, Dunning–Kruger i aksjon",
               "date": "2024-11-06",
               "link": "https://www.kodemaker.no/blogg/2024-11-en-diskusjon-med-ai/"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "Friend or foe?",
-              "date": "2025-01-16",
-              "link": "https://moonbase.lgbt/blog/friend-or-foe/"
-            },
-            {
-              "title": "The forest beckons",
-              "date": "2025-01-15",
-              "link": "https://moonbase.lgbt/blog/the-forest-beckons/"
-            },
-            {
-              "title": "Journey to the beyond",
-              "date": "2025-01-14",
-              "link": "https://moonbase.lgbt/blog/journey-to-the-beyond/"
-            },
-            {
-              "title": "Lone Magpie",
-              "date": "2025-01-08",
-              "link": "https://moonbase.lgbt/blog/lone-magpie/"
-            },
-            {
-              "title": "Goodnight, Eggbug",
-              "date": "2024-12-31",
-              "link": "https://moonbase.lgbt/blog/goodnight-eggbug/"
             }
           ]
         },
@@ -712,37 +743,6 @@
           ]
         },
         {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "The missing tier for query compilers",
-              "date": "2025-01-12",
-              "link": "https://www.scattered-thoughts.net/writing/the-missing-tier-for-query-compilers/"
-            },
-            {
-              "title": "0050 - smolderingly fast b-trees, serious fun, what is the point of an online conference, it's ok to be afraid, HYTRADBOI progress, no other progress, vancouver.systems, not the incentives, llm garbage, books",
-              "date": "2024-11-25",
-              "link": "https://www.scattered-thoughts.net/log/0050/"
-            },
-            {
-              "title": "It's ok to be afraid",
-              "date": "2024-11-16",
-              "link": "https://www.scattered-thoughts.net/writing/its-ok-to-be-afraid/"
-            },
-            {
-              "title": "What is the point of an online conference?",
-              "date": "2024-10-30",
-              "link": "https://www.scattered-thoughts.net/writing/what-is-the-point-of-an-online-conference/"
-            },
-            {
-              "title": "Serious fun",
-              "date": "2024-10-20",
-              "link": "https://www.scattered-thoughts.net/writing/serious-fun/"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -770,6 +770,37 @@
               "title": "Website updates",
               "date": "2024-11-05",
               "link": "https://thejollyteapot.com/2024/11/05/website-updates/"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "The missing tier for query compilers",
+              "date": "2025-01-12",
+              "link": "https://www.scattered-thoughts.net/writing/the-missing-tier-for-query-compilers/"
+            },
+            {
+              "title": "0050 - smolderingly fast b-trees, serious fun, what is the point of an online conference, it's ok to be afraid, HYTRADBOI progress, no other progress, vancouver.systems, not the incentives, llm garbage, books",
+              "date": "2024-11-25",
+              "link": "https://www.scattered-thoughts.net/log/0050/"
+            },
+            {
+              "title": "It's ok to be afraid",
+              "date": "2024-11-16",
+              "link": "https://www.scattered-thoughts.net/writing/its-ok-to-be-afraid/"
+            },
+            {
+              "title": "What is the point of an online conference?",
+              "date": "2024-10-30",
+              "link": "https://www.scattered-thoughts.net/writing/what-is-the-point-of-an-online-conference/"
+            },
+            {
+              "title": "Serious fun",
+              "date": "2024-10-20",
+              "link": "https://www.scattered-thoughts.net/writing/serious-fun/"
             }
           ]
         },
@@ -2461,9 +2492,8 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-18T03:14:46.430Z",
+  "fetchDate": "2025-01-19T03:18:21.674Z",
   "errors": [
-    "https://feedpress.me/baldurbjarnason",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://einarwh.wordpress.com/feed/"

@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "How would you share state between Web Components?",
+              "date": "2025-01-21",
+              "link": "https://gomakethings.com/how-would-you-share-state-between-web-components/"
+            },
+            {
+              "title": "Creating hope",
+              "date": "2025-01-20",
+              "link": "https://gomakethings.com/creating-hope/"
+            },
+            {
+              "title": "How to structure functions",
+              "date": "2025-01-17",
+              "link": "https://gomakethings.com/how-to-structure-functions/"
+            },
+            {
+              "title": "How do implicit arguments in JavaScript callback functions work?",
+              "date": "2025-01-16",
+              "link": "https://gomakethings.com/how-do-implicit-arguments-in-javascript-callback-functions-work/"
+            },
+            {
+              "title": "What is a callback function?",
+              "date": "2025-01-15",
+              "link": "https://gomakethings.com/what-is-a-callback-function/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "ECMAScript proposal: RegExp escaping",
+              "date": "2025-01-21",
+              "link": "https://2ality.com/2025/01/regexp-escape.html"
+            },
+            {
+              "title": "TypeScript enums: use cases and alternatives",
+              "date": "2025-01-19",
+              "link": "https://2ality.com/2025/01/typescript-enum-patterns.html"
+            },
+            {
+              "title": "A checklist for your <code>tsconfig.json</code>",
+              "date": "2025-01-15",
+              "link": "https://2ality.com/2025/01/tsconfig-json.html"
+            },
+            {
+              "title": "ECMAScript feature: regular expression pattern modifiers",
+              "date": "2025-01-10",
+              "link": "https://2ality.com/2025/01/regexp-modifiers.html"
+            },
+            {
+              "title": "ECMAScript feature: import attributes",
+              "date": "2025-01-09",
+              "link": "https://2ality.com/2025/01/import-attributes.html"
+            }
+          ]
+        },
+        {
+          "title": "Jessitron",
+          "feedUrl": "https://jessitron.com/feed/",
+          "items": [
+            {
+              "title": "The world is terrible and great",
+              "date": "2025-01-21",
+              "link": "https://jessitron.com/2025/01/20/the-world-is-terrible-and-great/"
+            },
+            {
+              "title": "Cascading OKRs: We can do Better",
+              "date": "2025-01-12",
+              "link": "https://jessitron.com/2025/01/12/cascading-okrs-we-can-do-better/"
+            },
+            {
+              "title": "Hitting OKRs vs Doing Your Job",
+              "date": "2025-01-06",
+              "link": "https://jessitron.com/2025/01/05/hitting-okrs-vs-doing-your-job/"
+            },
+            {
+              "title": "OKRs for Evil and Good",
+              "date": "2024-12-23",
+              "link": "https://jessitron.com/2024/12/22/okrs-for-evil-and-good/"
+            },
+            {
+              "title": "Productivity v Impact",
+              "date": "2024-12-16",
+              "link": "https://jessitron.com/2024/12/15/productivity-v-impact/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "January 2025 blend of links",
+              "date": "2025-01-21",
+              "link": "https://thejollyteapot.com/january-2025-blend/"
+            },
+            {
+              "title": "The age of insecure billionaires",
+              "date": "2025-01-12",
+              "link": "https://thejollyteapot.com/2025/01/12/the-age-of-insecure-billionaires/"
+            },
+            {
+              "title": "Are we at peak shittiness?",
+              "date": "2025-01-05",
+              "link": "https://thejollyteapot.com/2025/01/05/are-we-at-peak-shittiness/"
+            },
+            {
+              "title": "November 2024 blend of links",
+              "date": "2024-11-24",
+              "link": "https://thejollyteapot.com/november-2024-blend/"
+            },
+            {
+              "title": "Some thoughts on RSS and newsletters",
+              "date": "2024-11-13",
+              "link": "https://thejollyteapot.com/2024/11/13/some-thoughts-on-rss-and-newsletters/"
+            }
+          ]
+        },
+        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -62,37 +186,6 @@
               "title": "Don’t Miss the Product for the Artifacts",
               "date": "2025-01-09",
               "link": "https://blog.jim-nielsen.com/2025/dont-miss-the-product-for-the-artifacts/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Creating hope",
-              "date": "2025-01-20",
-              "link": "https://gomakethings.com/creating-hope/"
-            },
-            {
-              "title": "How to structure functions",
-              "date": "2025-01-17",
-              "link": "https://gomakethings.com/how-to-structure-functions/"
-            },
-            {
-              "title": "How do implicit arguments in JavaScript callback functions work?",
-              "date": "2025-01-16",
-              "link": "https://gomakethings.com/how-do-implicit-arguments-in-javascript-callback-functions-work/"
-            },
-            {
-              "title": "What is a callback function?",
-              "date": "2025-01-15",
-              "link": "https://gomakethings.com/what-is-a-callback-function/"
-            },
-            {
-              "title": "How to show snippets of content only on certain dates in Hugo SSG",
-              "date": "2025-01-14",
-              "link": "https://gomakethings.com/how-to-show-snippets-of-content-only-on-certain-dates-in-hugo-ssg/"
             }
           ]
         },
@@ -217,37 +310,6 @@
               "title": "Feel, don't think",
               "date": "2024-12-23",
               "link": "https://ntietz.com/blog/feel-dont-think/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "TypeScript enums: use cases and alternatives",
-              "date": "2025-01-19",
-              "link": "https://2ality.com/2025/01/typescript-enum-patterns.html"
-            },
-            {
-              "title": "A checklist for your <code>tsconfig.json</code>",
-              "date": "2025-01-15",
-              "link": "https://2ality.com/2025/01/tsconfig-json.html"
-            },
-            {
-              "title": "ECMAScript feature: regular expression pattern modifiers",
-              "date": "2025-01-10",
-              "link": "https://2ality.com/2025/01/regexp-modifiers.html"
-            },
-            {
-              "title": "ECMAScript feature: import attributes",
-              "date": "2025-01-09",
-              "link": "https://2ality.com/2025/01/import-attributes.html"
-            },
-            {
-              "title": "Node’s new built-in support for TypeScript",
-              "date": "2025-01-08",
-              "link": "https://2ality.com/2025/01/nodejs-strip-type.html"
             }
           ]
         },
@@ -739,68 +801,6 @@
               "title": "The Fascinating Security Model of Dark Web Marketplaces",
               "date": "2024-11-30",
               "link": "https://boehs.org/node/dark-web-security"
-            }
-          ]
-        },
-        {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "Cascading OKRs: We can do Better",
-              "date": "2025-01-12",
-              "link": "https://jessitron.com/2025/01/12/cascading-okrs-we-can-do-better/"
-            },
-            {
-              "title": "Hitting OKRs vs Doing Your Job",
-              "date": "2025-01-06",
-              "link": "https://jessitron.com/2025/01/05/hitting-okrs-vs-doing-your-job/"
-            },
-            {
-              "title": "OKRs for Evil and Good",
-              "date": "2024-12-23",
-              "link": "https://jessitron.com/2024/12/22/okrs-for-evil-and-good/"
-            },
-            {
-              "title": "Productivity v Impact",
-              "date": "2024-12-16",
-              "link": "https://jessitron.com/2024/12/15/productivity-v-impact/"
-            },
-            {
-              "title": "Why is every startup’s website so darn useless?",
-              "date": "2024-12-08",
-              "link": "https://jessitron.com/2024/12/08/why-is-every-startups-website-so-darn-useless/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "The age of insecure billionaires",
-              "date": "2025-01-12",
-              "link": "https://thejollyteapot.com/2025/01/12/the-age-of-insecure-billionaires/"
-            },
-            {
-              "title": "Are we at peak shittiness?",
-              "date": "2025-01-05",
-              "link": "https://thejollyteapot.com/2025/01/05/are-we-at-peak-shittiness/"
-            },
-            {
-              "title": "November 2024 blend of links",
-              "date": "2024-11-24",
-              "link": "https://thejollyteapot.com/november-2024-blend/"
-            },
-            {
-              "title": "Some thoughts on RSS and newsletters",
-              "date": "2024-11-13",
-              "link": "https://thejollyteapot.com/2024/11/13/some-thoughts-on-rss-and-newsletters/"
-            },
-            {
-              "title": "Website updates",
-              "date": "2024-11-05",
-              "link": "https://thejollyteapot.com/2024/11/05/website-updates/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-21T03:16:11.896Z",
+  "fetchDate": "2025-01-22T03:17:52.551Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

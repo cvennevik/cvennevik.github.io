@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "RocketBooks and my settled productivity system",
+              "date": "2025-01-26",
+              "link": "https://rosswintle.uk/2025/01/rocketbooks-and-my-settled-productivity-system/"
+            },
+            {
+              "title": "A week-long Playdate?",
+              "date": "2025-01-26",
+              "link": "https://rosswintle.uk/2025/01/a-week-long-playdate/"
+            },
+            {
+              "title": "“Never Forgive Them” – What to do with Ed Zitron’s essay on the “Rot Economy”",
+              "date": "2025-01-26",
+              "link": "https://rosswintle.uk/2025/01/never-forgive-them-what-to-do-with-ed-zitrons-essay-on-the-rot-economy/"
+            },
+            {
+              "title": "Craftsmanship vs Perfectionism",
+              "date": "2024-12-30",
+              "link": "https://rosswintle.uk/2024/12/craftsmanship-vs-perfectionism/"
+            },
+            {
+              "title": "AI/Copilot and deterministic code refactoring",
+              "date": "2024-12-21",
+              "link": "https://rosswintle.uk/2024/12/ai-copilot-and-deterministic-code-refactoring/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Continuous Integration, Only Two Tools!",
+              "date": "2025-01-26",
+              "link": "https://thinkinglabs.io/articles/2025/01/26/continuous-integration-only-two-tools.html"
+            },
+            {
+              "title": "Talks - Continuous Integration! Raising the Bar",
+              "date": "2024-11-20",
+              "link": "https://thinkinglabs.io/talks/2024/11/20/continuous-integration-raising-the-bar.html"
+            },
+            {
+              "title": "Raising the Continuous Integration Bar",
+              "date": "2024-11-03",
+              "link": "https://thinkinglabs.io/articles/2024/11/03/raising-the-continuous-integration-bar.html"
+            },
+            {
+              "title": "Continuous Integrations! Where to Start?",
+              "date": "2024-11-01",
+              "link": "https://thinkinglabs.io/articles/2024/11/01/continuous-integration-where-to-start.html"
+            },
+            {
+              "title": "The Practices That Make Continuous Integration - Broadcast the Codebase’s Health",
+              "date": "2024-10-29",
+              "link": "https://thinkinglabs.io/articles/2024/10/29/the-practices-that-make-continuous-integration-broadcast-the-codebase-health.html"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "26 Jan 2025\n      ",
+              "date": "2025-01-26",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            },
+            {
+              "title": "Roald Dahl’s The Witches",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
+            },
+            {
+              "title": "I got an iPhone",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
+            }
+          ]
+        },
+        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -62,37 +155,6 @@
               "title": "Speeding up the JavaScript ecosystem - The barrel file debacle",
               "date": "2023-10-08",
               "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-7/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "25 Jan 2025\n      ",
-              "date": "2025-01-25",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            },
-            {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
-            },
-            {
-              "title": "I got an iPhone",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
             }
           ]
         },
@@ -619,37 +681,6 @@
           ]
         },
         {
-          "title": "Kyle Shevlin's Blog RSS Feed",
-          "feedUrl": "https://kyleshevlin.com/rss.xml",
-          "items": [
-            {
-              "title": "Algorithm: Sliding Window",
-              "date": "2025-01-16",
-              "link": "https://kyleshevlin.com/algorithm-sliding-window/"
-            },
-            {
-              "title": "The Consciousness Lottery",
-              "date": "2024-11-19",
-              "link": "https://kyleshevlin.com/consciousness-lottery/"
-            },
-            {
-              "title": "How I Built &ldquo;Test Your Focus&rdquo;",
-              "date": "2024-11-15",
-              "link": "https://kyleshevlin.com/how-i-built-test-your-focus/"
-            },
-            {
-              "title": "What ADHD Feels Like to Me",
-              "date": "2024-11-11",
-              "link": "https://kyleshevlin.com/what-adhd-feels-like-to-me/"
-            },
-            {
-              "title": "Prefer Explicit Maps",
-              "date": "2024-10-30",
-              "link": "https://kyleshevlin.com/prefer-explicit-maps/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -677,6 +708,37 @@
               "title": "Cool People Link to Text Fragments",
               "date": "2024-12-05",
               "link": "https://dbushell.com/2024/12/05/url-fragment-text-directives/"
+            }
+          ]
+        },
+        {
+          "title": "Kyle Shevlin's Blog RSS Feed",
+          "feedUrl": "https://kyleshevlin.com/rss.xml",
+          "items": [
+            {
+              "title": "Algorithm: Sliding Window",
+              "date": "2025-01-16",
+              "link": "https://kyleshevlin.com/algorithm-sliding-window/"
+            },
+            {
+              "title": "The Consciousness Lottery",
+              "date": "2024-11-19",
+              "link": "https://kyleshevlin.com/consciousness-lottery/"
+            },
+            {
+              "title": "How I Built &ldquo;Test Your Focus&rdquo;",
+              "date": "2024-11-15",
+              "link": "https://kyleshevlin.com/how-i-built-test-your-focus/"
+            },
+            {
+              "title": "What ADHD Feels Like to Me",
+              "date": "2024-11-11",
+              "link": "https://kyleshevlin.com/what-adhd-feels-like-to-me/"
+            },
+            {
+              "title": "Prefer Explicit Maps",
+              "date": "2024-10-30",
+              "link": "https://kyleshevlin.com/prefer-explicit-maps/"
             }
           ]
         },
@@ -1177,37 +1239,6 @@
           ]
         },
         {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "Craftsmanship vs Perfectionism",
-              "date": "2024-12-30",
-              "link": "https://rosswintle.uk/2024/12/craftsmanship-vs-perfectionism/"
-            },
-            {
-              "title": "AI/Copilot and deterministic code refactoring",
-              "date": "2024-12-21",
-              "link": "https://rosswintle.uk/2024/12/ai-copilot-and-deterministic-code-refactoring/"
-            },
-            {
-              "title": "I’m not sure I understand themes any more – a strange journey through old WordPress code.",
-              "date": "2024-12-09",
-              "link": "https://rosswintle.uk/2024/12/im-not-sure-i-understand-themes-old-wordpress-code-journey/"
-            },
-            {
-              "title": "Old Tabs: Part 12",
-              "date": "2024-12-09",
-              "link": "https://rosswintle.uk/2024/12/old-tabs-part-12/"
-            },
-            {
-              "title": "Old Tabs: Part 11",
-              "date": "2024-12-08",
-              "link": "https://rosswintle.uk/2024/12/old-tabs-part-11/"
-            }
-          ]
-        },
-        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -1628,37 +1659,6 @@
               "title": "Letterbook",
               "date": "2023-08-16",
               "link": "https://jenniferplusplus.com/letterbook/"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "Talks - Continuous Integration! Raising the Bar",
-              "date": "2024-11-20",
-              "link": "https://thinkinglabs.io/talks/2024/11/20/continuous-integration-raising-the-bar.html"
-            },
-            {
-              "title": "Raising the Continuous Integration Bar",
-              "date": "2024-11-03",
-              "link": "https://thinkinglabs.io/articles/2024/11/03/raising-the-continuous-integration-bar.html"
-            },
-            {
-              "title": "Continuous Integrations! Where to Start?",
-              "date": "2024-11-01",
-              "link": "https://thinkinglabs.io/articles/2024/11/01/continuous-integration-where-to-start.html"
-            },
-            {
-              "title": "The Practices That Make Continuous Integration - Broadcast the Codebase’s Health",
-              "date": "2024-10-29",
-              "link": "https://thinkinglabs.io/articles/2024/10/29/the-practices-that-make-continuous-integration-broadcast-the-codebase-health.html"
-            },
-            {
-              "title": "The Practices That Make Continuous Integration - Have Reliable Tests",
-              "date": "2024-10-19",
-              "link": "https://thinkinglabs.io/articles/2024/10/19/the-practices-that-make-continuous-integration-have-reliable-tests.html"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-26T03:16:45.188Z",
+  "fetchDate": "2025-01-27T03:17:27.781Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

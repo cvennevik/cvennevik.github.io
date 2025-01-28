@@ -4,6 +4,280 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Using SVG Clip Path to Create a Squircle",
+              "date": "2025-01-28",
+              "link": "https://thathtml.blog/2025/01/using-svg-clip-path-to-create-a-squircle/"
+            },
+            {
+              "title": "Select Styling Revisions: What’s New",
+              "date": "2025-01-13",
+              "link": "https://thathtml.blog/2025/01/revised-select-styling-whats-new/"
+            },
+            {
+              "title": "Craft Stylized Text Animations with Khoshnus and SVG",
+              "date": "2025-01-10",
+              "link": "https://thathtml.blog/2025/01/stylized-svg-text-animations-with-khoshnus/"
+            },
+            {
+              "title": "A Modern Replacement for Cookie Cruft",
+              "date": "2025-01-03",
+              "link": "https://thathtml.blog/2025/01/cookie-store-api/"
+            },
+            {
+              "title": "The Joyful Pleasures of DIY Web Services",
+              "date": "2024-12-23",
+              "link": "https://thathtml.blog/2024/12/diy-web-services/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Build a life you can live in",
+              "date": "2025-01-28",
+              "link": "https://anniemueller.com/posts/build-a-life-you-can-live-in"
+            },
+            {
+              "title": "I am a cishet white woman and it is undoubtedly my voice that will save the trans community",
+              "date": "2025-01-25",
+              "link": "https://anniemueller.com/posts/i-am-a-cishet-white-woman-and-it-is-undoubtedly-my-voice-that-will-save-the-trans-community"
+            },
+            {
+              "title": "Fuckity fuck fuck",
+              "date": "2025-01-24",
+              "link": "https://anniemueller.com/posts/fuckity-fuck-fuck"
+            },
+            {
+              "title": "Anti-narrative",
+              "date": "2025-01-23",
+              "link": "https://anniemueller.com/posts/anti-narrative"
+            },
+            {
+              "title": "Today I am sad",
+              "date": "2025-01-22",
+              "link": "https://anniemueller.com/posts/today-i-am-sad"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Zig: The Good Parts (1)",
+              "date": "2025-01-27",
+              "link": "https://dbushell.com/2025/01/27/zig-the-good-parts/"
+            },
+            {
+              "title": "Advent of Code",
+              "date": "2025-01-16",
+              "link": "https://dbushell.com/2025/01/16/advent-of-code/"
+            },
+            {
+              "title": "Weblogging: Part 3",
+              "date": "2025-01-08",
+              "link": "https://dbushell.com/2025/01/08/weblogging-3/"
+            },
+            {
+              "title": "Weblogging: Part 2",
+              "date": "2024-12-18",
+              "link": "https://dbushell.com/2024/12/18/weblogging-2/"
+            },
+            {
+              "title": "Weblogging: Part 1",
+              "date": "2024-12-09",
+              "link": "https://dbushell.com/2024/12/09/weblogging-1/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "HTML Minification for Static Sites",
+              "date": "2025-01-27",
+              "link": "https://blog.jim-nielsen.com/2025/html-minification/"
+            },
+            {
+              "title": "Consistency For Who? Thoughts on Overriding Basic Computing Controls",
+              "date": "2025-01-22",
+              "link": "https://blog.jim-nielsen.com/2025/overriding-basic-ui-controls/"
+            },
+            {
+              "title": "Relationship Advice for AI",
+              "date": "2025-01-20",
+              "link": "https://blog.jim-nielsen.com/2025/relationship-advice-for-ai/"
+            },
+            {
+              "title": "Tools As Ways of Being",
+              "date": "2025-01-15",
+              "link": "https://blog.jim-nielsen.com/2025/tools-as-ways-of-being/"
+            },
+            {
+              "title": "Using Locally-Installed CLI Tools In Node Projects",
+              "date": "2025-01-13",
+              "link": "https://blog.jim-nielsen.com/2025/local-cli-tools-in-node/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Durable websites",
+              "date": "2025-01-27",
+              "link": "https://gomakethings.com/durable-websites/"
+            },
+            {
+              "title": "Accessibility is woke now?",
+              "date": "2025-01-24",
+              "link": "https://gomakethings.com/accessibility-is-woke-now/"
+            },
+            {
+              "title": "Lettering.js: converting a jQuery plugin to a Web Component",
+              "date": "2025-01-23",
+              "link": "https://gomakethings.com/lettering.js-converting-a-jquery-plugin-to-a-web-component/"
+            },
+            {
+              "title": "Tech is more political than ever",
+              "date": "2025-01-22",
+              "link": "https://gomakethings.com/tech-is-more-political-than-ever/"
+            },
+            {
+              "title": "How would you share state between Web Components?",
+              "date": "2025-01-21",
+              "link": "https://gomakethings.com/how-would-you-share-state-between-web-components/"
+            }
+          ]
+        },
+        {
+          "title": "Kyle Shevlin's Blog RSS Feed",
+          "feedUrl": "https://kyleshevlin.com/rss.xml",
+          "items": [
+            {
+              "title": "Fun Coding Exercise: Pyramid Slide Down",
+              "date": "2025-01-27",
+              "link": "https://kyleshevlin.com/fun-coding-exercise-pyramid-slide-down/"
+            },
+            {
+              "title": "Algorithm: Sliding Window",
+              "date": "2025-01-16",
+              "link": "https://kyleshevlin.com/algorithm-sliding-window/"
+            },
+            {
+              "title": "The Consciousness Lottery",
+              "date": "2024-11-19",
+              "link": "https://kyleshevlin.com/consciousness-lottery/"
+            },
+            {
+              "title": "How I Built &ldquo;Test Your Focus&rdquo;",
+              "date": "2024-11-15",
+              "link": "https://kyleshevlin.com/how-i-built-test-your-focus/"
+            },
+            {
+              "title": "What ADHD Feels Like to Me",
+              "date": "2024-11-11",
+              "link": "https://kyleshevlin.com/what-adhd-feels-like-to-me/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "27 Jan 2025\n      ",
+              "date": "2025-01-27",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            },
+            {
+              "title": "Roald Dahl’s The Witches",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
+            },
+            {
+              "title": "I got an iPhone",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-01-27",
+              "link": "https://dbushell.com/notes/2025-01-27T12:03Z/"
+            },
+            {
+              "date": "2025-01-24",
+              "link": "https://dbushell.com/notes/2025-01-24T11:56Z/"
+            },
+            {
+              "date": "2025-01-22",
+              "link": "https://dbushell.com/notes/2025-01-22T06:26Z/"
+            },
+            {
+              "date": "2025-01-19",
+              "link": "https://dbushell.com/notes/2025-01-19T12:22Z/"
+            },
+            {
+              "date": "2025-01-18",
+              "link": "https://dbushell.com/notes/2025-01-18T13:00Z/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Bright lights in dark times",
+              "date": "2025-01-27",
+              "link": "https://ntietz.com/blog/bright-lights-in-dark-times/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "My writing process, and how I keep it sustainable",
+              "date": "2025-01-20",
+              "link": "https://ntietz.com/blog/my-writing-process-and-how-i-keep-it-sustainable/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Beginning of a MIDI GUI in Rust",
+              "date": "2025-01-13",
+              "link": "https://ntietz.com/blog/beginning-rust-midi-gui/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Great things about Rust that aren't just performance",
+              "date": "2025-01-06",
+              "link": "https://ntietz.com/blog/great-things-about-rust-beyond-perf/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Reflecting on 2024, preparing for 2025",
+              "date": "2024-12-30",
+              "link": "https://ntietz.com/blog/reflecting-on-2024-preparing-for-2025/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -62,37 +336,6 @@
               "title": "The Practices That Make Continuous Integration - Broadcast the Codebase’s Health",
               "date": "2024-10-29",
               "link": "https://thinkinglabs.io/articles/2024/10/29/the-practices-that-make-continuous-integration-broadcast-the-codebase-health.html"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "26 Jan 2025\n      ",
-              "date": "2025-01-26",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            },
-            {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
-            },
-            {
-              "title": "I got an iPhone",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
             }
           ]
         },
@@ -159,37 +402,6 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "I am a cishet white woman and it is undoubtedly my voice that will save the trans community",
-              "date": "2025-01-25",
-              "link": "https://anniemueller.com/posts/i-am-a-cishet-white-woman-and-it-is-undoubtedly-my-voice-that-will-save-the-trans-community"
-            },
-            {
-              "title": "Fuckity fuck fuck",
-              "date": "2025-01-24",
-              "link": "https://anniemueller.com/posts/fuckity-fuck-fuck"
-            },
-            {
-              "title": "Anti-narrative",
-              "date": "2025-01-23",
-              "link": "https://anniemueller.com/posts/anti-narrative"
-            },
-            {
-              "title": "Today I am sad",
-              "date": "2025-01-22",
-              "link": "https://anniemueller.com/posts/today-i-am-sad"
-            },
-            {
-              "title": "In fearful times, turn toward the light",
-              "date": "2025-01-19",
-              "link": "https://anniemueller.com/posts/in-fearful-times-turn-toward-the-light"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -217,37 +429,6 @@
               "title": "Interim note 4: time-based media",
               "date": "2025-01-08",
               "link": "https://www.baldurbjarnason.com/notes/2025/interim-4/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Accessibility is woke now?",
-              "date": "2025-01-24",
-              "link": "https://gomakethings.com/accessibility-is-woke-now/"
-            },
-            {
-              "title": "Lettering.js: converting a jQuery plugin to a Web Component",
-              "date": "2025-01-23",
-              "link": "https://gomakethings.com/lettering.js-converting-a-jquery-plugin-to-a-web-component/"
-            },
-            {
-              "title": "Tech is more political than ever",
-              "date": "2025-01-22",
-              "link": "https://gomakethings.com/tech-is-more-political-than-ever/"
-            },
-            {
-              "title": "How would you share state between Web Components?",
-              "date": "2025-01-21",
-              "link": "https://gomakethings.com/how-would-you-share-state-between-web-components/"
-            },
-            {
-              "title": "Creating hope",
-              "date": "2025-01-20",
-              "link": "https://gomakethings.com/creating-hope/"
             }
           ]
         },
@@ -314,32 +495,6 @@
           ]
         },
         {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-01-24",
-              "link": "https://dbushell.com/notes/2025-01-24T11:56Z/"
-            },
-            {
-              "date": "2025-01-22",
-              "link": "https://dbushell.com/notes/2025-01-22T06:26Z/"
-            },
-            {
-              "date": "2025-01-19",
-              "link": "https://dbushell.com/notes/2025-01-19T12:22Z/"
-            },
-            {
-              "date": "2025-01-18",
-              "link": "https://dbushell.com/notes/2025-01-18T13:00Z/"
-            },
-            {
-              "date": "2025-01-14",
-              "link": "https://dbushell.com/notes/2025-01-14T12:57Z/"
-            }
-          ]
-        },
-        {
           "title": "The Weblog of fLaMEd",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -398,37 +553,6 @@
               "title": "Advent of Lua",
               "date": "2024-12-03",
               "link": "https://garoof.no/notes/aoc-lua.html"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Consistency For Who? Thoughts on Overriding Basic Computing Controls",
-              "date": "2025-01-22",
-              "link": "https://blog.jim-nielsen.com/2025/overriding-basic-ui-controls/"
-            },
-            {
-              "title": "Relationship Advice for AI",
-              "date": "2025-01-20",
-              "link": "https://blog.jim-nielsen.com/2025/relationship-advice-for-ai/"
-            },
-            {
-              "title": "Tools As Ways of Being",
-              "date": "2025-01-15",
-              "link": "https://blog.jim-nielsen.com/2025/tools-as-ways-of-being/"
-            },
-            {
-              "title": "Using Locally-Installed CLI Tools In Node Projects",
-              "date": "2025-01-13",
-              "link": "https://blog.jim-nielsen.com/2025/local-cli-tools-in-node/"
-            },
-            {
-              "title": "Gotchas in Naming CSS View Transitions",
-              "date": "2025-01-12",
-              "link": "https://blog.jim-nielsen.com/2025/view-transition-name-gotchas/"
             }
           ]
         },
@@ -588,37 +712,6 @@
           ]
         },
         {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "My writing process, and how I keep it sustainable",
-              "date": "2025-01-20",
-              "link": "https://ntietz.com/blog/my-writing-process-and-how-i-keep-it-sustainable/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Beginning of a MIDI GUI in Rust",
-              "date": "2025-01-13",
-              "link": "https://ntietz.com/blog/beginning-rust-midi-gui/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Great things about Rust that aren't just performance",
-              "date": "2025-01-06",
-              "link": "https://ntietz.com/blog/great-things-about-rust-beyond-perf/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Reflecting on 2024, preparing for 2025",
-              "date": "2024-12-30",
-              "link": "https://ntietz.com/blog/reflecting-on-2024-preparing-for-2025/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Feel, don't think",
-              "date": "2024-12-23",
-              "link": "https://ntietz.com/blog/feel-dont-think/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -677,68 +770,6 @@
               "title": "Being intentional about exploratory testing",
               "date": "2024-11-08",
               "link": "https://smallsheds.garden/blog/2024/being-intentional-about-exploratory-testing/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Advent of Code",
-              "date": "2025-01-16",
-              "link": "https://dbushell.com/2025/01/16/advent-of-code/"
-            },
-            {
-              "title": "Weblogging: Part 3",
-              "date": "2025-01-08",
-              "link": "https://dbushell.com/2025/01/08/weblogging-3/"
-            },
-            {
-              "title": "Weblogging: Part 2",
-              "date": "2024-12-18",
-              "link": "https://dbushell.com/2024/12/18/weblogging-2/"
-            },
-            {
-              "title": "Weblogging: Part 1",
-              "date": "2024-12-09",
-              "link": "https://dbushell.com/2024/12/09/weblogging-1/"
-            },
-            {
-              "title": "Cool People Link to Text Fragments",
-              "date": "2024-12-05",
-              "link": "https://dbushell.com/2024/12/05/url-fragment-text-directives/"
-            }
-          ]
-        },
-        {
-          "title": "Kyle Shevlin's Blog RSS Feed",
-          "feedUrl": "https://kyleshevlin.com/rss.xml",
-          "items": [
-            {
-              "title": "Algorithm: Sliding Window",
-              "date": "2025-01-16",
-              "link": "https://kyleshevlin.com/algorithm-sliding-window/"
-            },
-            {
-              "title": "The Consciousness Lottery",
-              "date": "2024-11-19",
-              "link": "https://kyleshevlin.com/consciousness-lottery/"
-            },
-            {
-              "title": "How I Built &ldquo;Test Your Focus&rdquo;",
-              "date": "2024-11-15",
-              "link": "https://kyleshevlin.com/how-i-built-test-your-focus/"
-            },
-            {
-              "title": "What ADHD Feels Like to Me",
-              "date": "2024-11-11",
-              "link": "https://kyleshevlin.com/what-adhd-feels-like-to-me/"
-            },
-            {
-              "title": "Prefer Explicit Maps",
-              "date": "2024-10-30",
-              "link": "https://kyleshevlin.com/prefer-explicit-maps/"
             }
           ]
         },
@@ -836,37 +867,6 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Select Styling Revisions: What’s New",
-              "date": "2025-01-13",
-              "link": "https://thathtml.blog/2025/01/revised-select-styling-whats-new/"
-            },
-            {
-              "title": "Craft Stylized Text Animations with Khoshnus and SVG",
-              "date": "2025-01-10",
-              "link": "https://thathtml.blog/2025/01/stylized-svg-text-animations-with-khoshnus/"
-            },
-            {
-              "title": "A Modern Replacement for Cookie Cruft",
-              "date": "2025-01-03",
-              "link": "https://thathtml.blog/2025/01/cookie-store-api/"
-            },
-            {
-              "title": "The Joyful Pleasures of DIY Web Services",
-              "date": "2024-12-23",
-              "link": "https://thathtml.blog/2024/12/diy-web-services/"
-            },
-            {
-              "title": "Tailwind 4.0: a True “Mea Culpa” Moment",
-              "date": "2024-12-19",
-              "link": "https://thathtml.blog/2024/12/tailwind-4-a-mea-culpa-moment/"
-            }
-          ]
-        },
-        {
           "title": "Evan Boehs in the blog",
           "feedUrl": "https://boehs.org/in/blog.xml",
           "items": [
@@ -929,37 +929,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
-            },
-            {
-              "title": "Why pipes sometimes get \"stuck\": buffering",
-              "date": "2024-11-29",
-              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
-            },
-            {
-              "title": "Importing a frontend Javascript library without a build system",
-              "date": "2024-11-18",
-              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
-            },
-            {
-              "title": "New microblog with TILs",
-              "date": "2024-11-09",
-              "link": "https://jvns.ca/blog/2024/11/09/new-microblog/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -987,6 +956,37 @@
               "title": "Recently",
               "date": "2024-10-01",
               "link": "https://macwright.com/2024/10/01/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
+            },
+            {
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
+            },
+            {
+              "title": "Why pipes sometimes get \"stuck\": buffering",
+              "date": "2024-11-29",
+              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
+            },
+            {
+              "title": "Importing a frontend Javascript library without a build system",
+              "date": "2024-11-18",
+              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
+            },
+            {
+              "title": "New microblog with TILs",
+              "date": "2024-11-09",
+              "link": "https://jvns.ca/blog/2024/11/09/new-microblog/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-27T03:17:27.781Z",
+  "fetchDate": "2025-01-28T03:16:14.437Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

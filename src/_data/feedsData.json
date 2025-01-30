@@ -4,40 +4,14 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Missed Connections",
-              "date": "2025-01-28",
-              "link": "https://blog.jim-nielsen.com/2025/missed-connections/"
-            },
-            {
-              "title": "HTML Minification for Static Sites",
-              "date": "2025-01-27",
-              "link": "https://blog.jim-nielsen.com/2025/html-minification/"
-            },
-            {
-              "title": "Consistency For Who? Thoughts on Overriding Basic Computing Controls",
-              "date": "2025-01-22",
-              "link": "https://blog.jim-nielsen.com/2025/overriding-basic-ui-controls/"
-            },
-            {
-              "title": "Relationship Advice for AI",
-              "date": "2025-01-20",
-              "link": "https://blog.jim-nielsen.com/2025/relationship-advice-for-ai/"
-            },
-            {
-              "title": "Tools As Ways of Being",
-              "date": "2025-01-15",
-              "link": "https://blog.jim-nielsen.com/2025/tools-as-ways-of-being/"
-            }
-          ]
-        },
-        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "How the tech you build is used",
+              "date": "2025-01-29",
+              "link": "https://gomakethings.com/how-the-tech-you-build-is-used/"
+            },
             {
               "title": "Checking what type of node something is with JavaScript",
               "date": "2025-01-28",
@@ -57,11 +31,161 @@
               "title": "Lettering.js: converting a jQuery plugin to a Web Component",
               "date": "2025-01-23",
               "link": "https://gomakethings.com/lettering.js-converting-a-jquery-plugin-to-a-web-component/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Notes on Google Search Now Requiring JavaScript",
+              "date": "2025-01-29",
+              "link": "https://blog.jim-nielsen.com/2025/javascript-required/"
             },
             {
-              "title": "Tech is more political than ever",
+              "title": "Missed Connections",
+              "date": "2025-01-28",
+              "link": "https://blog.jim-nielsen.com/2025/missed-connections/"
+            },
+            {
+              "title": "HTML Minification for Static Sites",
+              "date": "2025-01-27",
+              "link": "https://blog.jim-nielsen.com/2025/html-minification/"
+            },
+            {
+              "title": "Consistency For Who? Thoughts on Overriding Basic Computing Controls",
               "date": "2025-01-22",
-              "link": "https://gomakethings.com/tech-is-more-political-than-ever/"
+              "link": "https://blog.jim-nielsen.com/2025/overriding-basic-ui-controls/"
+            },
+            {
+              "title": "Relationship Advice for AI",
+              "date": "2025-01-20",
+              "link": "https://blog.jim-nielsen.com/2025/relationship-advice-for-ai/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Computing with tuples in TypeScript",
+              "date": "2025-01-29",
+              "link": "https://2ality.com/2025/01/typescript-tuples.html"
+            },
+            {
+              "title": "Template literal types in TypeScript: parsing during type checking and more",
+              "date": "2025-01-24",
+              "link": "https://2ality.com/2025/01/template-literal-types.html"
+            },
+            {
+              "title": "ECMAScript proposal: RegExp escaping",
+              "date": "2025-01-21",
+              "link": "https://2ality.com/2025/01/regexp-escape.html"
+            },
+            {
+              "title": "TypeScript enums: use cases and alternatives",
+              "date": "2025-01-19",
+              "link": "https://2ality.com/2025/01/typescript-enum-patterns.html"
+            },
+            {
+              "title": "A checklist for your <code>tsconfig.json</code>",
+              "date": "2025-01-15",
+              "link": "https://2ality.com/2025/01/tsconfig-json.html"
+            }
+          ]
+        },
+        {
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
+          "items": [
+            {
+              "title": "Free will quite clearly doesn't exist",
+              "date": "2025-01-29",
+              "link": "https://sunshowers.io/posts/there-is-no-free-will/"
+            },
+            {
+              "title": "Why nextest is process-per-test",
+              "date": "2025-01-07",
+              "link": "https://sunshowers.io/posts/nextest-process-per-test/"
+            },
+            {
+              "title": "Beyond Ctrl-C: The dark corners of Unix signal handling",
+              "date": "2024-09-03",
+              "link": "https://sunshowers.io/posts/beyond-ctrl-c-signals/"
+            },
+            {
+              "title": "Debugging a rustc segfault on illumos",
+              "date": "2024-08-04",
+              "link": "https://sunshowers.io/posts/rustc-segfault-illumos/"
+            },
+            {
+              "title": "Professionals demonstrate empathy",
+              "date": "2024-07-02",
+              "link": "https://sunshowers.io/posts/be-an-adult/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "29 Jan 2025\n      ",
+              "date": "2025-01-29",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            },
+            {
+              "title": "Roald Dahl’s The Witches",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
+            },
+            {
+              "title": "I got an iPhone",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "What hard thing does your tech make easy?",
+              "date": "2025-01-29",
+              "link": "https://buttondown.com/hillelwayne/archive/what-hard-thing-does-your-tech-make-easy/"
+            },
+            {
+              "title": "The Juggler's Curse",
+              "date": "2025-01-22",
+              "link": "https://buttondown.com/hillelwayne/archive/the-jugglers-curse/"
+            },
+            {
+              "title": "What are the Rosettas of formal specification?",
+              "date": "2025-01-15",
+              "link": "https://buttondown.com/hillelwayne/archive/what-are-the-rosettas-of-formal-specification/"
+            },
+            {
+              "title": "\"Logic for Programmers\" Project Update",
+              "date": "2025-01-07",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-project-update/"
+            },
+            {
+              "title": "Formally modeling dreidel, the sequel",
+              "date": "2024-12-18",
+              "link": "https://buttondown.com/hillelwayne/archive/formally-modeling-dreidel-the-sequel/"
             }
           ]
         },
@@ -93,37 +217,6 @@
               "title": "Journey to the beyond",
               "date": "2025-01-14",
               "link": "https://moonbase.lgbt/blog/journey-to-the-beyond/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "28 Jan 2025\n      ",
-              "date": "2025-01-28",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            },
-            {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
-            },
-            {
-              "title": "I got an iPhone",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
             }
           ]
         },
@@ -464,37 +557,6 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Template literal types in TypeScript: parsing during type checking and more",
-              "date": "2025-01-24",
-              "link": "https://2ality.com/2025/01/template-literal-types.html"
-            },
-            {
-              "title": "ECMAScript proposal: RegExp escaping",
-              "date": "2025-01-21",
-              "link": "https://2ality.com/2025/01/regexp-escape.html"
-            },
-            {
-              "title": "TypeScript enums: use cases and alternatives",
-              "date": "2025-01-19",
-              "link": "https://2ality.com/2025/01/typescript-enum-patterns.html"
-            },
-            {
-              "title": "A checklist for your <code>tsconfig.json</code>",
-              "date": "2025-01-15",
-              "link": "https://2ality.com/2025/01/tsconfig-json.html"
-            },
-            {
-              "title": "ECMAScript feature: regular expression pattern modifiers",
-              "date": "2025-01-10",
-              "link": "https://2ality.com/2025/01/regexp-modifiers.html"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -615,37 +677,6 @@
               "title": "The case against living in the Bay Area, for ambitious tech people",
               "date": "2024-11-22",
               "link": "https://newsletter.goodtechthings.com/p/the-case-against-living-in-the-bay"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "The Juggler's Curse",
-              "date": "2025-01-22",
-              "link": "https://buttondown.com/hillelwayne/archive/the-jugglers-curse/"
-            },
-            {
-              "title": "What are the Rosettas of formal specification?",
-              "date": "2025-01-15",
-              "link": "https://buttondown.com/hillelwayne/archive/what-are-the-rosettas-of-formal-specification/"
-            },
-            {
-              "title": "\"Logic for Programmers\" Project Update",
-              "date": "2025-01-07",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-project-update/"
-            },
-            {
-              "title": "Formally modeling dreidel, the sequel",
-              "date": "2024-12-18",
-              "link": "https://buttondown.com/hillelwayne/archive/formally-modeling-dreidel-the-sequel/"
-            },
-            {
-              "title": "Stroustrup's Rule",
-              "date": "2024-12-11",
-              "link": "https://buttondown.com/hillelwayne/archive/stroustrups-rule/"
             }
           ]
         },
@@ -1049,37 +1080,6 @@
               "title": "Returning to Sunnydale",
               "date": "2024-12-04",
               "link": "https://mikegrindle.com/posts/snow"
-            }
-          ]
-        },
-        {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "Why nextest is process-per-test",
-              "date": "2025-01-07",
-              "link": "https://sunshowers.io/posts/nextest-process-per-test/"
-            },
-            {
-              "title": "Beyond Ctrl-C: The dark corners of Unix signal handling",
-              "date": "2024-09-03",
-              "link": "https://sunshowers.io/posts/beyond-ctrl-c-signals/"
-            },
-            {
-              "title": "Debugging a rustc segfault on illumos",
-              "date": "2024-08-04",
-              "link": "https://sunshowers.io/posts/rustc-segfault-illumos/"
-            },
-            {
-              "title": "Professionals demonstrate empathy",
-              "date": "2024-07-02",
-              "link": "https://sunshowers.io/posts/be-an-adult/"
-            },
-            {
-              "title": "ECC RAM on AMD Ryzen 7000 desktop CPUs",
-              "date": "2023-10-09",
-              "link": "https://sunshowers.io/posts/am5-ryzen-7000-ecc-ram/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-29T03:16:16.277Z",
+  "fetchDate": "2025-01-30T03:16:35.939Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

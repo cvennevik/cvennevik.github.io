@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Ignore this if you are a complete success",
+              "date": "2025-01-31",
+              "link": "https://anniemueller.com/posts/ignore-this-if-you-are-a-complete-success"
+            },
+            {
+              "title": "Build a life you can live in",
+              "date": "2025-01-28",
+              "link": "https://anniemueller.com/posts/build-a-life-you-can-live-in"
+            },
+            {
+              "title": "I am a cishet white woman and it is undoubtedly my voice that will save the trans community",
+              "date": "2025-01-25",
+              "link": "https://anniemueller.com/posts/i-am-a-cishet-white-woman-and-it-is-undoubtedly-my-voice-that-will-save-the-trans-community"
+            },
+            {
+              "title": "Fuckity fuck fuck",
+              "date": "2025-01-24",
+              "link": "https://anniemueller.com/posts/fuckity-fuck-fuck"
+            },
+            {
+              "title": "Anti-narrative",
+              "date": "2025-01-23",
+              "link": "https://anniemueller.com/posts/anti-narrative"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Responsive tables",
+              "date": "2025-01-30",
+              "link": "https://gomakethings.com/responsive-tables/"
+            },
             {
               "title": "How the tech you build is used",
               "date": "2025-01-29",
@@ -26,11 +62,94 @@
               "title": "Accessibility is woke now?",
               "date": "2025-01-24",
               "link": "https://gomakethings.com/accessibility-is-woke-now/"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Squircles on the Loose! Images Demo via the html-squircle JS Library",
+              "date": "2025-01-30",
+              "link": "https://thathtml.blog/2025/01/squircle-images-on-the-loose/"
             },
             {
-              "title": "Lettering.js: converting a jQuery plugin to a Web Component",
+              "title": "Using SVG Clip Path to Create a Squircle",
+              "date": "2025-01-28",
+              "link": "https://thathtml.blog/2025/01/using-svg-clip-path-to-create-a-squircle/"
+            },
+            {
+              "title": "Select Styling Revisions: What’s New",
+              "date": "2025-01-13",
+              "link": "https://thathtml.blog/2025/01/revised-select-styling-whats-new/"
+            },
+            {
+              "title": "Craft Stylized Text Animations with Khoshnus and SVG",
+              "date": "2025-01-10",
+              "link": "https://thathtml.blog/2025/01/stylized-svg-text-animations-with-khoshnus/"
+            },
+            {
+              "title": "A Modern Replacement for Cookie Cruft",
+              "date": "2025-01-03",
+              "link": "https://thathtml.blog/2025/01/cookie-store-api/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "30 Jan 2025\n      ",
+              "date": "2025-01-30",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
               "date": "2025-01-23",
-              "link": "https://gomakethings.com/lettering.js-converting-a-jquery-plugin-to-a-web-component/"
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            },
+            {
+              "title": "Roald Dahl’s The Witches",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
+            },
+            {
+              "title": "I got an iPhone",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-01-30",
+              "link": "https://dbushell.com/notes/2025-01-30T14:52Z/"
+            },
+            {
+              "date": "2025-01-27",
+              "link": "https://dbushell.com/notes/2025-01-27T12:03Z/"
+            },
+            {
+              "date": "2025-01-24",
+              "link": "https://dbushell.com/notes/2025-01-24T11:56Z/"
+            },
+            {
+              "date": "2025-01-22",
+              "link": "https://dbushell.com/notes/2025-01-22T06:26Z/"
+            },
+            {
+              "date": "2025-01-19",
+              "link": "https://dbushell.com/notes/2025-01-19T12:22Z/"
             }
           ]
         },
@@ -128,37 +247,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "29 Jan 2025\n      ",
-              "date": "2025-01-29",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            },
-            {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
-            },
-            {
-              "title": "I got an iPhone",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -221,68 +309,6 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Using SVG Clip Path to Create a Squircle",
-              "date": "2025-01-28",
-              "link": "https://thathtml.blog/2025/01/using-svg-clip-path-to-create-a-squircle/"
-            },
-            {
-              "title": "Select Styling Revisions: What’s New",
-              "date": "2025-01-13",
-              "link": "https://thathtml.blog/2025/01/revised-select-styling-whats-new/"
-            },
-            {
-              "title": "Craft Stylized Text Animations with Khoshnus and SVG",
-              "date": "2025-01-10",
-              "link": "https://thathtml.blog/2025/01/stylized-svg-text-animations-with-khoshnus/"
-            },
-            {
-              "title": "A Modern Replacement for Cookie Cruft",
-              "date": "2025-01-03",
-              "link": "https://thathtml.blog/2025/01/cookie-store-api/"
-            },
-            {
-              "title": "The Joyful Pleasures of DIY Web Services",
-              "date": "2024-12-23",
-              "link": "https://thathtml.blog/2024/12/diy-web-services/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Build a life you can live in",
-              "date": "2025-01-28",
-              "link": "https://anniemueller.com/posts/build-a-life-you-can-live-in"
-            },
-            {
-              "title": "I am a cishet white woman and it is undoubtedly my voice that will save the trans community",
-              "date": "2025-01-25",
-              "link": "https://anniemueller.com/posts/i-am-a-cishet-white-woman-and-it-is-undoubtedly-my-voice-that-will-save-the-trans-community"
-            },
-            {
-              "title": "Fuckity fuck fuck",
-              "date": "2025-01-24",
-              "link": "https://anniemueller.com/posts/fuckity-fuck-fuck"
-            },
-            {
-              "title": "Anti-narrative",
-              "date": "2025-01-23",
-              "link": "https://anniemueller.com/posts/anti-narrative"
-            },
-            {
-              "title": "Today I am sad",
-              "date": "2025-01-22",
-              "link": "https://anniemueller.com/posts/today-i-am-sad"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -341,32 +367,6 @@
               "title": "What ADHD Feels Like to Me",
               "date": "2024-11-11",
               "link": "https://kyleshevlin.com/what-adhd-feels-like-to-me/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-01-27",
-              "link": "https://dbushell.com/notes/2025-01-27T12:03Z/"
-            },
-            {
-              "date": "2025-01-24",
-              "link": "https://dbushell.com/notes/2025-01-24T11:56Z/"
-            },
-            {
-              "date": "2025-01-22",
-              "link": "https://dbushell.com/notes/2025-01-22T06:26Z/"
-            },
-            {
-              "date": "2025-01-19",
-              "link": "https://dbushell.com/notes/2025-01-19T12:22Z/"
-            },
-            {
-              "date": "2025-01-18",
-              "link": "https://dbushell.com/notes/2025-01-18T13:00Z/"
             }
           ]
         },
@@ -863,37 +863,6 @@
               "title": "En diskusjon med Claude, Dunning–Kruger i aksjon",
               "date": "2024-11-06",
               "link": "https://www.kodemaker.no/blogg/2024-11-en-diskusjon-med-ai/"
-            }
-          ]
-        },
-        {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "What does it mean for a university to have an opinion?",
-              "date": "2025-01-13",
-              "link": "https://www.felienne.com/archives/8575"
-            },
-            {
-              "title": "Charlie Chaplin and the death of the internet",
-              "date": "2025-01-06",
-              "link": "https://www.felienne.com/archives/8542"
-            },
-            {
-              "title": "Paper: Feminism in Programming Language Design",
-              "date": "2024-10-17",
-              "link": "https://www.felienne.com/archives/8470"
-            },
-            {
-              "title": "Soon all UX will be a Skinner box",
-              "date": "2024-09-11",
-              "link": "https://www.felienne.com/archives/8440"
-            },
-            {
-              "title": "Why *not* to use LLMs in computer science education?",
-              "date": "2024-06-05",
-              "link": "https://www.felienne.com/archives/8392"
             }
           ]
         },
@@ -2492,10 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-01-30T03:16:35.939Z",
+  "fetchDate": "2025-01-31T03:15:53.335Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://www.felienne.com/feed"
   ]
 }

@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="color-scheme" content="dark light">
-        <title>Blog - Cecilie Vennevik</title>
+        <title>Crystal Spire #8: Facing our enemies - Cecilie Vennevik</title>
         <link rel="icon" type="image/jpg" href="/img/logo-32px.jpg" sizes="32x32">
         <link rel="icon" type="image/jpg" href="/img/logo-48px.jpg" sizes="48x48">
         <link rel="icon" type="image/jpg" href="/img/logo-64px.jpg" sizes="64x64">
@@ -280,7 +280,11 @@ customElements.define(
     <a href="/">Home</a>
     <span aria-hidden="true">/</span>
 </li>
-<li>Blog</li>
+<li>
+    <a href="/blog/">Blog</a>
+    <span aria-hidden="true">/</span>
+</li>
+<li>Post</li>
 
                     </ol>
                 </nav>
@@ -289,119 +293,86 @@ customElements.define(
         </header>
         <main>
             
-            
 <style>
-    .post-list {
-        padding: 0;
-        list-style: none;
-    }
-    .post-list li {
-        display: flex;
-        gap: 1rem;
-        justify-content: space-between;
-    }
-    .post-list li + li {
-        margin-top: .5rem;
-    }
-    .post-list i {
-        white-space: nowrap;
+    h1 {
+        margin-block-start: 0;
     }
 </style>
-<h1>Blog</h1>
-<ul class="post-list">
-
-    <li>
-        <a href="/blog/crystal-spire-08-facing-our-enemies/">Crystal Spire #8: Facing our enemies</a>
-        <i>February 1, 2025</i>
-    </li>
-
-    <li>
-        <a href="/blog/crystal-spire-07-armor/">Crystal Spire #7: Armor</a>
-        <i>August 24, 2024</i>
-    </li>
-
-    <li>
-        <a href="/blog/slay-the-spire-06-lets-go-to-codeberg/">Slay the Spire #6: Let&#39;s go to Codeberg!</a>
-        <i>August 11, 2024</i>
-    </li>
-
-    <li>
-        <a href="/blog/i-can-do-hard-things/">I can do hard things</a>
-        <i>August 11, 2024</i>
-    </li>
-
-    <li>
-        <a href="/blog/slay-the-spire-05-going-dynamic/">Slay the Spire #5: Going dynamic</a>
-        <i>August 4, 2024</i>
-    </li>
-
-    <li>
-        <a href="/blog/slay-the-spire-04-links-are-real/">Slay the Spire #4: Links are real, and strong, and they are my friend</a>
-        <i>August 3, 2024</i>
-    </li>
-
-    <li>
-        <a href="/blog/slay-the-spire-03-introducing-links/">Slay the Spire #3: Introducing links</a>
-        <i>August 1, 2024</i>
-    </li>
-
-    <li>
-        <a href="/blog/slay-the-spire-02-actions-and-consequences/">Slay the Spire #2: Actions and consequences</a>
-        <i>July 31, 2024</i>
-    </li>
-
-    <li>
-        <a href="/blog/slay-the-spire-01-html-first/">Slay the Spire #1: HTML first</a>
-        <i>July 30, 2024</i>
-    </li>
-
-    <li>
-        <a href="/blog/slay-the-spire-00-preamble/">Slay the Spire #0: Preamble</a>
-        <i>July 29, 2024</i>
-    </li>
-
-    <li>
-        <a href="/blog/fun-with-svg-text/">Having fun with SVG text</a>
-        <i>February 21, 2024</i>
-    </li>
-
-    <li>
-        <a href="/blog/oops-i-made-code-review-painful/">Oops, I made code review painful</a>
-        <i>April 14, 2023</i>
-    </li>
-
-    <li>
-        <a href="/blog/a-corner-cutters-confession/">A corner-cutter&#39;s confession</a>
-        <i>February 9, 2023</i>
-    </li>
-
-    <li>
-        <a href="/blog/technical-debt-is-an-incomplete-model/">&#39;Technical debt&#39; is an incomplete model</a>
-        <i>February 5, 2023</i>
-    </li>
-
-    <li>
-        <a href="/blog/i-am-a-social-animal/">I am a social animal</a>
-        <i>February 4, 2023</i>
-    </li>
-
-    <li>
-        <a href="/blog/type-constraints-with-class-constructors/">Enforcing advanced type constraints with class constructors in TypeScript</a>
-        <i>January 20, 2023</i>
-    </li>
-
-    <li>
-        <a href="/blog/using-typescript-to-prevent-common-mistakes/">Using TypeScript to prevent common mistakes</a>
-        <i>January 17, 2023</i>
-    </li>
-
-    <li>
-        <a href="/blog/code-reviews-are-overloaded/">Code reviews are overloaded</a>
-        <i>January 7, 2023</i>
-    </li>
-
+<article>
+    <h1>Crystal Spire #8: Facing our enemies</h1>
+    <i>February 1, 2025</i>
+    <p>Happy new year! Parenting is going great. We just moved my home computer out of the living room and into my office, so now, for the first time in a long while, I have comfortable spot to code in. The baby is napping longer and more consistently, too, so let's use a little of that time to chip away at this again. Dust off those programming muscles.</p>
+<p>There's still a fair bit of game state to make dynamic, namely the enemy. This fight has one enemy, but there can be several enemies, and each of them has:</p>
+<ul>
+<li>A name</li>
+<li>HP</li>
+<li>Armor</li>
+<li>Buffs and debuffs</li>
+<li>Its next move</li>
+<li>A history of previous moves
+<ul>
+<li>This affects which move it may choose next</li>
 </ul>
-            
+</li>
+</ul>
+<p>All of these need to be made into a variable (an array of &quot;enemy&quot; objects, most likely), and then we need a way to encode it into the query string. Let's save the tricky bit for later, and hard-code the data first:</p>
+<pre><code class="language-js">let enemies = [
+    {
+        name: 'Jaw Worm',
+        hp: 42,
+        maxHp: 42,
+        nextMove: 'Chomp'
+    }
+];
+</code></pre>
+<p>Then use the data in our templating:</p>
+<pre><code class="language-js">&lt;h2&gt;Enemies&lt;/h2&gt;
+${enemies.map(enemy =&gt; `
+    &lt;h3&gt;${enemy.name}&lt;/h3&gt;
+    &lt;p&gt;HP: ${enemy.hp}/${enemy.maxHp}&lt;/p&gt;
+    &lt;p&gt;Next move: ${enemy.nextMove}&lt;/p&gt;
+`).join('')}
+</code></pre>
+<p>Looks okay, but we're missing the move description now. I don't think this is the long-term solution, but let's make a dictionary of descriptions, just like we did for relics, to keep it out of the dynamic state.</p>
+<pre><code class="language-js">let moveDescriptions = { 'Chomp': 'Deal 11 damage' };
+// ...
+&lt;p&gt;Next move: ${enemy.nextMove} (${moveDescriptions[enemy.nextMove]})&lt;/p&gt;
+</code></pre>
+<p>Oh yeah, this is going to be a problem very soon. The Jaw Worm deals more than 11 damage when it gains strength, so a static dictionary of descriptions is not going to cut it. That's a future problem though, and an interesting one at that. Future us can spend a whole session figuring that out.</p>
+<p>Commit: &quot;Render enemies based on 'enemies' array&quot;.</p>
+<p>Now the difficult part. We need to encode this data, this array of objects, into our query string. We've only handled simple values and lists of simple values to this point. We need a different method for handling a list of objects.</p>
+<p>Starting with the simplest thing that will possibly work... Can we just parse it as JSON?</p>
+<pre><code class="language-js">let enemies = JSON.parse(queryParams.get('enemies')) ?? [
+    {
+        name: 'Jaw Worm',
+        hp: 42,
+        maxHp: 42,
+        nextMove: 'Chomp'
+    }
+];
+</code></pre>
+<p>Well, the fallback value works correctly when &quot;enemies&quot; is missing from the query string.</p>
+<p>Now what if we add <code>?enemies=[]</code> to it? Aha! No enemies!</p>
+<p>Then what about <code>?enemies=[{&quot;name&quot;: &quot;Jaw Worm&quot;, &quot;hp&quot;: 30, &quot;maxHp&quot;: 42, &quot;nextMove&quot;: &quot;Chomp&quot;}]</code>? Goodness, me, it works. Didn't even need to deal with URI encoding.</p>
+<p>Let's add this query parameter to our sketched action links, so we can finally see our attacks dealing damage:</p>
+<pre><code class="language-js">&lt;a href=&quot;?maxhp=80&amp;maxenergy=3&amp;relics=Burning%20Blood&amp;hp=80&amp;energy=1&amp;hand=Defend,Defend,Defend,Strike&amp;draw=Defend,Strike,Strike,Strike,Strike&amp;discard=Bash&amp;enemies=%5B%7B%22name%22%3A%20%22Jaw%20Worm%22%2C%20%22hp%22%3A%2034%2C%20%22maxHp%22%3A%2042%2C%20%22nextMove%22%3A%20%22Chomp%22%7D%5D&quot;&gt;
+    Play Bash on Jaw Worm
+&lt;/a&gt;
+// ...
+&lt;a href=&quot;?maxhp=80&amp;maxenergy=3&amp;relics=Burning%20Blood&amp;hp=80&amp;energy=2&amp;hand=Bash,Defend,Defend,Defend&amp;draw=Defend,Strike,Strike,Strike,Strike&amp;discard=Strike&amp;enemies=%5B%7B%22name%22%3A%20%22Jaw%20Worm%22%2C%20%22hp%22%3A%2036%2C%20%22maxHp%22%3A%2042%2C%20%22nextMove%22%3A%20%22Chomp%22%7D%5D&quot;&gt;
+    Play Strike on Jaw Worm
+&lt;/a&gt;
+</code></pre>
+<p>Had to URI-encode the array to fit it into the HTML, but the JSON parsing still works. And these links work! We're dealing damage!</p>
+<p>Commit: &quot;Set 'enemies' array based on query parameter&quot;.</p>
+<p>All this URL parsing is very space-inefficient, but I don't think it the URL will grow long enough to cause issues while we're only running the Jaw Worm fight. It's good enough for now.</p>
+<p>Hm, I keep excusing design flaws that I imagine we will fix later. I wonder if that's necessary.</p>
+<p>Anyway. Next time: enemy armor, buffs, and debuffs.</p>
+<hr>
+<p><em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/fe7c1d1bcd8ecaa20f4ef01108a4854c0cb896b9">Last commit: Set 'enemies' array based on query parameter</a></em></p>
+
+</article>
+
         </main>
     </body>
 </html>

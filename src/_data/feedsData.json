@@ -4,6 +4,161 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "When should you use React?",
+              "date": "2025-02-04",
+              "link": "https://gomakethings.com/when-should-you-use-react/"
+            },
+            {
+              "title": "Alienating the right people",
+              "date": "2025-02-03",
+              "link": "https://gomakethings.com/alienating-the-right-people/"
+            },
+            {
+              "title": "Spaghetti code is a people problem",
+              "date": "2025-01-31",
+              "link": "https://gomakethings.com/spaghetti-code-is-a-people-problem/"
+            },
+            {
+              "title": "Responsive tables",
+              "date": "2025-01-30",
+              "link": "https://gomakethings.com/responsive-tables/"
+            },
+            {
+              "title": "How the tech you build is used",
+              "date": "2025-01-29",
+              "link": "https://gomakethings.com/how-the-tech-you-build-is-used/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Blown Away By the Unexpected ",
+              "date": "2025-02-04",
+              "link": "https://blog.jim-nielsen.com/2025/blown-away-by-the-unexpected/"
+            },
+            {
+              "title": "UI Pace Layers",
+              "date": "2025-02-02",
+              "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
+            },
+            {
+              "title": "Notes on Google Search Now Requiring JavaScript",
+              "date": "2025-01-29",
+              "link": "https://blog.jim-nielsen.com/2025/javascript-required/"
+            },
+            {
+              "title": "Missed Connections",
+              "date": "2025-01-28",
+              "link": "https://blog.jim-nielsen.com/2025/missed-connections/"
+            },
+            {
+              "title": "HTML Minification for Static Sites",
+              "date": "2025-01-27",
+              "link": "https://blog.jim-nielsen.com/2025/html-minification/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Tutorial: publishing ESM-based npm packages with TypeScript",
+              "date": "2025-02-04",
+              "link": "https://2ality.com/2025/02/typescript-esm-packages.html"
+            },
+            {
+              "title": "Computing with tuples in TypeScript",
+              "date": "2025-01-29",
+              "link": "https://2ality.com/2025/01/typescript-tuples.html"
+            },
+            {
+              "title": "Template literal types in TypeScript: parsing during type checking and more",
+              "date": "2025-01-24",
+              "link": "https://2ality.com/2025/01/template-literal-types.html"
+            },
+            {
+              "title": "ECMAScript proposal: RegExp escaping",
+              "date": "2025-01-21",
+              "link": "https://2ality.com/2025/01/regexp-escape.html"
+            },
+            {
+              "title": "TypeScript enums: use cases and alternatives",
+              "date": "2025-01-19",
+              "link": "https://2ality.com/2025/01/typescript-enum-patterns.html"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Which VoiceOver?",
+              "date": "2025-02-04",
+              "link": "https://adrianroselli.com/2025/02/which-voiceover.html"
+            },
+            {
+              "title": "Don’t Wrap Figure in a Link",
+              "date": "2025-01-16",
+              "link": "https://adrianroselli.com/2025/01/dont-wrap-figure-in-a-link.html"
+            },
+            {
+              "title": "aria-description Does Not Translate",
+              "date": "2025-01-09",
+              "link": "https://adrianroselli.com/2025/01/aria-description-does-not-translate.html"
+            },
+            {
+              "title": "Brief Note on Figure and Figcaption Support",
+              "date": "2025-01-07",
+              "link": "https://adrianroselli.com/2025/01/brief-note-on-figure-and-figcaption-support.html"
+            },
+            {
+              "title": "FTC Catches up to #accessiBe",
+              "date": "2025-01-05",
+              "link": "https://adrianroselli.com/2025/01/ftc-catches-up-to-accessibe.html"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2025-02-04",
+              "link": "https://macwright.com/2025/02/04/recently.html"
+            },
+            {
+              "title": "2025 Predictions",
+              "date": "2025-01-11",
+              "link": "https://macwright.com/2025/01/11/predictions.html"
+            },
+            {
+              "title": "Recently 2024",
+              "date": "2024-12-15",
+              "link": "https://macwright.com/2024/12/15/recently.html"
+            },
+            {
+              "title": "Bandcamp wrapped",
+              "date": "2024-12-06",
+              "link": "https://macwright.com/2024/12/06/bandcamp-wrapped.html"
+            },
+            {
+              "title": "Recently: Cycling and Autumn",
+              "date": "2024-11-03",
+              "link": "https://macwright.com/2024/11/03/recently.html"
+            }
+          ]
+        },
+        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -35,9 +190,45 @@
           ]
         },
         {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "4 Feb 2025\n      ",
+              "date": "2025-02-04",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            },
+            {
+              "title": "Roald Dahl’s The Witches",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
+            },
+            {
+              "title": "I got an iPhone",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
+            {
+              "title": "My real-life friends don’t blog but if they did they would be good at it",
+              "date": "2025-02-04",
+              "link": "https://anniemueller.com/posts/my-real-life-friends-dont-blog-but-if-they-did-they-would-be-good-at-it"
+            },
             {
               "title": "Blog question challenge 2025",
               "date": "2025-02-04",
@@ -57,11 +248,37 @@
               "title": "Ignore this if you are a complete success",
               "date": "2025-01-31",
               "link": "https://anniemueller.com/posts/ignore-this-if-you-are-a-complete-success"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Blogging For The Hell Of It",
+              "date": "2025-02-04",
+              "link": "https://flamedfury.com/posts/blogging-for-the-hell-of-it/"
             },
             {
-              "title": "Build a life you can live in",
-              "date": "2025-01-28",
-              "link": "https://anniemueller.com/posts/build-a-life-you-can-live-in"
+              "title": "Music Questions Challenge",
+              "date": "2025-02-02",
+              "link": "https://flamedfury.com/posts/music-questions-challenge/"
+            },
+            {
+              "title": "Monthly Recap: January 2025",
+              "date": "2025-02-01",
+              "link": "https://flamedfury.com/posts/monthly-recap-january-2025/"
+            },
+            {
+              "title": "What To Write",
+              "date": "2025-01-24",
+              "link": "https://flamedfury.com/posts/what-to-write/"
+            },
+            {
+              "title": "Default Apps 2025",
+              "date": "2025-01-24",
+              "link": "https://flamedfury.com/posts/default-apps-2025/"
             }
           ]
         },
@@ -93,37 +310,6 @@
               "title": "Interim note 5: web media and web dev employment",
               "date": "2025-01-13",
               "link": "https://www.baldurbjarnason.com/notes/2025/interim-5/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Alienating the right people",
-              "date": "2025-02-03",
-              "link": "https://gomakethings.com/alienating-the-right-people/"
-            },
-            {
-              "title": "Spaghetti code is a people problem",
-              "date": "2025-01-31",
-              "link": "https://gomakethings.com/spaghetti-code-is-a-people-problem/"
-            },
-            {
-              "title": "Responsive tables",
-              "date": "2025-01-30",
-              "link": "https://gomakethings.com/responsive-tables/"
-            },
-            {
-              "title": "How the tech you build is used",
-              "date": "2025-01-29",
-              "link": "https://gomakethings.com/how-the-tech-you-build-is-used/"
-            },
-            {
-              "title": "Checking what type of node something is with JavaScript",
-              "date": "2025-01-28",
-              "link": "https://gomakethings.com/checking-what-type-of-node-something-is-with-javascript/"
             }
           ]
         },
@@ -221,37 +407,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "3 Feb 2025\n      ",
-              "date": "2025-02-03",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            },
-            {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
-            },
-            {
-              "title": "I got an iPhone",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (microblog)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -336,68 +491,6 @@
               "title": "Great things about Rust that aren't just performance",
               "date": "2025-01-06",
               "link": "https://ntietz.com/blog/great-things-about-rust-beyond-perf/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "UI Pace Layers",
-              "date": "2025-02-02",
-              "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
-            },
-            {
-              "title": "Notes on Google Search Now Requiring JavaScript",
-              "date": "2025-01-29",
-              "link": "https://blog.jim-nielsen.com/2025/javascript-required/"
-            },
-            {
-              "title": "Missed Connections",
-              "date": "2025-01-28",
-              "link": "https://blog.jim-nielsen.com/2025/missed-connections/"
-            },
-            {
-              "title": "HTML Minification for Static Sites",
-              "date": "2025-01-27",
-              "link": "https://blog.jim-nielsen.com/2025/html-minification/"
-            },
-            {
-              "title": "Consistency For Who? Thoughts on Overriding Basic Computing Controls",
-              "date": "2025-01-22",
-              "link": "https://blog.jim-nielsen.com/2025/overriding-basic-ui-controls/"
-            }
-          ]
-        },
-        {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Music Questions Challenge",
-              "date": "2025-02-02",
-              "link": "https://flamedfury.com/posts/music-questions-challenge/"
-            },
-            {
-              "title": "Monthly Recap: January 2025",
-              "date": "2025-02-01",
-              "link": "https://flamedfury.com/posts/monthly-recap-january-2025/"
-            },
-            {
-              "title": "What To Write",
-              "date": "2025-01-24",
-              "link": "https://flamedfury.com/posts/what-to-write/"
-            },
-            {
-              "title": "Default Apps 2025",
-              "date": "2025-01-24",
-              "link": "https://flamedfury.com/posts/default-apps-2025/"
-            },
-            {
-              "title": "Blog Question Challenge 2025",
-              "date": "2025-01-17",
-              "link": "https://flamedfury.com/posts/blog-question-challenge-2025/"
             }
           ]
         },
@@ -584,37 +677,6 @@
               "title": "A Modern Replacement for Cookie Cruft",
               "date": "2025-01-03",
               "link": "https://thathtml.blog/2025/01/cookie-store-api/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Computing with tuples in TypeScript",
-              "date": "2025-01-29",
-              "link": "https://2ality.com/2025/01/typescript-tuples.html"
-            },
-            {
-              "title": "Template literal types in TypeScript: parsing during type checking and more",
-              "date": "2025-01-24",
-              "link": "https://2ality.com/2025/01/template-literal-types.html"
-            },
-            {
-              "title": "ECMAScript proposal: RegExp escaping",
-              "date": "2025-01-21",
-              "link": "https://2ality.com/2025/01/regexp-escape.html"
-            },
-            {
-              "title": "TypeScript enums: use cases and alternatives",
-              "date": "2025-01-19",
-              "link": "https://2ality.com/2025/01/typescript-enum-patterns.html"
-            },
-            {
-              "title": "A checklist for your <code>tsconfig.json</code>",
-              "date": "2025-01-15",
-              "link": "https://2ality.com/2025/01/tsconfig-json.html"
             }
           ]
         },
@@ -991,37 +1053,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Don’t Wrap Figure in a Link",
-              "date": "2025-01-16",
-              "link": "https://adrianroselli.com/2025/01/dont-wrap-figure-in-a-link.html"
-            },
-            {
-              "title": "aria-description Does Not Translate",
-              "date": "2025-01-09",
-              "link": "https://adrianroselli.com/2025/01/aria-description-does-not-translate.html"
-            },
-            {
-              "title": "Brief Note on Figure and Figcaption Support",
-              "date": "2025-01-07",
-              "link": "https://adrianroselli.com/2025/01/brief-note-on-figure-and-figcaption-support.html"
-            },
-            {
-              "title": "FTC Catches up to #accessiBe",
-              "date": "2025-01-05",
-              "link": "https://adrianroselli.com/2025/01/ftc-catches-up-to-accessibe.html"
-            },
-            {
-              "title": "Updated Brief Note on Description List Support",
-              "date": "2025-01-03",
-              "link": "https://adrianroselli.com/2025/01/updated-brief-note-on-description-list-support.html"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -1142,37 +1173,6 @@
               "title": "New microblog with TILs",
               "date": "2024-11-09",
               "link": "https://jvns.ca/blog/2024/11/09/new-microblog/"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "2025 Predictions",
-              "date": "2025-01-11",
-              "link": "https://macwright.com/2025/01/11/predictions.html"
-            },
-            {
-              "title": "Recently 2024",
-              "date": "2024-12-15",
-              "link": "https://macwright.com/2024/12/15/recently.html"
-            },
-            {
-              "title": "Bandcamp wrapped",
-              "date": "2024-12-06",
-              "link": "https://macwright.com/2024/12/06/bandcamp-wrapped.html"
-            },
-            {
-              "title": "Recently: Cycling and Autumn",
-              "date": "2024-11-03",
-              "link": "https://macwright.com/2024/11/03/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2024-10-01",
-              "link": "https://macwright.com/2024/10/01/recently.html"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-04T03:17:09.104Z",
+  "fetchDate": "2025-02-05T03:18:10.763Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

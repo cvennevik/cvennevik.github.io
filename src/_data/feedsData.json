@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Some terminal frustrations",
+              "date": "2025-02-05",
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
+            },
+            {
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
+            },
+            {
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
+            },
+            {
+              "title": "Why pipes sometimes get \"stuck\": buffering",
+              "date": "2024-11-29",
+              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
+            },
+            {
+              "title": "Importing a frontend Javascript library without a build system",
+              "date": "2024-11-18",
+              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Todo notes as a storm approaches",
+              "date": "2025-02-05",
+              "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
+            },
+            {
+              "title": "Poisoning for propaganda: rising authoritarianism makes LLMs more dangerous",
+              "date": "2025-02-03",
+              "link": "https://www.baldurbjarnason.com/2025/poisoning-for-propaganda/"
+            },
+            {
+              "title": "Raven Photos (24 January 2025)",
+              "date": "2025-01-24",
+              "link": "https://www.baldurbjarnason.com/notes/photos/photos-14/"
+            },
+            {
+              "title": "First outlines of a plan: thinking strategically about a modern tech and media business",
+              "date": "2025-01-24",
+              "link": "https://www.baldurbjarnason.com/2025/first-outlines-of-a-plan/"
+            },
+            {
+              "title": "The web is a creative industry and is facing the same decline and shattered economics as film, TV, or publishing",
+              "date": "2025-01-16",
+              "link": "https://www.baldurbjarnason.com/notes/2025/the-web-is-a-creative-industry/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Getting a date in the current user's timezone with JavaScript",
+              "date": "2025-02-05",
+              "link": "https://gomakethings.com/getting-a-date-in-the-current-users-timezone-with-javascript/"
+            },
             {
               "title": "When should you use React?",
               "date": "2025-02-04",
@@ -26,11 +93,125 @@
               "title": "Responsive tables",
               "date": "2025-01-30",
               "link": "https://gomakethings.com/responsive-tables/"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Live CSS Colors: What You Can Safely Use",
+              "date": "2025-02-05",
+              "link": "https://thathtml.blog/2025/02/live-colors-what-you-can-safely-use/"
             },
             {
-              "title": "How the tech you build is used",
-              "date": "2025-01-29",
-              "link": "https://gomakethings.com/how-the-tech-you-build-is-used/"
+              "title": "Squircles on the Loose! Images Demo via the html-squircle JS Library",
+              "date": "2025-01-30",
+              "link": "https://thathtml.blog/2025/01/squircle-images-on-the-loose/"
+            },
+            {
+              "title": "Using SVG Clip Path to Create a Squircle",
+              "date": "2025-01-28",
+              "link": "https://thathtml.blog/2025/01/using-svg-clip-path-to-create-a-squircle/"
+            },
+            {
+              "title": "Select Styling Revisions: What’s New",
+              "date": "2025-01-13",
+              "link": "https://thathtml.blog/2025/01/revised-select-styling-whats-new/"
+            },
+            {
+              "title": "Craft Stylized Text Animations with Khoshnus and SVG",
+              "date": "2025-01-10",
+              "link": "https://thathtml.blog/2025/01/stylized-svg-text-animations-with-khoshnus/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "5 Feb 2025\n      ",
+              "date": "2025-02-05",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            },
+            {
+              "title": "Roald Dahl’s The Witches",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
+            },
+            {
+              "title": "I got an iPhone",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-02-05",
+              "link": "https://dbushell.com/notes/2025-02-05T09:51Z/"
+            },
+            {
+              "date": "2025-02-03",
+              "link": "https://dbushell.com/notes/2025-02-03T15:11Z/"
+            },
+            {
+              "date": "2025-02-03",
+              "link": "https://dbushell.com/notes/2025-02-03T07:23Z/"
+            },
+            {
+              "date": "2025-02-01",
+              "link": "https://dbushell.com/notes/2025-02-01T16:07Z/"
+            },
+            {
+              "date": "2025-01-30",
+              "link": "https://dbushell.com/notes/2025-01-30T14:52Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Your personal brand makes me want to vomit",
+              "date": "2025-02-05",
+              "link": "https://anniemueller.com/posts/your-personal-brand-makes-me-want-to-vomit"
+            },
+            {
+              "title": "My real-life friends don’t blog but if they did they would be good at it",
+              "date": "2025-02-04",
+              "link": "https://anniemueller.com/posts/my-real-life-friends-dont-blog-but-if-they-did-they-would-be-good-at-it"
+            },
+            {
+              "title": "Blog question challenge 2025",
+              "date": "2025-02-04",
+              "link": "https://anniemueller.com/posts/blog-question-challenge-2025"
+            },
+            {
+              "title": "Good advice from Burkeman",
+              "date": "2025-01-31",
+              "link": "https://anniemueller.com/posts/good-advice-from-burkeman"
+            },
+            {
+              "title": "Reading notes: January 2025",
+              "date": "2025-01-31",
+              "link": "https://anniemueller.com/posts/reading-notes-january-2025"
             }
           ]
         },
@@ -128,6 +309,37 @@
           ]
         },
         {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Versioning versus Coordination",
+              "date": "2025-02-04",
+              "link": "http://brooker.co.za/blog/2025/02/04/versioning.html"
+            },
+            {
+              "title": "Snapshot Isolation vs Serializability",
+              "date": "2024-12-17",
+              "link": "http://brooker.co.za/blog/2024/12/17/occ-and-isolation.html"
+            },
+            {
+              "title": "DSQL Vignette: Wait! Isn't That Impossible?",
+              "date": "2024-12-06",
+              "link": "http://brooker.co.za/blog/2024/12/06/inside-dsql-cap.html"
+            },
+            {
+              "title": "DSQL Vignette: Transactions and Durability",
+              "date": "2024-12-05",
+              "link": "http://brooker.co.za/blog/2024/12/05/inside-dsql-writes.html"
+            },
+            {
+              "title": "DSQL Vignette: Reads and Compute",
+              "date": "2024-12-04",
+              "link": "http://brooker.co.za/blog/2024/12/04/inside-dsql.html"
+            }
+          ]
+        },
+        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -190,68 +402,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "4 Feb 2025\n      ",
-              "date": "2025-02-04",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            },
-            {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
-            },
-            {
-              "title": "I got an iPhone",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "My real-life friends don’t blog but if they did they would be good at it",
-              "date": "2025-02-04",
-              "link": "https://anniemueller.com/posts/my-real-life-friends-dont-blog-but-if-they-did-they-would-be-good-at-it"
-            },
-            {
-              "title": "Blog question challenge 2025",
-              "date": "2025-02-04",
-              "link": "https://anniemueller.com/posts/blog-question-challenge-2025"
-            },
-            {
-              "title": "Good advice from Burkeman",
-              "date": "2025-01-31",
-              "link": "https://anniemueller.com/posts/good-advice-from-burkeman"
-            },
-            {
-              "title": "Reading notes: January 2025",
-              "date": "2025-01-31",
-              "link": "https://anniemueller.com/posts/reading-notes-january-2025"
-            },
-            {
-              "title": "Ignore this if you are a complete success",
-              "date": "2025-01-31",
-              "link": "https://anniemueller.com/posts/ignore-this-if-you-are-a-complete-success"
-            }
-          ]
-        },
-        {
           "title": "The Weblog of fLaMEd",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -279,37 +429,6 @@
               "title": "Default Apps 2025",
               "date": "2025-01-24",
               "link": "https://flamedfury.com/posts/default-apps-2025/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Poisoning for propaganda: rising authoritarianism makes LLMs more dangerous",
-              "date": "2025-02-03",
-              "link": "https://www.baldurbjarnason.com/2025/poisoning-for-propaganda/"
-            },
-            {
-              "title": "Raven Photos (24 January 2025)",
-              "date": "2025-01-24",
-              "link": "https://www.baldurbjarnason.com/notes/photos/photos-14/"
-            },
-            {
-              "title": "First outlines of a plan: thinking strategically about a modern tech and media business",
-              "date": "2025-01-24",
-              "link": "https://www.baldurbjarnason.com/2025/first-outlines-of-a-plan/"
-            },
-            {
-              "title": "The web is a creative industry and is facing the same decline and shattered economics as film, TV, or publishing",
-              "date": "2025-01-16",
-              "link": "https://www.baldurbjarnason.com/notes/2025/the-web-is-a-creative-industry/"
-            },
-            {
-              "title": "Interim note 5: web media and web dev employment",
-              "date": "2025-01-13",
-              "link": "https://www.baldurbjarnason.com/notes/2025/interim-5/"
             }
           ]
         },
@@ -349,7 +468,7 @@
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
             {
-              "title": "Obsidian: The Good Parts",
+              "title": "Building your second brain in Obsidian",
               "date": "2025-02-03",
               "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
             },
@@ -403,32 +522,6 @@
               "title": "How I Use Claude",
               "date": "2025-01-01",
               "link": "https://borretti.me/article/how-i-use-claude"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-02-03",
-              "link": "https://dbushell.com/notes/2025-02-03T15:11Z/"
-            },
-            {
-              "date": "2025-02-03",
-              "link": "https://dbushell.com/notes/2025-02-03T07:23Z/"
-            },
-            {
-              "date": "2025-02-01",
-              "link": "https://dbushell.com/notes/2025-02-01T16:07Z/"
-            },
-            {
-              "date": "2025-01-30",
-              "link": "https://dbushell.com/notes/2025-01-30T14:52Z/"
-            },
-            {
-              "date": "2025-01-27",
-              "link": "https://dbushell.com/notes/2025-01-27T12:03Z/"
             }
           ]
         },
@@ -646,37 +739,6 @@
               "title": "Agile Testing Days 2024 - Reunion for Quality",
               "date": "2024-12-07",
               "link": "https://www.lisihocke.com/2024/12/agile-testing-days-2024-reunion-for-quality.html"
-            }
-          ]
-        },
-        {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Squircles on the Loose! Images Demo via the html-squircle JS Library",
-              "date": "2025-01-30",
-              "link": "https://thathtml.blog/2025/01/squircle-images-on-the-loose/"
-            },
-            {
-              "title": "Using SVG Clip Path to Create a Squircle",
-              "date": "2025-01-28",
-              "link": "https://thathtml.blog/2025/01/using-svg-clip-path-to-create-a-squircle/"
-            },
-            {
-              "title": "Select Styling Revisions: What’s New",
-              "date": "2025-01-13",
-              "link": "https://thathtml.blog/2025/01/revised-select-styling-whats-new/"
-            },
-            {
-              "title": "Craft Stylized Text Animations with Khoshnus and SVG",
-              "date": "2025-01-10",
-              "link": "https://thathtml.blog/2025/01/stylized-svg-text-animations-with-khoshnus/"
-            },
-            {
-              "title": "A Modern Replacement for Cookie Cruft",
-              "date": "2025-01-03",
-              "link": "https://thathtml.blog/2025/01/cookie-store-api/"
             }
           ]
         },
@@ -1146,37 +1208,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
-            },
-            {
-              "title": "Why pipes sometimes get \"stuck\": buffering",
-              "date": "2024-11-29",
-              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
-            },
-            {
-              "title": "Importing a frontend Javascript library without a build system",
-              "date": "2024-11-18",
-              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
-            },
-            {
-              "title": "New microblog with TILs",
-              "date": "2024-11-09",
-              "link": "https://jvns.ca/blog/2024/11/09/new-microblog/"
-            }
-          ]
-        },
-        {
           "title": "James Shore",
           "feedUrl": "https://www.jamesshore.com/v2/feed",
           "items": [
@@ -1421,37 +1452,6 @@
               "title": "A Guard Clause Is Maybe a Tiny Parser",
               "date": "2023-12-20",
               "link": "https://blog.thecodewhisperer.com/permalink/a-guard-clause-is-maybe-a-tiny-parser"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Snapshot Isolation vs Serializability",
-              "date": "2024-12-17",
-              "link": "http://brooker.co.za/blog/2024/12/17/occ-and-isolation.html"
-            },
-            {
-              "title": "DSQL Vignette: Wait! Isn't That Impossible?",
-              "date": "2024-12-06",
-              "link": "http://brooker.co.za/blog/2024/12/06/inside-dsql-cap.html"
-            },
-            {
-              "title": "DSQL Vignette: Transactions and Durability",
-              "date": "2024-12-05",
-              "link": "http://brooker.co.za/blog/2024/12/05/inside-dsql-writes.html"
-            },
-            {
-              "title": "DSQL Vignette: Reads and Compute",
-              "date": "2024-12-04",
-              "link": "http://brooker.co.za/blog/2024/12/04/inside-dsql.html"
-            },
-            {
-              "title": "DSQL Vignette: Aurora DSQL, and A Personal Story",
-              "date": "2024-12-03",
-              "link": "http://brooker.co.za/blog/2024/12/03/aurora-dsql.html"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-05T03:18:10.763Z",
+  "fetchDate": "2025-02-06T03:18:04.620Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,6 +4,156 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Software Pliability",
+              "date": "2025-02-07",
+              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
+            },
+            {
+              "title": "Blown Away By the Unexpected ",
+              "date": "2025-02-04",
+              "link": "https://blog.jim-nielsen.com/2025/blown-away-by-the-unexpected/"
+            },
+            {
+              "title": "UI Pace Layers",
+              "date": "2025-02-02",
+              "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
+            },
+            {
+              "title": "Notes on Google Search Now Requiring JavaScript",
+              "date": "2025-01-29",
+              "link": "https://blog.jim-nielsen.com/2025/javascript-required/"
+            },
+            {
+              "title": "Missed Connections",
+              "date": "2025-01-28",
+              "link": "https://blog.jim-nielsen.com/2025/missed-connections/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Named colors",
+              "date": "2025-02-07",
+              "link": "https://gomakethings.com/named-colors/"
+            },
+            {
+              "title": "Getting a date in the current user's timezone with JavaScript",
+              "date": "2025-02-05",
+              "link": "https://gomakethings.com/getting-a-date-in-the-current-users-timezone-with-javascript/"
+            },
+            {
+              "title": "When should you use React?",
+              "date": "2025-02-04",
+              "link": "https://gomakethings.com/when-should-you-use-react/"
+            },
+            {
+              "title": "Alienating the right people",
+              "date": "2025-02-03",
+              "link": "https://gomakethings.com/alienating-the-right-people/"
+            },
+            {
+              "title": "Spaghetti code is a people problem",
+              "date": "2025-01-31",
+              "link": "https://gomakethings.com/spaghetti-code-is-a-people-problem/"
+            }
+          ]
+        },
+        {
+          "title": "Good Tech Things",
+          "feedUrl": "https://newsletter.goodtechthings.com/feed",
+          "items": [
+            {
+              "title": "Breaking some huge personal news",
+              "date": "2025-02-07",
+              "link": "https://newsletter.goodtechthings.com/p/breaking-some-huge-personal-news"
+            },
+            {
+              "title": "I'm glad I took the off-ramp from software engineering",
+              "date": "2025-01-22",
+              "link": "https://newsletter.goodtechthings.com/p/you-get-10-years-to-be-a-software"
+            },
+            {
+              "title": "Notes on Nix",
+              "date": "2025-01-20",
+              "link": "https://newsletter.goodtechthings.com/p/notes-on-nix"
+            },
+            {
+              "title": "Why are tech people suddenly so into homeschooling?",
+              "date": "2025-01-14",
+              "link": "https://newsletter.goodtechthings.com/p/why-are-tech-people-suddenly-so-into"
+            },
+            {
+              "title": "What hath AWS wrought?",
+              "date": "2024-12-10",
+              "link": "https://newsletter.goodtechthings.com/p/what-hath-aws-wrought"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "7 Feb 2025\n      ",
+              "date": "2025-02-07",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            },
+            {
+              "title": "Roald Dahl’s The Witches",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
+            },
+            {
+              "title": "I got an iPhone",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-02-07",
+              "link": "https://dbushell.com/notes/2025-02-07T10:06Z/"
+            },
+            {
+              "date": "2025-02-05",
+              "link": "https://dbushell.com/notes/2025-02-05T09:51Z/"
+            },
+            {
+              "date": "2025-02-03",
+              "link": "https://dbushell.com/notes/2025-02-03T15:11Z/"
+            },
+            {
+              "date": "2025-02-03",
+              "link": "https://dbushell.com/notes/2025-02-03T07:23Z/"
+            },
+            {
+              "date": "2025-02-01",
+              "link": "https://dbushell.com/notes/2025-02-01T16:07Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -66,37 +216,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "6 Feb 2025\n      ",
-              "date": "2025-02-06",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            },
-            {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
-            },
-            {
-              "title": "I got an iPhone",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
-            }
-          ]
-        },
-        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -124,37 +243,6 @@
               "title": "Good advice from Burkeman",
               "date": "2025-01-31",
               "link": "https://anniemueller.com/posts/good-advice-from-burkeman"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            },
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
-            },
-            {
-              "title": "Why pipes sometimes get \"stuck\": buffering",
-              "date": "2024-11-29",
-              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
-            },
-            {
-              "title": "Importing a frontend Javascript library without a build system",
-              "date": "2024-11-18",
-              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
             }
           ]
         },
@@ -190,33 +278,33 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
             {
-              "title": "Getting a date in the current user's timezone with JavaScript",
+              "title": "Some terminal frustrations",
               "date": "2025-02-05",
-              "link": "https://gomakethings.com/getting-a-date-in-the-current-users-timezone-with-javascript/"
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
             },
             {
-              "title": "When should you use React?",
-              "date": "2025-02-04",
-              "link": "https://gomakethings.com/when-should-you-use-react/"
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
             },
             {
-              "title": "Alienating the right people",
-              "date": "2025-02-03",
-              "link": "https://gomakethings.com/alienating-the-right-people/"
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
             },
             {
-              "title": "Spaghetti code is a people problem",
-              "date": "2025-01-31",
-              "link": "https://gomakethings.com/spaghetti-code-is-a-people-problem/"
+              "title": "Why pipes sometimes get \"stuck\": buffering",
+              "date": "2024-11-29",
+              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
             },
             {
-              "title": "Responsive tables",
-              "date": "2025-01-30",
-              "link": "https://gomakethings.com/responsive-tables/"
+              "title": "Importing a frontend Javascript library without a build system",
+              "date": "2024-11-18",
+              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
             }
           ]
         },
@@ -279,63 +367,6 @@
               "title": "Craft Stylized Text Animations with Khoshnus and SVG",
               "date": "2025-01-10",
               "link": "https://thathtml.blog/2025/01/stylized-svg-text-animations-with-khoshnus/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-02-05",
-              "link": "https://dbushell.com/notes/2025-02-05T09:51Z/"
-            },
-            {
-              "date": "2025-02-03",
-              "link": "https://dbushell.com/notes/2025-02-03T15:11Z/"
-            },
-            {
-              "date": "2025-02-03",
-              "link": "https://dbushell.com/notes/2025-02-03T07:23Z/"
-            },
-            {
-              "date": "2025-02-01",
-              "link": "https://dbushell.com/notes/2025-02-01T16:07Z/"
-            },
-            {
-              "date": "2025-01-30",
-              "link": "https://dbushell.com/notes/2025-01-30T14:52Z/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Blown Away By the Unexpected ",
-              "date": "2025-02-04",
-              "link": "https://blog.jim-nielsen.com/2025/blown-away-by-the-unexpected/"
-            },
-            {
-              "title": "UI Pace Layers",
-              "date": "2025-02-02",
-              "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
-            },
-            {
-              "title": "Notes on Google Search Now Requiring JavaScript",
-              "date": "2025-01-29",
-              "link": "https://blog.jim-nielsen.com/2025/javascript-required/"
-            },
-            {
-              "title": "Missed Connections",
-              "date": "2025-01-28",
-              "link": "https://blog.jim-nielsen.com/2025/missed-connections/"
-            },
-            {
-              "title": "HTML Minification for Static Sites",
-              "date": "2025-01-27",
-              "link": "https://blog.jim-nielsen.com/2025/html-minification/"
             }
           ]
         },
@@ -499,7 +530,7 @@
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
             {
-              "title": "Obsidian: The Good Parts",
+              "title": "Obsidian.md: The Good Parts [Part 2]",
               "date": "2025-02-03",
               "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
             },
@@ -929,6 +960,37 @@
           ]
         },
         {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "The modern way to write JavaScript servers",
+              "date": "2025-01-25",
+              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
+              "date": "2024-07-06",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
+              "date": "2024-05-15",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Tailwind CSS",
+              "date": "2023-11-01",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - The barrel file debacle",
+              "date": "2023-10-08",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-7/"
+            }
+          ]
+        },
+        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -956,37 +1018,6 @@
               "title": "Advent of Lua",
               "date": "2024-12-03",
               "link": "https://garoof.no/notes/aoc-lua.html"
-            }
-          ]
-        },
-        {
-          "title": "Good Tech Things",
-          "feedUrl": "https://newsletter.goodtechthings.com/feed",
-          "items": [
-            {
-              "title": "I'm glad I took the off-ramp from software engineering",
-              "date": "2025-01-22",
-              "link": "https://newsletter.goodtechthings.com/p/you-get-10-years-to-be-a-software"
-            },
-            {
-              "title": "Notes on Nix",
-              "date": "2025-01-20",
-              "link": "https://newsletter.goodtechthings.com/p/notes-on-nix"
-            },
-            {
-              "title": "Why are tech people suddenly so into homeschooling?",
-              "date": "2025-01-14",
-              "link": "https://newsletter.goodtechthings.com/p/why-are-tech-people-suddenly-so-into"
-            },
-            {
-              "title": "What hath AWS wrought?",
-              "date": "2024-12-10",
-              "link": "https://newsletter.goodtechthings.com/p/what-hath-aws-wrought"
-            },
-            {
-              "title": "The case against living in the Bay Area, for ambitious tech people",
-              "date": "2024-11-22",
-              "link": "https://newsletter.goodtechthings.com/p/the-case-against-living-in-the-bay"
             }
           ]
         },
@@ -1973,37 +2004,6 @@
           ]
         },
         {
-          "title": "molily",
-          "feedUrl": "https://molily.de/feed.xml",
-          "items": [
-            {
-              "title": "Something went wrong",
-              "date": "2024-09-10",
-              "link": "https://molily.de/something-went-wrong/"
-            },
-            {
-              "title": "Full circle development",
-              "date": "2023-11-10",
-              "link": "https://molily.de/full-circle-development/"
-            },
-            {
-              "title": "Planet of the Beavers",
-              "date": "2023-10-06",
-              "link": "https://molily.de/planet-of-the-beavers/"
-            },
-            {
-              "title": "On browser compatibility and support baselines",
-              "date": "2023-05-12",
-              "link": "https://molily.de/browser-compatibility-baseline/"
-            },
-            {
-              "title": "ECMAScript modules and browser compatibility",
-              "date": "2023-04-20",
-              "link": "https://molily.de/ecmascript-modules/"
-            }
-          ]
-        },
-        {
           "title": "Nonlinear.Garden",
           "feedUrl": "https://nonlinear.garden/rss.xml",
           "items": [
@@ -2461,11 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-07T03:19:16.450Z",
+  "fetchDate": "2025-02-08T03:16:37.604Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://einarwh.wordpress.com/feed/",
-    "https://marvinh.dev/feed.xml"
+    "https://molily.de/feed.xml"
   ]
 }

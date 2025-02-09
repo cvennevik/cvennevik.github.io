@@ -4,33 +4,126 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
             {
-              "title": "Software Pliability",
-              "date": "2025-02-07",
-              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
+              "title": "A good day for sandwiches",
+              "date": "2025-02-09",
+              "link": "https://anniemueller.com/posts/a-good-day-for-sandwiches"
             },
             {
-              "title": "Blown Away By the Unexpected ",
+              "title": "I’m gonna keep making shit and I hope you will too",
+              "date": "2025-02-06",
+              "link": "https://anniemueller.com/posts/im-gonna-keep-making-shit-and-i-hope-you-will-too"
+            },
+            {
+              "title": "Your personal brand makes me want to vomit",
+              "date": "2025-02-05",
+              "link": "https://anniemueller.com/posts/your-personal-brand-makes-me-want-to-vomit"
+            },
+            {
+              "title": "My real-life friends don’t blog but if they did they would be good at it",
               "date": "2025-02-04",
-              "link": "https://blog.jim-nielsen.com/2025/blown-away-by-the-unexpected/"
+              "link": "https://anniemueller.com/posts/my-real-life-friends-dont-blog-but-if-they-did-they-would-be-good-at-it"
             },
             {
-              "title": "UI Pace Layers",
-              "date": "2025-02-02",
-              "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
+              "title": "Blog question challenge 2025",
+              "date": "2025-02-04",
+              "link": "https://anniemueller.com/posts/blog-question-challenge-2025"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "TypeScript: the <code>satisfies</code> operator",
+              "date": "2025-02-08",
+              "link": "https://2ality.com/2025/02/satisfies-operator.html"
             },
             {
-              "title": "Notes on Google Search Now Requiring JavaScript",
+              "title": "Read-only accessibility in TypeScript",
+              "date": "2025-02-06",
+              "link": "https://2ality.com/2025/02/typescript-readonly.html"
+            },
+            {
+              "title": "Tutorial: publishing ESM-based npm packages with TypeScript",
+              "date": "2025-02-04",
+              "link": "https://2ality.com/2025/02/typescript-esm-packages.html"
+            },
+            {
+              "title": "Computing with tuples in TypeScript",
               "date": "2025-01-29",
-              "link": "https://blog.jim-nielsen.com/2025/javascript-required/"
+              "link": "https://2ality.com/2025/01/typescript-tuples.html"
             },
             {
-              "title": "Missed Connections",
-              "date": "2025-01-28",
-              "link": "https://blog.jim-nielsen.com/2025/missed-connections/"
+              "title": "Template literal types in TypeScript: parsing during type checking and more",
+              "date": "2025-01-24",
+              "link": "https://2ality.com/2025/01/template-literal-types.html"
+            }
+          ]
+        },
+        {
+          "title": "Tooth of the Weasel",
+          "feedUrl": "https://angryweasel.com/blog/feed/",
+          "items": [
+            {
+              "title": "Five for Friday – February 7, 2025",
+              "date": "2025-02-08",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
+            },
+            {
+              "title": "Five for Friday – January 24, 2025",
+              "date": "2025-01-25",
+              "link": "https://angryweasel.com/blog/five-for-friday-january-24-2025/"
+            },
+            {
+              "title": "Five for Friday – January 17, 2025",
+              "date": "2025-01-17",
+              "link": "https://angryweasel.com/blog/five-for-friday-january-17-2025/"
+            },
+            {
+              "title": "Five for Friday – January 10, 2025",
+              "date": "2025-01-11",
+              "link": "https://angryweasel.com/blog/five-for-friday-january-10-2025/"
+            },
+            {
+              "title": "Five for Friday – November 22, 2024",
+              "date": "2024-11-23",
+              "link": "https://angryweasel.com/blog/five-for-friday-november-22-2024/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "8 Feb 2025\n      ",
+              "date": "2025-02-08",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            },
+            {
+              "title": "Roald Dahl’s The Witches",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
+            },
+            {
+              "title": "I got an iPhone",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
             }
           ]
         },
@@ -66,6 +159,37 @@
           ]
         },
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Software Pliability",
+              "date": "2025-02-07",
+              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
+            },
+            {
+              "title": "Blown Away By the Unexpected ",
+              "date": "2025-02-04",
+              "link": "https://blog.jim-nielsen.com/2025/blown-away-by-the-unexpected/"
+            },
+            {
+              "title": "UI Pace Layers",
+              "date": "2025-02-02",
+              "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
+            },
+            {
+              "title": "Notes on Google Search Now Requiring JavaScript",
+              "date": "2025-01-29",
+              "link": "https://blog.jim-nielsen.com/2025/javascript-required/"
+            },
+            {
+              "title": "Missed Connections",
+              "date": "2025-01-28",
+              "link": "https://blog.jim-nielsen.com/2025/missed-connections/"
+            }
+          ]
+        },
+        {
           "title": "Good Tech Things",
           "feedUrl": "https://newsletter.goodtechthings.com/feed",
           "items": [
@@ -93,37 +217,6 @@
               "title": "What hath AWS wrought?",
               "date": "2024-12-10",
               "link": "https://newsletter.goodtechthings.com/p/what-hath-aws-wrought"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "7 Feb 2025\n      ",
-              "date": "2025-02-07",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            },
-            {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
-            },
-            {
-              "title": "I got an iPhone",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
             }
           ]
         },
@@ -185,64 +278,33 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
             {
-              "title": "Read-only accessibility in TypeScript",
-              "date": "2025-02-06",
-              "link": "https://2ality.com/2025/02/typescript-readonly.html"
-            },
-            {
-              "title": "Tutorial: publishing ESM-based npm packages with TypeScript",
-              "date": "2025-02-04",
-              "link": "https://2ality.com/2025/02/typescript-esm-packages.html"
-            },
-            {
-              "title": "Computing with tuples in TypeScript",
-              "date": "2025-01-29",
-              "link": "https://2ality.com/2025/01/typescript-tuples.html"
-            },
-            {
-              "title": "Template literal types in TypeScript: parsing during type checking and more",
-              "date": "2025-01-24",
-              "link": "https://2ality.com/2025/01/template-literal-types.html"
-            },
-            {
-              "title": "ECMAScript proposal: RegExp escaping",
-              "date": "2025-01-21",
-              "link": "https://2ality.com/2025/01/regexp-escape.html"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "I’m gonna keep making shit and I hope you will too",
-              "date": "2025-02-06",
-              "link": "https://anniemueller.com/posts/im-gonna-keep-making-shit-and-i-hope-you-will-too"
-            },
-            {
-              "title": "Your personal brand makes me want to vomit",
+              "title": "Some terminal frustrations",
               "date": "2025-02-05",
-              "link": "https://anniemueller.com/posts/your-personal-brand-makes-me-want-to-vomit"
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
             },
             {
-              "title": "My real-life friends don’t blog but if they did they would be good at it",
-              "date": "2025-02-04",
-              "link": "https://anniemueller.com/posts/my-real-life-friends-dont-blog-but-if-they-did-they-would-be-good-at-it"
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
             },
             {
-              "title": "Blog question challenge 2025",
-              "date": "2025-02-04",
-              "link": "https://anniemueller.com/posts/blog-question-challenge-2025"
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
             },
             {
-              "title": "Good advice from Burkeman",
-              "date": "2025-01-31",
-              "link": "https://anniemueller.com/posts/good-advice-from-burkeman"
+              "title": "Why pipes sometimes get \"stuck\": buffering",
+              "date": "2024-11-29",
+              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
+            },
+            {
+              "title": "Importing a frontend Javascript library without a build system",
+              "date": "2024-11-18",
+              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
             }
           ]
         },
@@ -274,37 +336,6 @@
               "title": "The web is a creative industry and is facing the same decline and shattered economics as film, TV, or publishing",
               "date": "2025-01-16",
               "link": "https://www.baldurbjarnason.com/notes/2025/the-web-is-a-creative-industry/"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            },
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
-            },
-            {
-              "title": "Why pipes sometimes get \"stuck\": buffering",
-              "date": "2024-11-29",
-              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
-            },
-            {
-              "title": "Importing a frontend Javascript library without a build system",
-              "date": "2024-11-18",
-              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
             }
           ]
         },
@@ -526,37 +557,6 @@
           ]
         },
         {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-          "items": [
-            {
-              "title": "Obsidian.md: The Good Parts [Part 2]",
-              "date": "2025-02-03",
-              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
-            },
-            {
-              "title": "AI Is Not Designed for You",
-              "date": "2024-12-06",
-              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
-            },
-            {
-              "title": "From Coder to Creator: My Journey",
-              "date": "2024-09-30",
-              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
-            },
-            {
-              "title": "The \"Brainmade\" Mark",
-              "date": "2024-07-27",
-              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
-            },
-            {
-              "title": "Compiler-Driven Development in Rust",
-              "date": "2024-06-16",
-              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -584,6 +584,37 @@
               "title": "How I Use Claude",
               "date": "2025-01-01",
               "link": "https://borretti.me/article/how-i-use-claude"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Obsidian.md: The Good Parts [Part 2]",
+              "date": "2025-02-03",
+              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
+            },
+            {
+              "title": "AI Is Not Designed for You",
+              "date": "2024-12-06",
+              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
+            },
+            {
+              "title": "From Coder to Creator: My Journey",
+              "date": "2024-09-30",
+              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
+            },
+            {
+              "title": "The \"Brainmade\" Mark",
+              "date": "2024-07-27",
+              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
+            },
+            {
+              "title": "Compiler-Driven Development in Rust",
+              "date": "2024-06-16",
+              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
             }
           ]
         },
@@ -646,37 +677,6 @@
               "title": "Great things about Rust that aren't just performance",
               "date": "2025-01-06",
               "link": "https://ntietz.com/blog/great-things-about-rust-beyond-perf/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Notes on blogging",
-              "date": "2025-02-01",
-              "link": "https://robinrendle.com/notes/notes-on-blogging/"
-            },
-            {
-              "title": "Change and risk",
-              "date": "2025-01-20",
-              "link": "https://robinrendle.com/notes/change-and-risk/"
-            },
-            {
-              "title": "Work is just work",
-              "date": "2025-01-16",
-              "link": "https://robinrendle.com/notes/work/"
-            },
-            {
-              "title": "Learnable by default",
-              "date": "2025-01-11",
-              "link": "https://robinrendle.com/notes/learnable-by-default/"
-            },
-            {
-              "title": "Digital gardening",
-              "date": "2025-01-05",
-              "link": "https://robinrendle.com/notes/digital-gardening/"
             }
           ]
         },
@@ -925,37 +925,6 @@
               "title": "The Practices That Make Continuous Integration - Broadcast the Codebase’s Health",
               "date": "2024-10-29",
               "link": "https://thinkinglabs.io/articles/2024/10/29/the-practices-that-make-continuous-integration-broadcast-the-codebase-health.html"
-            }
-          ]
-        },
-        {
-          "title": "Tooth of the Weasel",
-          "feedUrl": "https://angryweasel.com/blog/feed/",
-          "items": [
-            {
-              "title": "Five for Friday – January 24, 2025",
-              "date": "2025-01-25",
-              "link": "https://angryweasel.com/blog/five-for-friday-january-24-2025/"
-            },
-            {
-              "title": "Five for Friday – January 17, 2025",
-              "date": "2025-01-17",
-              "link": "https://angryweasel.com/blog/five-for-friday-january-17-2025/"
-            },
-            {
-              "title": "Five for Friday – January 10, 2025",
-              "date": "2025-01-11",
-              "link": "https://angryweasel.com/blog/five-for-friday-january-10-2025/"
-            },
-            {
-              "title": "Five for Friday – November 22, 2024",
-              "date": "2024-11-23",
-              "link": "https://angryweasel.com/blog/five-for-friday-november-22-2024/"
-            },
-            {
-              "title": "Five for Friday – November 15, 2025",
-              "date": "2024-11-15",
-              "link": "https://angryweasel.com/blog/five-for-friday-november-15-2025/"
             }
           ]
         },
@@ -1911,37 +1880,6 @@
           ]
         },
         {
-          "title": "Pablo Curell Mompo's",
-          "feedUrl": "https://blog.codemanship.dev/rss.xml",
-          "items": [
-            {
-              "title": "Floor and Ceiling raisers",
-              "date": "2024-10-04",
-              "link": "https://blog.codemanship.dev/floor-and-ceiling-raisers"
-            },
-            {
-              "title": "Retrospectives",
-              "date": "2024-05-29",
-              "link": "https://blog.codemanship.dev/retrospectives"
-            },
-            {
-              "title": "So we tried Ensemble Programming",
-              "date": "2024-05-27",
-              "link": "https://blog.codemanship.dev/so-we-tried-ensemble-programming"
-            },
-            {
-              "title": "Test factories should not have randomness, but... Why?",
-              "date": "2024-03-06",
-              "link": "https://blog.codemanship.dev/test-factories-should-not-have-randomness-but-why"
-            },
-            {
-              "title": "Dependencies in Knowledge and Practices",
-              "date": "2024-01-31",
-              "link": "https://blog.codemanship.dev/dependencies-in-knowledge-and-practices"
-            }
-          ]
-        },
-        {
           "title": "GeePawHill.org",
           "feedUrl": "https://www.geepawhill.org/feed/",
           "items": [
@@ -2000,6 +1938,37 @@
               "title": "Don't let Alloy facts make your specs a fiction",
               "date": "2024-04-10",
               "link": "https://www.hillelwayne.com/post/alloy-facts/"
+            }
+          ]
+        },
+        {
+          "title": "molily",
+          "feedUrl": "https://molily.de/feed.xml",
+          "items": [
+            {
+              "title": "Something went wrong",
+              "date": "2024-09-10",
+              "link": "https://molily.de/something-went-wrong/"
+            },
+            {
+              "title": "Full circle development",
+              "date": "2023-11-10",
+              "link": "https://molily.de/full-circle-development/"
+            },
+            {
+              "title": "Planet of the Beavers",
+              "date": "2023-10-06",
+              "link": "https://molily.de/planet-of-the-beavers/"
+            },
+            {
+              "title": "On browser compatibility and support baselines",
+              "date": "2023-05-12",
+              "link": "https://molily.de/browser-compatibility-baseline/"
+            },
+            {
+              "title": "ECMAScript modules and browser compatibility",
+              "date": "2023-04-20",
+              "link": "https://molily.de/ecmascript-modules/"
             }
           ]
         },
@@ -2461,11 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-08T03:16:37.604Z",
+  "fetchDate": "2025-02-09T03:19:46.605Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
+    "https://blog.codemanship.dev/rss.xml",
     "https://einarwh.wordpress.com/feed/",
-    "https://molily.de/feed.xml"
+    "https://robinrendle.com/feed.xml"
   ]
 }

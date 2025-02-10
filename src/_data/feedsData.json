@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "James Shore",
+          "feedUrl": "https://www.jamesshore.com/v2/feed",
+          "items": [
+            {
+              "title": "Upscale and Team Self-Selection",
+              "date": "2025-02-10",
+              "link": "https://www.jamesshore.com/v2/blog/2025/upscale-and-team-self-selection"
+            },
+            {
+              "title": "The Best Product Engineering Org in the World",
+              "date": "2025-01-10",
+              "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
+            },
+            {
+              "title": "Update on Software Engineering Career Ladder",
+              "date": "2024-08-20",
+              "link": "https://www.jamesshore.com/v2/blog/2024/update-on-software-engineering-career-ladder"
+            },
+            {
+              "title": "Agile Fluency eBook in Portuguese",
+              "date": "2024-05-15",
+              "link": "https://www.jamesshore.com/v2/blog/2024/agile-fluency-ebook-in-portuguese"
+            },
+            {
+              "title": "Free Self-Guided “Testing Without Mocks” Training",
+              "date": "2024-05-12",
+              "link": "https://www.jamesshore.com/v2/blog/2024/free-self-guided-testing-without-mocks-training"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "TypeDoc: testing code examples in doc comments",
+              "date": "2025-02-09",
+              "link": "https://2ality.com/2025/02/testing-typedoc-examples.html"
+            },
+            {
+              "title": "TypeScript: the <code>satisfies</code> operator",
+              "date": "2025-02-08",
+              "link": "https://2ality.com/2025/02/satisfies-operator.html"
+            },
+            {
+              "title": "Read-only accessibility in TypeScript",
+              "date": "2025-02-06",
+              "link": "https://2ality.com/2025/02/typescript-readonly.html"
+            },
+            {
+              "title": "Tutorial: publishing ESM-based npm packages with TypeScript",
+              "date": "2025-02-04",
+              "link": "https://2ality.com/2025/02/typescript-esm-packages.html"
+            },
+            {
+              "title": "Computing with tuples in TypeScript",
+              "date": "2025-01-29",
+              "link": "https://2ality.com/2025/01/typescript-tuples.html"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "The nice feeling of trusting tools",
+              "date": "2025-02-09",
+              "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
+            },
+            {
+              "title": "January 2025 blend of links",
+              "date": "2025-01-21",
+              "link": "https://thejollyteapot.com/january-2025-blend/"
+            },
+            {
+              "title": "The age of insecure billionaires",
+              "date": "2025-01-12",
+              "link": "https://thejollyteapot.com/2025/01/12/the-age-of-insecure-billionaires/"
+            },
+            {
+              "title": "Are we at peak shittiness?",
+              "date": "2025-01-05",
+              "link": "https://thejollyteapot.com/2025/01/05/are-we-at-peak-shittiness/"
+            },
+            {
+              "title": "November 2024 blend of links",
+              "date": "2024-11-24",
+              "link": "https://thejollyteapot.com/november-2024-blend/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "9 Feb 2025\n      ",
+              "date": "2025-02-09",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            },
+            {
+              "title": "Roald Dahl’s The Witches",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
+            },
+            {
+              "title": "I got an iPhone",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -31,37 +155,6 @@
               "title": "Blog question challenge 2025",
               "date": "2025-02-04",
               "link": "https://anniemueller.com/posts/blog-question-challenge-2025"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "TypeScript: the <code>satisfies</code> operator",
-              "date": "2025-02-08",
-              "link": "https://2ality.com/2025/02/satisfies-operator.html"
-            },
-            {
-              "title": "Read-only accessibility in TypeScript",
-              "date": "2025-02-06",
-              "link": "https://2ality.com/2025/02/typescript-readonly.html"
-            },
-            {
-              "title": "Tutorial: publishing ESM-based npm packages with TypeScript",
-              "date": "2025-02-04",
-              "link": "https://2ality.com/2025/02/typescript-esm-packages.html"
-            },
-            {
-              "title": "Computing with tuples in TypeScript",
-              "date": "2025-01-29",
-              "link": "https://2ality.com/2025/01/typescript-tuples.html"
-            },
-            {
-              "title": "Template literal types in TypeScript: parsing during type checking and more",
-              "date": "2025-01-24",
-              "link": "https://2ality.com/2025/01/template-literal-types.html"
             }
           ]
         },
@@ -97,33 +190,33 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
             {
-              "title": "8 Feb 2025\n      ",
-              "date": "2025-02-08",
-              "link": "https://frills.dev/status/microblog/"
+              "title": "Software Pliability",
+              "date": "2025-02-07",
+              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
             },
             {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+              "title": "Blown Away By the Unexpected ",
+              "date": "2025-02-04",
+              "link": "https://blog.jim-nielsen.com/2025/blown-away-by-the-unexpected/"
             },
             {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
+              "title": "UI Pace Layers",
+              "date": "2025-02-02",
+              "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
             },
             {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
+              "title": "Notes on Google Search Now Requiring JavaScript",
+              "date": "2025-01-29",
+              "link": "https://blog.jim-nielsen.com/2025/javascript-required/"
             },
             {
-              "title": "I got an iPhone",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
+              "title": "Missed Connections",
+              "date": "2025-01-28",
+              "link": "https://blog.jim-nielsen.com/2025/missed-connections/"
             }
           ]
         },
@@ -155,37 +248,6 @@
               "title": "Spaghetti code is a people problem",
               "date": "2025-01-31",
               "link": "https://gomakethings.com/spaghetti-code-is-a-people-problem/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Software Pliability",
-              "date": "2025-02-07",
-              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
-            },
-            {
-              "title": "Blown Away By the Unexpected ",
-              "date": "2025-02-04",
-              "link": "https://blog.jim-nielsen.com/2025/blown-away-by-the-unexpected/"
-            },
-            {
-              "title": "UI Pace Layers",
-              "date": "2025-02-02",
-              "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
-            },
-            {
-              "title": "Notes on Google Search Now Requiring JavaScript",
-              "date": "2025-01-29",
-              "link": "https://blog.jim-nielsen.com/2025/javascript-required/"
-            },
-            {
-              "title": "Missed Connections",
-              "date": "2025-01-28",
-              "link": "https://blog.jim-nielsen.com/2025/missed-connections/"
             }
           ]
         },
@@ -557,6 +619,37 @@
           ]
         },
         {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Obsidian.md: The Good Parts [Part 2]",
+              "date": "2025-02-03",
+              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
+            },
+            {
+              "title": "AI Is Not Designed for You",
+              "date": "2024-12-06",
+              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
+            },
+            {
+              "title": "From Coder to Creator: My Journey",
+              "date": "2024-09-30",
+              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
+            },
+            {
+              "title": "The \"Brainmade\" Mark",
+              "date": "2024-07-27",
+              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
+            },
+            {
+              "title": "Compiler-Driven Development in Rust",
+              "date": "2024-06-16",
+              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
+            }
+          ]
+        },
+        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -588,33 +681,33 @@
           ]
         },
         {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
             {
-              "title": "Obsidian.md: The Good Parts [Part 2]",
+              "title": "Summarizing our recommendations for software documentation",
               "date": "2025-02-03",
-              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
+              "link": "https://ntietz.com/blog/our-case-study-on-software-documentation/?utm_source=atom&utm_medium=feed"
             },
             {
-              "title": "AI Is Not Designed for You",
-              "date": "2024-12-06",
-              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
+              "title": "Bright lights in dark times",
+              "date": "2025-01-27",
+              "link": "https://ntietz.com/blog/bright-lights-in-dark-times/?utm_source=atom&utm_medium=feed"
             },
             {
-              "title": "From Coder to Creator: My Journey",
-              "date": "2024-09-30",
-              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
+              "title": "My writing process, and how I keep it sustainable",
+              "date": "2025-01-20",
+              "link": "https://ntietz.com/blog/my-writing-process-and-how-i-keep-it-sustainable/?utm_source=atom&utm_medium=feed"
             },
             {
-              "title": "The \"Brainmade\" Mark",
-              "date": "2024-07-27",
-              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
+              "title": "Beginning of a MIDI GUI in Rust",
+              "date": "2025-01-13",
+              "link": "https://ntietz.com/blog/beginning-rust-midi-gui/?utm_source=atom&utm_medium=feed"
             },
             {
-              "title": "Compiler-Driven Development in Rust",
-              "date": "2024-06-16",
-              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
+              "title": "Great things about Rust that aren't just performance",
+              "date": "2025-01-06",
+              "link": "https://ntietz.com/blog/great-things-about-rust-beyond-perf/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -650,33 +743,33 @@
           ]
         },
         {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
             {
-              "title": "Summarizing our recommendations for software documentation",
-              "date": "2025-02-03",
-              "link": "https://ntietz.com/blog/our-case-study-on-software-documentation/?utm_source=atom&utm_medium=feed"
+              "title": "Notes on blogging",
+              "date": "2025-02-01",
+              "link": "https://robinrendle.com/notes/notes-on-blogging/"
             },
             {
-              "title": "Bright lights in dark times",
-              "date": "2025-01-27",
-              "link": "https://ntietz.com/blog/bright-lights-in-dark-times/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "My writing process, and how I keep it sustainable",
+              "title": "Change and risk",
               "date": "2025-01-20",
-              "link": "https://ntietz.com/blog/my-writing-process-and-how-i-keep-it-sustainable/?utm_source=atom&utm_medium=feed"
+              "link": "https://robinrendle.com/notes/change-and-risk/"
             },
             {
-              "title": "Beginning of a MIDI GUI in Rust",
-              "date": "2025-01-13",
-              "link": "https://ntietz.com/blog/beginning-rust-midi-gui/?utm_source=atom&utm_medium=feed"
+              "title": "Work is just work",
+              "date": "2025-01-16",
+              "link": "https://robinrendle.com/notes/work/"
             },
             {
-              "title": "Great things about Rust that aren't just performance",
-              "date": "2025-01-06",
-              "link": "https://ntietz.com/blog/great-things-about-rust-beyond-perf/?utm_source=atom&utm_medium=feed"
+              "title": "Learnable by default",
+              "date": "2025-01-11",
+              "link": "https://robinrendle.com/notes/learnable-by-default/"
+            },
+            {
+              "title": "Digital gardening",
+              "date": "2025-01-05",
+              "link": "https://robinrendle.com/notes/digital-gardening/"
             }
           ]
         },
@@ -1022,37 +1115,6 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "January 2025 blend of links",
-              "date": "2025-01-21",
-              "link": "https://thejollyteapot.com/january-2025-blend/"
-            },
-            {
-              "title": "The age of insecure billionaires",
-              "date": "2025-01-12",
-              "link": "https://thejollyteapot.com/2025/01/12/the-age-of-insecure-billionaires/"
-            },
-            {
-              "title": "Are we at peak shittiness?",
-              "date": "2025-01-05",
-              "link": "https://thejollyteapot.com/2025/01/05/are-we-at-peak-shittiness/"
-            },
-            {
-              "title": "November 2024 blend of links",
-              "date": "2024-11-24",
-              "link": "https://thejollyteapot.com/november-2024-blend/"
-            },
-            {
-              "title": "Some thoughts on RSS and newsletters",
-              "date": "2024-11-13",
-              "link": "https://thejollyteapot.com/2024/11/13/some-thoughts-on-rss-and-newsletters/"
-            }
-          ]
-        },
-        {
           "title": "Joep Schuurkes",
           "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
@@ -1173,37 +1235,6 @@
               "title": "The Fascinating Security Model of Dark Web Marketplaces",
               "date": "2024-11-30",
               "link": "https://boehs.org/node/dark-web-security"
-            }
-          ]
-        },
-        {
-          "title": "James Shore",
-          "feedUrl": "https://www.jamesshore.com/v2/feed",
-          "items": [
-            {
-              "title": "The Best Product Engineering Org in the World",
-              "date": "2025-01-10",
-              "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
-            },
-            {
-              "title": "Update on Software Engineering Career Ladder",
-              "date": "2024-08-20",
-              "link": "https://www.jamesshore.com/v2/blog/2024/update-on-software-engineering-career-ladder"
-            },
-            {
-              "title": "Agile Fluency eBook in Portuguese",
-              "date": "2024-05-15",
-              "link": "https://www.jamesshore.com/v2/blog/2024/agile-fluency-ebook-in-portuguese"
-            },
-            {
-              "title": "Free Self-Guided “Testing Without Mocks” Training",
-              "date": "2024-05-12",
-              "link": "https://www.jamesshore.com/v2/blog/2024/free-self-guided-testing-without-mocks-training"
-            },
-            {
-              "title": "A Useful Productivity Measure?",
-              "date": "2024-05-05",
-              "link": "https://www.jamesshore.com/v2/blog/2024/a-useful-productivity-measure"
             }
           ]
         },
@@ -2430,12 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-09T03:19:46.605Z",
+  "fetchDate": "2025-02-10T03:19:44.755Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/",
-    "https://robinrendle.com/feed.xml"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "Corporate “DEI” is an imperfect vehicle for deeply meaningful ideals",
+              "date": "2025-02-10",
+              "link": "https://charity.wtf/2025/02/10/corporate-dei-is-an-imperfect-vehicle-for-deeply-meaningful-ideals/"
+            },
+            {
+              "title": "On Versioning Observabilities (1.0, 2.0, 3.0…10.0?!?)",
+              "date": "2024-12-20",
+              "link": "https://charity.wtf/2024/12/20/on-versioning-observabilities-1-0-2-0-3-0-10-0/"
+            },
+            {
+              "title": "“Founder Mode” and the Art of Mythmaking",
+              "date": "2024-12-17",
+              "link": "https://charity.wtf/2024/12/17/founder-mode-and-the-art-of-mythmaking/"
+            },
+            {
+              "title": "There Is Only One Key Difference Between Observability 1.0 and 2.0",
+              "date": "2024-11-19",
+              "link": "https://charity.wtf/2024/11/19/there-is-only-one-key-difference-between-observability-1-0-and-2-0/"
+            },
+            {
+              "title": "How Hard Should Your Employer Work To Retain You?",
+              "date": "2024-10-11",
+              "link": "https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Dynamic content on a static HTML page using Web Components and PHP",
+              "date": "2025-02-10",
+              "link": "https://gomakethings.com/dynamic-content-on-a-static-html-page-using-web-components-and-php/"
+            },
+            {
+              "title": "Named colors",
+              "date": "2025-02-07",
+              "link": "https://gomakethings.com/named-colors/"
+            },
+            {
+              "title": "Getting a date in the current user's timezone with JavaScript",
+              "date": "2025-02-05",
+              "link": "https://gomakethings.com/getting-a-date-in-the-current-users-timezone-with-javascript/"
+            },
+            {
+              "title": "When should you use React?",
+              "date": "2025-02-04",
+              "link": "https://gomakethings.com/when-should-you-use-react/"
+            },
+            {
+              "title": "Alienating the right people",
+              "date": "2025-02-03",
+              "link": "https://gomakethings.com/alienating-the-right-people/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "The Art of Making Websites",
+              "date": "2025-02-10",
+              "link": "https://blog.jim-nielsen.com/2025/the-art-of-making-websites/"
+            },
+            {
+              "title": "Software Pliability",
+              "date": "2025-02-07",
+              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
+            },
+            {
+              "title": "Blown Away By the Unexpected ",
+              "date": "2025-02-04",
+              "link": "https://blog.jim-nielsen.com/2025/blown-away-by-the-unexpected/"
+            },
+            {
+              "title": "UI Pace Layers",
+              "date": "2025-02-02",
+              "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
+            },
+            {
+              "title": "Notes on Google Search Now Requiring JavaScript",
+              "date": "2025-01-29",
+              "link": "https://blog.jim-nielsen.com/2025/javascript-required/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "TypeScript: extracting parts of composite types via <code>infer</code>",
+              "date": "2025-02-10",
+              "link": "https://2ality.com/2025/02/typescript-infer-operator.html"
+            },
+            {
+              "title": "TypeDoc: testing code examples in doc comments",
+              "date": "2025-02-09",
+              "link": "https://2ality.com/2025/02/testing-typedoc-examples.html"
+            },
+            {
+              "title": "TypeScript: the <code>satisfies</code> operator",
+              "date": "2025-02-08",
+              "link": "https://2ality.com/2025/02/satisfies-operator.html"
+            },
+            {
+              "title": "Read-only accessibility in TypeScript",
+              "date": "2025-02-06",
+              "link": "https://2ality.com/2025/02/typescript-readonly.html"
+            },
+            {
+              "title": "Tutorial: publishing ESM-based npm packages with TypeScript",
+              "date": "2025-02-04",
+              "link": "https://2ality.com/2025/02/typescript-esm-packages.html"
+            }
+          ]
+        },
+        {
           "title": "James Shore",
           "feedUrl": "https://www.jamesshore.com/v2/feed",
           "items": [
@@ -35,33 +159,64 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
-              "title": "TypeDoc: testing code examples in doc comments",
-              "date": "2025-02-09",
-              "link": "https://2ality.com/2025/02/testing-typedoc-examples.html"
+              "title": "10 Feb 2025\n      ",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/status/microblog/"
             },
             {
-              "title": "TypeScript: the <code>satisfies</code> operator",
-              "date": "2025-02-08",
-              "link": "https://2ality.com/2025/02/satisfies-operator.html"
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
             },
             {
-              "title": "Read-only accessibility in TypeScript",
-              "date": "2025-02-06",
-              "link": "https://2ality.com/2025/02/typescript-readonly.html"
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
             },
             {
-              "title": "Tutorial: publishing ESM-based npm packages with TypeScript",
-              "date": "2025-02-04",
-              "link": "https://2ality.com/2025/02/typescript-esm-packages.html"
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
             },
             {
-              "title": "Computing with tuples in TypeScript",
-              "date": "2025-01-29",
-              "link": "https://2ality.com/2025/01/typescript-tuples.html"
+              "title": "Roald Dahl’s The Witches",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "What's in a ring buffer? And using them in Rust",
+              "date": "2025-02-10",
+              "link": "https://ntietz.com/blog/whats-in-a-ring-buffer/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Summarizing our recommendations for software documentation",
+              "date": "2025-02-03",
+              "link": "https://ntietz.com/blog/our-case-study-on-software-documentation/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Bright lights in dark times",
+              "date": "2025-01-27",
+              "link": "https://ntietz.com/blog/bright-lights-in-dark-times/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "My writing process, and how I keep it sustainable",
+              "date": "2025-01-20",
+              "link": "https://ntietz.com/blog/my-writing-process-and-how-i-keep-it-sustainable/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Beginning of a MIDI GUI in Rust",
+              "date": "2025-01-13",
+              "link": "https://ntietz.com/blog/beginning-rust-midi-gui/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -93,37 +248,6 @@
               "title": "November 2024 blend of links",
               "date": "2024-11-24",
               "link": "https://thejollyteapot.com/november-2024-blend/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "9 Feb 2025\n      ",
-              "date": "2025-02-09",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            },
-            {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
-            },
-            {
-              "title": "I got an iPhone",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/i-got-an-iphone/"
             }
           ]
         },
@@ -186,68 +310,6 @@
               "title": "Five for Friday – November 22, 2024",
               "date": "2024-11-23",
               "link": "https://angryweasel.com/blog/five-for-friday-november-22-2024/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Software Pliability",
-              "date": "2025-02-07",
-              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
-            },
-            {
-              "title": "Blown Away By the Unexpected ",
-              "date": "2025-02-04",
-              "link": "https://blog.jim-nielsen.com/2025/blown-away-by-the-unexpected/"
-            },
-            {
-              "title": "UI Pace Layers",
-              "date": "2025-02-02",
-              "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
-            },
-            {
-              "title": "Notes on Google Search Now Requiring JavaScript",
-              "date": "2025-01-29",
-              "link": "https://blog.jim-nielsen.com/2025/javascript-required/"
-            },
-            {
-              "title": "Missed Connections",
-              "date": "2025-01-28",
-              "link": "https://blog.jim-nielsen.com/2025/missed-connections/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Named colors",
-              "date": "2025-02-07",
-              "link": "https://gomakethings.com/named-colors/"
-            },
-            {
-              "title": "Getting a date in the current user's timezone with JavaScript",
-              "date": "2025-02-05",
-              "link": "https://gomakethings.com/getting-a-date-in-the-current-users-timezone-with-javascript/"
-            },
-            {
-              "title": "When should you use React?",
-              "date": "2025-02-04",
-              "link": "https://gomakethings.com/when-should-you-use-react/"
-            },
-            {
-              "title": "Alienating the right people",
-              "date": "2025-02-03",
-              "link": "https://gomakethings.com/alienating-the-right-people/"
-            },
-            {
-              "title": "Spaghetti code is a people problem",
-              "date": "2025-01-31",
-              "link": "https://gomakethings.com/spaghetti-code-is-a-people-problem/"
             }
           ]
         },
@@ -340,37 +402,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            },
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
-            },
-            {
-              "title": "Why pipes sometimes get \"stuck\": buffering",
-              "date": "2024-11-29",
-              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
-            },
-            {
-              "title": "Importing a frontend Javascript library without a build system",
-              "date": "2024-11-18",
-              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -398,6 +429,37 @@
               "title": "The web is a creative industry and is facing the same decline and shattered economics as film, TV, or publishing",
               "date": "2025-01-16",
               "link": "https://www.baldurbjarnason.com/notes/2025/the-web-is-a-creative-industry/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Some terminal frustrations",
+              "date": "2025-02-05",
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
+            },
+            {
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
+            },
+            {
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
+            },
+            {
+              "title": "Why pipes sometimes get \"stuck\": buffering",
+              "date": "2024-11-29",
+              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
+            },
+            {
+              "title": "Importing a frontend Javascript library without a build system",
+              "date": "2024-11-18",
+              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
             }
           ]
         },
@@ -677,37 +739,6 @@
               "title": "How I Use Claude",
               "date": "2025-01-01",
               "link": "https://borretti.me/article/how-i-use-claude"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Summarizing our recommendations for software documentation",
-              "date": "2025-02-03",
-              "link": "https://ntietz.com/blog/our-case-study-on-software-documentation/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Bright lights in dark times",
-              "date": "2025-01-27",
-              "link": "https://ntietz.com/blog/bright-lights-in-dark-times/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "My writing process, and how I keep it sustainable",
-              "date": "2025-01-20",
-              "link": "https://ntietz.com/blog/my-writing-process-and-how-i-keep-it-sustainable/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Beginning of a MIDI GUI in Rust",
-              "date": "2025-01-13",
-              "link": "https://ntietz.com/blog/beginning-rust-midi-gui/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Great things about Rust that aren't just performance",
-              "date": "2025-01-06",
-              "link": "https://ntietz.com/blog/great-things-about-rust-beyond-perf/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -1390,37 +1421,6 @@
               "title": "How team assignment worked at Pivotal (at least on Cloud Foundry)",
               "date": "2024-08-20",
               "link": "https://www.simplermachines.com/how-team-assignment-worked-at-pivotal/"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "On Versioning Observabilities (1.0, 2.0, 3.0…10.0?!?)",
-              "date": "2024-12-20",
-              "link": "https://charity.wtf/2024/12/20/on-versioning-observabilities-1-0-2-0-3-0-10-0/"
-            },
-            {
-              "title": "“Founder Mode” and the Art of Mythmaking",
-              "date": "2024-12-17",
-              "link": "https://charity.wtf/2024/12/17/founder-mode-and-the-art-of-mythmaking/"
-            },
-            {
-              "title": "There Is Only One Key Difference Between Observability 1.0 and 2.0",
-              "date": "2024-11-19",
-              "link": "https://charity.wtf/2024/11/19/there-is-only-one-key-difference-between-observability-1-0-and-2-0/"
-            },
-            {
-              "title": "How Hard Should Your Employer Work To Retain You?",
-              "date": "2024-10-11",
-              "link": "https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/"
-            },
-            {
-              "title": "Is It Time To Version Observability? (Signs Point To Yes)",
-              "date": "2024-08-07",
-              "link": "https://charity.wtf/2024/08/07/is-it-time-to-version-observability-signs-point-to-yes/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-10T03:19:44.755Z",
+  "fetchDate": "2025-02-11T03:18:48.480Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

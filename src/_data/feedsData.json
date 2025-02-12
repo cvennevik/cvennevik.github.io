@@ -4,6 +4,192 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Hey, When Did Intrinsic Web Design Become the Norm?",
+              "date": "2025-02-12",
+              "link": "https://thathtml.blog/2025/02/when-did-intrinsic-web-design-become-the-norm/"
+            },
+            {
+              "title": "Live CSS Colors: What You Can Safely Use",
+              "date": "2025-02-05",
+              "link": "https://thathtml.blog/2025/02/live-colors-what-you-can-safely-use/"
+            },
+            {
+              "title": "Squircles on the Loose! Images Demo via the html-squircle JS Library",
+              "date": "2025-01-30",
+              "link": "https://thathtml.blog/2025/01/squircle-images-on-the-loose/"
+            },
+            {
+              "title": "Using SVG Clip Path to Create a Squircle",
+              "date": "2025-01-28",
+              "link": "https://thathtml.blog/2025/01/using-svg-clip-path-to-create-a-squircle/"
+            },
+            {
+              "title": "Select Styling Revisions: What’s New",
+              "date": "2025-01-13",
+              "link": "https://thathtml.blog/2025/01/revised-select-styling-whats-new/"
+            }
+          ]
+        },
+        {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Pair Programming Listicle",
+              "date": "2025-02-11",
+              "link": "http://agileotter.blogspot.com/2025/02/pair-programming-listicle.html"
+            },
+            {
+              "title": "Irresponsibility: Estimates and NoEstimates",
+              "date": "2024-12-11",
+              "link": "http://agileotter.blogspot.com/2024/12/irresponsibility-estimates-and.html"
+            },
+            {
+              "title": "Basic Microphone Usage",
+              "date": "2024-08-06",
+              "link": "http://agileotter.blogspot.com/2024/08/basic-microphone-usage.html"
+            },
+            {
+              "title": "Profitable Struggle and Unprofitable Struggle",
+              "date": "2024-05-24",
+              "link": "http://agileotter.blogspot.com/2024/05/profitable-struggle-and-unprofitable.html"
+            },
+            {
+              "title": "Definition-by-Dysfunction",
+              "date": "2024-02-27",
+              "link": "http://agileotter.blogspot.com/2024/02/definition-by-dysfunction.html"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Progressively enhancing forms with an HTML Web Component (part 1)",
+              "date": "2025-02-11",
+              "link": "https://gomakethings.com/progressively-enhancing-forms-with-an-html-web-component-part-1/"
+            },
+            {
+              "title": "Dynamic content on a static HTML page using Web Components and PHP",
+              "date": "2025-02-10",
+              "link": "https://gomakethings.com/dynamic-content-on-a-static-html-page-using-web-components-and-php/"
+            },
+            {
+              "title": "Named colors",
+              "date": "2025-02-07",
+              "link": "https://gomakethings.com/named-colors/"
+            },
+            {
+              "title": "Getting a date in the current user's timezone with JavaScript",
+              "date": "2025-02-05",
+              "link": "https://gomakethings.com/getting-a-date-in-the-current-users-timezone-with-javascript/"
+            },
+            {
+              "title": "When should you use React?",
+              "date": "2025-02-04",
+              "link": "https://gomakethings.com/when-should-you-use-react/"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "Din AI-assistent kan bli personlig - slik fungerer det",
+              "date": "2025-02-11",
+              "link": "https://www.kodemaker.no/blogg/2025-02-11-konsept-rag/"
+            },
+            {
+              "title": "Adventskalendere, AI, og det tenkende mennesket",
+              "date": "2025-01-16",
+              "link": "https://www.kodemaker.no/blogg/2025-01-16-adventskalendere-ai-og-det-tenkende-mennesket/"
+            },
+            {
+              "title": "Java kommer til å kreve mindre, og gjøre mer",
+              "date": "2024-11-26",
+              "link": "https://www.kodemaker.no/blogg/2024-11-26-java-mer-effektivt/"
+            },
+            {
+              "title": "OffentlAI sektor",
+              "date": "2024-11-21",
+              "link": "https://www.kodemaker.no/blogg/2024-11-22-offentlai-sektor/"
+            },
+            {
+              "title": "UX-inspirasjon fra din egen verktøykasse",
+              "date": "2024-11-14",
+              "link": "https://www.kodemaker.no/blogg/2024-11-14-ux-inspirasjon-fra-din-egen-verktoykasse/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "11 Feb 2025\n      ",
+              "date": "2025-02-11",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            },
+            {
+              "title": "Roald Dahl’s The Witches",
+              "date": "2025-01-03",
+              "link": "https://frills.dev/blog/2025/january/the-witches/"
+            }
+          ]
+        },
+        {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "Make it happen",
+              "date": "2025-02-11",
+              "link": "https://dubroy.com/blog/make-it-happen"
+            },
+            {
+              "title": "Five coding hats",
+              "date": "2025-02-03",
+              "link": "https://dubroy.com/blog/five-coding-hats"
+            },
+            {
+              "title": "One way to do applied research",
+              "date": "2024-11-07",
+              "link": "https://dubroy.com/blog/one-way-to-do-applied-research"
+            },
+            {
+              "title": "Memories of some fantastic internships",
+              "date": "2024-07-31",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships"
+            },
+            {
+              "title": "Playing like a kid again",
+              "date": "2024-06-30",
+              "link": "https://dubroy.com/blog/playing-like-a-kid-again"
+            }
+          ]
+        },
+        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -31,37 +217,6 @@
               "title": "How Hard Should Your Employer Work To Retain You?",
               "date": "2024-10-11",
               "link": "https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Dynamic content on a static HTML page using Web Components and PHP",
-              "date": "2025-02-10",
-              "link": "https://gomakethings.com/dynamic-content-on-a-static-html-page-using-web-components-and-php/"
-            },
-            {
-              "title": "Named colors",
-              "date": "2025-02-07",
-              "link": "https://gomakethings.com/named-colors/"
-            },
-            {
-              "title": "Getting a date in the current user's timezone with JavaScript",
-              "date": "2025-02-05",
-              "link": "https://gomakethings.com/getting-a-date-in-the-current-users-timezone-with-javascript/"
-            },
-            {
-              "title": "When should you use React?",
-              "date": "2025-02-04",
-              "link": "https://gomakethings.com/when-should-you-use-react/"
-            },
-            {
-              "title": "Alienating the right people",
-              "date": "2025-02-03",
-              "link": "https://gomakethings.com/alienating-the-right-people/"
             }
           ]
         },
@@ -155,37 +310,6 @@
               "title": "Free Self-Guided “Testing Without Mocks” Training",
               "date": "2024-05-12",
               "link": "https://www.jamesshore.com/v2/blog/2024/free-self-guided-testing-without-mocks-training"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "10 Feb 2025\n      ",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            },
-            {
-              "title": "Roald Dahl’s The Witches",
-              "date": "2025-01-03",
-              "link": "https://frills.dev/blog/2025/january/the-witches/"
             }
           ]
         },
@@ -402,37 +526,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Todo notes as a storm approaches",
-              "date": "2025-02-05",
-              "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
-            },
-            {
-              "title": "Poisoning for propaganda: rising authoritarianism makes LLMs more dangerous",
-              "date": "2025-02-03",
-              "link": "https://www.baldurbjarnason.com/2025/poisoning-for-propaganda/"
-            },
-            {
-              "title": "Raven Photos (24 January 2025)",
-              "date": "2025-01-24",
-              "link": "https://www.baldurbjarnason.com/notes/photos/photos-14/"
-            },
-            {
-              "title": "First outlines of a plan: thinking strategically about a modern tech and media business",
-              "date": "2025-01-24",
-              "link": "https://www.baldurbjarnason.com/2025/first-outlines-of-a-plan/"
-            },
-            {
-              "title": "The web is a creative industry and is facing the same decline and shattered economics as film, TV, or publishing",
-              "date": "2025-01-16",
-              "link": "https://www.baldurbjarnason.com/notes/2025/the-web-is-a-creative-industry/"
-            }
-          ]
-        },
-        {
           "title": "Julia Evans",
           "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
@@ -464,6 +557,37 @@
           ]
         },
         {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Todo notes as a storm approaches",
+              "date": "2025-02-05",
+              "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
+            },
+            {
+              "title": "Poisoning for propaganda: rising authoritarianism makes LLMs more dangerous",
+              "date": "2025-02-03",
+              "link": "https://www.baldurbjarnason.com/2025/poisoning-for-propaganda/"
+            },
+            {
+              "title": "Raven Photos (24 January 2025)",
+              "date": "2025-01-24",
+              "link": "https://www.baldurbjarnason.com/notes/photos/photos-14/"
+            },
+            {
+              "title": "First outlines of a plan: thinking strategically about a modern tech and media business",
+              "date": "2025-01-24",
+              "link": "https://www.baldurbjarnason.com/2025/first-outlines-of-a-plan/"
+            },
+            {
+              "title": "The web is a creative industry and is facing the same decline and shattered economics as film, TV, or publishing",
+              "date": "2025-01-16",
+              "link": "https://www.baldurbjarnason.com/notes/2025/the-web-is-a-creative-industry/"
+            }
+          ]
+        },
+        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -491,37 +615,6 @@
               "title": "DSQL Vignette: Transactions and Durability",
               "date": "2024-12-05",
               "link": "http://brooker.co.za/blog/2024/12/05/inside-dsql-writes.html"
-            }
-          ]
-        },
-        {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Live CSS Colors: What You Can Safely Use",
-              "date": "2025-02-05",
-              "link": "https://thathtml.blog/2025/02/live-colors-what-you-can-safely-use/"
-            },
-            {
-              "title": "Squircles on the Loose! Images Demo via the html-squircle JS Library",
-              "date": "2025-01-30",
-              "link": "https://thathtml.blog/2025/01/squircle-images-on-the-loose/"
-            },
-            {
-              "title": "Using SVG Clip Path to Create a Squircle",
-              "date": "2025-01-28",
-              "link": "https://thathtml.blog/2025/01/using-svg-clip-path-to-create-a-squircle/"
-            },
-            {
-              "title": "Select Styling Revisions: What’s New",
-              "date": "2025-01-13",
-              "link": "https://thathtml.blog/2025/01/revised-select-styling-whats-new/"
-            },
-            {
-              "title": "Craft Stylized Text Animations with Khoshnus and SVG",
-              "date": "2025-01-10",
-              "link": "https://thathtml.blog/2025/01/stylized-svg-text-animations-with-khoshnus/"
             }
           ]
         },
@@ -739,37 +832,6 @@
               "title": "How I Use Claude",
               "date": "2025-01-01",
               "link": "https://borretti.me/article/how-i-use-claude"
-            }
-          ]
-        },
-        {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Five coding hats",
-              "date": "2025-02-03",
-              "link": "https://dubroy.com/blog/five-coding-hats"
-            },
-            {
-              "title": "One way to do applied research",
-              "date": "2024-11-07",
-              "link": "https://dubroy.com/blog/one-way-to-do-applied-research"
-            },
-            {
-              "title": "Memories of some fantastic internships",
-              "date": "2024-07-31",
-              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships"
-            },
-            {
-              "title": "Playing like a kid again",
-              "date": "2024-06-30",
-              "link": "https://dubroy.com/blog/playing-like-a-kid-again"
-            },
-            {
-              "title": "Taking learning seriously",
-              "date": "2024-05-30",
-              "link": "https://dubroy.com/blog/taking-learning-seriously"
             }
           ]
         },
@@ -1177,37 +1239,6 @@
           ]
         },
         {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Adventskalendere, AI, og det tenkende mennesket",
-              "date": "2025-01-16",
-              "link": "https://www.kodemaker.no/blogg/2025-01-16-adventskalendere-ai-og-det-tenkende-mennesket/"
-            },
-            {
-              "title": "Java kommer til å kreve mindre, og gjøre mer",
-              "date": "2024-11-26",
-              "link": "https://www.kodemaker.no/blogg/2024-11-26-java-mer-effektivt/"
-            },
-            {
-              "title": "OffentlAI sektor",
-              "date": "2024-11-21",
-              "link": "https://www.kodemaker.no/blogg/2024-11-22-offentlai-sektor/"
-            },
-            {
-              "title": "UX-inspirasjon fra din egen verktøykasse",
-              "date": "2024-11-14",
-              "link": "https://www.kodemaker.no/blogg/2024-11-14-ux-inspirasjon-fra-din-egen-verktoykasse/"
-            },
-            {
-              "title": "En diskusjon med Claude, Dunning–Kruger i aksjon",
-              "date": "2024-11-06",
-              "link": "https://www.kodemaker.no/blogg/2024-11-en-diskusjon-med-ai/"
-            }
-          ]
-        },
-        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -1452,37 +1483,6 @@
               "title": "A Guard Clause Is Maybe a Tiny Parser",
               "date": "2023-12-20",
               "link": "https://blog.thecodewhisperer.com/permalink/a-guard-clause-is-maybe-a-tiny-parser"
-            }
-          ]
-        },
-        {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Irresponsibility: Estimates and NoEstimates",
-              "date": "2024-12-11",
-              "link": "http://agileotter.blogspot.com/2024/12/irresponsibility-estimates-and.html"
-            },
-            {
-              "title": "Basic Microphone Usage",
-              "date": "2024-08-06",
-              "link": "http://agileotter.blogspot.com/2024/08/basic-microphone-usage.html"
-            },
-            {
-              "title": "Profitable Struggle and Unprofitable Struggle",
-              "date": "2024-05-24",
-              "link": "http://agileotter.blogspot.com/2024/05/profitable-struggle-and-unprofitable.html"
-            },
-            {
-              "title": "Definition-by-Dysfunction",
-              "date": "2024-02-27",
-              "link": "http://agileotter.blogspot.com/2024/02/definition-by-dysfunction.html"
-            },
-            {
-              "title": "Listicle on Flow and Teamwork",
-              "date": "2024-02-27",
-              "link": "http://agileotter.blogspot.com/2024/02/listicle-on-flow-and-teamwork.html"
             }
           ]
         },
@@ -1907,6 +1907,37 @@
               "title": "Everybody's Free (To Write Websites)",
               "date": "2024-07-16",
               "link": "https://sarajoy.dev/blog/write-websites/"
+            }
+          ]
+        },
+        {
+          "title": "Pablo Curell Mompo's",
+          "feedUrl": "https://blog.codemanship.dev/rss.xml",
+          "items": [
+            {
+              "title": "Floor and Ceiling raisers",
+              "date": "2024-10-04",
+              "link": "https://blog.codemanship.dev/floor-and-ceiling-raisers"
+            },
+            {
+              "title": "Retrospectives",
+              "date": "2024-05-29",
+              "link": "https://blog.codemanship.dev/retrospectives"
+            },
+            {
+              "title": "So we tried Ensemble Programming",
+              "date": "2024-05-27",
+              "link": "https://blog.codemanship.dev/so-we-tried-ensemble-programming"
+            },
+            {
+              "title": "Test factories should not have randomness, but... Why?",
+              "date": "2024-03-06",
+              "link": "https://blog.codemanship.dev/test-factories-should-not-have-randomness-but-why"
+            },
+            {
+              "title": "Dependencies in Knowledge and Practices",
+              "date": "2024-01-31",
+              "link": "https://blog.codemanship.dev/dependencies-in-knowledge-and-practices"
             }
           ]
         },
@@ -2461,11 +2492,10 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-11T03:18:48.480Z",
+  "fetchDate": "2025-02-12T03:18:03.842Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

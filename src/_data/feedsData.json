@@ -4,33 +4,64 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
             {
-              "title": "Nice things people said",
-              "date": "2025-10-02",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
+              "title": "Evaluating overlay-adjacent accessibility products",
+              "date": "2025-02-14",
+              "link": "https://ericwbailey.website/published/evaluating-overlay-adjacent-accessibility-products/"
             },
             {
-              "title": "12 Feb 2025\n      ",
-              "date": "2025-02-12",
-              "link": "https://frills.dev/status/microblog/"
+              "title": "Stanislav Petrov",
+              "date": "2025-02-04",
+              "link": "https://ericwbailey.website/published/stanislav-petrov/"
             },
             {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+              "title": "GitHub’s updated Commits page and the interactive list component",
+              "date": "2024-12-20",
+              "link": "https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/"
             },
             {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+              "title": "Don’t forget to localize your icons",
+              "date": "2024-11-11",
+              "link": "https://ericwbailey.website/published/dont-forget-to-localize-your-icons/"
             },
             {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
+              "title": "Making content-aware components using CSS’ <code>:has()</code>, grid, and quantity queries",
+              "date": "2024-09-28",
+              "link": "https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+            },
+            {
+              "title": "Some terminal frustrations",
+              "date": "2025-02-05",
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
+            },
+            {
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
+            },
+            {
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
+            },
+            {
+              "title": "Why pipes sometimes get \"stuck\": buffering",
+              "date": "2024-11-29",
+              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
             }
           ]
         },
@@ -38,6 +69,11 @@
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
+            {
+              "title": "Now I'm disappointed.",
+              "date": "2025-02-13",
+              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
+            },
             {
               "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
               "date": "2025-02-12",
@@ -57,11 +93,37 @@
               "title": "Raven Photos (24 January 2025)",
               "date": "2025-01-24",
               "link": "https://www.baldurbjarnason.com/notes/photos/photos-14/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Search Results Without JavaScript",
+              "date": "2025-02-13",
+              "link": "https://blog.jim-nielsen.com/2025/search-without-javascript/"
             },
             {
-              "title": "First outlines of a plan: thinking strategically about a modern tech and media business",
-              "date": "2025-01-24",
-              "link": "https://www.baldurbjarnason.com/2025/first-outlines-of-a-plan/"
+              "title": "The Art of Making Websites",
+              "date": "2025-02-10",
+              "link": "https://blog.jim-nielsen.com/2025/the-art-of-making-websites/"
+            },
+            {
+              "title": "Software Pliability",
+              "date": "2025-02-07",
+              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
+            },
+            {
+              "title": "Blown Away By the Unexpected ",
+              "date": "2025-02-04",
+              "link": "https://blog.jim-nielsen.com/2025/blown-away-by-the-unexpected/"
+            },
+            {
+              "title": "UI Pace Layers",
+              "date": "2025-02-02",
+              "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
             }
           ]
         },
@@ -69,6 +131,11 @@
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "How to dynamically update content with an HTML Web Component",
+              "date": "2025-02-13",
+              "link": "https://gomakethings.com/how-to-dynamically-update-content-with-an-html-web-component/"
+            },
             {
               "title": "Progressively enhancing forms with an HTML Web Component (part 2)",
               "date": "2025-02-12",
@@ -88,42 +155,94 @@
               "title": "Named colors",
               "date": "2025-02-07",
               "link": "https://gomakethings.com/named-colors/"
-            },
-            {
-              "title": "Getting a date in the current user's timezone with JavaScript",
-              "date": "2025-02-05",
-              "link": "https://gomakethings.com/getting-a-date-in-the-current-users-timezone-with-javascript/"
             }
           ]
         },
         {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
             {
-              "title": "The AI news of week 4",
+              "title": "0051: hytradboi program and tickets, query compilers, decorrelation encore, books, misc",
+              "date": "2025-02-13",
+              "link": "https://www.scattered-thoughts.net/log/0051/"
+            },
+            {
+              "title": "HYTRADBOI 2025 program and tickets",
+              "date": "2025-01-31",
+              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-program-and-tickets/"
+            },
+            {
+              "title": "The missing tier for query compilers",
+              "date": "2025-01-12",
+              "link": "https://www.scattered-thoughts.net/writing/the-missing-tier-for-query-compilers/"
+            },
+            {
+              "title": "0050: smolderingly fast b-trees, serious fun, what is the point of an online conference, it's ok to be afraid, HYTRADBOI progress, no other progress, vancouver.systems, not the incentives, llm garbage, books",
+              "date": "2024-11-25",
+              "link": "https://www.scattered-thoughts.net/log/0050/"
+            },
+            {
+              "title": "It's ok to be afraid",
+              "date": "2024-11-16",
+              "link": "https://www.scattered-thoughts.net/writing/its-ok-to-be-afraid/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "13 Feb 2025\n      ",
+              "date": "2025-02-13",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-02-13",
+              "link": "https://dbushell.com/notes/2025-02-13T07:08Z/"
+            },
+            {
               "date": "2025-02-12",
-              "link": "https://www.felienne.com/archives/8725"
+              "link": "https://dbushell.com/notes/2025-02-12T15:05Z/"
             },
             {
-              "title": "AI News – Week 3",
-              "date": "2025-02-12",
-              "link": "https://www.felienne.com/archives/8678"
+              "date": "2025-02-07",
+              "link": "https://dbushell.com/notes/2025-02-07T10:06Z/"
             },
             {
-              "title": "What does it mean for a university to have an opinion?",
-              "date": "2025-01-13",
-              "link": "https://www.felienne.com/archives/8575"
+              "date": "2025-02-05",
+              "link": "https://dbushell.com/notes/2025-02-05T09:51Z/"
             },
             {
-              "title": "Charlie Chaplin and the death of the internet",
-              "date": "2025-01-06",
-              "link": "https://www.felienne.com/archives/8542"
-            },
-            {
-              "title": "Paper: Feminism in Programming Language Design",
-              "date": "2024-10-17",
-              "link": "https://www.felienne.com/archives/8470"
+              "date": "2025-02-03",
+              "link": "https://dbushell.com/notes/2025-02-03T15:11Z/"
             }
           ]
         },
@@ -186,32 +305,6 @@
               "title": "Select Styling Revisions: What’s New",
               "date": "2025-01-13",
               "link": "https://thathtml.blog/2025/01/revised-select-styling-whats-new/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-02-12",
-              "link": "https://dbushell.com/notes/2025-02-12T15:05Z/"
-            },
-            {
-              "date": "2025-02-07",
-              "link": "https://dbushell.com/notes/2025-02-07T10:06Z/"
-            },
-            {
-              "date": "2025-02-05",
-              "link": "https://dbushell.com/notes/2025-02-05T09:51Z/"
-            },
-            {
-              "date": "2025-02-03",
-              "link": "https://dbushell.com/notes/2025-02-03T15:11Z/"
-            },
-            {
-              "date": "2025-02-03",
-              "link": "https://dbushell.com/notes/2025-02-03T07:23Z/"
             }
           ]
         },
@@ -367,37 +460,6 @@
               "title": "How Hard Should Your Employer Work To Retain You?",
               "date": "2024-10-11",
               "link": "https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "The Art of Making Websites",
-              "date": "2025-02-10",
-              "link": "https://blog.jim-nielsen.com/2025/the-art-of-making-websites/"
-            },
-            {
-              "title": "Software Pliability",
-              "date": "2025-02-07",
-              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
-            },
-            {
-              "title": "Blown Away By the Unexpected ",
-              "date": "2025-02-04",
-              "link": "https://blog.jim-nielsen.com/2025/blown-away-by-the-unexpected/"
-            },
-            {
-              "title": "UI Pace Layers",
-              "date": "2025-02-02",
-              "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
-            },
-            {
-              "title": "Notes on Google Search Now Requiring JavaScript",
-              "date": "2025-01-29",
-              "link": "https://blog.jim-nielsen.com/2025/javascript-required/"
             }
           ]
         },
@@ -619,37 +681,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            },
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
-            },
-            {
-              "title": "Why pipes sometimes get \"stuck\": buffering",
-              "date": "2024-11-29",
-              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
-            },
-            {
-              "title": "Importing a frontend Javascript library without a build system",
-              "date": "2024-11-18",
-              "link": "https://jvns.ca/blog/2024/11/18/how-to-import-a-javascript-library/"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -708,37 +739,6 @@
               "title": "FTC Catches up to #accessiBe",
               "date": "2025-01-05",
               "link": "https://adrianroselli.com/2025/01/ftc-catches-up-to-accessibe.html"
-            }
-          ]
-        },
-        {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "Stanislav Petrov",
-              "date": "2025-02-04",
-              "link": "https://ericwbailey.website/published/stanislav-petrov/"
-            },
-            {
-              "title": "GitHub’s updated Commits page and the interactive list component",
-              "date": "2024-12-20",
-              "link": "https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/"
-            },
-            {
-              "title": "Don’t forget to localize your icons",
-              "date": "2024-11-11",
-              "link": "https://ericwbailey.website/published/dont-forget-to-localize-your-icons/"
-            },
-            {
-              "title": "Making content-aware components using CSS’ <code>:has()</code>, grid, and quantity queries",
-              "date": "2024-09-28",
-              "link": "https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/"
-            },
-            {
-              "title": "Heading elements have been added to Project board views to improve screen reader page navigation",
-              "date": "2024-09-23",
-              "link": "https://github.blog/changelog/2024-09-23-heading-elements-added-to-project-board-views/"
             }
           ]
         },
@@ -836,37 +836,6 @@
           ]
         },
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Non-Fiction Has Bad Incentives",
-              "date": "2025-02-03",
-              "link": "https://borretti.me/article/non-fiction-has-bad-incentives"
-            },
-            {
-              "title": "Composable SQL",
-              "date": "2025-01-24",
-              "link": "https://borretti.me/article/composable-sql"
-            },
-            {
-              "title": "Adding Colour to macOS Folder Icons",
-              "date": "2025-01-17",
-              "link": "https://borretti.me/article/adding-colour-to-macos-folder-icons"
-            },
-            {
-              "title": "Implementing FSRS in 100 Lines",
-              "date": "2025-01-10",
-              "link": "https://borretti.me/article/implementing-fsrs-in-100-lines"
-            },
-            {
-              "title": "How I Use Claude",
-              "date": "2025-01-01",
-              "link": "https://borretti.me/article/how-i-use-claude"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -894,6 +863,37 @@
               "title": "Compiler-Driven Development in Rust",
               "date": "2024-06-16",
               "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Non-Fiction Has Bad Incentives",
+              "date": "2025-02-03",
+              "link": "https://borretti.me/article/non-fiction-has-bad-incentives"
+            },
+            {
+              "title": "Composable SQL",
+              "date": "2025-01-24",
+              "link": "https://borretti.me/article/composable-sql"
+            },
+            {
+              "title": "Adding Colour to macOS Folder Icons",
+              "date": "2025-01-17",
+              "link": "https://borretti.me/article/adding-colour-to-macos-folder-icons"
+            },
+            {
+              "title": "Implementing FSRS in 100 Lines",
+              "date": "2025-01-10",
+              "link": "https://borretti.me/article/implementing-fsrs-in-100-lines"
+            },
+            {
+              "title": "How I Use Claude",
+              "date": "2025-01-01",
+              "link": "https://borretti.me/article/how-i-use-claude"
             }
           ]
         },
@@ -956,37 +956,6 @@
               "title": "Slay the Spire #5: Going dynamic",
               "date": "2024-08-04",
               "link": "https://www.cvennevik.no/blog/slay-the-spire-05-going-dynamic/"
-            }
-          ]
-        },
-        {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "HYTRADBOI 2025 program and tickets",
-              "date": "2025-01-31",
-              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-program-and-tickets/"
-            },
-            {
-              "title": "The missing tier for query compilers",
-              "date": "2025-01-12",
-              "link": "https://www.scattered-thoughts.net/writing/the-missing-tier-for-query-compilers/"
-            },
-            {
-              "title": "0050 - smolderingly fast b-trees, serious fun, what is the point of an online conference, it's ok to be afraid, HYTRADBOI progress, no other progress, vancouver.systems, not the incentives, llm garbage, books",
-              "date": "2024-11-25",
-              "link": "https://www.scattered-thoughts.net/log/0050/"
-            },
-            {
-              "title": "It's ok to be afraid",
-              "date": "2024-11-16",
-              "link": "https://www.scattered-thoughts.net/writing/its-ok-to-be-afraid/"
-            },
-            {
-              "title": "What is the point of an online conference?",
-              "date": "2024-10-30",
-              "link": "https://www.scattered-thoughts.net/writing/what-is-the-point-of-an-online-conference/"
             }
           ]
         },
@@ -1173,6 +1142,37 @@
               "title": "Speeding up the JavaScript ecosystem - The barrel file debacle",
               "date": "2023-10-08",
               "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-7/"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "Week 4’s AI news",
+              "date": "2025-01-24",
+              "link": "https://www.felienne.com/archives/8725"
+            },
+            {
+              "title": "Week 3’s AI news",
+              "date": "2025-01-20",
+              "link": "https://www.felienne.com/archives/8678"
+            },
+            {
+              "title": "What does it mean for a university to have an opinion?",
+              "date": "2025-01-13",
+              "link": "https://www.felienne.com/archives/8575"
+            },
+            {
+              "title": "Charlie Chaplin and the death of the internet",
+              "date": "2025-01-06",
+              "link": "https://www.felienne.com/archives/8542"
+            },
+            {
+              "title": "Paper: Feminism in Programming Language Design",
+              "date": "2024-10-17",
+              "link": "https://www.felienne.com/archives/8470"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-13T03:18:37.547Z",
+  "fetchDate": "2025-02-14T03:18:31.002Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

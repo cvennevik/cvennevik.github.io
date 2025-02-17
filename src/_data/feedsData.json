@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Generic LLM Chatbot Attestation",
+              "date": "2025-02-16",
+              "link": "https://adrianroselli.com/2025/02/generic-llm-chatbot-attestation.html"
+            },
+            {
+              "title": "Which VoiceOver?",
+              "date": "2025-02-04",
+              "link": "https://adrianroselli.com/2025/02/which-voiceover.html"
+            },
+            {
+              "title": "Don’t Wrap Figure in a Link",
+              "date": "2025-01-16",
+              "link": "https://adrianroselli.com/2025/01/dont-wrap-figure-in-a-link.html"
+            },
+            {
+              "title": "aria-description Does Not Translate",
+              "date": "2025-01-09",
+              "link": "https://adrianroselli.com/2025/01/aria-description-does-not-translate.html"
+            },
+            {
+              "title": "Brief Note on Figure and Figcaption Support",
+              "date": "2025-01-07",
+              "link": "https://adrianroselli.com/2025/01/brief-note-on-figure-and-figcaption-support.html"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "16 Feb 2025\n      ",
+              "date": "2025-02-16",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
+            {
+              "title": "Painting yourself into a corner",
+              "date": "2025-02-16",
+              "link": "https://anniemueller.com/posts/painting-yourself-into-a-corner"
+            },
             {
               "title": "Talk about the thing itself",
               "date": "2025-02-16",
@@ -16,11 +83,6 @@
               "title": "A good day for love",
               "date": "2025-02-15",
               "link": "https://anniemueller.com/posts/a-good-day-for-love"
-            },
-            {
-              "title": "Painting yourself into a corner",
-              "date": "2025-02-14",
-              "link": "https://anniemueller.com/posts/painting-yourself-into-a-corner"
             },
             {
               "title": "A good night for old cartoons",
@@ -128,37 +190,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "15 Feb 2025\n      ",
-              "date": "2025-02-15",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (microblog)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -181,6 +212,37 @@
             {
               "date": "2025-02-07",
               "link": "https://dbushell.com/notes/2025-02-07T10:06Z/"
+            }
+          ]
+        },
+        {
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
+          "items": [
+            {
+              "title": "Optimizing for moments of discovery",
+              "date": "2025-02-15",
+              "link": "https://smallsheds.garden/blog/2025/optimizing-for-moments-of-discovery/"
+            },
+            {
+              "title": "Comparing counterstring implementations in TypeScript",
+              "date": "2025-01-18",
+              "link": "https://smallsheds.garden/blog/2025/comparing-counterstring-implementations-in-typescript/"
+            },
+            {
+              "title": "Using \"fake it till you make it\" to implement counterstring",
+              "date": "2025-01-04",
+              "link": "https://smallsheds.garden/blog/2025/using-fake-it-till-you-make-it-to-implement-counterstring/"
+            },
+            {
+              "title": "Your default response should be a safe one",
+              "date": "2024-12-28",
+              "link": "https://smallsheds.garden/blog/2024/your-default-response-should-be-a-safe-one/"
+            },
+            {
+              "title": "The nine skills of exploratory testing",
+              "date": "2024-12-14",
+              "link": "https://smallsheds.garden/blog/2024/the-nine-skills-of-exploratory-testing/"
             }
           ]
         },
@@ -340,37 +402,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Now I'm disappointed.",
-              "date": "2025-02-13",
-              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
-            },
-            {
-              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
-              "date": "2025-02-12",
-              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
-            },
-            {
-              "title": "Todo notes as a storm approaches",
-              "date": "2025-02-05",
-              "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
-            },
-            {
-              "title": "Poisoning for propaganda: rising authoritarianism makes LLMs more dangerous",
-              "date": "2025-02-03",
-              "link": "https://www.baldurbjarnason.com/2025/poisoning-for-propaganda/"
-            },
-            {
-              "title": "Raven Photos (24 January 2025)",
-              "date": "2025-01-24",
-              "link": "https://www.baldurbjarnason.com/notes/photos/photos-14/"
-            }
-          ]
-        },
-        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -398,6 +429,37 @@
               "title": "UI Pace Layers",
               "date": "2025-02-02",
               "link": "https://blog.jim-nielsen.com/2025/ui-pace-layers/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Now I'm disappointed.",
+              "date": "2025-02-13",
+              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
+            },
+            {
+              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
+              "date": "2025-02-12",
+              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
+            },
+            {
+              "title": "Todo notes as a storm approaches",
+              "date": "2025-02-05",
+              "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
+            },
+            {
+              "title": "Poisoning for propaganda: rising authoritarianism makes LLMs more dangerous",
+              "date": "2025-02-03",
+              "link": "https://www.baldurbjarnason.com/2025/poisoning-for-propaganda/"
+            },
+            {
+              "title": "Raven Photos (24 January 2025)",
+              "date": "2025-01-24",
+              "link": "https://www.baldurbjarnason.com/notes/photos/photos-14/"
             }
           ]
         },
@@ -774,37 +836,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Which VoiceOver?",
-              "date": "2025-02-04",
-              "link": "https://adrianroselli.com/2025/02/which-voiceover.html"
-            },
-            {
-              "title": "Don’t Wrap Figure in a Link",
-              "date": "2025-01-16",
-              "link": "https://adrianroselli.com/2025/01/dont-wrap-figure-in-a-link.html"
-            },
-            {
-              "title": "aria-description Does Not Translate",
-              "date": "2025-01-09",
-              "link": "https://adrianroselli.com/2025/01/aria-description-does-not-translate.html"
-            },
-            {
-              "title": "Brief Note on Figure and Figcaption Support",
-              "date": "2025-01-07",
-              "link": "https://adrianroselli.com/2025/01/brief-note-on-figure-and-figcaption-support.html"
-            },
-            {
-              "title": "FTC Catches up to #accessiBe",
-              "date": "2025-01-05",
-              "link": "https://adrianroselli.com/2025/01/ftc-catches-up-to-accessibe.html"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -1084,6 +1115,37 @@
           ]
         },
         {
+          "title": "Fynn Ellie Becker",
+          "feedUrl": "https://fynn.be/feed.xml",
+          "items": [
+            {
+              "title": "Sunset v28",
+              "date": "2025-01-28",
+              "link": "https://fynn.be/sunset/v28/"
+            },
+            {
+              "title": "Sunset v27",
+              "date": "2024-12-21",
+              "link": "https://fynn.be/sunset/v27/"
+            },
+            {
+              "title": "The story behind my name",
+              "date": "2024-12-01",
+              "link": "https://fynn.be/blog/story-behind-name/"
+            },
+            {
+              "title": "Selbstbestimmt",
+              "date": "2024-11-23",
+              "link": "https://fynn.be/blog/selbstbestimmt/"
+            },
+            {
+              "title": "Sunset v26",
+              "date": "2024-09-14",
+              "link": "https://fynn.be/sunset/v26/"
+            }
+          ]
+        },
+        {
           "title": "Kyle Shevlin's Blog RSS Feed",
           "feedUrl": "https://kyleshevlin.com/rss.xml",
           "items": [
@@ -1266,37 +1328,6 @@
               "title": "Productivity v Impact",
               "date": "2024-12-16",
               "link": "https://jessitron.com/2024/12/15/productivity-v-impact/"
-            }
-          ]
-        },
-        {
-          "title": "Joep Schuurkes",
-          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
-          "items": [
-            {
-              "title": "Comparing counterstring implementations in TypeScript",
-              "date": "2025-01-18",
-              "link": "https://smallsheds.garden/blog/2025/comparing-counterstring-implementations-in-typescript/"
-            },
-            {
-              "title": "Using \"fake it till you make it\" to implement counterstring",
-              "date": "2025-01-04",
-              "link": "https://smallsheds.garden/blog/2025/using-fake-it-till-you-make-it-to-implement-counterstring/"
-            },
-            {
-              "title": "Your default response should be a safe one",
-              "date": "2024-12-28",
-              "link": "https://smallsheds.garden/blog/2024/your-default-response-should-be-a-safe-one/"
-            },
-            {
-              "title": "The nine skills of exploratory testing",
-              "date": "2024-12-14",
-              "link": "https://smallsheds.garden/blog/2024/the-nine-skills-of-exploratory-testing/"
-            },
-            {
-              "title": "Being intentional about exploratory testing",
-              "date": "2024-11-08",
-              "link": "https://smallsheds.garden/blog/2024/being-intentional-about-exploratory-testing/"
             }
           ]
         },
@@ -1628,37 +1659,6 @@
               "title": "Wunderbaum testing",
               "date": "2023-11-23",
               "link": "https://chocolatedrivendevelopment.com/2023/11/23/wunderbaum/"
-            }
-          ]
-        },
-        {
-          "title": "Fynn Ellie Becker",
-          "feedUrl": "https://fynn.be/feed.xml",
-          "items": [
-            {
-              "title": "The story behind my name",
-              "date": "2024-12-01",
-              "link": "https://fynn.be/blog/story-behind-name/"
-            },
-            {
-              "title": "Selbstbestimmt",
-              "date": "2024-11-23",
-              "link": "https://fynn.be/blog/selbstbestimmt/"
-            },
-            {
-              "title": "I rebuilt my website from scratch with WebC",
-              "date": "2024-09-14",
-              "link": "https://fynn.be/blog/website-rebuilt-webc/"
-            },
-            {
-              "title": "Farewell Star Trek: Discovery",
-              "date": "2024-05-30",
-              "link": "https://fynn.be/blog/farewell-star-trek-discovery/"
-            },
-            {
-              "title": "Forced colors and Windows contrast themes",
-              "date": "2024-05-16",
-              "link": "https://fynn.be/talks/forced-colors-windows-contrast-themes/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-16T03:21:03.547Z",
+  "fetchDate": "2025-02-17T03:21:22.593Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

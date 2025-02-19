@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Purpose, goals, and burnout",
+              "date": "2025-02-18",
+              "link": "https://gomakethings.com/purpose-goals-and-burnout/"
+            },
+            {
+              "title": "The anarchy of the web",
+              "date": "2025-02-17",
+              "link": "https://gomakethings.com/the-anarchy-of-the-web/"
+            },
+            {
+              "title": "How to dynamically update content with an HTML Web Component",
+              "date": "2025-02-13",
+              "link": "https://gomakethings.com/how-to-dynamically-update-content-with-an-html-web-component/"
+            },
+            {
+              "title": "Progressively enhancing forms with an HTML Web Component (part 2)",
+              "date": "2025-02-12",
+              "link": "https://gomakethings.com/progressively-enhancing-forms-with-an-html-web-component-part-2/"
+            },
+            {
+              "title": "Progressively enhancing forms with an HTML Web Component (part 1)",
+              "date": "2025-02-11",
+              "link": "https://gomakethings.com/progressively-enhancing-forms-with-an-html-web-component-part-1/"
+            }
+          ]
+        },
+        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -31,6 +62,68 @@
               "title": "OKRs for Evil and Good",
               "date": "2024-12-23",
               "link": "https://jessitron.com/2024/12/22/okrs-for-evil-and-good/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "18 Feb 2025\n      ",
+              "date": "2025-02-18",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Keeping A Reading Log",
+              "date": "2025-02-18",
+              "link": "https://flamedfury.com/posts/keeping-a-reading-log/"
+            },
+            {
+              "title": "Blogging For The Hell Of It",
+              "date": "2025-02-04",
+              "link": "https://flamedfury.com/posts/blogging-for-the-hell-of-it/"
+            },
+            {
+              "title": "Music Questions Challenge",
+              "date": "2025-02-02",
+              "link": "https://flamedfury.com/posts/music-questions-challenge/"
+            },
+            {
+              "title": "Monthly Recap: January 2025",
+              "date": "2025-02-01",
+              "link": "https://flamedfury.com/posts/monthly-recap-january-2025/"
+            },
+            {
+              "title": "What To Write",
+              "date": "2025-01-24",
+              "link": "https://flamedfury.com/posts/what-to-write/"
             }
           ]
         },
@@ -66,42 +159,11 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "The anarchy of the web",
-              "date": "2025-02-17",
-              "link": "https://gomakethings.com/the-anarchy-of-the-web/"
-            },
-            {
-              "title": "How to dynamically update content with an HTML Web Component",
-              "date": "2025-02-13",
-              "link": "https://gomakethings.com/how-to-dynamically-update-content-with-an-html-web-component/"
-            },
-            {
-              "title": "Progressively enhancing forms with an HTML Web Component (part 2)",
-              "date": "2025-02-12",
-              "link": "https://gomakethings.com/progressively-enhancing-forms-with-an-html-web-component-part-2/"
-            },
-            {
-              "title": "Progressively enhancing forms with an HTML Web Component (part 1)",
-              "date": "2025-02-11",
-              "link": "https://gomakethings.com/progressively-enhancing-forms-with-an-html-web-component-part-1/"
-            },
-            {
-              "title": "Dynamic content on a static HTML page using Web Components and PHP",
-              "date": "2025-02-10",
-              "link": "https://gomakethings.com/dynamic-content-on-a-static-html-page-using-web-components-and-php/"
-            }
-          ]
-        },
-        {
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
             {
-              "title": "Array type notation: <code>T[]</code> vs. <code>Array&lt;T&gt;</code> in TypeScript",
+              "title": "Array type notations: <code>T[]</code> vs. <code>Array&lt;T&gt;</code> in TypeScript",
               "date": "2025-02-17",
               "link": "https://2ality.com/2025/02/array-type-notation.html"
             },
@@ -124,37 +186,6 @@
               "title": "TypeScript: extracting parts of compound types via <code>infer</code>",
               "date": "2025-02-10",
               "link": "https://2ality.com/2025/02/typescript-infer-operator.html"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "17 Feb 2025\n      ",
-              "date": "2025-02-17",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
             }
           ]
         },
@@ -898,37 +929,6 @@
           ]
         },
         {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Blogging For The Hell Of It",
-              "date": "2025-02-04",
-              "link": "https://flamedfury.com/posts/blogging-for-the-hell-of-it/"
-            },
-            {
-              "title": "Music Questions Challenge",
-              "date": "2025-02-02",
-              "link": "https://flamedfury.com/posts/music-questions-challenge/"
-            },
-            {
-              "title": "Monthly Recap: January 2025",
-              "date": "2025-02-01",
-              "link": "https://flamedfury.com/posts/monthly-recap-january-2025/"
-            },
-            {
-              "title": "What To Write",
-              "date": "2025-01-24",
-              "link": "https://flamedfury.com/posts/what-to-write/"
-            },
-            {
-              "title": "Default Apps 2025",
-              "date": "2025-01-24",
-              "link": "https://flamedfury.com/posts/default-apps-2025/"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -960,37 +960,6 @@
           ]
         },
         {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-          "items": [
-            {
-              "title": "Obsidian.md: The Good Parts [Part 2]",
-              "date": "2025-02-03",
-              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
-            },
-            {
-              "title": "AI Is Not Designed for You",
-              "date": "2024-12-06",
-              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
-            },
-            {
-              "title": "From Coder to Creator: My Journey",
-              "date": "2024-09-30",
-              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
-            },
-            {
-              "title": "The \"Brainmade\" Mark",
-              "date": "2024-07-27",
-              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
-            },
-            {
-              "title": "Compiler-Driven Development in Rust",
-              "date": "2024-06-16",
-              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -1018,6 +987,37 @@
               "title": "How I Use Claude",
               "date": "2025-01-01",
               "link": "https://borretti.me/article/how-i-use-claude"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Obsidian.md: The Good Parts [Part 2]",
+              "date": "2025-02-03",
+              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
+            },
+            {
+              "title": "AI Is Not Designed for You",
+              "date": "2024-12-06",
+              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
+            },
+            {
+              "title": "From Coder to Creator: My Journey",
+              "date": "2024-09-30",
+              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
+            },
+            {
+              "title": "The \"Brainmade\" Mark",
+              "date": "2024-07-27",
+              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
+            },
+            {
+              "title": "Compiler-Driven Development in Rust",
+              "date": "2024-06-16",
+              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-18T03:17:58.877Z",
+  "fetchDate": "2025-02-19T03:20:30.544Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

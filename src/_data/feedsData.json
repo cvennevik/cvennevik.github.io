@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "CSS Space Toggles",
+              "date": "2025-02-19",
+              "link": "https://blog.jim-nielsen.com/2025/css-space-toggles/"
+            },
+            {
+              "title": "Aspect Ratio Changes With CSS View Transitions",
+              "date": "2025-02-17",
+              "link": "https://blog.jim-nielsen.com/2025/aspect-ratio-in-css-view-transitions/"
+            },
+            {
+              "title": "Search Results Without JavaScript",
+              "date": "2025-02-13",
+              "link": "https://blog.jim-nielsen.com/2025/search-without-javascript/"
+            },
+            {
+              "title": "The Art of Making Websites",
+              "date": "2025-02-10",
+              "link": "https://blog.jim-nielsen.com/2025/the-art-of-making-websites/"
+            },
+            {
+              "title": "Software Pliability",
+              "date": "2025-02-07",
+              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Existing in tech",
+              "date": "2025-02-19",
+              "link": "https://gomakethings.com/existing-in-tech/"
+            },
             {
               "title": "Purpose, goals, and burnout",
               "date": "2025-02-18",
@@ -26,11 +62,192 @@
               "title": "Progressively enhancing forms with an HTML Web Component (part 2)",
               "date": "2025-02-12",
               "link": "https://gomakethings.com/progressively-enhancing-forms-with-an-html-web-component-part-2/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "The bottom type <code>never</code> in TypeScript",
+              "date": "2025-02-19",
+              "link": "https://2ality.com/2025/02/typescript-never.html"
             },
             {
-              "title": "Progressively enhancing forms with an HTML Web Component (part 1)",
-              "date": "2025-02-11",
-              "link": "https://gomakethings.com/progressively-enhancing-forms-with-an-html-web-component-part-1/"
+              "title": "Array type notations: <code>T[]</code> vs. <code>Array&lt;T&gt;</code> in TypeScript",
+              "date": "2025-02-17",
+              "link": "https://2ality.com/2025/02/array-type-notation.html"
+            },
+            {
+              "title": "Symbols in TypeScript",
+              "date": "2025-02-17",
+              "link": "https://2ality.com/2025/02/symbols-in-typescript.html"
+            },
+            {
+              "title": "Conditional types in TypeScript",
+              "date": "2025-02-15",
+              "link": "https://2ality.com/2025/02/conditional-types-typescript.html"
+            },
+            {
+              "title": "Mapped types in TypeScript",
+              "date": "2025-02-14",
+              "link": "https://2ality.com/2025/02/mapped-types-typescript.html"
+            }
+          ]
+        },
+        {
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
+          "items": [
+            {
+              "title": "Demystifying monads in Rust through property-based testing",
+              "date": "2025-02-19",
+              "link": "https://sunshowers.io/posts/monads-through-pbt/"
+            },
+            {
+              "title": "Free will quite clearly doesn't exist",
+              "date": "2025-01-29",
+              "link": "https://sunshowers.io/posts/there-is-no-free-will/"
+            },
+            {
+              "title": "Why nextest is process-per-test",
+              "date": "2025-01-07",
+              "link": "https://sunshowers.io/posts/nextest-process-per-test/"
+            },
+            {
+              "title": "Beyond Ctrl-C: The dark corners of Unix signal handling",
+              "date": "2024-09-03",
+              "link": "https://sunshowers.io/posts/beyond-ctrl-c-signals/"
+            },
+            {
+              "title": "Debugging a rustc segfault on illumos",
+              "date": "2024-08-04",
+              "link": "https://sunshowers.io/posts/rustc-segfault-illumos/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "February 2025 blend of links",
+              "date": "2025-02-19",
+              "link": "https://thejollyteapot.com/february-2025-blend/"
+            },
+            {
+              "title": "The nice feeling of trusting tools",
+              "date": "2025-02-09",
+              "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
+            },
+            {
+              "title": "January 2025 blend of links",
+              "date": "2025-01-21",
+              "link": "https://thejollyteapot.com/january-2025-blend/"
+            },
+            {
+              "title": "The age of insecure billionaires",
+              "date": "2025-01-12",
+              "link": "https://thejollyteapot.com/2025/01/12/the-age-of-insecure-billionaires/"
+            },
+            {
+              "title": "Are we at peak shittiness?",
+              "date": "2025-01-05",
+              "link": "https://thejollyteapot.com/2025/01/05/are-we-at-peak-shittiness/"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Solving Unintended View Transition Wonkiness",
+              "date": "2025-02-19",
+              "link": "https://thathtml.blog/2025/02/solving-unintended-view-transition-wonkiness/"
+            },
+            {
+              "title": "We Need to Talk About Anti-Web Coding Assistants",
+              "date": "2025-02-14",
+              "link": "https://thathtml.blog/2025/02/we-need-to-talk-about-anti-web-coding-assistants/"
+            },
+            {
+              "title": "Hey, When Did Intrinsic Web Design Become the Norm?",
+              "date": "2025-02-12",
+              "link": "https://thathtml.blog/2025/02/when-did-intrinsic-web-design-become-the-norm/"
+            },
+            {
+              "title": "Live CSS Colors: What You Can Safely Use",
+              "date": "2025-02-05",
+              "link": "https://thathtml.blog/2025/02/live-colors-what-you-can-safely-use/"
+            },
+            {
+              "title": "Squircles on the Loose! Images Demo via the html-squircle JS Library",
+              "date": "2025-01-30",
+              "link": "https://thathtml.blog/2025/01/squircle-images-on-the-loose/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "19 Feb 2025\n      ",
+              "date": "2025-02-19",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Five Kinds of Nondeterminism",
+              "date": "2025-02-19",
+              "link": "https://buttondown.com/hillelwayne/archive/five-kinds-of-nondeterminism/"
+            },
+            {
+              "title": "Are Efficiency and Horizontal Scalability at odds?",
+              "date": "2025-02-12",
+              "link": "https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/"
+            },
+            {
+              "title": "What hard thing does your tech make easy?",
+              "date": "2025-01-29",
+              "link": "https://buttondown.com/hillelwayne/archive/what-hard-thing-does-your-tech-make-easy/"
+            },
+            {
+              "title": "The Juggler's Curse",
+              "date": "2025-01-22",
+              "link": "https://buttondown.com/hillelwayne/archive/the-jugglers-curse/"
+            },
+            {
+              "title": "What are the Rosettas of formal specification?",
+              "date": "2025-01-15",
+              "link": "https://buttondown.com/hillelwayne/archive/what-are-the-rosettas-of-formal-specification/"
             }
           ]
         },
@@ -66,37 +283,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "18 Feb 2025\n      ",
-              "date": "2025-02-18",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
-            }
-          ]
-        },
-        {
           "title": "The Weblog of fLaMEd",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -124,68 +310,6 @@
               "title": "What To Write",
               "date": "2025-01-24",
               "link": "https://flamedfury.com/posts/what-to-write/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Aspect Ratio Changes With CSS View Transitions",
-              "date": "2025-02-17",
-              "link": "https://blog.jim-nielsen.com/2025/aspect-ratio-in-css-view-transitions/"
-            },
-            {
-              "title": "Search Results Without JavaScript",
-              "date": "2025-02-13",
-              "link": "https://blog.jim-nielsen.com/2025/search-without-javascript/"
-            },
-            {
-              "title": "The Art of Making Websites",
-              "date": "2025-02-10",
-              "link": "https://blog.jim-nielsen.com/2025/the-art-of-making-websites/"
-            },
-            {
-              "title": "Software Pliability",
-              "date": "2025-02-07",
-              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
-            },
-            {
-              "title": "Blown Away By the Unexpected ",
-              "date": "2025-02-04",
-              "link": "https://blog.jim-nielsen.com/2025/blown-away-by-the-unexpected/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Array type notations: <code>T[]</code> vs. <code>Array&lt;T&gt;</code> in TypeScript",
-              "date": "2025-02-17",
-              "link": "https://2ality.com/2025/02/array-type-notation.html"
-            },
-            {
-              "title": "Symbols in TypeScript",
-              "date": "2025-02-17",
-              "link": "https://2ality.com/2025/02/symbols-in-typescript.html"
-            },
-            {
-              "title": "Conditional types in TypeScript",
-              "date": "2025-02-15",
-              "link": "https://2ality.com/2025/02/conditional-types-typescript.html"
-            },
-            {
-              "title": "Mapped types in TypeScript",
-              "date": "2025-02-14",
-              "link": "https://2ality.com/2025/02/mapped-types-typescript.html"
-            },
-            {
-              "title": "TypeScript: extracting parts of compound types via <code>infer</code>",
-              "date": "2025-02-10",
-              "link": "https://2ality.com/2025/02/typescript-infer-operator.html"
             }
           ]
         },
@@ -279,37 +403,6 @@
               "title": "A good day for sandwiches",
               "date": "2025-02-09",
               "link": "https://anniemueller.com/posts/a-good-day-for-sandwiches"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "trot",
-              "date": "2025-02-15",
-              "link": "https://robinrendle.com/notes/trot/"
-            },
-            {
-              "title": "Notes on blogging",
-              "date": "2025-02-01",
-              "link": "https://robinrendle.com/notes/notes-on-blogging/"
-            },
-            {
-              "title": "Change and risk",
-              "date": "2025-01-20",
-              "link": "https://robinrendle.com/notes/change-and-risk/"
-            },
-            {
-              "title": "Work is just work",
-              "date": "2025-01-16",
-              "link": "https://robinrendle.com/notes/work/"
-            },
-            {
-              "title": "Learnable by default",
-              "date": "2025-01-11",
-              "link": "https://robinrendle.com/notes/learnable-by-default/"
             }
           ]
         },
@@ -495,68 +588,6 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "We Need to Talk About Anti-Web Coding Assistants",
-              "date": "2025-02-14",
-              "link": "https://thathtml.blog/2025/02/we-need-to-talk-about-anti-web-coding-assistants/"
-            },
-            {
-              "title": "Hey, When Did Intrinsic Web Design Become the Norm?",
-              "date": "2025-02-12",
-              "link": "https://thathtml.blog/2025/02/when-did-intrinsic-web-design-become-the-norm/"
-            },
-            {
-              "title": "Live CSS Colors: What You Can Safely Use",
-              "date": "2025-02-05",
-              "link": "https://thathtml.blog/2025/02/live-colors-what-you-can-safely-use/"
-            },
-            {
-              "title": "Squircles on the Loose! Images Demo via the html-squircle JS Library",
-              "date": "2025-01-30",
-              "link": "https://thathtml.blog/2025/01/squircle-images-on-the-loose/"
-            },
-            {
-              "title": "Using SVG Clip Path to Create a Squircle",
-              "date": "2025-01-28",
-              "link": "https://thathtml.blog/2025/01/using-svg-clip-path-to-create-a-squircle/"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            },
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            },
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
-            },
-            {
-              "title": "Why pipes sometimes get \"stuck\": buffering",
-              "date": "2024-11-29",
-              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -646,37 +677,6 @@
               "title": "OffentlAI sektor",
               "date": "2024-11-21",
               "link": "https://www.kodemaker.no/blogg/2024-11-22-offentlai-sektor/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Are Efficiency and Horizontal Scalability at odds?",
-              "date": "2025-02-12",
-              "link": "https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/"
-            },
-            {
-              "title": "What hard thing does your tech make easy?",
-              "date": "2025-01-29",
-              "link": "https://buttondown.com/hillelwayne/archive/what-hard-thing-does-your-tech-make-easy/"
-            },
-            {
-              "title": "The Juggler's Curse",
-              "date": "2025-01-22",
-              "link": "https://buttondown.com/hillelwayne/archive/the-jugglers-curse/"
-            },
-            {
-              "title": "What are the Rosettas of formal specification?",
-              "date": "2025-01-15",
-              "link": "https://buttondown.com/hillelwayne/archive/what-are-the-rosettas-of-formal-specification/"
-            },
-            {
-              "title": "\"Logic for Programmers\" Project Update",
-              "date": "2025-01-07",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-project-update/"
             }
           ]
         },
@@ -801,37 +801,6 @@
               "title": "Free Self-Guided “Testing Without Mocks” Training",
               "date": "2024-05-12",
               "link": "https://www.jamesshore.com/v2/blog/2024/free-self-guided-testing-without-mocks-training"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "The nice feeling of trusting tools",
-              "date": "2025-02-09",
-              "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
-            },
-            {
-              "title": "January 2025 blend of links",
-              "date": "2025-01-21",
-              "link": "https://thejollyteapot.com/january-2025-blend/"
-            },
-            {
-              "title": "The age of insecure billionaires",
-              "date": "2025-01-12",
-              "link": "https://thejollyteapot.com/2025/01/12/the-age-of-insecure-billionaires/"
-            },
-            {
-              "title": "Are we at peak shittiness?",
-              "date": "2025-01-05",
-              "link": "https://thejollyteapot.com/2025/01/05/are-we-at-peak-shittiness/"
-            },
-            {
-              "title": "November 2024 blend of links",
-              "date": "2024-11-24",
-              "link": "https://thejollyteapot.com/november-2024-blend/"
             }
           ]
         },
@@ -1080,37 +1049,6 @@
               "title": "Agile Testing Days 2024 - Reunion for Quality",
               "date": "2024-12-07",
               "link": "https://www.lisihocke.com/2024/12/agile-testing-days-2024-reunion-for-quality.html"
-            }
-          ]
-        },
-        {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "Free will quite clearly doesn't exist",
-              "date": "2025-01-29",
-              "link": "https://sunshowers.io/posts/there-is-no-free-will/"
-            },
-            {
-              "title": "Why nextest is process-per-test",
-              "date": "2025-01-07",
-              "link": "https://sunshowers.io/posts/nextest-process-per-test/"
-            },
-            {
-              "title": "Beyond Ctrl-C: The dark corners of Unix signal handling",
-              "date": "2024-09-03",
-              "link": "https://sunshowers.io/posts/beyond-ctrl-c-signals/"
-            },
-            {
-              "title": "Debugging a rustc segfault on illumos",
-              "date": "2024-08-04",
-              "link": "https://sunshowers.io/posts/rustc-segfault-illumos/"
-            },
-            {
-              "title": "Professionals demonstrate empathy",
-              "date": "2024-07-02",
-              "link": "https://sunshowers.io/posts/be-an-adult/"
             }
           ]
         },
@@ -2492,10 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-19T03:20:30.544Z",
+  "fetchDate": "2025-02-20T03:20:36.482Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://jvns.ca/atom.xml",
+    "https://robinrendle.com/feed.xml"
   ]
 }

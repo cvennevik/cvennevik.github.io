@@ -4,33 +4,121 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
             {
-              "title": "CSS Space Toggles",
+              "title": "If you don’t, somebody else will:",
+              "date": "2025-02-21",
+              "link": "https://anniemueller.com/posts/if-you-dont-somebody-else-will"
+            },
+            {
+              "title": "Painting yourself into a corner",
+              "date": "2025-02-16",
+              "link": "https://anniemueller.com/posts/painting-yourself-into-a-corner"
+            },
+            {
+              "title": "Talk about the thing itself",
+              "date": "2025-02-16",
+              "link": "https://anniemueller.com/posts/talk-about-the-thing-itself"
+            },
+            {
+              "title": "A good day for love",
+              "date": "2025-02-15",
+              "link": "https://anniemueller.com/posts/a-good-day-for-love"
+            },
+            {
+              "title": "A good night for old cartoons",
+              "date": "2025-02-12",
+              "link": "https://anniemueller.com/posts/a-good-night-for-old-cartoons"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Demo: running TypeScript directly in Node.js",
+              "date": "2025-02-20",
+              "link": "https://2ality.com/2025/02/nodejs-type-stripping-demo.html"
+            },
+            {
+              "title": "The bottom type <code>never</code> in TypeScript",
               "date": "2025-02-19",
-              "link": "https://blog.jim-nielsen.com/2025/css-space-toggles/"
+              "link": "https://2ality.com/2025/02/typescript-never.html"
             },
             {
-              "title": "Aspect Ratio Changes With CSS View Transitions",
+              "title": "Array type notations: <code>T[]</code> vs. <code>Array&lt;T&gt;</code> in TypeScript",
               "date": "2025-02-17",
-              "link": "https://blog.jim-nielsen.com/2025/aspect-ratio-in-css-view-transitions/"
+              "link": "https://2ality.com/2025/02/array-type-notation.html"
             },
             {
-              "title": "Search Results Without JavaScript",
-              "date": "2025-02-13",
-              "link": "https://blog.jim-nielsen.com/2025/search-without-javascript/"
+              "title": "Symbols in TypeScript",
+              "date": "2025-02-17",
+              "link": "https://2ality.com/2025/02/symbols-in-typescript.html"
             },
             {
-              "title": "The Art of Making Websites",
+              "title": "Conditional types in TypeScript",
+              "date": "2025-02-15",
+              "link": "https://2ality.com/2025/02/conditional-types-typescript.html"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "20 Feb 2025\n      ",
+              "date": "2025-02-20",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
               "date": "2025-02-10",
-              "link": "https://blog.jim-nielsen.com/2025/the-art-of-making-websites/"
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
             },
             {
-              "title": "Software Pliability",
-              "date": "2025-02-07",
-              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            },
+            {
+              "title": "Changelog –\n        7 Jan 2025\n      ",
+              "date": "2025-01-07",
+              "link": "https://frills.dev/changelog/250107/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-02-20",
+              "link": "https://dbushell.com/notes/2025-02-20T06:42Z/"
+            },
+            {
+              "date": "2025-02-15",
+              "link": "https://dbushell.com/notes/2025-02-15T07:01Z/"
+            },
+            {
+              "date": "2025-02-14",
+              "link": "https://dbushell.com/notes/2025-02-14T10:20Z/"
+            },
+            {
+              "date": "2025-02-13",
+              "link": "https://dbushell.com/notes/2025-02-13T07:08Z/"
+            },
+            {
+              "date": "2025-02-12",
+              "link": "https://dbushell.com/notes/2025-02-12T15:05Z/"
             }
           ]
         },
@@ -66,33 +154,33 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
             {
-              "title": "The bottom type <code>never</code> in TypeScript",
+              "title": "CSS Space Toggles",
               "date": "2025-02-19",
-              "link": "https://2ality.com/2025/02/typescript-never.html"
+              "link": "https://blog.jim-nielsen.com/2025/css-space-toggles/"
             },
             {
-              "title": "Array type notations: <code>T[]</code> vs. <code>Array&lt;T&gt;</code> in TypeScript",
+              "title": "Aspect Ratio Changes With CSS View Transitions",
               "date": "2025-02-17",
-              "link": "https://2ality.com/2025/02/array-type-notation.html"
+              "link": "https://blog.jim-nielsen.com/2025/aspect-ratio-in-css-view-transitions/"
             },
             {
-              "title": "Symbols in TypeScript",
-              "date": "2025-02-17",
-              "link": "https://2ality.com/2025/02/symbols-in-typescript.html"
+              "title": "Search Results Without JavaScript",
+              "date": "2025-02-13",
+              "link": "https://blog.jim-nielsen.com/2025/search-without-javascript/"
             },
             {
-              "title": "Conditional types in TypeScript",
-              "date": "2025-02-15",
-              "link": "https://2ality.com/2025/02/conditional-types-typescript.html"
+              "title": "The Art of Making Websites",
+              "date": "2025-02-10",
+              "link": "https://blog.jim-nielsen.com/2025/the-art-of-making-websites/"
             },
             {
-              "title": "Mapped types in TypeScript",
-              "date": "2025-02-14",
-              "link": "https://2ality.com/2025/02/mapped-types-typescript.html"
+              "title": "Software Pliability",
+              "date": "2025-02-07",
+              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
             }
           ]
         },
@@ -186,37 +274,6 @@
               "title": "Squircles on the Loose! Images Demo via the html-squircle JS Library",
               "date": "2025-01-30",
               "link": "https://thathtml.blog/2025/01/squircle-images-on-the-loose/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "19 Feb 2025\n      ",
-              "date": "2025-02-19",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            },
-            {
-              "title": "Changelog –\n        7 Jan 2025\n      ",
-              "date": "2025-01-07",
-              "link": "https://frills.dev/changelog/250107/"
             }
           ]
         },
@@ -376,33 +433,64 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
             {
-              "title": "Painting yourself into a corner",
-              "date": "2025-02-16",
-              "link": "https://anniemueller.com/posts/painting-yourself-into-a-corner"
-            },
-            {
-              "title": "Talk about the thing itself",
-              "date": "2025-02-16",
-              "link": "https://anniemueller.com/posts/talk-about-the-thing-itself"
-            },
-            {
-              "title": "A good day for love",
+              "title": "trot",
               "date": "2025-02-15",
-              "link": "https://anniemueller.com/posts/a-good-day-for-love"
+              "link": "https://robinrendle.com/notes/trot/"
             },
             {
-              "title": "A good night for old cartoons",
-              "date": "2025-02-12",
-              "link": "https://anniemueller.com/posts/a-good-night-for-old-cartoons"
+              "title": "Notes on blogging",
+              "date": "2025-02-01",
+              "link": "https://robinrendle.com/notes/notes-on-blogging/"
             },
             {
-              "title": "A good day for sandwiches",
-              "date": "2025-02-09",
-              "link": "https://anniemueller.com/posts/a-good-day-for-sandwiches"
+              "title": "Change and risk",
+              "date": "2025-01-20",
+              "link": "https://robinrendle.com/notes/change-and-risk/"
+            },
+            {
+              "title": "Work is just work",
+              "date": "2025-01-16",
+              "link": "https://robinrendle.com/notes/work/"
+            },
+            {
+              "title": "Learnable by default",
+              "date": "2025-01-11",
+              "link": "https://robinrendle.com/notes/learnable-by-default/"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
+              "date": "2025-02-15",
+              "link": "https://www.felienne.com/archives/8749"
+            },
+            {
+              "title": "Week 4’s AI news",
+              "date": "2025-01-24",
+              "link": "https://www.felienne.com/archives/8725"
+            },
+            {
+              "title": "Week 3’s AI news",
+              "date": "2025-01-20",
+              "link": "https://www.felienne.com/archives/8678"
+            },
+            {
+              "title": "What does it mean for a university to have an opinion?",
+              "date": "2025-01-13",
+              "link": "https://www.felienne.com/archives/8575"
+            },
+            {
+              "title": "Charlie Chaplin and the death of the internet",
+              "date": "2025-01-06",
+              "link": "https://www.felienne.com/archives/8542"
             }
           ]
         },
@@ -434,32 +522,6 @@
               "title": "Corporate Attribution Error",
               "date": "2024-09-07",
               "link": "https://www.drcathicks.com/post/corporate-attribution-error"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-02-15",
-              "link": "https://dbushell.com/notes/2025-02-15T07:01Z/"
-            },
-            {
-              "date": "2025-02-14",
-              "link": "https://dbushell.com/notes/2025-02-14T10:20Z/"
-            },
-            {
-              "date": "2025-02-13",
-              "link": "https://dbushell.com/notes/2025-02-13T07:08Z/"
-            },
-            {
-              "date": "2025-02-12",
-              "link": "https://dbushell.com/notes/2025-02-12T15:05Z/"
-            },
-            {
-              "date": "2025-02-07",
-              "link": "https://dbushell.com/notes/2025-02-07T10:06Z/"
             }
           ]
         },
@@ -584,6 +646,37 @@
               "title": "Making content-aware components using CSS’ <code>:has()</code>, grid, and quantity queries",
               "date": "2024-09-28",
               "link": "https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+            },
+            {
+              "title": "Some terminal frustrations",
+              "date": "2025-02-05",
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
+            },
+            {
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
+            },
+            {
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
+            },
+            {
+              "title": "Why pipes sometimes get \"stuck\": buffering",
+              "date": "2024-11-29",
+              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
             }
           ]
         },
@@ -929,37 +1022,6 @@
           ]
         },
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Non-Fiction Has Bad Incentives",
-              "date": "2025-02-03",
-              "link": "https://borretti.me/article/non-fiction-has-bad-incentives"
-            },
-            {
-              "title": "Composable SQL",
-              "date": "2025-01-24",
-              "link": "https://borretti.me/article/composable-sql"
-            },
-            {
-              "title": "Adding Colour to macOS Folder Icons",
-              "date": "2025-01-17",
-              "link": "https://borretti.me/article/adding-colour-to-macos-folder-icons"
-            },
-            {
-              "title": "Implementing FSRS in 100 Lines",
-              "date": "2025-01-10",
-              "link": "https://borretti.me/article/implementing-fsrs-in-100-lines"
-            },
-            {
-              "title": "How I Use Claude",
-              "date": "2025-01-01",
-              "link": "https://borretti.me/article/how-i-use-claude"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -987,6 +1049,37 @@
               "title": "Compiler-Driven Development in Rust",
               "date": "2024-06-16",
               "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Non-Fiction Has Bad Incentives",
+              "date": "2025-02-03",
+              "link": "https://borretti.me/article/non-fiction-has-bad-incentives"
+            },
+            {
+              "title": "Composable SQL",
+              "date": "2025-01-24",
+              "link": "https://borretti.me/article/composable-sql"
+            },
+            {
+              "title": "Adding Colour to macOS Folder Icons",
+              "date": "2025-01-17",
+              "link": "https://borretti.me/article/adding-colour-to-macos-folder-icons"
+            },
+            {
+              "title": "Implementing FSRS in 100 Lines",
+              "date": "2025-01-10",
+              "link": "https://borretti.me/article/implementing-fsrs-in-100-lines"
+            },
+            {
+              "title": "How I Use Claude",
+              "date": "2025-01-01",
+              "link": "https://borretti.me/article/how-i-use-claude"
             }
           ]
         },
@@ -1204,37 +1297,6 @@
               "title": "Speeding up the JavaScript ecosystem - The barrel file debacle",
               "date": "2023-10-08",
               "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-7/"
-            }
-          ]
-        },
-        {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "Week 4’s AI news",
-              "date": "2025-01-24",
-              "link": "https://www.felienne.com/archives/8725"
-            },
-            {
-              "title": "Week 3’s AI news",
-              "date": "2025-01-20",
-              "link": "https://www.felienne.com/archives/8678"
-            },
-            {
-              "title": "What does it mean for a university to have an opinion?",
-              "date": "2025-01-13",
-              "link": "https://www.felienne.com/archives/8575"
-            },
-            {
-              "title": "Charlie Chaplin and the death of the internet",
-              "date": "2025-01-06",
-              "link": "https://www.felienne.com/archives/8542"
-            },
-            {
-              "title": "Paper: Feminism in Programming Language Design",
-              "date": "2024-10-17",
-              "link": "https://www.felienne.com/archives/8470"
             }
           ]
         },
@@ -1880,37 +1942,6 @@
           ]
         },
         {
-          "title": "GeePawHill.org",
-          "feedUrl": "https://www.geepawhill.org/feed/",
-          "items": [
-            {
-              "title": "Basic Concepts of the “Making App”",
-              "date": "2024-10-02",
-              "link": "https://www.geepawhill.org/2024/10/01/basic-concepts-of-the-making-app/"
-            },
-            {
-              "title": "Optimize for Our Humans",
-              "date": "2024-02-23",
-              "link": "https://www.geepawhill.org/2024/02/23/optimize-for-our-humans/"
-            },
-            {
-              "title": "Why Only Change Frames?",
-              "date": "2023-02-02",
-              "link": "https://www.geepawhill.org/2023/02/02/why-only-change-frames/"
-            },
-            {
-              "title": "The Frame-Changing Triad",
-              "date": "2023-01-26",
-              "link": "https://www.geepawhill.org/2023/01/26/the-frame-changing-triad/"
-            },
-            {
-              "title": "Changing The Frame",
-              "date": "2023-01-20",
-              "link": "https://www.geepawhill.org/2023/01/20/changing-the-frame/"
-            }
-          ]
-        },
-        {
           "title": "Blog on Hillel Wayne",
           "feedUrl": "https://www.hillelwayne.com/post/index.xml",
           "items": [
@@ -2430,12 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-20T03:20:36.482Z",
+  "fetchDate": "2025-02-21T03:20:20.612Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://einarwh.wordpress.com/feed/",
-    "https://jvns.ca/atom.xml",
-    "https://robinrendle.com/feed.xml"
+    "https://www.geepawhill.org/feed/"
   ]
 }

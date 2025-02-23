@@ -4,6 +4,161 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "How great is the Send Later feature?",
+              "date": "2025-02-22",
+              "link": "https://thejollyteapot.com/2025/02/22/how-great-is-the-send-later-feature/"
+            },
+            {
+              "title": "February 2025 blend of links",
+              "date": "2025-02-19",
+              "link": "https://thejollyteapot.com/february-2025-blend/"
+            },
+            {
+              "title": "The nice feeling of trusting tools",
+              "date": "2025-02-09",
+              "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
+            },
+            {
+              "title": "January 2025 blend of links",
+              "date": "2025-01-21",
+              "link": "https://thejollyteapot.com/january-2025-blend/"
+            },
+            {
+              "title": "The age of insecure billionaires",
+              "date": "2025-01-12",
+              "link": "https://thejollyteapot.com/2025/01/12/the-age-of-insecure-billionaires/"
+            }
+          ]
+        },
+        {
+          "title": "artemis.sh",
+          "feedUrl": "https://artemis.sh/feed.xml",
+          "items": [
+            {
+              "title": "Defragging my old Dell’s UEFI NVRAM",
+              "date": "2025-02-22",
+              "link": "https://artemis.sh/2025/02/22/uefi-nvram-defrag.html"
+            },
+            {
+              "title": "The Serenity of -j1",
+              "date": "2024-07-29",
+              "link": "https://artemis.sh/2024/07/29/the-serenity-of-j1.html"
+            },
+            {
+              "title": "So, do you actually want to write?",
+              "date": "2024-06-19",
+              "link": "https://artemis.sh/2024/06/19/do-you-really-want-to-write.html"
+            },
+            {
+              "title": "Save Scarecrow, a Massive Physical Media Collection",
+              "date": "2024-06-18",
+              "link": "https://artemis.sh/2024/06/18/scarecrow.html"
+            },
+            {
+              "title": "There are still quite a few 32-bit x86 Linux distributions",
+              "date": "2024-04-12",
+              "link": "https://artemis.sh/2024/04/12/x86-distribution-options.html"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "22 Feb 2025\n      ",
+              "date": "2025-02-22",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
+          "title": "Fynn Ellie Becker",
+          "feedUrl": "https://fynn.be/feed.xml",
+          "items": [
+            {
+              "title": "Panic",
+              "date": "2025-02-22",
+              "link": "https://fynn.be/blog/panic/"
+            },
+            {
+              "title": "Sunset v28",
+              "date": "2025-01-28",
+              "link": "https://fynn.be/sunset/v28/"
+            },
+            {
+              "title": "Sunset v27",
+              "date": "2024-12-21",
+              "link": "https://fynn.be/sunset/v27/"
+            },
+            {
+              "title": "The story behind my name",
+              "date": "2024-12-01",
+              "link": "https://fynn.be/blog/story-behind-name/"
+            },
+            {
+              "title": "Selbstbestimmt",
+              "date": "2024-11-23",
+              "link": "https://fynn.be/blog/selbstbestimmt/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "I’m glad I was married, and I’m grateful to not be married anymore",
+              "date": "2025-02-22",
+              "link": "https://anniemueller.com/posts/im-glad-i-was-married-and-im-grateful-to-not-be-married-anymore"
+            },
+            {
+              "title": "Blog challenge - Music edition",
+              "date": "2025-02-21",
+              "link": "https://anniemueller.com/posts/blog-challenge-music-edition"
+            },
+            {
+              "title": "If you don’t, somebody else will:",
+              "date": "2025-02-21",
+              "link": "https://anniemueller.com/posts/if-you-dont-somebody-else-will"
+            },
+            {
+              "title": "Painting yourself into a corner",
+              "date": "2025-02-16",
+              "link": "https://anniemueller.com/posts/painting-yourself-into-a-corner"
+            },
+            {
+              "title": "Talk about the thing itself",
+              "date": "2025-02-16",
+              "link": "https://anniemueller.com/posts/talk-about-the-thing-itself"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -128,37 +283,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "21 Feb 2025\n      ",
-              "date": "2025-02-21",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            }
-          ]
-        },
-        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -186,37 +310,6 @@
               "title": "Live CSS Colors: What You Can Safely Use",
               "date": "2025-02-05",
               "link": "https://thathtml.blog/2025/02/live-colors-what-you-can-safely-use/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Blog challenge - Music edition",
-              "date": "2025-02-21",
-              "link": "https://anniemueller.com/posts/blog-challenge-music-edition"
-            },
-            {
-              "title": "If you don’t, somebody else will:",
-              "date": "2025-02-21",
-              "link": "https://anniemueller.com/posts/if-you-dont-somebody-else-will"
-            },
-            {
-              "title": "Painting yourself into a corner",
-              "date": "2025-02-16",
-              "link": "https://anniemueller.com/posts/painting-yourself-into-a-corner"
-            },
-            {
-              "title": "Talk about the thing itself",
-              "date": "2025-02-16",
-              "link": "https://anniemueller.com/posts/talk-about-the-thing-itself"
-            },
-            {
-              "title": "A good day for love",
-              "date": "2025-02-15",
-              "link": "https://anniemueller.com/posts/a-good-day-for-love"
             }
           ]
         },
@@ -336,37 +429,6 @@
               "title": "Debugging a rustc segfault on illumos",
               "date": "2024-08-04",
               "link": "https://sunshowers.io/posts/rustc-segfault-illumos/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "February 2025 blend of links",
-              "date": "2025-02-19",
-              "link": "https://thejollyteapot.com/february-2025-blend/"
-            },
-            {
-              "title": "The nice feeling of trusting tools",
-              "date": "2025-02-09",
-              "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
-            },
-            {
-              "title": "January 2025 blend of links",
-              "date": "2025-01-21",
-              "link": "https://thejollyteapot.com/january-2025-blend/"
-            },
-            {
-              "title": "The age of insecure billionaires",
-              "date": "2025-01-12",
-              "link": "https://thejollyteapot.com/2025/01/12/the-age-of-insecure-billionaires/"
-            },
-            {
-              "title": "Are we at peak shittiness?",
-              "date": "2025-01-05",
-              "link": "https://thejollyteapot.com/2025/01/05/are-we-at-peak-shittiness/"
             }
           ]
         },
@@ -1053,37 +1115,6 @@
           ]
         },
         {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-          "items": [
-            {
-              "title": "Obsidian.md: The Good Parts [Part 2]",
-              "date": "2025-02-03",
-              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
-            },
-            {
-              "title": "AI Is Not Designed for You",
-              "date": "2024-12-06",
-              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
-            },
-            {
-              "title": "From Coder to Creator: My Journey",
-              "date": "2024-09-30",
-              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
-            },
-            {
-              "title": "The \"Brainmade\" Mark",
-              "date": "2024-07-27",
-              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
-            },
-            {
-              "title": "Compiler-Driven Development in Rust",
-              "date": "2024-06-16",
-              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -1111,6 +1142,37 @@
               "title": "How I Use Claude",
               "date": "2025-01-01",
               "link": "https://borretti.me/article/how-i-use-claude"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Obsidian.md: The Good Parts [Part 2]",
+              "date": "2025-02-03",
+              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
+            },
+            {
+              "title": "AI Is Not Designed for You",
+              "date": "2024-12-06",
+              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
+            },
+            {
+              "title": "From Coder to Creator: My Journey",
+              "date": "2024-09-30",
+              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
+            },
+            {
+              "title": "The \"Brainmade\" Mark",
+              "date": "2024-07-27",
+              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
+            },
+            {
+              "title": "Compiler-Driven Development in Rust",
+              "date": "2024-06-16",
+              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
             }
           ]
         },
@@ -1204,37 +1266,6 @@
               "title": "Journey to the beyond",
               "date": "2025-01-14",
               "link": "https://moonbase.lgbt/blog/journey-to-the-beyond/"
-            }
-          ]
-        },
-        {
-          "title": "Fynn Ellie Becker",
-          "feedUrl": "https://fynn.be/feed.xml",
-          "items": [
-            {
-              "title": "Sunset v28",
-              "date": "2025-01-28",
-              "link": "https://fynn.be/sunset/v28/"
-            },
-            {
-              "title": "Sunset v27",
-              "date": "2024-12-21",
-              "link": "https://fynn.be/sunset/v27/"
-            },
-            {
-              "title": "The story behind my name",
-              "date": "2024-12-01",
-              "link": "https://fynn.be/blog/story-behind-name/"
-            },
-            {
-              "title": "Selbstbestimmt",
-              "date": "2024-11-23",
-              "link": "https://fynn.be/blog/selbstbestimmt/"
-            },
-            {
-              "title": "Sunset v26",
-              "date": "2024-09-14",
-              "link": "https://fynn.be/sunset/v26/"
             }
           ]
         },
@@ -1398,11 +1429,6 @@
           "feedUrl": "https://mikegrindle.com/feed.xml",
           "items": [
             {
-              "title": "Not a Tribute, Just Fleeting Thoughts",
-              "date": "2025-01-10",
-              "link": "https://mikegrindle.com/posts/fleeting"
-            },
-            {
               "title": "Everything in Solitude, Except Character",
               "date": "2025-01-09",
               "link": "https://mikegrindle.com/newsletter/itm-6"
@@ -1413,14 +1439,19 @@
               "link": "https://mikegrindle.com/posts/2024"
             },
             {
-              "title": "Is Everything Okay?",
-              "date": "2024-12-10",
-              "link": "https://mikegrindle.com/posts/okay"
-            },
-            {
               "title": "Returning to Sunnydale",
               "date": "2024-12-04",
               "link": "https://mikegrindle.com/posts/snow"
+            },
+            {
+              "title": "Snow Days",
+              "date": "2024-12-02",
+              "link": "https://mikegrindle.com/posts/snow"
+            },
+            {
+              "title": "If It’s Good, It’s Wonderful. If It’s Bad, It’s Experience (Newsletter)",
+              "date": "2024-11-21",
+              "link": "https://mikegrindle.com/newsletter/itm-5"
             }
           ]
         },
@@ -2066,37 +2097,6 @@
           ]
         },
         {
-          "title": "artemis.sh",
-          "feedUrl": "https://artemis.sh/feed.xml",
-          "items": [
-            {
-              "title": "The Serenity of -j1",
-              "date": "2024-07-29",
-              "link": "https://artemis.sh/2024/07/29/the-serenity-of-j1.html"
-            },
-            {
-              "title": "So, do you actually want to write?",
-              "date": "2024-06-19",
-              "link": "https://artemis.sh/2024/06/19/do-you-really-want-to-write.html"
-            },
-            {
-              "title": "Save Scarecrow, a Massive Physical Media Collection",
-              "date": "2024-06-18",
-              "link": "https://artemis.sh/2024/06/18/scarecrow.html"
-            },
-            {
-              "title": "There are still quite a few 32-bit x86 Linux distributions",
-              "date": "2024-04-12",
-              "link": "https://artemis.sh/2024/04/12/x86-distribution-options.html"
-            },
-            {
-              "title": "Trying out NetBSD on our Vaio",
-              "date": "2024-04-10",
-              "link": "https://artemis.sh/2024/04/10/trying-netbsd-on-vaio.html"
-            }
-          ]
-        },
-        {
           "title": "Quantum Steps",
           "feedUrl": "https://read.ceilfors.com/feed",
           "items": [
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-22T03:17:13.547Z",
+  "fetchDate": "2025-02-23T03:21:22.923Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

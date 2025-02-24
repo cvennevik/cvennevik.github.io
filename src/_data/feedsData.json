@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "The unexpected way in which conditional types constrain type variables in TypeScript",
+              "date": "2025-02-23",
+              "link": "https://2ality.com/2025/02/conditional-type-constraints.html"
+            },
+            {
+              "title": "Demo: running TypeScript directly in Node.js",
+              "date": "2025-02-20",
+              "link": "https://2ality.com/2025/02/nodejs-type-stripping-demo.html"
+            },
+            {
+              "title": "The bottom type <code>never</code> in TypeScript",
+              "date": "2025-02-19",
+              "link": "https://2ality.com/2025/02/typescript-never.html"
+            },
+            {
+              "title": "Array type notations: <code>T[]</code> vs. <code>Array&lt;T&gt;</code> in TypeScript",
+              "date": "2025-02-17",
+              "link": "https://2ality.com/2025/02/array-type-notation.html"
+            },
+            {
+              "title": "Symbols in TypeScript",
+              "date": "2025-02-17",
+              "link": "https://2ality.com/2025/02/symbols-in-typescript.html"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "1.4.10: Adversarial Conformance",
+              "date": "2025-02-23",
+              "link": "https://adrianroselli.com/2025/02/1-4-10-adversarial-conformance.html"
+            },
+            {
+              "title": "Generic LLM Chatbot Attestation",
+              "date": "2025-02-16",
+              "link": "https://adrianroselli.com/2025/02/generic-llm-chatbot-attestation.html"
+            },
+            {
+              "title": "Which VoiceOver?",
+              "date": "2025-02-04",
+              "link": "https://adrianroselli.com/2025/02/which-voiceover.html"
+            },
+            {
+              "title": "Don’t Wrap Figure in a Link",
+              "date": "2025-01-16",
+              "link": "https://adrianroselli.com/2025/01/dont-wrap-figure-in-a-link.html"
+            },
+            {
+              "title": "aria-description Does Not Translate",
+              "date": "2025-01-09",
+              "link": "https://adrianroselli.com/2025/01/aria-description-does-not-translate.html"
+            }
+          ]
+        },
+        {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
+              "date": "2025-02-23",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
+            },
+            {
+              "title": "The modern way to write JavaScript servers",
+              "date": "2025-01-25",
+              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
+              "date": "2024-07-06",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
+              "date": "2024-05-15",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Tailwind CSS",
+              "date": "2023-11-01",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "23 Feb 2025\n      ",
+              "date": "2025-02-23",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -66,33 +190,33 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
             {
-              "title": "22 Feb 2025\n      ",
+              "title": "Benchmarking counterstring implementations in TypeScript",
               "date": "2025-02-22",
-              "link": "https://frills.dev/status/microblog/"
+              "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
             },
             {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
+              "title": "Optimizing for moments of discovery",
+              "date": "2025-02-15",
+              "link": "https://smallsheds.garden/blog/2025/optimizing-for-moments-of-discovery/"
             },
             {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+              "title": "Comparing counterstring implementations in TypeScript",
+              "date": "2025-01-18",
+              "link": "https://smallsheds.garden/blog/2025/comparing-counterstring-implementations-in-typescript/"
             },
             {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
+              "title": "Using \"fake it till you make it\" to implement counterstring",
+              "date": "2025-01-04",
+              "link": "https://smallsheds.garden/blog/2025/using-fake-it-till-you-make-it-to-implement-counterstring/"
             },
             {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+              "title": "Your default response should be a safe one",
+              "date": "2024-12-28",
+              "link": "https://smallsheds.garden/blog/2024/your-default-response-should-be-a-safe-one/"
             }
           ]
         },
@@ -314,37 +438,6 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Demo: running TypeScript directly in Node.js",
-              "date": "2025-02-20",
-              "link": "https://2ality.com/2025/02/nodejs-type-stripping-demo.html"
-            },
-            {
-              "title": "The bottom type <code>never</code> in TypeScript",
-              "date": "2025-02-19",
-              "link": "https://2ality.com/2025/02/typescript-never.html"
-            },
-            {
-              "title": "Array type notations: <code>T[]</code> vs. <code>Array&lt;T&gt;</code> in TypeScript",
-              "date": "2025-02-17",
-              "link": "https://2ality.com/2025/02/array-type-notation.html"
-            },
-            {
-              "title": "Symbols in TypeScript",
-              "date": "2025-02-17",
-              "link": "https://2ality.com/2025/02/symbols-in-typescript.html"
-            },
-            {
-              "title": "Conditional types in TypeScript",
-              "date": "2025-02-15",
-              "link": "https://2ality.com/2025/02/conditional-types-typescript.html"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (microblog)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -557,37 +650,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Generic LLM Chatbot Attestation",
-              "date": "2025-02-16",
-              "link": "https://adrianroselli.com/2025/02/generic-llm-chatbot-attestation.html"
-            },
-            {
-              "title": "Which VoiceOver?",
-              "date": "2025-02-04",
-              "link": "https://adrianroselli.com/2025/02/which-voiceover.html"
-            },
-            {
-              "title": "Don’t Wrap Figure in a Link",
-              "date": "2025-01-16",
-              "link": "https://adrianroselli.com/2025/01/dont-wrap-figure-in-a-link.html"
-            },
-            {
-              "title": "aria-description Does Not Translate",
-              "date": "2025-01-09",
-              "link": "https://adrianroselli.com/2025/01/aria-description-does-not-translate.html"
-            },
-            {
-              "title": "Brief Note on Figure and Figcaption Support",
-              "date": "2025-01-07",
-              "link": "https://adrianroselli.com/2025/01/brief-note-on-figure-and-figcaption-support.html"
-            }
-          ]
-        },
-        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -646,37 +708,6 @@
               "title": "Charlie Chaplin and the death of the internet",
               "date": "2025-01-06",
               "link": "https://www.felienne.com/archives/8542"
-            }
-          ]
-        },
-        {
-          "title": "Joep Schuurkes",
-          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
-          "items": [
-            {
-              "title": "Optimizing for moments of discovery",
-              "date": "2025-02-15",
-              "link": "https://smallsheds.garden/blog/2025/optimizing-for-moments-of-discovery/"
-            },
-            {
-              "title": "Comparing counterstring implementations in TypeScript",
-              "date": "2025-01-18",
-              "link": "https://smallsheds.garden/blog/2025/comparing-counterstring-implementations-in-typescript/"
-            },
-            {
-              "title": "Using \"fake it till you make it\" to implement counterstring",
-              "date": "2025-01-04",
-              "link": "https://smallsheds.garden/blog/2025/using-fake-it-till-you-make-it-to-implement-counterstring/"
-            },
-            {
-              "title": "Your default response should be a safe one",
-              "date": "2024-12-28",
-              "link": "https://smallsheds.garden/blog/2024/your-default-response-should-be-a-safe-one/"
-            },
-            {
-              "title": "The nine skills of exploratory testing",
-              "date": "2024-12-14",
-              "link": "https://smallsheds.garden/blog/2024/the-nine-skills-of-exploratory-testing/"
             }
           ]
         },
@@ -1115,37 +1146,6 @@
           ]
         },
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Non-Fiction Has Bad Incentives",
-              "date": "2025-02-03",
-              "link": "https://borretti.me/article/non-fiction-has-bad-incentives"
-            },
-            {
-              "title": "Composable SQL",
-              "date": "2025-01-24",
-              "link": "https://borretti.me/article/composable-sql"
-            },
-            {
-              "title": "Adding Colour to macOS Folder Icons",
-              "date": "2025-01-17",
-              "link": "https://borretti.me/article/adding-colour-to-macos-folder-icons"
-            },
-            {
-              "title": "Implementing FSRS in 100 Lines",
-              "date": "2025-01-10",
-              "link": "https://borretti.me/article/implementing-fsrs-in-100-lines"
-            },
-            {
-              "title": "How I Use Claude",
-              "date": "2025-01-01",
-              "link": "https://borretti.me/article/how-i-use-claude"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -1173,6 +1173,37 @@
               "title": "Compiler-Driven Development in Rust",
               "date": "2024-06-16",
               "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Non-Fiction Has Bad Incentives",
+              "date": "2025-02-03",
+              "link": "https://borretti.me/article/non-fiction-has-bad-incentives"
+            },
+            {
+              "title": "Composable SQL",
+              "date": "2025-01-24",
+              "link": "https://borretti.me/article/composable-sql"
+            },
+            {
+              "title": "Adding Colour to macOS Folder Icons",
+              "date": "2025-01-17",
+              "link": "https://borretti.me/article/adding-colour-to-macos-folder-icons"
+            },
+            {
+              "title": "Implementing FSRS in 100 Lines",
+              "date": "2025-01-10",
+              "link": "https://borretti.me/article/implementing-fsrs-in-100-lines"
+            },
+            {
+              "title": "How I Use Claude",
+              "date": "2025-01-01",
+              "link": "https://borretti.me/article/how-i-use-claude"
             }
           ]
         },
@@ -1328,37 +1359,6 @@
               "title": "The Practices That Make Continuous Integration - Broadcast the Codebase’s Health",
               "date": "2024-10-29",
               "link": "https://thinkinglabs.io/articles/2024/10/29/the-practices-that-make-continuous-integration-broadcast-the-codebase-health.html"
-            }
-          ]
-        },
-        {
-          "title": "Marvin Hagemeister",
-          "feedUrl": "https://marvinh.dev/feed.xml",
-          "items": [
-            {
-              "title": "The modern way to write JavaScript servers",
-              "date": "2025-01-25",
-              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
-              "date": "2024-07-06",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
-              "date": "2024-05-15",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Tailwind CSS",
-              "date": "2023-11-01",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - The barrel file debacle",
-              "date": "2023-10-08",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-7/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-23T03:21:22.923Z",
+  "fetchDate": "2025-02-24T03:23:07.830Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

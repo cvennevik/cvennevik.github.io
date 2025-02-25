@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Urgencies are yappy little dogs",
+              "date": "2025-02-25",
+              "link": "https://anniemueller.com/posts/urgencies-are-yappy-little-dogs"
+            },
+            {
+              "title": "I’m glad I was married, and I’m grateful to not be married anymore",
+              "date": "2025-02-22",
+              "link": "https://anniemueller.com/posts/im-glad-i-was-married-and-im-grateful-to-not-be-married-anymore"
+            },
+            {
+              "title": "Blog challenge - Music edition",
+              "date": "2025-02-21",
+              "link": "https://anniemueller.com/posts/blog-challenge-music-edition"
+            },
+            {
+              "title": "If you don’t, somebody else will:",
+              "date": "2025-02-21",
+              "link": "https://anniemueller.com/posts/if-you-dont-somebody-else-will"
+            },
+            {
+              "title": "Painting yourself into a corner",
+              "date": "2025-02-16",
+              "link": "https://anniemueller.com/posts/painting-yourself-into-a-corner"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Sanding UI, pt. II",
+              "date": "2025-02-24",
+              "link": "https://blog.jim-nielsen.com/2025/sanding-ui-pt-ii/"
+            },
+            {
+              "title": "CSS Space Toggles",
+              "date": "2025-02-19",
+              "link": "https://blog.jim-nielsen.com/2025/css-space-toggles/"
+            },
+            {
+              "title": "Aspect Ratio Changes With CSS View Transitions",
+              "date": "2025-02-17",
+              "link": "https://blog.jim-nielsen.com/2025/aspect-ratio-in-css-view-transitions/"
+            },
+            {
+              "title": "Search Results Without JavaScript",
+              "date": "2025-02-13",
+              "link": "https://blog.jim-nielsen.com/2025/search-without-javascript/"
+            },
+            {
+              "title": "The Art of Making Websites",
+              "date": "2025-02-10",
+              "link": "https://blog.jim-nielsen.com/2025/the-art-of-making-websites/"
+            }
+          ]
+        },
+        {
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
+            {
+              "title": "Testing types in TypeScript",
+              "date": "2025-02-24",
+              "link": "https://2ality.com/2025/02/testing-types-typescript.html"
+            },
             {
               "title": "The unexpected way in which conditional types constrain type variables in TypeScript",
               "date": "2025-02-23",
@@ -26,11 +93,125 @@
               "title": "Array type notations: <code>T[]</code> vs. <code>Array&lt;T&gt;</code> in TypeScript",
               "date": "2025-02-17",
               "link": "https://2ality.com/2025/02/array-type-notation.html"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "24 Feb 2025\n      ",
+              "date": "2025-02-24",
+              "link": "https://frills.dev/status/microblog/"
             },
             {
-              "title": "Symbols in TypeScript",
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-02-24",
+              "link": "https://dbushell.com/notes/2025-02-24T06:48Z/"
+            },
+            {
+              "date": "2025-02-20",
+              "link": "https://dbushell.com/notes/2025-02-20T06:42Z/"
+            },
+            {
+              "date": "2025-02-15",
+              "link": "https://dbushell.com/notes/2025-02-15T07:01Z/"
+            },
+            {
+              "date": "2025-02-14",
+              "link": "https://dbushell.com/notes/2025-02-14T10:20Z/"
+            },
+            {
+              "date": "2025-02-13",
+              "link": "https://dbushell.com/notes/2025-02-13T07:08Z/"
+            }
+          ]
+        },
+        {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "A Rough Timeline of Technological Buffoonery in the DOGE Era",
+              "date": "2025-02-24",
+              "link": "https://boehs.org/node/doge-tech"
+            },
+            {
+              "title": "Not Feeling Big Tech This Year? Start an Indie Blog!",
+              "date": "2025-01-13",
+              "link": "https://boehs.org/node/2025-call-for-bloggers"
+            },
+            {
+              "title": "Homomorphic Encryption in iOS 18",
+              "date": "2025-01-10",
+              "link": "https://boehs.org/node/homomorphic-encryption"
+            },
+            {
+              "title": "I Was Just Censored by Meta",
+              "date": "2025-01-10",
+              "link": "https://boehs.org/node/meta-censorship"
+            },
+            {
+              "title": "I'm Opposed to the TikTok Ban",
+              "date": "2025-01-02",
+              "link": "https://boehs.org/node/tiktok-ban"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Your product shouldn't require showing my legal name",
+              "date": "2025-02-24",
+              "link": "https://ntietz.com/blog/your-product-shouldnt-require-showing-my-legal-name/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Can I ethically use LLMs?",
               "date": "2025-02-17",
-              "link": "https://2ality.com/2025/02/symbols-in-typescript.html"
+              "link": "https://ntietz.com/blog/can-i-ethically-use-llms/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "What's in a ring buffer? And using them in Rust",
+              "date": "2025-02-10",
+              "link": "https://ntietz.com/blog/whats-in-a-ring-buffer/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Summarizing our recommendations for software documentation",
+              "date": "2025-02-03",
+              "link": "https://ntietz.com/blog/our-case-study-on-software-documentation/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Bright lights in dark times",
+              "date": "2025-01-27",
+              "link": "https://ntietz.com/blog/bright-lights-in-dark-times/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -97,33 +278,33 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
-              "title": "23 Feb 2025\n      ",
-              "date": "2025-02-23",
-              "link": "https://frills.dev/status/microblog/"
+              "title": "Async communication vs. meetings at work",
+              "date": "2025-02-22",
+              "link": "https://gomakethings.com/async-communication-vs.-meetings-at-work/"
             },
             {
-              "title": "Input Leap",
+              "title": "On digital gardens (and being a whole person on the web)",
               "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
+              "link": "https://gomakethings.com/on-digital-gardens-and-being-a-whole-person-on-the-web/"
             },
             {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+              "title": "Rudderless",
+              "date": "2025-02-20",
+              "link": "https://gomakethings.com/rudderless/"
             },
             {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
+              "title": "Existing in tech",
+              "date": "2025-02-19",
+              "link": "https://gomakethings.com/existing-in-tech/"
             },
             {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+              "title": "Purpose, goals, and burnout",
+              "date": "2025-02-18",
+              "link": "https://gomakethings.com/purpose-goals-and-burnout/"
             }
           ]
         },
@@ -252,68 +433,6 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "I’m glad I was married, and I’m grateful to not be married anymore",
-              "date": "2025-02-22",
-              "link": "https://anniemueller.com/posts/im-glad-i-was-married-and-im-grateful-to-not-be-married-anymore"
-            },
-            {
-              "title": "Blog challenge - Music edition",
-              "date": "2025-02-21",
-              "link": "https://anniemueller.com/posts/blog-challenge-music-edition"
-            },
-            {
-              "title": "If you don’t, somebody else will:",
-              "date": "2025-02-21",
-              "link": "https://anniemueller.com/posts/if-you-dont-somebody-else-will"
-            },
-            {
-              "title": "Painting yourself into a corner",
-              "date": "2025-02-16",
-              "link": "https://anniemueller.com/posts/painting-yourself-into-a-corner"
-            },
-            {
-              "title": "Talk about the thing itself",
-              "date": "2025-02-16",
-              "link": "https://anniemueller.com/posts/talk-about-the-thing-itself"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "On digital gardens (and being a whole person on the web)",
-              "date": "2025-02-21",
-              "link": "https://gomakethings.com/on-digital-gardens-and-being-a-whole-person-on-the-web/"
-            },
-            {
-              "title": "Existing in tech",
-              "date": "2025-02-19",
-              "link": "https://gomakethings.com/existing-in-tech/"
-            },
-            {
-              "title": "Purpose, goals, and burnout",
-              "date": "2025-02-18",
-              "link": "https://gomakethings.com/purpose-goals-and-burnout/"
-            },
-            {
-              "title": "The anarchy of the web",
-              "date": "2025-02-17",
-              "link": "https://gomakethings.com/the-anarchy-of-the-web/"
-            },
-            {
-              "title": "How to dynamically update content with an HTML Web Component",
-              "date": "2025-02-13",
-              "link": "https://gomakethings.com/how-to-dynamically-update-content-with-an-html-web-component/"
-            }
-          ]
-        },
-        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -376,37 +495,6 @@
           ]
         },
         {
-          "title": "Pablo Curell Mompo's",
-          "feedUrl": "https://blog.codemanship.dev/rss.xml",
-          "items": [
-            {
-              "title": "Software Teaming",
-              "date": "2025-02-21",
-              "link": "https://blog.codemanship.dev/software-teaming"
-            },
-            {
-              "title": "Floor and Ceiling raisers",
-              "date": "2024-10-04",
-              "link": "https://blog.codemanship.dev/floor-and-ceiling-raisers"
-            },
-            {
-              "title": "Retrospectives",
-              "date": "2024-05-29",
-              "link": "https://blog.codemanship.dev/retrospectives"
-            },
-            {
-              "title": "So we tried Ensemble Programming",
-              "date": "2024-05-27",
-              "link": "https://blog.codemanship.dev/so-we-tried-ensemble-programming"
-            },
-            {
-              "title": "Test factories should not have randomness, but... Why?",
-              "date": "2024-03-06",
-              "link": "https://blog.codemanship.dev/test-factories-should-not-have-randomness-but-why"
-            }
-          ]
-        },
-        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -434,63 +522,6 @@
               "title": "Live CSS Colors: What You Can Safely Use",
               "date": "2025-02-05",
               "link": "https://thathtml.blog/2025/02/live-colors-what-you-can-safely-use/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-02-20",
-              "link": "https://dbushell.com/notes/2025-02-20T06:42Z/"
-            },
-            {
-              "date": "2025-02-15",
-              "link": "https://dbushell.com/notes/2025-02-15T07:01Z/"
-            },
-            {
-              "date": "2025-02-14",
-              "link": "https://dbushell.com/notes/2025-02-14T10:20Z/"
-            },
-            {
-              "date": "2025-02-13",
-              "link": "https://dbushell.com/notes/2025-02-13T07:08Z/"
-            },
-            {
-              "date": "2025-02-12",
-              "link": "https://dbushell.com/notes/2025-02-12T15:05Z/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "CSS Space Toggles",
-              "date": "2025-02-19",
-              "link": "https://blog.jim-nielsen.com/2025/css-space-toggles/"
-            },
-            {
-              "title": "Aspect Ratio Changes With CSS View Transitions",
-              "date": "2025-02-17",
-              "link": "https://blog.jim-nielsen.com/2025/aspect-ratio-in-css-view-transitions/"
-            },
-            {
-              "title": "Search Results Without JavaScript",
-              "date": "2025-02-13",
-              "link": "https://blog.jim-nielsen.com/2025/search-without-javascript/"
-            },
-            {
-              "title": "The Art of Making Websites",
-              "date": "2025-02-10",
-              "link": "https://blog.jim-nielsen.com/2025/the-art-of-making-websites/"
-            },
-            {
-              "title": "Software Pliability",
-              "date": "2025-02-07",
-              "link": "https://blog.jim-nielsen.com/2025/software-pliability/"
             }
           ]
         },
@@ -615,37 +646,6 @@
               "title": "What To Write",
               "date": "2025-01-24",
               "link": "https://flamedfury.com/posts/what-to-write/"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Can I ethically use LLMs?",
-              "date": "2025-02-17",
-              "link": "https://ntietz.com/blog/can-i-ethically-use-llms/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "What's in a ring buffer? And using them in Rust",
-              "date": "2025-02-10",
-              "link": "https://ntietz.com/blog/whats-in-a-ring-buffer/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Summarizing our recommendations for software documentation",
-              "date": "2025-02-03",
-              "link": "https://ntietz.com/blog/our-case-study-on-software-documentation/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Bright lights in dark times",
-              "date": "2025-01-27",
-              "link": "https://ntietz.com/blog/bright-lights-in-dark-times/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "My writing process, and how I keep it sustainable",
-              "date": "2025-01-20",
-              "link": "https://ntietz.com/blog/my-writing-process-and-how-i-keep-it-sustainable/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -1146,37 +1146,6 @@
           ]
         },
         {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-          "items": [
-            {
-              "title": "Obsidian.md: The Good Parts [Part 2]",
-              "date": "2025-02-03",
-              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
-            },
-            {
-              "title": "AI Is Not Designed for You",
-              "date": "2024-12-06",
-              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
-            },
-            {
-              "title": "From Coder to Creator: My Journey",
-              "date": "2024-09-30",
-              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
-            },
-            {
-              "title": "The \"Brainmade\" Mark",
-              "date": "2024-07-27",
-              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
-            },
-            {
-              "title": "Compiler-Driven Development in Rust",
-              "date": "2024-06-16",
-              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -1204,6 +1173,37 @@
               "title": "How I Use Claude",
               "date": "2025-01-01",
               "link": "https://borretti.me/article/how-i-use-claude"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Obsidian.md: The Good Parts [Part 2]",
+              "date": "2025-02-03",
+              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
+            },
+            {
+              "title": "AI Is Not Designed for You",
+              "date": "2024-12-06",
+              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
+            },
+            {
+              "title": "From Coder to Creator: My Journey",
+              "date": "2024-09-30",
+              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
+            },
+            {
+              "title": "The \"Brainmade\" Mark",
+              "date": "2024-07-27",
+              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
+            },
+            {
+              "title": "Compiler-Driven Development in Rust",
+              "date": "2024-06-16",
+              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
             }
           ]
         },
@@ -1390,37 +1390,6 @@
               "title": "Advent of Lua",
               "date": "2024-12-03",
               "link": "https://garoof.no/notes/aoc-lua.html"
-            }
-          ]
-        },
-        {
-          "title": "Evan Boehs in the blog",
-          "feedUrl": "https://boehs.org/in/blog.xml",
-          "items": [
-            {
-              "title": "Not Feeling Big Tech This Year? Start an Indie Blog!",
-              "date": "2025-01-13",
-              "link": "https://boehs.org/node/2025-call-for-bloggers"
-            },
-            {
-              "title": "Homomorphic Encryption in iOS 18",
-              "date": "2025-01-10",
-              "link": "https://boehs.org/node/homomorphic-encryption"
-            },
-            {
-              "title": "I Was Just Censored by Meta",
-              "date": "2025-01-10",
-              "link": "https://boehs.org/node/meta-censorship"
-            },
-            {
-              "title": "I'm Opposed to the TikTok Ban",
-              "date": "2025-01-02",
-              "link": "https://boehs.org/node/tiktok-ban"
-            },
-            {
-              "title": "The Fascinating Security Model of Dark Web Marketplaces",
-              "date": "2024-11-30",
-              "link": "https://boehs.org/node/dark-web-security"
             }
           ]
         },
@@ -2492,10 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-24T03:23:07.830Z",
+  "fetchDate": "2025-02-25T03:22:21.248Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
+    "https://blog.codemanship.dev/rss.xml",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

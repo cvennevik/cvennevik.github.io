@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Let’s Get Started with C++23",
+              "date": "2025-02-26",
+              "link": "https://moonbase.lgbt/blog/lets-get-started-with-cpp23/"
+            },
+            {
+              "title": "Fly forth",
+              "date": "2025-01-28",
+              "link": "https://moonbase.lgbt/blog/fly-forth/"
+            },
+            {
+              "title": "Lurking in the fog",
+              "date": "2025-01-18",
+              "link": "https://moonbase.lgbt/blog/lurking-in-the-fog/"
+            },
+            {
+              "title": "Friend or foe?",
+              "date": "2025-01-16",
+              "link": "https://moonbase.lgbt/blog/friend-or-foe/"
+            },
+            {
+              "title": "The forest beckons",
+              "date": "2025-01-15",
+              "link": "https://moonbase.lgbt/blog/the-forest-beckons/"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Let Me Solo Him",
+              "date": "2025-02-26",
+              "link": "https://flamedfury.com/posts/let-me-solo-him/"
+            },
+            {
+              "title": "Keeping A Reading Log",
+              "date": "2025-02-18",
+              "link": "https://flamedfury.com/posts/keeping-a-reading-log/"
+            },
+            {
+              "title": "Blogging For The Hell Of It",
+              "date": "2025-02-04",
+              "link": "https://flamedfury.com/posts/blogging-for-the-hell-of-it/"
+            },
+            {
+              "title": "Music Questions Challenge",
+              "date": "2025-02-02",
+              "link": "https://flamedfury.com/posts/music-questions-challenge/"
+            },
+            {
+              "title": "Monthly Recap: January 2025",
+              "date": "2025-02-01",
+              "link": "https://flamedfury.com/posts/monthly-recap-january-2025/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
+            {
+              "title": "Inconclusive neck region",
+              "date": "2025-02-26",
+              "link": "https://anniemueller.com/posts/inconclusive-neck-region"
+            },
             {
               "title": "Urgencies are yappy little dogs",
               "date": "2025-02-25",
@@ -26,11 +93,125 @@
               "title": "If you don’t, somebody else will:",
               "date": "2025-02-21",
               "link": "https://anniemueller.com/posts/if-you-dont-somebody-else-will"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Simple TypeScript playground via <code>node --watch</code>",
+              "date": "2025-02-25",
+              "link": "https://2ality.com/2025/02/node-watch-typescript-playground.html"
             },
             {
-              "title": "Painting yourself into a corner",
-              "date": "2025-02-16",
-              "link": "https://anniemueller.com/posts/painting-yourself-into-a-corner"
+              "title": "Testing types in TypeScript",
+              "date": "2025-02-24",
+              "link": "https://2ality.com/2025/02/testing-types-typescript.html"
+            },
+            {
+              "title": "The unexpected way in which conditional types constrain type variables in TypeScript",
+              "date": "2025-02-23",
+              "link": "https://2ality.com/2025/02/conditional-type-constraints.html"
+            },
+            {
+              "title": "Demo: implementing a Node.js CLI app directly in TypeScript",
+              "date": "2025-02-20",
+              "link": "https://2ality.com/2025/02/nodejs-type-stripping-demo.html"
+            },
+            {
+              "title": "The bottom type <code>never</code> in TypeScript",
+              "date": "2025-02-19",
+              "link": "https://2ality.com/2025/02/typescript-never.html"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "25 Feb 2025\n      ",
+              "date": "2025-02-25",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-02-25",
+              "link": "https://dbushell.com/notes/2025-02-25T11:31Z/"
+            },
+            {
+              "date": "2025-02-24",
+              "link": "https://dbushell.com/notes/2025-02-24T06:48Z/"
+            },
+            {
+              "date": "2025-02-20",
+              "link": "https://dbushell.com/notes/2025-02-20T06:42Z/"
+            },
+            {
+              "date": "2025-02-15",
+              "link": "https://dbushell.com/notes/2025-02-15T07:01Z/"
+            },
+            {
+              "date": "2025-02-14",
+              "link": "https://dbushell.com/notes/2025-02-14T10:20Z/"
+            }
+          ]
+        },
+        {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "Apple Voice Dictation Writes 'Trump' When You Say 'Racist'",
+              "date": "2025-02-25",
+              "link": "https://boehs.org/node/racist-autocorrect"
+            },
+            {
+              "title": "A Rough Timeline of Technological Buffoonery in the DOGE Era",
+              "date": "2025-02-24",
+              "link": "https://boehs.org/node/doge-tech"
+            },
+            {
+              "title": "Not Feeling Big Tech This Year? Start an Indie Blog!",
+              "date": "2025-01-13",
+              "link": "https://boehs.org/node/2025-call-for-bloggers"
+            },
+            {
+              "title": "Homomorphic Encryption in iOS 18",
+              "date": "2025-01-10",
+              "link": "https://boehs.org/node/homomorphic-encryption"
+            },
+            {
+              "title": "I Was Just Censored by Meta",
+              "date": "2025-01-10",
+              "link": "https://boehs.org/node/meta-censorship"
             }
           ]
         },
@@ -66,121 +247,33 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
             {
-              "title": "Testing types in TypeScript",
+              "title": "Other kinds of talks",
               "date": "2025-02-24",
-              "link": "https://2ality.com/2025/02/testing-types-typescript.html"
+              "link": "https://www.scattered-thoughts.net/writing/other-kinds-of-talks/"
             },
             {
-              "title": "The unexpected way in which conditional types constrain type variables in TypeScript",
-              "date": "2025-02-23",
-              "link": "https://2ality.com/2025/02/conditional-type-constraints.html"
-            },
-            {
-              "title": "Demo: running TypeScript directly in Node.js",
-              "date": "2025-02-20",
-              "link": "https://2ality.com/2025/02/nodejs-type-stripping-demo.html"
-            },
-            {
-              "title": "The bottom type <code>never</code> in TypeScript",
-              "date": "2025-02-19",
-              "link": "https://2ality.com/2025/02/typescript-never.html"
-            },
-            {
-              "title": "Array type notations: <code>T[]</code> vs. <code>Array&lt;T&gt;</code> in TypeScript",
-              "date": "2025-02-17",
-              "link": "https://2ality.com/2025/02/array-type-notation.html"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "24 Feb 2025\n      ",
-              "date": "2025-02-24",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-02-24",
-              "link": "https://dbushell.com/notes/2025-02-24T06:48Z/"
-            },
-            {
-              "date": "2025-02-20",
-              "link": "https://dbushell.com/notes/2025-02-20T06:42Z/"
-            },
-            {
-              "date": "2025-02-15",
-              "link": "https://dbushell.com/notes/2025-02-15T07:01Z/"
-            },
-            {
-              "date": "2025-02-14",
-              "link": "https://dbushell.com/notes/2025-02-14T10:20Z/"
-            },
-            {
+              "title": "0051: hytradboi program and tickets, query compilers, decorrelation encore, books, misc",
               "date": "2025-02-13",
-              "link": "https://dbushell.com/notes/2025-02-13T07:08Z/"
-            }
-          ]
-        },
-        {
-          "title": "Evan Boehs in the blog",
-          "feedUrl": "https://boehs.org/in/blog.xml",
-          "items": [
-            {
-              "title": "A Rough Timeline of Technological Buffoonery in the DOGE Era",
-              "date": "2025-02-24",
-              "link": "https://boehs.org/node/doge-tech"
+              "link": "https://www.scattered-thoughts.net/log/0051/"
             },
             {
-              "title": "Not Feeling Big Tech This Year? Start an Indie Blog!",
-              "date": "2025-01-13",
-              "link": "https://boehs.org/node/2025-call-for-bloggers"
+              "title": "HYTRADBOI 2025 program and tickets",
+              "date": "2025-01-31",
+              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-program-and-tickets/"
             },
             {
-              "title": "Homomorphic Encryption in iOS 18",
-              "date": "2025-01-10",
-              "link": "https://boehs.org/node/homomorphic-encryption"
+              "title": "The missing tier for query compilers",
+              "date": "2025-01-12",
+              "link": "https://www.scattered-thoughts.net/writing/the-missing-tier-for-query-compilers/"
             },
             {
-              "title": "I Was Just Censored by Meta",
-              "date": "2025-01-10",
-              "link": "https://boehs.org/node/meta-censorship"
-            },
-            {
-              "title": "I'm Opposed to the TikTok Ban",
-              "date": "2025-01-02",
-              "link": "https://boehs.org/node/tiktok-ban"
+              "title": "0050: smolderingly fast b-trees, serious fun, what is the point of an online conference, it's ok to be afraid, HYTRADBOI progress, no other progress, vancouver.systems, not the incentives, llm garbage, books",
+              "date": "2024-11-25",
+              "link": "https://www.scattered-thoughts.net/log/0050/"
             }
           ]
         },
@@ -371,37 +464,6 @@
           ]
         },
         {
-          "title": "Joep Schuurkes",
-          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
-          "items": [
-            {
-              "title": "Benchmarking counterstring implementations in TypeScript",
-              "date": "2025-02-22",
-              "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
-            },
-            {
-              "title": "Optimizing for moments of discovery",
-              "date": "2025-02-15",
-              "link": "https://smallsheds.garden/blog/2025/optimizing-for-moments-of-discovery/"
-            },
-            {
-              "title": "Comparing counterstring implementations in TypeScript",
-              "date": "2025-01-18",
-              "link": "https://smallsheds.garden/blog/2025/comparing-counterstring-implementations-in-typescript/"
-            },
-            {
-              "title": "Using \"fake it till you make it\" to implement counterstring",
-              "date": "2025-01-04",
-              "link": "https://smallsheds.garden/blog/2025/using-fake-it-till-you-make-it-to-implement-counterstring/"
-            },
-            {
-              "title": "Your default response should be a safe one",
-              "date": "2024-12-28",
-              "link": "https://smallsheds.garden/blog/2024/your-default-response-should-be-a-safe-one/"
-            }
-          ]
-        },
-        {
           "title": "Fynn Ellie Becker",
           "feedUrl": "https://fynn.be/feed.xml",
           "items": [
@@ -429,6 +491,37 @@
               "title": "Selbstbestimmt",
               "date": "2024-11-23",
               "link": "https://fynn.be/blog/selbstbestimmt/"
+            }
+          ]
+        },
+        {
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
+          "items": [
+            {
+              "title": "Benchmarking counterstring implementations in TypeScript",
+              "date": "2025-02-22",
+              "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
+            },
+            {
+              "title": "Optimizing for moments of discovery",
+              "date": "2025-02-15",
+              "link": "https://smallsheds.garden/blog/2025/optimizing-for-moments-of-discovery/"
+            },
+            {
+              "title": "Comparing counterstring implementations in TypeScript",
+              "date": "2025-01-18",
+              "link": "https://smallsheds.garden/blog/2025/comparing-counterstring-implementations-in-typescript/"
+            },
+            {
+              "title": "Using \"fake it till you make it\" to implement counterstring",
+              "date": "2025-01-04",
+              "link": "https://smallsheds.garden/blog/2025/using-fake-it-till-you-make-it-to-implement-counterstring/"
+            },
+            {
+              "title": "Your default response should be a safe one",
+              "date": "2024-12-28",
+              "link": "https://smallsheds.garden/blog/2024/your-default-response-should-be-a-safe-one/"
             }
           ]
         },
@@ -619,37 +712,6 @@
           ]
         },
         {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Keeping A Reading Log",
-              "date": "2025-02-18",
-              "link": "https://flamedfury.com/posts/keeping-a-reading-log/"
-            },
-            {
-              "title": "Blogging For The Hell Of It",
-              "date": "2025-02-04",
-              "link": "https://flamedfury.com/posts/blogging-for-the-hell-of-it/"
-            },
-            {
-              "title": "Music Questions Challenge",
-              "date": "2025-02-02",
-              "link": "https://flamedfury.com/posts/music-questions-challenge/"
-            },
-            {
-              "title": "Monthly Recap: January 2025",
-              "date": "2025-02-01",
-              "link": "https://flamedfury.com/posts/monthly-recap-january-2025/"
-            },
-            {
-              "title": "What To Write",
-              "date": "2025-01-24",
-              "link": "https://flamedfury.com/posts/what-to-write/"
-            }
-          ]
-        },
-        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -832,37 +894,6 @@
               "title": "Raven Photos (24 January 2025)",
               "date": "2025-01-24",
               "link": "https://www.baldurbjarnason.com/notes/photos/photos-14/"
-            }
-          ]
-        },
-        {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "0051: hytradboi program and tickets, query compilers, decorrelation encore, books, misc",
-              "date": "2025-02-13",
-              "link": "https://www.scattered-thoughts.net/log/0051/"
-            },
-            {
-              "title": "HYTRADBOI 2025 program and tickets",
-              "date": "2025-01-31",
-              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-program-and-tickets/"
-            },
-            {
-              "title": "The missing tier for query compilers",
-              "date": "2025-01-12",
-              "link": "https://www.scattered-thoughts.net/writing/the-missing-tier-for-query-compilers/"
-            },
-            {
-              "title": "0050: smolderingly fast b-trees, serious fun, what is the point of an online conference, it's ok to be afraid, HYTRADBOI progress, no other progress, vancouver.systems, not the incentives, llm garbage, books",
-              "date": "2024-11-25",
-              "link": "https://www.scattered-thoughts.net/log/0050/"
-            },
-            {
-              "title": "It's ok to be afraid",
-              "date": "2024-11-16",
-              "link": "https://www.scattered-thoughts.net/writing/its-ok-to-be-afraid/"
             }
           ]
         },
@@ -1266,37 +1297,6 @@
               "title": "Agile Testing Days 2024 - Reunion for Quality",
               "date": "2024-12-07",
               "link": "https://www.lisihocke.com/2024/12/agile-testing-days-2024-reunion-for-quality.html"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "Fly forth",
-              "date": "2025-01-28",
-              "link": "https://moonbase.lgbt/blog/fly-forth/"
-            },
-            {
-              "title": "Lurking in the fog",
-              "date": "2025-01-18",
-              "link": "https://moonbase.lgbt/blog/lurking-in-the-fog/"
-            },
-            {
-              "title": "Friend or foe?",
-              "date": "2025-01-16",
-              "link": "https://moonbase.lgbt/blog/friend-or-foe/"
-            },
-            {
-              "title": "The forest beckons",
-              "date": "2025-01-15",
-              "link": "https://moonbase.lgbt/blog/the-forest-beckons/"
-            },
-            {
-              "title": "Journey to the beyond",
-              "date": "2025-01-14",
-              "link": "https://moonbase.lgbt/blog/journey-to-the-beyond/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-25T03:22:21.248Z",
+  "fetchDate": "2025-02-26T03:21:53.633Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

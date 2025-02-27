@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "All the Deets on the Mighty Details Tag",
+              "date": "2025-02-27",
+              "link": "https://thathtml.blog/2025/02/all-the-deets-on-details/"
+            },
+            {
+              "title": "Hot Off the Press Examples of CSS if()",
+              "date": "2025-02-21",
+              "link": "https://thathtml.blog/2025/02/hot-off-the-press-examples-of-css-if/"
+            },
+            {
+              "title": "Solving Unintended View Transition Wonkiness",
+              "date": "2025-02-19",
+              "link": "https://thathtml.blog/2025/02/solving-unintended-view-transition-wonkiness/"
+            },
+            {
+              "title": "We Need to Talk About Anti-Web Coding Assistants",
+              "date": "2025-02-14",
+              "link": "https://thathtml.blog/2025/02/we-need-to-talk-about-anti-web-coding-assistants/"
+            },
+            {
+              "title": "Hey, When Did Intrinsic Web Design Become the Norm?",
+              "date": "2025-02-12",
+              "link": "https://thathtml.blog/2025/02/when-did-intrinsic-web-design-become-the-norm/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Just go for it. Or just sleep on it.",
+              "date": "2025-02-26",
+              "link": "https://gomakethings.com/just-go-for-it.-or-just-sleep-on-it./"
+            },
+            {
+              "title": "Async communication vs. meetings at work",
+              "date": "2025-02-22",
+              "link": "https://gomakethings.com/async-communication-vs.-meetings-at-work/"
+            },
+            {
+              "title": "On digital gardens (and being a whole person on the web)",
+              "date": "2025-02-21",
+              "link": "https://gomakethings.com/on-digital-gardens-and-being-a-whole-person-on-the-web/"
+            },
+            {
+              "title": "Rudderless",
+              "date": "2025-02-20",
+              "link": "https://gomakethings.com/rudderless/"
+            },
+            {
+              "title": "Existing in tech",
+              "date": "2025-02-19",
+              "link": "https://gomakethings.com/existing-in-tech/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Limitations vs. Capabilities",
+              "date": "2025-02-26",
+              "link": "https://blog.jim-nielsen.com/2025/limitations-vs-capabilities/"
+            },
+            {
+              "title": "Sanding UI, pt. II",
+              "date": "2025-02-24",
+              "link": "https://blog.jim-nielsen.com/2025/sanding-ui-pt-ii/"
+            },
+            {
+              "title": "CSS Space Toggles",
+              "date": "2025-02-19",
+              "link": "https://blog.jim-nielsen.com/2025/css-space-toggles/"
+            },
+            {
+              "title": "Aspect Ratio Changes With CSS View Transitions",
+              "date": "2025-02-17",
+              "link": "https://blog.jim-nielsen.com/2025/aspect-ratio-in-css-view-transitions/"
+            },
+            {
+              "title": "Search Results Without JavaScript",
+              "date": "2025-02-13",
+              "link": "https://blog.jim-nielsen.com/2025/search-without-javascript/"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "Constraint Solvers og utfordrende planlegging",
+              "date": "2025-02-26",
+              "link": "https://www.kodemaker.no/blogg/2025-02-26-constraint-solvers/"
+            },
+            {
+              "title": "Semantisk søk ved hjelp av vektor-representasjoner av tekst",
+              "date": "2025-02-12",
+              "link": "https://www.kodemaker.no/blogg/2025-02-12-text-embeddings/"
+            },
+            {
+              "title": "Din AI-assistent kan bli personlig - slik fungerer det",
+              "date": "2025-02-11",
+              "link": "https://www.kodemaker.no/blogg/2025-02-11-konsept-rag/"
+            },
+            {
+              "title": "Adventskalendere, AI, og det tenkende mennesket",
+              "date": "2025-01-16",
+              "link": "https://www.kodemaker.no/blogg/2025-01-16-adventskalendere-ai-og-det-tenkende-mennesket/"
+            },
+            {
+              "title": "Java kommer til å kreve mindre, og gjøre mer",
+              "date": "2024-11-26",
+              "link": "https://www.kodemaker.no/blogg/2024-11-26-java-mer-effektivt/"
+            }
+          ]
+        },
+        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -35,33 +159,33 @@
           ]
         },
         {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
-              "title": "Let Me Solo Him",
+              "title": "26 Feb 2025\n      ",
               "date": "2025-02-26",
-              "link": "https://flamedfury.com/posts/let-me-solo-him/"
+              "link": "https://frills.dev/status/microblog/"
             },
             {
-              "title": "Keeping A Reading Log",
-              "date": "2025-02-18",
-              "link": "https://flamedfury.com/posts/keeping-a-reading-log/"
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
             },
             {
-              "title": "Blogging For The Hell Of It",
-              "date": "2025-02-04",
-              "link": "https://flamedfury.com/posts/blogging-for-the-hell-of-it/"
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
             },
             {
-              "title": "Music Questions Challenge",
-              "date": "2025-02-02",
-              "link": "https://flamedfury.com/posts/music-questions-challenge/"
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
             },
             {
-              "title": "Monthly Recap: January 2025",
-              "date": "2025-02-01",
-              "link": "https://flamedfury.com/posts/monthly-recap-january-2025/"
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
             }
           ]
         },
@@ -97,6 +221,37 @@
           ]
         },
         {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Let Me Solo Him",
+              "date": "2025-02-26",
+              "link": "https://flamedfury.com/posts/let-me-solo-him/"
+            },
+            {
+              "title": "Keeping A Reading Log",
+              "date": "2025-02-18",
+              "link": "https://flamedfury.com/posts/keeping-a-reading-log/"
+            },
+            {
+              "title": "Blogging For The Hell Of It",
+              "date": "2025-02-04",
+              "link": "https://flamedfury.com/posts/blogging-for-the-hell-of-it/"
+            },
+            {
+              "title": "Music Questions Challenge",
+              "date": "2025-02-02",
+              "link": "https://flamedfury.com/posts/music-questions-challenge/"
+            },
+            {
+              "title": "Monthly Recap: January 2025",
+              "date": "2025-02-01",
+              "link": "https://flamedfury.com/posts/monthly-recap-january-2025/"
+            }
+          ]
+        },
+        {
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
@@ -124,37 +279,6 @@
               "title": "The bottom type <code>never</code> in TypeScript",
               "date": "2025-02-19",
               "link": "https://2ality.com/2025/02/typescript-never.html"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "25 Feb 2025\n      ",
-              "date": "2025-02-25",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
             }
           ]
         },
@@ -212,37 +336,6 @@
               "title": "I Was Just Censored by Meta",
               "date": "2025-01-10",
               "link": "https://boehs.org/node/meta-censorship"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Sanding UI, pt. II",
-              "date": "2025-02-24",
-              "link": "https://blog.jim-nielsen.com/2025/sanding-ui-pt-ii/"
-            },
-            {
-              "title": "CSS Space Toggles",
-              "date": "2025-02-19",
-              "link": "https://blog.jim-nielsen.com/2025/css-space-toggles/"
-            },
-            {
-              "title": "Aspect Ratio Changes With CSS View Transitions",
-              "date": "2025-02-17",
-              "link": "https://blog.jim-nielsen.com/2025/aspect-ratio-in-css-view-transitions/"
-            },
-            {
-              "title": "Search Results Without JavaScript",
-              "date": "2025-02-13",
-              "link": "https://blog.jim-nielsen.com/2025/search-without-javascript/"
-            },
-            {
-              "title": "The Art of Making Websites",
-              "date": "2025-02-10",
-              "link": "https://blog.jim-nielsen.com/2025/the-art-of-making-websites/"
             }
           ]
         },
@@ -371,37 +464,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Async communication vs. meetings at work",
-              "date": "2025-02-22",
-              "link": "https://gomakethings.com/async-communication-vs.-meetings-at-work/"
-            },
-            {
-              "title": "On digital gardens (and being a whole person on the web)",
-              "date": "2025-02-21",
-              "link": "https://gomakethings.com/on-digital-gardens-and-being-a-whole-person-on-the-web/"
-            },
-            {
-              "title": "Rudderless",
-              "date": "2025-02-20",
-              "link": "https://gomakethings.com/rudderless/"
-            },
-            {
-              "title": "Existing in tech",
-              "date": "2025-02-19",
-              "link": "https://gomakethings.com/existing-in-tech/"
-            },
-            {
-              "title": "Purpose, goals, and burnout",
-              "date": "2025-02-18",
-              "link": "https://gomakethings.com/purpose-goals-and-burnout/"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -464,37 +526,6 @@
           ]
         },
         {
-          "title": "Fynn Ellie Becker",
-          "feedUrl": "https://fynn.be/feed.xml",
-          "items": [
-            {
-              "title": "Panic",
-              "date": "2025-02-22",
-              "link": "https://fynn.be/blog/panic/"
-            },
-            {
-              "title": "Sunset v28",
-              "date": "2025-01-28",
-              "link": "https://fynn.be/sunset/v28/"
-            },
-            {
-              "title": "Sunset v27",
-              "date": "2024-12-21",
-              "link": "https://fynn.be/sunset/v27/"
-            },
-            {
-              "title": "The story behind my name",
-              "date": "2024-12-01",
-              "link": "https://fynn.be/blog/story-behind-name/"
-            },
-            {
-              "title": "Selbstbestimmt",
-              "date": "2024-11-23",
-              "link": "https://fynn.be/blog/selbstbestimmt/"
-            }
-          ]
-        },
-        {
           "title": "Joep Schuurkes",
           "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
@@ -522,6 +553,37 @@
               "title": "Your default response should be a safe one",
               "date": "2024-12-28",
               "link": "https://smallsheds.garden/blog/2024/your-default-response-should-be-a-safe-one/"
+            }
+          ]
+        },
+        {
+          "title": "Fynn Ellie Becker",
+          "feedUrl": "https://fynn.be/feed.xml",
+          "items": [
+            {
+              "title": "Panic",
+              "date": "2025-02-22",
+              "link": "https://fynn.be/blog/panic/"
+            },
+            {
+              "title": "Sunset v28",
+              "date": "2025-01-28",
+              "link": "https://fynn.be/sunset/v28/"
+            },
+            {
+              "title": "Sunset v27",
+              "date": "2024-12-21",
+              "link": "https://fynn.be/sunset/v27/"
+            },
+            {
+              "title": "The story behind my name",
+              "date": "2024-12-01",
+              "link": "https://fynn.be/blog/story-behind-name/"
+            },
+            {
+              "title": "Selbstbestimmt",
+              "date": "2024-11-23",
+              "link": "https://fynn.be/blog/selbstbestimmt/"
             }
           ]
         },
@@ -584,37 +646,6 @@
               "title": "On disclosure",
               "date": "2024-11-11",
               "link": "https://www.drcathicks.com/post/on-disclosure"
-            }
-          ]
-        },
-        {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Hot Off the Press Examples of CSS if()",
-              "date": "2025-02-21",
-              "link": "https://thathtml.blog/2025/02/hot-off-the-press-examples-of-css-if/"
-            },
-            {
-              "title": "Solving Unintended View Transition Wonkiness",
-              "date": "2025-02-19",
-              "link": "https://thathtml.blog/2025/02/solving-unintended-view-transition-wonkiness/"
-            },
-            {
-              "title": "We Need to Talk About Anti-Web Coding Assistants",
-              "date": "2025-02-14",
-              "link": "https://thathtml.blog/2025/02/we-need-to-talk-about-anti-web-coding-assistants/"
-            },
-            {
-              "title": "Hey, When Did Intrinsic Web Design Become the Norm?",
-              "date": "2025-02-12",
-              "link": "https://thathtml.blog/2025/02/when-did-intrinsic-web-design-become-the-norm/"
-            },
-            {
-              "title": "Live CSS Colors: What You Can Safely Use",
-              "date": "2025-02-05",
-              "link": "https://thathtml.blog/2025/02/live-colors-what-you-can-safely-use/"
             }
           ]
         },
@@ -836,37 +867,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            },
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            },
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
-            },
-            {
-              "title": "Why pipes sometimes get \"stuck\": buffering",
-              "date": "2024-11-29",
-              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -898,33 +898,33 @@
           ]
         },
         {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
             {
-              "title": "Semantisk søk ved hjelp av vektor-representasjoner av tekst",
-              "date": "2025-02-12",
-              "link": "https://www.kodemaker.no/blogg/2025-02-12-text-embeddings/"
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
             },
             {
-              "title": "Din AI-assistent kan bli personlig - slik fungerer det",
-              "date": "2025-02-11",
-              "link": "https://www.kodemaker.no/blogg/2025-02-11-konsept-rag/"
+              "title": "Some terminal frustrations",
+              "date": "2025-02-05",
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
             },
             {
-              "title": "Adventskalendere, AI, og det tenkende mennesket",
-              "date": "2025-01-16",
-              "link": "https://www.kodemaker.no/blogg/2025-01-16-adventskalendere-ai-og-det-tenkende-mennesket/"
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
             },
             {
-              "title": "Java kommer til å kreve mindre, og gjøre mer",
-              "date": "2024-11-26",
-              "link": "https://www.kodemaker.no/blogg/2024-11-26-java-mer-effektivt/"
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
             },
             {
-              "title": "OffentlAI sektor",
-              "date": "2024-11-21",
-              "link": "https://www.kodemaker.no/blogg/2024-11-22-offentlai-sektor/"
+              "title": "Why pipes sometimes get \"stuck\": buffering",
+              "date": "2024-11-29",
+              "link": "https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/"
             }
           ]
         },
@@ -1177,37 +1177,6 @@
           ]
         },
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Non-Fiction Has Bad Incentives",
-              "date": "2025-02-03",
-              "link": "https://borretti.me/article/non-fiction-has-bad-incentives"
-            },
-            {
-              "title": "Composable SQL",
-              "date": "2025-01-24",
-              "link": "https://borretti.me/article/composable-sql"
-            },
-            {
-              "title": "Adding Colour to macOS Folder Icons",
-              "date": "2025-01-17",
-              "link": "https://borretti.me/article/adding-colour-to-macos-folder-icons"
-            },
-            {
-              "title": "Implementing FSRS in 100 Lines",
-              "date": "2025-01-10",
-              "link": "https://borretti.me/article/implementing-fsrs-in-100-lines"
-            },
-            {
-              "title": "How I Use Claude",
-              "date": "2025-01-01",
-              "link": "https://borretti.me/article/how-i-use-claude"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -1235,6 +1204,37 @@
               "title": "Compiler-Driven Development in Rust",
               "date": "2024-06-16",
               "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Non-Fiction Has Bad Incentives",
+              "date": "2025-02-03",
+              "link": "https://borretti.me/article/non-fiction-has-bad-incentives"
+            },
+            {
+              "title": "Composable SQL",
+              "date": "2025-01-24",
+              "link": "https://borretti.me/article/composable-sql"
+            },
+            {
+              "title": "Adding Colour to macOS Folder Icons",
+              "date": "2025-01-17",
+              "link": "https://borretti.me/article/adding-colour-to-macos-folder-icons"
+            },
+            {
+              "title": "Implementing FSRS in 100 Lines",
+              "date": "2025-01-10",
+              "link": "https://borretti.me/article/implementing-fsrs-in-100-lines"
+            },
+            {
+              "title": "How I Use Claude",
+              "date": "2025-01-01",
+              "link": "https://borretti.me/article/how-i-use-claude"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-26T03:21:53.633Z",
+  "fetchDate": "2025-02-27T03:22:44.443Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

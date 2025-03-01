@@ -4,33 +4,126 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "title": "leanrada.com notes",
+          "feedUrl": "https://leanrada.com/rss.xml",
           "items": [
             {
-              "title": "AI and Esoteric Fascism",
-              "date": "2025-02-27",
-              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
+              "title": "Rewriting my site in vanilla web",
+              "date": "2025-03-01",
+              "link": "https://leanrada.com/notes/vanilla-web-rewrite/?ref=rss"
             },
             {
-              "title": "Now I'm disappointed.",
-              "date": "2025-02-13",
-              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
+              "title": "CSS sprite sheet animations",
+              "date": "2024-11-03",
+              "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
             },
             {
-              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
-              "date": "2025-02-12",
-              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
+              "title": "Centering a div in a div in 2020",
+              "date": "2024-10-17",
+              "link": "https://leanrada.com/notes/how-to-center-in-css?ref=rss"
             },
             {
-              "title": "Todo notes as a storm approaches",
-              "date": "2025-02-05",
-              "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
+              "title": "I made an app to fix my motion sickness",
+              "date": "2024-09-02",
+              "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
             },
             {
-              "title": "Poisoning for propaganda: rising authoritarianism makes LLMs more dangerous",
-              "date": "2025-02-03",
-              "link": "https://www.baldurbjarnason.com/2025/poisoning-for-propaganda/"
+              "title": "Stop using ease-out in your UIs!",
+              "date": "2024-07-15",
+              "link": "https://leanrada.com/notes/stop-using-ease-out?ref=rss"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Can You Get Better Doing a Bad Job?",
+              "date": "2025-02-28",
+              "link": "https://blog.jim-nielsen.com/2025/get-better-doing-a-bad-job/"
+            },
+            {
+              "title": "Limitations vs. Capabilities",
+              "date": "2025-02-26",
+              "link": "https://blog.jim-nielsen.com/2025/limitations-vs-capabilities/"
+            },
+            {
+              "title": "Sanding UI, pt. II",
+              "date": "2025-02-24",
+              "link": "https://blog.jim-nielsen.com/2025/sanding-ui-pt-ii/"
+            },
+            {
+              "title": "CSS Space Toggles",
+              "date": "2025-02-19",
+              "link": "https://blog.jim-nielsen.com/2025/css-space-toggles/"
+            },
+            {
+              "title": "Aspect Ratio Changes With CSS View Transitions",
+              "date": "2025-02-17",
+              "link": "https://blog.jim-nielsen.com/2025/aspect-ratio-in-css-view-transitions/"
+            }
+          ]
+        },
+        {
+          "title": "drcathicks",
+          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
+          "items": [
+            {
+              "title": "Citation as Pilgrimage",
+              "date": "2025-02-28",
+              "link": "https://www.drcathicks.com/post/citation-as-pilgrimage"
+            },
+            {
+              "title": "Ways to listen to (rather than read about) the psychology of software teams!",
+              "date": "2025-02-21",
+              "link": "https://www.drcathicks.com/post/ways-to-listen-to-rather-than-read-about-the-psychology-of-software-teams"
+            },
+            {
+              "title": "Just another example of how collaboration, not competition, drives healthy science",
+              "date": "2025-02-15",
+              "link": "https://www.drcathicks.com/post/just-another-example-of-how-collaboration-not-competition-drives-healthy-science"
+            },
+            {
+              "title": "Assorted (unsorted) thoughts about trauma-informed research ",
+              "date": "2025-01-06",
+              "link": "https://www.drcathicks.com/post/assorted-unsorted-thoughts-about-trauma-informed-research"
+            },
+            {
+              "title": "A Cumulative Culture Theory of Developer Problem-Solving: new preprint",
+              "date": "2024-12-01",
+              "link": "https://www.drcathicks.com/post/a-cumulative-culture-theory-of-developer-problem-solving-new-preprint"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "28 Feb 2025\n      ",
+              "date": "2025-02-28",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
             }
           ]
         },
@@ -66,33 +159,33 @@
           ]
         },
         {
-          "title": "Kyle Shevlin's Blog RSS Feed",
-          "feedUrl": "https://kyleshevlin.com/rss.xml",
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
             {
-              "title": "&ldquo;Refactor&rdquo; is Not a Scary Word",
+              "title": "AI and Esoteric Fascism",
               "date": "2025-02-27",
-              "link": "https://kyleshevlin.com/refactor-is-not-a-scary-word/"
+              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
             },
             {
-              "title": "Fun Coding Exercise: Pyramid Slide Down",
-              "date": "2025-01-27",
-              "link": "https://kyleshevlin.com/fun-coding-exercise-pyramid-slide-down/"
+              "title": "Now I'm disappointed.",
+              "date": "2025-02-13",
+              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
             },
             {
-              "title": "Algorithm: Sliding Window",
-              "date": "2025-01-16",
-              "link": "https://kyleshevlin.com/algorithm-sliding-window/"
+              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
+              "date": "2025-02-12",
+              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
             },
             {
-              "title": "The Consciousness Lottery",
-              "date": "2024-11-19",
-              "link": "https://kyleshevlin.com/consciousness-lottery/"
+              "title": "Todo notes as a storm approaches",
+              "date": "2025-02-05",
+              "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
             },
             {
-              "title": "How I Built &ldquo;Test Your Focus&rdquo;",
-              "date": "2024-11-15",
-              "link": "https://kyleshevlin.com/how-i-built-test-your-focus/"
+              "title": "Poisoning for propaganda: rising authoritarianism makes LLMs more dangerous",
+              "date": "2025-02-03",
+              "link": "https://www.baldurbjarnason.com/2025/poisoning-for-propaganda/"
             }
           ]
         },
@@ -128,6 +221,37 @@
           ]
         },
         {
+          "title": "Kyle Shevlin's Blog RSS Feed",
+          "feedUrl": "https://kyleshevlin.com/rss.xml",
+          "items": [
+            {
+              "title": "&ldquo;Refactor&rdquo; is Not a Scary Word",
+              "date": "2025-02-27",
+              "link": "https://kyleshevlin.com/refactor-is-not-a-scary-word/"
+            },
+            {
+              "title": "Fun Coding Exercise: Pyramid Slide Down",
+              "date": "2025-01-27",
+              "link": "https://kyleshevlin.com/fun-coding-exercise-pyramid-slide-down/"
+            },
+            {
+              "title": "Algorithm: Sliding Window",
+              "date": "2025-01-16",
+              "link": "https://kyleshevlin.com/algorithm-sliding-window/"
+            },
+            {
+              "title": "The Consciousness Lottery",
+              "date": "2024-11-19",
+              "link": "https://kyleshevlin.com/consciousness-lottery/"
+            },
+            {
+              "title": "How I Built &ldquo;Test Your Focus&rdquo;",
+              "date": "2024-11-15",
+              "link": "https://kyleshevlin.com/how-i-built-test-your-focus/"
+            }
+          ]
+        },
+        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -155,68 +279,6 @@
               "title": "Hey, When Did Intrinsic Web Design Become the Norm?",
               "date": "2025-02-12",
               "link": "https://thathtml.blog/2025/02/when-did-intrinsic-web-design-become-the-norm/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "27 Feb 2025\n      ",
-              "date": "2025-02-27",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Limitations vs. Capabilities",
-              "date": "2025-02-26",
-              "link": "https://blog.jim-nielsen.com/2025/limitations-vs-capabilities/"
-            },
-            {
-              "title": "Sanding UI, pt. II",
-              "date": "2025-02-24",
-              "link": "https://blog.jim-nielsen.com/2025/sanding-ui-pt-ii/"
-            },
-            {
-              "title": "CSS Space Toggles",
-              "date": "2025-02-19",
-              "link": "https://blog.jim-nielsen.com/2025/css-space-toggles/"
-            },
-            {
-              "title": "Aspect Ratio Changes With CSS View Transitions",
-              "date": "2025-02-17",
-              "link": "https://blog.jim-nielsen.com/2025/aspect-ratio-in-css-view-transitions/"
-            },
-            {
-              "title": "Search Results Without JavaScript",
-              "date": "2025-02-13",
-              "link": "https://blog.jim-nielsen.com/2025/search-without-javascript/"
             }
           ]
         },
@@ -677,37 +739,6 @@
               "title": "Five for Friday – January 17, 2025",
               "date": "2025-01-17",
               "link": "https://angryweasel.com/blog/five-for-friday-january-17-2025/"
-            }
-          ]
-        },
-        {
-          "title": "drcathicks",
-          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
-          "items": [
-            {
-              "title": "Ways to listen to (rather than read about) the psychology of software teams!",
-              "date": "2025-02-21",
-              "link": "https://www.drcathicks.com/post/ways-to-listen-to-rather-than-read-about-the-psychology-of-software-teams"
-            },
-            {
-              "title": "Just another example of how collaboration, not competition, drives healthy science",
-              "date": "2025-02-15",
-              "link": "https://www.drcathicks.com/post/just-another-example-of-how-collaboration-not-competition-drives-healthy-science"
-            },
-            {
-              "title": "Assorted (unsorted) thoughts about trauma-informed research ",
-              "date": "2025-01-06",
-              "link": "https://www.drcathicks.com/post/assorted-unsorted-thoughts-about-trauma-informed-research"
-            },
-            {
-              "title": "A Cumulative Culture Theory of Developer Problem-Solving: new preprint",
-              "date": "2024-12-01",
-              "link": "https://www.drcathicks.com/post/a-cumulative-culture-theory-of-developer-problem-solving-new-preprint"
-            },
-            {
-              "title": "On disclosure",
-              "date": "2024-11-11",
-              "link": "https://www.drcathicks.com/post/on-disclosure"
             }
           ]
         },
@@ -1849,37 +1880,6 @@
           ]
         },
         {
-          "title": "leanrada.com notes",
-          "feedUrl": "https://leanrada.com/rss.xml",
-          "items": [
-            {
-              "title": "CSS sprite sheet animations",
-              "date": "2024-11-03",
-              "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
-            },
-            {
-              "title": "Centering a div in a div in 2020",
-              "date": "2024-10-17",
-              "link": "https://leanrada.com/notes/how-to-center-in-css?ref=rss"
-            },
-            {
-              "title": "I made an app to fix my motion sickness",
-              "date": "2024-09-02",
-              "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
-            },
-            {
-              "title": "Stop using ease-out in your UIs!",
-              "date": "2024-07-15",
-              "link": "https://leanrada.com/notes/stop-using-ease-out?ref=rss"
-            },
-            {
-              "title": "Creating a halftone effect with CSS",
-              "date": "2024-05-05",
-              "link": "https://leanrada.com/notes/pure-css-halftone?ref=rss"
-            }
-          ]
-        },
-        {
           "title": "",
           "feedUrl": "https://danluu.com/atom.xml",
           "items": [
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-02-28T03:23:02.089Z",
+  "fetchDate": "2025-03-01T03:28:05.239Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

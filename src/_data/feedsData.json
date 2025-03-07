@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "leanrada.com notes",
+          "feedUrl": "https://leanrada.com/rss.xml",
+          "items": [
+            {
+              "title": "Inline rendering with document​.currentScript",
+              "date": "2025-03-07",
+              "link": "https://leanrada.com/notes/inline-rendering-currentscript/?ref=rss"
+            },
+            {
+              "title": "Rewriting my site in vanilla web",
+              "date": "2025-03-01",
+              "link": "https://leanrada.com/notes/vanilla-web-rewrite/?ref=rss"
+            },
+            {
+              "title": "CSS sprite sheet animations",
+              "date": "2024-11-03",
+              "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
+            },
+            {
+              "title": "Centering a div in a div in 2020",
+              "date": "2024-10-17",
+              "link": "https://leanrada.com/notes/how-to-center-in-css?ref=rss"
+            },
+            {
+              "title": "I made an app to fix my motion sickness",
+              "date": "2024-09-02",
+              "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The joy of the journey",
+              "date": "2025-03-06",
+              "link": "https://gomakethings.com/the-joy-of-the-journey/"
+            },
+            {
+              "title": "Building a modern web app with PHP and HTML Web Components",
+              "date": "2025-03-05",
+              "link": "https://gomakethings.com/building-a-modern-web-app-with-php-and-html-web-components/"
+            },
+            {
+              "title": "Truth to power",
+              "date": "2025-03-04",
+              "link": "https://gomakethings.com/truth-to-power/"
+            },
+            {
+              "title": "Redirecting HTTPS with Namecheap",
+              "date": "2025-03-03",
+              "link": "https://gomakethings.com/redirecting-https-with-namecheap/"
+            },
+            {
+              "title": "Music that moves you",
+              "date": "2025-03-01",
+              "link": "https://gomakethings.com/music-that-moves-you/"
+            }
+          ]
+        },
+        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -31,6 +93,68 @@
               "title": "Which VoiceOver?",
               "date": "2025-02-04",
               "link": "https://adrianroselli.com/2025/02/which-voiceover.html"
+            }
+          ]
+        },
+        {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "Harm reduction principles for digital accessibility practitioners",
+              "date": "2025-03-06",
+              "link": "https://ericwbailey.website/published/harm-reduction-principles-for-digital-accessibility-practitioners/"
+            },
+            {
+              "title": "Evaluating overlay-adjacent accessibility products",
+              "date": "2025-02-14",
+              "link": "https://ericwbailey.website/published/evaluating-overlay-adjacent-accessibility-products/"
+            },
+            {
+              "title": "Stanislav Petrov",
+              "date": "2025-02-04",
+              "link": "https://ericwbailey.website/published/stanislav-petrov/"
+            },
+            {
+              "title": "GitHub’s updated Commits page and the interactive list component",
+              "date": "2024-12-20",
+              "link": "https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/"
+            },
+            {
+              "title": "Don’t forget to localize your icons",
+              "date": "2024-11-11",
+              "link": "https://ericwbailey.website/published/dont-forget-to-localize-your-icons/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "6 Mar 2025\n      ",
+              "date": "2025-03-06",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
             }
           ]
         },
@@ -66,37 +190,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Building a modern web app with PHP and HTML Web Components",
-              "date": "2025-03-05",
-              "link": "https://gomakethings.com/building-a-modern-web-app-with-php-and-html-web-components/"
-            },
-            {
-              "title": "Truth to power",
-              "date": "2025-03-04",
-              "link": "https://gomakethings.com/truth-to-power/"
-            },
-            {
-              "title": "Redirecting HTTPS with Namecheap",
-              "date": "2025-03-03",
-              "link": "https://gomakethings.com/redirecting-https-with-namecheap/"
-            },
-            {
-              "title": "Music that moves you",
-              "date": "2025-03-01",
-              "link": "https://gomakethings.com/music-that-moves-you/"
-            },
-            {
-              "title": "Self-Hosting Fonts",
-              "date": "2025-02-27",
-              "link": "https://gomakethings.com/self-hosting-fonts/"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -124,68 +217,6 @@
               "title": "“Never Forgive Them” – What to do with Ed Zitron’s essay on the “Rot Economy”",
               "date": "2025-01-26",
               "link": "https://rosswintle.uk/2025/01/never-forgive-them-what-to-do-with-ed-zitrons-essay-on-the-rot-economy/"
-            }
-          ]
-        },
-        {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "Week 5’s AI News",
-              "date": "2025-03-05",
-              "link": "https://www.felienne.com/archives/8731"
-            },
-            {
-              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
-              "date": "2025-03-03",
-              "link": "https://www.felienne.com/archives/8853"
-            },
-            {
-              "title": "Who owns your cloned AI voice – Week 8’s AI news",
-              "date": "2025-02-23",
-              "link": "https://www.felienne.com/archives/8808"
-            },
-            {
-              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
-              "date": "2025-02-15",
-              "link": "https://www.felienne.com/archives/8749"
-            },
-            {
-              "title": "Week 4’s AI news",
-              "date": "2025-01-24",
-              "link": "https://www.felienne.com/archives/8725"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "5 Mar 2025\n      ",
-              "date": "2025-03-05",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
             }
           ]
         },
@@ -584,37 +615,6 @@
               "title": "Bandcamp wrapped",
               "date": "2024-12-06",
               "link": "https://macwright.com/2024/12/06/bandcamp-wrapped.html"
-            }
-          ]
-        },
-        {
-          "title": "leanrada.com notes",
-          "feedUrl": "https://leanrada.com/rss.xml",
-          "items": [
-            {
-              "title": "Rewriting my site in vanilla web",
-              "date": "2025-03-01",
-              "link": "https://leanrada.com/notes/vanilla-web-rewrite/?ref=rss"
-            },
-            {
-              "title": "CSS sprite sheet animations",
-              "date": "2024-11-03",
-              "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
-            },
-            {
-              "title": "Centering a div in a div in 2020",
-              "date": "2024-10-17",
-              "link": "https://leanrada.com/notes/how-to-center-in-css?ref=rss"
-            },
-            {
-              "title": "I made an app to fix my motion sickness",
-              "date": "2024-09-02",
-              "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
-            },
-            {
-              "title": "Stop using ease-out in your UIs!",
-              "date": "2024-07-15",
-              "link": "https://leanrada.com/notes/stop-using-ease-out?ref=rss"
             }
           ]
         },
@@ -1177,37 +1177,6 @@
           ]
         },
         {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "Evaluating overlay-adjacent accessibility products",
-              "date": "2025-02-14",
-              "link": "https://ericwbailey.website/published/evaluating-overlay-adjacent-accessibility-products/"
-            },
-            {
-              "title": "Stanislav Petrov",
-              "date": "2025-02-04",
-              "link": "https://ericwbailey.website/published/stanislav-petrov/"
-            },
-            {
-              "title": "GitHub’s updated Commits page and the interactive list component",
-              "date": "2024-12-20",
-              "link": "https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/"
-            },
-            {
-              "title": "Don’t forget to localize your icons",
-              "date": "2024-11-11",
-              "link": "https://ericwbailey.website/published/dont-forget-to-localize-your-icons/"
-            },
-            {
-              "title": "Making content-aware components using CSS’ <code>:has()</code>, grid, and quantity queries",
-              "date": "2024-09-28",
-              "link": "https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries/"
-            }
-          ]
-        },
-        {
           "title": "Julia Evans",
           "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
@@ -1394,37 +1363,6 @@
           ]
         },
         {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-          "items": [
-            {
-              "title": "Obsidian.md: The Good Parts [Part 2]",
-              "date": "2025-02-03",
-              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
-            },
-            {
-              "title": "AI Is Not Designed for You",
-              "date": "2024-12-06",
-              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
-            },
-            {
-              "title": "From Coder to Creator: My Journey",
-              "date": "2024-09-30",
-              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
-            },
-            {
-              "title": "The \"Brainmade\" Mark",
-              "date": "2024-07-27",
-              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
-            },
-            {
-              "title": "Compiler-Driven Development in Rust",
-              "date": "2024-06-16",
-              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -1452,6 +1390,37 @@
               "title": "How I Use Claude",
               "date": "2025-01-01",
               "link": "https://borretti.me/article/how-i-use-claude"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Obsidian.md: The Good Parts [Part 2]",
+              "date": "2025-02-03",
+              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
+            },
+            {
+              "title": "AI Is Not Designed for You",
+              "date": "2024-12-06",
+              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
+            },
+            {
+              "title": "From Coder to Creator: My Journey",
+              "date": "2024-09-30",
+              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
+            },
+            {
+              "title": "The \"Brainmade\" Mark",
+              "date": "2024-07-27",
+              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
+            },
+            {
+              "title": "Compiler-Driven Development in Rust",
+              "date": "2024-06-16",
+              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
             }
           ]
         },
@@ -2461,11 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-06T03:24:34.539Z",
+  "fetchDate": "2025-03-07T03:25:40.481Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://www.felienne.com/feed"
   ]
 }

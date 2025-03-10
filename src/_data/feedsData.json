@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Love letters 9-10",
+              "date": "2025-03-10",
+              "link": "https://anniemueller.com/posts/love-letters-9-10"
+            },
+            {
+              "title": "How to clean the bathroom",
+              "date": "2025-03-05",
+              "link": "https://anniemueller.com/posts/how-to-clean-the-bathroom"
+            },
+            {
+              "title": "Reading notes: February 2025",
+              "date": "2025-03-02",
+              "link": "https://anniemueller.com/posts/reading-notes-february-2025"
+            },
+            {
+              "title": "Despite the horrors, the laundry must be done; Despite the laundry, the horrors must be faced.",
+              "date": "2025-03-01",
+              "link": "https://anniemueller.com/posts/despite-the-horrors-the-laundry-must-be-done-despite-the-laundry-the-horrors-must-be-faced"
+            },
+            {
+              "title": "Inconclusive neck region",
+              "date": "2025-02-26",
+              "link": "https://anniemueller.com/posts/inconclusive-neck-region"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "9 Mar 2025\n      ",
+              "date": "2025-03-09",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
+              "date": "2025-03-09",
+              "link": "https://www.felienne.com/archives/8880"
+            },
+            {
+              "title": "Week 5’s AI News",
+              "date": "2025-03-05",
+              "link": "https://www.felienne.com/archives/8731"
+            },
+            {
+              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
+              "date": "2025-03-03",
+              "link": "https://www.felienne.com/archives/8853"
+            },
+            {
+              "title": "Who owns your cloned AI voice – Week 8’s AI news",
+              "date": "2025-02-23",
+              "link": "https://www.felienne.com/archives/8808"
+            },
+            {
+              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
+              "date": "2025-02-15",
+              "link": "https://www.felienne.com/archives/8749"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Adding diff support to Glorpdown",
+              "date": "2025-03-09",
+              "link": "https://garoof.no/notes/gd-diff.html"
+            },
+            {
+              "title": "The builder pattern!!! and sums",
+              "date": "2025-03-01",
+              "link": "https://garoof.no/notes/builder-sums.html"
+            },
+            {
+              "title": "Monad tutorial",
+              "date": "2025-01-23",
+              "link": "https://garoof.no/notes/monad-tutorial.html"
+            },
+            {
+              "title": "No epiphanies",
+              "date": "2025-01-20",
+              "link": "https://garoof.no/notes/about.html"
+            },
+            {
+              "title": "Smalltalk workspaces",
+              "date": "2025-01-16",
+              "link": "https://garoof.no/notes/smalltalk-workspaces.html"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -31,37 +155,6 @@
               "title": "Truth to power",
               "date": "2025-03-04",
               "link": "https://gomakethings.com/truth-to-power/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "8 Mar 2025\n      ",
-              "date": "2025-03-08",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
             }
           ]
         },
@@ -190,6 +283,32 @@
           ]
         },
         {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-03-07",
+              "link": "https://dbushell.com/notes/2025-03-07T07:39Z/"
+            },
+            {
+              "date": "2025-03-04",
+              "link": "https://dbushell.com/notes/2025-03-04T16:52Z/"
+            },
+            {
+              "date": "2025-03-02",
+              "link": "https://dbushell.com/notes/2025-03-02T09:39Z/"
+            },
+            {
+              "date": "2025-02-25",
+              "link": "https://dbushell.com/notes/2025-02-25T11:31Z/"
+            },
+            {
+              "date": "2025-02-24",
+              "link": "https://dbushell.com/notes/2025-02-24T06:48Z/"
+            }
+          ]
+        },
+        {
           "title": "leanrada.com notes",
           "feedUrl": "https://leanrada.com/rss.xml",
           "items": [
@@ -217,32 +336,6 @@
               "title": "I made an app to fix my motion sickness",
               "date": "2024-09-02",
               "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-03-07",
-              "link": "https://dbushell.com/notes/2025-03-07T07:39Z/"
-            },
-            {
-              "date": "2025-03-04",
-              "link": "https://dbushell.com/notes/2025-03-04T16:52Z/"
-            },
-            {
-              "date": "2025-03-02",
-              "link": "https://dbushell.com/notes/2025-03-02T09:39Z/"
-            },
-            {
-              "date": "2025-02-25",
-              "link": "https://dbushell.com/notes/2025-02-25T11:31Z/"
-            },
-            {
-              "date": "2025-02-24",
-              "link": "https://dbushell.com/notes/2025-02-24T06:48Z/"
             }
           ]
         },
@@ -367,68 +460,6 @@
               "title": "“Never Forgive Them” – What to do with Ed Zitron’s essay on the “Rot Economy”",
               "date": "2025-01-26",
               "link": "https://rosswintle.uk/2025/01/never-forgive-them-what-to-do-with-ed-zitrons-essay-on-the-rot-economy/"
-            }
-          ]
-        },
-        {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "Week 5’s AI News",
-              "date": "2025-03-05",
-              "link": "https://www.felienne.com/archives/8731"
-            },
-            {
-              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
-              "date": "2025-03-03",
-              "link": "https://www.felienne.com/archives/8853"
-            },
-            {
-              "title": "Who owns your cloned AI voice – Week 8’s AI news",
-              "date": "2025-02-23",
-              "link": "https://www.felienne.com/archives/8808"
-            },
-            {
-              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
-              "date": "2025-02-15",
-              "link": "https://www.felienne.com/archives/8749"
-            },
-            {
-              "title": "Week 4’s AI news",
-              "date": "2025-01-24",
-              "link": "https://www.felienne.com/archives/8725"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "How to clean the bathroom",
-              "date": "2025-03-05",
-              "link": "https://anniemueller.com/posts/how-to-clean-the-bathroom"
-            },
-            {
-              "title": "Reading notes: February 2025",
-              "date": "2025-03-02",
-              "link": "https://anniemueller.com/posts/reading-notes-february-2025"
-            },
-            {
-              "title": "Despite the horrors, the laundry must be done; Despite the laundry, the horrors must be faced.",
-              "date": "2025-03-01",
-              "link": "https://anniemueller.com/posts/despite-the-horrors-the-laundry-must-be-done-despite-the-laundry-the-horrors-must-be-faced"
-            },
-            {
-              "title": "Inconclusive neck region",
-              "date": "2025-02-26",
-              "link": "https://anniemueller.com/posts/inconclusive-neck-region"
-            },
-            {
-              "title": "Urgencies are yappy little dogs",
-              "date": "2025-02-25",
-              "link": "https://anniemueller.com/posts/urgencies-are-yappy-little-dogs"
             }
           ]
         },
@@ -739,37 +770,6 @@
               "title": "Pivots don't start enough businesses",
               "date": "2024-08-26",
               "link": "https://www.simplermachines.com/pivots-dont-start-enough-businesses/"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "The builder pattern!!! and sums",
-              "date": "2025-03-01",
-              "link": "https://garoof.no/notes/builder-sums.html"
-            },
-            {
-              "title": "Monad tutorial",
-              "date": "2025-01-23",
-              "link": "https://garoof.no/notes/monad-tutorial.html"
-            },
-            {
-              "title": "No epiphanies",
-              "date": "2025-01-20",
-              "link": "https://garoof.no/notes/about.html"
-            },
-            {
-              "title": "Smalltalk workspaces",
-              "date": "2025-01-16",
-              "link": "https://garoof.no/notes/smalltalk-workspaces.html"
-            },
-            {
-              "title": "Advent of Dijkstra",
-              "date": "2024-12-16",
-              "link": "https://garoof.no/notes/aoc-dijkstra.html"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-09T03:14:41.923Z",
+  "fetchDate": "2025-03-10T03:16:16.136Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

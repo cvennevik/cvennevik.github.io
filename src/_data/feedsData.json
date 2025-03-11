@@ -4,6 +4,161 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Abandon all keyboards",
+              "date": "2025-03-11",
+              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
+            },
+            {
+              "title": "trot",
+              "date": "2025-02-15",
+              "link": "https://robinrendle.com/notes/trot/"
+            },
+            {
+              "title": "Notes on blogging",
+              "date": "2025-02-01",
+              "link": "https://robinrendle.com/notes/notes-on-blogging/"
+            },
+            {
+              "title": "Change and risk",
+              "date": "2025-01-20",
+              "link": "https://robinrendle.com/notes/change-and-risk/"
+            },
+            {
+              "title": "Work is just work",
+              "date": "2025-01-16",
+              "link": "https://robinrendle.com/notes/work/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The joy of digital gardening",
+              "date": "2025-03-10",
+              "link": "https://gomakethings.com/the-joy-of-digital-gardening/"
+            },
+            {
+              "title": "Lessons from the past",
+              "date": "2025-03-08",
+              "link": "https://gomakethings.com/lessons-from-the-past/"
+            },
+            {
+              "title": "aria-label requires a valid role",
+              "date": "2025-03-07",
+              "link": "https://gomakethings.com/aria-label-requires-a-valid-role/"
+            },
+            {
+              "title": "The joy of the journey",
+              "date": "2025-03-06",
+              "link": "https://gomakethings.com/the-joy-of-the-journey/"
+            },
+            {
+              "title": "Building a modern web app with PHP and HTML Web Components",
+              "date": "2025-03-05",
+              "link": "https://gomakethings.com/building-a-modern-web-app-with-php-and-html-web-components/"
+            }
+          ]
+        },
+        {
+          "title": "A Tester's Journey",
+          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Calm and Steady - The Joy and Overload of Starting Something New",
+              "date": "2025-03-10",
+              "link": "https://www.lisihocke.com/2025/03/calm-and-steady-the-joy-and-overload-of-starting-something-new.html"
+            },
+            {
+              "title": "Calm and Steady - Off to a Good Start",
+              "date": "2025-01-31",
+              "link": "https://www.lisihocke.com/2025/01/calm-and-steady-off-to-a-good-start.html"
+            },
+            {
+              "title": "Calm and Steady as She Goes",
+              "date": "2025-01-06",
+              "link": "https://www.lisihocke.com/2025/01/calm-and-steady-as-she-goes.html"
+            },
+            {
+              "title": "2024 - What a Wild Ride",
+              "date": "2024-12-27",
+              "link": "https://www.lisihocke.com/2024/12/2024-what-a-wild-ride.html"
+            },
+            {
+              "title": "Contributing in New Ways - Finding Closure among New Opportunities",
+              "date": "2024-12-17",
+              "link": "https://www.lisihocke.com/2024/12/contributing-in-new-ways-finding-closure-among-new-opportunities.html"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "10 Mar 2025\n      ",
+              "date": "2025-03-10",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
+          "items": [
+            {
+              "title": "Re: What I Grew Up With",
+              "date": "2025-03-10",
+              "link": "https://mikegrindle.com/posts/grew-up-with"
+            },
+            {
+              "title": "Everything in Solitude, Except Character",
+              "date": "2025-01-09",
+              "link": "https://mikegrindle.com/newsletter/itm-6"
+            },
+            {
+              "title": "Thoughts on a Dark Winter Day",
+              "date": "2024-12-27",
+              "link": "https://mikegrindle.com/posts/2024"
+            },
+            {
+              "title": "Returning to Sunnydale",
+              "date": "2024-12-04",
+              "link": "https://mikegrindle.com/posts/snow"
+            },
+            {
+              "title": "Snow Days",
+              "date": "2024-12-02",
+              "link": "https://mikegrindle.com/posts/snow"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -35,33 +190,33 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
             {
-              "title": "9 Mar 2025\n      ",
-              "date": "2025-03-09",
-              "link": "https://frills.dev/status/microblog/"
+              "title": "Stewardship over ownership",
+              "date": "2025-03-10",
+              "link": "https://ntietz.com/blog/stewardship-over-ownership/?utm_source=atom&utm_medium=feed"
             },
             {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
+              "title": "Some things that make Rust lifetimes hard to learn",
+              "date": "2025-03-03",
+              "link": "https://ntietz.com/blog/rust-lifetimes-learning/?utm_source=atom&utm_medium=feed"
             },
             {
-              "title": "Ode to Dylan (my old Macbook)",
+              "title": "Your product shouldn't require showing my legal name",
+              "date": "2025-02-24",
+              "link": "https://ntietz.com/blog/your-product-shouldnt-require-showing-my-legal-name/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Can I ethically use LLMs?",
+              "date": "2025-02-17",
+              "link": "https://ntietz.com/blog/can-i-ethically-use-llms/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "What's in a ring buffer? And using them in Rust",
               "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+              "link": "https://ntietz.com/blog/whats-in-a-ring-buffer/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -124,37 +279,6 @@
               "title": "Smalltalk workspaces",
               "date": "2025-01-16",
               "link": "https://garoof.no/notes/smalltalk-workspaces.html"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Lessons from the past",
-              "date": "2025-03-08",
-              "link": "https://gomakethings.com/lessons-from-the-past/"
-            },
-            {
-              "title": "aria-label requires a valid role",
-              "date": "2025-03-07",
-              "link": "https://gomakethings.com/aria-label-requires-a-valid-role/"
-            },
-            {
-              "title": "The joy of the journey",
-              "date": "2025-03-06",
-              "link": "https://gomakethings.com/the-joy-of-the-journey/"
-            },
-            {
-              "title": "Building a modern web app with PHP and HTML Web Components",
-              "date": "2025-03-05",
-              "link": "https://gomakethings.com/building-a-modern-web-app-with-php-and-html-web-components/"
-            },
-            {
-              "title": "Truth to power",
-              "date": "2025-03-04",
-              "link": "https://gomakethings.com/truth-to-power/"
             }
           ]
         },
@@ -283,32 +407,6 @@
           ]
         },
         {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-03-07",
-              "link": "https://dbushell.com/notes/2025-03-07T07:39Z/"
-            },
-            {
-              "date": "2025-03-04",
-              "link": "https://dbushell.com/notes/2025-03-04T16:52Z/"
-            },
-            {
-              "date": "2025-03-02",
-              "link": "https://dbushell.com/notes/2025-03-02T09:39Z/"
-            },
-            {
-              "date": "2025-02-25",
-              "link": "https://dbushell.com/notes/2025-02-25T11:31Z/"
-            },
-            {
-              "date": "2025-02-24",
-              "link": "https://dbushell.com/notes/2025-02-24T06:48Z/"
-            }
-          ]
-        },
-        {
           "title": "leanrada.com notes",
           "feedUrl": "https://leanrada.com/rss.xml",
           "items": [
@@ -336,6 +434,32 @@
               "title": "I made an app to fix my motion sickness",
               "date": "2024-09-02",
               "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-03-07",
+              "link": "https://dbushell.com/notes/2025-03-07T07:39Z/"
+            },
+            {
+              "date": "2025-03-04",
+              "link": "https://dbushell.com/notes/2025-03-04T16:52Z/"
+            },
+            {
+              "date": "2025-03-02",
+              "link": "https://dbushell.com/notes/2025-03-02T09:39Z/"
+            },
+            {
+              "date": "2025-02-25",
+              "link": "https://dbushell.com/notes/2025-02-25T11:31Z/"
+            },
+            {
+              "date": "2025-02-24",
+              "link": "https://dbushell.com/notes/2025-02-24T06:48Z/"
             }
           ]
         },
@@ -708,37 +832,6 @@
               "title": "The missing tier for query compilers",
               "date": "2025-01-12",
               "link": "https://www.scattered-thoughts.net/writing/the-missing-tier-for-query-compilers/"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Some things that make Rust lifetimes hard to learn",
-              "date": "2025-03-03",
-              "link": "https://ntietz.com/blog/rust-lifetimes-learning/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Your product shouldn't require showing my legal name",
-              "date": "2025-02-24",
-              "link": "https://ntietz.com/blog/your-product-shouldnt-require-showing-my-legal-name/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Can I ethically use LLMs?",
-              "date": "2025-02-17",
-              "link": "https://ntietz.com/blog/can-i-ethically-use-llms/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "What's in a ring buffer? And using them in Rust",
-              "date": "2025-02-10",
-              "link": "https://ntietz.com/blog/whats-in-a-ring-buffer/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Summarizing our recommendations for software documentation",
-              "date": "2025-02-03",
-              "link": "https://ntietz.com/blog/our-case-study-on-software-documentation/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -1208,37 +1301,6 @@
           ]
         },
         {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "trot",
-              "date": "2025-02-15",
-              "link": "https://robinrendle.com/notes/trot/"
-            },
-            {
-              "title": "Notes on blogging",
-              "date": "2025-02-01",
-              "link": "https://robinrendle.com/notes/notes-on-blogging/"
-            },
-            {
-              "title": "Change and risk",
-              "date": "2025-01-20",
-              "link": "https://robinrendle.com/notes/change-and-risk/"
-            },
-            {
-              "title": "Work is just work",
-              "date": "2025-01-16",
-              "link": "https://robinrendle.com/notes/work/"
-            },
-            {
-              "title": "Learnable by default",
-              "date": "2025-01-11",
-              "link": "https://robinrendle.com/notes/learnable-by-default/"
-            }
-          ]
-        },
-        {
           "title": "Patrick Dubroy's blog",
           "feedUrl": "https://dubroy.com/blog/rss.xml",
           "items": [
@@ -1483,68 +1545,6 @@
               "title": "Slay the Spire #5: Going dynamic",
               "date": "2024-08-04",
               "link": "https://www.cvennevik.no/blog/slay-the-spire-05-going-dynamic/"
-            }
-          ]
-        },
-        {
-          "title": "A Tester's Journey",
-          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Calm and Steady - Off to a Good Start",
-              "date": "2025-01-31",
-              "link": "https://www.lisihocke.com/2025/01/calm-and-steady-off-to-a-good-start.html"
-            },
-            {
-              "title": "Calm and Steady as She Goes",
-              "date": "2025-01-06",
-              "link": "https://www.lisihocke.com/2025/01/calm-and-steady-as-she-goes.html"
-            },
-            {
-              "title": "2024 - What a Wild Ride",
-              "date": "2024-12-27",
-              "link": "https://www.lisihocke.com/2024/12/2024-what-a-wild-ride.html"
-            },
-            {
-              "title": "Contributing in New Ways - Finding Closure among New Opportunities",
-              "date": "2024-12-17",
-              "link": "https://www.lisihocke.com/2024/12/contributing-in-new-ways-finding-closure-among-new-opportunities.html"
-            },
-            {
-              "title": "Agile Testing Days 2024 - Reunion for Quality",
-              "date": "2024-12-07",
-              "link": "https://www.lisihocke.com/2024/12/agile-testing-days-2024-reunion-for-quality.html"
-            }
-          ]
-        },
-        {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
-          "items": [
-            {
-              "title": "Everything in Solitude, Except Character",
-              "date": "2025-01-09",
-              "link": "https://mikegrindle.com/newsletter/itm-6"
-            },
-            {
-              "title": "Thoughts on a Dark Winter Day",
-              "date": "2024-12-27",
-              "link": "https://mikegrindle.com/posts/2024"
-            },
-            {
-              "title": "Returning to Sunnydale",
-              "date": "2024-12-04",
-              "link": "https://mikegrindle.com/posts/snow"
-            },
-            {
-              "title": "Snow Days",
-              "date": "2024-12-02",
-              "link": "https://mikegrindle.com/posts/snow"
-            },
-            {
-              "title": "If It’s Good, It’s Wonderful. If It’s Bad, It’s Experience (Newsletter)",
-              "date": "2024-11-21",
-              "link": "https://mikegrindle.com/newsletter/itm-5"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-10T03:16:16.136Z",
+  "fetchDate": "2025-03-11T03:25:52.409Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

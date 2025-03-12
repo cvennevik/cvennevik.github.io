@@ -4,40 +4,14 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Abandon all keyboards",
-              "date": "2025-03-11",
-              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
-            },
-            {
-              "title": "trot",
-              "date": "2025-02-15",
-              "link": "https://robinrendle.com/notes/trot/"
-            },
-            {
-              "title": "Notes on blogging",
-              "date": "2025-02-01",
-              "link": "https://robinrendle.com/notes/notes-on-blogging/"
-            },
-            {
-              "title": "Change and risk",
-              "date": "2025-01-20",
-              "link": "https://robinrendle.com/notes/change-and-risk/"
-            },
-            {
-              "title": "Work is just work",
-              "date": "2025-01-16",
-              "link": "https://robinrendle.com/notes/work/"
-            }
-          ]
-        },
-        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Durable technology",
+              "date": "2025-03-11",
+              "link": "https://gomakethings.com/durable-technology/"
+            },
             {
               "title": "The joy of digital gardening",
               "date": "2025-03-10",
@@ -57,11 +31,68 @@
               "title": "The joy of the journey",
               "date": "2025-03-06",
               "link": "https://gomakethings.com/the-joy-of-the-journey/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "A closer look at the details behind the Go port of the TypeScript compiler",
+              "date": "2025-03-11",
+              "link": "https://2ality.com/2025/03/typescript-in-go.html"
             },
             {
-              "title": "Building a modern web app with PHP and HTML Web Components",
-              "date": "2025-03-05",
-              "link": "https://gomakethings.com/building-a-modern-web-app-with-php-and-html-web-components/"
+              "title": "Unions and intersections of object types in TypeScript",
+              "date": "2025-03-04",
+              "link": "https://2ality.com/2025/03/object-type-union-intersection.html"
+            },
+            {
+              "title": "My sales pitch for TypeScript",
+              "date": "2025-03-02",
+              "link": "https://2ality.com/2025/03/typescript-sales-pitch.html"
+            },
+            {
+              "title": "What is TypeScript? An overview for JavaScript programmers",
+              "date": "2025-02-27",
+              "link": "https://2ality.com/2025/02/what-is-typescript.html"
+            },
+            {
+              "title": "Simple TypeScript playgrounds via <code>node --watch</code>",
+              "date": "2025-02-25",
+              "link": "https://2ality.com/2025/02/node-watch-typescript-playground.html"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "11 Mar 2025\n      ",
+              "date": "2025-03-11",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
             }
           ]
         },
@@ -93,37 +124,6 @@
               "title": "Contributing in New Ways - Finding Closure among New Opportunities",
               "date": "2024-12-17",
               "link": "https://www.lisihocke.com/2024/12/contributing-in-new-ways-finding-closure-among-new-opportunities.html"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "10 Mar 2025\n      ",
-              "date": "2025-03-10",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
             }
           ]
         },
@@ -646,37 +646,6 @@
               "title": "Sanding UI, pt. II",
               "date": "2025-02-24",
               "link": "https://blog.jim-nielsen.com/2025/sanding-ui-pt-ii/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Unions and intersections of object types in TypeScript",
-              "date": "2025-03-04",
-              "link": "https://2ality.com/2025/03/object-type-union-intersection.html"
-            },
-            {
-              "title": "My sales pitch for TypeScript",
-              "date": "2025-03-02",
-              "link": "https://2ality.com/2025/03/typescript-sales-pitch.html"
-            },
-            {
-              "title": "What is TypeScript? An overview for JavaScript programmers",
-              "date": "2025-02-27",
-              "link": "https://2ality.com/2025/02/what-is-typescript.html"
-            },
-            {
-              "title": "Simple TypeScript playgrounds via <code>node --watch</code>",
-              "date": "2025-02-25",
-              "link": "https://2ality.com/2025/02/node-watch-typescript-playground.html"
-            },
-            {
-              "title": "Testing types in TypeScript",
-              "date": "2025-02-24",
-              "link": "https://2ality.com/2025/02/testing-types-typescript.html"
             }
           ]
         },
@@ -1456,37 +1425,6 @@
           ]
         },
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Non-Fiction Has Bad Incentives",
-              "date": "2025-02-03",
-              "link": "https://borretti.me/article/non-fiction-has-bad-incentives"
-            },
-            {
-              "title": "Composable SQL",
-              "date": "2025-01-24",
-              "link": "https://borretti.me/article/composable-sql"
-            },
-            {
-              "title": "Adding Colour to macOS Folder Icons",
-              "date": "2025-01-17",
-              "link": "https://borretti.me/article/adding-colour-to-macos-folder-icons"
-            },
-            {
-              "title": "Implementing FSRS in 100 Lines",
-              "date": "2025-01-10",
-              "link": "https://borretti.me/article/implementing-fsrs-in-100-lines"
-            },
-            {
-              "title": "How I Use Claude",
-              "date": "2025-01-01",
-              "link": "https://borretti.me/article/how-i-use-claude"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -1514,6 +1452,37 @@
               "title": "Compiler-Driven Development in Rust",
               "date": "2024-06-16",
               "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Non-Fiction Has Bad Incentives",
+              "date": "2025-02-03",
+              "link": "https://borretti.me/article/non-fiction-has-bad-incentives"
+            },
+            {
+              "title": "Composable SQL",
+              "date": "2025-01-24",
+              "link": "https://borretti.me/article/composable-sql"
+            },
+            {
+              "title": "Adding Colour to macOS Folder Icons",
+              "date": "2025-01-17",
+              "link": "https://borretti.me/article/adding-colour-to-macos-folder-icons"
+            },
+            {
+              "title": "Implementing FSRS in 100 Lines",
+              "date": "2025-01-10",
+              "link": "https://borretti.me/article/implementing-fsrs-in-100-lines"
+            },
+            {
+              "title": "How I Use Claude",
+              "date": "2025-01-01",
+              "link": "https://borretti.me/article/how-i-use-claude"
             }
           ]
         },
@@ -2461,11 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-11T03:25:52.409Z",
+  "fetchDate": "2025-03-12T03:24:44.260Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
+    "https://robinrendle.com/feed.xml",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

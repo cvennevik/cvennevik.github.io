@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Blog on Hillel Wayne",
+          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
+          "items": [
+            {
+              "title": "A Perplexing Javascript Parsing Puzzle",
+              "date": "2025-03-12",
+              "link": "https://www.hillelwayne.com/post/javascript-puzzle/"
+            },
+            {
+              "title": "The Hierarchy of Controls (or how to stop devs from dropping prod)",
+              "date": "2025-03-04",
+              "link": "https://www.hillelwayne.com/post/hoc/"
+            },
+            {
+              "title": "Hiatus",
+              "date": "2024-09-11",
+              "link": "https://www.hillelwayne.com/post/hiatus/"
+            },
+            {
+              "title": "Toolbox languages",
+              "date": "2024-07-15",
+              "link": "https://www.hillelwayne.com/post/toolbox-languages/"
+            },
+            {
+              "title": "Composing TLA+ Specifications with State Machines",
+              "date": "2024-06-17",
+              "link": "https://www.hillelwayne.com/post/composing-tla/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Switching my pricing to Euro, but also making it tax-inclusive",
+              "date": "2025-03-12",
+              "link": "https://www.baldurbjarnason.com/notes/2025/euro-pricing/"
+            },
+            {
+              "title": "AI and Esoteric Fascism",
+              "date": "2025-02-27",
+              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
+            },
+            {
+              "title": "Now I'm disappointed.",
+              "date": "2025-02-13",
+              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
+            },
+            {
+              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
+              "date": "2025-02-12",
+              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
+            },
+            {
+              "title": "Todo notes as a storm approaches",
+              "date": "2025-02-05",
+              "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "The CSS :not() pseudo-class",
+              "date": "2025-03-12",
+              "link": "https://gomakethings.com/the-css-not-pseudo-class/"
+            },
             {
               "title": "Durable technology",
               "date": "2025-03-11",
@@ -26,11 +93,156 @@
               "title": "aria-label requires a valid role",
               "date": "2025-03-07",
               "link": "https://gomakethings.com/aria-label-requires-a-valid-role/"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Rust is the New C",
+              "date": "2025-03-12",
+              "link": "https://www.youtube.com/watch?v=3e-nauaCkgo"
             },
             {
-              "title": "The joy of the journey",
-              "date": "2025-03-06",
-              "link": "https://gomakethings.com/the-joy-of-the-journey/"
+              "title": "Obsidian.md: The Good Parts [Part 2]",
+              "date": "2025-02-03",
+              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
+            },
+            {
+              "title": "AI Is Not Designed for You",
+              "date": "2024-12-06",
+              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
+            },
+            {
+              "title": "From Coder to Creator: My Journey",
+              "date": "2024-09-30",
+              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
+            },
+            {
+              "title": "The \"Brainmade\" Mark",
+              "date": "2024-07-27",
+              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "12 Mar 2025\n      ",
+              "date": "2025-03-12",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-03-12",
+              "link": "https://dbushell.com/notes/2025-03-12T06:45Z/"
+            },
+            {
+              "date": "2025-03-07",
+              "link": "https://dbushell.com/notes/2025-03-07T07:39Z/"
+            },
+            {
+              "date": "2025-03-04",
+              "link": "https://dbushell.com/notes/2025-03-04T16:52Z/"
+            },
+            {
+              "date": "2025-03-02",
+              "link": "https://dbushell.com/notes/2025-03-02T09:39Z/"
+            },
+            {
+              "date": "2025-02-25",
+              "link": "https://dbushell.com/notes/2025-02-25T11:31Z/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "New Blog Post: \"A Perplexing Javascript Parsing Puzzle\"",
+              "date": "2025-03-12",
+              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-perplexing-javascript-parsing/"
+            },
+            {
+              "title": "Five Kinds of Nondeterminism",
+              "date": "2025-02-19",
+              "link": "https://buttondown.com/hillelwayne/archive/five-kinds-of-nondeterminism/"
+            },
+            {
+              "title": "Are Efficiency and Horizontal Scalability at odds?",
+              "date": "2025-02-12",
+              "link": "https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/"
+            },
+            {
+              "title": "What hard thing does your tech make easy?",
+              "date": "2025-01-29",
+              "link": "https://buttondown.com/hillelwayne/archive/what-hard-thing-does-your-tech-make-easy/"
+            },
+            {
+              "title": "The Juggler's Curse",
+              "date": "2025-01-22",
+              "link": "https://buttondown.com/hillelwayne/archive/the-jugglers-curse/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Abandon all keyboards",
+              "date": "2025-03-11",
+              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
+            },
+            {
+              "title": "trot",
+              "date": "2025-02-15",
+              "link": "https://robinrendle.com/notes/trot/"
+            },
+            {
+              "title": "Notes on blogging",
+              "date": "2025-02-01",
+              "link": "https://robinrendle.com/notes/notes-on-blogging/"
+            },
+            {
+              "title": "Change and risk",
+              "date": "2025-01-20",
+              "link": "https://robinrendle.com/notes/change-and-risk/"
+            },
+            {
+              "title": "Work is just work",
+              "date": "2025-01-16",
+              "link": "https://robinrendle.com/notes/work/"
             }
           ]
         },
@@ -66,37 +278,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "11 Mar 2025\n      ",
-              "date": "2025-03-11",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            }
-          ]
-        },
-        {
           "title": "A Tester's Journey",
           "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
           "items": [
@@ -128,33 +309,33 @@
           ]
         },
         {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
             {
-              "title": "Re: What I Grew Up With",
+              "title": "Stewardship over ownership",
               "date": "2025-03-10",
-              "link": "https://mikegrindle.com/posts/grew-up-with"
+              "link": "https://ntietz.com/blog/stewardship-over-ownership/?utm_source=atom&utm_medium=feed"
             },
             {
-              "title": "Everything in Solitude, Except Character",
-              "date": "2025-01-09",
-              "link": "https://mikegrindle.com/newsletter/itm-6"
+              "title": "Some things that make Rust lifetimes hard to learn",
+              "date": "2025-03-03",
+              "link": "https://ntietz.com/blog/rust-lifetimes-learning/?utm_source=atom&utm_medium=feed"
             },
             {
-              "title": "Thoughts on a Dark Winter Day",
-              "date": "2024-12-27",
-              "link": "https://mikegrindle.com/posts/2024"
+              "title": "Your product shouldn't require showing my legal name",
+              "date": "2025-02-24",
+              "link": "https://ntietz.com/blog/your-product-shouldnt-require-showing-my-legal-name/?utm_source=atom&utm_medium=feed"
             },
             {
-              "title": "Returning to Sunnydale",
-              "date": "2024-12-04",
-              "link": "https://mikegrindle.com/posts/snow"
+              "title": "Can I ethically use LLMs?",
+              "date": "2025-02-17",
+              "link": "https://ntietz.com/blog/can-i-ethically-use-llms/?utm_source=atom&utm_medium=feed"
             },
             {
-              "title": "Snow Days",
-              "date": "2024-12-02",
-              "link": "https://mikegrindle.com/posts/snow"
+              "title": "What's in a ring buffer? And using them in Rust",
+              "date": "2025-02-10",
+              "link": "https://ntietz.com/blog/whats-in-a-ring-buffer/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -190,33 +371,33 @@
           ]
         },
         {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
           "items": [
             {
-              "title": "Stewardship over ownership",
+              "title": "Re: What I Grew Up With",
               "date": "2025-03-10",
-              "link": "https://ntietz.com/blog/stewardship-over-ownership/?utm_source=atom&utm_medium=feed"
+              "link": "https://mikegrindle.com/posts/grew-up-with"
             },
             {
-              "title": "Some things that make Rust lifetimes hard to learn",
-              "date": "2025-03-03",
-              "link": "https://ntietz.com/blog/rust-lifetimes-learning/?utm_source=atom&utm_medium=feed"
+              "title": "Everything in Solitude, Except Character",
+              "date": "2025-01-09",
+              "link": "https://mikegrindle.com/newsletter/itm-6"
             },
             {
-              "title": "Your product shouldn't require showing my legal name",
-              "date": "2025-02-24",
-              "link": "https://ntietz.com/blog/your-product-shouldnt-require-showing-my-legal-name/?utm_source=atom&utm_medium=feed"
+              "title": "Thoughts on a Dark Winter Day",
+              "date": "2024-12-27",
+              "link": "https://mikegrindle.com/posts/2024"
             },
             {
-              "title": "Can I ethically use LLMs?",
-              "date": "2025-02-17",
-              "link": "https://ntietz.com/blog/can-i-ethically-use-llms/?utm_source=atom&utm_medium=feed"
+              "title": "Returning to Sunnydale",
+              "date": "2024-12-04",
+              "link": "https://mikegrindle.com/posts/snow"
             },
             {
-              "title": "What's in a ring buffer? And using them in Rust",
-              "date": "2025-02-10",
-              "link": "https://ntietz.com/blog/whats-in-a-ring-buffer/?utm_source=atom&utm_medium=feed"
+              "title": "Snow Days",
+              "date": "2024-12-02",
+              "link": "https://mikegrindle.com/posts/snow"
             }
           ]
         },
@@ -438,32 +619,6 @@
           ]
         },
         {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-03-07",
-              "link": "https://dbushell.com/notes/2025-03-07T07:39Z/"
-            },
-            {
-              "date": "2025-03-04",
-              "link": "https://dbushell.com/notes/2025-03-04T16:52Z/"
-            },
-            {
-              "date": "2025-03-02",
-              "link": "https://dbushell.com/notes/2025-03-02T09:39Z/"
-            },
-            {
-              "date": "2025-02-25",
-              "link": "https://dbushell.com/notes/2025-02-25T11:31Z/"
-            },
-            {
-              "date": "2025-02-24",
-              "link": "https://dbushell.com/notes/2025-02-24T06:48Z/"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -584,37 +739,6 @@
               "title": "“Never Forgive Them” – What to do with Ed Zitron’s essay on the “Rot Economy”",
               "date": "2025-01-26",
               "link": "https://rosswintle.uk/2025/01/never-forgive-them-what-to-do-with-ed-zitrons-essay-on-the-rot-economy/"
-            }
-          ]
-        },
-        {
-          "title": "Blog on Hillel Wayne",
-          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
-          "items": [
-            {
-              "title": "The Hierarchy of Hazard Controls",
-              "date": "2025-03-04",
-              "link": "https://www.hillelwayne.com/post/hoc/"
-            },
-            {
-              "title": "Hiatus",
-              "date": "2024-09-11",
-              "link": "https://www.hillelwayne.com/post/hiatus/"
-            },
-            {
-              "title": "Toolbox languages",
-              "date": "2024-07-15",
-              "link": "https://www.hillelwayne.com/post/toolbox-languages/"
-            },
-            {
-              "title": "Composing TLA+ Specifications with State Machines",
-              "date": "2024-06-17",
-              "link": "https://www.hillelwayne.com/post/composing-tla/"
-            },
-            {
-              "title": "Software Friction",
-              "date": "2024-05-01",
-              "link": "https://www.hillelwayne.com/post/software-friction/"
             }
           ]
         },
@@ -867,37 +991,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "AI and Esoteric Fascism",
-              "date": "2025-02-27",
-              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
-            },
-            {
-              "title": "Now I'm disappointed.",
-              "date": "2025-02-13",
-              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
-            },
-            {
-              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
-              "date": "2025-02-12",
-              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
-            },
-            {
-              "title": "Todo notes as a storm approaches",
-              "date": "2025-02-05",
-              "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
-            },
-            {
-              "title": "Poisoning for propaganda: rising authoritarianism makes LLMs more dangerous",
-              "date": "2025-02-03",
-              "link": "https://www.baldurbjarnason.com/2025/poisoning-for-propaganda/"
-            }
-          ]
-        },
-        {
           "title": "Kyle Shevlin's Blog RSS Feed",
           "feedUrl": "https://kyleshevlin.com/rss.xml",
           "items": [
@@ -1053,37 +1146,6 @@
           ]
         },
         {
-          "title": "Marvin Hagemeister",
-          "feedUrl": "https://marvinh.dev/feed.xml",
-          "items": [
-            {
-              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
-              "date": "2025-02-23",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
-            },
-            {
-              "title": "The modern way to write JavaScript servers",
-              "date": "2025-01-25",
-              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
-              "date": "2024-07-06",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
-              "date": "2024-05-15",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Tailwind CSS",
-              "date": "2023-11-01",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -1204,37 +1266,6 @@
               "title": "Debugging a rustc segfault on illumos",
               "date": "2024-08-04",
               "link": "https://sunshowers.io/posts/rustc-segfault-illumos/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Five Kinds of Nondeterminism",
-              "date": "2025-02-19",
-              "link": "https://buttondown.com/hillelwayne/archive/five-kinds-of-nondeterminism/"
-            },
-            {
-              "title": "Are Efficiency and Horizontal Scalability at odds?",
-              "date": "2025-02-12",
-              "link": "https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/"
-            },
-            {
-              "title": "What hard thing does your tech make easy?",
-              "date": "2025-01-29",
-              "link": "https://buttondown.com/hillelwayne/archive/what-hard-thing-does-your-tech-make-easy/"
-            },
-            {
-              "title": "The Juggler's Curse",
-              "date": "2025-01-22",
-              "link": "https://buttondown.com/hillelwayne/archive/the-jugglers-curse/"
-            },
-            {
-              "title": "What are the Rosettas of formal specification?",
-              "date": "2025-01-15",
-              "link": "https://buttondown.com/hillelwayne/archive/what-are-the-rosettas-of-formal-specification/"
             }
           ]
         },
@@ -1421,37 +1452,6 @@
               "title": "DSQL Vignette: Transactions and Durability",
               "date": "2024-12-05",
               "link": "http://brooker.co.za/blog/2024/12/05/inside-dsql-writes.html"
-            }
-          ]
-        },
-        {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-          "items": [
-            {
-              "title": "Obsidian.md: The Good Parts [Part 2]",
-              "date": "2025-02-03",
-              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
-            },
-            {
-              "title": "AI Is Not Designed for You",
-              "date": "2024-12-06",
-              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
-            },
-            {
-              "title": "From Coder to Creator: My Journey",
-              "date": "2024-09-30",
-              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
-            },
-            {
-              "title": "The \"Brainmade\" Mark",
-              "date": "2024-07-27",
-              "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
-            },
-            {
-              "title": "Compiler-Driven Development in Rust",
-              "date": "2024-06-16",
-              "link": "https://www.youtube.com/watch?v=Kdpfhj3VM04"
             }
           ]
         },
@@ -2430,12 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-12T03:24:44.260Z",
+  "fetchDate": "2025-03-13T03:27:06.072Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
+    "https://marvinh.dev/feed.xml",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://robinrendle.com/feed.xml",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

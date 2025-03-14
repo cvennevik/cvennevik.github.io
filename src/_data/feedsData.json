@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Managing your energy and having a mix of tasks as a developer with ADHD",
+              "date": "2025-03-13",
+              "link": "https://gomakethings.com/managing-your-energy-and-having-a-mix-of-tasks-as-a-developer-with-adhd/"
+            },
+            {
+              "title": "The CSS :not() pseudo-class",
+              "date": "2025-03-12",
+              "link": "https://gomakethings.com/the-css-not-pseudo-class/"
+            },
+            {
+              "title": "Durable technology",
+              "date": "2025-03-11",
+              "link": "https://gomakethings.com/durable-technology/"
+            },
+            {
+              "title": "The joy of digital gardening",
+              "date": "2025-03-10",
+              "link": "https://gomakethings.com/the-joy-of-digital-gardening/"
+            },
+            {
+              "title": "Lessons from the past",
+              "date": "2025-03-08",
+              "link": "https://gomakethings.com/lessons-from-the-past/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "13 Mar 2025\n      ",
+              "date": "2025-03-13",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Two tiny steps",
+              "date": "2025-03-13",
+              "link": "https://garoof.no/notes/two-tiny-steps.html"
+            },
+            {
+              "title": "Adding diff support to Glorpdown",
+              "date": "2025-03-09",
+              "link": "https://garoof.no/notes/gd-diff.html"
+            },
+            {
+              "title": "The builder pattern!!! and sums",
+              "date": "2025-03-01",
+              "link": "https://garoof.no/notes/builder-sums.html"
+            },
+            {
+              "title": "Monad tutorial",
+              "date": "2025-01-23",
+              "link": "https://garoof.no/notes/monad-tutorial.html"
+            },
+            {
+              "title": "No epiphanies",
+              "date": "2025-01-20",
+              "link": "https://garoof.no/notes/about.html"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "How little we know of each other’s existence",
+              "date": "2025-03-13",
+              "link": "https://anniemueller.com/posts/how-little-we-know-of-each-others-existence"
+            },
+            {
+              "title": "Love letters 9-10",
+              "date": "2025-03-10",
+              "link": "https://anniemueller.com/posts/love-letters-9-10"
+            },
+            {
+              "title": "How to clean the bathroom",
+              "date": "2025-03-05",
+              "link": "https://anniemueller.com/posts/how-to-clean-the-bathroom"
+            },
+            {
+              "title": "Reading notes: February 2025",
+              "date": "2025-03-02",
+              "link": "https://anniemueller.com/posts/reading-notes-february-2025"
+            },
+            {
+              "title": "Despite the horrors, the laundry must be done; Despite the laundry, the horrors must be faced.",
+              "date": "2025-03-01",
+              "link": "https://anniemueller.com/posts/despite-the-horrors-the-laundry-must-be-done-despite-the-laundry-the-horrors-must-be-faced"
+            }
+          ]
+        },
+        {
           "title": "Blog on Hillel Wayne",
           "feedUrl": "https://www.hillelwayne.com/post/index.xml",
           "items": [
@@ -66,37 +190,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "The CSS :not() pseudo-class",
-              "date": "2025-03-12",
-              "link": "https://gomakethings.com/the-css-not-pseudo-class/"
-            },
-            {
-              "title": "Durable technology",
-              "date": "2025-03-11",
-              "link": "https://gomakethings.com/durable-technology/"
-            },
-            {
-              "title": "The joy of digital gardening",
-              "date": "2025-03-10",
-              "link": "https://gomakethings.com/the-joy-of-digital-gardening/"
-            },
-            {
-              "title": "Lessons from the past",
-              "date": "2025-03-08",
-              "link": "https://gomakethings.com/lessons-from-the-past/"
-            },
-            {
-              "title": "aria-label requires a valid role",
-              "date": "2025-03-07",
-              "link": "https://gomakethings.com/aria-label-requires-a-valid-role/"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -124,37 +217,6 @@
               "title": "The \"Brainmade\" Mark",
               "date": "2024-07-27",
               "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "12 Mar 2025\n      ",
-              "date": "2025-03-12",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
             }
           ]
         },
@@ -309,68 +371,6 @@
           ]
         },
         {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Stewardship over ownership",
-              "date": "2025-03-10",
-              "link": "https://ntietz.com/blog/stewardship-over-ownership/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Some things that make Rust lifetimes hard to learn",
-              "date": "2025-03-03",
-              "link": "https://ntietz.com/blog/rust-lifetimes-learning/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Your product shouldn't require showing my legal name",
-              "date": "2025-02-24",
-              "link": "https://ntietz.com/blog/your-product-shouldnt-require-showing-my-legal-name/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Can I ethically use LLMs?",
-              "date": "2025-02-17",
-              "link": "https://ntietz.com/blog/can-i-ethically-use-llms/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "What's in a ring buffer? And using them in Rust",
-              "date": "2025-02-10",
-              "link": "https://ntietz.com/blog/whats-in-a-ring-buffer/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Love letters 9-10",
-              "date": "2025-03-10",
-              "link": "https://anniemueller.com/posts/love-letters-9-10"
-            },
-            {
-              "title": "How to clean the bathroom",
-              "date": "2025-03-05",
-              "link": "https://anniemueller.com/posts/how-to-clean-the-bathroom"
-            },
-            {
-              "title": "Reading notes: February 2025",
-              "date": "2025-03-02",
-              "link": "https://anniemueller.com/posts/reading-notes-february-2025"
-            },
-            {
-              "title": "Despite the horrors, the laundry must be done; Despite the laundry, the horrors must be faced.",
-              "date": "2025-03-01",
-              "link": "https://anniemueller.com/posts/despite-the-horrors-the-laundry-must-be-done-despite-the-laundry-the-horrors-must-be-faced"
-            },
-            {
-              "title": "Inconclusive neck region",
-              "date": "2025-02-26",
-              "link": "https://anniemueller.com/posts/inconclusive-neck-region"
-            }
-          ]
-        },
-        {
           "title": "Mike Grindle's Blog",
           "feedUrl": "https://mikegrindle.com/feed.xml",
           "items": [
@@ -402,6 +402,37 @@
           ]
         },
         {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Stewardship over ownership",
+              "date": "2025-03-10",
+              "link": "https://ntietz.com/blog/stewardship-over-ownership/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Some things that make Rust lifetimes hard to learn",
+              "date": "2025-03-03",
+              "link": "https://ntietz.com/blog/rust-lifetimes-learning/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Your product shouldn't require showing my legal name",
+              "date": "2025-02-24",
+              "link": "https://ntietz.com/blog/your-product-shouldnt-require-showing-my-legal-name/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Can I ethically use LLMs?",
+              "date": "2025-02-17",
+              "link": "https://ntietz.com/blog/can-i-ethically-use-llms/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "What's in a ring buffer? And using them in Rust",
+              "date": "2025-02-10",
+              "link": "https://ntietz.com/blog/whats-in-a-ring-buffer/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -429,37 +460,6 @@
               "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
               "date": "2025-02-15",
               "link": "https://www.felienne.com/archives/8749"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Adding diff support to Glorpdown",
-              "date": "2025-03-09",
-              "link": "https://garoof.no/notes/gd-diff.html"
-            },
-            {
-              "title": "The builder pattern!!! and sums",
-              "date": "2025-03-01",
-              "link": "https://garoof.no/notes/builder-sums.html"
-            },
-            {
-              "title": "Monad tutorial",
-              "date": "2025-01-23",
-              "link": "https://garoof.no/notes/monad-tutorial.html"
-            },
-            {
-              "title": "No epiphanies",
-              "date": "2025-01-20",
-              "link": "https://garoof.no/notes/about.html"
-            },
-            {
-              "title": "Smalltalk workspaces",
-              "date": "2025-01-16",
-              "link": "https://garoof.no/notes/smalltalk-workspaces.html"
             }
           ]
         },
@@ -526,37 +526,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Introducing the blogroll",
-              "date": "2025-03-07",
-              "link": "https://macwright.com/2025/03/07/blogroll.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-03-01",
-              "link": "https://macwright.com/2025/03/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-02-04",
-              "link": "https://macwright.com/2025/02/04/recently.html"
-            },
-            {
-              "title": "2025 Predictions",
-              "date": "2025-01-11",
-              "link": "https://macwright.com/2025/01/11/predictions.html"
-            },
-            {
-              "title": "Recently 2024",
-              "date": "2024-12-15",
-              "link": "https://macwright.com/2024/12/15/recently.html"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -584,6 +553,37 @@
               "title": "Adventskalendere, AI, og det tenkende mennesket",
               "date": "2025-01-16",
               "link": "https://www.kodemaker.no/blogg/2025-01-16-adventskalendere-ai-og-det-tenkende-mennesket/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Introducing the blogroll",
+              "date": "2025-03-07",
+              "link": "https://macwright.com/2025/03/07/blogroll.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-03-01",
+              "link": "https://macwright.com/2025/03/01/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-02-04",
+              "link": "https://macwright.com/2025/02/04/recently.html"
+            },
+            {
+              "title": "2025 Predictions",
+              "date": "2025-01-11",
+              "link": "https://macwright.com/2025/01/11/predictions.html"
+            },
+            {
+              "title": "Recently 2024",
+              "date": "2024-12-15",
+              "link": "https://macwright.com/2024/12/15/recently.html"
             }
           ]
         },
@@ -1142,6 +1142,37 @@
               "title": "I Was Just Censored by Meta",
               "date": "2025-01-10",
               "link": "https://boehs.org/node/meta-censorship"
+            }
+          ]
+        },
+        {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
+              "date": "2025-02-23",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
+            },
+            {
+              "title": "The modern way to write JavaScript servers",
+              "date": "2025-01-25",
+              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
+              "date": "2024-07-06",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
+              "date": "2024-05-15",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Tailwind CSS",
+              "date": "2023-11-01",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/"
             }
           ]
         },
@@ -2430,10 +2461,9 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-13T03:27:06.072Z",
+  "fetchDate": "2025-03-14T03:26:00.595Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
-    "https://marvinh.dev/feed.xml",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://einarwh.wordpress.com/feed/"

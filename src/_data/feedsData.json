@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Humiliation",
+              "date": "2025-03-15",
+              "link": "https://robinrendle.com/notes/humiliation/"
+            },
+            {
+              "title": "Abandon all keyboards",
+              "date": "2025-03-11",
+              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
+            },
+            {
+              "title": "trot",
+              "date": "2025-02-15",
+              "link": "https://robinrendle.com/notes/trot/"
+            },
+            {
+              "title": "Notes on blogging",
+              "date": "2025-02-01",
+              "link": "https://robinrendle.com/notes/notes-on-blogging/"
+            },
+            {
+              "title": "Change and risk",
+              "date": "2025-01-20",
+              "link": "https://robinrendle.com/notes/change-and-risk/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "15 Mar 2025\n      ",
+              "date": "2025-03-15",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-03-15",
+              "link": "https://dbushell.com/notes/2025-03-15T08:11Z/"
+            },
+            {
+              "date": "2025-03-14",
+              "link": "https://dbushell.com/notes/2025-03-14T10:21Z/"
+            },
+            {
+              "date": "2025-03-12",
+              "link": "https://dbushell.com/notes/2025-03-12T06:45Z/"
+            },
+            {
+              "date": "2025-03-07",
+              "link": "https://dbushell.com/notes/2025-03-07T07:39Z/"
+            },
+            {
+              "date": "2025-03-04",
+              "link": "https://dbushell.com/notes/2025-03-04T16:52Z/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -66,59 +154,33 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
             {
-              "title": "14 Mar 2025\n      ",
+              "title": "0052: hytradboi videos and post-mortem, zest repo, no internet, on social media, my product is my garden, datafusion and clickhouse jits, books",
               "date": "2025-03-14",
-              "link": "https://frills.dev/status/microblog/"
+              "link": "https://www.scattered-thoughts.net/log/0052/"
             },
             {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
+              "title": "HYTRADBOI 2025 postmortem",
+              "date": "2025-03-03",
+              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-postmortem/"
             },
             {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+              "title": "Other kinds of talks",
+              "date": "2025-02-24",
+              "link": "https://www.scattered-thoughts.net/writing/other-kinds-of-talks/"
             },
             {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
+              "title": "0051: hytradboi program and tickets, query compilers, decorrelation encore, books, misc",
+              "date": "2025-02-13",
+              "link": "https://www.scattered-thoughts.net/log/0051/"
             },
             {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-03-14",
-              "link": "https://dbushell.com/notes/2025-03-14T10:21Z/"
-            },
-            {
-              "date": "2025-03-12",
-              "link": "https://dbushell.com/notes/2025-03-12T06:45Z/"
-            },
-            {
-              "date": "2025-03-07",
-              "link": "https://dbushell.com/notes/2025-03-07T07:39Z/"
-            },
-            {
-              "date": "2025-03-04",
-              "link": "https://dbushell.com/notes/2025-03-04T16:52Z/"
-            },
-            {
-              "date": "2025-03-02",
-              "link": "https://dbushell.com/notes/2025-03-02T09:39Z/"
+              "title": "HYTRADBOI 2025 program and tickets",
+              "date": "2025-01-31",
+              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-program-and-tickets/"
             }
           ]
         },
@@ -305,37 +367,6 @@
               "title": "The Juggler's Curse",
               "date": "2025-01-22",
               "link": "https://buttondown.com/hillelwayne/archive/the-jugglers-curse/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Abandon all keyboards",
-              "date": "2025-03-11",
-              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
-            },
-            {
-              "title": "trot",
-              "date": "2025-02-15",
-              "link": "https://robinrendle.com/notes/trot/"
-            },
-            {
-              "title": "Notes on blogging",
-              "date": "2025-02-01",
-              "link": "https://robinrendle.com/notes/notes-on-blogging/"
-            },
-            {
-              "title": "Change and risk",
-              "date": "2025-01-20",
-              "link": "https://robinrendle.com/notes/change-and-risk/"
-            },
-            {
-              "title": "Work is just work",
-              "date": "2025-01-16",
-              "link": "https://robinrendle.com/notes/work/"
             }
           ]
         },
@@ -894,37 +925,6 @@
               "title": "Continuous Integrations! Where to Start?",
               "date": "2024-11-01",
               "link": "https://thinkinglabs.io/articles/2024/11/01/continuous-integration-where-to-start.html"
-            }
-          ]
-        },
-        {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "HYTRADBOI 2025 postmortem",
-              "date": "2025-03-03",
-              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-postmortem/"
-            },
-            {
-              "title": "Other kinds of talks",
-              "date": "2025-02-24",
-              "link": "https://www.scattered-thoughts.net/writing/other-kinds-of-talks/"
-            },
-            {
-              "title": "0051: hytradboi program and tickets, query compilers, decorrelation encore, books, misc",
-              "date": "2025-02-13",
-              "link": "https://www.scattered-thoughts.net/log/0051/"
-            },
-            {
-              "title": "HYTRADBOI 2025 program and tickets",
-              "date": "2025-01-31",
-              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-program-and-tickets/"
-            },
-            {
-              "title": "The missing tier for query compilers",
-              "date": "2025-01-12",
-              "link": "https://www.scattered-thoughts.net/writing/the-missing-tier-for-query-compilers/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-15T03:22:26.931Z",
+  "fetchDate": "2025-03-16T03:28:43.115Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

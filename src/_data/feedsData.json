@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Kipo and the Age of the Wonderbeasts",
+              "date": "2025-03-16",
+              "link": "https://gomakethings.com/kipo-and-the-age-of-the-wonderbeasts/"
+            },
+            {
+              "title": "My code is broken (and I don't know why)",
+              "date": "2025-03-14",
+              "link": "https://gomakethings.com/my-code-is-broken-and-i-dont-know-why/"
+            },
+            {
+              "title": "Managing your energy and having a mix of tasks as a developer with ADHD",
+              "date": "2025-03-13",
+              "link": "https://gomakethings.com/managing-your-energy-and-having-a-mix-of-tasks-as-a-developer-with-adhd/"
+            },
+            {
+              "title": "The CSS :not() pseudo-class",
+              "date": "2025-03-12",
+              "link": "https://gomakethings.com/the-css-not-pseudo-class/"
+            },
+            {
+              "title": "Durable technology",
+              "date": "2025-03-11",
+              "link": "https://gomakethings.com/durable-technology/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "CSUNATC 2025 Recap",
+              "date": "2025-03-16",
+              "link": "https://adrianroselli.com/2025/03/csunatc-2025-recap.html"
+            },
+            {
+              "title": "Don’t Use Fake Bold or Italic in Social Media",
+              "date": "2025-03-06",
+              "link": "https://adrianroselli.com/2025/03/dont-use-fake-bold-or-italic-in-social-media.html"
+            },
+            {
+              "title": "Be Wary of Accessibility Guarantees from Anyone",
+              "date": "2025-03-02",
+              "link": "https://adrianroselli.com/2025/03/be-wary-of-accessibility-guarantees-from-anyone.html"
+            },
+            {
+              "title": "1.4.10: Adversarial Conformance",
+              "date": "2025-02-23",
+              "link": "https://adrianroselli.com/2025/02/1-4-10-adversarial-conformance.html"
+            },
+            {
+              "title": "Generic LLM Chatbot Attestation",
+              "date": "2025-02-16",
+              "link": "https://adrianroselli.com/2025/02/generic-llm-chatbot-attestation.html"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "16 Mar 2025\n      ",
+              "date": "2025-03-16",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -35,37 +128,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "15 Mar 2025\n      ",
-              "date": "2025-03-15",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (microblog)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -88,37 +150,6 @@
             {
               "date": "2025-03-04",
               "link": "https://dbushell.com/notes/2025-03-04T16:52Z/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "My code is broken (and I don't know why)",
-              "date": "2025-03-14",
-              "link": "https://gomakethings.com/my-code-is-broken-and-i-dont-know-why/"
-            },
-            {
-              "title": "Managing your energy and having a mix of tasks as a developer with ADHD",
-              "date": "2025-03-13",
-              "link": "https://gomakethings.com/managing-your-energy-and-having-a-mix-of-tasks-as-a-developer-with-adhd/"
-            },
-            {
-              "title": "The CSS :not() pseudo-class",
-              "date": "2025-03-12",
-              "link": "https://gomakethings.com/the-css-not-pseudo-class/"
-            },
-            {
-              "title": "Durable technology",
-              "date": "2025-03-11",
-              "link": "https://gomakethings.com/durable-technology/"
-            },
-            {
-              "title": "The joy of digital gardening",
-              "date": "2025-03-10",
-              "link": "https://gomakethings.com/the-joy-of-digital-gardening/"
             }
           ]
         },
@@ -247,37 +278,6 @@
           ]
         },
         {
-          "title": "Blog on Hillel Wayne",
-          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
-          "items": [
-            {
-              "title": "A Perplexing Javascript Parsing Puzzle",
-              "date": "2025-03-12",
-              "link": "https://www.hillelwayne.com/post/javascript-puzzle/"
-            },
-            {
-              "title": "The Hierarchy of Controls (or how to stop devs from dropping prod)",
-              "date": "2025-03-04",
-              "link": "https://www.hillelwayne.com/post/hoc/"
-            },
-            {
-              "title": "Hiatus",
-              "date": "2024-09-11",
-              "link": "https://www.hillelwayne.com/post/hiatus/"
-            },
-            {
-              "title": "Toolbox languages",
-              "date": "2024-07-15",
-              "link": "https://www.hillelwayne.com/post/toolbox-languages/"
-            },
-            {
-              "title": "Composing TLA+ Specifications with State Machines",
-              "date": "2024-06-17",
-              "link": "https://www.hillelwayne.com/post/composing-tla/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -305,6 +305,37 @@
               "title": "Todo notes as a storm approaches",
               "date": "2025-02-05",
               "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
+            }
+          ]
+        },
+        {
+          "title": "Blog on Hillel Wayne",
+          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
+          "items": [
+            {
+              "title": "A Perplexing Javascript Parsing Puzzle",
+              "date": "2025-03-12",
+              "link": "https://www.hillelwayne.com/post/javascript-puzzle/"
+            },
+            {
+              "title": "The Hierarchy of Controls (or how to stop devs from dropping prod)",
+              "date": "2025-03-04",
+              "link": "https://www.hillelwayne.com/post/hoc/"
+            },
+            {
+              "title": "Hiatus",
+              "date": "2024-09-11",
+              "link": "https://www.hillelwayne.com/post/hiatus/"
+            },
+            {
+              "title": "Toolbox languages",
+              "date": "2024-07-15",
+              "link": "https://www.hillelwayne.com/post/toolbox-languages/"
+            },
+            {
+              "title": "Composing TLA+ Specifications with State Machines",
+              "date": "2024-06-17",
+              "link": "https://www.hillelwayne.com/post/composing-tla/"
             }
           ]
         },
@@ -650,37 +681,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Don’t Use Fake Bold or Italic in Social Media",
-              "date": "2025-03-06",
-              "link": "https://adrianroselli.com/2025/03/dont-use-fake-bold-or-italic-in-social-media.html"
-            },
-            {
-              "title": "Be Wary of Accessibility Guarantees from Anyone",
-              "date": "2025-03-02",
-              "link": "https://adrianroselli.com/2025/03/be-wary-of-accessibility-guarantees-from-anyone.html"
-            },
-            {
-              "title": "1.4.10: Adversarial Conformance",
-              "date": "2025-02-23",
-              "link": "https://adrianroselli.com/2025/02/1-4-10-adversarial-conformance.html"
-            },
-            {
-              "title": "Generic LLM Chatbot Attestation",
-              "date": "2025-02-16",
-              "link": "https://adrianroselli.com/2025/02/generic-llm-chatbot-attestation.html"
-            },
-            {
-              "title": "Which VoiceOver?",
-              "date": "2025-02-04",
-              "link": "https://adrianroselli.com/2025/02/which-voiceover.html"
-            }
-          ]
-        },
-        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -739,37 +739,6 @@
               "title": "The Patient Programmer",
               "date": "2025-01-31",
               "link": "https://dbushell.com/2025/01/31/the-patient-programmer/"
-            }
-          ]
-        },
-        {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "I am ACTUALLY good at programming",
-              "date": "2025-03-05",
-              "link": "https://rosswintle.uk/2025/03/i-am-actually-good-at-programming/"
-            },
-            {
-              "title": "Are we ready for simpler devices",
-              "date": "2025-02-03",
-              "link": "https://rosswintle.uk/2025/02/are-we-ready-for-simpler-devices/"
-            },
-            {
-              "title": "RocketBooks and my settled productivity system",
-              "date": "2025-01-26",
-              "link": "https://rosswintle.uk/2025/01/rocketbooks-and-my-settled-productivity-system/"
-            },
-            {
-              "title": "A week-long Playdate?",
-              "date": "2025-01-26",
-              "link": "https://rosswintle.uk/2025/01/a-week-long-playdate/"
-            },
-            {
-              "title": "“Never Forgive Them” – What to do with Ed Zitron’s essay on the “Rot Economy”",
-              "date": "2025-01-26",
-              "link": "https://rosswintle.uk/2025/01/never-forgive-them-what-to-do-with-ed-zitrons-essay-on-the-rot-economy/"
             }
           ]
         },
@@ -1177,37 +1146,6 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "How great is the Send Later feature?",
-              "date": "2025-02-22",
-              "link": "https://thejollyteapot.com/2025/02/22/how-great-is-the-send-later-feature/"
-            },
-            {
-              "title": "February 2025 blend of links",
-              "date": "2025-02-19",
-              "link": "https://thejollyteapot.com/february-2025-blend/"
-            },
-            {
-              "title": "The nice feeling of trusting tools",
-              "date": "2025-02-09",
-              "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
-            },
-            {
-              "title": "January 2025 blend of links",
-              "date": "2025-01-21",
-              "link": "https://thejollyteapot.com/january-2025-blend/"
-            },
-            {
-              "title": "The age of insecure billionaires",
-              "date": "2025-01-12",
-              "link": "https://thejollyteapot.com/2025/01/12/the-age-of-insecure-billionaires/"
-            }
-          ]
-        },
-        {
           "title": "artemis.sh",
           "feedUrl": "https://artemis.sh/feed.xml",
           "items": [
@@ -1235,6 +1173,37 @@
               "title": "There are still quite a few 32-bit x86 Linux distributions",
               "date": "2024-04-12",
               "link": "https://artemis.sh/2024/04/12/x86-distribution-options.html"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "How great is the Send Later feature?",
+              "date": "2025-02-22",
+              "link": "https://thejollyteapot.com/2025/02/22/how-great-is-the-send-later-feature/"
+            },
+            {
+              "title": "February 2025 blend of links",
+              "date": "2025-02-19",
+              "link": "https://thejollyteapot.com/february-2025-blend/"
+            },
+            {
+              "title": "The nice feeling of trusting tools",
+              "date": "2025-02-09",
+              "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
+            },
+            {
+              "title": "January 2025 blend of links",
+              "date": "2025-01-21",
+              "link": "https://thejollyteapot.com/january-2025-blend/"
+            },
+            {
+              "title": "The age of insecure billionaires",
+              "date": "2025-01-12",
+              "link": "https://thejollyteapot.com/2025/01/12/the-age-of-insecure-billionaires/"
             }
           ]
         },
@@ -2461,11 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-16T03:28:43.115Z",
+  "fetchDate": "2025-03-17T03:28:49.398Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://rosswintle.uk/feed/"
   ]
 }

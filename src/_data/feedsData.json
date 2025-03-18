@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "Tag, you’re it",
+              "date": "2025-03-18",
+              "link": "https://ericwbailey.website/published/tag-youre-it/"
+            },
+            {
+              "title": "Harm reduction principles for digital accessibility practitioners",
+              "date": "2025-03-06",
+              "link": "https://ericwbailey.website/published/harm-reduction-principles-for-digital-accessibility-practitioners/"
+            },
+            {
+              "title": "Evaluating overlay-adjacent accessibility products",
+              "date": "2025-02-14",
+              "link": "https://ericwbailey.website/published/evaluating-overlay-adjacent-accessibility-products/"
+            },
+            {
+              "title": "Stanislav Petrov",
+              "date": "2025-02-04",
+              "link": "https://ericwbailey.website/published/stanislav-petrov/"
+            },
+            {
+              "title": "GitHub’s updated Commits page and the interactive list component",
+              "date": "2024-12-20",
+              "link": "https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Monthly Recap: February 2025",
+              "date": "2025-03-18",
+              "link": "https://flamedfury.com/posts/monthly-recap-february-2025/"
+            },
+            {
+              "title": "Let Me Solo Him",
+              "date": "2025-02-26",
+              "link": "https://flamedfury.com/posts/let-me-solo-him/"
+            },
+            {
+              "title": "Keeping A Reading Log",
+              "date": "2025-02-18",
+              "link": "https://flamedfury.com/posts/keeping-a-reading-log/"
+            },
+            {
+              "title": "Blogging For The Hell Of It",
+              "date": "2025-02-04",
+              "link": "https://flamedfury.com/posts/blogging-for-the-hell-of-it/"
+            },
+            {
+              "title": "Music Questions Challenge",
+              "date": "2025-02-02",
+              "link": "https://flamedfury.com/posts/music-questions-challenge/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Unwieldy code bases",
+              "date": "2025-03-17",
+              "link": "https://gomakethings.com/unwieldy-code-bases/"
+            },
             {
               "title": "Kipo and the Age of the Wonderbeasts",
               "date": "2025-03-16",
@@ -26,11 +93,99 @@
               "title": "The CSS :not() pseudo-class",
               "date": "2025-03-12",
               "link": "https://gomakethings.com/the-css-not-pseudo-class/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "17 Mar 2025\n      ",
+              "date": "2025-03-17",
+              "link": "https://frills.dev/status/microblog/"
             },
             {
-              "title": "Durable technology",
-              "date": "2025-03-11",
-              "link": "https://gomakethings.com/durable-technology/"
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Who are your teammates?",
+              "date": "2025-03-17",
+              "link": "https://ntietz.com/blog/who-are-your-teammates/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Stewardship over ownership",
+              "date": "2025-03-10",
+              "link": "https://ntietz.com/blog/stewardship-over-ownership/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Some things that make Rust lifetimes hard to learn",
+              "date": "2025-03-03",
+              "link": "https://ntietz.com/blog/rust-lifetimes-learning/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Your product shouldn't require showing my legal name",
+              "date": "2025-02-24",
+              "link": "https://ntietz.com/blog/your-product-shouldnt-require-showing-my-legal-name/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Can I ethically use LLMs?",
+              "date": "2025-02-17",
+              "link": "https://ntietz.com/blog/can-i-ethically-use-llms/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Ecosystems vs. Artifacts: Don’t Break the Web",
+              "date": "2025-03-16",
+              "link": "https://blog.jim-nielsen.com/2025/ecosystems-vs-artifacts/"
+            },
+            {
+              "title": "Building Websites With LLMS",
+              "date": "2025-03-04",
+              "link": "https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/"
+            },
+            {
+              "title": "AX, DX, UX",
+              "date": "2025-03-02",
+              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-ax/"
+            },
+            {
+              "title": "Can You Get Better Doing a Bad Job?",
+              "date": "2025-02-28",
+              "link": "https://blog.jim-nielsen.com/2025/get-better-doing-a-bad-job/"
+            },
+            {
+              "title": "Limitations vs. Capabilities",
+              "date": "2025-02-26",
+              "link": "https://blog.jim-nielsen.com/2025/limitations-vs-capabilities/"
             }
           ]
         },
@@ -62,37 +217,6 @@
               "title": "Generic LLM Chatbot Attestation",
               "date": "2025-02-16",
               "link": "https://adrianroselli.com/2025/02/generic-llm-chatbot-attestation.html"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "16 Mar 2025\n      ",
-              "date": "2025-03-16",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
             }
           ]
         },
@@ -278,37 +402,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Switching my pricing to Euro, but also making it tax-inclusive",
-              "date": "2025-03-12",
-              "link": "https://www.baldurbjarnason.com/notes/2025/euro-pricing/"
-            },
-            {
-              "title": "AI and Esoteric Fascism",
-              "date": "2025-02-27",
-              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
-            },
-            {
-              "title": "Now I'm disappointed.",
-              "date": "2025-02-13",
-              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
-            },
-            {
-              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
-              "date": "2025-02-12",
-              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
-            },
-            {
-              "title": "Todo notes as a storm approaches",
-              "date": "2025-02-05",
-              "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
-            }
-          ]
-        },
-        {
           "title": "Blog on Hillel Wayne",
           "feedUrl": "https://www.hillelwayne.com/post/index.xml",
           "items": [
@@ -336,6 +429,37 @@
               "title": "Composing TLA+ Specifications with State Machines",
               "date": "2024-06-17",
               "link": "https://www.hillelwayne.com/post/composing-tla/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Switching my pricing to Euro, but also making it tax-inclusive",
+              "date": "2025-03-12",
+              "link": "https://www.baldurbjarnason.com/notes/2025/euro-pricing/"
+            },
+            {
+              "title": "AI and Esoteric Fascism",
+              "date": "2025-02-27",
+              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
+            },
+            {
+              "title": "Now I'm disappointed.",
+              "date": "2025-02-13",
+              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
+            },
+            {
+              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
+              "date": "2025-02-12",
+              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
+            },
+            {
+              "title": "Todo notes as a storm approaches",
+              "date": "2025-02-05",
+              "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
             }
           ]
         },
@@ -495,37 +619,6 @@
           ]
         },
         {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Stewardship over ownership",
-              "date": "2025-03-10",
-              "link": "https://ntietz.com/blog/stewardship-over-ownership/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Some things that make Rust lifetimes hard to learn",
-              "date": "2025-03-03",
-              "link": "https://ntietz.com/blog/rust-lifetimes-learning/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Your product shouldn't require showing my legal name",
-              "date": "2025-02-24",
-              "link": "https://ntietz.com/blog/your-product-shouldnt-require-showing-my-legal-name/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Can I ethically use LLMs?",
-              "date": "2025-02-17",
-              "link": "https://ntietz.com/blog/can-i-ethically-use-llms/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "What's in a ring buffer? And using them in Rust",
-              "date": "2025-02-10",
-              "link": "https://ntietz.com/blog/whats-in-a-ring-buffer/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -681,37 +774,6 @@
           ]
         },
         {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "Harm reduction principles for digital accessibility practitioners",
-              "date": "2025-03-06",
-              "link": "https://ericwbailey.website/published/harm-reduction-principles-for-digital-accessibility-practitioners/"
-            },
-            {
-              "title": "Evaluating overlay-adjacent accessibility products",
-              "date": "2025-02-14",
-              "link": "https://ericwbailey.website/published/evaluating-overlay-adjacent-accessibility-products/"
-            },
-            {
-              "title": "Stanislav Petrov",
-              "date": "2025-02-04",
-              "link": "https://ericwbailey.website/published/stanislav-petrov/"
-            },
-            {
-              "title": "GitHub’s updated Commits page and the interactive list component",
-              "date": "2024-12-20",
-              "link": "https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/"
-            },
-            {
-              "title": "Don’t forget to localize your icons",
-              "date": "2024-11-11",
-              "link": "https://ericwbailey.website/published/dont-forget-to-localize-your-icons/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -743,33 +805,33 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
             {
-              "title": "Building Websites With LLMS",
-              "date": "2025-03-04",
-              "link": "https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/"
+              "title": "I am ACTUALLY good at programming",
+              "date": "2025-03-05",
+              "link": "https://rosswintle.uk/2025/03/i-am-actually-good-at-programming/"
             },
             {
-              "title": "AX, DX, UX",
-              "date": "2025-03-02",
-              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-ax/"
+              "title": "Are we ready for simpler devices",
+              "date": "2025-02-03",
+              "link": "https://rosswintle.uk/2025/02/are-we-ready-for-simpler-devices/"
             },
             {
-              "title": "Can You Get Better Doing a Bad Job?",
-              "date": "2025-02-28",
-              "link": "https://blog.jim-nielsen.com/2025/get-better-doing-a-bad-job/"
+              "title": "RocketBooks and my settled productivity system",
+              "date": "2025-01-26",
+              "link": "https://rosswintle.uk/2025/01/rocketbooks-and-my-settled-productivity-system/"
             },
             {
-              "title": "Limitations vs. Capabilities",
-              "date": "2025-02-26",
-              "link": "https://blog.jim-nielsen.com/2025/limitations-vs-capabilities/"
+              "title": "A week-long Playdate?",
+              "date": "2025-01-26",
+              "link": "https://rosswintle.uk/2025/01/a-week-long-playdate/"
             },
             {
-              "title": "Sanding UI, pt. II",
-              "date": "2025-02-24",
-              "link": "https://blog.jim-nielsen.com/2025/sanding-ui-pt-ii/"
+              "title": "“Never Forgive Them” – What to do with Ed Zitron’s essay on the “Rot Economy”",
+              "date": "2025-01-26",
+              "link": "https://rosswintle.uk/2025/01/never-forgive-them-what-to-do-with-ed-zitrons-essay-on-the-rot-economy/"
             }
           ]
         },
@@ -1053,37 +1115,6 @@
           ]
         },
         {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Let Me Solo Him",
-              "date": "2025-02-26",
-              "link": "https://flamedfury.com/posts/let-me-solo-him/"
-            },
-            {
-              "title": "Keeping A Reading Log",
-              "date": "2025-02-18",
-              "link": "https://flamedfury.com/posts/keeping-a-reading-log/"
-            },
-            {
-              "title": "Blogging For The Hell Of It",
-              "date": "2025-02-04",
-              "link": "https://flamedfury.com/posts/blogging-for-the-hell-of-it/"
-            },
-            {
-              "title": "Music Questions Challenge",
-              "date": "2025-02-02",
-              "link": "https://flamedfury.com/posts/music-questions-challenge/"
-            },
-            {
-              "title": "Monthly Recap: January 2025",
-              "date": "2025-02-01",
-              "link": "https://flamedfury.com/posts/monthly-recap-january-2025/"
-            }
-          ]
-        },
-        {
           "title": "Evan Boehs in the blog",
           "feedUrl": "https://boehs.org/in/blog.xml",
           "items": [
@@ -1146,37 +1177,6 @@
           ]
         },
         {
-          "title": "artemis.sh",
-          "feedUrl": "https://artemis.sh/feed.xml",
-          "items": [
-            {
-              "title": "Defragging my old Dell’s UEFI NVRAM",
-              "date": "2025-02-22",
-              "link": "https://artemis.sh/2025/02/22/uefi-nvram-defrag.html"
-            },
-            {
-              "title": "The Serenity of -j1",
-              "date": "2024-07-29",
-              "link": "https://artemis.sh/2024/07/29/the-serenity-of-j1.html"
-            },
-            {
-              "title": "So, do you actually want to write?",
-              "date": "2024-06-19",
-              "link": "https://artemis.sh/2024/06/19/do-you-really-want-to-write.html"
-            },
-            {
-              "title": "Save Scarecrow, a Massive Physical Media Collection",
-              "date": "2024-06-18",
-              "link": "https://artemis.sh/2024/06/18/scarecrow.html"
-            },
-            {
-              "title": "There are still quite a few 32-bit x86 Linux distributions",
-              "date": "2024-04-12",
-              "link": "https://artemis.sh/2024/04/12/x86-distribution-options.html"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -1204,6 +1204,37 @@
               "title": "The age of insecure billionaires",
               "date": "2025-01-12",
               "link": "https://thejollyteapot.com/2025/01/12/the-age-of-insecure-billionaires/"
+            }
+          ]
+        },
+        {
+          "title": "artemis.sh",
+          "feedUrl": "https://artemis.sh/feed.xml",
+          "items": [
+            {
+              "title": "Defragging my old Dell’s UEFI NVRAM",
+              "date": "2025-02-22",
+              "link": "https://artemis.sh/2025/02/22/uefi-nvram-defrag.html"
+            },
+            {
+              "title": "The Serenity of -j1",
+              "date": "2024-07-29",
+              "link": "https://artemis.sh/2024/07/29/the-serenity-of-j1.html"
+            },
+            {
+              "title": "So, do you actually want to write?",
+              "date": "2024-06-19",
+              "link": "https://artemis.sh/2024/06/19/do-you-really-want-to-write.html"
+            },
+            {
+              "title": "Save Scarecrow, a Massive Physical Media Collection",
+              "date": "2024-06-18",
+              "link": "https://artemis.sh/2024/06/18/scarecrow.html"
+            },
+            {
+              "title": "There are still quite a few 32-bit x86 Linux distributions",
+              "date": "2024-04-12",
+              "link": "https://artemis.sh/2024/04/12/x86-distribution-options.html"
             }
           ]
         },
@@ -2430,12 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-17T03:28:49.398Z",
+  "fetchDate": "2025-03-18T03:27:55.849Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/",
-    "https://rosswintle.uk/feed/"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

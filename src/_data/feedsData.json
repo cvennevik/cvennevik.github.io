@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "My Mother's Advice on How to be a Great YouTuber",
+              "date": "2025-03-18",
+              "link": "https://www.baldurbjarnason.com/2025/my-mothers-advice/"
+            },
+            {
+              "title": "Switching my pricing to Euro, but also making it tax-inclusive",
+              "date": "2025-03-12",
+              "link": "https://www.baldurbjarnason.com/notes/2025/euro-pricing/"
+            },
+            {
+              "title": "AI and Esoteric Fascism",
+              "date": "2025-02-27",
+              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
+            },
+            {
+              "title": "Now I'm disappointed.",
+              "date": "2025-02-13",
+              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
+            },
+            {
+              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
+              "date": "2025-02-12",
+              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Reducing CSS complexity with the :is() pseudo-class",
+              "date": "2025-03-18",
+              "link": "https://gomakethings.com/reducing-css-complexity-with-the-is-pseudo-class/"
+            },
+            {
+              "title": "Unwieldy code bases",
+              "date": "2025-03-17",
+              "link": "https://gomakethings.com/unwieldy-code-bases/"
+            },
+            {
+              "title": "Kipo and the Age of the Wonderbeasts",
+              "date": "2025-03-16",
+              "link": "https://gomakethings.com/kipo-and-the-age-of-the-wonderbeasts/"
+            },
+            {
+              "title": "My code is broken (and I don't know why)",
+              "date": "2025-03-14",
+              "link": "https://gomakethings.com/my-code-is-broken-and-i-dont-know-why/"
+            },
+            {
+              "title": "Managing your energy and having a mix of tasks as a developer with ADHD",
+              "date": "2025-03-13",
+              "link": "https://gomakethings.com/managing-your-energy-and-having-a-mix-of-tasks-as-a-developer-with-adhd/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Zig App Release and Updates via Github",
+              "date": "2025-03-18",
+              "link": "https://dbushell.com/2025/03/18/zig-app-release-and-updates-via-github/"
+            },
+            {
+              "title": "I built a ZSH Prompt with Zig ⚡",
+              "date": "2025-03-05",
+              "link": "https://dbushell.com/2025/03/05/zig-zsh-prompt/"
+            },
+            {
+              "title": "“Never have, never will”",
+              "date": "2025-03-01",
+              "link": "https://dbushell.com/2025/03/01/never-have-never-will/"
+            },
+            {
+              "title": "Copy Code Button",
+              "date": "2025-02-14",
+              "link": "https://dbushell.com/2025/02/14/copy-code-button/"
+            },
+            {
+              "title": "Framework-mania is running wild!",
+              "date": "2025-02-06",
+              "link": "https://dbushell.com/2025/02/06/frameworks-vs-libraries/"
+            }
+          ]
+        },
+        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -35,6 +128,68 @@
           ]
         },
         {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "18 Mar 2025\n      ",
+              "date": "2025-03-18",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Verification-First Development",
+              "date": "2025-03-18",
+              "link": "https://buttondown.com/hillelwayne/archive/verification-first-development/"
+            },
+            {
+              "title": "New Blog Post: \"A Perplexing Javascript Parsing Puzzle\"",
+              "date": "2025-03-12",
+              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-perplexing-javascript-parsing/"
+            },
+            {
+              "title": "Five Kinds of Nondeterminism",
+              "date": "2025-02-19",
+              "link": "https://buttondown.com/hillelwayne/archive/five-kinds-of-nondeterminism/"
+            },
+            {
+              "title": "Are Efficiency and Horizontal Scalability at odds?",
+              "date": "2025-02-12",
+              "link": "https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/"
+            },
+            {
+              "title": "What hard thing does your tech make easy?",
+              "date": "2025-01-29",
+              "link": "https://buttondown.com/hillelwayne/archive/what-hard-thing-does-your-tech-make-easy/"
+            }
+          ]
+        },
+        {
           "title": "The Weblog of fLaMEd",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -62,68 +217,6 @@
               "title": "Music Questions Challenge",
               "date": "2025-02-02",
               "link": "https://flamedfury.com/posts/music-questions-challenge/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Unwieldy code bases",
-              "date": "2025-03-17",
-              "link": "https://gomakethings.com/unwieldy-code-bases/"
-            },
-            {
-              "title": "Kipo and the Age of the Wonderbeasts",
-              "date": "2025-03-16",
-              "link": "https://gomakethings.com/kipo-and-the-age-of-the-wonderbeasts/"
-            },
-            {
-              "title": "My code is broken (and I don't know why)",
-              "date": "2025-03-14",
-              "link": "https://gomakethings.com/my-code-is-broken-and-i-dont-know-why/"
-            },
-            {
-              "title": "Managing your energy and having a mix of tasks as a developer with ADHD",
-              "date": "2025-03-13",
-              "link": "https://gomakethings.com/managing-your-energy-and-having-a-mix-of-tasks-as-a-developer-with-adhd/"
-            },
-            {
-              "title": "The CSS :not() pseudo-class",
-              "date": "2025-03-12",
-              "link": "https://gomakethings.com/the-css-not-pseudo-class/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "17 Mar 2025\n      ",
-              "date": "2025-03-17",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            },
-            {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
             }
           ]
         },
@@ -433,37 +526,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Switching my pricing to Euro, but also making it tax-inclusive",
-              "date": "2025-03-12",
-              "link": "https://www.baldurbjarnason.com/notes/2025/euro-pricing/"
-            },
-            {
-              "title": "AI and Esoteric Fascism",
-              "date": "2025-02-27",
-              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
-            },
-            {
-              "title": "Now I'm disappointed.",
-              "date": "2025-02-13",
-              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
-            },
-            {
-              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
-              "date": "2025-02-12",
-              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
-            },
-            {
-              "title": "Todo notes as a storm approaches",
-              "date": "2025-02-05",
-              "link": "https://www.baldurbjarnason.com/notes/2025/todo-notes-as-a-storm-approaches/"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -491,37 +553,6 @@
               "title": "The \"Brainmade\" Mark",
               "date": "2024-07-27",
               "link": "https://www.youtube.com/watch?v=kul0z3OTmVM"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "New Blog Post: \"A Perplexing Javascript Parsing Puzzle\"",
-              "date": "2025-03-12",
-              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-perplexing-javascript-parsing/"
-            },
-            {
-              "title": "Five Kinds of Nondeterminism",
-              "date": "2025-02-19",
-              "link": "https://buttondown.com/hillelwayne/archive/five-kinds-of-nondeterminism/"
-            },
-            {
-              "title": "Are Efficiency and Horizontal Scalability at odds?",
-              "date": "2025-02-12",
-              "link": "https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/"
-            },
-            {
-              "title": "What hard thing does your tech make easy?",
-              "date": "2025-01-29",
-              "link": "https://buttondown.com/hillelwayne/archive/what-hard-thing-does-your-tech-make-easy/"
-            },
-            {
-              "title": "The Juggler's Curse",
-              "date": "2025-01-22",
-              "link": "https://buttondown.com/hillelwayne/archive/the-jugglers-curse/"
             }
           ]
         },
@@ -770,37 +801,6 @@
               "title": "I made an app to fix my motion sickness",
               "date": "2024-09-02",
               "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "I built a ZSH Prompt with Zig ⚡",
-              "date": "2025-03-05",
-              "link": "https://dbushell.com/2025/03/05/zig-zsh-prompt/"
-            },
-            {
-              "title": "“Never have, never will”",
-              "date": "2025-03-01",
-              "link": "https://dbushell.com/2025/03/01/never-have-never-will/"
-            },
-            {
-              "title": "Copy Code Button",
-              "date": "2025-02-14",
-              "link": "https://dbushell.com/2025/02/14/copy-code-button/"
-            },
-            {
-              "title": "Framework-mania is running wild!",
-              "date": "2025-02-06",
-              "link": "https://dbushell.com/2025/02/06/frameworks-vs-libraries/"
-            },
-            {
-              "title": "The Patient Programmer",
-              "date": "2025-01-31",
-              "link": "https://dbushell.com/2025/01/31/the-patient-programmer/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-18T03:27:55.849Z",
+  "fetchDate": "2025-03-19T03:27:44.792Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

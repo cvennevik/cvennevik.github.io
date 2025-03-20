@@ -4,40 +4,14 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "My Mother's Advice on How to be a Great YouTuber",
-              "date": "2025-03-18",
-              "link": "https://www.baldurbjarnason.com/2025/my-mothers-advice/"
-            },
-            {
-              "title": "Switching my pricing to Euro, but also making it tax-inclusive",
-              "date": "2025-03-12",
-              "link": "https://www.baldurbjarnason.com/notes/2025/euro-pricing/"
-            },
-            {
-              "title": "AI and Esoteric Fascism",
-              "date": "2025-02-27",
-              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
-            },
-            {
-              "title": "Now I'm disappointed.",
-              "date": "2025-02-13",
-              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
-            },
-            {
-              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
-              "date": "2025-02-12",
-              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
-            }
-          ]
-        },
-        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Can I Use for accessibility",
+              "date": "2025-03-19",
+              "link": "https://gomakethings.com/can-i-use-for-accessibility/"
+            },
             {
               "title": "Reducing CSS complexity with the :is() pseudo-class",
               "date": "2025-03-18",
@@ -57,11 +31,68 @@
               "title": "My code is broken (and I don't know why)",
               "date": "2025-03-14",
               "link": "https://gomakethings.com/my-code-is-broken-and-i-dont-know-why/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "19 Mar 2025\n      ",
+              "date": "2025-03-19",
+              "link": "https://frills.dev/status/microblog/"
             },
             {
-              "title": "Managing your energy and having a mix of tasks as a developer with ADHD",
+              "title": "Festival of Spring and Dawn",
+              "date": "2025-03-19",
+              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Principles of Web Accessibility",
+              "date": "2025-01-23",
+              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Parsing an lambdas",
+              "date": "2025-03-19",
+              "link": "https://garoof.no/notes/parsing-lambdas.html"
+            },
+            {
+              "title": "Two tiny steps",
               "date": "2025-03-13",
-              "link": "https://gomakethings.com/managing-your-energy-and-having-a-mix-of-tasks-as-a-developer-with-adhd/"
+              "link": "https://garoof.no/notes/two-tiny-steps.html"
+            },
+            {
+              "title": "Adding diff support to Glorpdown",
+              "date": "2025-03-09",
+              "link": "https://garoof.no/notes/gd-diff.html"
+            },
+            {
+              "title": "The builder pattern!!! and sums",
+              "date": "2025-03-01",
+              "link": "https://garoof.no/notes/builder-sums.html"
+            },
+            {
+              "title": "Monad tutorial",
+              "date": "2025-01-23",
+              "link": "https://garoof.no/notes/monad-tutorial.html"
             }
           ]
         },
@@ -97,6 +128,37 @@
           ]
         },
         {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "My Mother's Advice on How to be a Great YouTuber",
+              "date": "2025-03-18",
+              "link": "https://www.baldurbjarnason.com/2025/my-mothers-advice/"
+            },
+            {
+              "title": "Switching my pricing to Euro, but also making it tax-inclusive",
+              "date": "2025-03-12",
+              "link": "https://www.baldurbjarnason.com/notes/2025/euro-pricing/"
+            },
+            {
+              "title": "AI and Esoteric Fascism",
+              "date": "2025-02-27",
+              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
+            },
+            {
+              "title": "Now I'm disappointed.",
+              "date": "2025-02-13",
+              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
+            },
+            {
+              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
+              "date": "2025-02-12",
+              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
+            }
+          ]
+        },
+        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -128,33 +190,33 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
-              "title": "18 Mar 2025\n      ",
+              "title": "Monthly Recap: February 2025",
               "date": "2025-03-18",
-              "link": "https://frills.dev/status/microblog/"
+              "link": "https://flamedfury.com/posts/monthly-recap-february-2025/"
             },
             {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
+              "title": "Let Me Solo Him",
+              "date": "2025-02-26",
+              "link": "https://flamedfury.com/posts/let-me-solo-him/"
             },
             {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+              "title": "Keeping A Reading Log",
+              "date": "2025-02-18",
+              "link": "https://flamedfury.com/posts/keeping-a-reading-log/"
             },
             {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
+              "title": "Blogging For The Hell Of It",
+              "date": "2025-02-04",
+              "link": "https://flamedfury.com/posts/blogging-for-the-hell-of-it/"
             },
             {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+              "title": "Music Questions Challenge",
+              "date": "2025-02-02",
+              "link": "https://flamedfury.com/posts/music-questions-challenge/"
             }
           ]
         },
@@ -186,37 +248,6 @@
               "title": "What hard thing does your tech make easy?",
               "date": "2025-01-29",
               "link": "https://buttondown.com/hillelwayne/archive/what-hard-thing-does-your-tech-make-easy/"
-            }
-          ]
-        },
-        {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Monthly Recap: February 2025",
-              "date": "2025-03-18",
-              "link": "https://flamedfury.com/posts/monthly-recap-february-2025/"
-            },
-            {
-              "title": "Let Me Solo Him",
-              "date": "2025-02-26",
-              "link": "https://flamedfury.com/posts/let-me-solo-him/"
-            },
-            {
-              "title": "Keeping A Reading Log",
-              "date": "2025-02-18",
-              "link": "https://flamedfury.com/posts/keeping-a-reading-log/"
-            },
-            {
-              "title": "Blogging For The Hell Of It",
-              "date": "2025-02-04",
-              "link": "https://flamedfury.com/posts/blogging-for-the-hell-of-it/"
-            },
-            {
-              "title": "Music Questions Challenge",
-              "date": "2025-02-02",
-              "link": "https://flamedfury.com/posts/music-questions-challenge/"
             }
           ]
         },
@@ -429,37 +460,6 @@
               "title": "HYTRADBOI 2025 program and tickets",
               "date": "2025-01-31",
               "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-program-and-tickets/"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Two tiny steps",
-              "date": "2025-03-13",
-              "link": "https://garoof.no/notes/two-tiny-steps.html"
-            },
-            {
-              "title": "Adding diff support to Glorpdown",
-              "date": "2025-03-09",
-              "link": "https://garoof.no/notes/gd-diff.html"
-            },
-            {
-              "title": "The builder pattern!!! and sums",
-              "date": "2025-03-01",
-              "link": "https://garoof.no/notes/builder-sums.html"
-            },
-            {
-              "title": "Monad tutorial",
-              "date": "2025-01-23",
-              "link": "https://garoof.no/notes/monad-tutorial.html"
-            },
-            {
-              "title": "No epiphanies",
-              "date": "2025-01-20",
-              "link": "https://garoof.no/notes/about.html"
             }
           ]
         },
@@ -712,37 +712,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Introducing the blogroll",
-              "date": "2025-03-07",
-              "link": "https://macwright.com/2025/03/07/blogroll.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-03-01",
-              "link": "https://macwright.com/2025/03/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-02-04",
-              "link": "https://macwright.com/2025/02/04/recently.html"
-            },
-            {
-              "title": "2025 Predictions",
-              "date": "2025-01-11",
-              "link": "https://macwright.com/2025/01/11/predictions.html"
-            },
-            {
-              "title": "Recently 2024",
-              "date": "2024-12-15",
-              "link": "https://macwright.com/2024/12/15/recently.html"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -770,6 +739,37 @@
               "title": "Adventskalendere, AI, og det tenkende mennesket",
               "date": "2025-01-16",
               "link": "https://www.kodemaker.no/blogg/2025-01-16-adventskalendere-ai-og-det-tenkende-mennesket/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Introducing the blogroll",
+              "date": "2025-03-07",
+              "link": "https://macwright.com/2025/03/07/blogroll.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-03-01",
+              "link": "https://macwright.com/2025/03/01/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-02-04",
+              "link": "https://macwright.com/2025/02/04/recently.html"
+            },
+            {
+              "title": "2025 Predictions",
+              "date": "2025-01-11",
+              "link": "https://macwright.com/2025/01/11/predictions.html"
+            },
+            {
+              "title": "Recently 2024",
+              "date": "2024-12-15",
+              "link": "https://macwright.com/2024/12/15/recently.html"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-19T03:27:44.792Z",
+  "fetchDate": "2025-03-20T03:26:33.632Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

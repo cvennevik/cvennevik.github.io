@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "Thinking aloud and oversharing",
+              "date": "2025-03-20",
+              "link": "https://gomakethings.com/thinking-aloud-and-oversharing/"
+            },
+            {
               "title": "Can I Use for accessibility",
               "date": "2025-03-19",
               "link": "https://gomakethings.com/can-i-use-for-accessibility/"
@@ -26,11 +31,37 @@
               "title": "Kipo and the Age of the Wonderbeasts",
               "date": "2025-03-16",
               "link": "https://gomakethings.com/kipo-and-the-age-of-the-wonderbeasts/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Proving Binaries",
+              "date": "2025-03-20",
+              "link": "https://blog.jim-nielsen.com/2025/proving-binaries/"
             },
             {
-              "title": "My code is broken (and I don't know why)",
-              "date": "2025-03-14",
-              "link": "https://gomakethings.com/my-code-is-broken-and-i-dont-know-why/"
+              "title": "Ecosystems vs. Artifacts: Don’t Break the Web",
+              "date": "2025-03-16",
+              "link": "https://blog.jim-nielsen.com/2025/ecosystems-vs-artifacts/"
+            },
+            {
+              "title": "Building Websites With LLMS",
+              "date": "2025-03-04",
+              "link": "https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/"
+            },
+            {
+              "title": "AX, DX, UX",
+              "date": "2025-03-02",
+              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-ax/"
+            },
+            {
+              "title": "Can You Get Better Doing a Bad Job?",
+              "date": "2025-02-28",
+              "link": "https://blog.jim-nielsen.com/2025/get-better-doing-a-bad-job/"
             }
           ]
         },
@@ -39,8 +70,8 @@
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
-              "title": "19 Mar 2025\n      ",
-              "date": "2025-03-19",
+              "title": "20 Mar 2025\n      ",
+              "date": "2025-03-20",
               "link": "https://frills.dev/status/microblog/"
             },
             {
@@ -59,9 +90,9 @@
               "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
             },
             {
-              "title": "Principles of Web Accessibility",
-              "date": "2025-01-23",
-              "link": "https://github.com/Heydon/principles-of-web-accessibility"
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
             }
           ]
         },
@@ -69,6 +100,11 @@
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
+            {
+              "title": "Also unparsing the lambdas",
+              "date": "2025-03-20",
+              "link": "https://garoof.no/notes/parsing-lambdas.html#pub-Zl3MOZ"
+            },
             {
               "title": "Parsing an lambdas",
               "date": "2025-03-19",
@@ -88,11 +124,6 @@
               "title": "The builder pattern!!! and sums",
               "date": "2025-03-01",
               "link": "https://garoof.no/notes/builder-sums.html"
-            },
-            {
-              "title": "Monad tutorial",
-              "date": "2025-01-23",
-              "link": "https://garoof.no/notes/monad-tutorial.html"
             }
           ]
         },
@@ -279,37 +310,6 @@
               "title": "Can I ethically use LLMs?",
               "date": "2025-02-17",
               "link": "https://ntietz.com/blog/can-i-ethically-use-llms/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Ecosystems vs. Artifacts: Don’t Break the Web",
-              "date": "2025-03-16",
-              "link": "https://blog.jim-nielsen.com/2025/ecosystems-vs-artifacts/"
-            },
-            {
-              "title": "Building Websites With LLMS",
-              "date": "2025-03-04",
-              "link": "https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/"
-            },
-            {
-              "title": "AX, DX, UX",
-              "date": "2025-03-02",
-              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-ax/"
-            },
-            {
-              "title": "Can You Get Better Doing a Bad Job?",
-              "date": "2025-02-28",
-              "link": "https://blog.jim-nielsen.com/2025/get-better-doing-a-bad-job/"
-            },
-            {
-              "title": "Limitations vs. Capabilities",
-              "date": "2025-02-26",
-              "link": "https://blog.jim-nielsen.com/2025/limitations-vs-capabilities/"
             }
           ]
         },
@@ -681,33 +681,33 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
           "items": [
             {
-              "title": "Standards for ANSI escape codes",
+              "title": "Introducing the blogroll",
               "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+              "link": "https://macwright.com/2025/03/07/blogroll.html"
             },
             {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+              "title": "Recently",
+              "date": "2025-03-01",
+              "link": "https://macwright.com/2025/03/01/recently.html"
             },
             {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
+              "title": "Recently",
+              "date": "2025-02-04",
+              "link": "https://macwright.com/2025/02/04/recently.html"
             },
             {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "title": "2025 Predictions",
               "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
+              "link": "https://macwright.com/2025/01/11/predictions.html"
             },
             {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
+              "title": "Recently 2024",
+              "date": "2024-12-15",
+              "link": "https://macwright.com/2024/12/15/recently.html"
             }
           ]
         },
@@ -743,37 +743,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Introducing the blogroll",
-              "date": "2025-03-07",
-              "link": "https://macwright.com/2025/03/07/blogroll.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-03-01",
-              "link": "https://macwright.com/2025/03/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-02-04",
-              "link": "https://macwright.com/2025/02/04/recently.html"
-            },
-            {
-              "title": "2025 Predictions",
-              "date": "2025-01-11",
-              "link": "https://macwright.com/2025/01/11/predictions.html"
-            },
-            {
-              "title": "Recently 2024",
-              "date": "2024-12-15",
-              "link": "https://macwright.com/2024/12/15/recently.html"
-            }
-          ]
-        },
-        {
           "title": "leanrada.com notes",
           "feedUrl": "https://leanrada.com/rss.xml",
           "items": [
@@ -801,6 +770,37 @@
               "title": "I made an app to fix my motion sickness",
               "date": "2024-09-02",
               "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+            },
+            {
+              "title": "Some terminal frustrations",
+              "date": "2025-02-05",
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
+            },
+            {
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
+            },
+            {
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-20T03:26:33.632Z",
+  "fetchDate": "2025-03-21T03:28:14.440Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

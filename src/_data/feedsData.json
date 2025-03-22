@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "A Focused Redesign",
+              "date": "2025-03-21",
+              "link": "https://dbushell.com/2025/03/21/blog-redesign/"
+            },
+            {
+              "title": "Zig App Release and Updates via Github",
+              "date": "2025-03-18",
+              "link": "https://dbushell.com/2025/03/18/zig-app-release-and-updates-via-github/"
+            },
+            {
+              "title": "I built a ZSH Prompt with Zig ⚡",
+              "date": "2025-03-05",
+              "link": "https://dbushell.com/2025/03/05/zig-zsh-prompt/"
+            },
+            {
+              "title": "“Never have, never will”",
+              "date": "2025-03-01",
+              "link": "https://dbushell.com/2025/03/01/never-have-never-will/"
+            },
+            {
+              "title": "Copy Code Button",
+              "date": "2025-02-14",
+              "link": "https://dbushell.com/2025/02/14/copy-code-button/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Can you nest Web Components inside each other?",
+              "date": "2025-03-21",
+              "link": "https://gomakethings.com/can-you-nest-web-components-inside-each-other/"
+            },
             {
               "title": "Thinking aloud and oversharing",
               "date": "2025-03-20",
@@ -26,11 +62,37 @@
               "title": "Unwieldy code bases",
               "date": "2025-03-17",
               "link": "https://gomakethings.com/unwieldy-code-bases/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "21 Mar 2025\n      ",
+              "date": "2025-03-21",
+              "link": "https://frills.dev/status/microblog/"
             },
             {
-              "title": "Kipo and the Age of the Wonderbeasts",
-              "date": "2025-03-16",
-              "link": "https://gomakethings.com/kipo-and-the-age-of-the-wonderbeasts/"
+              "title": "Festival of Spring and Dawn",
+              "date": "2025-03-19",
+              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
             }
           ]
         },
@@ -66,37 +128,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "20 Mar 2025\n      ",
-              "date": "2025-03-20",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Festival of Spring and Dawn",
-              "date": "2025-03-19",
-              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            }
-          ]
-        },
-        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -124,37 +155,6 @@
               "title": "The builder pattern!!! and sums",
               "date": "2025-03-01",
               "link": "https://garoof.no/notes/builder-sums.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Zig App Release and Updates via Github",
-              "date": "2025-03-18",
-              "link": "https://dbushell.com/2025/03/18/zig-app-release-and-updates-via-github/"
-            },
-            {
-              "title": "I built a ZSH Prompt with Zig ⚡",
-              "date": "2025-03-05",
-              "link": "https://dbushell.com/2025/03/05/zig-zsh-prompt/"
-            },
-            {
-              "title": "“Never have, never will”",
-              "date": "2025-03-01",
-              "link": "https://dbushell.com/2025/03/01/never-have-never-will/"
-            },
-            {
-              "title": "Copy Code Button",
-              "date": "2025-02-14",
-              "link": "https://dbushell.com/2025/02/14/copy-code-button/"
-            },
-            {
-              "title": "Framework-mania is running wild!",
-              "date": "2025-02-06",
-              "link": "https://dbushell.com/2025/02/06/frameworks-vs-libraries/"
             }
           ]
         },
@@ -225,6 +225,11 @@
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
+              "title": "New Music Friday #4",
+              "date": "2025-03-18",
+              "link": "https://flamedfury.com/posts/new-music-friday-4/"
+            },
+            {
               "title": "Monthly Recap: February 2025",
               "date": "2025-03-18",
               "link": "https://flamedfury.com/posts/monthly-recap-february-2025/"
@@ -243,11 +248,6 @@
               "title": "Blogging For The Hell Of It",
               "date": "2025-02-04",
               "link": "https://flamedfury.com/posts/blogging-for-the-hell-of-it/"
-            },
-            {
-              "title": "Music Questions Challenge",
-              "date": "2025-02-02",
-              "link": "https://flamedfury.com/posts/music-questions-challenge/"
             }
           ]
         },
@@ -681,6 +681,37 @@
           ]
         },
         {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+            },
+            {
+              "title": "Some terminal frustrations",
+              "date": "2025-02-05",
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
+            },
+            {
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
+            },
+            {
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
+            }
+          ]
+        },
+        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -770,37 +801,6 @@
               "title": "I made an app to fix my motion sickness",
               "date": "2024-09-02",
               "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            },
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            },
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-21T03:28:14.440Z",
+  "fetchDate": "2025-03-22T03:28:09.672Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

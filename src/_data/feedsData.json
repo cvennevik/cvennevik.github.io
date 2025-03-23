@@ -4,6 +4,187 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "What if money didn't exist?",
+              "date": "2025-03-22",
+              "link": "https://gomakethings.com/what-if-money-didnt-exist/"
+            },
+            {
+              "title": "Can you nest Web Components inside each other?",
+              "date": "2025-03-21",
+              "link": "https://gomakethings.com/can-you-nest-web-components-inside-each-other/"
+            },
+            {
+              "title": "Thinking aloud and oversharing",
+              "date": "2025-03-20",
+              "link": "https://gomakethings.com/thinking-aloud-and-oversharing/"
+            },
+            {
+              "title": "Can I Use for accessibility",
+              "date": "2025-03-19",
+              "link": "https://gomakethings.com/can-i-use-for-accessibility/"
+            },
+            {
+              "title": "Reducing CSS complexity with the :is() pseudo-class",
+              "date": "2025-03-18",
+              "link": "https://gomakethings.com/reducing-css-complexity-with-the-is-pseudo-class/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "A Few Thoughts on Customizable Form Controls",
+              "date": "2025-03-22",
+              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-working-draft-to-override-form-controls/"
+            },
+            {
+              "title": "Proving Binaries",
+              "date": "2025-03-20",
+              "link": "https://blog.jim-nielsen.com/2025/proving-binaries/"
+            },
+            {
+              "title": "Ecosystems vs. Artifacts: Don’t Break the Web",
+              "date": "2025-03-16",
+              "link": "https://blog.jim-nielsen.com/2025/ecosystems-vs-artifacts/"
+            },
+            {
+              "title": "Building Websites With LLMS",
+              "date": "2025-03-04",
+              "link": "https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/"
+            },
+            {
+              "title": "AX, DX, UX",
+              "date": "2025-03-02",
+              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-ax/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Tag, You’re It",
+              "date": "2025-03-22",
+              "link": "https://adrianroselli.com/2025/03/tag-youre-it.html"
+            },
+            {
+              "title": "CSUNATC 2025 Recap",
+              "date": "2025-03-16",
+              "link": "https://adrianroselli.com/2025/03/csunatc-2025-recap.html"
+            },
+            {
+              "title": "Don’t Use Fake Bold or Italic in Social Media",
+              "date": "2025-03-06",
+              "link": "https://adrianroselli.com/2025/03/dont-use-fake-bold-or-italic-in-social-media.html"
+            },
+            {
+              "title": "Be Wary of Accessibility Guarantees from Anyone",
+              "date": "2025-03-02",
+              "link": "https://adrianroselli.com/2025/03/be-wary-of-accessibility-guarantees-from-anyone.html"
+            },
+            {
+              "title": "1.4.10: Adversarial Conformance",
+              "date": "2025-02-23",
+              "link": "https://adrianroselli.com/2025/02/1-4-10-adversarial-conformance.html"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Spring update",
+              "date": "2025-03-22",
+              "link": "https://thejollyteapot.com/2025/03/22/spring-update/"
+            },
+            {
+              "title": "How great is the Send Later feature?",
+              "date": "2025-02-22",
+              "link": "https://thejollyteapot.com/2025/02/22/how-great-is-the-send-later-feature/"
+            },
+            {
+              "title": "February 2025 blend of links",
+              "date": "2025-02-19",
+              "link": "https://thejollyteapot.com/february-2025-blend/"
+            },
+            {
+              "title": "The nice feeling of trusting tools",
+              "date": "2025-02-09",
+              "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
+            },
+            {
+              "title": "January 2025 blend of links",
+              "date": "2025-01-21",
+              "link": "https://thejollyteapot.com/january-2025-blend/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "22 Mar 2025\n      ",
+              "date": "2025-03-22",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Festival of Spring and Dawn",
+              "date": "2025-03-19",
+              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-03-22",
+              "link": "https://dbushell.com/notes/2025-03-22T08:00Z/"
+            },
+            {
+              "date": "2025-03-15",
+              "link": "https://dbushell.com/notes/2025-03-15T08:11Z/"
+            },
+            {
+              "date": "2025-03-14",
+              "link": "https://dbushell.com/notes/2025-03-14T10:21Z/"
+            },
+            {
+              "date": "2025-03-12",
+              "link": "https://dbushell.com/notes/2025-03-12T06:45Z/"
+            },
+            {
+              "date": "2025-03-07",
+              "link": "https://dbushell.com/notes/2025-03-07T07:39Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,99 +212,6 @@
               "title": "Copy Code Button",
               "date": "2025-02-14",
               "link": "https://dbushell.com/2025/02/14/copy-code-button/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Can you nest Web Components inside each other?",
-              "date": "2025-03-21",
-              "link": "https://gomakethings.com/can-you-nest-web-components-inside-each-other/"
-            },
-            {
-              "title": "Thinking aloud and oversharing",
-              "date": "2025-03-20",
-              "link": "https://gomakethings.com/thinking-aloud-and-oversharing/"
-            },
-            {
-              "title": "Can I Use for accessibility",
-              "date": "2025-03-19",
-              "link": "https://gomakethings.com/can-i-use-for-accessibility/"
-            },
-            {
-              "title": "Reducing CSS complexity with the :is() pseudo-class",
-              "date": "2025-03-18",
-              "link": "https://gomakethings.com/reducing-css-complexity-with-the-is-pseudo-class/"
-            },
-            {
-              "title": "Unwieldy code bases",
-              "date": "2025-03-17",
-              "link": "https://gomakethings.com/unwieldy-code-bases/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "21 Mar 2025\n      ",
-              "date": "2025-03-21",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Festival of Spring and Dawn",
-              "date": "2025-03-19",
-              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Proving Binaries",
-              "date": "2025-03-20",
-              "link": "https://blog.jim-nielsen.com/2025/proving-binaries/"
-            },
-            {
-              "title": "Ecosystems vs. Artifacts: Don’t Break the Web",
-              "date": "2025-03-16",
-              "link": "https://blog.jim-nielsen.com/2025/ecosystems-vs-artifacts/"
-            },
-            {
-              "title": "Building Websites With LLMS",
-              "date": "2025-03-04",
-              "link": "https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/"
-            },
-            {
-              "title": "AX, DX, UX",
-              "date": "2025-03-02",
-              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-ax/"
-            },
-            {
-              "title": "Can You Get Better Doing a Bad Job?",
-              "date": "2025-02-28",
-              "link": "https://blog.jim-nielsen.com/2025/get-better-doing-a-bad-job/"
             }
           ]
         },
@@ -314,37 +402,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "CSUNATC 2025 Recap",
-              "date": "2025-03-16",
-              "link": "https://adrianroselli.com/2025/03/csunatc-2025-recap.html"
-            },
-            {
-              "title": "Don’t Use Fake Bold or Italic in Social Media",
-              "date": "2025-03-06",
-              "link": "https://adrianroselli.com/2025/03/dont-use-fake-bold-or-italic-in-social-media.html"
-            },
-            {
-              "title": "Be Wary of Accessibility Guarantees from Anyone",
-              "date": "2025-03-02",
-              "link": "https://adrianroselli.com/2025/03/be-wary-of-accessibility-guarantees-from-anyone.html"
-            },
-            {
-              "title": "1.4.10: Adversarial Conformance",
-              "date": "2025-02-23",
-              "link": "https://adrianroselli.com/2025/02/1-4-10-adversarial-conformance.html"
-            },
-            {
-              "title": "Generic LLM Chatbot Attestation",
-              "date": "2025-02-16",
-              "link": "https://adrianroselli.com/2025/02/generic-llm-chatbot-attestation.html"
-            }
-          ]
-        },
-        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -372,32 +429,6 @@
               "title": "Change and risk",
               "date": "2025-01-20",
               "link": "https://robinrendle.com/notes/change-and-risk/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-03-15",
-              "link": "https://dbushell.com/notes/2025-03-15T08:11Z/"
-            },
-            {
-              "date": "2025-03-14",
-              "link": "https://dbushell.com/notes/2025-03-14T10:21Z/"
-            },
-            {
-              "date": "2025-03-12",
-              "link": "https://dbushell.com/notes/2025-03-12T06:45Z/"
-            },
-            {
-              "date": "2025-03-07",
-              "link": "https://dbushell.com/notes/2025-03-07T07:39Z/"
-            },
-            {
-              "date": "2025-03-04",
-              "link": "https://dbushell.com/notes/2025-03-04T16:52Z/"
             }
           ]
         },
@@ -681,37 +712,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            },
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            },
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -801,6 +801,37 @@
               "title": "I made an app to fix my motion sickness",
               "date": "2024-09-02",
               "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+            },
+            {
+              "title": "Some terminal frustrations",
+              "date": "2025-02-05",
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
+            },
+            {
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
+            },
+            {
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
             }
           ]
         },
@@ -1173,37 +1204,6 @@
               "title": "Speeding up the JavaScript ecosystem - Tailwind CSS",
               "date": "2023-11-01",
               "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "How great is the Send Later feature?",
-              "date": "2025-02-22",
-              "link": "https://thejollyteapot.com/2025/02/22/how-great-is-the-send-later-feature/"
-            },
-            {
-              "title": "February 2025 blend of links",
-              "date": "2025-02-19",
-              "link": "https://thejollyteapot.com/february-2025-blend/"
-            },
-            {
-              "title": "The nice feeling of trusting tools",
-              "date": "2025-02-09",
-              "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
-            },
-            {
-              "title": "January 2025 blend of links",
-              "date": "2025-01-21",
-              "link": "https://thejollyteapot.com/january-2025-blend/"
-            },
-            {
-              "title": "The age of insecure billionaires",
-              "date": "2025-01-12",
-              "link": "https://thejollyteapot.com/2025/01/12/the-age-of-insecure-billionaires/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-22T03:28:09.672Z",
+  "fetchDate": "2025-03-23T03:31:03.425Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

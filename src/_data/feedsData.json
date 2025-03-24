@@ -4,33 +4,90 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
-              "title": "What if money didn't exist?",
-              "date": "2025-03-22",
-              "link": "https://gomakethings.com/what-if-money-didnt-exist/"
+              "title": "23 Mar 2025\n      ",
+              "date": "2025-03-23",
+              "link": "https://frills.dev/status/microblog/"
             },
             {
-              "title": "Can you nest Web Components inside each other?",
-              "date": "2025-03-21",
-              "link": "https://gomakethings.com/can-you-nest-web-components-inside-each-other/"
-            },
-            {
-              "title": "Thinking aloud and oversharing",
-              "date": "2025-03-20",
-              "link": "https://gomakethings.com/thinking-aloud-and-oversharing/"
-            },
-            {
-              "title": "Can I Use for accessibility",
+              "title": "Festival of Spring and Dawn",
               "date": "2025-03-19",
-              "link": "https://gomakethings.com/can-i-use-for-accessibility/"
+              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
             },
             {
-              "title": "Reducing CSS complexity with the :is() pseudo-class",
-              "date": "2025-03-18",
-              "link": "https://gomakethings.com/reducing-css-complexity-with-the-is-pseudo-class/"
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-03-23",
+              "link": "https://dbushell.com/notes/2025-03-23T06:38Z/"
+            },
+            {
+              "date": "2025-03-22",
+              "link": "https://dbushell.com/notes/2025-03-22T08:00Z/"
+            },
+            {
+              "date": "2025-03-15",
+              "link": "https://dbushell.com/notes/2025-03-15T08:11Z/"
+            },
+            {
+              "date": "2025-03-14",
+              "link": "https://dbushell.com/notes/2025-03-14T10:21Z/"
+            },
+            {
+              "date": "2025-03-12",
+              "link": "https://dbushell.com/notes/2025-03-12T06:45Z/"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Substituting stuff for variable references",
+              "date": "2025-03-23",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3PFE"
+            },
+            {
+              "title": "Also unparsing the lambdas",
+              "date": "2025-03-20",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3MOZ"
+            },
+            {
+              "title": "Parsing an lambdas",
+              "date": "2025-03-19",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3LOZ"
+            },
+            {
+              "title": "Two tiny steps",
+              "date": "2025-03-13",
+              "link": "https://garoof.no/notes/two-tiny-steps.html"
+            },
+            {
+              "title": "Adding diff support to Glorpdown",
+              "date": "2025-03-09",
+              "link": "https://garoof.no/notes/gd-diff.html"
             }
           ]
         },
@@ -62,6 +119,37 @@
               "title": "AX, DX, UX",
               "date": "2025-03-02",
               "link": "https://blog.jim-nielsen.com/2025/thoughts-on-ax/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "What if money didn't exist?",
+              "date": "2025-03-22",
+              "link": "https://gomakethings.com/what-if-money-didnt-exist/"
+            },
+            {
+              "title": "Can you nest Web Components inside each other?",
+              "date": "2025-03-21",
+              "link": "https://gomakethings.com/can-you-nest-web-components-inside-each-other/"
+            },
+            {
+              "title": "Thinking aloud and oversharing",
+              "date": "2025-03-20",
+              "link": "https://gomakethings.com/thinking-aloud-and-oversharing/"
+            },
+            {
+              "title": "Can I Use for accessibility",
+              "date": "2025-03-19",
+              "link": "https://gomakethings.com/can-i-use-for-accessibility/"
+            },
+            {
+              "title": "Reducing CSS complexity with the :is() pseudo-class",
+              "date": "2025-03-18",
+              "link": "https://gomakethings.com/reducing-css-complexity-with-the-is-pseudo-class/"
             }
           ]
         },
@@ -128,63 +216,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "22 Mar 2025\n      ",
-              "date": "2025-03-22",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Festival of Spring and Dawn",
-              "date": "2025-03-19",
-              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            },
-            {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-03-22",
-              "link": "https://dbushell.com/notes/2025-03-22T08:00Z/"
-            },
-            {
-              "date": "2025-03-15",
-              "link": "https://dbushell.com/notes/2025-03-15T08:11Z/"
-            },
-            {
-              "date": "2025-03-14",
-              "link": "https://dbushell.com/notes/2025-03-14T10:21Z/"
-            },
-            {
-              "date": "2025-03-12",
-              "link": "https://dbushell.com/notes/2025-03-12T06:45Z/"
-            },
-            {
-              "date": "2025-03-07",
-              "link": "https://dbushell.com/notes/2025-03-07T07:39Z/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -212,37 +243,6 @@
               "title": "Copy Code Button",
               "date": "2025-02-14",
               "link": "https://dbushell.com/2025/02/14/copy-code-button/"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Also unparsing the lambdas",
-              "date": "2025-03-20",
-              "link": "https://garoof.no/notes/parsing-lambdas.html#pub-Zl3MOZ"
-            },
-            {
-              "title": "Parsing an lambdas",
-              "date": "2025-03-19",
-              "link": "https://garoof.no/notes/parsing-lambdas.html"
-            },
-            {
-              "title": "Two tiny steps",
-              "date": "2025-03-13",
-              "link": "https://garoof.no/notes/two-tiny-steps.html"
-            },
-            {
-              "title": "Adding diff support to Glorpdown",
-              "date": "2025-03-09",
-              "link": "https://garoof.no/notes/gd-diff.html"
-            },
-            {
-              "title": "The builder pattern!!! and sums",
-              "date": "2025-03-01",
-              "link": "https://garoof.no/notes/builder-sums.html"
             }
           ]
         },
@@ -712,6 +712,37 @@
           ]
         },
         {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+            },
+            {
+              "title": "Some terminal frustrations",
+              "date": "2025-02-05",
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
+            },
+            {
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
+            },
+            {
+              "title": "\"Rules\" that terminal programs follow",
+              "date": "2024-12-12",
+              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
+            }
+          ]
+        },
+        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -801,37 +832,6 @@
               "title": "I made an app to fix my motion sickness",
               "date": "2024-09-02",
               "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            },
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            },
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-23T03:31:03.425Z",
+  "fetchDate": "2025-03-24T03:32:36.159Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

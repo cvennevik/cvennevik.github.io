@@ -4,40 +4,14 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "Another observability 3.0 appears on the horizon",
-              "date": "2025-03-24",
-              "link": "https://charity.wtf/2025/03/24/another-observability-3-0-appears-on-the-horizon/"
-            },
-            {
-              "title": "Corporate “DEI” is an imperfect vehicle for deeply meaningful ideals",
-              "date": "2025-02-10",
-              "link": "https://charity.wtf/2025/02/10/corporate-dei-is-an-imperfect-vehicle-for-deeply-meaningful-ideals/"
-            },
-            {
-              "title": "On Versioning Observabilities (1.0, 2.0, 3.0…10.0?!?)",
-              "date": "2024-12-20",
-              "link": "https://charity.wtf/2024/12/20/on-versioning-observabilities-1-0-2-0-3-0-10-0/"
-            },
-            {
-              "title": "“Founder Mode” and the Art of Mythmaking",
-              "date": "2024-12-17",
-              "link": "https://charity.wtf/2024/12/17/founder-mode-and-the-art-of-mythmaking/"
-            },
-            {
-              "title": "There Is Only One Key Difference Between Observability 1.0 and 2.0",
-              "date": "2024-11-19",
-              "link": "https://charity.wtf/2024/11/19/there-is-only-one-key-difference-between-observability-1-0-and-2-0/"
-            }
-          ]
-        },
-        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Design Systems and Legos",
+              "date": "2025-03-25",
+              "link": "https://gomakethings.com/design-systems-and-legos/"
+            },
             {
               "title": "The environmental impact of the web we build",
               "date": "2025-03-24",
@@ -57,11 +31,156 @@
               "title": "Thinking aloud and oversharing",
               "date": "2025-03-20",
               "link": "https://gomakethings.com/thinking-aloud-and-oversharing/"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "Gode backuprutiner krever tillit",
+              "date": "2025-03-25",
+              "link": "https://www.kodemaker.no/blogg/2025-03-25-gode-backuprutiner-krever-tillit/"
             },
             {
-              "title": "Can I Use for accessibility",
+              "title": "Hva er din ledelsesfilosofi?",
+              "date": "2025-03-07",
+              "link": "https://www.kodemaker.no/blogg/2025-03-07-hva-er-din-ledelsesfilosofi/"
+            },
+            {
+              "title": "Constraint Solvers og utfordrende planlegging",
+              "date": "2025-02-26",
+              "link": "https://www.kodemaker.no/blogg/2025-02-26-constraint-solvers/"
+            },
+            {
+              "title": "Semantisk søk ved hjelp av vektor-representasjoner av tekst",
+              "date": "2025-02-12",
+              "link": "https://www.kodemaker.no/blogg/2025-02-12-text-embeddings/"
+            },
+            {
+              "title": "Din AI-assistent kan bli personlig - slik fungerer det",
+              "date": "2025-02-11",
+              "link": "https://www.kodemaker.no/blogg/2025-02-11-konsept-rag/"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "One or Two? How Many Queues?",
+              "date": "2025-03-25",
+              "link": "http://brooker.co.za/blog/2025/03/25/two-queues.html"
+            },
+            {
+              "title": "What Fekete's Anomaly Can Teach Us About Isolation",
+              "date": "2025-02-05",
+              "link": "http://brooker.co.za/blog/2025/02/05/feketes.html"
+            },
+            {
+              "title": "Versioning versus Coordination",
+              "date": "2025-02-04",
+              "link": "http://brooker.co.za/blog/2025/02/04/versioning.html"
+            },
+            {
+              "title": "Snapshot Isolation vs Serializability",
+              "date": "2024-12-17",
+              "link": "http://brooker.co.za/blog/2024/12/17/occ-and-isolation.html"
+            },
+            {
+              "title": "DSQL Vignette: Wait! Isn't That Impossible?",
+              "date": "2024-12-06",
+              "link": "http://brooker.co.za/blog/2024/12/06/inside-dsql-cap.html"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "25 Mar 2025\n      ",
+              "date": "2025-03-25",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Festival of Spring and Dawn",
               "date": "2025-03-19",
-              "link": "https://gomakethings.com/can-i-use-for-accessibility/"
+              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            },
+            {
+              "title": "Nice things people said",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/experiments/nice-things-people-said/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-03-25",
+              "link": "https://dbushell.com/notes/2025-03-25T07:22Z/"
+            },
+            {
+              "date": "2025-03-24",
+              "link": "https://dbushell.com/notes/2025-03-24T07:58Z/"
+            },
+            {
+              "date": "2025-03-24",
+              "link": "https://dbushell.com/notes/2025-03-24T07:29Z/"
+            },
+            {
+              "date": "2025-03-23",
+              "link": "https://dbushell.com/notes/2025-03-23T06:38Z/"
+            },
+            {
+              "date": "2025-03-22",
+              "link": "https://dbushell.com/notes/2025-03-22T08:00Z/"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Golf Lessons",
+              "date": "2025-03-25",
+              "link": "https://flamedfury.com/posts/golf-lessons/"
+            },
+            {
+              "title": "The Magic Of Writing It Down",
+              "date": "2025-03-24",
+              "link": "https://flamedfury.com/posts/the-magic-of-writing-it-down/"
+            },
+            {
+              "title": "New Music Friday #4",
+              "date": "2025-03-18",
+              "link": "https://flamedfury.com/posts/new-music-friday-4/"
+            },
+            {
+              "title": "Monthly Recap: February 2025",
+              "date": "2025-03-18",
+              "link": "https://flamedfury.com/posts/monthly-recap-february-2025/"
+            },
+            {
+              "title": "Let Me Solo Him",
+              "date": "2025-02-26",
+              "link": "https://flamedfury.com/posts/let-me-solo-him/"
             }
           ]
         },
@@ -97,59 +216,33 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
           "items": [
             {
-              "title": "24 Mar 2025\n      ",
+              "title": "Another observability 3.0 appears on the horizon",
               "date": "2025-03-24",
-              "link": "https://frills.dev/status/microblog/"
+              "link": "https://charity.wtf/2025/03/24/another-observability-3-0-appears-on-the-horizon/"
             },
             {
-              "title": "Festival of Spring and Dawn",
-              "date": "2025-03-19",
-              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
+              "title": "Corporate “DEI” is an imperfect vehicle for deeply meaningful ideals",
               "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+              "link": "https://charity.wtf/2025/02/10/corporate-dei-is-an-imperfect-vehicle-for-deeply-meaningful-ideals/"
             },
             {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-03-24",
-              "link": "https://dbushell.com/notes/2025-03-24T07:58Z/"
+              "title": "On Versioning Observabilities (1.0, 2.0, 3.0…10.0?!?)",
+              "date": "2024-12-20",
+              "link": "https://charity.wtf/2024/12/20/on-versioning-observabilities-1-0-2-0-3-0-10-0/"
             },
             {
-              "date": "2025-03-24",
-              "link": "https://dbushell.com/notes/2025-03-24T07:29Z/"
+              "title": "“Founder Mode” and the Art of Mythmaking",
+              "date": "2024-12-17",
+              "link": "https://charity.wtf/2024/12/17/founder-mode-and-the-art-of-mythmaking/"
             },
             {
-              "date": "2025-03-23",
-              "link": "https://dbushell.com/notes/2025-03-23T06:38Z/"
-            },
-            {
-              "date": "2025-03-22",
-              "link": "https://dbushell.com/notes/2025-03-22T08:00Z/"
-            },
-            {
-              "date": "2025-03-15",
-              "link": "https://dbushell.com/notes/2025-03-15T08:11Z/"
+              "title": "There Is Only One Key Difference Between Observability 1.0 and 2.0",
+              "date": "2024-11-19",
+              "link": "https://charity.wtf/2024/11/19/there-is-only-one-key-difference-between-observability-1-0-and-2-0/"
             }
           ]
         },
@@ -181,37 +274,6 @@
               "title": "Your product shouldn't require showing my legal name",
               "date": "2025-02-24",
               "link": "https://ntietz.com/blog/your-product-shouldnt-require-showing-my-legal-name/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "The Magic Of Writing It Down",
-              "date": "2025-03-24",
-              "link": "https://flamedfury.com/posts/the-magic-of-writing-it-down/"
-            },
-            {
-              "title": "New Music Friday #4",
-              "date": "2025-03-18",
-              "link": "https://flamedfury.com/posts/new-music-friday-4/"
-            },
-            {
-              "title": "Monthly Recap: February 2025",
-              "date": "2025-03-18",
-              "link": "https://flamedfury.com/posts/monthly-recap-february-2025/"
-            },
-            {
-              "title": "Let Me Solo Him",
-              "date": "2025-02-26",
-              "link": "https://flamedfury.com/posts/let-me-solo-him/"
-            },
-            {
-              "title": "Keeping A Reading Log",
-              "date": "2025-02-18",
-              "link": "https://flamedfury.com/posts/keeping-a-reading-log/"
             }
           ]
         },
@@ -801,37 +863,6 @@
               "title": "Recently 2024",
               "date": "2024-12-15",
               "link": "https://macwright.com/2024/12/15/recently.html"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Hva er din ledelsesfilosofi?",
-              "date": "2025-03-07",
-              "link": "https://www.kodemaker.no/blogg/2025-03-07-hva-er-din-ledelsesfilosofi/"
-            },
-            {
-              "title": "Constraint Solvers og utfordrende planlegging",
-              "date": "2025-02-26",
-              "link": "https://www.kodemaker.no/blogg/2025-02-26-constraint-solvers/"
-            },
-            {
-              "title": "Semantisk søk ved hjelp av vektor-representasjoner av tekst",
-              "date": "2025-02-12",
-              "link": "https://www.kodemaker.no/blogg/2025-02-12-text-embeddings/"
-            },
-            {
-              "title": "Din AI-assistent kan bli personlig - slik fungerer det",
-              "date": "2025-02-11",
-              "link": "https://www.kodemaker.no/blogg/2025-02-11-konsept-rag/"
-            },
-            {
-              "title": "Adventskalendere, AI, og det tenkende mennesket",
-              "date": "2025-01-16",
-              "link": "https://www.kodemaker.no/blogg/2025-01-16-adventskalendere-ai-og-det-tenkende-mennesket/"
             }
           ]
         },
@@ -1452,37 +1483,6 @@
               "title": "What hath AWS wrought?",
               "date": "2024-12-10",
               "link": "https://newsletter.goodtechthings.com/p/what-hath-aws-wrought"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "What Fekete's Anomaly Can Teach Us About Isolation",
-              "date": "2025-02-05",
-              "link": "http://brooker.co.za/blog/2025/02/05/feketes.html"
-            },
-            {
-              "title": "Versioning versus Coordination",
-              "date": "2025-02-04",
-              "link": "http://brooker.co.za/blog/2025/02/04/versioning.html"
-            },
-            {
-              "title": "Snapshot Isolation vs Serializability",
-              "date": "2024-12-17",
-              "link": "http://brooker.co.za/blog/2024/12/17/occ-and-isolation.html"
-            },
-            {
-              "title": "DSQL Vignette: Wait! Isn't That Impossible?",
-              "date": "2024-12-06",
-              "link": "http://brooker.co.za/blog/2024/12/06/inside-dsql-cap.html"
-            },
-            {
-              "title": "DSQL Vignette: Transactions and Durability",
-              "date": "2024-12-05",
-              "link": "http://brooker.co.za/blog/2024/12/05/inside-dsql-writes.html"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-25T03:29:30.087Z",
+  "fetchDate": "2025-03-26T03:28:26.001Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

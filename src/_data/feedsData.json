@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "All About the Nord Design System, Guest David Darnes on ShopTalk",
+              "date": "2025-03-27",
+              "link": "https://thathtml.blog/2025/03/nord-health-design-system-david-darnes/"
+            },
+            {
+              "title": "All the Deets on the Mighty Details Tag",
+              "date": "2025-02-27",
+              "link": "https://thathtml.blog/2025/02/all-the-deets-on-details/"
+            },
+            {
+              "title": "Hot Off the Press Examples of CSS if()",
+              "date": "2025-02-21",
+              "link": "https://thathtml.blog/2025/02/hot-off-the-press-examples-of-css-if/"
+            },
+            {
+              "title": "Solving Unintended View Transition Wonkiness",
+              "date": "2025-02-19",
+              "link": "https://thathtml.blog/2025/02/solving-unintended-view-transition-wonkiness/"
+            },
+            {
+              "title": "We Need to Talk About Anti-Web Coding Assistants",
+              "date": "2025-02-14",
+              "link": "https://thathtml.blog/2025/02/we-need-to-talk-about-anti-web-coding-assistants/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Hitchcock's Notorious, Defence in Depth, and the weakness of Nazis",
+              "date": "2025-03-26",
+              "link": "https://www.baldurbjarnason.com/2025/hitchcock-and-nazis/"
+            },
+            {
+              "title": "My Mother's Advice on How to be a Great YouTuber",
+              "date": "2025-03-18",
+              "link": "https://www.baldurbjarnason.com/2025/my-mothers-advice/"
+            },
+            {
+              "title": "Switching my pricing to Euro, but also making it tax-inclusive",
+              "date": "2025-03-12",
+              "link": "https://www.baldurbjarnason.com/notes/2025/euro-pricing/"
+            },
+            {
+              "title": "AI and Esoteric Fascism",
+              "date": "2025-02-27",
+              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
+            },
+            {
+              "title": "Now I'm disappointed.",
+              "date": "2025-02-13",
+              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Not an excuse. An explanation.",
+              "date": "2025-03-26",
+              "link": "https://gomakethings.com/not-an-excuse.-an-explanation./"
+            },
             {
               "title": "Design Systems and Legos",
               "date": "2025-03-25",
@@ -26,42 +93,156 @@
               "title": "Can you nest Web Components inside each other?",
               "date": "2025-03-21",
               "link": "https://gomakethings.com/can-you-nest-web-components-inside-each-other/"
-            },
-            {
-              "title": "Thinking aloud and oversharing",
-              "date": "2025-03-20",
-              "link": "https://gomakethings.com/thinking-aloud-and-oversharing/"
             }
           ]
         },
         {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
-              "title": "Gode backuprutiner krever tillit",
+              "title": "26 Mar 2025\n      ",
+              "date": "2025-03-26",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Blog Question Challenge 2025",
+              "date": "2025-03-26",
+              "link": "https://frills.dev/blog/2025/march/blog-challenge/"
+            },
+            {
+              "title": "Festival of Spring and Dawn",
+              "date": "2025-03-19",
+              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-03-26",
+              "link": "https://dbushell.com/notes/2025-03-26T13:33Z/"
+            },
+            {
               "date": "2025-03-25",
-              "link": "https://www.kodemaker.no/blogg/2025-03-25-gode-backuprutiner-krever-tillit/"
+              "link": "https://dbushell.com/notes/2025-03-25T07:22Z/"
             },
             {
-              "title": "Hva er din ledelsesfilosofi?",
-              "date": "2025-03-07",
-              "link": "https://www.kodemaker.no/blogg/2025-03-07-hva-er-din-ledelsesfilosofi/"
+              "date": "2025-03-24",
+              "link": "https://dbushell.com/notes/2025-03-24T07:58Z/"
             },
             {
-              "title": "Constraint Solvers og utfordrende planlegging",
-              "date": "2025-02-26",
-              "link": "https://www.kodemaker.no/blogg/2025-02-26-constraint-solvers/"
+              "date": "2025-03-24",
+              "link": "https://dbushell.com/notes/2025-03-24T07:29Z/"
             },
             {
-              "title": "Semantisk søk ved hjelp av vektor-representasjoner av tekst",
+              "date": "2025-03-23",
+              "link": "https://dbushell.com/notes/2025-03-23T06:38Z/"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Free variables",
+              "date": "2025-03-26",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
+            },
+            {
+              "title": "Substituting stuff for variable references",
+              "date": "2025-03-23",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3PFE"
+            },
+            {
+              "title": "Also unparsing the lambdas",
+              "date": "2025-03-20",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3MOZ"
+            },
+            {
+              "title": "Parsing an lambdas",
+              "date": "2025-03-19",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3LOZ"
+            },
+            {
+              "title": "Two tiny steps",
+              "date": "2025-03-13",
+              "link": "https://garoof.no/notes/two-tiny-steps.html"
+            }
+          ]
+        },
+        {
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
+          "items": [
+            {
+              "title": "The Evil Things I've Done",
+              "date": "2025-03-26",
+              "link": "https://mikegrindle.com/posts/evil"
+            },
+            {
+              "title": "Re: What I Grew Up With",
+              "date": "2025-03-10",
+              "link": "https://mikegrindle.com/posts/grew-up-with"
+            },
+            {
+              "title": "Everything in Solitude, Except Character",
+              "date": "2025-01-09",
+              "link": "https://mikegrindle.com/newsletter/itm-6"
+            },
+            {
+              "title": "Thoughts on a Dark Winter Day",
+              "date": "2024-12-27",
+              "link": "https://mikegrindle.com/posts/2024"
+            },
+            {
+              "title": "Returning to Sunnydale",
+              "date": "2024-12-04",
+              "link": "https://mikegrindle.com/posts/snow"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Betteridge's Law of Software Engineering Specialness",
+              "date": "2025-03-26",
+              "link": "https://buttondown.com/hillelwayne/archive/betteridges-law-of-software-engineering/"
+            },
+            {
+              "title": "Verification-First Development",
+              "date": "2025-03-18",
+              "link": "https://buttondown.com/hillelwayne/archive/verification-first-development/"
+            },
+            {
+              "title": "New Blog Post: \"A Perplexing Javascript Parsing Puzzle\"",
+              "date": "2025-03-12",
+              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-perplexing-javascript-parsing/"
+            },
+            {
+              "title": "Five Kinds of Nondeterminism",
+              "date": "2025-02-19",
+              "link": "https://buttondown.com/hillelwayne/archive/five-kinds-of-nondeterminism/"
+            },
+            {
+              "title": "Are Efficiency and Horizontal Scalability at odds?",
               "date": "2025-02-12",
-              "link": "https://www.kodemaker.no/blogg/2025-02-12-text-embeddings/"
-            },
-            {
-              "title": "Din AI-assistent kan bli personlig - slik fungerer det",
-              "date": "2025-02-11",
-              "link": "https://www.kodemaker.no/blogg/2025-02-11-konsept-rag/"
+              "link": "https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/"
             }
           ]
         },
@@ -97,59 +278,33 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
             {
-              "title": "25 Mar 2025\n      ",
+              "title": "Gode backuprutiner krever tillit",
               "date": "2025-03-25",
-              "link": "https://frills.dev/status/microblog/"
+              "link": "https://www.kodemaker.no/blogg/2025-03-25-gode-backuprutiner-krever-tillit/"
             },
             {
-              "title": "Festival of Spring and Dawn",
-              "date": "2025-03-19",
-              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
+              "title": "Hva er din ledelsesfilosofi?",
+              "date": "2025-03-07",
+              "link": "https://www.kodemaker.no/blogg/2025-03-07-hva-er-din-ledelsesfilosofi/"
             },
             {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
+              "title": "Constraint Solvers og utfordrende planlegging",
+              "date": "2025-02-26",
+              "link": "https://www.kodemaker.no/blogg/2025-02-26-constraint-solvers/"
             },
             {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+              "title": "Semantisk søk ved hjelp av vektor-representasjoner av tekst",
+              "date": "2025-02-12",
+              "link": "https://www.kodemaker.no/blogg/2025-02-12-text-embeddings/"
             },
             {
-              "title": "Nice things people said",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/experiments/nice-things-people-said/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-03-25",
-              "link": "https://dbushell.com/notes/2025-03-25T07:22Z/"
-            },
-            {
-              "date": "2025-03-24",
-              "link": "https://dbushell.com/notes/2025-03-24T07:58Z/"
-            },
-            {
-              "date": "2025-03-24",
-              "link": "https://dbushell.com/notes/2025-03-24T07:29Z/"
-            },
-            {
-              "date": "2025-03-23",
-              "link": "https://dbushell.com/notes/2025-03-23T06:38Z/"
-            },
-            {
-              "date": "2025-03-22",
-              "link": "https://dbushell.com/notes/2025-03-22T08:00Z/"
+              "title": "Din AI-assistent kan bli personlig - slik fungerer det",
+              "date": "2025-02-11",
+              "link": "https://www.kodemaker.no/blogg/2025-02-11-konsept-rag/"
             }
           ]
         },
@@ -185,37 +340,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Book Notes: “The Order of Time” by Carlo Rovelli",
-              "date": "2025-03-24",
-              "link": "https://blog.jim-nielsen.com/2025/book-notes-order-of-time/"
-            },
-            {
-              "title": "A Few Thoughts on Customizable Form Controls",
-              "date": "2025-03-22",
-              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-working-draft-to-override-form-controls/"
-            },
-            {
-              "title": "Proving Binaries",
-              "date": "2025-03-20",
-              "link": "https://blog.jim-nielsen.com/2025/proving-binaries/"
-            },
-            {
-              "title": "Ecosystems vs. Artifacts: Don’t Break the Web",
-              "date": "2025-03-16",
-              "link": "https://blog.jim-nielsen.com/2025/ecosystems-vs-artifacts/"
-            },
-            {
-              "title": "Building Websites With LLMS",
-              "date": "2025-03-04",
-              "link": "https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/"
-            }
-          ]
-        },
-        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -247,6 +371,37 @@
           ]
         },
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Book Notes: “The Order of Time” by Carlo Rovelli",
+              "date": "2025-03-24",
+              "link": "https://blog.jim-nielsen.com/2025/book-notes-order-of-time/"
+            },
+            {
+              "title": "A Few Thoughts on Customizable Form Controls",
+              "date": "2025-03-22",
+              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-working-draft-to-override-form-controls/"
+            },
+            {
+              "title": "Proving Binaries",
+              "date": "2025-03-20",
+              "link": "https://blog.jim-nielsen.com/2025/proving-binaries/"
+            },
+            {
+              "title": "Ecosystems vs. Artifacts: Don’t Break the Web",
+              "date": "2025-03-16",
+              "link": "https://blog.jim-nielsen.com/2025/ecosystems-vs-artifacts/"
+            },
+            {
+              "title": "Building Websites With LLMS",
+              "date": "2025-03-04",
+              "link": "https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/"
+            }
+          ]
+        },
+        {
           "title": "ntietz.com blog - technically a blog",
           "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
@@ -274,37 +429,6 @@
               "title": "Your product shouldn't require showing my legal name",
               "date": "2025-02-24",
               "link": "https://ntietz.com/blog/your-product-shouldnt-require-showing-my-legal-name/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Substituting stuff for variable references",
-              "date": "2025-03-23",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3PFE"
-            },
-            {
-              "title": "Also unparsing the lambdas",
-              "date": "2025-03-20",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3MOZ"
-            },
-            {
-              "title": "Parsing an lambdas",
-              "date": "2025-03-19",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3LOZ"
-            },
-            {
-              "title": "Two tiny steps",
-              "date": "2025-03-13",
-              "link": "https://garoof.no/notes/two-tiny-steps.html"
-            },
-            {
-              "title": "Adding diff support to Glorpdown",
-              "date": "2025-03-09",
-              "link": "https://garoof.no/notes/gd-diff.html"
             }
           ]
         },
@@ -402,37 +526,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "My Mother's Advice on How to be a Great YouTuber",
-              "date": "2025-03-18",
-              "link": "https://www.baldurbjarnason.com/2025/my-mothers-advice/"
-            },
-            {
-              "title": "Switching my pricing to Euro, but also making it tax-inclusive",
-              "date": "2025-03-12",
-              "link": "https://www.baldurbjarnason.com/notes/2025/euro-pricing/"
-            },
-            {
-              "title": "AI and Esoteric Fascism",
-              "date": "2025-02-27",
-              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
-            },
-            {
-              "title": "Now I'm disappointed.",
-              "date": "2025-02-13",
-              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
-            },
-            {
-              "title": "Knowledge tech that's subtly wrong is more dangerous than tech that's obviously wrong. (Or, where I disagree with Robin Sloan.)",
-              "date": "2025-02-12",
-              "link": "https://www.baldurbjarnason.com/notes/2025/subtly-wrong-is-more-dangerous/"
-            }
-          ]
-        },
-        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -460,37 +553,6 @@
               "title": "GitHub’s updated Commits page and the interactive list component",
               "date": "2024-12-20",
               "link": "https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Verification-First Development",
-              "date": "2025-03-18",
-              "link": "https://buttondown.com/hillelwayne/archive/verification-first-development/"
-            },
-            {
-              "title": "New Blog Post: \"A Perplexing Javascript Parsing Puzzle\"",
-              "date": "2025-03-12",
-              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-perplexing-javascript-parsing/"
-            },
-            {
-              "title": "Five Kinds of Nondeterminism",
-              "date": "2025-02-19",
-              "link": "https://buttondown.com/hillelwayne/archive/five-kinds-of-nondeterminism/"
-            },
-            {
-              "title": "Are Efficiency and Horizontal Scalability at odds?",
-              "date": "2025-02-12",
-              "link": "https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/"
-            },
-            {
-              "title": "What hard thing does your tech make easy?",
-              "date": "2025-01-29",
-              "link": "https://buttondown.com/hillelwayne/archive/what-hard-thing-does-your-tech-make-easy/"
             }
           ]
         },
@@ -739,37 +801,6 @@
               "title": "Contributing in New Ways - Finding Closure among New Opportunities",
               "date": "2024-12-17",
               "link": "https://www.lisihocke.com/2024/12/contributing-in-new-ways-finding-closure-among-new-opportunities.html"
-            }
-          ]
-        },
-        {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
-          "items": [
-            {
-              "title": "Re: What I Grew Up With",
-              "date": "2025-03-10",
-              "link": "https://mikegrindle.com/posts/grew-up-with"
-            },
-            {
-              "title": "Everything in Solitude, Except Character",
-              "date": "2025-01-09",
-              "link": "https://mikegrindle.com/newsletter/itm-6"
-            },
-            {
-              "title": "Thoughts on a Dark Winter Day",
-              "date": "2024-12-27",
-              "link": "https://mikegrindle.com/posts/2024"
-            },
-            {
-              "title": "Returning to Sunnydale",
-              "date": "2024-12-04",
-              "link": "https://mikegrindle.com/posts/snow"
-            },
-            {
-              "title": "Snow Days",
-              "date": "2024-12-02",
-              "link": "https://mikegrindle.com/posts/snow"
             }
           ]
         },
@@ -1142,37 +1173,6 @@
               "title": "How I Built &ldquo;Test Your Focus&rdquo;",
               "date": "2024-11-15",
               "link": "https://kyleshevlin.com/how-i-built-test-your-focus/"
-            }
-          ]
-        },
-        {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "All the Deets on the Mighty Details Tag",
-              "date": "2025-02-27",
-              "link": "https://thathtml.blog/2025/02/all-the-deets-on-details/"
-            },
-            {
-              "title": "Hot Off the Press Examples of CSS if()",
-              "date": "2025-02-21",
-              "link": "https://thathtml.blog/2025/02/hot-off-the-press-examples-of-css-if/"
-            },
-            {
-              "title": "Solving Unintended View Transition Wonkiness",
-              "date": "2025-02-19",
-              "link": "https://thathtml.blog/2025/02/solving-unintended-view-transition-wonkiness/"
-            },
-            {
-              "title": "We Need to Talk About Anti-Web Coding Assistants",
-              "date": "2025-02-14",
-              "link": "https://thathtml.blog/2025/02/we-need-to-talk-about-anti-web-coding-assistants/"
-            },
-            {
-              "title": "Hey, When Did Intrinsic Web Design Become the Norm?",
-              "date": "2025-02-12",
-              "link": "https://thathtml.blog/2025/02/when-did-intrinsic-web-design-become-the-norm/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-26T03:28:26.001Z",
+  "fetchDate": "2025-03-27T03:30:41.950Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

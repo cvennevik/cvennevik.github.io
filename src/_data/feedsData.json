@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Anti-terrorist spy movies, the end of James Bond, and remembering my grandfather",
+              "date": "2025-03-27",
+              "link": "https://www.baldurbjarnason.com/notes/2025/james-bond-and-my-grandfather/"
+            },
+            {
+              "title": "Spy media as commentary on society: Callan, The Equalizer, Danger Man, The Prisoner",
+              "date": "2025-03-27",
+              "link": "https://www.baldurbjarnason.com/notes/2025/spy-media-commentary/"
+            },
+            {
+              "title": "Hitchcock's Notorious, Defence in Depth, and the weakness of Nazis",
+              "date": "2025-03-26",
+              "link": "https://www.baldurbjarnason.com/2025/hitchcock-and-nazis/"
+            },
+            {
+              "title": "My Mother's Advice on How to be a Great YouTuber",
+              "date": "2025-03-18",
+              "link": "https://www.baldurbjarnason.com/2025/my-mothers-advice/"
+            },
+            {
+              "title": "Switching my pricing to Euro, but also making it tax-inclusive",
+              "date": "2025-03-12",
+              "link": "https://www.baldurbjarnason.com/notes/2025/euro-pricing/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "A Sublime coding experience",
+              "date": "2025-03-27",
+              "link": "https://gomakethings.com/a-sublime-coding-experience/"
+            },
+            {
+              "title": "Not an excuse. An explanation.",
+              "date": "2025-03-26",
+              "link": "https://gomakethings.com/not-an-excuse.-an-explanation./"
+            },
+            {
+              "title": "Design Systems and Legos",
+              "date": "2025-03-25",
+              "link": "https://gomakethings.com/design-systems-and-legos/"
+            },
+            {
+              "title": "The environmental impact of the web we build",
+              "date": "2025-03-24",
+              "link": "https://gomakethings.com/the-environmental-impact-of-the-web-we-build/"
+            },
+            {
+              "title": "What if money didn't exist?",
+              "date": "2025-03-22",
+              "link": "https://gomakethings.com/what-if-money-didnt-exist/"
+            }
+          ]
+        },
+        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -35,74 +97,12 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Hitchcock's Notorious, Defence in Depth, and the weakness of Nazis",
-              "date": "2025-03-26",
-              "link": "https://www.baldurbjarnason.com/2025/hitchcock-and-nazis/"
-            },
-            {
-              "title": "My Mother's Advice on How to be a Great YouTuber",
-              "date": "2025-03-18",
-              "link": "https://www.baldurbjarnason.com/2025/my-mothers-advice/"
-            },
-            {
-              "title": "Switching my pricing to Euro, but also making it tax-inclusive",
-              "date": "2025-03-12",
-              "link": "https://www.baldurbjarnason.com/notes/2025/euro-pricing/"
-            },
-            {
-              "title": "AI and Esoteric Fascism",
-              "date": "2025-02-27",
-              "link": "https://www.baldurbjarnason.com/2025/esoteric-fascism/"
-            },
-            {
-              "title": "Now I'm disappointed.",
-              "date": "2025-02-13",
-              "link": "https://www.baldurbjarnason.com/notes/2025/now-im-disappointed/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Not an excuse. An explanation.",
-              "date": "2025-03-26",
-              "link": "https://gomakethings.com/not-an-excuse.-an-explanation./"
-            },
-            {
-              "title": "Design Systems and Legos",
-              "date": "2025-03-25",
-              "link": "https://gomakethings.com/design-systems-and-legos/"
-            },
-            {
-              "title": "The environmental impact of the web we build",
-              "date": "2025-03-24",
-              "link": "https://gomakethings.com/the-environmental-impact-of-the-web-we-build/"
-            },
-            {
-              "title": "What if money didn't exist?",
-              "date": "2025-03-22",
-              "link": "https://gomakethings.com/what-if-money-didnt-exist/"
-            },
-            {
-              "title": "Can you nest Web Components inside each other?",
-              "date": "2025-03-21",
-              "link": "https://gomakethings.com/can-you-nest-web-components-inside-each-other/"
-            }
-          ]
-        },
-        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
-              "title": "26 Mar 2025\n      ",
-              "date": "2025-03-26",
+              "title": "27 Mar 2025\n      ",
+              "date": "2025-03-27",
               "link": "https://frills.dev/status/microblog/"
             },
             {
@@ -132,6 +132,10 @@
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
             {
+              "date": "2025-03-27",
+              "link": "https://dbushell.com/notes/2025-03-27T06:22Z/"
+            },
+            {
               "date": "2025-03-26",
               "link": "https://dbushell.com/notes/2025-03-26T13:33Z/"
             },
@@ -146,10 +150,37 @@
             {
               "date": "2025-03-24",
               "link": "https://dbushell.com/notes/2025-03-24T07:29Z/"
+            }
+          ]
+        },
+        {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "Garmin Connect+ and the Beginning of the End",
+              "date": "2025-03-27",
+              "link": "https://boehs.org/node/garmin-connect-plus"
             },
             {
-              "date": "2025-03-23",
-              "link": "https://dbushell.com/notes/2025-03-23T06:38Z/"
+              "title": "Apple Voice Dictation Writes 'Trump' When You Say 'Racist'",
+              "date": "2025-02-25",
+              "link": "https://boehs.org/node/racist-autocorrect"
+            },
+            {
+              "title": "A Rough Timeline of Technological Buffoonery in the DOGE Era",
+              "date": "2025-02-24",
+              "link": "https://boehs.org/node/doge-tech"
+            },
+            {
+              "title": "Not Feeling Big Tech This Year? Start an Indie Blog!",
+              "date": "2025-01-13",
+              "link": "https://boehs.org/node/2025-call-for-bloggers"
+            },
+            {
+              "title": "Homomorphic Encryption in iOS 18",
+              "date": "2025-01-10",
+              "link": "https://boehs.org/node/homomorphic-encryption"
             }
           ]
         },
@@ -157,6 +188,11 @@
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
+            {
+              "title": "Renaming a variable",
+              "date": "2025-03-27",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3TKp"
+            },
             {
               "title": "Free variables",
               "date": "2025-03-26",
@@ -176,11 +212,37 @@
               "title": "Parsing an lambdas",
               "date": "2025-03-19",
               "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3LOZ"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "The Value of Experience",
+              "date": "2025-03-26",
+              "link": "https://blog.jim-nielsen.com/2025/value-of-experience/"
             },
             {
-              "title": "Two tiny steps",
-              "date": "2025-03-13",
-              "link": "https://garoof.no/notes/two-tiny-steps.html"
+              "title": "Book Notes: “The Order of Time” by Carlo Rovelli",
+              "date": "2025-03-24",
+              "link": "https://blog.jim-nielsen.com/2025/book-notes-order-of-time/"
+            },
+            {
+              "title": "A Few Thoughts on Customizable Form Controls",
+              "date": "2025-03-22",
+              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-working-draft-to-override-form-controls/"
+            },
+            {
+              "title": "Proving Binaries",
+              "date": "2025-03-20",
+              "link": "https://blog.jim-nielsen.com/2025/proving-binaries/"
+            },
+            {
+              "title": "Ecosystems vs. Artifacts: Don’t Break the Web",
+              "date": "2025-03-16",
+              "link": "https://blog.jim-nielsen.com/2025/ecosystems-vs-artifacts/"
             }
           ]
         },
@@ -371,33 +433,33 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
           "items": [
             {
-              "title": "Book Notes: “The Order of Time” by Carlo Rovelli",
+              "title": "Reflections on writing a book",
               "date": "2025-03-24",
-              "link": "https://blog.jim-nielsen.com/2025/book-notes-order-of-time/"
+              "link": "https://dubroy.com/blog/reflections-on-writing-a-book"
             },
             {
-              "title": "A Few Thoughts on Customizable Form Controls",
-              "date": "2025-03-22",
-              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-working-draft-to-override-form-controls/"
+              "title": "Make it happen",
+              "date": "2025-02-11",
+              "link": "https://dubroy.com/blog/make-it-happen"
             },
             {
-              "title": "Proving Binaries",
-              "date": "2025-03-20",
-              "link": "https://blog.jim-nielsen.com/2025/proving-binaries/"
+              "title": "Five coding hats",
+              "date": "2025-02-03",
+              "link": "https://dubroy.com/blog/five-coding-hats"
             },
             {
-              "title": "Ecosystems vs. Artifacts: Don’t Break the Web",
-              "date": "2025-03-16",
-              "link": "https://blog.jim-nielsen.com/2025/ecosystems-vs-artifacts/"
+              "title": "One way to do applied research",
+              "date": "2024-11-07",
+              "link": "https://dubroy.com/blog/one-way-to-do-applied-research"
             },
             {
-              "title": "Building Websites With LLMS",
-              "date": "2025-03-04",
-              "link": "https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/"
+              "title": "Memories of some fantastic internships",
+              "date": "2024-07-31",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships"
             }
           ]
         },
@@ -1208,37 +1270,6 @@
           ]
         },
         {
-          "title": "Evan Boehs in the blog",
-          "feedUrl": "https://boehs.org/in/blog.xml",
-          "items": [
-            {
-              "title": "Apple Voice Dictation Writes 'Trump' When You Say 'Racist'",
-              "date": "2025-02-25",
-              "link": "https://boehs.org/node/racist-autocorrect"
-            },
-            {
-              "title": "A Rough Timeline of Technological Buffoonery in the DOGE Era",
-              "date": "2025-02-24",
-              "link": "https://boehs.org/node/doge-tech"
-            },
-            {
-              "title": "Not Feeling Big Tech This Year? Start an Indie Blog!",
-              "date": "2025-01-13",
-              "link": "https://boehs.org/node/2025-call-for-bloggers"
-            },
-            {
-              "title": "Homomorphic Encryption in iOS 18",
-              "date": "2025-01-10",
-              "link": "https://boehs.org/node/homomorphic-encryption"
-            },
-            {
-              "title": "I Was Just Censored by Meta",
-              "date": "2025-01-10",
-              "link": "https://boehs.org/node/meta-censorship"
-            }
-          ]
-        },
-        {
           "title": "Marvin Hagemeister",
           "feedUrl": "https://marvinh.dev/feed.xml",
           "items": [
@@ -1390,37 +1421,6 @@
               "title": "OKRs for Evil and Good",
               "date": "2024-12-23",
               "link": "https://jessitron.com/2024/12/22/okrs-for-evil-and-good/"
-            }
-          ]
-        },
-        {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Make it happen",
-              "date": "2025-02-11",
-              "link": "https://dubroy.com/blog/make-it-happen"
-            },
-            {
-              "title": "Five coding hats",
-              "date": "2025-02-03",
-              "link": "https://dubroy.com/blog/five-coding-hats"
-            },
-            {
-              "title": "One way to do applied research",
-              "date": "2024-11-07",
-              "link": "https://dubroy.com/blog/one-way-to-do-applied-research"
-            },
-            {
-              "title": "Memories of some fantastic internships",
-              "date": "2024-07-31",
-              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships"
-            },
-            {
-              "title": "Playing like a kid again",
-              "date": "2024-06-30",
-              "link": "https://dubroy.com/blog/playing-like-a-kid-again"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-27T03:30:41.950Z",
+  "fetchDate": "2025-03-28T03:30:09.957Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

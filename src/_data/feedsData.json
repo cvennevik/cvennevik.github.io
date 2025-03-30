@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "leanrada.com notes",
+          "feedUrl": "https://leanrada.com/rss.xml",
+          "items": [
+            {
+              "title": "Minimal CSS-only blurry image placeholders",
+              "date": "2025-03-30",
+              "link": "https://leanrada.com/notes/css-only-lqip/?ref=rss"
+            },
+            {
+              "title": "Inline rendering with document​.currentScript",
+              "date": "2025-03-07",
+              "link": "https://leanrada.com/notes/inline-rendering-currentscript/?ref=rss"
+            },
+            {
+              "title": "Rewriting my site in vanilla web",
+              "date": "2025-03-01",
+              "link": "https://leanrada.com/notes/vanilla-web-rewrite/?ref=rss"
+            },
+            {
+              "title": "CSS sprite sheet animations",
+              "date": "2024-11-03",
+              "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
+            },
+            {
+              "title": "Centering a div in a div in 2020",
+              "date": "2024-10-17",
+              "link": "https://leanrada.com/notes/how-to-center-in-css?ref=rss"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Luambda eval",
+              "date": "2025-03-30",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3W0a"
+            },
+            {
+              "title": "Renaming a variable",
+              "date": "2025-03-27",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3TKp"
+            },
+            {
+              "title": "Free variables",
+              "date": "2025-03-26",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
+            },
+            {
+              "title": "Substituting stuff for variable references",
+              "date": "2025-03-23",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3PFE"
+            },
+            {
+              "title": "Also unparsing the lambdas",
+              "date": "2025-03-20",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3MOZ"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
+            {
+              "title": "Et tu, Grammarly?",
+              "date": "2025-03-29",
+              "link": "https://dbushell.com/2025/03/29/et-tu-grammarly/"
+            },
             {
               "title": "Vibe-free SvelteKit for Fun and Profit",
               "date": "2025-03-28",
@@ -26,11 +93,6 @@
               "title": "I built a ZSH Prompt with Zig ⚡",
               "date": "2025-03-05",
               "link": "https://dbushell.com/2025/03/05/zig-zsh-prompt/"
-            },
-            {
-              "title": "“Never have, never will”",
-              "date": "2025-03-01",
-              "link": "https://dbushell.com/2025/03/01/never-have-never-will/"
             }
           ]
         },
@@ -38,6 +100,11 @@
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "The band",
+              "date": "2025-03-29",
+              "link": "https://gomakethings.com/the-band/"
+            },
             {
               "title": "A sink and a weight",
               "date": "2025-03-28",
@@ -57,11 +124,125 @@
               "title": "Design Systems and Legos",
               "date": "2025-03-25",
               "link": "https://gomakethings.com/design-systems-and-legos/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "March 2025 blend of links",
+              "date": "2025-03-29",
+              "link": "https://thejollyteapot.com/march-2025-blend/"
             },
             {
-              "title": "The environmental impact of the web we build",
-              "date": "2025-03-24",
-              "link": "https://gomakethings.com/the-environmental-impact-of-the-web-we-build/"
+              "title": "Spring update",
+              "date": "2025-03-22",
+              "link": "https://thejollyteapot.com/2025/03/22/spring-update/"
+            },
+            {
+              "title": "How great is the Send Later feature?",
+              "date": "2025-02-22",
+              "link": "https://thejollyteapot.com/2025/02/22/how-great-is-the-send-later-feature/"
+            },
+            {
+              "title": "February 2025 blend of links",
+              "date": "2025-02-19",
+              "link": "https://thejollyteapot.com/february-2025-blend/"
+            },
+            {
+              "title": "The nice feeling of trusting tools",
+              "date": "2025-02-09",
+              "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "29 Mar 2025\n      ",
+              "date": "2025-03-29",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Blog Question Challenge 2025",
+              "date": "2025-03-26",
+              "link": "https://frills.dev/blog/2025/march/blog-challenge/"
+            },
+            {
+              "title": "Festival of Spring and Dawn",
+              "date": "2025-03-19",
+              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-03-29",
+              "link": "https://dbushell.com/notes/2025-03-29T10:01Z/"
+            },
+            {
+              "date": "2025-03-28",
+              "link": "https://dbushell.com/notes/2025-03-28T17:54Z/"
+            },
+            {
+              "date": "2025-03-27",
+              "link": "https://dbushell.com/notes/2025-03-27T06:22Z/"
+            },
+            {
+              "date": "2025-03-26",
+              "link": "https://dbushell.com/notes/2025-03-26T13:33Z/"
+            },
+            {
+              "date": "2025-03-25",
+              "link": "https://dbushell.com/notes/2025-03-25T07:22Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Small mercies",
+              "date": "2025-03-29",
+              "link": "https://anniemueller.com/posts/small-mercies"
+            },
+            {
+              "title": "How little we know of each other’s existence",
+              "date": "2025-03-13",
+              "link": "https://anniemueller.com/posts/how-little-we-know-of-each-others-existence"
+            },
+            {
+              "title": "Love letters 9-10",
+              "date": "2025-03-10",
+              "link": "https://anniemueller.com/posts/love-letters-9-10"
+            },
+            {
+              "title": "How to clean the bathroom",
+              "date": "2025-03-05",
+              "link": "https://anniemueller.com/posts/how-to-clean-the-bathroom"
+            },
+            {
+              "title": "Reading notes: February 2025",
+              "date": "2025-03-02",
+              "link": "https://anniemueller.com/posts/reading-notes-february-2025"
             }
           ]
         },
@@ -93,63 +274,6 @@
               "title": "What is TypeScript? An overview for JavaScript programmers",
               "date": "2025-02-27",
               "link": "https://2ality.com/2025/02/what-is-typescript.html"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "28 Mar 2025\n      ",
-              "date": "2025-03-28",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Blog Question Challenge 2025",
-              "date": "2025-03-26",
-              "link": "https://frills.dev/blog/2025/march/blog-challenge/"
-            },
-            {
-              "title": "Festival of Spring and Dawn",
-              "date": "2025-03-19",
-              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-03-28",
-              "link": "https://dbushell.com/notes/2025-03-28T17:54Z/"
-            },
-            {
-              "date": "2025-03-27",
-              "link": "https://dbushell.com/notes/2025-03-27T06:22Z/"
-            },
-            {
-              "date": "2025-03-26",
-              "link": "https://dbushell.com/notes/2025-03-26T13:33Z/"
-            },
-            {
-              "date": "2025-03-25",
-              "link": "https://dbushell.com/notes/2025-03-25T07:22Z/"
-            },
-            {
-              "date": "2025-03-24",
-              "link": "https://dbushell.com/notes/2025-03-24T07:58Z/"
             }
           ]
         },
@@ -274,37 +398,6 @@
               "title": "Homomorphic Encryption in iOS 18",
               "date": "2025-01-10",
               "link": "https://boehs.org/node/homomorphic-encryption"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Renaming a variable",
-              "date": "2025-03-27",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3TKp"
-            },
-            {
-              "title": "Free variables",
-              "date": "2025-03-26",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
-            },
-            {
-              "title": "Substituting stuff for variable references",
-              "date": "2025-03-23",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3PFE"
-            },
-            {
-              "title": "Also unparsing the lambdas",
-              "date": "2025-03-20",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3MOZ"
-            },
-            {
-              "title": "Parsing an lambdas",
-              "date": "2025-03-19",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3LOZ"
             }
           ]
         },
@@ -588,37 +681,6 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "Spring update",
-              "date": "2025-03-22",
-              "link": "https://thejollyteapot.com/2025/03/22/spring-update/"
-            },
-            {
-              "title": "How great is the Send Later feature?",
-              "date": "2025-02-22",
-              "link": "https://thejollyteapot.com/2025/02/22/how-great-is-the-send-later-feature/"
-            },
-            {
-              "title": "February 2025 blend of links",
-              "date": "2025-02-19",
-              "link": "https://thejollyteapot.com/february-2025-blend/"
-            },
-            {
-              "title": "The nice feeling of trusting tools",
-              "date": "2025-02-09",
-              "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
-            },
-            {
-              "title": "January 2025 blend of links",
-              "date": "2025-01-21",
-              "link": "https://thejollyteapot.com/january-2025-blend/"
-            }
-          ]
-        },
-        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -739,37 +801,6 @@
               "title": "HYTRADBOI 2025 program and tickets",
               "date": "2025-01-31",
               "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-program-and-tickets/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "How little we know of each other’s existence",
-              "date": "2025-03-13",
-              "link": "https://anniemueller.com/posts/how-little-we-know-of-each-others-existence"
-            },
-            {
-              "title": "Love letters 9-10",
-              "date": "2025-03-10",
-              "link": "https://anniemueller.com/posts/love-letters-9-10"
-            },
-            {
-              "title": "How to clean the bathroom",
-              "date": "2025-03-05",
-              "link": "https://anniemueller.com/posts/how-to-clean-the-bathroom"
-            },
-            {
-              "title": "Reading notes: February 2025",
-              "date": "2025-03-02",
-              "link": "https://anniemueller.com/posts/reading-notes-february-2025"
-            },
-            {
-              "title": "Despite the horrors, the laundry must be done; Despite the laundry, the horrors must be faced.",
-              "date": "2025-03-01",
-              "link": "https://anniemueller.com/posts/despite-the-horrors-the-laundry-must-be-done-despite-the-laundry-the-horrors-must-be-faced"
             }
           ]
         },
@@ -956,37 +987,6 @@
               "title": "Recently 2024",
               "date": "2024-12-15",
               "link": "https://macwright.com/2024/12/15/recently.html"
-            }
-          ]
-        },
-        {
-          "title": "leanrada.com notes",
-          "feedUrl": "https://leanrada.com/rss.xml",
-          "items": [
-            {
-              "title": "Inline rendering with document​.currentScript",
-              "date": "2025-03-07",
-              "link": "https://leanrada.com/notes/inline-rendering-currentscript/?ref=rss"
-            },
-            {
-              "title": "Rewriting my site in vanilla web",
-              "date": "2025-03-01",
-              "link": "https://leanrada.com/notes/vanilla-web-rewrite/?ref=rss"
-            },
-            {
-              "title": "CSS sprite sheet animations",
-              "date": "2024-11-03",
-              "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
-            },
-            {
-              "title": "Centering a div in a div in 2020",
-              "date": "2024-10-17",
-              "link": "https://leanrada.com/notes/how-to-center-in-css?ref=rss"
-            },
-            {
-              "title": "I made an app to fix my motion sickness",
-              "date": "2024-09-02",
-              "link": "https://leanrada.com/notes/motion-sickness-app?ref=rss"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-29T03:27:13.216Z",
+  "fetchDate": "2025-03-30T03:35:30.235Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

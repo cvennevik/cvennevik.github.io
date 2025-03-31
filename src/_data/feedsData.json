@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "item-flow",
+              "date": "2025-03-30",
+              "link": "https://robinrendle.com/notes/item-flow/"
+            },
+            {
+              "title": "Humiliation",
+              "date": "2025-03-15",
+              "link": "https://robinrendle.com/notes/humiliation/"
+            },
+            {
+              "title": "Abandon all keyboards",
+              "date": "2025-03-11",
+              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
+            },
+            {
+              "title": "trot",
+              "date": "2025-02-15",
+              "link": "https://robinrendle.com/notes/trot/"
+            },
+            {
+              "title": "Notes on blogging",
+              "date": "2025-02-01",
+              "link": "https://robinrendle.com/notes/notes-on-blogging/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "30 Mar 2025\n      ",
+              "date": "2025-03-30",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Blog Question Challenge 2025",
+              "date": "2025-03-26",
+              "link": "https://frills.dev/blog/2025/march/blog-challenge/"
+            },
+            {
+              "title": "Festival of Spring and Dawn",
+              "date": "2025-03-19",
+              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
+            },
+            {
+              "title": "Input Leap",
+              "date": "2025-02-21",
+              "link": "https://github.com/input-leap/input-leap"
+            },
+            {
+              "title": "Ode to Dylan (my old Macbook)",
+              "date": "2025-02-10",
+              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
+            }
+          ]
+        },
+        {
           "title": "leanrada.com notes",
           "feedUrl": "https://leanrada.com/rss.xml",
           "items": [
@@ -39,6 +101,16 @@
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
             {
+              "title": "Putting the lambdas onto the webpage",
+              "date": "2025-03-30",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3WJJ"
+            },
+            {
+              "title": "Lambda REPL stuff",
+              "date": "2025-03-30",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3WFI"
+            },
+            {
               "title": "Luambda eval",
               "date": "2025-03-30",
               "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3W0a"
@@ -52,16 +124,6 @@
               "title": "Free variables",
               "date": "2025-03-26",
               "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
-            },
-            {
-              "title": "Substituting stuff for variable references",
-              "date": "2025-03-23",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3PFE"
-            },
-            {
-              "title": "Also unparsing the lambdas",
-              "date": "2025-03-20",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3MOZ"
             }
           ]
         },
@@ -159,37 +221,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "29 Mar 2025\n      ",
-              "date": "2025-03-29",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Blog Question Challenge 2025",
-              "date": "2025-03-26",
-              "link": "https://frills.dev/blog/2025/march/blog-challenge/"
-            },
-            {
-              "title": "Festival of Spring and Dawn",
-              "date": "2025-03-19",
-              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (microblog)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -243,6 +274,37 @@
               "title": "Reading notes: February 2025",
               "date": "2025-03-02",
               "link": "https://anniemueller.com/posts/reading-notes-february-2025"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Golf Shot",
+              "date": "2025-03-29",
+              "link": "https://flamedfury.com/posts/golf-shot/"
+            },
+            {
+              "title": "Golf Lessons",
+              "date": "2025-03-25",
+              "link": "https://flamedfury.com/posts/golf-lessons/"
+            },
+            {
+              "title": "The Magic Of Writing It Down",
+              "date": "2025-03-24",
+              "link": "https://flamedfury.com/posts/the-magic-of-writing-it-down/"
+            },
+            {
+              "title": "New Music Friday #4",
+              "date": "2025-03-18",
+              "link": "https://flamedfury.com/posts/new-music-friday-4/"
+            },
+            {
+              "title": "Monthly Recap: February 2025",
+              "date": "2025-03-18",
+              "link": "https://flamedfury.com/posts/monthly-recap-february-2025/"
             }
           ]
         },
@@ -526,37 +588,6 @@
           ]
         },
         {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Golf Lessons",
-              "date": "2025-03-25",
-              "link": "https://flamedfury.com/posts/golf-lessons/"
-            },
-            {
-              "title": "The Magic Of Writing It Down",
-              "date": "2025-03-24",
-              "link": "https://flamedfury.com/posts/the-magic-of-writing-it-down/"
-            },
-            {
-              "title": "New Music Friday #4",
-              "date": "2025-03-18",
-              "link": "https://flamedfury.com/posts/new-music-friday-4/"
-            },
-            {
-              "title": "Monthly Recap: February 2025",
-              "date": "2025-03-18",
-              "link": "https://flamedfury.com/posts/monthly-recap-february-2025/"
-            },
-            {
-              "title": "Let Me Solo Him",
-              "date": "2025-02-26",
-              "link": "https://flamedfury.com/posts/let-me-solo-him/"
-            }
-          ]
-        },
-        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -708,37 +739,6 @@
               "title": "GitHub’s updated Commits page and the interactive list component",
               "date": "2024-12-20",
               "link": "https://ericwbailey.website/published/githubs-updated-commits-page-and-the-interactive-list-component/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Humiliation",
-              "date": "2025-03-15",
-              "link": "https://robinrendle.com/notes/humiliation/"
-            },
-            {
-              "title": "Abandon all keyboards",
-              "date": "2025-03-11",
-              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
-            },
-            {
-              "title": "trot",
-              "date": "2025-02-15",
-              "link": "https://robinrendle.com/notes/trot/"
-            },
-            {
-              "title": "Notes on blogging",
-              "date": "2025-02-01",
-              "link": "https://robinrendle.com/notes/notes-on-blogging/"
-            },
-            {
-              "title": "Change and risk",
-              "date": "2025-01-20",
-              "link": "https://robinrendle.com/notes/change-and-risk/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-03-30T03:35:30.235Z",
+  "fetchDate": "2025-03-31T03:34:45.948Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

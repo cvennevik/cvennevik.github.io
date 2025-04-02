@@ -4,6 +4,192 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Blog on Hillel Wayne",
+          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
+          "items": [
+            {
+              "title": "Gamer Games for Non-Gamers",
+              "date": "2025-04-01",
+              "link": "https://www.hillelwayne.com/post/vidja-games/"
+            },
+            {
+              "title": "A Perplexing Javascript Parsing Puzzle",
+              "date": "2025-03-12",
+              "link": "https://www.hillelwayne.com/post/javascript-puzzle/"
+            },
+            {
+              "title": "The Hierarchy of Controls (or how to stop devs from dropping prod)",
+              "date": "2025-03-04",
+              "link": "https://www.hillelwayne.com/post/hoc/"
+            },
+            {
+              "title": "Hiatus",
+              "date": "2024-09-11",
+              "link": "https://www.hillelwayne.com/post/hiatus/"
+            },
+            {
+              "title": "Toolbox languages",
+              "date": "2024-07-15",
+              "link": "https://www.hillelwayne.com/post/toolbox-languages/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "A no-hassle static site CMS",
+              "date": "2025-04-01",
+              "link": "https://gomakethings.com/a-no-hassle-static-site-cms/"
+            },
+            {
+              "title": "The spice of life",
+              "date": "2025-03-31",
+              "link": "https://gomakethings.com/the-spice-of-life/"
+            },
+            {
+              "title": "The band",
+              "date": "2025-03-29",
+              "link": "https://gomakethings.com/the-band/"
+            },
+            {
+              "title": "A sink and a weight",
+              "date": "2025-03-28",
+              "link": "https://gomakethings.com/a-sink-and-a-weight/"
+            },
+            {
+              "title": "A Sublime coding experience",
+              "date": "2025-03-27",
+              "link": "https://gomakethings.com/a-sublime-coding-experience/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "Mere Being 020 - March - human nature, lady doctors, potatoes",
+              "date": "2025-04-01",
+              "link": "https://www.simplermachines.com/mere-being-020-march-2/"
+            },
+            {
+              "title": "Mere Being 019 - February - Plenty Huge Men Roam the Earth",
+              "date": "2025-03-02",
+              "link": "https://www.simplermachines.com/mere-being-018-february-p/"
+            },
+            {
+              "title": "Mere Being 018 - December",
+              "date": "2025-01-01",
+              "link": "https://www.simplermachines.com/mere-being-018-december/"
+            },
+            {
+              "title": "Mere Being 017 - September - Dirt Man",
+              "date": "2024-10-01",
+              "link": "https://www.simplermachines.com/mere-being-017-september-dirt-man/"
+            },
+            {
+              "title": "Mere Being 016 - August - Iron Supplements, Digestion, Love",
+              "date": "2024-09-01",
+              "link": "https://www.simplermachines.com/mere-being-2/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            },
+            {
+              "title": "1 Apr 2025\n      ",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Alt Text Selfies",
+              "date": "2025-04-01",
+              "link": "https://alttextselfies.net/"
+            },
+            {
+              "title": "Blog Question Challenge 2025",
+              "date": "2025-03-26",
+              "link": "https://frills.dev/blog/2025/march/blog-challenge/"
+            },
+            {
+              "title": "Festival of Spring and Dawn",
+              "date": "2025-03-19",
+              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
+            }
+          ]
+        },
+        {
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
+          "items": [
+            {
+              "title": "The Luxury of Analogue",
+              "date": "2025-04-01",
+              "link": "https://mikegrindle.com/posts/analogue"
+            },
+            {
+              "title": "The Product of Inner Compulsion",
+              "date": "2025-03-28",
+              "link": "https://mikegrindle.com/newsletter/itm-7"
+            },
+            {
+              "title": "The Evil Things I've Done",
+              "date": "2025-03-26",
+              "link": "https://mikegrindle.com/posts/evil"
+            },
+            {
+              "title": "Re: What I Grew Up With",
+              "date": "2025-03-10",
+              "link": "https://mikegrindle.com/posts/grew-up-with"
+            },
+            {
+              "title": "Everything in Solitude, Except Character",
+              "date": "2025-01-09",
+              "link": "https://mikegrindle.com/newsletter/itm-6"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "[April Cools] Gaming Games for Non-Gamers",
+              "date": "2025-04-01",
+              "link": "https://buttondown.com/hillelwayne/archive/april-cools-gaming-games-for-non-gamers/"
+            },
+            {
+              "title": "Betteridge's Law of Software Engineering Specialness",
+              "date": "2025-03-26",
+              "link": "https://buttondown.com/hillelwayne/archive/betteridges-law-of-software-engineering/"
+            },
+            {
+              "title": "Verification-First Development",
+              "date": "2025-03-18",
+              "link": "https://buttondown.com/hillelwayne/archive/verification-first-development/"
+            },
+            {
+              "title": "New Blog Post: \"A Perplexing Javascript Parsing Puzzle\"",
+              "date": "2025-03-12",
+              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-perplexing-javascript-parsing/"
+            },
+            {
+              "title": "Five Kinds of Nondeterminism",
+              "date": "2025-02-19",
+              "link": "https://buttondown.com/hillelwayne/archive/five-kinds-of-nondeterminism/"
+            }
+          ]
+        },
+        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -35,37 +221,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "The spice of life",
-              "date": "2025-03-31",
-              "link": "https://gomakethings.com/the-spice-of-life/"
-            },
-            {
-              "title": "The band",
-              "date": "2025-03-29",
-              "link": "https://gomakethings.com/the-band/"
-            },
-            {
-              "title": "A sink and a weight",
-              "date": "2025-03-28",
-              "link": "https://gomakethings.com/a-sink-and-a-weight/"
-            },
-            {
-              "title": "A Sublime coding experience",
-              "date": "2025-03-27",
-              "link": "https://gomakethings.com/a-sublime-coding-experience/"
-            },
-            {
-              "title": "Not an excuse. An explanation.",
-              "date": "2025-03-26",
-              "link": "https://gomakethings.com/not-an-excuse.-an-explanation./"
-            }
-          ]
-        },
-        {
           "title": "HeydonWorks",
           "feedUrl": "https://heydonworks.com/feed.xml",
           "items": [
@@ -93,37 +248,6 @@
               "title": "The blockquote element",
               "date": "2024-10-14",
               "link": "https://heydonworks.com/article/the-blockquote-element/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "31 Mar 2025\n      ",
-              "date": "2025-03-31",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Blog Question Challenge 2025",
-              "date": "2025-03-26",
-              "link": "https://frills.dev/blog/2025/march/blog-challenge/"
-            },
-            {
-              "title": "Festival of Spring and Dawn",
-              "date": "2025-03-19",
-              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
-            },
-            {
-              "title": "Input Leap",
-              "date": "2025-02-21",
-              "link": "https://github.com/input-leap/input-leap"
-            },
-            {
-              "title": "Ode to Dylan (my old Macbook)",
-              "date": "2025-02-10",
-              "link": "https://frills.dev/blog/2025/february/i-got-a-mac/"
             }
           ]
         },
@@ -464,37 +588,6 @@
           ]
         },
         {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
-          "items": [
-            {
-              "title": "The Product of Inner Compulsion",
-              "date": "2025-03-28",
-              "link": "https://mikegrindle.com/newsletter/itm-7"
-            },
-            {
-              "title": "The Evil Things I've Done",
-              "date": "2025-03-26",
-              "link": "https://mikegrindle.com/posts/evil"
-            },
-            {
-              "title": "Re: What I Grew Up With",
-              "date": "2025-03-10",
-              "link": "https://mikegrindle.com/posts/grew-up-with"
-            },
-            {
-              "title": "Everything in Solitude, Except Character",
-              "date": "2025-01-09",
-              "link": "https://mikegrindle.com/newsletter/itm-6"
-            },
-            {
-              "title": "Thoughts on a Dark Winter Day",
-              "date": "2024-12-27",
-              "link": "https://mikegrindle.com/posts/2024"
-            }
-          ]
-        },
-        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -553,37 +646,6 @@
               "title": "Homomorphic Encryption in iOS 18",
               "date": "2025-01-10",
               "link": "https://boehs.org/node/homomorphic-encryption"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Betteridge's Law of Software Engineering Specialness",
-              "date": "2025-03-26",
-              "link": "https://buttondown.com/hillelwayne/archive/betteridges-law-of-software-engineering/"
-            },
-            {
-              "title": "Verification-First Development",
-              "date": "2025-03-18",
-              "link": "https://buttondown.com/hillelwayne/archive/verification-first-development/"
-            },
-            {
-              "title": "New Blog Post: \"A Perplexing Javascript Parsing Puzzle\"",
-              "date": "2025-03-12",
-              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-perplexing-javascript-parsing/"
-            },
-            {
-              "title": "Five Kinds of Nondeterminism",
-              "date": "2025-02-19",
-              "link": "https://buttondown.com/hillelwayne/archive/five-kinds-of-nondeterminism/"
-            },
-            {
-              "title": "Are Efficiency and Horizontal Scalability at odds?",
-              "date": "2025-02-12",
-              "link": "https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/"
             }
           ]
         },
@@ -836,37 +898,6 @@
           ]
         },
         {
-          "title": "Blog on Hillel Wayne",
-          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
-          "items": [
-            {
-              "title": "A Perplexing Javascript Parsing Puzzle",
-              "date": "2025-03-12",
-              "link": "https://www.hillelwayne.com/post/javascript-puzzle/"
-            },
-            {
-              "title": "The Hierarchy of Controls (or how to stop devs from dropping prod)",
-              "date": "2025-03-04",
-              "link": "https://www.hillelwayne.com/post/hoc/"
-            },
-            {
-              "title": "Hiatus",
-              "date": "2024-09-11",
-              "link": "https://www.hillelwayne.com/post/hiatus/"
-            },
-            {
-              "title": "Toolbox languages",
-              "date": "2024-07-15",
-              "link": "https://www.hillelwayne.com/post/toolbox-languages/"
-            },
-            {
-              "title": "Composing TLA+ Specifications with State Machines",
-              "date": "2024-06-17",
-              "link": "https://www.hillelwayne.com/post/composing-tla/"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -960,37 +991,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Introducing the blogroll",
-              "date": "2025-03-07",
-              "link": "https://macwright.com/2025/03/07/blogroll.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-03-01",
-              "link": "https://macwright.com/2025/03/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-02-04",
-              "link": "https://macwright.com/2025/02/04/recently.html"
-            },
-            {
-              "title": "2025 Predictions",
-              "date": "2025-01-11",
-              "link": "https://macwright.com/2025/01/11/predictions.html"
-            },
-            {
-              "title": "Recently 2024",
-              "date": "2024-12-15",
-              "link": "https://macwright.com/2024/12/15/recently.html"
-            }
-          ]
-        },
-        {
           "title": "Julia Evans",
           "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
@@ -1018,6 +1018,37 @@
               "title": "\"Rules\" that terminal programs follow",
               "date": "2024-12-12",
               "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Introducing the blogroll",
+              "date": "2025-03-07",
+              "link": "https://macwright.com/2025/03/07/blogroll.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-03-01",
+              "link": "https://macwright.com/2025/03/01/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-02-04",
+              "link": "https://macwright.com/2025/02/04/recently.html"
+            },
+            {
+              "title": "2025 Predictions",
+              "date": "2025-01-11",
+              "link": "https://macwright.com/2025/01/11/predictions.html"
+            },
+            {
+              "title": "Recently 2024",
+              "date": "2024-12-15",
+              "link": "https://macwright.com/2024/12/15/recently.html"
             }
           ]
         },
@@ -1173,37 +1204,6 @@
               "title": "Continuous Integrations! Where to Start?",
               "date": "2024-11-01",
               "link": "https://thinkinglabs.io/articles/2024/11/01/continuous-integration-where-to-start.html"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "Mere Being 019 - February - Plenty Huge Men Roam the Earth",
-              "date": "2025-03-02",
-              "link": "https://www.simplermachines.com/mere-being-018-february-p/"
-            },
-            {
-              "title": "Mere Being 018 - December",
-              "date": "2025-01-01",
-              "link": "https://www.simplermachines.com/mere-being-018-december/"
-            },
-            {
-              "title": "Mere Being 017 - September - Dirt Man",
-              "date": "2024-10-01",
-              "link": "https://www.simplermachines.com/mere-being-017-september-dirt-man/"
-            },
-            {
-              "title": "Mere Being 016 - August - Iron Supplements, Digestion, Love",
-              "date": "2024-09-01",
-              "link": "https://www.simplermachines.com/mere-being-2/"
-            },
-            {
-              "title": "Pivots don't start enough businesses",
-              "date": "2024-08-26",
-              "link": "https://www.simplermachines.com/pivots-dont-start-enough-businesses/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-01T03:40:44.513Z",
+  "fetchDate": "2025-04-02T03:31:22.793Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

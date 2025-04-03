@@ -4,6 +4,223 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Domain-Agnostic and Domain-Specific Tools",
+              "date": "2025-04-03",
+              "link": "https://borretti.me/article/domain-agnostic-and-domain-specific-tools"
+            },
+            {
+              "title": "Non-Fiction Has Bad Incentives",
+              "date": "2025-02-03",
+              "link": "https://borretti.me/article/non-fiction-has-bad-incentives"
+            },
+            {
+              "title": "Composable SQL",
+              "date": "2025-01-24",
+              "link": "https://borretti.me/article/composable-sql"
+            },
+            {
+              "title": "Adding Colour to macOS Folder Icons",
+              "date": "2025-01-17",
+              "link": "https://borretti.me/article/adding-colour-to-macos-folder-icons"
+            },
+            {
+              "title": "Implementing FSRS in 100 Lines",
+              "date": "2025-01-10",
+              "link": "https://borretti.me/article/implementing-fsrs-in-100-lines"
+            }
+          ]
+        },
+        {
+          "title": "leanrada.com notes",
+          "feedUrl": "https://leanrada.com/rss.xml",
+          "items": [
+            {
+              "title": "Language evolves, so we must too. On generative art",
+              "date": "2025-04-03",
+              "link": "https://leanrada.com/notes/language-evolves-generative-art/?ref=rss"
+            },
+            {
+              "title": "Minimal CSS-only blurry image placeholders",
+              "date": "2025-03-30",
+              "link": "https://leanrada.com/notes/css-only-lqip/?ref=rss"
+            },
+            {
+              "title": "Inline rendering with document​.currentScript",
+              "date": "2025-03-07",
+              "link": "https://leanrada.com/notes/inline-rendering-currentscript/?ref=rss"
+            },
+            {
+              "title": "Rewriting my site in vanilla web",
+              "date": "2025-03-01",
+              "link": "https://leanrada.com/notes/vanilla-web-rewrite/?ref=rss"
+            },
+            {
+              "title": "CSS sprite sheet animations",
+              "date": "2024-11-03",
+              "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
+            },
+            {
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
+            },
+            {
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            },
+            {
+              "title": "Alt Text Selfies",
+              "date": "2025-04-01",
+              "link": "https://alttextselfies.net/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Flow State and Surfing",
+              "date": "2025-04-02",
+              "link": "https://blog.jim-nielsen.com/2025/flow-state-and-surfing/"
+            },
+            {
+              "title": "Don’t Forget the Meta Theme-Color Tag",
+              "date": "2025-03-30",
+              "link": "https://blog.jim-nielsen.com/2025/dont-forget-meta-theme-color/"
+            },
+            {
+              "title": "The Value of Experience",
+              "date": "2025-03-26",
+              "link": "https://blog.jim-nielsen.com/2025/value-of-experience/"
+            },
+            {
+              "title": "Book Notes: “The Order of Time” by Carlo Rovelli",
+              "date": "2025-03-24",
+              "link": "https://blog.jim-nielsen.com/2025/book-notes-order-of-time/"
+            },
+            {
+              "title": "A Few Thoughts on Customizable Form Controls",
+              "date": "2025-03-22",
+              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-working-draft-to-override-form-controls/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Dirt in a Cog",
+              "date": "2025-04-02",
+              "link": "https://gomakethings.com/dirt-in-a-cog/"
+            },
+            {
+              "title": "A no-hassle static site CMS",
+              "date": "2025-04-01",
+              "link": "https://gomakethings.com/a-no-hassle-static-site-cms/"
+            },
+            {
+              "title": "The spice of life",
+              "date": "2025-03-31",
+              "link": "https://gomakethings.com/the-spice-of-life/"
+            },
+            {
+              "title": "The band",
+              "date": "2025-03-29",
+              "link": "https://gomakethings.com/the-band/"
+            },
+            {
+              "title": "A sink and a weight",
+              "date": "2025-03-28",
+              "link": "https://gomakethings.com/a-sink-and-a-weight/"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "Møt mise, verktøyet du kanskje ikke visste du trengte",
+              "date": "2025-04-02",
+              "link": "https://www.kodemaker.no/blogg/2025-03-26-mise/"
+            },
+            {
+              "title": "Gode backuprutiner krever tillit",
+              "date": "2025-03-25",
+              "link": "https://www.kodemaker.no/blogg/2025-03-25-gode-backuprutiner-krever-tillit/"
+            },
+            {
+              "title": "Hva er din ledelsesfilosofi?",
+              "date": "2025-03-07",
+              "link": "https://www.kodemaker.no/blogg/2025-03-07-hva-er-din-ledelsesfilosofi/"
+            },
+            {
+              "title": "Constraint Solvers og utfordrende planlegging",
+              "date": "2025-02-26",
+              "link": "https://www.kodemaker.no/blogg/2025-02-26-constraint-solvers/"
+            },
+            {
+              "title": "Semantisk søk ved hjelp av vektor-representasjoner av tekst",
+              "date": "2025-02-12",
+              "link": "https://www.kodemaker.no/blogg/2025-02-12-text-embeddings/"
+            }
+          ]
+        },
+        {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "Peanuts in Church and Casual Misinformation",
+              "date": "2025-04-02",
+              "link": "https://boehs.org/node/weird-laws"
+            },
+            {
+              "title": "Garmin Connect+ and the Beginning of the End",
+              "date": "2025-03-27",
+              "link": "https://boehs.org/node/garmin-connect-plus"
+            },
+            {
+              "title": "Apple Voice Dictation Writes 'Trump' When You Say 'Racist'",
+              "date": "2025-02-25",
+              "link": "https://boehs.org/node/racist-autocorrect"
+            },
+            {
+              "title": "A Rough Timeline of Technological Buffoonery in the DOGE Era",
+              "date": "2025-02-24",
+              "link": "https://boehs.org/node/doge-tech"
+            },
+            {
+              "title": "Not Feeling Big Tech This Year? Start an Indie Blog!",
+              "date": "2025-01-13",
+              "link": "https://boehs.org/node/2025-call-for-bloggers"
+            }
+          ]
+        },
+        {
           "title": "Blog on Hillel Wayne",
           "feedUrl": "https://www.hillelwayne.com/post/index.xml",
           "items": [
@@ -35,37 +252,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "A no-hassle static site CMS",
-              "date": "2025-04-01",
-              "link": "https://gomakethings.com/a-no-hassle-static-site-cms/"
-            },
-            {
-              "title": "The spice of life",
-              "date": "2025-03-31",
-              "link": "https://gomakethings.com/the-spice-of-life/"
-            },
-            {
-              "title": "The band",
-              "date": "2025-03-29",
-              "link": "https://gomakethings.com/the-band/"
-            },
-            {
-              "title": "A sink and a weight",
-              "date": "2025-03-28",
-              "link": "https://gomakethings.com/a-sink-and-a-weight/"
-            },
-            {
-              "title": "A Sublime coding experience",
-              "date": "2025-03-27",
-              "link": "https://gomakethings.com/a-sublime-coding-experience/"
-            }
-          ]
-        },
-        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -93,37 +279,6 @@
               "title": "Mere Being 016 - August - Iron Supplements, Digestion, Love",
               "date": "2024-09-01",
               "link": "https://www.simplermachines.com/mere-being-2/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
-            },
-            {
-              "title": "1 Apr 2025\n      ",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Alt Text Selfies",
-              "date": "2025-04-01",
-              "link": "https://alttextselfies.net/"
-            },
-            {
-              "title": "Blog Question Challenge 2025",
-              "date": "2025-03-26",
-              "link": "https://frills.dev/blog/2025/march/blog-challenge/"
-            },
-            {
-              "title": "Festival of Spring and Dawn",
-              "date": "2025-03-19",
-              "link": "https://frills.dev/blog/2025/march/ostara-spring/"
             }
           ]
         },
@@ -336,68 +491,6 @@
               "title": "Notes on blogging",
               "date": "2025-02-01",
               "link": "https://robinrendle.com/notes/notes-on-blogging/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Don’t Forget the Meta Theme-Color Tag",
-              "date": "2025-03-30",
-              "link": "https://blog.jim-nielsen.com/2025/dont-forget-meta-theme-color/"
-            },
-            {
-              "title": "The Value of Experience",
-              "date": "2025-03-26",
-              "link": "https://blog.jim-nielsen.com/2025/value-of-experience/"
-            },
-            {
-              "title": "Book Notes: “The Order of Time” by Carlo Rovelli",
-              "date": "2025-03-24",
-              "link": "https://blog.jim-nielsen.com/2025/book-notes-order-of-time/"
-            },
-            {
-              "title": "A Few Thoughts on Customizable Form Controls",
-              "date": "2025-03-22",
-              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-working-draft-to-override-form-controls/"
-            },
-            {
-              "title": "Proving Binaries",
-              "date": "2025-03-20",
-              "link": "https://blog.jim-nielsen.com/2025/proving-binaries/"
-            }
-          ]
-        },
-        {
-          "title": "leanrada.com notes",
-          "feedUrl": "https://leanrada.com/rss.xml",
-          "items": [
-            {
-              "title": "Minimal CSS-only blurry image placeholders",
-              "date": "2025-03-30",
-              "link": "https://leanrada.com/notes/css-only-lqip/?ref=rss"
-            },
-            {
-              "title": "Inline rendering with document​.currentScript",
-              "date": "2025-03-07",
-              "link": "https://leanrada.com/notes/inline-rendering-currentscript/?ref=rss"
-            },
-            {
-              "title": "Rewriting my site in vanilla web",
-              "date": "2025-03-01",
-              "link": "https://leanrada.com/notes/vanilla-web-rewrite/?ref=rss"
-            },
-            {
-              "title": "CSS sprite sheet animations",
-              "date": "2024-11-03",
-              "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
-            },
-            {
-              "title": "Centering a div in a div in 2020",
-              "date": "2024-10-17",
-              "link": "https://leanrada.com/notes/how-to-center-in-css?ref=rss"
             }
           ]
         },
@@ -619,37 +712,6 @@
           ]
         },
         {
-          "title": "Evan Boehs in the blog",
-          "feedUrl": "https://boehs.org/in/blog.xml",
-          "items": [
-            {
-              "title": "Garmin Connect+ and the Beginning of the End",
-              "date": "2025-03-27",
-              "link": "https://boehs.org/node/garmin-connect-plus"
-            },
-            {
-              "title": "Apple Voice Dictation Writes 'Trump' When You Say 'Racist'",
-              "date": "2025-02-25",
-              "link": "https://boehs.org/node/racist-autocorrect"
-            },
-            {
-              "title": "A Rough Timeline of Technological Buffoonery in the DOGE Era",
-              "date": "2025-02-24",
-              "link": "https://boehs.org/node/doge-tech"
-            },
-            {
-              "title": "Not Feeling Big Tech This Year? Start an Indie Blog!",
-              "date": "2025-01-13",
-              "link": "https://boehs.org/node/2025-call-for-bloggers"
-            },
-            {
-              "title": "Homomorphic Encryption in iOS 18",
-              "date": "2025-01-10",
-              "link": "https://boehs.org/node/homomorphic-encryption"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -677,37 +739,6 @@
               "title": "DSQL Vignette: Wait! Isn't That Impossible?",
               "date": "2024-12-06",
               "link": "http://brooker.co.za/blog/2024/12/06/inside-dsql-cap.html"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Gode backuprutiner krever tillit",
-              "date": "2025-03-25",
-              "link": "https://www.kodemaker.no/blogg/2025-03-25-gode-backuprutiner-krever-tillit/"
-            },
-            {
-              "title": "Hva er din ledelsesfilosofi?",
-              "date": "2025-03-07",
-              "link": "https://www.kodemaker.no/blogg/2025-03-07-hva-er-din-ledelsesfilosofi/"
-            },
-            {
-              "title": "Constraint Solvers og utfordrende planlegging",
-              "date": "2025-02-26",
-              "link": "https://www.kodemaker.no/blogg/2025-02-26-constraint-solvers/"
-            },
-            {
-              "title": "Semantisk søk ved hjelp av vektor-representasjoner av tekst",
-              "date": "2025-02-12",
-              "link": "https://www.kodemaker.no/blogg/2025-02-12-text-embeddings/"
-            },
-            {
-              "title": "Din AI-assistent kan bli personlig - slik fungerer det",
-              "date": "2025-02-11",
-              "link": "https://www.kodemaker.no/blogg/2025-02-11-konsept-rag/"
             }
           ]
         },
@@ -1514,37 +1545,6 @@
               "title": "What hath AWS wrought?",
               "date": "2024-12-10",
               "link": "https://newsletter.goodtechthings.com/p/what-hath-aws-wrought"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Non-Fiction Has Bad Incentives",
-              "date": "2025-02-03",
-              "link": "https://borretti.me/article/non-fiction-has-bad-incentives"
-            },
-            {
-              "title": "Composable SQL",
-              "date": "2025-01-24",
-              "link": "https://borretti.me/article/composable-sql"
-            },
-            {
-              "title": "Adding Colour to macOS Folder Icons",
-              "date": "2025-01-17",
-              "link": "https://borretti.me/article/adding-colour-to-macos-folder-icons"
-            },
-            {
-              "title": "Implementing FSRS in 100 Lines",
-              "date": "2025-01-10",
-              "link": "https://borretti.me/article/implementing-fsrs-in-100-lines"
-            },
-            {
-              "title": "How I Use Claude",
-              "date": "2025-01-01",
-              "link": "https://borretti.me/article/how-i-use-claude"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-02T03:31:22.793Z",
+  "fetchDate": "2025-04-03T03:31:02.906Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "A pragmatic browser support strategy",
+              "date": "2025-04-03",
+              "link": "https://gomakethings.com/a-pragmatic-browser-support-strategy/"
+            },
+            {
+              "title": "Dirt in a Cog",
+              "date": "2025-04-02",
+              "link": "https://gomakethings.com/dirt-in-a-cog/"
+            },
+            {
+              "title": "A no-hassle static site CMS",
+              "date": "2025-04-01",
+              "link": "https://gomakethings.com/a-no-hassle-static-site-cms/"
+            },
+            {
+              "title": "The spice of life",
+              "date": "2025-03-31",
+              "link": "https://gomakethings.com/the-spice-of-life/"
+            },
+            {
+              "title": "The band",
+              "date": "2025-03-29",
+              "link": "https://gomakethings.com/the-band/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Mainlining Mains",
+              "date": "2025-04-03",
+              "link": "https://adrianroselli.com/2025/04/mainlining-mains.html"
+            },
+            {
+              "title": "Tag, You’re It",
+              "date": "2025-03-22",
+              "link": "https://adrianroselli.com/2025/03/tag-youre-it.html"
+            },
+            {
+              "title": "CSUNATC 2025 Recap",
+              "date": "2025-03-16",
+              "link": "https://adrianroselli.com/2025/03/csunatc-2025-recap.html"
+            },
+            {
+              "title": "Don’t Use Fake Bold or Italic in Social Media",
+              "date": "2025-03-06",
+              "link": "https://adrianroselli.com/2025/03/dont-use-fake-bold-or-italic-in-social-media.html"
+            },
+            {
+              "title": "Be Wary of Accessibility Guarantees from Anyone",
+              "date": "2025-03-02",
+              "link": "https://adrianroselli.com/2025/03/be-wary-of-accessibility-guarantees-from-anyone.html"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "Er programmeringsspråk et løst problem?",
+              "date": "2025-04-03",
+              "link": "https://www.kodemaker.no/blogg/2025-04-03-er-programmeringsprak-et-lost-problem/"
+            },
+            {
+              "title": "Møt mise, verktøyet du kanskje ikke visste du trengte",
+              "date": "2025-04-02",
+              "link": "https://www.kodemaker.no/blogg/2025-03-26-mise/"
+            },
+            {
+              "title": "Gode backuprutiner krever tillit",
+              "date": "2025-03-25",
+              "link": "https://www.kodemaker.no/blogg/2025-03-25-gode-backuprutiner-krever-tillit/"
+            },
+            {
+              "title": "Hva er din ledelsesfilosofi?",
+              "date": "2025-03-07",
+              "link": "https://www.kodemaker.no/blogg/2025-03-07-hva-er-din-ledelsesfilosofi/"
+            },
+            {
+              "title": "Constraint Solvers og utfordrende planlegging",
+              "date": "2025-02-26",
+              "link": "https://www.kodemaker.no/blogg/2025-02-26-constraint-solvers/"
+            }
+          ]
+        },
+        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -35,33 +128,64 @@
           ]
         },
         {
-          "title": "leanrada.com notes",
-          "feedUrl": "https://leanrada.com/rss.xml",
+          "title": "draganstepanovic.com",
+          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
           "items": [
             {
-              "title": "Language evolves, so we must too. On generative art",
+              "title": "Managing  interdependence over decoupling",
               "date": "2025-04-03",
-              "link": "https://leanrada.com/notes/language-evolves-generative-art/?ref=rss"
+              "link": "https://dragan-stepanovic.github.io//2025/04/03/interdependence-over-independence.html"
             },
             {
-              "title": "Minimal CSS-only blurry image placeholders",
-              "date": "2025-03-30",
-              "link": "https://leanrada.com/notes/css-only-lqip/?ref=rss"
+              "title": "Working together (pair/mob/ensemble) helps with fixing inefficiencies in the system",
+              "date": "2025-03-04",
+              "link": "https://dragan-stepanovic.github.io//2025/03/04/pain-together.html"
             },
             {
-              "title": "Inline rendering with document​.currentScript",
+              "title": "If an incident report",
+              "date": "2024-11-19",
+              "link": "https://dragan-stepanovic.github.io//2024/11/19/if-incident-report.html"
+            },
+            {
+              "title": "Let the design guide you",
+              "date": "2024-11-12",
+              "link": "https://dragan-stepanovic.github.io//2024/11/12/design-emergence.html"
+            },
+            {
+              "title": "The scary thing with overly complex solutions",
+              "date": "2024-10-29",
+              "link": "https://dragan-stepanovic.github.io//2024/10/29/scary-thing.html"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Personal tools",
+              "date": "2025-04-03",
+              "link": "https://macwright.com/2025/04/03/personal-tools.html"
+            },
+            {
+              "title": "Introducing the blogroll",
               "date": "2025-03-07",
-              "link": "https://leanrada.com/notes/inline-rendering-currentscript/?ref=rss"
+              "link": "https://macwright.com/2025/03/07/blogroll.html"
             },
             {
-              "title": "Rewriting my site in vanilla web",
+              "title": "Recently",
               "date": "2025-03-01",
-              "link": "https://leanrada.com/notes/vanilla-web-rewrite/?ref=rss"
+              "link": "https://macwright.com/2025/03/01/recently.html"
             },
             {
-              "title": "CSS sprite sheet animations",
-              "date": "2024-11-03",
-              "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
+              "title": "Recently",
+              "date": "2025-02-04",
+              "link": "https://macwright.com/2025/02/04/recently.html"
+            },
+            {
+              "title": "2025 Predictions",
+              "date": "2025-01-11",
+              "link": "https://macwright.com/2025/01/11/predictions.html"
             }
           ]
         },
@@ -97,6 +221,99 @@
           ]
         },
         {
+          "title": "leanrada.com notes",
+          "feedUrl": "https://leanrada.com/rss.xml",
+          "items": [
+            {
+              "title": "Language evolves, so we must too. On generative art",
+              "date": "2025-04-03",
+              "link": "https://leanrada.com/notes/language-evolves-generative-art/?ref=rss"
+            },
+            {
+              "title": "Minimal CSS-only blurry image placeholders",
+              "date": "2025-03-30",
+              "link": "https://leanrada.com/notes/css-only-lqip/?ref=rss"
+            },
+            {
+              "title": "Inline rendering with document​.currentScript",
+              "date": "2025-03-07",
+              "link": "https://leanrada.com/notes/inline-rendering-currentscript/?ref=rss"
+            },
+            {
+              "title": "Rewriting my site in vanilla web",
+              "date": "2025-03-01",
+              "link": "https://leanrada.com/notes/vanilla-web-rewrite/?ref=rss"
+            },
+            {
+              "title": "CSS sprite sheet animations",
+              "date": "2024-11-03",
+              "link": "https://leanrada.com/notes/css-sprite-sheets?ref=rss"
+            }
+          ]
+        },
+        {
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
+          "items": [
+            {
+              "title": "Love, Creeps and Creatures: Buffy Season 2",
+              "date": "2025-04-03",
+              "link": "https://mikegrindle.com/posts/buffy-2"
+            },
+            {
+              "title": "The Luxury of Analogue",
+              "date": "2025-04-01",
+              "link": "https://mikegrindle.com/posts/analogue"
+            },
+            {
+              "title": "The Product of Inner Compulsion",
+              "date": "2025-03-28",
+              "link": "https://mikegrindle.com/newsletter/itm-7"
+            },
+            {
+              "title": "The Evil Things I've Done",
+              "date": "2025-03-26",
+              "link": "https://mikegrindle.com/posts/evil"
+            },
+            {
+              "title": "Re: What I Grew Up With",
+              "date": "2025-03-10",
+              "link": "https://mikegrindle.com/posts/grew-up-with"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Reading notes: March 2025",
+              "date": "2025-04-03",
+              "link": "https://anniemueller.com/posts/reading-notes-march-2025"
+            },
+            {
+              "title": "Small mercies",
+              "date": "2025-03-29",
+              "link": "https://anniemueller.com/posts/small-mercies"
+            },
+            {
+              "title": "How little we know of each other’s existence",
+              "date": "2025-03-13",
+              "link": "https://anniemueller.com/posts/how-little-we-know-of-each-others-existence"
+            },
+            {
+              "title": "Love letters 9-10",
+              "date": "2025-03-10",
+              "link": "https://anniemueller.com/posts/love-letters-9-10"
+            },
+            {
+              "title": "How to clean the bathroom",
+              "date": "2025-03-05",
+              "link": "https://anniemueller.com/posts/how-to-clean-the-bathroom"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -124,68 +341,6 @@
               "title": "A Few Thoughts on Customizable Form Controls",
               "date": "2025-03-22",
               "link": "https://blog.jim-nielsen.com/2025/thoughts-on-working-draft-to-override-form-controls/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Dirt in a Cog",
-              "date": "2025-04-02",
-              "link": "https://gomakethings.com/dirt-in-a-cog/"
-            },
-            {
-              "title": "A no-hassle static site CMS",
-              "date": "2025-04-01",
-              "link": "https://gomakethings.com/a-no-hassle-static-site-cms/"
-            },
-            {
-              "title": "The spice of life",
-              "date": "2025-03-31",
-              "link": "https://gomakethings.com/the-spice-of-life/"
-            },
-            {
-              "title": "The band",
-              "date": "2025-03-29",
-              "link": "https://gomakethings.com/the-band/"
-            },
-            {
-              "title": "A sink and a weight",
-              "date": "2025-03-28",
-              "link": "https://gomakethings.com/a-sink-and-a-weight/"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Møt mise, verktøyet du kanskje ikke visste du trengte",
-              "date": "2025-04-02",
-              "link": "https://www.kodemaker.no/blogg/2025-03-26-mise/"
-            },
-            {
-              "title": "Gode backuprutiner krever tillit",
-              "date": "2025-03-25",
-              "link": "https://www.kodemaker.no/blogg/2025-03-25-gode-backuprutiner-krever-tillit/"
-            },
-            {
-              "title": "Hva er din ledelsesfilosofi?",
-              "date": "2025-03-07",
-              "link": "https://www.kodemaker.no/blogg/2025-03-07-hva-er-din-ledelsesfilosofi/"
-            },
-            {
-              "title": "Constraint Solvers og utfordrende planlegging",
-              "date": "2025-02-26",
-              "link": "https://www.kodemaker.no/blogg/2025-02-26-constraint-solvers/"
-            },
-            {
-              "title": "Semantisk søk ved hjelp av vektor-representasjoner av tekst",
-              "date": "2025-02-12",
-              "link": "https://www.kodemaker.no/blogg/2025-02-12-text-embeddings/"
             }
           ]
         },
@@ -279,37 +434,6 @@
               "title": "Mere Being 016 - August - Iron Supplements, Digestion, Love",
               "date": "2024-09-01",
               "link": "https://www.simplermachines.com/mere-being-2/"
-            }
-          ]
-        },
-        {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
-          "items": [
-            {
-              "title": "The Luxury of Analogue",
-              "date": "2025-04-01",
-              "link": "https://mikegrindle.com/posts/analogue"
-            },
-            {
-              "title": "The Product of Inner Compulsion",
-              "date": "2025-03-28",
-              "link": "https://mikegrindle.com/newsletter/itm-7"
-            },
-            {
-              "title": "The Evil Things I've Done",
-              "date": "2025-03-26",
-              "link": "https://mikegrindle.com/posts/evil"
-            },
-            {
-              "title": "Re: What I Grew Up With",
-              "date": "2025-03-10",
-              "link": "https://mikegrindle.com/posts/grew-up-with"
-            },
-            {
-              "title": "Everything in Solitude, Except Character",
-              "date": "2025-01-09",
-              "link": "https://mikegrindle.com/newsletter/itm-6"
             }
           ]
         },
@@ -464,37 +588,6 @@
           ]
         },
         {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "item-flow",
-              "date": "2025-03-30",
-              "link": "https://robinrendle.com/notes/item-flow/"
-            },
-            {
-              "title": "Humiliation",
-              "date": "2025-03-15",
-              "link": "https://robinrendle.com/notes/humiliation/"
-            },
-            {
-              "title": "Abandon all keyboards",
-              "date": "2025-03-11",
-              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
-            },
-            {
-              "title": "trot",
-              "date": "2025-02-15",
-              "link": "https://robinrendle.com/notes/trot/"
-            },
-            {
-              "title": "Notes on blogging",
-              "date": "2025-02-01",
-              "link": "https://robinrendle.com/notes/notes-on-blogging/"
-            }
-          ]
-        },
-        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -584,37 +677,6 @@
               "title": "The nice feeling of trusting tools",
               "date": "2025-02-09",
               "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Small mercies",
-              "date": "2025-03-29",
-              "link": "https://anniemueller.com/posts/small-mercies"
-            },
-            {
-              "title": "How little we know of each other’s existence",
-              "date": "2025-03-13",
-              "link": "https://anniemueller.com/posts/how-little-we-know-of-each-others-existence"
-            },
-            {
-              "title": "Love letters 9-10",
-              "date": "2025-03-10",
-              "link": "https://anniemueller.com/posts/love-letters-9-10"
-            },
-            {
-              "title": "How to clean the bathroom",
-              "date": "2025-03-05",
-              "link": "https://anniemueller.com/posts/how-to-clean-the-bathroom"
-            },
-            {
-              "title": "Reading notes: February 2025",
-              "date": "2025-03-02",
-              "link": "https://anniemueller.com/posts/reading-notes-february-2025"
             }
           ]
         },
@@ -805,37 +867,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Tag, You’re It",
-              "date": "2025-03-22",
-              "link": "https://adrianroselli.com/2025/03/tag-youre-it.html"
-            },
-            {
-              "title": "CSUNATC 2025 Recap",
-              "date": "2025-03-16",
-              "link": "https://adrianroselli.com/2025/03/csunatc-2025-recap.html"
-            },
-            {
-              "title": "Don’t Use Fake Bold or Italic in Social Media",
-              "date": "2025-03-06",
-              "link": "https://adrianroselli.com/2025/03/dont-use-fake-bold-or-italic-in-social-media.html"
-            },
-            {
-              "title": "Be Wary of Accessibility Guarantees from Anyone",
-              "date": "2025-03-02",
-              "link": "https://adrianroselli.com/2025/03/be-wary-of-accessibility-guarantees-from-anyone.html"
-            },
-            {
-              "title": "1.4.10: Adversarial Conformance",
-              "date": "2025-02-23",
-              "link": "https://adrianroselli.com/2025/02/1-4-10-adversarial-conformance.html"
-            }
-          ]
-        },
-        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -991,37 +1022,6 @@
           ]
         },
         {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
-              "date": "2025-03-09",
-              "link": "https://www.felienne.com/archives/8880"
-            },
-            {
-              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
-              "date": "2025-03-03",
-              "link": "https://www.felienne.com/archives/8853"
-            },
-            {
-              "title": "Who owns your cloned AI voice – Week 8’s AI news",
-              "date": "2025-02-23",
-              "link": "https://www.felienne.com/archives/8808"
-            },
-            {
-              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
-              "date": "2025-02-15",
-              "link": "https://www.felienne.com/archives/8749"
-            },
-            {
-              "title": "Week 6’s AI News",
-              "date": "2025-02-07",
-              "link": "https://www.felienne.com/archives/8900"
-            }
-          ]
-        },
-        {
           "title": "Julia Evans",
           "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
@@ -1053,37 +1053,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Introducing the blogroll",
-              "date": "2025-03-07",
-              "link": "https://macwright.com/2025/03/07/blogroll.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-03-01",
-              "link": "https://macwright.com/2025/03/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-02-04",
-              "link": "https://macwright.com/2025/02/04/recently.html"
-            },
-            {
-              "title": "2025 Predictions",
-              "date": "2025-01-11",
-              "link": "https://macwright.com/2025/01/11/predictions.html"
-            },
-            {
-              "title": "Recently 2024",
-              "date": "2024-12-15",
-              "link": "https://macwright.com/2024/12/15/recently.html"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -1111,37 +1080,6 @@
               "title": "“Never Forgive Them” – What to do with Ed Zitron’s essay on the “Rot Economy”",
               "date": "2025-01-26",
               "link": "https://rosswintle.uk/2025/01/never-forgive-them-what-to-do-with-ed-zitrons-essay-on-the-rot-economy/"
-            }
-          ]
-        },
-        {
-          "title": "draganstepanovic.com",
-          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
-          "items": [
-            {
-              "title": "Working together (pair/mob/ensemble) helps with fixing inefficiencies in the system",
-              "date": "2025-03-04",
-              "link": "https://dragan-stepanovic.github.io//2025/03/04/pain-together.html"
-            },
-            {
-              "title": "If an incident report",
-              "date": "2024-11-19",
-              "link": "https://dragan-stepanovic.github.io//2024/11/19/if-incident-report.html"
-            },
-            {
-              "title": "Let the design guide you",
-              "date": "2024-11-12",
-              "link": "https://dragan-stepanovic.github.io//2024/11/12/design-emergence.html"
-            },
-            {
-              "title": "The scary thing with overly complex solutions",
-              "date": "2024-10-29",
-              "link": "https://dragan-stepanovic.github.io//2024/10/29/scary-thing.html"
-            },
-            {
-              "title": "The opposite of Extreme Programming",
-              "date": "2024-10-29",
-              "link": "https://dragan-stepanovic.github.io//2024/10/29/opposite-of-xp.html"
             }
           ]
         },
@@ -2461,11 +2399,13 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-03T03:31:02.906Z",
+  "fetchDate": "2025-04-04T03:29:48.976Z",
   "errors": [
+    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://www.felienne.com/feed"
   ]
 }

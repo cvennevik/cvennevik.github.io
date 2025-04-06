@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Tweaking Text Level Styles, Reprised",
+              "date": "2025-04-06",
+              "link": "https://adrianroselli.com/2025/04/tweaking-text-level-styles-reprised.html"
+            },
+            {
+              "title": "Mainlining Mains",
+              "date": "2025-04-03",
+              "link": "https://adrianroselli.com/2025/04/mainlining-mains.html"
+            },
+            {
+              "title": "Tag, You’re It",
+              "date": "2025-03-22",
+              "link": "https://adrianroselli.com/2025/03/tag-youre-it.html"
+            },
+            {
+              "title": "CSUNATC 2025 Recap",
+              "date": "2025-03-16",
+              "link": "https://adrianroselli.com/2025/03/csunatc-2025-recap.html"
+            },
+            {
+              "title": "Don’t Use Fake Bold or Italic in Social Media",
+              "date": "2025-03-06",
+              "link": "https://adrianroselli.com/2025/03/dont-use-fake-bold-or-italic-in-social-media.html"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Tag, You’re It",
+              "date": "2025-04-05",
+              "link": "https://blog.jim-nielsen.com/2025/tag-youre-it/"
+            },
+            {
+              "title": "Flow State and Surfing",
+              "date": "2025-04-02",
+              "link": "https://blog.jim-nielsen.com/2025/flow-state-and-surfing/"
+            },
+            {
+              "title": "Don’t Forget the Meta Theme-Color Tag",
+              "date": "2025-03-30",
+              "link": "https://blog.jim-nielsen.com/2025/dont-forget-meta-theme-color/"
+            },
+            {
+              "title": "The Value of Experience",
+              "date": "2025-03-26",
+              "link": "https://blog.jim-nielsen.com/2025/value-of-experience/"
+            },
+            {
+              "title": "Book Notes: “The Order of Time” by Carlo Rovelli",
+              "date": "2025-03-24",
+              "link": "https://blog.jim-nielsen.com/2025/book-notes-order-of-time/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "It's like a new phone",
+              "date": "2025-04-05",
+              "link": "https://gomakethings.com/its-like-a-new-phone/"
+            },
             {
               "title": "Building a toast library from scratch in just 30 minutes",
               "date": "2025-04-04",
@@ -26,11 +93,63 @@
               "title": "A no-hassle static site CMS",
               "date": "2025-04-01",
               "link": "https://gomakethings.com/a-no-hassle-static-site-cms/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-04-05",
+              "link": "https://frills.dev/status/microblog/"
             },
             {
-              "title": "The spice of life",
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
+            },
+            {
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
+            },
+            {
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            },
+            {
+              "title": "Alt Text Selfies",
+              "date": "2025-04-01",
+              "link": "https://alttextselfies.net/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-04-05",
+              "link": "https://dbushell.com/notes/2025-04-05T08:33Z/"
+            },
+            {
+              "date": "2025-04-05",
+              "link": "https://dbushell.com/notes/2025-04-05T06:29Z/"
+            },
+            {
               "date": "2025-03-31",
-              "link": "https://gomakethings.com/the-spice-of-life/"
+              "link": "https://dbushell.com/notes/2025-03-31T16:48Z/"
+            },
+            {
+              "date": "2025-03-31",
+              "link": "https://dbushell.com/notes/2025-03-31T07:24Z/"
+            },
+            {
+              "date": "2025-03-28",
+              "link": "https://dbushell.com/notes/2025-03-28T17:54Z/"
             }
           ]
         },
@@ -128,37 +247,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-04-04",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
-            },
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
-            },
-            {
-              "title": "Alt Text Selfies",
-              "date": "2025-04-01",
-              "link": "https://alttextselfies.net/"
-            }
-          ]
-        },
-        {
           "title": "Evan Boehs in the blog",
           "feedUrl": "https://boehs.org/in/blog.xml",
           "items": [
@@ -221,33 +309,33 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
           "items": [
             {
-              "title": "Mainlining Mains",
+              "title": "Personal tools",
               "date": "2025-04-03",
-              "link": "https://adrianroselli.com/2025/04/mainlining-mains.html"
+              "link": "https://macwright.com/2025/04/03/personal-tools.html"
             },
             {
-              "title": "Tag, You’re It",
-              "date": "2025-03-22",
-              "link": "https://adrianroselli.com/2025/03/tag-youre-it.html"
+              "title": "Introducing the blogroll",
+              "date": "2025-03-07",
+              "link": "https://macwright.com/2025/03/07/blogroll.html"
             },
             {
-              "title": "CSUNATC 2025 Recap",
-              "date": "2025-03-16",
-              "link": "https://adrianroselli.com/2025/03/csunatc-2025-recap.html"
+              "title": "Recently",
+              "date": "2025-03-01",
+              "link": "https://macwright.com/2025/03/01/recently.html"
             },
             {
-              "title": "Don’t Use Fake Bold or Italic in Social Media",
-              "date": "2025-03-06",
-              "link": "https://adrianroselli.com/2025/03/dont-use-fake-bold-or-italic-in-social-media.html"
+              "title": "Recently",
+              "date": "2025-02-04",
+              "link": "https://macwright.com/2025/02/04/recently.html"
             },
             {
-              "title": "Be Wary of Accessibility Guarantees from Anyone",
-              "date": "2025-03-02",
-              "link": "https://adrianroselli.com/2025/03/be-wary-of-accessibility-guarantees-from-anyone.html"
+              "title": "2025 Predictions",
+              "date": "2025-01-11",
+              "link": "https://macwright.com/2025/01/11/predictions.html"
             }
           ]
         },
@@ -345,37 +433,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Personal tools",
-              "date": "2025-04-03",
-              "link": "https://macwright.com/2025/04/03/personal-tools.html"
-            },
-            {
-              "title": "Introducing the blogroll",
-              "date": "2025-03-07",
-              "link": "https://macwright.com/2025/03/07/blogroll.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-03-01",
-              "link": "https://macwright.com/2025/03/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-02-04",
-              "link": "https://macwright.com/2025/02/04/recently.html"
-            },
-            {
-              "title": "2025 Predictions",
-              "date": "2025-01-11",
-              "link": "https://macwright.com/2025/01/11/predictions.html"
-            }
-          ]
-        },
-        {
           "title": "leanrada.com notes",
           "feedUrl": "https://leanrada.com/rss.xml",
           "items": [
@@ -434,37 +491,6 @@
               "title": "Re: What I Grew Up With",
               "date": "2025-03-10",
               "link": "https://mikegrindle.com/posts/grew-up-with"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Flow State and Surfing",
-              "date": "2025-04-02",
-              "link": "https://blog.jim-nielsen.com/2025/flow-state-and-surfing/"
-            },
-            {
-              "title": "Don’t Forget the Meta Theme-Color Tag",
-              "date": "2025-03-30",
-              "link": "https://blog.jim-nielsen.com/2025/dont-forget-meta-theme-color/"
-            },
-            {
-              "title": "The Value of Experience",
-              "date": "2025-03-26",
-              "link": "https://blog.jim-nielsen.com/2025/value-of-experience/"
-            },
-            {
-              "title": "Book Notes: “The Order of Time” by Carlo Rovelli",
-              "date": "2025-03-24",
-              "link": "https://blog.jim-nielsen.com/2025/book-notes-order-of-time/"
-            },
-            {
-              "title": "A Few Thoughts on Customizable Form Controls",
-              "date": "2025-03-22",
-              "link": "https://blog.jim-nielsen.com/2025/thoughts-on-working-draft-to-override-form-controls/"
             }
           ]
         },
@@ -620,32 +646,6 @@
               "title": "The blockquote element",
               "date": "2024-10-14",
               "link": "https://heydonworks.com/article/the-blockquote-element/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-03-31",
-              "link": "https://dbushell.com/notes/2025-03-31T16:48Z/"
-            },
-            {
-              "date": "2025-03-31",
-              "link": "https://dbushell.com/notes/2025-03-31T07:24Z/"
-            },
-            {
-              "date": "2025-03-28",
-              "link": "https://dbushell.com/notes/2025-03-28T17:54Z/"
-            },
-            {
-              "date": "2025-03-27",
-              "link": "https://dbushell.com/notes/2025-03-27T06:22Z/"
-            },
-            {
-              "date": "2025-03-26",
-              "link": "https://dbushell.com/notes/2025-03-26T13:33Z/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-05T03:28:18.392Z",
+  "fetchDate": "2025-04-06T03:31:57.734Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

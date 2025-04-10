@@ -4,40 +4,14 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "I am Uncluttered (Yellow): an ebook on doom-prepping web dev",
-              "date": "2025-04-08",
-              "link": "https://www.baldurbjarnason.com/2025/doom-prepping-web-dev/"
-            },
-            {
-              "title": "Feedback loops, 'AI', learning, and management",
-              "date": "2025-03-31",
-              "link": "https://www.baldurbjarnason.com/2025/feedback-loops-ai-learning/"
-            },
-            {
-              "title": "Cat and Raven Photos (31 March 2025)",
-              "date": "2025-03-31",
-              "link": "https://www.baldurbjarnason.com/notes/photos/photos-15/"
-            },
-            {
-              "title": "Anti-terrorist spy movies, the end of James Bond, and remembering my grandfather",
-              "date": "2025-03-27",
-              "link": "https://www.baldurbjarnason.com/notes/2025/james-bond-and-my-grandfather/"
-            },
-            {
-              "title": "Spy media as commentary on society: Callan, The Equalizer, Danger Man, The Prisoner",
-              "date": "2025-03-27",
-              "link": "https://www.baldurbjarnason.com/notes/2025/spy-media-commentary/"
-            }
-          ]
-        },
-        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Finding open roles",
+              "date": "2025-04-09",
+              "link": "https://gomakethings.com/finding-open-roles/"
+            },
             {
               "title": "Finding a job: coffee chats",
               "date": "2025-04-08",
@@ -57,11 +31,63 @@
               "title": "Building a toast library from scratch in just 30 minutes",
               "date": "2025-04-04",
               "link": "https://gomakethings.com/building-a-toast-library-from-scratch-in-just-30-minutes/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-04-09",
+              "link": "https://frills.dev/status/microblog/"
             },
             {
-              "title": "A pragmatic browser support strategy",
+              "title": "HTML named colors",
               "date": "2025-04-03",
-              "link": "https://gomakethings.com/a-pragmatic-browser-support-strategy/"
+              "link": "https://frills.dev/experiments/html-named-colors/"
+            },
+            {
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
+            },
+            {
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            },
+            {
+              "title": "Alt Text Selfies",
+              "date": "2025-04-01",
+              "link": "https://alttextselfies.net/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-04-09",
+              "link": "https://dbushell.com/notes/2025-04-09T10:42Z/"
+            },
+            {
+              "date": "2025-04-09",
+              "link": "https://dbushell.com/notes/2025-04-09T07:01Z/"
+            },
+            {
+              "date": "2025-04-09",
+              "link": "https://dbushell.com/notes/2025-04-09T06:11Z/"
+            },
+            {
+              "date": "2025-04-07",
+              "link": "https://dbushell.com/notes/2025-04-07T05:40Z/"
+            },
+            {
+              "date": "2025-04-06",
+              "link": "https://dbushell.com/notes/2025-04-06T06:00Z/"
             }
           ]
         },
@@ -93,6 +119,37 @@
               "title": "The Value of Experience",
               "date": "2025-03-26",
               "link": "https://blog.jim-nielsen.com/2025/value-of-experience/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "I am Uncluttered (Yellow): an ebook on doom-prepping web dev",
+              "date": "2025-04-08",
+              "link": "https://www.baldurbjarnason.com/2025/doom-prepping-web-dev/"
+            },
+            {
+              "title": "Feedback loops, 'AI', learning, and management",
+              "date": "2025-03-31",
+              "link": "https://www.baldurbjarnason.com/2025/feedback-loops-ai-learning/"
+            },
+            {
+              "title": "Cat and Raven Photos (31 March 2025)",
+              "date": "2025-03-31",
+              "link": "https://www.baldurbjarnason.com/notes/photos/photos-15/"
+            },
+            {
+              "title": "Anti-terrorist spy movies, the end of James Bond, and remembering my grandfather",
+              "date": "2025-03-27",
+              "link": "https://www.baldurbjarnason.com/notes/2025/james-bond-and-my-grandfather/"
+            },
+            {
+              "title": "Spy media as commentary on society: Callan, The Equalizer, Danger Man, The Prisoner",
+              "date": "2025-03-27",
+              "link": "https://www.baldurbjarnason.com/notes/2025/spy-media-commentary/"
             }
           ]
         },
@@ -190,37 +247,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-04-08",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
-            },
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
-            },
-            {
-              "title": "Alt Text Selfies",
-              "date": "2025-04-01",
-              "link": "https://alttextselfies.net/"
-            }
-          ]
-        },
-        {
           "title": "The Weblog of fLaMEd",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -310,32 +336,6 @@
               "title": "Recently",
               "date": "2025-02-04",
               "link": "https://macwright.com/2025/02/04/recently.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-04-07",
-              "link": "https://dbushell.com/notes/2025-04-07T05:40Z/"
-            },
-            {
-              "date": "2025-04-06",
-              "link": "https://dbushell.com/notes/2025-04-06T06:00Z/"
-            },
-            {
-              "date": "2025-04-05",
-              "link": "https://dbushell.com/notes/2025-04-05T08:33Z/"
-            },
-            {
-              "date": "2025-04-05",
-              "link": "https://dbushell.com/notes/2025-04-05T06:29Z/"
-            },
-            {
-              "date": "2025-03-31",
-              "link": "https://dbushell.com/notes/2025-03-31T16:48Z/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-09T03:31:02.993Z",
+  "fetchDate": "2025-04-10T03:31:34.291Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

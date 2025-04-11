@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Ductility on the Web",
+              "date": "2025-04-10",
+              "link": "https://blog.jim-nielsen.com/2025/ductility/"
+            },
+            {
+              "title": "Background Image Opacity in CSS",
+              "date": "2025-04-08",
+              "link": "https://blog.jim-nielsen.com/2025/background-image-opacity-css/"
+            },
+            {
+              "title": "Tag, You’re It",
+              "date": "2025-04-05",
+              "link": "https://blog.jim-nielsen.com/2025/tag-youre-it/"
+            },
+            {
+              "title": "Flow State and Surfing",
+              "date": "2025-04-02",
+              "link": "https://blog.jim-nielsen.com/2025/flow-state-and-surfing/"
+            },
+            {
+              "title": "Don’t Forget the Meta Theme-Color Tag",
+              "date": "2025-03-30",
+              "link": "https://blog.jim-nielsen.com/2025/dont-forget-meta-theme-color/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "How to write effective resumes",
+              "date": "2025-04-10",
+              "link": "https://gomakethings.com/how-to-write-effective-resumes/"
+            },
             {
               "title": "Finding open roles",
               "date": "2025-04-09",
@@ -26,11 +62,37 @@
               "title": "It's like a new phone",
               "date": "2025-04-05",
               "link": "https://gomakethings.com/its-like-a-new-phone/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Automated WCAG Testing Is Grrreat!",
+              "date": "2025-04-10",
+              "link": "https://adrianroselli.com/2025/04/automated-wcag-testing-is-grrreat.html"
             },
             {
-              "title": "Building a toast library from scratch in just 30 minutes",
-              "date": "2025-04-04",
-              "link": "https://gomakethings.com/building-a-toast-library-from-scratch-in-just-30-minutes/"
+              "title": "Tweaking Text Level Styles, Reprised",
+              "date": "2025-04-06",
+              "link": "https://adrianroselli.com/2025/04/tweaking-text-level-styles-reprised.html"
+            },
+            {
+              "title": "Mainlining Mains",
+              "date": "2025-04-03",
+              "link": "https://adrianroselli.com/2025/04/mainlining-mains.html"
+            },
+            {
+              "title": "Tag, You’re It",
+              "date": "2025-03-22",
+              "link": "https://adrianroselli.com/2025/03/tag-youre-it.html"
+            },
+            {
+              "title": "CSUNATC 2025 Recap",
+              "date": "2025-03-16",
+              "link": "https://adrianroselli.com/2025/03/csunatc-2025-recap.html"
             }
           ]
         },
@@ -40,7 +102,7 @@
           "items": [
             {
               "title": "Microblog",
-              "date": "2025-04-09",
+              "date": "2025-04-10",
               "link": "https://frills.dev/status/microblog/"
             },
             {
@@ -62,6 +124,37 @@
               "title": "Alt Text Selfies",
               "date": "2025-04-01",
               "link": "https://alttextselfies.net/"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "AI-assistert Utvikling",
+              "date": "2025-04-09",
+              "link": "https://www.kodemaker.no/blogg/2025-04-09-ai-assistert-utvikling/"
+            },
+            {
+              "title": "Er programmeringsspråk et løst problem?",
+              "date": "2025-04-03",
+              "link": "https://www.kodemaker.no/blogg/2025-04-03-er-programmeringsprak-et-lost-problem/"
+            },
+            {
+              "title": "Møt mise, verktøyet du kanskje ikke visste du trengte",
+              "date": "2025-04-02",
+              "link": "https://www.kodemaker.no/blogg/2025-03-26-mise/"
+            },
+            {
+              "title": "Gode backuprutiner krever tillit",
+              "date": "2025-03-25",
+              "link": "https://www.kodemaker.no/blogg/2025-03-25-gode-backuprutiner-krever-tillit/"
+            },
+            {
+              "title": "Hva er din ledelsesfilosofi?",
+              "date": "2025-03-07",
+              "link": "https://www.kodemaker.no/blogg/2025-03-07-hva-er-din-ledelsesfilosofi/"
             }
           ]
         },
@@ -88,37 +181,6 @@
             {
               "date": "2025-04-06",
               "link": "https://dbushell.com/notes/2025-04-06T06:00Z/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Background Image Opacity in CSS",
-              "date": "2025-04-08",
-              "link": "https://blog.jim-nielsen.com/2025/background-image-opacity-css/"
-            },
-            {
-              "title": "Tag, You’re It",
-              "date": "2025-04-05",
-              "link": "https://blog.jim-nielsen.com/2025/tag-youre-it/"
-            },
-            {
-              "title": "Flow State and Surfing",
-              "date": "2025-04-02",
-              "link": "https://blog.jim-nielsen.com/2025/flow-state-and-surfing/"
-            },
-            {
-              "title": "Don’t Forget the Meta Theme-Color Tag",
-              "date": "2025-03-30",
-              "link": "https://blog.jim-nielsen.com/2025/dont-forget-meta-theme-color/"
-            },
-            {
-              "title": "The Value of Experience",
-              "date": "2025-03-26",
-              "link": "https://blog.jim-nielsen.com/2025/value-of-experience/"
             }
           ]
         },
@@ -433,37 +495,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Tweaking Text Level Styles, Reprised",
-              "date": "2025-04-06",
-              "link": "https://adrianroselli.com/2025/04/tweaking-text-level-styles-reprised.html"
-            },
-            {
-              "title": "Mainlining Mains",
-              "date": "2025-04-03",
-              "link": "https://adrianroselli.com/2025/04/mainlining-mains.html"
-            },
-            {
-              "title": "Tag, You’re It",
-              "date": "2025-03-22",
-              "link": "https://adrianroselli.com/2025/03/tag-youre-it.html"
-            },
-            {
-              "title": "CSUNATC 2025 Recap",
-              "date": "2025-03-16",
-              "link": "https://adrianroselli.com/2025/03/csunatc-2025-recap.html"
-            },
-            {
-              "title": "Don’t Use Fake Bold or Italic in Social Media",
-              "date": "2025-03-06",
-              "link": "https://adrianroselli.com/2025/03/dont-use-fake-bold-or-italic-in-social-media.html"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -584,37 +615,6 @@
               "title": "A Rough Timeline of Technological Buffoonery in the DOGE Era",
               "date": "2025-02-24",
               "link": "https://boehs.org/node/doge-tech"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Er programmeringsspråk et løst problem?",
-              "date": "2025-04-03",
-              "link": "https://www.kodemaker.no/blogg/2025-04-03-er-programmeringsprak-et-lost-problem/"
-            },
-            {
-              "title": "Møt mise, verktøyet du kanskje ikke visste du trengte",
-              "date": "2025-04-02",
-              "link": "https://www.kodemaker.no/blogg/2025-03-26-mise/"
-            },
-            {
-              "title": "Gode backuprutiner krever tillit",
-              "date": "2025-03-25",
-              "link": "https://www.kodemaker.no/blogg/2025-03-25-gode-backuprutiner-krever-tillit/"
-            },
-            {
-              "title": "Hva er din ledelsesfilosofi?",
-              "date": "2025-03-07",
-              "link": "https://www.kodemaker.no/blogg/2025-03-07-hva-er-din-ledelsesfilosofi/"
-            },
-            {
-              "title": "Constraint Solvers og utfordrende planlegging",
-              "date": "2025-02-26",
-              "link": "https://www.kodemaker.no/blogg/2025-02-26-constraint-solvers/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-10T03:31:34.291Z",
+  "fetchDate": "2025-04-11T03:31:24.097Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

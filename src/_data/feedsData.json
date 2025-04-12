@@ -4,6 +4,156 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "I am Uncluttered (Yellow): doom-prepping web dev through disdain, disrespect, and doing the right thing",
+              "date": "2025-04-19",
+              "link": "https://www.baldurbjarnason.com/books/uncluttered-yellow/"
+            },
+            {
+              "title": "I am Uncluttered (Yellow): an ebook on doom-prepping web dev",
+              "date": "2025-04-08",
+              "link": "https://www.baldurbjarnason.com/2025/doom-prepping-web-dev/"
+            },
+            {
+              "title": "Feedback loops, 'AI', learning, and management",
+              "date": "2025-03-31",
+              "link": "https://www.baldurbjarnason.com/2025/feedback-loops-ai-learning/"
+            },
+            {
+              "title": "Cat and Raven Photos (31 March 2025)",
+              "date": "2025-03-31",
+              "link": "https://www.baldurbjarnason.com/notes/photos/photos-15/"
+            },
+            {
+              "title": "Anti-terrorist spy movies, the end of James Bond, and remembering my grandfather",
+              "date": "2025-03-27",
+              "link": "https://www.baldurbjarnason.com/notes/2025/james-bond-and-my-grandfather/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Ghostty & macOS Quick Terminal 👻",
+              "date": "2025-04-11",
+              "link": "https://dbushell.com/2025/04/11/ghostty-macos-quick-terminal/"
+            },
+            {
+              "title": "Weblogging (tagged)",
+              "date": "2025-04-06",
+              "link": "https://dbushell.com/2025/04/06/weblogging-4/"
+            },
+            {
+              "title": "Et tu, Grammarly?",
+              "date": "2025-03-29",
+              "link": "https://dbushell.com/2025/03/29/et-tu-grammarly/"
+            },
+            {
+              "title": "Vibe-free SvelteKit for Fun and Profit",
+              "date": "2025-03-28",
+              "link": "https://dbushell.com/2025/03/28/vibe-free-sveltekit-for-fun-and-profit/"
+            },
+            {
+              "title": "A Focused Redesign",
+              "date": "2025-03-21",
+              "link": "https://dbushell.com/2025/03/21/blog-redesign/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "How to nail your job interview",
+              "date": "2025-04-11",
+              "link": "https://gomakethings.com/how-to-nail-your-job-interview/"
+            },
+            {
+              "title": "How to write effective resumes",
+              "date": "2025-04-10",
+              "link": "https://gomakethings.com/how-to-write-effective-resumes/"
+            },
+            {
+              "title": "Finding open roles",
+              "date": "2025-04-09",
+              "link": "https://gomakethings.com/finding-open-roles/"
+            },
+            {
+              "title": "Finding a job: coffee chats",
+              "date": "2025-04-08",
+              "link": "https://gomakethings.com/finding-a-job-coffee-chats/"
+            },
+            {
+              "title": "How to add links with a keyboard shortcut in Sublime Text",
+              "date": "2025-04-07",
+              "link": "https://gomakethings.com/how-to-add-links-with-a-keyboard-shortcut-in-sublime-text/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-04-11",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
+            },
+            {
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
+            },
+            {
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            },
+            {
+              "title": "Alt Text Selfies",
+              "date": "2025-04-01",
+              "link": "https://alttextselfies.net/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-04-11",
+              "link": "https://dbushell.com/notes/2025-04-11T17:34Z/"
+            },
+            {
+              "date": "2025-04-11",
+              "link": "https://dbushell.com/notes/2025-04-11T09:48Z/"
+            },
+            {
+              "date": "2025-04-11",
+              "link": "https://dbushell.com/notes/2025-04-11T09:02Z/"
+            },
+            {
+              "date": "2025-04-11",
+              "link": "https://dbushell.com/notes/2025-04-11T08:16Z/"
+            },
+            {
+              "date": "2025-04-09",
+              "link": "https://dbushell.com/notes/2025-04-09T10:42Z/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -31,37 +181,6 @@
               "title": "Don’t Forget the Meta Theme-Color Tag",
               "date": "2025-03-30",
               "link": "https://blog.jim-nielsen.com/2025/dont-forget-meta-theme-color/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "How to write effective resumes",
-              "date": "2025-04-10",
-              "link": "https://gomakethings.com/how-to-write-effective-resumes/"
-            },
-            {
-              "title": "Finding open roles",
-              "date": "2025-04-09",
-              "link": "https://gomakethings.com/finding-open-roles/"
-            },
-            {
-              "title": "Finding a job: coffee chats",
-              "date": "2025-04-08",
-              "link": "https://gomakethings.com/finding-a-job-coffee-chats/"
-            },
-            {
-              "title": "How to add links with a keyboard shortcut in Sublime Text",
-              "date": "2025-04-07",
-              "link": "https://gomakethings.com/how-to-add-links-with-a-keyboard-shortcut-in-sublime-text/"
-            },
-            {
-              "title": "It's like a new phone",
-              "date": "2025-04-05",
-              "link": "https://gomakethings.com/its-like-a-new-phone/"
             }
           ]
         },
@@ -97,37 +216,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-04-10",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
-            },
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
-            },
-            {
-              "title": "Alt Text Selfies",
-              "date": "2025-04-01",
-              "link": "https://alttextselfies.net/"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -155,63 +243,6 @@
               "title": "Hva er din ledelsesfilosofi?",
               "date": "2025-03-07",
               "link": "https://www.kodemaker.no/blogg/2025-03-07-hva-er-din-ledelsesfilosofi/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-04-09",
-              "link": "https://dbushell.com/notes/2025-04-09T10:42Z/"
-            },
-            {
-              "date": "2025-04-09",
-              "link": "https://dbushell.com/notes/2025-04-09T07:01Z/"
-            },
-            {
-              "date": "2025-04-09",
-              "link": "https://dbushell.com/notes/2025-04-09T06:11Z/"
-            },
-            {
-              "date": "2025-04-07",
-              "link": "https://dbushell.com/notes/2025-04-07T05:40Z/"
-            },
-            {
-              "date": "2025-04-06",
-              "link": "https://dbushell.com/notes/2025-04-06T06:00Z/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "I am Uncluttered (Yellow): an ebook on doom-prepping web dev",
-              "date": "2025-04-08",
-              "link": "https://www.baldurbjarnason.com/2025/doom-prepping-web-dev/"
-            },
-            {
-              "title": "Feedback loops, 'AI', learning, and management",
-              "date": "2025-03-31",
-              "link": "https://www.baldurbjarnason.com/2025/feedback-loops-ai-learning/"
-            },
-            {
-              "title": "Cat and Raven Photos (31 March 2025)",
-              "date": "2025-03-31",
-              "link": "https://www.baldurbjarnason.com/notes/photos/photos-15/"
-            },
-            {
-              "title": "Anti-terrorist spy movies, the end of James Bond, and remembering my grandfather",
-              "date": "2025-03-27",
-              "link": "https://www.baldurbjarnason.com/notes/2025/james-bond-and-my-grandfather/"
-            },
-            {
-              "title": "Spy media as commentary on society: Callan, The Equalizer, Danger Man, The Prisoner",
-              "date": "2025-03-27",
-              "link": "https://www.baldurbjarnason.com/notes/2025/spy-media-commentary/"
             }
           ]
         },
@@ -460,37 +491,6 @@
               "title": "Stewardship over ownership",
               "date": "2025-03-10",
               "link": "https://ntietz.com/blog/stewardship-over-ownership/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Weblogging (tagged)",
-              "date": "2025-04-06",
-              "link": "https://dbushell.com/2025/04/06/weblogging-4/"
-            },
-            {
-              "title": "Et tu, Grammarly?",
-              "date": "2025-03-29",
-              "link": "https://dbushell.com/2025/03/29/et-tu-grammarly/"
-            },
-            {
-              "title": "Vibe-free SvelteKit for Fun and Profit",
-              "date": "2025-03-28",
-              "link": "https://dbushell.com/2025/03/28/vibe-free-sveltekit-for-fun-and-profit/"
-            },
-            {
-              "title": "A Focused Redesign",
-              "date": "2025-03-21",
-              "link": "https://dbushell.com/2025/03/21/blog-redesign/"
-            },
-            {
-              "title": "Zig App Release and Updates via Github",
-              "date": "2025-03-18",
-              "link": "https://dbushell.com/2025/03/18/zig-app-release-and-updates-via-github/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-11T03:31:24.097Z",
+  "fetchDate": "2025-04-12T03:28:43.988Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "drcathicks",
+          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
+          "items": [
+            {
+              "title": "Cat @ VirtualDDD: \"a barn burner of a talk\" References &#38; Resources",
+              "date": "2025-04-16",
+              "link": "https://www.drcathicks.com/post/cat-virtualddd-a-barn-burner-of-a-talk-references-resources"
+            },
+            {
+              "title": "Citation as Pilgrimage",
+              "date": "2025-02-28",
+              "link": "https://www.drcathicks.com/post/citation-as-pilgrimage"
+            },
+            {
+              "title": "Ways to listen to (rather than read about) the psychology of software teams!",
+              "date": "2025-02-21",
+              "link": "https://www.drcathicks.com/post/ways-to-listen-to-rather-than-read-about-the-psychology-of-software-teams"
+            },
+            {
+              "title": "Just another example of how collaboration, not competition, drives healthy science",
+              "date": "2025-02-15",
+              "link": "https://www.drcathicks.com/post/just-another-example-of-how-collaboration-not-competition-drives-healthy-science"
+            },
+            {
+              "title": "Assorted (unsorted) thoughts about trauma-informed research ",
+              "date": "2025-01-06",
+              "link": "https://www.drcathicks.com/post/assorted-unsorted-thoughts-about-trauma-informed-research"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "An aside on proposed anti-trust remedies against Google",
+              "date": "2025-04-15",
+              "link": "https://www.baldurbjarnason.com/notes/2025/aside-on-anti-trust-remedies/"
+            },
+            {
+              "title": "We're in for a rough ride as an industry",
+              "date": "2025-04-15",
+              "link": "https://www.baldurbjarnason.com/notes/2025/we-are-in-for-a-rough-ride/"
+            },
+            {
+              "title": "I am Uncluttered (Yellow): last excerpt and last chance to get the early adopter discount",
+              "date": "2025-04-14",
+              "link": "https://www.baldurbjarnason.com/2025/uncluttered-yellow-early-adopter/"
+            },
+            {
+              "title": "I am Uncluttered (Yellow): doom-prepping web dev through disdain, disrespect, and doing the right thing",
+              "date": "2025-04-11",
+              "link": "https://www.baldurbjarnason.com/books/uncluttered-yellow/"
+            },
+            {
+              "title": "I am Uncluttered (Yellow): an ebook on doom-prepping web dev",
+              "date": "2025-04-08",
+              "link": "https://www.baldurbjarnason.com/2025/doom-prepping-web-dev/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Detecting media query changes with JavaScript",
+              "date": "2025-04-15",
+              "link": "https://gomakethings.com/detecting-media-query-changes-with-javascript/"
+            },
+            {
+              "title": "Looping HLS video",
+              "date": "2025-04-14",
+              "link": "https://gomakethings.com/looping-hls-video/"
+            },
+            {
+              "title": "Shut up, you're being an asshole",
+              "date": "2025-04-13",
+              "link": "https://gomakethings.com/shut-up-youre-being-an-asshole/"
+            },
+            {
+              "title": "How to nail your job interview",
+              "date": "2025-04-11",
+              "link": "https://gomakethings.com/how-to-nail-your-job-interview/"
+            },
+            {
+              "title": "How to write effective resumes",
+              "date": "2025-04-10",
+              "link": "https://gomakethings.com/how-to-write-effective-resumes/"
+            }
+          ]
+        },
+        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -35,33 +128,183 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
             {
-              "title": "Looping HLS video",
+              "title": "Tiny Adventurer",
+              "date": "2025-04-15",
+              "link": "https://moonbase.lgbt/blog/tiny-adventurer/"
+            },
+            {
+              "title": "TV Guide, 2025-04-04",
+              "date": "2025-04-04",
+              "link": "https://moonbase.lgbt/blog/tv-guide-2025-04-04/"
+            },
+            {
+              "title": "Let’s Get Started with C++23",
+              "date": "2025-02-26",
+              "link": "https://moonbase.lgbt/blog/lets-get-started-with-cpp23/"
+            },
+            {
+              "title": "Fly forth",
+              "date": "2025-01-28",
+              "link": "https://moonbase.lgbt/blog/fly-forth/"
+            },
+            {
+              "title": "Lurking in the fog",
+              "date": "2025-01-18",
+              "link": "https://moonbase.lgbt/blog/lurking-in-the-fog/"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "A Unified CSS Layout System: Could It Happen?",
+              "date": "2025-04-15",
+              "link": "https://thathtml.blog/2025/04/unified-layout-system-could-happen/"
+            },
+            {
+              "title": "All About the Nord Design System, Guest David Darnes on ShopTalk",
+              "date": "2025-03-27",
+              "link": "https://thathtml.blog/2025/03/nord-health-design-system-david-darnes/"
+            },
+            {
+              "title": "All the Deets on the Mighty Details Tag",
+              "date": "2025-02-27",
+              "link": "https://thathtml.blog/2025/02/all-the-deets-on-details/"
+            },
+            {
+              "title": "Hot Off the Press Examples of CSS if()",
+              "date": "2025-02-21",
+              "link": "https://thathtml.blog/2025/02/hot-off-the-press-examples-of-css-if/"
+            },
+            {
+              "title": "Solving Unintended View Transition Wonkiness",
+              "date": "2025-02-19",
+              "link": "https://thathtml.blog/2025/02/solving-unintended-view-transition-wonkiness/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-04-15",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
+            },
+            {
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
+            },
+            {
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            },
+            {
+              "title": "Alt Text Selfies",
+              "date": "2025-04-01",
+              "link": "https://alttextselfies.net/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-04-15",
+              "link": "https://dbushell.com/notes/2025-04-15T10:32Z/"
+            },
+            {
               "date": "2025-04-14",
-              "link": "https://gomakethings.com/looping-hls-video/"
+              "link": "https://dbushell.com/notes/2025-04-14T06:27Z/"
             },
             {
-              "title": "Shut up, you're being an asshole",
+              "date": "2025-04-14",
+              "link": "https://dbushell.com/notes/2025-04-14T05:29Z/"
+            },
+            {
               "date": "2025-04-13",
-              "link": "https://gomakethings.com/shut-up-youre-being-an-asshole/"
+              "link": "https://dbushell.com/notes/2025-04-13T10:16Z/"
             },
             {
-              "title": "How to nail your job interview",
-              "date": "2025-04-11",
-              "link": "https://gomakethings.com/how-to-nail-your-job-interview/"
+              "date": "2025-04-13",
+              "link": "https://dbushell.com/notes/2025-04-13T10:08Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner",
+              "date": "2025-04-15",
+              "link": "https://anniemueller.com/posts/how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner"
             },
             {
-              "title": "How to write effective resumes",
-              "date": "2025-04-10",
-              "link": "https://gomakethings.com/how-to-write-effective-resumes/"
+              "title": "It is the work of the writer to reclaim the language",
+              "date": "2025-04-14",
+              "link": "https://anniemueller.com/posts/it-is-the-work-of-the-writer-to-reclaim-the-language"
             },
             {
-              "title": "Finding open roles",
-              "date": "2025-04-09",
-              "link": "https://gomakethings.com/finding-open-roles/"
+              "title": "Do you have questions about tacos?",
+              "date": "2025-04-13",
+              "link": "https://anniemueller.com/posts/do-you-have-questions-about-tacos"
+            },
+            {
+              "title": "Tomorrow might feel better",
+              "date": "2025-04-07",
+              "link": "https://anniemueller.com/posts/tomorrow-might-feel-better"
+            },
+            {
+              "title": "Break dumb rules",
+              "date": "2025-04-04",
+              "link": "https://anniemueller.com/posts/break-dumb-rules"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Video Guides",
+              "date": "2025-04-15",
+              "link": "https://flamedfury.com/posts/video-guides/"
+            },
+            {
+              "title": "Monthly Recap: March 2025",
+              "date": "2025-04-08",
+              "link": "https://flamedfury.com/posts/monthly-recap-march-2025/"
+            },
+            {
+              "title": "Golf Shot",
+              "date": "2025-03-29",
+              "link": "https://flamedfury.com/posts/golf-shot/"
+            },
+            {
+              "title": "Golf Lessons",
+              "date": "2025-03-25",
+              "link": "https://flamedfury.com/posts/golf-lessons/"
+            },
+            {
+              "title": "The Magic Of Writing It Down",
+              "date": "2025-03-24",
+              "link": "https://flamedfury.com/posts/the-magic-of-writing-it-down/"
             }
           ]
         },
@@ -97,94 +340,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "I am Uncluttered (Yellow): last excerpt and last chance to get the early adopter discount",
-              "date": "2025-04-14",
-              "link": "https://www.baldurbjarnason.com/2025/uncluttered-yellow-early-adopter/"
-            },
-            {
-              "title": "I am Uncluttered (Yellow): doom-prepping web dev through disdain, disrespect, and doing the right thing",
-              "date": "2025-04-11",
-              "link": "https://www.baldurbjarnason.com/books/uncluttered-yellow/"
-            },
-            {
-              "title": "I am Uncluttered (Yellow): an ebook on doom-prepping web dev",
-              "date": "2025-04-08",
-              "link": "https://www.baldurbjarnason.com/2025/doom-prepping-web-dev/"
-            },
-            {
-              "title": "Feedback loops, 'AI', learning, and management",
-              "date": "2025-03-31",
-              "link": "https://www.baldurbjarnason.com/2025/feedback-loops-ai-learning/"
-            },
-            {
-              "title": "Cat and Raven Photos (31 March 2025)",
-              "date": "2025-03-31",
-              "link": "https://www.baldurbjarnason.com/notes/photos/photos-15/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-04-14",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
-            },
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
-            },
-            {
-              "title": "Alt Text Selfies",
-              "date": "2025-04-01",
-              "link": "https://alttextselfies.net/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-04-14",
-              "link": "https://dbushell.com/notes/2025-04-14T06:27Z/"
-            },
-            {
-              "date": "2025-04-14",
-              "link": "https://dbushell.com/notes/2025-04-14T05:29Z/"
-            },
-            {
-              "date": "2025-04-13",
-              "link": "https://dbushell.com/notes/2025-04-13T10:16Z/"
-            },
-            {
-              "date": "2025-04-13",
-              "link": "https://dbushell.com/notes/2025-04-13T10:08Z/"
-            },
-            {
-              "date": "2025-04-11",
-              "link": "https://dbushell.com/notes/2025-04-11T17:34Z/"
-            }
-          ]
-        },
-        {
           "title": "ntietz.com blog - technically a blog",
           "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
@@ -212,37 +367,6 @@
               "title": "Who are your teammates?",
               "date": "2025-03-17",
               "link": "https://ntietz.com/blog/who-are-your-teammates/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "It is the work of the writer to reclaim the language",
-              "date": "2025-04-14",
-              "link": "https://anniemueller.com/posts/it-is-the-work-of-the-writer-to-reclaim-the-language"
-            },
-            {
-              "title": "Do you have questions about tacos?",
-              "date": "2025-04-13",
-              "link": "https://anniemueller.com/posts/do-you-have-questions-about-tacos"
-            },
-            {
-              "title": "Tomorrow might feel better",
-              "date": "2025-04-07",
-              "link": "https://anniemueller.com/posts/tomorrow-might-feel-better"
-            },
-            {
-              "title": "Break dumb rules",
-              "date": "2025-04-04",
-              "link": "https://anniemueller.com/posts/break-dumb-rules"
-            },
-            {
-              "title": "Reading notes: March 2025",
-              "date": "2025-04-03",
-              "link": "https://anniemueller.com/posts/reading-notes-march-2025"
             }
           ]
         },
@@ -464,37 +588,6 @@
           ]
         },
         {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Monthly Recap: March 2025",
-              "date": "2025-04-08",
-              "link": "https://flamedfury.com/posts/monthly-recap-march-2025/"
-            },
-            {
-              "title": "Golf Shot",
-              "date": "2025-03-29",
-              "link": "https://flamedfury.com/posts/golf-shot/"
-            },
-            {
-              "title": "Golf Lessons",
-              "date": "2025-03-25",
-              "link": "https://flamedfury.com/posts/golf-lessons/"
-            },
-            {
-              "title": "The Magic Of Writing It Down",
-              "date": "2025-03-24",
-              "link": "https://flamedfury.com/posts/the-magic-of-writing-it-down/"
-            },
-            {
-              "title": "New Music Friday #4",
-              "date": "2025-03-18",
-              "link": "https://flamedfury.com/posts/new-music-friday-4/"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -584,37 +677,6 @@
               "title": "0051: hytradboi program and tickets, query compilers, decorrelation encore, books, misc",
               "date": "2025-02-13",
               "link": "https://www.scattered-thoughts.net/log/0051/"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "TV Guide, 2025-04-04",
-              "date": "2025-04-04",
-              "link": "https://moonbase.lgbt/blog/tv-guide-2025-04-04/"
-            },
-            {
-              "title": "Let’s Get Started with C++23",
-              "date": "2025-02-26",
-              "link": "https://moonbase.lgbt/blog/lets-get-started-with-cpp23/"
-            },
-            {
-              "title": "Fly forth",
-              "date": "2025-01-28",
-              "link": "https://moonbase.lgbt/blog/fly-forth/"
-            },
-            {
-              "title": "Lurking in the fog",
-              "date": "2025-01-18",
-              "link": "https://moonbase.lgbt/blog/lurking-in-the-fog/"
-            },
-            {
-              "title": "Friend or foe?",
-              "date": "2025-01-16",
-              "link": "https://moonbase.lgbt/blog/friend-or-foe/"
             }
           ]
         },
@@ -929,37 +991,6 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "All About the Nord Design System, Guest David Darnes on ShopTalk",
-              "date": "2025-03-27",
-              "link": "https://thathtml.blog/2025/03/nord-health-design-system-david-darnes/"
-            },
-            {
-              "title": "All the Deets on the Mighty Details Tag",
-              "date": "2025-02-27",
-              "link": "https://thathtml.blog/2025/02/all-the-deets-on-details/"
-            },
-            {
-              "title": "Hot Off the Press Examples of CSS if()",
-              "date": "2025-02-21",
-              "link": "https://thathtml.blog/2025/02/hot-off-the-press-examples-of-css-if/"
-            },
-            {
-              "title": "Solving Unintended View Transition Wonkiness",
-              "date": "2025-02-19",
-              "link": "https://thathtml.blog/2025/02/solving-unintended-view-transition-wonkiness/"
-            },
-            {
-              "title": "We Need to Talk About Anti-Web Coding Assistants",
-              "date": "2025-02-14",
-              "link": "https://thathtml.blog/2025/02/we-need-to-talk-about-anti-web-coding-assistants/"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -1266,37 +1297,6 @@
               "title": "Profitable Struggle and Unprofitable Struggle",
               "date": "2024-05-24",
               "link": "http://agileotter.blogspot.com/2024/05/profitable-struggle-and-unprofitable.html"
-            }
-          ]
-        },
-        {
-          "title": "drcathicks",
-          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
-          "items": [
-            {
-              "title": "Citation as Pilgrimage",
-              "date": "2025-02-28",
-              "link": "https://www.drcathicks.com/post/citation-as-pilgrimage"
-            },
-            {
-              "title": "Ways to listen to (rather than read about) the psychology of software teams!",
-              "date": "2025-02-21",
-              "link": "https://www.drcathicks.com/post/ways-to-listen-to-rather-than-read-about-the-psychology-of-software-teams"
-            },
-            {
-              "title": "Just another example of how collaboration, not competition, drives healthy science",
-              "date": "2025-02-15",
-              "link": "https://www.drcathicks.com/post/just-another-example-of-how-collaboration-not-competition-drives-healthy-science"
-            },
-            {
-              "title": "Assorted (unsorted) thoughts about trauma-informed research ",
-              "date": "2025-01-06",
-              "link": "https://www.drcathicks.com/post/assorted-unsorted-thoughts-about-trauma-informed-research"
-            },
-            {
-              "title": "A Cumulative Culture Theory of Developer Problem-Solving: new preprint",
-              "date": "2024-12-01",
-              "link": "https://www.drcathicks.com/post/a-cumulative-culture-theory-of-developer-problem-solving-new-preprint"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-15T03:35:27.814Z",
+  "fetchDate": "2025-04-16T03:34:30.396Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

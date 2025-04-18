@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Decomposing Aurora DSQL",
+              "date": "2025-04-17",
+              "link": "http://brooker.co.za/blog/2025/04/17/decomposing.html"
+            },
+            {
+              "title": "One or Two? How Many Queues?",
+              "date": "2025-03-25",
+              "link": "http://brooker.co.za/blog/2025/03/25/two-queues.html"
+            },
+            {
+              "title": "What Fekete's Anomaly Can Teach Us About Isolation",
+              "date": "2025-02-05",
+              "link": "http://brooker.co.za/blog/2025/02/05/feketes.html"
+            },
+            {
+              "title": "Versioning versus Coordination",
+              "date": "2025-02-04",
+              "link": "http://brooker.co.za/blog/2025/02/04/versioning.html"
+            },
+            {
+              "title": "Snapshot Isolation vs Serializability",
+              "date": "2024-12-17",
+              "link": "http://brooker.co.za/blog/2024/12/17/occ-and-isolation.html"
+            }
+          ]
+        },
+        {
           "title": "Jennifer++",
           "feedUrl": "https://jenniferplusplus.com/rss/",
           "items": [
@@ -35,33 +66,33 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
-              "title": "Be Mindful of What You Make Easy",
-              "date": "2025-04-16",
-              "link": "https://blog.jim-nielsen.com/2025/be-mindful-of-what-you-make-easy/"
+              "title": "Microblog",
+              "date": "2025-04-17",
+              "link": "https://frills.dev/status/microblog/"
             },
             {
-              "title": "Some Love For Interoperable Apps",
-              "date": "2025-04-14",
-              "link": "https://blog.jim-nielsen.com/2025/love-for-interoperability/"
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
             },
             {
-              "title": "Ductility on the Web",
-              "date": "2025-04-10",
-              "link": "https://blog.jim-nielsen.com/2025/ductility/"
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
             },
             {
-              "title": "Background Image Opacity in CSS",
-              "date": "2025-04-08",
-              "link": "https://blog.jim-nielsen.com/2025/background-image-opacity-css/"
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
             },
             {
-              "title": "Tag, You’re It",
-              "date": "2025-04-05",
-              "link": "https://blog.jim-nielsen.com/2025/tag-youre-it/"
+              "title": "Alt Text Selfies",
+              "date": "2025-04-01",
+              "link": "https://alttextselfies.net/"
             }
           ]
         },
@@ -93,6 +124,37 @@
               "title": "How to nail your job interview",
               "date": "2025-04-11",
               "link": "https://gomakethings.com/how-to-nail-your-job-interview/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Be Mindful of What You Make Easy",
+              "date": "2025-04-16",
+              "link": "https://blog.jim-nielsen.com/2025/be-mindful-of-what-you-make-easy/"
+            },
+            {
+              "title": "Some Love For Interoperable Apps",
+              "date": "2025-04-14",
+              "link": "https://blog.jim-nielsen.com/2025/love-for-interoperability/"
+            },
+            {
+              "title": "Ductility on the Web",
+              "date": "2025-04-10",
+              "link": "https://blog.jim-nielsen.com/2025/ductility/"
+            },
+            {
+              "title": "Background Image Opacity in CSS",
+              "date": "2025-04-08",
+              "link": "https://blog.jim-nielsen.com/2025/background-image-opacity-css/"
+            },
+            {
+              "title": "Tag, You’re It",
+              "date": "2025-04-05",
+              "link": "https://blog.jim-nielsen.com/2025/tag-youre-it/"
             }
           ]
         },
@@ -155,37 +217,6 @@
               "title": "Assorted (unsorted) thoughts about trauma-informed research ",
               "date": "2025-01-06",
               "link": "https://www.drcathicks.com/post/assorted-unsorted-thoughts-about-trauma-informed-research"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-04-16",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
-            },
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
-            },
-            {
-              "title": "Alt Text Selfies",
-              "date": "2025-04-01",
-              "link": "https://alttextselfies.net/"
             }
           ]
         },
@@ -1018,37 +1049,6 @@
               "title": "The nice feeling of trusting tools",
               "date": "2025-02-09",
               "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "One or Two? How Many Queues?",
-              "date": "2025-03-25",
-              "link": "http://brooker.co.za/blog/2025/03/25/two-queues.html"
-            },
-            {
-              "title": "What Fekete's Anomaly Can Teach Us About Isolation",
-              "date": "2025-02-05",
-              "link": "http://brooker.co.za/blog/2025/02/05/feketes.html"
-            },
-            {
-              "title": "Versioning versus Coordination",
-              "date": "2025-02-04",
-              "link": "http://brooker.co.za/blog/2025/02/04/versioning.html"
-            },
-            {
-              "title": "Snapshot Isolation vs Serializability",
-              "date": "2024-12-17",
-              "link": "http://brooker.co.za/blog/2024/12/17/occ-and-isolation.html"
-            },
-            {
-              "title": "DSQL Vignette: Wait! Isn't That Impossible?",
-              "date": "2024-12-06",
-              "link": "http://brooker.co.za/blog/2024/12/06/inside-dsql-cap.html"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-17T03:33:11.686Z",
+  "fetchDate": "2025-04-18T03:30:54.481Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "Open source is kind of broken",
+              "date": "2025-04-22",
+              "link": "https://gomakethings.com/open-source-is-kind-of-broken/"
+            },
+            {
               "title": "A Web Component UI library for people who love HTML",
               "date": "2025-04-21",
               "link": "https://gomakethings.com/a-web-component-ui-library-for-people-who-love-html/"
@@ -26,11 +31,63 @@
               "title": "Looping HLS video",
               "date": "2025-04-14",
               "link": "https://gomakethings.com/looping-hls-video/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-04-22",
+              "link": "https://frills.dev/status/microblog/"
             },
             {
-              "title": "Shut up, you're being an asshole",
-              "date": "2025-04-13",
-              "link": "https://gomakethings.com/shut-up-youre-being-an-asshole/"
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
+            },
+            {
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
+            },
+            {
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            },
+            {
+              "title": "Alt Text Selfies",
+              "date": "2025-04-01",
+              "link": "https://alttextselfies.net/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-04-22",
+              "link": "https://dbushell.com/notes/2025-04-22T09:38Z/"
+            },
+            {
+              "date": "2025-04-22",
+              "link": "https://dbushell.com/notes/2025-04-22T05:17Z/"
+            },
+            {
+              "date": "2025-04-21",
+              "link": "https://dbushell.com/notes/2025-04-21T12:36Z/"
+            },
+            {
+              "date": "2025-04-16",
+              "link": "https://dbushell.com/notes/2025-04-16T06:31Z/"
+            },
+            {
+              "date": "2025-04-16",
+              "link": "https://dbushell.com/notes/2025-04-16T03:38Z/"
             }
           ]
         },
@@ -93,63 +150,6 @@
               "title": "Samman Coaching in 2021",
               "date": "2022-06-30",
               "link": "https://coding-is-like-cooking.info/2022/06/samman-coaching-in-2021/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-04-21",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
-            },
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
-            },
-            {
-              "title": "Alt Text Selfies",
-              "date": "2025-04-01",
-              "link": "https://alttextselfies.net/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-04-21",
-              "link": "https://dbushell.com/notes/2025-04-21T12:36Z/"
-            },
-            {
-              "date": "2025-04-16",
-              "link": "https://dbushell.com/notes/2025-04-16T06:31Z/"
-            },
-            {
-              "date": "2025-04-16",
-              "link": "https://dbushell.com/notes/2025-04-16T03:38Z/"
-            },
-            {
-              "date": "2025-04-15",
-              "link": "https://dbushell.com/notes/2025-04-15T10:32Z/"
-            },
-            {
-              "date": "2025-04-14",
-              "link": "https://dbushell.com/notes/2025-04-14T06:27Z/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-22T03:33:10.508Z",
+  "fetchDate": "2025-04-23T03:34:12.831Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

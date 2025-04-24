@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Zig Smart Lights; Zapping the Snake ⚡",
+              "date": "2025-04-23",
+              "link": "https://dbushell.com/2025/04/23/zig-smart-lights/"
+            },
+            {
+              "title": "Spring 2025: Self-Hosted Update",
+              "date": "2025-04-13",
+              "link": "https://dbushell.com/2025/04/13/self-hosted-update-spring-2025/"
+            },
+            {
+              "title": "Ghostty & macOS Quick Terminal 👻",
+              "date": "2025-04-11",
+              "link": "https://dbushell.com/2025/04/11/ghostty-macos-quick-terminal/"
+            },
+            {
+              "title": "Weblogging (tagged)",
+              "date": "2025-04-06",
+              "link": "https://dbushell.com/2025/04/06/weblogging-4/"
+            },
+            {
+              "title": "Et tu, Grammarly?",
+              "date": "2025-03-29",
+              "link": "https://dbushell.com/2025/03/29/et-tu-grammarly/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Brian Regan Helped Me Understand My Aversion to Job Titles",
+              "date": "2025-04-23",
+              "link": "https://blog.jim-nielsen.com/2025/job-titles/"
+            },
+            {
+              "title": "“I Don’t See Why Not”",
+              "date": "2025-04-21",
+              "link": "https://blog.jim-nielsen.com/2025/i-dont-see-why-not/"
+            },
+            {
+              "title": "You’re Only As Strong As Your Weakest Point",
+              "date": "2025-04-19",
+              "link": "https://blog.jim-nielsen.com/2025/as-strong-as-your-weakest-point/"
+            },
+            {
+              "title": "Be Mindful of What You Make Easy",
+              "date": "2025-04-16",
+              "link": "https://blog.jim-nielsen.com/2025/be-mindful-of-what-you-make-easy/"
+            },
+            {
+              "title": "Some Love For Interoperable Apps",
+              "date": "2025-04-14",
+              "link": "https://blog.jim-nielsen.com/2025/love-for-interoperability/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Fair-Code",
+              "date": "2025-04-23",
+              "link": "https://gomakethings.com/fair-code/"
+            },
             {
               "title": "Open source is kind of broken",
               "date": "2025-04-22",
@@ -26,11 +93,37 @@
               "title": "Detecting media query changes with JavaScript",
               "date": "2025-04-15",
               "link": "https://gomakethings.com/detecting-media-query-changes-with-javascript/"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Liftoff!",
+              "date": "2025-04-23",
+              "link": "https://moonbase.lgbt/blog/liftoff-harman-phoenix/"
             },
             {
-              "title": "Looping HLS video",
-              "date": "2025-04-14",
-              "link": "https://gomakethings.com/looping-hls-video/"
+              "title": "Bird between the branches",
+              "date": "2025-04-20",
+              "link": "https://moonbase.lgbt/blog/bird-between-branches/"
+            },
+            {
+              "title": "Tiny Adventurer",
+              "date": "2025-04-15",
+              "link": "https://moonbase.lgbt/blog/tiny-adventurer/"
+            },
+            {
+              "title": "TV Guide, 2025-04-04",
+              "date": "2025-04-04",
+              "link": "https://moonbase.lgbt/blog/tv-guide-2025-04-04/"
+            },
+            {
+              "title": "Let’s Get Started with C++23",
+              "date": "2025-02-26",
+              "link": "https://moonbase.lgbt/blog/lets-get-started-with-cpp23/"
             }
           ]
         },
@@ -40,7 +133,7 @@
           "items": [
             {
               "title": "Microblog",
-              "date": "2025-04-22",
+              "date": "2025-04-23",
               "link": "https://frills.dev/status/microblog/"
             },
             {
@@ -70,6 +163,10 @@
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
             {
+              "date": "2025-04-23",
+              "link": "https://dbushell.com/notes/2025-04-23T15:32Z/"
+            },
+            {
               "date": "2025-04-22",
               "link": "https://dbushell.com/notes/2025-04-22T09:38Z/"
             },
@@ -84,41 +181,6 @@
             {
               "date": "2025-04-16",
               "link": "https://dbushell.com/notes/2025-04-16T06:31Z/"
-            },
-            {
-              "date": "2025-04-16",
-              "link": "https://dbushell.com/notes/2025-04-16T03:38Z/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "“I Don’t See Why Not”",
-              "date": "2025-04-21",
-              "link": "https://blog.jim-nielsen.com/2025/i-dont-see-why-not/"
-            },
-            {
-              "title": "You’re Only As Strong As Your Weakest Point",
-              "date": "2025-04-19",
-              "link": "https://blog.jim-nielsen.com/2025/as-strong-as-your-weakest-point/"
-            },
-            {
-              "title": "Be Mindful of What You Make Easy",
-              "date": "2025-04-16",
-              "link": "https://blog.jim-nielsen.com/2025/be-mindful-of-what-you-make-easy/"
-            },
-            {
-              "title": "Some Love For Interoperable Apps",
-              "date": "2025-04-14",
-              "link": "https://blog.jim-nielsen.com/2025/love-for-interoperability/"
-            },
-            {
-              "title": "Ductility on the Web",
-              "date": "2025-04-10",
-              "link": "https://blog.jim-nielsen.com/2025/ductility/"
             }
           ]
         },
@@ -212,37 +274,6 @@
               "title": "Hitting OKRs vs Doing Your Job",
               "date": "2025-01-06",
               "link": "https://jessitron.com/2025/01/05/hitting-okrs-vs-doing-your-job/"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "Bird between the branches",
-              "date": "2025-04-20",
-              "link": "https://moonbase.lgbt/blog/bird-between-branches/"
-            },
-            {
-              "title": "Tiny Adventurer",
-              "date": "2025-04-15",
-              "link": "https://moonbase.lgbt/blog/tiny-adventurer/"
-            },
-            {
-              "title": "TV Guide, 2025-04-04",
-              "date": "2025-04-04",
-              "link": "https://moonbase.lgbt/blog/tv-guide-2025-04-04/"
-            },
-            {
-              "title": "Let’s Get Started with C++23",
-              "date": "2025-02-26",
-              "link": "https://moonbase.lgbt/blog/lets-get-started-with-cpp23/"
-            },
-            {
-              "title": "Fly forth",
-              "date": "2025-01-28",
-              "link": "https://moonbase.lgbt/blog/fly-forth/"
             }
           ]
         },
@@ -677,37 +708,6 @@
               "title": "The Magic Of Writing It Down",
               "date": "2025-03-24",
               "link": "https://flamedfury.com/posts/the-magic-of-writing-it-down/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Spring 2025: Self-Hosted Update",
-              "date": "2025-04-13",
-              "link": "https://dbushell.com/2025/04/13/self-hosted-update-spring-2025/"
-            },
-            {
-              "title": "Ghostty & macOS Quick Terminal 👻",
-              "date": "2025-04-11",
-              "link": "https://dbushell.com/2025/04/11/ghostty-macos-quick-terminal/"
-            },
-            {
-              "title": "Weblogging (tagged)",
-              "date": "2025-04-06",
-              "link": "https://dbushell.com/2025/04/06/weblogging-4/"
-            },
-            {
-              "title": "Et tu, Grammarly?",
-              "date": "2025-03-29",
-              "link": "https://dbushell.com/2025/03/29/et-tu-grammarly/"
-            },
-            {
-              "title": "Vibe-free SvelteKit for Fun and Profit",
-              "date": "2025-03-28",
-              "link": "https://dbushell.com/2025/03/28/vibe-free-sveltekit-for-fun-and-profit/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-23T03:34:12.831Z",
+  "fetchDate": "2025-04-24T03:35:56.658Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

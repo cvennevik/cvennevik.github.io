@@ -4,33 +4,183 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "dbushell.com",
-          "feedUrl": "https://dbushell.com/rss.xml",
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
-              "title": "Zig Smart Lights; Zapping the Snake ⚡",
+              "title": "Ship faster, reduce costs, and build better systems",
+              "date": "2025-04-24",
+              "link": "https://gomakethings.com/ship-faster-reduce-costs-and-build-better-systems/"
+            },
+            {
+              "title": "Fair-Code",
               "date": "2025-04-23",
-              "link": "https://dbushell.com/2025/04/23/zig-smart-lights/"
+              "link": "https://gomakethings.com/fair-code/"
             },
             {
-              "title": "Spring 2025: Self-Hosted Update",
-              "date": "2025-04-13",
-              "link": "https://dbushell.com/2025/04/13/self-hosted-update-spring-2025/"
+              "title": "Open source is kind of broken",
+              "date": "2025-04-22",
+              "link": "https://gomakethings.com/open-source-is-kind-of-broken/"
             },
             {
-              "title": "Ghostty & macOS Quick Terminal 👻",
+              "title": "A Web Component UI library for people who love HTML",
+              "date": "2025-04-21",
+              "link": "https://gomakethings.com/a-web-component-ui-library-for-people-who-love-html/"
+            },
+            {
+              "title": "An HTML Web Component library",
+              "date": "2025-04-16",
+              "link": "https://gomakethings.com/an-html-web-component-library/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Innovation and adopting innovations requires trusted and functioning institutions. The US and Europe have neither",
+              "date": "2025-04-24",
+              "link": "https://www.baldurbjarnason.com/2025/innovation-trust/"
+            },
+            {
+              "title": "An aside on proposed anti-trust remedies against Google",
+              "date": "2025-04-15",
+              "link": "https://www.baldurbjarnason.com/notes/2025/aside-on-anti-trust-remedies/"
+            },
+            {
+              "title": "We're in for a rough ride as an industry",
+              "date": "2025-04-15",
+              "link": "https://www.baldurbjarnason.com/notes/2025/we-are-in-for-a-rough-ride/"
+            },
+            {
+              "title": "I am Uncluttered (Yellow): last excerpt and last chance to get the early adopter discount",
+              "date": "2025-04-14",
+              "link": "https://www.baldurbjarnason.com/2025/uncluttered-yellow-early-adopter/"
+            },
+            {
+              "title": "I am Uncluttered (Yellow): doom-prepping web dev through disdain, disrespect, and doing the right thing",
               "date": "2025-04-11",
-              "link": "https://dbushell.com/2025/04/11/ghostty-macos-quick-terminal/"
+              "link": "https://www.baldurbjarnason.com/books/uncluttered-yellow/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-04-24",
+              "link": "https://frills.dev/status/microblog/"
             },
             {
-              "title": "Weblogging (tagged)",
-              "date": "2025-04-06",
-              "link": "https://dbushell.com/2025/04/06/weblogging-4/"
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
             },
             {
-              "title": "Et tu, Grammarly?",
-              "date": "2025-03-29",
-              "link": "https://dbushell.com/2025/03/29/et-tu-grammarly/"
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
+            },
+            {
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            },
+            {
+              "title": "Alt Text Selfies",
+              "date": "2025-04-01",
+              "link": "https://alttextselfies.net/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (microblog)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-04-24",
+              "link": "https://dbushell.com/notes/2025-04-24T17:01Z/"
+            },
+            {
+              "date": "2025-04-24",
+              "link": "https://dbushell.com/notes/2025-04-24T14:57Z/"
+            },
+            {
+              "date": "2025-04-24",
+              "link": "https://dbushell.com/notes/2025-04-24T08:21Z/"
+            },
+            {
+              "date": "2025-04-24",
+              "link": "https://dbushell.com/notes/2025-04-24T05:37Z/"
+            },
+            {
+              "date": "2025-04-23",
+              "link": "https://dbushell.com/notes/2025-04-23T15:32Z/"
+            }
+          ]
+        },
+        {
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
+          "items": [
+            {
+              "title": "The Unintentional Renegades of Outsider Music",
+              "date": "2025-04-24",
+              "link": "https://mikegrindle.com/posts/outsider"
+            },
+            {
+              "title": "Love, Creeps and Creatures: Buffy Season 2",
+              "date": "2025-04-03",
+              "link": "https://mikegrindle.com/posts/buffy-2"
+            },
+            {
+              "title": "The Evil Things I've Done",
+              "date": "2025-03-26",
+              "link": "https://mikegrindle.com/posts/evil"
+            },
+            {
+              "title": "Returning to Sunnydale",
+              "date": "2024-12-04",
+              "link": "https://mikegrindle.com/posts/snow"
+            },
+            {
+              "title": "Snow Days",
+              "date": "2024-12-02",
+              "link": "https://mikegrindle.com/posts/snow"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Requirements change until they don't",
+              "date": "2025-04-24",
+              "link": "https://buttondown.com/hillelwayne/archive/requirements-change-until-they-dont/"
+            },
+            {
+              "title": "The Halting Problem is a terrible example of NP-Harder",
+              "date": "2025-04-16",
+              "link": "https://buttondown.com/hillelwayne/archive/the-halting-problem-is-a-terrible-example-of-np/"
+            },
+            {
+              "title": "Solving a \"Layton Puzzle\" with Prolog",
+              "date": "2025-04-08",
+              "link": "https://buttondown.com/hillelwayne/archive/a48fce5b-8a05-4302-b620-9b26f057f145/"
+            },
+            {
+              "title": "[April Cools] Gaming Games for Non-Gamers",
+              "date": "2025-04-01",
+              "link": "https://buttondown.com/hillelwayne/archive/april-cools-gaming-games-for-non-gamers/"
+            },
+            {
+              "title": "Betteridge's Law of Software Engineering Specialness",
+              "date": "2025-03-26",
+              "link": "https://buttondown.com/hillelwayne/archive/betteridges-law-of-software-engineering/"
             }
           ]
         },
@@ -66,33 +216,33 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "dbushell.com",
+          "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
             {
-              "title": "Fair-Code",
+              "title": "Zig Smart Lights; Zapping the Snake ⚡",
               "date": "2025-04-23",
-              "link": "https://gomakethings.com/fair-code/"
+              "link": "https://dbushell.com/2025/04/23/zig-smart-lights/"
             },
             {
-              "title": "Open source is kind of broken",
-              "date": "2025-04-22",
-              "link": "https://gomakethings.com/open-source-is-kind-of-broken/"
+              "title": "Spring 2025: Self-Hosted Update",
+              "date": "2025-04-13",
+              "link": "https://dbushell.com/2025/04/13/self-hosted-update-spring-2025/"
             },
             {
-              "title": "A Web Component UI library for people who love HTML",
-              "date": "2025-04-21",
-              "link": "https://gomakethings.com/a-web-component-ui-library-for-people-who-love-html/"
+              "title": "Ghostty & macOS Quick Terminal 👻",
+              "date": "2025-04-11",
+              "link": "https://dbushell.com/2025/04/11/ghostty-macos-quick-terminal/"
             },
             {
-              "title": "An HTML Web Component library",
-              "date": "2025-04-16",
-              "link": "https://gomakethings.com/an-html-web-component-library/"
+              "title": "Weblogging (tagged)",
+              "date": "2025-04-06",
+              "link": "https://dbushell.com/2025/04/06/weblogging-4/"
             },
             {
-              "title": "Detecting media query changes with JavaScript",
-              "date": "2025-04-15",
-              "link": "https://gomakethings.com/detecting-media-query-changes-with-javascript/"
+              "title": "Et tu, Grammarly?",
+              "date": "2025-03-29",
+              "link": "https://dbushell.com/2025/03/29/et-tu-grammarly/"
             }
           ]
         },
@@ -124,63 +274,6 @@
               "title": "Let’s Get Started with C++23",
               "date": "2025-02-26",
               "link": "https://moonbase.lgbt/blog/lets-get-started-with-cpp23/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-04-23",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
-            },
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
-            },
-            {
-              "title": "Alt Text Selfies",
-              "date": "2025-04-01",
-              "link": "https://alttextselfies.net/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-04-23",
-              "link": "https://dbushell.com/notes/2025-04-23T15:32Z/"
-            },
-            {
-              "date": "2025-04-22",
-              "link": "https://dbushell.com/notes/2025-04-22T09:38Z/"
-            },
-            {
-              "date": "2025-04-22",
-              "link": "https://dbushell.com/notes/2025-04-22T05:17Z/"
-            },
-            {
-              "date": "2025-04-21",
-              "link": "https://dbushell.com/notes/2025-04-21T12:36Z/"
-            },
-            {
-              "date": "2025-04-16",
-              "link": "https://dbushell.com/notes/2025-04-16T06:31Z/"
             }
           ]
         },
@@ -522,68 +615,6 @@
               "title": "Assorted (unsorted) thoughts about trauma-informed research ",
               "date": "2025-01-06",
               "link": "https://www.drcathicks.com/post/assorted-unsorted-thoughts-about-trauma-informed-research"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "The Halting Problem is a terrible example of NP-Harder",
-              "date": "2025-04-16",
-              "link": "https://buttondown.com/hillelwayne/archive/the-halting-problem-is-a-terrible-example-of-np/"
-            },
-            {
-              "title": "Solving a \"Layton Puzzle\" with Prolog",
-              "date": "2025-04-08",
-              "link": "https://buttondown.com/hillelwayne/archive/a48fce5b-8a05-4302-b620-9b26f057f145/"
-            },
-            {
-              "title": "[April Cools] Gaming Games for Non-Gamers",
-              "date": "2025-04-01",
-              "link": "https://buttondown.com/hillelwayne/archive/april-cools-gaming-games-for-non-gamers/"
-            },
-            {
-              "title": "Betteridge's Law of Software Engineering Specialness",
-              "date": "2025-03-26",
-              "link": "https://buttondown.com/hillelwayne/archive/betteridges-law-of-software-engineering/"
-            },
-            {
-              "title": "Verification-First Development",
-              "date": "2025-03-18",
-              "link": "https://buttondown.com/hillelwayne/archive/verification-first-development/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "An aside on proposed anti-trust remedies against Google",
-              "date": "2025-04-15",
-              "link": "https://www.baldurbjarnason.com/notes/2025/aside-on-anti-trust-remedies/"
-            },
-            {
-              "title": "We're in for a rough ride as an industry",
-              "date": "2025-04-15",
-              "link": "https://www.baldurbjarnason.com/notes/2025/we-are-in-for-a-rough-ride/"
-            },
-            {
-              "title": "I am Uncluttered (Yellow): last excerpt and last chance to get the early adopter discount",
-              "date": "2025-04-14",
-              "link": "https://www.baldurbjarnason.com/2025/uncluttered-yellow-early-adopter/"
-            },
-            {
-              "title": "I am Uncluttered (Yellow): doom-prepping web dev through disdain, disrespect, and doing the right thing",
-              "date": "2025-04-11",
-              "link": "https://www.baldurbjarnason.com/books/uncluttered-yellow/"
-            },
-            {
-              "title": "I am Uncluttered (Yellow): an ebook on doom-prepping web dev",
-              "date": "2025-04-08",
-              "link": "https://www.baldurbjarnason.com/2025/doom-prepping-web-dev/"
             }
           ]
         },
@@ -987,37 +1018,6 @@
               "title": "The scary thing with overly complex solutions",
               "date": "2024-10-29",
               "link": "https://dragan-stepanovic.github.io//2024/10/29/scary-thing.html"
-            }
-          ]
-        },
-        {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
-          "items": [
-            {
-              "title": "Love, Creeps and Creatures: Buffy Season 2",
-              "date": "2025-04-03",
-              "link": "https://mikegrindle.com/posts/buffy-2"
-            },
-            {
-              "title": "The Evil Things I've Done",
-              "date": "2025-03-26",
-              "link": "https://mikegrindle.com/posts/evil"
-            },
-            {
-              "title": "Returning to Sunnydale",
-              "date": "2024-12-04",
-              "link": "https://mikegrindle.com/posts/snow"
-            },
-            {
-              "title": "Snow Days",
-              "date": "2024-12-02",
-              "link": "https://mikegrindle.com/posts/snow"
-            },
-            {
-              "title": "When Hüsker Dü Was the \"Fastest Band in The World\"",
-              "date": "2024-09-18",
-              "link": "https://mikegrindle.com/posts/land-speed-record"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-24T03:35:56.658Z",
+  "fetchDate": "2025-04-25T03:35:04.003Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

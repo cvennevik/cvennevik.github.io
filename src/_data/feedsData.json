@@ -4,33 +4,64 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "dbushell.com",
+          "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
             {
-              "title": "Why care about the no-JS experience?",
-              "date": "2025-04-25",
-              "link": "https://gomakethings.com/why-care-about-the-no-js-experience/"
+              "title": "Bunny CDN 🐇 (Migrating from Cloudflare)",
+              "date": "2025-04-27",
+              "link": "https://dbushell.com/2025/04/27/bunny-cdn-edge-storage/"
             },
             {
-              "title": "Ship faster, reduce costs, and build better systems",
-              "date": "2025-04-24",
-              "link": "https://gomakethings.com/ship-faster-reduce-costs-and-build-better-systems/"
-            },
-            {
-              "title": "Fair-Code",
+              "title": "Zig Smart Lights; Zapping the Snake ⚡",
               "date": "2025-04-23",
-              "link": "https://gomakethings.com/fair-code/"
+              "link": "https://dbushell.com/2025/04/23/zig-smart-lights/"
             },
             {
-              "title": "Open source is kind of broken",
-              "date": "2025-04-22",
-              "link": "https://gomakethings.com/open-source-is-kind-of-broken/"
+              "title": "Spring 2025: Self-Hosted Update",
+              "date": "2025-04-13",
+              "link": "https://dbushell.com/2025/04/13/self-hosted-update-spring-2025/"
             },
             {
-              "title": "A Web Component UI library for people who love HTML",
-              "date": "2025-04-21",
-              "link": "https://gomakethings.com/a-web-component-ui-library-for-people-who-love-html/"
+              "title": "Ghostty & macOS Quick Terminal 👻",
+              "date": "2025-04-11",
+              "link": "https://dbushell.com/2025/04/11/ghostty-macos-quick-terminal/"
+            },
+            {
+              "title": "Weblogging (tagged)",
+              "date": "2025-04-06",
+              "link": "https://dbushell.com/2025/04/06/weblogging-4/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Every small thing you do actually matters",
+              "date": "2025-04-27",
+              "link": "https://anniemueller.com/posts/every-small-thing-you-do-actually-matters"
+            },
+            {
+              "title": "Seems like this is real simple though?",
+              "date": "2025-04-26",
+              "link": "https://anniemueller.com/posts/seems-like-this-is-real-simple-though"
+            },
+            {
+              "title": "How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner",
+              "date": "2025-04-15",
+              "link": "https://anniemueller.com/posts/how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner"
+            },
+            {
+              "title": "It is the work of the writer to reclaim the language",
+              "date": "2025-04-14",
+              "link": "https://anniemueller.com/posts/it-is-the-work-of-the-writer-to-reclaim-the-language"
+            },
+            {
+              "title": "Do you have questions about tacos?",
+              "date": "2025-04-13",
+              "link": "https://anniemueller.com/posts/do-you-have-questions-about-tacos"
             }
           ]
         },
@@ -40,7 +71,7 @@
           "items": [
             {
               "title": "Microblog",
-              "date": "2025-04-25",
+              "date": "2025-04-26",
               "link": "https://frills.dev/status/microblog/"
             },
             {
@@ -70,6 +101,14 @@
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
             {
+              "date": "2025-04-26",
+              "link": "https://dbushell.com/notes/2025-04-26T08:21Z/"
+            },
+            {
+              "date": "2025-04-26",
+              "link": "https://dbushell.com/notes/2025-04-26T05:30Z/"
+            },
+            {
               "date": "2025-04-25",
               "link": "https://dbushell.com/notes/2025-04-25T08:56Z/"
             },
@@ -80,14 +119,37 @@
             {
               "date": "2025-04-24",
               "link": "https://dbushell.com/notes/2025-04-24T14:57Z/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Why care about the no-JS experience?",
+              "date": "2025-04-25",
+              "link": "https://gomakethings.com/why-care-about-the-no-js-experience/"
             },
             {
+              "title": "Ship faster, reduce costs, and build better systems",
               "date": "2025-04-24",
-              "link": "https://dbushell.com/notes/2025-04-24T08:21Z/"
+              "link": "https://gomakethings.com/ship-faster-reduce-costs-and-build-better-systems/"
             },
             {
-              "date": "2025-04-24",
-              "link": "https://dbushell.com/notes/2025-04-24T05:37Z/"
+              "title": "Fair-Code",
+              "date": "2025-04-23",
+              "link": "https://gomakethings.com/fair-code/"
+            },
+            {
+              "title": "Open source is kind of broken",
+              "date": "2025-04-22",
+              "link": "https://gomakethings.com/open-source-is-kind-of-broken/"
+            },
+            {
+              "title": "A Web Component UI library for people who love HTML",
+              "date": "2025-04-21",
+              "link": "https://gomakethings.com/a-web-component-ui-library-for-people-who-love-html/"
             }
           ]
         },
@@ -181,37 +243,6 @@
               "title": "Betteridge's Law of Software Engineering Specialness",
               "date": "2025-03-26",
               "link": "https://buttondown.com/hillelwayne/archive/betteridges-law-of-software-engineering/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Zig Smart Lights; Zapping the Snake ⚡",
-              "date": "2025-04-23",
-              "link": "https://dbushell.com/2025/04/23/zig-smart-lights/"
-            },
-            {
-              "title": "Spring 2025: Self-Hosted Update",
-              "date": "2025-04-13",
-              "link": "https://dbushell.com/2025/04/13/self-hosted-update-spring-2025/"
-            },
-            {
-              "title": "Ghostty & macOS Quick Terminal 👻",
-              "date": "2025-04-11",
-              "link": "https://dbushell.com/2025/04/11/ghostty-macos-quick-terminal/"
-            },
-            {
-              "title": "Weblogging (tagged)",
-              "date": "2025-04-06",
-              "link": "https://dbushell.com/2025/04/06/weblogging-4/"
-            },
-            {
-              "title": "Et tu, Grammarly?",
-              "date": "2025-03-29",
-              "link": "https://dbushell.com/2025/03/29/et-tu-grammarly/"
             }
           ]
         },
@@ -677,37 +708,6 @@
               "title": "Solving Unintended View Transition Wonkiness",
               "date": "2025-02-19",
               "link": "https://thathtml.blog/2025/02/solving-unintended-view-transition-wonkiness/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner",
-              "date": "2025-04-15",
-              "link": "https://anniemueller.com/posts/how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner"
-            },
-            {
-              "title": "It is the work of the writer to reclaim the language",
-              "date": "2025-04-14",
-              "link": "https://anniemueller.com/posts/it-is-the-work-of-the-writer-to-reclaim-the-language"
-            },
-            {
-              "title": "Do you have questions about tacos?",
-              "date": "2025-04-13",
-              "link": "https://anniemueller.com/posts/do-you-have-questions-about-tacos"
-            },
-            {
-              "title": "Tomorrow might feel better",
-              "date": "2025-04-07",
-              "link": "https://anniemueller.com/posts/tomorrow-might-feel-better"
-            },
-            {
-              "title": "Break dumb rules",
-              "date": "2025-04-04",
-              "link": "https://anniemueller.com/posts/break-dumb-rules"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-26T03:29:36.027Z",
+  "fetchDate": "2025-04-27T03:35:57.539Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

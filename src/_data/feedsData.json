@@ -4,7 +4,38 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "dbushell.com",
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Media",
+              "date": "2025-04-30",
+              "link": "https://frills.dev/curios/media/"
+            },
+            {
+              "title": "Microblog",
+              "date": "2025-04-27",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
+            },
+            {
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
+            },
+            {
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
             {
@@ -31,6 +62,125 @@
               "title": "Weblogging (tagged)",
               "date": "2025-04-06",
               "link": "https://dbushell.com/2025/04/06/weblogging-4/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The duality of creating change",
+              "date": "2025-04-27",
+              "link": "https://gomakethings.com/the-duality-of-creating-change/"
+            },
+            {
+              "title": "Why care about the no-JS experience?",
+              "date": "2025-04-25",
+              "link": "https://gomakethings.com/why-care-about-the-no-js-experience/"
+            },
+            {
+              "title": "Ship faster, reduce costs, and build better systems",
+              "date": "2025-04-24",
+              "link": "https://gomakethings.com/ship-faster-reduce-costs-and-build-better-systems/"
+            },
+            {
+              "title": "Fair-Code",
+              "date": "2025-04-23",
+              "link": "https://gomakethings.com/fair-code/"
+            },
+            {
+              "title": "Open source is kind of broken",
+              "date": "2025-04-22",
+              "link": "https://gomakethings.com/open-source-is-kind-of-broken/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Craft and Satisfaction",
+              "date": "2025-04-27",
+              "link": "https://blog.jim-nielsen.com/2025/craft-and-satisfaction/"
+            },
+            {
+              "title": "Brian Regan Helped Me Understand My Aversion to Job Titles",
+              "date": "2025-04-23",
+              "link": "https://blog.jim-nielsen.com/2025/job-titles/"
+            },
+            {
+              "title": "“I Don’t See Why Not”",
+              "date": "2025-04-21",
+              "link": "https://blog.jim-nielsen.com/2025/i-dont-see-why-not/"
+            },
+            {
+              "title": "You’re Only As Strong As Your Weakest Point",
+              "date": "2025-04-19",
+              "link": "https://blog.jim-nielsen.com/2025/as-strong-as-your-weakest-point/"
+            },
+            {
+              "title": "Be Mindful of What You Make Easy",
+              "date": "2025-04-16",
+              "link": "https://blog.jim-nielsen.com/2025/be-mindful-of-what-you-make-easy/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "I think I’m done with Safari and Apple Mail",
+              "date": "2025-04-27",
+              "link": "https://thejollyteapot.com/2025/04/27/i-think-i-m-done-with-safari-and-apple-mail/"
+            },
+            {
+              "title": "March 2025 blend of links",
+              "date": "2025-03-29",
+              "link": "https://thejollyteapot.com/march-2025-blend/"
+            },
+            {
+              "title": "Spring update",
+              "date": "2025-03-22",
+              "link": "https://thejollyteapot.com/2025/03/22/spring-update/"
+            },
+            {
+              "title": "How great is the Send Later feature?",
+              "date": "2025-02-22",
+              "link": "https://thejollyteapot.com/2025/02/22/how-great-is-the-send-later-feature/"
+            },
+            {
+              "title": "February 2025 blend of links",
+              "date": "2025-02-19",
+              "link": "https://thejollyteapot.com/february-2025-blend/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-04-27",
+              "link": "https://dbushell.com/notes/2025-04-27T13:07Z/"
+            },
+            {
+              "date": "2025-04-27",
+              "link": "https://dbushell.com/notes/2025-04-27T06:00Z/"
+            },
+            {
+              "date": "2025-04-26",
+              "link": "https://dbushell.com/notes/2025-04-26T08:21Z/"
+            },
+            {
+              "date": "2025-04-26",
+              "link": "https://dbushell.com/notes/2025-04-26T05:30Z/"
+            },
+            {
+              "date": "2025-04-25",
+              "link": "https://dbushell.com/notes/2025-04-25T08:56Z/"
             }
           ]
         },
@@ -62,94 +212,6 @@
               "title": "Do you have questions about tacos?",
               "date": "2025-04-13",
               "link": "https://anniemueller.com/posts/do-you-have-questions-about-tacos"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-04-26",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
-            },
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
-            },
-            {
-              "title": "Alt Text Selfies",
-              "date": "2025-04-01",
-              "link": "https://alttextselfies.net/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (microblog)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-04-26",
-              "link": "https://dbushell.com/notes/2025-04-26T08:21Z/"
-            },
-            {
-              "date": "2025-04-26",
-              "link": "https://dbushell.com/notes/2025-04-26T05:30Z/"
-            },
-            {
-              "date": "2025-04-25",
-              "link": "https://dbushell.com/notes/2025-04-25T08:56Z/"
-            },
-            {
-              "date": "2025-04-24",
-              "link": "https://dbushell.com/notes/2025-04-24T17:01Z/"
-            },
-            {
-              "date": "2025-04-24",
-              "link": "https://dbushell.com/notes/2025-04-24T14:57Z/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Why care about the no-JS experience?",
-              "date": "2025-04-25",
-              "link": "https://gomakethings.com/why-care-about-the-no-js-experience/"
-            },
-            {
-              "title": "Ship faster, reduce costs, and build better systems",
-              "date": "2025-04-24",
-              "link": "https://gomakethings.com/ship-faster-reduce-costs-and-build-better-systems/"
-            },
-            {
-              "title": "Fair-Code",
-              "date": "2025-04-23",
-              "link": "https://gomakethings.com/fair-code/"
-            },
-            {
-              "title": "Open source is kind of broken",
-              "date": "2025-04-22",
-              "link": "https://gomakethings.com/open-source-is-kind-of-broken/"
-            },
-            {
-              "title": "A Web Component UI library for people who love HTML",
-              "date": "2025-04-21",
-              "link": "https://gomakethings.com/a-web-component-ui-library-for-people-who-love-html/"
             }
           ]
         },
@@ -243,37 +305,6 @@
               "title": "Betteridge's Law of Software Engineering Specialness",
               "date": "2025-03-26",
               "link": "https://buttondown.com/hillelwayne/archive/betteridges-law-of-software-engineering/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Brian Regan Helped Me Understand My Aversion to Job Titles",
-              "date": "2025-04-23",
-              "link": "https://blog.jim-nielsen.com/2025/job-titles/"
-            },
-            {
-              "title": "“I Don’t See Why Not”",
-              "date": "2025-04-21",
-              "link": "https://blog.jim-nielsen.com/2025/i-dont-see-why-not/"
-            },
-            {
-              "title": "You’re Only As Strong As Your Weakest Point",
-              "date": "2025-04-19",
-              "link": "https://blog.jim-nielsen.com/2025/as-strong-as-your-weakest-point/"
-            },
-            {
-              "title": "Be Mindful of What You Make Easy",
-              "date": "2025-04-16",
-              "link": "https://blog.jim-nielsen.com/2025/be-mindful-of-what-you-make-easy/"
-            },
-            {
-              "title": "Some Love For Interoperable Apps",
-              "date": "2025-04-14",
-              "link": "https://blog.jim-nielsen.com/2025/love-for-interoperability/"
             }
           ]
         },
@@ -1173,37 +1204,6 @@
               "title": "Free variables",
               "date": "2025-03-26",
               "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "March 2025 blend of links",
-              "date": "2025-03-29",
-              "link": "https://thejollyteapot.com/march-2025-blend/"
-            },
-            {
-              "title": "Spring update",
-              "date": "2025-03-22",
-              "link": "https://thejollyteapot.com/2025/03/22/spring-update/"
-            },
-            {
-              "title": "How great is the Send Later feature?",
-              "date": "2025-02-22",
-              "link": "https://thejollyteapot.com/2025/02/22/how-great-is-the-send-later-feature/"
-            },
-            {
-              "title": "February 2025 blend of links",
-              "date": "2025-02-19",
-              "link": "https://thejollyteapot.com/february-2025-blend/"
-            },
-            {
-              "title": "The nice feeling of trusting tools",
-              "date": "2025-02-09",
-              "link": "https://thejollyteapot.com/2025/02/09/the-nice-feeling-of-trusting-tools/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-27T03:35:57.539Z",
+  "fetchDate": "2025-04-28T03:39:05.999Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

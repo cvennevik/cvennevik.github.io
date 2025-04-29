@@ -14,7 +14,7 @@
             },
             {
               "title": "Microblog",
-              "date": "2025-04-27",
+              "date": "2025-04-28",
               "link": "https://frills.dev/status/microblog/"
             },
             {
@@ -35,9 +35,76 @@
           ]
         },
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "People can change",
+              "date": "2025-04-29",
+              "link": "https://anniemueller.com/posts/people-can-change"
+            },
+            {
+              "title": "Every small thing you do actually matters",
+              "date": "2025-04-27",
+              "link": "https://anniemueller.com/posts/every-small-thing-you-do-actually-matters"
+            },
+            {
+              "title": "Seems like this is real simple though?",
+              "date": "2025-04-26",
+              "link": "https://anniemueller.com/posts/seems-like-this-is-real-simple-though"
+            },
+            {
+              "title": "How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner",
+              "date": "2025-04-15",
+              "link": "https://anniemueller.com/posts/how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner"
+            },
+            {
+              "title": "It is the work of the writer to reclaim the language",
+              "date": "2025-04-14",
+              "link": "https://anniemueller.com/posts/it-is-the-work-of-the-writer-to-reclaim-the-language"
+            }
+          ]
+        },
+        {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "On Dropouts and Bootstraps",
+              "date": "2025-04-28",
+              "link": "https://charity.wtf/2025/04/28/on-dropouts-and-bootstraps/"
+            },
+            {
+              "title": "On Writing, Social Media, and Finding the Line of Embarrassment",
+              "date": "2025-04-19",
+              "link": "https://charity.wtf/2025/04/19/on-writing-social-media-and-finding-the-line-of-embarrassment/"
+            },
+            {
+              "title": "Another observability 3.0 appears on the horizon",
+              "date": "2025-03-24",
+              "link": "https://charity.wtf/2025/03/24/another-observability-3-0-appears-on-the-horizon/"
+            },
+            {
+              "title": "Corporate “DEI” is an imperfect vehicle for deeply meaningful ideals",
+              "date": "2025-02-10",
+              "link": "https://charity.wtf/2025/02/10/corporate-dei-is-an-imperfect-vehicle-for-deeply-meaningful-ideals/"
+            },
+            {
+              "title": "On Versioning Observabilities (1.0, 2.0, 3.0…10.0?!?)",
+              "date": "2024-12-20",
+              "link": "https://charity.wtf/2024/12/20/on-versioning-observabilities-1-0-2-0-3-0-10-0/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
+            {
+              "title": "Deno’s Decline (6 Regions and Falling)",
+              "date": "2025-04-28",
+              "link": "https://dbushell.com/2025/04/28/denos-decline/"
+            },
             {
               "title": "Bunny CDN 🐇 (Migrating from Cloudflare)",
               "date": "2025-04-27",
@@ -57,11 +124,6 @@
               "title": "Ghostty & macOS Quick Terminal 👻",
               "date": "2025-04-11",
               "link": "https://dbushell.com/2025/04/11/ghostty-macos-quick-terminal/"
-            },
-            {
-              "title": "Weblogging (tagged)",
-              "date": "2025-04-06",
-              "link": "https://dbushell.com/2025/04/06/weblogging-4/"
             }
           ]
         },
@@ -69,6 +131,11 @@
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Mixing colors with CSS",
+              "date": "2025-04-28",
+              "link": "https://gomakethings.com/mixing-colors-with-css/"
+            },
             {
               "title": "The duality of creating change",
               "date": "2025-04-27",
@@ -88,11 +155,125 @@
               "title": "Fair-Code",
               "date": "2025-04-23",
               "link": "https://gomakethings.com/fair-code/"
+            }
+          ]
+        },
+        {
+          "title": "HeydonWorks",
+          "feedUrl": "https://heydonworks.com/feed.xml",
+          "items": [
+            {
+              "title": "The canvas element",
+              "date": "2025-04-28",
+              "link": "https://heydonworks.com/article/the-canvas-element/"
             },
             {
-              "title": "Open source is kind of broken",
-              "date": "2025-04-22",
-              "link": "https://gomakethings.com/open-source-is-kind-of-broken/"
+              "title": "Poisoning Well",
+              "date": "2025-03-31",
+              "link": "https://heydonworks.com/article/poisoning-well/"
+            },
+            {
+              "title": "The br element",
+              "date": "2024-11-12",
+              "link": "https://heydonworks.com/article/the-br-element/"
+            },
+            {
+              "title": "The button element",
+              "date": "2024-11-04",
+              "link": "https://heydonworks.com/article/the-button-element/"
+            },
+            {
+              "title": "The body element",
+              "date": "2024-10-31",
+              "link": "https://heydonworks.com/article/the-body-element/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "April 2025 blend of links",
+              "date": "2025-04-28",
+              "link": "https://thejollyteapot.com/april-2025-blend/"
+            },
+            {
+              "title": "I think I’m done with Safari and Apple Mail",
+              "date": "2025-04-27",
+              "link": "https://thejollyteapot.com/2025/04/27/i-think-i-m-done-with-safari-and-apple-mail/"
+            },
+            {
+              "title": "March 2025 blend of links",
+              "date": "2025-03-29",
+              "link": "https://thejollyteapot.com/march-2025-blend/"
+            },
+            {
+              "title": "Spring update",
+              "date": "2025-03-22",
+              "link": "https://thejollyteapot.com/2025/03/22/spring-update/"
+            },
+            {
+              "title": "How great is the Send Later feature?",
+              "date": "2025-02-22",
+              "link": "https://thejollyteapot.com/2025/02/22/how-great-is-the-send-later-feature/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-04-28",
+              "link": "https://dbushell.com/notes/2025-04-28T07:41Z/"
+            },
+            {
+              "date": "2025-04-27",
+              "link": "https://dbushell.com/notes/2025-04-27T13:07Z/"
+            },
+            {
+              "date": "2025-04-27",
+              "link": "https://dbushell.com/notes/2025-04-27T06:00Z/"
+            },
+            {
+              "date": "2025-04-26",
+              "link": "https://dbushell.com/notes/2025-04-26T08:21Z/"
+            },
+            {
+              "date": "2025-04-26",
+              "link": "https://dbushell.com/notes/2025-04-26T05:30Z/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Measuring my Framework laptop's performance in 3 positions",
+              "date": "2025-04-28",
+              "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "The five stages of incident response",
+              "date": "2025-04-21",
+              "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Python is an interpreted language with a compiler",
+              "date": "2025-04-14",
+              "link": "https://ntietz.com/blog/python-is-an-interpreted-language-with-a-compiler/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Typing using my keyboard (the other kind)",
+              "date": "2025-04-07",
+              "link": "https://ntietz.com/blog/typing-using-my-keyboard-the-other-kind/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Shadowing in Python gave me an UnboundLocalError",
+              "date": "2025-03-31",
+              "link": "https://ntietz.com/blog/pythons-shadowing-behavior-always-surprises-me/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -124,94 +305,6 @@
               "title": "Be Mindful of What You Make Easy",
               "date": "2025-04-16",
               "link": "https://blog.jim-nielsen.com/2025/be-mindful-of-what-you-make-easy/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "I think I’m done with Safari and Apple Mail",
-              "date": "2025-04-27",
-              "link": "https://thejollyteapot.com/2025/04/27/i-think-i-m-done-with-safari-and-apple-mail/"
-            },
-            {
-              "title": "March 2025 blend of links",
-              "date": "2025-03-29",
-              "link": "https://thejollyteapot.com/march-2025-blend/"
-            },
-            {
-              "title": "Spring update",
-              "date": "2025-03-22",
-              "link": "https://thejollyteapot.com/2025/03/22/spring-update/"
-            },
-            {
-              "title": "How great is the Send Later feature?",
-              "date": "2025-02-22",
-              "link": "https://thejollyteapot.com/2025/02/22/how-great-is-the-send-later-feature/"
-            },
-            {
-              "title": "February 2025 blend of links",
-              "date": "2025-02-19",
-              "link": "https://thejollyteapot.com/february-2025-blend/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-04-27",
-              "link": "https://dbushell.com/notes/2025-04-27T13:07Z/"
-            },
-            {
-              "date": "2025-04-27",
-              "link": "https://dbushell.com/notes/2025-04-27T06:00Z/"
-            },
-            {
-              "date": "2025-04-26",
-              "link": "https://dbushell.com/notes/2025-04-26T08:21Z/"
-            },
-            {
-              "date": "2025-04-26",
-              "link": "https://dbushell.com/notes/2025-04-26T05:30Z/"
-            },
-            {
-              "date": "2025-04-25",
-              "link": "https://dbushell.com/notes/2025-04-25T08:56Z/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Every small thing you do actually matters",
-              "date": "2025-04-27",
-              "link": "https://anniemueller.com/posts/every-small-thing-you-do-actually-matters"
-            },
-            {
-              "title": "Seems like this is real simple though?",
-              "date": "2025-04-26",
-              "link": "https://anniemueller.com/posts/seems-like-this-is-real-simple-though"
-            },
-            {
-              "title": "How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner",
-              "date": "2025-04-15",
-              "link": "https://anniemueller.com/posts/how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner"
-            },
-            {
-              "title": "It is the work of the writer to reclaim the language",
-              "date": "2025-04-14",
-              "link": "https://anniemueller.com/posts/it-is-the-work-of-the-writer-to-reclaim-the-language"
-            },
-            {
-              "title": "Do you have questions about tacos?",
-              "date": "2025-04-13",
-              "link": "https://anniemueller.com/posts/do-you-have-questions-about-tacos"
             }
           ]
         },
@@ -371,37 +464,6 @@
           ]
         },
         {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "The five stages of incident response",
-              "date": "2025-04-21",
-              "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Python is an interpreted language with a compiler",
-              "date": "2025-04-14",
-              "link": "https://ntietz.com/blog/python-is-an-interpreted-language-with-a-compiler/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Typing using my keyboard (the other kind)",
-              "date": "2025-04-07",
-              "link": "https://ntietz.com/blog/typing-using-my-keyboard-the-other-kind/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Shadowing in Python gave me an UnboundLocalError",
-              "date": "2025-03-31",
-              "link": "https://ntietz.com/blog/pythons-shadowing-behavior-always-surprises-me/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Big endian and little endian",
-              "date": "2025-03-24",
-              "link": "https://ntietz.com/blog/endianness/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -460,37 +522,6 @@
               "title": "Using \"fake it till you make it\" to implement counterstring",
               "date": "2025-01-04",
               "link": "https://smallsheds.garden/blog/2025/using-fake-it-till-you-make-it-to-implement-counterstring/"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "On Writing, Social Media, and Finding the Line of Embarrassment",
-              "date": "2025-04-19",
-              "link": "https://charity.wtf/2025/04/19/on-writing-social-media-and-finding-the-line-of-embarrassment/"
-            },
-            {
-              "title": "Another observability 3.0 appears on the horizon",
-              "date": "2025-03-24",
-              "link": "https://charity.wtf/2025/03/24/another-observability-3-0-appears-on-the-horizon/"
-            },
-            {
-              "title": "Corporate “DEI” is an imperfect vehicle for deeply meaningful ideals",
-              "date": "2025-02-10",
-              "link": "https://charity.wtf/2025/02/10/corporate-dei-is-an-imperfect-vehicle-for-deeply-meaningful-ideals/"
-            },
-            {
-              "title": "On Versioning Observabilities (1.0, 2.0, 3.0…10.0?!?)",
-              "date": "2024-12-20",
-              "link": "https://charity.wtf/2024/12/20/on-versioning-observabilities-1-0-2-0-3-0-10-0/"
-            },
-            {
-              "title": "“Founder Mode” and the Art of Mythmaking",
-              "date": "2024-12-17",
-              "link": "https://charity.wtf/2024/12/17/founder-mode-and-the-art-of-mythmaking/"
             }
           ]
         },
@@ -1111,68 +1142,6 @@
               "title": "Mere Being 016 - August - Iron Supplements, Digestion, Love",
               "date": "2024-09-01",
               "link": "https://www.simplermachines.com/mere-being-2/"
-            }
-          ]
-        },
-        {
-          "title": "HeydonWorks",
-          "feedUrl": "https://heydonworks.com/feed.xml",
-          "items": [
-            {
-              "title": "Poisoning Well",
-              "date": "2025-03-31",
-              "link": "https://heydonworks.com/article/poisoning-well/"
-            },
-            {
-              "title": "The br element",
-              "date": "2024-11-12",
-              "link": "https://heydonworks.com/article/the-br-element/"
-            },
-            {
-              "title": "The button element",
-              "date": "2024-11-04",
-              "link": "https://heydonworks.com/article/the-button-element/"
-            },
-            {
-              "title": "The body element",
-              "date": "2024-10-31",
-              "link": "https://heydonworks.com/article/the-body-element/"
-            },
-            {
-              "title": "The blockquote element",
-              "date": "2024-10-14",
-              "link": "https://heydonworks.com/article/the-blockquote-element/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "item-flow",
-              "date": "2025-03-30",
-              "link": "https://robinrendle.com/notes/item-flow/"
-            },
-            {
-              "title": "Humiliation",
-              "date": "2025-03-15",
-              "link": "https://robinrendle.com/notes/humiliation/"
-            },
-            {
-              "title": "Abandon all keyboards",
-              "date": "2025-03-11",
-              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
-            },
-            {
-              "title": "trot",
-              "date": "2025-02-15",
-              "link": "https://robinrendle.com/notes/trot/"
-            },
-            {
-              "title": "Notes on blogging",
-              "date": "2025-02-01",
-              "link": "https://robinrendle.com/notes/notes-on-blogging/"
             }
           ]
         },
@@ -2461,11 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-28T03:39:05.999Z",
+  "fetchDate": "2025-04-29T03:36:38.797Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://robinrendle.com/feed.xml"
   ]
 }

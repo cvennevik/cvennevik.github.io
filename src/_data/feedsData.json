@@ -4,18 +4,80 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "HeydonWorks",
+          "feedUrl": "https://heydonworks.com/feed.xml",
+          "items": [
+            {
+              "title": "The cite element",
+              "date": "2025-04-30",
+              "link": "https://heydonworks.com/article/the-cite-element/"
+            },
+            {
+              "title": "The canvas element",
+              "date": "2025-04-28",
+              "link": "https://heydonworks.com/article/the-canvas-element/"
+            },
+            {
+              "title": "Poisoning Well",
+              "date": "2025-03-31",
+              "link": "https://heydonworks.com/article/poisoning-well/"
+            },
+            {
+              "title": "The br element",
+              "date": "2024-11-12",
+              "link": "https://heydonworks.com/article/the-br-element/"
+            },
+            {
+              "title": "The button element",
+              "date": "2024-11-04",
+              "link": "https://heydonworks.com/article/the-button-element/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "Mere Being 021 - April - dinner parties, charoset, dying in holes",
+              "date": "2025-04-30",
+              "link": "https://www.simplermachines.com/mere-being-021-april-dinner-pa/"
+            },
+            {
+              "title": "Mere Being 020 - March - human nature, lady doctors, potatoes",
+              "date": "2025-04-01",
+              "link": "https://www.simplermachines.com/mere-being-020-march-2/"
+            },
+            {
+              "title": "Mere Being 019 - February - Plenty Huge Men Roam the Earth",
+              "date": "2025-03-02",
+              "link": "https://www.simplermachines.com/mere-being-018-february-p/"
+            },
+            {
+              "title": "Mere Being 018 - December",
+              "date": "2025-01-01",
+              "link": "https://www.simplermachines.com/mere-being-018-december/"
+            },
+            {
+              "title": "Mere Being 017 - September - Dirt Man",
+              "date": "2024-10-01",
+              "link": "https://www.simplermachines.com/mere-being-017-september-dirt-man/"
+            }
+          ]
+        },
+        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
+              "title": "Microblog",
+              "date": "2025-04-30",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
               "title": "Media",
               "date": "2025-04-30",
               "link": "https://frills.dev/curios/media/"
-            },
-            {
-              "title": "Microblog",
-              "date": "2025-04-29",
-              "link": "https://frills.dev/status/microblog/"
             },
             {
               "title": "HTML named colors",
@@ -35,33 +97,33 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
             {
-              "title": "Backwards Compatibility in the Web, but Not Its Tools",
+              "title": "Before the next beginning",
+              "date": "2025-04-30",
+              "link": "https://anniemueller.com/posts/before-the-next-beginning"
+            },
+            {
+              "title": "People can change",
               "date": "2025-04-29",
-              "link": "https://blog.jim-nielsen.com/2025/backwards-compat-in-web-but-not-its-tools/"
+              "link": "https://anniemueller.com/posts/people-can-change"
             },
             {
-              "title": "Craft and Satisfaction",
+              "title": "Every small thing you do actually matters",
               "date": "2025-04-27",
-              "link": "https://blog.jim-nielsen.com/2025/craft-and-satisfaction/"
+              "link": "https://anniemueller.com/posts/every-small-thing-you-do-actually-matters"
             },
             {
-              "title": "Brian Regan Helped Me Understand My Aversion to Job Titles",
-              "date": "2025-04-23",
-              "link": "https://blog.jim-nielsen.com/2025/job-titles/"
+              "title": "Seems like this is real simple though?",
+              "date": "2025-04-26",
+              "link": "https://anniemueller.com/posts/seems-like-this-is-real-simple-though"
             },
             {
-              "title": "“I Don’t See Why Not”",
-              "date": "2025-04-21",
-              "link": "https://blog.jim-nielsen.com/2025/i-dont-see-why-not/"
-            },
-            {
-              "title": "You’re Only As Strong As Your Weakest Point",
-              "date": "2025-04-19",
-              "link": "https://blog.jim-nielsen.com/2025/as-strong-as-your-weakest-point/"
+              "title": "How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner",
+              "date": "2025-04-15",
+              "link": "https://anniemueller.com/posts/how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner"
             }
           ]
         },
@@ -93,6 +155,37 @@
               "title": "Ship faster, reduce costs, and build better systems",
               "date": "2025-04-24",
               "link": "https://gomakethings.com/ship-faster-reduce-costs-and-build-better-systems/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Backwards Compatibility in the Web, but Not Its Tools",
+              "date": "2025-04-29",
+              "link": "https://blog.jim-nielsen.com/2025/backwards-compat-in-web-but-not-its-tools/"
+            },
+            {
+              "title": "Craft and Satisfaction",
+              "date": "2025-04-27",
+              "link": "https://blog.jim-nielsen.com/2025/craft-and-satisfaction/"
+            },
+            {
+              "title": "Brian Regan Helped Me Understand My Aversion to Job Titles",
+              "date": "2025-04-23",
+              "link": "https://blog.jim-nielsen.com/2025/job-titles/"
+            },
+            {
+              "title": "“I Don’t See Why Not”",
+              "date": "2025-04-21",
+              "link": "https://blog.jim-nielsen.com/2025/i-dont-see-why-not/"
+            },
+            {
+              "title": "You’re Only As Strong As Your Weakest Point",
+              "date": "2025-04-19",
+              "link": "https://blog.jim-nielsen.com/2025/as-strong-as-your-weakest-point/"
             }
           ]
         },
@@ -150,37 +243,6 @@
             {
               "date": "2025-04-27",
               "link": "https://dbushell.com/notes/2025-04-27T13:07Z/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "People can change",
-              "date": "2025-04-29",
-              "link": "https://anniemueller.com/posts/people-can-change"
-            },
-            {
-              "title": "Every small thing you do actually matters",
-              "date": "2025-04-27",
-              "link": "https://anniemueller.com/posts/every-small-thing-you-do-actually-matters"
-            },
-            {
-              "title": "Seems like this is real simple though?",
-              "date": "2025-04-26",
-              "link": "https://anniemueller.com/posts/seems-like-this-is-real-simple-though"
-            },
-            {
-              "title": "How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner",
-              "date": "2025-04-15",
-              "link": "https://anniemueller.com/posts/how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner"
-            },
-            {
-              "title": "It is the work of the writer to reclaim the language",
-              "date": "2025-04-14",
-              "link": "https://anniemueller.com/posts/it-is-the-work-of-the-writer-to-reclaim-the-language"
             }
           ]
         },
@@ -243,37 +305,6 @@
               "title": "Ghostty & macOS Quick Terminal 👻",
               "date": "2025-04-11",
               "link": "https://dbushell.com/2025/04/11/ghostty-macos-quick-terminal/"
-            }
-          ]
-        },
-        {
-          "title": "HeydonWorks",
-          "feedUrl": "https://heydonworks.com/feed.xml",
-          "items": [
-            {
-              "title": "The canvas element",
-              "date": "2025-04-28",
-              "link": "https://heydonworks.com/article/the-canvas-element/"
-            },
-            {
-              "title": "Poisoning Well",
-              "date": "2025-03-31",
-              "link": "https://heydonworks.com/article/poisoning-well/"
-            },
-            {
-              "title": "The br element",
-              "date": "2024-11-12",
-              "link": "https://heydonworks.com/article/the-br-element/"
-            },
-            {
-              "title": "The button element",
-              "date": "2024-11-04",
-              "link": "https://heydonworks.com/article/the-button-element/"
-            },
-            {
-              "title": "The body element",
-              "date": "2024-10-31",
-              "link": "https://heydonworks.com/article/the-body-element/"
             }
           ]
         },
@@ -1115,37 +1146,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "Mere Being 020 - March - human nature, lady doctors, potatoes",
-              "date": "2025-04-01",
-              "link": "https://www.simplermachines.com/mere-being-020-march-2/"
-            },
-            {
-              "title": "Mere Being 019 - February - Plenty Huge Men Roam the Earth",
-              "date": "2025-03-02",
-              "link": "https://www.simplermachines.com/mere-being-018-february-p/"
-            },
-            {
-              "title": "Mere Being 018 - December",
-              "date": "2025-01-01",
-              "link": "https://www.simplermachines.com/mere-being-018-december/"
-            },
-            {
-              "title": "Mere Being 017 - September - Dirt Man",
-              "date": "2024-10-01",
-              "link": "https://www.simplermachines.com/mere-being-017-september-dirt-man/"
-            },
-            {
-              "title": "Mere Being 016 - August - Iron Supplements, Digestion, Love",
-              "date": "2024-09-01",
-              "link": "https://www.simplermachines.com/mere-being-2/"
-            }
-          ]
-        },
-        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -1204,37 +1204,6 @@
               "title": "Free variables",
               "date": "2025-03-26",
               "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
-            }
-          ]
-        },
-        {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Reflections on writing a book",
-              "date": "2025-03-24",
-              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
-            },
-            {
-              "title": "Make it happen",
-              "date": "2025-02-11",
-              "link": "https://dubroy.com/blog/make-it-happen/"
-            },
-            {
-              "title": "Five coding hats",
-              "date": "2025-02-03",
-              "link": "https://dubroy.com/blog/five-coding-hats/"
-            },
-            {
-              "title": "One way to do applied research",
-              "date": "2024-11-07",
-              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
-            },
-            {
-              "title": "Memories of some fantastic internships",
-              "date": "2024-07-31",
-              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
             }
           ]
         },
@@ -2461,11 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-04-30T03:35:30.967Z",
+  "fetchDate": "2025-05-01T03:43:32.792Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
+    "https://dubroy.com/blog/rss.xml",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

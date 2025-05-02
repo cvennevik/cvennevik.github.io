@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Automatically wrapping CSS Grid",
+              "date": "2025-05-01",
+              "link": "https://gomakethings.com/automatically-wrapping-css-grid/"
+            },
+            {
+              "title": "The CSS @layer at-rule",
+              "date": "2025-04-29",
+              "link": "https://gomakethings.com/the-css-layer-at-rule/"
+            },
+            {
+              "title": "Mixing colors with CSS",
+              "date": "2025-04-28",
+              "link": "https://gomakethings.com/mixing-colors-with-css/"
+            },
+            {
+              "title": "The duality of creating change",
+              "date": "2025-04-27",
+              "link": "https://gomakethings.com/the-duality-of-creating-change/"
+            },
+            {
+              "title": "Why care about the no-JS experience?",
+              "date": "2025-04-25",
+              "link": "https://gomakethings.com/why-care-about-the-no-js-experience/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2025-05-01",
+              "link": "https://macwright.com/2025/05/01/recently.html"
+            },
+            {
+              "title": "Tidbyt without the company",
+              "date": "2025-04-12",
+              "link": "https://macwright.com/2025/04/12/tidbyt-second-life.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-04-07",
+              "link": "https://macwright.com/2025/04/07/recently.html"
+            },
+            {
+              "title": "Personal tools",
+              "date": "2025-04-03",
+              "link": "https://macwright.com/2025/04/03/personal-tools.html"
+            },
+            {
+              "title": "Introducing the blogroll",
+              "date": "2025-03-07",
+              "link": "https://macwright.com/2025/03/07/blogroll.html"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-05-01",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Media",
+              "date": "2025-04-30",
+              "link": "https://frills.dev/curios/media/"
+            },
+            {
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
+            },
+            {
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
+            },
+            {
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            }
+          ]
+        },
+        {
           "title": "HeydonWorks",
           "feedUrl": "https://heydonworks.com/feed.xml",
           "items": [
@@ -66,37 +159,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-04-30",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Media",
-              "date": "2025-04-30",
-              "link": "https://frills.dev/curios/media/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
-            },
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
-            }
-          ]
-        },
-        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -124,37 +186,6 @@
               "title": "How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner",
               "date": "2025-04-15",
               "link": "https://anniemueller.com/posts/how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "The CSS @layer at-rule",
-              "date": "2025-04-29",
-              "link": "https://gomakethings.com/the-css-layer-at-rule/"
-            },
-            {
-              "title": "Mixing colors with CSS",
-              "date": "2025-04-28",
-              "link": "https://gomakethings.com/mixing-colors-with-css/"
-            },
-            {
-              "title": "The duality of creating change",
-              "date": "2025-04-27",
-              "link": "https://gomakethings.com/the-duality-of-creating-change/"
-            },
-            {
-              "title": "Why care about the no-JS experience?",
-              "date": "2025-04-25",
-              "link": "https://gomakethings.com/why-care-about-the-no-js-experience/"
-            },
-            {
-              "title": "Ship faster, reduce costs, and build better systems",
-              "date": "2025-04-24",
-              "link": "https://gomakethings.com/ship-faster-reduce-costs-and-build-better-systems/"
             }
           ]
         },
@@ -867,37 +898,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Tidbyt without the company",
-              "date": "2025-04-12",
-              "link": "https://macwright.com/2025/04/12/tidbyt-second-life.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-04-07",
-              "link": "https://macwright.com/2025/04/07/recently.html"
-            },
-            {
-              "title": "Personal tools",
-              "date": "2025-04-03",
-              "link": "https://macwright.com/2025/04/03/personal-tools.html"
-            },
-            {
-              "title": "Introducing the blogroll",
-              "date": "2025-03-07",
-              "link": "https://macwright.com/2025/03/07/blogroll.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-03-01",
-              "link": "https://macwright.com/2025/03/01/recently.html"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -1204,6 +1204,37 @@
               "title": "Free variables",
               "date": "2025-03-26",
               "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
+            }
+          ]
+        },
+        {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "Reflections on writing a book",
+              "date": "2025-03-24",
+              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
+            },
+            {
+              "title": "Make it happen",
+              "date": "2025-02-11",
+              "link": "https://dubroy.com/blog/make-it-happen/"
+            },
+            {
+              "title": "Five coding hats",
+              "date": "2025-02-03",
+              "link": "https://dubroy.com/blog/five-coding-hats/"
+            },
+            {
+              "title": "One way to do applied research",
+              "date": "2024-11-07",
+              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
+            },
+            {
+              "title": "Memories of some fantastic internships",
+              "date": "2024-07-31",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
             }
           ]
         },
@@ -2430,12 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-01T03:43:32.792Z",
+  "fetchDate": "2025-05-02T03:38:13.460Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://dubroy.com/blog/rss.xml",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

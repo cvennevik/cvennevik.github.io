@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "On Pronouns, Policies and Mandates",
+              "date": "2025-05-02",
+              "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
+            },
+            {
+              "title": "On Dropouts and Bootstraps",
+              "date": "2025-04-28",
+              "link": "https://charity.wtf/2025/04/28/on-dropouts-and-bootstraps/"
+            },
+            {
+              "title": "On Writing, Social Media, and Finding the Line of Embarrassment",
+              "date": "2025-04-19",
+              "link": "https://charity.wtf/2025/04/19/on-writing-social-media-and-finding-the-line-of-embarrassment/"
+            },
+            {
+              "title": "Another observability 3.0 appears on the horizon",
+              "date": "2025-03-24",
+              "link": "https://charity.wtf/2025/03/24/another-observability-3-0-appears-on-the-horizon/"
+            },
+            {
+              "title": "Corporate “DEI” is an imperfect vehicle for deeply meaningful ideals",
+              "date": "2025-02-10",
+              "link": "https://charity.wtf/2025/02/10/corporate-dei-is-an-imperfect-vehicle-for-deeply-meaningful-ideals/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Progressive Dehancement",
+              "date": "2025-05-02",
+              "link": "https://dbushell.com/2025/05/02/progressive-dehancement/"
+            },
+            {
+              "title": "Deno’s Decline (6 Regions and Falling)",
+              "date": "2025-04-28",
+              "link": "https://dbushell.com/2025/04/28/denos-decline/"
+            },
+            {
+              "title": "Bunny CDN 🐇 (Migrating from Cloudflare)",
+              "date": "2025-04-27",
+              "link": "https://dbushell.com/2025/04/27/bunny-cdn-edge-storage/"
+            },
+            {
+              "title": "Zig Smart Lights; Zapping the Snake ⚡",
+              "date": "2025-04-23",
+              "link": "https://dbushell.com/2025/04/23/zig-smart-lights/"
+            },
+            {
+              "title": "Spring 2025: Self-Hosted Update",
+              "date": "2025-04-13",
+              "link": "https://dbushell.com/2025/04/13/self-hosted-update-spring-2025/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Shifting focus on route change with React Router",
+              "date": "2025-05-02",
+              "link": "https://gomakethings.com/shifting-focus-on-route-change-with-react-router/"
+            },
             {
               "title": "Automatically wrapping CSS Grid",
               "date": "2025-05-01",
@@ -26,11 +93,6 @@
               "title": "The duality of creating change",
               "date": "2025-04-27",
               "link": "https://gomakethings.com/the-duality-of-creating-change/"
-            },
-            {
-              "title": "Why care about the no-JS experience?",
-              "date": "2025-04-25",
-              "link": "https://gomakethings.com/why-care-about-the-no-js-experience/"
             }
           ]
         },
@@ -38,6 +100,11 @@
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
+            {
+              "title": "Reading Zanzibar",
+              "date": "2025-05-02",
+              "link": "https://macwright.com/2025/05/02/reading-zanzibar.html"
+            },
             {
               "title": "Recently",
               "date": "2025-05-01",
@@ -57,11 +124,6 @@
               "title": "Personal tools",
               "date": "2025-04-03",
               "link": "https://macwright.com/2025/04/03/personal-tools.html"
-            },
-            {
-              "title": "Introducing the blogroll",
-              "date": "2025-03-07",
-              "link": "https://macwright.com/2025/03/07/blogroll.html"
             }
           ]
         },
@@ -71,7 +133,7 @@
           "items": [
             {
               "title": "Microblog",
-              "date": "2025-05-01",
+              "date": "2025-05-02",
               "link": "https://frills.dev/status/microblog/"
             },
             {
@@ -93,6 +155,32 @@
               "title": "The Foolish Calendar",
               "date": "2025-04-01",
               "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-05-02",
+              "link": "https://dbushell.com/notes/2025-05-02T17:41Z/"
+            },
+            {
+              "date": "2025-05-02",
+              "link": "https://dbushell.com/notes/2025-05-02T08:55Z/"
+            },
+            {
+              "date": "2025-05-02",
+              "link": "https://dbushell.com/notes/2025-05-02T05:46Z/"
+            },
+            {
+              "date": "2025-04-29",
+              "link": "https://dbushell.com/notes/2025-04-29T14:05Z/"
+            },
+            {
+              "date": "2025-04-29",
+              "link": "https://dbushell.com/notes/2025-04-29T10:50Z/"
             }
           ]
         },
@@ -248,94 +336,6 @@
               "title": "A closer look at the details behind the Go port of the TypeScript compiler",
               "date": "2025-03-11",
               "link": "https://2ality.com/2025/03/typescript-in-go.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-04-29",
-              "link": "https://dbushell.com/notes/2025-04-29T14:05Z/"
-            },
-            {
-              "date": "2025-04-29",
-              "link": "https://dbushell.com/notes/2025-04-29T10:50Z/"
-            },
-            {
-              "date": "2025-04-29",
-              "link": "https://dbushell.com/notes/2025-04-29T08:15Z/"
-            },
-            {
-              "date": "2025-04-28",
-              "link": "https://dbushell.com/notes/2025-04-28T07:41Z/"
-            },
-            {
-              "date": "2025-04-27",
-              "link": "https://dbushell.com/notes/2025-04-27T13:07Z/"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "On Dropouts and Bootstraps",
-              "date": "2025-04-28",
-              "link": "https://charity.wtf/2025/04/28/on-dropouts-and-bootstraps/"
-            },
-            {
-              "title": "On Writing, Social Media, and Finding the Line of Embarrassment",
-              "date": "2025-04-19",
-              "link": "https://charity.wtf/2025/04/19/on-writing-social-media-and-finding-the-line-of-embarrassment/"
-            },
-            {
-              "title": "Another observability 3.0 appears on the horizon",
-              "date": "2025-03-24",
-              "link": "https://charity.wtf/2025/03/24/another-observability-3-0-appears-on-the-horizon/"
-            },
-            {
-              "title": "Corporate “DEI” is an imperfect vehicle for deeply meaningful ideals",
-              "date": "2025-02-10",
-              "link": "https://charity.wtf/2025/02/10/corporate-dei-is-an-imperfect-vehicle-for-deeply-meaningful-ideals/"
-            },
-            {
-              "title": "On Versioning Observabilities (1.0, 2.0, 3.0…10.0?!?)",
-              "date": "2024-12-20",
-              "link": "https://charity.wtf/2024/12/20/on-versioning-observabilities-1-0-2-0-3-0-10-0/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Deno’s Decline (6 Regions and Falling)",
-              "date": "2025-04-28",
-              "link": "https://dbushell.com/2025/04/28/denos-decline/"
-            },
-            {
-              "title": "Bunny CDN 🐇 (Migrating from Cloudflare)",
-              "date": "2025-04-27",
-              "link": "https://dbushell.com/2025/04/27/bunny-cdn-edge-storage/"
-            },
-            {
-              "title": "Zig Smart Lights; Zapping the Snake ⚡",
-              "date": "2025-04-23",
-              "link": "https://dbushell.com/2025/04/23/zig-smart-lights/"
-            },
-            {
-              "title": "Spring 2025: Self-Hosted Update",
-              "date": "2025-04-13",
-              "link": "https://dbushell.com/2025/04/13/self-hosted-update-spring-2025/"
-            },
-            {
-              "title": "Ghostty & macOS Quick Terminal 👻",
-              "date": "2025-04-11",
-              "link": "https://dbushell.com/2025/04/11/ghostty-macos-quick-terminal/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-02T03:38:13.460Z",
+  "fetchDate": "2025-05-03T03:33:47.553Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

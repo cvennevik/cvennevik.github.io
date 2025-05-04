@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-05-03",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Media",
+              "date": "2025-04-30",
+              "link": "https://frills.dev/curios/media/"
+            },
+            {
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
+            },
+            {
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
+            },
+            {
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-05-03",
+              "link": "https://dbushell.com/notes/2025-05-03T07:25Z/"
+            },
+            {
+              "date": "2025-05-03",
+              "link": "https://dbushell.com/notes/2025-05-03T07:02Z/"
+            },
+            {
+              "date": "2025-05-02",
+              "link": "https://dbushell.com/notes/2025-05-02T17:41Z/"
+            },
+            {
+              "date": "2025-05-02",
+              "link": "https://dbushell.com/notes/2025-05-02T08:55Z/"
+            },
+            {
+              "date": "2025-05-02",
+              "link": "https://dbushell.com/notes/2025-05-02T05:46Z/"
+            }
+          ]
+        },
+        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -124,63 +181,6 @@
               "title": "Personal tools",
               "date": "2025-04-03",
               "link": "https://macwright.com/2025/04/03/personal-tools.html"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-05-02",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Media",
-              "date": "2025-04-30",
-              "link": "https://frills.dev/curios/media/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
-            },
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-05-02",
-              "link": "https://dbushell.com/notes/2025-05-02T17:41Z/"
-            },
-            {
-              "date": "2025-05-02",
-              "link": "https://dbushell.com/notes/2025-05-02T08:55Z/"
-            },
-            {
-              "date": "2025-05-02",
-              "link": "https://dbushell.com/notes/2025-05-02T05:46Z/"
-            },
-            {
-              "date": "2025-04-29",
-              "link": "https://dbushell.com/notes/2025-04-29T14:05Z/"
-            },
-            {
-              "date": "2025-04-29",
-              "link": "https://dbushell.com/notes/2025-04-29T10:50Z/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-03T03:33:47.553Z",
+  "fetchDate": "2025-05-04T03:42:14.261Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,12 +4,105 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "The Tumultuous Evolution of the Design Profession ",
+              "date": "2025-05-05",
+              "link": "https://blog.jim-nielsen.com/2025/tumult-in-design/"
+            },
+            {
+              "title": "Backwards Compatibility in the Web, but Not Its Tools",
+              "date": "2025-04-29",
+              "link": "https://blog.jim-nielsen.com/2025/backwards-compat-in-web-but-not-its-tools/"
+            },
+            {
+              "title": "Craft and Satisfaction",
+              "date": "2025-04-27",
+              "link": "https://blog.jim-nielsen.com/2025/craft-and-satisfaction/"
+            },
+            {
+              "title": "Brian Regan Helped Me Understand My Aversion to Job Titles",
+              "date": "2025-04-23",
+              "link": "https://blog.jim-nielsen.com/2025/job-titles/"
+            },
+            {
+              "title": "“I Don’t See Why Not”",
+              "date": "2025-04-21",
+              "link": "https://blog.jim-nielsen.com/2025/i-dont-see-why-not/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Tabindex, programmatic focus, and outline styles",
+              "date": "2025-05-05",
+              "link": "https://gomakethings.com/tabindex-programmatic-focus-and-outline-styles/"
+            },
+            {
+              "title": "Shifting focus on route change with React Router",
+              "date": "2025-05-02",
+              "link": "https://gomakethings.com/shifting-focus-on-route-change-with-react-router/"
+            },
+            {
+              "title": "Automatically wrapping CSS Grid",
+              "date": "2025-05-01",
+              "link": "https://gomakethings.com/automatically-wrapping-css-grid/"
+            },
+            {
+              "title": "The CSS @layer at-rule",
+              "date": "2025-04-29",
+              "link": "https://gomakethings.com/the-css-layer-at-rule/"
+            },
+            {
+              "title": "Mixing colors with CSS",
+              "date": "2025-04-28",
+              "link": "https://gomakethings.com/mixing-colors-with-css/"
+            }
+          ]
+        },
+        {
+          "title": "HeydonWorks",
+          "feedUrl": "https://heydonworks.com/feed.xml",
+          "items": [
+            {
+              "title": "The code element",
+              "date": "2025-05-05",
+              "link": "https://heydonworks.com/article/the-code-element/"
+            },
+            {
+              "title": "The cite element",
+              "date": "2025-04-30",
+              "link": "https://heydonworks.com/article/the-cite-element/"
+            },
+            {
+              "title": "The canvas element",
+              "date": "2025-04-28",
+              "link": "https://heydonworks.com/article/the-canvas-element/"
+            },
+            {
+              "title": "Poisoning Well",
+              "date": "2025-03-31",
+              "link": "https://heydonworks.com/article/poisoning-well/"
+            },
+            {
+              "title": "The br element",
+              "date": "2024-11-12",
+              "link": "https://heydonworks.com/article/the-br-element/"
+            }
+          ]
+        },
+        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
               "title": "Microblog",
-              "date": "2025-05-04",
+              "date": "2025-05-05",
               "link": "https://frills.dev/status/microblog/"
             },
             {
@@ -39,6 +132,10 @@
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
             {
+              "date": "2025-05-05",
+              "link": "https://dbushell.com/notes/2025-05-05T05:48Z/"
+            },
+            {
               "date": "2025-05-04",
               "link": "https://dbushell.com/notes/2025-05-04T12:04Z/"
             },
@@ -53,10 +150,37 @@
             {
               "date": "2025-05-02",
               "link": "https://dbushell.com/notes/2025-05-02T17:41Z/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Taking a break",
+              "date": "2025-05-05",
+              "link": "https://ntietz.com/blog/taking-a-break/?utm_source=atom&utm_medium=feed"
             },
             {
-              "date": "2025-05-02",
-              "link": "https://dbushell.com/notes/2025-05-02T08:55Z/"
+              "title": "Measuring my Framework laptop's performance in 3 positions",
+              "date": "2025-04-28",
+              "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "The five stages of incident response",
+              "date": "2025-04-21",
+              "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Python is an interpreted language with a compiler",
+              "date": "2025-04-14",
+              "link": "https://ntietz.com/blog/python-is-an-interpreted-language-with-a-compiler/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Typing using my keyboard (the other kind)",
+              "date": "2025-04-07",
+              "link": "https://ntietz.com/blog/typing-using-my-keyboard-the-other-kind/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -123,37 +247,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Shifting focus on route change with React Router",
-              "date": "2025-05-02",
-              "link": "https://gomakethings.com/shifting-focus-on-route-change-with-react-router/"
-            },
-            {
-              "title": "Automatically wrapping CSS Grid",
-              "date": "2025-05-01",
-              "link": "https://gomakethings.com/automatically-wrapping-css-grid/"
-            },
-            {
-              "title": "The CSS @layer at-rule",
-              "date": "2025-04-29",
-              "link": "https://gomakethings.com/the-css-layer-at-rule/"
-            },
-            {
-              "title": "Mixing colors with CSS",
-              "date": "2025-04-28",
-              "link": "https://gomakethings.com/mixing-colors-with-css/"
-            },
-            {
-              "title": "The duality of creating change",
-              "date": "2025-04-27",
-              "link": "https://gomakethings.com/the-duality-of-creating-change/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -181,37 +274,6 @@
               "title": "Personal tools",
               "date": "2025-04-03",
               "link": "https://macwright.com/2025/04/03/personal-tools.html"
-            }
-          ]
-        },
-        {
-          "title": "HeydonWorks",
-          "feedUrl": "https://heydonworks.com/feed.xml",
-          "items": [
-            {
-              "title": "The cite element",
-              "date": "2025-04-30",
-              "link": "https://heydonworks.com/article/the-cite-element/"
-            },
-            {
-              "title": "The canvas element",
-              "date": "2025-04-28",
-              "link": "https://heydonworks.com/article/the-canvas-element/"
-            },
-            {
-              "title": "Poisoning Well",
-              "date": "2025-03-31",
-              "link": "https://heydonworks.com/article/poisoning-well/"
-            },
-            {
-              "title": "The br element",
-              "date": "2024-11-12",
-              "link": "https://heydonworks.com/article/the-br-element/"
-            },
-            {
-              "title": "The button element",
-              "date": "2024-11-04",
-              "link": "https://heydonworks.com/article/the-button-element/"
             }
           ]
         },
@@ -278,42 +340,11 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Backwards Compatibility in the Web, but Not Its Tools",
-              "date": "2025-04-29",
-              "link": "https://blog.jim-nielsen.com/2025/backwards-compat-in-web-but-not-its-tools/"
-            },
-            {
-              "title": "Craft and Satisfaction",
-              "date": "2025-04-27",
-              "link": "https://blog.jim-nielsen.com/2025/craft-and-satisfaction/"
-            },
-            {
-              "title": "Brian Regan Helped Me Understand My Aversion to Job Titles",
-              "date": "2025-04-23",
-              "link": "https://blog.jim-nielsen.com/2025/job-titles/"
-            },
-            {
-              "title": "“I Don’t See Why Not”",
-              "date": "2025-04-21",
-              "link": "https://blog.jim-nielsen.com/2025/i-dont-see-why-not/"
-            },
-            {
-              "title": "You’re Only As Strong As Your Weakest Point",
-              "date": "2025-04-19",
-              "link": "https://blog.jim-nielsen.com/2025/as-strong-as-your-weakest-point/"
-            }
-          ]
-        },
-        {
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
             {
-              "title": "Converting values to strings in JavaScript",
+              "title": "Converting values to strings in JavaScript has pitfalls",
               "date": "2025-04-29",
               "link": "https://2ality.com/2025/04/stringification-javascript.html"
             },
@@ -367,37 +398,6 @@
               "title": "How great is the Send Later feature?",
               "date": "2025-02-22",
               "link": "https://thejollyteapot.com/2025/02/22/how-great-is-the-send-later-feature/"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Measuring my Framework laptop's performance in 3 positions",
-              "date": "2025-04-28",
-              "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "The five stages of incident response",
-              "date": "2025-04-21",
-              "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Python is an interpreted language with a compiler",
-              "date": "2025-04-14",
-              "link": "https://ntietz.com/blog/python-is-an-interpreted-language-with-a-compiler/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Typing using my keyboard (the other kind)",
-              "date": "2025-04-07",
-              "link": "https://ntietz.com/blog/typing-using-my-keyboard-the-other-kind/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Shadowing in Python gave me an UnboundLocalError",
-              "date": "2025-03-31",
-              "link": "https://ntietz.com/blog/pythons-shadowing-behavior-always-surprises-me/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -522,37 +522,6 @@
               "title": "Let’s Get Started with C++23",
               "date": "2025-02-26",
               "link": "https://moonbase.lgbt/blog/lets-get-started-with-cpp23/"
-            }
-          ]
-        },
-        {
-          "title": "Coding Is Like Cooking",
-          "feedUrl": "https://coding-is-like-cooking.info/feed/",
-          "items": [
-            {
-              "title": "Smooth Ensemble with AWS AppStream – How To Guide",
-              "date": "2025-04-21",
-              "link": "https://coding-is-like-cooking.info/2025/04/smooth-ensemble-with-aws-appstream-how-to-guide/"
-            },
-            {
-              "title": "Barbie",
-              "date": "2023-08-07",
-              "link": "https://coding-is-like-cooking.info/2023/08/barbie/"
-            },
-            {
-              "title": "I’ve Gone Independent",
-              "date": "2023-02-20",
-              "link": "https://coding-is-like-cooking.info/2023/02/ive-gone-independent/"
-            },
-            {
-              "title": "Hold an Open Space Event in just One Hour",
-              "date": "2022-12-19",
-              "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
-            },
-            {
-              "title": "Samman Coaching in 2021",
-              "date": "2022-06-30",
-              "link": "https://coding-is-like-cooking.info/2022/06/samman-coaching-in-2021/"
             }
           ]
         },
@@ -1142,37 +1111,6 @@
               "title": "Toolbox languages",
               "date": "2024-07-15",
               "link": "https://www.hillelwayne.com/post/toolbox-languages/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "item-flow",
-              "date": "2025-03-30",
-              "link": "https://robinrendle.com/notes/item-flow/"
-            },
-            {
-              "title": "Humiliation",
-              "date": "2025-03-15",
-              "link": "https://robinrendle.com/notes/humiliation/"
-            },
-            {
-              "title": "Abandon all keyboards",
-              "date": "2025-03-11",
-              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
-            },
-            {
-              "title": "trot",
-              "date": "2025-02-15",
-              "link": "https://robinrendle.com/notes/trot/"
-            },
-            {
-              "title": "Notes on blogging",
-              "date": "2025-02-01",
-              "link": "https://robinrendle.com/notes/notes-on-blogging/"
             }
           ]
         },
@@ -2461,11 +2399,13 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-05T03:40:44.963Z",
+  "fetchDate": "2025-05-06T03:37:34.593Z",
   "errors": [
+    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://coding-is-like-cooking.info/feed/"
   ]
 }

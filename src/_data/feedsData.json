@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Glossary Web Component",
+              "date": "2025-05-07",
+              "link": "https://dbushell.com/2025/05/07/glossary-web-component/"
+            },
+            {
+              "title": "Progressive Dehancement",
+              "date": "2025-05-02",
+              "link": "https://dbushell.com/2025/05/02/progressive-dehancement/"
+            },
+            {
+              "title": "Deno’s Decline (6 Regions and Falling)",
+              "date": "2025-04-28",
+              "link": "https://dbushell.com/2025/04/28/denos-decline/"
+            },
+            {
+              "title": "Bunny CDN 🐇 (Migrating from Cloudflare)",
+              "date": "2025-04-27",
+              "link": "https://dbushell.com/2025/04/27/bunny-cdn-edge-storage/"
+            },
+            {
+              "title": "Zig Smart Lights; Zapping the Snake ⚡",
+              "date": "2025-04-23",
+              "link": "https://dbushell.com/2025/04/23/zig-smart-lights/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "No default exports",
+              "date": "2025-05-06",
+              "link": "https://gomakethings.com/no-default-exports/"
+            },
+            {
+              "title": "Tabindex, programmatic focus, and outline styles",
+              "date": "2025-05-05",
+              "link": "https://gomakethings.com/tabindex-programmatic-focus-and-outline-styles/"
+            },
+            {
+              "title": "Shifting focus on route change with React Router",
+              "date": "2025-05-02",
+              "link": "https://gomakethings.com/shifting-focus-on-route-change-with-react-router/"
+            },
+            {
+              "title": "Automatically wrapping CSS Grid",
+              "date": "2025-05-01",
+              "link": "https://gomakethings.com/automatically-wrapping-css-grid/"
+            },
+            {
+              "title": "The CSS @layer at-rule",
+              "date": "2025-04-29",
+              "link": "https://gomakethings.com/the-css-layer-at-rule/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-05-06",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Media",
+              "date": "2025-04-30",
+              "link": "https://frills.dev/curios/media/"
+            },
+            {
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
+            },
+            {
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
+            },
+            {
+              "title": "The Foolish Calendar",
+              "date": "2025-04-01",
+              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -35,37 +128,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Tabindex, programmatic focus, and outline styles",
-              "date": "2025-05-05",
-              "link": "https://gomakethings.com/tabindex-programmatic-focus-and-outline-styles/"
-            },
-            {
-              "title": "Shifting focus on route change with React Router",
-              "date": "2025-05-02",
-              "link": "https://gomakethings.com/shifting-focus-on-route-change-with-react-router/"
-            },
-            {
-              "title": "Automatically wrapping CSS Grid",
-              "date": "2025-05-01",
-              "link": "https://gomakethings.com/automatically-wrapping-css-grid/"
-            },
-            {
-              "title": "The CSS @layer at-rule",
-              "date": "2025-04-29",
-              "link": "https://gomakethings.com/the-css-layer-at-rule/"
-            },
-            {
-              "title": "Mixing colors with CSS",
-              "date": "2025-04-28",
-              "link": "https://gomakethings.com/mixing-colors-with-css/"
-            }
-          ]
-        },
-        {
           "title": "HeydonWorks",
           "feedUrl": "https://heydonworks.com/feed.xml",
           "items": [
@@ -93,37 +155,6 @@
               "title": "The br element",
               "date": "2024-11-12",
               "link": "https://heydonworks.com/article/the-br-element/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-05-05",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Media",
-              "date": "2025-04-30",
-              "link": "https://frills.dev/curios/media/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
-            },
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
             }
           ]
         },
@@ -212,37 +243,6 @@
               "title": "Corporate “DEI” is an imperfect vehicle for deeply meaningful ideals",
               "date": "2025-02-10",
               "link": "https://charity.wtf/2025/02/10/corporate-dei-is-an-imperfect-vehicle-for-deeply-meaningful-ideals/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Progressive Dehancement",
-              "date": "2025-05-02",
-              "link": "https://dbushell.com/2025/05/02/progressive-dehancement/"
-            },
-            {
-              "title": "Deno’s Decline (6 Regions and Falling)",
-              "date": "2025-04-28",
-              "link": "https://dbushell.com/2025/04/28/denos-decline/"
-            },
-            {
-              "title": "Bunny CDN 🐇 (Migrating from Cloudflare)",
-              "date": "2025-04-27",
-              "link": "https://dbushell.com/2025/04/27/bunny-cdn-edge-storage/"
-            },
-            {
-              "title": "Zig Smart Lights; Zapping the Snake ⚡",
-              "date": "2025-04-23",
-              "link": "https://dbushell.com/2025/04/23/zig-smart-lights/"
-            },
-            {
-              "title": "Spring 2025: Self-Hosted Update",
-              "date": "2025-04-13",
-              "link": "https://dbushell.com/2025/04/13/self-hosted-update-spring-2025/"
             }
           ]
         },
@@ -522,6 +522,37 @@
               "title": "Let’s Get Started with C++23",
               "date": "2025-02-26",
               "link": "https://moonbase.lgbt/blog/lets-get-started-with-cpp23/"
+            }
+          ]
+        },
+        {
+          "title": "Coding Is Like Cooking",
+          "feedUrl": "https://coding-is-like-cooking.info/feed/",
+          "items": [
+            {
+              "title": "Smooth Ensemble with AWS AppStream – How To Guide",
+              "date": "2025-04-21",
+              "link": "https://coding-is-like-cooking.info/2025/04/smooth-ensemble-with-aws-appstream-how-to-guide/"
+            },
+            {
+              "title": "Barbie",
+              "date": "2023-08-07",
+              "link": "https://coding-is-like-cooking.info/2023/08/barbie/"
+            },
+            {
+              "title": "I’ve Gone Independent",
+              "date": "2023-02-20",
+              "link": "https://coding-is-like-cooking.info/2023/02/ive-gone-independent/"
+            },
+            {
+              "title": "Hold an Open Space Event in just One Hour",
+              "date": "2022-12-19",
+              "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
+            },
+            {
+              "title": "Samman Coaching in 2021",
+              "date": "2022-06-30",
+              "link": "https://coding-is-like-cooking.info/2022/06/samman-coaching-in-2021/"
             }
           ]
         },
@@ -1111,6 +1142,37 @@
               "title": "Toolbox languages",
               "date": "2024-07-15",
               "link": "https://www.hillelwayne.com/post/toolbox-languages/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "item-flow",
+              "date": "2025-03-30",
+              "link": "https://robinrendle.com/notes/item-flow/"
+            },
+            {
+              "title": "Humiliation",
+              "date": "2025-03-15",
+              "link": "https://robinrendle.com/notes/humiliation/"
+            },
+            {
+              "title": "Abandon all keyboards",
+              "date": "2025-03-11",
+              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
+            },
+            {
+              "title": "trot",
+              "date": "2025-02-15",
+              "link": "https://robinrendle.com/notes/trot/"
+            },
+            {
+              "title": "Notes on blogging",
+              "date": "2025-02-01",
+              "link": "https://robinrendle.com/notes/notes-on-blogging/"
             }
           ]
         },
@@ -2399,13 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-06T03:37:34.593Z",
+  "fetchDate": "2025-05-07T03:39:15.062Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/",
-    "https://coding-is-like-cooking.info/feed/"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

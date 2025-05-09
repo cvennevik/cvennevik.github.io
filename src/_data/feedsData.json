@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "An aspect ratio CSS utility class",
+              "date": "2025-05-08",
+              "link": "https://gomakethings.com/an-aspect-ratio-css-utility-class/"
+            },
+            {
+              "title": "A custom React hook for watching media query changes",
+              "date": "2025-05-07",
+              "link": "https://gomakethings.com/a-custom-react-hook-for-watching-media-query-changes/"
+            },
+            {
+              "title": "No default exports",
+              "date": "2025-05-06",
+              "link": "https://gomakethings.com/no-default-exports/"
+            },
+            {
+              "title": "Tabindex, programmatic focus, and outline styles",
+              "date": "2025-05-05",
+              "link": "https://gomakethings.com/tabindex-programmatic-focus-and-outline-styles/"
+            },
+            {
+              "title": "Shifting focus on route change with React Router",
+              "date": "2025-05-02",
+              "link": "https://gomakethings.com/shifting-focus-on-route-change-with-react-router/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-05-08",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "I want a CMS",
+              "date": "2025-05-08",
+              "link": "https://frills.dev/blog/2025/may/i-want-a-cms/"
+            },
+            {
+              "title": "Media",
+              "date": "2025-04-30",
+              "link": "https://frills.dev/curios/media/"
+            },
+            {
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
+            },
+            {
+              "title": "Changelog –\n        2 Apr 2025\n      ",
+              "date": "2025-04-02",
+              "link": "https://frills.dev/changelog/250402/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-05-08",
+              "link": "https://dbushell.com/notes/2025-05-08T16:24Z/"
+            },
+            {
+              "date": "2025-05-08",
+              "link": "https://dbushell.com/notes/2025-05-08T13:12Z/"
+            },
+            {
+              "date": "2025-05-08",
+              "link": "https://dbushell.com/notes/2025-05-08T07:41Z/"
+            },
+            {
+              "date": "2025-05-08",
+              "link": "https://dbushell.com/notes/2025-05-08T05:37Z/"
+            },
+            {
+              "date": "2025-05-07",
+              "link": "https://dbushell.com/notes/2025-05-07T09:51Z/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Write the most clever code you possibly can",
+              "date": "2025-05-08",
+              "link": "https://buttondown.com/hillelwayne/archive/write-the-most-clever-code-you-possibly-can/"
+            },
+            {
+              "title": "Requirements change until they don't",
+              "date": "2025-04-24",
+              "link": "https://buttondown.com/hillelwayne/archive/requirements-change-until-they-dont/"
+            },
+            {
+              "title": "The Halting Problem is a terrible example of NP-Harder",
+              "date": "2025-04-16",
+              "link": "https://buttondown.com/hillelwayne/archive/the-halting-problem-is-a-terrible-example-of-np/"
+            },
+            {
+              "title": "Solving a \"Layton Puzzle\" with Prolog",
+              "date": "2025-04-08",
+              "link": "https://buttondown.com/hillelwayne/archive/a48fce5b-8a05-4302-b620-9b26f057f145/"
+            },
+            {
+              "title": "[April Cools] Gaming Games for Non-Gamers",
+              "date": "2025-04-01",
+              "link": "https://buttondown.com/hillelwayne/archive/april-cools-gaming-games-for-non-gamers/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -35,33 +154,33 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
             {
-              "title": "A custom React hook for watching media query changes",
+              "title": "Language Needs Innovation",
               "date": "2025-05-07",
-              "link": "https://gomakethings.com/a-custom-react-hook-for-watching-media-query-changes/"
+              "link": "https://blog.jim-nielsen.com/2025/language-needs-innovation/"
             },
             {
-              "title": "No default exports",
-              "date": "2025-05-06",
-              "link": "https://gomakethings.com/no-default-exports/"
-            },
-            {
-              "title": "Tabindex, programmatic focus, and outline styles",
+              "title": "The Tumultuous Evolution of the Design Profession ",
               "date": "2025-05-05",
-              "link": "https://gomakethings.com/tabindex-programmatic-focus-and-outline-styles/"
+              "link": "https://blog.jim-nielsen.com/2025/tumult-in-design/"
             },
             {
-              "title": "Shifting focus on route change with React Router",
-              "date": "2025-05-02",
-              "link": "https://gomakethings.com/shifting-focus-on-route-change-with-react-router/"
+              "title": "Backwards Compatibility in the Web, but Not Its Tools",
+              "date": "2025-04-29",
+              "link": "https://blog.jim-nielsen.com/2025/backwards-compat-in-web-but-not-its-tools/"
             },
             {
-              "title": "Automatically wrapping CSS Grid",
-              "date": "2025-05-01",
-              "link": "https://gomakethings.com/automatically-wrapping-css-grid/"
+              "title": "Craft and Satisfaction",
+              "date": "2025-04-27",
+              "link": "https://blog.jim-nielsen.com/2025/craft-and-satisfaction/"
+            },
+            {
+              "title": "Brian Regan Helped Me Understand My Aversion to Job Titles",
+              "date": "2025-04-23",
+              "link": "https://blog.jim-nielsen.com/2025/job-titles/"
             }
           ]
         },
@@ -155,94 +274,6 @@
               "title": "Just another example of how collaboration, not competition, drives healthy science",
               "date": "2025-02-15",
               "link": "https://www.drcathicks.com/post/just-another-example-of-how-collaboration-not-competition-drives-healthy-science"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-05-07",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Media",
-              "date": "2025-04-30",
-              "link": "https://frills.dev/curios/media/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
-            },
-            {
-              "title": "The Foolish Calendar",
-              "date": "2025-04-01",
-              "link": "https://frills.dev/blog/2025/april/april-fools-day/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-05-07",
-              "link": "https://dbushell.com/notes/2025-05-07T09:51Z/"
-            },
-            {
-              "date": "2025-05-07",
-              "link": "https://dbushell.com/notes/2025-05-07T05:57Z/"
-            },
-            {
-              "date": "2025-05-07",
-              "link": "https://dbushell.com/notes/2025-05-07T04:48Z/"
-            },
-            {
-              "date": "2025-05-05",
-              "link": "https://dbushell.com/notes/2025-05-05T05:48Z/"
-            },
-            {
-              "date": "2025-05-04",
-              "link": "https://dbushell.com/notes/2025-05-04T12:04Z/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "The Tumultuous Evolution of the Design Profession ",
-              "date": "2025-05-05",
-              "link": "https://blog.jim-nielsen.com/2025/tumult-in-design/"
-            },
-            {
-              "title": "Backwards Compatibility in the Web, but Not Its Tools",
-              "date": "2025-04-29",
-              "link": "https://blog.jim-nielsen.com/2025/backwards-compat-in-web-but-not-its-tools/"
-            },
-            {
-              "title": "Craft and Satisfaction",
-              "date": "2025-04-27",
-              "link": "https://blog.jim-nielsen.com/2025/craft-and-satisfaction/"
-            },
-            {
-              "title": "Brian Regan Helped Me Understand My Aversion to Job Titles",
-              "date": "2025-04-23",
-              "link": "https://blog.jim-nielsen.com/2025/job-titles/"
-            },
-            {
-              "title": "“I Don’t See Why Not”",
-              "date": "2025-04-21",
-              "link": "https://blog.jim-nielsen.com/2025/i-dont-see-why-not/"
             }
           ]
         },
@@ -553,37 +584,6 @@
               "title": "Snow Days",
               "date": "2024-12-02",
               "link": "https://mikegrindle.com/posts/snow"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Requirements change until they don't",
-              "date": "2025-04-24",
-              "link": "https://buttondown.com/hillelwayne/archive/requirements-change-until-they-dont/"
-            },
-            {
-              "title": "The Halting Problem is a terrible example of NP-Harder",
-              "date": "2025-04-16",
-              "link": "https://buttondown.com/hillelwayne/archive/the-halting-problem-is-a-terrible-example-of-np/"
-            },
-            {
-              "title": "Solving a \"Layton Puzzle\" with Prolog",
-              "date": "2025-04-08",
-              "link": "https://buttondown.com/hillelwayne/archive/a48fce5b-8a05-4302-b620-9b26f057f145/"
-            },
-            {
-              "title": "[April Cools] Gaming Games for Non-Gamers",
-              "date": "2025-04-01",
-              "link": "https://buttondown.com/hillelwayne/archive/april-cools-gaming-games-for-non-gamers/"
-            },
-            {
-              "title": "Betteridge's Law of Software Engineering Specialness",
-              "date": "2025-03-26",
-              "link": "https://buttondown.com/hillelwayne/archive/betteridges-law-of-software-engineering/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-08T03:40:18.410Z",
+  "fetchDate": "2025-05-09T03:39:07.446Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "HTML is better than React!?",
+              "date": "2025-05-09",
+              "link": "https://gomakethings.com/html-is-better-than-react/"
+            },
+            {
               "title": "An aspect ratio CSS utility class",
               "date": "2025-05-08",
               "link": "https://gomakethings.com/an-aspect-ratio-css-utility-class/"
@@ -26,11 +31,6 @@
               "title": "Tabindex, programmatic focus, and outline styles",
               "date": "2025-05-05",
               "link": "https://gomakethings.com/tabindex-programmatic-focus-and-outline-styles/"
-            },
-            {
-              "title": "Shifting focus on route change with React Router",
-              "date": "2025-05-02",
-              "link": "https://gomakethings.com/shifting-focus-on-route-change-with-react-router/"
             }
           ]
         },
@@ -39,8 +39,13 @@
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
+              "title": "Overwatching",
+              "date": "2025-05-09",
+              "link": "https://frills.dev/blog/2025/may/overwatching/"
+            },
+            {
               "title": "Microblog",
-              "date": "2025-05-08",
+              "date": "2025-05-09",
               "link": "https://frills.dev/status/microblog/"
             },
             {
@@ -57,11 +62,6 @@
               "title": "HTML named colors",
               "date": "2025-04-03",
               "link": "https://frills.dev/experiments/html-named-colors/"
-            },
-            {
-              "title": "Changelog –\n        2 Apr 2025\n      ",
-              "date": "2025-04-02",
-              "link": "https://frills.dev/changelog/250402/"
             }
           ]
         },
@@ -69,6 +69,10 @@
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2025-05-09",
+              "link": "https://dbushell.com/notes/2025-05-09T05:49Z/"
+            },
             {
               "date": "2025-05-08",
               "link": "https://dbushell.com/notes/2025-05-08T16:24Z/"
@@ -84,10 +88,6 @@
             {
               "date": "2025-05-08",
               "link": "https://dbushell.com/notes/2025-05-08T05:37Z/"
-            },
-            {
-              "date": "2025-05-07",
-              "link": "https://dbushell.com/notes/2025-05-07T09:51Z/"
             }
           ]
         },
@@ -774,37 +774,6 @@
           ]
         },
         {
-          "title": "Jennifer++",
-          "feedUrl": "https://jenniferplusplus.com/rss/",
-          "items": [
-            {
-              "title": "I want to go home",
-              "date": "2025-04-17",
-              "link": "https://jenniferplusplus.com/i-want-to-go-home/"
-            },
-            {
-              "title": "Gresham's law of programming",
-              "date": "2024-11-29",
-              "link": "https://jenniferplusplus.com/greshams-law-of-programming/"
-            },
-            {
-              "title": "Test using OpenTelemetry traces in Asp.Net",
-              "date": "2024-09-21",
-              "link": "https://jenniferplusplus.com/test-traces-in-aspnet/"
-            },
-            {
-              "title": "The free software commons",
-              "date": "2024-04-05",
-              "link": "https://jenniferplusplus.com/the-free-software-commons/"
-            },
-            {
-              "title": "Letterbook - No universal translators",
-              "date": "2023-12-25",
-              "link": "https://jenniferplusplus.com/no-universal-translators/"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -832,6 +801,37 @@
               "title": "Snapshot Isolation vs Serializability",
               "date": "2024-12-17",
               "link": "http://brooker.co.za/blog/2024/12/17/occ-and-isolation.html"
+            }
+          ]
+        },
+        {
+          "title": "Jennifer++",
+          "feedUrl": "https://jenniferplusplus.com/rss/",
+          "items": [
+            {
+              "title": "I want to go home",
+              "date": "2025-04-17",
+              "link": "https://jenniferplusplus.com/i-want-to-go-home/"
+            },
+            {
+              "title": "Gresham's law of programming",
+              "date": "2024-11-29",
+              "link": "https://jenniferplusplus.com/greshams-law-of-programming/"
+            },
+            {
+              "title": "Test using OpenTelemetry traces in Asp.Net",
+              "date": "2024-09-21",
+              "link": "https://jenniferplusplus.com/test-traces-in-aspnet/"
+            },
+            {
+              "title": "The free software commons",
+              "date": "2024-04-05",
+              "link": "https://jenniferplusplus.com/the-free-software-commons/"
+            },
+            {
+              "title": "Letterbook - No universal translators",
+              "date": "2023-12-25",
+              "link": "https://jenniferplusplus.com/no-universal-translators/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-09T03:39:07.446Z",
+  "fetchDate": "2025-05-10T03:34:39.001Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

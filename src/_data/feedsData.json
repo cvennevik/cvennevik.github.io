@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "A future worth fighting for",
+              "date": "2025-05-10",
+              "link": "https://gomakethings.com/a-future-worth-fighting-for/"
+            },
+            {
               "title": "HTML is better than React!?",
               "date": "2025-05-09",
               "link": "https://gomakethings.com/html-is-better-than-react/"
@@ -26,11 +31,6 @@
               "title": "No default exports",
               "date": "2025-05-06",
               "link": "https://gomakethings.com/no-default-exports/"
-            },
-            {
-              "title": "Tabindex, programmatic focus, and outline styles",
-              "date": "2025-05-05",
-              "link": "https://gomakethings.com/tabindex-programmatic-focus-and-outline-styles/"
             }
           ]
         },
@@ -39,14 +39,14 @@
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
+              "title": "Microblog",
+              "date": "2025-05-10",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
               "title": "Overwatching",
               "date": "2025-05-09",
               "link": "https://frills.dev/blog/2025/may/overwatching/"
-            },
-            {
-              "title": "Microblog",
-              "date": "2025-05-09",
-              "link": "https://frills.dev/status/microblog/"
             },
             {
               "title": "I want a CMS",
@@ -70,6 +70,14 @@
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
             {
+              "date": "2025-05-10",
+              "link": "https://dbushell.com/notes/2025-05-10T16:57Z/"
+            },
+            {
+              "date": "2025-05-10",
+              "link": "https://dbushell.com/notes/2025-05-10T08:43Z/"
+            },
+            {
               "date": "2025-05-09",
               "link": "https://dbushell.com/notes/2025-05-09T05:49Z/"
             },
@@ -80,14 +88,37 @@
             {
               "date": "2025-05-08",
               "link": "https://dbushell.com/notes/2025-05-08T13:12Z/"
+            }
+          ]
+        },
+        {
+          "title": "molily",
+          "feedUrl": "https://molily.de/feed.xml",
+          "items": [
+            {
+              "title": "On the environmental impact of AI",
+              "date": "2025-05-09",
+              "link": "https://molily.de/ai-environment/"
             },
             {
-              "date": "2025-05-08",
-              "link": "https://dbushell.com/notes/2025-05-08T07:41Z/"
+              "title": "Something went wrong",
+              "date": "2024-09-10",
+              "link": "https://molily.de/something-went-wrong/"
             },
             {
-              "date": "2025-05-08",
-              "link": "https://dbushell.com/notes/2025-05-08T05:37Z/"
+              "title": "Full circle development",
+              "date": "2023-11-10",
+              "link": "https://molily.de/full-circle-development/"
+            },
+            {
+              "title": "Planet of the Beavers",
+              "date": "2023-10-06",
+              "link": "https://molily.de/planet-of-the-beavers/"
+            },
+            {
+              "title": "On browser compatibility and support baselines",
+              "date": "2023-05-12",
+              "link": "https://molily.de/browser-compatibility-baseline/"
             }
           ]
         },
@@ -2035,37 +2066,6 @@
           ]
         },
         {
-          "title": "molily",
-          "feedUrl": "https://molily.de/feed.xml",
-          "items": [
-            {
-              "title": "Something went wrong",
-              "date": "2024-09-10",
-              "link": "https://molily.de/something-went-wrong/"
-            },
-            {
-              "title": "Full circle development",
-              "date": "2023-11-10",
-              "link": "https://molily.de/full-circle-development/"
-            },
-            {
-              "title": "Planet of the Beavers",
-              "date": "2023-10-06",
-              "link": "https://molily.de/planet-of-the-beavers/"
-            },
-            {
-              "title": "On browser compatibility and support baselines",
-              "date": "2023-05-12",
-              "link": "https://molily.de/browser-compatibility-baseline/"
-            },
-            {
-              "title": "ECMAScript modules and browser compatibility",
-              "date": "2023-04-20",
-              "link": "https://molily.de/ecmascript-modules/"
-            }
-          ]
-        },
-        {
           "title": "Nonlinear.Garden",
           "feedUrl": "https://nonlinear.garden/rss.xml",
           "items": [
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-10T03:34:39.001Z",
+  "fetchDate": "2025-05-11T03:40:44.612Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

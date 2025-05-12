@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "The Static Site Churns!",
+              "date": "2025-05-11",
+              "link": "https://dbushell.com/2025/05/11/the-static-site-churns/"
+            },
+            {
+              "title": "Glossary Web Component",
+              "date": "2025-05-07",
+              "link": "https://dbushell.com/2025/05/07/glossary-web-component/"
+            },
+            {
+              "title": "Progressive Dehancement",
+              "date": "2025-05-02",
+              "link": "https://dbushell.com/2025/05/02/progressive-dehancement/"
+            },
+            {
+              "title": "Deno’s Decline (6 Regions and Falling)",
+              "date": "2025-04-28",
+              "link": "https://dbushell.com/2025/04/28/denos-decline/"
+            },
+            {
+              "title": "Bunny CDN 🐇 (Migrating from Cloudflare)",
+              "date": "2025-04-27",
+              "link": "https://dbushell.com/2025/04/27/bunny-cdn-edge-storage/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-05-11",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Overwatching",
+              "date": "2025-05-09",
+              "link": "https://frills.dev/blog/2025/may/overwatching/"
+            },
+            {
+              "title": "I want a CMS",
+              "date": "2025-05-08",
+              "link": "https://frills.dev/blog/2025/may/i-want-a-cms/"
+            },
+            {
+              "title": "Media",
+              "date": "2025-04-30",
+              "link": "https://frills.dev/curios/media/"
+            },
+            {
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "A neutral stance is for weightlifting, not for human rights",
+              "date": "2025-05-11",
+              "link": "https://anniemueller.com/posts/a-neutral-stance-is-for-weightlifting-not-for-human-rights"
+            },
+            {
+              "title": "Before the next beginning",
+              "date": "2025-04-30",
+              "link": "https://anniemueller.com/posts/before-the-next-beginning"
+            },
+            {
+              "title": "People can change",
+              "date": "2025-04-29",
+              "link": "https://anniemueller.com/posts/people-can-change"
+            },
+            {
+              "title": "Every small thing you do actually matters",
+              "date": "2025-04-27",
+              "link": "https://anniemueller.com/posts/every-small-thing-you-do-actually-matters"
+            },
+            {
+              "title": "Seems like this is real simple though?",
+              "date": "2025-04-26",
+              "link": "https://anniemueller.com/posts/seems-like-this-is-real-simple-though"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -31,37 +124,6 @@
               "title": "No default exports",
               "date": "2025-05-06",
               "link": "https://gomakethings.com/no-default-exports/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-05-10",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Overwatching",
-              "date": "2025-05-09",
-              "link": "https://frills.dev/blog/2025/may/overwatching/"
-            },
-            {
-              "title": "I want a CMS",
-              "date": "2025-05-08",
-              "link": "https://frills.dev/blog/2025/may/i-want-a-cms/"
-            },
-            {
-              "title": "Media",
-              "date": "2025-04-30",
-              "link": "https://frills.dev/curios/media/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
             }
           ]
         },
@@ -150,37 +212,6 @@
               "title": "[April Cools] Gaming Games for Non-Gamers",
               "date": "2025-04-01",
               "link": "https://buttondown.com/hillelwayne/archive/april-cools-gaming-games-for-non-gamers/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Glossary Web Component",
-              "date": "2025-05-07",
-              "link": "https://dbushell.com/2025/05/07/glossary-web-component/"
-            },
-            {
-              "title": "Progressive Dehancement",
-              "date": "2025-05-02",
-              "link": "https://dbushell.com/2025/05/02/progressive-dehancement/"
-            },
-            {
-              "title": "Deno’s Decline (6 Regions and Falling)",
-              "date": "2025-04-28",
-              "link": "https://dbushell.com/2025/04/28/denos-decline/"
-            },
-            {
-              "title": "Bunny CDN 🐇 (Migrating from Cloudflare)",
-              "date": "2025-04-27",
-              "link": "https://dbushell.com/2025/04/27/bunny-cdn-edge-storage/"
-            },
-            {
-              "title": "Zig Smart Lights; Zapping the Snake ⚡",
-              "date": "2025-04-23",
-              "link": "https://dbushell.com/2025/04/23/zig-smart-lights/"
             }
           ]
         },
@@ -460,37 +491,6 @@
               "title": "Mere Being 017 - September - Dirt Man",
               "date": "2024-10-01",
               "link": "https://www.simplermachines.com/mere-being-017-september-dirt-man/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Before the next beginning",
-              "date": "2025-04-30",
-              "link": "https://anniemueller.com/posts/before-the-next-beginning"
-            },
-            {
-              "title": "People can change",
-              "date": "2025-04-29",
-              "link": "https://anniemueller.com/posts/people-can-change"
-            },
-            {
-              "title": "Every small thing you do actually matters",
-              "date": "2025-04-27",
-              "link": "https://anniemueller.com/posts/every-small-thing-you-do-actually-matters"
-            },
-            {
-              "title": "Seems like this is real simple though?",
-              "date": "2025-04-26",
-              "link": "https://anniemueller.com/posts/seems-like-this-is-real-simple-though"
-            },
-            {
-              "title": "How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner",
-              "date": "2025-04-15",
-              "link": "https://anniemueller.com/posts/how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-11T03:40:44.612Z",
+  "fetchDate": "2025-05-12T03:41:54.137Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

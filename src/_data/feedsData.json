@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Modern layouts with CSS",
+              "date": "2025-05-19",
+              "link": "https://gomakethings.com/modern-layouts-with-css/"
+            },
+            {
+              "title": "A better linter",
+              "date": "2025-05-16",
+              "link": "https://gomakethings.com/a-better-linter/"
+            },
+            {
+              "title": ":is() vs. :where()",
+              "date": "2025-05-15",
+              "link": "https://gomakethings.com/is-vs.-where/"
+            },
+            {
+              "title": "Gardening and the endless task list",
+              "date": "2025-05-14",
+              "link": "https://gomakethings.com/gardening-and-the-endless-task-list/"
+            },
+            {
+              "title": "How to tell if your site is gzipped",
+              "date": "2025-05-13",
+              "link": "https://gomakethings.com/how-to-tell-if-your-site-is-gzipped/"
+            }
+          ]
+        },
+        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -31,6 +62,37 @@
               "title": "The world is terrible and great",
               "date": "2025-01-21",
               "link": "https://jessitron.com/2025/01/20/the-world-is-terrible-and-great/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-05-19",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Overwatching",
+              "date": "2025-05-09",
+              "link": "https://frills.dev/blog/2025/may/overwatching/"
+            },
+            {
+              "title": "I want a CMS",
+              "date": "2025-05-08",
+              "link": "https://frills.dev/blog/2025/may/i-want-a-cms/"
+            },
+            {
+              "title": "Media",
+              "date": "2025-04-30",
+              "link": "https://frills.dev/curios/media/"
+            },
+            {
+              "title": "HTML named colors",
+              "date": "2025-04-03",
+              "link": "https://frills.dev/experiments/html-named-colors/"
             }
           ]
         },
@@ -190,37 +252,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-05-18",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Overwatching",
-              "date": "2025-05-09",
-              "link": "https://frills.dev/blog/2025/may/overwatching/"
-            },
-            {
-              "title": "I want a CMS",
-              "date": "2025-05-08",
-              "link": "https://frills.dev/blog/2025/may/i-want-a-cms/"
-            },
-            {
-              "title": "Media",
-              "date": "2025-04-30",
-              "link": "https://frills.dev/curios/media/"
-            },
-            {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -305,37 +336,6 @@
               "title": "We're in for a rough ride as an industry",
               "date": "2025-04-15",
               "link": "https://www.baldurbjarnason.com/notes/2025/we-are-in-for-a-rough-ride/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "A better linter",
-              "date": "2025-05-16",
-              "link": "https://gomakethings.com/a-better-linter/"
-            },
-            {
-              "title": ":is() vs. :where()",
-              "date": "2025-05-15",
-              "link": "https://gomakethings.com/is-vs.-where/"
-            },
-            {
-              "title": "Gardening and the endless task list",
-              "date": "2025-05-14",
-              "link": "https://gomakethings.com/gardening-and-the-endless-task-list/"
-            },
-            {
-              "title": "How to tell if your site is gzipped",
-              "date": "2025-05-13",
-              "link": "https://gomakethings.com/how-to-tell-if-your-site-is-gzipped/"
-            },
-            {
-              "title": "Naming conventions for CSS classes",
-              "date": "2025-05-12",
-              "link": "https://gomakethings.com/naming-conventions-for-css-classes/"
             }
           ]
         },
@@ -1611,6 +1611,37 @@
           ]
         },
         {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
+              "date": "2025-02-23",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
+            },
+            {
+              "title": "The modern way to write JavaScript servers",
+              "date": "2025-01-25",
+              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
+              "date": "2024-07-06",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
+              "date": "2024-05-15",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Tailwind CSS",
+              "date": "2023-11-01",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/"
+            }
+          ]
+        },
+        {
           "title": "artemis.sh",
           "feedUrl": "https://artemis.sh/feed.xml",
           "items": [
@@ -2399,10 +2430,9 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-19T03:45:48.970Z",
+  "fetchDate": "2025-05-20T03:42:01.316Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
-    "https://marvinh.dev/feed.xml",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://dubroy.com/blog/rss.xml",

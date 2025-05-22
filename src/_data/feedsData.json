@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "The End of Everything",
+              "date": "2025-05-21",
+              "link": "https://robinrendle.com/notes/the-end-of-everything/"
+            },
+            {
+              "title": "item-flow",
+              "date": "2025-03-30",
+              "link": "https://robinrendle.com/notes/item-flow/"
+            },
+            {
+              "title": "Humiliation",
+              "date": "2025-03-15",
+              "link": "https://robinrendle.com/notes/humiliation/"
+            },
+            {
+              "title": "Abandon all keyboards",
+              "date": "2025-03-11",
+              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
+            },
+            {
+              "title": "trot",
+              "date": "2025-02-15",
+              "link": "https://robinrendle.com/notes/trot/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The web is communist",
+              "date": "2025-05-21",
+              "link": "https://gomakethings.com/the-web-is-communist/"
+            },
+            {
+              "title": "CSS logical properties",
+              "date": "2025-05-20",
+              "link": "https://gomakethings.com/css-logical-properties/"
+            },
+            {
+              "title": "Modern layouts with CSS",
+              "date": "2025-05-19",
+              "link": "https://gomakethings.com/modern-layouts-with-css/"
+            },
+            {
+              "title": "A better linter",
+              "date": "2025-05-16",
+              "link": "https://gomakethings.com/a-better-linter/"
+            },
+            {
+              "title": ":is() vs. :where()",
+              "date": "2025-05-15",
+              "link": "https://gomakethings.com/is-vs.-where/"
+            }
+          ]
+        },
+        {
+          "title": ".:. brainsik",
+          "feedUrl": "https://brainsik.net/index.xml",
+          "items": [
+            {
+              "title": "Scraping Public Messages",
+              "date": "2025-05-21",
+              "link": "https://brainsik.net/2025/scraping-public-messages/"
+            },
+            {
+              "title": "The LLM Journey Begins?",
+              "date": "2025-01-07",
+              "link": "https://brainsik.net/2025/llm-journey-begins/"
+            },
+            {
+              "title": "Successfully Migrating to Caddy from Nginx",
+              "date": "2024-07-09",
+              "link": "https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/"
+            },
+            {
+              "title": "GPG Key Transition 2022",
+              "date": "2023-01-01",
+              "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
+            },
+            {
+              "title": "The problem with moving phones from copper to fiber: power",
+              "date": "2014-08-15",
+              "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
+            }
+          ]
+        },
+        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
@@ -11,6 +104,11 @@
               "title": "Microblog",
               "date": "2025-05-21",
               "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Test Decap",
+              "date": "2025-05-21",
+              "link": "https://frills.dev/blog/2025/05/test-decap-md/"
             },
             {
               "title": "Overwatching",
@@ -26,11 +124,32 @@
               "title": "Media",
               "date": "2025-04-30",
               "link": "https://frills.dev/curios/media/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-05-21",
+              "link": "https://dbushell.com/notes/2025-05-21T15:57Z/"
             },
             {
-              "title": "HTML named colors",
-              "date": "2025-04-03",
-              "link": "https://frills.dev/experiments/html-named-colors/"
+              "date": "2025-05-21",
+              "link": "https://dbushell.com/notes/2025-05-21T08:31Z/"
+            },
+            {
+              "date": "2025-05-20",
+              "link": "https://dbushell.com/notes/2025-05-20T11:14Z/"
+            },
+            {
+              "date": "2025-05-17",
+              "link": "https://dbushell.com/notes/2025-05-17T07:55Z/"
+            },
+            {
+              "date": "2025-05-16",
+              "link": "https://dbushell.com/notes/2025-05-16T05:20Z/"
             }
           ]
         },
@@ -62,37 +181,6 @@
               "title": "Language Needs Innovation",
               "date": "2025-05-07",
               "link": "https://blog.jim-nielsen.com/2025/language-needs-innovation/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "CSS logical properties",
-              "date": "2025-05-20",
-              "link": "https://gomakethings.com/css-logical-properties/"
-            },
-            {
-              "title": "Modern layouts with CSS",
-              "date": "2025-05-19",
-              "link": "https://gomakethings.com/modern-layouts-with-css/"
-            },
-            {
-              "title": "A better linter",
-              "date": "2025-05-16",
-              "link": "https://gomakethings.com/a-better-linter/"
-            },
-            {
-              "title": ":is() vs. :where()",
-              "date": "2025-05-15",
-              "link": "https://gomakethings.com/is-vs.-where/"
-            },
-            {
-              "title": "Gardening and the endless task list",
-              "date": "2025-05-14",
-              "link": "https://gomakethings.com/gardening-and-the-endless-task-list/"
             }
           ]
         },
@@ -221,28 +309,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
             {
+              "title": "How essential are your testers?",
               "date": "2025-05-20",
-              "link": "https://dbushell.com/notes/2025-05-20T11:14Z/"
+              "link": "https://smallsheds.garden/blog/2025/how-essential-are-your-testers/"
             },
             {
-              "date": "2025-05-17",
-              "link": "https://dbushell.com/notes/2025-05-17T07:55Z/"
+              "title": "Five levels of note-taking in meetings",
+              "date": "2025-04-20",
+              "link": "https://smallsheds.garden/blog/2025/five-levels-of-note-taking-in-meetings/"
             },
             {
-              "date": "2025-05-16",
-              "link": "https://dbushell.com/notes/2025-05-16T05:20Z/"
+              "title": "Benchmarking counterstring implementations in TypeScript",
+              "date": "2025-02-22",
+              "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
             },
             {
-              "date": "2025-05-15",
-              "link": "https://dbushell.com/notes/2025-05-15T14:46Z/"
+              "title": "Optimizing for moments of discovery",
+              "date": "2025-02-15",
+              "link": "https://smallsheds.garden/blog/2025/optimizing-for-moments-of-discovery/"
             },
             {
-              "date": "2025-05-13",
-              "link": "https://dbushell.com/notes/2025-05-13T06:26Z/"
+              "title": "Comparing counterstring implementations in TypeScript",
+              "date": "2025-01-18",
+              "link": "https://smallsheds.garden/blog/2025/comparing-counterstring-implementations-in-typescript/"
             }
           ]
         },
@@ -491,37 +584,6 @@
               "title": "We're in for a rough ride as an industry",
               "date": "2025-04-15",
               "link": "https://www.baldurbjarnason.com/notes/2025/we-are-in-for-a-rough-ride/"
-            }
-          ]
-        },
-        {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "Buying Tech Books in South Africa",
-              "date": "2025-05-16",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
-            },
-            {
-              "title": "My Exobrain",
-              "date": "2025-05-03",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
-            },
-            {
-              "title": "New Songbook Added to this Blog",
-              "date": "2024-06-25",
-              "link": "https://www.worthe-it.co.za/blog/2024-06-26-new-songbook-added-to-this-blog.html"
-            },
-            {
-              "title": "My approach to Advent of Code puzzles",
-              "date": "2024-02-25",
-              "link": "https://www.worthe-it.co.za/blog/2024-02-26-my-approach-to-advent-of-code-puzzles.html"
-            },
-            {
-              "title": "Make the computer do it!",
-              "date": "2023-10-24",
-              "link": "https://www.worthe-it.co.za/blog/2023-10-25-make-the-computer-do-it.html"
             }
           ]
         },
@@ -1084,37 +1146,6 @@
           ]
         },
         {
-          "title": "Joep Schuurkes",
-          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
-          "items": [
-            {
-              "title": "Five levels of note-taking in meetings",
-              "date": "2025-04-20",
-              "link": "https://smallsheds.garden/blog/2025/five-levels-of-note-taking-in-meetings/"
-            },
-            {
-              "title": "Benchmarking counterstring implementations in TypeScript",
-              "date": "2025-02-22",
-              "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
-            },
-            {
-              "title": "Optimizing for moments of discovery",
-              "date": "2025-02-15",
-              "link": "https://smallsheds.garden/blog/2025/optimizing-for-moments-of-discovery/"
-            },
-            {
-              "title": "Comparing counterstring implementations in TypeScript",
-              "date": "2025-01-18",
-              "link": "https://smallsheds.garden/blog/2025/comparing-counterstring-implementations-in-typescript/"
-            },
-            {
-              "title": "Using \"fake it till you make it\" to implement counterstring",
-              "date": "2025-01-04",
-              "link": "https://smallsheds.garden/blog/2025/using-fake-it-till-you-make-it-to-implement-counterstring/"
-            }
-          ]
-        },
-        {
           "title": "James Shore",
           "feedUrl": "https://www.jamesshore.com/v2/feed",
           "items": [
@@ -1363,37 +1394,6 @@
           ]
         },
         {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "item-flow",
-              "date": "2025-03-30",
-              "link": "https://robinrendle.com/notes/item-flow/"
-            },
-            {
-              "title": "Humiliation",
-              "date": "2025-03-15",
-              "link": "https://robinrendle.com/notes/humiliation/"
-            },
-            {
-              "title": "Abandon all keyboards",
-              "date": "2025-03-11",
-              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
-            },
-            {
-              "title": "trot",
-              "date": "2025-02-15",
-              "link": "https://robinrendle.com/notes/trot/"
-            },
-            {
-              "title": "Notes on blogging",
-              "date": "2025-02-01",
-              "link": "https://robinrendle.com/notes/notes-on-blogging/"
-            }
-          ]
-        },
-        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -1421,6 +1421,37 @@
               "title": "Free variables",
               "date": "2025-03-26",
               "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
+            }
+          ]
+        },
+        {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "Reflections on writing a book",
+              "date": "2025-03-24",
+              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
+            },
+            {
+              "title": "Make it happen",
+              "date": "2025-02-11",
+              "link": "https://dubroy.com/blog/make-it-happen/"
+            },
+            {
+              "title": "Five coding hats",
+              "date": "2025-02-03",
+              "link": "https://dubroy.com/blog/five-coding-hats/"
+            },
+            {
+              "title": "One way to do applied research",
+              "date": "2024-11-07",
+              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
+            },
+            {
+              "title": "Memories of some fantastic internships",
+              "date": "2024-07-31",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
             }
           ]
         },
@@ -1611,6 +1642,37 @@
           ]
         },
         {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
+              "date": "2025-02-23",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
+            },
+            {
+              "title": "The modern way to write JavaScript servers",
+              "date": "2025-01-25",
+              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
+              "date": "2024-07-06",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
+              "date": "2024-05-15",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Tailwind CSS",
+              "date": "2023-11-01",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/"
+            }
+          ]
+        },
+        {
           "title": "artemis.sh",
           "feedUrl": "https://artemis.sh/feed.xml",
           "items": [
@@ -1700,37 +1762,6 @@
               "title": "Slay the Spire #5: Going dynamic",
               "date": "2024-08-04",
               "link": "https://www.cvennevik.no/blog/slay-the-spire-05-going-dynamic/"
-            }
-          ]
-        },
-        {
-          "title": ".:. brainsik",
-          "feedUrl": "https://brainsik.net/index.xml",
-          "items": [
-            {
-              "title": "The LLM Journey Begins?",
-              "date": "2025-01-07",
-              "link": "https://brainsik.net/2025/llm-journey-begins/"
-            },
-            {
-              "title": "Successfully Migrating to Caddy from Nginx",
-              "date": "2024-07-09",
-              "link": "https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/"
-            },
-            {
-              "title": "GPG Key Transition 2022",
-              "date": "2023-01-01",
-              "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
-            },
-            {
-              "title": "The problem with moving phones from copper to fiber: power",
-              "date": "2014-08-15",
-              "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
-            },
-            {
-              "title": "The Secret Government Rulebook For Labeling You a Terrorist",
-              "date": "2014-08-09",
-              "link": "https://brainsik.net/2014/the-secret-government-rulebook-for-labeling-you-a-terrorist/"
             }
           ]
         },
@@ -2399,13 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-21T03:42:22.143Z",
+  "fetchDate": "2025-05-22T03:40:36.831Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
+    "https://www.worthe-it.co.za/atom.xml",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://dubroy.com/blog/rss.xml",
-    "https://einarwh.wordpress.com/feed/",
-    "https://marvinh.dev/feed.xml"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

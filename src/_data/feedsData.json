@@ -4,6 +4,218 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The magic developer wand...",
+              "date": "2025-05-22",
+              "link": "https://gomakethings.com/the-magic-developer-wand.../"
+            },
+            {
+              "title": "The web is communist",
+              "date": "2025-05-21",
+              "link": "https://gomakethings.com/the-web-is-communist/"
+            },
+            {
+              "title": "CSS logical properties",
+              "date": "2025-05-20",
+              "link": "https://gomakethings.com/css-logical-properties/"
+            },
+            {
+              "title": "Modern layouts with CSS",
+              "date": "2025-05-19",
+              "link": "https://gomakethings.com/modern-layouts-with-css/"
+            },
+            {
+              "title": "A better linter",
+              "date": "2025-05-16",
+              "link": "https://gomakethings.com/a-better-linter/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "My Request to Google on Accessibility",
+              "date": "2025-05-22",
+              "link": "https://adrianroselli.com/2025/05/my-request-to-google-on-accessibility.html"
+            },
+            {
+              "title": "Talkin’ Tables @ AccessU",
+              "date": "2025-05-14",
+              "link": "https://adrianroselli.com/2025/05/talkin-tables-accessu.html"
+            },
+            {
+              "title": "Selfish Accessibility 2025 @ AccessU",
+              "date": "2025-05-13",
+              "link": "https://adrianroselli.com/2025/05/selfish-accessibility-2025-accessu.html"
+            },
+            {
+              "title": "Do Not Publish Your Designs on the Web with Figma Sites…",
+              "date": "2025-05-07",
+              "link": "https://adrianroselli.com/2025/05/do-not-publish-your-designs-on-the-web-with-figma-sites.html"
+            },
+            {
+              "title": "Automated WCAG Testing Is Grrreat!",
+              "date": "2025-04-10",
+              "link": "https://adrianroselli.com/2025/04/automated-wcag-testing-is-grrreat.html"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Oxidise Your Command Line (2025 Edition)",
+              "date": "2025-05-22",
+              "link": "https://www.youtube.com/watch?v=rWMQ-g2QDsI"
+            },
+            {
+              "title": "Writing at the Speed of Thought",
+              "date": "2025-05-12",
+              "link": "https://www.youtube.com/watch?v=sqm4-B07LsE"
+            },
+            {
+              "title": "Rust is the New C",
+              "date": "2025-03-12",
+              "link": "https://www.youtube.com/watch?v=3e-nauaCkgo"
+            },
+            {
+              "title": "Obsidian.md: The Good Parts [Part 2]",
+              "date": "2025-02-03",
+              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
+            },
+            {
+              "title": "AI Is Not Designed for You",
+              "date": "2024-12-06",
+              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Sometimes, there is a cat",
+              "date": "2025-05-22",
+              "link": "https://moonbase.lgbt/blog/sometimes-there-is-a-cat/"
+            },
+            {
+              "title": "Liftoff!",
+              "date": "2025-04-23",
+              "link": "https://moonbase.lgbt/blog/liftoff-harman-phoenix/"
+            },
+            {
+              "title": "Bird between the branches",
+              "date": "2025-04-20",
+              "link": "https://moonbase.lgbt/blog/bird-between-branches/"
+            },
+            {
+              "title": "Tiny Adventurer",
+              "date": "2025-04-15",
+              "link": "https://moonbase.lgbt/blog/tiny-adventurer/"
+            },
+            {
+              "title": "TV Guide, 2025-04-04",
+              "date": "2025-04-04",
+              "link": "https://moonbase.lgbt/blog/tv-guide-2025-04-04/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-05-22",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Test Decap",
+              "date": "2025-05-21",
+              "link": "https://frills.dev/blog/2025/05/test-decap-md/"
+            },
+            {
+              "title": "Overwatching",
+              "date": "2025-05-09",
+              "link": "https://frills.dev/blog/2025/may/overwatching/"
+            },
+            {
+              "title": "I want a CMS",
+              "date": "2025-05-08",
+              "link": "https://frills.dev/blog/2025/may/i-want-a-cms/"
+            },
+            {
+              "title": "Media",
+              "date": "2025-04-30",
+              "link": "https://frills.dev/curios/media/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-05-22",
+              "link": "https://dbushell.com/notes/2025-05-22T13:49Z/"
+            },
+            {
+              "date": "2025-05-21",
+              "link": "https://dbushell.com/notes/2025-05-21T15:57Z/"
+            },
+            {
+              "date": "2025-05-21",
+              "link": "https://dbushell.com/notes/2025-05-21T08:31Z/"
+            },
+            {
+              "date": "2025-05-20",
+              "link": "https://dbushell.com/notes/2025-05-20T11:14Z/"
+            },
+            {
+              "date": "2025-05-17",
+              "link": "https://dbushell.com/notes/2025-05-17T07:55Z/"
+            }
+          ]
+        },
+        {
+          "title": "Sara Joy",
+          "feedUrl": "https://sarajoy.dev/rss.xml",
+          "items": [
+            {
+              "title": "Those annoying long URLs causing overflow?",
+              "date": "2025-05-22",
+              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
+            },
+            {
+              "title": "Come to the light-dark() Side",
+              "date": "2024-10-26",
+              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
+            },
+            {
+              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
+              "date": "2024-09-30",
+              "link": "https://sarajoy.dev/blog/see-and-point/"
+            },
+            {
+              "title": "Sara Uses",
+              "date": "2024-09-10",
+              "link": "https://sarajoy.dev/blog/uses/"
+            },
+            {
+              "title": "Weaknote 2024-07-25 (a tab amnesty)",
+              "date": "2024-07-25",
+              "link": "https://sarajoy.dev/blog/notes/20240725/"
+            }
+          ]
+        },
+        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -35,37 +247,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "The web is communist",
-              "date": "2025-05-21",
-              "link": "https://gomakethings.com/the-web-is-communist/"
-            },
-            {
-              "title": "CSS logical properties",
-              "date": "2025-05-20",
-              "link": "https://gomakethings.com/css-logical-properties/"
-            },
-            {
-              "title": "Modern layouts with CSS",
-              "date": "2025-05-19",
-              "link": "https://gomakethings.com/modern-layouts-with-css/"
-            },
-            {
-              "title": "A better linter",
-              "date": "2025-05-16",
-              "link": "https://gomakethings.com/a-better-linter/"
-            },
-            {
-              "title": ":is() vs. :where()",
-              "date": "2025-05-15",
-              "link": "https://gomakethings.com/is-vs.-where/"
-            }
-          ]
-        },
-        {
           "title": ".:. brainsik",
           "feedUrl": "https://brainsik.net/index.xml",
           "items": [
@@ -93,63 +274,6 @@
               "title": "The problem with moving phones from copper to fiber: power",
               "date": "2014-08-15",
               "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-05-21",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Test Decap",
-              "date": "2025-05-21",
-              "link": "https://frills.dev/blog/2025/05/test-decap-md/"
-            },
-            {
-              "title": "Overwatching",
-              "date": "2025-05-09",
-              "link": "https://frills.dev/blog/2025/may/overwatching/"
-            },
-            {
-              "title": "I want a CMS",
-              "date": "2025-05-08",
-              "link": "https://frills.dev/blog/2025/may/i-want-a-cms/"
-            },
-            {
-              "title": "Media",
-              "date": "2025-04-30",
-              "link": "https://frills.dev/curios/media/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-05-21",
-              "link": "https://dbushell.com/notes/2025-05-21T15:57Z/"
-            },
-            {
-              "date": "2025-05-21",
-              "link": "https://dbushell.com/notes/2025-05-21T08:31Z/"
-            },
-            {
-              "date": "2025-05-20",
-              "link": "https://dbushell.com/notes/2025-05-20T11:14Z/"
-            },
-            {
-              "date": "2025-05-17",
-              "link": "https://dbushell.com/notes/2025-05-17T07:55Z/"
-            },
-            {
-              "date": "2025-05-16",
-              "link": "https://dbushell.com/notes/2025-05-16T05:20Z/"
             }
           ]
         },
@@ -588,6 +712,37 @@
           ]
         },
         {
+          "title": "Curly Tail, Curly Braces",
+          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
+          "items": [
+            {
+              "title": "Buying Tech Books in South Africa",
+              "date": "2025-05-16",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
+            },
+            {
+              "title": "My Exobrain",
+              "date": "2025-05-03",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
+            },
+            {
+              "title": "New Songbook Added to this Blog",
+              "date": "2024-06-25",
+              "link": "https://www.worthe-it.co.za/blog/2024-06-26-new-songbook-added-to-this-blog.html"
+            },
+            {
+              "title": "My approach to Advent of Code puzzles",
+              "date": "2024-02-25",
+              "link": "https://www.worthe-it.co.za/blog/2024-02-26-my-approach-to-advent-of-code-puzzles.html"
+            },
+            {
+              "title": "Make the computer do it!",
+              "date": "2023-10-24",
+              "link": "https://www.worthe-it.co.za/blog/2023-10-25-make-the-computer-do-it.html"
+            }
+          ]
+        },
+        {
           "title": "Hazel Weakly",
           "feedUrl": "https://hazelweakly.me/atom.xml",
           "items": [
@@ -805,37 +960,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Talkin’ Tables @ AccessU",
-              "date": "2025-05-14",
-              "link": "https://adrianroselli.com/2025/05/talkin-tables-accessu.html"
-            },
-            {
-              "title": "Selfish Accessibility 2025 @ AccessU",
-              "date": "2025-05-13",
-              "link": "https://adrianroselli.com/2025/05/selfish-accessibility-2025-accessu.html"
-            },
-            {
-              "title": "Do Not Publish Your Designs on the Web with Figma Sites…",
-              "date": "2025-05-07",
-              "link": "https://adrianroselli.com/2025/05/do-not-publish-your-designs-on-the-web-with-figma-sites.html"
-            },
-            {
-              "title": "Automated WCAG Testing Is Grrreat!",
-              "date": "2025-04-10",
-              "link": "https://adrianroselli.com/2025/04/automated-wcag-testing-is-grrreat.html"
-            },
-            {
-              "title": "Tweaking Text Level Styles, Reprised",
-              "date": "2025-04-06",
-              "link": "https://adrianroselli.com/2025/04/tweaking-text-level-styles-reprised.html"
-            }
-          ]
-        },
-        {
           "title": "sunshowers",
           "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
@@ -863,37 +987,6 @@
               "title": "Beyond Ctrl-C: The dark corners of Unix signal handling",
               "date": "2024-09-03",
               "link": "https://sunshowers.io/posts/beyond-ctrl-c-signals/"
-            }
-          ]
-        },
-        {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-          "items": [
-            {
-              "title": "Writing at the Speed of Thought",
-              "date": "2025-05-12",
-              "link": "https://www.youtube.com/watch?v=sqm4-B07LsE"
-            },
-            {
-              "title": "Rust is the New C",
-              "date": "2025-03-12",
-              "link": "https://www.youtube.com/watch?v=3e-nauaCkgo"
-            },
-            {
-              "title": "Obsidian.md: The Good Parts [Part 2]",
-              "date": "2025-02-03",
-              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
-            },
-            {
-              "title": "AI Is Not Designed for You",
-              "date": "2024-12-06",
-              "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
-            },
-            {
-              "title": "From Coder to Creator: My Journey",
-              "date": "2024-09-30",
-              "link": "https://www.youtube.com/watch?v=7Opkmr7kAAk"
             }
           ]
         },
@@ -1080,37 +1173,6 @@
               "title": "Snow Days",
               "date": "2024-12-02",
               "link": "https://mikegrindle.com/posts/snow"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "Liftoff!",
-              "date": "2025-04-23",
-              "link": "https://moonbase.lgbt/blog/liftoff-harman-phoenix/"
-            },
-            {
-              "title": "Bird between the branches",
-              "date": "2025-04-20",
-              "link": "https://moonbase.lgbt/blog/bird-between-branches/"
-            },
-            {
-              "title": "Tiny Adventurer",
-              "date": "2025-04-15",
-              "link": "https://moonbase.lgbt/blog/tiny-adventurer/"
-            },
-            {
-              "title": "TV Guide, 2025-04-04",
-              "date": "2025-04-04",
-              "link": "https://moonbase.lgbt/blog/tv-guide-2025-04-04/"
-            },
-            {
-              "title": "Let’s Get Started with C++23",
-              "date": "2025-02-26",
-              "link": "https://moonbase.lgbt/blog/lets-get-started-with-cpp23/"
             }
           ]
         },
@@ -2004,37 +2066,6 @@
           ]
         },
         {
-          "title": "Sara Joy",
-          "feedUrl": "https://sarajoy.dev/rss.xml",
-          "items": [
-            {
-              "title": "Come to the light-dark() Side",
-              "date": "2024-10-26",
-              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
-            },
-            {
-              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
-              "date": "2024-09-30",
-              "link": "https://sarajoy.dev/blog/see-and-point/"
-            },
-            {
-              "title": "Sara Uses",
-              "date": "2024-09-10",
-              "link": "https://sarajoy.dev/blog/uses/"
-            },
-            {
-              "title": "Weaknote 2024-07-25 (a tab amnesty)",
-              "date": "2024-07-25",
-              "link": "https://sarajoy.dev/blog/notes/20240725/"
-            },
-            {
-              "title": "Everybody's Free (To Write Websites)",
-              "date": "2024-07-16",
-              "link": "https://sarajoy.dev/blog/write-websites/"
-            }
-          ]
-        },
-        {
           "title": "GeePawHill.org",
           "feedUrl": "https://www.geepawhill.org/feed/",
           "items": [
@@ -2430,10 +2461,9 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-22T03:40:36.831Z",
+  "fetchDate": "2025-05-23T03:40:15.630Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
-    "https://www.worthe-it.co.za/atom.xml",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://einarwh.wordpress.com/feed/"

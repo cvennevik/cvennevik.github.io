@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Inboxes are Underrated",
+              "date": "2025-05-24",
+              "link": "https://borretti.me/article/inboxes-are-underrated"
+            },
+            {
+              "title": "You Can Choose Tools That Make You Happy",
+              "date": "2025-05-20",
+              "link": "https://borretti.me/article/you-can-choose-tools-that-make-you-happy"
+            },
+            {
+              "title": "Two Years of Rust",
+              "date": "2025-04-15",
+              "link": "https://borretti.me/article/two-years-of-rust"
+            },
+            {
+              "title": "My Backup Infrastructure, 2025 Edition",
+              "date": "2025-04-13",
+              "link": "https://borretti.me/article/my-backup-infrastructure-2025-edition"
+            },
+            {
+              "title": "We Live In a Golden Age of Interoperability",
+              "date": "2025-04-08",
+              "link": "https://borretti.me/article/we-live-in-a-golden-age-of-interoperability"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Work styles and ADHD",
+              "date": "2025-05-23",
+              "link": "https://gomakethings.com/work-styles-and-adhd/"
+            },
             {
               "title": "The magic developer wand...",
               "date": "2025-05-22",
@@ -26,11 +62,187 @@
               "title": "Modern layouts with CSS",
               "date": "2025-05-19",
               "link": "https://gomakethings.com/modern-layouts-with-css/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "::pseudo-elements?",
+              "date": "2025-05-23",
+              "link": "https://dbushell.com/2025/05/23/pseudo-elements/"
             },
             {
-              "title": "A better linter",
+              "title": "Search with Zig, Wasm, and a Worker ⚡",
+              "date": "2025-05-18",
+              "link": "https://dbushell.com/2025/05/18/search-with-zig-wasm-worker/"
+            },
+            {
+              "title": "Slopaganda",
+              "date": "2025-05-15",
+              "link": "https://dbushell.com/2025/05/15/slopaganda/"
+            },
+            {
+              "title": "The Static Site Churns!",
+              "date": "2025-05-11",
+              "link": "https://dbushell.com/2025/05/11/the-static-site-churns/"
+            },
+            {
+              "title": "Glossary Web Component",
+              "date": "2025-05-07",
+              "link": "https://dbushell.com/2025/05/07/glossary-web-component/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Webkit’s New Color Picker as an Example of Good Platform Defaults",
+              "date": "2025-05-23",
+              "link": "https://blog.jim-nielsen.com/2025/better-platform-defaults-color-picker/"
+            },
+            {
+              "title": "Product Pseudoscience",
+              "date": "2025-05-20",
+              "link": "https://blog.jim-nielsen.com/2025/product-pseudoscience/"
+            },
+            {
+              "title": "Multiple Computers",
+              "date": "2025-05-18",
+              "link": "https://blog.jim-nielsen.com/2025/multiple-computers/"
+            },
+            {
+              "title": "Notes from Alexander Petros’ “Building the Hundred-Year Web Service”",
+              "date": "2025-05-14",
+              "link": "https://blog.jim-nielsen.com/2025/notes-from-hundred-year-web-service/"
+            },
+            {
+              "title": "Notes from the Chrome Team’s “Blink principles of web compatibility”",
+              "date": "2025-05-12",
+              "link": "https://blog.jim-nielsen.com/2025/notes-from-blink-principles-of-web-compat/"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "This new activities website could just make school holidays bearable: offline.kids",
+              "date": "2025-05-23",
+              "link": "https://rosswintle.uk/2025/05/activities-website-makes-school-holidays-bearable-offline-kids/"
+            },
+            {
+              "title": "A (good) update on Turbo Admin",
+              "date": "2025-05-18",
+              "link": "https://rosswintle.uk/2025/05/a-good-update-on-turbo-admin/"
+            },
+            {
+              "title": "Breaking News",
               "date": "2025-05-16",
-              "link": "https://gomakethings.com/a-better-linter/"
+              "link": "https://rosswintle.uk/2025/05/breaking-news/"
+            },
+            {
+              "title": "Notes and links for my WordSesh 2025 talk",
+              "date": "2025-05-13",
+              "link": "https://rosswintle.uk/2025/05/notes-and-links-for-my-wordsesh-2025-talk/"
+            },
+            {
+              "title": "My latest thoughts on AI",
+              "date": "2025-04-08",
+              "link": "https://rosswintle.uk/2025/04/my-latest-thoughts-on-ai/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "On the Jony Ive and Sam Altman announcement",
+              "date": "2025-05-23",
+              "link": "https://thejollyteapot.com/2025/05/23/on-the-jony-ive-and-sam-altman-announcement/"
+            },
+            {
+              "title": "The quest for the best writing tool, a spinoff",
+              "date": "2025-05-18",
+              "link": "https://thejollyteapot.com/2025/05/18/the-quest-for-the-best-writing-tool-a-spinoff/"
+            },
+            {
+              "title": "April 2025 blend of links",
+              "date": "2025-04-28",
+              "link": "https://thejollyteapot.com/april-2025-blend/"
+            },
+            {
+              "title": "I think I’m done with Safari and Apple Mail",
+              "date": "2025-04-27",
+              "link": "https://thejollyteapot.com/2025/04/27/i-think-i-m-done-with-safari-and-apple-mail/"
+            },
+            {
+              "title": "March 2025 blend of links",
+              "date": "2025-03-29",
+              "link": "https://thejollyteapot.com/march-2025-blend/"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Microblog",
+              "date": "2025-05-23",
+              "link": "https://frills.dev/status/microblog/"
+            },
+            {
+              "title": "Test Decap",
+              "date": "2025-05-21",
+              "link": "https://frills.dev/blog/2025/05/test-decap-md/"
+            },
+            {
+              "title": "Overwatching",
+              "date": "2025-05-09",
+              "link": "https://frills.dev/blog/2025/may/overwatching/"
+            },
+            {
+              "title": "I want a CMS",
+              "date": "2025-05-08",
+              "link": "https://frills.dev/blog/2025/may/i-want-a-cms/"
+            },
+            {
+              "title": "Media",
+              "date": "2025-04-30",
+              "link": "https://frills.dev/curios/media/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-05-23",
+              "link": "https://dbushell.com/notes/2025-05-23T11:34Z/"
+            },
+            {
+              "date": "2025-05-22",
+              "link": "https://dbushell.com/notes/2025-05-22T13:49Z/"
+            },
+            {
+              "date": "2025-05-21",
+              "link": "https://dbushell.com/notes/2025-05-21T15:57Z/"
+            },
+            {
+              "date": "2025-05-21",
+              "link": "https://dbushell.com/notes/2025-05-21T08:31Z/"
+            },
+            {
+              "date": "2025-05-20",
+              "link": "https://dbushell.com/notes/2025-05-20T11:14Z/"
             }
           ]
         },
@@ -128,63 +340,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Microblog",
-              "date": "2025-05-22",
-              "link": "https://frills.dev/status/microblog/"
-            },
-            {
-              "title": "Test Decap",
-              "date": "2025-05-21",
-              "link": "https://frills.dev/blog/2025/05/test-decap-md/"
-            },
-            {
-              "title": "Overwatching",
-              "date": "2025-05-09",
-              "link": "https://frills.dev/blog/2025/may/overwatching/"
-            },
-            {
-              "title": "I want a CMS",
-              "date": "2025-05-08",
-              "link": "https://frills.dev/blog/2025/may/i-want-a-cms/"
-            },
-            {
-              "title": "Media",
-              "date": "2025-04-30",
-              "link": "https://frills.dev/curios/media/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-05-22",
-              "link": "https://dbushell.com/notes/2025-05-22T13:49Z/"
-            },
-            {
-              "date": "2025-05-21",
-              "link": "https://dbushell.com/notes/2025-05-21T15:57Z/"
-            },
-            {
-              "date": "2025-05-21",
-              "link": "https://dbushell.com/notes/2025-05-21T08:31Z/"
-            },
-            {
-              "date": "2025-05-20",
-              "link": "https://dbushell.com/notes/2025-05-20T11:14Z/"
-            },
-            {
-              "date": "2025-05-17",
-              "link": "https://dbushell.com/notes/2025-05-17T07:55Z/"
-            }
-          ]
-        },
-        {
           "title": "Sara Joy",
           "feedUrl": "https://sarajoy.dev/rss.xml",
           "items": [
@@ -274,37 +429,6 @@
               "title": "The problem with moving phones from copper to fiber: power",
               "date": "2014-08-15",
               "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Product Pseudoscience",
-              "date": "2025-05-20",
-              "link": "https://blog.jim-nielsen.com/2025/product-pseudoscience/"
-            },
-            {
-              "title": "Multiple Computers",
-              "date": "2025-05-18",
-              "link": "https://blog.jim-nielsen.com/2025/multiple-computers/"
-            },
-            {
-              "title": "Notes from Alexander Petros’ “Building the Hundred-Year Web Service”",
-              "date": "2025-05-14",
-              "link": "https://blog.jim-nielsen.com/2025/notes-from-hundred-year-web-service/"
-            },
-            {
-              "title": "Notes from the Chrome Team’s “Blink principles of web compatibility”",
-              "date": "2025-05-12",
-              "link": "https://blog.jim-nielsen.com/2025/notes-from-blink-principles-of-web-compat/"
-            },
-            {
-              "title": "Language Needs Innovation",
-              "date": "2025-05-07",
-              "link": "https://blog.jim-nielsen.com/2025/language-needs-innovation/"
             }
           ]
         },
@@ -402,37 +526,6 @@
           ]
         },
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "You Can Choose Tools That Make You Happy",
-              "date": "2025-05-20",
-              "link": "https://borretti.me/article/you-can-choose-tools-that-make-you-happy"
-            },
-            {
-              "title": "Two Years of Rust",
-              "date": "2025-04-15",
-              "link": "https://borretti.me/article/two-years-of-rust"
-            },
-            {
-              "title": "My Backup Infrastructure, 2025 Edition",
-              "date": "2025-04-13",
-              "link": "https://borretti.me/article/my-backup-infrastructure-2025-edition"
-            },
-            {
-              "title": "We Live In a Golden Age of Interoperability",
-              "date": "2025-04-08",
-              "link": "https://borretti.me/article/we-live-in-a-golden-age-of-interoperability"
-            },
-            {
-              "title": "Domain-Agnostic and Domain-Specific Tools",
-              "date": "2025-04-03",
-              "link": "https://borretti.me/article/domain-agnostic-and-domain-specific-tools"
-            }
-          ]
-        },
-        {
           "title": "Joep Schuurkes",
           "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
@@ -526,68 +619,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Search with Zig, Wasm, and a Worker ⚡",
-              "date": "2025-05-18",
-              "link": "https://dbushell.com/2025/05/18/search-with-zig-wasm-worker/"
-            },
-            {
-              "title": "Slopaganda",
-              "date": "2025-05-15",
-              "link": "https://dbushell.com/2025/05/15/slopaganda/"
-            },
-            {
-              "title": "The Static Site Churns!",
-              "date": "2025-05-11",
-              "link": "https://dbushell.com/2025/05/11/the-static-site-churns/"
-            },
-            {
-              "title": "Glossary Web Component",
-              "date": "2025-05-07",
-              "link": "https://dbushell.com/2025/05/07/glossary-web-component/"
-            },
-            {
-              "title": "Progressive Dehancement",
-              "date": "2025-05-02",
-              "link": "https://dbushell.com/2025/05/02/progressive-dehancement/"
-            }
-          ]
-        },
-        {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "A (good) update on Turbo Admin",
-              "date": "2025-05-18",
-              "link": "https://rosswintle.uk/2025/05/a-good-update-on-turbo-admin/"
-            },
-            {
-              "title": "Breaking News",
-              "date": "2025-05-16",
-              "link": "https://rosswintle.uk/2025/05/breaking-news/"
-            },
-            {
-              "title": "Notes and links for my WordSesh 2025 talk",
-              "date": "2025-05-13",
-              "link": "https://rosswintle.uk/2025/05/notes-and-links-for-my-wordsesh-2025-talk/"
-            },
-            {
-              "title": "My latest thoughts on AI",
-              "date": "2025-04-08",
-              "link": "https://rosswintle.uk/2025/04/my-latest-thoughts-on-ai/"
-            },
-            {
-              "title": "One does not simply update one’s dependencies",
-              "date": "2025-04-04",
-              "link": "https://rosswintle.uk/2025/04/one-does-not-simply-update-ones-dependencies/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -615,37 +646,6 @@
               "title": "Recently",
               "date": "2025-04-07",
               "link": "https://macwright.com/2025/04/07/recently.html"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "The quest for the best writing tool, a spinoff",
-              "date": "2025-05-18",
-              "link": "https://thejollyteapot.com/2025/05/18/the-quest-for-the-best-writing-tool-a-spinoff/"
-            },
-            {
-              "title": "April 2025 blend of links",
-              "date": "2025-04-28",
-              "link": "https://thejollyteapot.com/april-2025-blend/"
-            },
-            {
-              "title": "I think I’m done with Safari and Apple Mail",
-              "date": "2025-04-27",
-              "link": "https://thejollyteapot.com/2025/04/27/i-think-i-m-done-with-safari-and-apple-mail/"
-            },
-            {
-              "title": "March 2025 blend of links",
-              "date": "2025-03-29",
-              "link": "https://thejollyteapot.com/march-2025-blend/"
-            },
-            {
-              "title": "Spring update",
-              "date": "2025-03-22",
-              "link": "https://thejollyteapot.com/2025/03/22/spring-update/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-23T03:40:15.630Z",
+  "fetchDate": "2025-05-24T03:36:10.724Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

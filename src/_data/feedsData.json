@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Could I Have Some More Friction in My Life, Please?",
+              "date": "2025-05-25",
+              "link": "https://blog.jim-nielsen.com/2025/more-friction-please/"
+            },
+            {
+              "title": "Webkit’s New Color Picker as an Example of Good Platform Defaults",
+              "date": "2025-05-23",
+              "link": "https://blog.jim-nielsen.com/2025/better-platform-defaults-color-picker/"
+            },
+            {
+              "title": "Product Pseudoscience",
+              "date": "2025-05-20",
+              "link": "https://blog.jim-nielsen.com/2025/product-pseudoscience/"
+            },
+            {
+              "title": "Multiple Computers",
+              "date": "2025-05-18",
+              "link": "https://blog.jim-nielsen.com/2025/multiple-computers/"
+            },
+            {
+              "title": "Notes from Alexander Petros’ “Building the Hundred-Year Web Service”",
+              "date": "2025-05-14",
+              "link": "https://blog.jim-nielsen.com/2025/notes-from-hundred-year-web-service/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-05-25",
+              "link": "https://dbushell.com/notes/2025-05-25T13:29Z/"
+            },
+            {
+              "date": "2025-05-24",
+              "link": "https://dbushell.com/notes/2025-05-24T07:21Z/"
+            },
+            {
+              "date": "2025-05-23",
+              "link": "https://dbushell.com/notes/2025-05-23T11:34Z/"
+            },
+            {
+              "date": "2025-05-22",
+              "link": "https://dbushell.com/notes/2025-05-22T13:49Z/"
+            },
+            {
+              "date": "2025-05-21",
+              "link": "https://dbushell.com/notes/2025-05-21T15:57Z/"
+            }
+          ]
+        },
+        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -66,32 +123,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-05-24",
-              "link": "https://dbushell.com/notes/2025-05-24T07:21Z/"
-            },
-            {
-              "date": "2025-05-23",
-              "link": "https://dbushell.com/notes/2025-05-23T11:34Z/"
-            },
-            {
-              "date": "2025-05-22",
-              "link": "https://dbushell.com/notes/2025-05-22T13:49Z/"
-            },
-            {
-              "date": "2025-05-21",
-              "link": "https://dbushell.com/notes/2025-05-21T15:57Z/"
-            },
-            {
-              "date": "2025-05-21",
-              "link": "https://dbushell.com/notes/2025-05-21T08:31Z/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -150,37 +181,6 @@
               "title": "Modern layouts with CSS",
               "date": "2025-05-19",
               "link": "https://gomakethings.com/modern-layouts-with-css/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Webkit’s New Color Picker as an Example of Good Platform Defaults",
-              "date": "2025-05-23",
-              "link": "https://blog.jim-nielsen.com/2025/better-platform-defaults-color-picker/"
-            },
-            {
-              "title": "Product Pseudoscience",
-              "date": "2025-05-20",
-              "link": "https://blog.jim-nielsen.com/2025/product-pseudoscience/"
-            },
-            {
-              "title": "Multiple Computers",
-              "date": "2025-05-18",
-              "link": "https://blog.jim-nielsen.com/2025/multiple-computers/"
-            },
-            {
-              "title": "Notes from Alexander Petros’ “Building the Hundred-Year Web Service”",
-              "date": "2025-05-14",
-              "link": "https://blog.jim-nielsen.com/2025/notes-from-hundred-year-web-service/"
-            },
-            {
-              "title": "Notes from the Chrome Team’s “Blink principles of web compatibility”",
-              "date": "2025-05-12",
-              "link": "https://blog.jim-nielsen.com/2025/notes-from-blink-principles-of-web-compat/"
             }
           ]
         },
@@ -1487,6 +1487,37 @@
           ]
         },
         {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "Reflections on writing a book",
+              "date": "2025-03-24",
+              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
+            },
+            {
+              "title": "Make it happen",
+              "date": "2025-02-11",
+              "link": "https://dubroy.com/blog/make-it-happen/"
+            },
+            {
+              "title": "Five coding hats",
+              "date": "2025-02-03",
+              "link": "https://dubroy.com/blog/five-coding-hats/"
+            },
+            {
+              "title": "One way to do applied research",
+              "date": "2024-11-07",
+              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
+            },
+            {
+              "title": "Memories of some fantastic internships",
+              "date": "2024-07-31",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
+            }
+          ]
+        },
+        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -2430,12 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-25T03:45:32.632Z",
+  "fetchDate": "2025-05-26T03:44:05.818Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://dubroy.com/blog/rss.xml",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

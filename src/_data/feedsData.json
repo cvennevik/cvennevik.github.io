@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "May 2025 blend of links",
+              "date": "2025-05-26",
+              "link": "https://thejollyteapot.com/may-2025-blend/"
+            },
+            {
+              "title": "On the Jony Ive and Sam Altman announcement",
+              "date": "2025-05-23",
+              "link": "https://thejollyteapot.com/2025/05/23/on-the-jony-ive-and-sam-altman-announcement/"
+            },
+            {
+              "title": "The quest for the best writing tool, a spinoff",
+              "date": "2025-05-18",
+              "link": "https://thejollyteapot.com/2025/05/18/the-quest-for-the-best-writing-tool-a-spinoff/"
+            },
+            {
+              "title": "April 2025 blend of links",
+              "date": "2025-04-28",
+              "link": "https://thejollyteapot.com/april-2025-blend/"
+            },
+            {
+              "title": "I think I’m done with Safari and Apple Mail",
+              "date": "2025-04-27",
+              "link": "https://thejollyteapot.com/2025/04/27/i-think-i-m-done-with-safari-and-apple-mail/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -212,37 +243,6 @@
               "title": "My latest thoughts on AI",
               "date": "2025-04-08",
               "link": "https://rosswintle.uk/2025/04/my-latest-thoughts-on-ai/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "On the Jony Ive and Sam Altman announcement",
-              "date": "2025-05-23",
-              "link": "https://thejollyteapot.com/2025/05/23/on-the-jony-ive-and-sam-altman-announcement/"
-            },
-            {
-              "title": "The quest for the best writing tool, a spinoff",
-              "date": "2025-05-18",
-              "link": "https://thejollyteapot.com/2025/05/18/the-quest-for-the-best-writing-tool-a-spinoff/"
-            },
-            {
-              "title": "April 2025 blend of links",
-              "date": "2025-04-28",
-              "link": "https://thejollyteapot.com/april-2025-blend/"
-            },
-            {
-              "title": "I think I’m done with Safari and Apple Mail",
-              "date": "2025-04-27",
-              "link": "https://thejollyteapot.com/2025/04/27/i-think-i-m-done-with-safari-and-apple-mail/"
-            },
-            {
-              "title": "March 2025 blend of links",
-              "date": "2025-03-29",
-              "link": "https://thejollyteapot.com/march-2025-blend/"
             }
           ]
         },
@@ -902,6 +902,11 @@
           "feedUrl": "https://fynn.be/feed.xml",
           "items": [
             {
+              "title": "BITV-Zertifizierung der Factorial-Website",
+              "date": "2025-05-15",
+              "link": "https://fynn.be/talks/factorial-website-bitv/"
+            },
+            {
               "title": "Sunset v29",
               "date": "2025-05-15",
               "link": "https://fynn.be/sunset/v29/"
@@ -920,11 +925,6 @@
               "title": "Sunset v28",
               "date": "2025-01-28",
               "link": "https://fynn.be/sunset/v28/"
-            },
-            {
-              "title": "Sunset v27",
-              "date": "2024-12-21",
-              "link": "https://fynn.be/sunset/v27/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-26T03:44:05.818Z",
+  "fetchDate": "2025-05-27T03:40:42.259Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "How to copy stuff to a user's clipboard with vanilla JavaScript",
+              "date": "2025-05-27",
+              "link": "https://gomakethings.com/how-to-copy-stuff-to-a-users-clipboard-with-vanilla-javascript/"
+            },
+            {
+              "title": "Work styles and ADHD",
+              "date": "2025-05-23",
+              "link": "https://gomakethings.com/work-styles-and-adhd/"
+            },
+            {
+              "title": "The magic developer wand...",
+              "date": "2025-05-22",
+              "link": "https://gomakethings.com/the-magic-developer-wand.../"
+            },
+            {
+              "title": "The web is communist",
+              "date": "2025-05-21",
+              "link": "https://gomakethings.com/the-web-is-communist/"
+            },
+            {
+              "title": "CSS logical properties",
+              "date": "2025-05-20",
+              "link": "https://gomakethings.com/css-logical-properties/"
+            }
+          ]
+        },
+        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -181,37 +212,6 @@
               "title": "Glossary Web Component",
               "date": "2025-05-07",
               "link": "https://dbushell.com/2025/05/07/glossary-web-component/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Work styles and ADHD",
-              "date": "2025-05-23",
-              "link": "https://gomakethings.com/work-styles-and-adhd/"
-            },
-            {
-              "title": "The magic developer wand...",
-              "date": "2025-05-22",
-              "link": "https://gomakethings.com/the-magic-developer-wand.../"
-            },
-            {
-              "title": "The web is communist",
-              "date": "2025-05-21",
-              "link": "https://gomakethings.com/the-web-is-communist/"
-            },
-            {
-              "title": "CSS logical properties",
-              "date": "2025-05-20",
-              "link": "https://gomakethings.com/css-logical-properties/"
-            },
-            {
-              "title": "Modern layouts with CSS",
-              "date": "2025-05-19",
-              "link": "https://gomakethings.com/modern-layouts-with-css/"
             }
           ]
         },
@@ -1487,37 +1487,6 @@
           ]
         },
         {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Reflections on writing a book",
-              "date": "2025-03-24",
-              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
-            },
-            {
-              "title": "Make it happen",
-              "date": "2025-02-11",
-              "link": "https://dubroy.com/blog/make-it-happen/"
-            },
-            {
-              "title": "Five coding hats",
-              "date": "2025-02-03",
-              "link": "https://dubroy.com/blog/five-coding-hats/"
-            },
-            {
-              "title": "One way to do applied research",
-              "date": "2024-11-07",
-              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
-            },
-            {
-              "title": "Memories of some fantastic internships",
-              "date": "2024-07-31",
-              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
-            }
-          ]
-        },
-        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -2461,11 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-27T03:40:42.259Z",
+  "fetchDate": "2025-05-28T03:41:49.679Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://dubroy.com/blog/rss.xml"
   ]
 }

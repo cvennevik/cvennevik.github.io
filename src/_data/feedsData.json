@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Alexis King’s Blog",
+          "feedUrl": "https://lexi-lambda.github.io/feeds/all.atom.xml",
+          "items": [
+            {
+              "title": "A break from programming languages",
+              "date": "2025-05-29",
+              "link": "https://lexi-lambda.github.io/blog/2025/05/29/a-break-from-programming-languages/"
+            },
+            {
+              "title": "An introduction to typeclass metaprogramming",
+              "date": "2021-03-25",
+              "link": "https://lexi-lambda.github.io/blog/2021/03/25/an-introduction-to-typeclass-metaprogramming/"
+            },
+            {
+              "title": "Names are not type safety",
+              "date": "2020-11-01",
+              "link": "https://lexi-lambda.github.io/blog/2020/11/01/names-are-not-type-safety/"
+            },
+            {
+              "title": "Types as axioms, or: playing god with static types",
+              "date": "2020-08-13",
+              "link": "https://lexi-lambda.github.io/blog/2020/08/13/types-as-axioms-or-playing-god-with-static-types/"
+            },
+            {
+              "title": "No, dynamic type systems are not inherently more open",
+              "date": "2020-01-19",
+              "link": "https://lexi-lambda.github.io/blog/2020/01/19/no-dynamic-type-systems-are-not-inherently-more-open/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "More myself online",
+              "date": "2025-05-29",
+              "link": "https://gomakethings.com/more-myself-online/"
+            },
             {
               "title": "How to build a copy-to-clipboard HTML Web Component",
               "date": "2025-05-28",
@@ -26,11 +62,99 @@
               "title": "The magic developer wand...",
               "date": "2025-05-22",
               "link": "https://gomakethings.com/the-magic-developer-wand.../"
+            }
+          ]
+        },
+        {
+          "title": "HeydonWorks",
+          "feedUrl": "https://heydonworks.com/feed.xml",
+          "items": [
+            {
+              "title": "The col element",
+              "date": "2025-05-29",
+              "link": "https://heydonworks.com/article/the-col-element/"
             },
             {
-              "title": "The web is communist",
-              "date": "2025-05-21",
-              "link": "https://gomakethings.com/the-web-is-communist/"
+              "title": "The caption element",
+              "date": "2025-05-20",
+              "link": "https://heydonworks.com/article/the-caption-element/"
+            },
+            {
+              "title": "The code element",
+              "date": "2025-05-05",
+              "link": "https://heydonworks.com/article/the-code-element/"
+            },
+            {
+              "title": "The cite element",
+              "date": "2025-04-30",
+              "link": "https://heydonworks.com/article/the-cite-element/"
+            },
+            {
+              "title": "The canvas element",
+              "date": "2025-04-28",
+              "link": "https://heydonworks.com/article/the-canvas-element/"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "Adding Plugin Installation and User Switching to Turbo Admin",
+              "date": "2025-05-29",
+              "link": "https://rosswintle.uk/2025/05/adding-plugin-installation-and-user-switching-to-turbo-admin/"
+            },
+            {
+              "title": "This new activities website could just make school holidays bearable: offline.kids",
+              "date": "2025-05-23",
+              "link": "https://rosswintle.uk/2025/05/activities-website-makes-school-holidays-bearable-offline-kids/"
+            },
+            {
+              "title": "A (good) update on Turbo Admin",
+              "date": "2025-05-18",
+              "link": "https://rosswintle.uk/2025/05/a-good-update-on-turbo-admin/"
+            },
+            {
+              "title": "Breaking News",
+              "date": "2025-05-16",
+              "link": "https://rosswintle.uk/2025/05/breaking-news/"
+            },
+            {
+              "title": "Notes and links for my WordSesh 2025 talk",
+              "date": "2025-05-13",
+              "link": "https://rosswintle.uk/2025/05/notes-and-links-for-my-wordsesh-2025-talk/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Something terrible happened with CSS",
+              "date": "2025-05-29",
+              "link": "https://thejollyteapot.com/2025/05/29/something-terrible-happened-with-css/"
+            },
+            {
+              "title": "May 2025 blend of links",
+              "date": "2025-05-26",
+              "link": "https://thejollyteapot.com/may-2025-blend/"
+            },
+            {
+              "title": "On the Jony Ive and Sam Altman announcement",
+              "date": "2025-05-23",
+              "link": "https://thejollyteapot.com/2025/05/23/on-the-jony-ive-and-sam-altman-announcement/"
+            },
+            {
+              "title": "The quest for the best writing tool, a spinoff",
+              "date": "2025-05-18",
+              "link": "https://thejollyteapot.com/2025/05/18/the-quest-for-the-best-writing-tool-a-spinoff/"
+            },
+            {
+              "title": "April 2025 blend of links",
+              "date": "2025-04-28",
+              "link": "https://thejollyteapot.com/april-2025-blend/"
             }
           ]
         },
@@ -124,37 +248,6 @@
               "title": "Requirements change until they don't",
               "date": "2025-04-24",
               "link": "https://buttondown.com/hillelwayne/archive/requirements-change-until-they-dont/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "May 2025 blend of links",
-              "date": "2025-05-26",
-              "link": "https://thejollyteapot.com/may-2025-blend/"
-            },
-            {
-              "title": "On the Jony Ive and Sam Altman announcement",
-              "date": "2025-05-23",
-              "link": "https://thejollyteapot.com/2025/05/23/on-the-jony-ive-and-sam-altman-announcement/"
-            },
-            {
-              "title": "The quest for the best writing tool, a spinoff",
-              "date": "2025-05-18",
-              "link": "https://thejollyteapot.com/2025/05/18/the-quest-for-the-best-writing-tool-a-spinoff/"
-            },
-            {
-              "title": "April 2025 blend of links",
-              "date": "2025-04-28",
-              "link": "https://thejollyteapot.com/april-2025-blend/"
-            },
-            {
-              "title": "I think I’m done with Safari and Apple Mail",
-              "date": "2025-04-27",
-              "link": "https://thejollyteapot.com/2025/04/27/i-think-i-m-done-with-safari-and-apple-mail/"
             }
           ]
         },
@@ -274,37 +367,6 @@
               "title": "Glossary Web Component",
               "date": "2025-05-07",
               "link": "https://dbushell.com/2025/05/07/glossary-web-component/"
-            }
-          ]
-        },
-        {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "This new activities website could just make school holidays bearable: offline.kids",
-              "date": "2025-05-23",
-              "link": "https://rosswintle.uk/2025/05/activities-website-makes-school-holidays-bearable-offline-kids/"
-            },
-            {
-              "title": "A (good) update on Turbo Admin",
-              "date": "2025-05-18",
-              "link": "https://rosswintle.uk/2025/05/a-good-update-on-turbo-admin/"
-            },
-            {
-              "title": "Breaking News",
-              "date": "2025-05-16",
-              "link": "https://rosswintle.uk/2025/05/breaking-news/"
-            },
-            {
-              "title": "Notes and links for my WordSesh 2025 talk",
-              "date": "2025-05-13",
-              "link": "https://rosswintle.uk/2025/05/notes-and-links-for-my-wordsesh-2025-talk/"
-            },
-            {
-              "title": "My latest thoughts on AI",
-              "date": "2025-04-08",
-              "link": "https://rosswintle.uk/2025/04/my-latest-thoughts-on-ai/"
             }
           ]
         },
@@ -495,33 +557,33 @@
           ]
         },
         {
-          "title": "HeydonWorks",
-          "feedUrl": "https://heydonworks.com/feed.xml",
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
             {
-              "title": "The caption element",
+              "title": "Hva er WebAssembly?",
               "date": "2025-05-20",
-              "link": "https://heydonworks.com/article/the-caption-element/"
+              "link": "https://www.kodemaker.no/blogg/2025-05-20-hva-er-webassembly/"
             },
             {
-              "title": "The code element",
-              "date": "2025-05-05",
-              "link": "https://heydonworks.com/article/the-code-element/"
+              "title": "Hva har LEGO-bygging til felles med Discriminated Unions?",
+              "date": "2025-05-12",
+              "link": "https://www.kodemaker.no/blogg/2025-05-12-discriminated-unions-and-lego/"
             },
             {
-              "title": "The cite element",
-              "date": "2025-04-30",
-              "link": "https://heydonworks.com/article/the-cite-element/"
+              "title": "Deklarative kart med maplibre",
+              "date": "2025-05-07",
+              "link": "https://www.kodemaker.no/blogg/2025-05-07-deklarative-kart-maplibre-gl/"
             },
             {
-              "title": "The canvas element",
-              "date": "2025-04-28",
-              "link": "https://heydonworks.com/article/the-canvas-element/"
+              "title": "Roten til alt vondt i produktutvikling",
+              "date": "2025-04-16",
+              "link": "https://www.kodemaker.no/blogg/2025-04-roten-til-alt-vondt-i-produktutvikling/"
             },
             {
-              "title": "Poisoning Well",
-              "date": "2025-03-31",
-              "link": "https://heydonworks.com/article/poisoning-well/"
+              "title": "AI-assistert Utvikling",
+              "date": "2025-04-09",
+              "link": "https://www.kodemaker.no/blogg/2025-04-09-ai-assistert-utvikling/"
             }
           ]
         },
@@ -553,37 +615,6 @@
               "title": "Versioning versus Coordination",
               "date": "2025-02-04",
               "link": "http://brooker.co.za/blog/2025/02/04/versioning.html"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Hva er WebAssembly?",
-              "date": "2025-05-20",
-              "link": "https://www.kodemaker.no/blogg/2025-05-20-hva-er-webassembly/"
-            },
-            {
-              "title": "Hva har LEGO-bygging til felles med Discriminated Unions?",
-              "date": "2025-05-12",
-              "link": "https://www.kodemaker.no/blogg/2025-05-12-discriminated-unions-and-lego/"
-            },
-            {
-              "title": "Deklarative kart med maplibre",
-              "date": "2025-05-07",
-              "link": "https://www.kodemaker.no/blogg/2025-05-07-deklarative-kart-maplibre-gl/"
-            },
-            {
-              "title": "Roten til alt vondt i produktutvikling",
-              "date": "2025-04-16",
-              "link": "https://www.kodemaker.no/blogg/2025-04-roten-til-alt-vondt-i-produktutvikling/"
-            },
-            {
-              "title": "AI-assistert Utvikling",
-              "date": "2025-04-09",
-              "link": "https://www.kodemaker.no/blogg/2025-04-09-ai-assistert-utvikling/"
             }
           ]
         },
@@ -1942,37 +1973,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "If Not React, Then What?",
-              "date": "2024-11-29",
-              "link": "https://infrequently.org/2024/11/if-not-react-then-what/"
-            },
-            {
-              "title": "Platform Strategy and Its Discontents",
-              "date": "2024-10-27",
-              "link": "https://infrequently.org/2024/10/platforms-are-competitions/"
-            },
-            {
-              "title": "Reckoning: Part 4 — The Way Out",
-              "date": "2024-08-16",
-              "link": "https://infrequently.org/2024/08/the-way-out/"
-            },
-            {
-              "title": "Reckoning: Part 3 — Caprock",
-              "date": "2024-08-14",
-              "link": "https://infrequently.org/2024/08/caprock/"
-            },
-            {
-              "title": "Reckoning: Part 2 — Object Lesson",
-              "date": "2024-08-13",
-              "link": "https://infrequently.org/2024/08/object-lesson/"
-            }
-          ]
-        },
-        {
           "title": "More Questions Than Answers",
           "feedUrl": "https://unremarkabletester.com/feed/",
           "items": [
@@ -2395,47 +2395,17 @@
               "link": "https://blog.ferrata.dev/weaponize-your-imposter-syndrome/"
             }
           ]
-        },
-        {
-          "title": "Alexis King’s Blog",
-          "feedUrl": "https://lexi-lambda.github.io/feeds/all.atom.xml",
-          "items": [
-            {
-              "title": "An introduction to typeclass metaprogramming",
-              "date": "2021-03-25",
-              "link": "https://lexi-lambda.github.io/blog/2021/03/25/an-introduction-to-typeclass-metaprogramming/"
-            },
-            {
-              "title": "Names are not type safety",
-              "date": "2020-11-01",
-              "link": "https://lexi-lambda.github.io/blog/2020/11/01/names-are-not-type-safety/"
-            },
-            {
-              "title": "Types as axioms, or: playing god with static types",
-              "date": "2020-08-13",
-              "link": "https://lexi-lambda.github.io/blog/2020/08/13/types-as-axioms-or-playing-god-with-static-types/"
-            },
-            {
-              "title": "No, dynamic type systems are not inherently more open",
-              "date": "2020-01-19",
-              "link": "https://lexi-lambda.github.io/blog/2020/01/19/no-dynamic-type-systems-are-not-inherently-more-open/"
-            },
-            {
-              "title": "Parse, don’t validate",
-              "date": "2019-11-05",
-              "link": "https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/"
-            }
-          ]
         }
       ]
     }
   ],
-  "fetchDate": "2025-05-29T03:42:54.574Z",
+  "fetchDate": "2025-05-30T03:41:19.517Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
+    "https://dubroy.com/blog/rss.xml",
     "https://einarwh.wordpress.com/feed/",
-    "https://dubroy.com/blog/rss.xml"
+    "https://infrequently.org/feed/"
   ]
 }

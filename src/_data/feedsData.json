@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Ensloppification",
+              "date": "2025-05-30",
+              "link": "https://dbushell.com/2025/05/30/ensloppification/"
+            },
+            {
+              "title": "::pseudo-elements?",
+              "date": "2025-05-23",
+              "link": "https://dbushell.com/2025/05/23/pseudo-elements/"
+            },
+            {
+              "title": "Search with Zig, Wasm, and a Worker ⚡",
+              "date": "2025-05-18",
+              "link": "https://dbushell.com/2025/05/18/search-with-zig-wasm-worker/"
+            },
+            {
+              "title": "Slopaganda",
+              "date": "2025-05-15",
+              "link": "https://dbushell.com/2025/05/15/slopaganda/"
+            },
+            {
+              "title": "The Static Site Churns!",
+              "date": "2025-05-11",
+              "link": "https://dbushell.com/2025/05/11/the-static-site-churns/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "How to build a Share This button using HTML Web Components and JavaScript",
+              "date": "2025-05-30",
+              "link": "https://gomakethings.com/how-to-build-a-share-this-button-using-html-web-components-and-javascript/"
+            },
+            {
+              "title": "More myself online",
+              "date": "2025-05-29",
+              "link": "https://gomakethings.com/more-myself-online/"
+            },
+            {
+              "title": "How to build a copy-to-clipboard HTML Web Component",
+              "date": "2025-05-28",
+              "link": "https://gomakethings.com/how-to-build-a-copy-to-clipboard-html-web-component/"
+            },
+            {
+              "title": "How to copy stuff to a user's clipboard with vanilla JavaScript",
+              "date": "2025-05-27",
+              "link": "https://gomakethings.com/how-to-copy-stuff-to-a-users-clipboard-with-vanilla-javascript/"
+            },
+            {
+              "title": "Work styles and ADHD",
+              "date": "2025-05-23",
+              "link": "https://gomakethings.com/work-styles-and-adhd/"
+            }
+          ]
+        },
+        {
+          "title": "HeydonWorks",
+          "feedUrl": "https://heydonworks.com/feed.xml",
+          "items": [
+            {
+              "title": "Advertising? On my blog?",
+              "date": "2025-05-30",
+              "link": "https://heydonworks.com/article/advertising-on-this-blog/"
+            },
+            {
+              "title": "The col element",
+              "date": "2025-05-29",
+              "link": "https://heydonworks.com/article/the-col-element/"
+            },
+            {
+              "title": "The caption element",
+              "date": "2025-05-20",
+              "link": "https://heydonworks.com/article/the-caption-element/"
+            },
+            {
+              "title": "The code element",
+              "date": "2025-05-05",
+              "link": "https://heydonworks.com/article/the-code-element/"
+            },
+            {
+              "title": "The cite element",
+              "date": "2025-04-30",
+              "link": "https://heydonworks.com/article/the-cite-element/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-05-30",
+              "link": "https://dbushell.com/notes/2025-05-30T14:12Z/"
+            },
+            {
+              "date": "2025-05-25",
+              "link": "https://dbushell.com/notes/2025-05-25T13:29Z/"
+            },
+            {
+              "date": "2025-05-24",
+              "link": "https://dbushell.com/notes/2025-05-24T07:21Z/"
+            },
+            {
+              "date": "2025-05-23",
+              "link": "https://dbushell.com/notes/2025-05-23T11:34Z/"
+            },
+            {
+              "date": "2025-05-22",
+              "link": "https://dbushell.com/notes/2025-05-22T13:49Z/"
+            }
+          ]
+        },
+        {
           "title": "Alexis King’s Blog",
           "feedUrl": "https://lexi-lambda.github.io/feeds/all.atom.xml",
           "items": [
@@ -31,68 +150,6 @@
               "title": "No, dynamic type systems are not inherently more open",
               "date": "2020-01-19",
               "link": "https://lexi-lambda.github.io/blog/2020/01/19/no-dynamic-type-systems-are-not-inherently-more-open/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "More myself online",
-              "date": "2025-05-29",
-              "link": "https://gomakethings.com/more-myself-online/"
-            },
-            {
-              "title": "How to build a copy-to-clipboard HTML Web Component",
-              "date": "2025-05-28",
-              "link": "https://gomakethings.com/how-to-build-a-copy-to-clipboard-html-web-component/"
-            },
-            {
-              "title": "How to copy stuff to a user's clipboard with vanilla JavaScript",
-              "date": "2025-05-27",
-              "link": "https://gomakethings.com/how-to-copy-stuff-to-a-users-clipboard-with-vanilla-javascript/"
-            },
-            {
-              "title": "Work styles and ADHD",
-              "date": "2025-05-23",
-              "link": "https://gomakethings.com/work-styles-and-adhd/"
-            },
-            {
-              "title": "The magic developer wand...",
-              "date": "2025-05-22",
-              "link": "https://gomakethings.com/the-magic-developer-wand.../"
-            }
-          ]
-        },
-        {
-          "title": "HeydonWorks",
-          "feedUrl": "https://heydonworks.com/feed.xml",
-          "items": [
-            {
-              "title": "The col element",
-              "date": "2025-05-29",
-              "link": "https://heydonworks.com/article/the-col-element/"
-            },
-            {
-              "title": "The caption element",
-              "date": "2025-05-20",
-              "link": "https://heydonworks.com/article/the-caption-element/"
-            },
-            {
-              "title": "The code element",
-              "date": "2025-05-05",
-              "link": "https://heydonworks.com/article/the-code-element/"
-            },
-            {
-              "title": "The cite element",
-              "date": "2025-04-30",
-              "link": "https://heydonworks.com/article/the-cite-element/"
-            },
-            {
-              "title": "The canvas element",
-              "date": "2025-04-28",
-              "link": "https://heydonworks.com/article/the-canvas-element/"
             }
           ]
         },
@@ -252,32 +309,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-05-25",
-              "link": "https://dbushell.com/notes/2025-05-25T13:29Z/"
-            },
-            {
-              "date": "2025-05-24",
-              "link": "https://dbushell.com/notes/2025-05-24T07:21Z/"
-            },
-            {
-              "date": "2025-05-23",
-              "link": "https://dbushell.com/notes/2025-05-23T11:34Z/"
-            },
-            {
-              "date": "2025-05-22",
-              "link": "https://dbushell.com/notes/2025-05-22T13:49Z/"
-            },
-            {
-              "date": "2025-05-21",
-              "link": "https://dbushell.com/notes/2025-05-21T15:57Z/"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -336,37 +367,6 @@
               "title": "Media",
               "date": "2025-04-30",
               "link": "https://frills.dev/curios/media/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "::pseudo-elements?",
-              "date": "2025-05-23",
-              "link": "https://dbushell.com/2025/05/23/pseudo-elements/"
-            },
-            {
-              "title": "Search with Zig, Wasm, and a Worker ⚡",
-              "date": "2025-05-18",
-              "link": "https://dbushell.com/2025/05/18/search-with-zig-wasm-worker/"
-            },
-            {
-              "title": "Slopaganda",
-              "date": "2025-05-15",
-              "link": "https://dbushell.com/2025/05/15/slopaganda/"
-            },
-            {
-              "title": "The Static Site Churns!",
-              "date": "2025-05-11",
-              "link": "https://dbushell.com/2025/05/11/the-static-site-churns/"
-            },
-            {
-              "title": "Glossary Web Component",
-              "date": "2025-05-07",
-              "link": "https://dbushell.com/2025/05/07/glossary-web-component/"
             }
           ]
         },
@@ -557,37 +557,6 @@
           ]
         },
         {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Hva er WebAssembly?",
-              "date": "2025-05-20",
-              "link": "https://www.kodemaker.no/blogg/2025-05-20-hva-er-webassembly/"
-            },
-            {
-              "title": "Hva har LEGO-bygging til felles med Discriminated Unions?",
-              "date": "2025-05-12",
-              "link": "https://www.kodemaker.no/blogg/2025-05-12-discriminated-unions-and-lego/"
-            },
-            {
-              "title": "Deklarative kart med maplibre",
-              "date": "2025-05-07",
-              "link": "https://www.kodemaker.no/blogg/2025-05-07-deklarative-kart-maplibre-gl/"
-            },
-            {
-              "title": "Roten til alt vondt i produktutvikling",
-              "date": "2025-04-16",
-              "link": "https://www.kodemaker.no/blogg/2025-04-roten-til-alt-vondt-i-produktutvikling/"
-            },
-            {
-              "title": "AI-assistert Utvikling",
-              "date": "2025-04-09",
-              "link": "https://www.kodemaker.no/blogg/2025-04-09-ai-assistert-utvikling/"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -615,6 +584,37 @@
               "title": "Versioning versus Coordination",
               "date": "2025-02-04",
               "link": "http://brooker.co.za/blog/2025/02/04/versioning.html"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "Hva er WebAssembly?",
+              "date": "2025-05-20",
+              "link": "https://www.kodemaker.no/blogg/2025-05-20-hva-er-webassembly/"
+            },
+            {
+              "title": "Hva har LEGO-bygging til felles med Discriminated Unions?",
+              "date": "2025-05-12",
+              "link": "https://www.kodemaker.no/blogg/2025-05-12-discriminated-unions-and-lego/"
+            },
+            {
+              "title": "Deklarative kart med maplibre",
+              "date": "2025-05-07",
+              "link": "https://www.kodemaker.no/blogg/2025-05-07-deklarative-kart-maplibre-gl/"
+            },
+            {
+              "title": "Roten til alt vondt i produktutvikling",
+              "date": "2025-04-16",
+              "link": "https://www.kodemaker.no/blogg/2025-04-roten-til-alt-vondt-i-produktutvikling/"
+            },
+            {
+              "title": "AI-assistert Utvikling",
+              "date": "2025-04-09",
+              "link": "https://www.kodemaker.no/blogg/2025-04-09-ai-assistert-utvikling/"
             }
           ]
         },
@@ -1518,6 +1518,37 @@
           ]
         },
         {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "Reflections on writing a book",
+              "date": "2025-03-24",
+              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
+            },
+            {
+              "title": "Make it happen",
+              "date": "2025-02-11",
+              "link": "https://dubroy.com/blog/make-it-happen/"
+            },
+            {
+              "title": "Five coding hats",
+              "date": "2025-02-03",
+              "link": "https://dubroy.com/blog/five-coding-hats/"
+            },
+            {
+              "title": "One way to do applied research",
+              "date": "2024-11-07",
+              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
+            },
+            {
+              "title": "Memories of some fantastic internships",
+              "date": "2024-07-31",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
+            }
+          ]
+        },
+        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -1973,6 +2004,37 @@
           ]
         },
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "If Not React, Then What?",
+              "date": "2024-11-29",
+              "link": "https://infrequently.org/2024/11/if-not-react-then-what/"
+            },
+            {
+              "title": "Platform Strategy and Its Discontents",
+              "date": "2024-10-27",
+              "link": "https://infrequently.org/2024/10/platforms-are-competitions/"
+            },
+            {
+              "title": "Reckoning: Part 4 — The Way Out",
+              "date": "2024-08-16",
+              "link": "https://infrequently.org/2024/08/the-way-out/"
+            },
+            {
+              "title": "Reckoning: Part 3 — Caprock",
+              "date": "2024-08-14",
+              "link": "https://infrequently.org/2024/08/caprock/"
+            },
+            {
+              "title": "Reckoning: Part 2 — Object Lesson",
+              "date": "2024-08-13",
+              "link": "https://infrequently.org/2024/08/object-lesson/"
+            }
+          ]
+        },
+        {
           "title": "More Questions Than Answers",
           "feedUrl": "https://unremarkabletester.com/feed/",
           "items": [
@@ -2399,13 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-30T03:41:19.517Z",
+  "fetchDate": "2025-05-31T03:39:26.169Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://dubroy.com/blog/rss.xml",
-    "https://einarwh.wordpress.com/feed/",
-    "https://infrequently.org/feed/"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

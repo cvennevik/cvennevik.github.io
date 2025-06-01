@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "0053: consulting, go tips, benchmark_mode, niri, linkrot, sea of nos, llm outsourcing, books",
+              "date": "2025-05-31",
+              "link": "https://www.scattered-thoughts.net/log/0053/"
+            },
+            {
+              "title": "A rough survey of compilation, recompilation, and compile-time evaluation",
+              "date": "2025-04-04",
+              "link": "https://www.scattered-thoughts.net/writing/a-rough-survey-of-compilation-recompilation-and-compile-time-evaluation/"
+            },
+            {
+              "title": "0052: hytradboi videos and post-mortem, zest repo, no internet, on social media, my product is my garden, datafusion and clickhouse jits, books",
+              "date": "2025-03-14",
+              "link": "https://www.scattered-thoughts.net/log/0052/"
+            },
+            {
+              "title": "HYTRADBOI 2025 postmortem",
+              "date": "2025-03-03",
+              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-postmortem/"
+            },
+            {
+              "title": "Other kinds of talks",
+              "date": "2025-02-24",
+              "link": "https://www.scattered-thoughts.net/writing/other-kinds-of-talks/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -491,37 +522,6 @@
               "title": "Weaknote 2024-07-25 (a tab amnesty)",
               "date": "2024-07-25",
               "link": "https://sarajoy.dev/blog/notes/20240725/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "The End of Everything",
-              "date": "2025-05-21",
-              "link": "https://robinrendle.com/notes/the-end-of-everything/"
-            },
-            {
-              "title": "item-flow",
-              "date": "2025-03-30",
-              "link": "https://robinrendle.com/notes/item-flow/"
-            },
-            {
-              "title": "Humiliation",
-              "date": "2025-03-15",
-              "link": "https://robinrendle.com/notes/humiliation/"
-            },
-            {
-              "title": "Abandon all keyboards",
-              "date": "2025-03-11",
-              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
-            },
-            {
-              "title": "trot",
-              "date": "2025-02-15",
-              "link": "https://robinrendle.com/notes/trot/"
             }
           ]
         },
@@ -1390,37 +1390,6 @@
               "title": "Notes - Myths and Legends About Big Tech",
               "date": "2025-04-05",
               "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-myths-and-legends-about-big-tech-kai-hansen.html"
-            }
-          ]
-        },
-        {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "A rough survey of compilation, recompilation, and compile-time evaluation",
-              "date": "2025-04-04",
-              "link": "https://www.scattered-thoughts.net/writing/a-rough-survey-of-compilation-recompilation-and-compile-time-evaluation/"
-            },
-            {
-              "title": "0052: hytradboi videos and post-mortem, zest repo, no internet, on social media, my product is my garden, datafusion and clickhouse jits, books",
-              "date": "2025-03-14",
-              "link": "https://www.scattered-thoughts.net/log/0052/"
-            },
-            {
-              "title": "HYTRADBOI 2025 postmortem",
-              "date": "2025-03-03",
-              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-postmortem/"
-            },
-            {
-              "title": "Other kinds of talks",
-              "date": "2025-02-24",
-              "link": "https://www.scattered-thoughts.net/writing/other-kinds-of-talks/"
-            },
-            {
-              "title": "0051: hytradboi program and tickets, query compilers, decorrelation encore, books, misc",
-              "date": "2025-02-13",
-              "link": "https://www.scattered-thoughts.net/log/0051/"
             }
           ]
         },
@@ -2461,8 +2430,9 @@
       ]
     }
   ],
-  "fetchDate": "2025-05-31T03:39:26.169Z",
+  "fetchDate": "2025-06-01T03:57:15.615Z",
   "errors": [
+    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

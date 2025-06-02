@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Baseless",
+              "date": "2025-06-01",
+              "link": "https://dbushell.com/2025/06/01/baseless/"
+            },
+            {
+              "title": "Ensloppification",
+              "date": "2025-05-30",
+              "link": "https://dbushell.com/2025/05/30/ensloppification/"
+            },
+            {
+              "title": "::pseudo-elements?",
+              "date": "2025-05-23",
+              "link": "https://dbushell.com/2025/05/23/pseudo-elements/"
+            },
+            {
+              "title": "Search with Zig, Wasm, and a Worker ⚡",
+              "date": "2025-05-18",
+              "link": "https://dbushell.com/2025/05/18/search-with-zig-wasm-worker/"
+            },
+            {
+              "title": "Slopaganda",
+              "date": "2025-05-15",
+              "link": "https://dbushell.com/2025/05/15/slopaganda/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-06-01",
+              "link": "https://dbushell.com/notes/2025-06-01T15:53Z/"
+            },
+            {
+              "date": "2025-06-01",
+              "link": "https://dbushell.com/notes/2025-06-01T06:25Z/"
+            },
+            {
+              "date": "2025-05-30",
+              "link": "https://dbushell.com/notes/2025-05-30T14:12Z/"
+            },
+            {
+              "date": "2025-05-25",
+              "link": "https://dbushell.com/notes/2025-05-25T13:29Z/"
+            },
+            {
+              "date": "2025-05-24",
+              "link": "https://dbushell.com/notes/2025-05-24T07:21Z/"
+            }
+          ]
+        },
+        {
           "title": "Scattered Thoughts",
           "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
@@ -31,37 +88,6 @@
               "title": "Other kinds of talks",
               "date": "2025-02-24",
               "link": "https://www.scattered-thoughts.net/writing/other-kinds-of-talks/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Ensloppification",
-              "date": "2025-05-30",
-              "link": "https://dbushell.com/2025/05/30/ensloppification/"
-            },
-            {
-              "title": "::pseudo-elements?",
-              "date": "2025-05-23",
-              "link": "https://dbushell.com/2025/05/23/pseudo-elements/"
-            },
-            {
-              "title": "Search with Zig, Wasm, and a Worker ⚡",
-              "date": "2025-05-18",
-              "link": "https://dbushell.com/2025/05/18/search-with-zig-wasm-worker/"
-            },
-            {
-              "title": "Slopaganda",
-              "date": "2025-05-15",
-              "link": "https://dbushell.com/2025/05/15/slopaganda/"
-            },
-            {
-              "title": "The Static Site Churns!",
-              "date": "2025-05-11",
-              "link": "https://dbushell.com/2025/05/11/the-static-site-churns/"
             }
           ]
         },
@@ -124,32 +150,6 @@
               "title": "The cite element",
               "date": "2025-04-30",
               "link": "https://heydonworks.com/article/the-cite-element/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-05-30",
-              "link": "https://dbushell.com/notes/2025-05-30T14:12Z/"
-            },
-            {
-              "date": "2025-05-25",
-              "link": "https://dbushell.com/notes/2025-05-25T13:29Z/"
-            },
-            {
-              "date": "2025-05-24",
-              "link": "https://dbushell.com/notes/2025-05-24T07:21Z/"
-            },
-            {
-              "date": "2025-05-23",
-              "link": "https://dbushell.com/notes/2025-05-23T11:34Z/"
-            },
-            {
-              "date": "2025-05-22",
-              "link": "https://dbushell.com/notes/2025-05-22T13:49Z/"
             }
           ]
         },
@@ -522,6 +522,37 @@
               "title": "Weaknote 2024-07-25 (a tab amnesty)",
               "date": "2024-07-25",
               "link": "https://sarajoy.dev/blog/notes/20240725/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "The End of Everything",
+              "date": "2025-05-21",
+              "link": "https://robinrendle.com/notes/the-end-of-everything/"
+            },
+            {
+              "title": "item-flow",
+              "date": "2025-03-30",
+              "link": "https://robinrendle.com/notes/item-flow/"
+            },
+            {
+              "title": "Humiliation",
+              "date": "2025-03-15",
+              "link": "https://robinrendle.com/notes/humiliation/"
+            },
+            {
+              "title": "Abandon all keyboards",
+              "date": "2025-03-11",
+              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
+            },
+            {
+              "title": "trot",
+              "date": "2025-02-15",
+              "link": "https://robinrendle.com/notes/trot/"
             }
           ]
         },
@@ -2430,9 +2461,8 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-01T03:57:15.615Z",
+  "fetchDate": "2025-06-02T03:50:13.969Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

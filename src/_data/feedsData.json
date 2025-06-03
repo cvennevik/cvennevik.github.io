@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Why we hate AI",
+              "date": "2025-06-02",
+              "link": "https://gomakethings.com/why-we-hate-ai/"
+            },
+            {
+              "title": "How to build a Share This button using HTML Web Components and JavaScript",
+              "date": "2025-05-30",
+              "link": "https://gomakethings.com/how-to-build-a-share-this-button-using-html-web-components-and-javascript/"
+            },
+            {
+              "title": "More myself online",
+              "date": "2025-05-29",
+              "link": "https://gomakethings.com/more-myself-online/"
+            },
+            {
+              "title": "How to build a copy-to-clipboard HTML Web Component",
+              "date": "2025-05-28",
+              "link": "https://gomakethings.com/how-to-build-a-copy-to-clipboard-html-web-component/"
+            },
+            {
+              "title": "How to copy stuff to a user's clipboard with vanilla JavaScript",
+              "date": "2025-05-27",
+              "link": "https://gomakethings.com/how-to-copy-stuff-to-a-users-clipboard-with-vanilla-javascript/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Is It JavaScript?",
+              "date": "2025-06-02",
+              "link": "https://blog.jim-nielsen.com/2025/is-it-javascript/"
+            },
+            {
+              "title": "Tradeoffs to Continuous Software?",
+              "date": "2025-05-28",
+              "link": "https://blog.jim-nielsen.com/2025/tradeoffs-to-continuous-software/"
+            },
+            {
+              "title": "Could I Have Some More Friction in My Life, Please?",
+              "date": "2025-05-25",
+              "link": "https://blog.jim-nielsen.com/2025/more-friction-please/"
+            },
+            {
+              "title": "Webkit’s New Color Picker as an Example of Good Platform Defaults",
+              "date": "2025-05-23",
+              "link": "https://blog.jim-nielsen.com/2025/better-platform-defaults-color-picker/"
+            },
+            {
+              "title": "Product Pseudoscience",
+              "date": "2025-05-20",
+              "link": "https://blog.jim-nielsen.com/2025/product-pseudoscience/"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Systems Fun at HotOS",
+              "date": "2025-06-02",
+              "link": "http://brooker.co.za/blog/2025/06/02/hotos.html"
+            },
+            {
+              "title": "Good Performance for Bad Days",
+              "date": "2025-05-20",
+              "link": "http://brooker.co.za/blog/2025/05/20/icpe.html"
+            },
+            {
+              "title": "Decomposing Aurora DSQL",
+              "date": "2025-04-17",
+              "link": "http://brooker.co.za/blog/2025/04/17/decomposing.html"
+            },
+            {
+              "title": "One or Two? How Many Queues?",
+              "date": "2025-03-25",
+              "link": "http://brooker.co.za/blog/2025/03/25/two-queues.html"
+            },
+            {
+              "title": "What Fekete's Anomaly Can Teach Us About Isolation",
+              "date": "2025-02-05",
+              "link": "http://brooker.co.za/blog/2025/02/05/feketes.html"
+            }
+          ]
+        },
+        {
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
+          "items": [
+            {
+              "title": "When Life Was Loud",
+              "date": "2025-06-02",
+              "link": "https://mikegrindle.com/posts/outsider"
+            },
+            {
+              "title": "The Unintentional Renegades of Outsider Music",
+              "date": "2025-04-24",
+              "link": "https://mikegrindle.com/posts/outsider"
+            },
+            {
+              "title": "Love, Creeps and Creatures: Buffy Season 2",
+              "date": "2025-04-03",
+              "link": "https://mikegrindle.com/posts/buffy-2"
+            },
+            {
+              "title": "The Evil Things I've Done",
+              "date": "2025-03-26",
+              "link": "https://mikegrindle.com/posts/evil"
+            },
+            {
+              "title": "Returning to Sunnydale",
+              "date": "2024-12-04",
+              "link": "https://mikegrindle.com/posts/snow"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -61,6 +185,37 @@
           ]
         },
         {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Monthly Recap: May 2025",
+              "date": "2025-06-01",
+              "link": "https://flamedfury.com/posts/monthly-recap-may-2025/"
+            },
+            {
+              "title": "Video Guides",
+              "date": "2025-04-15",
+              "link": "https://flamedfury.com/posts/video-guides/"
+            },
+            {
+              "title": "Monthly Recap: March 2025",
+              "date": "2025-04-08",
+              "link": "https://flamedfury.com/posts/monthly-recap-march-2025/"
+            },
+            {
+              "title": "Golf Shot",
+              "date": "2025-03-29",
+              "link": "https://flamedfury.com/posts/golf-shot/"
+            },
+            {
+              "title": "Golf Lessons",
+              "date": "2025-03-25",
+              "link": "https://flamedfury.com/posts/golf-lessons/"
+            }
+          ]
+        },
+        {
           "title": "Scattered Thoughts",
           "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
@@ -88,37 +243,6 @@
               "title": "Other kinds of talks",
               "date": "2025-02-24",
               "link": "https://www.scattered-thoughts.net/writing/other-kinds-of-talks/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "How to build a Share This button using HTML Web Components and JavaScript",
-              "date": "2025-05-30",
-              "link": "https://gomakethings.com/how-to-build-a-share-this-button-using-html-web-components-and-javascript/"
-            },
-            {
-              "title": "More myself online",
-              "date": "2025-05-29",
-              "link": "https://gomakethings.com/more-myself-online/"
-            },
-            {
-              "title": "How to build a copy-to-clipboard HTML Web Component",
-              "date": "2025-05-28",
-              "link": "https://gomakethings.com/how-to-build-a-copy-to-clipboard-html-web-component/"
-            },
-            {
-              "title": "How to copy stuff to a user's clipboard with vanilla JavaScript",
-              "date": "2025-05-27",
-              "link": "https://gomakethings.com/how-to-copy-stuff-to-a-users-clipboard-with-vanilla-javascript/"
-            },
-            {
-              "title": "Work styles and ADHD",
-              "date": "2025-05-23",
-              "link": "https://gomakethings.com/work-styles-and-adhd/"
             }
           ]
         },
@@ -243,37 +367,6 @@
               "title": "April 2025 blend of links",
               "date": "2025-04-28",
               "link": "https://thejollyteapot.com/april-2025-blend/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Tradeoffs to Continuous Software?",
-              "date": "2025-05-28",
-              "link": "https://blog.jim-nielsen.com/2025/tradeoffs-to-continuous-software/"
-            },
-            {
-              "title": "Could I Have Some More Friction in My Life, Please?",
-              "date": "2025-05-25",
-              "link": "https://blog.jim-nielsen.com/2025/more-friction-please/"
-            },
-            {
-              "title": "Webkit’s New Color Picker as an Example of Good Platform Defaults",
-              "date": "2025-05-23",
-              "link": "https://blog.jim-nielsen.com/2025/better-platform-defaults-color-picker/"
-            },
-            {
-              "title": "Product Pseudoscience",
-              "date": "2025-05-20",
-              "link": "https://blog.jim-nielsen.com/2025/product-pseudoscience/"
-            },
-            {
-              "title": "Multiple Computers",
-              "date": "2025-05-18",
-              "link": "https://blog.jim-nielsen.com/2025/multiple-computers/"
             }
           ]
         },
@@ -584,37 +677,6 @@
               "title": "The problem with moving phones from copper to fiber: power",
               "date": "2014-08-15",
               "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Good Performance for Bad Days",
-              "date": "2025-05-20",
-              "link": "http://brooker.co.za/blog/2025/05/20/icpe.html"
-            },
-            {
-              "title": "Decomposing Aurora DSQL",
-              "date": "2025-04-17",
-              "link": "http://brooker.co.za/blog/2025/04/17/decomposing.html"
-            },
-            {
-              "title": "One or Two? How Many Queues?",
-              "date": "2025-03-25",
-              "link": "http://brooker.co.za/blog/2025/03/25/two-queues.html"
-            },
-            {
-              "title": "What Fekete's Anomaly Can Teach Us About Isolation",
-              "date": "2025-02-05",
-              "link": "http://brooker.co.za/blog/2025/02/05/feketes.html"
-            },
-            {
-              "title": "Versioning versus Coordination",
-              "date": "2025-02-04",
-              "link": "http://brooker.co.za/blog/2025/02/04/versioning.html"
             }
           ]
         },
@@ -1208,37 +1270,6 @@
           ]
         },
         {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
-          "items": [
-            {
-              "title": "The Unintentional Renegades of Outsider Music",
-              "date": "2025-04-24",
-              "link": "https://mikegrindle.com/posts/outsider"
-            },
-            {
-              "title": "Love, Creeps and Creatures: Buffy Season 2",
-              "date": "2025-04-03",
-              "link": "https://mikegrindle.com/posts/buffy-2"
-            },
-            {
-              "title": "The Evil Things I've Done",
-              "date": "2025-03-26",
-              "link": "https://mikegrindle.com/posts/evil"
-            },
-            {
-              "title": "Returning to Sunnydale",
-              "date": "2024-12-04",
-              "link": "https://mikegrindle.com/posts/snow"
-            },
-            {
-              "title": "Snow Days",
-              "date": "2024-12-02",
-              "link": "https://mikegrindle.com/posts/snow"
-            }
-          ]
-        },
-        {
           "title": "Coding Is Like Cooking",
           "feedUrl": "https://coding-is-like-cooking.info/feed/",
           "items": [
@@ -1363,37 +1394,6 @@
           ]
         },
         {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Video Guides",
-              "date": "2025-04-15",
-              "link": "https://flamedfury.com/posts/video-guides/"
-            },
-            {
-              "title": "Monthly Recap: March 2025",
-              "date": "2025-04-08",
-              "link": "https://flamedfury.com/posts/monthly-recap-march-2025/"
-            },
-            {
-              "title": "Golf Shot",
-              "date": "2025-03-29",
-              "link": "https://flamedfury.com/posts/golf-shot/"
-            },
-            {
-              "title": "Golf Lessons",
-              "date": "2025-03-25",
-              "link": "https://flamedfury.com/posts/golf-lessons/"
-            },
-            {
-              "title": "The Magic Of Writing It Down",
-              "date": "2025-03-24",
-              "link": "https://flamedfury.com/posts/the-magic-of-writing-it-down/"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -1514,37 +1514,6 @@
               "title": "Free variables",
               "date": "2025-03-26",
               "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
-            }
-          ]
-        },
-        {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Reflections on writing a book",
-              "date": "2025-03-24",
-              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
-            },
-            {
-              "title": "Make it happen",
-              "date": "2025-02-11",
-              "link": "https://dubroy.com/blog/make-it-happen/"
-            },
-            {
-              "title": "Five coding hats",
-              "date": "2025-02-03",
-              "link": "https://dubroy.com/blog/five-coding-hats/"
-            },
-            {
-              "title": "One way to do applied research",
-              "date": "2024-11-07",
-              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
-            },
-            {
-              "title": "Memories of some fantastic internships",
-              "date": "2024-07-31",
-              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
             }
           ]
         },
@@ -2004,37 +1973,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "If Not React, Then What?",
-              "date": "2024-11-29",
-              "link": "https://infrequently.org/2024/11/if-not-react-then-what/"
-            },
-            {
-              "title": "Platform Strategy and Its Discontents",
-              "date": "2024-10-27",
-              "link": "https://infrequently.org/2024/10/platforms-are-competitions/"
-            },
-            {
-              "title": "Reckoning: Part 4 — The Way Out",
-              "date": "2024-08-16",
-              "link": "https://infrequently.org/2024/08/the-way-out/"
-            },
-            {
-              "title": "Reckoning: Part 3 — Caprock",
-              "date": "2024-08-14",
-              "link": "https://infrequently.org/2024/08/caprock/"
-            },
-            {
-              "title": "Reckoning: Part 2 — Object Lesson",
-              "date": "2024-08-13",
-              "link": "https://infrequently.org/2024/08/object-lesson/"
-            }
-          ]
-        },
-        {
           "title": "More Questions Than Answers",
           "feedUrl": "https://unremarkabletester.com/feed/",
           "items": [
@@ -2461,11 +2399,13 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-02T03:50:13.969Z",
+  "fetchDate": "2025-06-03T03:44:21.902Z",
   "errors": [
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://dubroy.com/blog/rss.xml"
   ]
 }

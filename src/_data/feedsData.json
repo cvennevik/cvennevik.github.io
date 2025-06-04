@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "Gradient borders with CSS",
+              "date": "2025-06-03",
+              "link": "https://gomakethings.com/gradient-borders-with-css/"
+            },
+            {
               "title": "Why we hate AI",
               "date": "2025-06-02",
               "link": "https://gomakethings.com/why-we-hate-ai/"
@@ -26,11 +31,37 @@
               "title": "How to build a copy-to-clipboard HTML Web Component",
               "date": "2025-05-28",
               "link": "https://gomakethings.com/how-to-build-a-copy-to-clipboard-html-web-component/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Things Jesus taught",
+              "date": "2025-06-03",
+              "link": "https://anniemueller.com/posts/things-jesus-taught"
             },
             {
-              "title": "How to copy stuff to a user's clipboard with vanilla JavaScript",
-              "date": "2025-05-27",
-              "link": "https://gomakethings.com/how-to-copy-stuff-to-a-users-clipboard-with-vanilla-javascript/"
+              "title": "When you can’t decide",
+              "date": "2025-05-28",
+              "link": "https://anniemueller.com/posts/when-you-cant-decide"
+            },
+            {
+              "title": "These are my kids",
+              "date": "2025-05-17",
+              "link": "https://anniemueller.com/posts/these-are-my-kids"
+            },
+            {
+              "title": "Reading notes: April 2025",
+              "date": "2025-05-12",
+              "link": "https://anniemueller.com/posts/reading-notes-april-2025"
+            },
+            {
+              "title": "A neutral stance is for weightlifting, not for human rights",
+              "date": "2025-05-11",
+              "link": "https://anniemueller.com/posts/a-neutral-stance-is-for-weightlifting-not-for-human-rights"
             }
           ]
         },
@@ -371,37 +402,6 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "When you can’t decide",
-              "date": "2025-05-28",
-              "link": "https://anniemueller.com/posts/when-you-cant-decide"
-            },
-            {
-              "title": "These are my kids",
-              "date": "2025-05-17",
-              "link": "https://anniemueller.com/posts/these-are-my-kids"
-            },
-            {
-              "title": "Reading notes: April 2025",
-              "date": "2025-05-12",
-              "link": "https://anniemueller.com/posts/reading-notes-april-2025"
-            },
-            {
-              "title": "A neutral stance is for weightlifting, not for human rights",
-              "date": "2025-05-11",
-              "link": "https://anniemueller.com/posts/a-neutral-stance-is-for-weightlifting-not-for-human-rights"
-            },
-            {
-              "title": "Before the next beginning",
-              "date": "2025-04-30",
-              "link": "https://anniemueller.com/posts/before-the-next-beginning"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -495,37 +495,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "My Request to Google on Accessibility",
-              "date": "2025-05-22",
-              "link": "https://adrianroselli.com/2025/05/my-request-to-google-on-accessibility.html"
-            },
-            {
-              "title": "Talkin’ Tables @ AccessU",
-              "date": "2025-05-14",
-              "link": "https://adrianroselli.com/2025/05/talkin-tables-accessu.html"
-            },
-            {
-              "title": "Selfish Accessibility 2025 @ AccessU",
-              "date": "2025-05-13",
-              "link": "https://adrianroselli.com/2025/05/selfish-accessibility-2025-accessu.html"
-            },
-            {
-              "title": "Do Not Publish Your Designs on the Web with Figma Sites…",
-              "date": "2025-05-07",
-              "link": "https://adrianroselli.com/2025/05/do-not-publish-your-designs-on-the-web-with-figma-sites.html"
-            },
-            {
-              "title": "Automated WCAG Testing Is Grrreat!",
-              "date": "2025-04-10",
-              "link": "https://adrianroselli.com/2025/04/automated-wcag-testing-is-grrreat.html"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -615,6 +584,37 @@
               "title": "Weaknote 2024-07-25 (a tab amnesty)",
               "date": "2024-07-25",
               "link": "https://sarajoy.dev/blog/notes/20240725/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "My Request to Google on Accessibility",
+              "date": "2025-05-22",
+              "link": "https://adrianroselli.com/2025/05/my-request-to-google-on-accessibility.html"
+            },
+            {
+              "title": "Talkin’ Tables @ AccessU",
+              "date": "2025-05-14",
+              "link": "https://adrianroselli.com/2025/05/talkin-tables-accessu.html"
+            },
+            {
+              "title": "Selfish Accessibility 2025 @ AccessU",
+              "date": "2025-05-13",
+              "link": "https://adrianroselli.com/2025/05/selfish-accessibility-2025-accessu.html"
+            },
+            {
+              "title": "Do Not Publish Your Designs on the Web with Figma Sites…",
+              "date": "2025-05-07",
+              "link": "https://adrianroselli.com/2025/05/do-not-publish-your-designs-on-the-web-with-figma-sites.html"
+            },
+            {
+              "title": "Automated WCAG Testing Is Grrreat!",
+              "date": "2025-04-10",
+              "link": "https://adrianroselli.com/2025/04/automated-wcag-testing-is-grrreat.html"
             }
           ]
         },
@@ -1518,6 +1518,37 @@
           ]
         },
         {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "Reflections on writing a book",
+              "date": "2025-03-24",
+              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
+            },
+            {
+              "title": "Make it happen",
+              "date": "2025-02-11",
+              "link": "https://dubroy.com/blog/make-it-happen/"
+            },
+            {
+              "title": "Five coding hats",
+              "date": "2025-02-03",
+              "link": "https://dubroy.com/blog/five-coding-hats/"
+            },
+            {
+              "title": "One way to do applied research",
+              "date": "2024-11-07",
+              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
+            },
+            {
+              "title": "Memories of some fantastic internships",
+              "date": "2024-07-31",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
+            }
+          ]
+        },
+        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -1973,6 +2004,37 @@
           ]
         },
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "If Not React, Then What?",
+              "date": "2024-11-29",
+              "link": "https://infrequently.org/2024/11/if-not-react-then-what/"
+            },
+            {
+              "title": "Platform Strategy and Its Discontents",
+              "date": "2024-10-27",
+              "link": "https://infrequently.org/2024/10/platforms-are-competitions/"
+            },
+            {
+              "title": "Reckoning: Part 4 — The Way Out",
+              "date": "2024-08-16",
+              "link": "https://infrequently.org/2024/08/the-way-out/"
+            },
+            {
+              "title": "Reckoning: Part 3 — Caprock",
+              "date": "2024-08-14",
+              "link": "https://infrequently.org/2024/08/caprock/"
+            },
+            {
+              "title": "Reckoning: Part 2 — Object Lesson",
+              "date": "2024-08-13",
+              "link": "https://infrequently.org/2024/08/object-lesson/"
+            }
+          ]
+        },
+        {
           "title": "More Questions Than Answers",
           "feedUrl": "https://unremarkabletester.com/feed/",
           "items": [
@@ -2399,13 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-03T03:44:21.902Z",
+  "fetchDate": "2025-06-04T03:45:17.288Z",
   "errors": [
-    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/",
-    "https://dubroy.com/blog/rss.xml"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

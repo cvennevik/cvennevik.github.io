@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "HTML-native accordions",
+              "date": "2025-06-05",
+              "link": "https://gomakethings.com/html-native-accordions/"
+            },
+            {
+              "title": "How to show content on specific dates in Hugo",
+              "date": "2025-06-04",
+              "link": "https://gomakethings.com/how-to-show-content-on-specific-dates-in-hugo/"
+            },
+            {
+              "title": "Gradient borders with CSS",
+              "date": "2025-06-03",
+              "link": "https://gomakethings.com/gradient-borders-with-css/"
+            },
+            {
+              "title": "Why we hate AI",
+              "date": "2025-06-02",
+              "link": "https://gomakethings.com/why-we-hate-ai/"
+            },
+            {
+              "title": "How to build a Share This button using HTML Web Components and JavaScript",
+              "date": "2025-05-30",
+              "link": "https://gomakethings.com/how-to-build-a-share-this-button-using-html-web-components-and-javascript/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-06-05",
+              "link": "https://dbushell.com/notes/2025-06-05T06:52Z/"
+            },
+            {
+              "date": "2025-06-04",
+              "link": "https://dbushell.com/notes/2025-06-04T09:05Z/"
+            },
+            {
+              "date": "2025-06-01",
+              "link": "https://dbushell.com/notes/2025-06-01T15:53Z/"
+            },
+            {
+              "date": "2025-06-01",
+              "link": "https://dbushell.com/notes/2025-06-01T06:25Z/"
+            },
+            {
+              "date": "2025-05-30",
+              "link": "https://dbushell.com/notes/2025-05-30T14:12Z/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "AI is a gamechanger for TLA+ users",
+              "date": "2025-06-05",
+              "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/"
+            },
+            {
+              "title": "What does \"Undecidable\" mean, anyway",
+              "date": "2025-05-28",
+              "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/"
+            },
+            {
+              "title": "Finding hard 24 puzzles with planner programming",
+              "date": "2025-05-20",
+              "link": "https://buttondown.com/hillelwayne/archive/finding-hard-24-puzzles-with-planner-programming/"
+            },
+            {
+              "title": "Modeling Awkward Social Situations with TLA+",
+              "date": "2025-05-14",
+              "link": "https://buttondown.com/hillelwayne/archive/modeling-awkward-social-situations-with-tla/"
+            },
+            {
+              "title": "Write the most clever code you possibly can",
+              "date": "2025-05-08",
+              "link": "https://buttondown.com/hillelwayne/archive/write-the-most-clever-code-you-possibly-can/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -31,63 +119,6 @@
               "title": "Webkit’s New Color Picker as an Example of Good Platform Defaults",
               "date": "2025-05-23",
               "link": "https://blog.jim-nielsen.com/2025/better-platform-defaults-color-picker/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "How to show content on specific dates in Hugo",
-              "date": "2025-06-04",
-              "link": "https://gomakethings.com/how-to-show-content-on-specific-dates-in-hugo/"
-            },
-            {
-              "title": "Gradient borders with CSS",
-              "date": "2025-06-03",
-              "link": "https://gomakethings.com/gradient-borders-with-css/"
-            },
-            {
-              "title": "Why we hate AI",
-              "date": "2025-06-02",
-              "link": "https://gomakethings.com/why-we-hate-ai/"
-            },
-            {
-              "title": "How to build a Share This button using HTML Web Components and JavaScript",
-              "date": "2025-05-30",
-              "link": "https://gomakethings.com/how-to-build-a-share-this-button-using-html-web-components-and-javascript/"
-            },
-            {
-              "title": "More myself online",
-              "date": "2025-05-29",
-              "link": "https://gomakethings.com/more-myself-online/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-06-04",
-              "link": "https://dbushell.com/notes/2025-06-04T09:05Z/"
-            },
-            {
-              "date": "2025-06-01",
-              "link": "https://dbushell.com/notes/2025-06-01T15:53Z/"
-            },
-            {
-              "date": "2025-06-01",
-              "link": "https://dbushell.com/notes/2025-06-01T06:25Z/"
-            },
-            {
-              "date": "2025-05-30",
-              "link": "https://dbushell.com/notes/2025-05-30T14:12Z/"
-            },
-            {
-              "date": "2025-05-25",
-              "link": "https://dbushell.com/notes/2025-05-25T13:29Z/"
             }
           ]
         },
@@ -398,37 +429,6 @@
               "title": "April 2025 blend of links",
               "date": "2025-04-28",
               "link": "https://thejollyteapot.com/april-2025-blend/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "What does \"Undecidable\" mean, anyway",
-              "date": "2025-05-28",
-              "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/"
-            },
-            {
-              "title": "Finding hard 24 puzzles with planner programming",
-              "date": "2025-05-20",
-              "link": "https://buttondown.com/hillelwayne/archive/finding-hard-24-puzzles-with-planner-programming/"
-            },
-            {
-              "title": "Modeling Awkward Social Situations with TLA+",
-              "date": "2025-05-14",
-              "link": "https://buttondown.com/hillelwayne/archive/modeling-awkward-social-situations-with-tla/"
-            },
-            {
-              "title": "Write the most clever code you possibly can",
-              "date": "2025-05-08",
-              "link": "https://buttondown.com/hillelwayne/archive/write-the-most-clever-code-you-possibly-can/"
-            },
-            {
-              "title": "Requirements change until they don't",
-              "date": "2025-04-24",
-              "link": "https://buttondown.com/hillelwayne/archive/requirements-change-until-they-dont/"
             }
           ]
         },
@@ -1518,6 +1518,37 @@
           ]
         },
         {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "Reflections on writing a book",
+              "date": "2025-03-24",
+              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
+            },
+            {
+              "title": "Make it happen",
+              "date": "2025-02-11",
+              "link": "https://dubroy.com/blog/make-it-happen/"
+            },
+            {
+              "title": "Five coding hats",
+              "date": "2025-02-03",
+              "link": "https://dubroy.com/blog/five-coding-hats/"
+            },
+            {
+              "title": "One way to do applied research",
+              "date": "2024-11-07",
+              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
+            },
+            {
+              "title": "Memories of some fantastic internships",
+              "date": "2024-07-31",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
+            }
+          ]
+        },
+        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -2430,12 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-05T03:45:38.280Z",
+  "fetchDate": "2025-06-06T03:44:23.169Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://dubroy.com/blog/rss.xml",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

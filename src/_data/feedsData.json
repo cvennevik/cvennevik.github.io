@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Weighing Souls with Anubis at Home",
+              "date": "2025-06-07",
+              "link": "https://dbushell.com/2025/06/07/weighing-souls-with-anubis-at-home/"
+            },
+            {
+              "title": "Baseless",
+              "date": "2025-06-01",
+              "link": "https://dbushell.com/2025/06/01/baseless/"
+            },
+            {
+              "title": "Ensloppification",
+              "date": "2025-05-30",
+              "link": "https://dbushell.com/2025/05/30/ensloppification/"
+            },
+            {
+              "title": "::pseudo-elements?",
+              "date": "2025-05-23",
+              "link": "https://dbushell.com/2025/05/23/pseudo-elements/"
+            },
+            {
+              "title": "Search with Zig, Wasm, and a Worker ⚡",
+              "date": "2025-05-18",
+              "link": "https://dbushell.com/2025/05/18/search-with-zig-wasm-worker/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Some Miscellaneous Thoughts on Visual Design Prodded By The Sameness of AI Company Logos",
+              "date": "2025-06-06",
+              "link": "https://blog.jim-nielsen.com/2025/visual-design-homogeneity-at-scale/"
+            },
+            {
+              "title": "Notes from Andreas Fredriksson’s “Context is Everything”",
+              "date": "2025-06-04",
+              "link": "https://blog.jim-nielsen.com/2025/notes-context-is-everything/"
+            },
+            {
+              "title": "Is It JavaScript?",
+              "date": "2025-06-02",
+              "link": "https://blog.jim-nielsen.com/2025/is-it-javascript/"
+            },
+            {
+              "title": "Tradeoffs to Continuous Software?",
+              "date": "2025-05-28",
+              "link": "https://blog.jim-nielsen.com/2025/tradeoffs-to-continuous-software/"
+            },
+            {
+              "title": "Could I Have Some More Friction in My Life, Please?",
+              "date": "2025-05-25",
+              "link": "https://blog.jim-nielsen.com/2025/more-friction-please/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "A Web Component for transforming headings into an accordion",
+              "date": "2025-06-06",
+              "link": "https://gomakethings.com/a-web-component-for-transforming-headings-into-an-accordion/"
+            },
             {
               "title": "HTML-native accordions",
               "date": "2025-06-05",
@@ -26,11 +93,68 @@
               "title": "Why we hate AI",
               "date": "2025-06-02",
               "link": "https://gomakethings.com/why-we-hate-ai/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Where to Put Focus When Opening a Modal Dialog",
+              "date": "2025-06-06",
+              "link": "https://adrianroselli.com/2025/06/where-to-put-focus-when-opening-a-modal-dialog.html"
             },
             {
-              "title": "How to build a Share This button using HTML Web Components and JavaScript",
-              "date": "2025-05-30",
-              "link": "https://gomakethings.com/how-to-build-a-share-this-button-using-html-web-components-and-javascript/"
+              "title": "My Request to Google on Accessibility",
+              "date": "2025-05-22",
+              "link": "https://adrianroselli.com/2025/05/my-request-to-google-on-accessibility.html"
+            },
+            {
+              "title": "Talkin’ Tables @ AccessU",
+              "date": "2025-05-14",
+              "link": "https://adrianroselli.com/2025/05/talkin-tables-accessu.html"
+            },
+            {
+              "title": "Selfish Accessibility 2025 @ AccessU",
+              "date": "2025-05-13",
+              "link": "https://adrianroselli.com/2025/05/selfish-accessibility-2025-accessu.html"
+            },
+            {
+              "title": "Do Not Publish Your Designs on the Web with Figma Sites…",
+              "date": "2025-05-07",
+              "link": "https://adrianroselli.com/2025/05/do-not-publish-your-designs-on-the-web-with-figma-sites.html"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2025-06-06",
+              "link": "https://macwright.com/2025/06/06/recently.html"
+            },
+            {
+              "title": "Making a custom porteur bag",
+              "date": "2025-05-18",
+              "link": "https://macwright.com/2025/05/18/sewing.html"
+            },
+            {
+              "title": "Reading Zanzibar",
+              "date": "2025-05-02",
+              "link": "https://macwright.com/2025/05/02/reading-zanzibar.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-05-01",
+              "link": "https://macwright.com/2025/05/01/recently.html"
+            },
+            {
+              "title": "Tidbyt without the company",
+              "date": "2025-04-12",
+              "link": "https://macwright.com/2025/04/12/tidbyt-second-life.html"
             }
           ]
         },
@@ -38,6 +162,10 @@
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2025-06-06",
+              "link": "https://dbushell.com/notes/2025-06-06T15:05Z/"
+            },
             {
               "date": "2025-06-05",
               "link": "https://dbushell.com/notes/2025-06-05T06:52Z/"
@@ -53,10 +181,37 @@
             {
               "date": "2025-06-01",
               "link": "https://dbushell.com/notes/2025-06-01T06:25Z/"
+            }
+          ]
+        },
+        {
+          "title": "Mike Grindle's Blog",
+          "feedUrl": "https://mikegrindle.com/feed.xml",
+          "items": [
+            {
+              "title": "Eee! PC",
+              "date": "2025-06-06",
+              "link": "https://mikegrindle.com/posts/eee"
             },
             {
-              "date": "2025-05-30",
-              "link": "https://dbushell.com/notes/2025-05-30T14:12Z/"
+              "title": "When Life Was Loud",
+              "date": "2025-06-02",
+              "link": "https://mikegrindle.com/posts/outsider"
+            },
+            {
+              "title": "The Unintentional Renegades of Outsider Music",
+              "date": "2025-04-24",
+              "link": "https://mikegrindle.com/posts/outsider"
+            },
+            {
+              "title": "Love, Creeps and Creatures: Buffy Season 2",
+              "date": "2025-04-03",
+              "link": "https://mikegrindle.com/posts/buffy-2"
+            },
+            {
+              "title": "The Evil Things I've Done",
+              "date": "2025-03-26",
+              "link": "https://mikegrindle.com/posts/evil"
             }
           ]
         },
@@ -88,37 +243,6 @@
               "title": "Write the most clever code you possibly can",
               "date": "2025-05-08",
               "link": "https://buttondown.com/hillelwayne/archive/write-the-most-clever-code-you-possibly-can/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Notes from Andreas Fredriksson’s “Context is Everything”",
-              "date": "2025-06-04",
-              "link": "https://blog.jim-nielsen.com/2025/notes-context-is-everything/"
-            },
-            {
-              "title": "Is It JavaScript?",
-              "date": "2025-06-02",
-              "link": "https://blog.jim-nielsen.com/2025/is-it-javascript/"
-            },
-            {
-              "title": "Tradeoffs to Continuous Software?",
-              "date": "2025-05-28",
-              "link": "https://blog.jim-nielsen.com/2025/tradeoffs-to-continuous-software/"
-            },
-            {
-              "title": "Could I Have Some More Friction in My Life, Please?",
-              "date": "2025-05-25",
-              "link": "https://blog.jim-nielsen.com/2025/more-friction-please/"
-            },
-            {
-              "title": "Webkit’s New Color Picker as an Example of Good Platform Defaults",
-              "date": "2025-05-23",
-              "link": "https://blog.jim-nielsen.com/2025/better-platform-defaults-color-picker/"
             }
           ]
         },
@@ -181,68 +305,6 @@
               "title": "What Fekete's Anomaly Can Teach Us About Isolation",
               "date": "2025-02-05",
               "link": "http://brooker.co.za/blog/2025/02/05/feketes.html"
-            }
-          ]
-        },
-        {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
-          "items": [
-            {
-              "title": "When Life Was Loud",
-              "date": "2025-06-02",
-              "link": "https://mikegrindle.com/posts/outsider"
-            },
-            {
-              "title": "The Unintentional Renegades of Outsider Music",
-              "date": "2025-04-24",
-              "link": "https://mikegrindle.com/posts/outsider"
-            },
-            {
-              "title": "Love, Creeps and Creatures: Buffy Season 2",
-              "date": "2025-04-03",
-              "link": "https://mikegrindle.com/posts/buffy-2"
-            },
-            {
-              "title": "The Evil Things I've Done",
-              "date": "2025-03-26",
-              "link": "https://mikegrindle.com/posts/evil"
-            },
-            {
-              "title": "Returning to Sunnydale",
-              "date": "2024-12-04",
-              "link": "https://mikegrindle.com/posts/snow"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Baseless",
-              "date": "2025-06-01",
-              "link": "https://dbushell.com/2025/06/01/baseless/"
-            },
-            {
-              "title": "Ensloppification",
-              "date": "2025-05-30",
-              "link": "https://dbushell.com/2025/05/30/ensloppification/"
-            },
-            {
-              "title": "::pseudo-elements?",
-              "date": "2025-05-23",
-              "link": "https://dbushell.com/2025/05/23/pseudo-elements/"
-            },
-            {
-              "title": "Search with Zig, Wasm, and a Worker ⚡",
-              "date": "2025-05-18",
-              "link": "https://dbushell.com/2025/05/18/search-with-zig-wasm-worker/"
-            },
-            {
-              "title": "Slopaganda",
-              "date": "2025-05-15",
-              "link": "https://dbushell.com/2025/05/15/slopaganda/"
             }
           ]
         },
@@ -495,37 +557,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "My Request to Google on Accessibility",
-              "date": "2025-05-22",
-              "link": "https://adrianroselli.com/2025/05/my-request-to-google-on-accessibility.html"
-            },
-            {
-              "title": "Talkin’ Tables @ AccessU",
-              "date": "2025-05-14",
-              "link": "https://adrianroselli.com/2025/05/talkin-tables-accessu.html"
-            },
-            {
-              "title": "Selfish Accessibility 2025 @ AccessU",
-              "date": "2025-05-13",
-              "link": "https://adrianroselli.com/2025/05/selfish-accessibility-2025-accessu.html"
-            },
-            {
-              "title": "Do Not Publish Your Designs on the Web with Figma Sites…",
-              "date": "2025-05-07",
-              "link": "https://adrianroselli.com/2025/05/do-not-publish-your-designs-on-the-web-with-figma-sites.html"
-            },
-            {
-              "title": "Automated WCAG Testing Is Grrreat!",
-              "date": "2025-04-10",
-              "link": "https://adrianroselli.com/2025/04/automated-wcag-testing-is-grrreat.html"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -615,37 +646,6 @@
               "title": "Weaknote 2024-07-25 (a tab amnesty)",
               "date": "2024-07-25",
               "link": "https://sarajoy.dev/blog/notes/20240725/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "The End of Everything",
-              "date": "2025-05-21",
-              "link": "https://robinrendle.com/notes/the-end-of-everything/"
-            },
-            {
-              "title": "item-flow",
-              "date": "2025-03-30",
-              "link": "https://robinrendle.com/notes/item-flow/"
-            },
-            {
-              "title": "Humiliation",
-              "date": "2025-03-15",
-              "link": "https://robinrendle.com/notes/humiliation/"
-            },
-            {
-              "title": "Abandon all keyboards",
-              "date": "2025-03-11",
-              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
-            },
-            {
-              "title": "trot",
-              "date": "2025-02-15",
-              "link": "https://robinrendle.com/notes/trot/"
             }
           ]
         },
@@ -770,37 +770,6 @@
               "title": "The world is terrible and great",
               "date": "2025-01-21",
               "link": "https://jessitron.com/2025/01/20/the-world-is-terrible-and-great/"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Making a custom porteur bag",
-              "date": "2025-05-18",
-              "link": "https://macwright.com/2025/05/18/sewing.html"
-            },
-            {
-              "title": "Reading Zanzibar",
-              "date": "2025-05-02",
-              "link": "https://macwright.com/2025/05/02/reading-zanzibar.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-05-01",
-              "link": "https://macwright.com/2025/05/01/recently.html"
-            },
-            {
-              "title": "Tidbyt without the company",
-              "date": "2025-04-12",
-              "link": "https://macwright.com/2025/04/12/tidbyt-second-life.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-04-07",
-              "link": "https://macwright.com/2025/04/07/recently.html"
             }
           ]
         },
@@ -2461,11 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-06T03:44:23.169Z",
+  "fetchDate": "2025-06-07T03:43:05.626Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://robinrendle.com/feed.xml"
   ]
 }

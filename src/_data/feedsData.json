@@ -35,6 +35,63 @@
           ]
         },
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Ants and anarchy",
+              "date": "2025-06-07",
+              "link": "https://gomakethings.com/ants-and-anarchy/"
+            },
+            {
+              "title": "A Web Component for transforming headings into an accordion",
+              "date": "2025-06-06",
+              "link": "https://gomakethings.com/a-web-component-for-transforming-headings-into-an-accordion/"
+            },
+            {
+              "title": "HTML-native accordions",
+              "date": "2025-06-05",
+              "link": "https://gomakethings.com/html-native-accordions/"
+            },
+            {
+              "title": "How to show content on specific dates in Hugo",
+              "date": "2025-06-04",
+              "link": "https://gomakethings.com/how-to-show-content-on-specific-dates-in-hugo/"
+            },
+            {
+              "title": "Gradient borders with CSS",
+              "date": "2025-06-03",
+              "link": "https://gomakethings.com/gradient-borders-with-css/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-06-07",
+              "link": "https://dbushell.com/notes/2025-06-07T12:08Z/"
+            },
+            {
+              "date": "2025-06-07",
+              "link": "https://dbushell.com/notes/2025-06-07T07:01Z/"
+            },
+            {
+              "date": "2025-06-07",
+              "link": "https://dbushell.com/notes/2025-06-07T05:41Z/"
+            },
+            {
+              "date": "2025-06-06",
+              "link": "https://dbushell.com/notes/2025-06-06T15:05Z/"
+            },
+            {
+              "date": "2025-06-05",
+              "link": "https://dbushell.com/notes/2025-06-05T06:52Z/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -62,37 +119,6 @@
               "title": "Could I Have Some More Friction in My Life, Please?",
               "date": "2025-05-25",
               "link": "https://blog.jim-nielsen.com/2025/more-friction-please/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "A Web Component for transforming headings into an accordion",
-              "date": "2025-06-06",
-              "link": "https://gomakethings.com/a-web-component-for-transforming-headings-into-an-accordion/"
-            },
-            {
-              "title": "HTML-native accordions",
-              "date": "2025-06-05",
-              "link": "https://gomakethings.com/html-native-accordions/"
-            },
-            {
-              "title": "How to show content on specific dates in Hugo",
-              "date": "2025-06-04",
-              "link": "https://gomakethings.com/how-to-show-content-on-specific-dates-in-hugo/"
-            },
-            {
-              "title": "Gradient borders with CSS",
-              "date": "2025-06-03",
-              "link": "https://gomakethings.com/gradient-borders-with-css/"
-            },
-            {
-              "title": "Why we hate AI",
-              "date": "2025-06-02",
-              "link": "https://gomakethings.com/why-we-hate-ai/"
             }
           ]
         },
@@ -155,32 +181,6 @@
               "title": "Tidbyt without the company",
               "date": "2025-04-12",
               "link": "https://macwright.com/2025/04/12/tidbyt-second-life.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-06-06",
-              "link": "https://dbushell.com/notes/2025-06-06T15:05Z/"
-            },
-            {
-              "date": "2025-06-05",
-              "link": "https://dbushell.com/notes/2025-06-05T06:52Z/"
-            },
-            {
-              "date": "2025-06-04",
-              "link": "https://dbushell.com/notes/2025-06-04T09:05Z/"
-            },
-            {
-              "date": "2025-06-01",
-              "link": "https://dbushell.com/notes/2025-06-01T15:53Z/"
-            },
-            {
-              "date": "2025-06-01",
-              "link": "https://dbushell.com/notes/2025-06-01T06:25Z/"
             }
           ]
         },
@@ -646,6 +646,37 @@
               "title": "Weaknote 2024-07-25 (a tab amnesty)",
               "date": "2024-07-25",
               "link": "https://sarajoy.dev/blog/notes/20240725/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "The End of Everything",
+              "date": "2025-05-21",
+              "link": "https://robinrendle.com/notes/the-end-of-everything/"
+            },
+            {
+              "title": "item-flow",
+              "date": "2025-03-30",
+              "link": "https://robinrendle.com/notes/item-flow/"
+            },
+            {
+              "title": "Humiliation",
+              "date": "2025-03-15",
+              "link": "https://robinrendle.com/notes/humiliation/"
+            },
+            {
+              "title": "Abandon all keyboards",
+              "date": "2025-03-11",
+              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
+            },
+            {
+              "title": "trot",
+              "date": "2025-02-15",
+              "link": "https://robinrendle.com/notes/trot/"
             }
           ]
         },
@@ -1483,37 +1514,6 @@
               "title": "Free variables",
               "date": "2025-03-26",
               "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
-            }
-          ]
-        },
-        {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Reflections on writing a book",
-              "date": "2025-03-24",
-              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
-            },
-            {
-              "title": "Make it happen",
-              "date": "2025-02-11",
-              "link": "https://dubroy.com/blog/make-it-happen/"
-            },
-            {
-              "title": "Five coding hats",
-              "date": "2025-02-03",
-              "link": "https://dubroy.com/blog/five-coding-hats/"
-            },
-            {
-              "title": "One way to do applied research",
-              "date": "2024-11-07",
-              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
-            },
-            {
-              "title": "Memories of some fantastic internships",
-              "date": "2024-07-31",
-              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
             }
           ]
         },
@@ -2430,12 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-07T03:43:05.626Z",
+  "fetchDate": "2025-06-08T03:51:18.550Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://einarwh.wordpress.com/feed/",
-    "https://robinrendle.com/feed.xml"
+    "https://dubroy.com/blog/rss.xml"
   ]
 }

@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "On How Long it Takes to Know if a Job is Right for You or Not",
+              "date": "2025-06-08",
+              "link": "https://charity.wtf/2025/06/08/on-how-long-it-takes-to-know-if-a-job-is-right-for-you-or-not/"
+            },
+            {
+              "title": "On Pronouns, Policies and Mandates",
+              "date": "2025-05-02",
+              "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
+            },
+            {
+              "title": "On Dropouts and Bootstraps",
+              "date": "2025-04-28",
+              "link": "https://charity.wtf/2025/04/28/on-dropouts-and-bootstraps/"
+            },
+            {
+              "title": "On Writing, Social Media, and Finding the Line of Embarrassment",
+              "date": "2025-04-19",
+              "link": "https://charity.wtf/2025/04/19/on-writing-social-media-and-finding-the-line-of-embarrassment/"
+            },
+            {
+              "title": "Another observability 3.0 appears on the horizon",
+              "date": "2025-03-24",
+              "link": "https://charity.wtf/2025/03/24/another-observability-3-0-appears-on-the-horizon/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Rules, not rulers",
+              "date": "2025-06-08",
+              "link": "https://gomakethings.com/rules-not-rulers/"
+            },
+            {
+              "title": "Ants and anarchy",
+              "date": "2025-06-07",
+              "link": "https://gomakethings.com/ants-and-anarchy/"
+            },
+            {
+              "title": "A Web Component for transforming headings into an accordion",
+              "date": "2025-06-06",
+              "link": "https://gomakethings.com/a-web-component-for-transforming-headings-into-an-accordion/"
+            },
+            {
+              "title": "HTML-native accordions",
+              "date": "2025-06-05",
+              "link": "https://gomakethings.com/html-native-accordions/"
+            },
+            {
+              "title": "How to show content on specific dates in Hugo",
+              "date": "2025-06-04",
+              "link": "https://gomakethings.com/how-to-show-content-on-specific-dates-in-hugo/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,37 +93,6 @@
               "title": "Search with Zig, Wasm, and a Worker ⚡",
               "date": "2025-05-18",
               "link": "https://dbushell.com/2025/05/18/search-with-zig-wasm-worker/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Ants and anarchy",
-              "date": "2025-06-07",
-              "link": "https://gomakethings.com/ants-and-anarchy/"
-            },
-            {
-              "title": "A Web Component for transforming headings into an accordion",
-              "date": "2025-06-06",
-              "link": "https://gomakethings.com/a-web-component-for-transforming-headings-into-an-accordion/"
-            },
-            {
-              "title": "HTML-native accordions",
-              "date": "2025-06-05",
-              "link": "https://gomakethings.com/html-native-accordions/"
-            },
-            {
-              "title": "How to show content on specific dates in Hugo",
-              "date": "2025-06-04",
-              "link": "https://gomakethings.com/how-to-show-content-on-specific-dates-in-hugo/"
-            },
-            {
-              "title": "Gradient borders with CSS",
-              "date": "2025-06-03",
-              "link": "https://gomakethings.com/gradient-borders-with-css/"
             }
           ]
         },
@@ -1208,37 +1239,6 @@
           ]
         },
         {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "On Pronouns, Policies and Mandates",
-              "date": "2025-05-02",
-              "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
-            },
-            {
-              "title": "On Dropouts and Bootstraps",
-              "date": "2025-04-28",
-              "link": "https://charity.wtf/2025/04/28/on-dropouts-and-bootstraps/"
-            },
-            {
-              "title": "On Writing, Social Media, and Finding the Line of Embarrassment",
-              "date": "2025-04-19",
-              "link": "https://charity.wtf/2025/04/19/on-writing-social-media-and-finding-the-line-of-embarrassment/"
-            },
-            {
-              "title": "Another observability 3.0 appears on the horizon",
-              "date": "2025-03-24",
-              "link": "https://charity.wtf/2025/03/24/another-observability-3-0-appears-on-the-horizon/"
-            },
-            {
-              "title": "Corporate “DEI” is an imperfect vehicle for deeply meaningful ideals",
-              "date": "2025-02-10",
-              "link": "https://charity.wtf/2025/02/10/corporate-dei-is-an-imperfect-vehicle-for-deeply-meaningful-ideals/"
-            }
-          ]
-        },
-        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -1514,6 +1514,37 @@
               "title": "Free variables",
               "date": "2025-03-26",
               "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
+            }
+          ]
+        },
+        {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "Reflections on writing a book",
+              "date": "2025-03-24",
+              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
+            },
+            {
+              "title": "Make it happen",
+              "date": "2025-02-11",
+              "link": "https://dubroy.com/blog/make-it-happen/"
+            },
+            {
+              "title": "Five coding hats",
+              "date": "2025-02-03",
+              "link": "https://dubroy.com/blog/five-coding-hats/"
+            },
+            {
+              "title": "One way to do applied research",
+              "date": "2024-11-07",
+              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
+            },
+            {
+              "title": "Memories of some fantastic internships",
+              "date": "2024-07-31",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
             }
           ]
         },
@@ -2430,12 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-08T03:51:18.550Z",
+  "fetchDate": "2025-06-09T03:50:14.902Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/",
-    "https://dubroy.com/blog/rss.xml"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

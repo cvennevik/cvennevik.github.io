@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Trusting your own judgement on 'AI' is a huge risk",
+              "date": "2025-06-09",
+              "link": "https://www.baldurbjarnason.com/2025/trusting-your-own-judgement-on-ai/"
+            },
+            {
+              "title": "Fowl photos!",
+              "date": "2025-05-16",
+              "link": "https://www.baldurbjarnason.com/notes/photos/fowl-photos/"
+            },
+            {
+              "title": "Foggy feeds: the decline in my feed reader subscriptions",
+              "date": "2025-05-16",
+              "link": "https://www.baldurbjarnason.com/notes/2025/foggy-feeds/"
+            },
+            {
+              "title": "Innovation and adopting innovations requires trusted and functioning institutions. The US and Europe have neither",
+              "date": "2025-04-24",
+              "link": "https://www.baldurbjarnason.com/2025/innovation-trust/"
+            },
+            {
+              "title": "An aside on proposed anti-trust remedies against Google",
+              "date": "2025-04-15",
+              "link": "https://www.baldurbjarnason.com/notes/2025/aside-on-anti-trust-remedies/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "4 common layouts made easy with modern CSS",
+              "date": "2025-06-09",
+              "link": "https://gomakethings.com/4-common-layouts-made-easy-with-modern-css/"
+            },
+            {
+              "title": "Rules, not rulers",
+              "date": "2025-06-08",
+              "link": "https://gomakethings.com/rules-not-rulers/"
+            },
+            {
+              "title": "Ants and anarchy",
+              "date": "2025-06-07",
+              "link": "https://gomakethings.com/ants-and-anarchy/"
+            },
+            {
+              "title": "A Web Component for transforming headings into an accordion",
+              "date": "2025-06-06",
+              "link": "https://gomakethings.com/a-web-component-for-transforming-headings-into-an-accordion/"
+            },
+            {
+              "title": "HTML-native accordions",
+              "date": "2025-06-05",
+              "link": "https://gomakethings.com/html-native-accordions/"
+            }
+          ]
+        },
+        {
+          "title": "apenwarr",
+          "feedUrl": "https://apenwarr.ca/log/rss.php",
+          "items": [
+            {
+              "title": "\n      The evasive evitability of enshittification\n    ",
+              "date": "2025-06-09",
+              "link": "https://apenwarr.ca/log/20250530"
+            },
+            {
+              "title": "\n      NPS, the good parts\n    ",
+              "date": "2023-12-05",
+              "link": "https://apenwarr.ca/log/20231204"
+            },
+            {
+              "title": "\n      Interesting\n    ",
+              "date": "2023-10-06",
+              "link": "https://apenwarr.ca/log/20231006"
+            },
+            {
+              "title": "\n      Tech debt metaphor maximalism\n    ",
+              "date": "2023-07-11",
+              "link": "https://apenwarr.ca/log/20230605"
+            },
+            {
+              "title": "\n      Systems design 2: What we hope we know\n    ",
+              "date": "2023-07-11",
+              "link": "https://apenwarr.ca/log/20230415"
+            }
+          ]
+        },
+        {
+          "title": "HeydonWorks",
+          "feedUrl": "https://heydonworks.com/feed.xml",
+          "items": [
+            {
+              "title": "Pride, shame, and accessibility",
+              "date": "2025-06-09",
+              "link": "https://heydonworks.com/article/pride-shame-and-accessibility/"
+            },
+            {
+              "title": "Skune: A hand drawn variable font",
+              "date": "2025-06-09",
+              "link": "https://heydonworks.com/article/skune-hand-drawn-variable-font/"
+            },
+            {
+              "title": "Advertising? On my blog?",
+              "date": "2025-05-30",
+              "link": "https://heydonworks.com/article/advertising-on-this-blog/"
+            },
+            {
+              "title": "The col element",
+              "date": "2025-05-29",
+              "link": "https://heydonworks.com/article/the-col-element/"
+            },
+            {
+              "title": "The caption element",
+              "date": "2025-05-20",
+              "link": "https://heydonworks.com/article/the-caption-element/"
+            }
+          ]
+        },
+        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -31,37 +155,6 @@
               "title": "Another observability 3.0 appears on the horizon",
               "date": "2025-03-24",
               "link": "https://charity.wtf/2025/03/24/another-observability-3-0-appears-on-the-horizon/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Rules, not rulers",
-              "date": "2025-06-08",
-              "link": "https://gomakethings.com/rules-not-rulers/"
-            },
-            {
-              "title": "Ants and anarchy",
-              "date": "2025-06-07",
-              "link": "https://gomakethings.com/ants-and-anarchy/"
-            },
-            {
-              "title": "A Web Component for transforming headings into an accordion",
-              "date": "2025-06-06",
-              "link": "https://gomakethings.com/a-web-component-for-transforming-headings-into-an-accordion/"
-            },
-            {
-              "title": "HTML-native accordions",
-              "date": "2025-06-05",
-              "link": "https://gomakethings.com/html-native-accordions/"
-            },
-            {
-              "title": "How to show content on specific dates in Hugo",
-              "date": "2025-06-04",
-              "link": "https://gomakethings.com/how-to-show-content-on-specific-dates-in-hugo/"
             }
           ]
         },
@@ -227,7 +320,7 @@
             {
               "title": "When Life Was Loud",
               "date": "2025-06-02",
-              "link": "https://mikegrindle.com/posts/outsider"
+              "link": "https://mikegrindle.com/posts/loud"
             },
             {
               "title": "The Unintentional Renegades of Outsider Music",
@@ -398,37 +491,6 @@
               "title": "Other kinds of talks",
               "date": "2025-02-24",
               "link": "https://www.scattered-thoughts.net/writing/other-kinds-of-talks/"
-            }
-          ]
-        },
-        {
-          "title": "HeydonWorks",
-          "feedUrl": "https://heydonworks.com/feed.xml",
-          "items": [
-            {
-              "title": "Advertising? On my blog?",
-              "date": "2025-05-30",
-              "link": "https://heydonworks.com/article/advertising-on-this-blog/"
-            },
-            {
-              "title": "The col element",
-              "date": "2025-05-29",
-              "link": "https://heydonworks.com/article/the-col-element/"
-            },
-            {
-              "title": "The caption element",
-              "date": "2025-05-20",
-              "link": "https://heydonworks.com/article/the-caption-element/"
-            },
-            {
-              "title": "The code element",
-              "date": "2025-05-05",
-              "link": "https://heydonworks.com/article/the-code-element/"
-            },
-            {
-              "title": "The cite element",
-              "date": "2025-04-30",
-              "link": "https://heydonworks.com/article/the-cite-element/"
             }
           ]
         },
@@ -832,37 +894,6 @@
               "title": "The world is terrible and great",
               "date": "2025-01-21",
               "link": "https://jessitron.com/2025/01/20/the-world-is-terrible-and-great/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Fowl photos!",
-              "date": "2025-05-16",
-              "link": "https://www.baldurbjarnason.com/notes/photos/fowl-photos/"
-            },
-            {
-              "title": "Foggy feeds: the decline in my feed reader subscriptions",
-              "date": "2025-05-16",
-              "link": "https://www.baldurbjarnason.com/notes/2025/foggy-feeds/"
-            },
-            {
-              "title": "Innovation and adopting innovations requires trusted and functioning institutions. The US and Europe have neither",
-              "date": "2025-04-24",
-              "link": "https://www.baldurbjarnason.com/2025/innovation-trust/"
-            },
-            {
-              "title": "An aside on proposed anti-trust remedies against Google",
-              "date": "2025-04-15",
-              "link": "https://www.baldurbjarnason.com/notes/2025/aside-on-anti-trust-remedies/"
-            },
-            {
-              "title": "We're in for a rough ride as an industry",
-              "date": "2025-04-15",
-              "link": "https://www.baldurbjarnason.com/notes/2025/we-are-in-for-a-rough-ride/"
             }
           ]
         },
@@ -2366,37 +2397,6 @@
           ]
         },
         {
-          "title": "apenwarr",
-          "feedUrl": "https://apenwarr.ca/log/rss.php",
-          "items": [
-            {
-              "title": "\n      NPS, the good parts\n    ",
-              "date": "2023-12-05",
-              "link": "https://apenwarr.ca/log/20231204"
-            },
-            {
-              "title": "\n      Interesting\n    ",
-              "date": "2023-10-06",
-              "link": "https://apenwarr.ca/log/20231006"
-            },
-            {
-              "title": "\n      Tech debt metaphor maximalism\n    ",
-              "date": "2023-07-11",
-              "link": "https://apenwarr.ca/log/20230605"
-            },
-            {
-              "title": "\n      Systems design 2: What we hope we know\n    ",
-              "date": "2023-07-11",
-              "link": "https://apenwarr.ca/log/20230415"
-            },
-            {
-              "title": "\n      The Gift of It's Your Problem Now\n    ",
-              "date": "2022-01-01",
-              "link": "https://apenwarr.ca/log/20211229"
-            }
-          ]
-        },
-        {
           "title": "Hello world",
           "feedUrl": "https://qristin.wordpress.com/feed/",
           "items": [
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-09T03:50:14.902Z",
+  "fetchDate": "2025-06-10T03:46:14.780Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

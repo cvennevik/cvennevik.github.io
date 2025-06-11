@@ -4,6 +4,249 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
+              "date": "2025-06-10",
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
+            },
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+            },
+            {
+              "title": "Some terminal frustrations",
+              "date": "2025-02-05",
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
+            },
+            {
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "The Web as URLs, Not Documents",
+              "date": "2025-06-10",
+              "link": "https://blog.jim-nielsen.com/2025/web-as-urls-not-documents/"
+            },
+            {
+              "title": "Some Miscellaneous Thoughts on Visual Design Prodded By The Sameness of AI Company Logos",
+              "date": "2025-06-06",
+              "link": "https://blog.jim-nielsen.com/2025/visual-design-homogeneity-at-scale/"
+            },
+            {
+              "title": "Notes from Andreas Fredriksson’s “Context is Everything”",
+              "date": "2025-06-04",
+              "link": "https://blog.jim-nielsen.com/2025/notes-context-is-everything/"
+            },
+            {
+              "title": "Is It JavaScript?",
+              "date": "2025-06-02",
+              "link": "https://blog.jim-nielsen.com/2025/is-it-javascript/"
+            },
+            {
+              "title": "Tradeoffs to Continuous Software?",
+              "date": "2025-05-28",
+              "link": "https://blog.jim-nielsen.com/2025/tradeoffs-to-continuous-software/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The cluster layout with modern CSS",
+              "date": "2025-06-10",
+              "link": "https://gomakethings.com/the-cluster-layout-with-modern-css/"
+            },
+            {
+              "title": "4 common layouts made easy with modern CSS",
+              "date": "2025-06-09",
+              "link": "https://gomakethings.com/4-common-layouts-made-easy-with-modern-css/"
+            },
+            {
+              "title": "Rules, not rulers",
+              "date": "2025-06-08",
+              "link": "https://gomakethings.com/rules-not-rulers/"
+            },
+            {
+              "title": "Ants and anarchy",
+              "date": "2025-06-07",
+              "link": "https://gomakethings.com/ants-and-anarchy/"
+            },
+            {
+              "title": "A Web Component for transforming headings into an accordion",
+              "date": "2025-06-06",
+              "link": "https://gomakethings.com/a-web-component-for-transforming-headings-into-an-accordion/"
+            }
+          ]
+        },
+        {
+          "title": "HeydonWorks",
+          "feedUrl": "https://heydonworks.com/feed.xml",
+          "items": [
+            {
+              "title": "Hel: A 3-Axis, Obliterated Variable Font",
+              "date": "2025-06-10",
+              "link": "https://heydonworks.com/article/hel-variable-font/"
+            },
+            {
+              "title": "Pride, shame, and accessibility",
+              "date": "2025-06-09",
+              "link": "https://heydonworks.com/article/pride-shame-and-accessibility/"
+            },
+            {
+              "title": "Skune: A hand drawn variable font",
+              "date": "2025-06-09",
+              "link": "https://heydonworks.com/article/skune-hand-drawn-variable-font/"
+            },
+            {
+              "title": "Advertising? On my blog?",
+              "date": "2025-05-30",
+              "link": "https://heydonworks.com/article/advertising-on-this-blog/"
+            },
+            {
+              "title": "The col element",
+              "date": "2025-05-29",
+              "link": "https://heydonworks.com/article/the-col-element/"
+            }
+          ]
+        },
+        {
+          "title": "Mathias Verraes",
+          "feedUrl": "https://verraes.net/feed.atom",
+          "items": [
+            {
+              "title": "Submitting talks to a tech conference Call for Papers",
+              "date": "2025-06-10",
+              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
+            },
+            {
+              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
+              "date": "2024-03-10",
+              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
+            },
+            {
+              "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
+              "date": "2024-01-08",
+              "link": "https://verraes.net/2024/01/critical-software-redesign/"
+            },
+            {
+              "title": "Surfacing Worldviews in Design",
+              "date": "2023-07-03",
+              "link": "https://verraes.net/2023/07/surfacing-worldviews-in-design/"
+            },
+            {
+              "title": "EventSourcing Testing Patterns",
+              "date": "2023-05-28",
+              "link": "https://verraes.net/2023/05/eventsourcing-testing-patterns/"
+            }
+          ]
+        },
+        {
+          "title": "drcathicks",
+          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
+          "items": [
+            {
+              "title": "Some Craft Conf breakfast session citations",
+              "date": "2025-06-10",
+              "link": "https://www.drcathicks.com/post/some-craft-conf-breakfast-session-citations"
+            },
+            {
+              "title": "Thank you, Developer Success Lab",
+              "date": "2025-05-07",
+              "link": "https://www.drcathicks.com/post/thank-you-developer-success-lab"
+            },
+            {
+              "title": "Cat @ VirtualDDD: \"a barn burner of a talk\" References &#38; Resources",
+              "date": "2025-04-16",
+              "link": "https://www.drcathicks.com/post/cat-virtualddd-a-barn-burner-of-a-talk-references-resources"
+            },
+            {
+              "title": "Citation as Pilgrimage",
+              "date": "2025-02-28",
+              "link": "https://www.drcathicks.com/post/citation-as-pilgrimage"
+            },
+            {
+              "title": "Ways to listen to (rather than read about) the psychology of software teams!",
+              "date": "2025-02-21",
+              "link": "https://www.drcathicks.com/post/ways-to-listen-to-rather-than-read-about-the-psychology-of-software-teams"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-06-10",
+              "link": "https://dbushell.com/notes/2025-06-10T06:55Z/"
+            },
+            {
+              "date": "2025-06-10",
+              "link": "https://dbushell.com/notes/2025-06-10T06:02Z/"
+            },
+            {
+              "date": "2025-06-10",
+              "link": "https://dbushell.com/notes/2025-06-10T05:25Z/"
+            },
+            {
+              "date": "2025-06-07",
+              "link": "https://dbushell.com/notes/2025-06-07T12:08Z/"
+            },
+            {
+              "date": "2025-06-07",
+              "link": "https://dbushell.com/notes/2025-06-07T07:01Z/"
+            }
+          ]
+        },
+        {
+          "title": "Fynn Ellie Becker",
+          "feedUrl": "https://fynn.be/feed.xml",
+          "items": [
+            {
+              "title": "Tackling Temporal Troubles",
+              "date": "2025-06-10",
+              "link": "https://fynn.be/talks/tackling-temporal-troubles/"
+            },
+            {
+              "title": "BITV-Zertifizierung der Factorial-Website",
+              "date": "2025-05-15",
+              "link": "https://fynn.be/talks/factorial-website-bitv/"
+            },
+            {
+              "title": "Sunset v29",
+              "date": "2025-05-15",
+              "link": "https://fynn.be/sunset/v29/"
+            },
+            {
+              "title": "Introduction to digital accessibility",
+              "date": "2025-03-04",
+              "link": "https://fynn.be/talks/introduction-digital-accessibility/"
+            },
+            {
+              "title": "Panic",
+              "date": "2025-02-22",
+              "link": "https://fynn.be/blog/panic/"
+            }
+          ]
+        },
+        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -35,37 +278,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "4 common layouts made easy with modern CSS",
-              "date": "2025-06-09",
-              "link": "https://gomakethings.com/4-common-layouts-made-easy-with-modern-css/"
-            },
-            {
-              "title": "Rules, not rulers",
-              "date": "2025-06-08",
-              "link": "https://gomakethings.com/rules-not-rulers/"
-            },
-            {
-              "title": "Ants and anarchy",
-              "date": "2025-06-07",
-              "link": "https://gomakethings.com/ants-and-anarchy/"
-            },
-            {
-              "title": "A Web Component for transforming headings into an accordion",
-              "date": "2025-06-06",
-              "link": "https://gomakethings.com/a-web-component-for-transforming-headings-into-an-accordion/"
-            },
-            {
-              "title": "HTML-native accordions",
-              "date": "2025-06-05",
-              "link": "https://gomakethings.com/html-native-accordions/"
-            }
-          ]
-        },
-        {
           "title": "apenwarr",
           "feedUrl": "https://apenwarr.ca/log/rss.php",
           "items": [
@@ -93,37 +305,6 @@
               "title": "\n      Systems design 2: What we hope we know\n    ",
               "date": "2023-07-11",
               "link": "https://apenwarr.ca/log/20230415"
-            }
-          ]
-        },
-        {
-          "title": "HeydonWorks",
-          "feedUrl": "https://heydonworks.com/feed.xml",
-          "items": [
-            {
-              "title": "Pride, shame, and accessibility",
-              "date": "2025-06-09",
-              "link": "https://heydonworks.com/article/pride-shame-and-accessibility/"
-            },
-            {
-              "title": "Skune: A hand drawn variable font",
-              "date": "2025-06-09",
-              "link": "https://heydonworks.com/article/skune-hand-drawn-variable-font/"
-            },
-            {
-              "title": "Advertising? On my blog?",
-              "date": "2025-05-30",
-              "link": "https://heydonworks.com/article/advertising-on-this-blog/"
-            },
-            {
-              "title": "The col element",
-              "date": "2025-05-29",
-              "link": "https://heydonworks.com/article/the-col-element/"
-            },
-            {
-              "title": "The caption element",
-              "date": "2025-05-20",
-              "link": "https://heydonworks.com/article/the-caption-element/"
             }
           ]
         },
@@ -186,63 +367,6 @@
               "title": "Search with Zig, Wasm, and a Worker ⚡",
               "date": "2025-05-18",
               "link": "https://dbushell.com/2025/05/18/search-with-zig-wasm-worker/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-06-07",
-              "link": "https://dbushell.com/notes/2025-06-07T12:08Z/"
-            },
-            {
-              "date": "2025-06-07",
-              "link": "https://dbushell.com/notes/2025-06-07T07:01Z/"
-            },
-            {
-              "date": "2025-06-07",
-              "link": "https://dbushell.com/notes/2025-06-07T05:41Z/"
-            },
-            {
-              "date": "2025-06-06",
-              "link": "https://dbushell.com/notes/2025-06-06T15:05Z/"
-            },
-            {
-              "date": "2025-06-05",
-              "link": "https://dbushell.com/notes/2025-06-05T06:52Z/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Some Miscellaneous Thoughts on Visual Design Prodded By The Sameness of AI Company Logos",
-              "date": "2025-06-06",
-              "link": "https://blog.jim-nielsen.com/2025/visual-design-homogeneity-at-scale/"
-            },
-            {
-              "title": "Notes from Andreas Fredriksson’s “Context is Everything”",
-              "date": "2025-06-04",
-              "link": "https://blog.jim-nielsen.com/2025/notes-context-is-everything/"
-            },
-            {
-              "title": "Is It JavaScript?",
-              "date": "2025-06-02",
-              "link": "https://blog.jim-nielsen.com/2025/is-it-javascript/"
-            },
-            {
-              "title": "Tradeoffs to Continuous Software?",
-              "date": "2025-05-28",
-              "link": "https://blog.jim-nielsen.com/2025/tradeoffs-to-continuous-software/"
-            },
-            {
-              "title": "Could I Have Some More Friction in My Life, Please?",
-              "date": "2025-05-25",
-              "link": "https://blog.jim-nielsen.com/2025/more-friction-please/"
             }
           ]
         },
@@ -1084,37 +1208,6 @@
           ]
         },
         {
-          "title": "Fynn Ellie Becker",
-          "feedUrl": "https://fynn.be/feed.xml",
-          "items": [
-            {
-              "title": "BITV-Zertifizierung der Factorial-Website",
-              "date": "2025-05-15",
-              "link": "https://fynn.be/talks/factorial-website-bitv/"
-            },
-            {
-              "title": "Sunset v29",
-              "date": "2025-05-15",
-              "link": "https://fynn.be/sunset/v29/"
-            },
-            {
-              "title": "Introduction to digital accessibility",
-              "date": "2025-03-04",
-              "link": "https://fynn.be/talks/introduction-digital-accessibility/"
-            },
-            {
-              "title": "Panic",
-              "date": "2025-02-22",
-              "link": "https://fynn.be/blog/panic/"
-            },
-            {
-              "title": "Sunset v28",
-              "date": "2025-01-28",
-              "link": "https://fynn.be/sunset/v28/"
-            }
-          ]
-        },
-        {
           "title": "Chelsea Troy",
           "feedUrl": "https://chelseatroy.com/feed/",
           "items": [
@@ -1204,37 +1297,6 @@
               "title": "On browser compatibility and support baselines",
               "date": "2023-05-12",
               "link": "https://molily.de/browser-compatibility-baseline/"
-            }
-          ]
-        },
-        {
-          "title": "drcathicks",
-          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
-          "items": [
-            {
-              "title": "Thank you, Developer Success Lab",
-              "date": "2025-05-07",
-              "link": "https://www.drcathicks.com/post/thank-you-developer-success-lab"
-            },
-            {
-              "title": "Cat @ VirtualDDD: \"a barn burner of a talk\" References &#38; Resources",
-              "date": "2025-04-16",
-              "link": "https://www.drcathicks.com/post/cat-virtualddd-a-barn-burner-of-a-talk-references-resources"
-            },
-            {
-              "title": "Citation as Pilgrimage",
-              "date": "2025-02-28",
-              "link": "https://www.drcathicks.com/post/citation-as-pilgrimage"
-            },
-            {
-              "title": "Ways to listen to (rather than read about) the psychology of software teams!",
-              "date": "2025-02-21",
-              "link": "https://www.drcathicks.com/post/ways-to-listen-to-rather-than-read-about-the-psychology-of-software-teams"
-            },
-            {
-              "title": "Just another example of how collaboration, not competition, drives healthy science",
-              "date": "2025-02-15",
-              "link": "https://www.drcathicks.com/post/just-another-example-of-how-collaboration-not-competition-drives-healthy-science"
             }
           ]
         },
@@ -1669,37 +1731,6 @@
               "title": "Week 6’s AI News",
               "date": "2025-02-07",
               "link": "https://www.felienne.com/archives/8900"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            },
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            },
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            },
-            {
-              "title": "\"Rules\" that terminal programs follow",
-              "date": "2024-12-12",
-              "link": "https://jvns.ca/blog/2024/11/26/terminal-rules/"
             }
           ]
         },
@@ -2314,37 +2345,6 @@
           ]
         },
         {
-          "title": "Mathias Verraes",
-          "feedUrl": "https://verraes.net/feed.atom",
-          "items": [
-            {
-              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
-              "date": "2024-03-10",
-              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
-            },
-            {
-              "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
-              "date": "2024-01-08",
-              "link": "https://verraes.net/2024/01/critical-software-redesign/"
-            },
-            {
-              "title": "Surfacing Worldviews in Design",
-              "date": "2023-07-03",
-              "link": "https://verraes.net/2023/07/surfacing-worldviews-in-design/"
-            },
-            {
-              "title": "EventSourcing Testing Patterns",
-              "date": "2023-05-28",
-              "link": "https://verraes.net/2023/05/eventsourcing-testing-patterns/"
-            },
-            {
-              "title": "From Music to Languages and Models (DevJourney Podcast)",
-              "date": "2023-05-16",
-              "link": "https://verraes.net/2023/05/devjourney-podcast/"
-            }
-          ]
-        },
-        {
           "title": "uncenter.dev",
           "feedUrl": "https://uncenter.dev/feed.xml",
           "items": [
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-10T03:46:14.780Z",
+  "fetchDate": "2025-06-11T03:46:26.295Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "Safari at WWDC '25: The Ghost of Christmas Past",
+              "date": "2025-06-13",
+              "link": "https://infrequently.org/2025/06/the-ghost-of-christmas-past/"
+            },
+            {
+              "title": "If Not React, Then What?",
+              "date": "2024-11-29",
+              "link": "https://infrequently.org/2024/11/if-not-react-then-what/"
+            },
+            {
+              "title": "Platform Strategy and Its Discontents",
+              "date": "2024-10-27",
+              "link": "https://infrequently.org/2024/10/platforms-are-competitions/"
+            },
+            {
+              "title": "Reckoning: Part 4 — The Way Out",
+              "date": "2024-08-16",
+              "link": "https://infrequently.org/2024/08/the-way-out/"
+            },
+            {
+              "title": "Reckoning: Part 3 — Caprock",
+              "date": "2024-08-14",
+              "link": "https://infrequently.org/2024/08/caprock/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Your Framework is Showing 😳",
+              "date": "2025-06-13",
+              "link": "https://dbushell.com/2025/06/13/your-framework-is-showing-nextjs-error/"
+            },
+            {
+              "title": "Weighing Souls with Anubis at Home",
+              "date": "2025-06-07",
+              "link": "https://dbushell.com/2025/06/07/weighing-souls-with-anubis-at-home/"
+            },
+            {
+              "title": "Baseless",
+              "date": "2025-06-01",
+              "link": "https://dbushell.com/2025/06/01/baseless/"
+            },
+            {
+              "title": "Ensloppification",
+              "date": "2025-05-30",
+              "link": "https://dbushell.com/2025/05/30/ensloppification/"
+            },
+            {
+              "title": "::pseudo-elements?",
+              "date": "2025-05-23",
+              "link": "https://dbushell.com/2025/05/23/pseudo-elements/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Controlling spacing in modern CSS layouts",
+              "date": "2025-06-13",
+              "link": "https://gomakethings.com/controlling-spacing-in-modern-css-layouts/"
+            },
             {
               "title": "The stack layout in modern CSS",
               "date": "2025-06-12",
@@ -26,11 +93,37 @@
               "title": "4 common layouts made easy with modern CSS",
               "date": "2025-06-09",
               "link": "https://gomakethings.com/4-common-layouts-made-easy-with-modern-css/"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "You LLM-loving motherfuckers can pry the em dash from my cold dead hands",
+              "date": "2025-06-13",
+              "link": "https://moonbase.lgbt/blog/you-llm-loving-motherfuckers/"
             },
             {
-              "title": "Rules, not rulers",
-              "date": "2025-06-08",
-              "link": "https://gomakethings.com/rules-not-rulers/"
+              "title": "Sometimes, there is a cat",
+              "date": "2025-05-22",
+              "link": "https://moonbase.lgbt/blog/sometimes-there-is-a-cat/"
+            },
+            {
+              "title": "Liftoff!",
+              "date": "2025-04-23",
+              "link": "https://moonbase.lgbt/blog/liftoff-harman-phoenix/"
+            },
+            {
+              "title": "Bird between the branches",
+              "date": "2025-04-20",
+              "link": "https://moonbase.lgbt/blog/bird-between-branches/"
+            },
+            {
+              "title": "Tiny Adventurer",
+              "date": "2025-04-15",
+              "link": "https://moonbase.lgbt/blog/tiny-adventurer/"
             }
           ]
         },
@@ -185,37 +278,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "The Continuum From Static to Dynamic",
-              "date": "2025-06-11",
-              "link": "https://blog.jim-nielsen.com/2025/continuum-from-static-to-dynamic/"
-            },
-            {
-              "title": "The Web as URLs, Not Documents",
-              "date": "2025-06-10",
-              "link": "https://blog.jim-nielsen.com/2025/web-as-urls-not-documents/"
-            },
-            {
-              "title": "Some Miscellaneous Thoughts on Visual Design Prodded By The Sameness of AI Company Logos",
-              "date": "2025-06-06",
-              "link": "https://blog.jim-nielsen.com/2025/visual-design-homogeneity-at-scale/"
-            },
-            {
-              "title": "Notes from Andreas Fredriksson’s “Context is Everything”",
-              "date": "2025-06-04",
-              "link": "https://blog.jim-nielsen.com/2025/notes-context-is-everything/"
-            },
-            {
-              "title": "Is It JavaScript?",
-              "date": "2025-06-02",
-              "link": "https://blog.jim-nielsen.com/2025/is-it-javascript/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -243,6 +305,37 @@
               "title": "Innovation and adopting innovations requires trusted and functioning institutions. The US and Europe have neither",
               "date": "2025-04-24",
               "link": "https://www.baldurbjarnason.com/2025/innovation-trust/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "The Continuum From Static to Dynamic",
+              "date": "2025-06-11",
+              "link": "https://blog.jim-nielsen.com/2025/continuum-from-static-to-dynamic/"
+            },
+            {
+              "title": "The Web as URLs, Not Documents",
+              "date": "2025-06-10",
+              "link": "https://blog.jim-nielsen.com/2025/web-as-urls-not-documents/"
+            },
+            {
+              "title": "Some Miscellaneous Thoughts on Visual Design Prodded By The Sameness of AI Company Logos",
+              "date": "2025-06-06",
+              "link": "https://blog.jim-nielsen.com/2025/visual-design-homogeneity-at-scale/"
+            },
+            {
+              "title": "Notes from Andreas Fredriksson’s “Context is Everything”",
+              "date": "2025-06-04",
+              "link": "https://blog.jim-nielsen.com/2025/notes-context-is-everything/"
+            },
+            {
+              "title": "Is It JavaScript?",
+              "date": "2025-06-02",
+              "link": "https://blog.jim-nielsen.com/2025/is-it-javascript/"
             }
           ]
         },
@@ -402,6 +495,37 @@
           ]
         },
         {
+          "title": "Fynn Ellie Becker",
+          "feedUrl": "https://fynn.be/feed.xml",
+          "items": [
+            {
+              "title": "Tackling Temporal Troubles",
+              "date": "2025-06-10",
+              "link": "https://fynn.be/talks/tackling-temporal-troubles/"
+            },
+            {
+              "title": "BITV-Zertifizierung der Factorial-Website",
+              "date": "2025-05-15",
+              "link": "https://fynn.be/talks/factorial-website-bitv/"
+            },
+            {
+              "title": "Sunset v29",
+              "date": "2025-05-15",
+              "link": "https://fynn.be/sunset/v29/"
+            },
+            {
+              "title": "Introduction to digital accessibility",
+              "date": "2025-03-04",
+              "link": "https://fynn.be/talks/introduction-digital-accessibility/"
+            },
+            {
+              "title": "Panic",
+              "date": "2025-02-22",
+              "link": "https://fynn.be/blog/panic/"
+            }
+          ]
+        },
+        {
           "title": "apenwarr",
           "feedUrl": "https://apenwarr.ca/log/rss.php",
           "items": [
@@ -464,37 +588,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Weighing Souls with Anubis at Home",
-              "date": "2025-06-07",
-              "link": "https://dbushell.com/2025/06/07/weighing-souls-with-anubis-at-home/"
-            },
-            {
-              "title": "Baseless",
-              "date": "2025-06-01",
-              "link": "https://dbushell.com/2025/06/01/baseless/"
-            },
-            {
-              "title": "Ensloppification",
-              "date": "2025-05-30",
-              "link": "https://dbushell.com/2025/05/30/ensloppification/"
-            },
-            {
-              "title": "::pseudo-elements?",
-              "date": "2025-05-23",
-              "link": "https://dbushell.com/2025/05/23/pseudo-elements/"
-            },
-            {
-              "title": "Search with Zig, Wasm, and a Worker ⚡",
-              "date": "2025-05-18",
-              "link": "https://dbushell.com/2025/05/18/search-with-zig-wasm-worker/"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -553,6 +646,37 @@
               "title": "Tidbyt without the company",
               "date": "2025-04-12",
               "link": "https://macwright.com/2025/04/12/tidbyt-second-life.html"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Things Jesus taught",
+              "date": "2025-06-03",
+              "link": "https://anniemueller.com/posts/things-jesus-taught"
+            },
+            {
+              "title": "When you can’t decide",
+              "date": "2025-05-28",
+              "link": "https://anniemueller.com/posts/when-you-cant-decide"
+            },
+            {
+              "title": "These are my kids",
+              "date": "2025-05-17",
+              "link": "https://anniemueller.com/posts/these-are-my-kids"
+            },
+            {
+              "title": "Reading notes: April 2025",
+              "date": "2025-05-12",
+              "link": "https://anniemueller.com/posts/reading-notes-april-2025"
+            },
+            {
+              "title": "A neutral stance is for weightlifting, not for human rights",
+              "date": "2025-05-11",
+              "link": "https://anniemueller.com/posts/a-neutral-stance-is-for-weightlifting-not-for-human-rights"
             }
           ]
         },
@@ -770,37 +894,6 @@
               "title": "AI Is Not Designed for You",
               "date": "2024-12-06",
               "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "Sometimes, there is a cat",
-              "date": "2025-05-22",
-              "link": "https://moonbase.lgbt/blog/sometimes-there-is-a-cat/"
-            },
-            {
-              "title": "Liftoff!",
-              "date": "2025-04-23",
-              "link": "https://moonbase.lgbt/blog/liftoff-harman-phoenix/"
-            },
-            {
-              "title": "Bird between the branches",
-              "date": "2025-04-20",
-              "link": "https://moonbase.lgbt/blog/bird-between-branches/"
-            },
-            {
-              "title": "Tiny Adventurer",
-              "date": "2025-04-15",
-              "link": "https://moonbase.lgbt/blog/tiny-adventurer/"
-            },
-            {
-              "title": "TV Guide, 2025-04-04",
-              "date": "2025-04-04",
-              "link": "https://moonbase.lgbt/blog/tv-guide-2025-04-04/"
             }
           ]
         },
@@ -1204,6 +1297,68 @@
               "title": "Beyond Ctrl-C: The dark corners of Unix signal handling",
               "date": "2024-09-03",
               "link": "https://sunshowers.io/posts/beyond-ctrl-c-signals/"
+            }
+          ]
+        },
+        {
+          "title": "molily",
+          "feedUrl": "https://molily.de/feed.xml",
+          "items": [
+            {
+              "title": "On the environmental impact of AI",
+              "date": "2025-05-09",
+              "link": "https://molily.de/ai-environment/"
+            },
+            {
+              "title": "Something went wrong",
+              "date": "2024-09-10",
+              "link": "https://molily.de/something-went-wrong/"
+            },
+            {
+              "title": "Full circle development",
+              "date": "2023-11-10",
+              "link": "https://molily.de/full-circle-development/"
+            },
+            {
+              "title": "Planet of the Beavers",
+              "date": "2023-10-06",
+              "link": "https://molily.de/planet-of-the-beavers/"
+            },
+            {
+              "title": "On browser compatibility and support baselines",
+              "date": "2023-05-12",
+              "link": "https://molily.de/browser-compatibility-baseline/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Taking a break",
+              "date": "2025-05-05",
+              "link": "https://ntietz.com/blog/taking-a-break/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Measuring my Framework laptop's performance in 3 positions",
+              "date": "2025-04-28",
+              "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "The five stages of incident response",
+              "date": "2025-04-21",
+              "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Python is an interpreted language with a compiler",
+              "date": "2025-04-14",
+              "link": "https://ntietz.com/blog/python-is-an-interpreted-language-with-a-compiler/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Typing using my keyboard (the other kind)",
+              "date": "2025-04-07",
+              "link": "https://ntietz.com/blog/typing-using-my-keyboard-the-other-kind/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -1911,37 +2066,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "If Not React, Then What?",
-              "date": "2024-11-29",
-              "link": "https://infrequently.org/2024/11/if-not-react-then-what/"
-            },
-            {
-              "title": "Platform Strategy and Its Discontents",
-              "date": "2024-10-27",
-              "link": "https://infrequently.org/2024/10/platforms-are-competitions/"
-            },
-            {
-              "title": "Reckoning: Part 4 — The Way Out",
-              "date": "2024-08-16",
-              "link": "https://infrequently.org/2024/08/the-way-out/"
-            },
-            {
-              "title": "Reckoning: Part 3 — Caprock",
-              "date": "2024-08-14",
-              "link": "https://infrequently.org/2024/08/caprock/"
-            },
-            {
-              "title": "Reckoning: Part 2 — Object Lesson",
-              "date": "2024-08-13",
-              "link": "https://infrequently.org/2024/08/object-lesson/"
-            }
-          ]
-        },
-        {
           "title": "More Questions Than Answers",
           "feedUrl": "https://unremarkabletester.com/feed/",
           "items": [
@@ -2306,16 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-13T03:46:17.663Z",
+  "fetchDate": "2025-06-14T03:41:49.806Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/",
-    "https://fynn.be/feed.xml",
-    "https://molily.de/feed.xml",
     "https://dubroy.com/blog/rss.xml",
-    "https://anniemueller.com/posts_feed",
-    "https://ntietz.com/atom.xml"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "apenwarr",
+          "feedUrl": "https://apenwarr.ca/log/rss.php",
+          "items": [
+            {
+              "title": "\n      The evasive evitability of enshittification\n    ",
+              "date": "2025-06-15",
+              "link": "https://apenwarr.ca/log/20250530"
+            },
+            {
+              "title": "\n      NPS, the good parts\n    ",
+              "date": "2023-12-05",
+              "link": "https://apenwarr.ca/log/20231204"
+            },
+            {
+              "title": "\n      Interesting\n    ",
+              "date": "2023-10-06",
+              "link": "https://apenwarr.ca/log/20231006"
+            },
+            {
+              "title": "\n      Tech debt metaphor maximalism\n    ",
+              "date": "2023-07-11",
+              "link": "https://apenwarr.ca/log/20230605"
+            },
+            {
+              "title": "\n      Systems design 2: What we hope we know\n    ",
+              "date": "2023-07-11",
+              "link": "https://apenwarr.ca/log/20230415"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-06-14",
+              "link": "https://dbushell.com/notes/2025-06-14T13:15Z/"
+            },
+            {
+              "date": "2025-06-14",
+              "link": "https://dbushell.com/notes/2025-06-14T06:02Z/"
+            },
+            {
+              "date": "2025-06-12",
+              "link": "https://dbushell.com/notes/2025-06-12T05:52Z/"
+            },
+            {
+              "date": "2025-06-11",
+              "link": "https://dbushell.com/notes/2025-06-11T04:39Z/"
+            },
+            {
+              "date": "2025-06-10",
+              "link": "https://dbushell.com/notes/2025-06-10T06:55Z/"
+            }
+          ]
+        },
+        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -221,32 +278,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-06-12",
-              "link": "https://dbushell.com/notes/2025-06-12T05:52Z/"
-            },
-            {
-              "date": "2025-06-11",
-              "link": "https://dbushell.com/notes/2025-06-11T04:39Z/"
-            },
-            {
-              "date": "2025-06-10",
-              "link": "https://dbushell.com/notes/2025-06-10T06:55Z/"
-            },
-            {
-              "date": "2025-06-10",
-              "link": "https://dbushell.com/notes/2025-06-10T06:02Z/"
-            },
-            {
-              "date": "2025-06-10",
-              "link": "https://dbushell.com/notes/2025-06-10T05:25Z/"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -278,37 +309,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Avoiding generative models is the rational and responsible thing to do – follow-up to “Trusting your own judgement on ‘AI...’”",
-              "date": "2025-06-11",
-              "link": "https://www.baldurbjarnason.com/2025/followup-on-trusting-your-own-judgement/"
-            },
-            {
-              "title": "Trusting your own judgement on ‘AI’ is a huge risk",
-              "date": "2025-06-09",
-              "link": "https://www.baldurbjarnason.com/2025/trusting-your-own-judgement-on-ai/"
-            },
-            {
-              "title": "Fowl photos!",
-              "date": "2025-05-16",
-              "link": "https://www.baldurbjarnason.com/notes/photos/fowl-photos/"
-            },
-            {
-              "title": "Foggy feeds: the decline in my feed reader subscriptions",
-              "date": "2025-05-16",
-              "link": "https://www.baldurbjarnason.com/notes/2025/foggy-feeds/"
-            },
-            {
-              "title": "Innovation and adopting innovations requires trusted and functioning institutions. The US and Europe have neither",
-              "date": "2025-04-24",
-              "link": "https://www.baldurbjarnason.com/2025/innovation-trust/"
-            }
-          ]
-        },
-        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -336,6 +336,37 @@
               "title": "Is It JavaScript?",
               "date": "2025-06-02",
               "link": "https://blog.jim-nielsen.com/2025/is-it-javascript/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Avoiding generative models is the rational and responsible thing to do – follow-up to “Trusting your own judgement on ‘AI...’”",
+              "date": "2025-06-11",
+              "link": "https://www.baldurbjarnason.com/2025/followup-on-trusting-your-own-judgement/"
+            },
+            {
+              "title": "Trusting your own judgement on ‘AI’ is a huge risk",
+              "date": "2025-06-09",
+              "link": "https://www.baldurbjarnason.com/2025/trusting-your-own-judgement-on-ai/"
+            },
+            {
+              "title": "Fowl photos!",
+              "date": "2025-05-16",
+              "link": "https://www.baldurbjarnason.com/notes/photos/fowl-photos/"
+            },
+            {
+              "title": "Foggy feeds: the decline in my feed reader subscriptions",
+              "date": "2025-05-16",
+              "link": "https://www.baldurbjarnason.com/notes/2025/foggy-feeds/"
+            },
+            {
+              "title": "Innovation and adopting innovations requires trusted and functioning institutions. The US and Europe have neither",
+              "date": "2025-04-24",
+              "link": "https://www.baldurbjarnason.com/2025/innovation-trust/"
             }
           ]
         },
@@ -522,37 +553,6 @@
               "title": "Panic",
               "date": "2025-02-22",
               "link": "https://fynn.be/blog/panic/"
-            }
-          ]
-        },
-        {
-          "title": "apenwarr",
-          "feedUrl": "https://apenwarr.ca/log/rss.php",
-          "items": [
-            {
-              "title": "\n      The evasive evitability of enshittification\n    ",
-              "date": "2025-06-09",
-              "link": "https://apenwarr.ca/log/20250530"
-            },
-            {
-              "title": "\n      NPS, the good parts\n    ",
-              "date": "2023-12-05",
-              "link": "https://apenwarr.ca/log/20231204"
-            },
-            {
-              "title": "\n      Interesting\n    ",
-              "date": "2023-10-06",
-              "link": "https://apenwarr.ca/log/20231006"
-            },
-            {
-              "title": "\n      Tech debt metaphor maximalism\n    ",
-              "date": "2023-07-11",
-              "link": "https://apenwarr.ca/log/20230605"
-            },
-            {
-              "title": "\n      Systems design 2: What we hope we know\n    ",
-              "date": "2023-07-11",
-              "link": "https://apenwarr.ca/log/20230415"
             }
           ]
         },
@@ -2430,12 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-14T03:41:49.806Z",
+  "fetchDate": "2025-06-15T03:50:22.866Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://dubroy.com/blog/rss.xml",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://dubroy.com/blog/rss.xml"
   ]
 }

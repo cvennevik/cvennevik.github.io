@@ -4,33 +4,33 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
-              "title": "Becoming an Asshole",
-              "date": "2025-06-15",
-              "link": "https://blog.jim-nielsen.com/2025/becoming-an-asshole/"
+              "title": "How to create an accessible color palette",
+              "date": "2025-06-16",
+              "link": "https://gomakethings.com/how-to-create-an-accessible-color-palette/"
             },
             {
-              "title": "The Continuum From Static to Dynamic",
+              "title": "Controlling spacing in modern CSS layouts",
+              "date": "2025-06-13",
+              "link": "https://gomakethings.com/controlling-spacing-in-modern-css-layouts/"
+            },
+            {
+              "title": "The stack layout in modern CSS",
+              "date": "2025-06-12",
+              "link": "https://gomakethings.com/the-stack-layout-in-modern-css/"
+            },
+            {
+              "title": "The split layout with modern CSS",
               "date": "2025-06-11",
-              "link": "https://blog.jim-nielsen.com/2025/continuum-from-static-to-dynamic/"
+              "link": "https://gomakethings.com/the-split-layout-with-modern-css/"
             },
             {
-              "title": "The Web as URLs, Not Documents",
+              "title": "The cluster layout with modern CSS",
               "date": "2025-06-10",
-              "link": "https://blog.jim-nielsen.com/2025/web-as-urls-not-documents/"
-            },
-            {
-              "title": "Some Miscellaneous Thoughts on Visual Design Prodded By The Sameness of AI Company Logos",
-              "date": "2025-06-06",
-              "link": "https://blog.jim-nielsen.com/2025/visual-design-homogeneity-at-scale/"
-            },
-            {
-              "title": "Notes from Andreas Fredriksson’s “Context is Everything”",
-              "date": "2025-06-04",
-              "link": "https://blog.jim-nielsen.com/2025/notes-context-is-everything/"
+              "link": "https://gomakethings.com/the-cluster-layout-with-modern-css/"
             }
           ]
         },
@@ -62,6 +62,37 @@
               "title": "\n      Systems design 2: What we hope we know\n    ",
               "date": "2023-07-11",
               "link": "https://apenwarr.ca/log/20230415"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Becoming an Asshole",
+              "date": "2025-06-15",
+              "link": "https://blog.jim-nielsen.com/2025/becoming-an-asshole/"
+            },
+            {
+              "title": "The Continuum From Static to Dynamic",
+              "date": "2025-06-11",
+              "link": "https://blog.jim-nielsen.com/2025/continuum-from-static-to-dynamic/"
+            },
+            {
+              "title": "The Web as URLs, Not Documents",
+              "date": "2025-06-10",
+              "link": "https://blog.jim-nielsen.com/2025/web-as-urls-not-documents/"
+            },
+            {
+              "title": "Some Miscellaneous Thoughts on Visual Design Prodded By The Sameness of AI Company Logos",
+              "date": "2025-06-06",
+              "link": "https://blog.jim-nielsen.com/2025/visual-design-homogeneity-at-scale/"
+            },
+            {
+              "title": "Notes from Andreas Fredriksson’s “Context is Everything”",
+              "date": "2025-06-04",
+              "link": "https://blog.jim-nielsen.com/2025/notes-context-is-everything/"
             }
           ]
         },
@@ -150,37 +181,6 @@
               "title": "::pseudo-elements?",
               "date": "2025-05-23",
               "link": "https://dbushell.com/2025/05/23/pseudo-elements/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Controlling spacing in modern CSS layouts",
-              "date": "2025-06-13",
-              "link": "https://gomakethings.com/controlling-spacing-in-modern-css-layouts/"
-            },
-            {
-              "title": "The stack layout in modern CSS",
-              "date": "2025-06-12",
-              "link": "https://gomakethings.com/the-stack-layout-in-modern-css/"
-            },
-            {
-              "title": "The split layout with modern CSS",
-              "date": "2025-06-11",
-              "link": "https://gomakethings.com/the-split-layout-with-modern-css/"
-            },
-            {
-              "title": "The cluster layout with modern CSS",
-              "date": "2025-06-10",
-              "link": "https://gomakethings.com/the-cluster-layout-with-modern-css/"
-            },
-            {
-              "title": "4 common layouts made easy with modern CSS",
-              "date": "2025-06-09",
-              "link": "https://gomakethings.com/4-common-layouts-made-easy-with-modern-css/"
             }
           ]
         },
@@ -1642,37 +1642,6 @@
           ]
         },
         {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Reflections on writing a book",
-              "date": "2025-03-24",
-              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
-            },
-            {
-              "title": "Make it happen",
-              "date": "2025-02-11",
-              "link": "https://dubroy.com/blog/make-it-happen/"
-            },
-            {
-              "title": "Five coding hats",
-              "date": "2025-02-03",
-              "link": "https://dubroy.com/blog/five-coding-hats/"
-            },
-            {
-              "title": "One way to do applied research",
-              "date": "2024-11-07",
-              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
-            },
-            {
-              "title": "Memories of some fantastic internships",
-              "date": "2024-07-31",
-              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
-            }
-          ]
-        },
-        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -2461,11 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-16T03:51:00.891Z",
+  "fetchDate": "2025-06-17T03:46:32.356Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://dubroy.com/blog/rss.xml"
   ]
 }

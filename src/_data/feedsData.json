@@ -4,6 +4,156 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "In Praise of “Normal” Engineers",
+              "date": "2025-06-19",
+              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
+            },
+            {
+              "title": "On How Long it Takes to Know if a Job is Right for You or Not",
+              "date": "2025-06-08",
+              "link": "https://charity.wtf/2025/06/08/on-how-long-it-takes-to-know-if-a-job-is-right-for-you-or-not/"
+            },
+            {
+              "title": "On Pronouns, Policies and Mandates",
+              "date": "2025-05-02",
+              "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
+            },
+            {
+              "title": "On Dropouts and Bootstraps",
+              "date": "2025-04-28",
+              "link": "https://charity.wtf/2025/04/28/on-dropouts-and-bootstraps/"
+            },
+            {
+              "title": "On Writing, Social Media, and Finding the Line of Embarrassment",
+              "date": "2025-04-19",
+              "link": "https://charity.wtf/2025/04/19/on-writing-social-media-and-finding-the-line-of-embarrassment/"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "SQLite er raskere enn du tror",
+              "date": "2025-06-19",
+              "link": "https://www.kodemaker.no/blogg/2025-06-19-sqlite-er-raskere-enn-du-tror/"
+            },
+            {
+              "title": "Supply chain attacks: Kan vi stole på open source?",
+              "date": "2025-06-11",
+              "link": "https://www.kodemaker.no/blogg/2025-06-11-supply-chain-attacks/"
+            },
+            {
+              "title": "Hva er WebAssembly?",
+              "date": "2025-05-20",
+              "link": "https://www.kodemaker.no/blogg/2025-05-20-hva-er-webassembly/"
+            },
+            {
+              "title": "Hva har LEGO-bygging til felles med Discriminated Unions?",
+              "date": "2025-05-12",
+              "link": "https://www.kodemaker.no/blogg/2025-05-12-discriminated-unions-and-lego/"
+            },
+            {
+              "title": "Deklarative kart med maplibre",
+              "date": "2025-05-07",
+              "link": "https://www.kodemaker.no/blogg/2025-05-07-deklarative-kart-maplibre-gl/"
+            }
+          ]
+        },
+        {
+          "title": "draganstepanovic.com",
+          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
+          "items": [
+            {
+              "title": "Dynamics between transaction cost and batch size is simple, but often counterintuitive.",
+              "date": "2025-06-19",
+              "link": "https://dragan-stepanovic.github.io//2025/06/19/working-together-works.html"
+            },
+            {
+              "title": "Managing  interdependence over decoupling",
+              "date": "2025-04-03",
+              "link": "https://dragan-stepanovic.github.io//2025/04/03/interdependence-over-independence.html"
+            },
+            {
+              "title": "Working together (pair/mob/ensemble) helps with fixing inefficiencies in the system",
+              "date": "2025-03-04",
+              "link": "https://dragan-stepanovic.github.io//2025/03/04/pain-together.html"
+            },
+            {
+              "title": "If an incident report",
+              "date": "2024-11-19",
+              "link": "https://dragan-stepanovic.github.io//2024/11/19/if-incident-report.html"
+            },
+            {
+              "title": "Let the design guide you",
+              "date": "2024-11-12",
+              "link": "https://dragan-stepanovic.github.io//2024/11/12/design-emergence.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-06-19",
+              "link": "https://dbushell.com/notes/2025-06-19T09:32Z/"
+            },
+            {
+              "date": "2025-06-19",
+              "link": "https://dbushell.com/notes/2025-06-19T06:39Z/"
+            },
+            {
+              "date": "2025-06-18",
+              "link": "https://dbushell.com/notes/2025-06-18T14:55Z/"
+            },
+            {
+              "date": "2025-06-17",
+              "link": "https://dbushell.com/notes/2025-06-17T16:25Z/"
+            },
+            {
+              "date": "2025-06-17",
+              "link": "https://dbushell.com/notes/2025-06-17T14:27Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "How I have benefited from racism",
+              "date": "2025-06-19",
+              "link": "https://anniemueller.com/posts/how-i-have-benefited-from-racism"
+            },
+            {
+              "title": "Spam mail from the universe",
+              "date": "2025-06-17",
+              "link": "https://anniemueller.com/posts/spam-mail-from-the-universe"
+            },
+            {
+              "title": "Things Jesus taught",
+              "date": "2025-06-03",
+              "link": "https://anniemueller.com/posts/things-jesus-taught"
+            },
+            {
+              "title": "When you can’t decide",
+              "date": "2025-05-28",
+              "link": "https://anniemueller.com/posts/when-you-cant-decide"
+            },
+            {
+              "title": "These are my kids",
+              "date": "2025-05-17",
+              "link": "https://anniemueller.com/posts/these-are-my-kids"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -70,7 +220,7 @@
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
             {
-              "title": "TypeScript: supporting the new class <code>Iterator</code> at the type level",
+              "title": "How TypeScript solved its global <code>Iterator</code> name clash",
               "date": "2025-06-18",
               "link": "https://2ality.com/2025/06/typescript-iterator-types.html"
             },
@@ -93,32 +243,6 @@
               "title": "Ideas for making TypeScript better at testing types",
               "date": "2025-04-12",
               "link": "https://2ality.com/2025/04/testing-types-typescript.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-06-18",
-              "link": "https://dbushell.com/notes/2025-06-18T14:55Z/"
-            },
-            {
-              "date": "2025-06-17",
-              "link": "https://dbushell.com/notes/2025-06-17T16:25Z/"
-            },
-            {
-              "date": "2025-06-17",
-              "link": "https://dbushell.com/notes/2025-06-17T14:27Z/"
-            },
-            {
-              "date": "2025-06-17",
-              "link": "https://dbushell.com/notes/2025-06-17T05:58Z/"
-            },
-            {
-              "date": "2025-06-15",
-              "link": "https://dbushell.com/notes/2025-06-15T12:20Z/"
             }
           ]
         },
@@ -150,37 +274,6 @@
               "title": "My Modern CSS Reset",
               "date": "2024-10-29",
               "link": "https://jakelazaroff.com/words/my-modern-css-reset/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Spam mail from the universe",
-              "date": "2025-06-17",
-              "link": "https://anniemueller.com/posts/spam-mail-from-the-universe"
-            },
-            {
-              "title": "Things Jesus taught",
-              "date": "2025-06-03",
-              "link": "https://anniemueller.com/posts/things-jesus-taught"
-            },
-            {
-              "title": "When you can’t decide",
-              "date": "2025-05-28",
-              "link": "https://anniemueller.com/posts/when-you-cant-decide"
-            },
-            {
-              "title": "These are my kids",
-              "date": "2025-05-17",
-              "link": "https://anniemueller.com/posts/these-are-my-kids"
-            },
-            {
-              "title": "Reading notes: April 2025",
-              "date": "2025-05-12",
-              "link": "https://anniemueller.com/posts/reading-notes-april-2025"
             }
           ]
         },
@@ -464,37 +557,6 @@
           ]
         },
         {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Supply chain attacks: Kan vi stole på open source?",
-              "date": "2025-06-11",
-              "link": "https://www.kodemaker.no/blogg/2025-06-11-supply-chain-attacks/"
-            },
-            {
-              "title": "Hva er WebAssembly?",
-              "date": "2025-05-20",
-              "link": "https://www.kodemaker.no/blogg/2025-05-20-hva-er-webassembly/"
-            },
-            {
-              "title": "Hva har LEGO-bygging til felles med Discriminated Unions?",
-              "date": "2025-05-12",
-              "link": "https://www.kodemaker.no/blogg/2025-05-12-discriminated-unions-and-lego/"
-            },
-            {
-              "title": "Deklarative kart med maplibre",
-              "date": "2025-05-07",
-              "link": "https://www.kodemaker.no/blogg/2025-05-07-deklarative-kart-maplibre-gl/"
-            },
-            {
-              "title": "Roten til alt vondt i produktutvikling",
-              "date": "2025-04-16",
-              "link": "https://www.kodemaker.no/blogg/2025-04-roten-til-alt-vondt-i-produktutvikling/"
-            }
-          ]
-        },
-        {
           "title": "Mike Grindle's Blog",
           "feedUrl": "https://mikegrindle.com/feed.xml",
           "items": [
@@ -646,37 +708,6 @@
               "title": "Panic",
               "date": "2025-02-22",
               "link": "https://fynn.be/blog/panic/"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "On How Long it Takes to Know if a Job is Right for You or Not",
-              "date": "2025-06-08",
-              "link": "https://charity.wtf/2025/06/08/on-how-long-it-takes-to-know-if-a-job-is-right-for-you-or-not/"
-            },
-            {
-              "title": "On Pronouns, Policies and Mandates",
-              "date": "2025-05-02",
-              "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
-            },
-            {
-              "title": "On Dropouts and Bootstraps",
-              "date": "2025-04-28",
-              "link": "https://charity.wtf/2025/04/28/on-dropouts-and-bootstraps/"
-            },
-            {
-              "title": "On Writing, Social Media, and Finding the Line of Embarrassment",
-              "date": "2025-04-19",
-              "link": "https://charity.wtf/2025/04/19/on-writing-social-media-and-finding-the-line-of-embarrassment/"
-            },
-            {
-              "title": "Another observability 3.0 appears on the horizon",
-              "date": "2025-03-24",
-              "link": "https://charity.wtf/2025/03/24/another-observability-3-0-appears-on-the-horizon/"
             }
           ]
         },
@@ -1580,37 +1611,6 @@
           ]
         },
         {
-          "title": "draganstepanovic.com",
-          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
-          "items": [
-            {
-              "title": "Managing  interdependence over decoupling",
-              "date": "2025-04-03",
-              "link": "https://dragan-stepanovic.github.io//2025/04/03/interdependence-over-independence.html"
-            },
-            {
-              "title": "Working together (pair/mob/ensemble) helps with fixing inefficiencies in the system",
-              "date": "2025-03-04",
-              "link": "https://dragan-stepanovic.github.io//2025/03/04/pain-together.html"
-            },
-            {
-              "title": "If an incident report",
-              "date": "2024-11-19",
-              "link": "https://dragan-stepanovic.github.io//2024/11/19/if-incident-report.html"
-            },
-            {
-              "title": "Let the design guide you",
-              "date": "2024-11-12",
-              "link": "https://dragan-stepanovic.github.io//2024/11/12/design-emergence.html"
-            },
-            {
-              "title": "The scary thing with overly complex solutions",
-              "date": "2024-10-29",
-              "link": "https://dragan-stepanovic.github.io//2024/10/29/scary-thing.html"
-            }
-          ]
-        },
-        {
           "title": "Blog on Hillel Wayne",
           "feedUrl": "https://www.hillelwayne.com/post/index.xml",
           "items": [
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-19T03:46:20.003Z",
+  "fetchDate": "2025-06-20T03:45:25.295Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

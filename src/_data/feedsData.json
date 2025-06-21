@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Ditching Deno KV",
+              "date": "2025-06-20",
+              "link": "https://dbushell.com/2025/06/20/deno-kv-to-sqlite/"
+            },
+            {
+              "title": "You Can’t Pay Me To Prompt!",
+              "date": "2025-06-18",
+              "link": "https://dbushell.com/2025/06/18/ai-policy/"
+            },
+            {
+              "title": "Your Framework is Showing 😳",
+              "date": "2025-06-13",
+              "link": "https://dbushell.com/2025/06/13/your-framework-is-showing-nextjs-error/"
+            },
+            {
+              "title": "Weighing Souls with Anubis at Home",
+              "date": "2025-06-07",
+              "link": "https://dbushell.com/2025/06/07/weighing-souls-with-anubis-at-home/"
+            },
+            {
+              "title": "Baseless",
+              "date": "2025-06-01",
+              "link": "https://dbushell.com/2025/06/01/baseless/"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Career advice, or something like it",
+              "date": "2025-06-20",
+              "link": "http://brooker.co.za/blog/2025/06/20/career.html"
+            },
+            {
+              "title": "Systems Fun at HotOS",
+              "date": "2025-06-02",
+              "link": "http://brooker.co.za/blog/2025/06/02/hotos.html"
+            },
+            {
+              "title": "Good Performance for Bad Days",
+              "date": "2025-05-20",
+              "link": "http://brooker.co.za/blog/2025/05/20/icpe.html"
+            },
+            {
+              "title": "Decomposing Aurora DSQL",
+              "date": "2025-04-17",
+              "link": "http://brooker.co.za/blog/2025/04/17/decomposing.html"
+            },
+            {
+              "title": "One or Two? How Many Queues?",
+              "date": "2025-03-25",
+              "link": "http://brooker.co.za/blog/2025/03/25/two-queues.html"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Exploring and diving",
+              "date": "2025-06-20",
+              "link": "https://anniemueller.com/posts/exploring-and-diving"
+            },
+            {
+              "title": "How I have benefited from racism",
+              "date": "2025-06-19",
+              "link": "https://anniemueller.com/posts/how-i-have-benefited-from-racism"
+            },
+            {
+              "title": "Spam mail from the universe",
+              "date": "2025-06-17",
+              "link": "https://anniemueller.com/posts/spam-mail-from-the-universe"
+            },
+            {
+              "title": "Things Jesus taught",
+              "date": "2025-06-03",
+              "link": "https://anniemueller.com/posts/things-jesus-taught"
+            },
+            {
+              "title": "When you can’t decide",
+              "date": "2025-05-28",
+              "link": "https://anniemueller.com/posts/when-you-cant-decide"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-06-20",
+              "link": "https://dbushell.com/notes/2025-06-20T06:51Z/"
+            },
+            {
+              "date": "2025-06-19",
+              "link": "https://dbushell.com/notes/2025-06-19T09:32Z/"
+            },
+            {
+              "date": "2025-06-19",
+              "link": "https://dbushell.com/notes/2025-06-19T06:39Z/"
+            },
+            {
+              "date": "2025-06-18",
+              "link": "https://dbushell.com/notes/2025-06-18T14:55Z/"
+            },
+            {
+              "date": "2025-06-17",
+              "link": "https://dbushell.com/notes/2025-06-17T16:25Z/"
+            }
+          ]
+        },
+        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -93,94 +212,6 @@
               "title": "Let the design guide you",
               "date": "2024-11-12",
               "link": "https://dragan-stepanovic.github.io//2024/11/12/design-emergence.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-06-19",
-              "link": "https://dbushell.com/notes/2025-06-19T09:32Z/"
-            },
-            {
-              "date": "2025-06-19",
-              "link": "https://dbushell.com/notes/2025-06-19T06:39Z/"
-            },
-            {
-              "date": "2025-06-18",
-              "link": "https://dbushell.com/notes/2025-06-18T14:55Z/"
-            },
-            {
-              "date": "2025-06-17",
-              "link": "https://dbushell.com/notes/2025-06-17T16:25Z/"
-            },
-            {
-              "date": "2025-06-17",
-              "link": "https://dbushell.com/notes/2025-06-17T14:27Z/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "How I have benefited from racism",
-              "date": "2025-06-19",
-              "link": "https://anniemueller.com/posts/how-i-have-benefited-from-racism"
-            },
-            {
-              "title": "Spam mail from the universe",
-              "date": "2025-06-17",
-              "link": "https://anniemueller.com/posts/spam-mail-from-the-universe"
-            },
-            {
-              "title": "Things Jesus taught",
-              "date": "2025-06-03",
-              "link": "https://anniemueller.com/posts/things-jesus-taught"
-            },
-            {
-              "title": "When you can’t decide",
-              "date": "2025-05-28",
-              "link": "https://anniemueller.com/posts/when-you-cant-decide"
-            },
-            {
-              "title": "These are my kids",
-              "date": "2025-05-17",
-              "link": "https://anniemueller.com/posts/these-are-my-kids"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "You Can’t Pay Me To Prompt!",
-              "date": "2025-06-18",
-              "link": "https://dbushell.com/2025/06/18/ai-policy/"
-            },
-            {
-              "title": "Your Framework is Showing 😳",
-              "date": "2025-06-13",
-              "link": "https://dbushell.com/2025/06/13/your-framework-is-showing-nextjs-error/"
-            },
-            {
-              "title": "Weighing Souls with Anubis at Home",
-              "date": "2025-06-07",
-              "link": "https://dbushell.com/2025/06/07/weighing-souls-with-anubis-at-home/"
-            },
-            {
-              "title": "Baseless",
-              "date": "2025-06-01",
-              "link": "https://dbushell.com/2025/06/01/baseless/"
-            },
-            {
-              "title": "Ensloppification",
-              "date": "2025-05-30",
-              "link": "https://dbushell.com/2025/05/30/ensloppification/"
             }
           ]
         },
@@ -278,37 +309,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Becoming an Asshole",
-              "date": "2025-06-15",
-              "link": "https://blog.jim-nielsen.com/2025/becoming-an-asshole/"
-            },
-            {
-              "title": "The Continuum From Static to Dynamic",
-              "date": "2025-06-11",
-              "link": "https://blog.jim-nielsen.com/2025/continuum-from-static-to-dynamic/"
-            },
-            {
-              "title": "The Web as URLs, Not Documents",
-              "date": "2025-06-10",
-              "link": "https://blog.jim-nielsen.com/2025/web-as-urls-not-documents/"
-            },
-            {
-              "title": "Some Miscellaneous Thoughts on Visual Design Prodded By The Sameness of AI Company Logos",
-              "date": "2025-06-06",
-              "link": "https://blog.jim-nielsen.com/2025/visual-design-homogeneity-at-scale/"
-            },
-            {
-              "title": "Notes from Andreas Fredriksson’s “Context is Everything”",
-              "date": "2025-06-04",
-              "link": "https://blog.jim-nielsen.com/2025/notes-context-is-everything/"
-            }
-          ]
-        },
-        {
           "title": "apenwarr",
           "feedUrl": "https://apenwarr.ca/log/rss.php",
           "items": [
@@ -336,6 +336,37 @@
               "title": "\n      Systems design 2: What we hope we know\n    ",
               "date": "2023-07-11",
               "link": "https://apenwarr.ca/log/20230415"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Becoming an Asshole",
+              "date": "2025-06-15",
+              "link": "https://blog.jim-nielsen.com/2025/becoming-an-asshole/"
+            },
+            {
+              "title": "The Continuum From Static to Dynamic",
+              "date": "2025-06-11",
+              "link": "https://blog.jim-nielsen.com/2025/continuum-from-static-to-dynamic/"
+            },
+            {
+              "title": "The Web as URLs, Not Documents",
+              "date": "2025-06-10",
+              "link": "https://blog.jim-nielsen.com/2025/web-as-urls-not-documents/"
+            },
+            {
+              "title": "Some Miscellaneous Thoughts on Visual Design Prodded By The Sameness of AI Company Logos",
+              "date": "2025-06-06",
+              "link": "https://blog.jim-nielsen.com/2025/visual-design-homogeneity-at-scale/"
+            },
+            {
+              "title": "Notes from Andreas Fredriksson’s “Context is Everything”",
+              "date": "2025-06-04",
+              "link": "https://blog.jim-nielsen.com/2025/notes-context-is-everything/"
             }
           ]
         },
@@ -770,37 +801,6 @@
               "title": "Tidbyt without the company",
               "date": "2025-04-12",
               "link": "https://macwright.com/2025/04/12/tidbyt-second-life.html"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Systems Fun at HotOS",
-              "date": "2025-06-02",
-              "link": "http://brooker.co.za/blog/2025/06/02/hotos.html"
-            },
-            {
-              "title": "Good Performance for Bad Days",
-              "date": "2025-05-20",
-              "link": "http://brooker.co.za/blog/2025/05/20/icpe.html"
-            },
-            {
-              "title": "Decomposing Aurora DSQL",
-              "date": "2025-04-17",
-              "link": "http://brooker.co.za/blog/2025/04/17/decomposing.html"
-            },
-            {
-              "title": "One or Two? How Many Queues?",
-              "date": "2025-03-25",
-              "link": "http://brooker.co.za/blog/2025/03/25/two-queues.html"
-            },
-            {
-              "title": "What Fekete's Anomaly Can Teach Us About Isolation",
-              "date": "2025-02-05",
-              "link": "http://brooker.co.za/blog/2025/02/05/feketes.html"
             }
           ]
         },
@@ -1673,37 +1673,6 @@
           ]
         },
         {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Reflections on writing a book",
-              "date": "2025-03-24",
-              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
-            },
-            {
-              "title": "Make it happen",
-              "date": "2025-02-11",
-              "link": "https://dubroy.com/blog/make-it-happen/"
-            },
-            {
-              "title": "Five coding hats",
-              "date": "2025-02-03",
-              "link": "https://dubroy.com/blog/five-coding-hats/"
-            },
-            {
-              "title": "One way to do applied research",
-              "date": "2024-11-07",
-              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
-            },
-            {
-              "title": "Memories of some fantastic internships",
-              "date": "2024-07-31",
-              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
-            }
-          ]
-        },
-        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -2461,11 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-20T03:45:25.295Z",
+  "fetchDate": "2025-06-21T03:43:17.923Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
+    "https://dubroy.com/blog/rss.xml",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

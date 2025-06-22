@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "TypeScript: checking Map keys and Array indices",
+              "date": "2025-06-21",
+              "link": "https://2ality.com/2025/06/checking-map-keys-array-indices-typescript.html"
+            },
+            {
+              "title": "How TypeScript solved its global <code>Iterator</code> name clash",
+              "date": "2025-06-18",
+              "link": "https://2ality.com/2025/06/typescript-iterator-types.html"
+            },
+            {
+              "title": "Styling console text in Node.js",
+              "date": "2025-05-15",
+              "link": "https://2ality.com/2025/05/ansi-escape-sequences-nodejs.html"
+            },
+            {
+              "title": "Converting values to strings in JavaScript has pitfalls",
+              "date": "2025-04-29",
+              "link": "https://2ality.com/2025/04/stringification-javascript.html"
+            },
+            {
+              "title": "Deploying TypeScript: recent advances and possible future directions",
+              "date": "2025-04-13",
+              "link": "https://2ality.com/2025/04/deploying-typescript-present-future.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-06-21",
+              "link": "https://dbushell.com/notes/2025-06-21T12:44Z/"
+            },
+            {
+              "date": "2025-06-20",
+              "link": "https://dbushell.com/notes/2025-06-20T06:51Z/"
+            },
+            {
+              "date": "2025-06-19",
+              "link": "https://dbushell.com/notes/2025-06-19T09:32Z/"
+            },
+            {
+              "date": "2025-06-19",
+              "link": "https://dbushell.com/notes/2025-06-19T06:39Z/"
+            },
+            {
+              "date": "2025-06-18",
+              "link": "https://dbushell.com/notes/2025-06-18T14:55Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -62,63 +119,6 @@
               "title": "One or Two? How Many Queues?",
               "date": "2025-03-25",
               "link": "http://brooker.co.za/blog/2025/03/25/two-queues.html"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Exploring and diving",
-              "date": "2025-06-20",
-              "link": "https://anniemueller.com/posts/exploring-and-diving"
-            },
-            {
-              "title": "How I have benefited from racism",
-              "date": "2025-06-19",
-              "link": "https://anniemueller.com/posts/how-i-have-benefited-from-racism"
-            },
-            {
-              "title": "Spam mail from the universe",
-              "date": "2025-06-17",
-              "link": "https://anniemueller.com/posts/spam-mail-from-the-universe"
-            },
-            {
-              "title": "Things Jesus taught",
-              "date": "2025-06-03",
-              "link": "https://anniemueller.com/posts/things-jesus-taught"
-            },
-            {
-              "title": "When you can’t decide",
-              "date": "2025-05-28",
-              "link": "https://anniemueller.com/posts/when-you-cant-decide"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-06-20",
-              "link": "https://dbushell.com/notes/2025-06-20T06:51Z/"
-            },
-            {
-              "date": "2025-06-19",
-              "link": "https://dbushell.com/notes/2025-06-19T09:32Z/"
-            },
-            {
-              "date": "2025-06-19",
-              "link": "https://dbushell.com/notes/2025-06-19T06:39Z/"
-            },
-            {
-              "date": "2025-06-18",
-              "link": "https://dbushell.com/notes/2025-06-18T14:55Z/"
-            },
-            {
-              "date": "2025-06-17",
-              "link": "https://dbushell.com/notes/2025-06-17T16:25Z/"
             }
           ]
         },
@@ -247,37 +247,6 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "How TypeScript solved its global <code>Iterator</code> name clash",
-              "date": "2025-06-18",
-              "link": "https://2ality.com/2025/06/typescript-iterator-types.html"
-            },
-            {
-              "title": "Styling console text in Node.js",
-              "date": "2025-05-15",
-              "link": "https://2ality.com/2025/05/ansi-escape-sequences-nodejs.html"
-            },
-            {
-              "title": "Converting values to strings in JavaScript has pitfalls",
-              "date": "2025-04-29",
-              "link": "https://2ality.com/2025/04/stringification-javascript.html"
-            },
-            {
-              "title": "Deploying TypeScript: recent advances and possible future directions",
-              "date": "2025-04-13",
-              "link": "https://2ality.com/2025/04/deploying-typescript-present-future.html"
-            },
-            {
-              "title": "Ideas for making TypeScript better at testing types",
-              "date": "2025-04-12",
-              "link": "https://2ality.com/2025/04/testing-types-typescript.html"
-            }
-          ]
-        },
-        {
           "title": "jakelazaroff.com",
           "feedUrl": "https://jakelazaroff.com/rss.xml",
           "items": [
@@ -309,37 +278,6 @@
           ]
         },
         {
-          "title": "apenwarr",
-          "feedUrl": "https://apenwarr.ca/log/rss.php",
-          "items": [
-            {
-              "title": "\n      The evasive evitability of enshittification\n    ",
-              "date": "2025-06-15",
-              "link": "https://apenwarr.ca/log/20250530"
-            },
-            {
-              "title": "\n      NPS, the good parts\n    ",
-              "date": "2023-12-05",
-              "link": "https://apenwarr.ca/log/20231204"
-            },
-            {
-              "title": "\n      Interesting\n    ",
-              "date": "2023-10-06",
-              "link": "https://apenwarr.ca/log/20231006"
-            },
-            {
-              "title": "\n      Tech debt metaphor maximalism\n    ",
-              "date": "2023-07-11",
-              "link": "https://apenwarr.ca/log/20230605"
-            },
-            {
-              "title": "\n      Systems design 2: What we hope we know\n    ",
-              "date": "2023-07-11",
-              "link": "https://apenwarr.ca/log/20230415"
-            }
-          ]
-        },
-        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -367,6 +305,37 @@
               "title": "Notes from Andreas Fredriksson’s “Context is Everything”",
               "date": "2025-06-04",
               "link": "https://blog.jim-nielsen.com/2025/notes-context-is-everything/"
+            }
+          ]
+        },
+        {
+          "title": "apenwarr",
+          "feedUrl": "https://apenwarr.ca/log/rss.php",
+          "items": [
+            {
+              "title": "\n      The evasive evitability of enshittification\n    ",
+              "date": "2025-06-15",
+              "link": "https://apenwarr.ca/log/20250530"
+            },
+            {
+              "title": "\n      NPS, the good parts\n    ",
+              "date": "2023-12-05",
+              "link": "https://apenwarr.ca/log/20231204"
+            },
+            {
+              "title": "\n      Interesting\n    ",
+              "date": "2023-10-06",
+              "link": "https://apenwarr.ca/log/20231006"
+            },
+            {
+              "title": "\n      Tech debt metaphor maximalism\n    ",
+              "date": "2023-07-11",
+              "link": "https://apenwarr.ca/log/20230605"
+            },
+            {
+              "title": "\n      Systems design 2: What we hope we know\n    ",
+              "date": "2023-07-11",
+              "link": "https://apenwarr.ca/log/20230415"
             }
           ]
         },
@@ -619,37 +588,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Using `make` to compile C programs (for non-C-programmers)",
-              "date": "2025-06-10",
-              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
-            },
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            },
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            },
-            {
-              "title": "What's involved in getting a \"modern\" terminal setup?",
-              "date": "2025-01-11",
-              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
-            }
-          ]
-        },
-        {
           "title": "Mathias Verraes",
           "feedUrl": "https://verraes.net/feed.atom",
           "items": [
@@ -712,33 +650,33 @@
           ]
         },
         {
-          "title": "Fynn Ellie Becker",
-          "feedUrl": "https://fynn.be/feed.xml",
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
             {
-              "title": "Tackling Temporal Troubles",
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
               "date": "2025-06-10",
-              "link": "https://fynn.be/talks/tackling-temporal-troubles/"
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
             },
             {
-              "title": "BITV-Zertifizierung der Factorial-Website",
-              "date": "2025-05-15",
-              "link": "https://fynn.be/talks/factorial-website-bitv/"
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
             },
             {
-              "title": "Sunset v29",
-              "date": "2025-05-15",
-              "link": "https://fynn.be/sunset/v29/"
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
             },
             {
-              "title": "Introduction to digital accessibility",
-              "date": "2025-03-04",
-              "link": "https://fynn.be/talks/introduction-digital-accessibility/"
+              "title": "Some terminal frustrations",
+              "date": "2025-02-05",
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
             },
             {
-              "title": "Panic",
-              "date": "2025-02-22",
-              "link": "https://fynn.be/blog/panic/"
+              "title": "What's involved in getting a \"modern\" terminal setup?",
+              "date": "2025-01-11",
+              "link": "https://jvns.ca/blog/2025/01/11/getting-a-modern-terminal-setup/"
             }
           ]
         },
@@ -987,37 +925,6 @@
               "title": "AI Is Not Designed for You",
               "date": "2024-12-06",
               "link": "https://www.youtube.com/watch?v=6Lxk9NMeWHg"
-            }
-          ]
-        },
-        {
-          "title": "Sara Joy",
-          "feedUrl": "https://sarajoy.dev/rss.xml",
-          "items": [
-            {
-              "title": "Those annoying long URLs causing overflow?",
-              "date": "2025-05-22",
-              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
-            },
-            {
-              "title": "Come to the light-dark() Side",
-              "date": "2024-10-26",
-              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
-            },
-            {
-              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
-              "date": "2024-09-30",
-              "link": "https://sarajoy.dev/blog/see-and-point/"
-            },
-            {
-              "title": "Sara Uses",
-              "date": "2024-09-10",
-              "link": "https://sarajoy.dev/blog/uses/"
-            },
-            {
-              "title": "Weaknote 2024-07-25 (a tab amnesty)",
-              "date": "2024-07-25",
-              "link": "https://sarajoy.dev/blog/notes/20240725/"
             }
           ]
         },
@@ -1363,68 +1270,6 @@
           ]
         },
         {
-          "title": "molily",
-          "feedUrl": "https://molily.de/feed.xml",
-          "items": [
-            {
-              "title": "On the environmental impact of AI",
-              "date": "2025-05-09",
-              "link": "https://molily.de/ai-environment/"
-            },
-            {
-              "title": "Something went wrong",
-              "date": "2024-09-10",
-              "link": "https://molily.de/something-went-wrong/"
-            },
-            {
-              "title": "Full circle development",
-              "date": "2023-11-10",
-              "link": "https://molily.de/full-circle-development/"
-            },
-            {
-              "title": "Planet of the Beavers",
-              "date": "2023-10-06",
-              "link": "https://molily.de/planet-of-the-beavers/"
-            },
-            {
-              "title": "On browser compatibility and support baselines",
-              "date": "2023-05-12",
-              "link": "https://molily.de/browser-compatibility-baseline/"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Taking a break",
-              "date": "2025-05-05",
-              "link": "https://ntietz.com/blog/taking-a-break/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Measuring my Framework laptop's performance in 3 positions",
-              "date": "2025-04-28",
-              "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "The five stages of incident response",
-              "date": "2025-04-21",
-              "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Python is an interpreted language with a compiler",
-              "date": "2025-04-14",
-              "link": "https://ntietz.com/blog/python-is-an-interpreted-language-with-a-compiler/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Typing using my keyboard (the other kind)",
-              "date": "2025-04-07",
-              "link": "https://ntietz.com/blog/typing-using-my-keyboard-the-other-kind/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -1731,37 +1576,6 @@
               "title": "Contributing in New Ways - Finding Closure among New Opportunities",
               "date": "2024-12-17",
               "link": "https://www.lisihocke.com/2024/12/contributing-in-new-ways-finding-closure-among-new-opportunities.html"
-            }
-          ]
-        },
-        {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
-              "date": "2025-03-09",
-              "link": "https://www.felienne.com/archives/8880"
-            },
-            {
-              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
-              "date": "2025-03-03",
-              "link": "https://www.felienne.com/archives/8853"
-            },
-            {
-              "title": "Who owns your cloned AI voice – Week 8’s AI news",
-              "date": "2025-02-23",
-              "link": "https://www.felienne.com/archives/8808"
-            },
-            {
-              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
-              "date": "2025-02-15",
-              "link": "https://www.felienne.com/archives/8749"
-            },
-            {
-              "title": "Week 6’s AI News",
-              "date": "2025-02-07",
-              "link": "https://www.felienne.com/archives/8900"
             }
           ]
         },
@@ -2430,12 +2244,18 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-21T03:43:17.923Z",
+  "fetchDate": "2025-06-22T03:51:41.303Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://dubroy.com/blog/rss.xml",
+    "https://fynn.be/feed.xml",
+    "https://molily.de/feed.xml",
+    "https://sarajoy.dev/rss.xml",
+    "https://www.felienne.com/feed",
+    "https://anniemueller.com/posts_feed",
+    "https://ntietz.com/atom.xml",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

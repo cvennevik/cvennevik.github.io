@@ -4,6 +4,187 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "Quality is a trap",
+              "date": "2025-06-25",
+              "link": "https://ericwbailey.website/published/quality-is-a-trap/"
+            },
+            {
+              "title": "Organizing a design system via folksonomy",
+              "date": "2025-05-15",
+              "link": "https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/"
+            },
+            {
+              "title": "Article pitch for your consideration",
+              "date": "2025-04-08",
+              "link": "https://ericwbailey.website/published/article-pitch-for-your-consideration/"
+            },
+            {
+              "title": "Tag, you’re it",
+              "date": "2025-03-18",
+              "link": "https://ericwbailey.website/published/tag-youre-it/"
+            },
+            {
+              "title": "Harm reduction principles for digital accessibility practitioners",
+              "date": "2025-03-06",
+              "link": "https://ericwbailey.website/published/harm-reduction-principles-for-digital-accessibility-practitioners/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Little Swarming Gnats of Data",
+              "date": "2025-06-24",
+              "link": "https://blog.jim-nielsen.com/2025/data-gants/"
+            },
+            {
+              "title": "My Copy of The Internet Phone Book",
+              "date": "2025-06-22",
+              "link": "https://blog.jim-nielsen.com/2025/internet-phone-book/"
+            },
+            {
+              "title": "Becoming an Asshole",
+              "date": "2025-06-15",
+              "link": "https://blog.jim-nielsen.com/2025/becoming-an-asshole/"
+            },
+            {
+              "title": "The Continuum From Static to Dynamic",
+              "date": "2025-06-11",
+              "link": "https://blog.jim-nielsen.com/2025/continuum-from-static-to-dynamic/"
+            },
+            {
+              "title": "The Web as URLs, Not Documents",
+              "date": "2025-06-10",
+              "link": "https://blog.jim-nielsen.com/2025/web-as-urls-not-documents/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Tips for making regular expressions easier to use in JavaScript",
+              "date": "2025-06-24",
+              "link": "https://2ality.com/2025/06/javascript-regexp-tips.html"
+            },
+            {
+              "title": "TypeScript: checking Map keys and Array indices",
+              "date": "2025-06-21",
+              "link": "https://2ality.com/2025/06/checking-map-keys-array-indices-typescript.html"
+            },
+            {
+              "title": "How TypeScript solved its global <code>Iterator</code> name clash",
+              "date": "2025-06-18",
+              "link": "https://2ality.com/2025/06/typescript-iterator-types.html"
+            },
+            {
+              "title": "Styling console text in Node.js",
+              "date": "2025-05-15",
+              "link": "https://2ality.com/2025/05/ansi-escape-sequences-nodejs.html"
+            },
+            {
+              "title": "Converting values to strings in JavaScript has pitfalls",
+              "date": "2025-04-29",
+              "link": "https://2ality.com/2025/04/stringification-javascript.html"
+            }
+          ]
+        },
+        {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "The 3DS Still Holds Up",
+              "date": "2025-06-24",
+              "link": "https://boehs.org/node/3ds"
+            },
+            {
+              "title": "Is AI Really Killing Critical Thought?",
+              "date": "2025-06-24",
+              "link": "https://boehs.org/node/ai-and-critical-thinking"
+            },
+            {
+              "title": "You Want to Geofence My GPU???",
+              "date": "2025-05-15",
+              "link": "https://boehs.org/node/gpu-geofence"
+            },
+            {
+              "title": "How Did the Blog Do in 2024?",
+              "date": "2025-04-04",
+              "link": "https://boehs.org/node/the-blog-in-2024"
+            },
+            {
+              "title": "Peanuts in Church and Casual Misinformation",
+              "date": "2025-04-02",
+              "link": "https://boehs.org/node/weird-laws"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-06-24",
+              "link": "https://dbushell.com/notes/2025-06-24T14:05Z/"
+            },
+            {
+              "date": "2025-06-22",
+              "link": "https://dbushell.com/notes/2025-06-22T06:11Z/"
+            },
+            {
+              "date": "2025-06-21",
+              "link": "https://dbushell.com/notes/2025-06-21T12:44Z/"
+            },
+            {
+              "date": "2025-06-20",
+              "link": "https://dbushell.com/notes/2025-06-20T06:51Z/"
+            },
+            {
+              "date": "2025-06-19",
+              "link": "https://dbushell.com/notes/2025-06-19T09:32Z/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "You can cheat a test suite with a big enough polynomial",
+              "date": "2025-06-24",
+              "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/"
+            },
+            {
+              "title": "Solving LinkedIn Queens with SMT",
+              "date": "2025-06-12",
+              "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/"
+            },
+            {
+              "title": "AI is a gamechanger for TLA+ users",
+              "date": "2025-06-05",
+              "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/"
+            },
+            {
+              "title": "What does \"Undecidable\" mean, anyway",
+              "date": "2025-05-28",
+              "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/"
+            },
+            {
+              "title": "Finding hard 24 puzzles with planner programming",
+              "date": "2025-05-20",
+              "link": "https://buttondown.com/hillelwayne/archive/finding-hard-24-puzzles-with-planner-programming/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -128,37 +309,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "My Copy of The Internet Phone Book",
-              "date": "2025-06-22",
-              "link": "https://blog.jim-nielsen.com/2025/internet-phone-book/"
-            },
-            {
-              "title": "Becoming an Asshole",
-              "date": "2025-06-15",
-              "link": "https://blog.jim-nielsen.com/2025/becoming-an-asshole/"
-            },
-            {
-              "title": "The Continuum From Static to Dynamic",
-              "date": "2025-06-11",
-              "link": "https://blog.jim-nielsen.com/2025/continuum-from-static-to-dynamic/"
-            },
-            {
-              "title": "The Web as URLs, Not Documents",
-              "date": "2025-06-10",
-              "link": "https://blog.jim-nielsen.com/2025/web-as-urls-not-documents/"
-            },
-            {
-              "title": "Some Miscellaneous Thoughts on Visual Design Prodded By The Sameness of AI Company Logos",
-              "date": "2025-06-06",
-              "link": "https://blog.jim-nielsen.com/2025/visual-design-homogeneity-at-scale/"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -186,63 +336,6 @@
               "title": "Notes - Seeing the world through a different lens",
               "date": "2025-04-05",
               "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-seeing-the-world-through-a-different-lens-trond-hjorteland.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-06-22",
-              "link": "https://dbushell.com/notes/2025-06-22T06:11Z/"
-            },
-            {
-              "date": "2025-06-21",
-              "link": "https://dbushell.com/notes/2025-06-21T12:44Z/"
-            },
-            {
-              "date": "2025-06-20",
-              "link": "https://dbushell.com/notes/2025-06-20T06:51Z/"
-            },
-            {
-              "date": "2025-06-19",
-              "link": "https://dbushell.com/notes/2025-06-19T09:32Z/"
-            },
-            {
-              "date": "2025-06-19",
-              "link": "https://dbushell.com/notes/2025-06-19T06:39Z/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "TypeScript: checking Map keys and Array indices",
-              "date": "2025-06-21",
-              "link": "https://2ality.com/2025/06/checking-map-keys-array-indices-typescript.html"
-            },
-            {
-              "title": "How TypeScript solved its global <code>Iterator</code> name clash",
-              "date": "2025-06-18",
-              "link": "https://2ality.com/2025/06/typescript-iterator-types.html"
-            },
-            {
-              "title": "Styling console text in Node.js",
-              "date": "2025-05-15",
-              "link": "https://2ality.com/2025/05/ansi-escape-sequences-nodejs.html"
-            },
-            {
-              "title": "Converting values to strings in JavaScript has pitfalls",
-              "date": "2025-04-29",
-              "link": "https://2ality.com/2025/04/stringification-javascript.html"
-            },
-            {
-              "title": "Deploying TypeScript: recent advances and possible future directions",
-              "date": "2025-04-13",
-              "link": "https://2ality.com/2025/04/deploying-typescript-present-future.html"
             }
           ]
         },
@@ -464,6 +557,37 @@
           ]
         },
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "Safari at WWDC '25: The Ghost of Christmas Past",
+              "date": "2025-06-13",
+              "link": "https://infrequently.org/2025/06/the-ghost-of-christmas-past/"
+            },
+            {
+              "title": "If Not React, Then What?",
+              "date": "2024-11-29",
+              "link": "https://infrequently.org/2024/11/if-not-react-then-what/"
+            },
+            {
+              "title": "Platform Strategy and Its Discontents",
+              "date": "2024-10-27",
+              "link": "https://infrequently.org/2024/10/platforms-are-competitions/"
+            },
+            {
+              "title": "Reckoning: Part 4 — The Way Out",
+              "date": "2024-08-16",
+              "link": "https://infrequently.org/2024/08/the-way-out/"
+            },
+            {
+              "title": "Reckoning: Part 3 — Caprock",
+              "date": "2024-08-14",
+              "link": "https://infrequently.org/2024/08/caprock/"
+            }
+          ]
+        },
+        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -584,37 +708,6 @@
               "title": "Overwatching",
               "date": "2025-05-09",
               "link": "https://frills.dev/blog/2025/may/overwatching/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Solving LinkedIn Queens with SMT",
-              "date": "2025-06-12",
-              "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/"
-            },
-            {
-              "title": "AI is a gamechanger for TLA+ users",
-              "date": "2025-06-05",
-              "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/"
-            },
-            {
-              "title": "What does \"Undecidable\" mean, anyway",
-              "date": "2025-05-28",
-              "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/"
-            },
-            {
-              "title": "Finding hard 24 puzzles with planner programming",
-              "date": "2025-05-20",
-              "link": "https://buttondown.com/hillelwayne/archive/finding-hard-24-puzzles-with-planner-programming/"
-            },
-            {
-              "title": "Modeling Awkward Social Situations with TLA+",
-              "date": "2025-05-14",
-              "link": "https://buttondown.com/hillelwayne/archive/modeling-awkward-social-situations-with-tla/"
             }
           ]
         },
@@ -1270,37 +1363,6 @@
           ]
         },
         {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "Organizing a design system via folksonomy",
-              "date": "2025-05-15",
-              "link": "https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/"
-            },
-            {
-              "title": "Article pitch for your consideration",
-              "date": "2025-04-08",
-              "link": "https://ericwbailey.website/published/article-pitch-for-your-consideration/"
-            },
-            {
-              "title": "Tag, you’re it",
-              "date": "2025-03-18",
-              "link": "https://ericwbailey.website/published/tag-youre-it/"
-            },
-            {
-              "title": "Harm reduction principles for digital accessibility practitioners",
-              "date": "2025-03-06",
-              "link": "https://ericwbailey.website/published/harm-reduction-principles-for-digital-accessibility-practitioners/"
-            },
-            {
-              "title": "Evaluating overlay-adjacent accessibility products",
-              "date": "2025-02-14",
-              "link": "https://ericwbailey.website/published/evaluating-overlay-adjacent-accessibility-products/"
-            }
-          ]
-        },
-        {
           "title": "leanrada.com notes",
           "feedUrl": "https://leanrada.com/rss.xml",
           "items": [
@@ -1328,37 +1390,6 @@
               "title": "Inline rendering with document​.currentScript",
               "date": "2025-03-07",
               "link": "https://leanrada.com/notes/inline-rendering-currentscript/?ref=rss"
-            }
-          ]
-        },
-        {
-          "title": "Evan Boehs in the blog",
-          "feedUrl": "https://boehs.org/in/blog.xml",
-          "items": [
-            {
-              "title": "You Want to Geofence My GPU???",
-              "date": "2025-05-15",
-              "link": "https://boehs.org/node/gpu-geofence"
-            },
-            {
-              "title": "How Did the Blog Do in 2024?",
-              "date": "2025-04-04",
-              "link": "https://boehs.org/node/the-blog-in-2024"
-            },
-            {
-              "title": "Peanuts in Church and Casual Misinformation",
-              "date": "2025-04-02",
-              "link": "https://boehs.org/node/weird-laws"
-            },
-            {
-              "title": "Garmin Connect+ and the Beginning of the End",
-              "date": "2025-03-27",
-              "link": "https://boehs.org/node/garmin-connect-plus"
-            },
-            {
-              "title": "Apple Voice Dictation Writes 'Trump' When You Say 'Racist'",
-              "date": "2025-02-25",
-              "link": "https://boehs.org/node/racist-autocorrect"
             }
           ]
         },
@@ -2430,9 +2461,8 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-24T03:47:36.191Z",
+  "fetchDate": "2025-06-25T03:49:16.037Z",
   "errors": [
-    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

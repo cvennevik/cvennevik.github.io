@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "En kommentar om kommentarer og AI",
+              "date": "2025-07-23",
+              "link": "https://www.kodemaker.no/blogg/2025-06-25-kommentarer/"
+            },
+            {
+              "title": "SQLite er raskere enn du tror",
+              "date": "2025-06-19",
+              "link": "https://www.kodemaker.no/blogg/2025-06-19-sqlite-er-raskere-enn-du-tror/"
+            },
+            {
+              "title": "Supply chain attacks: Kan vi stole på open source?",
+              "date": "2025-06-11",
+              "link": "https://www.kodemaker.no/blogg/2025-06-11-supply-chain-attacks/"
+            },
+            {
+              "title": "Hva er WebAssembly?",
+              "date": "2025-05-20",
+              "link": "https://www.kodemaker.no/blogg/2025-05-20-hva-er-webassembly/"
+            },
+            {
+              "title": "Hva har LEGO-bygging til felles med Discriminated Unions?",
+              "date": "2025-05-12",
+              "link": "https://www.kodemaker.no/blogg/2025-05-12-discriminated-unions-and-lego/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "SVG Optimization and Accessibility Basics",
+              "date": "2025-06-25",
+              "link": "https://dbushell.com/2025/06/25/svg-optimization-and-accessibility-basics/"
+            },
+            {
+              "title": "JSR & Deno One Year Later - Malware?!",
+              "date": "2025-06-23",
+              "link": "https://dbushell.com/2025/06/23/jsr-and-deno-one-year-later-malware/"
+            },
+            {
+              "title": "Ditching Deno KV",
+              "date": "2025-06-20",
+              "link": "https://dbushell.com/2025/06/20/deno-kv-to-sqlite/"
+            },
+            {
+              "title": "You Can’t Pay Me To Prompt!",
+              "date": "2025-06-18",
+              "link": "https://dbushell.com/2025/06/18/ai-policy/"
+            },
+            {
+              "title": "Your Framework is Showing 😳",
+              "date": "2025-06-13",
+              "link": "https://dbushell.com/2025/06/13/your-framework-is-showing-nextjs-error/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Rethinking modular CSS and build-free design systems",
+              "date": "2025-06-25",
+              "link": "https://gomakethings.com/rethinking-modular-css-and-build-free-design-systems/"
+            },
+            {
+              "title": "How to create light and dark color modes with CSS",
+              "date": "2025-06-23",
+              "link": "https://gomakethings.com/how-to-create-light-and-dark-color-modes-with-css/"
+            },
+            {
+              "title": "Creating a semantic color palette",
+              "date": "2025-06-18",
+              "link": "https://gomakethings.com/creating-a-semantic-color-palette/"
+            },
+            {
+              "title": "The Kelp Commons License",
+              "date": "2025-06-17",
+              "link": "https://gomakethings.com/the-kelp-commons-license/"
+            },
+            {
+              "title": "How to create an accessible color palette",
+              "date": "2025-06-16",
+              "link": "https://gomakethings.com/how-to-create-an-accessible-color-palette/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Transforming HTML With Netlify Edge Functions",
+              "date": "2025-06-25",
+              "link": "https://blog.jim-nielsen.com/2025/transform-html-with-edge-functions/"
+            },
+            {
+              "title": "Little Swarming Gnats of Data",
+              "date": "2025-06-24",
+              "link": "https://blog.jim-nielsen.com/2025/data-gants/"
+            },
+            {
+              "title": "My Copy of The Internet Phone Book",
+              "date": "2025-06-22",
+              "link": "https://blog.jim-nielsen.com/2025/internet-phone-book/"
+            },
+            {
+              "title": "Becoming an Asshole",
+              "date": "2025-06-15",
+              "link": "https://blog.jim-nielsen.com/2025/becoming-an-asshole/"
+            },
+            {
+              "title": "The Continuum From Static to Dynamic",
+              "date": "2025-06-11",
+              "link": "https://blog.jim-nielsen.com/2025/continuum-from-static-to-dynamic/"
+            }
+          ]
+        },
+        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -35,33 +159,28 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
             {
-              "title": "Little Swarming Gnats of Data",
+              "date": "2025-06-25",
+              "link": "https://dbushell.com/notes/2025-06-25T15:22Z/"
+            },
+            {
               "date": "2025-06-24",
-              "link": "https://blog.jim-nielsen.com/2025/data-gants/"
+              "link": "https://dbushell.com/notes/2025-06-24T14:05Z/"
             },
             {
-              "title": "My Copy of The Internet Phone Book",
               "date": "2025-06-22",
-              "link": "https://blog.jim-nielsen.com/2025/internet-phone-book/"
+              "link": "https://dbushell.com/notes/2025-06-22T06:11Z/"
             },
             {
-              "title": "Becoming an Asshole",
-              "date": "2025-06-15",
-              "link": "https://blog.jim-nielsen.com/2025/becoming-an-asshole/"
+              "date": "2025-06-21",
+              "link": "https://dbushell.com/notes/2025-06-21T12:44Z/"
             },
             {
-              "title": "The Continuum From Static to Dynamic",
-              "date": "2025-06-11",
-              "link": "https://blog.jim-nielsen.com/2025/continuum-from-static-to-dynamic/"
-            },
-            {
-              "title": "The Web as URLs, Not Documents",
-              "date": "2025-06-10",
-              "link": "https://blog.jim-nielsen.com/2025/web-as-urls-not-documents/"
+              "date": "2025-06-20",
+              "link": "https://dbushell.com/notes/2025-06-20T06:51Z/"
             }
           ]
         },
@@ -128,32 +247,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-06-24",
-              "link": "https://dbushell.com/notes/2025-06-24T14:05Z/"
-            },
-            {
-              "date": "2025-06-22",
-              "link": "https://dbushell.com/notes/2025-06-22T06:11Z/"
-            },
-            {
-              "date": "2025-06-21",
-              "link": "https://dbushell.com/notes/2025-06-21T12:44Z/"
-            },
-            {
-              "date": "2025-06-20",
-              "link": "https://dbushell.com/notes/2025-06-20T06:51Z/"
-            },
-            {
-              "date": "2025-06-19",
-              "link": "https://dbushell.com/notes/2025-06-19T09:32Z/"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -181,68 +274,6 @@
               "title": "Finding hard 24 puzzles with planner programming",
               "date": "2025-05-20",
               "link": "https://buttondown.com/hillelwayne/archive/finding-hard-24-puzzles-with-planner-programming/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "JSR & Deno One Year Later - Malware?!",
-              "date": "2025-06-23",
-              "link": "https://dbushell.com/2025/06/23/jsr-and-deno-one-year-later-malware/"
-            },
-            {
-              "title": "Ditching Deno KV",
-              "date": "2025-06-20",
-              "link": "https://dbushell.com/2025/06/20/deno-kv-to-sqlite/"
-            },
-            {
-              "title": "You Can’t Pay Me To Prompt!",
-              "date": "2025-06-18",
-              "link": "https://dbushell.com/2025/06/18/ai-policy/"
-            },
-            {
-              "title": "Your Framework is Showing 😳",
-              "date": "2025-06-13",
-              "link": "https://dbushell.com/2025/06/13/your-framework-is-showing-nextjs-error/"
-            },
-            {
-              "title": "Weighing Souls with Anubis at Home",
-              "date": "2025-06-07",
-              "link": "https://dbushell.com/2025/06/07/weighing-souls-with-anubis-at-home/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "How to create light and dark color modes with CSS",
-              "date": "2025-06-23",
-              "link": "https://gomakethings.com/how-to-create-light-and-dark-color-modes-with-css/"
-            },
-            {
-              "title": "Creating a semantic color palette",
-              "date": "2025-06-18",
-              "link": "https://gomakethings.com/creating-a-semantic-color-palette/"
-            },
-            {
-              "title": "The Kelp Commons License",
-              "date": "2025-06-17",
-              "link": "https://gomakethings.com/the-kelp-commons-license/"
-            },
-            {
-              "title": "How to create an accessible color palette",
-              "date": "2025-06-16",
-              "link": "https://gomakethings.com/how-to-create-an-accessible-color-palette/"
-            },
-            {
-              "title": "Controlling spacing in modern CSS layouts",
-              "date": "2025-06-13",
-              "link": "https://gomakethings.com/controlling-spacing-in-modern-css-layouts/"
             }
           ]
         },
@@ -402,68 +433,6 @@
           ]
         },
         {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "In Praise of “Normal” Engineers",
-              "date": "2025-06-19",
-              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
-            },
-            {
-              "title": "On How Long it Takes to Know if a Job is Right for You or Not",
-              "date": "2025-06-08",
-              "link": "https://charity.wtf/2025/06/08/on-how-long-it-takes-to-know-if-a-job-is-right-for-you-or-not/"
-            },
-            {
-              "title": "On Pronouns, Policies and Mandates",
-              "date": "2025-05-02",
-              "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
-            },
-            {
-              "title": "On Dropouts and Bootstraps",
-              "date": "2025-04-28",
-              "link": "https://charity.wtf/2025/04/28/on-dropouts-and-bootstraps/"
-            },
-            {
-              "title": "On Writing, Social Media, and Finding the Line of Embarrassment",
-              "date": "2025-04-19",
-              "link": "https://charity.wtf/2025/04/19/on-writing-social-media-and-finding-the-line-of-embarrassment/"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "SQLite er raskere enn du tror",
-              "date": "2025-06-19",
-              "link": "https://www.kodemaker.no/blogg/2025-06-19-sqlite-er-raskere-enn-du-tror/"
-            },
-            {
-              "title": "Supply chain attacks: Kan vi stole på open source?",
-              "date": "2025-06-11",
-              "link": "https://www.kodemaker.no/blogg/2025-06-11-supply-chain-attacks/"
-            },
-            {
-              "title": "Hva er WebAssembly?",
-              "date": "2025-05-20",
-              "link": "https://www.kodemaker.no/blogg/2025-05-20-hva-er-webassembly/"
-            },
-            {
-              "title": "Hva har LEGO-bygging til felles med Discriminated Unions?",
-              "date": "2025-05-12",
-              "link": "https://www.kodemaker.no/blogg/2025-05-12-discriminated-unions-and-lego/"
-            },
-            {
-              "title": "Deklarative kart med maplibre",
-              "date": "2025-05-07",
-              "link": "https://www.kodemaker.no/blogg/2025-05-07-deklarative-kart-maplibre-gl/"
-            }
-          ]
-        },
-        {
           "title": "draganstepanovic.com",
           "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
           "items": [
@@ -491,6 +460,37 @@
               "title": "Let the design guide you",
               "date": "2024-11-12",
               "link": "https://dragan-stepanovic.github.io//2024/11/12/design-emergence.html"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Book Report: The Dream Hotel",
+              "date": "2025-06-19",
+              "link": "https://flamedfury.com/posts/book-report-the-dream-hotel/"
+            },
+            {
+              "title": "Monthly Recap: May 2025",
+              "date": "2025-06-01",
+              "link": "https://flamedfury.com/posts/monthly-recap-may-2025/"
+            },
+            {
+              "title": "Video Guides",
+              "date": "2025-04-15",
+              "link": "https://flamedfury.com/posts/video-guides/"
+            },
+            {
+              "title": "Monthly Recap: March 2025",
+              "date": "2025-04-08",
+              "link": "https://flamedfury.com/posts/monthly-recap-march-2025/"
+            },
+            {
+              "title": "Golf Shot",
+              "date": "2025-03-29",
+              "link": "https://flamedfury.com/posts/golf-shot/"
             }
           ]
         },
@@ -960,37 +960,6 @@
           ]
         },
         {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Monthly Recap: May 2025",
-              "date": "2025-06-01",
-              "link": "https://flamedfury.com/posts/monthly-recap-may-2025/"
-            },
-            {
-              "title": "Video Guides",
-              "date": "2025-04-15",
-              "link": "https://flamedfury.com/posts/video-guides/"
-            },
-            {
-              "title": "Monthly Recap: March 2025",
-              "date": "2025-04-08",
-              "link": "https://flamedfury.com/posts/monthly-recap-march-2025/"
-            },
-            {
-              "title": "Golf Shot",
-              "date": "2025-03-29",
-              "link": "https://flamedfury.com/posts/golf-shot/"
-            },
-            {
-              "title": "Golf Lessons",
-              "date": "2025-03-25",
-              "link": "https://flamedfury.com/posts/golf-lessons/"
-            }
-          ]
-        },
-        {
           "title": "Scattered Thoughts",
           "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
@@ -1270,37 +1239,6 @@
           ]
         },
         {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "Fixing Without Understanding",
-              "date": "2025-05-19",
-              "link": "https://jessitron.com/2025/05/18/fixing-without-understanding/"
-            },
-            {
-              "title": "Augmented Coding: Better with Principles",
-              "date": "2025-05-18",
-              "link": "https://jessitron.com/2025/05/18/augmented-coding-better-with-principles/"
-            },
-            {
-              "title": "Augmented Coding: an Experience Report",
-              "date": "2025-04-20",
-              "link": "https://jessitron.com/2025/04/20/augmented-coding-an-experience-report/"
-            },
-            {
-              "title": "Software development is…",
-              "date": "2025-02-18",
-              "link": "https://jessitron.com/2025/02/17/software-development-is/"
-            },
-            {
-              "title": "The world is terrible and great",
-              "date": "2025-01-21",
-              "link": "https://jessitron.com/2025/01/20/the-world-is-terrible-and-great/"
-            }
-          ]
-        },
-        {
           "title": "Curly Tail, Curly Braces",
           "feedUrl": "https://www.worthe-it.co.za/atom.xml",
           "items": [
@@ -1390,37 +1328,6 @@
               "title": "Inline rendering with document​.currentScript",
               "date": "2025-03-07",
               "link": "https://leanrada.com/notes/inline-rendering-currentscript/?ref=rss"
-            }
-          ]
-        },
-        {
-          "title": "Chelsea Troy",
-          "feedUrl": "https://chelseatroy.com/feed/",
-          "items": [
-            {
-              "title": "The Homework is the Cheat Code: GenAI Policy in my Computer Science Graduate Classroom",
-              "date": "2025-05-14",
-              "link": "https://chelseatroy.com/2025/05/14/the-homework-is-the-cheat-code-genai-policy-in-my-computer-science-graduate-classroom/"
-            },
-            {
-              "title": "Sharpen your technical leadership skills: proceeds to charity through EOY",
-              "date": "2024-12-10",
-              "link": "https://chelseatroy.com/2024/12/10/sharpen-your-technical-leadership-skills-proceeds-to-charity-through-eoy/"
-            },
-            {
-              "title": "What layoffs teach us about technical leadership",
-              "date": "2024-10-31",
-              "link": "https://chelseatroy.com/2024/10/31/what-layoffs-teach-us-about-technical-leadership/"
-            },
-            {
-              "title": "How to flub (and not flub) group decision-making on technical teams",
-              "date": "2024-10-22",
-              "link": "https://chelseatroy.com/2024/10/22/how-to-flub-and-not-flub-group-decision-making-on-technical-teams/"
-            },
-            {
-              "title": "Decision-Making Pitfalls for Technical Leaders",
-              "date": "2024-10-16",
-              "link": "https://chelseatroy.com/2024/10/16/decision-making-pitfalls-for-technical-leaders/"
             }
           ]
         },
@@ -1700,37 +1607,6 @@
               "title": "Free variables",
               "date": "2025-03-26",
               "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
-            }
-          ]
-        },
-        {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Reflections on writing a book",
-              "date": "2025-03-24",
-              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
-            },
-            {
-              "title": "Make it happen",
-              "date": "2025-02-11",
-              "link": "https://dubroy.com/blog/make-it-happen/"
-            },
-            {
-              "title": "Five coding hats",
-              "date": "2025-02-03",
-              "link": "https://dubroy.com/blog/five-coding-hats/"
-            },
-            {
-              "title": "One way to do applied research",
-              "date": "2024-11-07",
-              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
-            },
-            {
-              "title": "Memories of some fantastic internships",
-              "date": "2024-07-31",
-              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
             }
           ]
         },
@@ -2097,37 +1973,6 @@
           ]
         },
         {
-          "title": "More Questions Than Answers",
-          "feedUrl": "https://unremarkabletester.com/feed/",
-          "items": [
-            {
-              "title": "DORA Report 2024: Three Ideas to Tackle the Cons of Platform Usage",
-              "date": "2024-11-15",
-              "link": "https://unremarkabletester.com/2024/11/15/dora-report-2024-three-ideas-to-tackle-the-cons-of-platform-usage/"
-            },
-            {
-              "title": "Product Owners (What are they Good For?)",
-              "date": "2024-10-20",
-              "link": "https://unremarkabletester.com/2024/10/20/product-owners-what-are-they-good-for/"
-            },
-            {
-              "title": "Three Ingredients for Tasty Platform Capabilities",
-              "date": "2024-05-01",
-              "link": "https://unremarkabletester.com/2024/05/01/three-ingredients-for-tasty-platform-capabilities/"
-            },
-            {
-              "title": "How Product Management can Improve Development Experience",
-              "date": "2023-05-25",
-              "link": "https://unremarkabletester.com/2023/05/25/how-product-management-can-improve-development-experience/"
-            },
-            {
-              "title": "Care Tips for Product Plans",
-              "date": "2023-05-16",
-              "link": "https://unremarkabletester.com/2023/05/16/care-tips-for-product-plans/"
-            }
-          ]
-        },
-        {
           "title": "",
           "feedUrl": "https://danluu.com/atom.xml",
           "items": [
@@ -2461,11 +2306,16 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-25T03:49:16.037Z",
+  "fetchDate": "2025-06-26T03:47:38.181Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
+    "https://dubroy.com/blog/rss.xml",
+    "https://charity.wtf/feed/",
+    "https://jessitron.com/feed/",
+    "https://chelseatroy.com/feed/",
+    "https://unremarkabletester.com/feed/",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

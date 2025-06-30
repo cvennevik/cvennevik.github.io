@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "You MUST listen to RFC 2119",
+              "date": "2025-06-30",
+              "link": "https://ericwbailey.website/published/you-must-listen-to-rfc-2119/"
+            },
+            {
+              "title": "Quality is a trap",
+              "date": "2025-06-25",
+              "link": "https://ericwbailey.website/published/quality-is-a-trap/"
+            },
+            {
+              "title": "Organizing a design system via folksonomy",
+              "date": "2025-05-15",
+              "link": "https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/"
+            },
+            {
+              "title": "Article pitch for your consideration",
+              "date": "2025-04-08",
+              "link": "https://ericwbailey.website/published/article-pitch-for-your-consideration/"
+            },
+            {
+              "title": "Tag, you’re it",
+              "date": "2025-03-18",
+              "link": "https://ericwbailey.website/published/tag-youre-it/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "44",
+              "date": "2025-06-29",
+              "link": "https://anniemueller.com/posts/44"
+            },
+            {
+              "title": "Exploring and diving",
+              "date": "2025-06-20",
+              "link": "https://anniemueller.com/posts/exploring-and-diving"
+            },
+            {
+              "title": "How I have benefited from racism",
+              "date": "2025-06-19",
+              "link": "https://anniemueller.com/posts/how-i-have-benefited-from-racism"
+            },
+            {
+              "title": "Spam mail from the universe",
+              "date": "2025-06-17",
+              "link": "https://anniemueller.com/posts/spam-mail-from-the-universe"
+            },
+            {
+              "title": "Things Jesus taught",
+              "date": "2025-06-03",
+              "link": "https://anniemueller.com/posts/things-jesus-taught"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -216,37 +278,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "SVG Optimization and Accessibility Basics",
-              "date": "2025-06-25",
-              "link": "https://dbushell.com/2025/06/25/svg-optimization-and-accessibility-basics/"
-            },
-            {
-              "title": "JSR & Deno One Year Later - Malware?!",
-              "date": "2025-06-23",
-              "link": "https://dbushell.com/2025/06/23/jsr-and-deno-one-year-later-malware/"
-            },
-            {
-              "title": "Ditching Deno KV",
-              "date": "2025-06-20",
-              "link": "https://dbushell.com/2025/06/20/deno-kv-to-sqlite/"
-            },
-            {
-              "title": "You Can’t Pay Me To Prompt!",
-              "date": "2025-06-18",
-              "link": "https://dbushell.com/2025/06/18/ai-policy/"
-            },
-            {
-              "title": "Your Framework is Showing 😳",
-              "date": "2025-06-13",
-              "link": "https://dbushell.com/2025/06/13/your-framework-is-showing-nextjs-error/"
-            }
-          ]
-        },
-        {
           "title": "Chelsea Troy",
           "feedUrl": "https://chelseatroy.com/feed/",
           "items": [
@@ -274,6 +305,37 @@
               "title": "How to flub (and not flub) group decision-making on technical teams",
               "date": "2024-10-22",
               "link": "https://chelseatroy.com/2024/10/22/how-to-flub-and-not-flub-group-decision-making-on-technical-teams/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "SVG Optimization and Accessibility Basics",
+              "date": "2025-06-25",
+              "link": "https://dbushell.com/2025/06/25/svg-optimization-and-accessibility-basics/"
+            },
+            {
+              "title": "JSR & Deno One Year Later - Malware?!",
+              "date": "2025-06-23",
+              "link": "https://dbushell.com/2025/06/23/jsr-and-deno-one-year-later-malware/"
+            },
+            {
+              "title": "Ditching Deno KV",
+              "date": "2025-06-20",
+              "link": "https://dbushell.com/2025/06/20/deno-kv-to-sqlite/"
+            },
+            {
+              "title": "You Can’t Pay Me To Prompt!",
+              "date": "2025-06-18",
+              "link": "https://dbushell.com/2025/06/18/ai-policy/"
+            },
+            {
+              "title": "Your Framework is Showing 😳",
+              "date": "2025-06-13",
+              "link": "https://dbushell.com/2025/06/13/your-framework-is-showing-nextjs-error/"
             }
           ]
         },
@@ -336,37 +398,6 @@
               "title": "Hva har LEGO-bygging til felles med Discriminated Unions?",
               "date": "2025-05-12",
               "link": "https://www.kodemaker.no/blogg/2025-05-12-discriminated-unions-and-lego/"
-            }
-          ]
-        },
-        {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "Quality is a trap",
-              "date": "2025-06-25",
-              "link": "https://ericwbailey.website/published/quality-is-a-trap/"
-            },
-            {
-              "title": "Organizing a design system via folksonomy",
-              "date": "2025-05-15",
-              "link": "https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/"
-            },
-            {
-              "title": "Article pitch for your consideration",
-              "date": "2025-04-08",
-              "link": "https://ericwbailey.website/published/article-pitch-for-your-consideration/"
-            },
-            {
-              "title": "Tag, you’re it",
-              "date": "2025-03-18",
-              "link": "https://ericwbailey.website/published/tag-youre-it/"
-            },
-            {
-              "title": "Harm reduction principles for digital accessibility practitioners",
-              "date": "2025-03-06",
-              "link": "https://ericwbailey.website/published/harm-reduction-principles-for-digital-accessibility-practitioners/"
             }
           ]
         },
@@ -553,37 +584,6 @@
               "title": "One or Two? How Many Queues?",
               "date": "2025-03-25",
               "link": "http://brooker.co.za/blog/2025/03/25/two-queues.html"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Exploring and diving",
-              "date": "2025-06-20",
-              "link": "https://anniemueller.com/posts/exploring-and-diving"
-            },
-            {
-              "title": "How I have benefited from racism",
-              "date": "2025-06-19",
-              "link": "https://anniemueller.com/posts/how-i-have-benefited-from-racism"
-            },
-            {
-              "title": "Spam mail from the universe",
-              "date": "2025-06-17",
-              "link": "https://anniemueller.com/posts/spam-mail-from-the-universe"
-            },
-            {
-              "title": "Things Jesus taught",
-              "date": "2025-06-03",
-              "link": "https://anniemueller.com/posts/things-jesus-taught"
-            },
-            {
-              "title": "When you can’t decide",
-              "date": "2025-05-28",
-              "link": "https://anniemueller.com/posts/when-you-cant-decide"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-29T03:54:59.791Z",
+  "fetchDate": "2025-06-30T03:53:05.749Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

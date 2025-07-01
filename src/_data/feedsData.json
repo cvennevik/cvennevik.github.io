@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Dead happy",
+              "date": "2025-07-01",
+              "link": "https://anniemueller.com/posts/dead-happy"
+            },
+            {
+              "title": "44",
+              "date": "2025-06-29",
+              "link": "https://anniemueller.com/posts/44"
+            },
+            {
+              "title": "Exploring and diving",
+              "date": "2025-06-20",
+              "link": "https://anniemueller.com/posts/exploring-and-diving"
+            },
+            {
+              "title": "How I have benefited from racism",
+              "date": "2025-06-19",
+              "link": "https://anniemueller.com/posts/how-i-have-benefited-from-racism"
+            },
+            {
+              "title": "Spam mail from the universe",
+              "date": "2025-06-17",
+              "link": "https://anniemueller.com/posts/spam-mail-from-the-universe"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Public and private CSS cascade layers in a design system",
+              "date": "2025-06-30",
+              "link": "https://gomakethings.com/public-and-private-css-cascade-layers-in-a-design-system/"
+            },
+            {
+              "title": "On being a whole person",
+              "date": "2025-06-28",
+              "link": "https://gomakethings.com/on-being-a-whole-person/"
+            },
+            {
+              "title": "gzip performance is wild!",
+              "date": "2025-06-27",
+              "link": "https://gomakethings.com/gzip-performance-is-wild/"
+            },
+            {
+              "title": "Modular CSS Redux",
+              "date": "2025-06-26",
+              "link": "https://gomakethings.com/modular-css-redux/"
+            },
+            {
+              "title": "Rethinking modular CSS and build-free design systems",
+              "date": "2025-06-25",
+              "link": "https://gomakethings.com/rethinking-modular-css-and-build-free-design-systems/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "An Analysis of Links From The White House’s “Wire” Website",
+              "date": "2025-06-30",
+              "link": "https://blog.jim-nielsen.com/2025/links-from-whgov-wire/"
+            },
+            {
+              "title": "Transforming HTML With Netlify Edge Functions",
+              "date": "2025-06-25",
+              "link": "https://blog.jim-nielsen.com/2025/transform-html-with-edge-functions/"
+            },
+            {
+              "title": "Little Swarming Gnats of Data",
+              "date": "2025-06-24",
+              "link": "https://blog.jim-nielsen.com/2025/data-gants/"
+            },
+            {
+              "title": "My Copy of The Internet Phone Book",
+              "date": "2025-06-22",
+              "link": "https://blog.jim-nielsen.com/2025/internet-phone-book/"
+            },
+            {
+              "title": "Becoming an Asshole",
+              "date": "2025-06-15",
+              "link": "https://blog.jim-nielsen.com/2025/becoming-an-asshole/"
+            }
+          ]
+        },
+        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -35,64 +128,90 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
           "items": [
             {
-              "title": "44",
-              "date": "2025-06-29",
-              "link": "https://anniemueller.com/posts/44"
+              "title": "WCAG doesn't round",
+              "date": "2025-06-30",
+              "link": "https://frills.dev/false"
             },
             {
-              "title": "Exploring and diving",
-              "date": "2025-06-20",
-              "link": "https://anniemueller.com/posts/exploring-and-diving"
+              "title": "Feedback Is Not an Attack",
+              "date": "2025-06-25",
+              "link": "https://frills.dev/false"
             },
             {
-              "title": "How I have benefited from racism",
-              "date": "2025-06-19",
-              "link": "https://anniemueller.com/posts/how-i-have-benefited-from-racism"
+              "title": "Changelog –\n        12 Jun 2025\n      ",
+              "date": "2025-06-12",
+              "link": "https://frills.dev/changelog/250612/"
             },
             {
-              "title": "Spam mail from the universe",
-              "date": "2025-06-17",
-              "link": "https://anniemueller.com/posts/spam-mail-from-the-universe"
+              "title": "Circadian Rebellion",
+              "date": "2025-06-11",
+              "link": "https://frills.dev/blog/2025/june/circadian-rebellion/"
             },
             {
-              "title": "Things Jesus taught",
-              "date": "2025-06-03",
-              "link": "https://anniemueller.com/posts/things-jesus-taught"
+              "title": "Places To Read",
+              "date": "2025-05-24",
+              "link": "https://www.placestoread.xyz/"
             }
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
             {
-              "title": "On being a whole person",
-              "date": "2025-06-28",
-              "link": "https://gomakethings.com/on-being-a-whole-person/"
+              "date": "2025-06-30",
+              "link": "https://dbushell.com/notes/2025-06-30T16:27Z/"
             },
             {
-              "title": "gzip performance is wild!",
+              "date": "2025-06-30",
+              "link": "https://dbushell.com/notes/2025-06-30T06:16Z/"
+            },
+            {
               "date": "2025-06-27",
-              "link": "https://gomakethings.com/gzip-performance-is-wild/"
+              "link": "https://dbushell.com/notes/2025-06-27T11:11Z/"
             },
             {
-              "title": "Modular CSS Redux",
-              "date": "2025-06-26",
-              "link": "https://gomakethings.com/modular-css-redux/"
-            },
-            {
-              "title": "Rethinking modular CSS and build-free design systems",
               "date": "2025-06-25",
-              "link": "https://gomakethings.com/rethinking-modular-css-and-build-free-design-systems/"
+              "link": "https://dbushell.com/notes/2025-06-25T15:22Z/"
             },
             {
-              "title": "How to create light and dark color modes with CSS",
+              "date": "2025-06-24",
+              "link": "https://dbushell.com/notes/2025-06-24T14:05Z/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "That boolean should probably be something else",
+              "date": "2025-06-30",
+              "link": "https://ntietz.com/blog/that-boolean-should-probably-be-something-else/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Proving that every program halts",
               "date": "2025-06-23",
-              "link": "https://gomakethings.com/how-to-create-light-and-dark-color-modes-with-css/"
+              "link": "https://ntietz.com/blog/proving-that-every-program-halts/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Taking a break",
+              "date": "2025-05-05",
+              "link": "https://ntietz.com/blog/taking-a-break/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Measuring my Framework laptop's performance in 3 positions",
+              "date": "2025-04-28",
+              "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "The five stages of incident response",
+              "date": "2025-04-21",
+              "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -155,32 +274,6 @@
               "title": "The quest for the best writing tool, a spinoff",
               "date": "2025-05-18",
               "link": "https://thejollyteapot.com/2025/05/18/the-quest-for-the-best-writing-tool-a-spinoff/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-06-27",
-              "link": "https://dbushell.com/notes/2025-06-27T11:11Z/"
-            },
-            {
-              "date": "2025-06-25",
-              "link": "https://dbushell.com/notes/2025-06-25T15:22Z/"
-            },
-            {
-              "date": "2025-06-24",
-              "link": "https://dbushell.com/notes/2025-06-24T14:05Z/"
-            },
-            {
-              "date": "2025-06-22",
-              "link": "https://dbushell.com/notes/2025-06-22T06:11Z/"
-            },
-            {
-              "date": "2025-06-21",
-              "link": "https://dbushell.com/notes/2025-06-21T12:44Z/"
             }
           ]
         },
@@ -340,37 +433,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Transforming HTML With Netlify Edge Functions",
-              "date": "2025-06-25",
-              "link": "https://blog.jim-nielsen.com/2025/transform-html-with-edge-functions/"
-            },
-            {
-              "title": "Little Swarming Gnats of Data",
-              "date": "2025-06-24",
-              "link": "https://blog.jim-nielsen.com/2025/data-gants/"
-            },
-            {
-              "title": "My Copy of The Internet Phone Book",
-              "date": "2025-06-22",
-              "link": "https://blog.jim-nielsen.com/2025/internet-phone-book/"
-            },
-            {
-              "title": "Becoming an Asshole",
-              "date": "2025-06-15",
-              "link": "https://blog.jim-nielsen.com/2025/becoming-an-asshole/"
-            },
-            {
-              "title": "The Continuum From Static to Dynamic",
-              "date": "2025-06-11",
-              "link": "https://blog.jim-nielsen.com/2025/continuum-from-static-to-dynamic/"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -491,37 +553,6 @@
               "title": "The Consciousness Lottery",
               "date": "2024-11-19",
               "link": "https://kyleshevlin.com/consciousness-lottery/"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Proving that every program halts",
-              "date": "2025-06-23",
-              "link": "https://ntietz.com/blog/proving-that-every-program-halts/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Taking a break",
-              "date": "2025-05-05",
-              "link": "https://ntietz.com/blog/taking-a-break/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Measuring my Framework laptop's performance in 3 positions",
-              "date": "2025-04-28",
-              "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "The five stages of incident response",
-              "date": "2025-04-21",
-              "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Python is an interpreted language with a compiler",
-              "date": "2025-04-14",
-              "link": "https://ntietz.com/blog/python-is-an-interpreted-language-with-a-compiler/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -801,37 +832,6 @@
               "title": "My Backup Infrastructure, 2025 Edition",
               "date": "2025-04-13",
               "link": "https://borretti.me/article/my-backup-infrastructure-2025-edition"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Changelog –\n        12 Jun 2025\n      ",
-              "date": "2025-06-12",
-              "link": "https://frills.dev/changelog/250612/"
-            },
-            {
-              "title": "Circadian Rebellion",
-              "date": "2025-06-11",
-              "link": "https://frills.dev/blog/2025/june/circadian-rebellion/"
-            },
-            {
-              "title": "Places To Read",
-              "date": "2025-05-24",
-              "link": "https://www.placestoread.xyz/"
-            },
-            {
-              "title": "Test Decap",
-              "date": "2025-05-21",
-              "link": "https://frills.dev/blog/2025/05/test-decap-md/"
-            },
-            {
-              "title": "Overwatching",
-              "date": "2025-05-09",
-              "link": "https://frills.dev/blog/2025/may/overwatching/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-06-30T03:53:05.749Z",
+  "fetchDate": "2025-07-01T03:57:54.024Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

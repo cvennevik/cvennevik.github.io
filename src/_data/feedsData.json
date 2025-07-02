@@ -4,9 +4,50 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "MCP — Model Context Protocol",
+              "date": "2025-07-02",
+              "link": "https://www.kodemaker.no/blogg/2025-07-02-mcp/"
+            },
+            {
+              "title": "Verktøykall i språkmodeller",
+              "date": "2025-07-01",
+              "link": "https://www.kodemaker.no/blogg/2025-07-01-verktoykall/"
+            },
+            {
+              "title": "En kommentar om kommentarer og AI",
+              "date": "2025-06-25",
+              "link": "https://www.kodemaker.no/blogg/2025-06-25-kommentarer/"
+            },
+            {
+              "title": "SQLite er raskere enn du tror",
+              "date": "2025-06-19",
+              "link": "https://www.kodemaker.no/blogg/2025-06-19-sqlite-er-raskere-enn-du-tror/"
+            },
+            {
+              "title": "Supply chain attacks: Kan vi stole på open source?",
+              "date": "2025-06-11",
+              "link": "https://www.kodemaker.no/blogg/2025-06-11-supply-chain-attacks/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
+            {
+              "title": "Small Web July",
+              "date": "2025-07-02",
+              "link": "https://anniemueller.com/posts/small-web-july"
+            },
+            {
+              "title": "A few big choices",
+              "date": "2025-07-02",
+              "link": "https://anniemueller.com/posts/a-few-big-choices"
+            },
             {
               "title": "Dead happy",
               "date": "2025-07-01",
@@ -21,16 +62,6 @@
               "title": "Exploring and diving",
               "date": "2025-06-20",
               "link": "https://anniemueller.com/posts/exploring-and-diving"
-            },
-            {
-              "title": "How I have benefited from racism",
-              "date": "2025-06-19",
-              "link": "https://anniemueller.com/posts/how-i-have-benefited-from-racism"
-            },
-            {
-              "title": "Spam mail from the universe",
-              "date": "2025-06-17",
-              "link": "https://anniemueller.com/posts/spam-mail-from-the-universe"
             }
           ]
         },
@@ -38,6 +69,11 @@
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Generating colors with the CSS oklch() function",
+              "date": "2025-07-01",
+              "link": "https://gomakethings.com/generating-colors-with-the-css-oklch-function/"
+            },
             {
               "title": "Public and private CSS cascade layers in a design system",
               "date": "2025-06-30",
@@ -57,11 +93,63 @@
               "title": "Modular CSS Redux",
               "date": "2025-06-26",
               "link": "https://gomakethings.com/modular-css-redux/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Check / Uncheck all in a Table",
+              "date": "2025-07-01",
+              "link": "https://adrianroselli.com/2025/07/check-uncheck-all-in-a-table.html"
             },
             {
-              "title": "Rethinking modular CSS and build-free design systems",
-              "date": "2025-06-25",
-              "link": "https://gomakethings.com/rethinking-modular-css-and-build-free-design-systems/"
+              "title": "Where to Put Focus When Opening a Modal Dialog",
+              "date": "2025-06-06",
+              "link": "https://adrianroselli.com/2025/06/where-to-put-focus-when-opening-a-modal-dialog.html"
+            },
+            {
+              "title": "My Request to Google on Accessibility",
+              "date": "2025-05-22",
+              "link": "https://adrianroselli.com/2025/05/my-request-to-google-on-accessibility.html"
+            },
+            {
+              "title": "Talkin’ Tables @ AccessU",
+              "date": "2025-05-14",
+              "link": "https://adrianroselli.com/2025/05/talkin-tables-accessu.html"
+            },
+            {
+              "title": "Selfish Accessibility 2025 @ AccessU",
+              "date": "2025-05-13",
+              "link": "https://adrianroselli.com/2025/05/selfish-accessibility-2025-accessu.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-01",
+              "link": "https://dbushell.com/notes/2025-07-01T09:44Z/"
+            },
+            {
+              "date": "2025-07-01",
+              "link": "https://dbushell.com/notes/2025-07-01T06:54Z/"
+            },
+            {
+              "date": "2025-06-30",
+              "link": "https://dbushell.com/notes/2025-06-30T16:27Z/"
+            },
+            {
+              "date": "2025-06-30",
+              "link": "https://dbushell.com/notes/2025-06-30T06:16Z/"
+            },
+            {
+              "date": "2025-06-27",
+              "link": "https://dbushell.com/notes/2025-06-27T11:11Z/"
             }
           ]
         },
@@ -155,32 +243,6 @@
               "title": "Places To Read",
               "date": "2025-05-24",
               "link": "https://www.placestoread.xyz/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-06-30",
-              "link": "https://dbushell.com/notes/2025-06-30T16:27Z/"
-            },
-            {
-              "date": "2025-06-30",
-              "link": "https://dbushell.com/notes/2025-06-30T06:16Z/"
-            },
-            {
-              "date": "2025-06-27",
-              "link": "https://dbushell.com/notes/2025-06-27T11:11Z/"
-            },
-            {
-              "date": "2025-06-25",
-              "link": "https://dbushell.com/notes/2025-06-25T15:22Z/"
-            },
-            {
-              "date": "2025-06-24",
-              "link": "https://dbushell.com/notes/2025-06-24T14:05Z/"
             }
           ]
         },
@@ -429,37 +491,6 @@
               "title": "Your Framework is Showing 😳",
               "date": "2025-06-13",
               "link": "https://dbushell.com/2025/06/13/your-framework-is-showing-nextjs-error/"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "En kommentar om kommentarer og AI",
-              "date": "2025-06-25",
-              "link": "https://www.kodemaker.no/blogg/2025-06-25-kommentarer/"
-            },
-            {
-              "title": "SQLite er raskere enn du tror",
-              "date": "2025-06-19",
-              "link": "https://www.kodemaker.no/blogg/2025-06-19-sqlite-er-raskere-enn-du-tror/"
-            },
-            {
-              "title": "Supply chain attacks: Kan vi stole på open source?",
-              "date": "2025-06-11",
-              "link": "https://www.kodemaker.no/blogg/2025-06-11-supply-chain-attacks/"
-            },
-            {
-              "title": "Hva er WebAssembly?",
-              "date": "2025-05-20",
-              "link": "https://www.kodemaker.no/blogg/2025-05-20-hva-er-webassembly/"
-            },
-            {
-              "title": "Hva har LEGO-bygging til felles med Discriminated Unions?",
-              "date": "2025-05-12",
-              "link": "https://www.kodemaker.no/blogg/2025-05-12-discriminated-unions-and-lego/"
             }
           ]
         },
@@ -987,37 +1018,6 @@
               "title": "Panic",
               "date": "2025-02-22",
               "link": "https://fynn.be/blog/panic/"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Where to Put Focus When Opening a Modal Dialog",
-              "date": "2025-06-06",
-              "link": "https://adrianroselli.com/2025/06/where-to-put-focus-when-opening-a-modal-dialog.html"
-            },
-            {
-              "title": "My Request to Google on Accessibility",
-              "date": "2025-05-22",
-              "link": "https://adrianroselli.com/2025/05/my-request-to-google-on-accessibility.html"
-            },
-            {
-              "title": "Talkin’ Tables @ AccessU",
-              "date": "2025-05-14",
-              "link": "https://adrianroselli.com/2025/05/talkin-tables-accessu.html"
-            },
-            {
-              "title": "Selfish Accessibility 2025 @ AccessU",
-              "date": "2025-05-13",
-              "link": "https://adrianroselli.com/2025/05/selfish-accessibility-2025-accessu.html"
-            },
-            {
-              "title": "Do Not Publish Your Designs on the Web with Figma Sites…",
-              "date": "2025-05-07",
-              "link": "https://adrianroselli.com/2025/05/do-not-publish-your-designs-on-the-web-with-figma-sites.html"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-01T03:57:54.024Z",
+  "fetchDate": "2025-07-02T03:49:19.104Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

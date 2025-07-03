@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Setting Element Ordering With HTML Rewriter Using CSS",
+              "date": "2025-07-02",
+              "link": "https://blog.jim-nielsen.com/2025/element-ordering-edge-function-html-rewriter/"
+            },
+            {
+              "title": "An Analysis of Links From The White House’s “Wire” Website",
+              "date": "2025-06-30",
+              "link": "https://blog.jim-nielsen.com/2025/links-from-whgov-wire/"
+            },
+            {
+              "title": "Transforming HTML With Netlify Edge Functions",
+              "date": "2025-06-25",
+              "link": "https://blog.jim-nielsen.com/2025/transform-html-with-edge-functions/"
+            },
+            {
+              "title": "Little Swarming Gnats of Data",
+              "date": "2025-06-24",
+              "link": "https://blog.jim-nielsen.com/2025/data-gants/"
+            },
+            {
+              "title": "My Copy of The Internet Phone Book",
+              "date": "2025-06-22",
+              "link": "https://blog.jim-nielsen.com/2025/internet-phone-book/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Testing custom events with Playwright",
+              "date": "2025-07-02",
+              "link": "https://gomakethings.com/testing-custom-events-with-playwright/"
+            },
+            {
+              "title": "Generating colors with the CSS oklch() function",
+              "date": "2025-07-01",
+              "link": "https://gomakethings.com/generating-colors-with-the-css-oklch-function/"
+            },
+            {
+              "title": "Public and private CSS cascade layers in a design system",
+              "date": "2025-06-30",
+              "link": "https://gomakethings.com/public-and-private-css-cascade-layers-in-a-design-system/"
+            },
+            {
+              "title": "On being a whole person",
+              "date": "2025-06-28",
+              "link": "https://gomakethings.com/on-being-a-whole-person/"
+            },
+            {
+              "title": "gzip performance is wild!",
+              "date": "2025-06-27",
+              "link": "https://gomakethings.com/gzip-performance-is-wild/"
+            }
+          ]
+        },
+        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -66,33 +128,33 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
             {
-              "title": "Generating colors with the CSS oklch() function",
-              "date": "2025-07-01",
-              "link": "https://gomakethings.com/generating-colors-with-the-css-oklch-function/"
+              "title": "Logical Quantifiers in Software",
+              "date": "2025-07-02",
+              "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/"
             },
             {
-              "title": "Public and private CSS cascade layers in a design system",
-              "date": "2025-06-30",
-              "link": "https://gomakethings.com/public-and-private-css-cascade-layers-in-a-design-system/"
+              "title": "You can cheat a test suite with a big enough polynomial",
+              "date": "2025-06-24",
+              "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/"
             },
             {
-              "title": "On being a whole person",
-              "date": "2025-06-28",
-              "link": "https://gomakethings.com/on-being-a-whole-person/"
+              "title": "Solving LinkedIn Queens with SMT",
+              "date": "2025-06-12",
+              "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/"
             },
             {
-              "title": "gzip performance is wild!",
-              "date": "2025-06-27",
-              "link": "https://gomakethings.com/gzip-performance-is-wild/"
+              "title": "AI is a gamechanger for TLA+ users",
+              "date": "2025-06-05",
+              "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/"
             },
             {
-              "title": "Modular CSS Redux",
-              "date": "2025-06-26",
-              "link": "https://gomakethings.com/modular-css-redux/"
+              "title": "What does \"Undecidable\" mean, anyway",
+              "date": "2025-05-28",
+              "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/"
             }
           ]
         },
@@ -128,6 +190,37 @@
           ]
         },
         {
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
+          "items": [
+            {
+              "title": "Some of the things I did after being off for a few weeks",
+              "date": "2025-07-01",
+              "link": "https://smallsheds.garden/blog/2025/some-of-the-things-i-did-after-being-off-for-a-few-weeks/"
+            },
+            {
+              "title": "How essential are your testers?",
+              "date": "2025-05-20",
+              "link": "https://smallsheds.garden/blog/2025/how-essential-are-your-testers/"
+            },
+            {
+              "title": "Five levels of note-taking in meetings",
+              "date": "2025-04-20",
+              "link": "https://smallsheds.garden/blog/2025/five-levels-of-note-taking-in-meetings/"
+            },
+            {
+              "title": "Benchmarking counterstring implementations in TypeScript",
+              "date": "2025-02-22",
+              "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
+            },
+            {
+              "title": "Optimizing for moments of discovery",
+              "date": "2025-02-15",
+              "link": "https://smallsheds.garden/blog/2025/optimizing-for-moments-of-discovery/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -150,37 +243,6 @@
             {
               "date": "2025-06-27",
               "link": "https://dbushell.com/notes/2025-06-27T11:11Z/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "An Analysis of Links From The White House’s “Wire” Website",
-              "date": "2025-06-30",
-              "link": "https://blog.jim-nielsen.com/2025/links-from-whgov-wire/"
-            },
-            {
-              "title": "Transforming HTML With Netlify Edge Functions",
-              "date": "2025-06-25",
-              "link": "https://blog.jim-nielsen.com/2025/transform-html-with-edge-functions/"
-            },
-            {
-              "title": "Little Swarming Gnats of Data",
-              "date": "2025-06-24",
-              "link": "https://blog.jim-nielsen.com/2025/data-gants/"
-            },
-            {
-              "title": "My Copy of The Internet Phone Book",
-              "date": "2025-06-22",
-              "link": "https://blog.jim-nielsen.com/2025/internet-phone-book/"
-            },
-            {
-              "title": "Becoming an Asshole",
-              "date": "2025-06-15",
-              "link": "https://blog.jim-nielsen.com/2025/becoming-an-asshole/"
             }
           ]
         },
@@ -522,37 +584,6 @@
               "title": "Peanuts in Church and Casual Misinformation",
               "date": "2025-04-02",
               "link": "https://boehs.org/node/weird-laws"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "You can cheat a test suite with a big enough polynomial",
-              "date": "2025-06-24",
-              "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/"
-            },
-            {
-              "title": "Solving LinkedIn Queens with SMT",
-              "date": "2025-06-12",
-              "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/"
-            },
-            {
-              "title": "AI is a gamechanger for TLA+ users",
-              "date": "2025-06-05",
-              "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/"
-            },
-            {
-              "title": "What does \"Undecidable\" mean, anyway",
-              "date": "2025-05-28",
-              "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/"
-            },
-            {
-              "title": "Finding hard 24 puzzles with planner programming",
-              "date": "2025-05-20",
-              "link": "https://buttondown.com/hillelwayne/archive/finding-hard-24-puzzles-with-planner-programming/"
             }
           ]
         },
@@ -1266,37 +1297,6 @@
               "title": "The problem with moving phones from copper to fiber: power",
               "date": "2014-08-15",
               "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
-            }
-          ]
-        },
-        {
-          "title": "Joep Schuurkes",
-          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
-          "items": [
-            {
-              "title": "How essential are your testers?",
-              "date": "2025-05-20",
-              "link": "https://smallsheds.garden/blog/2025/how-essential-are-your-testers/"
-            },
-            {
-              "title": "Five levels of note-taking in meetings",
-              "date": "2025-04-20",
-              "link": "https://smallsheds.garden/blog/2025/five-levels-of-note-taking-in-meetings/"
-            },
-            {
-              "title": "Benchmarking counterstring implementations in TypeScript",
-              "date": "2025-02-22",
-              "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
-            },
-            {
-              "title": "Optimizing for moments of discovery",
-              "date": "2025-02-15",
-              "link": "https://smallsheds.garden/blog/2025/optimizing-for-moments-of-discovery/"
-            },
-            {
-              "title": "Comparing counterstring implementations in TypeScript",
-              "date": "2025-01-18",
-              "link": "https://smallsheds.garden/blog/2025/comparing-counterstring-implementations-in-typescript/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-02T03:49:19.104Z",
+  "fetchDate": "2025-07-03T03:51:39.971Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

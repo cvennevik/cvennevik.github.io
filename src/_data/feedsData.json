@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Catching early DOM events in Playwright",
+              "date": "2025-07-03",
+              "link": "https://gomakethings.com/catching-early-dom-events-in-playwright/"
+            },
+            {
+              "title": "Testing custom events with Playwright",
+              "date": "2025-07-02",
+              "link": "https://gomakethings.com/testing-custom-events-with-playwright/"
+            },
+            {
+              "title": "Generating colors with the CSS oklch() function",
+              "date": "2025-07-01",
+              "link": "https://gomakethings.com/generating-colors-with-the-css-oklch-function/"
+            },
+            {
+              "title": "Public and private CSS cascade layers in a design system",
+              "date": "2025-06-30",
+              "link": "https://gomakethings.com/public-and-private-css-cascade-layers-in-a-design-system/"
+            },
+            {
+              "title": "On being a whole person",
+              "date": "2025-06-28",
+              "link": "https://gomakethings.com/on-being-a-whole-person/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "epanet-js",
+              "date": "2025-07-03",
+              "link": "https://macwright.com/2025/07/03/epanet-placemark.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-06-06",
+              "link": "https://macwright.com/2025/06/06/recently.html"
+            },
+            {
+              "title": "Making a custom porteur bag",
+              "date": "2025-05-18",
+              "link": "https://macwright.com/2025/05/18/sewing.html"
+            },
+            {
+              "title": "Reading Zanzibar",
+              "date": "2025-05-02",
+              "link": "https://macwright.com/2025/05/02/reading-zanzibar.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-05-01",
+              "link": "https://macwright.com/2025/05/01/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "Mere Being 022 - June - Procrastination, Wallpaper Music, Popsicles",
+              "date": "2025-07-03",
+              "link": "https://www.simplermachines.com/mere-being-022-june-procrastination-wallpaper-music-popsicles/"
+            },
+            {
+              "title": "Mere Being 021 - April - dinner parties, charoset, dying in holes",
+              "date": "2025-04-30",
+              "link": "https://www.simplermachines.com/mere-being-021-april-dinner-pa/"
+            },
+            {
+              "title": "Mere Being 020 - March - human nature, lady doctors, potatoes",
+              "date": "2025-04-01",
+              "link": "https://www.simplermachines.com/mere-being-020-march-2/"
+            },
+            {
+              "title": "Mere Being 019 - February - Plenty Huge Men Roam the Earth",
+              "date": "2025-03-02",
+              "link": "https://www.simplermachines.com/mere-being-018-february-p/"
+            },
+            {
+              "title": "Mere Being 018 - December",
+              "date": "2025-01-01",
+              "link": "https://www.simplermachines.com/mere-being-018-december/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-03",
+              "link": "https://dbushell.com/notes/2025-07-03T06:24Z/"
+            },
+            {
+              "date": "2025-07-01",
+              "link": "https://dbushell.com/notes/2025-07-01T09:44Z/"
+            },
+            {
+              "date": "2025-07-01",
+              "link": "https://dbushell.com/notes/2025-07-01T06:54Z/"
+            },
+            {
+              "date": "2025-06-30",
+              "link": "https://dbushell.com/notes/2025-06-30T16:27Z/"
+            },
+            {
+              "date": "2025-06-30",
+              "link": "https://dbushell.com/notes/2025-06-30T06:16Z/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -35,37 +154,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Testing custom events with Playwright",
-              "date": "2025-07-02",
-              "link": "https://gomakethings.com/testing-custom-events-with-playwright/"
-            },
-            {
-              "title": "Generating colors with the CSS oklch() function",
-              "date": "2025-07-01",
-              "link": "https://gomakethings.com/generating-colors-with-the-css-oklch-function/"
-            },
-            {
-              "title": "Public and private CSS cascade layers in a design system",
-              "date": "2025-06-30",
-              "link": "https://gomakethings.com/public-and-private-css-cascade-layers-in-a-design-system/"
-            },
-            {
-              "title": "On being a whole person",
-              "date": "2025-06-28",
-              "link": "https://gomakethings.com/on-being-a-whole-person/"
-            },
-            {
-              "title": "gzip performance is wild!",
-              "date": "2025-06-27",
-              "link": "https://gomakethings.com/gzip-performance-is-wild/"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -93,37 +181,6 @@
               "title": "Supply chain attacks: Kan vi stole på open source?",
               "date": "2025-06-11",
               "link": "https://www.kodemaker.no/blogg/2025-06-11-supply-chain-attacks/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Small Web July",
-              "date": "2025-07-02",
-              "link": "https://anniemueller.com/posts/small-web-july"
-            },
-            {
-              "title": "A few big choices",
-              "date": "2025-07-02",
-              "link": "https://anniemueller.com/posts/a-few-big-choices"
-            },
-            {
-              "title": "Dead happy",
-              "date": "2025-07-01",
-              "link": "https://anniemueller.com/posts/dead-happy"
-            },
-            {
-              "title": "44",
-              "date": "2025-06-29",
-              "link": "https://anniemueller.com/posts/44"
-            },
-            {
-              "title": "Exploring and diving",
-              "date": "2025-06-20",
-              "link": "https://anniemueller.com/posts/exploring-and-diving"
             }
           ]
         },
@@ -221,32 +278,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-01",
-              "link": "https://dbushell.com/notes/2025-07-01T09:44Z/"
-            },
-            {
-              "date": "2025-07-01",
-              "link": "https://dbushell.com/notes/2025-07-01T06:54Z/"
-            },
-            {
-              "date": "2025-06-30",
-              "link": "https://dbushell.com/notes/2025-06-30T16:27Z/"
-            },
-            {
-              "date": "2025-06-30",
-              "link": "https://dbushell.com/notes/2025-06-30T06:16Z/"
-            },
-            {
-              "date": "2025-06-27",
-              "link": "https://dbushell.com/notes/2025-06-27T11:11Z/"
-            }
-          ]
-        },
-        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -305,37 +336,6 @@
               "title": "Places To Read",
               "date": "2025-05-24",
               "link": "https://www.placestoread.xyz/"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "That boolean should probably be something else",
-              "date": "2025-06-30",
-              "link": "https://ntietz.com/blog/that-boolean-should-probably-be-something-else/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Proving that every program halts",
-              "date": "2025-06-23",
-              "link": "https://ntietz.com/blog/proving-that-every-program-halts/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Taking a break",
-              "date": "2025-05-05",
-              "link": "https://ntietz.com/blog/taking-a-break/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Measuring my Framework laptop's performance in 3 positions",
-              "date": "2025-04-28",
-              "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "The five stages of incident response",
-              "date": "2025-04-21",
-              "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -1053,37 +1053,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2025-06-06",
-              "link": "https://macwright.com/2025/06/06/recently.html"
-            },
-            {
-              "title": "Making a custom porteur bag",
-              "date": "2025-05-18",
-              "link": "https://macwright.com/2025/05/18/sewing.html"
-            },
-            {
-              "title": "Reading Zanzibar",
-              "date": "2025-05-02",
-              "link": "https://macwright.com/2025/05/02/reading-zanzibar.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-05-01",
-              "link": "https://macwright.com/2025/05/01/recently.html"
-            },
-            {
-              "title": "Tidbyt without the company",
-              "date": "2025-04-12",
-              "link": "https://macwright.com/2025/04/12/tidbyt-second-life.html"
-            }
-          ]
-        },
-        {
           "title": "Scattered Thoughts",
           "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
@@ -1487,37 +1456,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "Mere Being 021 - April - dinner parties, charoset, dying in holes",
-              "date": "2025-04-30",
-              "link": "https://www.simplermachines.com/mere-being-021-april-dinner-pa/"
-            },
-            {
-              "title": "Mere Being 020 - March - human nature, lady doctors, potatoes",
-              "date": "2025-04-01",
-              "link": "https://www.simplermachines.com/mere-being-020-march-2/"
-            },
-            {
-              "title": "Mere Being 019 - February - Plenty Huge Men Roam the Earth",
-              "date": "2025-03-02",
-              "link": "https://www.simplermachines.com/mere-being-018-february-p/"
-            },
-            {
-              "title": "Mere Being 018 - December",
-              "date": "2025-01-01",
-              "link": "https://www.simplermachines.com/mere-being-018-december/"
-            },
-            {
-              "title": "Mere Being 017 - September - Dirt Man",
-              "date": "2024-10-01",
-              "link": "https://www.simplermachines.com/mere-being-017-september-dirt-man/"
-            }
-          ]
-        },
-        {
           "title": "Coding Is Like Cooking",
           "feedUrl": "https://coding-is-like-cooking.info/feed/",
           "items": [
@@ -1704,37 +1642,6 @@
           ]
         },
         {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Reflections on writing a book",
-              "date": "2025-03-24",
-              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
-            },
-            {
-              "title": "Make it happen",
-              "date": "2025-02-11",
-              "link": "https://dubroy.com/blog/make-it-happen/"
-            },
-            {
-              "title": "Five coding hats",
-              "date": "2025-02-03",
-              "link": "https://dubroy.com/blog/five-coding-hats/"
-            },
-            {
-              "title": "One way to do applied research",
-              "date": "2024-11-07",
-              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
-            },
-            {
-              "title": "Memories of some fantastic internships",
-              "date": "2024-07-31",
-              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
-            }
-          ]
-        },
-        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -1793,37 +1700,6 @@
               "title": "Contributing in New Ways - Finding Closure among New Opportunities",
               "date": "2024-12-17",
               "link": "https://www.lisihocke.com/2024/12/contributing-in-new-ways-finding-closure-among-new-opportunities.html"
-            }
-          ]
-        },
-        {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
-              "date": "2025-03-09",
-              "link": "https://www.felienne.com/archives/8880"
-            },
-            {
-              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
-              "date": "2025-03-03",
-              "link": "https://www.felienne.com/archives/8853"
-            },
-            {
-              "title": "Who owns your cloned AI voice – Week 8’s AI news",
-              "date": "2025-02-23",
-              "link": "https://www.felienne.com/archives/8808"
-            },
-            {
-              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
-              "date": "2025-02-15",
-              "link": "https://www.felienne.com/archives/8749"
-            },
-            {
-              "title": "Week 6’s AI News",
-              "date": "2025-02-07",
-              "link": "https://www.felienne.com/archives/8900"
             }
           ]
         },
@@ -2461,11 +2337,15 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-03T03:51:39.971Z",
+  "fetchDate": "2025-07-04T03:48:12.771Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
+    "https://dubroy.com/blog/rss.xml",
+    "https://ntietz.com/atom.xml",
+    "https://anniemueller.com/posts_feed",
+    "https://www.felienne.com/feed",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

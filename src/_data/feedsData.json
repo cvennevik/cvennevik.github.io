@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "Web components don't need a constructor()",
+              "date": "2025-07-04",
+              "link": "https://gomakethings.com/web-components-dont-need-a-constructor/"
+            },
+            {
               "title": "Catching early DOM events in Playwright",
               "date": "2025-07-03",
               "link": "https://gomakethings.com/catching-early-dom-events-in-playwright/"
@@ -26,11 +31,6 @@
               "title": "Public and private CSS cascade layers in a design system",
               "date": "2025-06-30",
               "link": "https://gomakethings.com/public-and-private-css-cascade-layers-in-a-design-system/"
-            },
-            {
-              "title": "On being a whole person",
-              "date": "2025-06-28",
-              "link": "https://gomakethings.com/on-being-a-whole-person/"
             }
           ]
         },
@@ -38,6 +38,11 @@
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
+            {
+              "title": "Recently",
+              "date": "2025-07-04",
+              "link": "https://macwright.com/2025/07/04/recently.html"
+            },
             {
               "title": "epanet-js",
               "date": "2025-07-03",
@@ -57,11 +62,32 @@
               "title": "Reading Zanzibar",
               "date": "2025-05-02",
               "link": "https://macwright.com/2025/05/02/reading-zanzibar.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-04",
+              "link": "https://dbushell.com/notes/2025-07-04T16:20Z/"
             },
             {
-              "title": "Recently",
-              "date": "2025-05-01",
-              "link": "https://macwright.com/2025/05/01/recently.html"
+              "date": "2025-07-04",
+              "link": "https://dbushell.com/notes/2025-07-04T07:36Z/"
+            },
+            {
+              "date": "2025-07-03",
+              "link": "https://dbushell.com/notes/2025-07-03T06:24Z/"
+            },
+            {
+              "date": "2025-07-01",
+              "link": "https://dbushell.com/notes/2025-07-01T09:44Z/"
+            },
+            {
+              "date": "2025-07-01",
+              "link": "https://dbushell.com/notes/2025-07-01T06:54Z/"
             }
           ]
         },
@@ -97,28 +123,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
             {
+              "title": "The inevitable result of what we do today",
               "date": "2025-07-03",
-              "link": "https://dbushell.com/notes/2025-07-03T06:24Z/"
+              "link": "https://anniemueller.com/posts/the-inevitable-result-of-what-we-do-today"
             },
             {
+              "title": "Small Web July",
+              "date": "2025-07-02",
+              "link": "https://anniemueller.com/posts/small-web-july"
+            },
+            {
+              "title": "A few big choices",
+              "date": "2025-07-02",
+              "link": "https://anniemueller.com/posts/a-few-big-choices"
+            },
+            {
+              "title": "Dead happy",
               "date": "2025-07-01",
-              "link": "https://dbushell.com/notes/2025-07-01T09:44Z/"
+              "link": "https://anniemueller.com/posts/dead-happy"
             },
             {
-              "date": "2025-07-01",
-              "link": "https://dbushell.com/notes/2025-07-01T06:54Z/"
-            },
-            {
-              "date": "2025-06-30",
-              "link": "https://dbushell.com/notes/2025-06-30T16:27Z/"
-            },
-            {
-              "date": "2025-06-30",
-              "link": "https://dbushell.com/notes/2025-06-30T06:16Z/"
+              "title": "44",
+              "date": "2025-06-29",
+              "link": "https://anniemueller.com/posts/44"
             }
           ]
         },
@@ -340,6 +371,37 @@
           ]
         },
         {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "That boolean should probably be something else",
+              "date": "2025-06-30",
+              "link": "https://ntietz.com/blog/that-boolean-should-probably-be-something-else/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Proving that every program halts",
+              "date": "2025-06-23",
+              "link": "https://ntietz.com/blog/proving-that-every-program-halts/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Taking a break",
+              "date": "2025-05-05",
+              "link": "https://ntietz.com/blog/taking-a-break/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Measuring my Framework laptop's performance in 3 positions",
+              "date": "2025-04-28",
+              "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "The five stages of incident response",
+              "date": "2025-04-21",
+              "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -367,37 +429,6 @@
               "title": "Reckoning: Part 4 — The Way Out",
               "date": "2024-08-16",
               "link": "https://infrequently.org/2024/08/the-way-out/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "June 2025 blend of links",
-              "date": "2025-06-27",
-              "link": "https://thejollyteapot.com/june-2025-blend/"
-            },
-            {
-              "title": "Something terrible happened with CSS",
-              "date": "2025-05-29",
-              "link": "https://thejollyteapot.com/2025/05/29/something-terrible-happened-with-css/"
-            },
-            {
-              "title": "May 2025 blend of links",
-              "date": "2025-05-26",
-              "link": "https://thejollyteapot.com/may-2025-blend/"
-            },
-            {
-              "title": "On the Jony Ive and Sam Altman announcement",
-              "date": "2025-05-23",
-              "link": "https://thejollyteapot.com/2025/05/23/on-the-jony-ive-and-sam-altman-announcement/"
-            },
-            {
-              "title": "The quest for the best writing tool, a spinoff",
-              "date": "2025-05-18",
-              "link": "https://thejollyteapot.com/2025/05/18/the-quest-for-the-best-writing-tool-a-spinoff/"
             }
           ]
         },
@@ -1642,6 +1673,37 @@
           ]
         },
         {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "Reflections on writing a book",
+              "date": "2025-03-24",
+              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
+            },
+            {
+              "title": "Make it happen",
+              "date": "2025-02-11",
+              "link": "https://dubroy.com/blog/make-it-happen/"
+            },
+            {
+              "title": "Five coding hats",
+              "date": "2025-02-03",
+              "link": "https://dubroy.com/blog/five-coding-hats/"
+            },
+            {
+              "title": "One way to do applied research",
+              "date": "2024-11-07",
+              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
+            },
+            {
+              "title": "Memories of some fantastic internships",
+              "date": "2024-07-31",
+              "link": "https://dubroy.com/blog/memories-of-some-fantastic-internships/"
+            }
+          ]
+        },
+        {
           "title": "Tooth of the Weasel",
           "feedUrl": "https://angryweasel.com/blog/feed/",
           "items": [
@@ -1700,6 +1762,37 @@
               "title": "Contributing in New Ways - Finding Closure among New Opportunities",
               "date": "2024-12-17",
               "link": "https://www.lisihocke.com/2024/12/contributing-in-new-ways-finding-closure-among-new-opportunities.html"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
+              "date": "2025-03-09",
+              "link": "https://www.felienne.com/archives/8880"
+            },
+            {
+              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
+              "date": "2025-03-03",
+              "link": "https://www.felienne.com/archives/8853"
+            },
+            {
+              "title": "Who owns your cloned AI voice – Week 8’s AI news",
+              "date": "2025-02-23",
+              "link": "https://www.felienne.com/archives/8808"
+            },
+            {
+              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
+              "date": "2025-02-15",
+              "link": "https://www.felienne.com/archives/8749"
+            },
+            {
+              "title": "Week 6’s AI News",
+              "date": "2025-02-07",
+              "link": "https://www.felienne.com/archives/8900"
             }
           ]
         },
@@ -2337,15 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-04T03:48:12.771Z",
+  "fetchDate": "2025-07-05T03:44:17.413Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://dubroy.com/blog/rss.xml",
-    "https://ntietz.com/atom.xml",
-    "https://anniemueller.com/posts_feed",
-    "https://www.felienne.com/feed",
-    "https://einarwh.wordpress.com/feed/"
+    "https://einarwh.wordpress.com/feed/",
+    "https://thejollyteapot.com/feed.rss"
   ]
 }

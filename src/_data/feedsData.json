@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "People who act like machines",
+              "date": "2025-07-05",
+              "link": "https://gomakethings.com/people-who-act-like-machines/"
+            },
+            {
               "title": "Web components don't need a constructor()",
               "date": "2025-07-04",
               "link": "https://gomakethings.com/web-components-dont-need-a-constructor/"
@@ -26,11 +31,63 @@
               "title": "Generating colors with the CSS oklch() function",
               "date": "2025-07-01",
               "link": "https://gomakethings.com/generating-colors-with-the-css-oklch-function/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-05",
+              "link": "https://dbushell.com/notes/2025-07-05T16:43Z/"
             },
             {
-              "title": "Public and private CSS cascade layers in a design system",
-              "date": "2025-06-30",
-              "link": "https://gomakethings.com/public-and-private-css-cascade-layers-in-a-design-system/"
+              "date": "2025-07-04",
+              "link": "https://dbushell.com/notes/2025-07-04T16:20Z/"
+            },
+            {
+              "date": "2025-07-04",
+              "link": "https://dbushell.com/notes/2025-07-04T07:36Z/"
+            },
+            {
+              "date": "2025-07-03",
+              "link": "https://dbushell.com/notes/2025-07-03T06:24Z/"
+            },
+            {
+              "date": "2025-07-01",
+              "link": "https://dbushell.com/notes/2025-07-01T09:44Z/"
+            }
+          ]
+        },
+        {
+          "title": "Fynn Ellie Becker",
+          "feedUrl": "https://fynn.be/feed.xml",
+          "items": [
+            {
+              "title": "Revisiting my German pronouns",
+              "date": "2025-07-05",
+              "link": "https://fynn.be/blog/revisiting-my-german-pronouns/"
+            },
+            {
+              "title": "Tackling Temporal Troubles",
+              "date": "2025-06-10",
+              "link": "https://fynn.be/talks/tackling-temporal-troubles/"
+            },
+            {
+              "title": "BITV-Zertifizierung der Factorial-Website",
+              "date": "2025-05-15",
+              "link": "https://fynn.be/talks/factorial-website-bitv/"
+            },
+            {
+              "title": "Sunset v29",
+              "date": "2025-05-15",
+              "link": "https://fynn.be/sunset/v29/"
+            },
+            {
+              "title": "Introduction to digital accessibility",
+              "date": "2025-03-04",
+              "link": "https://fynn.be/talks/introduction-digital-accessibility/"
             }
           ]
         },
@@ -62,32 +119,6 @@
               "title": "Reading Zanzibar",
               "date": "2025-05-02",
               "link": "https://macwright.com/2025/05/02/reading-zanzibar.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-04",
-              "link": "https://dbushell.com/notes/2025-07-04T16:20Z/"
-            },
-            {
-              "date": "2025-07-04",
-              "link": "https://dbushell.com/notes/2025-07-04T07:36Z/"
-            },
-            {
-              "date": "2025-07-03",
-              "link": "https://dbushell.com/notes/2025-07-03T06:24Z/"
-            },
-            {
-              "date": "2025-07-01",
-              "link": "https://dbushell.com/notes/2025-07-01T09:44Z/"
-            },
-            {
-              "date": "2025-07-01",
-              "link": "https://dbushell.com/notes/2025-07-01T06:54Z/"
             }
           ]
         },
@@ -1049,37 +1080,6 @@
               "title": "Ways to listen to (rather than read about) the psychology of software teams!",
               "date": "2025-02-21",
               "link": "https://www.drcathicks.com/post/ways-to-listen-to-rather-than-read-about-the-psychology-of-software-teams"
-            }
-          ]
-        },
-        {
-          "title": "Fynn Ellie Becker",
-          "feedUrl": "https://fynn.be/feed.xml",
-          "items": [
-            {
-              "title": "Tackling Temporal Troubles",
-              "date": "2025-06-10",
-              "link": "https://fynn.be/talks/tackling-temporal-troubles/"
-            },
-            {
-              "title": "BITV-Zertifizierung der Factorial-Website",
-              "date": "2025-05-15",
-              "link": "https://fynn.be/talks/factorial-website-bitv/"
-            },
-            {
-              "title": "Sunset v29",
-              "date": "2025-05-15",
-              "link": "https://fynn.be/sunset/v29/"
-            },
-            {
-              "title": "Introduction to digital accessibility",
-              "date": "2025-03-04",
-              "link": "https://fynn.be/talks/introduction-digital-accessibility/"
-            },
-            {
-              "title": "Panic",
-              "date": "2025-02-22",
-              "link": "https://fynn.be/blog/panic/"
             }
           ]
         },
@@ -2430,7 +2430,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-05T03:44:17.413Z",
+  "fetchDate": "2025-07-06T03:53:49.165Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

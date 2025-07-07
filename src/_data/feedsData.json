@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Do You Even Personalize, Bro?",
+              "date": "2025-07-06",
+              "link": "https://blog.jim-nielsen.com/2025/do-you-personalize/"
+            },
+            {
+              "title": "Setting Element Ordering With HTML Rewriter Using CSS",
+              "date": "2025-07-02",
+              "link": "https://blog.jim-nielsen.com/2025/element-ordering-edge-function-html-rewriter/"
+            },
+            {
+              "title": "An Analysis of Links From The White House’s “Wire” Website",
+              "date": "2025-06-30",
+              "link": "https://blog.jim-nielsen.com/2025/links-from-whgov-wire/"
+            },
+            {
+              "title": "Transforming HTML With Netlify Edge Functions",
+              "date": "2025-06-25",
+              "link": "https://blog.jim-nielsen.com/2025/transform-html-with-edge-functions/"
+            },
+            {
+              "title": "Little Swarming Gnats of Data",
+              "date": "2025-06-24",
+              "link": "https://blog.jim-nielsen.com/2025/data-gants/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-06",
+              "link": "https://dbushell.com/notes/2025-07-06T08:11Z/"
+            },
+            {
+              "date": "2025-07-05",
+              "link": "https://dbushell.com/notes/2025-07-05T16:43Z/"
+            },
+            {
+              "date": "2025-07-04",
+              "link": "https://dbushell.com/notes/2025-07-04T16:20Z/"
+            },
+            {
+              "date": "2025-07-04",
+              "link": "https://dbushell.com/notes/2025-07-04T07:36Z/"
+            },
+            {
+              "date": "2025-07-03",
+              "link": "https://dbushell.com/notes/2025-07-03T06:24Z/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -31,32 +88,6 @@
               "title": "Generating colors with the CSS oklch() function",
               "date": "2025-07-01",
               "link": "https://gomakethings.com/generating-colors-with-the-css-oklch-function/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-05",
-              "link": "https://dbushell.com/notes/2025-07-05T16:43Z/"
-            },
-            {
-              "date": "2025-07-04",
-              "link": "https://dbushell.com/notes/2025-07-04T16:20Z/"
-            },
-            {
-              "date": "2025-07-04",
-              "link": "https://dbushell.com/notes/2025-07-04T07:36Z/"
-            },
-            {
-              "date": "2025-07-03",
-              "link": "https://dbushell.com/notes/2025-07-03T06:24Z/"
-            },
-            {
-              "date": "2025-07-01",
-              "link": "https://dbushell.com/notes/2025-07-01T09:44Z/"
             }
           ]
         },
@@ -181,37 +212,6 @@
               "title": "44",
               "date": "2025-06-29",
               "link": "https://anniemueller.com/posts/44"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Setting Element Ordering With HTML Rewriter Using CSS",
-              "date": "2025-07-02",
-              "link": "https://blog.jim-nielsen.com/2025/element-ordering-edge-function-html-rewriter/"
-            },
-            {
-              "title": "An Analysis of Links From The White House’s “Wire” Website",
-              "date": "2025-06-30",
-              "link": "https://blog.jim-nielsen.com/2025/links-from-whgov-wire/"
-            },
-            {
-              "title": "Transforming HTML With Netlify Edge Functions",
-              "date": "2025-06-25",
-              "link": "https://blog.jim-nielsen.com/2025/transform-html-with-edge-functions/"
-            },
-            {
-              "title": "Little Swarming Gnats of Data",
-              "date": "2025-06-24",
-              "link": "https://blog.jim-nielsen.com/2025/data-gants/"
-            },
-            {
-              "title": "My Copy of The Internet Phone Book",
-              "date": "2025-06-22",
-              "link": "https://blog.jim-nielsen.com/2025/internet-phone-book/"
             }
           ]
         },
@@ -2430,7 +2430,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-06T03:53:49.165Z",
+  "fetchDate": "2025-07-07T03:53:35.806Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

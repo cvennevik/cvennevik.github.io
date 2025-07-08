@@ -4,59 +4,33 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
             {
-              "title": "Do You Even Personalize, Bro?",
-              "date": "2025-07-06",
-              "link": "https://blog.jim-nielsen.com/2025/do-you-personalize/"
+              "title": "How much rework do you WANT?",
+              "date": "2025-07-07",
+              "link": "http://agileotter.blogspot.com/2025/07/how-much-rework-do-you-want.html"
             },
             {
-              "title": "Setting Element Ordering With HTML Rewriter Using CSS",
-              "date": "2025-07-02",
-              "link": "https://blog.jim-nielsen.com/2025/element-ordering-edge-function-html-rewriter/"
+              "title": "There is No Automatic Reset for Engineering",
+              "date": "2025-03-03",
+              "link": "http://agileotter.blogspot.com/2025/03/there-is-no-automatic-reset-in.html"
             },
             {
-              "title": "An Analysis of Links From The White House’s “Wire” Website",
-              "date": "2025-06-30",
-              "link": "https://blog.jim-nielsen.com/2025/links-from-whgov-wire/"
+              "title": "Pair Programming Listicle",
+              "date": "2025-02-11",
+              "link": "http://agileotter.blogspot.com/2025/02/pair-programming-listicle.html"
             },
             {
-              "title": "Transforming HTML With Netlify Edge Functions",
-              "date": "2025-06-25",
-              "link": "https://blog.jim-nielsen.com/2025/transform-html-with-edge-functions/"
+              "title": "Irresponsibility: Estimates and NoEstimates",
+              "date": "2024-12-11",
+              "link": "http://agileotter.blogspot.com/2024/12/irresponsibility-estimates-and.html"
             },
             {
-              "title": "Little Swarming Gnats of Data",
-              "date": "2025-06-24",
-              "link": "https://blog.jim-nielsen.com/2025/data-gants/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-06",
-              "link": "https://dbushell.com/notes/2025-07-06T08:11Z/"
-            },
-            {
-              "date": "2025-07-05",
-              "link": "https://dbushell.com/notes/2025-07-05T16:43Z/"
-            },
-            {
-              "date": "2025-07-04",
-              "link": "https://dbushell.com/notes/2025-07-04T16:20Z/"
-            },
-            {
-              "date": "2025-07-04",
-              "link": "https://dbushell.com/notes/2025-07-04T07:36Z/"
-            },
-            {
-              "date": "2025-07-03",
-              "link": "https://dbushell.com/notes/2025-07-03T06:24Z/"
+              "title": "Basic Microphone Usage",
+              "date": "2024-08-06",
+              "link": "http://agileotter.blogspot.com/2024/08/basic-microphone-usage.html"
             }
           ]
         },
@@ -64,6 +38,11 @@
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "How to automatically create a new release and publish to NPM whenever package.json is updated using a GitHub Action",
+              "date": "2025-07-07",
+              "link": "https://gomakethings.com/how-to-automatically-create-a-new-release-and-publish-to-npm-whenever-package.json-is-updated-using-a-github-action/"
+            },
             {
               "title": "People who act like machines",
               "date": "2025-07-05",
@@ -83,11 +62,94 @@
               "title": "Testing custom events with Playwright",
               "date": "2025-07-02",
               "link": "https://gomakethings.com/testing-custom-events-with-playwright/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Follow Up: An Analysis of YouTube Links From The White House’s “Wire” Website",
+              "date": "2025-07-07",
+              "link": "https://blog.jim-nielsen.com/2025/youtube-links-from-whgov-wire/"
             },
             {
-              "title": "Generating colors with the CSS oklch() function",
+              "title": "Do You Even Personalize, Bro?",
+              "date": "2025-07-06",
+              "link": "https://blog.jim-nielsen.com/2025/do-you-personalize/"
+            },
+            {
+              "title": "Setting Element Ordering With HTML Rewriter Using CSS",
+              "date": "2025-07-02",
+              "link": "https://blog.jim-nielsen.com/2025/element-ordering-edge-function-html-rewriter/"
+            },
+            {
+              "title": "An Analysis of Links From The White House’s “Wire” Website",
+              "date": "2025-06-30",
+              "link": "https://blog.jim-nielsen.com/2025/links-from-whgov-wire/"
+            },
+            {
+              "title": "Transforming HTML With Netlify Edge Functions",
+              "date": "2025-06-25",
+              "link": "https://blog.jim-nielsen.com/2025/transform-html-with-edge-functions/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-07",
+              "link": "https://dbushell.com/notes/2025-07-07T13:47Z/"
+            },
+            {
+              "date": "2025-07-06",
+              "link": "https://dbushell.com/notes/2025-07-06T08:11Z/"
+            },
+            {
+              "date": "2025-07-05",
+              "link": "https://dbushell.com/notes/2025-07-05T16:43Z/"
+            },
+            {
+              "date": "2025-07-04",
+              "link": "https://dbushell.com/notes/2025-07-04T16:20Z/"
+            },
+            {
+              "date": "2025-07-04",
+              "link": "https://dbushell.com/notes/2025-07-04T07:36Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Week notes: Road trip edition",
+              "date": "2025-07-07",
+              "link": "https://anniemueller.com/posts/week-notes-road-trip-edition"
+            },
+            {
+              "title": "The inevitable result of what we do today",
+              "date": "2025-07-03",
+              "link": "https://anniemueller.com/posts/the-inevitable-result-of-what-we-do-today"
+            },
+            {
+              "title": "Small Web July",
+              "date": "2025-07-02",
+              "link": "https://anniemueller.com/posts/small-web-july"
+            },
+            {
+              "title": "A few big choices",
+              "date": "2025-07-02",
+              "link": "https://anniemueller.com/posts/a-few-big-choices"
+            },
+            {
+              "title": "Dead happy",
               "date": "2025-07-01",
-              "link": "https://gomakethings.com/generating-colors-with-the-css-oklch-function/"
+              "link": "https://anniemueller.com/posts/dead-happy"
             }
           ]
         },
@@ -181,37 +243,6 @@
               "title": "Mere Being 018 - December",
               "date": "2025-01-01",
               "link": "https://www.simplermachines.com/mere-being-018-december/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "The inevitable result of what we do today",
-              "date": "2025-07-03",
-              "link": "https://anniemueller.com/posts/the-inevitable-result-of-what-we-do-today"
-            },
-            {
-              "title": "Small Web July",
-              "date": "2025-07-02",
-              "link": "https://anniemueller.com/posts/small-web-july"
-            },
-            {
-              "title": "A few big choices",
-              "date": "2025-07-02",
-              "link": "https://anniemueller.com/posts/a-few-big-choices"
-            },
-            {
-              "title": "Dead happy",
-              "date": "2025-07-01",
-              "link": "https://anniemueller.com/posts/dead-happy"
-            },
-            {
-              "title": "44",
-              "date": "2025-06-29",
-              "link": "https://anniemueller.com/posts/44"
             }
           ]
         },
@@ -377,12 +408,12 @@
             {
               "title": "WCAG doesn't round",
               "date": "2025-06-30",
-              "link": "https://frills.dev/false"
+              "link": "https://tarnoff.info/2025/06/05/quick-tip-wcag-doesnt-round/"
             },
             {
               "title": "Feedback Is Not an Attack",
               "date": "2025-06-25",
-              "link": "https://frills.dev/false"
+              "link": "https://ashley.dev/posts/feedback-is-not-an-attack/"
             },
             {
               "title": "Changelog –\n        12 Jun 2025\n      ",
@@ -1797,37 +1828,6 @@
           ]
         },
         {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "There is No Automatic Reset for Engineering",
-              "date": "2025-03-03",
-              "link": "http://agileotter.blogspot.com/2025/03/there-is-no-automatic-reset-in.html"
-            },
-            {
-              "title": "Pair Programming Listicle",
-              "date": "2025-02-11",
-              "link": "http://agileotter.blogspot.com/2025/02/pair-programming-listicle.html"
-            },
-            {
-              "title": "Irresponsibility: Estimates and NoEstimates",
-              "date": "2024-12-11",
-              "link": "http://agileotter.blogspot.com/2024/12/irresponsibility-estimates-and.html"
-            },
-            {
-              "title": "Basic Microphone Usage",
-              "date": "2024-08-06",
-              "link": "http://agileotter.blogspot.com/2024/08/basic-microphone-usage.html"
-            },
-            {
-              "title": "Profitable Struggle and Unprofitable Struggle",
-              "date": "2024-05-24",
-              "link": "http://agileotter.blogspot.com/2024/05/profitable-struggle-and-unprofitable.html"
-            }
-          ]
-        },
-        {
           "title": "Marvin Hagemeister",
           "feedUrl": "https://marvinh.dev/feed.xml",
           "items": [
@@ -2430,7 +2430,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-07T03:53:35.806Z",
+  "fetchDate": "2025-07-08T03:49:18.745Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

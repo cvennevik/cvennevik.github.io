@@ -4,6 +4,156 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Bulletproof web component loading",
+              "date": "2025-07-08",
+              "link": "https://gomakethings.com/bulletproof-web-component-loading/"
+            },
+            {
+              "title": "How to automatically create a new release and publish to NPM whenever package.json is updated using a GitHub Action",
+              "date": "2025-07-07",
+              "link": "https://gomakethings.com/how-to-automatically-create-a-new-release-and-publish-to-npm-whenever-package.json-is-updated-using-a-github-action/"
+            },
+            {
+              "title": "People who act like machines",
+              "date": "2025-07-05",
+              "link": "https://gomakethings.com/people-who-act-like-machines/"
+            },
+            {
+              "title": "Web components don't need a constructor()",
+              "date": "2025-07-04",
+              "link": "https://gomakethings.com/web-components-dont-need-a-constructor/"
+            },
+            {
+              "title": "Catching early DOM events in Playwright",
+              "date": "2025-07-03",
+              "link": "https://gomakethings.com/catching-early-dom-events-in-playwright/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "#Accesstive Will Get You Sued",
+              "date": "2025-07-08",
+              "link": "https://adrianroselli.com/2025/07/accesstive-will-get-you-sued.html"
+            },
+            {
+              "title": "Check / Uncheck all in a Table",
+              "date": "2025-07-01",
+              "link": "https://adrianroselli.com/2025/07/check-uncheck-all-in-a-table.html"
+            },
+            {
+              "title": "Where to Put Focus When Opening a Modal Dialog",
+              "date": "2025-06-06",
+              "link": "https://adrianroselli.com/2025/06/where-to-put-focus-when-opening-a-modal-dialog.html"
+            },
+            {
+              "title": "My Request to Google on Accessibility",
+              "date": "2025-05-22",
+              "link": "https://adrianroselli.com/2025/05/my-request-to-google-on-accessibility.html"
+            },
+            {
+              "title": "Talkin’ Tables @ AccessU",
+              "date": "2025-05-14",
+              "link": "https://adrianroselli.com/2025/05/talkin-tables-accessu.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-08",
+              "link": "https://dbushell.com/notes/2025-07-08T14:38Z/"
+            },
+            {
+              "date": "2025-07-07",
+              "link": "https://dbushell.com/notes/2025-07-07T13:47Z/"
+            },
+            {
+              "date": "2025-07-06",
+              "link": "https://dbushell.com/notes/2025-07-06T08:11Z/"
+            },
+            {
+              "date": "2025-07-05",
+              "link": "https://dbushell.com/notes/2025-07-05T16:43Z/"
+            },
+            {
+              "date": "2025-07-04",
+              "link": "https://dbushell.com/notes/2025-07-04T16:20Z/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Logic for Programmers Turns One",
+              "date": "2025-07-08",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/"
+            },
+            {
+              "title": "Logical Quantifiers in Software",
+              "date": "2025-07-02",
+              "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/"
+            },
+            {
+              "title": "You can cheat a test suite with a big enough polynomial",
+              "date": "2025-06-24",
+              "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/"
+            },
+            {
+              "title": "Solving LinkedIn Queens with SMT",
+              "date": "2025-06-12",
+              "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/"
+            },
+            {
+              "title": "AI is a gamechanger for TLA+ users",
+              "date": "2025-06-05",
+              "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "This is not the greatest cat in the world; this is just a tribute",
+              "date": "2025-07-08",
+              "link": "https://anniemueller.com/posts/this-is-not-the-greatest-cat-in-the-world-this-is-just-a-tribute"
+            },
+            {
+              "title": "Week notes: Road trip edition",
+              "date": "2025-07-07",
+              "link": "https://anniemueller.com/posts/week-notes-road-trip-edition"
+            },
+            {
+              "title": "The inevitable result of what we do today",
+              "date": "2025-07-03",
+              "link": "https://anniemueller.com/posts/the-inevitable-result-of-what-we-do-today"
+            },
+            {
+              "title": "Small Web July",
+              "date": "2025-07-02",
+              "link": "https://anniemueller.com/posts/small-web-july"
+            },
+            {
+              "title": "A few big choices",
+              "date": "2025-07-02",
+              "link": "https://anniemueller.com/posts/a-few-big-choices"
+            }
+          ]
+        },
+        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
@@ -35,37 +185,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "How to automatically create a new release and publish to NPM whenever package.json is updated using a GitHub Action",
-              "date": "2025-07-07",
-              "link": "https://gomakethings.com/how-to-automatically-create-a-new-release-and-publish-to-npm-whenever-package.json-is-updated-using-a-github-action/"
-            },
-            {
-              "title": "People who act like machines",
-              "date": "2025-07-05",
-              "link": "https://gomakethings.com/people-who-act-like-machines/"
-            },
-            {
-              "title": "Web components don't need a constructor()",
-              "date": "2025-07-04",
-              "link": "https://gomakethings.com/web-components-dont-need-a-constructor/"
-            },
-            {
-              "title": "Catching early DOM events in Playwright",
-              "date": "2025-07-03",
-              "link": "https://gomakethings.com/catching-early-dom-events-in-playwright/"
-            },
-            {
-              "title": "Testing custom events with Playwright",
-              "date": "2025-07-02",
-              "link": "https://gomakethings.com/testing-custom-events-with-playwright/"
-            }
-          ]
-        },
-        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -93,63 +212,6 @@
               "title": "Transforming HTML With Netlify Edge Functions",
               "date": "2025-06-25",
               "link": "https://blog.jim-nielsen.com/2025/transform-html-with-edge-functions/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-07",
-              "link": "https://dbushell.com/notes/2025-07-07T13:47Z/"
-            },
-            {
-              "date": "2025-07-06",
-              "link": "https://dbushell.com/notes/2025-07-06T08:11Z/"
-            },
-            {
-              "date": "2025-07-05",
-              "link": "https://dbushell.com/notes/2025-07-05T16:43Z/"
-            },
-            {
-              "date": "2025-07-04",
-              "link": "https://dbushell.com/notes/2025-07-04T16:20Z/"
-            },
-            {
-              "date": "2025-07-04",
-              "link": "https://dbushell.com/notes/2025-07-04T07:36Z/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Week notes: Road trip edition",
-              "date": "2025-07-07",
-              "link": "https://anniemueller.com/posts/week-notes-road-trip-edition"
-            },
-            {
-              "title": "The inevitable result of what we do today",
-              "date": "2025-07-03",
-              "link": "https://anniemueller.com/posts/the-inevitable-result-of-what-we-do-today"
-            },
-            {
-              "title": "Small Web July",
-              "date": "2025-07-02",
-              "link": "https://anniemueller.com/posts/small-web-july"
-            },
-            {
-              "title": "A few big choices",
-              "date": "2025-07-02",
-              "link": "https://anniemueller.com/posts/a-few-big-choices"
-            },
-            {
-              "title": "Dead happy",
-              "date": "2025-07-01",
-              "link": "https://anniemueller.com/posts/dead-happy"
             }
           ]
         },
@@ -274,68 +336,6 @@
               "title": "Supply chain attacks: Kan vi stole på open source?",
               "date": "2025-06-11",
               "link": "https://www.kodemaker.no/blogg/2025-06-11-supply-chain-attacks/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Logical Quantifiers in Software",
-              "date": "2025-07-02",
-              "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/"
-            },
-            {
-              "title": "You can cheat a test suite with a big enough polynomial",
-              "date": "2025-06-24",
-              "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/"
-            },
-            {
-              "title": "Solving LinkedIn Queens with SMT",
-              "date": "2025-06-12",
-              "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/"
-            },
-            {
-              "title": "AI is a gamechanger for TLA+ users",
-              "date": "2025-06-05",
-              "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/"
-            },
-            {
-              "title": "What does \"Undecidable\" mean, anyway",
-              "date": "2025-05-28",
-              "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Check / Uncheck all in a Table",
-              "date": "2025-07-01",
-              "link": "https://adrianroselli.com/2025/07/check-uncheck-all-in-a-table.html"
-            },
-            {
-              "title": "Where to Put Focus When Opening a Modal Dialog",
-              "date": "2025-06-06",
-              "link": "https://adrianroselli.com/2025/06/where-to-put-focus-when-opening-a-modal-dialog.html"
-            },
-            {
-              "title": "My Request to Google on Accessibility",
-              "date": "2025-05-22",
-              "link": "https://adrianroselli.com/2025/05/my-request-to-google-on-accessibility.html"
-            },
-            {
-              "title": "Talkin’ Tables @ AccessU",
-              "date": "2025-05-14",
-              "link": "https://adrianroselli.com/2025/05/talkin-tables-accessu.html"
-            },
-            {
-              "title": "Selfish Accessibility 2025 @ AccessU",
-              "date": "2025-05-13",
-              "link": "https://adrianroselli.com/2025/05/selfish-accessibility-2025-accessu.html"
             }
           ]
         },
@@ -2430,7 +2430,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-08T03:49:18.745Z",
+  "fetchDate": "2025-07-09T03:52:10.565Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

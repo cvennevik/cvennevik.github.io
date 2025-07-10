@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "A quick note on \"At Scale\"",
+              "date": "2025-07-09",
+              "link": "http://agileotter.blogspot.com/2025/07/a-quick-note-on-at-scale.html"
+            },
+            {
+              "title": "How much rework do you WANT?",
+              "date": "2025-07-07",
+              "link": "http://agileotter.blogspot.com/2025/07/how-much-rework-do-you-want.html"
+            },
+            {
+              "title": "There is No Automatic Reset for Engineering",
+              "date": "2025-03-03",
+              "link": "http://agileotter.blogspot.com/2025/03/there-is-no-automatic-reset-in.html"
+            },
+            {
+              "title": "Pair Programming Listicle",
+              "date": "2025-02-11",
+              "link": "http://agileotter.blogspot.com/2025/02/pair-programming-listicle.html"
+            },
+            {
+              "title": "Irresponsibility: Estimates and NoEstimates",
+              "date": "2024-12-11",
+              "link": "http://agileotter.blogspot.com/2024/12/irresponsibility-estimates-and.html"
+            }
+          ]
+        },
+        {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "Thoughts on Motivation and My 40-Year Career",
+              "date": "2025-07-09",
+              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
+            },
+            {
+              "title": "In Praise of “Normal” Engineers",
+              "date": "2025-06-19",
+              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
+            },
+            {
+              "title": "On How Long it Takes to Know if a Job is Right for You or Not",
+              "date": "2025-06-08",
+              "link": "https://charity.wtf/2025/06/08/on-how-long-it-takes-to-know-if-a-job-is-right-for-you-or-not/"
+            },
+            {
+              "title": "On Pronouns, Policies and Mandates",
+              "date": "2025-05-02",
+              "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
+            },
+            {
+              "title": "On Dropouts and Bootstraps",
+              "date": "2025-04-28",
+              "link": "https://charity.wtf/2025/04/28/on-dropouts-and-bootstraps/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "text-decoration-style in WebKit",
+              "date": "2025-07-09",
+              "link": "https://gomakethings.com/text-decoration-style-in-webkit/"
+            },
             {
               "title": "Bulletproof web component loading",
               "date": "2025-07-08",
@@ -26,11 +93,63 @@
               "title": "Web components don't need a constructor()",
               "date": "2025-07-04",
               "link": "https://gomakethings.com/web-components-dont-need-a-constructor/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-09",
+              "link": "https://dbushell.com/notes/2025-07-09T17:00Z/"
             },
             {
-              "title": "Catching early DOM events in Playwright",
+              "date": "2025-07-08",
+              "link": "https://dbushell.com/notes/2025-07-08T14:38Z/"
+            },
+            {
+              "date": "2025-07-07",
+              "link": "https://dbushell.com/notes/2025-07-07T13:47Z/"
+            },
+            {
+              "date": "2025-07-06",
+              "link": "https://dbushell.com/notes/2025-07-06T08:11Z/"
+            },
+            {
+              "date": "2025-07-05",
+              "link": "https://dbushell.com/notes/2025-07-05T16:43Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Small webbing along, update 1",
+              "date": "2025-07-09",
+              "link": "https://anniemueller.com/posts/small-webbing-along-update-1"
+            },
+            {
+              "title": "This is not the greatest cat in the world; this is just a tribute",
+              "date": "2025-07-08",
+              "link": "https://anniemueller.com/posts/this-is-not-the-greatest-cat-in-the-world-this-is-just-a-tribute"
+            },
+            {
+              "title": "Week notes: Road trip edition",
+              "date": "2025-07-07",
+              "link": "https://anniemueller.com/posts/week-notes-road-trip-edition"
+            },
+            {
+              "title": "The inevitable result of what we do today",
               "date": "2025-07-03",
-              "link": "https://gomakethings.com/catching-early-dom-events-in-playwright/"
+              "link": "https://anniemueller.com/posts/the-inevitable-result-of-what-we-do-today"
+            },
+            {
+              "title": "Small Web July",
+              "date": "2025-07-02",
+              "link": "https://anniemueller.com/posts/small-web-july"
             }
           ]
         },
@@ -66,32 +185,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-08",
-              "link": "https://dbushell.com/notes/2025-07-08T14:38Z/"
-            },
-            {
-              "date": "2025-07-07",
-              "link": "https://dbushell.com/notes/2025-07-07T13:47Z/"
-            },
-            {
-              "date": "2025-07-06",
-              "link": "https://dbushell.com/notes/2025-07-06T08:11Z/"
-            },
-            {
-              "date": "2025-07-05",
-              "link": "https://dbushell.com/notes/2025-07-05T16:43Z/"
-            },
-            {
-              "date": "2025-07-04",
-              "link": "https://dbushell.com/notes/2025-07-04T16:20Z/"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -119,68 +212,6 @@
               "title": "AI is a gamechanger for TLA+ users",
               "date": "2025-06-05",
               "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "This is not the greatest cat in the world; this is just a tribute",
-              "date": "2025-07-08",
-              "link": "https://anniemueller.com/posts/this-is-not-the-greatest-cat-in-the-world-this-is-just-a-tribute"
-            },
-            {
-              "title": "Week notes: Road trip edition",
-              "date": "2025-07-07",
-              "link": "https://anniemueller.com/posts/week-notes-road-trip-edition"
-            },
-            {
-              "title": "The inevitable result of what we do today",
-              "date": "2025-07-03",
-              "link": "https://anniemueller.com/posts/the-inevitable-result-of-what-we-do-today"
-            },
-            {
-              "title": "Small Web July",
-              "date": "2025-07-02",
-              "link": "https://anniemueller.com/posts/small-web-july"
-            },
-            {
-              "title": "A few big choices",
-              "date": "2025-07-02",
-              "link": "https://anniemueller.com/posts/a-few-big-choices"
-            }
-          ]
-        },
-        {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "How much rework do you WANT?",
-              "date": "2025-07-07",
-              "link": "http://agileotter.blogspot.com/2025/07/how-much-rework-do-you-want.html"
-            },
-            {
-              "title": "There is No Automatic Reset for Engineering",
-              "date": "2025-03-03",
-              "link": "http://agileotter.blogspot.com/2025/03/there-is-no-automatic-reset-in.html"
-            },
-            {
-              "title": "Pair Programming Listicle",
-              "date": "2025-02-11",
-              "link": "http://agileotter.blogspot.com/2025/02/pair-programming-listicle.html"
-            },
-            {
-              "title": "Irresponsibility: Estimates and NoEstimates",
-              "date": "2024-12-11",
-              "link": "http://agileotter.blogspot.com/2024/12/irresponsibility-estimates-and.html"
-            },
-            {
-              "title": "Basic Microphone Usage",
-              "date": "2024-08-06",
-              "link": "http://agileotter.blogspot.com/2024/08/basic-microphone-usage.html"
             }
           ]
         },
@@ -526,37 +557,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "New zine: The Secret Rules of the Terminal",
-              "date": "2025-06-26",
-              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
-            },
-            {
-              "title": "Using `make` to compile C programs (for non-C-programmers)",
-              "date": "2025-06-10",
-              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
-            },
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            },
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            }
-          ]
-        },
-        {
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
@@ -770,37 +770,6 @@
               "title": "One or Two? How Many Queues?",
               "date": "2025-03-25",
               "link": "http://brooker.co.za/blog/2025/03/25/two-queues.html"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "In Praise of “Normal” Engineers",
-              "date": "2025-06-19",
-              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
-            },
-            {
-              "title": "On How Long it Takes to Know if a Job is Right for You or Not",
-              "date": "2025-06-08",
-              "link": "https://charity.wtf/2025/06/08/on-how-long-it-takes-to-know-if-a-job-is-right-for-you-or-not/"
-            },
-            {
-              "title": "On Pronouns, Policies and Mandates",
-              "date": "2025-05-02",
-              "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
-            },
-            {
-              "title": "On Dropouts and Bootstraps",
-              "date": "2025-04-28",
-              "link": "https://charity.wtf/2025/04/28/on-dropouts-and-bootstraps/"
-            },
-            {
-              "title": "On Writing, Social Media, and Finding the Line of Embarrassment",
-              "date": "2025-04-19",
-              "link": "https://charity.wtf/2025/04/19/on-writing-social-media-and-finding-the-line-of-embarrassment/"
             }
           ]
         },
@@ -2430,12 +2399,13 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-09T03:52:10.565Z",
+  "fetchDate": "2025-07-10T03:51:35.874Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://einarwh.wordpress.com/feed/",
-    "https://thejollyteapot.com/feed.rss"
+    "https://thejollyteapot.com/feed.rss",
+    "https://jvns.ca/atom.xml"
   ]
 }

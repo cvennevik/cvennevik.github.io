@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Short-wave radio: the original internet",
+              "date": "2025-07-10",
+              "link": "https://gomakethings.com/short-wave-radio-the-original-internet/"
+            },
+            {
+              "title": "text-decoration-style in WebKit",
+              "date": "2025-07-09",
+              "link": "https://gomakethings.com/text-decoration-style-in-webkit/"
+            },
+            {
+              "title": "Bulletproof web component loading",
+              "date": "2025-07-08",
+              "link": "https://gomakethings.com/bulletproof-web-component-loading/"
+            },
+            {
+              "title": "How to automatically create a new release and publish to NPM whenever package.json is updated using a GitHub Action",
+              "date": "2025-07-07",
+              "link": "https://gomakethings.com/how-to-automatically-create-a-new-release-and-publish-to-npm-whenever-package.json-is-updated-using-a-github-action/"
+            },
+            {
+              "title": "People who act like machines",
+              "date": "2025-07-05",
+              "link": "https://gomakethings.com/people-who-act-like-machines/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Computers Are a Feeling",
+              "date": "2025-07-10",
+              "link": "https://blog.jim-nielsen.com/2025/computers-are-a-feeling/"
+            },
+            {
+              "title": "Follow Up: An Analysis of YouTube Links From The White House’s “Wire” Website",
+              "date": "2025-07-07",
+              "link": "https://blog.jim-nielsen.com/2025/youtube-links-from-whgov-wire/"
+            },
+            {
+              "title": "Do You Even Personalize, Bro?",
+              "date": "2025-07-06",
+              "link": "https://blog.jim-nielsen.com/2025/do-you-personalize/"
+            },
+            {
+              "title": "Setting Element Ordering With HTML Rewriter Using CSS",
+              "date": "2025-07-02",
+              "link": "https://blog.jim-nielsen.com/2025/element-ordering-edge-function-html-rewriter/"
+            },
+            {
+              "title": "An Analysis of Links From The White House’s “Wire” Website",
+              "date": "2025-06-30",
+              "link": "https://blog.jim-nielsen.com/2025/links-from-whgov-wire/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-10",
+              "link": "https://dbushell.com/notes/2025-07-10T05:13Z/"
+            },
+            {
+              "date": "2025-07-09",
+              "link": "https://dbushell.com/notes/2025-07-09T17:00Z/"
+            },
+            {
+              "date": "2025-07-08",
+              "link": "https://dbushell.com/notes/2025-07-08T14:38Z/"
+            },
+            {
+              "date": "2025-07-07",
+              "link": "https://dbushell.com/notes/2025-07-07T13:47Z/"
+            },
+            {
+              "date": "2025-07-06",
+              "link": "https://dbushell.com/notes/2025-07-06T08:11Z/"
+            }
+          ]
+        },
+        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
@@ -11,6 +99,11 @@
               "title": "A quick note on \"At Scale\"",
               "date": "2025-07-09",
               "link": "http://agileotter.blogspot.com/2025/07/a-quick-note-on-at-scale.html"
+            },
+            {
+              "title": "Who (the heck) Am I?",
+              "date": "2025-07-09",
+              "link": "http://agileotter.blogspot.com/2025/07/who-heck-am-i.html"
             },
             {
               "title": "How much rework do you WANT?",
@@ -26,11 +119,6 @@
               "title": "Pair Programming Listicle",
               "date": "2025-02-11",
               "link": "http://agileotter.blogspot.com/2025/02/pair-programming-listicle.html"
-            },
-            {
-              "title": "Irresponsibility: Estimates and NoEstimates",
-              "date": "2024-12-11",
-              "link": "http://agileotter.blogspot.com/2024/12/irresponsibility-estimates-and.html"
             }
           ]
         },
@@ -62,63 +150,6 @@
               "title": "On Dropouts and Bootstraps",
               "date": "2025-04-28",
               "link": "https://charity.wtf/2025/04/28/on-dropouts-and-bootstraps/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "text-decoration-style in WebKit",
-              "date": "2025-07-09",
-              "link": "https://gomakethings.com/text-decoration-style-in-webkit/"
-            },
-            {
-              "title": "Bulletproof web component loading",
-              "date": "2025-07-08",
-              "link": "https://gomakethings.com/bulletproof-web-component-loading/"
-            },
-            {
-              "title": "How to automatically create a new release and publish to NPM whenever package.json is updated using a GitHub Action",
-              "date": "2025-07-07",
-              "link": "https://gomakethings.com/how-to-automatically-create-a-new-release-and-publish-to-npm-whenever-package.json-is-updated-using-a-github-action/"
-            },
-            {
-              "title": "People who act like machines",
-              "date": "2025-07-05",
-              "link": "https://gomakethings.com/people-who-act-like-machines/"
-            },
-            {
-              "title": "Web components don't need a constructor()",
-              "date": "2025-07-04",
-              "link": "https://gomakethings.com/web-components-dont-need-a-constructor/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-09",
-              "link": "https://dbushell.com/notes/2025-07-09T17:00Z/"
-            },
-            {
-              "date": "2025-07-08",
-              "link": "https://dbushell.com/notes/2025-07-08T14:38Z/"
-            },
-            {
-              "date": "2025-07-07",
-              "link": "https://dbushell.com/notes/2025-07-07T13:47Z/"
-            },
-            {
-              "date": "2025-07-06",
-              "link": "https://dbushell.com/notes/2025-07-06T08:11Z/"
-            },
-            {
-              "date": "2025-07-05",
-              "link": "https://dbushell.com/notes/2025-07-05T16:43Z/"
             }
           ]
         },
@@ -212,37 +243,6 @@
               "title": "AI is a gamechanger for TLA+ users",
               "date": "2025-06-05",
               "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Follow Up: An Analysis of YouTube Links From The White House’s “Wire” Website",
-              "date": "2025-07-07",
-              "link": "https://blog.jim-nielsen.com/2025/youtube-links-from-whgov-wire/"
-            },
-            {
-              "title": "Do You Even Personalize, Bro?",
-              "date": "2025-07-06",
-              "link": "https://blog.jim-nielsen.com/2025/do-you-personalize/"
-            },
-            {
-              "title": "Setting Element Ordering With HTML Rewriter Using CSS",
-              "date": "2025-07-02",
-              "link": "https://blog.jim-nielsen.com/2025/element-ordering-edge-function-html-rewriter/"
-            },
-            {
-              "title": "An Analysis of Links From The White House’s “Wire” Website",
-              "date": "2025-06-30",
-              "link": "https://blog.jim-nielsen.com/2025/links-from-whgov-wire/"
-            },
-            {
-              "title": "Transforming HTML With Netlify Edge Functions",
-              "date": "2025-06-25",
-              "link": "https://blog.jim-nielsen.com/2025/transform-html-with-edge-functions/"
             }
           ]
         },
@@ -526,6 +526,37 @@
           ]
         },
         {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "June 2025 blend of links",
+              "date": "2025-06-27",
+              "link": "https://thejollyteapot.com/june-2025-blend/"
+            },
+            {
+              "title": "Something terrible happened with CSS",
+              "date": "2025-05-29",
+              "link": "https://thejollyteapot.com/2025/05/29/something-terrible-happened-with-css/"
+            },
+            {
+              "title": "May 2025 blend of links",
+              "date": "2025-05-26",
+              "link": "https://thejollyteapot.com/may-2025-blend/"
+            },
+            {
+              "title": "On the Jony Ive and Sam Altman announcement",
+              "date": "2025-05-23",
+              "link": "https://thejollyteapot.com/2025/05/23/on-the-jony-ive-and-sam-altman-announcement/"
+            },
+            {
+              "title": "The quest for the best writing tool, a spinoff",
+              "date": "2025-05-18",
+              "link": "https://thejollyteapot.com/2025/05/18/the-quest-for-the-best-writing-tool-a-spinoff/"
+            }
+          ]
+        },
+        {
           "title": "The Weblog of fLaMEd",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -553,6 +584,37 @@
               "title": "Video Guides",
               "date": "2025-04-15",
               "link": "https://flamedfury.com/posts/video-guides/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "New zine: The Secret Rules of the Terminal",
+              "date": "2025-06-26",
+              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
+            },
+            {
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
+              "date": "2025-06-10",
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
+            },
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+            },
+            {
+              "title": "Some terminal frustrations",
+              "date": "2025-02-05",
+              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
             }
           ]
         },
@@ -2399,13 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-10T03:51:35.874Z",
+  "fetchDate": "2025-07-11T03:57:03.783Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/",
-    "https://thejollyteapot.com/feed.rss",
-    "https://jvns.ca/atom.xml"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

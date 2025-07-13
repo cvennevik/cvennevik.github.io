@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Spreading Joy",
+              "date": "2025-07-12",
+              "link": "https://gomakethings.com/spreading-joy/"
+            },
+            {
+              "title": "Short-wave radio: the original internet",
+              "date": "2025-07-10",
+              "link": "https://gomakethings.com/short-wave-radio-the-original-internet/"
+            },
+            {
+              "title": "text-decoration-style in WebKit",
+              "date": "2025-07-09",
+              "link": "https://gomakethings.com/text-decoration-style-in-webkit/"
+            },
+            {
+              "title": "Bulletproof web component loading",
+              "date": "2025-07-08",
+              "link": "https://gomakethings.com/bulletproof-web-component-loading/"
+            },
+            {
+              "title": "How to automatically create a new release and publish to NPM whenever package.json is updated using a GitHub Action",
+              "date": "2025-07-07",
+              "link": "https://gomakethings.com/how-to-automatically-create-a-new-release-and-publish-to-npm-whenever-package.json-is-updated-using-a-github-action/"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "The Way I Code (and have been coding for 30 years)",
+              "date": "2025-07-12",
+              "link": "https://rosswintle.uk/2025/07/the-way-i-code/"
+            },
+            {
+              "title": "Adding Plugin Installation and User Switching to Turbo Admin",
+              "date": "2025-05-29",
+              "link": "https://rosswintle.uk/2025/05/adding-plugin-installation-and-user-switching-to-turbo-admin/"
+            },
+            {
+              "title": "This new activities website could just make school holidays bearable: offline.kids",
+              "date": "2025-05-23",
+              "link": "https://rosswintle.uk/2025/05/activities-website-makes-school-holidays-bearable-offline-kids/"
+            },
+            {
+              "title": "A (good) update on Turbo Admin",
+              "date": "2025-05-18",
+              "link": "https://rosswintle.uk/2025/05/a-good-update-on-turbo-admin/"
+            },
+            {
+              "title": "Breaking News",
+              "date": "2025-05-16",
+              "link": "https://rosswintle.uk/2025/05/breaking-news/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-12",
+              "link": "https://dbushell.com/notes/2025-07-12T07:19Z/"
+            },
+            {
+              "date": "2025-07-11",
+              "link": "https://dbushell.com/notes/2025-07-11T13:03Z/"
+            },
+            {
+              "date": "2025-07-11",
+              "link": "https://dbushell.com/notes/2025-07-11T05:02Z/"
+            },
+            {
+              "date": "2025-07-10",
+              "link": "https://dbushell.com/notes/2025-07-10T05:13Z/"
+            },
+            {
+              "date": "2025-07-09",
+              "link": "https://dbushell.com/notes/2025-07-09T17:00Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -124,63 +212,6 @@
               "title": "Hot Off the Press Examples of CSS if()",
               "date": "2025-02-21",
               "link": "https://thathtml.blog/2025/02/hot-off-the-press-examples-of-css-if/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-11",
-              "link": "https://dbushell.com/notes/2025-07-11T13:03Z/"
-            },
-            {
-              "date": "2025-07-11",
-              "link": "https://dbushell.com/notes/2025-07-11T05:02Z/"
-            },
-            {
-              "date": "2025-07-10",
-              "link": "https://dbushell.com/notes/2025-07-10T05:13Z/"
-            },
-            {
-              "date": "2025-07-09",
-              "link": "https://dbushell.com/notes/2025-07-09T17:00Z/"
-            },
-            {
-              "date": "2025-07-08",
-              "link": "https://dbushell.com/notes/2025-07-08T14:38Z/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Short-wave radio: the original internet",
-              "date": "2025-07-10",
-              "link": "https://gomakethings.com/short-wave-radio-the-original-internet/"
-            },
-            {
-              "title": "text-decoration-style in WebKit",
-              "date": "2025-07-09",
-              "link": "https://gomakethings.com/text-decoration-style-in-webkit/"
-            },
-            {
-              "title": "Bulletproof web component loading",
-              "date": "2025-07-08",
-              "link": "https://gomakethings.com/bulletproof-web-component-loading/"
-            },
-            {
-              "title": "How to automatically create a new release and publish to NPM whenever package.json is updated using a GitHub Action",
-              "date": "2025-07-07",
-              "link": "https://gomakethings.com/how-to-automatically-create-a-new-release-and-publish-to-npm-whenever-package.json-is-updated-using-a-github-action/"
-            },
-            {
-              "title": "People who act like machines",
-              "date": "2025-07-05",
-              "link": "https://gomakethings.com/people-who-act-like-machines/"
             }
           ]
         },
@@ -402,6 +433,37 @@
           ]
         },
         {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2025-07-04",
+              "link": "https://macwright.com/2025/07/04/recently.html"
+            },
+            {
+              "title": "epanet-js",
+              "date": "2025-07-03",
+              "link": "https://macwright.com/2025/07/03/epanet-placemark.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-06-06",
+              "link": "https://macwright.com/2025/06/06/recently.html"
+            },
+            {
+              "title": "Making a custom porteur bag",
+              "date": "2025-05-18",
+              "link": "https://macwright.com/2025/05/18/sewing.html"
+            },
+            {
+              "title": "Reading Zanzibar",
+              "date": "2025-05-02",
+              "link": "https://macwright.com/2025/05/02/reading-zanzibar.html"
+            }
+          ]
+        },
+        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -553,37 +615,6 @@
               "title": "The five stages of incident response",
               "date": "2025-04-21",
               "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Conferences, Clarity, and Smokescreens",
-              "date": "2025-06-27",
-              "link": "https://infrequently.org/2025/06/conferences-clarity-and-smokescreens/"
-            },
-            {
-              "title": "Safari at WWDC '25: The Ghost of Christmas Past",
-              "date": "2025-06-13",
-              "link": "https://infrequently.org/2025/06/the-ghost-of-christmas-past/"
-            },
-            {
-              "title": "If Not React, Then What?",
-              "date": "2024-11-29",
-              "link": "https://infrequently.org/2024/11/if-not-react-then-what/"
-            },
-            {
-              "title": "Platform Strategy and Its Discontents",
-              "date": "2024-10-27",
-              "link": "https://infrequently.org/2024/10/platforms-are-competitions/"
-            },
-            {
-              "title": "Reckoning: Part 4 — The Way Out",
-              "date": "2024-08-16",
-              "link": "https://infrequently.org/2024/08/the-way-out/"
             }
           ]
         },
@@ -1204,37 +1235,6 @@
               "title": "No, dynamic type systems are not inherently more open",
               "date": "2020-01-19",
               "link": "https://lexi-lambda.github.io/blog/2020/01/19/no-dynamic-type-systems-are-not-inherently-more-open/"
-            }
-          ]
-        },
-        {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "Adding Plugin Installation and User Switching to Turbo Admin",
-              "date": "2025-05-29",
-              "link": "https://rosswintle.uk/2025/05/adding-plugin-installation-and-user-switching-to-turbo-admin/"
-            },
-            {
-              "title": "This new activities website could just make school holidays bearable: offline.kids",
-              "date": "2025-05-23",
-              "link": "https://rosswintle.uk/2025/05/activities-website-makes-school-holidays-bearable-offline-kids/"
-            },
-            {
-              "title": "A (good) update on Turbo Admin",
-              "date": "2025-05-18",
-              "link": "https://rosswintle.uk/2025/05/a-good-update-on-turbo-admin/"
-            },
-            {
-              "title": "Breaking News",
-              "date": "2025-05-16",
-              "link": "https://rosswintle.uk/2025/05/breaking-news/"
-            },
-            {
-              "title": "Notes and links for my WordSesh 2025 talk",
-              "date": "2025-05-13",
-              "link": "https://rosswintle.uk/2025/05/notes-and-links-for-my-wordsesh-2025-talk/"
             }
           ]
         },
@@ -2430,12 +2430,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-12T03:52:28.184Z",
+  "fetchDate": "2025-07-13T03:59:28.584Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://einarwh.wordpress.com/feed/",
-    "https://macwright.com/rss.xml"
+    "https://infrequently.org/feed/"
   ]
 }

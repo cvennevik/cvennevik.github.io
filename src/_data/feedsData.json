@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "Newsletters and indie iOS apps",
+              "date": "2025-07-13",
+              "link": "https://rosswintle.uk/2025/07/newsletters-and-indie-ios-apps/"
+            },
+            {
+              "title": "The Way I Code (and have been coding for 30 years)",
+              "date": "2025-07-12",
+              "link": "https://rosswintle.uk/2025/07/the-way-i-code/"
+            },
+            {
+              "title": "Adding Plugin Installation and User Switching to Turbo Admin",
+              "date": "2025-05-29",
+              "link": "https://rosswintle.uk/2025/05/adding-plugin-installation-and-user-switching-to-turbo-admin/"
+            },
+            {
+              "title": "This new activities website could just make school holidays bearable: offline.kids",
+              "date": "2025-05-23",
+              "link": "https://rosswintle.uk/2025/05/activities-website-makes-school-holidays-bearable-offline-kids/"
+            },
+            {
+              "title": "A (good) update on Turbo Admin",
+              "date": "2025-05-18",
+              "link": "https://rosswintle.uk/2025/05/a-good-update-on-turbo-admin/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Book notes",
+              "date": "2025-07-13",
+              "link": "https://robinrendle.com/notes/book-notes/"
+            },
+            {
+              "title": "The End of Everything",
+              "date": "2025-05-21",
+              "link": "https://robinrendle.com/notes/the-end-of-everything/"
+            },
+            {
+              "title": "item-flow",
+              "date": "2025-03-30",
+              "link": "https://robinrendle.com/notes/item-flow/"
+            },
+            {
+              "title": "Humiliation",
+              "date": "2025-03-15",
+              "link": "https://robinrendle.com/notes/humiliation/"
+            },
+            {
+              "title": "Abandon all keyboards",
+              "date": "2025-03-11",
+              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "Store tags after payloads",
+              "date": "2025-07-13",
+              "link": "https://www.scattered-thoughts.net/writing/store-tags-after-payloads/"
+            },
+            {
+              "title": "0053: consulting, go tips, benchmark_mode, niri, linkrot, sea of nos, llm outsourcing, books",
+              "date": "2025-05-31",
+              "link": "https://www.scattered-thoughts.net/log/0053/"
+            },
+            {
+              "title": "A rough survey of compilation, recompilation, and compile-time evaluation",
+              "date": "2025-04-04",
+              "link": "https://www.scattered-thoughts.net/writing/a-rough-survey-of-compilation-recompilation-and-compile-time-evaluation/"
+            },
+            {
+              "title": "0052: hytradboi videos and post-mortem, zest repo, no internet, on social media, my product is my garden, datafusion and clickhouse jits, books",
+              "date": "2025-03-14",
+              "link": "https://www.scattered-thoughts.net/log/0052/"
+            },
+            {
+              "title": "HYTRADBOI 2025 postmortem",
+              "date": "2025-03-03",
+              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-postmortem/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-13",
+              "link": "https://dbushell.com/notes/2025-07-13T16:15Z/"
+            },
+            {
+              "date": "2025-07-13",
+              "link": "https://dbushell.com/notes/2025-07-13T08:38Z/"
+            },
+            {
+              "date": "2025-07-12",
+              "link": "https://dbushell.com/notes/2025-07-12T07:19Z/"
+            },
+            {
+              "date": "2025-07-11",
+              "link": "https://dbushell.com/notes/2025-07-11T13:03Z/"
+            },
+            {
+              "date": "2025-07-11",
+              "link": "https://dbushell.com/notes/2025-07-11T05:02Z/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -31,63 +150,6 @@
               "title": "How to automatically create a new release and publish to NPM whenever package.json is updated using a GitHub Action",
               "date": "2025-07-07",
               "link": "https://gomakethings.com/how-to-automatically-create-a-new-release-and-publish-to-npm-whenever-package.json-is-updated-using-a-github-action/"
-            }
-          ]
-        },
-        {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "The Way I Code (and have been coding for 30 years)",
-              "date": "2025-07-12",
-              "link": "https://rosswintle.uk/2025/07/the-way-i-code/"
-            },
-            {
-              "title": "Adding Plugin Installation and User Switching to Turbo Admin",
-              "date": "2025-05-29",
-              "link": "https://rosswintle.uk/2025/05/adding-plugin-installation-and-user-switching-to-turbo-admin/"
-            },
-            {
-              "title": "This new activities website could just make school holidays bearable: offline.kids",
-              "date": "2025-05-23",
-              "link": "https://rosswintle.uk/2025/05/activities-website-makes-school-holidays-bearable-offline-kids/"
-            },
-            {
-              "title": "A (good) update on Turbo Admin",
-              "date": "2025-05-18",
-              "link": "https://rosswintle.uk/2025/05/a-good-update-on-turbo-admin/"
-            },
-            {
-              "title": "Breaking News",
-              "date": "2025-05-16",
-              "link": "https://rosswintle.uk/2025/05/breaking-news/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-12",
-              "link": "https://dbushell.com/notes/2025-07-12T07:19Z/"
-            },
-            {
-              "date": "2025-07-11",
-              "link": "https://dbushell.com/notes/2025-07-11T13:03Z/"
-            },
-            {
-              "date": "2025-07-11",
-              "link": "https://dbushell.com/notes/2025-07-11T05:02Z/"
-            },
-            {
-              "date": "2025-07-10",
-              "link": "https://dbushell.com/notes/2025-07-10T05:13Z/"
-            },
-            {
-              "date": "2025-07-09",
-              "link": "https://dbushell.com/notes/2025-07-09T17:00Z/"
             }
           ]
         },
@@ -615,6 +677,37 @@
               "title": "The five stages of incident response",
               "date": "2025-04-21",
               "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "Conferences, Clarity, and Smokescreens",
+              "date": "2025-06-27",
+              "link": "https://infrequently.org/2025/06/conferences-clarity-and-smokescreens/"
+            },
+            {
+              "title": "Safari at WWDC '25: The Ghost of Christmas Past",
+              "date": "2025-06-13",
+              "link": "https://infrequently.org/2025/06/the-ghost-of-christmas-past/"
+            },
+            {
+              "title": "If Not React, Then What?",
+              "date": "2024-11-29",
+              "link": "https://infrequently.org/2024/11/if-not-react-then-what/"
+            },
+            {
+              "title": "Platform Strategy and Its Discontents",
+              "date": "2024-10-27",
+              "link": "https://infrequently.org/2024/10/platforms-are-competitions/"
+            },
+            {
+              "title": "Reckoning: Part 4 — The Way Out",
+              "date": "2024-08-16",
+              "link": "https://infrequently.org/2024/08/the-way-out/"
             }
           ]
         },
@@ -1177,37 +1270,6 @@
           ]
         },
         {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "0053: consulting, go tips, benchmark_mode, niri, linkrot, sea of nos, llm outsourcing, books",
-              "date": "2025-05-31",
-              "link": "https://www.scattered-thoughts.net/log/0053/"
-            },
-            {
-              "title": "A rough survey of compilation, recompilation, and compile-time evaluation",
-              "date": "2025-04-04",
-              "link": "https://www.scattered-thoughts.net/writing/a-rough-survey-of-compilation-recompilation-and-compile-time-evaluation/"
-            },
-            {
-              "title": "0052: hytradboi videos and post-mortem, zest repo, no internet, on social media, my product is my garden, datafusion and clickhouse jits, books",
-              "date": "2025-03-14",
-              "link": "https://www.scattered-thoughts.net/log/0052/"
-            },
-            {
-              "title": "HYTRADBOI 2025 postmortem",
-              "date": "2025-03-03",
-              "link": "https://www.scattered-thoughts.net/writing/hytradboi-2025-postmortem/"
-            },
-            {
-              "title": "Other kinds of talks",
-              "date": "2025-02-24",
-              "link": "https://www.scattered-thoughts.net/writing/other-kinds-of-talks/"
-            }
-          ]
-        },
-        {
           "title": "Alexis King’s Blog",
           "feedUrl": "https://lexi-lambda.github.io/feeds/all.atom.xml",
           "items": [
@@ -1297,37 +1359,6 @@
               "title": "Weaknote 2024-07-25 (a tab amnesty)",
               "date": "2024-07-25",
               "link": "https://sarajoy.dev/blog/notes/20240725/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "The End of Everything",
-              "date": "2025-05-21",
-              "link": "https://robinrendle.com/notes/the-end-of-everything/"
-            },
-            {
-              "title": "item-flow",
-              "date": "2025-03-30",
-              "link": "https://robinrendle.com/notes/item-flow/"
-            },
-            {
-              "title": "Humiliation",
-              "date": "2025-03-15",
-              "link": "https://robinrendle.com/notes/humiliation/"
-            },
-            {
-              "title": "Abandon all keyboards",
-              "date": "2025-03-11",
-              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
-            },
-            {
-              "title": "trot",
-              "date": "2025-02-15",
-              "link": "https://robinrendle.com/notes/trot/"
             }
           ]
         },
@@ -2430,12 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-13T03:59:28.584Z",
+  "fetchDate": "2025-07-14T04:01:05.957Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://einarwh.wordpress.com/feed/",
-    "https://infrequently.org/feed/"
+    "https://einarwh.wordpress.com/feed/"
   ]
 }

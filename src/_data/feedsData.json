@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Put Windows in Your Web App with WinBox.js",
+              "date": "2025-07-16",
+              "link": "https://thathtml.blog/2025/07/put-windows-in-your-web-app-with-winbox/"
+            },
+            {
+              "title": "Web Awesome, the First All-in-One Web Components + CSS Framework, is Finally Here",
+              "date": "2025-07-11",
+              "link": "https://thathtml.blog/2025/07/web-awesome-is-the-first-native-component-framework/"
+            },
+            {
+              "title": "A Unified CSS Layout System: Could It Happen?",
+              "date": "2025-04-15",
+              "link": "https://thathtml.blog/2025/04/unified-layout-system-could-happen/"
+            },
+            {
+              "title": "All About the Nord Design System, Guest David Darnes on ShopTalk",
+              "date": "2025-03-27",
+              "link": "https://thathtml.blog/2025/03/nord-health-design-system-david-darnes/"
+            },
+            {
+              "title": "All the Deets on the Mighty Details Tag",
+              "date": "2025-02-27",
+              "link": "https://thathtml.blog/2025/02/all-the-deets-on-details/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "How to generate an ID from element text",
+              "date": "2025-07-15",
+              "link": "https://gomakethings.com/how-to-generate-an-id-from-element-text/"
+            },
+            {
+              "title": "Getting the index in a for...of loop",
+              "date": "2025-07-14",
+              "link": "https://gomakethings.com/getting-the-index-in-a-for...of-loop/"
+            },
+            {
+              "title": "Spreading Joy",
+              "date": "2025-07-12",
+              "link": "https://gomakethings.com/spreading-joy/"
+            },
+            {
+              "title": "Short-wave radio: the original internet",
+              "date": "2025-07-10",
+              "link": "https://gomakethings.com/short-wave-radio-the-original-internet/"
+            },
+            {
+              "title": "text-decoration-style in WebKit",
+              "date": "2025-07-09",
+              "link": "https://gomakethings.com/text-decoration-style-in-webkit/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-15",
+              "link": "https://dbushell.com/notes/2025-07-15T16:44Z/"
+            },
+            {
+              "date": "2025-07-14",
+              "link": "https://dbushell.com/notes/2025-07-14T16:32Z/"
+            },
+            {
+              "date": "2025-07-14",
+              "link": "https://dbushell.com/notes/2025-07-14T10:11Z/"
+            },
+            {
+              "date": "2025-07-13",
+              "link": "https://dbushell.com/notes/2025-07-13T16:15Z/"
+            },
+            {
+              "date": "2025-07-13",
+              "link": "https://dbushell.com/notes/2025-07-13T08:38Z/"
+            }
+          ]
+        },
+        {
           "title": "Chelsea Troy",
           "feedUrl": "https://chelseatroy.com/feed/",
           "items": [
@@ -31,68 +119,6 @@
               "title": "What layoffs teach us about technical leadership",
               "date": "2024-10-31",
               "link": "https://chelseatroy.com/2024/10/31/what-layoffs-teach-us-about-technical-leadership/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Measurement and Numbers",
-              "date": "2025-07-14",
-              "link": "https://blog.jim-nielsen.com/2025/measurement-and-numbers/"
-            },
-            {
-              "title": "Computers Are a Feeling",
-              "date": "2025-07-10",
-              "link": "https://blog.jim-nielsen.com/2025/computers-are-a-feeling/"
-            },
-            {
-              "title": "Follow Up: An Analysis of YouTube Links From The White House’s “Wire” Website",
-              "date": "2025-07-07",
-              "link": "https://blog.jim-nielsen.com/2025/youtube-links-from-whgov-wire/"
-            },
-            {
-              "title": "Do You Even Personalize, Bro?",
-              "date": "2025-07-06",
-              "link": "https://blog.jim-nielsen.com/2025/do-you-personalize/"
-            },
-            {
-              "title": "Setting Element Ordering With HTML Rewriter Using CSS",
-              "date": "2025-07-02",
-              "link": "https://blog.jim-nielsen.com/2025/element-ordering-edge-function-html-rewriter/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Getting the index in a for...of loop",
-              "date": "2025-07-14",
-              "link": "https://gomakethings.com/getting-the-index-in-a-for...of-loop/"
-            },
-            {
-              "title": "Spreading Joy",
-              "date": "2025-07-12",
-              "link": "https://gomakethings.com/spreading-joy/"
-            },
-            {
-              "title": "Short-wave radio: the original internet",
-              "date": "2025-07-10",
-              "link": "https://gomakethings.com/short-wave-radio-the-original-internet/"
-            },
-            {
-              "title": "text-decoration-style in WebKit",
-              "date": "2025-07-09",
-              "link": "https://gomakethings.com/text-decoration-style-in-webkit/"
-            },
-            {
-              "title": "Bulletproof web component loading",
-              "date": "2025-07-08",
-              "link": "https://gomakethings.com/bulletproof-web-component-loading/"
             }
           ]
         },
@@ -186,32 +212,6 @@
               "title": "Hold an Open Space Event in just One Hour",
               "date": "2022-12-19",
               "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-14",
-              "link": "https://dbushell.com/notes/2025-07-14T16:32Z/"
-            },
-            {
-              "date": "2025-07-14",
-              "link": "https://dbushell.com/notes/2025-07-14T10:11Z/"
-            },
-            {
-              "date": "2025-07-13",
-              "link": "https://dbushell.com/notes/2025-07-13T16:15Z/"
-            },
-            {
-              "date": "2025-07-13",
-              "link": "https://dbushell.com/notes/2025-07-13T08:38Z/"
-            },
-            {
-              "date": "2025-07-12",
-              "link": "https://dbushell.com/notes/2025-07-12T07:19Z/"
             }
           ]
         },
@@ -340,37 +340,6 @@
           ]
         },
         {
-          "title": "apenwarr",
-          "feedUrl": "https://apenwarr.ca/log/rss.php",
-          "items": [
-            {
-              "title": "\n      Billionaire math\n    ",
-              "date": "2025-07-11",
-              "link": "https://apenwarr.ca/log/20250711"
-            },
-            {
-              "title": "\n      The evasive evitability of enshittification\n    ",
-              "date": "2025-06-15",
-              "link": "https://apenwarr.ca/log/20250530"
-            },
-            {
-              "title": "\n      NPS, the good parts\n    ",
-              "date": "2023-12-05",
-              "link": "https://apenwarr.ca/log/20231204"
-            },
-            {
-              "title": "\n      Interesting\n    ",
-              "date": "2023-10-06",
-              "link": "https://apenwarr.ca/log/20231006"
-            },
-            {
-              "title": "\n      Tech debt metaphor maximalism\n    ",
-              "date": "2023-07-11",
-              "link": "https://apenwarr.ca/log/20230605"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -402,6 +371,37 @@
           ]
         },
         {
+          "title": "apenwarr",
+          "feedUrl": "https://apenwarr.ca/log/rss.php",
+          "items": [
+            {
+              "title": "\n      Billionaire math\n    ",
+              "date": "2025-07-11",
+              "link": "https://apenwarr.ca/log/20250711"
+            },
+            {
+              "title": "\n      The evasive evitability of enshittification\n    ",
+              "date": "2025-06-15",
+              "link": "https://apenwarr.ca/log/20250530"
+            },
+            {
+              "title": "\n      NPS, the good parts\n    ",
+              "date": "2023-12-05",
+              "link": "https://apenwarr.ca/log/20231204"
+            },
+            {
+              "title": "\n      Interesting\n    ",
+              "date": "2023-10-06",
+              "link": "https://apenwarr.ca/log/20231006"
+            },
+            {
+              "title": "\n      Tech debt metaphor maximalism\n    ",
+              "date": "2023-07-11",
+              "link": "https://apenwarr.ca/log/20230605"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -429,37 +429,6 @@
               "title": "Mere Being 019 - February - Plenty Huge Men Roam the Earth",
               "date": "2025-03-02",
               "link": "https://www.simplermachines.com/mere-being-018-february-p/"
-            }
-          ]
-        },
-        {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Web Awesome, the First All-in-One Web Components + CSS Framework, is Finally Here",
-              "date": "2025-07-11",
-              "link": "https://thathtml.blog/2025/07/web-awesome-is-the-first-native-component-framework/"
-            },
-            {
-              "title": "A Unified CSS Layout System: Could It Happen?",
-              "date": "2025-04-15",
-              "link": "https://thathtml.blog/2025/04/unified-layout-system-could-happen/"
-            },
-            {
-              "title": "All About the Nord Design System, Guest David Darnes on ShopTalk",
-              "date": "2025-03-27",
-              "link": "https://thathtml.blog/2025/03/nord-health-design-system-david-darnes/"
-            },
-            {
-              "title": "All the Deets on the Mighty Details Tag",
-              "date": "2025-02-27",
-              "link": "https://thathtml.blog/2025/02/all-the-deets-on-details/"
-            },
-            {
-              "title": "Hot Off the Press Examples of CSS if()",
-              "date": "2025-02-21",
-              "link": "https://thathtml.blog/2025/02/hot-off-the-press-examples-of-css-if/"
             }
           ]
         },
@@ -2461,8 +2430,9 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-15T03:58:08.031Z",
+  "fetchDate": "2025-07-16T03:56:54.714Z",
   "errors": [
+    "https://blog.jim-nielsen.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

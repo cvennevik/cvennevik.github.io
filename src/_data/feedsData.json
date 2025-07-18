@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Occupation and Preoccupation",
+              "date": "2025-07-17",
+              "link": "https://blog.jim-nielsen.com/2025/occupation-and-preoccupation/"
+            },
+            {
+              "title": "Measurement and Numbers",
+              "date": "2025-07-14",
+              "link": "https://blog.jim-nielsen.com/2025/measurement-and-numbers/"
+            },
+            {
+              "title": "Computers Are a Feeling",
+              "date": "2025-07-10",
+              "link": "https://blog.jim-nielsen.com/2025/computers-are-a-feeling/"
+            },
+            {
+              "title": "Follow Up: An Analysis of YouTube Links From The White House’s “Wire” Website",
+              "date": "2025-07-07",
+              "link": "https://blog.jim-nielsen.com/2025/youtube-links-from-whgov-wire/"
+            },
+            {
+              "title": "Do You Even Personalize, Bro?",
+              "date": "2025-07-06",
+              "link": "https://blog.jim-nielsen.com/2025/do-you-personalize/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "The Goldilocks tooling zone",
+              "date": "2025-07-17",
+              "link": "https://gomakethings.com/the-goldilocks-tooling-zone/"
+            },
             {
               "title": "The build vs. buildless tension",
               "date": "2025-07-16",
@@ -26,11 +62,125 @@
               "title": "Spreading Joy",
               "date": "2025-07-12",
               "link": "https://gomakethings.com/spreading-joy/"
+            }
+          ]
+        },
+        {
+          "title": "Sara Joy",
+          "feedUrl": "https://sarajoy.dev/rss.xml",
+          "items": [
+            {
+              "title": "Work with Illustrators & Designers",
+              "date": "2025-07-17",
+              "link": "https://sarajoy.dev/blog/whimsica11y-logo/"
             },
             {
-              "title": "Short-wave radio: the original internet",
-              "date": "2025-07-10",
-              "link": "https://gomakethings.com/short-wave-radio-the-original-internet/"
+              "title": "Those annoying long URLs causing overflow?",
+              "date": "2025-05-22",
+              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
+            },
+            {
+              "title": "Come to the light-dark() Side",
+              "date": "2024-10-26",
+              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
+            },
+            {
+              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
+              "date": "2024-09-30",
+              "link": "https://sarajoy.dev/blog/see-and-point/"
+            },
+            {
+              "title": "Sara Uses",
+              "date": "2024-09-10",
+              "link": "https://sarajoy.dev/blog/uses/"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Somewhat non-miserable feature toggling",
+              "date": "2025-07-17",
+              "link": "https://garoof.no/java/non-miserable-feature-toggling.html"
+            },
+            {
+              "title": "Putting the lambdas onto the webpage",
+              "date": "2025-03-30",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3WJJ"
+            },
+            {
+              "title": "Lambda REPL stuff",
+              "date": "2025-03-30",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3WFI"
+            },
+            {
+              "title": "Luambda eval",
+              "date": "2025-03-30",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3W0a"
+            },
+            {
+              "title": "Renaming a variable",
+              "date": "2025-03-27",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3TKp"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-17",
+              "link": "https://dbushell.com/notes/2025-07-17T12:36Z/"
+            },
+            {
+              "date": "2025-07-17",
+              "link": "https://dbushell.com/notes/2025-07-17T06:52Z/"
+            },
+            {
+              "date": "2025-07-15",
+              "link": "https://dbushell.com/notes/2025-07-15T16:44Z/"
+            },
+            {
+              "date": "2025-07-14",
+              "link": "https://dbushell.com/notes/2025-07-14T16:32Z/"
+            },
+            {
+              "date": "2025-07-14",
+              "link": "https://dbushell.com/notes/2025-07-14T10:11Z/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Maybe writing speed actually is a bottleneck for programming",
+              "date": "2025-07-17",
+              "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/"
+            },
+            {
+              "title": "Logic for Programmers Turns One",
+              "date": "2025-07-08",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/"
+            },
+            {
+              "title": "Logical Quantifiers in Software",
+              "date": "2025-07-02",
+              "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/"
+            },
+            {
+              "title": "You can cheat a test suite with a big enough polynomial",
+              "date": "2025-06-24",
+              "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/"
+            },
+            {
+              "title": "Solving LinkedIn Queens with SMT",
+              "date": "2025-06-12",
+              "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/"
             }
           ]
         },
@@ -128,32 +278,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-15",
-              "link": "https://dbushell.com/notes/2025-07-15T16:44Z/"
-            },
-            {
-              "date": "2025-07-14",
-              "link": "https://dbushell.com/notes/2025-07-14T16:32Z/"
-            },
-            {
-              "date": "2025-07-14",
-              "link": "https://dbushell.com/notes/2025-07-14T10:11Z/"
-            },
-            {
-              "date": "2025-07-13",
-              "link": "https://dbushell.com/notes/2025-07-13T16:15Z/"
-            },
-            {
-              "date": "2025-07-13",
-              "link": "https://dbushell.com/notes/2025-07-13T08:38Z/"
-            }
-          ]
-        },
-        {
           "title": "Chelsea Troy",
           "feedUrl": "https://chelseatroy.com/feed/",
           "items": [
@@ -181,37 +305,6 @@
               "title": "What layoffs teach us about technical leadership",
               "date": "2024-10-31",
               "link": "https://chelseatroy.com/2024/10/31/what-layoffs-teach-us-about-technical-leadership/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Measurement and Numbers",
-              "date": "2025-07-14",
-              "link": "https://blog.jim-nielsen.com/2025/measurement-and-numbers/"
-            },
-            {
-              "title": "Computers Are a Feeling",
-              "date": "2025-07-10",
-              "link": "https://blog.jim-nielsen.com/2025/computers-are-a-feeling/"
-            },
-            {
-              "title": "Follow Up: An Analysis of YouTube Links From The White House’s “Wire” Website",
-              "date": "2025-07-07",
-              "link": "https://blog.jim-nielsen.com/2025/youtube-links-from-whgov-wire/"
-            },
-            {
-              "title": "Do You Even Personalize, Bro?",
-              "date": "2025-07-06",
-              "link": "https://blog.jim-nielsen.com/2025/do-you-personalize/"
-            },
-            {
-              "title": "Setting Element Ordering With HTML Rewriter Using CSS",
-              "date": "2025-07-02",
-              "link": "https://blog.jim-nielsen.com/2025/element-ordering-edge-function-html-rewriter/"
             }
           ]
         },
@@ -615,37 +708,6 @@
               "title": "Small Web July",
               "date": "2025-07-02",
               "link": "https://anniemueller.com/posts/small-web-july"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Logic for Programmers Turns One",
-              "date": "2025-07-08",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/"
-            },
-            {
-              "title": "Logical Quantifiers in Software",
-              "date": "2025-07-02",
-              "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/"
-            },
-            {
-              "title": "You can cheat a test suite with a big enough polynomial",
-              "date": "2025-06-24",
-              "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/"
-            },
-            {
-              "title": "Solving LinkedIn Queens with SMT",
-              "date": "2025-06-12",
-              "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/"
-            },
-            {
-              "title": "AI is a gamechanger for TLA+ users",
-              "date": "2025-06-05",
-              "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/"
             }
           ]
         },
@@ -1394,37 +1456,6 @@
           ]
         },
         {
-          "title": "Sara Joy",
-          "feedUrl": "https://sarajoy.dev/rss.xml",
-          "items": [
-            {
-              "title": "Those annoying long URLs causing overflow?",
-              "date": "2025-05-22",
-              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
-            },
-            {
-              "title": "Come to the light-dark() Side",
-              "date": "2024-10-26",
-              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
-            },
-            {
-              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
-              "date": "2024-09-30",
-              "link": "https://sarajoy.dev/blog/see-and-point/"
-            },
-            {
-              "title": "Sara Uses",
-              "date": "2024-09-10",
-              "link": "https://sarajoy.dev/blog/uses/"
-            },
-            {
-              "title": "Weaknote 2024-07-25 (a tab amnesty)",
-              "date": "2024-07-25",
-              "link": "https://sarajoy.dev/blog/notes/20240725/"
-            }
-          ]
-        },
-        {
           "title": ".:. brainsik",
           "feedUrl": "https://brainsik.net/index.xml",
           "items": [
@@ -1700,37 +1731,6 @@
               "title": "Toolbox languages",
               "date": "2024-07-15",
               "link": "https://www.hillelwayne.com/post/toolbox-languages/"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Putting the lambdas onto the webpage",
-              "date": "2025-03-30",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3WJJ"
-            },
-            {
-              "title": "Lambda REPL stuff",
-              "date": "2025-03-30",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3WFI"
-            },
-            {
-              "title": "Luambda eval",
-              "date": "2025-03-30",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3W0a"
-            },
-            {
-              "title": "Renaming a variable",
-              "date": "2025-03-27",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3TKp"
-            },
-            {
-              "title": "Free variables",
-              "date": "2025-03-26",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3SLQ"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-17T03:56:27.014Z",
+  "fetchDate": "2025-07-18T03:58:23.360Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

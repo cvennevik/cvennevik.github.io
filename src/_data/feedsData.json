@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Mutual Reciprocity",
+              "date": "2025-07-19",
+              "link": "https://gomakethings.com/mutual-reciprocity/"
+            },
+            {
+              "title": "Stop animating everything!",
+              "date": "2025-07-18",
+              "link": "https://gomakethings.com/stop-animating-everything/"
+            },
+            {
+              "title": "The Goldilocks tooling zone",
+              "date": "2025-07-17",
+              "link": "https://gomakethings.com/the-goldilocks-tooling-zone/"
+            },
+            {
+              "title": "The build vs. buildless tension",
+              "date": "2025-07-16",
+              "link": "https://gomakethings.com/the-build-vs.-buildless-tension/"
+            },
+            {
+              "title": "How to generate an ID from element text",
+              "date": "2025-07-15",
+              "link": "https://gomakethings.com/how-to-generate-an-id-from-element-text/"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Sums and products in Java",
+              "date": "2025-07-19",
+              "link": "https://garoof.no/java/sums-and-products.html"
+            },
+            {
+              "title": "Somewhat non-miserable feature toggling",
+              "date": "2025-07-17",
+              "link": "https://garoof.no/java/non-miserable-feature-toggling.html"
+            },
+            {
+              "title": "Putting the lambdas onto the webpage",
+              "date": "2025-03-30",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3WJJ"
+            },
+            {
+              "title": "Lambda REPL stuff",
+              "date": "2025-03-30",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3WFI"
+            },
+            {
+              "title": "Luambda eval",
+              "date": "2025-03-30",
+              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3W0a"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,37 +93,6 @@
               "title": "Ditching Deno KV",
               "date": "2025-06-20",
               "link": "https://dbushell.com/2025/06/20/deno-kv-to-sqlite/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Stop animating everything!",
-              "date": "2025-07-18",
-              "link": "https://gomakethings.com/stop-animating-everything/"
-            },
-            {
-              "title": "The Goldilocks tooling zone",
-              "date": "2025-07-17",
-              "link": "https://gomakethings.com/the-goldilocks-tooling-zone/"
-            },
-            {
-              "title": "The build vs. buildless tension",
-              "date": "2025-07-16",
-              "link": "https://gomakethings.com/the-build-vs.-buildless-tension/"
-            },
-            {
-              "title": "How to generate an ID from element text",
-              "date": "2025-07-15",
-              "link": "https://gomakethings.com/how-to-generate-an-id-from-element-text/"
-            },
-            {
-              "title": "Getting the index in a for...of loop",
-              "date": "2025-07-14",
-              "link": "https://gomakethings.com/getting-the-index-in-a-for...of-loop/"
             }
           ]
         },
@@ -159,6 +190,32 @@
           ]
         },
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-17",
+              "link": "https://dbushell.com/notes/2025-07-17T12:36Z/"
+            },
+            {
+              "date": "2025-07-17",
+              "link": "https://dbushell.com/notes/2025-07-17T06:52Z/"
+            },
+            {
+              "date": "2025-07-15",
+              "link": "https://dbushell.com/notes/2025-07-15T16:44Z/"
+            },
+            {
+              "date": "2025-07-14",
+              "link": "https://dbushell.com/notes/2025-07-14T16:32Z/"
+            },
+            {
+              "date": "2025-07-14",
+              "link": "https://dbushell.com/notes/2025-07-14T10:11Z/"
+            }
+          ]
+        },
+        {
           "title": "Sara Joy",
           "feedUrl": "https://sarajoy.dev/rss.xml",
           "items": [
@@ -186,63 +243,6 @@
               "title": "Sara Uses",
               "date": "2024-09-10",
               "link": "https://sarajoy.dev/blog/uses/"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Somewhat non-miserable feature toggling",
-              "date": "2025-07-17",
-              "link": "https://garoof.no/java/non-miserable-feature-toggling.html"
-            },
-            {
-              "title": "Putting the lambdas onto the webpage",
-              "date": "2025-03-30",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3WJJ"
-            },
-            {
-              "title": "Lambda REPL stuff",
-              "date": "2025-03-30",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3WFI"
-            },
-            {
-              "title": "Luambda eval",
-              "date": "2025-03-30",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3W0a"
-            },
-            {
-              "title": "Renaming a variable",
-              "date": "2025-03-27",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3TKp"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-17",
-              "link": "https://dbushell.com/notes/2025-07-17T12:36Z/"
-            },
-            {
-              "date": "2025-07-17",
-              "link": "https://dbushell.com/notes/2025-07-17T06:52Z/"
-            },
-            {
-              "date": "2025-07-15",
-              "link": "https://dbushell.com/notes/2025-07-15T16:44Z/"
-            },
-            {
-              "date": "2025-07-14",
-              "link": "https://dbushell.com/notes/2025-07-14T16:32Z/"
-            },
-            {
-              "date": "2025-07-14",
-              "link": "https://dbushell.com/notes/2025-07-14T10:11Z/"
             }
           ]
         },
@@ -433,37 +433,6 @@
           ]
         },
         {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Monthly Recap: June 2025",
-              "date": "2025-07-14",
-              "link": "https://flamedfury.com/posts/monthly-recap-june-2025/"
-            },
-            {
-              "title": "How I Use Kagi",
-              "date": "2025-06-27",
-              "link": "https://flamedfury.com/posts/how-i-use-kagi/"
-            },
-            {
-              "title": "Hitting Up The Gym Again",
-              "date": "2025-06-26",
-              "link": "https://flamedfury.com/posts/hitting-up-the-gym-again/"
-            },
-            {
-              "title": "Book Report: The Dream Hotel",
-              "date": "2025-06-19",
-              "link": "https://flamedfury.com/posts/book-report-the-dream-hotel/"
-            },
-            {
-              "title": "Monthly Recap: May 2025",
-              "date": "2025-06-01",
-              "link": "https://flamedfury.com/posts/monthly-recap-may-2025/"
-            }
-          ]
-        },
-        {
           "title": "Coding Is Like Cooking",
           "feedUrl": "https://coding-is-like-cooking.info/feed/",
           "items": [
@@ -491,6 +460,37 @@
               "title": "Hold an Open Space Event in just One Hour",
               "date": "2022-12-19",
               "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Monthly Recap: June 2025",
+              "date": "2025-07-14",
+              "link": "https://flamedfury.com/posts/monthly-recap-june-2025/"
+            },
+            {
+              "title": "How I Use Kagi",
+              "date": "2025-06-27",
+              "link": "https://flamedfury.com/posts/how-i-use-kagi/"
+            },
+            {
+              "title": "Hitting Up The Gym Again",
+              "date": "2025-06-26",
+              "link": "https://flamedfury.com/posts/hitting-up-the-gym-again/"
+            },
+            {
+              "title": "Book Report: The Dream Hotel",
+              "date": "2025-06-19",
+              "link": "https://flamedfury.com/posts/book-report-the-dream-hotel/"
+            },
+            {
+              "title": "Monthly Recap: May 2025",
+              "date": "2025-06-01",
+              "link": "https://flamedfury.com/posts/monthly-recap-may-2025/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-19T03:51:26.145Z",
+  "fetchDate": "2025-07-20T04:03:23.459Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

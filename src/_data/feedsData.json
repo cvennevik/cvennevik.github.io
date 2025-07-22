@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Who Are You To Say What's Right?",
+              "date": "2025-07-21",
+              "link": "http://agileotter.blogspot.com/2025/07/who-are-you-to-say-whats-right.html"
+            },
+            {
+              "title": "A quick note on \"At Scale\"",
+              "date": "2025-07-09",
+              "link": "http://agileotter.blogspot.com/2025/07/a-quick-note-on-at-scale.html"
+            },
+            {
+              "title": "Who (the heck) Am I?",
+              "date": "2025-07-09",
+              "link": "http://agileotter.blogspot.com/2025/07/who-heck-am-i.html"
+            },
+            {
+              "title": "How much rework do you WANT?",
+              "date": "2025-07-07",
+              "link": "http://agileotter.blogspot.com/2025/07/how-much-rework-do-you-want.html"
+            },
+            {
+              "title": "There is No Automatic Reset for Engineering",
+              "date": "2025-03-03",
+              "link": "http://agileotter.blogspot.com/2025/03/there-is-no-automatic-reset-in.html"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "How to automatically create a release for a pull request using a bash script",
+              "date": "2025-07-21",
+              "link": "https://gomakethings.com/how-to-automatically-create-a-release-for-a-pull-request-using-a-bash-script/"
+            },
             {
               "title": "Boats and Community",
               "date": "2025-07-20",
@@ -26,11 +62,68 @@
               "title": "The Goldilocks tooling zone",
               "date": "2025-07-17",
               "link": "https://gomakethings.com/the-goldilocks-tooling-zone/"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "Public Speaking",
+              "date": "2025-07-21",
+              "link": "https://rosswintle.uk/2025/07/public-speaking/"
             },
             {
-              "title": "The build vs. buildless tension",
-              "date": "2025-07-16",
-              "link": "https://gomakethings.com/the-build-vs.-buildless-tension/"
+              "title": "Newsletters and indie iOS apps",
+              "date": "2025-07-13",
+              "link": "https://rosswintle.uk/2025/07/newsletters-and-indie-ios-apps/"
+            },
+            {
+              "title": "The Way I Code (and have been coding for 30 years)",
+              "date": "2025-07-12",
+              "link": "https://rosswintle.uk/2025/07/the-way-i-code/"
+            },
+            {
+              "title": "Adding Plugin Installation and User Switching to Turbo Admin",
+              "date": "2025-05-29",
+              "link": "https://rosswintle.uk/2025/05/adding-plugin-installation-and-user-switching-to-turbo-admin/"
+            },
+            {
+              "title": "This new activities website could just make school holidays bearable: offline.kids",
+              "date": "2025-05-23",
+              "link": "https://rosswintle.uk/2025/05/activities-website-makes-school-holidays-bearable-offline-kids/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "On the Benefits of Trunk-based Development",
+              "date": "2025-07-21",
+              "link": "https://thinkinglabs.io/articles/2025/07/21/on-the-benefits-of-trunk-based-development.html"
+            },
+            {
+              "title": "The Struggle of Public Speaking",
+              "date": "2025-06-22",
+              "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
+            },
+            {
+              "title": "Notes - Beyond Agile: Product innovation at Google, Airbnb, Spotify, Vinted &amp; Amazon",
+              "date": "2025-04-06",
+              "link": "https://thinkinglabs.io/notes/2025/04/06/flowcon-beyond-agile-product-innovation-at-google-airbnb-spotify-vinted-amazon-rachel-dubois.html"
+            },
+            {
+              "title": "Notes - You’ve built it, now you support it",
+              "date": "2025-04-05",
+              "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-youve-built-it-now-you-support-it-stephen-jannaway.html"
+            },
+            {
+              "title": "Notes - You don’t hate OKRs! You hate the System!",
+              "date": "2025-04-05",
+              "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-you-dont-hate-okrs-you-hate-the-system-cansel-sorgens.html"
             }
           ]
         },
@@ -38,6 +131,11 @@
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
+            {
+              "title": "Rachel’s iPod",
+              "date": "2025-07-21",
+              "link": "https://moonbase.lgbt/blog/rachels-ipod/"
+            },
             {
               "title": "UED: Watson",
               "date": "2025-07-20",
@@ -57,11 +155,94 @@
               "title": "Liftoff!",
               "date": "2025-04-23",
               "link": "https://moonbase.lgbt/blog/liftoff-harman-phoenix/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-21",
+              "link": "https://dbushell.com/notes/2025-07-21T07:27Z/"
             },
             {
-              "title": "Bird between the branches",
-              "date": "2025-04-20",
-              "link": "https://moonbase.lgbt/blog/bird-between-branches/"
+              "date": "2025-07-17",
+              "link": "https://dbushell.com/notes/2025-07-17T12:36Z/"
+            },
+            {
+              "date": "2025-07-17",
+              "link": "https://dbushell.com/notes/2025-07-17T06:52Z/"
+            },
+            {
+              "date": "2025-07-15",
+              "link": "https://dbushell.com/notes/2025-07-15T16:44Z/"
+            },
+            {
+              "date": "2025-07-14",
+              "link": "https://dbushell.com/notes/2025-07-14T16:32Z/"
+            }
+          ]
+        },
+        {
+          "title": "Sara Joy",
+          "feedUrl": "https://sarajoy.dev/rss.xml",
+          "items": [
+            {
+              "title": "Farmors Chokladkaka",
+              "date": "2025-07-21",
+              "link": "https://sarajoy.dev/blog/farmors-chokladkaka/"
+            },
+            {
+              "title": "Work with Illustrators & Designers",
+              "date": "2025-07-17",
+              "link": "https://sarajoy.dev/blog/whimsica11y-logo/"
+            },
+            {
+              "title": "Those annoying long URLs causing overflow?",
+              "date": "2025-05-22",
+              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
+            },
+            {
+              "title": "Come to the light-dark() Side",
+              "date": "2024-10-26",
+              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
+            },
+            {
+              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
+              "date": "2024-09-30",
+              "link": "https://sarajoy.dev/blog/see-and-point/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Covers as a way of learning music and code",
+              "date": "2025-07-21",
+              "link": "https://ntietz.com/blog/covers-as-a-way-of-learning/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "That boolean should probably be something else",
+              "date": "2025-06-30",
+              "link": "https://ntietz.com/blog/that-boolean-should-probably-be-something-else/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Proving that every program halts",
+              "date": "2025-06-23",
+              "link": "https://ntietz.com/blog/proving-that-every-program-halts/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Taking a break",
+              "date": "2025-05-05",
+              "link": "https://ntietz.com/blog/taking-a-break/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Measuring my Framework laptop's performance in 3 positions",
+              "date": "2025-04-28",
+              "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -217,63 +398,6 @@
               "title": "Do You Even Personalize, Bro?",
               "date": "2025-07-06",
               "link": "https://blog.jim-nielsen.com/2025/do-you-personalize/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-17",
-              "link": "https://dbushell.com/notes/2025-07-17T12:36Z/"
-            },
-            {
-              "date": "2025-07-17",
-              "link": "https://dbushell.com/notes/2025-07-17T06:52Z/"
-            },
-            {
-              "date": "2025-07-15",
-              "link": "https://dbushell.com/notes/2025-07-15T16:44Z/"
-            },
-            {
-              "date": "2025-07-14",
-              "link": "https://dbushell.com/notes/2025-07-14T16:32Z/"
-            },
-            {
-              "date": "2025-07-14",
-              "link": "https://dbushell.com/notes/2025-07-14T10:11Z/"
-            }
-          ]
-        },
-        {
-          "title": "Sara Joy",
-          "feedUrl": "https://sarajoy.dev/rss.xml",
-          "items": [
-            {
-              "title": "Work with Illustrators & Designers",
-              "date": "2025-07-17",
-              "link": "https://sarajoy.dev/blog/whimsica11y-logo/"
-            },
-            {
-              "title": "Those annoying long URLs causing overflow?",
-              "date": "2025-05-22",
-              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
-            },
-            {
-              "title": "Come to the light-dark() Side",
-              "date": "2024-10-26",
-              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
-            },
-            {
-              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
-              "date": "2024-09-30",
-              "link": "https://sarajoy.dev/blog/see-and-point/"
-            },
-            {
-              "title": "Sara Uses",
-              "date": "2024-09-10",
-              "link": "https://sarajoy.dev/blog/uses/"
             }
           ]
         },
@@ -557,37 +681,6 @@
           ]
         },
         {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "Newsletters and indie iOS apps",
-              "date": "2025-07-13",
-              "link": "https://rosswintle.uk/2025/07/newsletters-and-indie-ios-apps/"
-            },
-            {
-              "title": "The Way I Code (and have been coding for 30 years)",
-              "date": "2025-07-12",
-              "link": "https://rosswintle.uk/2025/07/the-way-i-code/"
-            },
-            {
-              "title": "Adding Plugin Installation and User Switching to Turbo Admin",
-              "date": "2025-05-29",
-              "link": "https://rosswintle.uk/2025/05/adding-plugin-installation-and-user-switching-to-turbo-admin/"
-            },
-            {
-              "title": "This new activities website could just make school holidays bearable: offline.kids",
-              "date": "2025-05-23",
-              "link": "https://rosswintle.uk/2025/05/activities-website-makes-school-holidays-bearable-offline-kids/"
-            },
-            {
-              "title": "A (good) update on Turbo Admin",
-              "date": "2025-05-18",
-              "link": "https://rosswintle.uk/2025/05/a-good-update-on-turbo-admin/"
-            }
-          ]
-        },
-        {
           "title": "apenwarr",
           "feedUrl": "https://apenwarr.ca/log/rss.php",
           "items": [
@@ -646,37 +739,6 @@
               "title": "Mere Being 019 - February - Plenty Huge Men Roam the Earth",
               "date": "2025-03-02",
               "link": "https://www.simplermachines.com/mere-being-018-february-p/"
-            }
-          ]
-        },
-        {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "A quick note on \"At Scale\"",
-              "date": "2025-07-09",
-              "link": "http://agileotter.blogspot.com/2025/07/a-quick-note-on-at-scale.html"
-            },
-            {
-              "title": "Who (the heck) Am I?",
-              "date": "2025-07-09",
-              "link": "http://agileotter.blogspot.com/2025/07/who-heck-am-i.html"
-            },
-            {
-              "title": "How much rework do you WANT?",
-              "date": "2025-07-07",
-              "link": "http://agileotter.blogspot.com/2025/07/how-much-rework-do-you-want.html"
-            },
-            {
-              "title": "There is No Automatic Reset for Engineering",
-              "date": "2025-03-03",
-              "link": "http://agileotter.blogspot.com/2025/03/there-is-no-automatic-reset-in.html"
-            },
-            {
-              "title": "Pair Programming Listicle",
-              "date": "2025-02-11",
-              "link": "http://agileotter.blogspot.com/2025/02/pair-programming-listicle.html"
             }
           ]
         },
@@ -898,37 +960,6 @@
           ]
         },
         {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "That boolean should probably be something else",
-              "date": "2025-06-30",
-              "link": "https://ntietz.com/blog/that-boolean-should-probably-be-something-else/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Proving that every program halts",
-              "date": "2025-06-23",
-              "link": "https://ntietz.com/blog/proving-that-every-program-halts/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Taking a break",
-              "date": "2025-05-05",
-              "link": "https://ntietz.com/blog/taking-a-break/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Measuring my Framework laptop's performance in 3 positions",
-              "date": "2025-04-28",
-              "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "The five stages of incident response",
-              "date": "2025-04-21",
-              "link": "https://ntietz.com/blog/the-five-stages-of-incident-response/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -1080,37 +1111,6 @@
               "title": "The Consciousness Lottery",
               "date": "2024-11-19",
               "link": "https://kyleshevlin.com/consciousness-lottery/"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "The Struggle of Public Speaking",
-              "date": "2025-06-22",
-              "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
-            },
-            {
-              "title": "Notes - Beyond Agile: Product innovation at Google, Airbnb, Spotify, Vinted &amp; Amazon",
-              "date": "2025-04-06",
-              "link": "https://thinkinglabs.io/notes/2025/04/06/flowcon-beyond-agile-product-innovation-at-google-airbnb-spotify-vinted-amazon-rachel-dubois.html"
-            },
-            {
-              "title": "Notes - You’ve built it, now you support it",
-              "date": "2025-04-05",
-              "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-youve-built-it-now-you-support-it-stephen-jannaway.html"
-            },
-            {
-              "title": "Notes - You don’t hate OKRs! You hate the System!",
-              "date": "2025-04-05",
-              "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-you-dont-hate-okrs-you-hate-the-system-cansel-sorgens.html"
-            },
-            {
-              "title": "Notes - Seeing the world through a different lens",
-              "date": "2025-04-05",
-              "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-seeing-the-world-through-a-different-lens-trond-hjorteland.html"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-21T04:03:03.388Z",
+  "fetchDate": "2025-07-22T03:58:15.257Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

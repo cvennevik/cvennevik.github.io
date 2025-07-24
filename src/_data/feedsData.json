@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
+              "date": "2025-07-24",
+              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
+            },
+            {
+              "title": "Thoughts on Motivation and My 40-Year Career",
+              "date": "2025-07-09",
+              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
+            },
+            {
+              "title": "In Praise of “Normal” Engineers",
+              "date": "2025-06-19",
+              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
+            },
+            {
+              "title": "On How Long it Takes to Know if a Job is Right for You or Not",
+              "date": "2025-06-08",
+              "link": "https://charity.wtf/2025/06/08/on-how-long-it-takes-to-know-if-a-job-is-right-for-you-or-not/"
+            },
+            {
+              "title": "On Pronouns, Policies and Mandates",
+              "date": "2025-05-02",
+              "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
+            }
+          ]
+        },
+        {
+          "title": "The Weblog of fLaMEd",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Dinosaur Discovery at Auckland Zoo",
+              "date": "2025-07-24",
+              "link": "https://flamedfury.com/posts/dinosaur-discovery-at-auckland-zoo/"
+            },
+            {
+              "title": "Monthly Recap: June 2025",
+              "date": "2025-07-14",
+              "link": "https://flamedfury.com/posts/monthly-recap-june-2025/"
+            },
+            {
+              "title": "How I Use Kagi",
+              "date": "2025-06-27",
+              "link": "https://flamedfury.com/posts/how-i-use-kagi/"
+            },
+            {
+              "title": "Hitting Up The Gym Again",
+              "date": "2025-06-26",
+              "link": "https://flamedfury.com/posts/hitting-up-the-gym-again/"
+            },
+            {
+              "title": "Book Report: The Dream Hotel",
+              "date": "2025-06-19",
+              "link": "https://flamedfury.com/posts/book-report-the-dream-hotel/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -619,37 +681,6 @@
           ]
         },
         {
-          "title": "The Weblog of fLaMEd",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Monthly Recap: June 2025",
-              "date": "2025-07-14",
-              "link": "https://flamedfury.com/posts/monthly-recap-june-2025/"
-            },
-            {
-              "title": "How I Use Kagi",
-              "date": "2025-06-27",
-              "link": "https://flamedfury.com/posts/how-i-use-kagi/"
-            },
-            {
-              "title": "Hitting Up The Gym Again",
-              "date": "2025-06-26",
-              "link": "https://flamedfury.com/posts/hitting-up-the-gym-again/"
-            },
-            {
-              "title": "Book Report: The Dream Hotel",
-              "date": "2025-06-19",
-              "link": "https://flamedfury.com/posts/book-report-the-dream-hotel/"
-            },
-            {
-              "title": "Monthly Recap: May 2025",
-              "date": "2025-06-01",
-              "link": "https://flamedfury.com/posts/monthly-recap-may-2025/"
-            }
-          ]
-        },
-        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -739,37 +770,6 @@
               "title": "Mere Being 019 - February - Plenty Huge Men Roam the Earth",
               "date": "2025-03-02",
               "link": "https://www.simplermachines.com/mere-being-018-february-p/"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "Thoughts on Motivation and My 40-Year Career",
-              "date": "2025-07-09",
-              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
-            },
-            {
-              "title": "In Praise of “Normal” Engineers",
-              "date": "2025-06-19",
-              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
-            },
-            {
-              "title": "On How Long it Takes to Know if a Job is Right for You or Not",
-              "date": "2025-06-08",
-              "link": "https://charity.wtf/2025/06/08/on-how-long-it-takes-to-know-if-a-job-is-right-for-you-or-not/"
-            },
-            {
-              "title": "On Pronouns, Policies and Mandates",
-              "date": "2025-05-02",
-              "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
-            },
-            {
-              "title": "On Dropouts and Bootstraps",
-              "date": "2025-04-28",
-              "link": "https://charity.wtf/2025/04/28/on-dropouts-and-bootstraps/"
             }
           ]
         },
@@ -1080,37 +1080,6 @@
               "title": "Peanuts in Church and Casual Misinformation",
               "date": "2025-04-02",
               "link": "https://boehs.org/node/weird-laws"
-            }
-          ]
-        },
-        {
-          "title": "Kyle Shevlin's Blog RSS Feed",
-          "feedUrl": "https://kyleshevlin.com/rss.xml",
-          "items": [
-            {
-              "title": "Prefer Gaps To Margins",
-              "date": "2025-06-23",
-              "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
-            },
-            {
-              "title": "&ldquo;Refactor&rdquo; is Not a Scary Word",
-              "date": "2025-02-27",
-              "link": "https://kyleshevlin.com/refactor-is-not-a-scary-word/"
-            },
-            {
-              "title": "Fun Coding Exercise: Pyramid Slide Down",
-              "date": "2025-01-27",
-              "link": "https://kyleshevlin.com/fun-coding-exercise-pyramid-slide-down/"
-            },
-            {
-              "title": "Algorithm: Sliding Window",
-              "date": "2025-01-16",
-              "link": "https://kyleshevlin.com/algorithm-sliding-window/"
-            },
-            {
-              "title": "The Consciousness Lottery",
-              "date": "2024-11-19",
-              "link": "https://kyleshevlin.com/consciousness-lottery/"
             }
           ]
         },
@@ -2461,8 +2430,9 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-23T03:59:43.789Z",
+  "fetchDate": "2025-07-24T03:58:40.158Z",
   "errors": [
+    "https://kyleshevlin.com/rss.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

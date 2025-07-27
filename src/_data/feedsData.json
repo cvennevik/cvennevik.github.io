@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Hey, I care about you, but I do not care what the robot says about you",
+              "date": "2025-07-27",
+              "link": "https://anniemueller.com/posts/hey-i-care-about-you-but-i-do-not-care-what-the-robot-says-about-you"
+            },
+            {
+              "title": "Setting up an iPad for blog reading and small web browsing",
+              "date": "2025-07-26",
+              "link": "https://anniemueller.com/posts/setting-up-an-ipad-for-blog-reading-and-small-web-browsing"
+            },
+            {
+              "title": "Small webbing along, update 1",
+              "date": "2025-07-09",
+              "link": "https://anniemueller.com/posts/small-webbing-along-update-1"
+            },
+            {
+              "title": "This is not the greatest cat in the world; this is just a tribute",
+              "date": "2025-07-08",
+              "link": "https://anniemueller.com/posts/this-is-not-the-greatest-cat-in-the-world-this-is-just-a-tribute"
+            },
+            {
+              "title": "Week notes: Road trip edition",
+              "date": "2025-07-07",
+              "link": "https://anniemueller.com/posts/week-notes-road-trip-edition"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,6 +62,63 @@
               "title": "JSR & Deno One Year Later - Malware?!",
               "date": "2025-06-23",
               "link": "https://dbushell.com/2025/06/23/jsr-and-deno-one-year-later-malware/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Why do Teams not practice Continuous Integration?",
+              "date": "2025-07-26",
+              "link": "https://thinkinglabs.io/articles/2025/07/26/why-do-teams-not-practice-continuous-integration.html"
+            },
+            {
+              "title": "On the Benefits of Trunk-based Development",
+              "date": "2025-07-21",
+              "link": "https://thinkinglabs.io/articles/2025/07/21/on-the-benefits-of-trunk-based-development.html"
+            },
+            {
+              "title": "The Struggle of Public Speaking",
+              "date": "2025-06-22",
+              "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
+            },
+            {
+              "title": "Notes - Beyond Agile: Product innovation at Google, Airbnb, Spotify, Vinted &amp; Amazon",
+              "date": "2025-04-06",
+              "link": "https://thinkinglabs.io/notes/2025/04/06/flowcon-beyond-agile-product-innovation-at-google-airbnb-spotify-vinted-amazon-rachel-dubois.html"
+            },
+            {
+              "title": "Notes - You’ve built it, now you support it",
+              "date": "2025-04-05",
+              "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-youve-built-it-now-you-support-it-stephen-jannaway.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-26",
+              "link": "https://dbushell.com/notes/2025-07-26T12:26Z/"
+            },
+            {
+              "date": "2025-07-25",
+              "link": "https://dbushell.com/notes/2025-07-25T17:37Z/"
+            },
+            {
+              "date": "2025-07-24",
+              "link": "https://dbushell.com/notes/2025-07-24T08:53Z/"
+            },
+            {
+              "date": "2025-07-24",
+              "link": "https://dbushell.com/notes/2025-07-24T05:46Z/"
+            },
+            {
+              "date": "2025-07-22",
+              "link": "https://dbushell.com/notes/2025-07-22T15:46Z/"
             }
           ]
         },
@@ -93,32 +181,6 @@
               "title": "A Unified CSS Layout System: Could It Happen?",
               "date": "2025-04-15",
               "link": "https://thathtml.blog/2025/04/unified-layout-system-could-happen/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-25",
-              "link": "https://dbushell.com/notes/2025-07-25T17:37Z/"
-            },
-            {
-              "date": "2025-07-24",
-              "link": "https://dbushell.com/notes/2025-07-24T08:53Z/"
-            },
-            {
-              "date": "2025-07-24",
-              "link": "https://dbushell.com/notes/2025-07-24T05:46Z/"
-            },
-            {
-              "date": "2025-07-22",
-              "link": "https://dbushell.com/notes/2025-07-22T15:46Z/"
-            },
-            {
-              "date": "2025-07-21",
-              "link": "https://dbushell.com/notes/2025-07-21T07:27Z/"
             }
           ]
         },
@@ -274,37 +336,6 @@
               "title": "There is No Automatic Reset for Engineering",
               "date": "2025-03-03",
               "link": "http://agileotter.blogspot.com/2025/03/there-is-no-automatic-reset-in.html"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "On the Benefits of Trunk-based Development",
-              "date": "2025-07-21",
-              "link": "https://thinkinglabs.io/articles/2025/07/21/on-the-benefits-of-trunk-based-development.html"
-            },
-            {
-              "title": "The Struggle of Public Speaking",
-              "date": "2025-06-22",
-              "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
-            },
-            {
-              "title": "Notes - Beyond Agile: Product innovation at Google, Airbnb, Spotify, Vinted &amp; Amazon",
-              "date": "2025-04-06",
-              "link": "https://thinkinglabs.io/notes/2025/04/06/flowcon-beyond-agile-product-innovation-at-google-airbnb-spotify-vinted-amazon-rachel-dubois.html"
-            },
-            {
-              "title": "Notes - You’ve built it, now you support it",
-              "date": "2025-04-05",
-              "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-youve-built-it-now-you-support-it-stephen-jannaway.html"
-            },
-            {
-              "title": "Notes - You don’t hate OKRs! You hate the System!",
-              "date": "2025-04-05",
-              "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-you-dont-hate-okrs-you-hate-the-system-cansel-sorgens.html"
             }
           ]
         },
@@ -770,37 +801,6 @@
               "title": "Mere Being 019 - February - Plenty Huge Men Roam the Earth",
               "date": "2025-03-02",
               "link": "https://www.simplermachines.com/mere-being-018-february-p/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Small webbing along, update 1",
-              "date": "2025-07-09",
-              "link": "https://anniemueller.com/posts/small-webbing-along-update-1"
-            },
-            {
-              "title": "This is not the greatest cat in the world; this is just a tribute",
-              "date": "2025-07-08",
-              "link": "https://anniemueller.com/posts/this-is-not-the-greatest-cat-in-the-world-this-is-just-a-tribute"
-            },
-            {
-              "title": "Week notes: Road trip edition",
-              "date": "2025-07-07",
-              "link": "https://anniemueller.com/posts/week-notes-road-trip-edition"
-            },
-            {
-              "title": "The inevitable result of what we do today",
-              "date": "2025-07-03",
-              "link": "https://anniemueller.com/posts/the-inevitable-result-of-what-we-do-today"
-            },
-            {
-              "title": "Small Web July",
-              "date": "2025-07-02",
-              "link": "https://anniemueller.com/posts/small-web-july"
             }
           ]
         },
@@ -2430,7 +2430,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-26T03:56:38.252Z",
+  "fetchDate": "2025-07-27T04:04:31.759Z",
   "errors": [
     "https://kyleshevlin.com/rss.xml",
     "https://cutlefish.substack.com/feed",

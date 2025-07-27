@@ -1,3 +1,4 @@
+/* Site-wide styles */
 *,
 *::after,
 *::before {
@@ -171,4 +172,95 @@ figcaption {
 	font-style: italic;
 	margin-top: .5em;
 	text-align: center;
+}
+
+/* Home page */
+
+@font-face {
+	font-family: babycakes-uppercase;
+	src:
+		url('/font/Babycakes-uppercase.woff2') format('woff2'),
+		url('/font/Babycakes-uppercase.ttf') format('opentype');
+}
+
+@keyframes wobble-image {
+	from {
+		transform: rotate(2deg);
+	}
+	to {
+		transform: rotate(-2deg);
+	}
+}
+
+@keyframes wobble-text {
+	from {
+		transform: rotate(-4deg);
+	}
+	to {
+		transform: rotate(4deg);
+	}
+}
+
+.splash {
+	display: grid;
+	margin: auto;
+	max-height: 30rem;
+	max-width: 30rem;
+}
+
+.splash > * {
+	grid-column: 1;
+	grid-row: 1;
+	height: 100%;
+	width: 100%;
+}
+
+.splash img {
+	border-radius: 100%;
+	padding: 10%;
+}
+
+.splash svg text {
+	fill: #89cff0;
+	stroke: #086391;
+	font-family: babycakes-uppercase;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+:has(#motion-toggle:checked) .splash img {
+	animation: 2s infinite -1s ease-in-out alternate wobble-image;
+}
+
+:has(#motion-toggle:checked) .splash svg {
+	animation: 2s infinite -1s ease-in-out alternate wobble-text;
+}
+
+.home-page-links {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5rem;
+	gap: 0.5em;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+/* Blog post list */
+
+.blog-post-list {
+        padding: 0;
+        list-style: none;
+    }
+.blog-post-list li {
+	display: flex;
+	gap: 1rem;
+	justify-content: space-between;
+}
+
+.blog-post-list li + li {
+	margin-top: .5rem;
+}
+
+.blog-post-list i {
+	white-space: nowrap;
 }

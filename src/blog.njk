@@ -3,25 +3,8 @@ layout: page.njk
 title: Blog
 ---
 
-<style>
-    .post-list {
-        padding: 0;
-        list-style: none;
-    }
-    .post-list li {
-        display: flex;
-        gap: 1rem;
-        justify-content: space-between;
-    }
-    .post-list li + li {
-        margin-top: .5rem;
-    }
-    .post-list i {
-        white-space: nowrap;
-    }
-</style>
 <h1>Blog</h1>
-<ul class="post-list">
+<ul class="blog-post-list">
 {% for post in collections.blogposts | reverse %}
     <li>
         <a href="{{ post.url }}">{{ post.data.title }}</a>

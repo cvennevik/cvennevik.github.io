@@ -1,15 +1,5 @@
 {% extends "base.njk" %}
 
-{% block header %}
-{{ super() }}
-<div>
-    <input-persist>
-        <label for="motion-toggle">Wiggle!</label>
-        <input type="checkbox" id="motion-toggle" data-persist-key="motion-toggle">
-    </input-persist>
-</div>
-{% endblock %}
-
 {% block main %}
 <header class="splash">
     <img src="/img/logo-500px.jpg" alt="A seal in a wine glass">

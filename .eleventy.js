@@ -1,7 +1,7 @@
 export default function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("src/css/")
   eleventyConfig.addPassthroughCopy("src/img/");
   eleventyConfig.addPassthroughCopy("src/font/");
-  eleventyConfig.addPassthroughCopy("src/css/")
   eleventyConfig.addWatchTarget("src/img/");
 
   /*** FILTERS ***/

@@ -183,24 +183,6 @@ figcaption {
 		url('/font/Babycakes-uppercase.ttf') format('opentype');
 }
 
-@keyframes wobble-image {
-	from {
-		transform: rotate(2deg);
-	}
-	to {
-		transform: rotate(-2deg);
-	}
-}
-
-@keyframes wobble-text {
-	from {
-		transform: rotate(-4deg);
-	}
-	to {
-		transform: rotate(4deg);
-	}
-}
-
 .splash {
 	display: grid;
 	margin: auto;
@@ -226,14 +208,6 @@ figcaption {
 	font-family: babycakes-uppercase;
 	font-size: 36px;
 	text-transform: uppercase;
-}
-
-:has(#motion-toggle:checked) .splash img {
-	animation: 2s infinite -1s ease-in-out alternate wobble-image;
-}
-
-:has(#motion-toggle:checked) .splash svg {
-	animation: 2s infinite -1s ease-in-out alternate wobble-text;
 }
 
 .home-page-links {

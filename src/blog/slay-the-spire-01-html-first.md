@@ -198,4 +198,4 @@ I feel very prepared to expand on this tomorrow. Probably writing more HTML, sti
 
 ---
 
-_[Last commit: "#1: HTML first"](https://codeberg.org/cvennevik/crystal-spire/src/commit/13ea21e15f66564b20ea0972187ce772c4437653/index.html)_
+_[View this app version](/crystal-spire/v1/)_ | _[Last commit: "#1: HTML first"](https://codeberg.org/cvennevik/crystal-spire/src/commit/13ea21e15f66564b20ea0972187ce772c4437653/index.html)_

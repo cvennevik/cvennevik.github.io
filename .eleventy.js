@@ -1,4 +1,5 @@
 export default function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("src/crystal-spire/");
   eleventyConfig.addPassthroughCopy("src/css/")
   eleventyConfig.addPassthroughCopy("src/img/");
   eleventyConfig.addPassthroughCopy("src/font/");

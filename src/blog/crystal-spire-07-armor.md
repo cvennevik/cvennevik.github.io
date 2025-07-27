@@ -58,4 +58,4 @@ Ah, my hour is already up. Small progress, but progress nonetheless.
 
 ---
 
-_[Last commit: Render armor based on query parameter](https://codeberg.org/cvennevik/crystal-spire/src/commit/bc434acde371050735ad5e59736efdcb6ca71861/)_
+_[View this app version](/crystal-spire/v7/)_ | _[Last commit: Render armor based on query parameter](https://codeberg.org/cvennevik/crystal-spire/src/commit/bc434acde371050735ad5e59736efdcb6ca71861/)_

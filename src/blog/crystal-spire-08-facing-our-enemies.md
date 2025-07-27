@@ -95,4 +95,4 @@ Anyway. Next time: enemy armor, buffs, and debuffs.
 
 ---
 
-_[Last commit: Set 'enemies' array based on query parameter](https://codeberg.org/cvennevik/crystal-spire/src/commit/fe7c1d1bcd8ecaa20f4ef01108a4854c0cb896b9)_
+_[View this app version](/crystal-spire/v8/)_ | _[Last commit: Set 'enemies' array based on query parameter](https://codeberg.org/cvennevik/crystal-spire/src/commit/fe7c1d1bcd8ecaa20f4ef01108a4854c0cb896b9)_

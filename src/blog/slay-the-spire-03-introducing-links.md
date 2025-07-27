@@ -112,4 +112,4 @@ Next time, let's write some JavaScript. Let's make things _change_.
 
 ---
 
-_[Last commit: "#3: Introducing links"](https://codeberg.org/cvennevik/crystal-spire/src/commit/12d6098e07ecd5de448b3d76e96805c9496145bb/index.html)_
+_[View this app version](/crystal-spire/v3/)_ | _[Last commit: "#3: Introducing links"](https://codeberg.org/cvennevik/crystal-spire/src/commit/12d6098e07ecd5de448b3d76e96805c9496145bb/index.html)_

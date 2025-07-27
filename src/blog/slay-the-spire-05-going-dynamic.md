@@ -302,4 +302,4 @@ Mmh. Tired now. Write more later.
 
 ---
 
-_[Last commit: "#5: Going dynamic"](https://codeberg.org/cvennevik/crystal-spire/src/commit/f6b46cd46502af1e872869ac2c8f6de71cfaa657/index.html)_
+_[View this app version](/crystal-spire/v5/)_ | _[Last commit: "#5: Going dynamic"](https://codeberg.org/cvennevik/crystal-spire/src/commit/f6b46cd46502af1e872869ac2c8f6de71cfaa657/index.html)_

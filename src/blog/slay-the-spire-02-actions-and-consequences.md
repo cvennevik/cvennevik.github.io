@@ -215,4 +215,4 @@ Until next time!
 
 ---
 
-_[Last commit: "#2: Actions and consequences"](https://codeberg.org/cvennevik/crystal-spire/src/commit/2fb0c59bcc6ab0799d350b69c9859b1059b7d95d/index.html)_
+_[View this app version](/crystal-spire/v2/)_ | _[Last commit: "#2: Actions and consequences"](https://codeberg.org/cvennevik/crystal-spire/src/commit/2fb0c59bcc6ab0799d350b69c9859b1059b7d95d/index.html)_

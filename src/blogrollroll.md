@@ -5,9 +5,7 @@ layout: page.njk
 
 # Blogrollroll
 
-Okay so I think it's really fun surfing people's recommendations so I'm going to dump a whole bunch of people's blogrolls and the like on this page and then I will never run out of stuff to look at.
-
-(I threw this together one evening when I should have been going to bed so it's a bit sparse at the moment)
+I think it's really fun surfing people's recommendations for other websites, so I made this page to collect blogrolls and the like, as a portal for discovery.
 
 - [Blogroll.org](https://blogroll.org/)
 - [Dave Rupert's likes (daverupert.com/likes)](https://daverupert.com/likes/)

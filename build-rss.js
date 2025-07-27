@@ -43,7 +43,7 @@ const FEED_URL_GROUPS = {
     "https://charity.wtf/feed/",
     "https://lexi-lambda.github.io/feeds/all.atom.xml",
     "https://jvns.ca/atom.xml",
-    "https://einarwh.wordpress.com/feed/",
+    "https://einarwh.no/feed/atom.xml",
     "https://www.hillelwayne.com/post/index.xml",
     "https://chelseatroy.com/feed/",
     "https://www.worthe-it.co.za/atom.xml",

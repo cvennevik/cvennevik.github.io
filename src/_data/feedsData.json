@@ -1146,6 +1146,37 @@
           ]
         },
         {
+          "title": "einarwh",
+          "feedUrl": "https://einarwh.no/feed/atom.xml",
+          "items": [
+            {
+              "title": "Book heuristics",
+              "date": "2025-06-20",
+              "link": "https://einarwh.no/blog/2025/06/20/book-heuristics/"
+            },
+            {
+              "title": "Socio-technical is a big word",
+              "date": "2025-06-16",
+              "link": "https://einarwh.no/blog/2025/06/16/sociotechnical-is-a-big-word/"
+            },
+            {
+              "title": "What's a tomato?",
+              "date": "2025-05-11",
+              "link": "https://einarwh.no/blog/2025/05/11/whats-a-tomato/"
+            },
+            {
+              "title": "Socio-technical API patterns",
+              "date": "2025-04-28",
+              "link": "https://einarwh.no/blog/2025/04/28/sociotechnical-api-patterns/"
+            },
+            {
+              "title": "The banana test for AI-generated artifacts",
+              "date": "2024-10-03",
+              "link": "https://einarwh.no/blog/2024/10/03/the-banana-test-for-ai-generated-artifacts/"
+            }
+          ]
+        },
+        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -1514,37 +1545,6 @@
               "title": "When Up is Too Much",
               "date": "2025-01-12",
               "link": "https://angryweasel.substack.com/p/when-up-is-too-much"
-            }
-          ]
-        },
-        {
-          "title": ".:. brainsik",
-          "feedUrl": "https://brainsik.net/index.xml",
-          "items": [
-            {
-              "title": "Scraping Public Messages",
-              "date": "2025-05-21",
-              "link": "https://brainsik.net/2025/scraping-public-messages/"
-            },
-            {
-              "title": "The LLM Journey Begins?",
-              "date": "2025-01-07",
-              "link": "https://brainsik.net/2025/llm-journey-begins/"
-            },
-            {
-              "title": "Successfully Migrating to Caddy from Nginx",
-              "date": "2024-07-09",
-              "link": "https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/"
-            },
-            {
-              "title": "GPG Key Transition 2022",
-              "date": "2023-01-01",
-              "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
-            },
-            {
-              "title": "The problem with moving phones from copper to fiber: power",
-              "date": "2014-08-15",
-              "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
             }
           ]
         },
@@ -2554,9 +2554,9 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-27T15:53:23.986Z",
+  "fetchDate": "2025-07-27T15:55:32.258Z",
   "errors": [
     "https://kyleshevlin.com/rss.xml",
-    "https://einarwh.wordpress.com/feed/"
+    "https://brainsik.net/index.xml"
   ]
 }

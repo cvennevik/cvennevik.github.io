@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-title: Feed reader
+title: My feed Reader
 ---
 
 <style>
@@ -11,6 +11,7 @@ title: Feed reader
     .feed-url { opacity: 0.75; }
 </style>
 <h1>{{ title }}</h1>
+<p>Following sites the way I like it: updated once a day, with links to read articles on the original site.</p>
 <p>Last updated {{ feedsData.fetchDate.split('T')[0] }}.</p>
 {% for group in feedsData.groups %}
     <h2>{{ group.name }}</h2>

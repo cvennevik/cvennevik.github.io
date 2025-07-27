@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slay the Spire solver</title>
+</head>
+<body>
+    <h1>Slay the Spire solver</h1>
+    <h2>Player: Ironclad</h2>
+    <p>HP: 80/80</p>
+    <p>Energy: 3/3</p>
+    <details open>
+        <summary>Hand (5)</summary>
+        <ul>
+            <li>Bash</li>
+            <li>Defend</li>
+            <li>Defend</li>
+            <li>Defend</li>
+            <li>Strike</li>
+        </ul>
+    </details>
+    <details>
+        <summary>Draw pile (5)</summary>
+        <ul>
+            <li>Defend</li>
+            <li>Strike</li>
+            <li>Strike</li>
+            <li>Strike</li>
+            <li>Strike</li>
+        </ul>
+    </details>
+    <details>
+        <summary>Discard pile (0)</summary>
+    </details>
+    <details>
+        <summary>Relics (1)</summary>
+        <ul>
+            <li>Burning Blood <i>(At the end of combat, heal 6 HP)</i></li>
+        </ul>
+    </details>
+    <h2>Enemies</h2>
+    <h3>Jaw Worm</h3>
+    <p>HP: 42/42</p>
+    <p>Next move: Chomp (Deal 11 damage)</p>
+    <h2>Actions</h2>
+    <h3>Play Bash on Jaw Worm</h3>
+    <ul>
+        <li>Player: -2 Energy</li>
+        <li>Hand: -1 Bash</li>
+        <li>Discard pile: +1 Bash</li>
+        <li>Jaw Worm: -8 HP, +2 Vulnerable</li>
+    </ul>
+    <h3>Play Strike on Jaw Worm</h3>
+    <ul>
+        <li>Player: -1 Energy</li>
+        <li>Hand: -1 Strike</li>
+        <li>Discard pile: +1 Strike</li>
+        <li>Jaw Worm: -6 HP</li>
+    </ul>
+    <h3>Play Defend</h3>
+    <ul>
+        <li>Player: -1 Energy, +5 Armor</li>
+        <li>Hand: -1 Defend</li>
+        <li>Discard pile: +1 Defend</li>
+    </ul>
+    <h3>End turn</h3>
+    <ul>
+        <li>Player: -11 HP</li>
+        <li>Hand: -1 Bash, -2 Defend, +3 Strike</li>
+        <li>Draw pile: -4 Strike, -1 Defend</li>
+        <li>Discard pile: +1 Bash, +3 Defend, +1 Strike</li>
+    </ul>
+    <h4>60%</h4>
+    <ul>
+        <li>Jaw Worm: next move Bellow (gain 3 Strength and 6 Block)</li>
+    </ul>
+    <h4>40%</h4>
+    <ul>
+        <li>Jaw Worm: next move Thrash (deal 7 damage, gain 5 Block)</li>
+    </ul>
+</body>
+</html>

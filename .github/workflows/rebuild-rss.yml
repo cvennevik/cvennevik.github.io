@@ -17,7 +17,7 @@ jobs:
       - run: npm run build-rss
       - run: |
           git config --global user.name 'cvennevik'
-          git config --global user.email 'cvennevik@ŋmail.com'
+          git config --global user.email 'cvennevik@gmail.com'
           git commit -am "Rebuild feeds data"
           git push
       - run: npm run build

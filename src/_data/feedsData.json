@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Could I use the internet without a proper web browser?",
+              "date": "2025-07-27",
+              "link": "https://thejollyteapot.com/2025/07/27/could-i-use-the-internet-without-a-proper-web-browser/"
+            },
+            {
+              "title": "June 2025 blend of links",
+              "date": "2025-06-27",
+              "link": "https://thejollyteapot.com/june-2025-blend/"
+            },
+            {
+              "title": "Something terrible happened with CSS",
+              "date": "2025-05-29",
+              "link": "https://thejollyteapot.com/2025/05/29/something-terrible-happened-with-css/"
+            },
+            {
+              "title": "May 2025 blend of links",
+              "date": "2025-05-26",
+              "link": "https://thejollyteapot.com/may-2025-blend/"
+            },
+            {
+              "title": "On the Jony Ive and Sam Altman announcement",
+              "date": "2025-05-23",
+              "link": "https://thejollyteapot.com/2025/05/23/on-the-jony-ive-and-sam-altman-announcement/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -309,6 +340,37 @@
           ]
         },
         {
+          "title": "Untested · Rafał Pastuszak",
+          "feedUrl": "https://untested.sonnet.io/feed.xml",
+          "items": [
+            {
+              "title": "433 - How to Make a Font that Says Nothing",
+              "date": "2025-07-22",
+              "link": "https://untested.sonnet.io/notes/433-how-to-make-a-font-that-says-nothing/"
+            },
+            {
+              "title": "How People Use Ensō",
+              "date": "2025-07-04",
+              "link": "https://untested.sonnet.io/notes/how-people-use-enso/"
+            },
+            {
+              "title": "New Ensō - first public beta",
+              "date": "2025-06-27",
+              "link": "https://untested.sonnet.io/notes/new-enso-first-public-beta/"
+            },
+            {
+              "title": "Bedtime Doodles, an Anatomy",
+              "date": "2025-05-30",
+              "link": "https://untested.sonnet.io/notes/bedtime-doodles-an-anatomy/"
+            },
+            {
+              "title": "Let's Hold Hands",
+              "date": "2025-02-28",
+              "link": "https://untested.sonnet.io/notes/lets-hold-hands/"
+            }
+          ]
+        },
+        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
@@ -336,6 +398,37 @@
               "title": "There is No Automatic Reset for Engineering",
               "date": "2025-03-03",
               "link": "http://agileotter.blogspot.com/2025/03/there-is-no-automatic-reset-in.html"
+            }
+          ]
+        },
+        {
+          "title": "The Beautiful Mess",
+          "feedUrl": "https://cutlefish.substack.com/feed",
+          "items": [
+            {
+              "title": "TBM 368: Goals Take Practice",
+              "date": "2025-07-21",
+              "link": "https://cutlefish.substack.com/p/tbm-368-goals-take-practice"
+            },
+            {
+              "title": "TBM 367: The Wicked \"Big Picture\" Loop",
+              "date": "2025-07-12",
+              "link": "https://cutlefish.substack.com/p/tbm-367-the-wicked-big-picture-loop"
+            },
+            {
+              "title": "TBM 366: Empowered For Delivery, But...",
+              "date": "2025-07-08",
+              "link": "https://cutlefish.substack.com/p/tbm-366-empowered-for-delivery-but"
+            },
+            {
+              "title": "A Cagan Critique",
+              "date": "2025-07-03",
+              "link": "https://cutlefish.substack.com/p/a-cagan-critique"
+            },
+            {
+              "title": "TBM 365: The Problem With Value Hierarchies (Video)",
+              "date": "2025-06-30",
+              "link": "https://cutlefish.substack.com/p/tbm-365-the-problem-with-value-hierarchies"
             }
           ]
         },
@@ -650,37 +743,6 @@
           ]
         },
         {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "Newsletters that regularly hit my inbox these days",
-              "date": "2025-07-14",
-              "link": "https://ericwbailey.website/published/newsletters-that-regularly-hit-my-inbox-these-days/"
-            },
-            {
-              "title": "You MUST listen to RFC 2119",
-              "date": "2025-06-30",
-              "link": "https://ericwbailey.website/published/you-must-listen-to-rfc-2119/"
-            },
-            {
-              "title": "Quality is a trap",
-              "date": "2025-06-25",
-              "link": "https://ericwbailey.website/published/quality-is-a-trap/"
-            },
-            {
-              "title": "Organizing a design system via folksonomy",
-              "date": "2025-05-15",
-              "link": "https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/"
-            },
-            {
-              "title": "Article pitch for your consideration",
-              "date": "2025-04-08",
-              "link": "https://ericwbailey.website/published/article-pitch-for-your-consideration/"
-            }
-          ]
-        },
-        {
           "title": "Coding Is Like Cooking",
           "feedUrl": "https://coding-is-like-cooking.info/feed/",
           "items": [
@@ -708,6 +770,37 @@
               "title": "Hold an Open Space Event in just One Hour",
               "date": "2022-12-19",
               "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
+            }
+          ]
+        },
+        {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "Newsletters that regularly hit my inbox these days",
+              "date": "2025-07-14",
+              "link": "https://ericwbailey.website/published/newsletters-that-regularly-hit-my-inbox-these-days/"
+            },
+            {
+              "title": "You MUST listen to RFC 2119",
+              "date": "2025-06-30",
+              "link": "https://ericwbailey.website/published/you-must-listen-to-rfc-2119/"
+            },
+            {
+              "title": "Quality is a trap",
+              "date": "2025-06-25",
+              "link": "https://ericwbailey.website/published/quality-is-a-trap/"
+            },
+            {
+              "title": "Organizing a design system via folksonomy",
+              "date": "2025-05-15",
+              "link": "https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/"
+            },
+            {
+              "title": "Article pitch for your consideration",
+              "date": "2025-04-08",
+              "link": "https://ericwbailey.website/published/article-pitch-for-your-consideration/"
             }
           ]
         },
@@ -956,37 +1049,6 @@
               "title": "Places To Read",
               "date": "2025-05-24",
               "link": "https://www.placestoread.xyz/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "June 2025 blend of links",
-              "date": "2025-06-27",
-              "link": "https://thejollyteapot.com/june-2025-blend/"
-            },
-            {
-              "title": "Something terrible happened with CSS",
-              "date": "2025-05-29",
-              "link": "https://thejollyteapot.com/2025/05/29/something-terrible-happened-with-css/"
-            },
-            {
-              "title": "May 2025 blend of links",
-              "date": "2025-05-26",
-              "link": "https://thejollyteapot.com/may-2025-blend/"
-            },
-            {
-              "title": "On the Jony Ive and Sam Altman announcement",
-              "date": "2025-05-23",
-              "link": "https://thejollyteapot.com/2025/05/23/on-the-jony-ive-and-sam-altman-announcement/"
-            },
-            {
-              "title": "The quest for the best writing tool, a spinoff",
-              "date": "2025-05-18",
-              "link": "https://thejollyteapot.com/2025/05/18/the-quest-for-the-best-writing-tool-a-spinoff/"
             }
           ]
         },
@@ -1425,6 +1487,37 @@
           ]
         },
         {
+          "title": "The Weasel Speaks",
+          "feedUrl": "https://angryweasel.substack.com/feed",
+          "items": [
+            {
+              "title": "Weasel On Trail",
+              "date": "2025-05-23",
+              "link": "https://angryweasel.substack.com/p/weasel-on-trail"
+            },
+            {
+              "title": "Walking Away ",
+              "date": "2025-04-13",
+              "link": "https://angryweasel.substack.com/p/walking-away"
+            },
+            {
+              "title": "The Tired Weasel",
+              "date": "2025-02-16",
+              "link": "https://angryweasel.substack.com/p/the-tired-weasel"
+            },
+            {
+              "title": "False Secrets",
+              "date": "2025-01-25",
+              "link": "https://angryweasel.substack.com/p/false-secrets"
+            },
+            {
+              "title": "When Up is Too Much",
+              "date": "2025-01-12",
+              "link": "https://angryweasel.substack.com/p/when-up-is-too-much"
+            }
+          ]
+        },
+        {
           "title": ".:. brainsik",
           "feedUrl": "https://brainsik.net/index.xml",
           "items": [
@@ -1483,6 +1576,37 @@
               "title": "The world is terrible and great",
               "date": "2025-01-21",
               "link": "https://jessitron.com/2025/01/20/the-world-is-terrible-and-great/"
+            }
+          ]
+        },
+        {
+          "title": "Pablo Curell Mompo's",
+          "feedUrl": "https://blog.codemanship.dev/rss.xml",
+          "items": [
+            {
+              "title": "I found and AI plugin that works",
+              "date": "2025-05-19",
+              "link": "https://blog.codemanship.dev/i-found-and-ai-plugin-that-works"
+            },
+            {
+              "title": "Potential is not fixed",
+              "date": "2025-04-11",
+              "link": "https://blog.codemanship.dev/potential-is-not-fixed"
+            },
+            {
+              "title": "The planning trap",
+              "date": "2025-02-28",
+              "link": "https://blog.codemanship.dev/the-planning-trap"
+            },
+            {
+              "title": "Software Teaming",
+              "date": "2025-02-21",
+              "link": "https://blog.codemanship.dev/software-teaming"
+            },
+            {
+              "title": "Floor and Ceiling raisers",
+              "date": "2024-10-04",
+              "link": "https://blog.codemanship.dev/floor-and-ceiling-raisers"
             }
           ]
         },
@@ -2430,12 +2554,9 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-27T04:04:31.759Z",
+  "fetchDate": "2025-07-27T15:53:23.986Z",
   "errors": [
     "https://kyleshevlin.com/rss.xml",
-    "https://cutlefish.substack.com/feed",
-    "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml",
     "https://einarwh.wordpress.com/feed/"
   ]
 }

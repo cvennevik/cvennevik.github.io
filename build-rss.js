@@ -118,7 +118,8 @@ const FEED_URL_GROUPS = {
     "https://fynn.be/feed.xml",
     "https://dubroy.com/blog/rss.xml",
     "https://anniemueller.com/posts_feed",
-    "https://ntietz.com/atom.xml"
+    "https://ntietz.com/atom.xml",
+    "https://untested.sonnet.io/feed.xml"
   ]
 };
 

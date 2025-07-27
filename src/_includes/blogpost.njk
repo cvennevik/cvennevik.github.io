@@ -18,4 +18,17 @@
     <i>{{ date.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}</i>
     {{ content | safe }}
 </article>
+<hr>
+{% set nextPost = collections.blogposts | getNextCollectionItem(page) %}
+{% if nextPost %}
+<p>
+<a href="{{ nextPost.url }}">Next post: {{ nextPost.data.title }}</a>
+</p>
+{% endif %}
+{% set previousPost = collections.blogposts | getPreviousCollectionItem(page) %}
+{% if previousPost %}
+<p>
+<a href="{{ previousPost.url }}">Previous post: {{ previousPost.data.title }}</a>
+</p>
+{% endif %}
 {% endblock %}

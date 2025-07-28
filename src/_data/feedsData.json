@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Let there be lapses",
+              "date": "2025-07-28",
+              "link": "https://anniemueller.com/posts/let-there-be-lapses"
+            },
+            {
+              "title": "Hey, I care about you, but I do not care what the robot says about you",
+              "date": "2025-07-27",
+              "link": "https://anniemueller.com/posts/hey-i-care-about-you-but-i-do-not-care-what-the-robot-says-about-you"
+            },
+            {
+              "title": "Setting up an iPad for blog reading and small web browsing",
+              "date": "2025-07-26",
+              "link": "https://anniemueller.com/posts/setting-up-an-ipad-for-blog-reading-and-small-web-browsing"
+            },
+            {
+              "title": "Small webbing along, update 1",
+              "date": "2025-07-09",
+              "link": "https://anniemueller.com/posts/small-webbing-along-update-1"
+            },
+            {
+              "title": "This is not the greatest cat in the world; this is just a tribute",
+              "date": "2025-07-08",
+              "link": "https://anniemueller.com/posts/this-is-not-the-greatest-cat-in-the-world-this-is-just-a-tribute"
+            }
+          ]
+        },
+        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -31,37 +62,6 @@
               "title": "On the Jony Ive and Sam Altman announcement",
               "date": "2025-05-23",
               "link": "https://thejollyteapot.com/2025/05/23/on-the-jony-ive-and-sam-altman-announcement/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Hey, I care about you, but I do not care what the robot says about you",
-              "date": "2025-07-27",
-              "link": "https://anniemueller.com/posts/hey-i-care-about-you-but-i-do-not-care-what-the-robot-says-about-you"
-            },
-            {
-              "title": "Setting up an iPad for blog reading and small web browsing",
-              "date": "2025-07-26",
-              "link": "https://anniemueller.com/posts/setting-up-an-ipad-for-blog-reading-and-small-web-browsing"
-            },
-            {
-              "title": "Small webbing along, update 1",
-              "date": "2025-07-09",
-              "link": "https://anniemueller.com/posts/small-webbing-along-update-1"
-            },
-            {
-              "title": "This is not the greatest cat in the world; this is just a tribute",
-              "date": "2025-07-08",
-              "link": "https://anniemueller.com/posts/this-is-not-the-greatest-cat-in-the-world-this-is-just-a-tribute"
-            },
-            {
-              "title": "Week notes: Road trip edition",
-              "date": "2025-07-07",
-              "link": "https://anniemueller.com/posts/week-notes-road-trip-edition"
             }
           ]
         },
@@ -402,37 +402,6 @@
           ]
         },
         {
-          "title": "The Beautiful Mess",
-          "feedUrl": "https://cutlefish.substack.com/feed",
-          "items": [
-            {
-              "title": "TBM 368: Goals Take Practice",
-              "date": "2025-07-21",
-              "link": "https://cutlefish.substack.com/p/tbm-368-goals-take-practice"
-            },
-            {
-              "title": "TBM 367: The Wicked \"Big Picture\" Loop",
-              "date": "2025-07-12",
-              "link": "https://cutlefish.substack.com/p/tbm-367-the-wicked-big-picture-loop"
-            },
-            {
-              "title": "TBM 366: Empowered For Delivery, But...",
-              "date": "2025-07-08",
-              "link": "https://cutlefish.substack.com/p/tbm-366-empowered-for-delivery-but"
-            },
-            {
-              "title": "A Cagan Critique",
-              "date": "2025-07-03",
-              "link": "https://cutlefish.substack.com/p/a-cagan-critique"
-            },
-            {
-              "title": "TBM 365: The Problem With Value Hierarchies (Video)",
-              "date": "2025-06-30",
-              "link": "https://cutlefish.substack.com/p/tbm-365-the-problem-with-value-hierarchies"
-            }
-          ]
-        },
-        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -743,37 +712,6 @@
           ]
         },
         {
-          "title": "Coding Is Like Cooking",
-          "feedUrl": "https://coding-is-like-cooking.info/feed/",
-          "items": [
-            {
-              "title": "Turn off your AI Assistant for Code Katas",
-              "date": "2025-07-14",
-              "link": "https://coding-is-like-cooking.info/2025/07/turn-off-your-ai-assistant-for-code-katas/"
-            },
-            {
-              "title": "Smooth Ensemble with AWS AppStream – How To Guide",
-              "date": "2025-04-21",
-              "link": "https://coding-is-like-cooking.info/2025/04/smooth-ensemble-with-aws-appstream-how-to-guide/"
-            },
-            {
-              "title": "Barbie",
-              "date": "2023-08-07",
-              "link": "https://coding-is-like-cooking.info/2023/08/barbie/"
-            },
-            {
-              "title": "I’ve Gone Independent",
-              "date": "2023-02-20",
-              "link": "https://coding-is-like-cooking.info/2023/02/ive-gone-independent/"
-            },
-            {
-              "title": "Hold an Open Space Event in just One Hour",
-              "date": "2022-12-19",
-              "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
-            }
-          ]
-        },
-        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -801,6 +739,37 @@
               "title": "Article pitch for your consideration",
               "date": "2025-04-08",
               "link": "https://ericwbailey.website/published/article-pitch-for-your-consideration/"
+            }
+          ]
+        },
+        {
+          "title": "Coding Is Like Cooking",
+          "feedUrl": "https://coding-is-like-cooking.info/feed/",
+          "items": [
+            {
+              "title": "Turn off your AI Assistant for Code Katas",
+              "date": "2025-07-14",
+              "link": "https://coding-is-like-cooking.info/2025/07/turn-off-your-ai-assistant-for-code-katas/"
+            },
+            {
+              "title": "Smooth Ensemble with AWS AppStream – How To Guide",
+              "date": "2025-04-21",
+              "link": "https://coding-is-like-cooking.info/2025/04/smooth-ensemble-with-aws-appstream-how-to-guide/"
+            },
+            {
+              "title": "Barbie",
+              "date": "2023-08-07",
+              "link": "https://coding-is-like-cooking.info/2023/08/barbie/"
+            },
+            {
+              "title": "I’ve Gone Independent",
+              "date": "2023-02-20",
+              "link": "https://coding-is-like-cooking.info/2023/02/ive-gone-independent/"
+            },
+            {
+              "title": "Hold an Open Space Event in just One Hour",
+              "date": "2022-12-19",
+              "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
             }
           ]
         },
@@ -1518,33 +1487,33 @@
           ]
         },
         {
-          "title": "The Weasel Speaks",
-          "feedUrl": "https://angryweasel.substack.com/feed",
+          "title": ".:. brainsik",
+          "feedUrl": "https://brainsik.net/index.xml",
           "items": [
             {
-              "title": "Weasel On Trail",
-              "date": "2025-05-23",
-              "link": "https://angryweasel.substack.com/p/weasel-on-trail"
+              "title": "Scraping Public Messages",
+              "date": "2025-05-21",
+              "link": "https://brainsik.net/2025/scraping-public-messages/"
             },
             {
-              "title": "Walking Away ",
-              "date": "2025-04-13",
-              "link": "https://angryweasel.substack.com/p/walking-away"
+              "title": "The LLM Journey Begins?",
+              "date": "2025-01-07",
+              "link": "https://brainsik.net/2025/llm-journey-begins/"
             },
             {
-              "title": "The Tired Weasel",
-              "date": "2025-02-16",
-              "link": "https://angryweasel.substack.com/p/the-tired-weasel"
+              "title": "Successfully Migrating to Caddy from Nginx",
+              "date": "2024-07-09",
+              "link": "https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/"
             },
             {
-              "title": "False Secrets",
-              "date": "2025-01-25",
-              "link": "https://angryweasel.substack.com/p/false-secrets"
+              "title": "GPG Key Transition 2022",
+              "date": "2023-01-01",
+              "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
             },
             {
-              "title": "When Up is Too Much",
-              "date": "2025-01-12",
-              "link": "https://angryweasel.substack.com/p/when-up-is-too-much"
+              "title": "The problem with moving phones from copper to fiber: power",
+              "date": "2014-08-15",
+              "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
             }
           ]
         },
@@ -1576,37 +1545,6 @@
               "title": "The world is terrible and great",
               "date": "2025-01-21",
               "link": "https://jessitron.com/2025/01/20/the-world-is-terrible-and-great/"
-            }
-          ]
-        },
-        {
-          "title": "Pablo Curell Mompo's",
-          "feedUrl": "https://blog.codemanship.dev/rss.xml",
-          "items": [
-            {
-              "title": "I found and AI plugin that works",
-              "date": "2025-05-19",
-              "link": "https://blog.codemanship.dev/i-found-and-ai-plugin-that-works"
-            },
-            {
-              "title": "Potential is not fixed",
-              "date": "2025-04-11",
-              "link": "https://blog.codemanship.dev/potential-is-not-fixed"
-            },
-            {
-              "title": "The planning trap",
-              "date": "2025-02-28",
-              "link": "https://blog.codemanship.dev/the-planning-trap"
-            },
-            {
-              "title": "Software Teaming",
-              "date": "2025-02-21",
-              "link": "https://blog.codemanship.dev/software-teaming"
-            },
-            {
-              "title": "Floor and Ceiling raisers",
-              "date": "2024-10-04",
-              "link": "https://blog.codemanship.dev/floor-and-ceiling-raisers"
             }
           ]
         },
@@ -2554,9 +2492,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-27T15:55:32.258Z",
+  "fetchDate": "2025-07-28T04:04:39.198Z",
   "errors": [
     "https://kyleshevlin.com/rss.xml",
-    "https://brainsik.net/index.xml"
+    "https://cutlefish.substack.com/feed",
+    "https://angryweasel.substack.com/feed",
+    "https://blog.codemanship.dev/rss.xml"
   ]
 }

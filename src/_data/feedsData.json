@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Over-optimized. Under-optimized.",
+              "date": "2025-07-28",
+              "link": "https://gomakethings.com/over-optimized.-under-optimized./"
+            },
+            {
+              "title": "Minification doesnt matter much",
+              "date": "2025-07-25",
+              "link": "https://gomakethings.com/minification-doesnt-matter-much/"
+            },
+            {
+              "title": "Compounding performance issues",
+              "date": "2025-07-24",
+              "link": "https://gomakethings.com/compounding-performance-issues/"
+            },
+            {
+              "title": "The :has() CSS pseudo-class",
+              "date": "2025-07-22",
+              "link": "https://gomakethings.com/the-has-css-pseudo-class/"
+            },
+            {
+              "title": "How to automatically create a release for a pull request using a bash script",
+              "date": "2025-07-21",
+              "link": "https://gomakethings.com/how-to-automatically-create-a-release-for-a-pull-request-using-a-bash-script/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -31,6 +62,37 @@
               "title": "This is not the greatest cat in the world; this is just a tribute",
               "date": "2025-07-08",
               "link": "https://anniemueller.com/posts/this-is-not-the-greatest-cat-in-the-world-this-is-just-a-tribute"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+              "date": "2025-07-27",
+              "link": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/"
+            },
+            {
+              "title": "Occupation and Preoccupation",
+              "date": "2025-07-17",
+              "link": "https://blog.jim-nielsen.com/2025/occupation-and-preoccupation/"
+            },
+            {
+              "title": "Measurement and Numbers",
+              "date": "2025-07-14",
+              "link": "https://blog.jim-nielsen.com/2025/measurement-and-numbers/"
+            },
+            {
+              "title": "Computers Are a Feeling",
+              "date": "2025-07-10",
+              "link": "https://blog.jim-nielsen.com/2025/computers-are-a-feeling/"
+            },
+            {
+              "title": "Follow Up: An Analysis of YouTube Links From The White House’s “Wire” Website",
+              "date": "2025-07-07",
+              "link": "https://blog.jim-nielsen.com/2025/youtube-links-from-whgov-wire/"
             }
           ]
         },
@@ -150,37 +212,6 @@
             {
               "date": "2025-07-22",
               "link": "https://dbushell.com/notes/2025-07-22T15:46Z/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Minification doesnt matter much",
-              "date": "2025-07-25",
-              "link": "https://gomakethings.com/minification-doesnt-matter-much/"
-            },
-            {
-              "title": "Compounding performance issues",
-              "date": "2025-07-24",
-              "link": "https://gomakethings.com/compounding-performance-issues/"
-            },
-            {
-              "title": "The :has() CSS pseudo-class",
-              "date": "2025-07-22",
-              "link": "https://gomakethings.com/the-has-css-pseudo-class/"
-            },
-            {
-              "title": "How to automatically create a release for a pull request using a bash script",
-              "date": "2025-07-21",
-              "link": "https://gomakethings.com/how-to-automatically-create-a-release-for-a-pull-request-using-a-bash-script/"
-            },
-            {
-              "title": "Boats and Community",
-              "date": "2025-07-20",
-              "link": "https://gomakethings.com/boats-and-community/"
             }
           ]
         },
@@ -553,37 +584,6 @@
               "title": "0052: hytradboi videos and post-mortem, zest repo, no internet, on social media, my product is my garden, datafusion and clickhouse jits, books",
               "date": "2025-03-14",
               "link": "https://www.scattered-thoughts.net/log/0052/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Occupation and Preoccupation",
-              "date": "2025-07-17",
-              "link": "https://blog.jim-nielsen.com/2025/occupation-and-preoccupation/"
-            },
-            {
-              "title": "Measurement and Numbers",
-              "date": "2025-07-14",
-              "link": "https://blog.jim-nielsen.com/2025/measurement-and-numbers/"
-            },
-            {
-              "title": "Computers Are a Feeling",
-              "date": "2025-07-10",
-              "link": "https://blog.jim-nielsen.com/2025/computers-are-a-feeling/"
-            },
-            {
-              "title": "Follow Up: An Analysis of YouTube Links From The White House’s “Wire” Website",
-              "date": "2025-07-07",
-              "link": "https://blog.jim-nielsen.com/2025/youtube-links-from-whgov-wire/"
-            },
-            {
-              "title": "Do You Even Personalize, Bro?",
-              "date": "2025-07-06",
-              "link": "https://blog.jim-nielsen.com/2025/do-you-personalize/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-28T04:04:39.198Z",
+  "fetchDate": "2025-07-29T04:05:47.810Z",
   "errors": [
     "https://kyleshevlin.com/rss.xml",
     "https://cutlefish.substack.com/feed",

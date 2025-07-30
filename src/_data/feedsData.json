@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "“Don’t Get Left Behind”",
+              "date": "2025-07-29",
+              "link": "https://dbushell.com/2025/07/29/dont-get-left-behind/"
+            },
+            {
+              "title": "Play it, Sam. Play “Speech Synthesis”",
+              "date": "2025-07-26",
+              "link": "https://dbushell.com/2025/07/26/text-to-speech-synthesis/"
+            },
+            {
+              "title": "Croissant is Coming for You",
+              "date": "2025-07-18",
+              "link": "https://dbushell.com/2025/07/18/croissant-is-coming-for-you/"
+            },
+            {
+              "title": "Croissant! Building a No-Framework Web App",
+              "date": "2025-07-11",
+              "link": "https://dbushell.com/2025/07/11/croissant-no-framework-web-app/"
+            },
+            {
+              "title": "SVG Optimization and Accessibility Basics",
+              "date": "2025-06-25",
+              "link": "https://dbushell.com/2025/06/25/svg-optimization-and-accessibility-basics/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "How to configure ESBuild",
+              "date": "2025-07-29",
+              "link": "https://gomakethings.com/how-to-configure-esbuild/"
+            },
             {
               "title": "Over-optimized. Under-optimized.",
               "date": "2025-07-28",
@@ -26,11 +62,63 @@
               "title": "The :has() CSS pseudo-class",
               "date": "2025-07-22",
               "link": "https://gomakethings.com/the-has-css-pseudo-class/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Adding Planets to Celestia on macOS",
+              "date": "2025-07-29",
+              "link": "https://borretti.me/article/adding-planets-to-celestia-on-macos"
             },
             {
-              "title": "How to automatically create a release for a pull request using a bash script",
-              "date": "2025-07-21",
-              "link": "https://gomakethings.com/how-to-automatically-create-a-release-for-a-pull-request-using-a-bash-script/"
+              "title": "Notes on Managing ADHD",
+              "date": "2025-06-12",
+              "link": "https://borretti.me/article/notes-on-managing-adhd"
+            },
+            {
+              "title": "Inboxes are Underrated",
+              "date": "2025-05-24",
+              "link": "https://borretti.me/article/inboxes-are-underrated"
+            },
+            {
+              "title": "You Can Choose Tools That Make You Happy",
+              "date": "2025-05-20",
+              "link": "https://borretti.me/article/you-can-choose-tools-that-make-you-happy"
+            },
+            {
+              "title": "Two Years of Rust",
+              "date": "2025-04-15",
+              "link": "https://borretti.me/article/two-years-of-rust"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-29",
+              "link": "https://dbushell.com/notes/2025-07-29T14:51Z/"
+            },
+            {
+              "date": "2025-07-29",
+              "link": "https://dbushell.com/notes/2025-07-29T07:10Z/"
+            },
+            {
+              "date": "2025-07-26",
+              "link": "https://dbushell.com/notes/2025-07-26T12:26Z/"
+            },
+            {
+              "date": "2025-07-25",
+              "link": "https://dbushell.com/notes/2025-07-25T17:37Z/"
+            },
+            {
+              "date": "2025-07-24",
+              "link": "https://dbushell.com/notes/2025-07-24T08:53Z/"
             }
           ]
         },
@@ -128,37 +216,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Play it, Sam. Play “Speech Synthesis”",
-              "date": "2025-07-26",
-              "link": "https://dbushell.com/2025/07/26/text-to-speech-synthesis/"
-            },
-            {
-              "title": "Croissant is Coming for You",
-              "date": "2025-07-18",
-              "link": "https://dbushell.com/2025/07/18/croissant-is-coming-for-you/"
-            },
-            {
-              "title": "Croissant! Building a No-Framework Web App",
-              "date": "2025-07-11",
-              "link": "https://dbushell.com/2025/07/11/croissant-no-framework-web-app/"
-            },
-            {
-              "title": "SVG Optimization and Accessibility Basics",
-              "date": "2025-06-25",
-              "link": "https://dbushell.com/2025/06/25/svg-optimization-and-accessibility-basics/"
-            },
-            {
-              "title": "JSR & Deno One Year Later - Malware?!",
-              "date": "2025-06-23",
-              "link": "https://dbushell.com/2025/06/23/jsr-and-deno-one-year-later-malware/"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -186,32 +243,6 @@
               "title": "Notes - You’ve built it, now you support it",
               "date": "2025-04-05",
               "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-youve-built-it-now-you-support-it-stephen-jannaway.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-26",
-              "link": "https://dbushell.com/notes/2025-07-26T12:26Z/"
-            },
-            {
-              "date": "2025-07-25",
-              "link": "https://dbushell.com/notes/2025-07-25T17:37Z/"
-            },
-            {
-              "date": "2025-07-24",
-              "link": "https://dbushell.com/notes/2025-07-24T08:53Z/"
-            },
-            {
-              "date": "2025-07-24",
-              "link": "https://dbushell.com/notes/2025-07-24T05:46Z/"
-            },
-            {
-              "date": "2025-07-22",
-              "link": "https://dbushell.com/notes/2025-07-22T15:46Z/"
             }
           ]
         },
@@ -1297,37 +1328,6 @@
               "title": "Advertising? On my blog?",
               "date": "2025-05-30",
               "link": "https://heydonworks.com/article/advertising-on-this-blog/"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Notes on Managing ADHD",
-              "date": "2025-06-12",
-              "link": "https://borretti.me/article/notes-on-managing-adhd"
-            },
-            {
-              "title": "Inboxes are Underrated",
-              "date": "2025-05-24",
-              "link": "https://borretti.me/article/inboxes-are-underrated"
-            },
-            {
-              "title": "You Can Choose Tools That Make You Happy",
-              "date": "2025-05-20",
-              "link": "https://borretti.me/article/you-can-choose-tools-that-make-you-happy"
-            },
-            {
-              "title": "Two Years of Rust",
-              "date": "2025-04-15",
-              "link": "https://borretti.me/article/two-years-of-rust"
-            },
-            {
-              "title": "My Backup Infrastructure, 2025 Edition",
-              "date": "2025-04-13",
-              "link": "https://borretti.me/article/my-backup-infrastructure-2025-edition"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-29T04:05:47.810Z",
+  "fetchDate": "2025-07-30T04:03:04.170Z",
   "errors": [
     "https://kyleshevlin.com/rss.xml",
     "https://cutlefish.substack.com/feed",

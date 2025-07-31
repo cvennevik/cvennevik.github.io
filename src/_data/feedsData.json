@@ -4,6 +4,187 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "On inclusive personas and inclusive user research",
+              "date": "2025-07-31",
+              "link": "https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research/"
+            },
+            {
+              "title": "Newsletters that regularly hit my inbox these days",
+              "date": "2025-07-14",
+              "link": "https://ericwbailey.website/published/newsletters-that-regularly-hit-my-inbox-these-days/"
+            },
+            {
+              "title": "You MUST listen to RFC 2119",
+              "date": "2025-06-30",
+              "link": "https://ericwbailey.website/published/you-must-listen-to-rfc-2119/"
+            },
+            {
+              "title": "Quality is a trap",
+              "date": "2025-06-25",
+              "link": "https://ericwbailey.website/published/quality-is-a-trap/"
+            },
+            {
+              "title": "Organizing a design system via folksonomy",
+              "date": "2025-05-15",
+              "link": "https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "What order do web components instantiate in?",
+              "date": "2025-07-30",
+              "link": "https://gomakethings.com/what-order-do-web-components-instantiate-in/"
+            },
+            {
+              "title": "How to configure ESBuild",
+              "date": "2025-07-29",
+              "link": "https://gomakethings.com/how-to-configure-esbuild/"
+            },
+            {
+              "title": "Over-optimized. Under-optimized.",
+              "date": "2025-07-28",
+              "link": "https://gomakethings.com/over-optimized.-under-optimized./"
+            },
+            {
+              "title": "Minification doesnt matter much",
+              "date": "2025-07-25",
+              "link": "https://gomakethings.com/minification-doesnt-matter-much/"
+            },
+            {
+              "title": "Compounding performance issues",
+              "date": "2025-07-24",
+              "link": "https://gomakethings.com/compounding-performance-issues/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "July 2025 blend of links",
+              "date": "2025-07-30",
+              "link": "https://thejollyteapot.com/july-2025-blend/"
+            },
+            {
+              "title": "Could I use the internet without a proper web browser?",
+              "date": "2025-07-27",
+              "link": "https://thejollyteapot.com/2025/07/27/could-i-use-the-internet-without-a-proper-web-browser/"
+            },
+            {
+              "title": "June 2025 blend of links",
+              "date": "2025-06-27",
+              "link": "https://thejollyteapot.com/june-2025-blend/"
+            },
+            {
+              "title": "Something terrible happened with CSS",
+              "date": "2025-05-29",
+              "link": "https://thejollyteapot.com/2025/05/29/something-terrible-happened-with-css/"
+            },
+            {
+              "title": "May 2025 blend of links",
+              "date": "2025-05-26",
+              "link": "https://thejollyteapot.com/may-2025-blend/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-07-30",
+              "link": "https://dbushell.com/notes/2025-07-30T06:35Z/"
+            },
+            {
+              "date": "2025-07-29",
+              "link": "https://dbushell.com/notes/2025-07-29T14:51Z/"
+            },
+            {
+              "date": "2025-07-29",
+              "link": "https://dbushell.com/notes/2025-07-29T07:10Z/"
+            },
+            {
+              "date": "2025-07-26",
+              "link": "https://dbushell.com/notes/2025-07-26T12:26Z/"
+            },
+            {
+              "date": "2025-07-25",
+              "link": "https://dbushell.com/notes/2025-07-25T17:37Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Reading notes: May, June, July",
+              "date": "2025-07-30",
+              "link": "https://anniemueller.com/posts/reading-notes-may-june-july"
+            },
+            {
+              "title": "Let there be lapses",
+              "date": "2025-07-28",
+              "link": "https://anniemueller.com/posts/let-there-be-lapses"
+            },
+            {
+              "title": "Hey, I care about you, but I do not care what the robot says about you",
+              "date": "2025-07-27",
+              "link": "https://anniemueller.com/posts/hey-i-care-about-you-but-i-do-not-care-what-the-robot-says-about-you"
+            },
+            {
+              "title": "Setting up an iPad for blog reading and small web browsing",
+              "date": "2025-07-26",
+              "link": "https://anniemueller.com/posts/setting-up-an-ipad-for-blog-reading-and-small-web-browsing"
+            },
+            {
+              "title": "Small webbing along, update 1",
+              "date": "2025-07-09",
+              "link": "https://anniemueller.com/posts/small-webbing-along-update-1"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "2000 words about arrays and tables",
+              "date": "2025-07-30",
+              "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/"
+            },
+            {
+              "title": "Programming Language Escape Hatches",
+              "date": "2025-07-24",
+              "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/"
+            },
+            {
+              "title": "Maybe writing speed actually is a bottleneck for programming",
+              "date": "2025-07-17",
+              "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/"
+            },
+            {
+              "title": "Logic for Programmers Turns One",
+              "date": "2025-07-08",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/"
+            },
+            {
+              "title": "Logical Quantifiers in Software",
+              "date": "2025-07-02",
+              "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,37 +212,6 @@
               "title": "SVG Optimization and Accessibility Basics",
               "date": "2025-06-25",
               "link": "https://dbushell.com/2025/06/25/svg-optimization-and-accessibility-basics/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "How to configure ESBuild",
-              "date": "2025-07-29",
-              "link": "https://gomakethings.com/how-to-configure-esbuild/"
-            },
-            {
-              "title": "Over-optimized. Under-optimized.",
-              "date": "2025-07-28",
-              "link": "https://gomakethings.com/over-optimized.-under-optimized./"
-            },
-            {
-              "title": "Minification doesnt matter much",
-              "date": "2025-07-25",
-              "link": "https://gomakethings.com/minification-doesnt-matter-much/"
-            },
-            {
-              "title": "Compounding performance issues",
-              "date": "2025-07-24",
-              "link": "https://gomakethings.com/compounding-performance-issues/"
-            },
-            {
-              "title": "The :has() CSS pseudo-class",
-              "date": "2025-07-22",
-              "link": "https://gomakethings.com/the-has-css-pseudo-class/"
             }
           ]
         },
@@ -97,63 +247,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-29",
-              "link": "https://dbushell.com/notes/2025-07-29T14:51Z/"
-            },
-            {
-              "date": "2025-07-29",
-              "link": "https://dbushell.com/notes/2025-07-29T07:10Z/"
-            },
-            {
-              "date": "2025-07-26",
-              "link": "https://dbushell.com/notes/2025-07-26T12:26Z/"
-            },
-            {
-              "date": "2025-07-25",
-              "link": "https://dbushell.com/notes/2025-07-25T17:37Z/"
-            },
-            {
-              "date": "2025-07-24",
-              "link": "https://dbushell.com/notes/2025-07-24T08:53Z/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Let there be lapses",
-              "date": "2025-07-28",
-              "link": "https://anniemueller.com/posts/let-there-be-lapses"
-            },
-            {
-              "title": "Hey, I care about you, but I do not care what the robot says about you",
-              "date": "2025-07-27",
-              "link": "https://anniemueller.com/posts/hey-i-care-about-you-but-i-do-not-care-what-the-robot-says-about-you"
-            },
-            {
-              "title": "Setting up an iPad for blog reading and small web browsing",
-              "date": "2025-07-26",
-              "link": "https://anniemueller.com/posts/setting-up-an-ipad-for-blog-reading-and-small-web-browsing"
-            },
-            {
-              "title": "Small webbing along, update 1",
-              "date": "2025-07-09",
-              "link": "https://anniemueller.com/posts/small-webbing-along-update-1"
-            },
-            {
-              "title": "This is not the greatest cat in the world; this is just a tribute",
-              "date": "2025-07-08",
-              "link": "https://anniemueller.com/posts/this-is-not-the-greatest-cat-in-the-world-this-is-just-a-tribute"
-            }
-          ]
-        },
-        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -181,37 +274,6 @@
               "title": "Follow Up: An Analysis of YouTube Links From The White House’s “Wire” Website",
               "date": "2025-07-07",
               "link": "https://blog.jim-nielsen.com/2025/youtube-links-from-whgov-wire/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "Could I use the internet without a proper web browser?",
-              "date": "2025-07-27",
-              "link": "https://thejollyteapot.com/2025/07/27/could-i-use-the-internet-without-a-proper-web-browser/"
-            },
-            {
-              "title": "June 2025 blend of links",
-              "date": "2025-06-27",
-              "link": "https://thejollyteapot.com/june-2025-blend/"
-            },
-            {
-              "title": "Something terrible happened with CSS",
-              "date": "2025-05-29",
-              "link": "https://thejollyteapot.com/2025/05/29/something-terrible-happened-with-css/"
-            },
-            {
-              "title": "May 2025 blend of links",
-              "date": "2025-05-26",
-              "link": "https://thejollyteapot.com/may-2025-blend/"
-            },
-            {
-              "title": "On the Jony Ive and Sam Altman announcement",
-              "date": "2025-05-23",
-              "link": "https://thejollyteapot.com/2025/05/23/on-the-jony-ive-and-sam-altman-announcement/"
             }
           ]
         },
@@ -367,37 +429,6 @@
               "title": "Adding Plugin Installation and User Switching to Turbo Admin",
               "date": "2025-05-29",
               "link": "https://rosswintle.uk/2025/05/adding-plugin-installation-and-user-switching-to-turbo-admin/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Programming Language Escape Hatches",
-              "date": "2025-07-24",
-              "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/"
-            },
-            {
-              "title": "Maybe writing speed actually is a bottleneck for programming",
-              "date": "2025-07-17",
-              "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/"
-            },
-            {
-              "title": "Logic for Programmers Turns One",
-              "date": "2025-07-08",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/"
-            },
-            {
-              "title": "Logical Quantifiers in Software",
-              "date": "2025-07-02",
-              "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/"
-            },
-            {
-              "title": "You can cheat a test suite with a big enough polynomial",
-              "date": "2025-06-24",
-              "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/"
             }
           ]
         },
@@ -739,37 +770,6 @@
               "title": "My Request to Google on Accessibility",
               "date": "2025-05-22",
               "link": "https://adrianroselli.com/2025/05/my-request-to-google-on-accessibility.html"
-            }
-          ]
-        },
-        {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "Newsletters that regularly hit my inbox these days",
-              "date": "2025-07-14",
-              "link": "https://ericwbailey.website/published/newsletters-that-regularly-hit-my-inbox-these-days/"
-            },
-            {
-              "title": "You MUST listen to RFC 2119",
-              "date": "2025-06-30",
-              "link": "https://ericwbailey.website/published/you-must-listen-to-rfc-2119/"
-            },
-            {
-              "title": "Quality is a trap",
-              "date": "2025-06-25",
-              "link": "https://ericwbailey.website/published/quality-is-a-trap/"
-            },
-            {
-              "title": "Organizing a design system via folksonomy",
-              "date": "2025-05-15",
-              "link": "https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/"
-            },
-            {
-              "title": "Article pitch for your consideration",
-              "date": "2025-04-08",
-              "link": "https://ericwbailey.website/published/article-pitch-for-your-consideration/"
             }
           ]
         },
@@ -1142,6 +1142,37 @@
               "title": "Peanuts in Church and Casual Misinformation",
               "date": "2025-04-02",
               "link": "https://boehs.org/node/weird-laws"
+            }
+          ]
+        },
+        {
+          "title": "Kyle Shevlin's Blog RSS Feed",
+          "feedUrl": "https://kyleshevlin.com/rss.xml",
+          "items": [
+            {
+              "title": "Prefer Gaps To Margins",
+              "date": "2025-06-23",
+              "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
+            },
+            {
+              "title": "&ldquo;Refactor&rdquo; is Not a Scary Word",
+              "date": "2025-02-27",
+              "link": "https://kyleshevlin.com/refactor-is-not-a-scary-word/"
+            },
+            {
+              "title": "Fun Coding Exercise: Pyramid Slide Down",
+              "date": "2025-01-27",
+              "link": "https://kyleshevlin.com/fun-coding-exercise-pyramid-slide-down/"
+            },
+            {
+              "title": "Algorithm: Sliding Window",
+              "date": "2025-01-16",
+              "link": "https://kyleshevlin.com/algorithm-sliding-window/"
+            },
+            {
+              "title": "The Consciousness Lottery",
+              "date": "2024-11-19",
+              "link": "https://kyleshevlin.com/consciousness-lottery/"
             }
           ]
         },
@@ -2492,9 +2523,8 @@
       ]
     }
   ],
-  "fetchDate": "2025-07-30T04:03:04.170Z",
+  "fetchDate": "2025-07-31T04:01:58.096Z",
   "errors": [
-    "https://kyleshevlin.com/rss.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml"

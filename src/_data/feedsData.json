@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Anatomy of a Web Component",
+              "date": "2025-08-01",
+              "link": "https://dbushell.com/2025/08/01/anatomy-of-a-web-component/"
+            },
+            {
+              "title": "“Don’t Get Left Behind”",
+              "date": "2025-07-29",
+              "link": "https://dbushell.com/2025/07/29/dont-get-left-behind/"
+            },
+            {
+              "title": "Play it, Sam. Play “Speech Synthesis”",
+              "date": "2025-07-26",
+              "link": "https://dbushell.com/2025/07/26/text-to-speech-synthesis/"
+            },
+            {
+              "title": "Croissant is Coming for You",
+              "date": "2025-07-18",
+              "link": "https://dbushell.com/2025/07/18/croissant-is-coming-for-you/"
+            },
+            {
+              "title": "Croissant! Building a No-Framework Web App",
+              "date": "2025-07-11",
+              "link": "https://dbushell.com/2025/07/11/croissant-no-framework-web-app/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The Weird Web",
+              "date": "2025-07-31",
+              "link": "https://gomakethings.com/the-weird-web/"
+            },
+            {
+              "title": "What order do web components instantiate in?",
+              "date": "2025-07-30",
+              "link": "https://gomakethings.com/what-order-do-web-components-instantiate-in/"
+            },
+            {
+              "title": "How to configure ESBuild",
+              "date": "2025-07-29",
+              "link": "https://gomakethings.com/how-to-configure-esbuild/"
+            },
+            {
+              "title": "Over-optimized. Under-optimized.",
+              "date": "2025-07-28",
+              "link": "https://gomakethings.com/over-optimized.-under-optimized./"
+            },
+            {
+              "title": "Minification doesnt matter much",
+              "date": "2025-07-25",
+              "link": "https://gomakethings.com/minification-doesnt-matter-much/"
+            }
+          ]
+        },
+        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -35,33 +97,28 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
             {
-              "title": "What order do web components instantiate in?",
+              "date": "2025-07-31",
+              "link": "https://dbushell.com/notes/2025-07-31T14:11Z/"
+            },
+            {
               "date": "2025-07-30",
-              "link": "https://gomakethings.com/what-order-do-web-components-instantiate-in/"
+              "link": "https://dbushell.com/notes/2025-07-30T06:35Z/"
             },
             {
-              "title": "How to configure ESBuild",
               "date": "2025-07-29",
-              "link": "https://gomakethings.com/how-to-configure-esbuild/"
+              "link": "https://dbushell.com/notes/2025-07-29T14:51Z/"
             },
             {
-              "title": "Over-optimized. Under-optimized.",
-              "date": "2025-07-28",
-              "link": "https://gomakethings.com/over-optimized.-under-optimized./"
+              "date": "2025-07-29",
+              "link": "https://dbushell.com/notes/2025-07-29T07:10Z/"
             },
             {
-              "title": "Minification doesnt matter much",
-              "date": "2025-07-25",
-              "link": "https://gomakethings.com/minification-doesnt-matter-much/"
-            },
-            {
-              "title": "Compounding performance issues",
-              "date": "2025-07-24",
-              "link": "https://gomakethings.com/compounding-performance-issues/"
+              "date": "2025-07-26",
+              "link": "https://dbushell.com/notes/2025-07-26T12:26Z/"
             }
           ]
         },
@@ -97,32 +154,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-07-30",
-              "link": "https://dbushell.com/notes/2025-07-30T06:35Z/"
-            },
-            {
-              "date": "2025-07-29",
-              "link": "https://dbushell.com/notes/2025-07-29T14:51Z/"
-            },
-            {
-              "date": "2025-07-29",
-              "link": "https://dbushell.com/notes/2025-07-29T07:10Z/"
-            },
-            {
-              "date": "2025-07-26",
-              "link": "https://dbushell.com/notes/2025-07-26T12:26Z/"
-            },
-            {
-              "date": "2025-07-25",
-              "link": "https://dbushell.com/notes/2025-07-25T17:37Z/"
-            }
-          ]
-        },
-        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -154,6 +185,37 @@
           ]
         },
         {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Hairy Maclary's Greatest Hits",
+              "date": "2025-07-30",
+              "link": "https://flamedfury.com/posts/hairy-maclarys-greatest-hits/"
+            },
+            {
+              "title": "Missing You Like Candy",
+              "date": "2025-07-25",
+              "link": "https://flamedfury.com/posts/missing-you-like-candy/"
+            },
+            {
+              "title": "Dinosaur Discovery at Auckland Zoo",
+              "date": "2025-07-24",
+              "link": "https://flamedfury.com/posts/dinosaur-discovery-at-auckland-zoo/"
+            },
+            {
+              "title": "Monthly Recap: June 2025",
+              "date": "2025-07-14",
+              "link": "https://flamedfury.com/posts/monthly-recap-june-2025/"
+            },
+            {
+              "title": "How I Use Kagi",
+              "date": "2025-06-27",
+              "link": "https://flamedfury.com/posts/how-i-use-kagi/"
+            }
+          ]
+        },
+        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -181,37 +243,6 @@
               "title": "Logical Quantifiers in Software",
               "date": "2025-07-02",
               "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "“Don’t Get Left Behind”",
-              "date": "2025-07-29",
-              "link": "https://dbushell.com/2025/07/29/dont-get-left-behind/"
-            },
-            {
-              "title": "Play it, Sam. Play “Speech Synthesis”",
-              "date": "2025-07-26",
-              "link": "https://dbushell.com/2025/07/26/text-to-speech-synthesis/"
-            },
-            {
-              "title": "Croissant is Coming for You",
-              "date": "2025-07-18",
-              "link": "https://dbushell.com/2025/07/18/croissant-is-coming-for-you/"
-            },
-            {
-              "title": "Croissant! Building a No-Framework Web App",
-              "date": "2025-07-11",
-              "link": "https://dbushell.com/2025/07/11/croissant-no-framework-web-app/"
-            },
-            {
-              "title": "SVG Optimization and Accessibility Basics",
-              "date": "2025-06-25",
-              "link": "https://dbushell.com/2025/06/25/svg-optimization-and-accessibility-basics/"
             }
           ]
         },
@@ -336,37 +367,6 @@
               "title": "A Unified CSS Layout System: Could It Happen?",
               "date": "2025-04-15",
               "link": "https://thathtml.blog/2025/04/unified-layout-system-could-happen/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Missing You Like Candy",
-              "date": "2025-07-25",
-              "link": "https://flamedfury.com/posts/missing-you-like-candy/"
-            },
-            {
-              "title": "Dinosaur Discovery at Auckland Zoo",
-              "date": "2025-07-24",
-              "link": "https://flamedfury.com/posts/dinosaur-discovery-at-auckland-zoo/"
-            },
-            {
-              "title": "Monthly Recap: June 2025",
-              "date": "2025-07-14",
-              "link": "https://flamedfury.com/posts/monthly-recap-june-2025/"
-            },
-            {
-              "title": "How I Use Kagi",
-              "date": "2025-06-27",
-              "link": "https://flamedfury.com/posts/how-i-use-kagi/"
-            },
-            {
-              "title": "Hitting Up The Gym Again",
-              "date": "2025-06-26",
-              "link": "https://flamedfury.com/posts/hitting-up-the-gym-again/"
             }
           ]
         },
@@ -2488,45 +2488,15 @@
               "link": "https://qristin.wordpress.com/2020/08/01/nei-systemene-ma-ikke-snakke-sammen/"
             }
           ]
-        },
-        {
-          "title": "Sasha's blog",
-          "feedUrl": "https://blog.ferrata.dev/rss/",
-          "items": [
-            {
-              "title": "Wrong job for a tool. But a fun one.",
-              "date": "2023-04-21",
-              "link": "https://blog.ferrata.dev/wrong-job-for-a-tool-but-a-fun-one/"
-            },
-            {
-              "title": "Team equals Product",
-              "date": "2023-02-22",
-              "link": "https://blog.ferrata.dev/team-equals-product/"
-            },
-            {
-              "title": "Better struggle together!",
-              "date": "2023-02-08",
-              "link": "https://blog.ferrata.dev/better-struggle-together/"
-            },
-            {
-              "title": "Hacking Ghost blog design",
-              "date": "2022-12-10",
-              "link": "https://blog.ferrata.dev/hacking-ghost-blog-design/"
-            },
-            {
-              "title": "Weaponize your imposter syndrome",
-              "date": "2022-11-28",
-              "link": "https://blog.ferrata.dev/weaponize-your-imposter-syndrome/"
-            }
-          ]
         }
       ]
     }
   ],
-  "fetchDate": "2025-07-31T04:01:58.096Z",
+  "fetchDate": "2025-08-01T04:15:24.071Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml"
+    "https://blog.codemanship.dev/rss.xml",
+    "https://blog.ferrata.dev/rss/"
   ]
 }

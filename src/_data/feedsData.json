@@ -4,9 +4,107 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "James Shore",
+          "feedUrl": "https://www.jamesshore.com/v2/feed",
+          "items": [
+            {
+              "title": "Oct 1: The Accountability Problem (Cambridge, UK)",
+              "date": "2025-08-04",
+              "link": "https://www.jamesshore.com/v2/calendar/2025-09-01"
+            },
+            {
+              "title": "The Best Product Engineering Org in the World [video]",
+              "date": "2025-04-18",
+              "link": "https://www.jamesshore.com/v2/presentations/2025/the-best-product-engineering-org-in-the-world"
+            },
+            {
+              "title": "“Decoding Leadership” Podcast",
+              "date": "2025-04-18",
+              "link": "https://www.jamesshore.com/v2/presentations/2025/decoding-leadership-podcast"
+            },
+            {
+              "title": "Upscale and Team Self-Selection",
+              "date": "2025-02-10",
+              "link": "https://www.jamesshore.com/v2/blog/2025/upscale-and-team-self-selection"
+            },
+            {
+              "title": "The Best Product Engineering Org in the World",
+              "date": "2025-01-10",
+              "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
+            }
+          ]
+        },
+        {
+          "title": "leanrada.com notes",
+          "feedUrl": "https://leanrada.com/rss.xml",
+          "items": [
+            {
+              "title": "Making my GitHub heatmap widget",
+              "date": "2025-08-04",
+              "link": "https://leanrada.com/notes/github-heatmap-widget/?ref=rss"
+            },
+            {
+              "title": "Vibecoding Lima Gang, web-based map visualization",
+              "date": "2025-06-13",
+              "link": "https://leanrada.com/notes/vibecoding-lima-gang/?ref=rss"
+            },
+            {
+              "title": "My own RSS reader",
+              "date": "2025-05-15",
+              "link": "https://leanrada.com/notes/my-own-rss-reader/?ref=rss"
+            },
+            {
+              "title": "Simple live reload for developing static sites",
+              "date": "2025-04-18",
+              "link": "https://leanrada.com/notes/simple-live-reload/?ref=rss"
+            },
+            {
+              "title": "Language evolves, so we must too. On generative art",
+              "date": "2025-04-03",
+              "link": "https://leanrada.com/notes/language-evolves-generative-art/?ref=rss"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Small Web July recap",
+              "date": "2025-08-04",
+              "link": "https://anniemueller.com/posts/small-web-july-recap"
+            },
+            {
+              "title": "Reading notes: May, June, July",
+              "date": "2025-07-30",
+              "link": "https://anniemueller.com/posts/reading-notes-may-june-july"
+            },
+            {
+              "title": "Let there be lapses",
+              "date": "2025-07-28",
+              "link": "https://anniemueller.com/posts/let-there-be-lapses"
+            },
+            {
+              "title": "Hey, I care about you, but I do not care what the robot says about you",
+              "date": "2025-07-27",
+              "link": "https://anniemueller.com/posts/hey-i-care-about-you-but-i-do-not-care-what-the-robot-says-about-you"
+            },
+            {
+              "title": "Setting up an iPad for blog reading and small web browsing",
+              "date": "2025-07-26",
+              "link": "https://anniemueller.com/posts/setting-up-an-ipad-for-blog-reading-and-small-web-browsing"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
+            {
+              "title": "RSS Club #001",
+              "date": "2025-08-03",
+              "link": "https://dbushell.com/2025/08/03/RSS001/"
+            },
             {
               "title": "Composable Adopted Stylesheets",
               "date": "2025-08-02",
@@ -26,11 +124,6 @@
               "title": "Play it, Sam. Play “Speech Synthesis”",
               "date": "2025-07-26",
               "link": "https://dbushell.com/2025/07/26/text-to-speech-synthesis/"
-            },
-            {
-              "title": "Croissant is Coming for You",
-              "date": "2025-07-18",
-              "link": "https://dbushell.com/2025/07/18/croissant-is-coming-for-you/"
             }
           ]
         },
@@ -38,6 +131,11 @@
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Mundango",
+              "date": "2025-08-03",
+              "link": "https://gomakethings.com/mundango/"
+            },
             {
               "title": "New Sci-Fi",
               "date": "2025-08-02",
@@ -57,11 +155,125 @@
               "title": "What order do web components instantiate in?",
               "date": "2025-07-30",
               "link": "https://gomakethings.com/what-order-do-web-components-instantiate-in/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "A Few Things About the Anchor Element’s href You Might Not Have Known",
+              "date": "2025-08-03",
+              "link": "https://blog.jim-nielsen.com/2025/href-value-possibilities/"
             },
             {
-              "title": "How to configure ESBuild",
-              "date": "2025-07-29",
-              "link": "https://gomakethings.com/how-to-configure-esbuild/"
+              "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+              "date": "2025-07-27",
+              "link": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/"
+            },
+            {
+              "title": "Occupation and Preoccupation",
+              "date": "2025-07-17",
+              "link": "https://blog.jim-nielsen.com/2025/occupation-and-preoccupation/"
+            },
+            {
+              "title": "Measurement and Numbers",
+              "date": "2025-07-14",
+              "link": "https://blog.jim-nielsen.com/2025/measurement-and-numbers/"
+            },
+            {
+              "title": "Computers Are a Feeling",
+              "date": "2025-07-10",
+              "link": "https://blog.jim-nielsen.com/2025/computers-are-a-feeling/"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "Hello RSS Club!",
+              "date": "2025-08-03",
+              "link": "https://rosswintle.uk/rss-club/hello-rss-club/"
+            },
+            {
+              "title": "Using the 8BitDo Micro game controller with a Mac",
+              "date": "2025-07-24",
+              "link": "https://rosswintle.uk/2025/07/using-the-8bitdo-micro-game-controller-with-a-mac/"
+            },
+            {
+              "title": "Public Speaking",
+              "date": "2025-07-21",
+              "link": "https://rosswintle.uk/2025/07/public-speaking/"
+            },
+            {
+              "title": "Newsletters and indie iOS apps",
+              "date": "2025-07-13",
+              "link": "https://rosswintle.uk/2025/07/newsletters-and-indie-ios-apps/"
+            },
+            {
+              "title": "The Way I Code (and have been coding for 30 years)",
+              "date": "2025-07-12",
+              "link": "https://rosswintle.uk/2025/07/the-way-i-code/"
+            }
+          ]
+        },
+        {
+          "title": "A Tester's Journey",
+          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "SoCraTes 2025 - Coming Home",
+              "date": "2025-08-03",
+              "link": "https://www.lisihocke.com/2025/08/socrates-2025-coming-home.html"
+            },
+            {
+              "title": "Calm and Steady - The Joy and Overload of Starting Something New",
+              "date": "2025-03-10",
+              "link": "https://www.lisihocke.com/2025/03/calm-and-steady-the-joy-and-overload-of-starting-something-new.html"
+            },
+            {
+              "title": "Calm and Steady - Off to a Good Start",
+              "date": "2025-01-31",
+              "link": "https://www.lisihocke.com/2025/01/calm-and-steady-off-to-a-good-start.html"
+            },
+            {
+              "title": "Calm and Steady as She Goes",
+              "date": "2025-01-06",
+              "link": "https://www.lisihocke.com/2025/01/calm-and-steady-as-she-goes.html"
+            },
+            {
+              "title": "2024 - What a Wild Ride",
+              "date": "2024-12-27",
+              "link": "https://www.lisihocke.com/2024/12/2024-what-a-wild-ride.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-03",
+              "link": "https://dbushell.com/notes/2025-08-03T11:37Z/"
+            },
+            {
+              "date": "2025-08-01",
+              "link": "https://dbushell.com/notes/2025-08-01T13:25Z/"
+            },
+            {
+              "date": "2025-08-01",
+              "link": "https://dbushell.com/notes/2025-08-01T04:36Z/"
+            },
+            {
+              "date": "2025-07-31",
+              "link": "https://dbushell.com/notes/2025-07-31T14:11Z/"
+            },
+            {
+              "date": "2025-07-30",
+              "link": "https://dbushell.com/notes/2025-07-30T06:35Z/"
             }
           ]
         },
@@ -159,32 +371,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-08-01",
-              "link": "https://dbushell.com/notes/2025-08-01T13:25Z/"
-            },
-            {
-              "date": "2025-08-01",
-              "link": "https://dbushell.com/notes/2025-08-01T04:36Z/"
-            },
-            {
-              "date": "2025-07-31",
-              "link": "https://dbushell.com/notes/2025-07-31T14:11Z/"
-            },
-            {
-              "date": "2025-07-30",
-              "link": "https://dbushell.com/notes/2025-07-30T06:35Z/"
-            },
-            {
-              "date": "2025-07-29",
-              "link": "https://dbushell.com/notes/2025-07-29T14:51Z/"
-            }
-          ]
-        },
-        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -243,37 +429,6 @@
               "title": "May 2025 blend of links",
               "date": "2025-05-26",
               "link": "https://thejollyteapot.com/may-2025-blend/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Reading notes: May, June, July",
-              "date": "2025-07-30",
-              "link": "https://anniemueller.com/posts/reading-notes-may-june-july"
-            },
-            {
-              "title": "Let there be lapses",
-              "date": "2025-07-28",
-              "link": "https://anniemueller.com/posts/let-there-be-lapses"
-            },
-            {
-              "title": "Hey, I care about you, but I do not care what the robot says about you",
-              "date": "2025-07-27",
-              "link": "https://anniemueller.com/posts/hey-i-care-about-you-but-i-do-not-care-what-the-robot-says-about-you"
-            },
-            {
-              "title": "Setting up an iPad for blog reading and small web browsing",
-              "date": "2025-07-26",
-              "link": "https://anniemueller.com/posts/setting-up-an-ipad-for-blog-reading-and-small-web-browsing"
-            },
-            {
-              "title": "Small webbing along, update 1",
-              "date": "2025-07-09",
-              "link": "https://anniemueller.com/posts/small-webbing-along-update-1"
             }
           ]
         },
@@ -371,37 +526,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
-              "date": "2025-07-27",
-              "link": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/"
-            },
-            {
-              "title": "Occupation and Preoccupation",
-              "date": "2025-07-17",
-              "link": "https://blog.jim-nielsen.com/2025/occupation-and-preoccupation/"
-            },
-            {
-              "title": "Measurement and Numbers",
-              "date": "2025-07-14",
-              "link": "https://blog.jim-nielsen.com/2025/measurement-and-numbers/"
-            },
-            {
-              "title": "Computers Are a Feeling",
-              "date": "2025-07-10",
-              "link": "https://blog.jim-nielsen.com/2025/computers-are-a-feeling/"
-            },
-            {
-              "title": "Follow Up: An Analysis of YouTube Links From The White House’s “Wire” Website",
-              "date": "2025-07-07",
-              "link": "https://blog.jim-nielsen.com/2025/youtube-links-from-whgov-wire/"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -491,37 +615,6 @@
               "title": "On Pronouns, Policies and Mandates",
               "date": "2025-05-02",
               "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
-            }
-          ]
-        },
-        {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "Using the 8BitDo Micro game controller with a Mac",
-              "date": "2025-07-24",
-              "link": "https://rosswintle.uk/2025/07/using-the-8bitdo-micro-game-controller-with-a-mac/"
-            },
-            {
-              "title": "Public Speaking",
-              "date": "2025-07-21",
-              "link": "https://rosswintle.uk/2025/07/public-speaking/"
-            },
-            {
-              "title": "Newsletters and indie iOS apps",
-              "date": "2025-07-13",
-              "link": "https://rosswintle.uk/2025/07/newsletters-and-indie-ios-apps/"
-            },
-            {
-              "title": "The Way I Code (and have been coding for 30 years)",
-              "date": "2025-07-12",
-              "link": "https://rosswintle.uk/2025/07/the-way-i-code/"
-            },
-            {
-              "title": "Adding Plugin Installation and User Switching to Turbo Admin",
-              "date": "2025-05-29",
-              "link": "https://rosswintle.uk/2025/05/adding-plugin-installation-and-user-switching-to-turbo-admin/"
             }
           ]
         },
@@ -1301,37 +1394,6 @@
           ]
         },
         {
-          "title": "leanrada.com notes",
-          "feedUrl": "https://leanrada.com/rss.xml",
-          "items": [
-            {
-              "title": "Vibecoding Lima Gang, web-based map visualization",
-              "date": "2025-06-13",
-              "link": "https://leanrada.com/notes/vibecoding-lima-gang/?ref=rss"
-            },
-            {
-              "title": "My own RSS reader",
-              "date": "2025-05-15",
-              "link": "https://leanrada.com/notes/my-own-rss-reader/?ref=rss"
-            },
-            {
-              "title": "Simple live reload for developing static sites",
-              "date": "2025-04-18",
-              "link": "https://leanrada.com/notes/simple-live-reload/?ref=rss"
-            },
-            {
-              "title": "Language evolves, so we must too. On generative art",
-              "date": "2025-04-03",
-              "link": "https://leanrada.com/notes/language-evolves-generative-art/?ref=rss"
-            },
-            {
-              "title": "Minimal CSS-only blurry image placeholders",
-              "date": "2025-03-30",
-              "link": "https://leanrada.com/notes/css-only-lqip/?ref=rss"
-            }
-          ]
-        },
-        {
           "title": "HeydonWorks",
           "feedUrl": "https://heydonworks.com/feed.xml",
           "items": [
@@ -1704,37 +1766,6 @@
           ]
         },
         {
-          "title": "James Shore",
-          "feedUrl": "https://www.jamesshore.com/v2/feed",
-          "items": [
-            {
-              "title": "The Best Product Engineering Org in the World [video]",
-              "date": "2025-04-18",
-              "link": "https://www.jamesshore.com/v2/presentations/2025/the-best-product-engineering-org-in-the-world"
-            },
-            {
-              "title": "“Decoding Leadership” Podcast",
-              "date": "2025-04-18",
-              "link": "https://www.jamesshore.com/v2/presentations/2025/decoding-leadership-podcast"
-            },
-            {
-              "title": "Upscale and Team Self-Selection",
-              "date": "2025-02-10",
-              "link": "https://www.jamesshore.com/v2/blog/2025/upscale-and-team-self-selection"
-            },
-            {
-              "title": "The Best Product Engineering Org in the World",
-              "date": "2025-01-10",
-              "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
-            },
-            {
-              "title": "Update on Software Engineering Career Ladder",
-              "date": "2024-08-20",
-              "link": "https://www.jamesshore.com/v2/blog/2024/update-on-software-engineering-career-ladder"
-            }
-          ]
-        },
-        {
           "title": "Jennifer++",
           "feedUrl": "https://jenniferplusplus.com/rss/",
           "items": [
@@ -1855,37 +1886,6 @@
               "title": "Five for Friday – February 7, 2025",
               "date": "2025-02-08",
               "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
-            }
-          ]
-        },
-        {
-          "title": "A Tester's Journey",
-          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Calm and Steady - The Joy and Overload of Starting Something New",
-              "date": "2025-03-10",
-              "link": "https://www.lisihocke.com/2025/03/calm-and-steady-the-joy-and-overload-of-starting-something-new.html"
-            },
-            {
-              "title": "Calm and Steady - Off to a Good Start",
-              "date": "2025-01-31",
-              "link": "https://www.lisihocke.com/2025/01/calm-and-steady-off-to-a-good-start.html"
-            },
-            {
-              "title": "Calm and Steady as She Goes",
-              "date": "2025-01-06",
-              "link": "https://www.lisihocke.com/2025/01/calm-and-steady-as-she-goes.html"
-            },
-            {
-              "title": "2024 - What a Wild Ride",
-              "date": "2024-12-27",
-              "link": "https://www.lisihocke.com/2024/12/2024-what-a-wild-ride.html"
-            },
-            {
-              "title": "Contributing in New Ways - Finding Closure among New Opportunities",
-              "date": "2024-12-17",
-              "link": "https://www.lisihocke.com/2024/12/contributing-in-new-ways-finding-closure-among-new-opportunities.html"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-03T04:07:46.485Z",
+  "fetchDate": "2025-08-04T04:13:44.616Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

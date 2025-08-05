@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Building extensible frontend systems",
+              "date": "2025-08-04",
+              "link": "https://gomakethings.com/building-extensible-frontend-systems/"
+            },
+            {
+              "title": "Mundango",
+              "date": "2025-08-03",
+              "link": "https://gomakethings.com/mundango/"
+            },
+            {
+              "title": "New Sci-Fi",
+              "date": "2025-08-02",
+              "link": "https://gomakethings.com/new-sci-fi/"
+            },
+            {
+              "title": "All for One",
+              "date": "2025-08-01",
+              "link": "https://gomakethings.com/all-for-one/"
+            },
+            {
+              "title": "The Weird Web",
+              "date": "2025-07-31",
+              "link": "https://gomakethings.com/the-weird-web/"
+            }
+          ]
+        },
+        {
           "title": "James Shore",
           "feedUrl": "https://www.jamesshore.com/v2/feed",
           "items": [
@@ -35,6 +66,37 @@
           ]
         },
         {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Friends at Last: Tailwind &amp; CSS…whodathunkit?!",
+              "date": "2025-08-04",
+              "link": "https://thathtml.blog/2025/08/tailwind-and-css-friends-at-last/"
+            },
+            {
+              "title": "More Fun with Invoker Commands and Web Components",
+              "date": "2025-07-25",
+              "link": "https://thathtml.blog/2025/07/more-fun-with-invoker-commands-web-components/"
+            },
+            {
+              "title": "Clever Backdrop Filtering for Eye-catching Glass Effects",
+              "date": "2025-07-18",
+              "link": "https://thathtml.blog/2025/07/clever-backdrop-filtering-for-eyecatching-glass-effects/"
+            },
+            {
+              "title": "Put Windows in Your Web App with WinBox.js",
+              "date": "2025-07-16",
+              "link": "https://thathtml.blog/2025/07/put-windows-in-your-web-app-with-winbox/"
+            },
+            {
+              "title": "Web Awesome, the First All-in-One Web Components + CSS Framework, is Finally Here",
+              "date": "2025-07-11",
+              "link": "https://thathtml.blog/2025/07/web-awesome-is-the-first-native-component-framework/"
+            }
+          ]
+        },
+        {
           "title": "leanrada.com notes",
           "feedUrl": "https://leanrada.com/rss.xml",
           "items": [
@@ -62,6 +124,32 @@
               "title": "Language evolves, so we must too. On generative art",
               "date": "2025-04-03",
               "link": "https://leanrada.com/notes/language-evolves-generative-art/?ref=rss"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-04",
+              "link": "https://dbushell.com/notes/2025-08-04T11:08Z/"
+            },
+            {
+              "date": "2025-08-04",
+              "link": "https://dbushell.com/notes/2025-08-04T08:29Z/"
+            },
+            {
+              "date": "2025-08-03",
+              "link": "https://dbushell.com/notes/2025-08-03T11:37Z/"
+            },
+            {
+              "date": "2025-08-01",
+              "link": "https://dbushell.com/notes/2025-08-01T13:25Z/"
+            },
+            {
+              "date": "2025-08-01",
+              "link": "https://dbushell.com/notes/2025-08-01T04:36Z/"
             }
           ]
         },
@@ -124,37 +212,6 @@
               "title": "Play it, Sam. Play “Speech Synthesis”",
               "date": "2025-07-26",
               "link": "https://dbushell.com/2025/07/26/text-to-speech-synthesis/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Mundango",
-              "date": "2025-08-03",
-              "link": "https://gomakethings.com/mundango/"
-            },
-            {
-              "title": "New Sci-Fi",
-              "date": "2025-08-02",
-              "link": "https://gomakethings.com/new-sci-fi/"
-            },
-            {
-              "title": "All for One",
-              "date": "2025-08-01",
-              "link": "https://gomakethings.com/all-for-one/"
-            },
-            {
-              "title": "The Weird Web",
-              "date": "2025-07-31",
-              "link": "https://gomakethings.com/the-weird-web/"
-            },
-            {
-              "title": "What order do web components instantiate in?",
-              "date": "2025-07-30",
-              "link": "https://gomakethings.com/what-order-do-web-components-instantiate-in/"
             }
           ]
         },
@@ -248,32 +305,6 @@
               "title": "2024 - What a Wild Ride",
               "date": "2024-12-27",
               "link": "https://www.lisihocke.com/2024/12/2024-what-a-wild-ride.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-08-03",
-              "link": "https://dbushell.com/notes/2025-08-03T11:37Z/"
-            },
-            {
-              "date": "2025-08-01",
-              "link": "https://dbushell.com/notes/2025-08-01T13:25Z/"
-            },
-            {
-              "date": "2025-08-01",
-              "link": "https://dbushell.com/notes/2025-08-01T04:36Z/"
-            },
-            {
-              "date": "2025-07-31",
-              "link": "https://dbushell.com/notes/2025-07-31T14:11Z/"
-            },
-            {
-              "date": "2025-07-30",
-              "link": "https://dbushell.com/notes/2025-07-30T06:35Z/"
             }
           ]
         },
@@ -402,6 +433,37 @@
           ]
         },
         {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Living Local",
+              "date": "2025-07-31",
+              "link": "https://flamedfury.com/posts/living-local/"
+            },
+            {
+              "title": "Hairy Maclary's Greatest Hits",
+              "date": "2025-07-30",
+              "link": "https://flamedfury.com/posts/hairy-maclarys-greatest-hits/"
+            },
+            {
+              "title": "Missing You Like Candy",
+              "date": "2025-07-25",
+              "link": "https://flamedfury.com/posts/missing-you-like-candy/"
+            },
+            {
+              "title": "Dinosaur Discovery at Auckland Zoo",
+              "date": "2025-07-24",
+              "link": "https://flamedfury.com/posts/dinosaur-discovery-at-auckland-zoo/"
+            },
+            {
+              "title": "Monthly Recap: June 2025",
+              "date": "2025-07-14",
+              "link": "https://flamedfury.com/posts/monthly-recap-june-2025/"
+            }
+          ]
+        },
+        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -429,37 +491,6 @@
               "title": "May 2025 blend of links",
               "date": "2025-05-26",
               "link": "https://thejollyteapot.com/may-2025-blend/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Hairy Maclary's Greatest Hits",
-              "date": "2025-07-30",
-              "link": "https://flamedfury.com/posts/hairy-maclarys-greatest-hits/"
-            },
-            {
-              "title": "Missing You Like Candy",
-              "date": "2025-07-25",
-              "link": "https://flamedfury.com/posts/missing-you-like-candy/"
-            },
-            {
-              "title": "Dinosaur Discovery at Auckland Zoo",
-              "date": "2025-07-24",
-              "link": "https://flamedfury.com/posts/dinosaur-discovery-at-auckland-zoo/"
-            },
-            {
-              "title": "Monthly Recap: June 2025",
-              "date": "2025-07-14",
-              "link": "https://flamedfury.com/posts/monthly-recap-june-2025/"
-            },
-            {
-              "title": "How I Use Kagi",
-              "date": "2025-06-27",
-              "link": "https://flamedfury.com/posts/how-i-use-kagi/"
             }
           ]
         },
@@ -553,37 +584,6 @@
               "title": "Notes - You’ve built it, now you support it",
               "date": "2025-04-05",
               "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-youve-built-it-now-you-support-it-stephen-jannaway.html"
-            }
-          ]
-        },
-        {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "More Fun with Invoker Commands and Web Components",
-              "date": "2025-07-25",
-              "link": "https://thathtml.blog/2025/07/more-fun-with-invoker-commands-web-components/"
-            },
-            {
-              "title": "Clever Backdrop Filtering for Eye-catching Glass Effects",
-              "date": "2025-07-18",
-              "link": "https://thathtml.blog/2025/07/clever-backdrop-filtering-for-eyecatching-glass-effects/"
-            },
-            {
-              "title": "Put Windows in Your Web App with WinBox.js",
-              "date": "2025-07-16",
-              "link": "https://thathtml.blog/2025/07/put-windows-in-your-web-app-with-winbox/"
-            },
-            {
-              "title": "Web Awesome, the First All-in-One Web Components + CSS Framework, is Finally Here",
-              "date": "2025-07-11",
-              "link": "https://thathtml.blog/2025/07/web-awesome-is-the-first-native-component-framework/"
-            },
-            {
-              "title": "A Unified CSS Layout System: Could It Happen?",
-              "date": "2025-04-15",
-              "link": "https://thathtml.blog/2025/04/unified-layout-system-could-happen/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-04T04:13:44.616Z",
+  "fetchDate": "2025-08-05T04:06:33.095Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

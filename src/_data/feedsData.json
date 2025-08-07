@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "Sweating the details",
+              "date": "2025-08-06",
+              "link": "https://gomakethings.com/sweating-the-details/"
+            },
+            {
               "title": "The ADHD-autism experience",
               "date": "2025-08-05",
               "link": "https://gomakethings.com/the-adhd-autism-experience/"
@@ -26,11 +31,68 @@
               "title": "New Sci-Fi",
               "date": "2025-08-02",
               "link": "https://gomakethings.com/new-sci-fi/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Writing: Blog Posts and Songs",
+              "date": "2025-08-06",
+              "link": "https://blog.jim-nielsen.com/2025/writing-blog-posts-and-songs/"
             },
             {
-              "title": "All for One",
-              "date": "2025-08-01",
-              "link": "https://gomakethings.com/all-for-one/"
+              "title": "A Few Things About the Anchor Element’s href You Might Not Have Known",
+              "date": "2025-08-03",
+              "link": "https://blog.jim-nielsen.com/2025/href-value-possibilities/"
+            },
+            {
+              "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+              "date": "2025-07-27",
+              "link": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/"
+            },
+            {
+              "title": "Occupation and Preoccupation",
+              "date": "2025-07-17",
+              "link": "https://blog.jim-nielsen.com/2025/occupation-and-preoccupation/"
+            },
+            {
+              "title": "Measurement and Numbers",
+              "date": "2025-07-14",
+              "link": "https://blog.jim-nielsen.com/2025/measurement-and-numbers/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Why do Teams think Single-branch Development Does not Work?",
+              "date": "2025-08-06",
+              "link": "https://thinkinglabs.io/articles/2025/08/06/why-do-teams-think-single-branch-development-does-not-work.html"
+            },
+            {
+              "title": "Why do Teams not practice Continuous Integration?",
+              "date": "2025-07-26",
+              "link": "https://thinkinglabs.io/articles/2025/07/26/why-do-teams-not-practice-continuous-integration.html"
+            },
+            {
+              "title": "On the Benefits of Trunk-based Development",
+              "date": "2025-07-21",
+              "link": "https://thinkinglabs.io/articles/2025/07/21/on-the-benefits-of-trunk-based-development.html"
+            },
+            {
+              "title": "The Struggle of Public Speaking",
+              "date": "2025-06-22",
+              "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
+            },
+            {
+              "title": "Notes - Beyond Agile: Product innovation at Google, Airbnb, Spotify, Vinted &amp; Amazon",
+              "date": "2025-04-06",
+              "link": "https://thinkinglabs.io/notes/2025/04/06/flowcon-beyond-agile-product-innovation-at-google-airbnb-spotify-vinted-amazon-rachel-dubois.html"
             }
           ]
         },
@@ -38,6 +100,10 @@
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2025-08-06",
+              "link": "https://dbushell.com/notes/2025-08-06T08:47Z/"
+            },
             {
               "date": "2025-08-05",
               "link": "https://dbushell.com/notes/2025-08-05T11:17Z/"
@@ -53,10 +119,68 @@
             {
               "date": "2025-08-03",
               "link": "https://dbushell.com/notes/2025-08-03T11:37Z/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Software books I wish I could read",
+              "date": "2025-08-06",
+              "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/"
             },
             {
-              "date": "2025-08-01",
-              "link": "https://dbushell.com/notes/2025-08-01T13:25Z/"
+              "title": "2000 words about arrays and tables",
+              "date": "2025-07-30",
+              "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/"
+            },
+            {
+              "title": "Programming Language Escape Hatches",
+              "date": "2025-07-24",
+              "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/"
+            },
+            {
+              "title": "Maybe writing speed actually is a bottleneck for programming",
+              "date": "2025-07-17",
+              "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/"
+            },
+            {
+              "title": "Logic for Programmers Turns One",
+              "date": "2025-07-08",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "All the cool kids are doing it",
+              "date": "2025-08-05",
+              "link": "https://www.scattered-thoughts.net/writing/all-the-cool-kids-are-doing-it/"
+            },
+            {
+              "title": "Go allocation probe",
+              "date": "2025-07-18",
+              "link": "https://www.scattered-thoughts.net/writing/go-allocation-probe/"
+            },
+            {
+              "title": "Store tags after payloads",
+              "date": "2025-07-13",
+              "link": "https://www.scattered-thoughts.net/writing/store-tags-after-payloads/"
+            },
+            {
+              "title": "0053: consulting, go tips, benchmark_mode, niri, linkrot, sea of nos, llm outsourcing, books",
+              "date": "2025-05-31",
+              "link": "https://www.scattered-thoughts.net/log/0053/"
+            },
+            {
+              "title": "A rough survey of compilation, recompilation, and compile-time evaluation",
+              "date": "2025-04-04",
+              "link": "https://www.scattered-thoughts.net/writing/a-rough-survey-of-compilation-recompilation-and-compile-time-evaluation/"
             }
           ]
         },
@@ -212,37 +336,6 @@
               "title": "Play it, Sam. Play “Speech Synthesis”",
               "date": "2025-07-26",
               "link": "https://dbushell.com/2025/07/26/text-to-speech-synthesis/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "A Few Things About the Anchor Element’s href You Might Not Have Known",
-              "date": "2025-08-03",
-              "link": "https://blog.jim-nielsen.com/2025/href-value-possibilities/"
-            },
-            {
-              "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
-              "date": "2025-07-27",
-              "link": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/"
-            },
-            {
-              "title": "Occupation and Preoccupation",
-              "date": "2025-07-17",
-              "link": "https://blog.jim-nielsen.com/2025/occupation-and-preoccupation/"
-            },
-            {
-              "title": "Measurement and Numbers",
-              "date": "2025-07-14",
-              "link": "https://blog.jim-nielsen.com/2025/measurement-and-numbers/"
-            },
-            {
-              "title": "Computers Are a Feeling",
-              "date": "2025-07-10",
-              "link": "https://blog.jim-nielsen.com/2025/computers-are-a-feeling/"
             }
           ]
         },
@@ -495,37 +588,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "2000 words about arrays and tables",
-              "date": "2025-07-30",
-              "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/"
-            },
-            {
-              "title": "Programming Language Escape Hatches",
-              "date": "2025-07-24",
-              "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/"
-            },
-            {
-              "title": "Maybe writing speed actually is a bottleneck for programming",
-              "date": "2025-07-17",
-              "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/"
-            },
-            {
-              "title": "Logic for Programmers Turns One",
-              "date": "2025-07-08",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/"
-            },
-            {
-              "title": "Logical Quantifiers in Software",
-              "date": "2025-07-02",
-              "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -553,37 +615,6 @@
               "title": "Two Years of Rust",
               "date": "2025-04-15",
               "link": "https://borretti.me/article/two-years-of-rust"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "Why do Teams not practice Continuous Integration?",
-              "date": "2025-07-26",
-              "link": "https://thinkinglabs.io/articles/2025/07/26/why-do-teams-not-practice-continuous-integration.html"
-            },
-            {
-              "title": "On the Benefits of Trunk-based Development",
-              "date": "2025-07-21",
-              "link": "https://thinkinglabs.io/articles/2025/07/21/on-the-benefits-of-trunk-based-development.html"
-            },
-            {
-              "title": "The Struggle of Public Speaking",
-              "date": "2025-06-22",
-              "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
-            },
-            {
-              "title": "Notes - Beyond Agile: Product innovation at Google, Airbnb, Spotify, Vinted &amp; Amazon",
-              "date": "2025-04-06",
-              "link": "https://thinkinglabs.io/notes/2025/04/06/flowcon-beyond-agile-product-innovation-at-google-airbnb-spotify-vinted-amazon-rachel-dubois.html"
-            },
-            {
-              "title": "Notes - You’ve built it, now you support it",
-              "date": "2025-04-05",
-              "link": "https://thinkinglabs.io/notes/2025/04/05/flowcon-youve-built-it-now-you-support-it-stephen-jannaway.html"
             }
           ]
         },
@@ -739,37 +770,6 @@
               "title": "Measuring my Framework laptop's performance in 3 positions",
               "date": "2025-04-28",
               "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "Go allocation probe",
-              "date": "2025-07-18",
-              "link": "https://www.scattered-thoughts.net/writing/go-allocation-probe/"
-            },
-            {
-              "title": "Store tags after payloads",
-              "date": "2025-07-13",
-              "link": "https://www.scattered-thoughts.net/writing/store-tags-after-payloads/"
-            },
-            {
-              "title": "0053: consulting, go tips, benchmark_mode, niri, linkrot, sea of nos, llm outsourcing, books",
-              "date": "2025-05-31",
-              "link": "https://www.scattered-thoughts.net/log/0053/"
-            },
-            {
-              "title": "A rough survey of compilation, recompilation, and compile-time evaluation",
-              "date": "2025-04-04",
-              "link": "https://www.scattered-thoughts.net/writing/a-rough-survey-of-compilation-recompilation-and-compile-time-evaluation/"
-            },
-            {
-              "title": "0052: hytradboi videos and post-mortem, zest repo, no internet, on social media, my product is my garden, datafusion and clickhouse jits, books",
-              "date": "2025-03-14",
-              "link": "https://www.scattered-thoughts.net/log/0052/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-06T04:04:02.442Z",
+  "fetchDate": "2025-08-07T04:03:56.686Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

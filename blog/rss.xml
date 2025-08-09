@@ -5,8 +5,265 @@
     <link>https://www.cvennevik.no/blog/</link>
     <description>Recent posts on Cecilie Vennevik's blog</description>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Feb 2025 15:38:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 Aug 2025 13:00:00 GMT</lastBuildDate>
     <atom:link href="https://www.cvennevik.no/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Crystal Spire #9: Buffing the Worm&#39;s nails</title>
+      <link>https://www.cvennevik.no/blog/crystal-spire-09-buffing-the-worms-nails/</link>
+      <pubDate>Sat, 09 Aug 2025 13:00:00 GMT</pubDate>
+      <guid>https://www.cvennevik.no/blog/crystal-spire-09-buffing-the-worms-nails/</guid>
+      <content:encoded><![CDATA[<p>Small quality-of-life update: There is now a link at the bottom of each post in this series to a runnable version of the app, precisely as it was at the time of writing.</p>
+<hr>
+<p>The goal this time is to add enemy armor, buffs and debuffs to the dynamic state. The Jaw Worm gains armor and the Strength buff when using <em>Bellow</em>, and... hold up, I think I have some inconsistent terminology here.</p>
+<p>Double-checking, and yes, it's not called &quot;armor&quot;, it's called &quot;block&quot;. Let's search, replace and commit: <em>&quot;Rename 'Armor' to 'Block'&quot;</em>.</p>
+<p>Take two: The goal this time is to add enemy <em>block</em>, buffs and debuffs. The Jaw Worm gains block and the Strength buff when using <em>Bellow</em>, and gains the Vulnerable debuff when we play <em>Bash</em>.</p>
+<p>Adding Vulnerable seems most straightforward, since we already have an action that's supposed to add it. We can add a <code>debuffs</code> property to the default Jaw Worm enemy object:</p>
+<pre><code class="language-js">{
+    name: 'Jaw Worm',
+    hp: 42,
+    maxHp: 42,
+    nextMove: 'Chomp',
+    debuffs: []
+}
+</code></pre>
+<p>Then, we need to update the serialized &quot;enemies&quot; data in our URLs, to make sure they include the <code>debuffs</code> array. This is a bit of a pain, as I had to look up how to URI encode JSON again, and the strings I get now have less characters replaced than what's committed from before, which makes me nervous I'm doing it wrong. The data seems to deserialize fine, though, so let's just commit: <em>&quot;Add 'debuffs' array to enemy state&quot;</em>.</p>
+<hr>
+<p>Before we go any further, I want to reduce the pain of updating the URLs. Let's refactor and add some helpful functions. I want a <code>serialize</code> function that takes a game state object and serializes it to a URL query string, and I want a <code>deserialize</code> function that takes a URL query string and deserializes it to a game state object.</p>
+<p>Step one: gather all our state variables into a single object.</p>
+<pre><code class="language-js">let gameState = {
+    hp: queryParams.get('hp') ?? 80,
+    maxHp: queryParams.get('maxhp') ?? 80,
+    block: queryParams.get('block'),
+    energy: queryParams.get('energy') ?? 3,
+    maxEnergy: queryParams.get('maxenergy') ?? 3,
+    hand: queryParams.get('hand')?.split(',') ?? ['Bash', 'Defend', 'Defend', 'Defend', 'Strike'],
+    drawPile: queryParams.get('draw')?.split(',') ?? ['Defend', 'Strike', 'Strike', 'Strike', 'Strike'],
+    discardPile: queryParams.get('discard')?.split(',') ?? [],
+    relics: queryParams.get('relics')?.split(',') ?? ['Burning Blood'],
+    enemies: JSON.parse(queryParams.get('enemies')) ?? [
+        {
+            name: 'Jaw Worm',
+            hp: 42,
+            maxHp: 42,
+            nextMove: 'Chomp',
+            debuffs: []
+        }
+    ]
+}
+</code></pre>
+<p>This also requires adding <code>gameState.</code> in front of everywhere we use these variables, e.g. <code>&lt;p&gt;HP: ${gameState.hp}/${gameState.maxHp}&lt;/p&gt;</code>. The page still loads fine, so this seems committable: <em>&quot;Gather game state variables into a gameState object&quot;</em>.</p>
+<p>Step two: move our deserialization code into a <code>deserialize</code> function.</p>
+<pre><code class="language-js">function deserialize(queryString) {
+    let queryParams = new URLSearchParams(queryString);
+    return  {
+        hp: queryParams.get('hp') ?? 80,
+        maxHp: queryParams.get('maxhp') ?? 80,
+        block: queryParams.get('block'),
+        energy: queryParams.get('energy') ?? 3,
+        maxEnergy: queryParams.get('maxenergy') ?? 3,
+        hand: queryParams.get('hand')?.split(',') ?? ['Bash', 'Defend', 'Defend', 'Defend', 'Strike'],
+        drawPile: queryParams.get('draw')?.split(',') ?? ['Defend', 'Strike', 'Strike', 'Strike', 'Strike'],
+        discardPile: queryParams.get('discard')?.split(',') ?? [],
+        relics: queryParams.get('relics')?.split(',') ?? ['Burning Blood'],
+        enemies: JSON.parse(queryParams.get('enemies')) ?? [
+            {
+                name: 'Jaw Worm',
+                hp: 42,
+                maxHp: 42,
+                nextMove: 'Chomp',
+                debuffs: []
+            }
+        ]
+    }
+}
+
+let gameState = deserialize(window.location.search);
+</code></pre>
+<p>Runs fine, commit: <em>&quot;Extract deserialize(queryString) function&quot;</em>.</p>
+<p>Step three: write a <code>serialize</code> function, and use it to generate the URLs we need.</p>
+<pre><code class="language-js">function serialize(gameState) {
+    return `?hp=${gameState.hp}`
+        + `&amp;maxhp=${gameState.maxHp}`
+        + `&amp;block=${gameState.block}`
+        + `&amp;energy=${gameState.energy}`
+        + `&amp;maxenergy=${gameState.maxEnergy}`
+        + `&amp;hand=${String.join(gameState.hand, ',')}`
+        + `&amp;draw=${String.join(gameState.drawPile, ',')}`
+        + `&amp;discard=${String.join(gameState.discardPile, ',')}`
+        + `&amp;relics=${String.join(gameState.relics, ',')}`
+        + `&amp;enemies=${JSON.stringify(gameState.enemies)}`;
+}
+</code></pre>
+<p>I <em>think</em> I did that right, so let's test it out:</p>
+<pre><code>&lt;a href=&quot;${encodeURI(serialize({ ...gameState, energy: 1, hand: ['Defend', 'Defend', 'Defend', 'Strike'], discardPile: ['Bash'], enemies: [{ ...gameState.enemies[0], hp: 34 }]}))}&quot;&gt;
+    Play Bash on Jaw Worm
+&lt;/a&gt;
+</code></pre>
+<p>Still some effort to write out, but somewhat easier to read and modify. Testing it out, we get an error in the console: <em>&quot;Uncaught TypeError: String.join is not a function&quot;</em>. Whoops, I forgot how joining an array into a string works. This should work instead:</p>
+<pre><code class="language-js">        + `&amp;hand=${gameState.hand.join(',')}`
+        + `&amp;draw=${gameState.drawPile.join(',')}`
+        + `&amp;discard=${gameState.discardPile.join(',')}`
+        + `&amp;relics=${gameState.relics.join(',')}`
+</code></pre>
+<p>Success! The page renders, the URL looks alright, and clicking on it renders a correctly updated page! ...mostly.</p>
+<p>Below player HP it now says:</p>
+<pre><code>Block: null
+</code></pre>
+<p>That doesn't look right. When we don't have block, it gets serialized as the string &quot;null&quot;. Having no block probably shouldn't be stored as <code>null</code>. Storing it as 0 sounds correct, and since 0 is falsy, the templating logic we've written should still work.</p>
+<p>Update <code>deserialize</code> to default <code>block</code> to 0:</p>
+<pre><code class="language-js">        block: queryParams.get('block') ?? 0,
+</code></pre>
+<p>Bingo! Works like a charm now. Let's rewrite the remaining four URLs:</p>
+<pre><code class="language-js">&lt;a href=&quot;${encodeURI(serialize({ ...gameState, energy: 2, hand: ['Bash', 'Defend', 'Defend', 'Defend'], discardPile: ['Strike'], enemies: [{ ...gameState.enemies[0], hp: 36 }] }))}&quot;&gt;
+    Play Strike on Jaw Worm
+&lt;/a&gt;
+</code></pre>
+<pre><code class="language-js">&lt;a href=&quot;${encodeURI(serialize({ ...gameState, block: 5, energy: 2, hand: ['Bash', 'Defend', 'Defend', 'Strike'], discardPile: ['Defend'] }))}&quot;&gt;
+    Play Defend
+&lt;/a&gt;
+</code></pre>
+<pre><code class="language-js">&lt;a href=&quot;${encodeURI(serialize({ ...gameState, hp: 69, hand: ['Defend', 'Strike', 'Strike', 'Strike', 'Strike'], discardPile: ['Bash', 'Defend', 'Defend', 'Defend', 'Strike'] }))}&quot;&gt;
+    End turn 1 (60% chance)
+&lt;/a&gt;
+</code></pre>
+<pre><code class="language-js">&lt;a href=&quot;${encodeURI(serialize({ ...gameState, hp: 69, hand: ['Defend', 'Strike', 'Strike', 'Strike', 'Strike'], discardPile: ['Bash', 'Defend', 'Defend', 'Defend', 'Strike'] }))}&quot;&gt;
+    End turn 2 (40% chance)
+&lt;/a&gt;
+</code></pre>
+<p>Yes, far more readable. And it all seems to work! Though, clicking around, it seems that by using <code>gameState</code> to produce our URLs, we can now end up in game states that partially combine the effects of each action. For instance, clicking &quot;Play Strike on Jaw Worm&quot; then &quot;Play Defend&quot; puts us in a state where we have 5 Block <em>and</em> the Jaw Worm has 36 HP. It's not a valid state, since we still have 2 Energy left and Strike in hand, but hey, kind of neat. Commit: <em>&quot;Create URLs with new serialize function&quot;</em>.</p>
+<p>Neat as that bug is, let's clean it up by creating a <code>defaultGameState</code> and basing default state and the action URLs on that.</p>
+<pre><code class="language-js">let defaultGameState = {
+    hp: 80,
+    maxHp: 80,
+    block: 0,
+    energy: 3,
+    maxEnergy: 3,
+    hand: ['Bash', 'Defend', 'Defend', 'Defend', 'Strike'],
+    drawPile: ['Defend', 'Strike', 'Strike', 'Strike', 'Strike'],
+    discardPile: [],
+    relics: ['Burning Blood'],
+    enemies: [
+        {
+            name: 'Jaw Worm',
+            hp: 42,
+            maxHp: 42,
+            nextMove: 'Chomp',
+            debuffs: []
+        }
+    ]
+};
+</code></pre>
+<p>Now we can use that state if the URL has no query string, and remove the default values from <code>deserialize</code>, since every query string will now have fully serialized game state data:</p>
+<pre><code class="language-js">let gameState = window.location.search ? deserialize(window.location.search) : defaultGameState;
+</code></pre>
+<pre><code class="language-js">function deserialize(queryString) {
+    let queryParams = new URLSearchParams(queryString);
+    return {
+        hp: queryParams.get('hp'),
+        maxHp: queryParams.get('maxhp'),
+        block: queryParams.get('block'),
+        energy: queryParams.get('energy'),
+        maxEnergy: queryParams.get('maxenergy'),
+        hand: queryParams.get('hand')?.split(','),
+        drawPile: queryParams.get('draw')?.split(','),
+        discardPile: queryParams.get('discard')?.split(','),
+        relics: queryParams.get('relics')?.split(','),
+        enemies: JSON.parse(queryParams.get('enemies'))
+    }
+}
+</code></pre>
+<p>Seems to work. Commit: <em>&quot;Replace defaults in deserialize() with defaultGameState object&quot;</em>. Then, replace our use of <code>gameState</code> with <code>defaultGameState</code> when generating URLs, like so:</p>
+<pre><code class="language-js">&lt;a href=&quot;${encodeURI(serialize({ ...defaultGameState, energy: 1, hand: ['Defend', 'Defend', 'Defend', 'Strike'], discardPile: ['Bash'], enemies: [{ ...defaultGameState.enemies[0], hp: 34 }] }))}&quot;&gt;
+    Play Bash on Jaw Worm
+&lt;/a&gt;
+</code></pre>
+<p>Now the URLs stay consistent regardless of current game state. Commit: <em>&quot;Base URLs on defaultGameState instead of current gameState&quot;</em>.</p>
+<p>Whoops. Seems to be a bug now where zero block gets deserialized as the string <code>&quot;0&quot;</code>, so the page says &quot;Block: 0&quot;. Let's update <code>deserialize</code> to convert strings to numbers where appropriate:</p>
+<pre><code class="language-js">    hp: Number(queryParams.get('hp')),
+    maxHp: Number(queryParams.get('maxhp')),
+    block: Number(queryParams.get('block')),
+    energy: Number(queryParams.get('energy')),
+    maxEnergy: Number(queryParams.get('maxenergy')),
+</code></pre>
+<p>That fixes it. Commit: <em>&quot;Correctly deserialize number properties as numbers instead of strings&quot;</em></p>
+<hr>
+<p>Whew. I think that's enough refactoring done to the point where we can continue adding the Vulnerable debuff.</p>
+<p>We need to store two aspects of debuffs in state: which debuff it is (by its name, probably), and how many &quot;stacks&quot; it has. Most buffs and debuffs are stackable, which either intensifies it (in Strength's case) or increases its duration (in Vulnerable's case).</p>
+<p>Going off of this, we could represent the Vulnerable debuff as an object:</p>
+<pre><code class="language-js">{ name: 'Vulnerable', stacks: 2 }
+</code></pre>
+<p>Add it to the enemy's <code>debuffs</code> when playing <em>Bash</em>:</p>
+<pre><code class="language-js">&lt;a href=&quot;${encodeURI(serialize({ ...defaultGameState, energy: 1, hand: ['Defend', 'Defend', 'Defend', 'Strike'], discardPile: ['Bash'], enemies: [{ ...defaultGameState.enemies[0], hp: 34, debuffs: [{ name: 'Vulnerable', stacks: 2 }] }] }))}&quot;&gt;
+    Play Bash on Jaw Worm
+&lt;/a&gt;
+</code></pre>
+<p>Then for each enemy, render <code>enemy.debuffs</code> similarly to how we render cards and relics:</p>
+<pre><code class="language-js">&lt;details open&gt;
+    &lt;summary&gt;Debuffs (${enemy.debuffs.length})&lt;/summary&gt;
+    &lt;ul&gt;
+        ${enemy.debuffs.map(debuff =&gt;
+            `&lt;li&gt;${debuff.name} (${debuff.stacks})&lt;/li&gt;`
+        ).join('')}
+    &lt;/ul&gt;
+&lt;/details&gt;
+</code></pre>
+<p>Putting it all together, it works! That was easy enough. Though I'm not sure I like displaying a collapsible list of zero debuffs, so let's only render it when the enemy has at least one debuff:</p>
+<pre><code class="language-js">${enemy.debuffs.length &gt; 0 ?
+`&lt;details open&gt;
+    &lt;summary&gt;Debuffs (${enemy.debuffs.length})&lt;/summary&gt;
+    &lt;ul&gt;
+        ${enemy.debuffs.map(debuff =&gt; `&lt;li&gt;${debuff.name} (${debuff.stacks})&lt;/li&gt;`).join('')}
+    &lt;/ul&gt;
+&lt;/details&gt;`
+: ''}
+</code></pre>
+<p>Looks better. Now we can commit: <em>&quot;Add Vulnerable debuff when playing Bash&quot;</em>.</p>
+<hr>
+<p>For adding enemy block and Strength, none of the existing links in our template should lead to that, as the Jaw Worm is not about to use <em>Bellow</em>. To work around this, we can add a test link to the bottom of the page.</p>
+<pre><code class="language-js">&lt;h2&gt;Test links&lt;/h2&gt;
+&lt;a href=&quot;${encodeURI(serialize({ ...defaultGameState /* TODO: assign strength and block */ }))}&quot;&gt;
+    Jaw Worm with 3 Strength and 6 Block
+&lt;/a&gt;
+</code></pre>
+<p>Enemy block can be a <code>block</code> property, enemy buffs can be a <code>buffs</code> property, and each buff can have a <code>name</code> and <code>stacks</code>, just like debuffs.</p>
+<p>We add the properties to our default game state:</p>
+<pre><code class="language-js">{
+    name: 'Jaw Worm',
+    hp: 42,
+    maxHp: 42,
+    block: 0,
+    nextMove: 'Chomp',
+    buffs: [],
+    debuffs: []
+}
+</code></pre>
+<p>Update <code>block</code> and <code>buffs</code> in our test link:</p>
+<pre><code class="language-js">&lt;a href=&quot;${encodeURI(serialize({ ...defaultGameState, enemies: [{ ...defaultGameState.enemies[0], block: 6, buffs: [{ name: 'Strength', stacks: 3 }] }] }))}&quot;&gt;
+    Jaw Worm with 3 Strength and 6 Block
+&lt;/a&gt;
+</code></pre>
+<p>Then render enemy block and buffs like we render player block and enemy debuffs:</p>
+<pre><code class="language-js">${enemy.block ? `&lt;p&gt;Block: ${enemy.block}&lt;/p&gt;` : ''}
+</code></pre>
+<pre><code class="language-js">${enemy.buffs.length &gt; 0 ?
+`&lt;details open&gt;
+    &lt;summary&gt;Buffs (${enemy.buffs.length})&lt;/summary&gt;
+    &lt;ul&gt;
+        ${enemy.buffs.map(buff =&gt; `&lt;li&gt;${buff.name} (${buff.stacks})&lt;/li&gt;`).join('')}
+    &lt;/ul&gt;
+&lt;/details&gt;`
+: ''}
+</code></pre>
+<p>Save, reload the page - curious, the page fails to render, and we have an error in the console: <em>&quot;Uncaught TypeError: can't access property &quot;length&quot;, enemy.buffs is undefined&quot;</em>. Turns out I have an old serialied state in the URL where <code>buffs</code> doesn't exist yet. Clearing the query string fixes it.</p>
+<p>Now, clicking the test link, it says the Jaw Worm has 6 Block and a 3 Strength. Success! We can commit: <em>&quot;Add enemy block and buffs, add test link for this&quot;</em>.</p>
+<hr>
+<p>I'm fairly happy with progress this time. We have more maintainable code for serializing and deserializing game state, our action links are easier to keep up-to-date, and a little more of the game state is now representable.</p>
+<p>If my counting is correct, the only piece of game state missing to be able to represent any moment in the Jaw Worm fight is the Jaw Worm's next move and its history of previous moves (to determine possible next moves). A good task for next time.</p>
+<hr>
+<p><em><a href="/crystal-spire/v9/">View this app version</a></em> | <em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/e7139b1d6117008c221f849c19d693bec3404e32">Last commit: Set 'enemies' array based on query parameter</a></em></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Crystal Spire #8: Facing our enemies</title>
       <link>https://www.cvennevik.no/blog/crystal-spire-08-facing-our-enemies/</link>

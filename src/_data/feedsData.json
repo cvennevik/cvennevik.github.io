@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Slowing down",
+              "date": "2025-08-08",
+              "link": "https://gomakethings.com/slowing-down/"
+            },
+            {
+              "title": "Just fucking ship",
+              "date": "2025-08-07",
+              "link": "https://gomakethings.com/just-fucking-ship/"
+            },
+            {
+              "title": "Sweating the details",
+              "date": "2025-08-06",
+              "link": "https://gomakethings.com/sweating-the-details/"
+            },
+            {
+              "title": "The ADHD-autism experience",
+              "date": "2025-08-05",
+              "link": "https://gomakethings.com/the-adhd-autism-experience/"
+            },
+            {
+              "title": "Building extensible frontend systems",
+              "date": "2025-08-04",
+              "link": "https://gomakethings.com/building-extensible-frontend-systems/"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Declarative HTML Binding in Only 20 Lines of Code! (and Signals)",
+              "date": "2025-08-08",
+              "link": "https://thathtml.blog/2025/08/declarative-html-binding-with-signals/"
+            },
+            {
+              "title": "Friends at Last: Tailwind &amp; CSS…whodathunkit?!",
+              "date": "2025-08-04",
+              "link": "https://thathtml.blog/2025/08/tailwind-and-css-friends-at-last/"
+            },
+            {
+              "title": "More Fun with Invoker Commands and Web Components",
+              "date": "2025-07-25",
+              "link": "https://thathtml.blog/2025/07/more-fun-with-invoker-commands-web-components/"
+            },
+            {
+              "title": "Clever Backdrop Filtering for Eye-catching Glass Effects",
+              "date": "2025-07-18",
+              "link": "https://thathtml.blog/2025/07/clever-backdrop-filtering-for-eyecatching-glass-effects/"
+            },
+            {
+              "title": "Put Windows in Your Web App with WinBox.js",
+              "date": "2025-07-16",
+              "link": "https://thathtml.blog/2025/07/put-windows-in-your-web-app-with-winbox/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-08",
+              "link": "https://dbushell.com/notes/2025-08-08T05:38Z/"
+            },
+            {
+              "date": "2025-08-06",
+              "link": "https://dbushell.com/notes/2025-08-06T08:47Z/"
+            },
+            {
+              "date": "2025-08-05",
+              "link": "https://dbushell.com/notes/2025-08-05T11:17Z/"
+            },
+            {
+              "date": "2025-08-04",
+              "link": "https://dbushell.com/notes/2025-08-04T11:08Z/"
+            },
+            {
+              "date": "2025-08-04",
+              "link": "https://dbushell.com/notes/2025-08-04T08:29Z/"
+            }
+          ]
+        },
+        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -31,37 +119,6 @@
               "title": "Foggy feeds: the decline in my feed reader subscriptions",
               "date": "2025-05-16",
               "link": "https://www.baldurbjarnason.com/notes/2025/foggy-feeds/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Just fucking ship",
-              "date": "2025-08-07",
-              "link": "https://gomakethings.com/just-fucking-ship/"
-            },
-            {
-              "title": "Sweating the details",
-              "date": "2025-08-06",
-              "link": "https://gomakethings.com/sweating-the-details/"
-            },
-            {
-              "title": "The ADHD-autism experience",
-              "date": "2025-08-05",
-              "link": "https://gomakethings.com/the-adhd-autism-experience/"
-            },
-            {
-              "title": "Building extensible frontend systems",
-              "date": "2025-08-04",
-              "link": "https://gomakethings.com/building-extensible-frontend-systems/"
-            },
-            {
-              "title": "Mundango",
-              "date": "2025-08-03",
-              "link": "https://gomakethings.com/mundango/"
             }
           ]
         },
@@ -124,32 +181,6 @@
               "title": "Notes - Beyond Agile: Product innovation at Google, Airbnb, Spotify, Vinted &amp; Amazon",
               "date": "2025-04-06",
               "link": "https://thinkinglabs.io/notes/2025/04/06/flowcon-beyond-agile-product-innovation-at-google-airbnb-spotify-vinted-amazon-rachel-dubois.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-08-06",
-              "link": "https://dbushell.com/notes/2025-08-06T08:47Z/"
-            },
-            {
-              "date": "2025-08-05",
-              "link": "https://dbushell.com/notes/2025-08-05T11:17Z/"
-            },
-            {
-              "date": "2025-08-04",
-              "link": "https://dbushell.com/notes/2025-08-04T11:08Z/"
-            },
-            {
-              "date": "2025-08-04",
-              "link": "https://dbushell.com/notes/2025-08-04T08:29Z/"
-            },
-            {
-              "date": "2025-08-03",
-              "link": "https://dbushell.com/notes/2025-08-03T11:37Z/"
             }
           ]
         },
@@ -243,37 +274,6 @@
               "title": "The Best Product Engineering Org in the World",
               "date": "2025-01-10",
               "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
-            }
-          ]
-        },
-        {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Friends at Last: Tailwind &amp; CSS…whodathunkit?!",
-              "date": "2025-08-04",
-              "link": "https://thathtml.blog/2025/08/tailwind-and-css-friends-at-last/"
-            },
-            {
-              "title": "More Fun with Invoker Commands and Web Components",
-              "date": "2025-07-25",
-              "link": "https://thathtml.blog/2025/07/more-fun-with-invoker-commands-web-components/"
-            },
-            {
-              "title": "Clever Backdrop Filtering for Eye-catching Glass Effects",
-              "date": "2025-07-18",
-              "link": "https://thathtml.blog/2025/07/clever-backdrop-filtering-for-eyecatching-glass-effects/"
-            },
-            {
-              "title": "Put Windows in Your Web App with WinBox.js",
-              "date": "2025-07-16",
-              "link": "https://thathtml.blog/2025/07/put-windows-in-your-web-app-with-winbox/"
-            },
-            {
-              "title": "Web Awesome, the First All-in-One Web Components + CSS Framework, is Finally Here",
-              "date": "2025-07-11",
-              "link": "https://thathtml.blog/2025/07/web-awesome-is-the-first-native-component-framework/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-08T04:03:35.882Z",
+  "fetchDate": "2025-08-09T03:49:16.410Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

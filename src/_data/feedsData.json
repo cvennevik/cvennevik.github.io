@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "At my worst",
+              "date": "2025-08-10",
+              "link": "https://gomakethings.com/at-my-worst/"
+            },
+            {
               "title": "The Rakree",
               "date": "2025-08-09",
               "link": "https://gomakethings.com/the-rakree/"
@@ -26,11 +31,68 @@
               "title": "Sweating the details",
               "date": "2025-08-06",
               "link": "https://gomakethings.com/sweating-the-details/"
+            }
+          ]
+        },
+        {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Speeding up the JavaScript ecosystem - Semver",
+              "date": "2025-08-10",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
             },
             {
-              "title": "The ADHD-autism experience",
-              "date": "2025-08-05",
-              "link": "https://gomakethings.com/the-adhd-autism-experience/"
+              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
+              "date": "2025-02-23",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
+            },
+            {
+              "title": "The modern way to write JavaScript servers",
+              "date": "2025-01-25",
+              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
+              "date": "2024-07-06",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
+              "date": "2024-05-15",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "So, Yes, Trunk-based Development! Now What?",
+              "date": "2025-08-10",
+              "link": "https://thinkinglabs.io/articles/2025/08/10/so-yes-trunk-based-development-now-what.html"
+            },
+            {
+              "title": "Why do Teams think Single-branch Development Does not Work?",
+              "date": "2025-08-06",
+              "link": "https://thinkinglabs.io/articles/2025/08/06/why-do-teams-think-single-branch-development-does-not-work.html"
+            },
+            {
+              "title": "Why do Teams not practice Continuous Integration?",
+              "date": "2025-07-26",
+              "link": "https://thinkinglabs.io/articles/2025/07/26/why-do-teams-not-practice-continuous-integration.html"
+            },
+            {
+              "title": "On the Benefits of Trunk-based Development",
+              "date": "2025-07-21",
+              "link": "https://thinkinglabs.io/articles/2025/07/21/on-the-benefits-of-trunk-based-development.html"
+            },
+            {
+              "title": "The Struggle of Public Speaking",
+              "date": "2025-06-22",
+              "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
             }
           ]
         },
@@ -212,37 +274,6 @@
               "title": "Measurement and Numbers",
               "date": "2025-07-14",
               "link": "https://blog.jim-nielsen.com/2025/measurement-and-numbers/"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "Why do Teams think Single-branch Development Does not Work?",
-              "date": "2025-08-06",
-              "link": "https://thinkinglabs.io/articles/2025/08/06/why-do-teams-think-single-branch-development-does-not-work.html"
-            },
-            {
-              "title": "Why do Teams not practice Continuous Integration?",
-              "date": "2025-07-26",
-              "link": "https://thinkinglabs.io/articles/2025/07/26/why-do-teams-not-practice-continuous-integration.html"
-            },
-            {
-              "title": "On the Benefits of Trunk-based Development",
-              "date": "2025-07-21",
-              "link": "https://thinkinglabs.io/articles/2025/07/21/on-the-benefits-of-trunk-based-development.html"
-            },
-            {
-              "title": "The Struggle of Public Speaking",
-              "date": "2025-06-22",
-              "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
-            },
-            {
-              "title": "Notes - Beyond Agile: Product innovation at Google, Airbnb, Spotify, Vinted &amp; Amazon",
-              "date": "2025-04-06",
-              "link": "https://thinkinglabs.io/notes/2025/04/06/flowcon-beyond-agile-product-innovation-at-google-airbnb-spotify-vinted-amazon-rachel-dubois.html"
             }
           ]
         },
@@ -956,6 +987,37 @@
               "title": "What layoffs teach us about technical leadership",
               "date": "2024-10-31",
               "link": "https://chelseatroy.com/2024/10/31/what-layoffs-teach-us-about-technical-leadership/"
+            }
+          ]
+        },
+        {
+          "title": "Coding Is Like Cooking",
+          "feedUrl": "https://coding-is-like-cooking.info/feed/",
+          "items": [
+            {
+              "title": "Turn off your AI Assistant for Code Katas",
+              "date": "2025-07-14",
+              "link": "https://coding-is-like-cooking.info/2025/07/turn-off-your-ai-assistant-for-code-katas/"
+            },
+            {
+              "title": "Smooth Ensemble with AWS AppStream – How To Guide",
+              "date": "2025-04-21",
+              "link": "https://coding-is-like-cooking.info/2025/04/smooth-ensemble-with-aws-appstream-how-to-guide/"
+            },
+            {
+              "title": "Barbie",
+              "date": "2023-08-07",
+              "link": "https://coding-is-like-cooking.info/2023/08/barbie/"
+            },
+            {
+              "title": "I’ve Gone Independent",
+              "date": "2023-02-20",
+              "link": "https://coding-is-like-cooking.info/2023/02/ive-gone-independent/"
+            },
+            {
+              "title": "Hold an Open Space Event in just One Hour",
+              "date": "2022-12-19",
+              "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
             }
           ]
         },
@@ -1921,37 +1983,6 @@
           ]
         },
         {
-          "title": "Marvin Hagemeister",
-          "feedUrl": "https://marvinh.dev/feed.xml",
-          "items": [
-            {
-              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
-              "date": "2025-02-23",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
-            },
-            {
-              "title": "The modern way to write JavaScript servers",
-              "date": "2025-01-25",
-              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
-              "date": "2024-07-06",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
-              "date": "2024-05-15",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Tailwind CSS",
-              "date": "2023-11-01",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8/"
-            }
-          ]
-        },
-        {
           "title": "artemis.sh",
           "feedUrl": "https://artemis.sh/feed.xml",
           "items": [
@@ -2492,11 +2523,10 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-10T04:02:16.039Z",
+  "fetchDate": "2025-08-11T04:03:15.463Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml",
-    "https://coding-is-like-cooking.info/feed/"
+    "https://blog.codemanship.dev/rss.xml"
   ]
 }

@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "How Do Committees Fail To Invent?",
+              "date": "2025-08-11",
+              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
+            },
+            {
+              "title": "Links? Links!",
+              "date": "2025-07-16",
+              "link": "https://infrequently.org/2025/07/links/"
+            },
+            {
+              "title": "Conferences, Clarity, and Smokescreens",
+              "date": "2025-06-27",
+              "link": "https://infrequently.org/2025/06/conferences-clarity-and-smokescreens/"
+            },
+            {
+              "title": "Safari at WWDC '25: The Ghost of Christmas Past",
+              "date": "2025-06-13",
+              "link": "https://infrequently.org/2025/06/the-ghost-of-christmas-past/"
+            },
+            {
+              "title": "If Not React, Then What?",
+              "date": "2024-11-29",
+              "link": "https://infrequently.org/2024/11/if-not-react-then-what/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "GitHub Ensloppification",
+              "date": "2025-08-11",
+              "link": "https://dbushell.com/2025/08/11/github-ensloppification/"
+            },
+            {
+              "title": "RSS Club #001",
+              "date": "2025-08-03",
+              "link": "https://dbushell.com/2025/08/03/RSS001/"
+            },
+            {
+              "title": "Composable Adopted Stylesheets",
+              "date": "2025-08-02",
+              "link": "https://dbushell.com/2025/08/02/composable-adopted-stylesheets/"
+            },
+            {
+              "title": "Anatomy of a Web Component",
+              "date": "2025-08-01",
+              "link": "https://dbushell.com/2025/08/01/anatomy-of-a-web-component/"
+            },
+            {
+              "title": "“Don’t Get Left Behind”",
+              "date": "2025-07-29",
+              "link": "https://dbushell.com/2025/07/29/dont-get-left-behind/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Two types of coders. Two types of code bases.",
+              "date": "2025-08-11",
+              "link": "https://gomakethings.com/two-types-of-coders.-two-types-of-code-bases./"
+            },
             {
               "title": "At my worst",
               "date": "2025-08-10",
@@ -26,11 +93,63 @@
               "title": "Just fucking ship",
               "date": "2025-08-07",
               "link": "https://gomakethings.com/just-fucking-ship/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-11",
+              "link": "https://dbushell.com/notes/2025-08-11T16:36Z/"
             },
             {
-              "title": "Sweating the details",
+              "date": "2025-08-08",
+              "link": "https://dbushell.com/notes/2025-08-08T05:38Z/"
+            },
+            {
               "date": "2025-08-06",
-              "link": "https://gomakethings.com/sweating-the-details/"
+              "link": "https://dbushell.com/notes/2025-08-06T08:47Z/"
+            },
+            {
+              "date": "2025-08-05",
+              "link": "https://dbushell.com/notes/2025-08-05T11:17Z/"
+            },
+            {
+              "date": "2025-08-04",
+              "link": "https://dbushell.com/notes/2025-08-04T11:08Z/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Sit On Your Ass Web Development",
+              "date": "2025-08-10",
+              "link": "https://blog.jim-nielsen.com/2025/sit-on-your-ass-web-dev/"
+            },
+            {
+              "title": "Writing: Blog Posts and Songs",
+              "date": "2025-08-06",
+              "link": "https://blog.jim-nielsen.com/2025/writing-blog-posts-and-songs/"
+            },
+            {
+              "title": "A Few Things About the Anchor Element’s href You Might Not Have Known",
+              "date": "2025-08-03",
+              "link": "https://blog.jim-nielsen.com/2025/href-value-possibilities/"
+            },
+            {
+              "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+              "date": "2025-07-27",
+              "link": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/"
+            },
+            {
+              "title": "Occupation and Preoccupation",
+              "date": "2025-07-17",
+              "link": "https://blog.jim-nielsen.com/2025/occupation-and-preoccupation/"
             }
           ]
         },
@@ -190,32 +309,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-08-08",
-              "link": "https://dbushell.com/notes/2025-08-08T05:38Z/"
-            },
-            {
-              "date": "2025-08-06",
-              "link": "https://dbushell.com/notes/2025-08-06T08:47Z/"
-            },
-            {
-              "date": "2025-08-05",
-              "link": "https://dbushell.com/notes/2025-08-05T11:17Z/"
-            },
-            {
-              "date": "2025-08-04",
-              "link": "https://dbushell.com/notes/2025-08-04T11:08Z/"
-            },
-            {
-              "date": "2025-08-04",
-              "link": "https://dbushell.com/notes/2025-08-04T08:29Z/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -243,37 +336,6 @@
               "title": "Foggy feeds: the decline in my feed reader subscriptions",
               "date": "2025-05-16",
               "link": "https://www.baldurbjarnason.com/notes/2025/foggy-feeds/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Writing: Blog Posts and Songs",
-              "date": "2025-08-06",
-              "link": "https://blog.jim-nielsen.com/2025/writing-blog-posts-and-songs/"
-            },
-            {
-              "title": "A Few Things About the Anchor Element’s href You Might Not Have Known",
-              "date": "2025-08-03",
-              "link": "https://blog.jim-nielsen.com/2025/href-value-possibilities/"
-            },
-            {
-              "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
-              "date": "2025-07-27",
-              "link": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/"
-            },
-            {
-              "title": "Occupation and Preoccupation",
-              "date": "2025-07-17",
-              "link": "https://blog.jim-nielsen.com/2025/occupation-and-preoccupation/"
-            },
-            {
-              "title": "Measurement and Numbers",
-              "date": "2025-07-14",
-              "link": "https://blog.jim-nielsen.com/2025/measurement-and-numbers/"
             }
           ]
         },
@@ -429,37 +491,6 @@
               "title": "Setting up an iPad for blog reading and small web browsing",
               "date": "2025-07-26",
               "link": "https://anniemueller.com/posts/setting-up-an-ipad-for-blog-reading-and-small-web-browsing"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "RSS Club #001",
-              "date": "2025-08-03",
-              "link": "https://dbushell.com/2025/08/03/RSS001/"
-            },
-            {
-              "title": "Composable Adopted Stylesheets",
-              "date": "2025-08-02",
-              "link": "https://dbushell.com/2025/08/02/composable-adopted-stylesheets/"
-            },
-            {
-              "title": "Anatomy of a Web Component",
-              "date": "2025-08-01",
-              "link": "https://dbushell.com/2025/08/01/anatomy-of-a-web-component/"
-            },
-            {
-              "title": "“Don’t Get Left Behind”",
-              "date": "2025-07-29",
-              "link": "https://dbushell.com/2025/07/29/dont-get-left-behind/"
-            },
-            {
-              "title": "Play it, Sam. Play “Speech Synthesis”",
-              "date": "2025-07-26",
-              "link": "https://dbushell.com/2025/07/26/text-to-speech-synthesis/"
             }
           ]
         },
@@ -894,37 +925,6 @@
               "title": "Measuring my Framework laptop's performance in 3 positions",
               "date": "2025-04-28",
               "link": "https://ntietz.com/blog/measuring-my-framework-laptops-performance-in-3-positions/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Links? Links!",
-              "date": "2025-07-16",
-              "link": "https://infrequently.org/2025/07/links/"
-            },
-            {
-              "title": "Conferences, Clarity, and Smokescreens",
-              "date": "2025-06-27",
-              "link": "https://infrequently.org/2025/06/conferences-clarity-and-smokescreens/"
-            },
-            {
-              "title": "Safari at WWDC '25: The Ghost of Christmas Past",
-              "date": "2025-06-13",
-              "link": "https://infrequently.org/2025/06/the-ghost-of-christmas-past/"
-            },
-            {
-              "title": "If Not React, Then What?",
-              "date": "2024-11-29",
-              "link": "https://infrequently.org/2024/11/if-not-react-then-what/"
-            },
-            {
-              "title": "Platform Strategy and Its Discontents",
-              "date": "2024-10-27",
-              "link": "https://infrequently.org/2024/10/platforms-are-competitions/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-11T04:03:15.463Z",
+  "fetchDate": "2025-08-12T03:47:35.111Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

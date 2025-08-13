@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The quest for the perfect progressively enhanced dropdown menu",
+              "date": "2025-08-12",
+              "link": "https://gomakethings.com/the-quest-for-the-perfect-progressively-enhanced-dropdown-menu/"
+            },
+            {
+              "title": "Two types of coders. Two types of code bases.",
+              "date": "2025-08-11",
+              "link": "https://gomakethings.com/two-types-of-coders.-two-types-of-code-bases./"
+            },
+            {
+              "title": "At my worst",
+              "date": "2025-08-10",
+              "link": "https://gomakethings.com/at-my-worst/"
+            },
+            {
+              "title": "The Rakree",
+              "date": "2025-08-09",
+              "link": "https://gomakethings.com/the-rakree/"
+            },
+            {
+              "title": "Slowing down",
+              "date": "2025-08-08",
+              "link": "https://gomakethings.com/slowing-down/"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "LLMs as Parts of Systems",
+              "date": "2025-08-12",
+              "link": "http://brooker.co.za/blog/2025/08/12/llms-as-components.html"
+            },
+            {
+              "title": "Career advice, or something like it",
+              "date": "2025-06-20",
+              "link": "http://brooker.co.za/blog/2025/06/20/career.html"
+            },
+            {
+              "title": "Systems Fun at HotOS",
+              "date": "2025-06-02",
+              "link": "http://brooker.co.za/blog/2025/06/02/hotos.html"
+            },
+            {
+              "title": "Good Performance for Bad Days",
+              "date": "2025-05-20",
+              "link": "http://brooker.co.za/blog/2025/05/20/icpe.html"
+            },
+            {
+              "title": "Decomposing Aurora DSQL",
+              "date": "2025-04-17",
+              "link": "http://brooker.co.za/blog/2025/04/17/decomposing.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-12",
+              "link": "https://dbushell.com/notes/2025-08-12T06:10Z/"
+            },
+            {
+              "date": "2025-08-11",
+              "link": "https://dbushell.com/notes/2025-08-11T16:36Z/"
+            },
+            {
+              "date": "2025-08-08",
+              "link": "https://dbushell.com/notes/2025-08-08T05:38Z/"
+            },
+            {
+              "date": "2025-08-06",
+              "link": "https://dbushell.com/notes/2025-08-06T08:47Z/"
+            },
+            {
+              "date": "2025-08-05",
+              "link": "https://dbushell.com/notes/2025-08-05T11:17Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Navigating the Obvious Shoulds",
+              "date": "2025-08-12",
+              "link": "https://anniemueller.com/posts/navigating-the-obvious-shoulds"
+            },
+            {
+              "title": "Small Web July recap",
+              "date": "2025-08-04",
+              "link": "https://anniemueller.com/posts/small-web-july-recap"
+            },
+            {
+              "title": "Reading notes: May, June, July",
+              "date": "2025-07-30",
+              "link": "https://anniemueller.com/posts/reading-notes-may-june-july"
+            },
+            {
+              "title": "Let there be lapses",
+              "date": "2025-07-28",
+              "link": "https://anniemueller.com/posts/let-there-be-lapses"
+            },
+            {
+              "title": "Hey, I care about you, but I do not care what the robot says about you",
+              "date": "2025-07-27",
+              "link": "https://anniemueller.com/posts/hey-i-care-about-you-but-i-do-not-care-what-the-robot-says-about-you"
+            }
+          ]
+        },
+        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -62,63 +181,6 @@
               "title": "“Don’t Get Left Behind”",
               "date": "2025-07-29",
               "link": "https://dbushell.com/2025/07/29/dont-get-left-behind/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Two types of coders. Two types of code bases.",
-              "date": "2025-08-11",
-              "link": "https://gomakethings.com/two-types-of-coders.-two-types-of-code-bases./"
-            },
-            {
-              "title": "At my worst",
-              "date": "2025-08-10",
-              "link": "https://gomakethings.com/at-my-worst/"
-            },
-            {
-              "title": "The Rakree",
-              "date": "2025-08-09",
-              "link": "https://gomakethings.com/the-rakree/"
-            },
-            {
-              "title": "Slowing down",
-              "date": "2025-08-08",
-              "link": "https://gomakethings.com/slowing-down/"
-            },
-            {
-              "title": "Just fucking ship",
-              "date": "2025-08-07",
-              "link": "https://gomakethings.com/just-fucking-ship/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-08-11",
-              "link": "https://dbushell.com/notes/2025-08-11T16:36Z/"
-            },
-            {
-              "date": "2025-08-08",
-              "link": "https://dbushell.com/notes/2025-08-08T05:38Z/"
-            },
-            {
-              "date": "2025-08-06",
-              "link": "https://dbushell.com/notes/2025-08-06T08:47Z/"
-            },
-            {
-              "date": "2025-08-05",
-              "link": "https://dbushell.com/notes/2025-08-05T11:17Z/"
-            },
-            {
-              "date": "2025-08-04",
-              "link": "https://dbushell.com/notes/2025-08-04T11:08Z/"
             }
           ]
         },
@@ -375,9 +437,9 @@
           "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
             {
-              "title": "All the cool kids are doing it",
+              "title": "Everyone's got one",
               "date": "2025-08-05",
-              "link": "https://www.scattered-thoughts.net/writing/all-the-cool-kids-are-doing-it/"
+              "link": "https://www.scattered-thoughts.net/writing/everyones-got-one/"
             },
             {
               "title": "Go allocation probe",
@@ -464,37 +526,6 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Small Web July recap",
-              "date": "2025-08-04",
-              "link": "https://anniemueller.com/posts/small-web-july-recap"
-            },
-            {
-              "title": "Reading notes: May, June, July",
-              "date": "2025-07-30",
-              "link": "https://anniemueller.com/posts/reading-notes-may-june-july"
-            },
-            {
-              "title": "Let there be lapses",
-              "date": "2025-07-28",
-              "link": "https://anniemueller.com/posts/let-there-be-lapses"
-            },
-            {
-              "title": "Hey, I care about you, but I do not care what the robot says about you",
-              "date": "2025-07-27",
-              "link": "https://anniemueller.com/posts/hey-i-care-about-you-but-i-do-not-care-what-the-robot-says-about-you"
-            },
-            {
-              "title": "Setting up an iPad for blog reading and small web browsing",
-              "date": "2025-07-26",
-              "link": "https://anniemueller.com/posts/setting-up-an-ipad-for-blog-reading-and-small-web-browsing"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -553,6 +584,37 @@
               "title": "2024 - What a Wild Ride",
               "date": "2024-12-27",
               "link": "https://www.lisihocke.com/2024/12/2024-what-a-wild-ride.html"
+            }
+          ]
+        },
+        {
+          "title": "Fynn Ellie Becker",
+          "feedUrl": "https://fynn.be/feed.xml",
+          "items": [
+            {
+              "title": "Sunset v31",
+              "date": "2025-08-03",
+              "link": "https://fynn.be/sunset/v31/"
+            },
+            {
+              "title": "Sunset v30",
+              "date": "2025-07-07",
+              "link": "https://fynn.be/sunset/v30/"
+            },
+            {
+              "title": "Revisiting my German pronouns",
+              "date": "2025-07-05",
+              "link": "https://fynn.be/blog/revisiting-my-german-pronouns/"
+            },
+            {
+              "title": "Tackling Temporal Troubles",
+              "date": "2025-06-10",
+              "link": "https://fynn.be/talks/tackling-temporal-troubles/"
+            },
+            {
+              "title": "BITV-Zertifizierung der Factorial-Website",
+              "date": "2025-05-15",
+              "link": "https://fynn.be/talks/factorial-website-bitv/"
             }
           ]
         },
@@ -1115,37 +1177,6 @@
           ]
         },
         {
-          "title": "Fynn Ellie Becker",
-          "feedUrl": "https://fynn.be/feed.xml",
-          "items": [
-            {
-              "title": "Revisiting my German pronouns",
-              "date": "2025-07-05",
-              "link": "https://fynn.be/blog/revisiting-my-german-pronouns/"
-            },
-            {
-              "title": "Tackling Temporal Troubles",
-              "date": "2025-06-10",
-              "link": "https://fynn.be/talks/tackling-temporal-troubles/"
-            },
-            {
-              "title": "BITV-Zertifizierung der Factorial-Website",
-              "date": "2025-05-15",
-              "link": "https://fynn.be/talks/factorial-website-bitv/"
-            },
-            {
-              "title": "Sunset v29",
-              "date": "2025-05-15",
-              "link": "https://fynn.be/sunset/v29/"
-            },
-            {
-              "title": "Introduction to digital accessibility",
-              "date": "2025-03-04",
-              "link": "https://fynn.be/talks/introduction-digital-accessibility/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -1390,37 +1421,6 @@
               "title": "The banana test for AI-generated artifacts",
               "date": "2024-10-03",
               "link": "https://einarwh.no/blog/2024/10/03/the-banana-test-for-ai-generated-artifacts/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Career advice, or something like it",
-              "date": "2025-06-20",
-              "link": "http://brooker.co.za/blog/2025/06/20/career.html"
-            },
-            {
-              "title": "Systems Fun at HotOS",
-              "date": "2025-06-02",
-              "link": "http://brooker.co.za/blog/2025/06/02/hotos.html"
-            },
-            {
-              "title": "Good Performance for Bad Days",
-              "date": "2025-05-20",
-              "link": "http://brooker.co.za/blog/2025/05/20/icpe.html"
-            },
-            {
-              "title": "Decomposing Aurora DSQL",
-              "date": "2025-04-17",
-              "link": "http://brooker.co.za/blog/2025/04/17/decomposing.html"
-            },
-            {
-              "title": "One or Two? How Many Queues?",
-              "date": "2025-03-25",
-              "link": "http://brooker.co.za/blog/2025/03/25/two-queues.html"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-12T03:47:35.111Z",
+  "fetchDate": "2025-08-13T03:49:31.322Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,9 +4,107 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "einarwh",
+          "feedUrl": "https://einarwh.no/feed/atom.xml",
+          "items": [
+            {
+              "title": "Disentangling intertwingled magicks in ASP.NET Core Web APIs",
+              "date": "2025-08-15",
+              "link": "https://einarwh.no/blog/2025/08/15/disentangling-magicks/"
+            },
+            {
+              "title": "Book heuristics",
+              "date": "2025-06-20",
+              "link": "https://einarwh.no/blog/2025/06/20/book-heuristics/"
+            },
+            {
+              "title": "Socio-technical is a big word",
+              "date": "2025-06-16",
+              "link": "https://einarwh.no/blog/2025/06/16/sociotechnical-is-a-big-word/"
+            },
+            {
+              "title": "What's a tomato?",
+              "date": "2025-05-11",
+              "link": "https://einarwh.no/blog/2025/05/11/whats-a-tomato/"
+            },
+            {
+              "title": "Socio-technical API patterns",
+              "date": "2025-04-28",
+              "link": "https://einarwh.no/blog/2025/04/28/sociotechnical-api-patterns/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Self-hosted Forgejo Actions Runner",
+              "date": "2025-08-15",
+              "link": "https://dbushell.com/2025/08/15/self-hosted-forgejo-actions-runner/"
+            },
+            {
+              "title": "GitHub Ensloppification",
+              "date": "2025-08-11",
+              "link": "https://dbushell.com/2025/08/11/github-ensloppification/"
+            },
+            {
+              "title": "RSS Club #001",
+              "date": "2025-08-03",
+              "link": "https://dbushell.com/2025/08/03/RSS001/"
+            },
+            {
+              "title": "Composable Adopted Stylesheets",
+              "date": "2025-08-02",
+              "link": "https://dbushell.com/2025/08/02/composable-adopted-stylesheets/"
+            },
+            {
+              "title": "Anatomy of a Web Component",
+              "date": "2025-08-01",
+              "link": "https://dbushell.com/2025/08/01/anatomy-of-a-web-component/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Just a Little More Context Bro, I Promise, and It’ll Fix Everything",
+              "date": "2025-08-15",
+              "link": "https://blog.jim-nielsen.com/2025/more-context-bro/"
+            },
+            {
+              "title": "Choosing Tools To Make Websites",
+              "date": "2025-08-13",
+              "link": "https://blog.jim-nielsen.com/2025/choosing-tools-for-making-websites/"
+            },
+            {
+              "title": "Sit On Your Ass Web Development",
+              "date": "2025-08-10",
+              "link": "https://blog.jim-nielsen.com/2025/sit-on-your-ass-web-dev/"
+            },
+            {
+              "title": "Writing: Blog Posts and Songs",
+              "date": "2025-08-06",
+              "link": "https://blog.jim-nielsen.com/2025/writing-blog-posts-and-songs/"
+            },
+            {
+              "title": "A Few Things About the Anchor Element’s href You Might Not Have Known",
+              "date": "2025-08-03",
+              "link": "https://blog.jim-nielsen.com/2025/href-value-possibilities/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "CSS-only solutions are not accessible",
+              "date": "2025-08-15",
+              "link": "https://gomakethings.com/css-only-solutions-are-not-accessible/"
+            },
             {
               "title": "Checking for focus in an element using CSS in your JavaScript",
               "date": "2025-08-14",
@@ -26,11 +124,99 @@
               "title": "Two types of coders. Two types of code bases.",
               "date": "2025-08-11",
               "link": "https://gomakethings.com/two-types-of-coders.-two-types-of-code-bases./"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: numbers, variables, functions in JavaScript",
+              "date": "2025-08-15",
+              "link": "https://2ality.com/2025/08/javascript-numbers-variables-functions.html"
             },
             {
-              "title": "At my worst",
-              "date": "2025-08-10",
-              "link": "https://gomakethings.com/at-my-worst/"
+              "title": "New series of blog posts: learning web development",
+              "date": "2025-08-14",
+              "link": "https://2ality.com/2025/08/learning-web-dev-toc.html"
+            },
+            {
+              "title": "Ecma International approves ECMAScript 2025: What’s new?",
+              "date": "2025-06-26",
+              "link": "https://2ality.com/2025/06/ecmascript-2025.html"
+            },
+            {
+              "title": "Tips for making regular expressions easier to use in JavaScript",
+              "date": "2025-06-24",
+              "link": "https://2ality.com/2025/06/javascript-regexp-tips.html"
+            },
+            {
+              "title": "TypeScript: checking Map keys and Array indices",
+              "date": "2025-06-21",
+              "link": "https://2ality.com/2025/06/checking-map-keys-array-indices-typescript.html"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Dynamo, DynamoDB, and Aurora DSQL",
+              "date": "2025-08-15",
+              "link": "http://brooker.co.za/blog/2025/08/15/dynamo-dynamodb-dsql.html"
+            },
+            {
+              "title": "LLMs as Parts of Systems",
+              "date": "2025-08-12",
+              "link": "http://brooker.co.za/blog/2025/08/12/llms-as-components.html"
+            },
+            {
+              "title": "Career advice, or something like it",
+              "date": "2025-06-20",
+              "link": "http://brooker.co.za/blog/2025/06/20/career.html"
+            },
+            {
+              "title": "Systems Fun at HotOS",
+              "date": "2025-06-02",
+              "link": "http://brooker.co.za/blog/2025/06/02/hotos.html"
+            },
+            {
+              "title": "Good Performance for Bad Days",
+              "date": "2025-05-20",
+              "link": "http://brooker.co.za/blog/2025/05/20/icpe.html"
+            }
+          ]
+        },
+        {
+          "title": "Mathias Verraes",
+          "feedUrl": "https://verraes.net/feed.atom",
+          "items": [
+            {
+              "title": "Two Hard Problems with Distributed Systems",
+              "date": "2025-08-14",
+              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
+            },
+            {
+              "title": "Submitting talks to a tech conference Call for Papers",
+              "date": "2025-06-10",
+              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
+            },
+            {
+              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
+              "date": "2024-03-10",
+              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
+            },
+            {
+              "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
+              "date": "2024-01-08",
+              "link": "https://verraes.net/2024/01/critical-software-redesign/"
+            },
+            {
+              "title": "Surfacing Worldviews in Design",
+              "date": "2023-07-03",
+              "link": "https://verraes.net/2023/07/surfacing-worldviews-in-design/"
             }
           ]
         },
@@ -128,37 +314,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Choosing Tools To Make Websites",
-              "date": "2025-08-13",
-              "link": "https://blog.jim-nielsen.com/2025/choosing-tools-for-making-websites/"
-            },
-            {
-              "title": "Sit On Your Ass Web Development",
-              "date": "2025-08-10",
-              "link": "https://blog.jim-nielsen.com/2025/sit-on-your-ass-web-dev/"
-            },
-            {
-              "title": "Writing: Blog Posts and Songs",
-              "date": "2025-08-06",
-              "link": "https://blog.jim-nielsen.com/2025/writing-blog-posts-and-songs/"
-            },
-            {
-              "title": "A Few Things About the Anchor Element’s href You Might Not Have Known",
-              "date": "2025-08-03",
-              "link": "https://blog.jim-nielsen.com/2025/href-value-possibilities/"
-            },
-            {
-              "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
-              "date": "2025-07-27",
-              "link": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -181,37 +336,6 @@
             {
               "date": "2025-08-06",
               "link": "https://dbushell.com/notes/2025-08-06T08:47Z/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "LLMs as Parts of Systems",
-              "date": "2025-08-12",
-              "link": "http://brooker.co.za/blog/2025/08/12/llms-as-components.html"
-            },
-            {
-              "title": "Career advice, or something like it",
-              "date": "2025-06-20",
-              "link": "http://brooker.co.za/blog/2025/06/20/career.html"
-            },
-            {
-              "title": "Systems Fun at HotOS",
-              "date": "2025-06-02",
-              "link": "http://brooker.co.za/blog/2025/06/02/hotos.html"
-            },
-            {
-              "title": "Good Performance for Bad Days",
-              "date": "2025-05-20",
-              "link": "http://brooker.co.za/blog/2025/05/20/icpe.html"
-            },
-            {
-              "title": "Decomposing Aurora DSQL",
-              "date": "2025-04-17",
-              "link": "http://brooker.co.za/blog/2025/04/17/decomposing.html"
             }
           ]
         },
@@ -247,33 +371,33 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
-              "title": "GitHub Ensloppification",
+              "title": "Monthly Recap: July 2025",
               "date": "2025-08-11",
-              "link": "https://dbushell.com/2025/08/11/github-ensloppification/"
+              "link": "https://flamedfury.com/posts/monthly-recap-july-2025/"
             },
             {
-              "title": "RSS Club #001",
-              "date": "2025-08-03",
-              "link": "https://dbushell.com/2025/08/03/RSS001/"
+              "title": "Living Local",
+              "date": "2025-07-31",
+              "link": "https://flamedfury.com/posts/living-local/"
             },
             {
-              "title": "Composable Adopted Stylesheets",
-              "date": "2025-08-02",
-              "link": "https://dbushell.com/2025/08/02/composable-adopted-stylesheets/"
+              "title": "Hairy Maclary's Greatest Hits",
+              "date": "2025-07-30",
+              "link": "https://flamedfury.com/posts/hairy-maclarys-greatest-hits/"
             },
             {
-              "title": "Anatomy of a Web Component",
-              "date": "2025-08-01",
-              "link": "https://dbushell.com/2025/08/01/anatomy-of-a-web-component/"
+              "title": "Missing You Like Candy",
+              "date": "2025-07-25",
+              "link": "https://flamedfury.com/posts/missing-you-like-candy/"
             },
             {
-              "title": "“Don’t Get Left Behind”",
-              "date": "2025-07-29",
-              "link": "https://dbushell.com/2025/07/29/dont-get-left-behind/"
+              "title": "Dinosaur Discovery at Auckland Zoo",
+              "date": "2025-07-24",
+              "link": "https://flamedfury.com/posts/dinosaur-discovery-at-auckland-zoo/"
             }
           ]
         },
@@ -770,37 +894,6 @@
               "title": "Organizing a design system via folksonomy",
               "date": "2025-05-15",
               "link": "https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Living Local",
-              "date": "2025-07-31",
-              "link": "https://flamedfury.com/posts/living-local/"
-            },
-            {
-              "title": "Hairy Maclary's Greatest Hits",
-              "date": "2025-07-30",
-              "link": "https://flamedfury.com/posts/hairy-maclarys-greatest-hits/"
-            },
-            {
-              "title": "Missing You Like Candy",
-              "date": "2025-07-25",
-              "link": "https://flamedfury.com/posts/missing-you-like-candy/"
-            },
-            {
-              "title": "Dinosaur Discovery at Auckland Zoo",
-              "date": "2025-07-24",
-              "link": "https://flamedfury.com/posts/dinosaur-discovery-at-auckland-zoo/"
-            },
-            {
-              "title": "Monthly Recap: June 2025",
-              "date": "2025-07-14",
-              "link": "https://flamedfury.com/posts/monthly-recap-june-2025/"
             }
           ]
         },
@@ -1332,37 +1425,6 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Ecma International approves ECMAScript 2025: What’s new?",
-              "date": "2025-06-26",
-              "link": "https://2ality.com/2025/06/ecmascript-2025.html"
-            },
-            {
-              "title": "Tips for making regular expressions easier to use in JavaScript",
-              "date": "2025-06-24",
-              "link": "https://2ality.com/2025/06/javascript-regexp-tips.html"
-            },
-            {
-              "title": "TypeScript: checking Map keys and Array indices",
-              "date": "2025-06-21",
-              "link": "https://2ality.com/2025/06/checking-map-keys-array-indices-typescript.html"
-            },
-            {
-              "title": "How TypeScript solved its global <code>Iterator</code> name clash",
-              "date": "2025-06-18",
-              "link": "https://2ality.com/2025/06/typescript-iterator-types.html"
-            },
-            {
-              "title": "Styling console text in Node.js",
-              "date": "2025-05-15",
-              "link": "https://2ality.com/2025/05/ansi-escape-sequences-nodejs.html"
-            }
-          ]
-        },
-        {
           "title": "Evan Boehs in the blog",
           "feedUrl": "https://boehs.org/in/blog.xml",
           "items": [
@@ -1421,37 +1483,6 @@
               "title": "The Consciousness Lottery",
               "date": "2024-11-19",
               "link": "https://kyleshevlin.com/consciousness-lottery/"
-            }
-          ]
-        },
-        {
-          "title": "einarwh",
-          "feedUrl": "https://einarwh.no/feed/atom.xml",
-          "items": [
-            {
-              "title": "Book heuristics",
-              "date": "2025-06-20",
-              "link": "https://einarwh.no/blog/2025/06/20/book-heuristics/"
-            },
-            {
-              "title": "Socio-technical is a big word",
-              "date": "2025-06-16",
-              "link": "https://einarwh.no/blog/2025/06/16/sociotechnical-is-a-big-word/"
-            },
-            {
-              "title": "What's a tomato?",
-              "date": "2025-05-11",
-              "link": "https://einarwh.no/blog/2025/05/11/whats-a-tomato/"
-            },
-            {
-              "title": "Socio-technical API patterns",
-              "date": "2025-04-28",
-              "link": "https://einarwh.no/blog/2025/04/28/sociotechnical-api-patterns/"
-            },
-            {
-              "title": "The banana test for AI-generated artifacts",
-              "date": "2024-10-03",
-              "link": "https://einarwh.no/blog/2024/10/03/the-banana-test-for-ai-generated-artifacts/"
             }
           ]
         },
@@ -1576,37 +1607,6 @@
               "title": "Love, Creeps and Creatures: Buffy Season 2",
               "date": "2025-04-03",
               "link": "https://mikegrindle.com/posts/buffy-2"
-            }
-          ]
-        },
-        {
-          "title": "Mathias Verraes",
-          "feedUrl": "https://verraes.net/feed.atom",
-          "items": [
-            {
-              "title": "Submitting talks to a tech conference Call for Papers",
-              "date": "2025-06-10",
-              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
-            },
-            {
-              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
-              "date": "2024-03-10",
-              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
-            },
-            {
-              "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
-              "date": "2024-01-08",
-              "link": "https://verraes.net/2024/01/critical-software-redesign/"
-            },
-            {
-              "title": "Surfacing Worldviews in Design",
-              "date": "2023-07-03",
-              "link": "https://verraes.net/2023/07/surfacing-worldviews-in-design/"
-            },
-            {
-              "title": "EventSourcing Testing Patterns",
-              "date": "2023-05-28",
-              "link": "https://verraes.net/2023/05/eventsourcing-testing-patterns/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-15T03:51:01.073Z",
+  "fetchDate": "2025-08-16T03:43:56.726Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

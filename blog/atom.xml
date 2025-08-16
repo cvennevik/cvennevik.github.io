@@ -8,7 +8,140 @@
     <name>Cecilie Vennevik</name>
   </author>
   <icon>https://www.cvennevik.no/img/logo-100px.jpg</icon>
-  <updated>2025-08-09T13:00:00.000Z</updated>
+  <updated>2025-08-16T12:30:00.000Z</updated>
+  <entry>
+    <title type="html">Crystal Spire #10: Finishing the easy bit</title>
+    <link href="https://www.cvennevik.no/blog/crystal-spire-10-finishing-the-easy-bit/"/>
+    <id>https://www.cvennevik.no/blog/crystal-spire-10-finishing-the-easy-bit/</id>
+    <published>2025-08-16T12:30:00.000Z</published>
+    <updated>2025-08-16T12:30:00.000Z</updated>
+    <content type="html"><![CDATA[<p>Happy Saturday! Let's round up this game state business.</p>
+<p>So, I'd forgotten that we already <em>do</em> have enemies' next move stored in state and rendered in the HTML. We just need to add their move history. Let's call it <code>moveHistory</code>.</p>
+<pre><code class="language-js">{
+    name: 'Jaw Worm',
+    hp: 42,
+    maxHp: 42,
+    block: 0,
+    nextMove: 'Chomp',
+    moveHistory: [],
+    buffs: [],
+    debuffs: []
+}
+</code></pre>
+<p>Then, for the &quot;end turn&quot; actions, add 'Chomp' to their move history:</p>
+<pre><code class="language-js">&lt;a href=&quot;${encodeURI(serialize({
+    ...defaultGameState,
+    hp: 69,
+    hand: ['Defend', 'Strike', 'Strike', 'Strike', 'Strike'],
+    discardPile: ['Bash', 'Defend', 'Defend', 'Defend', 'Strike'],
+    enemies: [{ ...defaultGameState.enemies[0], moveHistory: ['Chomp'] }]
+}))}&quot;&gt;
+    End turn 1 (60% chance)
+&lt;/a&gt;
+</code></pre>
+<pre><code class="language-js">&lt;a href=&quot;${encodeURI(serialize({
+    ...defaultGameState,
+    hp: 69,
+    hand: ['Defend', 'Strike', 'Strike', 'Strike', 'Strike'],
+    discardPile: ['Bash', 'Defend', 'Defend', 'Defend', 'Strike'],
+    enemies: [{ ...defaultGameState.enemies[0], moveHistory: ['Chomp'] }]
+}))}&quot;&gt;
+    End turn 2 (40% chance)
+&lt;/a&gt;
+</code></pre>
+<p>Then finally, per enemy, display their move history:</p>
+<pre><code class="language-js">${enemy.moveHistory.length &gt; 0 ? `&lt;p&gt;Past moves: ${enemy.moveHistory.join(', ')}&lt;/p&gt;` : ''}
+</code></pre>
+<p>Neat! Now the resulting states from the &quot;end turn&quot; action say &quot;Past moves: Chomp&quot;! Commit: <em>&quot;Add moveHistory to enemies&quot;</em>.</p>
+<p>I noticed we don't update the Jaw Worm's next move in those URLs, so we need to fix that as well:</p>
+<pre><code class="language-js">enemies: [{ ...defaultGameState.enemies[0], moveHistory: ['Chomp'], nextMove: 'Bellow' }]
+</code></pre>
+<pre><code class="language-js">enemies: [{ ...defaultGameState.enemies[0], moveHistory: ['Chomp'], nextMove: 'Thrash' }]
+</code></pre>
+<p>And then we'll need to update <code>moveDescriptions</code>:</p>
+<pre><code class="language-js">let moveDescriptions = {
+    'Chomp': 'Deal 11 damage',
+    'Thrash': 'Deal 7 damage, gain 5 Block',
+    'Bellow': 'Gain 3 Strength and 6 Block'
+};
+</code></pre>
+<p>Done! Commit: <em>&quot;Update enemy nextMove in action URLs&quot;</em>.</p>
+<p>We're now able to render any game state in the fight based on URL parameters. Nice.</p>
+<hr>
+<p>The next step will be a little more complicated. Those hardcoded actions and outcomes need to go, and we need to generate real ones based on the current game state. Once we have that, we'll be truly able to navigate through the entire fight.</p>
+<p>I've been thinking about this a lot since last time, so let's establish some key concepts:</p>
+<ul>
+<li>An <strong>action</strong> is something the player can do anytime they're offered a choice. Examples:
+<ul>
+<li>Play a card</li>
+<li>Use a potion</li>
+<li>End the turn</li>
+<li>Make a choice an effect asks of them (e.g. after drawing a card, <em>Warcry</em> asks you to place a card in hand back on top of the deck )</li>
+</ul>
+</li>
+<li>An <strong>outcome</strong> is a resulting game state from an action.
+<ul>
+<li>An action may have multiple potential outcomes when randomness is involved (e.g. which cards you draw, what next move the enemy picks, etc.)</li>
+</ul>
+</li>
+</ul>
+<p>Based on this, I think we want two functions:</p>
+<ul>
+<li><code>getActions(gameState)</code> returns the actions you can take in a given game state.</li>
+<li><code>getOutcomes(gameState, action)</code> returns the potential outcomes of an action, including the probability of each outcome.</li>
+</ul>
+<p>There's lots of ways we could structure the return values of these. In my first go implementing this in C#, &quot;action&quot; objects were tied to the game state they came from, and could <code>.Resolve()</code> to their potential outcomes. I'm going to try restricting actions and outcomes to be pure data this time around, on the hunch that shuffling pure data around will be easier to optimize for performance later than shuffling functions or methods around.</p>
+<p>We can start out with this simple schema for actions:</p>
+<pre><code class="language-js">{ name: 'Play Defend' }
+</code></pre>
+<p>Every action has a <code>name</code> property. Some actions may have additional properties:</p>
+<pre><code class="language-js">{ name: 'Play Strike', enemyIndex: 0 }
+</code></pre>
+<p>We can write our <code>getOutcomes</code> function to read the additional properties only as needed, with different blocks of logic running depending on the action's <code>name</code>, which leaves a lot of flexibility for implementing future actions.</p>
+<p>The outcome schema can be similarly simple:</p>
+<pre><code class="language-js">{ gameState: gameState, probability: 0.6 }
+</code></pre>
+<p>Given this rough plan, we can break it down into three sequential steps:</p>
+<ol>
+<li>Implement <code>getActions</code></li>
+<li>Implement <code>getOutcomes</code></li>
+<li>Update our rendering logic to use these.</li>
+</ol>
+<p>Starting with step 1... &quot;Implement <code>getActions</code>&quot; seems a lot more complicated than anything we've done so far. Let's describe the requirements in plain English first, as far as they apply to the Jaw Worm fight:</p>
+<ul>
+<li>If we have <em>Strike</em> in hand and 1 or more Energy, we can 'Play Strike' on the Jaw Worm.</li>
+<li>If we have <em>Bash</em> in hand and 2 or more Energy, we can 'Play Bash' on the Jaw Worm.</li>
+<li>If we have <em>Defend</em> in hand and 1 or more Energy, we can 'Play Defend'.</li>
+<li>We can always 'End Turn'.</li>
+</ul>
+<p>Oh. When we put it like this, it looks really straightforward to implement, actually.</p>
+<pre><code class="language-js">function getActions(gameState) {
+    let actions = [];
+    if (gameState.hand.includes('Strike') &amp;&amp; gameState.energy &gt;= 1) {
+        actions.push({ name: 'Play Strike', enemyIndex: 0 });
+    }
+    if (gameState.hand.includes('Bash') &amp;&amp; gameState.energy &gt;= 2) {
+        actions.push({ name: 'Play Bash', enemyIndex: 0 });
+    }
+    if (gameState.hand.includes('Defend') &amp;&amp; gameState.energy &gt;= 1) {
+        actions.push({ name: 'Play Defend' });
+    }
+    actions.push('End Turn');
+    return actions;
+}
+</code></pre>
+<p>Although, now I realize there are lots of cases our requirements don't handle. What if we're dead? What if we have multiple enemies?</p>
+<p>And for that matter, how do we check that this code even works? So far, we've been refreshing the page, clicking around and seeing if everything looks correct, but now we have a lot more cases to check, and this isn't even wired up to the page yet.</p>
+<p>I think this is the signal to start writing tests. For now, let's leave a comment above the function:</p>
+<pre><code class="language-js">// TODO: Test
+</code></pre>
+<p>And commit: <em>&quot;Add getActions function</em>&quot;.</p>
+<p>Next time: setting up our first tests!</p>
+<hr>
+<p><em><a href="/crystal-spire/v10/">View this app version</a></em> | <em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/3ef1ac5b8d289ab1352c6abde946c20c29fa527e">Last commit: Add getActions function</a></em></p>
+]]></content>
+  </entry>
+  
   <entry>
     <title type="html">Crystal Spire #9: Buffing the Worm&#39;s nails</title>
     <link href="https://www.cvennevik.no/blog/crystal-spire-09-buffing-the-worms-nails/"/>

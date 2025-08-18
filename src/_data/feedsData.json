@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-19",
+              "link": "https://dbushell.com/notes/2025-08-19T05:52Z/"
+            },
+            {
+              "date": "2025-08-16",
+              "link": "https://dbushell.com/notes/2025-08-16T11:29Z/"
+            },
+            {
+              "date": "2025-08-16",
+              "link": "https://dbushell.com/notes/2025-08-16T06:39Z/"
+            },
+            {
+              "date": "2025-08-13",
+              "link": "https://dbushell.com/notes/2025-08-13T08:26Z/"
+            },
+            {
+              "date": "2025-08-12",
+              "link": "https://dbushell.com/notes/2025-08-12T06:10Z/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "RSS Club #002: Dino Edition",
+              "date": "2025-08-17",
+              "link": "https://dbushell.com/2025/08/17/RSS002/"
+            },
+            {
+              "title": "Self-hosted Forgejo Actions Runner",
+              "date": "2025-08-15",
+              "link": "https://dbushell.com/2025/08/15/self-hosted-forgejo-actions-runner/"
+            },
+            {
+              "title": "GitHub Ensloppification",
+              "date": "2025-08-11",
+              "link": "https://dbushell.com/2025/08/11/github-ensloppification/"
+            },
+            {
+              "title": "RSS Club #001",
+              "date": "2025-08-03",
+              "link": "https://dbushell.com/2025/08/03/RSS001/"
+            },
+            {
+              "title": "Composable Adopted Stylesheets",
+              "date": "2025-08-02",
+              "link": "https://dbushell.com/2025/08/02/composable-adopted-stylesheets/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: strings and methods in JavaScript",
+              "date": "2025-08-17",
+              "link": "https://2ality.com/2025/08/javascript-strings-methods.html"
+            },
+            {
+              "title": "Learning web development: numbers, variables, functions in JavaScript",
+              "date": "2025-08-15",
+              "link": "https://2ality.com/2025/08/javascript-numbers-variables-functions.html"
+            },
+            {
+              "title": "New series of blog posts: learning web development",
+              "date": "2025-08-14",
+              "link": "https://2ality.com/2025/08/learning-web-dev-toc.html"
+            },
+            {
+              "title": "Ecma International approves ECMAScript 2025: What’s new?",
+              "date": "2025-06-26",
+              "link": "https://2ality.com/2025/06/ecmascript-2025.html"
+            },
+            {
+              "title": "Tips for making regular expressions easier to use in JavaScript",
+              "date": "2025-06-24",
+              "link": "https://2ality.com/2025/06/javascript-regexp-tips.html"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -62,32 +150,6 @@
               "title": "Slay the Spire #6: Let's go to Codeberg!",
               "date": "2024-08-11",
               "link": "https://www.cvennevik.no/blog/slay-the-spire-06-lets-go-to-codeberg/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-08-16",
-              "link": "https://dbushell.com/notes/2025-08-16T11:29Z/"
-            },
-            {
-              "date": "2025-08-16",
-              "link": "https://dbushell.com/notes/2025-08-16T06:39Z/"
-            },
-            {
-              "date": "2025-08-13",
-              "link": "https://dbushell.com/notes/2025-08-13T08:26Z/"
-            },
-            {
-              "date": "2025-08-12",
-              "link": "https://dbushell.com/notes/2025-08-12T06:10Z/"
-            },
-            {
-              "date": "2025-08-11",
-              "link": "https://dbushell.com/notes/2025-08-11T16:36Z/"
             }
           ]
         },
@@ -154,37 +216,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Self-hosted Forgejo Actions Runner",
-              "date": "2025-08-15",
-              "link": "https://dbushell.com/2025/08/15/self-hosted-forgejo-actions-runner/"
-            },
-            {
-              "title": "GitHub Ensloppification",
-              "date": "2025-08-11",
-              "link": "https://dbushell.com/2025/08/11/github-ensloppification/"
-            },
-            {
-              "title": "RSS Club #001",
-              "date": "2025-08-03",
-              "link": "https://dbushell.com/2025/08/03/RSS001/"
-            },
-            {
-              "title": "Composable Adopted Stylesheets",
-              "date": "2025-08-02",
-              "link": "https://dbushell.com/2025/08/02/composable-adopted-stylesheets/"
-            },
-            {
-              "title": "Anatomy of a Web Component",
-              "date": "2025-08-01",
-              "link": "https://dbushell.com/2025/08/01/anatomy-of-a-web-component/"
-            }
-          ]
-        },
-        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -212,37 +243,6 @@
               "title": "A Few Things About the Anchor Element’s href You Might Not Have Known",
               "date": "2025-08-03",
               "link": "https://blog.jim-nielsen.com/2025/href-value-possibilities/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Learning web development: numbers, variables, functions in JavaScript",
-              "date": "2025-08-15",
-              "link": "https://2ality.com/2025/08/javascript-numbers-variables-functions.html"
-            },
-            {
-              "title": "New series of blog posts: learning web development",
-              "date": "2025-08-14",
-              "link": "https://2ality.com/2025/08/learning-web-dev-toc.html"
-            },
-            {
-              "title": "Ecma International approves ECMAScript 2025: What’s new?",
-              "date": "2025-06-26",
-              "link": "https://2ality.com/2025/06/ecmascript-2025.html"
-            },
-            {
-              "title": "Tips for making regular expressions easier to use in JavaScript",
-              "date": "2025-06-24",
-              "link": "https://2ality.com/2025/06/javascript-regexp-tips.html"
-            },
-            {
-              "title": "TypeScript: checking Map keys and Array indices",
-              "date": "2025-06-21",
-              "link": "https://2ality.com/2025/06/checking-map-keys-array-indices-typescript.html"
             }
           ]
         },
@@ -433,37 +433,6 @@
           ]
         },
         {
-          "title": "Marvin Hagemeister",
-          "feedUrl": "https://marvinh.dev/feed.xml",
-          "items": [
-            {
-              "title": "Speeding up the JavaScript ecosystem - Semver",
-              "date": "2025-08-10",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
-              "date": "2025-02-23",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
-            },
-            {
-              "title": "The modern way to write JavaScript servers",
-              "date": "2025-01-25",
-              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
-              "date": "2024-07-06",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
-              "date": "2024-05-15",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -491,6 +460,37 @@
               "title": "The Struggle of Public Speaking",
               "date": "2025-06-22",
               "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
+            }
+          ]
+        },
+        {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Speeding up the JavaScript ecosystem - Semver",
+              "date": "2025-08-10",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
+              "date": "2025-02-23",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
+            },
+            {
+              "title": "The modern way to write JavaScript servers",
+              "date": "2025-01-25",
+              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
+              "date": "2024-07-06",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
+              "date": "2024-05-15",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-17T03:53:27.070Z",
+  "fetchDate": "2025-08-18T03:59:32.525Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

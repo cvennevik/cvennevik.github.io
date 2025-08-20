@@ -4,28 +4,33 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
             {
+              "title": "Consistent Navigation Across My Inconsistent Websites, Part II",
               "date": "2025-08-19",
-              "link": "https://dbushell.com/notes/2025-08-19T05:52Z/"
+              "link": "https://blog.jim-nielsen.com/2025/consistent-nav-across-inconsistent-sites-pt-ii/"
             },
             {
-              "date": "2025-08-18",
-              "link": "https://dbushell.com/notes/2025-08-18T07:11Z/"
+              "title": "Bottomless Subtleties",
+              "date": "2025-08-17",
+              "link": "https://blog.jim-nielsen.com/2025/bottomless-subtleties/"
             },
             {
-              "date": "2025-08-16",
-              "link": "https://dbushell.com/notes/2025-08-16T11:29Z/"
+              "title": "Just a Little More Context Bro, I Promise, and It’ll Fix Everything",
+              "date": "2025-08-15",
+              "link": "https://blog.jim-nielsen.com/2025/more-context-bro/"
             },
             {
-              "date": "2025-08-16",
-              "link": "https://dbushell.com/notes/2025-08-16T06:39Z/"
-            },
-            {
+              "title": "Choosing Tools To Make Websites",
               "date": "2025-08-13",
-              "link": "https://dbushell.com/notes/2025-08-13T08:26Z/"
+              "link": "https://blog.jim-nielsen.com/2025/choosing-tools-for-making-websites/"
+            },
+            {
+              "title": "Sit On Your Ass Web Development",
+              "date": "2025-08-10",
+              "link": "https://blog.jim-nielsen.com/2025/sit-on-your-ass-web-dev/"
             }
           ]
         },
@@ -33,6 +38,11 @@
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Building a custom download GUI",
+              "date": "2025-08-19",
+              "link": "https://gomakethings.com/building-a-custom-download-gui/"
+            },
             {
               "title": "How to use Playwright for unit testing",
               "date": "2025-08-18",
@@ -52,11 +62,63 @@
               "title": "Checking for focus in an element using CSS in your JavaScript",
               "date": "2025-08-14",
               "link": "https://gomakethings.com/checking-for-focus-in-an-element-using-css-in-your-javascript/"
+            }
+          ]
+        },
+        {
+          "title": "A Tester's Journey",
+          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "The Calmness Tide - It Comes and Goes in Waves",
+              "date": "2025-08-19",
+              "link": "https://www.lisihocke.com/2025/08/the-calmness-tide-it-comes-and-goes-in-waves.html"
             },
             {
-              "title": "Showing your colors",
-              "date": "2025-08-13",
-              "link": "https://gomakethings.com/showing-your-colors/"
+              "title": "SoCraTes 2025 - Coming Home",
+              "date": "2025-08-03",
+              "link": "https://www.lisihocke.com/2025/08/socrates-2025-coming-home.html"
+            },
+            {
+              "title": "Calm and Steady - The Joy and Overload of Starting Something New",
+              "date": "2025-03-10",
+              "link": "https://www.lisihocke.com/2025/03/calm-and-steady-the-joy-and-overload-of-starting-something-new.html"
+            },
+            {
+              "title": "Calm and Steady - Off to a Good Start",
+              "date": "2025-01-31",
+              "link": "https://www.lisihocke.com/2025/01/calm-and-steady-off-to-a-good-start.html"
+            },
+            {
+              "title": "Calm and Steady as She Goes",
+              "date": "2025-01-06",
+              "link": "https://www.lisihocke.com/2025/01/calm-and-steady-as-she-goes.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-19",
+              "link": "https://dbushell.com/notes/2025-08-19T06:20Z/"
+            },
+            {
+              "date": "2025-08-19",
+              "link": "https://dbushell.com/notes/2025-08-19T05:52Z/"
+            },
+            {
+              "date": "2025-08-18",
+              "link": "https://dbushell.com/notes/2025-08-18T07:11Z/"
+            },
+            {
+              "date": "2025-08-16",
+              "link": "https://dbushell.com/notes/2025-08-16T11:29Z/"
+            },
+            {
+              "date": "2025-08-16",
+              "link": "https://dbushell.com/notes/2025-08-16T06:39Z/"
             }
           ]
         },
@@ -150,37 +212,6 @@
               "title": "Composable Adopted Stylesheets",
               "date": "2025-08-02",
               "link": "https://dbushell.com/2025/08/02/composable-adopted-stylesheets/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Bottomless Subtleties",
-              "date": "2025-08-17",
-              "link": "https://blog.jim-nielsen.com/2025/bottomless-subtleties/"
-            },
-            {
-              "title": "Just a Little More Context Bro, I Promise, and It’ll Fix Everything",
-              "date": "2025-08-15",
-              "link": "https://blog.jim-nielsen.com/2025/more-context-bro/"
-            },
-            {
-              "title": "Choosing Tools To Make Websites",
-              "date": "2025-08-13",
-              "link": "https://blog.jim-nielsen.com/2025/choosing-tools-for-making-websites/"
-            },
-            {
-              "title": "Sit On Your Ass Web Development",
-              "date": "2025-08-10",
-              "link": "https://blog.jim-nielsen.com/2025/sit-on-your-ass-web-dev/"
-            },
-            {
-              "title": "Writing: Blog Posts and Songs",
-              "date": "2025-08-06",
-              "link": "https://blog.jim-nielsen.com/2025/writing-blog-posts-and-songs/"
             }
           ]
         },
@@ -309,37 +340,6 @@
           ]
         },
         {
-          "title": "Mathias Verraes",
-          "feedUrl": "https://verraes.net/feed.atom",
-          "items": [
-            {
-              "title": "Two Hard Problems with Distributed Systems",
-              "date": "2025-08-14",
-              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
-            },
-            {
-              "title": "Submitting talks to a tech conference Call for Papers",
-              "date": "2025-06-10",
-              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
-            },
-            {
-              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
-              "date": "2024-03-10",
-              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
-            },
-            {
-              "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
-              "date": "2024-01-08",
-              "link": "https://verraes.net/2024/01/critical-software-redesign/"
-            },
-            {
-              "title": "Surfacing Worldviews in Design",
-              "date": "2023-07-03",
-              "link": "https://verraes.net/2023/07/surfacing-worldviews-in-design/"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -371,6 +371,37 @@
           ]
         },
         {
+          "title": "Mathias Verraes",
+          "feedUrl": "https://verraes.net/feed.atom",
+          "items": [
+            {
+              "title": "Two Hard Problems with Distributed Systems",
+              "date": "2025-08-14",
+              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
+            },
+            {
+              "title": "Submitting talks to a tech conference Call for Papers",
+              "date": "2025-06-10",
+              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
+            },
+            {
+              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
+              "date": "2024-03-10",
+              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
+            },
+            {
+              "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
+              "date": "2024-01-08",
+              "link": "https://verraes.net/2024/01/critical-software-redesign/"
+            },
+            {
+              "title": "Surfacing Worldviews in Design",
+              "date": "2023-07-03",
+              "link": "https://verraes.net/2023/07/surfacing-worldviews-in-design/"
+            }
+          ]
+        },
+        {
           "title": "Good Tech Things",
           "feedUrl": "https://newsletter.goodtechthings.com/feed",
           "items": [
@@ -398,37 +429,6 @@
               "title": "Why are tech people suddenly so into homeschooling?",
               "date": "2025-01-14",
               "link": "https://newsletter.goodtechthings.com/p/why-are-tech-people-suddenly-so-into"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Put Names and Dates On Documents",
-              "date": "2025-08-13",
-              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
-            },
-            {
-              "title": "How Do Committees Fail To Invent?",
-              "date": "2025-08-11",
-              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
-            },
-            {
-              "title": "Links? Links!",
-              "date": "2025-07-16",
-              "link": "https://infrequently.org/2025/07/links/"
-            },
-            {
-              "title": "Conferences, Clarity, and Smokescreens",
-              "date": "2025-06-27",
-              "link": "https://infrequently.org/2025/06/conferences-clarity-and-smokescreens/"
-            },
-            {
-              "title": "Safari at WWDC '25: The Ghost of Christmas Past",
-              "date": "2025-06-13",
-              "link": "https://infrequently.org/2025/06/the-ghost-of-christmas-past/"
             }
           ]
         },
@@ -770,37 +770,6 @@
               "title": "The Way I Code (and have been coding for 30 years)",
               "date": "2025-07-12",
               "link": "https://rosswintle.uk/2025/07/the-way-i-code/"
-            }
-          ]
-        },
-        {
-          "title": "A Tester's Journey",
-          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "SoCraTes 2025 - Coming Home",
-              "date": "2025-08-03",
-              "link": "https://www.lisihocke.com/2025/08/socrates-2025-coming-home.html"
-            },
-            {
-              "title": "Calm and Steady - The Joy and Overload of Starting Something New",
-              "date": "2025-03-10",
-              "link": "https://www.lisihocke.com/2025/03/calm-and-steady-the-joy-and-overload-of-starting-something-new.html"
-            },
-            {
-              "title": "Calm and Steady - Off to a Good Start",
-              "date": "2025-01-31",
-              "link": "https://www.lisihocke.com/2025/01/calm-and-steady-off-to-a-good-start.html"
-            },
-            {
-              "title": "Calm and Steady as She Goes",
-              "date": "2025-01-06",
-              "link": "https://www.lisihocke.com/2025/01/calm-and-steady-as-she-goes.html"
-            },
-            {
-              "title": "2024 - What a Wild Ride",
-              "date": "2024-12-27",
-              "link": "https://www.lisihocke.com/2024/12/2024-what-a-wild-ride.html"
             }
           ]
         },
@@ -1204,6 +1173,37 @@
               "title": "Hold an Open Space Event in just One Hour",
               "date": "2022-12-19",
               "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Book notes",
+              "date": "2025-07-13",
+              "link": "https://robinrendle.com/notes/book-notes/"
+            },
+            {
+              "title": "The End of Everything",
+              "date": "2025-05-21",
+              "link": "https://robinrendle.com/notes/the-end-of-everything/"
+            },
+            {
+              "title": "item-flow",
+              "date": "2025-03-30",
+              "link": "https://robinrendle.com/notes/item-flow/"
+            },
+            {
+              "title": "Humiliation",
+              "date": "2025-03-15",
+              "link": "https://robinrendle.com/notes/humiliation/"
+            },
+            {
+              "title": "Abandon all keyboards",
+              "date": "2025-03-11",
+              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
             }
           ]
         },
@@ -1921,6 +1921,37 @@
           ]
         },
         {
+          "title": "Tooth of the Weasel",
+          "feedUrl": "https://angryweasel.com/blog/feed/",
+          "items": [
+            {
+              "title": "Five for Friday – March 14, 2025",
+              "date": "2025-03-14",
+              "link": "https://angryweasel.com/blog/five-for-friday-march-14-2025/"
+            },
+            {
+              "title": "Five for Friday – March 7, 2025",
+              "date": "2025-03-07",
+              "link": "https://angryweasel.com/blog/five-for-friday-march-7-2025/"
+            },
+            {
+              "title": "Five for Friday – February 21, 2025",
+              "date": "2025-02-21",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-21-2025/"
+            },
+            {
+              "title": "Five for Friday – February 14, 2025",
+              "date": "2025-02-14",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-14-2025/"
+            },
+            {
+              "title": "Five for Friday – February 7, 2025",
+              "date": "2025-02-08",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
+            }
+          ]
+        },
+        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -2461,12 +2492,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-19T03:40:09.199Z",
+  "fetchDate": "2025-08-20T03:39:47.533Z",
   "errors": [
-    "https://angryweasel.com/blog/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://robinrendle.com/feed.xml"
+    "https://infrequently.org/feed/"
   ]
 }

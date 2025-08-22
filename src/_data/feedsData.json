@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "On being earnest",
+              "date": "2025-08-21",
+              "link": "https://gomakethings.com/on-being-earnest/"
+            },
+            {
               "title": "Glue work in times of crisis",
               "date": "2025-08-20",
               "link": "https://gomakethings.com/glue-work-in-times-of-crisis/"
@@ -26,11 +31,37 @@
               "title": "USvsTHEM",
               "date": "2025-08-16",
               "link": "https://gomakethings.com/usvsthem/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Sapir-Whorf does not apply to Programming Languages",
+              "date": "2025-08-21",
+              "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/"
             },
             {
-              "title": "CSS-only solutions are not accessible",
-              "date": "2025-08-15",
-              "link": "https://gomakethings.com/css-only-solutions-are-not-accessible/"
+              "title": "Software books I wish I could read",
+              "date": "2025-08-06",
+              "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/"
+            },
+            {
+              "title": "2000 words about arrays and tables",
+              "date": "2025-07-30",
+              "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/"
+            },
+            {
+              "title": "Programming Language Escape Hatches",
+              "date": "2025-07-24",
+              "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/"
+            },
+            {
+              "title": "Maybe writing speed actually is a bottleneck for programming",
+              "date": "2025-07-17",
+              "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/"
             }
           ]
         },
@@ -646,37 +677,6 @@
               "title": "Foggy feeds: the decline in my feed reader subscriptions",
               "date": "2025-05-16",
               "link": "https://www.baldurbjarnason.com/notes/2025/foggy-feeds/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Software books I wish I could read",
-              "date": "2025-08-06",
-              "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/"
-            },
-            {
-              "title": "2000 words about arrays and tables",
-              "date": "2025-07-30",
-              "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/"
-            },
-            {
-              "title": "Programming Language Escape Hatches",
-              "date": "2025-07-24",
-              "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/"
-            },
-            {
-              "title": "Maybe writing speed actually is a bottleneck for programming",
-              "date": "2025-07-17",
-              "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/"
-            },
-            {
-              "title": "Logic for Programmers Turns One",
-              "date": "2025-07-08",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-21T03:38:18.120Z",
+  "fetchDate": "2025-08-22T03:39:17.759Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

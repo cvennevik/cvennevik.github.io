@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "Semantic classes > BEM",
+              "date": "2025-08-22",
+              "link": "https://gomakethings.com/semantic-classes-bem/"
+            },
+            {
               "title": "On being earnest",
               "date": "2025-08-21",
               "link": "https://gomakethings.com/on-being-earnest/"
@@ -26,11 +31,63 @@
               "title": "How to use Playwright for unit testing",
               "date": "2025-08-18",
               "link": "https://gomakethings.com/how-to-use-playwright-for-unit-testing/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-22",
+              "link": "https://dbushell.com/notes/2025-08-22T17:50Z/"
             },
             {
-              "title": "USvsTHEM",
-              "date": "2025-08-16",
-              "link": "https://gomakethings.com/usvsthem/"
+              "date": "2025-08-22",
+              "link": "https://dbushell.com/notes/2025-08-22T10:01Z/"
+            },
+            {
+              "date": "2025-08-22",
+              "link": "https://dbushell.com/notes/2025-08-22T06:02Z/"
+            },
+            {
+              "date": "2025-08-19",
+              "link": "https://dbushell.com/notes/2025-08-19T06:20Z/"
+            },
+            {
+              "date": "2025-08-19",
+              "link": "https://dbushell.com/notes/2025-08-19T05:52Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Quit being support staff",
+              "date": "2025-08-22",
+              "link": "https://anniemueller.com/posts/quit-being-support-staff"
+            },
+            {
+              "title": "Navigating the Obvious Shoulds",
+              "date": "2025-08-12",
+              "link": "https://anniemueller.com/posts/navigating-the-obvious-shoulds"
+            },
+            {
+              "title": "Small Web July recap",
+              "date": "2025-08-04",
+              "link": "https://anniemueller.com/posts/small-web-july-recap"
+            },
+            {
+              "title": "Reading notes: May, June, July",
+              "date": "2025-07-30",
+              "link": "https://anniemueller.com/posts/reading-notes-may-june-july"
+            },
+            {
+              "title": "Let there be lapses",
+              "date": "2025-07-28",
+              "link": "https://anniemueller.com/posts/let-there-be-lapses"
             }
           ]
         },
@@ -186,32 +243,6 @@
               "title": "Calm and Steady as She Goes",
               "date": "2025-01-06",
               "link": "https://www.lisihocke.com/2025/01/calm-and-steady-as-she-goes.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-08-19",
-              "link": "https://dbushell.com/notes/2025-08-19T06:20Z/"
-            },
-            {
-              "date": "2025-08-19",
-              "link": "https://dbushell.com/notes/2025-08-19T05:52Z/"
-            },
-            {
-              "date": "2025-08-18",
-              "link": "https://dbushell.com/notes/2025-08-18T07:11Z/"
-            },
-            {
-              "date": "2025-08-16",
-              "link": "https://dbushell.com/notes/2025-08-16T11:29Z/"
-            },
-            {
-              "date": "2025-08-16",
-              "link": "https://dbushell.com/notes/2025-08-16T06:39Z/"
             }
           ]
         },
@@ -522,37 +553,6 @@
               "title": "Safari at WWDC '25: The Ghost of Christmas Past",
               "date": "2025-06-13",
               "link": "https://infrequently.org/2025/06/the-ghost-of-christmas-past/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Navigating the Obvious Shoulds",
-              "date": "2025-08-12",
-              "link": "https://anniemueller.com/posts/navigating-the-obvious-shoulds"
-            },
-            {
-              "title": "Small Web July recap",
-              "date": "2025-08-04",
-              "link": "https://anniemueller.com/posts/small-web-july-recap"
-            },
-            {
-              "title": "Reading notes: May, June, July",
-              "date": "2025-07-30",
-              "link": "https://anniemueller.com/posts/reading-notes-may-june-july"
-            },
-            {
-              "title": "Let there be lapses",
-              "date": "2025-07-28",
-              "link": "https://anniemueller.com/posts/let-there-be-lapses"
-            },
-            {
-              "title": "Hey, I care about you, but I do not care what the robot says about you",
-              "date": "2025-07-27",
-              "link": "https://anniemueller.com/posts/hey-i-care-about-you-but-i-do-not-care-what-the-robot-says-about-you"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-22T03:39:17.759Z",
+  "fetchDate": "2025-08-23T03:33:20.095Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

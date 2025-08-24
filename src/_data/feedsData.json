@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Fix the Signal",
+              "date": "2025-08-23",
+              "link": "https://robinrendle.com/notes/fix-the-signal/"
+            },
+            {
+              "title": "Book notes",
+              "date": "2025-07-13",
+              "link": "https://robinrendle.com/notes/book-notes/"
+            },
+            {
+              "title": "The End of Everything",
+              "date": "2025-05-21",
+              "link": "https://robinrendle.com/notes/the-end-of-everything/"
+            },
+            {
+              "title": "item-flow",
+              "date": "2025-03-30",
+              "link": "https://robinrendle.com/notes/item-flow/"
+            },
+            {
+              "title": "Humiliation",
+              "date": "2025-03-15",
+              "link": "https://robinrendle.com/notes/humiliation/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: Loops in JavaScript",
+              "date": "2025-08-23",
+              "link": "https://2ality.com/2025/08/javascript-loops.html"
+            },
+            {
+              "title": "Learning web development: Booleans, comparisons and <code>if</code> statements",
+              "date": "2025-08-20",
+              "link": "https://2ality.com/2025/08/javascript-booleans-comparisons-if.html"
+            },
+            {
+              "title": "Learning web development: Arrays in JavaScript",
+              "date": "2025-08-18",
+              "link": "https://2ality.com/2025/08/javascript-arrays.html"
+            },
+            {
+              "title": "Learning web development: Strings and methods in JavaScript",
+              "date": "2025-08-17",
+              "link": "https://2ality.com/2025/08/javascript-strings-methods.html"
+            },
+            {
+              "title": "Learning web development: Numbers, variables, functions in JavaScript",
+              "date": "2025-08-15",
+              "link": "https://2ality.com/2025/08/javascript-numbers-variables-functions.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-23",
+              "link": "https://dbushell.com/notes/2025-08-23T07:32Z/"
+            },
+            {
+              "date": "2025-08-22",
+              "link": "https://dbushell.com/notes/2025-08-22T17:50Z/"
+            },
+            {
+              "date": "2025-08-22",
+              "link": "https://dbushell.com/notes/2025-08-22T10:01Z/"
+            },
+            {
+              "date": "2025-08-22",
+              "link": "https://dbushell.com/notes/2025-08-22T06:02Z/"
+            },
+            {
+              "date": "2025-08-19",
+              "link": "https://dbushell.com/notes/2025-08-19T06:20Z/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -31,32 +119,6 @@
               "title": "How to use Playwright for unit testing",
               "date": "2025-08-18",
               "link": "https://gomakethings.com/how-to-use-playwright-for-unit-testing/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-08-22",
-              "link": "https://dbushell.com/notes/2025-08-22T17:50Z/"
-            },
-            {
-              "date": "2025-08-22",
-              "link": "https://dbushell.com/notes/2025-08-22T10:01Z/"
-            },
-            {
-              "date": "2025-08-22",
-              "link": "https://dbushell.com/notes/2025-08-22T06:02Z/"
-            },
-            {
-              "date": "2025-08-19",
-              "link": "https://dbushell.com/notes/2025-08-19T06:20Z/"
-            },
-            {
-              "date": "2025-08-19",
-              "link": "https://dbushell.com/notes/2025-08-19T05:52Z/"
             }
           ]
         },
@@ -119,37 +181,6 @@
               "title": "Maybe writing speed actually is a bottleneck for programming",
               "date": "2025-07-17",
               "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Learning web development: Booleans, comparisons and <code>if</code> statements",
-              "date": "2025-08-20",
-              "link": "https://2ality.com/2025/08/javascript-booleans-comparisons-if.html"
-            },
-            {
-              "title": "Learning web development: Arrays in JavaScript",
-              "date": "2025-08-18",
-              "link": "https://2ality.com/2025/08/javascript-arrays.html"
-            },
-            {
-              "title": "Learning web development: Strings and methods in JavaScript",
-              "date": "2025-08-17",
-              "link": "https://2ality.com/2025/08/javascript-strings-methods.html"
-            },
-            {
-              "title": "Learning web development: Numbers, variables, functions in JavaScript",
-              "date": "2025-08-15",
-              "link": "https://2ality.com/2025/08/javascript-numbers-variables-functions.html"
-            },
-            {
-              "title": "New series of blog posts: learning web development",
-              "date": "2025-08-14",
-              "link": "https://2ality.com/2025/08/learning-web-dev-toc.html"
             }
           ]
         },
@@ -1204,37 +1235,6 @@
               "title": "Hold an Open Space Event in just One Hour",
               "date": "2022-12-19",
               "link": "https://coding-is-like-cooking.info/2022/12/hold-an-open-space-event-in-just-one-hour/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Book notes",
-              "date": "2025-07-13",
-              "link": "https://robinrendle.com/notes/book-notes/"
-            },
-            {
-              "title": "The End of Everything",
-              "date": "2025-05-21",
-              "link": "https://robinrendle.com/notes/the-end-of-everything/"
-            },
-            {
-              "title": "item-flow",
-              "date": "2025-03-30",
-              "link": "https://robinrendle.com/notes/item-flow/"
-            },
-            {
-              "title": "Humiliation",
-              "date": "2025-03-15",
-              "link": "https://robinrendle.com/notes/humiliation/"
-            },
-            {
-              "title": "Abandon all keyboards",
-              "date": "2025-03-11",
-              "link": "https://robinrendle.com/notes/abandon-all-keyboards/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-23T03:33:20.095Z",
+  "fetchDate": "2025-08-24T03:46:08.526Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

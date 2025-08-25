@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-24",
+              "link": "https://dbushell.com/notes/2025-08-24T09:19Z/"
+            },
+            {
+              "date": "2025-08-23",
+              "link": "https://dbushell.com/notes/2025-08-23T07:32Z/"
+            },
+            {
+              "date": "2025-08-22",
+              "link": "https://dbushell.com/notes/2025-08-22T17:50Z/"
+            },
+            {
+              "date": "2025-08-22",
+              "link": "https://dbushell.com/notes/2025-08-22T10:01Z/"
+            },
+            {
+              "date": "2025-08-22",
+              "link": "https://dbushell.com/notes/2025-08-22T06:02Z/"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "What if dependencies were injected?",
+              "date": "2025-08-24",
+              "link": "https://garoof.no/java/ioc.html"
+            },
+            {
+              "title": "Using Java types for keywordy args",
+              "date": "2025-08-02",
+              "link": "https://garoof.no/java/keywordy-types.html"
+            },
+            {
+              "title": "Smalltalk syntax is nice",
+              "date": "2025-08-01",
+              "link": "https://garoof.no/notes/smalltalk-syntax.html"
+            },
+            {
+              "title": "Sums and products in Java",
+              "date": "2025-07-19",
+              "link": "https://garoof.no/java/sums-and-products.html"
+            },
+            {
+              "title": "Somewhat non-miserable feature toggling",
+              "date": "2025-07-17",
+              "link": "https://garoof.no/java/non-miserable-feature-toggling.html"
+            }
+          ]
+        },
+        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -66,28 +123,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
             {
+              "title": "How adding a flex-wrap almost spiraled out of control",
               "date": "2025-08-23",
-              "link": "https://dbushell.com/notes/2025-08-23T07:32Z/"
+              "link": "https://smallsheds.garden/blog/2025/how-adding-a-flew-wrap-almost-spiraled-out-of-control/"
             },
             {
-              "date": "2025-08-22",
-              "link": "https://dbushell.com/notes/2025-08-22T17:50Z/"
+              "title": "Some of the things I did after being off for a few weeks",
+              "date": "2025-07-01",
+              "link": "https://smallsheds.garden/blog/2025/some-of-the-things-i-did-after-being-off-for-a-few-weeks/"
             },
             {
-              "date": "2025-08-22",
-              "link": "https://dbushell.com/notes/2025-08-22T10:01Z/"
+              "title": "How essential are your testers?",
+              "date": "2025-05-20",
+              "link": "https://smallsheds.garden/blog/2025/how-essential-are-your-testers/"
             },
             {
-              "date": "2025-08-22",
-              "link": "https://dbushell.com/notes/2025-08-22T06:02Z/"
+              "title": "Five levels of note-taking in meetings",
+              "date": "2025-04-20",
+              "link": "https://smallsheds.garden/blog/2025/five-levels-of-note-taking-in-meetings/"
             },
             {
-              "date": "2025-08-19",
-              "link": "https://dbushell.com/notes/2025-08-19T06:20Z/"
+              "title": "Benchmarking counterstring implementations in TypeScript",
+              "date": "2025-02-22",
+              "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
             }
           ]
         },
@@ -464,37 +526,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "My Thoughts on the State of Surveys",
-              "date": "2025-08-14",
-              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
-            },
-            {
-              "title": "1.2.5: Adversarial Conformance",
-              "date": "2025-08-02",
-              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
-            },
-            {
-              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
-              "date": "2025-08-01",
-              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
-            },
-            {
-              "title": "#ARTY Could Get You Sued",
-              "date": "2025-07-14",
-              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
-            },
-            {
-              "title": "#Accesstive Will Get You Sued",
-              "date": "2025-07-08",
-              "link": "https://adrianroselli.com/2025/07/accesstive-will-get-you-sued.html"
-            }
-          ]
-        },
-        {
           "title": "Mathias Verraes",
           "feedUrl": "https://verraes.net/feed.atom",
           "items": [
@@ -522,6 +553,37 @@
               "title": "Surfacing Worldviews in Design",
               "date": "2023-07-03",
               "link": "https://verraes.net/2023/07/surfacing-worldviews-in-design/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "My Thoughts on the State of Surveys",
+              "date": "2025-08-14",
+              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
+            },
+            {
+              "title": "1.2.5: Adversarial Conformance",
+              "date": "2025-08-02",
+              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
+            },
+            {
+              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
+              "date": "2025-08-01",
+              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
+            },
+            {
+              "title": "#ARTY Could Get You Sued",
+              "date": "2025-07-14",
+              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
+            },
+            {
+              "title": "#Accesstive Will Get You Sued",
+              "date": "2025-07-08",
+              "link": "https://adrianroselli.com/2025/07/accesstive-will-get-you-sued.html"
             }
           ]
         },
@@ -588,37 +650,6 @@
           ]
         },
         {
-          "title": "Marvin Hagemeister",
-          "feedUrl": "https://marvinh.dev/feed.xml",
-          "items": [
-            {
-              "title": "Speeding up the JavaScript ecosystem - Semver",
-              "date": "2025-08-10",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
-              "date": "2025-02-23",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
-            },
-            {
-              "title": "The modern way to write JavaScript servers",
-              "date": "2025-01-25",
-              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
-              "date": "2024-07-06",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
-              "date": "2024-05-15",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -646,6 +677,37 @@
               "title": "The Struggle of Public Speaking",
               "date": "2025-06-22",
               "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
+            }
+          ]
+        },
+        {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Speeding up the JavaScript ecosystem - Semver",
+              "date": "2025-08-10",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
+              "date": "2025-02-23",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
+            },
+            {
+              "title": "The modern way to write JavaScript servers",
+              "date": "2025-01-25",
+              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
+              "date": "2024-07-06",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
+              "date": "2024-05-15",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
             }
           ]
         },
@@ -863,37 +925,6 @@
               "title": "BITV-Zertifizierung der Factorial-Website",
               "date": "2025-05-15",
               "link": "https://fynn.be/talks/factorial-website-bitv/"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Using Java types for keywordy args",
-              "date": "2025-08-02",
-              "link": "https://garoof.no/java/keywordy-types.html"
-            },
-            {
-              "title": "Smalltalk syntax is nice",
-              "date": "2025-08-01",
-              "link": "https://garoof.no/notes/smalltalk-syntax.html"
-            },
-            {
-              "title": "Sums and products in Java",
-              "date": "2025-07-19",
-              "link": "https://garoof.no/java/sums-and-products.html"
-            },
-            {
-              "title": "Somewhat non-miserable feature toggling",
-              "date": "2025-07-17",
-              "link": "https://garoof.no/java/non-miserable-feature-toggling.html"
-            },
-            {
-              "title": "Putting the lambdas onto the webpage",
-              "date": "2025-03-30",
-              "link": "https://garoof.no/notes/luambda-calculus.html#pub-Zl3WJJ"
             }
           ]
         },
@@ -1328,37 +1359,6 @@
               "title": "Reading Zanzibar",
               "date": "2025-05-02",
               "link": "https://macwright.com/2025/05/02/reading-zanzibar.html"
-            }
-          ]
-        },
-        {
-          "title": "Joep Schuurkes",
-          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
-          "items": [
-            {
-              "title": "Some of the things I did after being off for a few weeks",
-              "date": "2025-07-01",
-              "link": "https://smallsheds.garden/blog/2025/some-of-the-things-i-did-after-being-off-for-a-few-weeks/"
-            },
-            {
-              "title": "How essential are your testers?",
-              "date": "2025-05-20",
-              "link": "https://smallsheds.garden/blog/2025/how-essential-are-your-testers/"
-            },
-            {
-              "title": "Five levels of note-taking in meetings",
-              "date": "2025-04-20",
-              "link": "https://smallsheds.garden/blog/2025/five-levels-of-note-taking-in-meetings/"
-            },
-            {
-              "title": "Benchmarking counterstring implementations in TypeScript",
-              "date": "2025-02-22",
-              "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
-            },
-            {
-              "title": "Optimizing for moments of discovery",
-              "date": "2025-02-15",
-              "link": "https://smallsheds.garden/blog/2025/optimizing-for-moments-of-discovery/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-24T03:46:08.526Z",
+  "fetchDate": "2025-08-25T03:45:28.986Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,9 +4,230 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "Apple vs. Facebook is Kayfabe",
+              "date": "2025-08-25",
+              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
+            },
+            {
+              "title": "Put Names and Dates On Documents",
+              "date": "2025-08-13",
+              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
+            },
+            {
+              "title": "How Do Committees Fail To Invent?",
+              "date": "2025-08-11",
+              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
+            },
+            {
+              "title": "Links? Links!",
+              "date": "2025-07-16",
+              "link": "https://infrequently.org/2025/07/links/"
+            },
+            {
+              "title": "Conferences, Clarity, and Smokescreens",
+              "date": "2025-06-27",
+              "link": "https://infrequently.org/2025/06/conferences-clarity-and-smokescreens/"
+            }
+          ]
+        },
+        {
+          "title": "einarwh",
+          "feedUrl": "https://einarwh.no/feed/atom.xml",
+          "items": [
+            {
+              "title": "Nullable vs nullable in C#",
+              "date": "2025-08-25",
+              "link": "https://einarwh.no/blog/2025/08/25/nullable-vs-nullable/"
+            },
+            {
+              "title": "Disentangling intertwingled magicks in ASP.NET Core Web APIs",
+              "date": "2025-08-15",
+              "link": "https://einarwh.no/blog/2025/08/15/disentangling-magicks/"
+            },
+            {
+              "title": "Book heuristics",
+              "date": "2025-06-20",
+              "link": "https://einarwh.no/blog/2025/06/20/book-heuristics/"
+            },
+            {
+              "title": "Socio-technical is a big word",
+              "date": "2025-06-16",
+              "link": "https://einarwh.no/blog/2025/06/16/sociotechnical-is-a-big-word/"
+            },
+            {
+              "title": "What's a tomato?",
+              "date": "2025-05-11",
+              "link": "https://einarwh.no/blog/2025/05/11/whats-a-tomato/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Self-hosted Forgejo Releases (the Final Boss)",
+              "date": "2025-08-25",
+              "link": "https://dbushell.com/2025/08/25/self-hosted-forgejo-actions-releases/"
+            },
+            {
+              "title": "RSS Club #002: Dino Edition",
+              "date": "2025-08-17",
+              "link": "https://dbushell.com/2025/08/17/RSS002/"
+            },
+            {
+              "title": "Self-hosted Forgejo Actions Runner",
+              "date": "2025-08-15",
+              "link": "https://dbushell.com/2025/08/15/self-hosted-forgejo-actions-runner/"
+            },
+            {
+              "title": "GitHub Ensloppification",
+              "date": "2025-08-11",
+              "link": "https://dbushell.com/2025/08/11/github-ensloppification/"
+            },
+            {
+              "title": "RSS Club #001",
+              "date": "2025-08-03",
+              "link": "https://dbushell.com/2025/08/03/RSS001/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Going JavaScript-free with the new Invoker Command API!",
+              "date": "2025-08-25",
+              "link": "https://gomakethings.com/going-javascript-free-with-the-new-invoker-command-api/"
+            },
+            {
+              "title": "Semantic classes > BEM",
+              "date": "2025-08-22",
+              "link": "https://gomakethings.com/semantic-classes-bem/"
+            },
+            {
+              "title": "On being earnest",
+              "date": "2025-08-21",
+              "link": "https://gomakethings.com/on-being-earnest/"
+            },
+            {
+              "title": "Glue work in times of crisis",
+              "date": "2025-08-20",
+              "link": "https://gomakethings.com/glue-work-in-times-of-crisis/"
+            },
+            {
+              "title": "Building a custom download GUI",
+              "date": "2025-08-19",
+              "link": "https://gomakethings.com/building-a-custom-download-gui/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Successive Prototypes Bridge the Gap Between Idea and Reality",
+              "date": "2025-08-25",
+              "link": "https://blog.jim-nielsen.com/2025/idea-to-reality-with-prototypes/"
+            },
+            {
+              "title": "Consistent Navigation Across My Inconsistent Websites, Part II",
+              "date": "2025-08-19",
+              "link": "https://blog.jim-nielsen.com/2025/consistent-nav-across-inconsistent-sites-pt-ii/"
+            },
+            {
+              "title": "Bottomless Subtleties",
+              "date": "2025-08-17",
+              "link": "https://blog.jim-nielsen.com/2025/bottomless-subtleties/"
+            },
+            {
+              "title": "Just a Little More Context Bro, I Promise, and It’ll Fix Everything",
+              "date": "2025-08-15",
+              "link": "https://blog.jim-nielsen.com/2025/more-context-bro/"
+            },
+            {
+              "title": "Choosing Tools To Make Websites",
+              "date": "2025-08-13",
+              "link": "https://blog.jim-nielsen.com/2025/choosing-tools-for-making-websites/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: Shells and Node.js",
+              "date": "2025-08-25",
+              "link": "https://2ality.com/2025/08/shells-nodejs.html"
+            },
+            {
+              "title": "Learning web development: Loops in JavaScript",
+              "date": "2025-08-23",
+              "link": "https://2ality.com/2025/08/javascript-loops.html"
+            },
+            {
+              "title": "Learning web development: Booleans, comparisons and <code>if</code> statements",
+              "date": "2025-08-20",
+              "link": "https://2ality.com/2025/08/javascript-booleans-comparisons-if.html"
+            },
+            {
+              "title": "Learning web development: Arrays in JavaScript",
+              "date": "2025-08-18",
+              "link": "https://2ality.com/2025/08/javascript-arrays.html"
+            },
+            {
+              "title": "Learning web development: Strings and methods in JavaScript",
+              "date": "2025-08-17",
+              "link": "https://2ality.com/2025/08/javascript-strings-methods.html"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Misadventures running Clone Hero on Linux",
+              "date": "2025-08-25",
+              "link": "https://moonbase.lgbt/blog/clone-hero-linux/"
+            },
+            {
+              "title": "UED: Unthinkable",
+              "date": "2025-08-01",
+              "link": "https://moonbase.lgbt/blog/ued-unthinkable/"
+            },
+            {
+              "title": "UED: Ad Nauseam",
+              "date": "2025-07-30",
+              "link": "https://moonbase.lgbt/blog/ued-ad-nauseam/"
+            },
+            {
+              "title": "Rachel’s iPod",
+              "date": "2025-07-21",
+              "link": "https://moonbase.lgbt/blog/rachels-ipod/"
+            },
+            {
+              "title": "UED: Watson",
+              "date": "2025-07-20",
+              "link": "https://moonbase.lgbt/blog/ued-watson/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2025-08-25",
+              "link": "https://dbushell.com/notes/2025-08-25T10:13Z/"
+            },
             {
               "date": "2025-08-24",
               "link": "https://dbushell.com/notes/2025-08-24T09:19Z/"
@@ -22,10 +243,6 @@
             {
               "date": "2025-08-22",
               "link": "https://dbushell.com/notes/2025-08-22T10:01Z/"
-            },
-            {
-              "date": "2025-08-22",
-              "link": "https://dbushell.com/notes/2025-08-22T06:02Z/"
             }
           ]
         },
@@ -92,44 +309,13 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Learning web development: Loops in JavaScript",
-              "date": "2025-08-23",
-              "link": "https://2ality.com/2025/08/javascript-loops.html"
-            },
-            {
-              "title": "Learning web development: Booleans, comparisons and <code>if</code> statements",
-              "date": "2025-08-20",
-              "link": "https://2ality.com/2025/08/javascript-booleans-comparisons-if.html"
-            },
-            {
-              "title": "Learning web development: Arrays in JavaScript",
-              "date": "2025-08-18",
-              "link": "https://2ality.com/2025/08/javascript-arrays.html"
-            },
-            {
-              "title": "Learning web development: Strings and methods in JavaScript",
-              "date": "2025-08-17",
-              "link": "https://2ality.com/2025/08/javascript-strings-methods.html"
-            },
-            {
-              "title": "Learning web development: Numbers, variables, functions in JavaScript",
-              "date": "2025-08-15",
-              "link": "https://2ality.com/2025/08/javascript-numbers-variables-functions.html"
-            }
-          ]
-        },
-        {
           "title": "Joep Schuurkes",
           "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
             {
               "title": "How adding a flex-wrap almost spiraled out of control",
               "date": "2025-08-23",
-              "link": "https://smallsheds.garden/blog/2025/how-adding-a-flew-wrap-almost-spiraled-out-of-control/"
+              "link": "https://smallsheds.garden/blog/2025/how-adding-a-flex-wrap-almost-spiraled-out-of-control/"
             },
             {
               "title": "Some of the things I did after being off for a few weeks",
@@ -150,37 +336,6 @@
               "title": "Benchmarking counterstring implementations in TypeScript",
               "date": "2025-02-22",
               "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Semantic classes > BEM",
-              "date": "2025-08-22",
-              "link": "https://gomakethings.com/semantic-classes-bem/"
-            },
-            {
-              "title": "On being earnest",
-              "date": "2025-08-21",
-              "link": "https://gomakethings.com/on-being-earnest/"
-            },
-            {
-              "title": "Glue work in times of crisis",
-              "date": "2025-08-20",
-              "link": "https://gomakethings.com/glue-work-in-times-of-crisis/"
-            },
-            {
-              "title": "Building a custom download GUI",
-              "date": "2025-08-19",
-              "link": "https://gomakethings.com/building-a-custom-download-gui/"
-            },
-            {
-              "title": "How to use Playwright for unit testing",
-              "date": "2025-08-18",
-              "link": "https://gomakethings.com/how-to-use-playwright-for-unit-testing/"
             }
           ]
         },
@@ -278,37 +433,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Consistent Navigation Across My Inconsistent Websites, Part II",
-              "date": "2025-08-19",
-              "link": "https://blog.jim-nielsen.com/2025/consistent-nav-across-inconsistent-sites-pt-ii/"
-            },
-            {
-              "title": "Bottomless Subtleties",
-              "date": "2025-08-17",
-              "link": "https://blog.jim-nielsen.com/2025/bottomless-subtleties/"
-            },
-            {
-              "title": "Just a Little More Context Bro, I Promise, and It’ll Fix Everything",
-              "date": "2025-08-15",
-              "link": "https://blog.jim-nielsen.com/2025/more-context-bro/"
-            },
-            {
-              "title": "Choosing Tools To Make Websites",
-              "date": "2025-08-13",
-              "link": "https://blog.jim-nielsen.com/2025/choosing-tools-for-making-websites/"
-            },
-            {
-              "title": "Sit On Your Ass Web Development",
-              "date": "2025-08-10",
-              "link": "https://blog.jim-nielsen.com/2025/sit-on-your-ass-web-dev/"
-            }
-          ]
-        },
-        {
           "title": "A Tester's Journey",
           "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
           "items": [
@@ -371,37 +495,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "RSS Club #002: Dino Edition",
-              "date": "2025-08-17",
-              "link": "https://dbushell.com/2025/08/17/RSS002/"
-            },
-            {
-              "title": "Self-hosted Forgejo Actions Runner",
-              "date": "2025-08-15",
-              "link": "https://dbushell.com/2025/08/15/self-hosted-forgejo-actions-runner/"
-            },
-            {
-              "title": "GitHub Ensloppification",
-              "date": "2025-08-11",
-              "link": "https://dbushell.com/2025/08/11/github-ensloppification/"
-            },
-            {
-              "title": "RSS Club #001",
-              "date": "2025-08-03",
-              "link": "https://dbushell.com/2025/08/03/RSS001/"
-            },
-            {
-              "title": "Composable Adopted Stylesheets",
-              "date": "2025-08-02",
-              "link": "https://dbushell.com/2025/08/02/composable-adopted-stylesheets/"
-            }
-          ]
-        },
-        {
           "title": "Cecilie Vennevik's blog",
           "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
           "items": [
@@ -460,37 +553,6 @@
               "title": "Hairy Maclary's Greatest Hits",
               "date": "2025-07-30",
               "link": "https://flamedfury.com/posts/hairy-maclarys-greatest-hits/"
-            }
-          ]
-        },
-        {
-          "title": "einarwh",
-          "feedUrl": "https://einarwh.no/feed/atom.xml",
-          "items": [
-            {
-              "title": "Disentangling intertwingled magicks in ASP.NET Core Web APIs",
-              "date": "2025-08-15",
-              "link": "https://einarwh.no/blog/2025/08/15/disentangling-magicks/"
-            },
-            {
-              "title": "Book heuristics",
-              "date": "2025-06-20",
-              "link": "https://einarwh.no/blog/2025/06/20/book-heuristics/"
-            },
-            {
-              "title": "Socio-technical is a big word",
-              "date": "2025-06-16",
-              "link": "https://einarwh.no/blog/2025/06/16/sociotechnical-is-a-big-word/"
-            },
-            {
-              "title": "What's a tomato?",
-              "date": "2025-05-11",
-              "link": "https://einarwh.no/blog/2025/05/11/whats-a-tomato/"
-            },
-            {
-              "title": "Socio-technical API patterns",
-              "date": "2025-04-28",
-              "link": "https://einarwh.no/blog/2025/04/28/sociotechnical-api-patterns/"
             }
           ]
         },
@@ -619,33 +681,33 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
           "items": [
             {
-              "title": "Put Names and Dates On Documents",
-              "date": "2025-08-13",
-              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
+              "title": "Speeding up the JavaScript ecosystem - Semver",
+              "date": "2025-08-10",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
             },
             {
-              "title": "How Do Committees Fail To Invent?",
-              "date": "2025-08-11",
-              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
+              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
+              "date": "2025-02-23",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
             },
             {
-              "title": "Links? Links!",
-              "date": "2025-07-16",
-              "link": "https://infrequently.org/2025/07/links/"
+              "title": "The modern way to write JavaScript servers",
+              "date": "2025-01-25",
+              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
             },
             {
-              "title": "Conferences, Clarity, and Smokescreens",
-              "date": "2025-06-27",
-              "link": "https://infrequently.org/2025/06/conferences-clarity-and-smokescreens/"
+              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
+              "date": "2024-07-06",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
             },
             {
-              "title": "Safari at WWDC '25: The Ghost of Christmas Past",
-              "date": "2025-06-13",
-              "link": "https://infrequently.org/2025/06/the-ghost-of-christmas-past/"
+              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
+              "date": "2024-05-15",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
             }
           ]
         },
@@ -677,37 +739,6 @@
               "title": "The Struggle of Public Speaking",
               "date": "2025-06-22",
               "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
-            }
-          ]
-        },
-        {
-          "title": "Marvin Hagemeister",
-          "feedUrl": "https://marvinh.dev/feed.xml",
-          "items": [
-            {
-              "title": "Speeding up the JavaScript ecosystem - Semver",
-              "date": "2025-08-10",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
-              "date": "2025-02-23",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
-            },
-            {
-              "title": "The modern way to write JavaScript servers",
-              "date": "2025-01-25",
-              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
-              "date": "2024-07-06",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
-              "date": "2024-05-15",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
             }
           ]
         },
@@ -925,37 +956,6 @@
               "title": "BITV-Zertifizierung der Factorial-Website",
               "date": "2025-05-15",
               "link": "https://fynn.be/talks/factorial-website-bitv/"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "UED: Unthinkable",
-              "date": "2025-08-01",
-              "link": "https://moonbase.lgbt/blog/ued-unthinkable/"
-            },
-            {
-              "title": "UED: Ad Nauseam",
-              "date": "2025-07-30",
-              "link": "https://moonbase.lgbt/blog/ued-ad-nauseam/"
-            },
-            {
-              "title": "Rachel’s iPod",
-              "date": "2025-07-21",
-              "link": "https://moonbase.lgbt/blog/rachels-ipod/"
-            },
-            {
-              "title": "UED: Watson",
-              "date": "2025-07-20",
-              "link": "https://moonbase.lgbt/blog/ued-watson/"
-            },
-            {
-              "title": "You LLM-loving motherfuckers can pry the em dash from my cold dead hands",
-              "date": "2025-06-13",
-              "link": "https://moonbase.lgbt/blog/you-llm-loving-motherfuckers/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-25T03:45:28.986Z",
+  "fetchDate": "2025-08-26T03:39:34.374Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

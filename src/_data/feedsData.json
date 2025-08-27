@@ -4,33 +4,152 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
             {
-              "title": "Apple vs. Facebook is Kayfabe",
+              "title": "Ritualize anything",
+              "date": "2025-08-27",
+              "link": "https://anniemueller.com/posts/ritualize-anything"
+            },
+            {
+              "title": "Quit being support staff",
+              "date": "2025-08-22",
+              "link": "https://anniemueller.com/posts/quit-being-support-staff"
+            },
+            {
+              "title": "Navigating the Obvious Shoulds",
+              "date": "2025-08-12",
+              "link": "https://anniemueller.com/posts/navigating-the-obvious-shoulds"
+            },
+            {
+              "title": "Small Web July recap",
+              "date": "2025-08-04",
+              "link": "https://anniemueller.com/posts/small-web-july-recap"
+            },
+            {
+              "title": "Reading notes: May, June, July",
+              "date": "2025-07-30",
+              "link": "https://anniemueller.com/posts/reading-notes-may-june-july"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "How to dismiss native HTML dialog elements when the backdrop is clicked",
+              "date": "2025-08-26",
+              "link": "https://gomakethings.com/how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
+            },
+            {
+              "title": "Going JavaScript-free with the new Invoker Command API!",
               "date": "2025-08-25",
-              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
+              "link": "https://gomakethings.com/going-javascript-free-with-the-new-invoker-command-api/"
             },
             {
-              "title": "Put Names and Dates On Documents",
-              "date": "2025-08-13",
-              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
+              "title": "Semantic classes > BEM",
+              "date": "2025-08-22",
+              "link": "https://gomakethings.com/semantic-classes-bem/"
             },
             {
-              "title": "How Do Committees Fail To Invent?",
+              "title": "On being earnest",
+              "date": "2025-08-21",
+              "link": "https://gomakethings.com/on-being-earnest/"
+            },
+            {
+              "title": "Glue work in times of crisis",
+              "date": "2025-08-20",
+              "link": "https://gomakethings.com/glue-work-in-times-of-crisis/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: Web servers",
+              "date": "2025-08-26",
+              "link": "https://2ality.com/2025/08/web-servers.html"
+            },
+            {
+              "title": "Learning web development: Shells and Node.js",
+              "date": "2025-08-25",
+              "link": "https://2ality.com/2025/08/shells-nodejs.html"
+            },
+            {
+              "title": "Learning web development: Loops in JavaScript",
+              "date": "2025-08-23",
+              "link": "https://2ality.com/2025/08/javascript-loops.html"
+            },
+            {
+              "title": "Learning web development: Booleans, comparisons and <code>if</code> statements in JavaScript",
+              "date": "2025-08-20",
+              "link": "https://2ality.com/2025/08/javascript-booleans-comparisons-if.html"
+            },
+            {
+              "title": "Learning web development: Arrays in JavaScript",
+              "date": "2025-08-18",
+              "link": "https://2ality.com/2025/08/javascript-arrays.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-26",
+              "link": "https://dbushell.com/notes/2025-08-26T11:39Z/"
+            },
+            {
+              "date": "2025-08-25",
+              "link": "https://dbushell.com/notes/2025-08-25T10:13Z/"
+            },
+            {
+              "date": "2025-08-24",
+              "link": "https://dbushell.com/notes/2025-08-24T09:19Z/"
+            },
+            {
+              "date": "2025-08-23",
+              "link": "https://dbushell.com/notes/2025-08-23T07:32Z/"
+            },
+            {
+              "date": "2025-08-22",
+              "link": "https://dbushell.com/notes/2025-08-22T17:50Z/"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "New Old Eminem",
+              "date": "2025-08-26",
+              "link": "https://flamedfury.com/posts/new-old-eminem/"
+            },
+            {
+              "title": "I Never Liked MySpace",
+              "date": "2025-08-16",
+              "link": "https://flamedfury.com/posts/i-never-liked-myspace/"
+            },
+            {
+              "title": "New Music Friday #5",
+              "date": "2025-08-12",
+              "link": "https://flamedfury.com/posts/new-music-friday-5/"
+            },
+            {
+              "title": "Monthly Recap: July 2025",
               "date": "2025-08-11",
-              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
+              "link": "https://flamedfury.com/posts/monthly-recap-july-2025/"
             },
             {
-              "title": "Links? Links!",
-              "date": "2025-07-16",
-              "link": "https://infrequently.org/2025/07/links/"
-            },
-            {
-              "title": "Conferences, Clarity, and Smokescreens",
-              "date": "2025-06-27",
-              "link": "https://infrequently.org/2025/06/conferences-clarity-and-smokescreens/"
+              "title": "Living Local",
+              "date": "2025-07-31",
+              "link": "https://flamedfury.com/posts/living-local/"
             }
           ]
         },
@@ -97,37 +216,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Going JavaScript-free with the new Invoker Command API!",
-              "date": "2025-08-25",
-              "link": "https://gomakethings.com/going-javascript-free-with-the-new-invoker-command-api/"
-            },
-            {
-              "title": "Semantic classes > BEM",
-              "date": "2025-08-22",
-              "link": "https://gomakethings.com/semantic-classes-bem/"
-            },
-            {
-              "title": "On being earnest",
-              "date": "2025-08-21",
-              "link": "https://gomakethings.com/on-being-earnest/"
-            },
-            {
-              "title": "Glue work in times of crisis",
-              "date": "2025-08-20",
-              "link": "https://gomakethings.com/glue-work-in-times-of-crisis/"
-            },
-            {
-              "title": "Building a custom download GUI",
-              "date": "2025-08-19",
-              "link": "https://gomakethings.com/building-a-custom-download-gui/"
-            }
-          ]
-        },
-        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -159,33 +247,33 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
           "items": [
             {
-              "title": "Learning web development: Shells and Node.js",
+              "title": "Apple vs. Facebook is Kayfabe",
               "date": "2025-08-25",
-              "link": "https://2ality.com/2025/08/shells-nodejs.html"
+              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
             },
             {
-              "title": "Learning web development: Loops in JavaScript",
-              "date": "2025-08-23",
-              "link": "https://2ality.com/2025/08/javascript-loops.html"
+              "title": "Put Names and Dates On Documents",
+              "date": "2025-08-13",
+              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
             },
             {
-              "title": "Learning web development: Booleans, comparisons and <code>if</code> statements",
-              "date": "2025-08-20",
-              "link": "https://2ality.com/2025/08/javascript-booleans-comparisons-if.html"
+              "title": "How Do Committees Fail To Invent?",
+              "date": "2025-08-11",
+              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
             },
             {
-              "title": "Learning web development: Arrays in JavaScript",
-              "date": "2025-08-18",
-              "link": "https://2ality.com/2025/08/javascript-arrays.html"
+              "title": "Links? Links!",
+              "date": "2025-07-16",
+              "link": "https://infrequently.org/2025/07/links/"
             },
             {
-              "title": "Learning web development: Strings and methods in JavaScript",
-              "date": "2025-08-17",
-              "link": "https://2ality.com/2025/08/javascript-strings-methods.html"
+              "title": "Conferences, Clarity, and Smokescreens",
+              "date": "2025-06-27",
+              "link": "https://infrequently.org/2025/06/conferences-clarity-and-smokescreens/"
             }
           ]
         },
@@ -217,32 +305,6 @@
               "title": "UED: Watson",
               "date": "2025-07-20",
               "link": "https://moonbase.lgbt/blog/ued-watson/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-08-25",
-              "link": "https://dbushell.com/notes/2025-08-25T10:13Z/"
-            },
-            {
-              "date": "2025-08-24",
-              "link": "https://dbushell.com/notes/2025-08-24T09:19Z/"
-            },
-            {
-              "date": "2025-08-23",
-              "link": "https://dbushell.com/notes/2025-08-23T07:32Z/"
-            },
-            {
-              "date": "2025-08-22",
-              "link": "https://dbushell.com/notes/2025-08-22T17:50Z/"
-            },
-            {
-              "date": "2025-08-22",
-              "link": "https://dbushell.com/notes/2025-08-22T10:01Z/"
             }
           ]
         },
@@ -336,37 +398,6 @@
               "title": "Benchmarking counterstring implementations in TypeScript",
               "date": "2025-02-22",
               "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Quit being support staff",
-              "date": "2025-08-22",
-              "link": "https://anniemueller.com/posts/quit-being-support-staff"
-            },
-            {
-              "title": "Navigating the Obvious Shoulds",
-              "date": "2025-08-12",
-              "link": "https://anniemueller.com/posts/navigating-the-obvious-shoulds"
-            },
-            {
-              "title": "Small Web July recap",
-              "date": "2025-08-04",
-              "link": "https://anniemueller.com/posts/small-web-july-recap"
-            },
-            {
-              "title": "Reading notes: May, June, July",
-              "date": "2025-07-30",
-              "link": "https://anniemueller.com/posts/reading-notes-may-june-july"
-            },
-            {
-              "title": "Let there be lapses",
-              "date": "2025-07-28",
-              "link": "https://anniemueller.com/posts/let-there-be-lapses"
             }
           ]
         },
@@ -526,37 +557,6 @@
           ]
         },
         {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "I Never Liked MySpace",
-              "date": "2025-08-16",
-              "link": "https://flamedfury.com/posts/i-never-liked-myspace/"
-            },
-            {
-              "title": "New Music Friday #5",
-              "date": "2025-08-12",
-              "link": "https://flamedfury.com/posts/new-music-friday-5/"
-            },
-            {
-              "title": "Monthly Recap: July 2025",
-              "date": "2025-08-11",
-              "link": "https://flamedfury.com/posts/monthly-recap-july-2025/"
-            },
-            {
-              "title": "Living Local",
-              "date": "2025-07-31",
-              "link": "https://flamedfury.com/posts/living-local/"
-            },
-            {
-              "title": "Hairy Maclary's Greatest Hits",
-              "date": "2025-07-30",
-              "link": "https://flamedfury.com/posts/hairy-maclarys-greatest-hits/"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -588,37 +588,6 @@
           ]
         },
         {
-          "title": "Mathias Verraes",
-          "feedUrl": "https://verraes.net/feed.atom",
-          "items": [
-            {
-              "title": "Two Hard Problems with Distributed Systems",
-              "date": "2025-08-14",
-              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
-            },
-            {
-              "title": "Submitting talks to a tech conference Call for Papers",
-              "date": "2025-06-10",
-              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
-            },
-            {
-              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
-              "date": "2024-03-10",
-              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
-            },
-            {
-              "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
-              "date": "2024-01-08",
-              "link": "https://verraes.net/2024/01/critical-software-redesign/"
-            },
-            {
-              "title": "Surfacing Worldviews in Design",
-              "date": "2023-07-03",
-              "link": "https://verraes.net/2023/07/surfacing-worldviews-in-design/"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -646,6 +615,37 @@
               "title": "#Accesstive Will Get You Sued",
               "date": "2025-07-08",
               "link": "https://adrianroselli.com/2025/07/accesstive-will-get-you-sued.html"
+            }
+          ]
+        },
+        {
+          "title": "Mathias Verraes",
+          "feedUrl": "https://verraes.net/feed.atom",
+          "items": [
+            {
+              "title": "Two Hard Problems with Distributed Systems",
+              "date": "2025-08-14",
+              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
+            },
+            {
+              "title": "Submitting talks to a tech conference Call for Papers",
+              "date": "2025-06-10",
+              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
+            },
+            {
+              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
+              "date": "2024-03-10",
+              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
+            },
+            {
+              "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
+              "date": "2024-01-08",
+              "link": "https://verraes.net/2024/01/critical-software-redesign/"
+            },
+            {
+              "title": "Surfacing Worldviews in Design",
+              "date": "2023-07-03",
+              "link": "https://verraes.net/2023/07/surfacing-worldviews-in-design/"
             }
           ]
         },
@@ -1514,37 +1514,6 @@
               "title": "Let the design guide you",
               "date": "2024-11-12",
               "link": "https://dragan-stepanovic.github.io//2024/11/12/design-emergence.html"
-            }
-          ]
-        },
-        {
-          "title": "jakelazaroff.com",
-          "feedUrl": "https://jakelazaroff.com/rss.xml",
-          "items": [
-            {
-              "title": "Homomorphically Encrypting CRDTs",
-              "date": "2025-06-17",
-              "link": "https://jakelazaroff.com/words/homomorphically-encrypted-crdts/"
-            },
-            {
-              "title": "Isomorphic Web Components",
-              "date": "2024-12-11",
-              "link": "https://jakelazaroff.com/words/isomorphic-web-components/"
-            },
-            {
-              "title": "Drinking from the Bluesky Firehose",
-              "date": "2024-11-22",
-              "link": "https://jakelazaroff.com/words/drinking-from-the-bluesky-firehose/"
-            },
-            {
-              "title": "What's a Single-Page App?",
-              "date": "2024-11-05",
-              "link": "https://jakelazaroff.com/words/whats-a-single-page-app/"
-            },
-            {
-              "title": "My Modern CSS Reset",
-              "date": "2024-10-29",
-              "link": "https://jakelazaroff.com/words/my-modern-css-reset/"
             }
           ]
         },
@@ -2523,10 +2492,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-26T03:39:34.374Z",
+  "fetchDate": "2025-08-27T03:37:46.595Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml"
+    "https://blog.codemanship.dev/rss.xml",
+    "https://jakelazaroff.com/rss.xml"
   ]
 }

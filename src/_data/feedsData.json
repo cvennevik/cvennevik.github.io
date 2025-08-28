@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Wait until you need it",
+              "date": "2025-08-27",
+              "link": "https://gomakethings.com/wait-until-you-need-it/"
+            },
+            {
+              "title": "How to dismiss native HTML dialog elements when the backdrop is clicked",
+              "date": "2025-08-26",
+              "link": "https://gomakethings.com/how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
+            },
+            {
+              "title": "Going JavaScript-free with the new Invoker Command API!",
+              "date": "2025-08-25",
+              "link": "https://gomakethings.com/going-javascript-free-with-the-new-invoker-command-api/"
+            },
+            {
+              "title": "Semantic classes > BEM",
+              "date": "2025-08-22",
+              "link": "https://gomakethings.com/semantic-classes-bem/"
+            },
+            {
+              "title": "On being earnest",
+              "date": "2025-08-21",
+              "link": "https://gomakethings.com/on-being-earnest/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: Modules and testing in JavaScript",
+              "date": "2025-08-27",
+              "link": "https://2ality.com/2025/08/javascript-modules-testing.html"
+            },
+            {
+              "title": "Learning web development: Web servers",
+              "date": "2025-08-26",
+              "link": "https://2ality.com/2025/08/web-servers.html"
+            },
+            {
+              "title": "Learning web development: Shells and Node.js",
+              "date": "2025-08-25",
+              "link": "https://2ality.com/2025/08/shells-nodejs.html"
+            },
+            {
+              "title": "Learning web development: Loops in JavaScript",
+              "date": "2025-08-23",
+              "link": "https://2ality.com/2025/08/javascript-loops.html"
+            },
+            {
+              "title": "Learning web development: Booleans, comparisons and <code>if</code> statements in JavaScript",
+              "date": "2025-08-20",
+              "link": "https://2ality.com/2025/08/javascript-booleans-comparisons-if.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-27",
+              "link": "https://dbushell.com/notes/2025-08-27T15:41Z/"
+            },
+            {
+              "date": "2025-08-26",
+              "link": "https://dbushell.com/notes/2025-08-26T11:39Z/"
+            },
+            {
+              "date": "2025-08-25",
+              "link": "https://dbushell.com/notes/2025-08-25T10:13Z/"
+            },
+            {
+              "date": "2025-08-24",
+              "link": "https://dbushell.com/notes/2025-08-24T09:19Z/"
+            },
+            {
+              "date": "2025-08-23",
+              "link": "https://dbushell.com/notes/2025-08-23T07:32Z/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -35,90 +123,33 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
             {
-              "title": "How to dismiss native HTML dialog elements when the backdrop is clicked",
-              "date": "2025-08-26",
-              "link": "https://gomakethings.com/how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
+              "title": "Logical Duals in Software Engineering",
+              "date": "2025-08-27",
+              "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/"
             },
             {
-              "title": "Going JavaScript-free with the new Invoker Command API!",
-              "date": "2025-08-25",
-              "link": "https://gomakethings.com/going-javascript-free-with-the-new-invoker-command-api/"
-            },
-            {
-              "title": "Semantic classes > BEM",
-              "date": "2025-08-22",
-              "link": "https://gomakethings.com/semantic-classes-bem/"
-            },
-            {
-              "title": "On being earnest",
+              "title": "Sapir-Whorf does not apply to Programming Languages",
               "date": "2025-08-21",
-              "link": "https://gomakethings.com/on-being-earnest/"
+              "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/"
             },
             {
-              "title": "Glue work in times of crisis",
-              "date": "2025-08-20",
-              "link": "https://gomakethings.com/glue-work-in-times-of-crisis/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Learning web development: Web servers",
-              "date": "2025-08-26",
-              "link": "https://2ality.com/2025/08/web-servers.html"
+              "title": "Software books I wish I could read",
+              "date": "2025-08-06",
+              "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/"
             },
             {
-              "title": "Learning web development: Shells and Node.js",
-              "date": "2025-08-25",
-              "link": "https://2ality.com/2025/08/shells-nodejs.html"
+              "title": "2000 words about arrays and tables",
+              "date": "2025-07-30",
+              "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/"
             },
             {
-              "title": "Learning web development: Loops in JavaScript",
-              "date": "2025-08-23",
-              "link": "https://2ality.com/2025/08/javascript-loops.html"
-            },
-            {
-              "title": "Learning web development: Booleans, comparisons and <code>if</code> statements in JavaScript",
-              "date": "2025-08-20",
-              "link": "https://2ality.com/2025/08/javascript-booleans-comparisons-if.html"
-            },
-            {
-              "title": "Learning web development: Arrays in JavaScript",
-              "date": "2025-08-18",
-              "link": "https://2ality.com/2025/08/javascript-arrays.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-08-26",
-              "link": "https://dbushell.com/notes/2025-08-26T11:39Z/"
-            },
-            {
-              "date": "2025-08-25",
-              "link": "https://dbushell.com/notes/2025-08-25T10:13Z/"
-            },
-            {
-              "date": "2025-08-24",
-              "link": "https://dbushell.com/notes/2025-08-24T09:19Z/"
-            },
-            {
-              "date": "2025-08-23",
-              "link": "https://dbushell.com/notes/2025-08-23T07:32Z/"
-            },
-            {
-              "date": "2025-08-22",
-              "link": "https://dbushell.com/notes/2025-08-22T17:50Z/"
+              "title": "Programming Language Escape Hatches",
+              "date": "2025-07-24",
+              "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/"
             }
           ]
         },
@@ -150,6 +181,37 @@
               "title": "Living Local",
               "date": "2025-07-31",
               "link": "https://flamedfury.com/posts/living-local/"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "Apple vs. Facebook is Kayfabe",
+              "date": "2025-08-25",
+              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
+            },
+            {
+              "title": "Put Names and Dates On Documents",
+              "date": "2025-08-13",
+              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
+            },
+            {
+              "title": "How Do Committees Fail To Invent?",
+              "date": "2025-08-11",
+              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
+            },
+            {
+              "title": "Links? Links!",
+              "date": "2025-07-16",
+              "link": "https://infrequently.org/2025/07/links/"
+            },
+            {
+              "title": "Conferences, Clarity, and Smokescreens",
+              "date": "2025-06-27",
+              "link": "https://infrequently.org/2025/06/conferences-clarity-and-smokescreens/"
             }
           ]
         },
@@ -243,37 +305,6 @@
               "title": "Choosing Tools To Make Websites",
               "date": "2025-08-13",
               "link": "https://blog.jim-nielsen.com/2025/choosing-tools-for-making-websites/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Apple vs. Facebook is Kayfabe",
-              "date": "2025-08-25",
-              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
-            },
-            {
-              "title": "Put Names and Dates On Documents",
-              "date": "2025-08-13",
-              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
-            },
-            {
-              "title": "How Do Committees Fail To Invent?",
-              "date": "2025-08-11",
-              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
-            },
-            {
-              "title": "Links? Links!",
-              "date": "2025-07-16",
-              "link": "https://infrequently.org/2025/07/links/"
-            },
-            {
-              "title": "Conferences, Clarity, and Smokescreens",
-              "date": "2025-06-27",
-              "link": "https://infrequently.org/2025/06/conferences-clarity-and-smokescreens/"
             }
           ]
         },
@@ -398,37 +429,6 @@
               "title": "Benchmarking counterstring implementations in TypeScript",
               "date": "2025-02-22",
               "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Sapir-Whorf does not apply to Programming Languages",
-              "date": "2025-08-21",
-              "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/"
-            },
-            {
-              "title": "Software books I wish I could read",
-              "date": "2025-08-06",
-              "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/"
-            },
-            {
-              "title": "2000 words about arrays and tables",
-              "date": "2025-07-30",
-              "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/"
-            },
-            {
-              "title": "Programming Language Escape Hatches",
-              "date": "2025-07-24",
-              "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/"
-            },
-            {
-              "title": "Maybe writing speed actually is a bottleneck for programming",
-              "date": "2025-07-17",
-              "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/"
             }
           ]
         },
@@ -588,37 +588,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "My Thoughts on the State of Surveys",
-              "date": "2025-08-14",
-              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
-            },
-            {
-              "title": "1.2.5: Adversarial Conformance",
-              "date": "2025-08-02",
-              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
-            },
-            {
-              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
-              "date": "2025-08-01",
-              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
-            },
-            {
-              "title": "#ARTY Could Get You Sued",
-              "date": "2025-07-14",
-              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
-            },
-            {
-              "title": "#Accesstive Will Get You Sued",
-              "date": "2025-07-08",
-              "link": "https://adrianroselli.com/2025/07/accesstive-will-get-you-sued.html"
-            }
-          ]
-        },
-        {
           "title": "Mathias Verraes",
           "feedUrl": "https://verraes.net/feed.atom",
           "items": [
@@ -646,6 +615,37 @@
               "title": "Surfacing Worldviews in Design",
               "date": "2023-07-03",
               "link": "https://verraes.net/2023/07/surfacing-worldviews-in-design/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "My Thoughts on the State of Surveys",
+              "date": "2025-08-14",
+              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
+            },
+            {
+              "title": "1.2.5: Adversarial Conformance",
+              "date": "2025-08-02",
+              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
+            },
+            {
+              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
+              "date": "2025-08-01",
+              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
+            },
+            {
+              "title": "#ARTY Could Get You Sued",
+              "date": "2025-07-14",
+              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
+            },
+            {
+              "title": "#Accesstive Will Get You Sued",
+              "date": "2025-07-08",
+              "link": "https://adrianroselli.com/2025/07/accesstive-will-get-you-sued.html"
             }
           ]
         },
@@ -1514,6 +1514,37 @@
               "title": "Let the design guide you",
               "date": "2024-11-12",
               "link": "https://dragan-stepanovic.github.io//2024/11/12/design-emergence.html"
+            }
+          ]
+        },
+        {
+          "title": "jakelazaroff.com",
+          "feedUrl": "https://jakelazaroff.com/rss.xml",
+          "items": [
+            {
+              "title": "Homomorphically Encrypting CRDTs",
+              "date": "2025-06-17",
+              "link": "https://jakelazaroff.com/words/homomorphically-encrypted-crdts/"
+            },
+            {
+              "title": "Isomorphic Web Components",
+              "date": "2024-12-11",
+              "link": "https://jakelazaroff.com/words/isomorphic-web-components/"
+            },
+            {
+              "title": "Drinking from the Bluesky Firehose",
+              "date": "2024-11-22",
+              "link": "https://jakelazaroff.com/words/drinking-from-the-bluesky-firehose/"
+            },
+            {
+              "title": "What's a Single-Page App?",
+              "date": "2024-11-05",
+              "link": "https://jakelazaroff.com/words/whats-a-single-page-app/"
+            },
+            {
+              "title": "My Modern CSS Reset",
+              "date": "2024-10-29",
+              "link": "https://jakelazaroff.com/words/my-modern-css-reset/"
             }
           ]
         },
@@ -2492,11 +2523,10 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-27T03:37:46.595Z",
+  "fetchDate": "2025-08-28T03:33:20.185Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml",
-    "https://jakelazaroff.com/rss.xml"
+    "https://blog.codemanship.dev/rss.xml"
   ]
 }

@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Croissant RSS Beta is Live!",
+              "date": "2025-08-28",
+              "link": "https://dbushell.com/2025/08/28/croissant-rss-beta/"
+            },
+            {
+              "title": "Self-hosted Forgejo Releases (the Final Boss)",
+              "date": "2025-08-25",
+              "link": "https://dbushell.com/2025/08/25/self-hosted-forgejo-actions-releases/"
+            },
+            {
+              "title": "RSS Club #002: Dino Edition",
+              "date": "2025-08-17",
+              "link": "https://dbushell.com/2025/08/17/RSS002/"
+            },
+            {
+              "title": "Self-hosted Forgejo Actions Runner",
+              "date": "2025-08-15",
+              "link": "https://dbushell.com/2025/08/15/self-hosted-forgejo-actions-runner/"
+            },
+            {
+              "title": "GitHub Ensloppification",
+              "date": "2025-08-11",
+              "link": "https://dbushell.com/2025/08/11/github-ensloppification/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Genuine human connection",
+              "date": "2025-08-28",
+              "link": "https://gomakethings.com/genuine-human-connection/"
+            },
             {
               "title": "Wait until you need it",
               "date": "2025-08-27",
@@ -26,11 +62,6 @@
               "title": "Semantic classes > BEM",
               "date": "2025-08-22",
               "link": "https://gomakethings.com/semantic-classes-bem/"
-            },
-            {
-              "title": "On being earnest",
-              "date": "2025-08-21",
-              "link": "https://gomakethings.com/on-being-earnest/"
             }
           ]
         },
@@ -38,6 +69,11 @@
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
+            {
+              "title": "Learning web development: Plain objects in JavaScript",
+              "date": "2025-08-28",
+              "link": "https://2ality.com/2025/08/javascript-plain-objects.html"
+            },
             {
               "title": "Learning web development: Modules and testing in JavaScript",
               "date": "2025-08-27",
@@ -57,11 +93,37 @@
               "title": "Learning web development: Loops in JavaScript",
               "date": "2025-08-23",
               "link": "https://2ality.com/2025/08/javascript-loops.html"
+            }
+          ]
+        },
+        {
+          "title": "Mathias Verraes",
+          "feedUrl": "https://verraes.net/feed.atom",
+          "items": [
+            {
+              "title": "No, Your Domains and Bounded Contexts Don’t Map 1 on 1",
+              "date": "2025-08-28",
+              "link": "https://verraes.net/2025/08/domain-and-bounded-contexts-dont-map-one-on-one/"
             },
             {
-              "title": "Learning web development: Booleans, comparisons and <code>if</code> statements in JavaScript",
-              "date": "2025-08-20",
-              "link": "https://2ality.com/2025/08/javascript-booleans-comparisons-if.html"
+              "title": "Two Hard Problems with Distributed Systems",
+              "date": "2025-08-14",
+              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
+            },
+            {
+              "title": "Submitting talks to a tech conference Call for Papers",
+              "date": "2025-06-10",
+              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
+            },
+            {
+              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
+              "date": "2024-03-10",
+              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
+            },
+            {
+              "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
+              "date": "2024-01-08",
+              "link": "https://verraes.net/2024/01/critical-software-redesign/"
             }
           ]
         },
@@ -69,6 +131,10 @@
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2025-08-28",
+              "link": "https://dbushell.com/notes/2025-08-28T12:16Z/"
+            },
             {
               "date": "2025-08-27",
               "link": "https://dbushell.com/notes/2025-08-27T15:41Z/"
@@ -84,10 +150,6 @@
             {
               "date": "2025-08-24",
               "link": "https://dbushell.com/notes/2025-08-24T09:19Z/"
-            },
-            {
-              "date": "2025-08-23",
-              "link": "https://dbushell.com/notes/2025-08-23T07:32Z/"
             }
           ]
         },
@@ -243,37 +305,6 @@
               "title": "What's a tomato?",
               "date": "2025-05-11",
               "link": "https://einarwh.no/blog/2025/05/11/whats-a-tomato/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Self-hosted Forgejo Releases (the Final Boss)",
-              "date": "2025-08-25",
-              "link": "https://dbushell.com/2025/08/25/self-hosted-forgejo-actions-releases/"
-            },
-            {
-              "title": "RSS Club #002: Dino Edition",
-              "date": "2025-08-17",
-              "link": "https://dbushell.com/2025/08/17/RSS002/"
-            },
-            {
-              "title": "Self-hosted Forgejo Actions Runner",
-              "date": "2025-08-15",
-              "link": "https://dbushell.com/2025/08/15/self-hosted-forgejo-actions-runner/"
-            },
-            {
-              "title": "GitHub Ensloppification",
-              "date": "2025-08-11",
-              "link": "https://dbushell.com/2025/08/11/github-ensloppification/"
-            },
-            {
-              "title": "RSS Club #001",
-              "date": "2025-08-03",
-              "link": "https://dbushell.com/2025/08/03/RSS001/"
             }
           ]
         },
@@ -588,37 +619,6 @@
           ]
         },
         {
-          "title": "Mathias Verraes",
-          "feedUrl": "https://verraes.net/feed.atom",
-          "items": [
-            {
-              "title": "Two Hard Problems with Distributed Systems",
-              "date": "2025-08-14",
-              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
-            },
-            {
-              "title": "Submitting talks to a tech conference Call for Papers",
-              "date": "2025-06-10",
-              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
-            },
-            {
-              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
-              "date": "2024-03-10",
-              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
-            },
-            {
-              "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
-              "date": "2024-01-08",
-              "link": "https://verraes.net/2024/01/critical-software-redesign/"
-            },
-            {
-              "title": "Surfacing Worldviews in Design",
-              "date": "2023-07-03",
-              "link": "https://verraes.net/2023/07/surfacing-worldviews-in-design/"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -863,37 +863,6 @@
               "title": "The Best Product Engineering Org in the World",
               "date": "2025-01-10",
               "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
-            }
-          ]
-        },
-        {
-          "title": "leanrada.com notes",
-          "feedUrl": "https://leanrada.com/rss.xml",
-          "items": [
-            {
-              "title": "Making my GitHub heatmap widget",
-              "date": "2025-08-04",
-              "link": "https://leanrada.com/notes/github-heatmap-widget/?ref=rss"
-            },
-            {
-              "title": "Vibecoding Lima Gang, web-based map visualization",
-              "date": "2025-06-13",
-              "link": "https://leanrada.com/notes/vibecoding-lima-gang/?ref=rss"
-            },
-            {
-              "title": "My own RSS reader",
-              "date": "2025-05-15",
-              "link": "https://leanrada.com/notes/my-own-rss-reader/?ref=rss"
-            },
-            {
-              "title": "Simple live reload for developing static sites",
-              "date": "2025-04-18",
-              "link": "https://leanrada.com/notes/simple-live-reload/?ref=rss"
-            },
-            {
-              "title": "Language evolves, so we must too. On generative art",
-              "date": "2025-04-03",
-              "link": "https://leanrada.com/notes/language-evolves-generative-art/?ref=rss"
             }
           ]
         },
@@ -1983,37 +1952,6 @@
           ]
         },
         {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
-              "date": "2025-03-09",
-              "link": "https://www.felienne.com/archives/8880"
-            },
-            {
-              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
-              "date": "2025-03-03",
-              "link": "https://www.felienne.com/archives/8853"
-            },
-            {
-              "title": "Who owns your cloned AI voice – Week 8’s AI news",
-              "date": "2025-02-23",
-              "link": "https://www.felienne.com/archives/8808"
-            },
-            {
-              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
-              "date": "2025-02-15",
-              "link": "https://www.felienne.com/archives/8749"
-            },
-            {
-              "title": "Week 6’s AI News",
-              "date": "2025-02-07",
-              "link": "https://www.felienne.com/archives/8900"
-            }
-          ]
-        },
-        {
           "title": "artemis.sh",
           "feedUrl": "https://artemis.sh/feed.xml",
           "items": [
@@ -2523,10 +2461,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-28T03:33:20.185Z",
+  "fetchDate": "2025-08-29T03:35:41.599Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml"
+    "https://blog.codemanship.dev/rss.xml",
+    "https://www.felienne.com/feed",
+    "https://leanrada.com/rss.xml"
   ]
 }

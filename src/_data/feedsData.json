@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "I'm an AI hater",
+              "date": "2025-08-29",
+              "link": "https://gomakethings.com/im-an-ai-hater/"
+            },
+            {
+              "title": "Genuine human connection",
+              "date": "2025-08-28",
+              "link": "https://gomakethings.com/genuine-human-connection/"
+            },
+            {
+              "title": "Wait until you need it",
+              "date": "2025-08-27",
+              "link": "https://gomakethings.com/wait-until-you-need-it/"
+            },
+            {
+              "title": "How to dismiss native HTML dialog elements when the backdrop is clicked",
+              "date": "2025-08-26",
+              "link": "https://gomakethings.com/how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
+            },
+            {
+              "title": "Going JavaScript-free with the new Invoker Command API!",
+              "date": "2025-08-25",
+              "link": "https://gomakethings.com/going-javascript-free-with-the-new-invoker-command-api/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: JavaScript exceptions",
+              "date": "2025-08-29",
+              "link": "https://2ality.com/2025/08/javascript-exceptions.html"
+            },
+            {
+              "title": "JavaScript’s trademark problem",
+              "date": "2025-08-29",
+              "link": "https://2ality.com/2025/08/javascript-trademark.html"
+            },
+            {
+              "title": "Learning web development: Plain objects in JavaScript",
+              "date": "2025-08-28",
+              "link": "https://2ality.com/2025/08/javascript-plain-objects.html"
+            },
+            {
+              "title": "Learning web development: Modules and testing in JavaScript",
+              "date": "2025-08-27",
+              "link": "https://2ality.com/2025/08/javascript-modules-testing.html"
+            },
+            {
+              "title": "Learning web development: Web servers",
+              "date": "2025-08-26",
+              "link": "https://2ality.com/2025/08/web-servers.html"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2025-08-29",
+              "link": "https://macwright.com/2025/08/29/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-07-04",
+              "link": "https://macwright.com/2025/07/04/recently.html"
+            },
+            {
+              "title": "epanet-js",
+              "date": "2025-07-03",
+              "link": "https://macwright.com/2025/07/03/epanet-placemark.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-06-06",
+              "link": "https://macwright.com/2025/06/06/recently.html"
+            },
+            {
+              "title": "Making a custom porteur bag",
+              "date": "2025-05-18",
+              "link": "https://macwright.com/2025/05/18/sewing.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-08-29",
+              "link": "https://dbushell.com/notes/2025-08-29T12:31Z/"
+            },
+            {
+              "date": "2025-08-28",
+              "link": "https://dbushell.com/notes/2025-08-28T12:16Z/"
+            },
+            {
+              "date": "2025-08-27",
+              "link": "https://dbushell.com/notes/2025-08-27T15:41Z/"
+            },
+            {
+              "date": "2025-08-26",
+              "link": "https://dbushell.com/notes/2025-08-26T11:39Z/"
+            },
+            {
+              "date": "2025-08-25",
+              "link": "https://dbushell.com/notes/2025-08-25T10:13Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -35,68 +154,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Genuine human connection",
-              "date": "2025-08-28",
-              "link": "https://gomakethings.com/genuine-human-connection/"
-            },
-            {
-              "title": "Wait until you need it",
-              "date": "2025-08-27",
-              "link": "https://gomakethings.com/wait-until-you-need-it/"
-            },
-            {
-              "title": "How to dismiss native HTML dialog elements when the backdrop is clicked",
-              "date": "2025-08-26",
-              "link": "https://gomakethings.com/how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
-            },
-            {
-              "title": "Going JavaScript-free with the new Invoker Command API!",
-              "date": "2025-08-25",
-              "link": "https://gomakethings.com/going-javascript-free-with-the-new-invoker-command-api/"
-            },
-            {
-              "title": "Semantic classes > BEM",
-              "date": "2025-08-22",
-              "link": "https://gomakethings.com/semantic-classes-bem/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Learning web development: Plain objects in JavaScript",
-              "date": "2025-08-28",
-              "link": "https://2ality.com/2025/08/javascript-plain-objects.html"
-            },
-            {
-              "title": "Learning web development: Modules and testing in JavaScript",
-              "date": "2025-08-27",
-              "link": "https://2ality.com/2025/08/javascript-modules-testing.html"
-            },
-            {
-              "title": "Learning web development: Web servers",
-              "date": "2025-08-26",
-              "link": "https://2ality.com/2025/08/web-servers.html"
-            },
-            {
-              "title": "Learning web development: Shells and Node.js",
-              "date": "2025-08-25",
-              "link": "https://2ality.com/2025/08/shells-nodejs.html"
-            },
-            {
-              "title": "Learning web development: Loops in JavaScript",
-              "date": "2025-08-23",
-              "link": "https://2ality.com/2025/08/javascript-loops.html"
-            }
-          ]
-        },
-        {
           "title": "Mathias Verraes",
           "feedUrl": "https://verraes.net/feed.atom",
           "items": [
@@ -124,32 +181,6 @@
               "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
               "date": "2024-01-08",
               "link": "https://verraes.net/2024/01/critical-software-redesign/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-08-28",
-              "link": "https://dbushell.com/notes/2025-08-28T12:16Z/"
-            },
-            {
-              "date": "2025-08-27",
-              "link": "https://dbushell.com/notes/2025-08-27T15:41Z/"
-            },
-            {
-              "date": "2025-08-26",
-              "link": "https://dbushell.com/notes/2025-08-26T11:39Z/"
-            },
-            {
-              "date": "2025-08-25",
-              "link": "https://dbushell.com/notes/2025-08-25T10:13Z/"
-            },
-            {
-              "date": "2025-08-24",
-              "link": "https://dbushell.com/notes/2025-08-24T09:19Z/"
             }
           ]
         },
@@ -867,6 +898,37 @@
           ]
         },
         {
+          "title": "leanrada.com notes",
+          "feedUrl": "https://leanrada.com/rss.xml",
+          "items": [
+            {
+              "title": "Making my GitHub heatmap widget",
+              "date": "2025-08-04",
+              "link": "https://leanrada.com/notes/github-heatmap-widget/?ref=rss"
+            },
+            {
+              "title": "Vibecoding Lima Gang, web-based map visualization",
+              "date": "2025-06-13",
+              "link": "https://leanrada.com/notes/vibecoding-lima-gang/?ref=rss"
+            },
+            {
+              "title": "My own RSS reader",
+              "date": "2025-05-15",
+              "link": "https://leanrada.com/notes/my-own-rss-reader/?ref=rss"
+            },
+            {
+              "title": "Simple live reload for developing static sites",
+              "date": "2025-04-18",
+              "link": "https://leanrada.com/notes/simple-live-reload/?ref=rss"
+            },
+            {
+              "title": "Language evolves, so we must too. On generative art",
+              "date": "2025-04-03",
+              "link": "https://leanrada.com/notes/language-evolves-generative-art/?ref=rss"
+            }
+          ]
+        },
+        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -1297,37 +1359,6 @@
               "title": "Mere Being 019 - February - Plenty Huge Men Roam the Earth",
               "date": "2025-03-02",
               "link": "https://www.simplermachines.com/mere-being-018-february-p/"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2025-07-04",
-              "link": "https://macwright.com/2025/07/04/recently.html"
-            },
-            {
-              "title": "epanet-js",
-              "date": "2025-07-03",
-              "link": "https://macwright.com/2025/07/03/epanet-placemark.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-06-06",
-              "link": "https://macwright.com/2025/06/06/recently.html"
-            },
-            {
-              "title": "Making a custom porteur bag",
-              "date": "2025-05-18",
-              "link": "https://macwright.com/2025/05/18/sewing.html"
-            },
-            {
-              "title": "Reading Zanzibar",
-              "date": "2025-05-02",
-              "link": "https://macwright.com/2025/05/02/reading-zanzibar.html"
             }
           ]
         },
@@ -1952,6 +1983,37 @@
           ]
         },
         {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
+              "date": "2025-03-09",
+              "link": "https://www.felienne.com/archives/8880"
+            },
+            {
+              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
+              "date": "2025-03-03",
+              "link": "https://www.felienne.com/archives/8853"
+            },
+            {
+              "title": "Who owns your cloned AI voice – Week 8’s AI news",
+              "date": "2025-02-23",
+              "link": "https://www.felienne.com/archives/8808"
+            },
+            {
+              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
+              "date": "2025-02-15",
+              "link": "https://www.felienne.com/archives/8749"
+            },
+            {
+              "title": "Week 6’s AI News",
+              "date": "2025-02-07",
+              "link": "https://www.felienne.com/archives/8900"
+            }
+          ]
+        },
+        {
           "title": "artemis.sh",
           "feedUrl": "https://artemis.sh/feed.xml",
           "items": [
@@ -2461,12 +2523,10 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-29T03:35:41.599Z",
+  "fetchDate": "2025-08-30T03:27:40.531Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml",
-    "https://www.felienne.com/feed",
-    "https://leanrada.com/rss.xml"
+    "https://blog.codemanship.dev/rss.xml"
   ]
 }

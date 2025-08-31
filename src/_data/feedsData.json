@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "Wild gardening",
+              "date": "2025-08-30",
+              "link": "https://gomakethings.com/wild-gardening/"
+            },
+            {
               "title": "I'm an AI hater",
               "date": "2025-08-29",
               "link": "https://gomakethings.com/im-an-ai-hater/"
@@ -26,11 +31,6 @@
               "title": "How to dismiss native HTML dialog elements when the backdrop is clicked",
               "date": "2025-08-26",
               "link": "https://gomakethings.com/how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
-            },
-            {
-              "title": "Going JavaScript-free with the new Invoker Command API!",
-              "date": "2025-08-25",
-              "link": "https://gomakethings.com/going-javascript-free-with-the-new-invoker-command-api/"
             }
           ]
         },
@@ -38,6 +38,11 @@
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
+            {
+              "title": "Learning web development: JavaScript Maps",
+              "date": "2025-08-30",
+              "link": "https://2ality.com/2025/08/javascript-maps.html"
+            },
             {
               "title": "Learning web development: JavaScript exceptions",
               "date": "2025-08-29",
@@ -57,11 +62,68 @@
               "title": "Learning web development: Modules and testing in JavaScript",
               "date": "2025-08-27",
               "link": "https://2ality.com/2025/08/javascript-modules-testing.html"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "August 2025 blend of links",
+              "date": "2025-08-30",
+              "link": "https://thejollyteapot.com/august-2025-blend/"
             },
             {
-              "title": "Learning web development: Web servers",
-              "date": "2025-08-26",
-              "link": "https://2ality.com/2025/08/web-servers.html"
+              "title": "July 2025 blend of links",
+              "date": "2025-07-30",
+              "link": "https://thejollyteapot.com/july-2025-blend/"
+            },
+            {
+              "title": "Could I use the internet without a proper web browser?",
+              "date": "2025-07-27",
+              "link": "https://thejollyteapot.com/2025/07/27/could-i-use-the-internet-without-a-proper-web-browser/"
+            },
+            {
+              "title": "June 2025 blend of links",
+              "date": "2025-06-27",
+              "link": "https://thejollyteapot.com/june-2025-blend/"
+            },
+            {
+              "title": "Something terrible happened with CSS",
+              "date": "2025-05-29",
+              "link": "https://thejollyteapot.com/2025/05/29/something-terrible-happened-with-css/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "Mere Being - 023 - August",
+              "date": "2025-08-30",
+              "link": "https://www.simplermachines.com/mere-being-023-august/"
+            },
+            {
+              "title": "Nat's Current Prompts",
+              "date": "2025-07-11",
+              "link": "https://www.simplermachines.com/nats-current-prompts/"
+            },
+            {
+              "title": "Mere Being 022 - June - Procrastination, Wallpaper Music, Popsicles",
+              "date": "2025-07-03",
+              "link": "https://www.simplermachines.com/mere-being-022-june-procrastination-wallpaper-music-popsicles/"
+            },
+            {
+              "title": "Mere Being 021 - April - dinner parties, charoset, dying in holes",
+              "date": "2025-04-30",
+              "link": "https://www.simplermachines.com/mere-being-021-april-dinner-pa/"
+            },
+            {
+              "title": "Mere Being 020 - March - human nature, lady doctors, potatoes",
+              "date": "2025-04-01",
+              "link": "https://www.simplermachines.com/mere-being-020-march-2/"
             }
           ]
         },
@@ -1022,37 +1084,6 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "July 2025 blend of links",
-              "date": "2025-07-30",
-              "link": "https://thejollyteapot.com/july-2025-blend/"
-            },
-            {
-              "title": "Could I use the internet without a proper web browser?",
-              "date": "2025-07-27",
-              "link": "https://thejollyteapot.com/2025/07/27/could-i-use-the-internet-without-a-proper-web-browser/"
-            },
-            {
-              "title": "June 2025 blend of links",
-              "date": "2025-06-27",
-              "link": "https://thejollyteapot.com/june-2025-blend/"
-            },
-            {
-              "title": "Something terrible happened with CSS",
-              "date": "2025-05-29",
-              "link": "https://thejollyteapot.com/2025/05/29/something-terrible-happened-with-css/"
-            },
-            {
-              "title": "May 2025 blend of links",
-              "date": "2025-05-26",
-              "link": "https://thejollyteapot.com/may-2025-blend/"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -1328,37 +1359,6 @@
               "title": "\n      Tech debt metaphor maximalism\n    ",
               "date": "2023-07-11",
               "link": "https://apenwarr.ca/log/20230605"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "Nat's Current Prompts",
-              "date": "2025-07-11",
-              "link": "https://www.simplermachines.com/nats-current-prompts/"
-            },
-            {
-              "title": "Mere Being 022 - June - Procrastination, Wallpaper Music, Popsicles",
-              "date": "2025-07-03",
-              "link": "https://www.simplermachines.com/mere-being-022-june-procrastination-wallpaper-music-popsicles/"
-            },
-            {
-              "title": "Mere Being 021 - April - dinner parties, charoset, dying in holes",
-              "date": "2025-04-30",
-              "link": "https://www.simplermachines.com/mere-being-021-april-dinner-pa/"
-            },
-            {
-              "title": "Mere Being 020 - March - human nature, lady doctors, potatoes",
-              "date": "2025-04-01",
-              "link": "https://www.simplermachines.com/mere-being-020-march-2/"
-            },
-            {
-              "title": "Mere Being 019 - February - Plenty Huge Men Roam the Earth",
-              "date": "2025-03-02",
-              "link": "https://www.simplermachines.com/mere-being-018-february-p/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-30T03:27:40.531Z",
+  "fetchDate": "2025-08-31T03:35:24.328Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "Solidarity means everyone",
+              "date": "2025-08-31",
+              "link": "https://gomakethings.com/solidarity-means-everyone/"
+            },
+            {
               "title": "Wild gardening",
               "date": "2025-08-30",
               "link": "https://gomakethings.com/wild-gardening/"
@@ -26,11 +31,6 @@
               "title": "Wait until you need it",
               "date": "2025-08-27",
               "link": "https://gomakethings.com/wait-until-you-need-it/"
-            },
-            {
-              "title": "How to dismiss native HTML dialog elements when the backdrop is clicked",
-              "date": "2025-08-26",
-              "link": "https://gomakethings.com/how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
             }
           ]
         },
@@ -38,6 +38,11 @@
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
+            {
+              "title": "Learning web development: JSON and processing files in Node.js",
+              "date": "2025-08-31",
+              "link": "https://2ality.com/2025/08/javascript-json-processing-files.html"
+            },
             {
               "title": "Learning web development: JavaScript Maps",
               "date": "2025-08-30",
@@ -57,11 +62,6 @@
               "title": "Learning web development: Plain objects in JavaScript",
               "date": "2025-08-28",
               "link": "https://2ality.com/2025/08/javascript-plain-objects.html"
-            },
-            {
-              "title": "Learning web development: Modules and testing in JavaScript",
-              "date": "2025-08-27",
-              "link": "https://2ality.com/2025/08/javascript-modules-testing.html"
             }
           ]
         },
@@ -712,37 +712,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "My Thoughts on the State of Surveys",
-              "date": "2025-08-14",
-              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
-            },
-            {
-              "title": "1.2.5: Adversarial Conformance",
-              "date": "2025-08-02",
-              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
-            },
-            {
-              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
-              "date": "2025-08-01",
-              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
-            },
-            {
-              "title": "#ARTY Could Get You Sued",
-              "date": "2025-07-14",
-              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
-            },
-            {
-              "title": "#Accesstive Will Get You Sued",
-              "date": "2025-07-08",
-              "link": "https://adrianroselli.com/2025/07/accesstive-will-get-you-sued.html"
-            }
-          ]
-        },
-        {
           "title": "Good Tech Things",
           "feedUrl": "https://newsletter.goodtechthings.com/feed",
           "items": [
@@ -770,6 +739,37 @@
               "title": "Why are tech people suddenly so into homeschooling?",
               "date": "2025-01-14",
               "link": "https://newsletter.goodtechthings.com/p/why-are-tech-people-suddenly-so-into"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "My Thoughts on the State of Surveys",
+              "date": "2025-08-14",
+              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
+            },
+            {
+              "title": "1.2.5: Adversarial Conformance",
+              "date": "2025-08-02",
+              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
+            },
+            {
+              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
+              "date": "2025-08-01",
+              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
+            },
+            {
+              "title": "#ARTY Could Get You Sued",
+              "date": "2025-07-14",
+              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
+            },
+            {
+              "title": "#Accesstive Will Get You Sued",
+              "date": "2025-07-08",
+              "link": "https://adrianroselli.com/2025/07/accesstive-will-get-you-sued.html"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-08-31T03:35:24.328Z",
+  "fetchDate": "2025-09-01T03:50:19.221Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

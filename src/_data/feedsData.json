@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "Means of Production",
+              "date": "2025-09-01",
+              "link": "https://gomakethings.com/means-of-production/"
+            },
+            {
               "title": "Solidarity means everyone",
               "date": "2025-08-31",
               "link": "https://gomakethings.com/solidarity-means-everyone/"
@@ -26,11 +31,63 @@
               "title": "Genuine human connection",
               "date": "2025-08-28",
               "link": "https://gomakethings.com/genuine-human-connection/"
+            }
+          ]
+        },
+        {
+          "title": "leanrada.com notes",
+          "feedUrl": "https://leanrada.com/rss.xml",
+          "items": [
+            {
+              "title": "Editing my website directly in the browser",
+              "date": "2025-09-01",
+              "link": "https://leanrada.com/notes/editing-website-in-browser/?ref=rss"
             },
             {
-              "title": "Wait until you need it",
+              "title": "Making my GitHub heatmap widget",
+              "date": "2025-08-04",
+              "link": "https://leanrada.com/notes/github-heatmap-widget/?ref=rss"
+            },
+            {
+              "title": "Vibecoding Lima Gang, web-based map visualization",
+              "date": "2025-06-13",
+              "link": "https://leanrada.com/notes/vibecoding-lima-gang/?ref=rss"
+            },
+            {
+              "title": "My own RSS reader",
+              "date": "2025-05-15",
+              "link": "https://leanrada.com/notes/my-own-rss-reader/?ref=rss"
+            },
+            {
+              "title": "Simple live reload for developing static sites",
+              "date": "2025-04-18",
+              "link": "https://leanrada.com/notes/simple-live-reload/?ref=rss"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-09-01",
+              "link": "https://dbushell.com/notes/2025-09-01T15:58Z/"
+            },
+            {
+              "date": "2025-08-29",
+              "link": "https://dbushell.com/notes/2025-08-29T12:31Z/"
+            },
+            {
+              "date": "2025-08-28",
+              "link": "https://dbushell.com/notes/2025-08-28T12:16Z/"
+            },
+            {
               "date": "2025-08-27",
-              "link": "https://gomakethings.com/wait-until-you-need-it/"
+              "link": "https://dbushell.com/notes/2025-08-27T15:41Z/"
+            },
+            {
+              "date": "2025-08-26",
+              "link": "https://dbushell.com/notes/2025-08-26T11:39Z/"
             }
           ]
         },
@@ -155,32 +212,6 @@
               "title": "Making a custom porteur bag",
               "date": "2025-05-18",
               "link": "https://macwright.com/2025/05/18/sewing.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-08-29",
-              "link": "https://dbushell.com/notes/2025-08-29T12:31Z/"
-            },
-            {
-              "date": "2025-08-28",
-              "link": "https://dbushell.com/notes/2025-08-28T12:16Z/"
-            },
-            {
-              "date": "2025-08-27",
-              "link": "https://dbushell.com/notes/2025-08-27T15:41Z/"
-            },
-            {
-              "date": "2025-08-26",
-              "link": "https://dbushell.com/notes/2025-08-26T11:39Z/"
-            },
-            {
-              "date": "2025-08-25",
-              "link": "https://dbushell.com/notes/2025-08-25T10:13Z/"
             }
           ]
         },
@@ -712,37 +743,6 @@
           ]
         },
         {
-          "title": "Good Tech Things",
-          "feedUrl": "https://newsletter.goodtechthings.com/feed",
-          "items": [
-            {
-              "title": "Harsh truths to save you from ChatGPT psychosis",
-              "date": "2025-08-14",
-              "link": "https://newsletter.goodtechthings.com/p/harsh-truths-to-save-you-from-chatgpt"
-            },
-            {
-              "title": "Breaking some huge personal news",
-              "date": "2025-02-07",
-              "link": "https://newsletter.goodtechthings.com/p/breaking-some-huge-personal-news"
-            },
-            {
-              "title": "I'm glad I took the off-ramp from software engineering",
-              "date": "2025-01-22",
-              "link": "https://newsletter.goodtechthings.com/p/you-get-10-years-to-be-a-software"
-            },
-            {
-              "title": "Notes on Nix",
-              "date": "2025-01-20",
-              "link": "https://newsletter.goodtechthings.com/p/notes-on-nix"
-            },
-            {
-              "title": "Why are tech people suddenly so into homeschooling?",
-              "date": "2025-01-14",
-              "link": "https://newsletter.goodtechthings.com/p/why-are-tech-people-suddenly-so-into"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -770,6 +770,37 @@
               "title": "#Accesstive Will Get You Sued",
               "date": "2025-07-08",
               "link": "https://adrianroselli.com/2025/07/accesstive-will-get-you-sued.html"
+            }
+          ]
+        },
+        {
+          "title": "Good Tech Things",
+          "feedUrl": "https://newsletter.goodtechthings.com/feed",
+          "items": [
+            {
+              "title": "Harsh truths to save you from ChatGPT psychosis",
+              "date": "2025-08-14",
+              "link": "https://newsletter.goodtechthings.com/p/harsh-truths-to-save-you-from-chatgpt"
+            },
+            {
+              "title": "Breaking some huge personal news",
+              "date": "2025-02-07",
+              "link": "https://newsletter.goodtechthings.com/p/breaking-some-huge-personal-news"
+            },
+            {
+              "title": "I'm glad I took the off-ramp from software engineering",
+              "date": "2025-01-22",
+              "link": "https://newsletter.goodtechthings.com/p/you-get-10-years-to-be-a-software"
+            },
+            {
+              "title": "Notes on Nix",
+              "date": "2025-01-20",
+              "link": "https://newsletter.goodtechthings.com/p/notes-on-nix"
+            },
+            {
+              "title": "Why are tech people suddenly so into homeschooling?",
+              "date": "2025-01-14",
+              "link": "https://newsletter.goodtechthings.com/p/why-are-tech-people-suddenly-so-into"
             }
           ]
         },
@@ -956,37 +987,6 @@
               "title": "The Best Product Engineering Org in the World",
               "date": "2025-01-10",
               "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
-            }
-          ]
-        },
-        {
-          "title": "leanrada.com notes",
-          "feedUrl": "https://leanrada.com/rss.xml",
-          "items": [
-            {
-              "title": "Making my GitHub heatmap widget",
-              "date": "2025-08-04",
-              "link": "https://leanrada.com/notes/github-heatmap-widget/?ref=rss"
-            },
-            {
-              "title": "Vibecoding Lima Gang, web-based map visualization",
-              "date": "2025-06-13",
-              "link": "https://leanrada.com/notes/vibecoding-lima-gang/?ref=rss"
-            },
-            {
-              "title": "My own RSS reader",
-              "date": "2025-05-15",
-              "link": "https://leanrada.com/notes/my-own-rss-reader/?ref=rss"
-            },
-            {
-              "title": "Simple live reload for developing static sites",
-              "date": "2025-04-18",
-              "link": "https://leanrada.com/notes/simple-live-reload/?ref=rss"
-            },
-            {
-              "title": "Language evolves, so we must too. On generative art",
-              "date": "2025-04-03",
-              "link": "https://leanrada.com/notes/language-evolves-generative-art/?ref=rss"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-01T03:50:19.221Z",
+  "fetchDate": "2025-09-02T03:37:00.141Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

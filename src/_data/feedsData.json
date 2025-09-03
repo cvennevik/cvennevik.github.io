@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "Apple's Assault on Standards",
+              "date": "2025-09-02",
+              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
+            },
+            {
+              "title": "Apple vs. Facebook is Kayfabe",
+              "date": "2025-08-25",
+              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
+            },
+            {
+              "title": "Put Names and Dates On Documents",
+              "date": "2025-08-13",
+              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
+            },
+            {
+              "title": "How Do Committees Fail To Invent?",
+              "date": "2025-08-11",
+              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
+            },
+            {
+              "title": "Links? Links!",
+              "date": "2025-07-16",
+              "link": "https://infrequently.org/2025/07/links/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "The melancholy of history rhyming",
+              "date": "2025-09-02",
+              "link": "https://www.baldurbjarnason.com/2025/the-melancholy-of-history-rhyming/"
+            },
+            {
+              "title": "Let's stop pretending that managers and executives care about productivity",
+              "date": "2025-08-07",
+              "link": "https://www.baldurbjarnason.com/2025/disingenuous-discourse/"
+            },
+            {
+              "title": "Avoiding generative models is the rational and responsible thing to do – follow-up to “Trusting your own judgement on ‘AI...’”",
+              "date": "2025-06-11",
+              "link": "https://www.baldurbjarnason.com/2025/followup-on-trusting-your-own-judgement/"
+            },
+            {
+              "title": "Trusting your own judgement on ‘AI’ is a huge risk",
+              "date": "2025-06-09",
+              "link": "https://www.baldurbjarnason.com/2025/trusting-your-own-judgement-on-ai/"
+            },
+            {
+              "title": "Fowl photos!",
+              "date": "2025-05-16",
+              "link": "https://www.baldurbjarnason.com/notes/photos/fowl-photos/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Safari is holding the web back",
+              "date": "2025-09-02",
+              "link": "https://gomakethings.com/safari-is-holding-the-web-back/"
+            },
             {
               "title": "Means of Production",
               "date": "2025-09-01",
@@ -26,11 +93,125 @@
               "title": "I'm an AI hater",
               "date": "2025-08-29",
               "link": "https://gomakethings.com/im-an-ai-hater/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: Asynchronous JavaScript – Promises and async functions",
+              "date": "2025-09-02",
+              "link": "https://2ality.com/2025/09/javascript-async.html"
             },
             {
-              "title": "Genuine human connection",
+              "title": "Learning web development: JSON and processing files in Node.js",
+              "date": "2025-08-31",
+              "link": "https://2ality.com/2025/08/javascript-json-processing-files.html"
+            },
+            {
+              "title": "Learning web development: JavaScript Maps",
+              "date": "2025-08-30",
+              "link": "https://2ality.com/2025/08/javascript-maps.html"
+            },
+            {
+              "title": "Learning web development: JavaScript exceptions",
+              "date": "2025-08-29",
+              "link": "https://2ality.com/2025/08/javascript-exceptions.html"
+            },
+            {
+              "title": "JavaScript’s trademark problem",
+              "date": "2025-08-29",
+              "link": "https://2ality.com/2025/08/javascript-trademark.html"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "0054: zest namespaces, store tags after payloads, go allocation probe, everyones got one, pprof labelguns, go value types, go perf probe, reference types vs value types, tpde, anyblox, books",
+              "date": "2025-09-02",
+              "link": "https://www.scattered-thoughts.net/log/0054/"
+            },
+            {
+              "title": "Everyone's got one",
+              "date": "2025-08-05",
+              "link": "https://www.scattered-thoughts.net/writing/everyones-got-one/"
+            },
+            {
+              "title": "Go allocation probe",
+              "date": "2025-07-18",
+              "link": "https://www.scattered-thoughts.net/writing/go-allocation-probe/"
+            },
+            {
+              "title": "Store tags after payloads",
+              "date": "2025-07-13",
+              "link": "https://www.scattered-thoughts.net/writing/store-tags-after-payloads/"
+            },
+            {
+              "title": "0053: consulting, go tips, benchmark_mode, niri, linkrot, sea of nos, llm outsourcing, books",
+              "date": "2025-05-31",
+              "link": "https://www.scattered-thoughts.net/log/0053/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-09-02",
+              "link": "https://dbushell.com/notes/2025-09-02T07:24Z/"
+            },
+            {
+              "date": "2025-09-01",
+              "link": "https://dbushell.com/notes/2025-09-01T15:58Z/"
+            },
+            {
+              "date": "2025-08-29",
+              "link": "https://dbushell.com/notes/2025-08-29T12:31Z/"
+            },
+            {
               "date": "2025-08-28",
-              "link": "https://gomakethings.com/genuine-human-connection/"
+              "link": "https://dbushell.com/notes/2025-08-28T12:16Z/"
+            },
+            {
+              "date": "2025-08-27",
+              "link": "https://dbushell.com/notes/2025-08-27T15:41Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Encourage purposeful friction",
+              "date": "2025-09-02",
+              "link": "https://anniemueller.com/posts/encourage-purposeful-friction"
+            },
+            {
+              "title": "Ritualize anything",
+              "date": "2025-08-27",
+              "link": "https://anniemueller.com/posts/ritualize-anything"
+            },
+            {
+              "title": "Quit being support staff",
+              "date": "2025-08-22",
+              "link": "https://anniemueller.com/posts/quit-being-support-staff"
+            },
+            {
+              "title": "Navigating the Obvious Shoulds",
+              "date": "2025-08-12",
+              "link": "https://anniemueller.com/posts/navigating-the-obvious-shoulds"
+            },
+            {
+              "title": "Small Web July recap",
+              "date": "2025-08-04",
+              "link": "https://anniemueller.com/posts/small-web-july-recap"
             }
           ]
         },
@@ -62,63 +243,6 @@
               "title": "Simple live reload for developing static sites",
               "date": "2025-04-18",
               "link": "https://leanrada.com/notes/simple-live-reload/?ref=rss"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-09-01",
-              "link": "https://dbushell.com/notes/2025-09-01T15:58Z/"
-            },
-            {
-              "date": "2025-08-29",
-              "link": "https://dbushell.com/notes/2025-08-29T12:31Z/"
-            },
-            {
-              "date": "2025-08-28",
-              "link": "https://dbushell.com/notes/2025-08-28T12:16Z/"
-            },
-            {
-              "date": "2025-08-27",
-              "link": "https://dbushell.com/notes/2025-08-27T15:41Z/"
-            },
-            {
-              "date": "2025-08-26",
-              "link": "https://dbushell.com/notes/2025-08-26T11:39Z/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Learning web development: JSON and processing files in Node.js",
-              "date": "2025-08-31",
-              "link": "https://2ality.com/2025/08/javascript-json-processing-files.html"
-            },
-            {
-              "title": "Learning web development: JavaScript Maps",
-              "date": "2025-08-30",
-              "link": "https://2ality.com/2025/08/javascript-maps.html"
-            },
-            {
-              "title": "Learning web development: JavaScript exceptions",
-              "date": "2025-08-29",
-              "link": "https://2ality.com/2025/08/javascript-exceptions.html"
-            },
-            {
-              "title": "JavaScript’s trademark problem",
-              "date": "2025-08-29",
-              "link": "https://2ality.com/2025/08/javascript-trademark.html"
-            },
-            {
-              "title": "Learning web development: Plain objects in JavaScript",
-              "date": "2025-08-28",
-              "link": "https://2ality.com/2025/08/javascript-plain-objects.html"
             }
           ]
         },
@@ -278,37 +402,6 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Ritualize anything",
-              "date": "2025-08-27",
-              "link": "https://anniemueller.com/posts/ritualize-anything"
-            },
-            {
-              "title": "Quit being support staff",
-              "date": "2025-08-22",
-              "link": "https://anniemueller.com/posts/quit-being-support-staff"
-            },
-            {
-              "title": "Navigating the Obvious Shoulds",
-              "date": "2025-08-12",
-              "link": "https://anniemueller.com/posts/navigating-the-obvious-shoulds"
-            },
-            {
-              "title": "Small Web July recap",
-              "date": "2025-08-04",
-              "link": "https://anniemueller.com/posts/small-web-july-recap"
-            },
-            {
-              "title": "Reading notes: May, June, July",
-              "date": "2025-07-30",
-              "link": "https://anniemueller.com/posts/reading-notes-may-june-july"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -367,37 +460,6 @@
               "title": "Living Local",
               "date": "2025-07-31",
               "link": "https://flamedfury.com/posts/living-local/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Apple vs. Facebook is Kayfabe",
-              "date": "2025-08-25",
-              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
-            },
-            {
-              "title": "Put Names and Dates On Documents",
-              "date": "2025-08-13",
-              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
-            },
-            {
-              "title": "How Do Committees Fail To Invent?",
-              "date": "2025-08-11",
-              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
-            },
-            {
-              "title": "Links? Links!",
-              "date": "2025-07-16",
-              "link": "https://infrequently.org/2025/07/links/"
-            },
-            {
-              "title": "Conferences, Clarity, and Smokescreens",
-              "date": "2025-06-27",
-              "link": "https://infrequently.org/2025/06/conferences-clarity-and-smokescreens/"
             }
           ]
         },
@@ -894,68 +956,6 @@
               "title": "Put Windows in Your Web App with WinBox.js",
               "date": "2025-07-16",
               "link": "https://thathtml.blog/2025/07/put-windows-in-your-web-app-with-winbox/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Let's stop pretending that managers and executives care about productivity",
-              "date": "2025-08-07",
-              "link": "https://www.baldurbjarnason.com/2025/disingenuous-discourse/"
-            },
-            {
-              "title": "Avoiding generative models is the rational and responsible thing to do – follow-up to “Trusting your own judgement on ‘AI...’”",
-              "date": "2025-06-11",
-              "link": "https://www.baldurbjarnason.com/2025/followup-on-trusting-your-own-judgement/"
-            },
-            {
-              "title": "Trusting your own judgement on ‘AI’ is a huge risk",
-              "date": "2025-06-09",
-              "link": "https://www.baldurbjarnason.com/2025/trusting-your-own-judgement-on-ai/"
-            },
-            {
-              "title": "Fowl photos!",
-              "date": "2025-05-16",
-              "link": "https://www.baldurbjarnason.com/notes/photos/fowl-photos/"
-            },
-            {
-              "title": "Foggy feeds: the decline in my feed reader subscriptions",
-              "date": "2025-05-16",
-              "link": "https://www.baldurbjarnason.com/notes/2025/foggy-feeds/"
-            }
-          ]
-        },
-        {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "Everyone's got one",
-              "date": "2025-08-05",
-              "link": "https://www.scattered-thoughts.net/writing/everyones-got-one/"
-            },
-            {
-              "title": "Go allocation probe",
-              "date": "2025-07-18",
-              "link": "https://www.scattered-thoughts.net/writing/go-allocation-probe/"
-            },
-            {
-              "title": "Store tags after payloads",
-              "date": "2025-07-13",
-              "link": "https://www.scattered-thoughts.net/writing/store-tags-after-payloads/"
-            },
-            {
-              "title": "0053: consulting, go tips, benchmark_mode, niri, linkrot, sea of nos, llm outsourcing, books",
-              "date": "2025-05-31",
-              "link": "https://www.scattered-thoughts.net/log/0053/"
-            },
-            {
-              "title": "A rough survey of compilation, recompilation, and compile-time evaluation",
-              "date": "2025-04-04",
-              "link": "https://www.scattered-thoughts.net/writing/a-rough-survey-of-compilation-recompilation-and-compile-time-evaluation/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-02T03:37:00.141Z",
+  "fetchDate": "2025-09-03T03:24:49.758Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

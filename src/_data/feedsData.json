@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Sneak accessibility",
+              "date": "2025-09-03",
+              "link": "https://gomakethings.com/sneak-accessibility/"
+            },
+            {
+              "title": "Safari is holding the web back",
+              "date": "2025-09-02",
+              "link": "https://gomakethings.com/safari-is-holding-the-web-back/"
+            },
+            {
+              "title": "Means of Production",
+              "date": "2025-09-01",
+              "link": "https://gomakethings.com/means-of-production/"
+            },
+            {
+              "title": "Solidarity means everyone",
+              "date": "2025-08-31",
+              "link": "https://gomakethings.com/solidarity-means-everyone/"
+            },
+            {
+              "title": "Wild gardening",
+              "date": "2025-08-30",
+              "link": "https://gomakethings.com/wild-gardening/"
+            }
+          ]
+        },
+        {
+          "title": "Nathan Knowler",
+          "feedUrl": "https://knowler.dev/feed.xml",
+          "items": [
+            {
+              "title": "An intro to manual slot assignment",
+              "date": "2025-09-03",
+              "link": "https://knowler.dev/blog/an-intro-to-manual-slot-assignment"
+            },
+            {
+              "title": "Polyfilling hidden until-found",
+              "date": "2025-01-04",
+              "link": "https://knowler.dev/blog/polyfilling-hidden-until-found"
+            },
+            {
+              "title": "I’m switching back to Arc Browser (for now)",
+              "date": "2024-11-22",
+              "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
+            },
+            {
+              "title": "To define custom elements or not when distributing them",
+              "date": "2024-10-08",
+              "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
+            },
+            {
+              "title": "A custom element smoke test",
+              "date": "2024-07-11",
+              "link": "https://knowler.dev/blog/a-custom-element-smoke-test"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-09-03",
+              "link": "https://dbushell.com/notes/2025-09-03T12:26Z/"
+            },
+            {
+              "date": "2025-09-02",
+              "link": "https://dbushell.com/notes/2025-09-02T07:24Z/"
+            },
+            {
+              "date": "2025-09-01",
+              "link": "https://dbushell.com/notes/2025-09-01T15:58Z/"
+            },
+            {
+              "date": "2025-08-29",
+              "link": "https://dbushell.com/notes/2025-08-29T12:31Z/"
+            },
+            {
+              "date": "2025-08-28",
+              "link": "https://dbushell.com/notes/2025-08-28T12:16Z/"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "AI then",
+              "date": "2025-09-03",
+              "link": "https://garoof.no/notes/ai.html"
+            },
+            {
+              "title": "What if dependencies were injected?",
+              "date": "2025-08-24",
+              "link": "https://garoof.no/java/ioc.html"
+            },
+            {
+              "title": "Using Java types for keywordy args",
+              "date": "2025-08-02",
+              "link": "https://garoof.no/java/keywordy-types.html"
+            },
+            {
+              "title": "Smalltalk syntax is nice",
+              "date": "2025-08-01",
+              "link": "https://garoof.no/notes/smalltalk-syntax.html"
+            },
+            {
+              "title": "Sums and products in Java",
+              "date": "2025-07-19",
+              "link": "https://garoof.no/java/sums-and-products.html"
+            }
+          ]
+        },
+        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -66,37 +185,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Safari is holding the web back",
-              "date": "2025-09-02",
-              "link": "https://gomakethings.com/safari-is-holding-the-web-back/"
-            },
-            {
-              "title": "Means of Production",
-              "date": "2025-09-01",
-              "link": "https://gomakethings.com/means-of-production/"
-            },
-            {
-              "title": "Solidarity means everyone",
-              "date": "2025-08-31",
-              "link": "https://gomakethings.com/solidarity-means-everyone/"
-            },
-            {
-              "title": "Wild gardening",
-              "date": "2025-08-30",
-              "link": "https://gomakethings.com/wild-gardening/"
-            },
-            {
-              "title": "I'm an AI hater",
-              "date": "2025-08-29",
-              "link": "https://gomakethings.com/im-an-ai-hater/"
-            }
-          ]
-        },
-        {
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
@@ -132,7 +220,7 @@
           "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
             {
-              "title": "0054: zest namespaces, store tags after payloads, go allocation probe, everyones got one, pprof labelguns, go value types, go perf probe, reference types vs value types, tpde, anyblox, books",
+              "title": "0054: zest namespaces, store tags after payloads, go allocation probe, everyones got one, pprof labelguns, go value types, go perf probe, tpde, anyblox, books",
               "date": "2025-09-02",
               "link": "https://www.scattered-thoughts.net/log/0054/"
             },
@@ -155,32 +243,6 @@
               "title": "0053: consulting, go tips, benchmark_mode, niri, linkrot, sea of nos, llm outsourcing, books",
               "date": "2025-05-31",
               "link": "https://www.scattered-thoughts.net/log/0053/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-09-02",
-              "link": "https://dbushell.com/notes/2025-09-02T07:24Z/"
-            },
-            {
-              "date": "2025-09-01",
-              "link": "https://dbushell.com/notes/2025-09-01T15:58Z/"
-            },
-            {
-              "date": "2025-08-29",
-              "link": "https://dbushell.com/notes/2025-08-29T12:31Z/"
-            },
-            {
-              "date": "2025-08-28",
-              "link": "https://dbushell.com/notes/2025-08-28T12:16Z/"
-            },
-            {
-              "date": "2025-08-27",
-              "link": "https://dbushell.com/notes/2025-08-27T15:41Z/"
             }
           ]
         },
@@ -247,37 +309,6 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "August 2025 blend of links",
-              "date": "2025-08-30",
-              "link": "https://thejollyteapot.com/august-2025-blend/"
-            },
-            {
-              "title": "July 2025 blend of links",
-              "date": "2025-07-30",
-              "link": "https://thejollyteapot.com/july-2025-blend/"
-            },
-            {
-              "title": "Could I use the internet without a proper web browser?",
-              "date": "2025-07-27",
-              "link": "https://thejollyteapot.com/2025/07/27/could-i-use-the-internet-without-a-proper-web-browser/"
-            },
-            {
-              "title": "June 2025 blend of links",
-              "date": "2025-06-27",
-              "link": "https://thejollyteapot.com/june-2025-blend/"
-            },
-            {
-              "title": "Something terrible happened with CSS",
-              "date": "2025-05-29",
-              "link": "https://thejollyteapot.com/2025/05/29/something-terrible-happened-with-css/"
-            }
-          ]
-        },
-        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -305,6 +336,37 @@
               "title": "Mere Being 020 - March - human nature, lady doctors, potatoes",
               "date": "2025-04-01",
               "link": "https://www.simplermachines.com/mere-being-020-march-2/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "August 2025 blend of links",
+              "date": "2025-08-30",
+              "link": "https://thejollyteapot.com/august-2025-blend/"
+            },
+            {
+              "title": "July 2025 blend of links",
+              "date": "2025-07-30",
+              "link": "https://thejollyteapot.com/july-2025-blend/"
+            },
+            {
+              "title": "Could I use the internet without a proper web browser?",
+              "date": "2025-07-27",
+              "link": "https://thejollyteapot.com/2025/07/27/could-i-use-the-internet-without-a-proper-web-browser/"
+            },
+            {
+              "title": "June 2025 blend of links",
+              "date": "2025-06-27",
+              "link": "https://thejollyteapot.com/june-2025-blend/"
+            },
+            {
+              "title": "Something terrible happened with CSS",
+              "date": "2025-05-29",
+              "link": "https://thejollyteapot.com/2025/05/29/something-terrible-happened-with-css/"
             }
           ]
         },
@@ -553,37 +615,6 @@
               "title": "UED: Watson",
               "date": "2025-07-20",
               "link": "https://moonbase.lgbt/blog/ued-watson/"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "What if dependencies were injected?",
-              "date": "2025-08-24",
-              "link": "https://garoof.no/java/ioc.html"
-            },
-            {
-              "title": "Using Java types for keywordy args",
-              "date": "2025-08-02",
-              "link": "https://garoof.no/java/keywordy-types.html"
-            },
-            {
-              "title": "Smalltalk syntax is nice",
-              "date": "2025-08-01",
-              "link": "https://garoof.no/notes/smalltalk-syntax.html"
-            },
-            {
-              "title": "Sums and products in Java",
-              "date": "2025-07-19",
-              "link": "https://garoof.no/java/sums-and-products.html"
-            },
-            {
-              "title": "Somewhat non-miserable feature toggling",
-              "date": "2025-07-17",
-              "link": "https://garoof.no/java/non-miserable-feature-toggling.html"
             }
           ]
         },
@@ -2045,37 +2076,6 @@
           ]
         },
         {
-          "title": "Nathan Knowler",
-          "feedUrl": "https://knowler.dev/feed.xml",
-          "items": [
-            {
-              "title": "Polyfilling hidden until-found",
-              "date": "2025-01-04",
-              "link": "https://knowler.dev/blog/polyfilling-hidden-until-found"
-            },
-            {
-              "title": "I’m switching back to Arc Browser (for now)",
-              "date": "2024-11-22",
-              "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
-            },
-            {
-              "title": "To define custom elements or not when distributing them",
-              "date": "2024-10-08",
-              "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
-            },
-            {
-              "title": "A custom element smoke test",
-              "date": "2024-07-11",
-              "link": "https://knowler.dev/blog/a-custom-element-smoke-test"
-            },
-            {
-              "title": "Read the Platform",
-              "date": "2024-06-29",
-              "link": "https://knowler.dev/blog/read-the-platform"
-            }
-          ]
-        },
-        {
           "title": "The Code Whisperer",
           "feedUrl": "https://blog.thecodewhisperer.com/feed.xml",
           "items": [
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-03T03:24:49.758Z",
+  "fetchDate": "2025-09-04T03:25:44.493Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

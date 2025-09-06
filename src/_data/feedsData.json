@@ -4,6 +4,156 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "I Let The Emails In",
+              "date": "2025-09-05",
+              "link": "https://dbushell.com/2025/09/05/typescript-email-smtp-server/"
+            },
+            {
+              "title": "Croissant RSS Beta is Live!",
+              "date": "2025-08-28",
+              "link": "https://dbushell.com/2025/08/28/croissant-rss-beta/"
+            },
+            {
+              "title": "Self-hosted Forgejo Releases (the Final Boss)",
+              "date": "2025-08-25",
+              "link": "https://dbushell.com/2025/08/25/self-hosted-forgejo-actions-releases/"
+            },
+            {
+              "title": "RSS Club #002: Dino Edition",
+              "date": "2025-08-17",
+              "link": "https://dbushell.com/2025/08/17/RSS002/"
+            },
+            {
+              "title": "Self-hosted Forgejo Actions Runner",
+              "date": "2025-08-15",
+              "link": "https://dbushell.com/2025/08/15/self-hosted-forgejo-actions-runner/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The dialog modal ::backdrop, CSS variables, and Safari",
+              "date": "2025-09-05",
+              "link": "https://gomakethings.com/the-dialog-modal-backdrop-css-variables-and-safari/"
+            },
+            {
+              "title": "Active meditation",
+              "date": "2025-09-04",
+              "link": "https://gomakethings.com/active-meditation/"
+            },
+            {
+              "title": "Sneak accessibility",
+              "date": "2025-09-03",
+              "link": "https://gomakethings.com/sneak-accessibility/"
+            },
+            {
+              "title": "Safari is holding the web back",
+              "date": "2025-09-02",
+              "link": "https://gomakethings.com/safari-is-holding-the-web-back/"
+            },
+            {
+              "title": "Means of Production",
+              "date": "2025-09-01",
+              "link": "https://gomakethings.com/means-of-production/"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "De-clouding: Music",
+              "date": "2025-09-05",
+              "link": "https://rosswintle.uk/2025/09/de-clouding-music/"
+            },
+            {
+              "title": "Hello RSS Club!",
+              "date": "2025-08-03",
+              "link": "https://rosswintle.uk/rss-club/hello-rss-club/"
+            },
+            {
+              "title": "Using the 8BitDo Micro game controller with a Mac",
+              "date": "2025-07-24",
+              "link": "https://rosswintle.uk/2025/07/using-the-8bitdo-micro-game-controller-with-a-mac/"
+            },
+            {
+              "title": "Public Speaking",
+              "date": "2025-07-21",
+              "link": "https://rosswintle.uk/2025/07/public-speaking/"
+            },
+            {
+              "title": "Newsletters and indie iOS apps",
+              "date": "2025-07-13",
+              "link": "https://rosswintle.uk/2025/07/newsletters-and-indie-ios-apps/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Why I love BBEdit",
+              "date": "2025-09-05",
+              "link": "https://thejollyteapot.com/2025/09/05/why-i-love-bbedit/"
+            },
+            {
+              "title": "August 2025 blend of links",
+              "date": "2025-08-30",
+              "link": "https://thejollyteapot.com/august-2025-blend/"
+            },
+            {
+              "title": "July 2025 blend of links",
+              "date": "2025-07-30",
+              "link": "https://thejollyteapot.com/july-2025-blend/"
+            },
+            {
+              "title": "Could I use the internet without a proper web browser?",
+              "date": "2025-07-27",
+              "link": "https://thejollyteapot.com/2025/07/27/could-i-use-the-internet-without-a-proper-web-browser/"
+            },
+            {
+              "title": "June 2025 blend of links",
+              "date": "2025-06-27",
+              "link": "https://thejollyteapot.com/june-2025-blend/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-09-05",
+              "link": "https://dbushell.com/notes/2025-09-05T06:10Z/"
+            },
+            {
+              "date": "2025-09-04",
+              "link": "https://dbushell.com/notes/2025-09-04T07:29Z/"
+            },
+            {
+              "date": "2025-09-03",
+              "link": "https://dbushell.com/notes/2025-09-03T12:26Z/"
+            },
+            {
+              "date": "2025-09-02",
+              "link": "https://dbushell.com/notes/2025-09-02T07:24Z/"
+            },
+            {
+              "date": "2025-09-01",
+              "link": "https://dbushell.com/notes/2025-09-01T15:58Z/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -35,59 +185,33 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
             {
-              "title": "Active meditation",
+              "title": "SQL needed structure",
               "date": "2025-09-04",
-              "link": "https://gomakethings.com/active-meditation/"
+              "link": "https://www.scattered-thoughts.net/writing/sql-needed-structure/"
             },
             {
-              "title": "Sneak accessibility",
-              "date": "2025-09-03",
-              "link": "https://gomakethings.com/sneak-accessibility/"
-            },
-            {
-              "title": "Safari is holding the web back",
+              "title": "0054: zest namespaces, store tags after payloads, go allocation probe, everyones got one, pprof labelguns, go value types, go perf probe, tpde, anyblox, books",
               "date": "2025-09-02",
-              "link": "https://gomakethings.com/safari-is-holding-the-web-back/"
+              "link": "https://www.scattered-thoughts.net/log/0054/"
             },
             {
-              "title": "Means of Production",
-              "date": "2025-09-01",
-              "link": "https://gomakethings.com/means-of-production/"
+              "title": "Everyone's got one",
+              "date": "2025-08-05",
+              "link": "https://www.scattered-thoughts.net/writing/everyones-got-one/"
             },
             {
-              "title": "Solidarity means everyone",
-              "date": "2025-08-31",
-              "link": "https://gomakethings.com/solidarity-means-everyone/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-09-04",
-              "link": "https://dbushell.com/notes/2025-09-04T07:29Z/"
+              "title": "Go allocation probe",
+              "date": "2025-07-18",
+              "link": "https://www.scattered-thoughts.net/writing/go-allocation-probe/"
             },
             {
-              "date": "2025-09-03",
-              "link": "https://dbushell.com/notes/2025-09-03T12:26Z/"
-            },
-            {
-              "date": "2025-09-02",
-              "link": "https://dbushell.com/notes/2025-09-02T07:24Z/"
-            },
-            {
-              "date": "2025-09-01",
-              "link": "https://dbushell.com/notes/2025-09-01T15:58Z/"
-            },
-            {
-              "date": "2025-08-29",
-              "link": "https://dbushell.com/notes/2025-08-29T12:31Z/"
+              "title": "Store tags after payloads",
+              "date": "2025-07-13",
+              "link": "https://www.scattered-thoughts.net/writing/store-tags-after-payloads/"
             }
           ]
         },
@@ -185,37 +309,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Apple's Assault on Standards",
-              "date": "2025-09-02",
-              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
-            },
-            {
-              "title": "Apple vs. Facebook is Kayfabe",
-              "date": "2025-08-25",
-              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
-            },
-            {
-              "title": "Put Names and Dates On Documents",
-              "date": "2025-08-13",
-              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
-            },
-            {
-              "title": "How Do Committees Fail To Invent?",
-              "date": "2025-08-11",
-              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
-            },
-            {
-              "title": "Links? Links!",
-              "date": "2025-07-16",
-              "link": "https://infrequently.org/2025/07/links/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -274,37 +367,6 @@
               "title": "JavaScript’s trademark problem",
               "date": "2025-08-29",
               "link": "https://2ality.com/2025/08/javascript-trademark.html"
-            }
-          ]
-        },
-        {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "0054: zest namespaces, store tags after payloads, go allocation probe, everyones got one, pprof labelguns, go value types, go perf probe, tpde, anyblox, books",
-              "date": "2025-09-02",
-              "link": "https://www.scattered-thoughts.net/log/0054/"
-            },
-            {
-              "title": "Everyone's got one",
-              "date": "2025-08-05",
-              "link": "https://www.scattered-thoughts.net/writing/everyones-got-one/"
-            },
-            {
-              "title": "Go allocation probe",
-              "date": "2025-07-18",
-              "link": "https://www.scattered-thoughts.net/writing/go-allocation-probe/"
-            },
-            {
-              "title": "Store tags after payloads",
-              "date": "2025-07-13",
-              "link": "https://www.scattered-thoughts.net/writing/store-tags-after-payloads/"
-            },
-            {
-              "title": "0053: consulting, go tips, benchmark_mode, niri, linkrot, sea of nos, llm outsourcing, books",
-              "date": "2025-05-31",
-              "link": "https://www.scattered-thoughts.net/log/0053/"
             }
           ]
         },
@@ -371,37 +433,6 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "August 2025 blend of links",
-              "date": "2025-08-30",
-              "link": "https://thejollyteapot.com/august-2025-blend/"
-            },
-            {
-              "title": "July 2025 blend of links",
-              "date": "2025-07-30",
-              "link": "https://thejollyteapot.com/july-2025-blend/"
-            },
-            {
-              "title": "Could I use the internet without a proper web browser?",
-              "date": "2025-07-27",
-              "link": "https://thejollyteapot.com/2025/07/27/could-i-use-the-internet-without-a-proper-web-browser/"
-            },
-            {
-              "title": "June 2025 blend of links",
-              "date": "2025-06-27",
-              "link": "https://thejollyteapot.com/june-2025-blend/"
-            },
-            {
-              "title": "Something terrible happened with CSS",
-              "date": "2025-05-29",
-              "link": "https://thejollyteapot.com/2025/05/29/something-terrible-happened-with-css/"
-            }
-          ]
-        },
-        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -460,37 +491,6 @@
               "title": "Making a custom porteur bag",
               "date": "2025-05-18",
               "link": "https://macwright.com/2025/05/18/sewing.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Croissant RSS Beta is Live!",
-              "date": "2025-08-28",
-              "link": "https://dbushell.com/2025/08/28/croissant-rss-beta/"
-            },
-            {
-              "title": "Self-hosted Forgejo Releases (the Final Boss)",
-              "date": "2025-08-25",
-              "link": "https://dbushell.com/2025/08/25/self-hosted-forgejo-actions-releases/"
-            },
-            {
-              "title": "RSS Club #002: Dino Edition",
-              "date": "2025-08-17",
-              "link": "https://dbushell.com/2025/08/17/RSS002/"
-            },
-            {
-              "title": "Self-hosted Forgejo Actions Runner",
-              "date": "2025-08-15",
-              "link": "https://dbushell.com/2025/08/15/self-hosted-forgejo-actions-runner/"
-            },
-            {
-              "title": "GitHub Ensloppification",
-              "date": "2025-08-11",
-              "link": "https://dbushell.com/2025/08/11/github-ensloppification/"
             }
           ]
         },
@@ -898,37 +898,6 @@
           ]
         },
         {
-          "title": "Marvin Hagemeister",
-          "feedUrl": "https://marvinh.dev/feed.xml",
-          "items": [
-            {
-              "title": "Speeding up the JavaScript ecosystem - Semver",
-              "date": "2025-08-10",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
-              "date": "2025-02-23",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
-            },
-            {
-              "title": "The modern way to write JavaScript servers",
-              "date": "2025-01-25",
-              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
-              "date": "2024-07-06",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
-              "date": "2024-05-15",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -956,6 +925,37 @@
               "title": "The Struggle of Public Speaking",
               "date": "2025-06-22",
               "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
+            }
+          ]
+        },
+        {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Speeding up the JavaScript ecosystem - Semver",
+              "date": "2025-08-10",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
+              "date": "2025-02-23",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
+            },
+            {
+              "title": "The modern way to write JavaScript servers",
+              "date": "2025-01-25",
+              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
+              "date": "2024-07-06",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
+              "date": "2024-05-15",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
             }
           ]
         },
@@ -1018,37 +1018,6 @@
               "title": "The Best Product Engineering Org in the World",
               "date": "2025-01-10",
               "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
-            }
-          ]
-        },
-        {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "Hello RSS Club!",
-              "date": "2025-08-03",
-              "link": "https://rosswintle.uk/rss-club/hello-rss-club/"
-            },
-            {
-              "title": "Using the 8BitDo Micro game controller with a Mac",
-              "date": "2025-07-24",
-              "link": "https://rosswintle.uk/2025/07/using-the-8bitdo-micro-game-controller-with-a-mac/"
-            },
-            {
-              "title": "Public Speaking",
-              "date": "2025-07-21",
-              "link": "https://rosswintle.uk/2025/07/public-speaking/"
-            },
-            {
-              "title": "Newsletters and indie iOS apps",
-              "date": "2025-07-13",
-              "link": "https://rosswintle.uk/2025/07/newsletters-and-indie-ios-apps/"
-            },
-            {
-              "title": "The Way I Code (and have been coding for 30 years)",
-              "date": "2025-07-12",
-              "link": "https://rosswintle.uk/2025/07/the-way-i-code/"
             }
           ]
         },
@@ -2523,8 +2492,9 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-05T03:28:54.832Z",
+  "fetchDate": "2025-09-06T03:24:14.423Z",
   "errors": [
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml"

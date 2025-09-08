@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: Installing npm packages and bundling",
+              "date": "2025-09-07",
+              "link": "https://2ality.com/2025/09/npm-packages-bundling.html"
+            },
+            {
+              "title": "Learning web development: Asynchronous JavaScript – Promises and async functions",
+              "date": "2025-09-02",
+              "link": "https://2ality.com/2025/09/javascript-async.html"
+            },
+            {
+              "title": "Learning web development: JSON and processing files in Node.js",
+              "date": "2025-08-31",
+              "link": "https://2ality.com/2025/08/javascript-json-processing-files.html"
+            },
+            {
+              "title": "Learning web development: JavaScript Maps",
+              "date": "2025-08-30",
+              "link": "https://2ality.com/2025/08/javascript-maps.html"
+            },
+            {
+              "title": "Learning web development: JavaScript exceptions",
+              "date": "2025-08-29",
+              "link": "https://2ality.com/2025/08/javascript-exceptions.html"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -371,37 +402,6 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Learning web development: Asynchronous JavaScript – Promises and async functions",
-              "date": "2025-09-02",
-              "link": "https://2ality.com/2025/09/javascript-async.html"
-            },
-            {
-              "title": "Learning web development: JSON and processing files in Node.js",
-              "date": "2025-08-31",
-              "link": "https://2ality.com/2025/08/javascript-json-processing-files.html"
-            },
-            {
-              "title": "Learning web development: JavaScript Maps",
-              "date": "2025-08-30",
-              "link": "https://2ality.com/2025/08/javascript-maps.html"
-            },
-            {
-              "title": "Learning web development: JavaScript exceptions",
-              "date": "2025-08-29",
-              "link": "https://2ality.com/2025/08/javascript-exceptions.html"
-            },
-            {
-              "title": "JavaScript’s trademark problem",
-              "date": "2025-08-29",
-              "link": "https://2ality.com/2025/08/javascript-trademark.html"
-            }
-          ]
-        },
-        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -646,37 +646,6 @@
               "title": "UED: Watson",
               "date": "2025-07-20",
               "link": "https://moonbase.lgbt/blog/ued-watson/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Fix the Signal",
-              "date": "2025-08-23",
-              "link": "https://robinrendle.com/notes/fix-the-signal/"
-            },
-            {
-              "title": "Book notes",
-              "date": "2025-07-13",
-              "link": "https://robinrendle.com/notes/book-notes/"
-            },
-            {
-              "title": "The End of Everything",
-              "date": "2025-05-21",
-              "link": "https://robinrendle.com/notes/the-end-of-everything/"
-            },
-            {
-              "title": "item-flow",
-              "date": "2025-03-30",
-              "link": "https://robinrendle.com/notes/item-flow/"
-            },
-            {
-              "title": "Humiliation",
-              "date": "2025-03-15",
-              "link": "https://robinrendle.com/notes/humiliation/"
             }
           ]
         },
@@ -2523,10 +2492,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-07T03:31:24.515Z",
+  "fetchDate": "2025-09-08T03:37:49.492Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml"
+    "https://blog.codemanship.dev/rss.xml",
+    "https://robinrendle.com/feed.xml"
   ]
 }

@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Do less",
+              "date": "2025-09-09",
+              "link": "https://gomakethings.com/do-less/"
+            },
+            {
+              "title": "Why I still prefer ems over rems",
+              "date": "2025-09-08",
+              "link": "https://gomakethings.com/why-i-still-prefer-ems-over-rems/"
+            },
+            {
+              "title": "The meaning of life...",
+              "date": "2025-09-06",
+              "link": "https://gomakethings.com/the-meaning-of-life/"
+            },
+            {
+              "title": "The dialog modal ::backdrop, CSS variables, and Safari",
+              "date": "2025-09-05",
+              "link": "https://gomakethings.com/the-dialog-modal-backdrop-css-variables-and-safari/"
+            },
+            {
+              "title": "Active meditation",
+              "date": "2025-09-04",
+              "link": "https://gomakethings.com/active-meditation/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: Frontend frameworks",
+              "date": "2025-09-09",
+              "link": "https://2ality.com/2025/09/frontend-frameworks.html"
+            },
+            {
+              "title": "Learning web development: Installing npm packages and bundling",
+              "date": "2025-09-07",
+              "link": "https://2ality.com/2025/09/npm-packages-bundling.html"
+            },
+            {
+              "title": "Learning web development: Asynchronous JavaScript – Promises and async functions",
+              "date": "2025-09-02",
+              "link": "https://2ality.com/2025/09/javascript-async.html"
+            },
+            {
+              "title": "Learning web development: JSON and processing files in Node.js",
+              "date": "2025-08-31",
+              "link": "https://2ality.com/2025/08/javascript-json-processing-files.html"
+            },
+            {
+              "title": "Learning web development: JavaScript Maps",
+              "date": "2025-08-30",
+              "link": "https://2ality.com/2025/08/javascript-maps.html"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Indie Web Burnout",
+              "date": "2025-09-09",
+              "link": "https://frills.dev/blog/2025/september/indie-web-burnout/"
+            },
+            {
+              "title": "WCAG doesn't round",
+              "date": "2025-06-30",
+              "link": "https://tarnoff.info/2025/06/05/quick-tip-wcag-doesnt-round/"
+            },
+            {
+              "title": "Feedback Is Not an Attack",
+              "date": "2025-06-25",
+              "link": "https://ashley.dev/posts/feedback-is-not-an-attack/"
+            },
+            {
+              "title": "Changelog –\n        12 Jun 2025\n      ",
+              "date": "2025-06-12",
+              "link": "https://frills.dev/changelog/250612/"
+            },
+            {
+              "title": "Circadian Rebellion",
+              "date": "2025-06-11",
+              "link": "https://frills.dev/blog/2025/june/circadian-rebellion/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-09-09",
+              "link": "https://dbushell.com/notes/2025-09-09T05:14Z/"
+            },
+            {
+              "date": "2025-09-08",
+              "link": "https://dbushell.com/notes/2025-09-08T13:03Z/"
+            },
+            {
+              "date": "2025-09-05",
+              "link": "https://dbushell.com/notes/2025-09-05T06:10Z/"
+            },
+            {
+              "date": "2025-09-04",
+              "link": "https://dbushell.com/notes/2025-09-04T07:29Z/"
+            },
+            {
+              "date": "2025-09-03",
+              "link": "https://dbushell.com/notes/2025-09-03T12:26Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -66,63 +185,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Why I still prefer ems over rems",
-              "date": "2025-09-08",
-              "link": "https://gomakethings.com/why-i-still-prefer-ems-over-rems/"
-            },
-            {
-              "title": "The meaning of life...",
-              "date": "2025-09-06",
-              "link": "https://gomakethings.com/the-meaning-of-life/"
-            },
-            {
-              "title": "The dialog modal ::backdrop, CSS variables, and Safari",
-              "date": "2025-09-05",
-              "link": "https://gomakethings.com/the-dialog-modal-backdrop-css-variables-and-safari/"
-            },
-            {
-              "title": "Active meditation",
-              "date": "2025-09-04",
-              "link": "https://gomakethings.com/active-meditation/"
-            },
-            {
-              "title": "Sneak accessibility",
-              "date": "2025-09-03",
-              "link": "https://gomakethings.com/sneak-accessibility/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-09-08",
-              "link": "https://dbushell.com/notes/2025-09-08T13:03Z/"
-            },
-            {
-              "date": "2025-09-05",
-              "link": "https://dbushell.com/notes/2025-09-05T06:10Z/"
-            },
-            {
-              "date": "2025-09-04",
-              "link": "https://dbushell.com/notes/2025-09-04T07:29Z/"
-            },
-            {
-              "date": "2025-09-03",
-              "link": "https://dbushell.com/notes/2025-09-03T12:26Z/"
-            },
-            {
-              "date": "2025-09-02",
-              "link": "https://dbushell.com/notes/2025-09-02T07:24Z/"
-            }
-          ]
-        },
-        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -181,37 +243,6 @@
               "title": "item-flow",
               "date": "2025-03-30",
               "link": "https://robinrendle.com/notes/item-flow/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Learning web development: Installing npm packages and bundling",
-              "date": "2025-09-07",
-              "link": "https://2ality.com/2025/09/npm-packages-bundling.html"
-            },
-            {
-              "title": "Learning web development: Asynchronous JavaScript – Promises and async functions",
-              "date": "2025-09-02",
-              "link": "https://2ality.com/2025/09/javascript-async.html"
-            },
-            {
-              "title": "Learning web development: JSON and processing files in Node.js",
-              "date": "2025-08-31",
-              "link": "https://2ality.com/2025/08/javascript-json-processing-files.html"
-            },
-            {
-              "title": "Learning web development: JavaScript Maps",
-              "date": "2025-08-30",
-              "link": "https://2ality.com/2025/08/javascript-maps.html"
-            },
-            {
-              "title": "Learning web development: JavaScript exceptions",
-              "date": "2025-08-29",
-              "link": "https://2ality.com/2025/08/javascript-exceptions.html"
             }
           ]
         },
@@ -1394,37 +1425,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "WCAG doesn't round",
-              "date": "2025-06-30",
-              "link": "https://tarnoff.info/2025/06/05/quick-tip-wcag-doesnt-round/"
-            },
-            {
-              "title": "Feedback Is Not an Attack",
-              "date": "2025-06-25",
-              "link": "https://ashley.dev/posts/feedback-is-not-an-attack/"
-            },
-            {
-              "title": "Changelog –\n        12 Jun 2025\n      ",
-              "date": "2025-06-12",
-              "link": "https://frills.dev/changelog/250612/"
-            },
-            {
-              "title": "Circadian Rebellion",
-              "date": "2025-06-11",
-              "link": "https://frills.dev/blog/2025/june/circadian-rebellion/"
-            },
-            {
-              "title": "Places To Read",
-              "date": "2025-05-24",
-              "link": "https://www.placestoread.xyz/"
-            }
-          ]
-        },
-        {
           "title": "Julia Evans",
           "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-09T03:31:45.210Z",
+  "fetchDate": "2025-09-10T03:25:09.305Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

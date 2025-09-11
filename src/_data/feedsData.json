@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "The missing link in JavaScript tools",
+              "date": "2025-09-11",
+              "link": "https://marvinh.dev/blog/unifying-js-tools/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Semver",
+              "date": "2025-08-10",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
+              "date": "2025-02-23",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
+            },
+            {
+              "title": "The modern way to write JavaScript servers",
+              "date": "2025-01-25",
+              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
+              "date": "2024-07-06",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Just use HTML",
+              "date": "2025-09-10",
+              "link": "https://gomakethings.com/just-use-html/"
+            },
             {
               "title": "Do less",
               "date": "2025-09-09",
@@ -26,11 +62,63 @@
               "title": "The dialog modal ::backdrop, CSS variables, and Safari",
               "date": "2025-09-05",
               "link": "https://gomakethings.com/the-dialog-modal-backdrop-css-variables-and-safari/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-09-10",
+              "link": "https://dbushell.com/notes/2025-09-10T12:08Z/"
             },
             {
-              "title": "Active meditation",
+              "date": "2025-09-10",
+              "link": "https://dbushell.com/notes/2025-09-10T06:07Z/"
+            },
+            {
+              "date": "2025-09-09",
+              "link": "https://dbushell.com/notes/2025-09-09T05:14Z/"
+            },
+            {
+              "date": "2025-09-08",
+              "link": "https://dbushell.com/notes/2025-09-08T13:03Z/"
+            },
+            {
+              "date": "2025-09-05",
+              "link": "https://dbushell.com/notes/2025-09-05T06:10Z/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
+              "date": "2025-09-10",
+              "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/"
+            },
+            {
+              "title": "The Angels and Demons of Nondeterminism",
               "date": "2025-09-04",
-              "link": "https://gomakethings.com/active-meditation/"
+              "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/"
+            },
+            {
+              "title": "Logical Duals in Software Engineering",
+              "date": "2025-08-27",
+              "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/"
+            },
+            {
+              "title": "Sapir-Whorf does not apply to Programming Languages",
+              "date": "2025-08-21",
+              "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/"
+            },
+            {
+              "title": "Software books I wish I could read",
+              "date": "2025-08-06",
+              "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/"
             }
           ]
         },
@@ -93,32 +181,6 @@
               "title": "Circadian Rebellion",
               "date": "2025-06-11",
               "link": "https://frills.dev/blog/2025/june/circadian-rebellion/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-09-09",
-              "link": "https://dbushell.com/notes/2025-09-09T05:14Z/"
-            },
-            {
-              "date": "2025-09-08",
-              "link": "https://dbushell.com/notes/2025-09-08T13:03Z/"
-            },
-            {
-              "date": "2025-09-05",
-              "link": "https://dbushell.com/notes/2025-09-05T06:10Z/"
-            },
-            {
-              "date": "2025-09-04",
-              "link": "https://dbushell.com/notes/2025-09-04T07:29Z/"
-            },
-            {
-              "date": "2025-09-03",
-              "link": "https://dbushell.com/notes/2025-09-03T12:26Z/"
             }
           ]
         },
@@ -336,37 +398,6 @@
               "title": "Store tags after payloads",
               "date": "2025-07-13",
               "link": "https://www.scattered-thoughts.net/writing/store-tags-after-payloads/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "The Angels and Demons of Nondeterminism",
-              "date": "2025-09-04",
-              "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/"
-            },
-            {
-              "title": "Logical Duals in Software Engineering",
-              "date": "2025-08-27",
-              "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/"
-            },
-            {
-              "title": "Sapir-Whorf does not apply to Programming Languages",
-              "date": "2025-08-21",
-              "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/"
-            },
-            {
-              "title": "Software books I wish I could read",
-              "date": "2025-08-06",
-              "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/"
-            },
-            {
-              "title": "2000 words about arrays and tables",
-              "date": "2025-07-30",
-              "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/"
             }
           ]
         },
@@ -987,37 +1018,6 @@
               "title": "Why are tech people suddenly so into homeschooling?",
               "date": "2025-01-14",
               "link": "https://newsletter.goodtechthings.com/p/why-are-tech-people-suddenly-so-into"
-            }
-          ]
-        },
-        {
-          "title": "Marvin Hagemeister",
-          "feedUrl": "https://marvinh.dev/feed.xml",
-          "items": [
-            {
-              "title": "Speeding up the JavaScript ecosystem - Semver",
-              "date": "2025-08-10",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
-              "date": "2025-02-23",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
-            },
-            {
-              "title": "The modern way to write JavaScript servers",
-              "date": "2025-01-25",
-              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
-              "date": "2024-07-06",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Server Side JSX",
-              "date": "2024-05-15",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-9/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-10T03:25:09.305Z",
+  "fetchDate": "2025-09-11T03:30:36.894Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

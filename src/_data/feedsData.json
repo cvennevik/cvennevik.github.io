@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "What works for me",
+              "date": "2025-09-11",
+              "link": "https://gomakethings.com/what-works-for-me/"
+            },
+            {
+              "title": "Just use HTML",
+              "date": "2025-09-10",
+              "link": "https://gomakethings.com/just-use-html/"
+            },
+            {
+              "title": "Do less",
+              "date": "2025-09-09",
+              "link": "https://gomakethings.com/do-less/"
+            },
+            {
+              "title": "Why I still prefer ems over rems",
+              "date": "2025-09-08",
+              "link": "https://gomakethings.com/why-i-still-prefer-ems-over-rems/"
+            },
+            {
+              "title": "The meaning of life...",
+              "date": "2025-09-06",
+              "link": "https://gomakethings.com/the-meaning-of-life/"
+            }
+          ]
+        },
+        {
           "title": "Marvin Hagemeister",
           "feedUrl": "https://marvinh.dev/feed.xml",
           "items": [
@@ -31,37 +62,6 @@
               "title": "Speeding up the JavaScript ecosystem - Isolated Declarations",
               "date": "2024-07-06",
               "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-10/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Just use HTML",
-              "date": "2025-09-10",
-              "link": "https://gomakethings.com/just-use-html/"
-            },
-            {
-              "title": "Do less",
-              "date": "2025-09-09",
-              "link": "https://gomakethings.com/do-less/"
-            },
-            {
-              "title": "Why I still prefer ems over rems",
-              "date": "2025-09-08",
-              "link": "https://gomakethings.com/why-i-still-prefer-ems-over-rems/"
-            },
-            {
-              "title": "The meaning of life...",
-              "date": "2025-09-06",
-              "link": "https://gomakethings.com/the-meaning-of-life/"
-            },
-            {
-              "title": "The dialog modal ::backdrop, CSS variables, and Safari",
-              "date": "2025-09-05",
-              "link": "https://gomakethings.com/the-dialog-modal-backdrop-css-variables-and-safari/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-11T03:30:36.894Z",
+  "fetchDate": "2025-09-12T03:24:57.052Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Why is working faster not working?",
+              "date": "2025-09-12",
+              "link": "http://agileotter.blogspot.com/2025/09/why-is-working-faster-not-working.html"
+            },
+            {
+              "title": "Who Are You To Say What's Right?",
+              "date": "2025-07-21",
+              "link": "http://agileotter.blogspot.com/2025/07/who-are-you-to-say-whats-right.html"
+            },
+            {
+              "title": "A quick note on \"At Scale\"",
+              "date": "2025-07-09",
+              "link": "http://agileotter.blogspot.com/2025/07/a-quick-note-on-at-scale.html"
+            },
+            {
+              "title": "Who (the heck) Am I?",
+              "date": "2025-07-09",
+              "link": "http://agileotter.blogspot.com/2025/07/who-heck-am-i.html"
+            },
+            {
+              "title": "How much rework do you WANT?",
+              "date": "2025-07-07",
+              "link": "http://agileotter.blogspot.com/2025/07/how-much-rework-do-you-want.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Let’s see Paul Allen’s CSS Reset",
+              "date": "2025-09-12",
+              "link": "https://dbushell.com/2025/09/12/css-reset/"
+            },
+            {
+              "title": "I Shut The Emails Out",
+              "date": "2025-09-12",
+              "link": "https://dbushell.com/2025/09/12/cloudflare-email-smtp-server/"
+            },
+            {
+              "title": "Trillion Dollar Elephants",
+              "date": "2025-09-08",
+              "link": "https://dbushell.com/2025/09/08/trillion-dollar-elephants/"
+            },
+            {
+              "title": "I Let The Emails In",
+              "date": "2025-09-05",
+              "link": "https://dbushell.com/2025/09/05/typescript-email-smtp-server/"
+            },
+            {
+              "title": "Croissant RSS Beta is Live!",
+              "date": "2025-08-28",
+              "link": "https://dbushell.com/2025/08/28/croissant-rss-beta/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "On craft and compromise",
+              "date": "2025-09-12",
+              "link": "https://gomakethings.com/on-craft-and-compromise/"
+            },
             {
               "title": "What works for me",
               "date": "2025-09-11",
@@ -26,11 +93,68 @@
               "title": "Why I still prefer ems over rems",
               "date": "2025-09-08",
               "link": "https://gomakethings.com/why-i-still-prefer-ems-over-rems/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: Implementing web servers",
+              "date": "2025-09-12",
+              "link": "https://2ality.com/2025/09/implementing-web-servers.html"
             },
             {
-              "title": "The meaning of life...",
-              "date": "2025-09-06",
-              "link": "https://gomakethings.com/the-meaning-of-life/"
+              "title": "Learning web development: Frontend frameworks",
+              "date": "2025-09-09",
+              "link": "https://2ality.com/2025/09/frontend-frameworks.html"
+            },
+            {
+              "title": "Learning web development: Installing npm packages and bundling",
+              "date": "2025-09-07",
+              "link": "https://2ality.com/2025/09/npm-packages-bundling.html"
+            },
+            {
+              "title": "Learning web development: Asynchronous JavaScript – Promises and async functions",
+              "date": "2025-09-02",
+              "link": "https://2ality.com/2025/09/javascript-async.html"
+            },
+            {
+              "title": "Learning web development: JSON and processing files in Node.js",
+              "date": "2025-08-31",
+              "link": "https://2ality.com/2025/08/javascript-json-processing-files.html"
+            }
+          ]
+        },
+        {
+          "title": "Untested · Rafał Pastuszak",
+          "feedUrl": "https://untested.sonnet.io/feed.xml",
+          "items": [
+            {
+              "title": "Ensō Themes – Accessible, Vampiric, Cozy",
+              "date": "2025-09-12",
+              "link": "https://untested.sonnet.io/notes/enso-themes-accessible-vampiric-cozy/"
+            },
+            {
+              "title": "433 - How to Make a Font that Says Nothing",
+              "date": "2025-07-22",
+              "link": "https://untested.sonnet.io/notes/433-how-to-make-a-font-that-says-nothing/"
+            },
+            {
+              "title": "How People Use Ensō",
+              "date": "2025-07-04",
+              "link": "https://untested.sonnet.io/notes/how-people-use-enso/"
+            },
+            {
+              "title": "New Ensō - first public beta",
+              "date": "2025-06-27",
+              "link": "https://untested.sonnet.io/notes/new-enso-first-public-beta/"
+            },
+            {
+              "title": "Bedtime Doodles, an Anatomy",
+              "date": "2025-05-30",
+              "link": "https://untested.sonnet.io/notes/bedtime-doodles-an-anatomy/"
             }
           ]
         },
@@ -123,37 +247,6 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Learning web development: Frontend frameworks",
-              "date": "2025-09-09",
-              "link": "https://2ality.com/2025/09/frontend-frameworks.html"
-            },
-            {
-              "title": "Learning web development: Installing npm packages and bundling",
-              "date": "2025-09-07",
-              "link": "https://2ality.com/2025/09/npm-packages-bundling.html"
-            },
-            {
-              "title": "Learning web development: Asynchronous JavaScript – Promises and async functions",
-              "date": "2025-09-02",
-              "link": "https://2ality.com/2025/09/javascript-async.html"
-            },
-            {
-              "title": "Learning web development: JSON and processing files in Node.js",
-              "date": "2025-08-31",
-              "link": "https://2ality.com/2025/08/javascript-json-processing-files.html"
-            },
-            {
-              "title": "Learning web development: JavaScript Maps",
-              "date": "2025-08-30",
-              "link": "https://2ality.com/2025/08/javascript-maps.html"
-            }
-          ]
-        },
-        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
@@ -181,37 +274,6 @@
               "title": "Circadian Rebellion",
               "date": "2025-06-11",
               "link": "https://frills.dev/blog/2025/june/circadian-rebellion/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Trillion Dollar Elephants",
-              "date": "2025-09-08",
-              "link": "https://dbushell.com/2025/09/08/trillion-dollar-elephants/"
-            },
-            {
-              "title": "I Let The Emails In",
-              "date": "2025-09-05",
-              "link": "https://dbushell.com/2025/09/05/typescript-email-smtp-server/"
-            },
-            {
-              "title": "Croissant RSS Beta is Live!",
-              "date": "2025-08-28",
-              "link": "https://dbushell.com/2025/08/28/croissant-rss-beta/"
-            },
-            {
-              "title": "Self-hosted Forgejo Releases (the Final Boss)",
-              "date": "2025-08-25",
-              "link": "https://dbushell.com/2025/08/25/self-hosted-forgejo-actions-releases/"
-            },
-            {
-              "title": "RSS Club #002: Dino Edition",
-              "date": "2025-08-17",
-              "link": "https://dbushell.com/2025/08/17/RSS002/"
             }
           ]
         },
@@ -305,6 +367,37 @@
               "title": "item-flow",
               "date": "2025-03-30",
               "link": "https://robinrendle.com/notes/item-flow/"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "New Music Friday #6",
+              "date": "2025-09-07",
+              "link": "https://flamedfury.com/posts/new-music-friday-6/"
+            },
+            {
+              "title": "Minuit At Double Whammy",
+              "date": "2025-09-06",
+              "link": "https://flamedfury.com/posts/minuit-at-double-whammy/"
+            },
+            {
+              "title": "Sicker Than The Remix",
+              "date": "2025-09-01",
+              "link": "https://flamedfury.com/posts/sicker-than-the-remix/"
+            },
+            {
+              "title": "New Old Eminem",
+              "date": "2025-08-26",
+              "link": "https://flamedfury.com/posts/new-old-eminem/"
+            },
+            {
+              "title": "I Never Liked MySpace",
+              "date": "2025-08-16",
+              "link": "https://flamedfury.com/posts/i-never-liked-myspace/"
             }
           ]
         },
@@ -677,37 +770,6 @@
               "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
               "date": "2024-01-08",
               "link": "https://verraes.net/2024/01/critical-software-redesign/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "New Old Eminem",
-              "date": "2025-08-26",
-              "link": "https://flamedfury.com/posts/new-old-eminem/"
-            },
-            {
-              "title": "I Never Liked MySpace",
-              "date": "2025-08-16",
-              "link": "https://flamedfury.com/posts/i-never-liked-myspace/"
-            },
-            {
-              "title": "New Music Friday #5",
-              "date": "2025-08-12",
-              "link": "https://flamedfury.com/posts/new-music-friday-5/"
-            },
-            {
-              "title": "Monthly Recap: July 2025",
-              "date": "2025-08-11",
-              "link": "https://flamedfury.com/posts/monthly-recap-july-2025/"
-            },
-            {
-              "title": "Living Local",
-              "date": "2025-07-31",
-              "link": "https://flamedfury.com/posts/living-local/"
             }
           ]
         },
@@ -1204,68 +1266,6 @@
               "title": "On Pronouns, Policies and Mandates",
               "date": "2025-05-02",
               "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
-            }
-          ]
-        },
-        {
-          "title": "Untested · Rafał Pastuszak",
-          "feedUrl": "https://untested.sonnet.io/feed.xml",
-          "items": [
-            {
-              "title": "433 - How to Make a Font that Says Nothing",
-              "date": "2025-07-22",
-              "link": "https://untested.sonnet.io/notes/433-how-to-make-a-font-that-says-nothing/"
-            },
-            {
-              "title": "How People Use Ensō",
-              "date": "2025-07-04",
-              "link": "https://untested.sonnet.io/notes/how-people-use-enso/"
-            },
-            {
-              "title": "New Ensō - first public beta",
-              "date": "2025-06-27",
-              "link": "https://untested.sonnet.io/notes/new-enso-first-public-beta/"
-            },
-            {
-              "title": "Bedtime Doodles, an Anatomy",
-              "date": "2025-05-30",
-              "link": "https://untested.sonnet.io/notes/bedtime-doodles-an-anatomy/"
-            },
-            {
-              "title": "Let's Hold Hands",
-              "date": "2025-02-28",
-              "link": "https://untested.sonnet.io/notes/lets-hold-hands/"
-            }
-          ]
-        },
-        {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Who Are You To Say What's Right?",
-              "date": "2025-07-21",
-              "link": "http://agileotter.blogspot.com/2025/07/who-are-you-to-say-whats-right.html"
-            },
-            {
-              "title": "A quick note on \"At Scale\"",
-              "date": "2025-07-09",
-              "link": "http://agileotter.blogspot.com/2025/07/a-quick-note-on-at-scale.html"
-            },
-            {
-              "title": "Who (the heck) Am I?",
-              "date": "2025-07-09",
-              "link": "http://agileotter.blogspot.com/2025/07/who-heck-am-i.html"
-            },
-            {
-              "title": "How much rework do you WANT?",
-              "date": "2025-07-07",
-              "link": "http://agileotter.blogspot.com/2025/07/how-much-rework-do-you-want.html"
-            },
-            {
-              "title": "There is No Automatic Reset for Engineering",
-              "date": "2025-03-03",
-              "link": "http://agileotter.blogspot.com/2025/03/there-is-no-automatic-reset-in.html"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-12T03:24:57.052Z",
+  "fetchDate": "2025-09-13T03:18:58.894Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

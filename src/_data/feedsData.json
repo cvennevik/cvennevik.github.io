@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Ditch those words!",
+              "date": "2025-09-13",
+              "link": "https://robinrendle.com/notes/ditch-those-words/"
+            },
+            {
+              "title": "Poverty, By America",
+              "date": "2025-09-07",
+              "link": "https://robinrendle.com/notes/notes-on-poverty/"
+            },
+            {
+              "title": "Fix the Signal",
+              "date": "2025-08-23",
+              "link": "https://robinrendle.com/notes/fix-the-signal/"
+            },
+            {
+              "title": "Book notes",
+              "date": "2025-07-13",
+              "link": "https://robinrendle.com/notes/book-notes/"
+            },
+            {
+              "title": "The End of Everything",
+              "date": "2025-05-21",
+              "link": "https://robinrendle.com/notes/the-end-of-everything/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-09-13",
+              "link": "https://dbushell.com/notes/2025-09-13T10:36Z/"
+            },
+            {
+              "date": "2025-09-10",
+              "link": "https://dbushell.com/notes/2025-09-10T12:08Z/"
+            },
+            {
+              "date": "2025-09-10",
+              "link": "https://dbushell.com/notes/2025-09-10T06:07Z/"
+            },
+            {
+              "date": "2025-09-09",
+              "link": "https://dbushell.com/notes/2025-09-09T05:14Z/"
+            },
+            {
+              "date": "2025-09-08",
+              "link": "https://dbushell.com/notes/2025-09-08T13:03Z/"
+            }
+          ]
+        },
+        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
@@ -190,32 +247,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-09-10",
-              "link": "https://dbushell.com/notes/2025-09-10T12:08Z/"
-            },
-            {
-              "date": "2025-09-10",
-              "link": "https://dbushell.com/notes/2025-09-10T06:07Z/"
-            },
-            {
-              "date": "2025-09-09",
-              "link": "https://dbushell.com/notes/2025-09-09T05:14Z/"
-            },
-            {
-              "date": "2025-09-08",
-              "link": "https://dbushell.com/notes/2025-09-08T13:03Z/"
-            },
-            {
-              "date": "2025-09-05",
-              "link": "https://dbushell.com/notes/2025-09-05T06:10Z/"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -336,37 +367,6 @@
               "title": "Clever Backdrop Filtering for Eye-catching Glass Effects",
               "date": "2025-07-18",
               "link": "https://thathtml.blog/2025/07/clever-backdrop-filtering-for-eyecatching-glass-effects/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Poverty, By America",
-              "date": "2025-09-07",
-              "link": "https://robinrendle.com/notes/notes-on-poverty/"
-            },
-            {
-              "title": "Fix the Signal",
-              "date": "2025-08-23",
-              "link": "https://robinrendle.com/notes/fix-the-signal/"
-            },
-            {
-              "title": "Book notes",
-              "date": "2025-07-13",
-              "link": "https://robinrendle.com/notes/book-notes/"
-            },
-            {
-              "title": "The End of Everything",
-              "date": "2025-05-21",
-              "link": "https://robinrendle.com/notes/the-end-of-everything/"
-            },
-            {
-              "title": "item-flow",
-              "date": "2025-03-30",
-              "link": "https://robinrendle.com/notes/item-flow/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-13T03:18:58.894Z",
+  "fetchDate": "2025-09-14T03:30:54.952Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

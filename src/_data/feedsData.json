@@ -4,6 +4,32 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-09-14",
+              "link": "https://dbushell.com/notes/2025-09-14T06:08Z/"
+            },
+            {
+              "date": "2025-09-13",
+              "link": "https://dbushell.com/notes/2025-09-13T10:36Z/"
+            },
+            {
+              "date": "2025-09-10",
+              "link": "https://dbushell.com/notes/2025-09-10T12:08Z/"
+            },
+            {
+              "date": "2025-09-10",
+              "link": "https://dbushell.com/notes/2025-09-10T06:07Z/"
+            },
+            {
+              "date": "2025-09-09",
+              "link": "https://dbushell.com/notes/2025-09-09T05:14Z/"
+            }
+          ]
+        },
+        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -35,28 +61,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
+              "title": "New Music Friday #6",
               "date": "2025-09-13",
-              "link": "https://dbushell.com/notes/2025-09-13T10:36Z/"
+              "link": "https://flamedfury.com/posts/new-music-friday-6/"
             },
             {
-              "date": "2025-09-10",
-              "link": "https://dbushell.com/notes/2025-09-10T12:08Z/"
+              "title": "Minuit At Double Whammy",
+              "date": "2025-09-13",
+              "link": "https://flamedfury.com/posts/minuit-at-double-whammy/"
             },
             {
-              "date": "2025-09-10",
-              "link": "https://dbushell.com/notes/2025-09-10T06:07Z/"
+              "title": "Sicker Than The Remix",
+              "date": "2025-09-13",
+              "link": "https://flamedfury.com/posts/sicker-than-the-remix/"
             },
             {
-              "date": "2025-09-09",
-              "link": "https://dbushell.com/notes/2025-09-09T05:14Z/"
+              "title": "New Old Eminem",
+              "date": "2025-09-13",
+              "link": "https://flamedfury.com/posts/new-old-eminem/"
             },
             {
-              "date": "2025-09-08",
-              "link": "https://dbushell.com/notes/2025-09-08T13:03Z/"
+              "title": "I Never Liked MySpace",
+              "date": "2025-09-13",
+              "link": "https://flamedfury.com/posts/i-never-liked-myspace/"
             }
           ]
         },
@@ -367,37 +398,6 @@
               "title": "Clever Backdrop Filtering for Eye-catching Glass Effects",
               "date": "2025-07-18",
               "link": "https://thathtml.blog/2025/07/clever-backdrop-filtering-for-eyecatching-glass-effects/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "New Music Friday #6",
-              "date": "2025-09-07",
-              "link": "https://flamedfury.com/posts/new-music-friday-6/"
-            },
-            {
-              "title": "Minuit At Double Whammy",
-              "date": "2025-09-06",
-              "link": "https://flamedfury.com/posts/minuit-at-double-whammy/"
-            },
-            {
-              "title": "Sicker Than The Remix",
-              "date": "2025-09-01",
-              "link": "https://flamedfury.com/posts/sicker-than-the-remix/"
-            },
-            {
-              "title": "New Old Eminem",
-              "date": "2025-08-26",
-              "link": "https://flamedfury.com/posts/new-old-eminem/"
-            },
-            {
-              "title": "I Never Liked MySpace",
-              "date": "2025-08-16",
-              "link": "https://flamedfury.com/posts/i-never-liked-myspace/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-14T03:30:54.952Z",
+  "fetchDate": "2025-09-15T03:37:40.776Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,9 +4,110 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "I need a break",
+              "date": "2025-09-15",
+              "link": "https://gomakethings.com/i-need-a-break/"
+            },
+            {
+              "title": "On craft and compromise",
+              "date": "2025-09-12",
+              "link": "https://gomakethings.com/on-craft-and-compromise/"
+            },
+            {
+              "title": "What works for me",
+              "date": "2025-09-11",
+              "link": "https://gomakethings.com/what-works-for-me/"
+            },
+            {
+              "title": "Just use HTML",
+              "date": "2025-09-10",
+              "link": "https://gomakethings.com/just-use-html/"
+            },
+            {
+              "title": "Do less",
+              "date": "2025-09-09",
+              "link": "https://gomakethings.com/do-less/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: Authenticating users with plain Node.js",
+              "date": "2025-09-15",
+              "link": "https://2ality.com/2025/09/authenticating-users-nodejs.html"
+            },
+            {
+              "title": "Learning web development: Implementing web servers",
+              "date": "2025-09-12",
+              "link": "https://2ality.com/2025/09/implementing-web-servers.html"
+            },
+            {
+              "title": "Learning web development: Frontend frameworks",
+              "date": "2025-09-09",
+              "link": "https://2ality.com/2025/09/frontend-frameworks.html"
+            },
+            {
+              "title": "Learning web development: Installing npm packages and bundling",
+              "date": "2025-09-07",
+              "link": "https://2ality.com/2025/09/npm-packages-bundling.html"
+            },
+            {
+              "title": "Learning web development: Asynchronous JavaScript – Promises and async functions",
+              "date": "2025-09-02",
+              "link": "https://2ality.com/2025/09/javascript-async.html"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Reading my blog",
+              "date": "2025-09-15",
+              "link": "https://thejollyteapot.com/2025/09/15/reading-my-blog/"
+            },
+            {
+              "title": "Why I love BBEdit",
+              "date": "2025-09-05",
+              "link": "https://thejollyteapot.com/2025/09/05/why-i-love-bbedit/"
+            },
+            {
+              "title": "August 2025 blend of links",
+              "date": "2025-08-30",
+              "link": "https://thejollyteapot.com/august-2025-blend/"
+            },
+            {
+              "title": "July 2025 blend of links",
+              "date": "2025-07-30",
+              "link": "https://thejollyteapot.com/july-2025-blend/"
+            },
+            {
+              "title": "Could I use the internet without a proper web browser?",
+              "date": "2025-07-27",
+              "link": "https://thejollyteapot.com/2025/07/27/could-i-use-the-internet-without-a-proper-web-browser/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2025-09-15",
+              "link": "https://dbushell.com/notes/2025-09-15T12:09Z/"
+            },
+            {
+              "date": "2025-09-15",
+              "link": "https://dbushell.com/notes/2025-09-15T05:49Z/"
+            },
             {
               "date": "2025-09-14",
               "link": "https://dbushell.com/notes/2025-09-14T06:08Z/"
@@ -18,14 +119,68 @@
             {
               "date": "2025-09-10",
               "link": "https://dbushell.com/notes/2025-09-10T12:08Z/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Custom for designing, off-the-shelf for shipping",
+              "date": "2025-09-15",
+              "link": "https://ntietz.com/blog/custom-for-designing-offtheshelf-for-shipping/?utm_source=atom&utm_medium=feed"
             },
             {
-              "date": "2025-09-10",
-              "link": "https://dbushell.com/notes/2025-09-10T06:07Z/"
+              "title": "Visualizing distributions with pepperoni pizza (and javascript)",
+              "date": "2025-08-18",
+              "link": "https://ntietz.com/blog/visualizing-distributions-with-pepperoni-pizza/?utm_source=atom&utm_medium=feed"
             },
             {
-              "date": "2025-09-09",
-              "link": "https://dbushell.com/notes/2025-09-09T05:14Z/"
+              "title": "Covers as a way of learning music and code",
+              "date": "2025-07-21",
+              "link": "https://ntietz.com/blog/covers-as-a-way-of-learning/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "That boolean should probably be something else",
+              "date": "2025-06-30",
+              "link": "https://ntietz.com/blog/that-boolean-should-probably-be-something-else/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Proving that every program halts",
+              "date": "2025-06-23",
+              "link": "https://ntietz.com/blog/proving-that-every-program-halts/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "The Mac App Flea Market",
+              "date": "2025-09-14",
+              "link": "https://blog.jim-nielsen.com/2025/mac-app-flea-market/"
+            },
+            {
+              "title": "Some Love For Python",
+              "date": "2025-09-08",
+              "link": "https://blog.jim-nielsen.com/2025/love-for-python/"
+            },
+            {
+              "title": "Trying to Make Sense of Casing Conventions on the Web",
+              "date": "2025-09-04",
+              "link": "https://blog.jim-nielsen.com/2025/casing-on-the-web/"
+            },
+            {
+              "title": "Successive Prototypes Bridge the Gap Between Idea and Reality",
+              "date": "2025-08-25",
+              "link": "https://blog.jim-nielsen.com/2025/idea-to-reality-with-prototypes/"
+            },
+            {
+              "title": "Consistent Navigation Across My Inconsistent Websites, Part II",
+              "date": "2025-08-19",
+              "link": "https://blog.jim-nielsen.com/2025/consistent-nav-across-inconsistent-sites-pt-ii/"
             }
           ]
         },
@@ -65,6 +220,11 @@
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
+              "title": "The Runarounds (2025)",
+              "date": "2025-09-13",
+              "link": "https://flamedfury.com/posts/the-runarounds-2025/"
+            },
+            {
               "title": "New Music Friday #6",
               "date": "2025-09-13",
               "link": "https://flamedfury.com/posts/new-music-friday-6/"
@@ -83,11 +243,6 @@
               "title": "New Old Eminem",
               "date": "2025-09-13",
               "link": "https://flamedfury.com/posts/new-old-eminem/"
-            },
-            {
-              "title": "I Never Liked MySpace",
-              "date": "2025-09-13",
-              "link": "https://flamedfury.com/posts/i-never-liked-myspace/"
             }
           ]
         },
@@ -150,68 +305,6 @@
               "title": "Croissant RSS Beta is Live!",
               "date": "2025-08-28",
               "link": "https://dbushell.com/2025/08/28/croissant-rss-beta/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "On craft and compromise",
-              "date": "2025-09-12",
-              "link": "https://gomakethings.com/on-craft-and-compromise/"
-            },
-            {
-              "title": "What works for me",
-              "date": "2025-09-11",
-              "link": "https://gomakethings.com/what-works-for-me/"
-            },
-            {
-              "title": "Just use HTML",
-              "date": "2025-09-10",
-              "link": "https://gomakethings.com/just-use-html/"
-            },
-            {
-              "title": "Do less",
-              "date": "2025-09-09",
-              "link": "https://gomakethings.com/do-less/"
-            },
-            {
-              "title": "Why I still prefer ems over rems",
-              "date": "2025-09-08",
-              "link": "https://gomakethings.com/why-i-still-prefer-ems-over-rems/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Learning web development: Implementing web servers",
-              "date": "2025-09-12",
-              "link": "https://2ality.com/2025/09/implementing-web-servers.html"
-            },
-            {
-              "title": "Learning web development: Frontend frameworks",
-              "date": "2025-09-09",
-              "link": "https://2ality.com/2025/09/frontend-frameworks.html"
-            },
-            {
-              "title": "Learning web development: Installing npm packages and bundling",
-              "date": "2025-09-07",
-              "link": "https://2ality.com/2025/09/npm-packages-bundling.html"
-            },
-            {
-              "title": "Learning web development: Asynchronous JavaScript – Promises and async functions",
-              "date": "2025-09-02",
-              "link": "https://2ality.com/2025/09/javascript-async.html"
-            },
-            {
-              "title": "Learning web development: JSON and processing files in Node.js",
-              "date": "2025-08-31",
-              "link": "https://2ality.com/2025/08/javascript-json-processing-files.html"
             }
           ]
         },
@@ -340,37 +433,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Some Love For Python",
-              "date": "2025-09-08",
-              "link": "https://blog.jim-nielsen.com/2025/love-for-python/"
-            },
-            {
-              "title": "Trying to Make Sense of Casing Conventions on the Web",
-              "date": "2025-09-04",
-              "link": "https://blog.jim-nielsen.com/2025/casing-on-the-web/"
-            },
-            {
-              "title": "Successive Prototypes Bridge the Gap Between Idea and Reality",
-              "date": "2025-08-25",
-              "link": "https://blog.jim-nielsen.com/2025/idea-to-reality-with-prototypes/"
-            },
-            {
-              "title": "Consistent Navigation Across My Inconsistent Websites, Part II",
-              "date": "2025-08-19",
-              "link": "https://blog.jim-nielsen.com/2025/consistent-nav-across-inconsistent-sites-pt-ii/"
-            },
-            {
-              "title": "Bottomless Subtleties",
-              "date": "2025-08-17",
-              "link": "https://blog.jim-nielsen.com/2025/bottomless-subtleties/"
-            }
-          ]
-        },
-        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -429,37 +491,6 @@
               "title": "Newsletters and indie iOS apps",
               "date": "2025-07-13",
               "link": "https://rosswintle.uk/2025/07/newsletters-and-indie-ios-apps/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "Why I love BBEdit",
-              "date": "2025-09-05",
-              "link": "https://thejollyteapot.com/2025/09/05/why-i-love-bbedit/"
-            },
-            {
-              "title": "August 2025 blend of links",
-              "date": "2025-08-30",
-              "link": "https://thejollyteapot.com/august-2025-blend/"
-            },
-            {
-              "title": "July 2025 blend of links",
-              "date": "2025-07-30",
-              "link": "https://thejollyteapot.com/july-2025-blend/"
-            },
-            {
-              "title": "Could I use the internet without a proper web browser?",
-              "date": "2025-07-27",
-              "link": "https://thejollyteapot.com/2025/07/27/could-i-use-the-internet-without-a-proper-web-browser/"
-            },
-            {
-              "title": "June 2025 blend of links",
-              "date": "2025-06-27",
-              "link": "https://thejollyteapot.com/june-2025-blend/"
             }
           ]
         },
@@ -557,37 +588,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Apple's Assault on Standards",
-              "date": "2025-09-02",
-              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
-            },
-            {
-              "title": "Apple vs. Facebook is Kayfabe",
-              "date": "2025-08-25",
-              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
-            },
-            {
-              "title": "Put Names and Dates On Documents",
-              "date": "2025-08-13",
-              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
-            },
-            {
-              "title": "How Do Committees Fail To Invent?",
-              "date": "2025-08-11",
-              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
-            },
-            {
-              "title": "Links? Links!",
-              "date": "2025-07-16",
-              "link": "https://infrequently.org/2025/07/links/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -615,6 +615,37 @@
               "title": "Fowl photos!",
               "date": "2025-05-16",
               "link": "https://www.baldurbjarnason.com/notes/photos/fowl-photos/"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "Apple's Assault on Standards",
+              "date": "2025-09-02",
+              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
+            },
+            {
+              "title": "Apple vs. Facebook is Kayfabe",
+              "date": "2025-08-25",
+              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
+            },
+            {
+              "title": "Put Names and Dates On Documents",
+              "date": "2025-08-13",
+              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
+            },
+            {
+              "title": "How Do Committees Fail To Invent?",
+              "date": "2025-08-11",
+              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
+            },
+            {
+              "title": "Links? Links!",
+              "date": "2025-07-16",
+              "link": "https://infrequently.org/2025/07/links/"
             }
           ]
         },
@@ -925,37 +956,6 @@
               "title": "Calm and Steady as She Goes",
               "date": "2025-01-06",
               "link": "https://www.lisihocke.com/2025/01/calm-and-steady-as-she-goes.html"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Visualizing distributions with pepperoni pizza (and javascript)",
-              "date": "2025-08-18",
-              "link": "https://ntietz.com/blog/visualizing-distributions-with-pepperoni-pizza/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Covers as a way of learning music and code",
-              "date": "2025-07-21",
-              "link": "https://ntietz.com/blog/covers-as-a-way-of-learning/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "That boolean should probably be something else",
-              "date": "2025-06-30",
-              "link": "https://ntietz.com/blog/that-boolean-should-probably-be-something-else/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Proving that every program halts",
-              "date": "2025-06-23",
-              "link": "https://ntietz.com/blog/proving-that-every-program-halts/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Taking a break",
-              "date": "2025-05-05",
-              "link": "https://ntietz.com/blog/taking-a-break/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-15T03:37:40.776Z",
+  "fetchDate": "2025-09-16T03:27:18.762Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

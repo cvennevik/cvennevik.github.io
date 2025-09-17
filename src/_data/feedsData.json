@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "Pac",
+              "date": "2025-09-16",
+              "link": "https://gomakethings.com/pac/"
+            },
+            {
               "title": "I need a break",
               "date": "2025-09-15",
               "link": "https://gomakethings.com/i-need-a-break/"
@@ -26,11 +31,37 @@
               "title": "Just use HTML",
               "date": "2025-09-10",
               "link": "https://gomakethings.com/just-use-html/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Why Make a Website in 2025?",
+              "date": "2025-09-16",
+              "link": "https://blog.jim-nielsen.com/2025/why-make-a-website-in-2025/"
             },
             {
-              "title": "Do less",
-              "date": "2025-09-09",
-              "link": "https://gomakethings.com/do-less/"
+              "title": "The Mac App Flea Market",
+              "date": "2025-09-14",
+              "link": "https://blog.jim-nielsen.com/2025/mac-app-flea-market/"
+            },
+            {
+              "title": "Some Love For Python",
+              "date": "2025-09-08",
+              "link": "https://blog.jim-nielsen.com/2025/love-for-python/"
+            },
+            {
+              "title": "Trying to Make Sense of Casing Conventions on the Web",
+              "date": "2025-09-04",
+              "link": "https://blog.jim-nielsen.com/2025/casing-on-the-web/"
+            },
+            {
+              "title": "Successive Prototypes Bridge the Gap Between Idea and Reality",
+              "date": "2025-08-25",
+              "link": "https://blog.jim-nielsen.com/2025/idea-to-reality-with-prototypes/"
             }
           ]
         },
@@ -38,6 +69,11 @@
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
+            {
+              "title": "Learning web development: Native package managers",
+              "date": "2025-09-16",
+              "link": "https://2ality.com/2025/09/native-package-managers.html"
+            },
             {
               "title": "Learning web development: Authenticating users with plain Node.js",
               "date": "2025-09-15",
@@ -57,11 +93,37 @@
               "title": "Learning web development: Installing npm packages and bundling",
               "date": "2025-09-07",
               "link": "https://2ality.com/2025/09/npm-packages-bundling.html"
+            }
+          ]
+        },
+        {
+          "title": "Nathan Knowler",
+          "feedUrl": "https://knowler.dev/feed.xml",
+          "items": [
+            {
+              "title": "Searchable, collapsible sections with hidden=until-found",
+              "date": "2025-09-16",
+              "link": "https://knowler.dev/blog/searchable-collapsible-sections-with-hidden-until-found"
             },
             {
-              "title": "Learning web development: Asynchronous JavaScript – Promises and async functions",
-              "date": "2025-09-02",
-              "link": "https://2ality.com/2025/09/javascript-async.html"
+              "title": "An intro to manual slot assignment",
+              "date": "2025-09-03",
+              "link": "https://knowler.dev/blog/an-intro-to-manual-slot-assignment"
+            },
+            {
+              "title": "Polyfilling hidden until-found",
+              "date": "2025-01-04",
+              "link": "https://knowler.dev/blog/polyfilling-hidden-until-found"
+            },
+            {
+              "title": "I’m switching back to Arc Browser (for now)",
+              "date": "2024-11-22",
+              "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
+            },
+            {
+              "title": "To define custom elements or not when distributing them",
+              "date": "2024-10-08",
+              "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
             }
           ]
         },
@@ -150,37 +212,6 @@
               "title": "Proving that every program halts",
               "date": "2025-06-23",
               "link": "https://ntietz.com/blog/proving-that-every-program-halts/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "The Mac App Flea Market",
-              "date": "2025-09-14",
-              "link": "https://blog.jim-nielsen.com/2025/mac-app-flea-market/"
-            },
-            {
-              "title": "Some Love For Python",
-              "date": "2025-09-08",
-              "link": "https://blog.jim-nielsen.com/2025/love-for-python/"
-            },
-            {
-              "title": "Trying to Make Sense of Casing Conventions on the Web",
-              "date": "2025-09-04",
-              "link": "https://blog.jim-nielsen.com/2025/casing-on-the-web/"
-            },
-            {
-              "title": "Successive Prototypes Bridge the Gap Between Idea and Reality",
-              "date": "2025-08-25",
-              "link": "https://blog.jim-nielsen.com/2025/idea-to-reality-with-prototypes/"
-            },
-            {
-              "title": "Consistent Navigation Across My Inconsistent Websites, Part II",
-              "date": "2025-08-19",
-              "link": "https://blog.jim-nielsen.com/2025/consistent-nav-across-inconsistent-sites-pt-ii/"
             }
           ]
         },
@@ -526,37 +557,6 @@
           ]
         },
         {
-          "title": "Nathan Knowler",
-          "feedUrl": "https://knowler.dev/feed.xml",
-          "items": [
-            {
-              "title": "An intro to manual slot assignment",
-              "date": "2025-09-03",
-              "link": "https://knowler.dev/blog/an-intro-to-manual-slot-assignment"
-            },
-            {
-              "title": "Polyfilling hidden until-found",
-              "date": "2025-01-04",
-              "link": "https://knowler.dev/blog/polyfilling-hidden-until-found"
-            },
-            {
-              "title": "I’m switching back to Arc Browser (for now)",
-              "date": "2024-11-22",
-              "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
-            },
-            {
-              "title": "To define custom elements or not when distributing them",
-              "date": "2024-10-08",
-              "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
-            },
-            {
-              "title": "A custom element smoke test",
-              "date": "2024-07-11",
-              "link": "https://knowler.dev/blog/a-custom-element-smoke-test"
-            }
-          ]
-        },
-        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -588,37 +588,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "The melancholy of history rhyming",
-              "date": "2025-09-02",
-              "link": "https://www.baldurbjarnason.com/2025/the-melancholy-of-history-rhyming/"
-            },
-            {
-              "title": "Let's stop pretending that managers and executives care about productivity",
-              "date": "2025-08-07",
-              "link": "https://www.baldurbjarnason.com/2025/disingenuous-discourse/"
-            },
-            {
-              "title": "Avoiding generative models is the rational and responsible thing to do – follow-up to “Trusting your own judgement on ‘AI...’”",
-              "date": "2025-06-11",
-              "link": "https://www.baldurbjarnason.com/2025/followup-on-trusting-your-own-judgement/"
-            },
-            {
-              "title": "Trusting your own judgement on ‘AI’ is a huge risk",
-              "date": "2025-06-09",
-              "link": "https://www.baldurbjarnason.com/2025/trusting-your-own-judgement-on-ai/"
-            },
-            {
-              "title": "Fowl photos!",
-              "date": "2025-05-16",
-              "link": "https://www.baldurbjarnason.com/notes/photos/fowl-photos/"
-            }
-          ]
-        },
-        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -646,6 +615,37 @@
               "title": "Links? Links!",
               "date": "2025-07-16",
               "link": "https://infrequently.org/2025/07/links/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "The melancholy of history rhyming",
+              "date": "2025-09-02",
+              "link": "https://www.baldurbjarnason.com/2025/the-melancholy-of-history-rhyming/"
+            },
+            {
+              "title": "Let's stop pretending that managers and executives care about productivity",
+              "date": "2025-08-07",
+              "link": "https://www.baldurbjarnason.com/2025/disingenuous-discourse/"
+            },
+            {
+              "title": "Avoiding generative models is the rational and responsible thing to do – follow-up to “Trusting your own judgement on ‘AI...’”",
+              "date": "2025-06-11",
+              "link": "https://www.baldurbjarnason.com/2025/followup-on-trusting-your-own-judgement/"
+            },
+            {
+              "title": "Trusting your own judgement on ‘AI’ is a huge risk",
+              "date": "2025-06-09",
+              "link": "https://www.baldurbjarnason.com/2025/trusting-your-own-judgement-on-ai/"
+            },
+            {
+              "title": "Fowl photos!",
+              "date": "2025-05-16",
+              "link": "https://www.baldurbjarnason.com/notes/photos/fowl-photos/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-16T03:27:18.762Z",
+  "fetchDate": "2025-09-17T03:25:45.521Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

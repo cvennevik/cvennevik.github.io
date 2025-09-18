@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "Prevent scrollbar jump",
+              "date": "2025-09-17",
+              "link": "https://gomakethings.com/prevent-scrollbar-jump/"
+            },
+            {
               "title": "Pac",
               "date": "2025-09-16",
               "link": "https://gomakethings.com/pac/"
@@ -26,11 +31,37 @@
               "title": "What works for me",
               "date": "2025-09-11",
               "link": "https://gomakethings.com/what-works-for-me/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: Markdown",
+              "date": "2025-09-17",
+              "link": "https://2ality.com/2025/09/markdown.html"
             },
             {
-              "title": "Just use HTML",
-              "date": "2025-09-10",
-              "link": "https://gomakethings.com/just-use-html/"
+              "title": "Learning web development: Native package managers",
+              "date": "2025-09-16",
+              "link": "https://2ality.com/2025/09/native-package-managers.html"
+            },
+            {
+              "title": "Learning web development: Authenticating users with plain Node.js",
+              "date": "2025-09-15",
+              "link": "https://2ality.com/2025/09/authenticating-users-nodejs.html"
+            },
+            {
+              "title": "Learning web development: Implementing web servers",
+              "date": "2025-09-12",
+              "link": "https://2ality.com/2025/09/implementing-web-servers.html"
+            },
+            {
+              "title": "Learning web development: Frontend frameworks",
+              "date": "2025-09-09",
+              "link": "https://2ality.com/2025/09/frontend-frameworks.html"
             }
           ]
         },
@@ -62,37 +93,6 @@
               "title": "Successive Prototypes Bridge the Gap Between Idea and Reality",
               "date": "2025-08-25",
               "link": "https://blog.jim-nielsen.com/2025/idea-to-reality-with-prototypes/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Learning web development: Native package managers",
-              "date": "2025-09-16",
-              "link": "https://2ality.com/2025/09/native-package-managers.html"
-            },
-            {
-              "title": "Learning web development: Authenticating users with plain Node.js",
-              "date": "2025-09-15",
-              "link": "https://2ality.com/2025/09/authenticating-users-nodejs.html"
-            },
-            {
-              "title": "Learning web development: Implementing web servers",
-              "date": "2025-09-12",
-              "link": "https://2ality.com/2025/09/implementing-web-servers.html"
-            },
-            {
-              "title": "Learning web development: Frontend frameworks",
-              "date": "2025-09-09",
-              "link": "https://2ality.com/2025/09/frontend-frameworks.html"
-            },
-            {
-              "title": "Learning web development: Installing npm packages and bundling",
-              "date": "2025-09-07",
-              "link": "https://2ality.com/2025/09/npm-packages-bundling.html"
             }
           ]
         },
@@ -1146,7 +1146,7 @@
           ]
         },
         {
-          "title": "Fynn Ellie Becker",
+          "title": "Fynn Ellie Be",
           "feedUrl": "https://fynn.be/feed.xml",
           "items": [
             {
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-17T03:25:45.521Z",
+  "fetchDate": "2025-09-18T03:28:17.116Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

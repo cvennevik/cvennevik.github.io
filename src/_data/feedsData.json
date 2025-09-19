@@ -8,6 +8,11 @@
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
+              "title": "Revisiting how to dismiss native HTML dialog elements when the backdrop is clicked",
+              "date": "2025-09-18",
+              "link": "https://gomakethings.com/revisiting-how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
+            },
+            {
               "title": "Prevent scrollbar jump",
               "date": "2025-09-17",
               "link": "https://gomakethings.com/prevent-scrollbar-jump/"
@@ -26,42 +31,6 @@
               "title": "On craft and compromise",
               "date": "2025-09-12",
               "link": "https://gomakethings.com/on-craft-and-compromise/"
-            },
-            {
-              "title": "What works for me",
-              "date": "2025-09-11",
-              "link": "https://gomakethings.com/what-works-for-me/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Learning web development: Markdown",
-              "date": "2025-09-17",
-              "link": "https://2ality.com/2025/09/markdown.html"
-            },
-            {
-              "title": "Learning web development: Native package managers",
-              "date": "2025-09-16",
-              "link": "https://2ality.com/2025/09/native-package-managers.html"
-            },
-            {
-              "title": "Learning web development: Authenticating users with plain Node.js",
-              "date": "2025-09-15",
-              "link": "https://2ality.com/2025/09/authenticating-users-nodejs.html"
-            },
-            {
-              "title": "Learning web development: Implementing web servers",
-              "date": "2025-09-12",
-              "link": "https://2ality.com/2025/09/implementing-web-servers.html"
-            },
-            {
-              "title": "Learning web development: Frontend frameworks",
-              "date": "2025-09-09",
-              "link": "https://2ality.com/2025/09/frontend-frameworks.html"
             }
           ]
         },
@@ -69,6 +38,11 @@
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
+            {
+              "title": "RIP “Browsers”",
+              "date": "2025-09-18",
+              "link": "https://blog.jim-nielsen.com/2025/rip-browsers/"
+            },
             {
               "title": "Why Make a Website in 2025?",
               "date": "2025-09-16",
@@ -88,11 +62,68 @@
               "title": "Trying to Make Sense of Casing Conventions on the Web",
               "date": "2025-09-04",
               "link": "https://blog.jim-nielsen.com/2025/casing-on-the-web/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: Version control via Git and GitHub",
+              "date": "2025-09-18",
+              "link": "https://2ality.com/2025/09/git-github.html"
             },
             {
-              "title": "Successive Prototypes Bridge the Gap Between Idea and Reality",
-              "date": "2025-08-25",
-              "link": "https://blog.jim-nielsen.com/2025/idea-to-reality-with-prototypes/"
+              "title": "Learning web development: Markdown",
+              "date": "2025-09-17",
+              "link": "https://2ality.com/2025/09/markdown.html"
+            },
+            {
+              "title": "Learning web development: Native package managers",
+              "date": "2025-09-16",
+              "link": "https://2ality.com/2025/09/native-package-managers.html"
+            },
+            {
+              "title": "Learning web development: Authenticating users with plain Node.js",
+              "date": "2025-09-15",
+              "link": "https://2ality.com/2025/09/authenticating-users-nodejs.html"
+            },
+            {
+              "title": "Learning web development: Implementing web servers",
+              "date": "2025-09-12",
+              "link": "https://2ality.com/2025/09/implementing-web-servers.html"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Give “fetch” a Bit More Oomph with “ffetch”",
+              "date": "2025-09-18",
+              "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
+            },
+            {
+              "title": "Announcing Reciprocate, a Sweet Solution for Making Your HTML Web Components Reactive",
+              "date": "2025-09-08",
+              "link": "https://thathtml.blog/2025/09/reciprocate-reactivity-for-html-web-components/"
+            },
+            {
+              "title": "Declarative HTML Binding in Only 20 Lines of Code! (and Signals)",
+              "date": "2025-08-08",
+              "link": "https://thathtml.blog/2025/08/declarative-html-binding-with-signals/"
+            },
+            {
+              "title": "Friends at Last: Tailwind &amp; CSS…whodathunkit?!",
+              "date": "2025-08-04",
+              "link": "https://thathtml.blog/2025/08/tailwind-and-css-friends-at-last/"
+            },
+            {
+              "title": "More Fun with Invoker Commands and Web Components",
+              "date": "2025-07-25",
+              "link": "https://thathtml.blog/2025/07/more-fun-with-invoker-commands-web-components/"
             }
           ]
         },
@@ -460,37 +491,6 @@
               "title": "Circadian Rebellion",
               "date": "2025-06-11",
               "link": "https://frills.dev/blog/2025/june/circadian-rebellion/"
-            }
-          ]
-        },
-        {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Announcing Reciprocate, a Sweet Solution for Making Your HTML Web Components Reactive",
-              "date": "2025-09-08",
-              "link": "https://thathtml.blog/2025/09/reciprocate-reactivity-for-html-web-components/"
-            },
-            {
-              "title": "Declarative HTML Binding in Only 20 Lines of Code! (and Signals)",
-              "date": "2025-08-08",
-              "link": "https://thathtml.blog/2025/08/declarative-html-binding-with-signals/"
-            },
-            {
-              "title": "Friends at Last: Tailwind &amp; CSS…whodathunkit?!",
-              "date": "2025-08-04",
-              "link": "https://thathtml.blog/2025/08/tailwind-and-css-friends-at-last/"
-            },
-            {
-              "title": "More Fun with Invoker Commands and Web Components",
-              "date": "2025-07-25",
-              "link": "https://thathtml.blog/2025/07/more-fun-with-invoker-commands-web-components/"
-            },
-            {
-              "title": "Clever Backdrop Filtering for Eye-catching Glass Effects",
-              "date": "2025-07-18",
-              "link": "https://thathtml.blog/2025/07/clever-backdrop-filtering-for-eyecatching-glass-effects/"
             }
           ]
         },
@@ -1766,37 +1766,6 @@
           ]
         },
         {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "Buying Tech Books in South Africa",
-              "date": "2025-05-16",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
-            },
-            {
-              "title": "My Exobrain",
-              "date": "2025-05-03",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
-            },
-            {
-              "title": "New Songbook Added to this Blog",
-              "date": "2024-06-25",
-              "link": "https://www.worthe-it.co.za/blog/2024-06-26-new-songbook-added-to-this-blog.html"
-            },
-            {
-              "title": "My approach to Advent of Code puzzles",
-              "date": "2024-02-25",
-              "link": "https://www.worthe-it.co.za/blog/2024-02-26-my-approach-to-advent-of-code-puzzles.html"
-            },
-            {
-              "title": "Make the computer do it!",
-              "date": "2023-10-24",
-              "link": "https://www.worthe-it.co.za/blog/2023-10-25-make-the-computer-do-it.html"
-            }
-          ]
-        },
-        {
           "title": "Hazel Weakly",
           "feedUrl": "https://hazelweakly.me/atom.xml",
           "items": [
@@ -1824,6 +1793,37 @@
               "title": "The 4 Evolutions of Your Observability Journey",
               "date": "2024-10-03",
               "link": "https://hazelweakly.me/blog/the-four-evolutions-of-your-observability-journey/"
+            }
+          ]
+        },
+        {
+          "title": "Curly Tail, Curly Braces",
+          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
+          "items": [
+            {
+              "title": "Buying Tech Books in South Africa",
+              "date": "2025-05-16",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
+            },
+            {
+              "title": "My Exobrain",
+              "date": "2025-05-03",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
+            },
+            {
+              "title": "New Songbook Added to this Blog",
+              "date": "2024-06-25",
+              "link": "https://www.worthe-it.co.za/blog/2024-06-26-new-songbook-added-to-this-blog.html"
+            },
+            {
+              "title": "My approach to Advent of Code puzzles",
+              "date": "2024-02-25",
+              "link": "https://www.worthe-it.co.za/blog/2024-02-26-my-approach-to-advent-of-code-puzzles.html"
+            },
+            {
+              "title": "Make the computer do it!",
+              "date": "2023-10-24",
+              "link": "https://www.worthe-it.co.za/blog/2023-10-25-make-the-computer-do-it.html"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-18T03:28:17.116Z",
+  "fetchDate": "2025-09-19T03:31:08.252Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

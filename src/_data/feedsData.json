@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "Are you an experienced software buyer? I could use some help.",
+              "date": "2025-09-19",
+              "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
+            },
+            {
+              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
+              "date": "2025-07-24",
+              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
+            },
+            {
+              "title": "Thoughts on Motivation and My 40-Year Career",
+              "date": "2025-07-09",
+              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
+            },
+            {
+              "title": "In Praise of “Normal” Engineers",
+              "date": "2025-06-19",
+              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
+            },
+            {
+              "title": "On How Long it Takes to Know if a Job is Right for You or Not",
+              "date": "2025-06-08",
+              "link": "https://charity.wtf/2025/06/08/on-how-long-it-takes-to-know-if-a-job-is-right-for-you-or-not/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "DIY Netlify",
+              "date": "2025-09-19",
+              "link": "https://gomakethings.com/diy-netlify/"
+            },
             {
               "title": "Revisiting how to dismiss native HTML dialog elements when the backdrop is clicked",
               "date": "2025-09-18",
@@ -26,11 +62,63 @@
               "title": "I need a break",
               "date": "2025-09-15",
               "link": "https://gomakethings.com/i-need-a-break/"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Learn Everything with Obsidian.md",
+              "date": "2025-09-19",
+              "link": "https://www.youtube.com/watch?v=i8h4eTcxF9E"
             },
             {
-              "title": "On craft and compromise",
-              "date": "2025-09-12",
-              "link": "https://gomakethings.com/on-craft-and-compromise/"
+              "title": "Async Isn't Real & Cannot Hurt You",
+              "date": "2025-07-16",
+              "link": "https://www.youtube.com/watch?v=AiSl4vf40WU"
+            },
+            {
+              "title": "Oxidise Your Command Line (2025 Edition)",
+              "date": "2025-05-22",
+              "link": "https://www.youtube.com/watch?v=rWMQ-g2QDsI"
+            },
+            {
+              "title": "Writing at the Speed of Thought",
+              "date": "2025-05-12",
+              "link": "https://www.youtube.com/watch?v=sqm4-B07LsE"
+            },
+            {
+              "title": "Rust is the New C",
+              "date": "2025-03-12",
+              "link": "https://www.youtube.com/watch?v=3e-nauaCkgo"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-09-19",
+              "link": "https://dbushell.com/notes/2025-09-19T08:49Z/"
+            },
+            {
+              "date": "2025-09-15",
+              "link": "https://dbushell.com/notes/2025-09-15T12:09Z/"
+            },
+            {
+              "date": "2025-09-15",
+              "link": "https://dbushell.com/notes/2025-09-15T05:49Z/"
+            },
+            {
+              "date": "2025-09-14",
+              "link": "https://dbushell.com/notes/2025-09-14T06:08Z/"
+            },
+            {
+              "date": "2025-09-13",
+              "link": "https://dbushell.com/notes/2025-09-13T10:36Z/"
             }
           ]
         },
@@ -186,32 +274,6 @@
               "title": "Could I use the internet without a proper web browser?",
               "date": "2025-07-27",
               "link": "https://thejollyteapot.com/2025/07/27/could-i-use-the-internet-without-a-proper-web-browser/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-09-15",
-              "link": "https://dbushell.com/notes/2025-09-15T12:09Z/"
-            },
-            {
-              "date": "2025-09-15",
-              "link": "https://dbushell.com/notes/2025-09-15T05:49Z/"
-            },
-            {
-              "date": "2025-09-14",
-              "link": "https://dbushell.com/notes/2025-09-14T06:08Z/"
-            },
-            {
-              "date": "2025-09-13",
-              "link": "https://dbushell.com/notes/2025-09-13T10:36Z/"
-            },
-            {
-              "date": "2025-09-10",
-              "link": "https://dbushell.com/notes/2025-09-10T12:08Z/"
             }
           ]
         },
@@ -619,37 +681,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "The melancholy of history rhyming",
-              "date": "2025-09-02",
-              "link": "https://www.baldurbjarnason.com/2025/the-melancholy-of-history-rhyming/"
-            },
-            {
-              "title": "Let's stop pretending that managers and executives care about productivity",
-              "date": "2025-08-07",
-              "link": "https://www.baldurbjarnason.com/2025/disingenuous-discourse/"
-            },
-            {
-              "title": "Avoiding generative models is the rational and responsible thing to do – follow-up to “Trusting your own judgement on ‘AI...’”",
-              "date": "2025-06-11",
-              "link": "https://www.baldurbjarnason.com/2025/followup-on-trusting-your-own-judgement/"
-            },
-            {
-              "title": "Trusting your own judgement on ‘AI’ is a huge risk",
-              "date": "2025-06-09",
-              "link": "https://www.baldurbjarnason.com/2025/trusting-your-own-judgement-on-ai/"
-            },
-            {
-              "title": "Fowl photos!",
-              "date": "2025-05-16",
-              "link": "https://www.baldurbjarnason.com/notes/photos/fowl-photos/"
-            }
-          ]
-        },
-        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -677,6 +708,37 @@
               "title": "Small Web July recap",
               "date": "2025-08-04",
               "link": "https://anniemueller.com/posts/small-web-july-recap"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "The melancholy of history rhyming",
+              "date": "2025-09-02",
+              "link": "https://www.baldurbjarnason.com/2025/the-melancholy-of-history-rhyming/"
+            },
+            {
+              "title": "Let's stop pretending that managers and executives care about productivity",
+              "date": "2025-08-07",
+              "link": "https://www.baldurbjarnason.com/2025/disingenuous-discourse/"
+            },
+            {
+              "title": "Avoiding generative models is the rational and responsible thing to do – follow-up to “Trusting your own judgement on ‘AI...’”",
+              "date": "2025-06-11",
+              "link": "https://www.baldurbjarnason.com/2025/followup-on-trusting-your-own-judgement/"
+            },
+            {
+              "title": "Trusting your own judgement on ‘AI’ is a huge risk",
+              "date": "2025-06-09",
+              "link": "https://www.baldurbjarnason.com/2025/trusting-your-own-judgement-on-ai/"
+            },
+            {
+              "title": "Fowl photos!",
+              "date": "2025-05-16",
+              "link": "https://www.baldurbjarnason.com/notes/photos/fowl-photos/"
             }
           ]
         },
@@ -1239,37 +1301,6 @@
           ]
         },
         {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
-              "date": "2025-07-24",
-              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
-            },
-            {
-              "title": "Thoughts on Motivation and My 40-Year Career",
-              "date": "2025-07-09",
-              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
-            },
-            {
-              "title": "In Praise of “Normal” Engineers",
-              "date": "2025-06-19",
-              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
-            },
-            {
-              "title": "On How Long it Takes to Know if a Job is Right for You or Not",
-              "date": "2025-06-08",
-              "link": "https://charity.wtf/2025/06/08/on-how-long-it-takes-to-know-if-a-job-is-right-for-you-or-not/"
-            },
-            {
-              "title": "On Pronouns, Policies and Mandates",
-              "date": "2025-05-02",
-              "link": "https://charity.wtf/2025/05/02/on-pronouns-policies-and-mandates/"
-            }
-          ]
-        },
-        {
           "title": "Sara Joy",
           "feedUrl": "https://sarajoy.dev/rss.xml",
           "items": [
@@ -1297,37 +1328,6 @@
               "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
               "date": "2024-09-30",
               "link": "https://sarajoy.dev/blog/see-and-point/"
-            }
-          ]
-        },
-        {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-          "items": [
-            {
-              "title": "Async Isn't Real & Cannot Hurt You",
-              "date": "2025-07-16",
-              "link": "https://www.youtube.com/watch?v=AiSl4vf40WU"
-            },
-            {
-              "title": "Oxidise Your Command Line (2025 Edition)",
-              "date": "2025-05-22",
-              "link": "https://www.youtube.com/watch?v=rWMQ-g2QDsI"
-            },
-            {
-              "title": "Writing at the Speed of Thought",
-              "date": "2025-05-12",
-              "link": "https://www.youtube.com/watch?v=sqm4-B07LsE"
-            },
-            {
-              "title": "Rust is the New C",
-              "date": "2025-03-12",
-              "link": "https://www.youtube.com/watch?v=3e-nauaCkgo"
-            },
-            {
-              "title": "Obsidian.md: The Good Parts [Part 2]",
-              "date": "2025-02-03",
-              "link": "https://www.youtube.com/watch?v=B0yAy2j-9V0"
             }
           ]
         },
@@ -1766,37 +1766,6 @@
           ]
         },
         {
-          "title": "Hazel Weakly",
-          "feedUrl": "https://hazelweakly.me/atom.xml",
-          "items": [
-            {
-              "title": "Stop Building AI Tools Backwards",
-              "date": "2025-05-16",
-              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
-            },
-            {
-              "title": "The Future of Observability: Observability 3.0",
-              "date": "2024-12-09",
-              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
-            },
-            {
-              "title": "You Have One Voice",
-              "date": "2024-10-21",
-              "link": "https://hazelweakly.me/blog/you-have-one-voice/"
-            },
-            {
-              "title": "OpenTelemetry Challenges: Handling Long-Running Spans",
-              "date": "2024-10-10",
-              "link": "https://hazelweakly.me/blog/opentelemetry-challenges-handling-long-running-spans/"
-            },
-            {
-              "title": "The 4 Evolutions of Your Observability Journey",
-              "date": "2024-10-03",
-              "link": "https://hazelweakly.me/blog/the-four-evolutions-of-your-observability-journey/"
-            }
-          ]
-        },
-        {
           "title": "Curly Tail, Curly Braces",
           "feedUrl": "https://www.worthe-it.co.za/atom.xml",
           "items": [
@@ -1824,6 +1793,37 @@
               "title": "Make the computer do it!",
               "date": "2023-10-24",
               "link": "https://www.worthe-it.co.za/blog/2023-10-25-make-the-computer-do-it.html"
+            }
+          ]
+        },
+        {
+          "title": "Hazel Weakly",
+          "feedUrl": "https://hazelweakly.me/atom.xml",
+          "items": [
+            {
+              "title": "Stop Building AI Tools Backwards",
+              "date": "2025-05-16",
+              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
+            },
+            {
+              "title": "The Future of Observability: Observability 3.0",
+              "date": "2024-12-09",
+              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
+            },
+            {
+              "title": "You Have One Voice",
+              "date": "2024-10-21",
+              "link": "https://hazelweakly.me/blog/you-have-one-voice/"
+            },
+            {
+              "title": "OpenTelemetry Challenges: Handling Long-Running Spans",
+              "date": "2024-10-10",
+              "link": "https://hazelweakly.me/blog/opentelemetry-challenges-handling-long-running-spans/"
+            },
+            {
+              "title": "The 4 Evolutions of Your Observability Journey",
+              "date": "2024-10-03",
+              "link": "https://hazelweakly.me/blog/the-four-evolutions-of-your-observability-journey/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-19T03:31:08.252Z",
+  "fetchDate": "2025-09-20T03:25:23.897Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

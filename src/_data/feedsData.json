@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Controlling your code",
+              "date": "2025-09-22",
+              "link": "https://gomakethings.com/controlling-your-code/"
+            },
+            {
+              "title": "A yawning absence",
+              "date": "2025-09-20",
+              "link": "https://gomakethings.com/a-yawning-absence/"
+            },
+            {
+              "title": "DIY Netlify",
+              "date": "2025-09-19",
+              "link": "https://gomakethings.com/diy-netlify/"
+            },
+            {
+              "title": "Revisiting how to dismiss native HTML dialog elements when the backdrop is clicked",
+              "date": "2025-09-18",
+              "link": "https://gomakethings.com/revisiting-how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
+            },
+            {
+              "title": "Prevent scrollbar jump",
+              "date": "2025-09-17",
+              "link": "https://gomakethings.com/prevent-scrollbar-jump/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "How Much Does Freedom Cost?",
+              "date": "2025-09-22",
+              "link": "https://dbushell.com/2025/09/22/cost-of-freedom/"
+            },
+            {
+              "title": "Let’s see Paul Allen’s CSS Reset",
+              "date": "2025-09-12",
+              "link": "https://dbushell.com/2025/09/12/css-reset/"
+            },
+            {
+              "title": "I Shut The Emails Out",
+              "date": "2025-09-12",
+              "link": "https://dbushell.com/2025/09/12/cloudflare-email-smtp-server/"
+            },
+            {
+              "title": "Trillion Dollar Elephants",
+              "date": "2025-09-08",
+              "link": "https://dbushell.com/2025/09/08/trillion-dollar-elephants/"
+            },
+            {
+              "title": "I Let The Emails In",
+              "date": "2025-09-05",
+              "link": "https://dbushell.com/2025/09/05/typescript-email-smtp-server/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "A Tester’s Growth-Path to Test Automation",
+              "date": "2025-09-22",
+              "link": "https://thinkinglabs.io/articles/2025/09/22/a-testers-growth-path-to-test-automation.html"
+            },
+            {
+              "title": "So, Yes, Trunk-based Development! Now What?",
+              "date": "2025-08-10",
+              "link": "https://thinkinglabs.io/articles/2025/08/10/so-yes-trunk-based-development-now-what.html"
+            },
+            {
+              "title": "Why do Teams think Single-branch Development Does not Work?",
+              "date": "2025-08-06",
+              "link": "https://thinkinglabs.io/articles/2025/08/06/why-do-teams-think-single-branch-development-does-not-work.html"
+            },
+            {
+              "title": "Why do Teams not practice Continuous Integration?",
+              "date": "2025-07-26",
+              "link": "https://thinkinglabs.io/articles/2025/07/26/why-do-teams-not-practice-continuous-integration.html"
+            },
+            {
+              "title": "On the Benefits of Trunk-based Development",
+              "date": "2025-07-21",
+              "link": "https://thinkinglabs.io/articles/2025/07/21/on-the-benefits-of-trunk-based-development.html"
+            }
+          ]
+        },
+        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -31,6 +124,37 @@
               "title": "How Do Committees Fail To Invent?",
               "date": "2025-08-11",
               "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Anti-*: The Things We Do But Not All The Way",
+              "date": "2025-09-21",
+              "link": "https://blog.jim-nielsen.com/2025/my-antis/"
+            },
+            {
+              "title": "RIP “Browsers”",
+              "date": "2025-09-18",
+              "link": "https://blog.jim-nielsen.com/2025/rip-browsers/"
+            },
+            {
+              "title": "Why Make a Website in 2025?",
+              "date": "2025-09-16",
+              "link": "https://blog.jim-nielsen.com/2025/why-make-a-website-in-2025/"
+            },
+            {
+              "title": "The Mac App Flea Market",
+              "date": "2025-09-14",
+              "link": "https://blog.jim-nielsen.com/2025/mac-app-flea-market/"
+            },
+            {
+              "title": "Some Love For Python",
+              "date": "2025-09-08",
+              "link": "https://blog.jim-nielsen.com/2025/love-for-python/"
             }
           ]
         },
@@ -124,68 +248,6 @@
               "title": "Recently",
               "date": "2025-06-06",
               "link": "https://macwright.com/2025/06/06/recently.html"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "A Few Nice Words about Viewfinder",
-              "date": "2025-09-20",
-              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
-            },
-            {
-              "title": "Ditch those words!",
-              "date": "2025-09-13",
-              "link": "https://robinrendle.com/notes/ditch-those-words/"
-            },
-            {
-              "title": "Poverty, By America",
-              "date": "2025-09-07",
-              "link": "https://robinrendle.com/notes/notes-on-poverty/"
-            },
-            {
-              "title": "Fix the Signal",
-              "date": "2025-08-23",
-              "link": "https://robinrendle.com/notes/fix-the-signal/"
-            },
-            {
-              "title": "Book notes",
-              "date": "2025-07-13",
-              "link": "https://robinrendle.com/notes/book-notes/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "A yawning absence",
-              "date": "2025-09-20",
-              "link": "https://gomakethings.com/a-yawning-absence/"
-            },
-            {
-              "title": "DIY Netlify",
-              "date": "2025-09-19",
-              "link": "https://gomakethings.com/diy-netlify/"
-            },
-            {
-              "title": "Revisiting how to dismiss native HTML dialog elements when the backdrop is clicked",
-              "date": "2025-09-18",
-              "link": "https://gomakethings.com/revisiting-how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
-            },
-            {
-              "title": "Prevent scrollbar jump",
-              "date": "2025-09-17",
-              "link": "https://gomakethings.com/prevent-scrollbar-jump/"
-            },
-            {
-              "title": "Pac",
-              "date": "2025-09-16",
-              "link": "https://gomakethings.com/pac/"
             }
           ]
         },
@@ -305,37 +367,6 @@
             {
               "date": "2025-09-13",
               "link": "https://dbushell.com/notes/2025-09-13T10:36Z/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "RIP “Browsers”",
-              "date": "2025-09-18",
-              "link": "https://blog.jim-nielsen.com/2025/rip-browsers/"
-            },
-            {
-              "title": "Why Make a Website in 2025?",
-              "date": "2025-09-16",
-              "link": "https://blog.jim-nielsen.com/2025/why-make-a-website-in-2025/"
-            },
-            {
-              "title": "The Mac App Flea Market",
-              "date": "2025-09-14",
-              "link": "https://blog.jim-nielsen.com/2025/mac-app-flea-market/"
-            },
-            {
-              "title": "Some Love For Python",
-              "date": "2025-09-08",
-              "link": "https://blog.jim-nielsen.com/2025/love-for-python/"
-            },
-            {
-              "title": "Trying to Make Sense of Casing Conventions on the Web",
-              "date": "2025-09-04",
-              "link": "https://blog.jim-nielsen.com/2025/casing-on-the-web/"
             }
           ]
         },
@@ -522,37 +553,6 @@
               "title": "How much rework do you WANT?",
               "date": "2025-07-07",
               "link": "http://agileotter.blogspot.com/2025/07/how-much-rework-do-you-want.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Let’s see Paul Allen’s CSS Reset",
-              "date": "2025-09-12",
-              "link": "https://dbushell.com/2025/09/12/css-reset/"
-            },
-            {
-              "title": "I Shut The Emails Out",
-              "date": "2025-09-12",
-              "link": "https://dbushell.com/2025/09/12/cloudflare-email-smtp-server/"
-            },
-            {
-              "title": "Trillion Dollar Elephants",
-              "date": "2025-09-08",
-              "link": "https://dbushell.com/2025/09/08/trillion-dollar-elephants/"
-            },
-            {
-              "title": "I Let The Emails In",
-              "date": "2025-09-05",
-              "link": "https://dbushell.com/2025/09/05/typescript-email-smtp-server/"
-            },
-            {
-              "title": "Croissant RSS Beta is Live!",
-              "date": "2025-08-28",
-              "link": "https://dbushell.com/2025/08/28/croissant-rss-beta/"
             }
           ]
         },
@@ -1173,37 +1173,6 @@
               "title": "Why are tech people suddenly so into homeschooling?",
               "date": "2025-01-14",
               "link": "https://newsletter.goodtechthings.com/p/why-are-tech-people-suddenly-so-into"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "So, Yes, Trunk-based Development! Now What?",
-              "date": "2025-08-10",
-              "link": "https://thinkinglabs.io/articles/2025/08/10/so-yes-trunk-based-development-now-what.html"
-            },
-            {
-              "title": "Why do Teams think Single-branch Development Does not Work?",
-              "date": "2025-08-06",
-              "link": "https://thinkinglabs.io/articles/2025/08/06/why-do-teams-think-single-branch-development-does-not-work.html"
-            },
-            {
-              "title": "Why do Teams not practice Continuous Integration?",
-              "date": "2025-07-26",
-              "link": "https://thinkinglabs.io/articles/2025/07/26/why-do-teams-not-practice-continuous-integration.html"
-            },
-            {
-              "title": "On the Benefits of Trunk-based Development",
-              "date": "2025-07-21",
-              "link": "https://thinkinglabs.io/articles/2025/07/21/on-the-benefits-of-trunk-based-development.html"
-            },
-            {
-              "title": "The Struggle of Public Speaking",
-              "date": "2025-06-22",
-              "link": "https://thinkinglabs.io/articles/2025/06/22/the-struggle-of-public-speaking.html"
             }
           ]
         },
@@ -2523,10 +2492,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-22T03:36:50.991Z",
+  "fetchDate": "2025-09-23T03:29:59.317Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml"
+    "https://blog.codemanship.dev/rss.xml",
+    "https://robinrendle.com/feed.xml"
   ]
 }

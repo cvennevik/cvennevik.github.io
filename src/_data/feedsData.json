@@ -4,33 +4,95 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
             {
-              "title": "Controlling your code",
-              "date": "2025-09-22",
-              "link": "https://gomakethings.com/controlling-your-code/"
+              "title": "The Risks of NPM",
+              "date": "2025-09-23",
+              "link": "https://blog.jim-nielsen.com/2025/npm-risks/"
             },
             {
-              "title": "A yawning absence",
-              "date": "2025-09-20",
-              "link": "https://gomakethings.com/a-yawning-absence/"
+              "title": "Anti-*: The Things We Do But Not All The Way",
+              "date": "2025-09-21",
+              "link": "https://blog.jim-nielsen.com/2025/my-antis/"
             },
             {
-              "title": "DIY Netlify",
-              "date": "2025-09-19",
-              "link": "https://gomakethings.com/diy-netlify/"
-            },
-            {
-              "title": "Revisiting how to dismiss native HTML dialog elements when the backdrop is clicked",
+              "title": "RIP “Browsers”",
               "date": "2025-09-18",
-              "link": "https://gomakethings.com/revisiting-how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
+              "link": "https://blog.jim-nielsen.com/2025/rip-browsers/"
             },
             {
-              "title": "Prevent scrollbar jump",
+              "title": "Why Make a Website in 2025?",
+              "date": "2025-09-16",
+              "link": "https://blog.jim-nielsen.com/2025/why-make-a-website-in-2025/"
+            },
+            {
+              "title": "The Mac App Flea Market",
+              "date": "2025-09-14",
+              "link": "https://blog.jim-nielsen.com/2025/mac-app-flea-market/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Learning web development: Creating web pages via HTML",
+              "date": "2025-09-23",
+              "link": "https://2ality.com/2025/09/html-basics.html"
+            },
+            {
+              "title": "Learning web development: Getting started",
+              "date": "2025-09-22",
+              "link": "https://2ality.com/2025/09/learning-web-dev-getting-started.html"
+            },
+            {
+              "title": "Learning web development: Version control via Git and GitHub",
+              "date": "2025-09-18",
+              "link": "https://2ality.com/2025/09/git-github.html"
+            },
+            {
+              "title": "Learning web development: Markdown",
               "date": "2025-09-17",
-              "link": "https://gomakethings.com/prevent-scrollbar-jump/"
+              "link": "https://2ality.com/2025/09/markdown.html"
+            },
+            {
+              "title": "Learning web development: Native package managers",
+              "date": "2025-09-16",
+              "link": "https://2ality.com/2025/09/native-package-managers.html"
+            }
+          ]
+        },
+        {
+          "title": "More Questions Than Answers",
+          "feedUrl": "https://unremarkabletester.com/feed/",
+          "items": [
+            {
+              "title": "AI – Getting Familiar With A Swiss Army Knife",
+              "date": "2025-09-23",
+              "link": "https://unremarkabletester.com/2025/09/23/ai-getting-familiar-with-a-swiss-army-knife/"
+            },
+            {
+              "title": "DORA Report 2024: Three Ideas to Tackle the Cons of Platform Usage",
+              "date": "2024-11-15",
+              "link": "https://unremarkabletester.com/2024/11/15/dora-report-2024-three-ideas-to-tackle-the-cons-of-platform-usage/"
+            },
+            {
+              "title": "Product Owners (What are they Good For?)",
+              "date": "2024-10-20",
+              "link": "https://unremarkabletester.com/2024/10/20/product-owners-what-are-they-good-for/"
+            },
+            {
+              "title": "Three Ingredients for Tasty Platform Capabilities",
+              "date": "2024-05-01",
+              "link": "https://unremarkabletester.com/2024/05/01/three-ingredients-for-tasty-platform-capabilities/"
+            },
+            {
+              "title": "How Product Management can Improve Development Experience",
+              "date": "2023-05-25",
+              "link": "https://unremarkabletester.com/2023/05/25/how-product-management-can-improve-development-experience/"
             }
           ]
         },
@@ -66,6 +128,37 @@
           ]
         },
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Controlling your code",
+              "date": "2025-09-22",
+              "link": "https://gomakethings.com/controlling-your-code/"
+            },
+            {
+              "title": "A yawning absence",
+              "date": "2025-09-20",
+              "link": "https://gomakethings.com/a-yawning-absence/"
+            },
+            {
+              "title": "DIY Netlify",
+              "date": "2025-09-19",
+              "link": "https://gomakethings.com/diy-netlify/"
+            },
+            {
+              "title": "Revisiting how to dismiss native HTML dialog elements when the backdrop is clicked",
+              "date": "2025-09-18",
+              "link": "https://gomakethings.com/revisiting-how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
+            },
+            {
+              "title": "Prevent scrollbar jump",
+              "date": "2025-09-17",
+              "link": "https://gomakethings.com/prevent-scrollbar-jump/"
+            }
+          ]
+        },
+        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -93,68 +186,6 @@
               "title": "On the Benefits of Trunk-based Development",
               "date": "2025-07-21",
               "link": "https://thinkinglabs.io/articles/2025/07/21/on-the-benefits-of-trunk-based-development.html"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
-            },
-            {
-              "title": "Apple's Assault on Standards",
-              "date": "2025-09-02",
-              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
-            },
-            {
-              "title": "Apple vs. Facebook is Kayfabe",
-              "date": "2025-08-25",
-              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
-            },
-            {
-              "title": "Put Names and Dates On Documents",
-              "date": "2025-08-13",
-              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
-            },
-            {
-              "title": "How Do Committees Fail To Invent?",
-              "date": "2025-08-11",
-              "link": "https://infrequently.org/2025/08/how-do-committees-fail-to-invent/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Anti-*: The Things We Do But Not All The Way",
-              "date": "2025-09-21",
-              "link": "https://blog.jim-nielsen.com/2025/my-antis/"
-            },
-            {
-              "title": "RIP “Browsers”",
-              "date": "2025-09-18",
-              "link": "https://blog.jim-nielsen.com/2025/rip-browsers/"
-            },
-            {
-              "title": "Why Make a Website in 2025?",
-              "date": "2025-09-16",
-              "link": "https://blog.jim-nielsen.com/2025/why-make-a-website-in-2025/"
-            },
-            {
-              "title": "The Mac App Flea Market",
-              "date": "2025-09-14",
-              "link": "https://blog.jim-nielsen.com/2025/mac-app-flea-market/"
-            },
-            {
-              "title": "Some Love For Python",
-              "date": "2025-09-08",
-              "link": "https://blog.jim-nielsen.com/2025/love-for-python/"
             }
           ]
         },
@@ -248,6 +279,37 @@
               "title": "Recently",
               "date": "2025-06-06",
               "link": "https://macwright.com/2025/06/06/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "A Few Nice Words about Viewfinder",
+              "date": "2025-09-20",
+              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
+            },
+            {
+              "title": "Ditch those words!",
+              "date": "2025-09-13",
+              "link": "https://robinrendle.com/notes/ditch-those-words/"
+            },
+            {
+              "title": "Poverty, By America",
+              "date": "2025-09-07",
+              "link": "https://robinrendle.com/notes/notes-on-poverty/"
+            },
+            {
+              "title": "Fix the Signal",
+              "date": "2025-08-23",
+              "link": "https://robinrendle.com/notes/fix-the-signal/"
+            },
+            {
+              "title": "Book notes",
+              "date": "2025-07-13",
+              "link": "https://robinrendle.com/notes/book-notes/"
             }
           ]
         },
@@ -371,33 +433,33 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
             {
-              "title": "Learning web development: Version control via Git and GitHub",
+              "title": "Seven Years of Firecracker",
               "date": "2025-09-18",
-              "link": "https://2ality.com/2025/09/git-github.html"
+              "link": "http://brooker.co.za/blog/2025/09/18/firecracker.html"
             },
             {
-              "title": "Learning web development: Markdown",
-              "date": "2025-09-17",
-              "link": "https://2ality.com/2025/09/markdown.html"
+              "title": "Dynamo, DynamoDB, and Aurora DSQL",
+              "date": "2025-08-15",
+              "link": "http://brooker.co.za/blog/2025/08/15/dynamo-dynamodb-dsql.html"
             },
             {
-              "title": "Learning web development: Native package managers",
-              "date": "2025-09-16",
-              "link": "https://2ality.com/2025/09/native-package-managers.html"
+              "title": "LLMs as Parts of Systems",
+              "date": "2025-08-12",
+              "link": "http://brooker.co.za/blog/2025/08/12/llms-as-components.html"
             },
             {
-              "title": "Learning web development: Authenticating users with plain Node.js",
-              "date": "2025-09-15",
-              "link": "https://2ality.com/2025/09/authenticating-users-nodejs.html"
+              "title": "Career advice, or something like it",
+              "date": "2025-06-20",
+              "link": "http://brooker.co.za/blog/2025/06/20/career.html"
             },
             {
-              "title": "Learning web development: Implementing web servers",
-              "date": "2025-09-12",
-              "link": "https://2ality.com/2025/09/implementing-web-servers.html"
+              "title": "Systems Fun at HotOS",
+              "date": "2025-06-02",
+              "link": "http://brooker.co.za/blog/2025/06/02/hotos.html"
             }
           ]
         },
@@ -499,6 +561,11 @@
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
+              "title": "Fall Between The Cracks",
+              "date": "2025-09-13",
+              "link": "https://flamedfury.com/posts/fall-between-the-cracks/"
+            },
+            {
               "title": "The Runarounds (2025)",
               "date": "2025-09-13",
               "link": "https://flamedfury.com/posts/the-runarounds-2025/"
@@ -517,11 +584,6 @@
               "title": "Sicker Than The Remix",
               "date": "2025-09-13",
               "link": "https://flamedfury.com/posts/sicker-than-the-remix/"
-            },
-            {
-              "title": "New Old Eminem",
-              "date": "2025-09-13",
-              "link": "https://flamedfury.com/posts/new-old-eminem/"
             }
           ]
         },
@@ -1111,37 +1173,6 @@
               "title": "Slay the Spire #6: Let's go to Codeberg!",
               "date": "2024-08-11",
               "link": "https://www.cvennevik.no/blog/slay-the-spire-06-lets-go-to-codeberg/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Dynamo, DynamoDB, and Aurora DSQL",
-              "date": "2025-08-15",
-              "link": "http://brooker.co.za/blog/2025/08/15/dynamo-dynamodb-dsql.html"
-            },
-            {
-              "title": "LLMs as Parts of Systems",
-              "date": "2025-08-12",
-              "link": "http://brooker.co.za/blog/2025/08/12/llms-as-components.html"
-            },
-            {
-              "title": "Career advice, or something like it",
-              "date": "2025-06-20",
-              "link": "http://brooker.co.za/blog/2025/06/20/career.html"
-            },
-            {
-              "title": "Systems Fun at HotOS",
-              "date": "2025-06-02",
-              "link": "http://brooker.co.za/blog/2025/06/02/hotos.html"
-            },
-            {
-              "title": "Good Performance for Bad Days",
-              "date": "2025-05-20",
-              "link": "http://brooker.co.za/blog/2025/05/20/icpe.html"
             }
           ]
         },
@@ -2128,37 +2159,6 @@
           ]
         },
         {
-          "title": "More Questions Than Answers",
-          "feedUrl": "https://unremarkabletester.com/feed/",
-          "items": [
-            {
-              "title": "DORA Report 2024: Three Ideas to Tackle the Cons of Platform Usage",
-              "date": "2024-11-15",
-              "link": "https://unremarkabletester.com/2024/11/15/dora-report-2024-three-ideas-to-tackle-the-cons-of-platform-usage/"
-            },
-            {
-              "title": "Product Owners (What are they Good For?)",
-              "date": "2024-10-20",
-              "link": "https://unremarkabletester.com/2024/10/20/product-owners-what-are-they-good-for/"
-            },
-            {
-              "title": "Three Ingredients for Tasty Platform Capabilities",
-              "date": "2024-05-01",
-              "link": "https://unremarkabletester.com/2024/05/01/three-ingredients-for-tasty-platform-capabilities/"
-            },
-            {
-              "title": "How Product Management can Improve Development Experience",
-              "date": "2023-05-25",
-              "link": "https://unremarkabletester.com/2023/05/25/how-product-management-can-improve-development-experience/"
-            },
-            {
-              "title": "Care Tips for Product Plans",
-              "date": "2023-05-16",
-              "link": "https://unremarkabletester.com/2023/05/16/care-tips-for-product-plans/"
-            }
-          ]
-        },
-        {
           "title": "",
           "feedUrl": "https://danluu.com/atom.xml",
           "items": [
@@ -2492,11 +2492,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-23T03:29:59.317Z",
+  "fetchDate": "2025-09-24T03:29:19.771Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://robinrendle.com/feed.xml"
+    "https://infrequently.org/feed/"
   ]
 }

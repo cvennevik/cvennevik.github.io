@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
+            },
+            {
+              "title": "Web Standards and the Fall of the House of Iamus",
+              "date": "2025-09-21",
+              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
+            },
+            {
+              "title": "Apple's Assault on Standards",
+              "date": "2025-09-02",
+              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
+            },
+            {
+              "title": "Apple vs. Facebook is Kayfabe",
+              "date": "2025-08-25",
+              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
+            }
+          ]
+        },
+        {
+          "title": "Blog on Hillel Wayne",
+          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
+          "items": [
+            {
+              "title": "A Very Early History of Algebraic Data Types",
+              "date": "2025-09-25",
+              "link": "https://www.hillelwayne.com/post/algdt-history/"
+            },
+            {
+              "title": "Gamer Games for Non-Gamers",
+              "date": "2025-04-01",
+              "link": "https://www.hillelwayne.com/post/vidja-games/"
+            },
+            {
+              "title": "A Perplexing Javascript Parsing Puzzle",
+              "date": "2025-03-12",
+              "link": "https://www.hillelwayne.com/post/javascript-puzzle/"
+            },
+            {
+              "title": "The Hierarchy of Controls (or how to stop devs from dropping prod)",
+              "date": "2025-03-04",
+              "link": "https://www.hillelwayne.com/post/hoc/"
+            },
+            {
+              "title": "Hiatus",
+              "date": "2024-09-11",
+              "link": "https://www.hillelwayne.com/post/hiatus/"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "No Seatbelt, No Job!",
+              "date": "2025-09-25",
+              "link": "https://moonbase.lgbt/blog/no-seatbelt-no-job/"
+            },
+            {
+              "title": "Misadventures running Clone Hero on Linux",
+              "date": "2025-08-25",
+              "link": "https://moonbase.lgbt/blog/clone-hero-linux/"
+            },
+            {
+              "title": "UED: Unthinkable",
+              "date": "2025-08-01",
+              "link": "https://moonbase.lgbt/blog/ued-unthinkable/"
+            },
+            {
+              "title": "UED: Ad Nauseam",
+              "date": "2025-07-30",
+              "link": "https://moonbase.lgbt/blog/ued-ad-nauseam/"
+            },
+            {
+              "title": "Rachel’s iPod",
+              "date": "2025-07-21",
+              "link": "https://moonbase.lgbt/blog/rachels-ipod/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -35,33 +128,33 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
             {
-              "title": "Goodbye, paywall",
-              "date": "2025-09-24",
-              "link": "https://gomakethings.com/goodbye-paywall/"
+              "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
+              "date": "2025-09-25",
+              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/"
             },
             {
-              "title": "Controlling your code",
-              "date": "2025-09-22",
-              "link": "https://gomakethings.com/controlling-your-code/"
+              "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
+              "date": "2025-09-10",
+              "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/"
             },
             {
-              "title": "A yawning absence",
-              "date": "2025-09-20",
-              "link": "https://gomakethings.com/a-yawning-absence/"
+              "title": "The Angels and Demons of Nondeterminism",
+              "date": "2025-09-04",
+              "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/"
             },
             {
-              "title": "DIY Netlify",
-              "date": "2025-09-19",
-              "link": "https://gomakethings.com/diy-netlify/"
+              "title": "Logical Duals in Software Engineering",
+              "date": "2025-08-27",
+              "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/"
             },
             {
-              "title": "Revisiting how to dismiss native HTML dialog elements when the backdrop is clicked",
-              "date": "2025-09-18",
-              "link": "https://gomakethings.com/revisiting-how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
+              "title": "Sapir-Whorf does not apply to Programming Languages",
+              "date": "2025-08-21",
+              "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/"
             }
           ]
         },
@@ -97,6 +190,37 @@
           ]
         },
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Goodbye, paywall",
+              "date": "2025-09-24",
+              "link": "https://gomakethings.com/goodbye-paywall/"
+            },
+            {
+              "title": "Controlling your code",
+              "date": "2025-09-22",
+              "link": "https://gomakethings.com/controlling-your-code/"
+            },
+            {
+              "title": "A yawning absence",
+              "date": "2025-09-20",
+              "link": "https://gomakethings.com/a-yawning-absence/"
+            },
+            {
+              "title": "DIY Netlify",
+              "date": "2025-09-19",
+              "link": "https://gomakethings.com/diy-netlify/"
+            },
+            {
+              "title": "Revisiting how to dismiss native HTML dialog elements when the backdrop is clicked",
+              "date": "2025-09-18",
+              "link": "https://gomakethings.com/revisiting-how-to-dismiss-native-html-dialog-elements-when-the-backdrop-is-clicked/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -119,37 +243,6 @@
             {
               "date": "2025-09-15",
               "link": "https://dbushell.com/notes/2025-09-15T05:49Z/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            },
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
-            },
-            {
-              "title": "Apple's Assault on Standards",
-              "date": "2025-09-02",
-              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
-            },
-            {
-              "title": "Apple vs. Facebook is Kayfabe",
-              "date": "2025-08-25",
-              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
-            },
-            {
-              "title": "Put Names and Dates On Documents",
-              "date": "2025-08-13",
-              "link": "https://infrequently.org/2025/08/names-and-dates-on-docs-every-time/"
             }
           ]
         },
@@ -774,37 +867,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
-              "date": "2025-09-10",
-              "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/"
-            },
-            {
-              "title": "The Angels and Demons of Nondeterminism",
-              "date": "2025-09-04",
-              "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/"
-            },
-            {
-              "title": "Logical Duals in Software Engineering",
-              "date": "2025-08-27",
-              "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/"
-            },
-            {
-              "title": "Sapir-Whorf does not apply to Programming Languages",
-              "date": "2025-08-21",
-              "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/"
-            },
-            {
-              "title": "Software books I wish I could read",
-              "date": "2025-08-06",
-              "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/"
-            }
-          ]
-        },
-        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
@@ -1049,37 +1111,6 @@
               "title": "What's a tomato?",
               "date": "2025-05-11",
               "link": "https://einarwh.no/blog/2025/05/11/whats-a-tomato/"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "Misadventures running Clone Hero on Linux",
-              "date": "2025-08-25",
-              "link": "https://moonbase.lgbt/blog/clone-hero-linux/"
-            },
-            {
-              "title": "UED: Unthinkable",
-              "date": "2025-08-01",
-              "link": "https://moonbase.lgbt/blog/ued-unthinkable/"
-            },
-            {
-              "title": "UED: Ad Nauseam",
-              "date": "2025-07-30",
-              "link": "https://moonbase.lgbt/blog/ued-ad-nauseam/"
-            },
-            {
-              "title": "Rachel’s iPod",
-              "date": "2025-07-21",
-              "link": "https://moonbase.lgbt/blog/rachels-ipod/"
-            },
-            {
-              "title": "UED: Watson",
-              "date": "2025-07-20",
-              "link": "https://moonbase.lgbt/blog/ued-watson/"
             }
           ]
         },
@@ -1952,37 +1983,6 @@
           ]
         },
         {
-          "title": "Blog on Hillel Wayne",
-          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
-          "items": [
-            {
-              "title": "Gamer Games for Non-Gamers",
-              "date": "2025-04-01",
-              "link": "https://www.hillelwayne.com/post/vidja-games/"
-            },
-            {
-              "title": "A Perplexing Javascript Parsing Puzzle",
-              "date": "2025-03-12",
-              "link": "https://www.hillelwayne.com/post/javascript-puzzle/"
-            },
-            {
-              "title": "The Hierarchy of Controls (or how to stop devs from dropping prod)",
-              "date": "2025-03-04",
-              "link": "https://www.hillelwayne.com/post/hoc/"
-            },
-            {
-              "title": "Hiatus",
-              "date": "2024-09-11",
-              "link": "https://www.hillelwayne.com/post/hiatus/"
-            },
-            {
-              "title": "Toolbox languages",
-              "date": "2024-07-15",
-              "link": "https://www.hillelwayne.com/post/toolbox-languages/"
-            }
-          ]
-        },
-        {
           "title": "Patrick Dubroy's blog",
           "feedUrl": "https://dubroy.com/blog/rss.xml",
           "items": [
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-25T03:31:34.952Z",
+  "fetchDate": "2025-09-26T03:29:45.414Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

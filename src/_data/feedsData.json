@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Porteur bag 2",
+              "date": "2025-09-27",
+              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
+            },
+            {
+              "title": "Cooking with glasses",
+              "date": "2025-09-21",
+              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-08-29",
+              "link": "https://macwright.com/2025/08/29/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-07-04",
+              "link": "https://macwright.com/2025/07/04/recently.html"
+            },
+            {
+              "title": "epanet-js",
+              "date": "2025-07-03",
+              "link": "https://macwright.com/2025/07/03/epanet-placemark.html"
+            }
+          ]
+        },
+        {
+          "title": "draganstepanovic.com",
+          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
+          "items": [
+            {
+              "title": "It's not about reducing the costs per se",
+              "date": "2025-09-27",
+              "link": "https://dragan-stepanovic.github.io//2025/09/27/reducing-costs.html"
+            },
+            {
+              "title": "Dynamics between transaction cost and batch size is simple, but often counterintuitive.",
+              "date": "2025-06-19",
+              "link": "https://dragan-stepanovic.github.io//2025/06/19/working-together-works.html"
+            },
+            {
+              "title": "Managing  interdependence over decoupling",
+              "date": "2025-04-03",
+              "link": "https://dragan-stepanovic.github.io//2025/04/03/interdependence-over-independence.html"
+            },
+            {
+              "title": "Working together (pair/mob/ensemble) helps with fixing inefficiencies in the system",
+              "date": "2025-03-04",
+              "link": "https://dragan-stepanovic.github.io//2025/03/04/pain-together.html"
+            },
+            {
+              "title": "If an incident report",
+              "date": "2024-11-19",
+              "link": "https://dragan-stepanovic.github.io//2024/11/19/if-incident-report.html"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -433,37 +495,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Custom Carets and Users: When The Caret Is No Longer a Stick (Yes, That’s a Poor Attempt at a Pun)",
-              "date": "2025-09-21",
-              "link": "https://adrianroselli.com/2025/09/custom-carets-and-users-when-the-caret-is-no-longer-a-stick-yes-thats-a-poor-attempt-at-a-pun.html"
-            },
-            {
-              "title": "My Thoughts on the State of Surveys",
-              "date": "2025-08-14",
-              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
-            },
-            {
-              "title": "1.2.5: Adversarial Conformance",
-              "date": "2025-08-02",
-              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
-            },
-            {
-              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
-              "date": "2025-08-01",
-              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
-            },
-            {
-              "title": "#ARTY Could Get You Sued",
-              "date": "2025-07-14",
-              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
-            }
-          ]
-        },
-        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -495,64 +526,33 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
           "items": [
             {
-              "title": "Cooking with glasses",
+              "title": "Custom Carets and Users: When The Caret Is No Longer a Stick (Yes, That’s a Poor Attempt at a Pun)",
               "date": "2025-09-21",
-              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
+              "link": "https://adrianroselli.com/2025/09/custom-carets-and-users-when-the-caret-is-no-longer-a-stick-yes-thats-a-poor-attempt-at-a-pun.html"
             },
             {
-              "title": "Recently",
-              "date": "2025-08-29",
-              "link": "https://macwright.com/2025/08/29/recently.html"
+              "title": "My Thoughts on the State of Surveys",
+              "date": "2025-08-14",
+              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
             },
             {
-              "title": "Recently",
-              "date": "2025-07-04",
-              "link": "https://macwright.com/2025/07/04/recently.html"
+              "title": "1.2.5: Adversarial Conformance",
+              "date": "2025-08-02",
+              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
             },
             {
-              "title": "epanet-js",
-              "date": "2025-07-03",
-              "link": "https://macwright.com/2025/07/03/epanet-placemark.html"
+              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
+              "date": "2025-08-01",
+              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
             },
             {
-              "title": "Recently",
-              "date": "2025-06-06",
-              "link": "https://macwright.com/2025/06/06/recently.html"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "A Few Nice Words about Viewfinder",
-              "date": "2025-09-20",
-              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
-            },
-            {
-              "title": "Ditch those words!",
-              "date": "2025-09-13",
-              "link": "https://robinrendle.com/notes/ditch-those-words/"
-            },
-            {
-              "title": "Poverty, By America",
-              "date": "2025-09-07",
-              "link": "https://robinrendle.com/notes/notes-on-poverty/"
-            },
-            {
-              "title": "Fix the Signal",
-              "date": "2025-08-23",
-              "link": "https://robinrendle.com/notes/fix-the-signal/"
-            },
-            {
-              "title": "Book notes",
-              "date": "2025-07-13",
-              "link": "https://robinrendle.com/notes/book-notes/"
+              "title": "#ARTY Could Get You Sued",
+              "date": "2025-07-14",
+              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
             }
           ]
         },
@@ -1611,37 +1611,6 @@
           ]
         },
         {
-          "title": "draganstepanovic.com",
-          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
-          "items": [
-            {
-              "title": "Dynamics between transaction cost and batch size is simple, but often counterintuitive.",
-              "date": "2025-06-19",
-              "link": "https://dragan-stepanovic.github.io//2025/06/19/working-together-works.html"
-            },
-            {
-              "title": "Managing  interdependence over decoupling",
-              "date": "2025-04-03",
-              "link": "https://dragan-stepanovic.github.io//2025/04/03/interdependence-over-independence.html"
-            },
-            {
-              "title": "Working together (pair/mob/ensemble) helps with fixing inefficiencies in the system",
-              "date": "2025-03-04",
-              "link": "https://dragan-stepanovic.github.io//2025/03/04/pain-together.html"
-            },
-            {
-              "title": "If an incident report",
-              "date": "2024-11-19",
-              "link": "https://dragan-stepanovic.github.io//2024/11/19/if-incident-report.html"
-            },
-            {
-              "title": "Let the design guide you",
-              "date": "2024-11-12",
-              "link": "https://dragan-stepanovic.github.io//2024/11/12/design-emergence.html"
-            }
-          ]
-        },
-        {
           "title": "jakelazaroff.com",
           "feedUrl": "https://jakelazaroff.com/rss.xml",
           "items": [
@@ -2523,8 +2492,9 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-27T03:24:57.937Z",
+  "fetchDate": "2025-09-28T03:36:27.944Z",
   "errors": [
+    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml"

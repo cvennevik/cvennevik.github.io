@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "RSS Club #003: Silksong",
+              "date": "2025-09-28",
+              "link": "https://dbushell.com/2025/09/28/RSS003/"
+            },
+            {
+              "title": "How Much Does Freedom Cost?",
+              "date": "2025-09-22",
+              "link": "https://dbushell.com/2025/09/22/cost-of-freedom/"
+            },
+            {
+              "title": "Let’s see Paul Allen’s CSS Reset",
+              "date": "2025-09-12",
+              "link": "https://dbushell.com/2025/09/12/css-reset/"
+            },
+            {
+              "title": "I Shut The Emails Out",
+              "date": "2025-09-12",
+              "link": "https://dbushell.com/2025/09/12/cloudflare-email-smtp-server/"
+            },
+            {
+              "title": "Trillion Dollar Elephants",
+              "date": "2025-09-08",
+              "link": "https://dbushell.com/2025/09/08/trillion-dollar-elephants/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-09-28",
+              "link": "https://dbushell.com/notes/2025-09-28T14:08Z/"
+            },
+            {
+              "date": "2025-09-26",
+              "link": "https://dbushell.com/notes/2025-09-26T06:51Z/"
+            },
+            {
+              "date": "2025-09-24",
+              "link": "https://dbushell.com/notes/2025-09-24T11:04Z/"
+            },
+            {
+              "date": "2025-09-24",
+              "link": "https://dbushell.com/notes/2025-09-24T06:36Z/"
+            },
+            {
+              "date": "2025-09-19",
+              "link": "https://dbushell.com/notes/2025-09-19T08:49Z/"
+            }
+          ]
+        },
+        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -128,28 +185,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
           "items": [
             {
-              "date": "2025-09-26",
-              "link": "https://dbushell.com/notes/2025-09-26T06:51Z/"
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
             },
             {
-              "date": "2025-09-24",
-              "link": "https://dbushell.com/notes/2025-09-24T11:04Z/"
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
             },
             {
-              "date": "2025-09-24",
-              "link": "https://dbushell.com/notes/2025-09-24T06:36Z/"
+              "title": "Web Standards and the Fall of the House of Iamus",
+              "date": "2025-09-21",
+              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
             },
             {
-              "date": "2025-09-19",
-              "link": "https://dbushell.com/notes/2025-09-19T08:49Z/"
+              "title": "Apple's Assault on Standards",
+              "date": "2025-09-02",
+              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
             },
             {
-              "date": "2025-09-15",
-              "link": "https://dbushell.com/notes/2025-09-15T12:09Z/"
+              "title": "Apple vs. Facebook is Kayfabe",
+              "date": "2025-08-25",
+              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
             }
           ]
         },
@@ -181,37 +243,6 @@
               "title": "Hiatus",
               "date": "2024-09-11",
               "link": "https://www.hillelwayne.com/post/hiatus/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            },
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
-            },
-            {
-              "title": "Apple's Assault on Standards",
-              "date": "2025-09-02",
-              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
-            },
-            {
-              "title": "Apple vs. Facebook is Kayfabe",
-              "date": "2025-08-25",
-              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
             }
           ]
         },
@@ -433,37 +464,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "How Much Does Freedom Cost?",
-              "date": "2025-09-22",
-              "link": "https://dbushell.com/2025/09/22/cost-of-freedom/"
-            },
-            {
-              "title": "Let’s see Paul Allen’s CSS Reset",
-              "date": "2025-09-12",
-              "link": "https://dbushell.com/2025/09/12/css-reset/"
-            },
-            {
-              "title": "I Shut The Emails Out",
-              "date": "2025-09-12",
-              "link": "https://dbushell.com/2025/09/12/cloudflare-email-smtp-server/"
-            },
-            {
-              "title": "Trillion Dollar Elephants",
-              "date": "2025-09-08",
-              "link": "https://dbushell.com/2025/09/08/trillion-dollar-elephants/"
-            },
-            {
-              "title": "I Let The Emails In",
-              "date": "2025-09-05",
-              "link": "https://dbushell.com/2025/09/05/typescript-email-smtp-server/"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -491,6 +491,37 @@
               "title": "On the Benefits of Trunk-based Development",
               "date": "2025-07-21",
               "link": "https://thinkinglabs.io/articles/2025/07/21/on-the-benefits-of-trunk-based-development.html"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Custom Carets and Users: When The Caret Is No Longer a Stick (Yes, That’s a Poor Attempt at a Pun)",
+              "date": "2025-09-21",
+              "link": "https://adrianroselli.com/2025/09/custom-carets-and-users-when-the-caret-is-no-longer-a-stick-yes-thats-a-poor-attempt-at-a-pun.html"
+            },
+            {
+              "title": "My Thoughts on the State of Surveys",
+              "date": "2025-08-14",
+              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
+            },
+            {
+              "title": "1.2.5: Adversarial Conformance",
+              "date": "2025-08-02",
+              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
+            },
+            {
+              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
+              "date": "2025-08-01",
+              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
+            },
+            {
+              "title": "#ARTY Could Get You Sued",
+              "date": "2025-07-14",
+              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
             }
           ]
         },
@@ -526,33 +557,33 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
             {
-              "title": "Custom Carets and Users: When The Caret Is No Longer a Stick (Yes, That’s a Poor Attempt at a Pun)",
-              "date": "2025-09-21",
-              "link": "https://adrianroselli.com/2025/09/custom-carets-and-users-when-the-caret-is-no-longer-a-stick-yes-thats-a-poor-attempt-at-a-pun.html"
+              "title": "A Few Nice Words about Viewfinder",
+              "date": "2025-09-20",
+              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
             },
             {
-              "title": "My Thoughts on the State of Surveys",
-              "date": "2025-08-14",
-              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
+              "title": "Ditch those words!",
+              "date": "2025-09-13",
+              "link": "https://robinrendle.com/notes/ditch-those-words/"
             },
             {
-              "title": "1.2.5: Adversarial Conformance",
-              "date": "2025-08-02",
-              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
+              "title": "Poverty, By America",
+              "date": "2025-09-07",
+              "link": "https://robinrendle.com/notes/notes-on-poverty/"
             },
             {
-              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
-              "date": "2025-08-01",
-              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
+              "title": "Fix the Signal",
+              "date": "2025-08-23",
+              "link": "https://robinrendle.com/notes/fix-the-signal/"
             },
             {
-              "title": "#ARTY Could Get You Sued",
-              "date": "2025-07-14",
-              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
+              "title": "Book notes",
+              "date": "2025-07-13",
+              "link": "https://robinrendle.com/notes/book-notes/"
             }
           ]
         },
@@ -2492,9 +2523,8 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-28T03:36:27.944Z",
+  "fetchDate": "2025-09-29T03:35:39.794Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml"

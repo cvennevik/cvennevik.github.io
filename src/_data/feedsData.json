@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Chelsea Troy",
+          "feedUrl": "https://chelseatroy.com/feed/",
+          "items": [
+            {
+              "title": "CS for a Nation: A conversation with Simon Peyton Jones about computer science education",
+              "date": "2025-09-29",
+              "link": "https://chelseatroy.com/2025/09/29/cs-for-a-nation-a-conversation-with-simon-peyton-jones-about-computer-science-education/"
+            },
+            {
+              "title": "What can we expect of LLMs as Software Engineers?",
+              "date": "2025-07-14",
+              "link": "https://chelseatroy.com/2025/07/14/what-can-we-expect-of-llms-as-software-engineers/"
+            },
+            {
+              "title": "How to survive the apocalypse: a conversation with Tim O’Reilly about Generative AI",
+              "date": "2025-06-25",
+              "link": "https://chelseatroy.com/2025/06/25/how-to-survive-the-apocalypse-a-conversation-with-tim-oreilly-about-generative-ai/"
+            },
+            {
+              "title": "The Homework is the Cheat Code: GenAI Policy in my Computer Science Graduate Classroom",
+              "date": "2025-05-14",
+              "link": "https://chelseatroy.com/2025/05/14/the-homework-is-the-cheat-code-genai-policy-in-my-computer-science-graduate-classroom/"
+            },
+            {
+              "title": "Sharpen your technical leadership skills: proceeds to charity through EOY",
+              "date": "2024-12-10",
+              "link": "https://chelseatroy.com/2024/12/10/sharpen-your-technical-leadership-skills-proceeds-to-charity-through-eoy/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Taking SVG “screenshots” of HTML elements",
+              "date": "2025-09-29",
+              "link": "https://2ality.com/2025/09/svg-screenshots.html"
+            },
+            {
+              "title": "CSS wish: inner breakpoints",
+              "date": "2025-09-26",
+              "link": "https://2ality.com/2025/09/css-inner-breakpoints.html"
+            },
+            {
+              "title": "Web development for beginners: Creating web pages via HTML",
+              "date": "2025-09-23",
+              "link": "https://2ality.com/2025/09/html-basics.html"
+            },
+            {
+              "title": "Web development for beginners: Getting started",
+              "date": "2025-09-22",
+              "link": "https://2ality.com/2025/09/learning-web-dev-getting-started.html"
+            },
+            {
+              "title": "Web development for beginners: Version control via Git and GitHub",
+              "date": "2025-09-18",
+              "link": "https://2ality.com/2025/09/git-github.html"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "AI is the asbestos of the web",
+              "date": "2025-09-29",
+              "link": "https://gomakethings.com/ai-is-the-asbestos-of-the-web/"
+            },
+            {
+              "title": "Opposing oppression in daily life",
+              "date": "2025-09-26",
+              "link": "https://gomakethings.com/opposing-oppression-in-daily-life/"
+            },
+            {
+              "title": "Goodbye, paywall",
+              "date": "2025-09-24",
+              "link": "https://gomakethings.com/goodbye-paywall/"
+            },
+            {
+              "title": "Controlling your code",
+              "date": "2025-09-22",
+              "link": "https://gomakethings.com/controlling-your-code/"
+            },
+            {
+              "title": "A yawning absence",
+              "date": "2025-09-20",
+              "link": "https://gomakethings.com/a-yawning-absence/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,6 +124,37 @@
               "title": "Trillion Dollar Elephants",
               "date": "2025-09-08",
               "link": "https://dbushell.com/2025/09/08/trillion-dollar-elephants/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Running Software on Software You’ve Never Run",
+              "date": "2025-09-28",
+              "link": "https://blog.jim-nielsen.com/2025/run-software-on-software-youve-never-run/"
+            },
+            {
+              "title": "The Risks of NPM",
+              "date": "2025-09-23",
+              "link": "https://blog.jim-nielsen.com/2025/npm-risks/"
+            },
+            {
+              "title": "Anti-*: The Things We Do But Not All The Way",
+              "date": "2025-09-21",
+              "link": "https://blog.jim-nielsen.com/2025/my-antis/"
+            },
+            {
+              "title": "RIP “Browsers”",
+              "date": "2025-09-18",
+              "link": "https://blog.jim-nielsen.com/2025/rip-browsers/"
+            },
+            {
+              "title": "Why Make a Website in 2025?",
+              "date": "2025-09-16",
+              "link": "https://blog.jim-nielsen.com/2025/why-make-a-website-in-2025/"
             }
           ]
         },
@@ -119,68 +243,6 @@
               "title": "If an incident report",
               "date": "2024-11-19",
               "link": "https://dragan-stepanovic.github.io//2024/11/19/if-incident-report.html"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Opposing oppression in daily life",
-              "date": "2025-09-26",
-              "link": "https://gomakethings.com/opposing-oppression-in-daily-life/"
-            },
-            {
-              "title": "Goodbye, paywall",
-              "date": "2025-09-24",
-              "link": "https://gomakethings.com/goodbye-paywall/"
-            },
-            {
-              "title": "Controlling your code",
-              "date": "2025-09-22",
-              "link": "https://gomakethings.com/controlling-your-code/"
-            },
-            {
-              "title": "A yawning absence",
-              "date": "2025-09-20",
-              "link": "https://gomakethings.com/a-yawning-absence/"
-            },
-            {
-              "title": "DIY Netlify",
-              "date": "2025-09-19",
-              "link": "https://gomakethings.com/diy-netlify/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "CSS wish: inner breakpoints",
-              "date": "2025-09-26",
-              "link": "https://2ality.com/2025/09/css-inner-breakpoints.html"
-            },
-            {
-              "title": "Web development for beginners: Creating web pages via HTML",
-              "date": "2025-09-23",
-              "link": "https://2ality.com/2025/09/html-basics.html"
-            },
-            {
-              "title": "Web development for beginners: Getting started",
-              "date": "2025-09-22",
-              "link": "https://2ality.com/2025/09/learning-web-dev-getting-started.html"
-            },
-            {
-              "title": "Web development for beginners: Version control via Git and GitHub",
-              "date": "2025-09-18",
-              "link": "https://2ality.com/2025/09/git-github.html"
-            },
-            {
-              "title": "Web development for beginners: Markdown",
-              "date": "2025-09-17",
-              "link": "https://2ality.com/2025/09/markdown.html"
             }
           ]
         },
@@ -371,37 +433,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "The Risks of NPM",
-              "date": "2025-09-23",
-              "link": "https://blog.jim-nielsen.com/2025/npm-risks/"
-            },
-            {
-              "title": "Anti-*: The Things We Do But Not All The Way",
-              "date": "2025-09-21",
-              "link": "https://blog.jim-nielsen.com/2025/my-antis/"
-            },
-            {
-              "title": "RIP “Browsers”",
-              "date": "2025-09-18",
-              "link": "https://blog.jim-nielsen.com/2025/rip-browsers/"
-            },
-            {
-              "title": "Why Make a Website in 2025?",
-              "date": "2025-09-16",
-              "link": "https://blog.jim-nielsen.com/2025/why-make-a-website-in-2025/"
-            },
-            {
-              "title": "The Mac App Flea Market",
-              "date": "2025-09-14",
-              "link": "https://blog.jim-nielsen.com/2025/mac-app-flea-market/"
-            }
-          ]
-        },
-        {
           "title": "More Questions Than Answers",
           "feedUrl": "https://unremarkabletester.com/feed/",
           "items": [
@@ -495,37 +526,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Custom Carets and Users: When The Caret Is No Longer a Stick (Yes, That’s a Poor Attempt at a Pun)",
-              "date": "2025-09-21",
-              "link": "https://adrianroselli.com/2025/09/custom-carets-and-users-when-the-caret-is-no-longer-a-stick-yes-thats-a-poor-attempt-at-a-pun.html"
-            },
-            {
-              "title": "My Thoughts on the State of Surveys",
-              "date": "2025-08-14",
-              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
-            },
-            {
-              "title": "1.2.5: Adversarial Conformance",
-              "date": "2025-08-02",
-              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
-            },
-            {
-              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
-              "date": "2025-08-01",
-              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
-            },
-            {
-              "title": "#ARTY Could Get You Sued",
-              "date": "2025-07-14",
-              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
-            }
-          ]
-        },
-        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -553,6 +553,37 @@
               "title": "Software development is…",
               "date": "2025-02-18",
               "link": "https://jessitron.com/2025/02/17/software-development-is/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Custom Carets and Users: When The Caret Is No Longer a Stick (Yes, That’s a Poor Attempt at a Pun)",
+              "date": "2025-09-21",
+              "link": "https://adrianroselli.com/2025/09/custom-carets-and-users-when-the-caret-is-no-longer-a-stick-yes-thats-a-poor-attempt-at-a-pun.html"
+            },
+            {
+              "title": "My Thoughts on the State of Surveys",
+              "date": "2025-08-14",
+              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
+            },
+            {
+              "title": "1.2.5: Adversarial Conformance",
+              "date": "2025-08-02",
+              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
+            },
+            {
+              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
+              "date": "2025-08-01",
+              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
+            },
+            {
+              "title": "#ARTY Could Get You Sued",
+              "date": "2025-07-14",
+              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
             }
           ]
         },
@@ -809,6 +840,11 @@
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
+              "title": "Waiheke Weekend",
+              "date": "2025-09-13",
+              "link": "https://flamedfury.com/posts/waiheke-weekend/"
+            },
+            {
               "title": "London Hardhouse Reunion 2025",
               "date": "2025-09-13",
               "link": "https://flamedfury.com/posts/london-hardhouse-reunion-2025/"
@@ -827,11 +863,6 @@
               "title": "New Music Friday #6",
               "date": "2025-09-13",
               "link": "https://flamedfury.com/posts/new-music-friday-6/"
-            },
-            {
-              "title": "Minuit At Double Whammy",
-              "date": "2025-09-13",
-              "link": "https://flamedfury.com/posts/minuit-at-double-whammy/"
             }
           ]
         },
@@ -1452,37 +1483,6 @@
               "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
               "date": "2024-09-30",
               "link": "https://sarajoy.dev/blog/see-and-point/"
-            }
-          ]
-        },
-        {
-          "title": "Chelsea Troy",
-          "feedUrl": "https://chelseatroy.com/feed/",
-          "items": [
-            {
-              "title": "What can we expect of LLMs as Software Engineers?",
-              "date": "2025-07-14",
-              "link": "https://chelseatroy.com/2025/07/14/what-can-we-expect-of-llms-as-software-engineers/"
-            },
-            {
-              "title": "How to survive the apocalypse: a conversation with Tim O’Reilly about Generative AI",
-              "date": "2025-06-25",
-              "link": "https://chelseatroy.com/2025/06/25/how-to-survive-the-apocalypse-a-conversation-with-tim-oreilly-about-generative-ai/"
-            },
-            {
-              "title": "The Homework is the Cheat Code: GenAI Policy in my Computer Science Graduate Classroom",
-              "date": "2025-05-14",
-              "link": "https://chelseatroy.com/2025/05/14/the-homework-is-the-cheat-code-genai-policy-in-my-computer-science-graduate-classroom/"
-            },
-            {
-              "title": "Sharpen your technical leadership skills: proceeds to charity through EOY",
-              "date": "2024-12-10",
-              "link": "https://chelseatroy.com/2024/12/10/sharpen-your-technical-leadership-skills-proceeds-to-charity-through-eoy/"
-            },
-            {
-              "title": "What layoffs teach us about technical leadership",
-              "date": "2024-10-31",
-              "link": "https://chelseatroy.com/2024/10/31/what-layoffs-teach-us-about-technical-leadership/"
             }
           ]
         },
@@ -2523,7 +2523,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-29T03:35:39.794Z",
+  "fetchDate": "2025-09-30T03:29:44.778Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

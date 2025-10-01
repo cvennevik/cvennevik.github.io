@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Shelter or prison",
+              "date": "2025-10-01",
+              "link": "https://anniemueller.com/posts/shelter-or-prison"
+            },
+            {
+              "title": "Why do I love my Pika guestbook so fucking much? Let’s discuss.",
+              "date": "2025-09-25",
+              "link": "https://anniemueller.com/posts/why-do-i-love-my-pika-guestbook-so-fucking-much-lets-discuss"
+            },
+            {
+              "title": "Encourage purposeful friction",
+              "date": "2025-09-02",
+              "link": "https://anniemueller.com/posts/encourage-purposeful-friction"
+            },
+            {
+              "title": "Ritualize anything",
+              "date": "2025-08-27",
+              "link": "https://anniemueller.com/posts/ritualize-anything"
+            },
+            {
+              "title": "Quit being support staff",
+              "date": "2025-08-22",
+              "link": "https://anniemueller.com/posts/quit-being-support-staff"
+            }
+          ]
+        },
+        {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Convenience Scripts for Projects",
+              "date": "2025-09-30",
+              "link": "http://agileotter.blogspot.com/2025/09/convenience-scripts-for-projectsw.html"
+            },
+            {
+              "title": "Why is working faster not working?",
+              "date": "2025-09-12",
+              "link": "http://agileotter.blogspot.com/2025/09/why-is-working-faster-not-working.html"
+            },
+            {
+              "title": "Who Are You To Say What's Right?",
+              "date": "2025-07-21",
+              "link": "http://agileotter.blogspot.com/2025/07/who-are-you-to-say-whats-right.html"
+            },
+            {
+              "title": "A quick note on \"At Scale\"",
+              "date": "2025-07-09",
+              "link": "http://agileotter.blogspot.com/2025/07/a-quick-note-on-at-scale.html"
+            },
+            {
+              "title": "Who (the heck) Am I?",
+              "date": "2025-07-09",
+              "link": "http://agileotter.blogspot.com/2025/07/who-heck-am-i.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-09-30",
+              "link": "https://dbushell.com/notes/2025-09-30T08:16Z/"
+            },
+            {
+              "date": "2025-09-30",
+              "link": "https://dbushell.com/notes/2025-09-30T06:26Z/"
+            },
+            {
+              "date": "2025-09-28",
+              "link": "https://dbushell.com/notes/2025-09-28T14:08Z/"
+            },
+            {
+              "date": "2025-09-26",
+              "link": "https://dbushell.com/notes/2025-09-26T06:51Z/"
+            },
+            {
+              "date": "2025-09-24",
+              "link": "https://dbushell.com/notes/2025-09-24T11:04Z/"
+            }
+          ]
+        },
+        {
           "title": "Chelsea Troy",
           "feedUrl": "https://chelseatroy.com/feed/",
           "items": [
@@ -35,37 +123,6 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Taking SVG “screenshots” of HTML elements",
-              "date": "2025-09-29",
-              "link": "https://2ality.com/2025/09/svg-screenshots.html"
-            },
-            {
-              "title": "CSS wish: inner breakpoints",
-              "date": "2025-09-26",
-              "link": "https://2ality.com/2025/09/css-inner-breakpoints.html"
-            },
-            {
-              "title": "Web development for beginners: Creating web pages via HTML",
-              "date": "2025-09-23",
-              "link": "https://2ality.com/2025/09/html-basics.html"
-            },
-            {
-              "title": "Web development for beginners: Getting started",
-              "date": "2025-09-22",
-              "link": "https://2ality.com/2025/09/learning-web-dev-getting-started.html"
-            },
-            {
-              "title": "Web development for beginners: Version control via Git and GitHub",
-              "date": "2025-09-18",
-              "link": "https://2ality.com/2025/09/git-github.html"
-            }
-          ]
-        },
-        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -93,6 +150,37 @@
               "title": "A yawning absence",
               "date": "2025-09-20",
               "link": "https://gomakethings.com/a-yawning-absence/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Taking SVG “screenshots” of HTML elements",
+              "date": "2025-09-29",
+              "link": "https://2ality.com/2025/09/svg-screenshots.html"
+            },
+            {
+              "title": "CSS wish: inner breakpoints",
+              "date": "2025-09-26",
+              "link": "https://2ality.com/2025/09/css-inner-breakpoints.html"
+            },
+            {
+              "title": "Web development for beginners: Creating web pages via HTML",
+              "date": "2025-09-23",
+              "link": "https://2ality.com/2025/09/html-basics.html"
+            },
+            {
+              "title": "Web development for beginners: Getting started",
+              "date": "2025-09-22",
+              "link": "https://2ality.com/2025/09/learning-web-dev-getting-started.html"
+            },
+            {
+              "title": "Web development for beginners: Version control via Git and GitHub",
+              "date": "2025-09-18",
+              "link": "https://2ality.com/2025/09/git-github.html"
             }
           ]
         },
@@ -159,32 +247,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-09-28",
-              "link": "https://dbushell.com/notes/2025-09-28T14:08Z/"
-            },
-            {
-              "date": "2025-09-26",
-              "link": "https://dbushell.com/notes/2025-09-26T06:51Z/"
-            },
-            {
-              "date": "2025-09-24",
-              "link": "https://dbushell.com/notes/2025-09-24T11:04Z/"
-            },
-            {
-              "date": "2025-09-24",
-              "link": "https://dbushell.com/notes/2025-09-24T06:36Z/"
-            },
-            {
-              "date": "2025-09-19",
-              "link": "https://dbushell.com/notes/2025-09-19T08:49Z/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -247,37 +309,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            },
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
-            },
-            {
-              "title": "Apple's Assault on Standards",
-              "date": "2025-09-02",
-              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
-            },
-            {
-              "title": "Apple vs. Facebook is Kayfabe",
-              "date": "2025-08-25",
-              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
-            }
-          ]
-        },
-        {
           "title": "Blog on Hillel Wayne",
           "feedUrl": "https://www.hillelwayne.com/post/index.xml",
           "items": [
@@ -309,6 +340,37 @@
           ]
         },
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
+            },
+            {
+              "title": "Web Standards and the Fall of the House of Iamus",
+              "date": "2025-09-21",
+              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
+            },
+            {
+              "title": "Apple's Assault on Standards",
+              "date": "2025-09-02",
+              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
+            },
+            {
+              "title": "Apple vs. Facebook is Kayfabe",
+              "date": "2025-08-25",
+              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
+            }
+          ]
+        },
+        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -336,37 +398,6 @@
               "title": "Rachel’s iPod",
               "date": "2025-07-21",
               "link": "https://moonbase.lgbt/blog/rachels-ipod/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Why do I love my Pika guestbook so fucking much? Let’s discuss.",
-              "date": "2025-09-25",
-              "link": "https://anniemueller.com/posts/why-do-i-love-my-pika-guestbook-so-fucking-much-lets-discuss"
-            },
-            {
-              "title": "Encourage purposeful friction",
-              "date": "2025-09-02",
-              "link": "https://anniemueller.com/posts/encourage-purposeful-friction"
-            },
-            {
-              "title": "Ritualize anything",
-              "date": "2025-08-27",
-              "link": "https://anniemueller.com/posts/ritualize-anything"
-            },
-            {
-              "title": "Quit being support staff",
-              "date": "2025-08-22",
-              "link": "https://anniemueller.com/posts/quit-being-support-staff"
-            },
-            {
-              "title": "Navigating the Obvious Shoulds",
-              "date": "2025-08-12",
-              "link": "https://anniemueller.com/posts/navigating-the-obvious-shoulds"
             }
           ]
         },
@@ -526,37 +557,6 @@
           ]
         },
         {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "When efficiency isn’t wasteful",
-              "date": "2025-09-21",
-              "link": "https://jessitron.com/2025/09/21/when-efficiency-is-wasteful/"
-            },
-            {
-              "title": "Fixing Without Understanding",
-              "date": "2025-05-19",
-              "link": "https://jessitron.com/2025/05/18/fixing-without-understanding/"
-            },
-            {
-              "title": "Augmented Coding: Better with Principles",
-              "date": "2025-05-18",
-              "link": "https://jessitron.com/2025/05/18/augmented-coding-better-with-principles/"
-            },
-            {
-              "title": "Augmented Coding: an Experience Report",
-              "date": "2025-04-20",
-              "link": "https://jessitron.com/2025/04/20/augmented-coding-an-experience-report/"
-            },
-            {
-              "title": "Software development is…",
-              "date": "2025-02-18",
-              "link": "https://jessitron.com/2025/02/17/software-development-is/"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -584,6 +584,37 @@
               "title": "#ARTY Could Get You Sued",
               "date": "2025-07-14",
               "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
+            }
+          ]
+        },
+        {
+          "title": "Jessitron",
+          "feedUrl": "https://jessitron.com/feed/",
+          "items": [
+            {
+              "title": "When efficiency isn’t wasteful",
+              "date": "2025-09-21",
+              "link": "https://jessitron.com/2025/09/21/when-efficiency-is-wasteful/"
+            },
+            {
+              "title": "Fixing Without Understanding",
+              "date": "2025-05-19",
+              "link": "https://jessitron.com/2025/05/18/fixing-without-understanding/"
+            },
+            {
+              "title": "Augmented Coding: Better with Principles",
+              "date": "2025-05-18",
+              "link": "https://jessitron.com/2025/05/18/augmented-coding-better-with-principles/"
+            },
+            {
+              "title": "Augmented Coding: an Experience Report",
+              "date": "2025-04-20",
+              "link": "https://jessitron.com/2025/04/20/augmented-coding-an-experience-report/"
+            },
+            {
+              "title": "Software development is…",
+              "date": "2025-02-18",
+              "link": "https://jessitron.com/2025/02/17/software-development-is/"
             }
           ]
         },
@@ -863,37 +894,6 @@
               "title": "New Music Friday #6",
               "date": "2025-09-13",
               "link": "https://flamedfury.com/posts/new-music-friday-6/"
-            }
-          ]
-        },
-        {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Why is working faster not working?",
-              "date": "2025-09-12",
-              "link": "http://agileotter.blogspot.com/2025/09/why-is-working-faster-not-working.html"
-            },
-            {
-              "title": "Who Are You To Say What's Right?",
-              "date": "2025-07-21",
-              "link": "http://agileotter.blogspot.com/2025/07/who-are-you-to-say-whats-right.html"
-            },
-            {
-              "title": "A quick note on \"At Scale\"",
-              "date": "2025-07-09",
-              "link": "http://agileotter.blogspot.com/2025/07/a-quick-note-on-at-scale.html"
-            },
-            {
-              "title": "Who (the heck) Am I?",
-              "date": "2025-07-09",
-              "link": "http://agileotter.blogspot.com/2025/07/who-heck-am-i.html"
-            },
-            {
-              "title": "How much rework do you WANT?",
-              "date": "2025-07-07",
-              "link": "http://agileotter.blogspot.com/2025/07/how-much-rework-do-you-want.html"
             }
           ]
         },
@@ -1704,37 +1704,6 @@
           ]
         },
         {
-          "title": "Mike Grindle's Blog",
-          "feedUrl": "https://mikegrindle.com/feed.xml",
-          "items": [
-            {
-              "title": "Turning My Old Netbook Into a Writer Deck",
-              "date": "2025-06-11",
-              "link": "https://mikegrindle.com/posts/writer-deck"
-            },
-            {
-              "title": "Eee! PC",
-              "date": "2025-06-06",
-              "link": "https://mikegrindle.com/posts/eee"
-            },
-            {
-              "title": "When Life Was Loud",
-              "date": "2025-06-02",
-              "link": "https://mikegrindle.com/posts/loud"
-            },
-            {
-              "title": "The Unintentional Renegades of Outsider Music",
-              "date": "2025-04-24",
-              "link": "https://mikegrindle.com/posts/outsider"
-            },
-            {
-              "title": "Love, Creeps and Creatures: Buffy Season 2",
-              "date": "2025-04-03",
-              "link": "https://mikegrindle.com/posts/buffy-2"
-            }
-          ]
-        },
-        {
           "title": "drcathicks",
           "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
           "items": [
@@ -2523,10 +2492,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-09-30T03:29:44.778Z",
+  "fetchDate": "2025-10-01T03:40:46.228Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml"
+    "https://blog.codemanship.dev/rss.xml",
+    "https://mikegrindle.com/feed.xml"
   ]
 }

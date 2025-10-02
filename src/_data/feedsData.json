@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "Mere Being - 024 - September - Moving, Football, Laughter",
+              "date": "2025-10-02",
+              "link": "https://www.simplermachines.com/mere-being-024/"
+            },
+            {
+              "title": "Mere Being - 023 - August",
+              "date": "2025-08-30",
+              "link": "https://www.simplermachines.com/mere-being-023-august/"
+            },
+            {
+              "title": "Nat's Current Prompts",
+              "date": "2025-07-11",
+              "link": "https://www.simplermachines.com/nats-current-prompts/"
+            },
+            {
+              "title": "Mere Being 022 - June - Procrastination, Wallpaper Music, Popsicles",
+              "date": "2025-07-03",
+              "link": "https://www.simplermachines.com/mere-being-022-june-procrastination-wallpaper-music-popsicles/"
+            },
+            {
+              "title": "Mere Being 021 - April - dinner parties, charoset, dying in holes",
+              "date": "2025-04-30",
+              "link": "https://www.simplermachines.com/mere-being-021-april-dinner-pa/"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
+            {
+              "title": "Two small UI things that might not bother me if I were a completely different person",
+              "date": "2025-10-02",
+              "link": "https://anniemueller.com/posts/two-small-ui-things-that-might-not-bother-me-if-i-were-a-completely-different-person"
+            },
             {
               "title": "Shelter or prison",
               "date": "2025-10-01",
@@ -26,11 +62,6 @@
               "title": "Ritualize anything",
               "date": "2025-08-27",
               "link": "https://anniemueller.com/posts/ritualize-anything"
-            },
-            {
-              "title": "Quit being support staff",
-              "date": "2025-08-22",
-              "link": "https://anniemueller.com/posts/quit-being-support-staff"
             }
           ]
         },
@@ -1080,37 +1111,6 @@
               "title": "Simple live reload for developing static sites",
               "date": "2025-04-18",
               "link": "https://leanrada.com/notes/simple-live-reload/?ref=rss"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "Mere Being - 023 - August",
-              "date": "2025-08-30",
-              "link": "https://www.simplermachines.com/mere-being-023-august/"
-            },
-            {
-              "title": "Nat's Current Prompts",
-              "date": "2025-07-11",
-              "link": "https://www.simplermachines.com/nats-current-prompts/"
-            },
-            {
-              "title": "Mere Being 022 - June - Procrastination, Wallpaper Music, Popsicles",
-              "date": "2025-07-03",
-              "link": "https://www.simplermachines.com/mere-being-022-june-procrastination-wallpaper-music-popsicles/"
-            },
-            {
-              "title": "Mere Being 021 - April - dinner parties, charoset, dying in holes",
-              "date": "2025-04-30",
-              "link": "https://www.simplermachines.com/mere-being-021-april-dinner-pa/"
-            },
-            {
-              "title": "Mere Being 020 - March - human nature, lady doctors, potatoes",
-              "date": "2025-04-01",
-              "link": "https://www.simplermachines.com/mere-being-020-march-2/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-01T03:40:46.228Z",
+  "fetchDate": "2025-10-02T03:27:34.952Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

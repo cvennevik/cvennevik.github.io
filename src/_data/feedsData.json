@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Know your neighbors",
+              "date": "2025-10-03",
+              "link": "https://gomakethings.com/know-your-neighbors/"
+            },
+            {
+              "title": "Modern tools are worse",
+              "date": "2025-10-02",
+              "link": "https://gomakethings.com/modern-tools-are-worse/"
+            },
+            {
+              "title": "AI is the asbestos of the web",
+              "date": "2025-09-29",
+              "link": "https://gomakethings.com/ai-is-the-asbestos-of-the-web/"
+            },
+            {
+              "title": "Opposing oppression in daily life",
+              "date": "2025-09-26",
+              "link": "https://gomakethings.com/opposing-oppression-in-daily-life/"
+            },
+            {
+              "title": "Goodbye, paywall",
+              "date": "2025-09-24",
+              "link": "https://gomakethings.com/goodbye-paywall/"
+            }
+          ]
+        },
+        {
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
+          "items": [
+            {
+              "title": "Cancelling async Rust",
+              "date": "2025-10-03",
+              "link": "https://sunshowers.io/posts/cancelling-async-rust/"
+            },
+            {
+              "title": "I didn't transition for the metaphysics",
+              "date": "2025-05-14",
+              "link": "https://sunshowers.io/posts/transition-metaphysics/"
+            },
+            {
+              "title": "Demystifying monads in Rust through property-based testing",
+              "date": "2025-02-19",
+              "link": "https://sunshowers.io/posts/monads-through-pbt/"
+            },
+            {
+              "title": "Free will quite clearly doesn't exist",
+              "date": "2025-01-29",
+              "link": "https://sunshowers.io/posts/there-is-no-free-will/"
+            },
+            {
+              "title": "Why nextest is process-per-test",
+              "date": "2025-01-07",
+              "link": "https://sunshowers.io/posts/nextest-process-per-test/"
+            }
+          ]
+        },
+        {
+          "title": "artemis.sh",
+          "feedUrl": "https://artemis.sh/feed.xml",
+          "items": [
+            {
+              "title": "raspi3 luks - aes-xts vs xchacha,aes-adiantum",
+              "date": "2025-10-03",
+              "link": "https://artemis.sh/2025/10/03/pi3-cryptsetup-benchmarks.html"
+            },
+            {
+              "title": "Defragging my old Dell’s UEFI NVRAM",
+              "date": "2025-02-22",
+              "link": "https://artemis.sh/2025/02/22/uefi-nvram-defrag.html"
+            },
+            {
+              "title": "The Serenity of -j1",
+              "date": "2024-07-29",
+              "link": "https://artemis.sh/2024/07/29/the-serenity-of-j1.html"
+            },
+            {
+              "title": "So, do you actually want to write?",
+              "date": "2024-06-19",
+              "link": "https://artemis.sh/2024/06/19/do-you-really-want-to-write.html"
+            },
+            {
+              "title": "Save Scarecrow, a Massive Physical Media Collection",
+              "date": "2024-06-18",
+              "link": "https://artemis.sh/2024/06/18/scarecrow.html"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,37 +124,6 @@
               "title": "I Shut The Emails Out",
               "date": "2025-09-12",
               "link": "https://dbushell.com/2025/09/12/cloudflare-email-smtp-server/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Modern tools are worse",
-              "date": "2025-10-02",
-              "link": "https://gomakethings.com/modern-tools-are-worse/"
-            },
-            {
-              "title": "AI is the asbestos of the web",
-              "date": "2025-09-29",
-              "link": "https://gomakethings.com/ai-is-the-asbestos-of-the-web/"
-            },
-            {
-              "title": "Opposing oppression in daily life",
-              "date": "2025-09-26",
-              "link": "https://gomakethings.com/opposing-oppression-in-daily-life/"
-            },
-            {
-              "title": "Goodbye, paywall",
-              "date": "2025-09-24",
-              "link": "https://gomakethings.com/goodbye-paywall/"
-            },
-            {
-              "title": "Controlling your code",
-              "date": "2025-09-22",
-              "link": "https://gomakethings.com/controlling-your-code/"
             }
           ]
         },
@@ -398,37 +460,6 @@
               "title": "Hiatus",
               "date": "2024-09-11",
               "link": "https://www.hillelwayne.com/post/hiatus/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            },
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
-            },
-            {
-              "title": "Apple's Assault on Standards",
-              "date": "2025-09-02",
-              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
-            },
-            {
-              "title": "Apple vs. Facebook is Kayfabe",
-              "date": "2025-08-25",
-              "link": "https://infrequently.org/2025/08/apple-vs-fb-kayfabe/"
             }
           ]
         },
@@ -1363,37 +1394,6 @@
           ]
         },
         {
-          "title": "James Shore",
-          "feedUrl": "https://www.jamesshore.com/v2/feed",
-          "items": [
-            {
-              "title": "Oct 1: The Accountability Problem (Cambridge, UK)",
-              "date": "2025-08-04",
-              "link": "https://www.jamesshore.com/v2/calendar/2025-09-01"
-            },
-            {
-              "title": "The Best Product Engineering Org in the World [video]",
-              "date": "2025-04-18",
-              "link": "https://www.jamesshore.com/v2/presentations/2025/the-best-product-engineering-org-in-the-world"
-            },
-            {
-              "title": "“Decoding Leadership” Podcast",
-              "date": "2025-04-18",
-              "link": "https://www.jamesshore.com/v2/presentations/2025/decoding-leadership-podcast"
-            },
-            {
-              "title": "Upscale and Team Self-Selection",
-              "date": "2025-02-10",
-              "link": "https://www.jamesshore.com/v2/blog/2025/upscale-and-team-self-selection"
-            },
-            {
-              "title": "The Best Product Engineering Org in the World",
-              "date": "2025-01-10",
-              "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
-            }
-          ]
-        },
-        {
           "title": "Fynn Ellie Be",
           "feedUrl": "https://fynn.be/feed.xml",
           "items": [
@@ -1859,37 +1859,6 @@
           ]
         },
         {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "I didn't transition for the metaphysics",
-              "date": "2025-05-14",
-              "link": "https://sunshowers.io/posts/transition-metaphysics/"
-            },
-            {
-              "title": "Demystifying monads in Rust through property-based testing",
-              "date": "2025-02-19",
-              "link": "https://sunshowers.io/posts/monads-through-pbt/"
-            },
-            {
-              "title": "Free will quite clearly doesn't exist",
-              "date": "2025-01-29",
-              "link": "https://sunshowers.io/posts/there-is-no-free-will/"
-            },
-            {
-              "title": "Why nextest is process-per-test",
-              "date": "2025-01-07",
-              "link": "https://sunshowers.io/posts/nextest-process-per-test/"
-            },
-            {
-              "title": "Beyond Ctrl-C: The dark corners of Unix signal handling",
-              "date": "2024-09-03",
-              "link": "https://sunshowers.io/posts/beyond-ctrl-c-signals/"
-            }
-          ]
-        },
-        {
           "title": "molily",
           "feedUrl": "https://molily.de/feed.xml",
           "items": [
@@ -1917,6 +1886,37 @@
               "title": "On browser compatibility and support baselines",
               "date": "2023-05-12",
               "link": "https://molily.de/browser-compatibility-baseline/"
+            }
+          ]
+        },
+        {
+          "title": "James Shore",
+          "feedUrl": "https://www.jamesshore.com/v2/feed",
+          "items": [
+            {
+              "title": "The Best Product Engineering Org in the World [video]",
+              "date": "2025-04-18",
+              "link": "https://www.jamesshore.com/v2/presentations/2025/the-best-product-engineering-org-in-the-world"
+            },
+            {
+              "title": "“Decoding Leadership” Podcast",
+              "date": "2025-04-18",
+              "link": "https://www.jamesshore.com/v2/presentations/2025/decoding-leadership-podcast"
+            },
+            {
+              "title": "Upscale and Team Self-Selection",
+              "date": "2025-02-10",
+              "link": "https://www.jamesshore.com/v2/blog/2025/upscale-and-team-self-selection"
+            },
+            {
+              "title": "The Best Product Engineering Org in the World",
+              "date": "2025-01-10",
+              "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
+            },
+            {
+              "title": "Update on Software Engineering Career Ladder",
+              "date": "2024-08-20",
+              "link": "https://www.jamesshore.com/v2/blog/2024/update-on-software-engineering-career-ladder"
             }
           ]
         },
@@ -2041,37 +2041,6 @@
               "title": "Week 6’s AI News",
               "date": "2025-02-07",
               "link": "https://www.felienne.com/archives/8900"
-            }
-          ]
-        },
-        {
-          "title": "artemis.sh",
-          "feedUrl": "https://artemis.sh/feed.xml",
-          "items": [
-            {
-              "title": "Defragging my old Dell’s UEFI NVRAM",
-              "date": "2025-02-22",
-              "link": "https://artemis.sh/2025/02/22/uefi-nvram-defrag.html"
-            },
-            {
-              "title": "The Serenity of -j1",
-              "date": "2024-07-29",
-              "link": "https://artemis.sh/2024/07/29/the-serenity-of-j1.html"
-            },
-            {
-              "title": "So, do you actually want to write?",
-              "date": "2024-06-19",
-              "link": "https://artemis.sh/2024/06/19/do-you-really-want-to-write.html"
-            },
-            {
-              "title": "Save Scarecrow, a Massive Physical Media Collection",
-              "date": "2024-06-18",
-              "link": "https://artemis.sh/2024/06/18/scarecrow.html"
-            },
-            {
-              "title": "There are still quite a few 32-bit x86 Linux distributions",
-              "date": "2024-04-12",
-              "link": "https://artemis.sh/2024/04/12/x86-distribution-options.html"
             }
           ]
         },
@@ -2492,8 +2461,9 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-03T03:26:23.554Z",
+  "fetchDate": "2025-10-04T03:21:43.553Z",
   "errors": [
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

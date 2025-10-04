@@ -8,7 +8,342 @@
     <name>Cecilie Vennevik</name>
   </author>
   <icon>https://www.cvennevik.no/img/logo-100px.jpg</icon>
-  <updated>2025-08-16T12:30:00.000Z</updated>
+  <updated>2025-10-04T16:05:00.000Z</updated>
+  <entry>
+    <title type="html">Crystal Spire #11: We need to test</title>
+    <link href="https://www.cvennevik.no/blog/crystal-spire-11-we-need-to-test/"/>
+    <id>https://www.cvennevik.no/blog/crystal-spire-11-we-need-to-test/</id>
+    <published>2025-10-04T16:05:00.000Z</published>
+    <updated>2025-10-04T16:05:00.000Z</updated>
+    <content type="html"><![CDATA[<p>Happy Saturday. Let's implement a testing framework in roughly an hour.</p>
+<hr>
+<p>Part of the challenge I'm giving myself in this series is implementing everything in hand-written, buildless HTML + CSS + JS. I want to flex my web coding muscles and try some things I don't otherwise get to try.</p>
+<p>I've used a few test frameworks over the years, but I've never tried making one myself. Nearly all of them involve using the command line as the test runner. We can't do that here, as I don't want to make this project dependent on something like Node. What we can do instead is use the browser as our test runner, a la <a href="https://jasmine.github.io/pages/getting_started.html">standalone Jasmine</a>.</p>
+<p>To aid our thinking, let's code a little bit, and make a new HTML page to run our tests in. We make a new file titled <code>test.html</code>:</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Crystal Spire - Tests&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;noscript&gt;
+        This application only works with JavaScript enabled.
+    &lt;/noscript&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>Now let's sketch out what we want we want to see. We want to test that our <code>getActions</code> function works as expected. I think the simplest thing to implement would be an example-based approach, where we specify an input, pass it to the function, and compare the result to an expected output.</p>
+<p>If the tests succeed, we can show something simple like...</p>
+<pre><code class="language-html">&lt;h1&gt;Crystal Spire - Tests&lt;/h1&gt;
+&lt;h2&gt;getActions&lt;/h2&gt;
+&lt;p&gt;✅ 3 tests passed&lt;/p&gt;
+</code></pre>
+<p>And if any tests fail, we want to show how they failed:</p>
+<pre><code class="language-html">&lt;h1&gt;Crystal Spire - Tests&lt;/h1&gt;
+&lt;h2&gt;getActions&lt;/h2&gt;
+&lt;p&gt;✅ 1 test passed&lt;/p&gt;
+&lt;p&gt;❌ 2 tests failed&lt;/p&gt;
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Input&lt;/th&gt;
+        &lt;th&gt;Actual output&lt;/th&gt;
+        &lt;th&gt;Expected output&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;code&gt;{ full gameState object }&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;code&gt;[{ name: 'Play Defend' }]&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;code&gt;[{ name: 'Play Defend' }, { name: 'End Turn' }]&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;code&gt;{ full gameState object }&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;code&gt;[{ name: 'End Turn' }]&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;code&gt;[{ name: 'End Turn' }, { name: 'Play Strike', enemyIndex: 0 }]&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+<p>I wasn't quite sure how to display the test results at first, but I think a table makes a lot of sense. The default display style doesn't give me any borders between cells in Firefox, though, so let's write our first bit of CSS up in the head, for readability:</p>
+<pre><code class="language-html">&lt;style&gt;
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+&lt;/style&gt;
+</code></pre>
+<p>Yeah that looks alright. But, I have a sneaking suspicion the <code>{ full gameState object }</code> will look really long when it's a real object, so let's try pasting in the default gameState for something more realistic:</p>
+<pre><code class="language-html">&lt;td&gt;&lt;code&gt;{ hp: 80, maxHp: 80, block: 0, energy: 3, maxEnergy: 3, hand: ['Bash', 'Defend', 'Defend', 'Defend', 'Strike'], drawPile: ['Defend', 'Strike', 'Strike', 'Strike', 'Strike'], discardPile: [], relics: ['Burning Blood'], enemies: [{ name: 'Jaw Worm', hp: 42, maxHp: 42, block: 0, nextMove: 'Chomp', moveHistory: [], buffs: [], debuffs: [] }]}&lt;/code&gt;&lt;/td&gt;
+</code></pre>
+<p>Wow that is hard to read on a single line. Maybe preformatted and pretty-printed would be better.</p>
+<pre><code class="language-html">&lt;td&gt;&lt;pre&gt;&lt;code&gt;{
+    hp: 80,
+    maxHp: 80,
+    block: 0,
+    energy: 3,
+    maxEnergy: 3,
+    hand: ['Bash', 'Defend', 'Defend', 'Defend', 'Strike'],
+    drawPile: ['Defend', 'Strike', 'Strike', 'Strike', 'Strike'],
+    discardPile: [],
+    relics: ['Burning Blood'],
+    enemies: [
+        {
+            name: 'Jaw Worm',
+            hp: 42,
+            maxHp: 42,
+            block: 0,
+            nextMove: 'Chomp',
+            moveHistory: [],
+            buffs: [],
+            debuffs: []
+        }
+    ]
+}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+</code></pre>
+<p>Okay, that actually looks readable. I could give each test a name too:</p>
+<pre><code class="language-html">&lt;th&gt;Name&lt;/th&gt;
+</code></pre>
+<pre><code class="language-html">&lt;td&gt;Can Play Defend and End Turn&lt;/td&gt;
+</code></pre>
+<pre><code class="language-html">&lt;td&gt;Can Play Strike and End Turn&lt;/td&gt;
+</code></pre>
+<p>It's kind of ugly, but it's servicable. Okay. Let's implement this.</p>
+<p>First, we make a new JavaScript file for <code>test.html</code>, namely <code>test.js</code>. Then we create our test cases - actual real ones, this time:</p>
+<pre><code class="language-js">let testCases = [
+    {
+        name: 'Can Play Defend and End Turn',
+        input: {
+            hp: 80,
+            maxHp: 80,
+            block: 0,
+            energy: 3,
+            maxEnergy: 3,
+            hand: ['Defend'],
+            drawPile: [],
+            discardPile: [],
+            relics: [],
+            enemies: [
+                {
+                    name: 'Jaw Worm',
+                    hp: 42,
+                    maxHp: 42,
+                    block: 0,
+                    nextMove: 'Chomp',
+                    moveHistory: [],
+                    buffs: [],
+                    debuffs: []
+                }
+            ]
+        },
+        expectedOutput: [{ name: 'Play Defend' }, { name: 'End Turn' }]
+    },
+    {
+        name: 'Can Play Strike and End Turn',
+        input: {
+            hp: 80,
+            maxHp: 80,
+            block: 0,
+            energy: 3,
+            maxEnergy: 3,
+            hand: ['Strike'],
+            drawPile: [],
+            discardPile: [],
+            relics: [],
+            enemies: [
+                {
+                    name: 'Jaw Worm',
+                    hp: 42,
+                    maxHp: 42,
+                    block: 0,
+                    nextMove: 'Chomp',
+                    moveHistory: [],
+                    buffs: [],
+                    debuffs: []
+                }
+            ]
+        },
+        expectedOutput: [{ name: 'Play Strike', enemyIndex: 0 }, { name: 'End Turn' }]
+    }
+];
+</code></pre>
+<p>Then, we find the results of each test, by calling the function for each test case - and we might as well use the test case objects to store the results:</p>
+<pre><code class="language-js">for (let testCase of testCases) {
+    testCase.actualOutput = getActions(testCase.input);
+}
+</code></pre>
+<p>And then we need to find out whether the test has passed or failed - whether actualOutput and expectedOutput match. So I guess we need to write a deep equality function that works for arrays, objects, and primitive values? There are definitely already implementations of this online, I've copied them before, but let me just write my best attempt off the top of my head...</p>
+<pre><code class="language-js">function deepEqual(a, b) {
+    // Passes equal cases of null, undefined, number, and string
+    if (a === b) return true;
+
+    // Passes equal cases of arrays
+    if (Array.isArray(a)) {
+        if (!Array.isArray(b)) return false;
+        if (a.length !== b.length) return false;
+        for (let i = 0; i &lt; a.length; i++) {
+            if (!deepEqual(a[i], b[i])) {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+
+    // Passes equal cases of objects
+    if (typeof a === 'object') {
+        if (!typeof b === 'object') return false;
+
+        let aKeys = Object.keys(a);
+        let bKeys = Object.keys(b);
+        if (aKeys.length !== bKeys.length) return false;
+
+        for (let key of aKeys) {
+            if (!bKeys.includes(key)) return false;
+            if (!deepEqual(a[key], b[key])) return false;
+        }
+
+        return true;
+    }
+
+    // All equal cases we care about have passed - fail the equality
+    return false;
+}
+</code></pre>
+<p>Okay, whew, I hope that works. Let's take it for a spin:</p>
+<pre><code class="language-js">for (let testCase of testCases) {
+    testCase.actualOutput = getActions(testCase.input);
+    testCase.passed = deepEqual(actualOutput, expectedOutput);
+}
+</code></pre>
+<p>Then render the page based on this data, just like in <code>index.js</code>:</p>
+<pre><code class="language-js">passedTestCases = testCases.filter(x =&gt; x.passed);
+failedTestCases = testCases.filter(x =&gt; !x.passed);
+document.body.innerHTML = `
+    &lt;h1&gt;Crystal Spire - Tests&lt;/h1&gt;
+    &lt;h2&gt;getActions&lt;/h2&gt;
+    ${passedTestCases.length &gt; 0
+        ? `&lt;p&gt;✅ ${passedTestCases.length} ${passedTestCases.length === 1 ? 'test' : 'tests'} passed&lt;/p&gt;`
+        : ''
+    }
+    ${failedTestCases.length &gt; 0
+        ? `
+        &lt;p&gt;✅ ${failedTestCases.length} ${failedTestCases.length === 1 ? 'test' : 'tests'} passed&lt;/p&gt;
+        &lt;table&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Name&lt;/th&gt;
+                &lt;th&gt;Input&lt;/th&gt;
+                &lt;th&gt;Actual output&lt;/th&gt;
+                &lt;th&gt;Expected output&lt;/th&gt;
+            &lt;/tr&gt;
+            ${failedTestCases.map(testCase =&gt; `
+                &lt;tr&gt;
+                    &lt;td&gt;${testCase.name}&lt;/td&gt;
+                    &lt;td&gt;&lt;pre&gt;&lt;code&gt;${testCase.input}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+                    &lt;td&gt;&lt;pre&gt;&lt;code&gt;${testCase.actualOutput}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+                    &lt;td&gt;&lt;pre&gt;&lt;code&gt;${testCase.expectedOutput}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+                &lt;/tr&gt;
+            `)}
+        `
+        : ''
+    }
+`;
+</code></pre>
+<p>And plug the file into <code>test.html</code>, then try loading the page...</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Crystal Spire - Tests&lt;/title&gt;
+    &lt;style&gt;
+        table, th, td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;noscript&gt;
+        This application only works with JavaScript enabled.
+    &lt;/noscript&gt;
+&lt;/body&gt;
+&lt;script src=&quot;test.js&quot;&gt;&lt;/script&gt;
+&lt;/html&gt;
+</code></pre>
+<p>Ah, console error, getActions is not defined. I usually fix this with an import, but... what if we just...?</p>
+<pre><code class="language-html">&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;test.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>Okay no that doesn't work because <code>index.js</code> also renders to our body. Right. Let's move the rendering logic of <code>index.js</code> into a render function:</p>
+<pre><code class="language-js">function render() {
+    document.body.innerHTML = `
+        ...omitted...
+    `;
+}
+</code></pre>
+<p>I probably should factor it differently, but let's just get it working for now. So now we can call this function in <code>index.html</code> only:</p>
+<pre><code class="language-html">&lt;script&gt;render()&lt;/script&gt;
+</code></pre>
+<p>Okay, now <code>index.html</code> still works. But <code>test.html</code> still fails because &quot;actualOutput is not defined&quot;. Need to go back to <code>test.js</code> and fix this block where I just wrote <code>deepEqual(actualOutput, expectedOutput)</code>, which gave a console error:</p>
+<pre><code class="language-js">for (let testCase of testCases) {
+    testCase.actualOutput = getActions(testCase.input);
+    testCase.passed = deepEqual(testCase.actualOutput, testCase.expectedOutput);
+}
+</code></pre>
+<p>And now, <em>now</em> - <code>test.html</code> renders! Wrongly. It says &quot;2 tests passed&quot;, but it displays a table with failed test results, and the input/output table cells say <code>[object Object]</code>. And there's a comma before the table.</p>
+<p>One error at a time. It says &quot;2 tests passed&quot; because I copy-pasted it for the failed tests line, so let's fix that:</p>
+<pre><code class="language-js">&lt;p&gt;❌ ${failedTestCases.length} ${failedTestCases.length === 1 ? 'test' : 'tests'} failed&lt;/p&gt;
+</code></pre>
+<p>Then the weird comma before the table... Oh, I also forgot to write <code>&lt;/table&gt;</code> at the end. Lovely of HTML for forgiving me forgetting that, let's enter it correctly. Oh, and I forgot to put a <code>.join('')</code> at the end of the row mapping, interpolating the plain array must somehow have resulted in a comma, fix that:</p>
+<pre><code class="language-js">${failedTestCases.map(testCase =&gt; `
+    &lt;tr&gt;
+        &lt;td&gt;${testCase.name}&lt;/td&gt;
+        &lt;td&gt;&lt;pre&gt;&lt;code&gt;${testCase.input}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;pre&gt;&lt;code&gt;${testCase.actualOutput}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;pre&gt;&lt;code&gt;${testCase.expectedOutput}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+`).join('')}
+</code></pre>
+<p>Then, let's use JSON.stringify to print the input/output prettier. The &quot;2&quot; argument at the end tells the function to use two spaces for indentation.</p>
+<pre><code class="language-js">&lt;tr&gt;
+    &lt;td&gt;${testCase.name}&lt;/td&gt;
+    &lt;td&gt;&lt;pre&gt;&lt;code&gt;${JSON.stringify(testCase.input, null, 2)}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;pre&gt;&lt;code&gt;${JSON.stringify(testCase.actualOutput, null, 2)}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;pre&gt;&lt;code&gt;${JSON.stringify(testCase.expectedOutput, null, 2)}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;/tr&gt;
+</code></pre>
+<p>Now, finally, we have two successfully failing tests. We're expecting <code>{ &quot;name&quot;: &quot;End Turn&quot; }</code>, but we actually get <code>&quot;End Turn&quot;</code>, becuase I made a mistake last time:</p>
+<pre><code class="language-js">function getActions(gameState) {
+    /* ... */
+    actions.push('End Turn');
+    /* ... */
+}
+</code></pre>
+<p>Now we can fix it:</p>
+<pre><code class="language-js">function getActions(gameState) {
+    /* ... */
+    actions.push({ name: 'End Turn' });
+    /* ... */
+}
+</code></pre>
+<p>...and <code>test.html</code> tells us &quot;✅ 2 tests passed&quot;. That's it. We officially have tests for our project, and have used them to find and fix an error.</p>
+<p>Before we forget, commit: <em>&quot;Add tests in test.html, fix 'End Turn' action in getActions()&quot;</em>.</p>
+<hr>
+<p>This felt sloppier than I want it to be. The code wasn't factored well for testing. The functions in <code>index.js</code> should be separated from the parts that read from <code>window.location.search</code> and write to <code>document.body.innerHTML</code>. And I made several plain mistakes that I would have caught if I had slowed down and re-read my code as I wrote it.</p>
+<p>I'm also unsure about the example-based testing approach for the long run. The cases will get very verbose, and writing a thorough set of test cases will take a while. I think a property-based testing approach would suit this project better, so that after writing a generator for input game states, we can write properties for things like &quot;End Turn should always be available&quot; and &quot;if you have at least 1 Energy and a Strike in hand, you can Play Strike&quot;.</p>
+<p>Still, what we have now is certainly better than nothing.</p>
+<p>Oh, before we end, let's add some links to make the pages discoverable from each other:</p>
+<pre><code class="language-js">// index.js, end of rendering code
+&lt;a href=&quot;./test.html&quot;&gt;Tests page&lt;/a&gt;
+
+// test.js, end of rendering code
+&lt;a href=&quot;./index.html&quot;&gt;Main page&lt;/a&gt;
+</code></pre>
+<p>Commit: <em>&quot;Add links between tests page&quot;</em>.</p>
+<p>...And heck it, the files should be named &quot;tests&quot; instead of &quot;test&quot;. Fix that, fix the links, fix the script source, last commit: <em>&quot;Rename 'test' files to 'tests'&quot;</em>.</p>
+<p>Next time: Tidying and making this better, probably.</p>
+<hr>
+<p><em><a href="/crystal-spire/v11/">View this app version</a></em> | <em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/e2c2d225d50efd4bc67d5e4b117ddf47f920bd9b">Last commit: Add getActions function</a></em></p>
+]]></content>
+  </entry>
+  
   <entry>
     <title type="html">Crystal Spire #10: Finishing the easy bit</title>
     <link href="https://www.cvennevik.no/blog/crystal-spire-10-finishing-the-easy-bit/"/>

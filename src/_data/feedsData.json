@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The overflow: hidden property and sticky headers",
+              "date": "2025-10-06",
+              "link": "https://gomakethings.com/the-overflow-hidden-property-and-sticky-headers/"
+            },
+            {
+              "title": "ADHD pride",
+              "date": "2025-10-05",
+              "link": "https://gomakethings.com/adhd-pride/"
+            },
+            {
+              "title": "Know your neighbors",
+              "date": "2025-10-03",
+              "link": "https://gomakethings.com/know-your-neighbors/"
+            },
+            {
+              "title": "Modern tools are worse",
+              "date": "2025-10-02",
+              "link": "https://gomakethings.com/modern-tools-are-worse/"
+            },
+            {
+              "title": "AI is the asbestos of the web",
+              "date": "2025-09-29",
+              "link": "https://gomakethings.com/ai-is-the-asbestos-of-the-web/"
+            }
+          ]
+        },
+        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -31,37 +62,6 @@
               "title": "Fix the Signal",
               "date": "2025-08-23",
               "link": "https://robinrendle.com/notes/fix-the-signal/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "ADHD pride",
-              "date": "2025-10-05",
-              "link": "https://gomakethings.com/adhd-pride/"
-            },
-            {
-              "title": "Know your neighbors",
-              "date": "2025-10-03",
-              "link": "https://gomakethings.com/know-your-neighbors/"
-            },
-            {
-              "title": "Modern tools are worse",
-              "date": "2025-10-02",
-              "link": "https://gomakethings.com/modern-tools-are-worse/"
-            },
-            {
-              "title": "AI is the asbestos of the web",
-              "date": "2025-09-29",
-              "link": "https://gomakethings.com/ai-is-the-asbestos-of-the-web/"
-            },
-            {
-              "title": "Opposing oppression in daily life",
-              "date": "2025-09-26",
-              "link": "https://gomakethings.com/opposing-oppression-in-daily-life/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-06T03:32:37.854Z",
+  "fetchDate": "2025-10-07T03:28:47.983Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Email: The Final Form",
+              "date": "2025-10-07",
+              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
+            },
+            {
+              "title": "Not My Cup of Tea",
+              "date": "2025-10-02",
+              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
+            },
+            {
+              "title": "RSS Club #003: Silksong",
+              "date": "2025-09-28",
+              "link": "https://dbushell.com/2025/09/28/RSS003/"
+            },
+            {
+              "title": "How Much Does Freedom Cost?",
+              "date": "2025-09-22",
+              "link": "https://dbushell.com/2025/09/22/cost-of-freedom/"
+            },
+            {
+              "title": "Let’s see Paul Allen’s CSS Reset",
+              "date": "2025-09-12",
+              "link": "https://dbushell.com/2025/09/12/css-reset/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Social Share Imagery via a Data Attribute",
+              "date": "2025-10-07",
+              "link": "https://blog.jim-nielsen.com/2025/og-images-via-data-attributes/"
+            },
+            {
+              "title": "Doing It Manually",
+              "date": "2025-10-02",
+              "link": "https://blog.jim-nielsen.com/2025/doing-in-manually/"
+            },
+            {
+              "title": "Running Software on Software You’ve Never Run",
+              "date": "2025-09-28",
+              "link": "https://blog.jim-nielsen.com/2025/run-software-on-software-youve-never-run/"
+            },
+            {
+              "title": "The Risks of NPM",
+              "date": "2025-09-23",
+              "link": "https://blog.jim-nielsen.com/2025/npm-risks/"
+            },
+            {
+              "title": "Anti-*: The Things We Do But Not All The Way",
+              "date": "2025-09-21",
+              "link": "https://blog.jim-nielsen.com/2025/my-antis/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -31,6 +93,37 @@
               "title": "AI is the asbestos of the web",
               "date": "2025-09-29",
               "link": "https://gomakethings.com/ai-is-the-asbestos-of-the-web/"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "New Music Friday #7",
+              "date": "2025-10-06",
+              "link": "https://flamedfury.com/posts/new-music-friday-7/"
+            },
+            {
+              "title": "She Likes Listening To Punk Rock",
+              "date": "2025-10-02",
+              "link": "https://flamedfury.com/posts/she-likes-listening-to-punk-rock/"
+            },
+            {
+              "title": "Waiheke Weekend",
+              "date": "2025-09-28",
+              "link": "https://flamedfury.com/posts/waiheke-weekend/"
+            },
+            {
+              "title": "London Hardhouse Reunion 2025",
+              "date": "2025-09-22",
+              "link": "https://flamedfury.com/posts/london-hardhouse-reunion-2025/"
+            },
+            {
+              "title": "Fall Between The Cracks",
+              "date": "2025-09-18",
+              "link": "https://flamedfury.com/posts/fall-between-the-cracks/"
             }
           ]
         },
@@ -371,68 +464,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Not My Cup of Tea",
-              "date": "2025-10-02",
-              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
-            },
-            {
-              "title": "RSS Club #003: Silksong",
-              "date": "2025-09-28",
-              "link": "https://dbushell.com/2025/09/28/RSS003/"
-            },
-            {
-              "title": "How Much Does Freedom Cost?",
-              "date": "2025-09-22",
-              "link": "https://dbushell.com/2025/09/22/cost-of-freedom/"
-            },
-            {
-              "title": "Let’s see Paul Allen’s CSS Reset",
-              "date": "2025-09-12",
-              "link": "https://dbushell.com/2025/09/12/css-reset/"
-            },
-            {
-              "title": "I Shut The Emails Out",
-              "date": "2025-09-12",
-              "link": "https://dbushell.com/2025/09/12/cloudflare-email-smtp-server/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Doing It Manually",
-              "date": "2025-10-02",
-              "link": "https://blog.jim-nielsen.com/2025/doing-in-manually/"
-            },
-            {
-              "title": "Running Software on Software You’ve Never Run",
-              "date": "2025-09-28",
-              "link": "https://blog.jim-nielsen.com/2025/run-software-on-software-youve-never-run/"
-            },
-            {
-              "title": "The Risks of NPM",
-              "date": "2025-09-23",
-              "link": "https://blog.jim-nielsen.com/2025/npm-risks/"
-            },
-            {
-              "title": "Anti-*: The Things We Do But Not All The Way",
-              "date": "2025-09-21",
-              "link": "https://blog.jim-nielsen.com/2025/my-antis/"
-            },
-            {
-              "title": "RIP “Browsers”",
-              "date": "2025-09-18",
-              "link": "https://blog.jim-nielsen.com/2025/rip-browsers/"
-            }
-          ]
-        },
-        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -522,37 +553,6 @@
               "title": "Ritualize anything",
               "date": "2025-08-27",
               "link": "https://anniemueller.com/posts/ritualize-anything"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "She Likes Listening To Punk Rock",
-              "date": "2025-10-02",
-              "link": "https://flamedfury.com/posts/she-likes-listening-to-punk-rock/"
-            },
-            {
-              "title": "Waiheke Weekend",
-              "date": "2025-09-28",
-              "link": "https://flamedfury.com/posts/waiheke-weekend/"
-            },
-            {
-              "title": "London Hardhouse Reunion 2025",
-              "date": "2025-09-22",
-              "link": "https://flamedfury.com/posts/london-hardhouse-reunion-2025/"
-            },
-            {
-              "title": "Fall Between The Cracks",
-              "date": "2025-09-18",
-              "link": "https://flamedfury.com/posts/fall-between-the-cracks/"
-            },
-            {
-              "title": "The Runarounds (2025)",
-              "date": "2025-09-15",
-              "link": "https://flamedfury.com/posts/the-runarounds-2025/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-07T03:28:47.983Z",
+  "fetchDate": "2025-10-08T03:28:24.774Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

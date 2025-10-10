@@ -4,9 +4,76 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Peacemaker (2022) Season 1",
+              "date": "2025-10-10",
+              "link": "https://flamedfury.com/posts/peacemaker-2022-season-1/"
+            },
+            {
+              "title": "Hot Wheels Monster Trucks Live",
+              "date": "2025-10-08",
+              "link": "https://flamedfury.com/posts/hot-wheels-monster-trucks-live/"
+            },
+            {
+              "title": "New Music Friday #7",
+              "date": "2025-10-06",
+              "link": "https://flamedfury.com/posts/new-music-friday-7/"
+            },
+            {
+              "title": "She Likes Listening To Punk Rock",
+              "date": "2025-10-02",
+              "link": "https://flamedfury.com/posts/she-likes-listening-to-punk-rock/"
+            },
+            {
+              "title": "Waiheke Weekend",
+              "date": "2025-09-28",
+              "link": "https://flamedfury.com/posts/waiheke-weekend/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Reading notes: August, September",
+              "date": "2025-10-10",
+              "link": "https://anniemueller.com/posts/reading-notes-august-september"
+            },
+            {
+              "title": "Two small UI things that might not bother me if I were a completely different person",
+              "date": "2025-10-02",
+              "link": "https://anniemueller.com/posts/two-small-ui-things-that-might-not-bother-me-if-i-were-a-completely-different-person"
+            },
+            {
+              "title": "Shelter or prison",
+              "date": "2025-10-01",
+              "link": "https://anniemueller.com/posts/shelter-or-prison"
+            },
+            {
+              "title": "Why do I love my Pika guestbook so fucking much? Let’s discuss.",
+              "date": "2025-09-25",
+              "link": "https://anniemueller.com/posts/why-do-i-love-my-pika-guestbook-so-fucking-much-lets-discuss"
+            },
+            {
+              "title": "Encourage purposeful friction",
+              "date": "2025-09-02",
+              "link": "https://anniemueller.com/posts/encourage-purposeful-friction"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "AI is a failed technology",
+              "date": "2025-10-09",
+              "link": "https://gomakethings.com/ai-is-a-failed-technology/"
+            },
             {
               "title": "Creating reusable code",
               "date": "2025-10-08",
@@ -26,42 +93,37 @@
               "title": "Know your neighbors",
               "date": "2025-10-03",
               "link": "https://gomakethings.com/know-your-neighbors/"
-            },
-            {
-              "title": "Modern tools are worse",
-              "date": "2025-10-02",
-              "link": "https://gomakethings.com/modern-tools-are-worse/"
             }
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
             {
-              "title": "Email: The Final Form",
-              "date": "2025-10-07",
-              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
+              "title": "JavaZone 2025",
+              "date": "2025-10-09",
+              "link": "https://www.kodemaker.no/blogg/2025-10-javazone-2025/"
             },
             {
-              "title": "Not My Cup of Tea",
-              "date": "2025-10-02",
-              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
+              "title": "Tidsklemma: Familie, jobb, to programmeringsspråk og en roman",
+              "date": "2025-08-20",
+              "link": "https://www.kodemaker.no/blogg/2025-08-20-tidsklemma/"
             },
             {
-              "title": "RSS Club #003: Silksong",
-              "date": "2025-09-28",
-              "link": "https://dbushell.com/2025/09/28/RSS003/"
+              "title": "Hvis man først skal vibe code, hvorfor ikke spille AI-en god?",
+              "date": "2025-08-09",
+              "link": "https://www.kodemaker.no/blogg/2025-08-09-cursor-rules-mcp/"
             },
             {
-              "title": "How Much Does Freedom Cost?",
-              "date": "2025-09-22",
-              "link": "https://dbushell.com/2025/09/22/cost-of-freedom/"
+              "title": "MCP — Model Context Protocol",
+              "date": "2025-07-02",
+              "link": "https://www.kodemaker.no/blogg/2025-07-02-mcp/"
             },
             {
-              "title": "Let’s see Paul Allen’s CSS Reset",
-              "date": "2025-09-12",
-              "link": "https://dbushell.com/2025/09/12/css-reset/"
+              "title": "Verktøykall i språkmodeller",
+              "date": "2025-07-01",
+              "link": "https://www.kodemaker.no/blogg/2025-07-01-verktoykall/"
             }
           ]
         },
@@ -97,33 +159,33 @@
           ]
         },
         {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
             {
-              "title": "New Music Friday #7",
-              "date": "2025-10-06",
-              "link": "https://flamedfury.com/posts/new-music-friday-7/"
+              "title": "Email: The Final Form",
+              "date": "2025-10-07",
+              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
             },
             {
-              "title": "She Likes Listening To Punk Rock",
+              "title": "Not My Cup of Tea",
               "date": "2025-10-02",
-              "link": "https://flamedfury.com/posts/she-likes-listening-to-punk-rock/"
+              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
             },
             {
-              "title": "Waiheke Weekend",
+              "title": "RSS Club #003: Silksong",
               "date": "2025-09-28",
-              "link": "https://flamedfury.com/posts/waiheke-weekend/"
+              "link": "https://dbushell.com/2025/09/28/RSS003/"
             },
             {
-              "title": "London Hardhouse Reunion 2025",
+              "title": "How Much Does Freedom Cost?",
               "date": "2025-09-22",
-              "link": "https://flamedfury.com/posts/london-hardhouse-reunion-2025/"
+              "link": "https://dbushell.com/2025/09/22/cost-of-freedom/"
             },
             {
-              "title": "Fall Between The Cracks",
-              "date": "2025-09-18",
-              "link": "https://flamedfury.com/posts/fall-between-the-cracks/"
+              "title": "Let’s see Paul Allen’s CSS Reset",
+              "date": "2025-09-12",
+              "link": "https://dbushell.com/2025/09/12/css-reset/"
             }
           ]
         },
@@ -522,37 +584,6 @@
               "title": "What's a Single-Page App?",
               "date": "2024-11-05",
               "link": "https://jakelazaroff.com/words/whats-a-single-page-app/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Two small UI things that might not bother me if I were a completely different person",
-              "date": "2025-10-02",
-              "link": "https://anniemueller.com/posts/two-small-ui-things-that-might-not-bother-me-if-i-were-a-completely-different-person"
-            },
-            {
-              "title": "Shelter or prison",
-              "date": "2025-10-01",
-              "link": "https://anniemueller.com/posts/shelter-or-prison"
-            },
-            {
-              "title": "Why do I love my Pika guestbook so fucking much? Let’s discuss.",
-              "date": "2025-09-25",
-              "link": "https://anniemueller.com/posts/why-do-i-love-my-pika-guestbook-so-fucking-much-lets-discuss"
-            },
-            {
-              "title": "Encourage purposeful friction",
-              "date": "2025-09-02",
-              "link": "https://anniemueller.com/posts/encourage-purposeful-friction"
-            },
-            {
-              "title": "Ritualize anything",
-              "date": "2025-08-27",
-              "link": "https://anniemueller.com/posts/ritualize-anything"
             }
           ]
         },
@@ -1359,37 +1390,6 @@
               "title": "Benchmarking counterstring implementations in TypeScript",
               "date": "2025-02-22",
               "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Tidsklemma: Familie, jobb, to programmeringsspråk og en roman",
-              "date": "2025-08-20",
-              "link": "https://www.kodemaker.no/blogg/2025-08-20-tidsklemma/"
-            },
-            {
-              "title": "Hvis man først skal vibe code, hvorfor ikke spille AI-en god?",
-              "date": "2025-08-09",
-              "link": "https://www.kodemaker.no/blogg/2025-08-09-cursor-rules-mcp/"
-            },
-            {
-              "title": "MCP — Model Context Protocol",
-              "date": "2025-07-02",
-              "link": "https://www.kodemaker.no/blogg/2025-07-02-mcp/"
-            },
-            {
-              "title": "Verktøykall i språkmodeller",
-              "date": "2025-07-01",
-              "link": "https://www.kodemaker.no/blogg/2025-07-01-verktoykall/"
-            },
-            {
-              "title": "En kommentar om kommentarer og AI",
-              "date": "2025-06-25",
-              "link": "https://www.kodemaker.no/blogg/2025-06-25-kommentarer/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-09T03:30:35.085Z",
+  "fetchDate": "2025-10-10T03:30:53.641Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

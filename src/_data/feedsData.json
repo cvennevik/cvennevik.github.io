@@ -4,6 +4,156 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Notes on switching to Helix from vim",
+              "date": "2025-10-10",
+              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
+            },
+            {
+              "title": "New zine: The Secret Rules of the Terminal",
+              "date": "2025-06-26",
+              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
+            },
+            {
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
+              "date": "2025-06-10",
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
+            },
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "What is a Linux?",
+              "date": "2025-10-10",
+              "link": "https://dbushell.com/2025/10/10/what-is-a-linux/"
+            },
+            {
+              "title": "Email: The Final Form",
+              "date": "2025-10-07",
+              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
+            },
+            {
+              "title": "Not My Cup of Tea",
+              "date": "2025-10-02",
+              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
+            },
+            {
+              "title": "RSS Club #003: Silksong",
+              "date": "2025-09-28",
+              "link": "https://dbushell.com/2025/09/28/RSS003/"
+            },
+            {
+              "title": "How Much Does Freedom Cost?",
+              "date": "2025-09-22",
+              "link": "https://dbushell.com/2025/09/22/cost-of-freedom/"
+            }
+          ]
+        },
+        {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "Web development for beginners: Styling HTML via CSS",
+              "date": "2025-10-10",
+              "link": "https://2ality.com/2025/10/css-basics.html"
+            },
+            {
+              "title": "Taking SVG “screenshots” of HTML elements",
+              "date": "2025-09-29",
+              "link": "https://2ality.com/2025/09/svg-screenshots.html"
+            },
+            {
+              "title": "CSS wish: inner breakpoints",
+              "date": "2025-09-26",
+              "link": "https://2ality.com/2025/09/css-inner-breakpoints.html"
+            },
+            {
+              "title": "Web development for beginners: Creating web pages via HTML",
+              "date": "2025-09-23",
+              "link": "https://2ality.com/2025/09/html-basics.html"
+            },
+            {
+              "title": "Web development for beginners: Getting started",
+              "date": "2025-09-22",
+              "link": "https://2ality.com/2025/09/learning-web-dev-getting-started.html"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "Leaving WordPress",
+              "date": "2025-10-10",
+              "link": "https://www.felienne.com/archives/8938"
+            },
+            {
+              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
+              "date": "2025-03-09",
+              "link": "https://www.felienne.com/archives/8880"
+            },
+            {
+              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
+              "date": "2025-03-03",
+              "link": "https://www.felienne.com/archives/8853"
+            },
+            {
+              "title": "Who owns your cloned AI voice – Week 8’s AI news",
+              "date": "2025-02-23",
+              "link": "https://www.felienne.com/archives/8808"
+            },
+            {
+              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
+              "date": "2025-02-15",
+              "link": "https://www.felienne.com/archives/8749"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-10-10",
+              "link": "https://dbushell.com/notes/2025-10-10T14:48Z/"
+            },
+            {
+              "date": "2025-10-05",
+              "link": "https://dbushell.com/notes/2025-10-05T09:25Z/"
+            },
+            {
+              "date": "2025-10-04",
+              "link": "https://dbushell.com/notes/2025-10-04T05:26Z/"
+            },
+            {
+              "date": "2025-09-30",
+              "link": "https://dbushell.com/notes/2025-09-30T08:16Z/"
+            },
+            {
+              "date": "2025-09-30",
+              "link": "https://dbushell.com/notes/2025-09-30T06:26Z/"
+            }
+          ]
+        },
+        {
           "title": "fLaMEd fury",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -62,6 +212,37 @@
               "title": "Encourage purposeful friction",
               "date": "2025-09-02",
               "link": "https://anniemueller.com/posts/encourage-purposeful-friction"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Three ways formally verified code can go wrong in practice",
+              "date": "2025-10-10",
+              "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/"
+            },
+            {
+              "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
+              "date": "2025-09-25",
+              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/"
+            },
+            {
+              "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
+              "date": "2025-09-10",
+              "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/"
+            },
+            {
+              "title": "The Angels and Demons of Nondeterminism",
+              "date": "2025-09-04",
+              "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/"
+            },
+            {
+              "title": "Logical Duals in Software Engineering",
+              "date": "2025-08-27",
+              "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/"
             }
           ]
         },
@@ -155,37 +336,6 @@
               "title": "Anti-*: The Things We Do But Not All The Way",
               "date": "2025-09-21",
               "link": "https://blog.jim-nielsen.com/2025/my-antis/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Email: The Final Form",
-              "date": "2025-10-07",
-              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
-            },
-            {
-              "title": "Not My Cup of Tea",
-              "date": "2025-10-02",
-              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
-            },
-            {
-              "title": "RSS Club #003: Silksong",
-              "date": "2025-09-28",
-              "link": "https://dbushell.com/2025/09/28/RSS003/"
-            },
-            {
-              "title": "How Much Does Freedom Cost?",
-              "date": "2025-09-22",
-              "link": "https://dbushell.com/2025/09/22/cost-of-freedom/"
-            },
-            {
-              "title": "Let’s see Paul Allen’s CSS Reset",
-              "date": "2025-09-12",
-              "link": "https://dbushell.com/2025/09/12/css-reset/"
             }
           ]
         },
@@ -314,32 +464,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-10-05",
-              "link": "https://dbushell.com/notes/2025-10-05T09:25Z/"
-            },
-            {
-              "date": "2025-10-04",
-              "link": "https://dbushell.com/notes/2025-10-04T05:26Z/"
-            },
-            {
-              "date": "2025-09-30",
-              "link": "https://dbushell.com/notes/2025-09-30T08:16Z/"
-            },
-            {
-              "date": "2025-09-30",
-              "link": "https://dbushell.com/notes/2025-09-30T06:26Z/"
-            },
-            {
-              "date": "2025-09-28",
-              "link": "https://dbushell.com/notes/2025-09-28T14:08Z/"
-            }
-          ]
-        },
-        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -402,37 +526,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2025-10-04",
-              "link": "https://macwright.com/2025/10/04/recently.html"
-            },
-            {
-              "title": "Porteur bag 2",
-              "date": "2025-09-27",
-              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
-            },
-            {
-              "title": "Cooking with glasses",
-              "date": "2025-09-21",
-              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-08-29",
-              "link": "https://macwright.com/2025/08/29/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-07-04",
-              "link": "https://macwright.com/2025/07/04/recently.html"
-            }
-          ]
-        },
-        {
           "title": "Cecilie Vennevik's blog",
           "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
           "items": [
@@ -460,6 +553,37 @@
               "title": "Crystal Spire #7: Armor",
               "date": "2024-08-24",
               "link": "https://www.cvennevik.no/blog/crystal-spire-07-armor/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2025-10-04",
+              "link": "https://macwright.com/2025/10/04/recently.html"
+            },
+            {
+              "title": "Porteur bag 2",
+              "date": "2025-09-27",
+              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
+            },
+            {
+              "title": "Cooking with glasses",
+              "date": "2025-09-21",
+              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-08-29",
+              "link": "https://macwright.com/2025/08/29/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-07-04",
+              "link": "https://macwright.com/2025/07/04/recently.html"
             }
           ]
         },
@@ -650,37 +774,6 @@
           ]
         },
         {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "Taking SVG “screenshots” of HTML elements",
-              "date": "2025-09-29",
-              "link": "https://2ality.com/2025/09/svg-screenshots.html"
-            },
-            {
-              "title": "CSS wish: inner breakpoints",
-              "date": "2025-09-26",
-              "link": "https://2ality.com/2025/09/css-inner-breakpoints.html"
-            },
-            {
-              "title": "Web development for beginners: Creating web pages via HTML",
-              "date": "2025-09-23",
-              "link": "https://2ality.com/2025/09/html-basics.html"
-            },
-            {
-              "title": "Web development for beginners: Getting started",
-              "date": "2025-09-22",
-              "link": "https://2ality.com/2025/09/learning-web-dev-getting-started.html"
-            },
-            {
-              "title": "Web development for beginners: Version control via Git and GitHub",
-              "date": "2025-09-18",
-              "link": "https://2ality.com/2025/09/git-github.html"
-            }
-          ]
-        },
-        {
           "title": "draganstepanovic.com",
           "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
           "items": [
@@ -770,37 +863,6 @@
               "title": "Rachel’s iPod",
               "date": "2025-07-21",
               "link": "https://moonbase.lgbt/blog/rachels-ipod/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
-              "date": "2025-09-25",
-              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/"
-            },
-            {
-              "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
-              "date": "2025-09-10",
-              "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/"
-            },
-            {
-              "title": "The Angels and Demons of Nondeterminism",
-              "date": "2025-09-04",
-              "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/"
-            },
-            {
-              "title": "Logical Duals in Software Engineering",
-              "date": "2025-08-27",
-              "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/"
-            },
-            {
-              "title": "Sapir-Whorf does not apply to Programming Languages",
-              "date": "2025-08-21",
-              "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/"
             }
           ]
         },
@@ -1611,37 +1673,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "New zine: The Secret Rules of the Terminal",
-              "date": "2025-06-26",
-              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
-            },
-            {
-              "title": "Using `make` to compile C programs (for non-C-programmers)",
-              "date": "2025-06-10",
-              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
-            },
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            },
-            {
-              "title": "Some terminal frustrations",
-              "date": "2025-02-05",
-              "link": "https://jvns.ca/blog/2025/02/05/some-terminal-frustrations/"
-            }
-          ]
-        },
-        {
           "title": "Evan Boehs in the blog",
           "feedUrl": "https://boehs.org/in/blog.xml",
           "items": [
@@ -2041,37 +2072,6 @@
               "title": "Five for Friday – February 7, 2025",
               "date": "2025-02-08",
               "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
-            }
-          ]
-        },
-        {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
-              "date": "2025-03-09",
-              "link": "https://www.felienne.com/archives/8880"
-            },
-            {
-              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
-              "date": "2025-03-03",
-              "link": "https://www.felienne.com/archives/8853"
-            },
-            {
-              "title": "Who owns your cloned AI voice – Week 8’s AI news",
-              "date": "2025-02-23",
-              "link": "https://www.felienne.com/archives/8808"
-            },
-            {
-              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
-              "date": "2025-02-15",
-              "link": "https://www.felienne.com/archives/8749"
-            },
-            {
-              "title": "Week 6’s AI News",
-              "date": "2025-02-07",
-              "link": "https://www.felienne.com/archives/8900"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-10T03:30:53.641Z",
+  "fetchDate": "2025-10-11T03:23:58.654Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,6 +4,156 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
+            },
+            {
+              "title": "Web Standards and the Fall of the House of Iamus",
+              "date": "2025-09-21",
+              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Research Alt",
+              "date": "2025-10-11",
+              "link": "https://blog.jim-nielsen.com/2025/research-alt/"
+            },
+            {
+              "title": "Social Share Imagery via a Data Attribute",
+              "date": "2025-10-07",
+              "link": "https://blog.jim-nielsen.com/2025/og-images-via-data-attributes/"
+            },
+            {
+              "title": "Doing It Manually",
+              "date": "2025-10-02",
+              "link": "https://blog.jim-nielsen.com/2025/doing-in-manually/"
+            },
+            {
+              "title": "Running Software on Software You’ve Never Run",
+              "date": "2025-09-28",
+              "link": "https://blog.jim-nielsen.com/2025/run-software-on-software-youve-never-run/"
+            },
+            {
+              "title": "The Risks of NPM",
+              "date": "2025-09-23",
+              "link": "https://blog.jim-nielsen.com/2025/npm-risks/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Uninstalling apps (part 2)",
+              "date": "2025-10-11",
+              "link": "https://thejollyteapot.com/2025/10/11/uninstalling-apps-part-2/"
+            },
+            {
+              "title": "September 2025 blend of links",
+              "date": "2025-09-20",
+              "link": "https://thejollyteapot.com/september-2025-blend/"
+            },
+            {
+              "title": "Reading my blog",
+              "date": "2025-09-15",
+              "link": "https://thejollyteapot.com/2025/09/15/reading-my-blog/"
+            },
+            {
+              "title": "Why I love BBEdit",
+              "date": "2025-09-05",
+              "link": "https://thejollyteapot.com/2025/09/05/why-i-love-bbedit/"
+            },
+            {
+              "title": "August 2025 blend of links",
+              "date": "2025-08-30",
+              "link": "https://thejollyteapot.com/august-2025-blend/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-10-11",
+              "link": "https://dbushell.com/notes/2025-10-11T16:04Z/"
+            },
+            {
+              "date": "2025-10-10",
+              "link": "https://dbushell.com/notes/2025-10-10T14:48Z/"
+            },
+            {
+              "date": "2025-10-05",
+              "link": "https://dbushell.com/notes/2025-10-05T09:25Z/"
+            },
+            {
+              "date": "2025-10-04",
+              "link": "https://dbushell.com/notes/2025-10-04T05:26Z/"
+            },
+            {
+              "date": "2025-09-30",
+              "link": "https://dbushell.com/notes/2025-09-30T08:16Z/"
+            }
+          ]
+        },
+        {
+          "title": "Fynn Ellie Be",
+          "feedUrl": "https://fynn.be/feed.xml",
+          "items": [
+            {
+              "title": "On drugs",
+              "date": "2025-10-11",
+              "link": "https://fynn.be/blog/on-drugs/"
+            },
+            {
+              "title": "Sunset v31",
+              "date": "2025-08-03",
+              "link": "https://fynn.be/sunset/v31/"
+            },
+            {
+              "title": "Sunset v30",
+              "date": "2025-07-07",
+              "link": "https://fynn.be/sunset/v30/"
+            },
+            {
+              "title": "Revisiting my German pronouns",
+              "date": "2025-07-05",
+              "link": "https://fynn.be/blog/revisiting-my-german-pronouns/"
+            },
+            {
+              "title": "Tackling Temporal Troubles",
+              "date": "2025-06-10",
+              "link": "https://fynn.be/talks/tackling-temporal-troubles/"
+            }
+          ]
+        },
+        {
           "title": "Julia Evans",
           "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
@@ -70,7 +220,7 @@
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
             {
-              "title": "Web development for beginners: Styling HTML via CSS",
+              "title": "[Web development for beginners] CSS: Learn the essentials quickly",
               "date": "2025-10-10",
               "link": "https://2ality.com/2025/10/css-basics.html"
             },
@@ -85,12 +235,12 @@
               "link": "https://2ality.com/2025/09/css-inner-breakpoints.html"
             },
             {
-              "title": "Web development for beginners: Creating web pages via HTML",
+              "title": "[Web development for beginners] HTML: Learn the essentials quickly",
               "date": "2025-09-23",
               "link": "https://2ality.com/2025/09/html-basics.html"
             },
             {
-              "title": "Web development for beginners: Getting started",
+              "title": "[Web development for beginners] Getting started",
               "date": "2025-09-22",
               "link": "https://2ality.com/2025/09/learning-web-dev-getting-started.html"
             }
@@ -124,32 +274,6 @@
               "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
               "date": "2025-02-15",
               "link": "https://www.felienne.com/archives/8749"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-10-10",
-              "link": "https://dbushell.com/notes/2025-10-10T14:48Z/"
-            },
-            {
-              "date": "2025-10-05",
-              "link": "https://dbushell.com/notes/2025-10-05T09:25Z/"
-            },
-            {
-              "date": "2025-10-04",
-              "link": "https://dbushell.com/notes/2025-10-04T05:26Z/"
-            },
-            {
-              "date": "2025-09-30",
-              "link": "https://dbushell.com/notes/2025-09-30T08:16Z/"
-            },
-            {
-              "date": "2025-09-30",
-              "link": "https://dbushell.com/notes/2025-09-30T06:26Z/"
             }
           ]
         },
@@ -309,37 +433,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Social Share Imagery via a Data Attribute",
-              "date": "2025-10-07",
-              "link": "https://blog.jim-nielsen.com/2025/og-images-via-data-attributes/"
-            },
-            {
-              "title": "Doing It Manually",
-              "date": "2025-10-02",
-              "link": "https://blog.jim-nielsen.com/2025/doing-in-manually/"
-            },
-            {
-              "title": "Running Software on Software You’ve Never Run",
-              "date": "2025-09-28",
-              "link": "https://blog.jim-nielsen.com/2025/run-software-on-software-youve-never-run/"
-            },
-            {
-              "title": "The Risks of NPM",
-              "date": "2025-09-23",
-              "link": "https://blog.jim-nielsen.com/2025/npm-risks/"
-            },
-            {
-              "title": "Anti-*: The Things We Do But Not All The Way",
-              "date": "2025-09-21",
-              "link": "https://blog.jim-nielsen.com/2025/my-antis/"
-            }
-          ]
-        },
-        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -367,37 +460,6 @@
               "title": "Fix the Signal",
               "date": "2025-08-23",
               "link": "https://robinrendle.com/notes/fix-the-signal/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Locality, and Temporal-Spatial Hypothesis",
-              "date": "2025-10-05",
-              "link": "http://brooker.co.za/blog/2025/10/05/locality.html"
-            },
-            {
-              "title": "Seven Years of Firecracker",
-              "date": "2025-09-18",
-              "link": "http://brooker.co.za/blog/2025/09/18/firecracker.html"
-            },
-            {
-              "title": "Dynamo, DynamoDB, and Aurora DSQL",
-              "date": "2025-08-15",
-              "link": "http://brooker.co.za/blog/2025/08/15/dynamo-dynamodb-dsql.html"
-            },
-            {
-              "title": "LLMs as Parts of Systems",
-              "date": "2025-08-12",
-              "link": "http://brooker.co.za/blog/2025/08/12/llms-as-components.html"
-            },
-            {
-              "title": "Career advice, or something like it",
-              "date": "2025-06-20",
-              "link": "http://brooker.co.za/blog/2025/06/20/career.html"
             }
           ]
         },
@@ -433,6 +495,37 @@
           ]
         },
         {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Locality, and Temporal-Spatial Hypothesis",
+              "date": "2025-10-05",
+              "link": "http://brooker.co.za/blog/2025/10/05/locality.html"
+            },
+            {
+              "title": "Seven Years of Firecracker",
+              "date": "2025-09-18",
+              "link": "http://brooker.co.za/blog/2025/09/18/firecracker.html"
+            },
+            {
+              "title": "Dynamo, DynamoDB, and Aurora DSQL",
+              "date": "2025-08-15",
+              "link": "http://brooker.co.za/blog/2025/08/15/dynamo-dynamodb-dsql.html"
+            },
+            {
+              "title": "LLMs as Parts of Systems",
+              "date": "2025-08-12",
+              "link": "http://brooker.co.za/blog/2025/08/12/llms-as-components.html"
+            },
+            {
+              "title": "Career advice, or something like it",
+              "date": "2025-06-20",
+              "link": "http://brooker.co.za/blog/2025/06/20/career.html"
+            }
+          ]
+        },
+        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -460,37 +553,6 @@
               "title": "You Can Choose Tools That Make You Happy",
               "date": "2025-05-20",
               "link": "https://borretti.me/article/you-can-choose-tools-that-make-you-happy"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            },
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
-            },
-            {
-              "title": "Apple's Assault on Standards",
-              "date": "2025-09-02",
-              "link": "https://infrequently.org/2025/09/apples-crimes-against-the-internet-community/"
             }
           ]
         },
@@ -526,37 +588,6 @@
           ]
         },
         {
-          "title": "Cecilie Vennevik's blog",
-          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
-          "items": [
-            {
-              "title": "Crystal Spire #11: We need to test",
-              "date": "2025-10-04",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-11-we-need-to-test/"
-            },
-            {
-              "title": "Crystal Spire #10: Finishing the easy bit",
-              "date": "2025-08-16",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-10-finishing-the-easy-bit/"
-            },
-            {
-              "title": "Crystal Spire #9: Buffing the Worm's nails",
-              "date": "2025-08-09",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-09-buffing-the-worms-nails/"
-            },
-            {
-              "title": "Crystal Spire #8: Facing our enemies",
-              "date": "2025-02-01",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-08-facing-our-enemies/"
-            },
-            {
-              "title": "Crystal Spire #7: Armor",
-              "date": "2024-08-24",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-07-armor/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -584,6 +615,37 @@
               "title": "Recently",
               "date": "2025-07-04",
               "link": "https://macwright.com/2025/07/04/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "Cecilie Vennevik's blog",
+          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
+          "items": [
+            {
+              "title": "Crystal Spire #11: We need to test",
+              "date": "2025-10-04",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-11-we-need-to-test/"
+            },
+            {
+              "title": "Crystal Spire #10: Finishing the easy bit",
+              "date": "2025-08-16",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-10-finishing-the-easy-bit/"
+            },
+            {
+              "title": "Crystal Spire #9: Buffing the Worm's nails",
+              "date": "2025-08-09",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-09-buffing-the-worms-nails/"
+            },
+            {
+              "title": "Crystal Spire #8: Facing our enemies",
+              "date": "2025-02-01",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-08-facing-our-enemies/"
+            },
+            {
+              "title": "Crystal Spire #7: Armor",
+              "date": "2024-08-24",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-07-armor/"
             }
           ]
         },
@@ -1018,37 +1080,6 @@
               "title": "#ARTY Could Get You Sued",
               "date": "2025-07-14",
               "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "September 2025 blend of links",
-              "date": "2025-09-20",
-              "link": "https://thejollyteapot.com/september-2025-blend/"
-            },
-            {
-              "title": "Reading my blog",
-              "date": "2025-09-15",
-              "link": "https://thejollyteapot.com/2025/09/15/reading-my-blog/"
-            },
-            {
-              "title": "Why I love BBEdit",
-              "date": "2025-09-05",
-              "link": "https://thejollyteapot.com/2025/09/05/why-i-love-bbedit/"
-            },
-            {
-              "title": "August 2025 blend of links",
-              "date": "2025-08-30",
-              "link": "https://thejollyteapot.com/august-2025-blend/"
-            },
-            {
-              "title": "July 2025 blend of links",
-              "date": "2025-07-30",
-              "link": "https://thejollyteapot.com/july-2025-blend/"
             }
           ]
         },
@@ -1514,37 +1545,6 @@
               "title": "Why are tech people suddenly so into homeschooling?",
               "date": "2025-01-14",
               "link": "https://newsletter.goodtechthings.com/p/why-are-tech-people-suddenly-so-into"
-            }
-          ]
-        },
-        {
-          "title": "Fynn Ellie Be",
-          "feedUrl": "https://fynn.be/feed.xml",
-          "items": [
-            {
-              "title": "Sunset v31",
-              "date": "2025-08-03",
-              "link": "https://fynn.be/sunset/v31/"
-            },
-            {
-              "title": "Sunset v30",
-              "date": "2025-07-07",
-              "link": "https://fynn.be/sunset/v30/"
-            },
-            {
-              "title": "Revisiting my German pronouns",
-              "date": "2025-07-05",
-              "link": "https://fynn.be/blog/revisiting-my-german-pronouns/"
-            },
-            {
-              "title": "Tackling Temporal Troubles",
-              "date": "2025-06-10",
-              "link": "https://fynn.be/talks/tackling-temporal-troubles/"
-            },
-            {
-              "title": "BITV-Zertifizierung der Factorial-Website",
-              "date": "2025-05-15",
-              "link": "https://fynn.be/talks/factorial-website-bitv/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-11T03:23:58.654Z",
+  "fetchDate": "2025-10-12T03:31:41.826Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

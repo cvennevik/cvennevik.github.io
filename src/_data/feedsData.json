@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "Got opinions on observability? I could use your help (once more, with feeling)",
+              "date": "2025-10-13",
+              "link": "https://charity.wtf/2025/10/13/got-opinions-on-observability-i-could-use-your-help-once-more-with-feeling/"
+            },
+            {
+              "title": "Are you an experienced software buyer? I could use some help.",
+              "date": "2025-09-19",
+              "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
+            },
+            {
+              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
+              "date": "2025-07-24",
+              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
+            },
+            {
+              "title": "Thoughts on Motivation and My 40-Year Career",
+              "date": "2025-07-09",
+              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
+            },
+            {
+              "title": "In Praise of “Normal” Engineers",
+              "date": "2025-06-19",
+              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "RSS Club #004: Ghost of Autumn",
+              "date": "2025-10-12",
+              "link": "https://dbushell.com/2025/10/12/RSS004/"
+            },
+            {
+              "title": "What is a Linux?",
+              "date": "2025-10-10",
+              "link": "https://dbushell.com/2025/10/10/what-is-a-linux/"
+            },
+            {
+              "title": "Email: The Final Form",
+              "date": "2025-10-07",
+              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
+            },
+            {
+              "title": "Not My Cup of Tea",
+              "date": "2025-10-02",
+              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
+            },
+            {
+              "title": "RSS Club #003: Silksong",
+              "date": "2025-09-28",
+              "link": "https://dbushell.com/2025/09/28/RSS003/"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Is Systems Research Really Just About Making Numbers Bigger?",
+              "date": "2025-10-12",
+              "link": "http://brooker.co.za/blog/2025/10/12/barbarians.html"
+            },
+            {
+              "title": "Locality, and Temporal-Spatial Hypothesis",
+              "date": "2025-10-05",
+              "link": "http://brooker.co.za/blog/2025/10/05/locality.html"
+            },
+            {
+              "title": "Seven Years of Firecracker",
+              "date": "2025-09-18",
+              "link": "http://brooker.co.za/blog/2025/09/18/firecracker.html"
+            },
+            {
+              "title": "Dynamo, DynamoDB, and Aurora DSQL",
+              "date": "2025-08-15",
+              "link": "http://brooker.co.za/blog/2025/08/15/dynamo-dynamodb-dsql.html"
+            },
+            {
+              "title": "LLMs as Parts of Systems",
+              "date": "2025-08-12",
+              "link": "http://brooker.co.za/blog/2025/08/12/llms-as-components.html"
+            }
+          ]
+        },
+        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -181,37 +274,6 @@
               "title": "How to add a directory to your PATH",
               "date": "2025-02-13",
               "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "What is a Linux?",
-              "date": "2025-10-10",
-              "link": "https://dbushell.com/2025/10/10/what-is-a-linux/"
-            },
-            {
-              "title": "Email: The Final Form",
-              "date": "2025-10-07",
-              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
-            },
-            {
-              "title": "Not My Cup of Tea",
-              "date": "2025-10-02",
-              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
-            },
-            {
-              "title": "RSS Club #003: Silksong",
-              "date": "2025-09-28",
-              "link": "https://dbushell.com/2025/09/28/RSS003/"
-            },
-            {
-              "title": "How Much Does Freedom Cost?",
-              "date": "2025-09-22",
-              "link": "https://dbushell.com/2025/09/22/cost-of-freedom/"
             }
           ]
         },
@@ -491,37 +553,6 @@
               "title": "Augmented Coding: an Experience Report",
               "date": "2025-04-20",
               "link": "https://jessitron.com/2025/04/20/augmented-coding-an-experience-report/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Locality, and Temporal-Spatial Hypothesis",
-              "date": "2025-10-05",
-              "link": "http://brooker.co.za/blog/2025/10/05/locality.html"
-            },
-            {
-              "title": "Seven Years of Firecracker",
-              "date": "2025-09-18",
-              "link": "http://brooker.co.za/blog/2025/09/18/firecracker.html"
-            },
-            {
-              "title": "Dynamo, DynamoDB, and Aurora DSQL",
-              "date": "2025-08-15",
-              "link": "http://brooker.co.za/blog/2025/08/15/dynamo-dynamodb-dsql.html"
-            },
-            {
-              "title": "LLMs as Parts of Systems",
-              "date": "2025-08-12",
-              "link": "http://brooker.co.za/blog/2025/08/12/llms-as-components.html"
-            },
-            {
-              "title": "Career advice, or something like it",
-              "date": "2025-06-20",
-              "link": "http://brooker.co.za/blog/2025/06/20/career.html"
             }
           ]
         },
@@ -1080,37 +1111,6 @@
               "title": "#ARTY Could Get You Sued",
               "date": "2025-07-14",
               "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "Are you an experienced software buyer? I could use some help.",
-              "date": "2025-09-19",
-              "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
-            },
-            {
-              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
-              "date": "2025-07-24",
-              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
-            },
-            {
-              "title": "Thoughts on Motivation and My 40-Year Career",
-              "date": "2025-07-09",
-              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
-            },
-            {
-              "title": "In Praise of “Normal” Engineers",
-              "date": "2025-06-19",
-              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
-            },
-            {
-              "title": "On How Long it Takes to Know if a Job is Right for You or Not",
-              "date": "2025-06-08",
-              "link": "https://charity.wtf/2025/06/08/on-how-long-it-takes-to-know-if-a-job-is-right-for-you-or-not/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-12T03:31:41.826Z",
+  "fetchDate": "2025-10-13T03:40:29.297Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,33 +4,95 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
-              "title": "Got opinions on observability? I could use your help (once more, with feeling)",
+              "title": "The Long Play Podcast",
+              "date": "2025-10-15",
+              "link": "https://flamedfury.com/posts/the-long-play-podcast/"
+            },
+            {
+              "title": "Open Homes",
               "date": "2025-10-13",
-              "link": "https://charity.wtf/2025/10/13/got-opinions-on-observability-i-could-use-your-help-once-more-with-feeling/"
+              "link": "https://flamedfury.com/posts/open-homes/"
             },
             {
-              "title": "Are you an experienced software buyer? I could use some help.",
-              "date": "2025-09-19",
-              "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
+              "title": "Peacemaker (2022) Season 1",
+              "date": "2025-10-10",
+              "link": "https://flamedfury.com/posts/peacemaker-2022-season-1/"
             },
             {
-              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
-              "date": "2025-07-24",
-              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
+              "title": "Hot Wheels Monster Trucks Live",
+              "date": "2025-10-08",
+              "link": "https://flamedfury.com/posts/hot-wheels-monster-trucks-live/"
             },
             {
-              "title": "Thoughts on Motivation and My 40-Year Career",
-              "date": "2025-07-09",
-              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
+              "title": "New Music Friday #7",
+              "date": "2025-10-06",
+              "link": "https://flamedfury.com/posts/new-music-friday-7/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Media Notes (October 2025)",
+              "date": "2025-10-14",
+              "link": "https://www.baldurbjarnason.com/notes/2025/media-notes-1/"
             },
             {
-              "title": "In Praise of “Normal” Engineers",
-              "date": "2025-06-19",
-              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
+              "title": "The fashion industry that is tech",
+              "date": "2025-10-13",
+              "link": "https://www.baldurbjarnason.com/2025/the-fashion-that-is-tech/"
+            },
+            {
+              "title": "The print edition of The Intelligence Illusion is available for order",
+              "date": "2025-09-24",
+              "link": "https://www.baldurbjarnason.com/2025/the-print-edition-of-the-intelligence-illusion/"
+            },
+            {
+              "title": "The melancholy of history rhyming",
+              "date": "2025-09-02",
+              "link": "https://www.baldurbjarnason.com/2025/the-melancholy-of-history-rhyming/"
+            },
+            {
+              "title": "Let's stop pretending that managers and executives care about productivity",
+              "date": "2025-08-07",
+              "link": "https://www.baldurbjarnason.com/2025/disingenuous-discourse/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The AI Mandate",
+              "date": "2025-10-14",
+              "link": "https://gomakethings.com/the-ai-mandate/"
+            },
+            {
+              "title": "What does it mean to be Indigenous?",
+              "date": "2025-10-13",
+              "link": "https://gomakethings.com/what-does-it-mean-to-be-indigenous/"
+            },
+            {
+              "title": "AI is a failed technology",
+              "date": "2025-10-09",
+              "link": "https://gomakethings.com/ai-is-a-failed-technology/"
+            },
+            {
+              "title": "Creating reusable code",
+              "date": "2025-10-08",
+              "link": "https://gomakethings.com/creating-reusable-code/"
+            },
+            {
+              "title": "The overflow: hidden property and sticky headers",
+              "date": "2025-10-06",
+              "link": "https://gomakethings.com/the-overflow-hidden-property-and-sticky-headers/"
             }
           ]
         },
@@ -66,64 +128,33 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
           "items": [
             {
-              "title": "The fashion industry that is tech",
+              "title": "Got opinions on observability? I could use your help (once more, with feeling)",
               "date": "2025-10-13",
-              "link": "https://www.baldurbjarnason.com/2025/the-fashion-that-is-tech/"
+              "link": "https://charity.wtf/2025/10/13/got-opinions-on-observability-i-could-use-your-help-once-more-with-feeling/"
             },
             {
-              "title": "The print edition of The Intelligence Illusion is available for order",
-              "date": "2025-09-24",
-              "link": "https://www.baldurbjarnason.com/2025/the-print-edition-of-the-intelligence-illusion/"
+              "title": "Are you an experienced software buyer? I could use some help.",
+              "date": "2025-09-19",
+              "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
             },
             {
-              "title": "The melancholy of history rhyming",
-              "date": "2025-09-02",
-              "link": "https://www.baldurbjarnason.com/2025/the-melancholy-of-history-rhyming/"
+              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
+              "date": "2025-07-24",
+              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
             },
             {
-              "title": "Let's stop pretending that managers and executives care about productivity",
-              "date": "2025-08-07",
-              "link": "https://www.baldurbjarnason.com/2025/disingenuous-discourse/"
+              "title": "Thoughts on Motivation and My 40-Year Career",
+              "date": "2025-07-09",
+              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
             },
             {
-              "title": "Avoiding generative models is the rational and responsible thing to do – follow-up to “Trusting your own judgement on ‘AI...’”",
-              "date": "2025-06-11",
-              "link": "https://www.baldurbjarnason.com/2025/followup-on-trusting-your-own-judgement/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "What does it mean to be Indigenous?",
-              "date": "2025-10-13",
-              "link": "https://gomakethings.com/what-does-it-mean-to-be-indigenous/"
-            },
-            {
-              "title": "AI is a failed technology",
-              "date": "2025-10-09",
-              "link": "https://gomakethings.com/ai-is-a-failed-technology/"
-            },
-            {
-              "title": "Creating reusable code",
-              "date": "2025-10-08",
-              "link": "https://gomakethings.com/creating-reusable-code/"
-            },
-            {
-              "title": "The overflow: hidden property and sticky headers",
-              "date": "2025-10-06",
-              "link": "https://gomakethings.com/the-overflow-hidden-property-and-sticky-headers/"
-            },
-            {
-              "title": "ADHD pride",
-              "date": "2025-10-05",
-              "link": "https://gomakethings.com/adhd-pride/"
+              "title": "In Praise of “Normal” Engineers",
+              "date": "2025-06-19",
+              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
             }
           ]
         },
@@ -212,37 +243,6 @@
             {
               "date": "2025-10-04",
               "link": "https://dbushell.com/notes/2025-10-04T05:26Z/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Open Homes",
-              "date": "2025-10-13",
-              "link": "https://flamedfury.com/posts/open-homes/"
-            },
-            {
-              "title": "Peacemaker (2022) Season 1",
-              "date": "2025-10-10",
-              "link": "https://flamedfury.com/posts/peacemaker-2022-season-1/"
-            },
-            {
-              "title": "Hot Wheels Monster Trucks Live",
-              "date": "2025-10-08",
-              "link": "https://flamedfury.com/posts/hot-wheels-monster-trucks-live/"
-            },
-            {
-              "title": "New Music Friday #7",
-              "date": "2025-10-06",
-              "link": "https://flamedfury.com/posts/new-music-friday-7/"
-            },
-            {
-              "title": "She Likes Listening To Punk Rock",
-              "date": "2025-10-02",
-              "link": "https://flamedfury.com/posts/she-likes-listening-to-punk-rock/"
             }
           ]
         },
@@ -712,37 +712,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2025-10-04",
-              "link": "https://macwright.com/2025/10/04/recently.html"
-            },
-            {
-              "title": "Porteur bag 2",
-              "date": "2025-09-27",
-              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
-            },
-            {
-              "title": "Cooking with glasses",
-              "date": "2025-09-21",
-              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-08-29",
-              "link": "https://macwright.com/2025/08/29/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-07-04",
-              "link": "https://macwright.com/2025/07/04/recently.html"
-            }
-          ]
-        },
-        {
           "title": "Cecilie Vennevik's blog",
           "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
           "items": [
@@ -770,6 +739,37 @@
               "title": "Crystal Spire #7: Armor",
               "date": "2024-08-24",
               "link": "https://www.cvennevik.no/blog/crystal-spire-07-armor/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2025-10-04",
+              "link": "https://macwright.com/2025/10/04/recently.html"
+            },
+            {
+              "title": "Porteur bag 2",
+              "date": "2025-09-27",
+              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
+            },
+            {
+              "title": "Cooking with glasses",
+              "date": "2025-09-21",
+              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-08-29",
+              "link": "https://macwright.com/2025/08/29/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-07-04",
+              "link": "https://macwright.com/2025/07/04/recently.html"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-14T03:31:37.297Z",
+  "fetchDate": "2025-10-15T03:35:01.063Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

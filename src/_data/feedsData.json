@@ -4,6 +4,32 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-10-15",
+              "link": "https://dbushell.com/notes/2025-10-15T05:33Z/"
+            },
+            {
+              "date": "2025-10-13",
+              "link": "https://dbushell.com/notes/2025-10-13T15:25Z/"
+            },
+            {
+              "date": "2025-10-11",
+              "link": "https://dbushell.com/notes/2025-10-11T16:04Z/"
+            },
+            {
+              "date": "2025-10-10",
+              "link": "https://dbushell.com/notes/2025-10-10T14:48Z/"
+            },
+            {
+              "date": "2025-10-05",
+              "link": "https://dbushell.com/notes/2025-10-05T09:25Z/"
+            }
+          ]
+        },
+        {
           "title": "fLaMEd fury",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -97,37 +123,6 @@
           ]
         },
         {
-          "title": "einarwh",
-          "feedUrl": "https://einarwh.no/feed/atom.xml",
-          "items": [
-            {
-              "title": "The problem of the pages",
-              "date": "2025-10-13",
-              "link": "https://einarwh.no/blog/2025/10/13/the-problem-of-the-pages/"
-            },
-            {
-              "title": "Nullable vs nullable in C#",
-              "date": "2025-08-25",
-              "link": "https://einarwh.no/blog/2025/08/25/nullable-vs-nullable/"
-            },
-            {
-              "title": "Disentangling intertwingled magicks in ASP.NET Core Web APIs",
-              "date": "2025-08-15",
-              "link": "https://einarwh.no/blog/2025/08/15/disentangling-magicks/"
-            },
-            {
-              "title": "Book heuristics",
-              "date": "2025-06-20",
-              "link": "https://einarwh.no/blog/2025/06/20/book-heuristics/"
-            },
-            {
-              "title": "Socio-technical is a big word",
-              "date": "2025-06-16",
-              "link": "https://einarwh.no/blog/2025/06/16/sociotechnical-is-a-big-word/"
-            }
-          ]
-        },
-        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -155,6 +150,37 @@
               "title": "In Praise of “Normal” Engineers",
               "date": "2025-06-19",
               "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
+            }
+          ]
+        },
+        {
+          "title": "einarwh",
+          "feedUrl": "https://einarwh.no/feed/atom.xml",
+          "items": [
+            {
+              "title": "The problem of the pages",
+              "date": "2025-10-13",
+              "link": "https://einarwh.no/blog/2025/10/13/the-problem-of-the-pages/"
+            },
+            {
+              "title": "Nullable vs nullable in C#",
+              "date": "2025-08-25",
+              "link": "https://einarwh.no/blog/2025/08/25/nullable-vs-nullable/"
+            },
+            {
+              "title": "Disentangling intertwingled magicks in ASP.NET Core Web APIs",
+              "date": "2025-08-15",
+              "link": "https://einarwh.no/blog/2025/08/15/disentangling-magicks/"
+            },
+            {
+              "title": "Book heuristics",
+              "date": "2025-06-20",
+              "link": "https://einarwh.no/blog/2025/06/20/book-heuristics/"
+            },
+            {
+              "title": "Socio-technical is a big word",
+              "date": "2025-06-16",
+              "link": "https://einarwh.no/blog/2025/06/16/sociotechnical-is-a-big-word/"
             }
           ]
         },
@@ -217,32 +243,6 @@
               "title": "Calm and Steady - Off to a Good Start",
               "date": "2025-01-31",
               "link": "https://www.lisihocke.com/2025/01/calm-and-steady-off-to-a-good-start.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-10-13",
-              "link": "https://dbushell.com/notes/2025-10-13T15:25Z/"
-            },
-            {
-              "date": "2025-10-11",
-              "link": "https://dbushell.com/notes/2025-10-11T16:04Z/"
-            },
-            {
-              "date": "2025-10-10",
-              "link": "https://dbushell.com/notes/2025-10-10T14:48Z/"
-            },
-            {
-              "date": "2025-10-05",
-              "link": "https://dbushell.com/notes/2025-10-05T09:25Z/"
-            },
-            {
-              "date": "2025-10-04",
-              "link": "https://dbushell.com/notes/2025-10-04T05:26Z/"
             }
           ]
         },
@@ -912,7 +912,7 @@
               "link": "http://agileotter.blogspot.com/2025/09/why-is-working-faster-not-working.html"
             },
             {
-              "title": "Who Are You To Say What's Right?",
+              "title": "Subjectivity: Who is to say what's right?",
               "date": "2025-07-21",
               "link": "http://agileotter.blogspot.com/2025/07/who-are-you-to-say-whats-right.html"
             },
@@ -1235,37 +1235,6 @@
               "title": "More Fun with Invoker Commands and Web Components",
               "date": "2025-07-25",
               "link": "https://thathtml.blog/2025/07/more-fun-with-invoker-commands-web-components/"
-            }
-          ]
-        },
-        {
-          "title": "Nathan Knowler",
-          "feedUrl": "https://knowler.dev/feed.xml",
-          "items": [
-            {
-              "title": "Searchable, collapsible sections with hidden=until-found",
-              "date": "2025-09-16",
-              "link": "https://knowler.dev/blog/searchable-collapsible-sections-with-hidden-until-found"
-            },
-            {
-              "title": "An intro to manual slot assignment",
-              "date": "2025-09-03",
-              "link": "https://knowler.dev/blog/an-intro-to-manual-slot-assignment"
-            },
-            {
-              "title": "Polyfilling hidden until-found",
-              "date": "2025-01-04",
-              "link": "https://knowler.dev/blog/polyfilling-hidden-until-found"
-            },
-            {
-              "title": "I’m switching back to Arc Browser (for now)",
-              "date": "2024-11-22",
-              "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
-            },
-            {
-              "title": "To define custom elements or not when distributing them",
-              "date": "2024-10-08",
-              "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
             }
           ]
         },
@@ -2492,9 +2461,10 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-15T03:35:01.063Z",
+  "fetchDate": "2025-10-16T03:34:40.790Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
+    "https://knowler.dev/feed.xml",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml"

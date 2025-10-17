@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Croissant Favicons and Tauri Troubles",
+              "date": "2025-10-16",
+              "link": "https://dbushell.com/2025/10/16/croissant-favicons-tauri-troubles/"
+            },
+            {
+              "title": "RSS Club #004: Ghost of Autumn",
+              "date": "2025-10-12",
+              "link": "https://dbushell.com/2025/10/12/RSS004/"
+            },
+            {
+              "title": "What is a Linux?",
+              "date": "2025-10-10",
+              "link": "https://dbushell.com/2025/10/10/what-is-a-linux/"
+            },
+            {
+              "title": "Email: The Final Form",
+              "date": "2025-10-07",
+              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
+            },
+            {
+              "title": "Not My Cup of Tea",
+              "date": "2025-10-02",
+              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
+            }
+          ]
+        },
+        {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "What Shape Should My Code Take? (using FizzBuzz)",
+              "date": "2025-10-16",
+              "link": "http://agileotter.blogspot.com/2025/10/what-shape-should-my-code-take-using.html"
+            },
+            {
+              "title": "A vimrc starter",
+              "date": "2025-10-16",
+              "link": "http://agileotter.blogspot.com/2025/10/a-vimrc-starter.html"
+            },
+            {
+              "title": "Convenience Scripts for Projects",
+              "date": "2025-09-30",
+              "link": "http://agileotter.blogspot.com/2025/09/convenience-scripts-for-projectsw.html"
+            },
+            {
+              "title": "Why is working faster not working?",
+              "date": "2025-09-12",
+              "link": "http://agileotter.blogspot.com/2025/09/why-is-working-faster-not-working.html"
+            },
+            {
+              "title": "Subjectivity: Who is to say what's right?",
+              "date": "2025-07-21",
+              "link": "http://agileotter.blogspot.com/2025/07/who-are-you-to-say-whats-right.html"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "A verdant digital garden",
+              "date": "2025-10-16",
+              "link": "https://gomakethings.com/a-verdant-digital-garden/"
+            },
+            {
+              "title": "The AI Mandate",
+              "date": "2025-10-14",
+              "link": "https://gomakethings.com/the-ai-mandate/"
+            },
+            {
+              "title": "What does it mean to be Indigenous?",
+              "date": "2025-10-13",
+              "link": "https://gomakethings.com/what-does-it-mean-to-be-indigenous/"
+            },
+            {
+              "title": "AI is a failed technology",
+              "date": "2025-10-09",
+              "link": "https://gomakethings.com/ai-is-a-failed-technology/"
+            },
+            {
+              "title": "Creating reusable code",
+              "date": "2025-10-08",
+              "link": "https://gomakethings.com/creating-reusable-code/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "The Phase Change",
+              "date": "2025-10-16",
+              "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/"
+            },
+            {
+              "title": "Three ways formally verified code can go wrong in practice",
+              "date": "2025-10-10",
+              "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/"
+            },
+            {
+              "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
+              "date": "2025-09-25",
+              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/"
+            },
+            {
+              "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
+              "date": "2025-09-10",
+              "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/"
+            },
+            {
+              "title": "The Angels and Demons of Nondeterminism",
+              "date": "2025-09-04",
+              "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -92,33 +216,33 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "einarwh",
+          "feedUrl": "https://einarwh.no/feed/atom.xml",
           "items": [
             {
-              "title": "The AI Mandate",
-              "date": "2025-10-14",
-              "link": "https://gomakethings.com/the-ai-mandate/"
-            },
-            {
-              "title": "What does it mean to be Indigenous?",
+              "title": "The problem of the pages",
               "date": "2025-10-13",
-              "link": "https://gomakethings.com/what-does-it-mean-to-be-indigenous/"
+              "link": "https://einarwh.no/blog/2025/10/13/the-problem-of-the-pages/"
             },
             {
-              "title": "AI is a failed technology",
-              "date": "2025-10-09",
-              "link": "https://gomakethings.com/ai-is-a-failed-technology/"
+              "title": "Nullable vs nullable in C#",
+              "date": "2025-08-25",
+              "link": "https://einarwh.no/blog/2025/08/25/nullable-vs-nullable/"
             },
             {
-              "title": "Creating reusable code",
-              "date": "2025-10-08",
-              "link": "https://gomakethings.com/creating-reusable-code/"
+              "title": "Disentangling intertwingled magicks in ASP.NET Core Web APIs",
+              "date": "2025-08-15",
+              "link": "https://einarwh.no/blog/2025/08/15/disentangling-magicks/"
             },
             {
-              "title": "The overflow: hidden property and sticky headers",
-              "date": "2025-10-06",
-              "link": "https://gomakethings.com/the-overflow-hidden-property-and-sticky-headers/"
+              "title": "Book heuristics",
+              "date": "2025-06-20",
+              "link": "https://einarwh.no/blog/2025/06/20/book-heuristics/"
+            },
+            {
+              "title": "Socio-technical is a big word",
+              "date": "2025-06-16",
+              "link": "https://einarwh.no/blog/2025/06/16/sociotechnical-is-a-big-word/"
             }
           ]
         },
@@ -150,37 +274,6 @@
               "title": "In Praise of “Normal” Engineers",
               "date": "2025-06-19",
               "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
-            }
-          ]
-        },
-        {
-          "title": "einarwh",
-          "feedUrl": "https://einarwh.no/feed/atom.xml",
-          "items": [
-            {
-              "title": "The problem of the pages",
-              "date": "2025-10-13",
-              "link": "https://einarwh.no/blog/2025/10/13/the-problem-of-the-pages/"
-            },
-            {
-              "title": "Nullable vs nullable in C#",
-              "date": "2025-08-25",
-              "link": "https://einarwh.no/blog/2025/08/25/nullable-vs-nullable/"
-            },
-            {
-              "title": "Disentangling intertwingled magicks in ASP.NET Core Web APIs",
-              "date": "2025-08-15",
-              "link": "https://einarwh.no/blog/2025/08/15/disentangling-magicks/"
-            },
-            {
-              "title": "Book heuristics",
-              "date": "2025-06-20",
-              "link": "https://einarwh.no/blog/2025/06/20/book-heuristics/"
-            },
-            {
-              "title": "Socio-technical is a big word",
-              "date": "2025-06-16",
-              "link": "https://einarwh.no/blog/2025/06/16/sociotechnical-is-a-big-word/"
             }
           ]
         },
@@ -247,37 +340,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "RSS Club #004: Ghost of Autumn",
-              "date": "2025-10-12",
-              "link": "https://dbushell.com/2025/10/12/RSS004/"
-            },
-            {
-              "title": "What is a Linux?",
-              "date": "2025-10-10",
-              "link": "https://dbushell.com/2025/10/10/what-is-a-linux/"
-            },
-            {
-              "title": "Email: The Final Form",
-              "date": "2025-10-07",
-              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
-            },
-            {
-              "title": "Not My Cup of Tea",
-              "date": "2025-10-02",
-              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
-            },
-            {
-              "title": "RSS Club #003: Silksong",
-              "date": "2025-09-28",
-              "link": "https://dbushell.com/2025/09/28/RSS003/"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -305,37 +367,6 @@
               "title": "LLMs as Parts of Systems",
               "date": "2025-08-12",
               "link": "http://brooker.co.za/blog/2025/08/12/llms-as-components.html"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            },
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
             }
           ]
         },
@@ -557,37 +588,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Three ways formally verified code can go wrong in practice",
-              "date": "2025-10-10",
-              "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/"
-            },
-            {
-              "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
-              "date": "2025-09-25",
-              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/"
-            },
-            {
-              "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
-              "date": "2025-09-10",
-              "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/"
-            },
-            {
-              "title": "The Angels and Demons of Nondeterminism",
-              "date": "2025-09-04",
-              "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/"
-            },
-            {
-              "title": "Logical Duals in Software Engineering",
-              "date": "2025-08-27",
-              "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -615,37 +615,6 @@
               "title": "Verktøykall i språkmodeller",
               "date": "2025-07-01",
               "link": "https://www.kodemaker.no/blogg/2025-07-01-verktoykall/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "The Drifter",
-              "date": "2025-10-05",
-              "link": "https://robinrendle.com/notes/the-drifter/"
-            },
-            {
-              "title": "A Few Nice Words about Viewfinder",
-              "date": "2025-09-20",
-              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
-            },
-            {
-              "title": "Ditch those words!",
-              "date": "2025-09-13",
-              "link": "https://robinrendle.com/notes/ditch-those-words/"
-            },
-            {
-              "title": "Poverty, By America",
-              "date": "2025-09-07",
-              "link": "https://robinrendle.com/notes/notes-on-poverty/"
-            },
-            {
-              "title": "Fix the Signal",
-              "date": "2025-08-23",
-              "link": "https://robinrendle.com/notes/fix-the-signal/"
             }
           ]
         },
@@ -712,37 +681,6 @@
           ]
         },
         {
-          "title": "Cecilie Vennevik's blog",
-          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
-          "items": [
-            {
-              "title": "Crystal Spire #11: We need to test",
-              "date": "2025-10-04",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-11-we-need-to-test/"
-            },
-            {
-              "title": "Crystal Spire #10: Finishing the easy bit",
-              "date": "2025-08-16",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-10-finishing-the-easy-bit/"
-            },
-            {
-              "title": "Crystal Spire #9: Buffing the Worm's nails",
-              "date": "2025-08-09",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-09-buffing-the-worms-nails/"
-            },
-            {
-              "title": "Crystal Spire #8: Facing our enemies",
-              "date": "2025-02-01",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-08-facing-our-enemies/"
-            },
-            {
-              "title": "Crystal Spire #7: Armor",
-              "date": "2024-08-24",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-07-armor/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -770,6 +708,37 @@
               "title": "Recently",
               "date": "2025-07-04",
               "link": "https://macwright.com/2025/07/04/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "Cecilie Vennevik's blog",
+          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
+          "items": [
+            {
+              "title": "Crystal Spire #11: We need to test",
+              "date": "2025-10-04",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-11-we-need-to-test/"
+            },
+            {
+              "title": "Crystal Spire #10: Finishing the easy bit",
+              "date": "2025-08-16",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-10-finishing-the-easy-bit/"
+            },
+            {
+              "title": "Crystal Spire #9: Buffing the Worm's nails",
+              "date": "2025-08-09",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-09-buffing-the-worms-nails/"
+            },
+            {
+              "title": "Crystal Spire #8: Facing our enemies",
+              "date": "2025-02-01",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-08-facing-our-enemies/"
+            },
+            {
+              "title": "Crystal Spire #7: Armor",
+              "date": "2024-08-24",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-07-armor/"
             }
           ]
         },
@@ -894,37 +863,6 @@
               "title": "What's a Single-Page App?",
               "date": "2024-11-05",
               "link": "https://jakelazaroff.com/words/whats-a-single-page-app/"
-            }
-          ]
-        },
-        {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Convenience Scripts for Projects",
-              "date": "2025-09-30",
-              "link": "http://agileotter.blogspot.com/2025/09/convenience-scripts-for-projectsw.html"
-            },
-            {
-              "title": "Why is working faster not working?",
-              "date": "2025-09-12",
-              "link": "http://agileotter.blogspot.com/2025/09/why-is-working-faster-not-working.html"
-            },
-            {
-              "title": "Subjectivity: Who is to say what's right?",
-              "date": "2025-07-21",
-              "link": "http://agileotter.blogspot.com/2025/07/who-are-you-to-say-whats-right.html"
-            },
-            {
-              "title": "A quick note on \"At Scale\"",
-              "date": "2025-07-09",
-              "link": "http://agileotter.blogspot.com/2025/07/a-quick-note-on-at-scale.html"
-            },
-            {
-              "title": "Who (the heck) Am I?",
-              "date": "2025-07-09",
-              "link": "http://agileotter.blogspot.com/2025/07/who-heck-am-i.html"
             }
           ]
         },
@@ -2461,11 +2399,13 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-16T03:34:40.790Z",
+  "fetchDate": "2025-10-17T03:32:28.580Z",
   "errors": [
+    "https://robinrendle.com/feed.xml",
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
-    "https://knowler.dev/feed.xml",
     "https://angryweasel.substack.com/feed",
+    "https://knowler.dev/feed.xml",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml"
   ]

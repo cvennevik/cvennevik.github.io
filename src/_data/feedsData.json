@@ -4,33 +4,121 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
-              "title": "Croissant Favicons and Tauri Troubles",
+              "title": "Implicit labels aren't",
+              "date": "2025-10-17",
+              "link": "https://gomakethings.com/implicit-labels-arent/"
+            },
+            {
+              "title": "A verdant digital garden",
               "date": "2025-10-16",
-              "link": "https://dbushell.com/2025/10/16/croissant-favicons-tauri-troubles/"
+              "link": "https://gomakethings.com/a-verdant-digital-garden/"
             },
             {
-              "title": "RSS Club #004: Ghost of Autumn",
-              "date": "2025-10-12",
-              "link": "https://dbushell.com/2025/10/12/RSS004/"
+              "title": "The AI Mandate",
+              "date": "2025-10-14",
+              "link": "https://gomakethings.com/the-ai-mandate/"
             },
             {
-              "title": "What is a Linux?",
+              "title": "What does it mean to be Indigenous?",
+              "date": "2025-10-13",
+              "link": "https://gomakethings.com/what-does-it-mean-to-be-indigenous/"
+            },
+            {
+              "title": "AI is a failed technology",
+              "date": "2025-10-09",
+              "link": "https://gomakethings.com/ai-is-a-failed-technology/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Talkin’ Tables at A11yTO Conf",
+              "date": "2025-10-17",
+              "link": "https://adrianroselli.com/2025/10/talkin-tables-at-a11yto-conf.html"
+            },
+            {
+              "title": "Custom Carets and Users: When The Caret Is No Longer a Stick (Yes, That’s a Poor Attempt at a Pun)",
+              "date": "2025-09-21",
+              "link": "https://adrianroselli.com/2025/09/custom-carets-and-users-when-the-caret-is-no-longer-a-stick-yes-thats-a-poor-attempt-at-a-pun.html"
+            },
+            {
+              "title": "My Thoughts on the State of Surveys",
+              "date": "2025-08-14",
+              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
+            },
+            {
+              "title": "1.2.5: Adversarial Conformance",
+              "date": "2025-08-02",
+              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
+            },
+            {
+              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
+              "date": "2025-08-01",
+              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-10-17",
+              "link": "https://dbushell.com/notes/2025-10-17T06:48Z/"
+            },
+            {
+              "date": "2025-10-15",
+              "link": "https://dbushell.com/notes/2025-10-15T05:33Z/"
+            },
+            {
+              "date": "2025-10-13",
+              "link": "https://dbushell.com/notes/2025-10-13T15:25Z/"
+            },
+            {
+              "date": "2025-10-11",
+              "link": "https://dbushell.com/notes/2025-10-11T16:04Z/"
+            },
+            {
               "date": "2025-10-10",
-              "link": "https://dbushell.com/2025/10/10/what-is-a-linux/"
+              "link": "https://dbushell.com/notes/2025-10-10T14:48Z/"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Add Terrific DX to Your UI Web Components with nimble-html",
+              "date": "2025-10-17",
+              "link": "https://thathtml.blog/2025/10/nimble-html-adds-great-dx-to-ui-components/"
             },
             {
-              "title": "Email: The Final Form",
-              "date": "2025-10-07",
-              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
+              "title": "Give “fetch” a Bit More Oomph with “ffetch”",
+              "date": "2025-09-18",
+              "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
             },
             {
-              "title": "Not My Cup of Tea",
-              "date": "2025-10-02",
-              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
+              "title": "Announcing Reciprocate, a Sweet Solution for Making Your HTML Web Components Reactive",
+              "date": "2025-09-08",
+              "link": "https://thathtml.blog/2025/09/reciprocate-reactivity-for-html-web-components/"
+            },
+            {
+              "title": "Declarative HTML Binding in Only 20 Lines of Code! (and Signals)",
+              "date": "2025-08-08",
+              "link": "https://thathtml.blog/2025/08/declarative-html-binding-with-signals/"
+            },
+            {
+              "title": "Friends at Last: Tailwind &amp; CSS…whodathunkit?!",
+              "date": "2025-08-04",
+              "link": "https://thathtml.blog/2025/08/tailwind-and-css-friends-at-last/"
             }
           ]
         },
@@ -66,33 +154,33 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
             {
-              "title": "A verdant digital garden",
+              "title": "Croissant Favicons and Tauri Troubles",
               "date": "2025-10-16",
-              "link": "https://gomakethings.com/a-verdant-digital-garden/"
+              "link": "https://dbushell.com/2025/10/16/croissant-favicons-tauri-troubles/"
             },
             {
-              "title": "The AI Mandate",
-              "date": "2025-10-14",
-              "link": "https://gomakethings.com/the-ai-mandate/"
+              "title": "RSS Club #004: Ghost of Autumn",
+              "date": "2025-10-12",
+              "link": "https://dbushell.com/2025/10/12/RSS004/"
             },
             {
-              "title": "What does it mean to be Indigenous?",
-              "date": "2025-10-13",
-              "link": "https://gomakethings.com/what-does-it-mean-to-be-indigenous/"
+              "title": "What is a Linux?",
+              "date": "2025-10-10",
+              "link": "https://dbushell.com/2025/10/10/what-is-a-linux/"
             },
             {
-              "title": "AI is a failed technology",
-              "date": "2025-10-09",
-              "link": "https://gomakethings.com/ai-is-a-failed-technology/"
+              "title": "Email: The Final Form",
+              "date": "2025-10-07",
+              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
             },
             {
-              "title": "Creating reusable code",
-              "date": "2025-10-08",
-              "link": "https://gomakethings.com/creating-reusable-code/"
+              "title": "Not My Cup of Tea",
+              "date": "2025-10-02",
+              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
             }
           ]
         },
@@ -124,32 +212,6 @@
               "title": "The Angels and Demons of Nondeterminism",
               "date": "2025-09-04",
               "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-10-15",
-              "link": "https://dbushell.com/notes/2025-10-15T05:33Z/"
-            },
-            {
-              "date": "2025-10-13",
-              "link": "https://dbushell.com/notes/2025-10-13T15:25Z/"
-            },
-            {
-              "date": "2025-10-11",
-              "link": "https://dbushell.com/notes/2025-10-11T16:04Z/"
-            },
-            {
-              "date": "2025-10-10",
-              "link": "https://dbushell.com/notes/2025-10-10T14:48Z/"
-            },
-            {
-              "date": "2025-10-05",
-              "link": "https://dbushell.com/notes/2025-10-05T09:25Z/"
             }
           ]
         },
@@ -216,37 +278,6 @@
           ]
         },
         {
-          "title": "einarwh",
-          "feedUrl": "https://einarwh.no/feed/atom.xml",
-          "items": [
-            {
-              "title": "The problem of the pages",
-              "date": "2025-10-13",
-              "link": "https://einarwh.no/blog/2025/10/13/the-problem-of-the-pages/"
-            },
-            {
-              "title": "Nullable vs nullable in C#",
-              "date": "2025-08-25",
-              "link": "https://einarwh.no/blog/2025/08/25/nullable-vs-nullable/"
-            },
-            {
-              "title": "Disentangling intertwingled magicks in ASP.NET Core Web APIs",
-              "date": "2025-08-15",
-              "link": "https://einarwh.no/blog/2025/08/15/disentangling-magicks/"
-            },
-            {
-              "title": "Book heuristics",
-              "date": "2025-06-20",
-              "link": "https://einarwh.no/blog/2025/06/20/book-heuristics/"
-            },
-            {
-              "title": "Socio-technical is a big word",
-              "date": "2025-06-16",
-              "link": "https://einarwh.no/blog/2025/06/16/sociotechnical-is-a-big-word/"
-            }
-          ]
-        },
-        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -274,6 +305,37 @@
               "title": "In Praise of “Normal” Engineers",
               "date": "2025-06-19",
               "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
+            }
+          ]
+        },
+        {
+          "title": "einarwh",
+          "feedUrl": "https://einarwh.no/feed/atom.xml",
+          "items": [
+            {
+              "title": "The problem of the pages",
+              "date": "2025-10-13",
+              "link": "https://einarwh.no/blog/2025/10/13/the-problem-of-the-pages/"
+            },
+            {
+              "title": "Nullable vs nullable in C#",
+              "date": "2025-08-25",
+              "link": "https://einarwh.no/blog/2025/08/25/nullable-vs-nullable/"
+            },
+            {
+              "title": "Disentangling intertwingled magicks in ASP.NET Core Web APIs",
+              "date": "2025-08-15",
+              "link": "https://einarwh.no/blog/2025/08/15/disentangling-magicks/"
+            },
+            {
+              "title": "Book heuristics",
+              "date": "2025-06-20",
+              "link": "https://einarwh.no/blog/2025/06/20/book-heuristics/"
+            },
+            {
+              "title": "Socio-technical is a big word",
+              "date": "2025-06-16",
+              "link": "https://einarwh.no/blog/2025/06/16/sociotechnical-is-a-big-word/"
             }
           ]
         },
@@ -367,6 +429,37 @@
               "title": "LLMs as Parts of Systems",
               "date": "2025-08-12",
               "link": "http://brooker.co.za/blog/2025/08/12/llms-as-components.html"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
+            },
+            {
+              "title": "Web Standards and the Fall of the House of Iamus",
+              "date": "2025-09-21",
+              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
             }
           ]
         },
@@ -1084,37 +1177,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Custom Carets and Users: When The Caret Is No Longer a Stick (Yes, That’s a Poor Attempt at a Pun)",
-              "date": "2025-09-21",
-              "link": "https://adrianroselli.com/2025/09/custom-carets-and-users-when-the-caret-is-no-longer-a-stick-yes-thats-a-poor-attempt-at-a-pun.html"
-            },
-            {
-              "title": "My Thoughts on the State of Surveys",
-              "date": "2025-08-14",
-              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
-            },
-            {
-              "title": "1.2.5: Adversarial Conformance",
-              "date": "2025-08-02",
-              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
-            },
-            {
-              "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
-              "date": "2025-08-01",
-              "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
-            },
-            {
-              "title": "#ARTY Could Get You Sued",
-              "date": "2025-07-14",
-              "link": "https://adrianroselli.com/2025/07/arty-could-get-you-sued.html"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -1146,33 +1208,33 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
+          "title": "Nathan Knowler",
+          "feedUrl": "https://knowler.dev/feed.xml",
           "items": [
             {
-              "title": "Give “fetch” a Bit More Oomph with “ffetch”",
-              "date": "2025-09-18",
-              "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
+              "title": "Searchable, collapsible sections with hidden=until-found",
+              "date": "2025-09-16",
+              "link": "https://knowler.dev/blog/searchable-collapsible-sections-with-hidden-until-found"
             },
             {
-              "title": "Announcing Reciprocate, a Sweet Solution for Making Your HTML Web Components Reactive",
-              "date": "2025-09-08",
-              "link": "https://thathtml.blog/2025/09/reciprocate-reactivity-for-html-web-components/"
+              "title": "An intro to manual slot assignment",
+              "date": "2025-09-03",
+              "link": "https://knowler.dev/blog/an-intro-to-manual-slot-assignment"
             },
             {
-              "title": "Declarative HTML Binding in Only 20 Lines of Code! (and Signals)",
-              "date": "2025-08-08",
-              "link": "https://thathtml.blog/2025/08/declarative-html-binding-with-signals/"
+              "title": "Polyfilling hidden=until-found",
+              "date": "2025-01-04",
+              "link": "https://knowler.dev/blog/polyfilling-hidden-until-found"
             },
             {
-              "title": "Friends at Last: Tailwind &amp; CSS…whodathunkit?!",
-              "date": "2025-08-04",
-              "link": "https://thathtml.blog/2025/08/tailwind-and-css-friends-at-last/"
+              "title": "I’m switching back to Arc Browser (for now)",
+              "date": "2024-11-22",
+              "link": "https://knowler.dev/blog/im-switching-back-to-arc-browser-for-now"
             },
             {
-              "title": "More Fun with Invoker Commands and Web Components",
-              "date": "2025-07-25",
-              "link": "https://thathtml.blog/2025/07/more-fun-with-invoker-commands-web-components/"
+              "title": "To define custom elements or not when distributing them",
+              "date": "2024-10-08",
+              "link": "https://knowler.dev/blog/to-define-custom-elements-or-not-when-distributing-them"
             }
           ]
         },
@@ -2399,13 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-17T03:32:28.580Z",
+  "fetchDate": "2025-10-18T03:26:11.277Z",
   "errors": [
     "https://robinrendle.com/feed.xml",
-    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://knowler.dev/feed.xml",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml"
   ]

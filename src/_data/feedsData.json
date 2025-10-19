@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "James Shore",
+          "feedUrl": "https://www.jamesshore.com/v2/feed",
+          "items": [
+            {
+              "title": "The Accountability Problem",
+              "date": "2025-10-18",
+              "link": "https://www.jamesshore.com/v2/blog/2025/the-accountability-problem"
+            },
+            {
+              "title": "The Best Product Engineering Org in the World [video]",
+              "date": "2025-04-18",
+              "link": "https://www.jamesshore.com/v2/presentations/2025/the-best-product-engineering-org-in-the-world"
+            },
+            {
+              "title": "“Decoding Leadership” Podcast",
+              "date": "2025-04-18",
+              "link": "https://www.jamesshore.com/v2/presentations/2025/decoding-leadership-podcast"
+            },
+            {
+              "title": "Upscale and Team Self-Selection",
+              "date": "2025-02-10",
+              "link": "https://www.jamesshore.com/v2/blog/2025/upscale-and-team-self-selection"
+            },
+            {
+              "title": "The Best Product Engineering Org in the World",
+              "date": "2025-01-10",
+              "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-10-18",
+              "link": "https://dbushell.com/notes/2025-10-18T06:12Z/"
+            },
+            {
+              "date": "2025-10-17",
+              "link": "https://dbushell.com/notes/2025-10-17T06:48Z/"
+            },
+            {
+              "date": "2025-10-15",
+              "link": "https://dbushell.com/notes/2025-10-15T05:33Z/"
+            },
+            {
+              "date": "2025-10-13",
+              "link": "https://dbushell.com/notes/2025-10-13T15:25Z/"
+            },
+            {
+              "date": "2025-10-11",
+              "link": "https://dbushell.com/notes/2025-10-11T16:04Z/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -62,32 +119,6 @@
               "title": "Horizontal Scrolling Containers Are Not a Content Strategy",
               "date": "2025-08-01",
               "link": "https://adrianroselli.com/2025/08/horizontal-scrolling-containers-are-not-a-content-strategy.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-10-17",
-              "link": "https://dbushell.com/notes/2025-10-17T06:48Z/"
-            },
-            {
-              "date": "2025-10-15",
-              "link": "https://dbushell.com/notes/2025-10-15T05:33Z/"
-            },
-            {
-              "date": "2025-10-13",
-              "link": "https://dbushell.com/notes/2025-10-13T15:25Z/"
-            },
-            {
-              "date": "2025-10-11",
-              "link": "https://dbushell.com/notes/2025-10-11T16:04Z/"
-            },
-            {
-              "date": "2025-10-10",
-              "link": "https://dbushell.com/notes/2025-10-10T14:48Z/"
             }
           ]
         },
@@ -433,37 +464,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            },
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
-            }
-          ]
-        },
-        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -712,6 +712,37 @@
           ]
         },
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "The Drifter",
+              "date": "2025-10-05",
+              "link": "https://robinrendle.com/notes/the-drifter/"
+            },
+            {
+              "title": "A Few Nice Words about Viewfinder",
+              "date": "2025-09-20",
+              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
+            },
+            {
+              "title": "Ditch those words!",
+              "date": "2025-09-13",
+              "link": "https://robinrendle.com/notes/ditch-those-words/"
+            },
+            {
+              "title": "Poverty, By America",
+              "date": "2025-09-07",
+              "link": "https://robinrendle.com/notes/notes-on-poverty/"
+            },
+            {
+              "title": "Fix the Signal",
+              "date": "2025-08-23",
+              "link": "https://robinrendle.com/notes/fix-the-signal/"
+            }
+          ]
+        },
+        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -774,37 +805,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2025-10-04",
-              "link": "https://macwright.com/2025/10/04/recently.html"
-            },
-            {
-              "title": "Porteur bag 2",
-              "date": "2025-09-27",
-              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
-            },
-            {
-              "title": "Cooking with glasses",
-              "date": "2025-09-21",
-              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-08-29",
-              "link": "https://macwright.com/2025/08/29/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-07-04",
-              "link": "https://macwright.com/2025/07/04/recently.html"
-            }
-          ]
-        },
-        {
           "title": "Cecilie Vennevik's blog",
           "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
           "items": [
@@ -832,6 +832,37 @@
               "title": "Crystal Spire #7: Armor",
               "date": "2024-08-24",
               "link": "https://www.cvennevik.no/blog/crystal-spire-07-armor/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2025-10-04",
+              "link": "https://macwright.com/2025/10/04/recently.html"
+            },
+            {
+              "title": "Porteur bag 2",
+              "date": "2025-09-27",
+              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
+            },
+            {
+              "title": "Cooking with glasses",
+              "date": "2025-09-21",
+              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-08-29",
+              "link": "https://macwright.com/2025/08/29/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-07-04",
+              "link": "https://macwright.com/2025/07/04/recently.html"
             }
           ]
         },
@@ -1921,37 +1952,6 @@
           ]
         },
         {
-          "title": "James Shore",
-          "feedUrl": "https://www.jamesshore.com/v2/feed",
-          "items": [
-            {
-              "title": "The Best Product Engineering Org in the World [video]",
-              "date": "2025-04-18",
-              "link": "https://www.jamesshore.com/v2/presentations/2025/the-best-product-engineering-org-in-the-world"
-            },
-            {
-              "title": "“Decoding Leadership” Podcast",
-              "date": "2025-04-18",
-              "link": "https://www.jamesshore.com/v2/presentations/2025/decoding-leadership-podcast"
-            },
-            {
-              "title": "Upscale and Team Self-Selection",
-              "date": "2025-02-10",
-              "link": "https://www.jamesshore.com/v2/blog/2025/upscale-and-team-self-selection"
-            },
-            {
-              "title": "The Best Product Engineering Org in the World",
-              "date": "2025-01-10",
-              "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
-            },
-            {
-              "title": "Update on Software Engineering Career Ladder",
-              "date": "2024-08-20",
-              "link": "https://www.jamesshore.com/v2/blog/2024/update-on-software-engineering-career-ladder"
-            }
-          ]
-        },
-        {
           "title": "Jennifer++",
           "feedUrl": "https://jenniferplusplus.com/rss/",
           "items": [
@@ -2461,9 +2461,9 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-18T03:26:11.277Z",
+  "fetchDate": "2025-10-19T03:43:54.331Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "The Code Whisperer",
+          "feedUrl": "https://blog.thecodewhisperer.com/feed.xml",
+          "items": [
+            {
+              "title": "Going Further with One Outcome Per Test",
+              "date": "2025-10-19",
+              "link": "https://blog.thecodewhisperer.com/permalink/going-further-with-one-outcome-per-test"
+            },
+            {
+              "title": "Saff Squeeze: Example 1",
+              "date": "2024-12-19",
+              "link": "https://blog.thecodewhisperer.com/permalink/saff-squeeze-example-1"
+            },
+            {
+              "title": "Refactoring Just Enough",
+              "date": "2024-06-21",
+              "link": "https://blog.thecodewhisperer.com/permalink/refactoring-just-enough"
+            },
+            {
+              "title": "TDD: You're Probably Doing It Just Fine",
+              "date": "2024-03-25",
+              "link": "https://blog.thecodewhisperer.com/permalink/tdd-youre-probably-doing-it-just-fine"
+            },
+            {
+              "title": "TDD: For Those Who Don't Know How to Design Software",
+              "date": "2024-01-08",
+              "link": "https://blog.thecodewhisperer.com/permalink/tdd-for-those-who-dont-know-how-to-design-software"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-10-19",
+              "link": "https://dbushell.com/notes/2025-10-19T07:54Z/"
+            },
+            {
+              "date": "2025-10-18",
+              "link": "https://dbushell.com/notes/2025-10-18T06:12Z/"
+            },
+            {
+              "date": "2025-10-17",
+              "link": "https://dbushell.com/notes/2025-10-17T06:48Z/"
+            },
+            {
+              "date": "2025-10-15",
+              "link": "https://dbushell.com/notes/2025-10-15T05:33Z/"
+            },
+            {
+              "date": "2025-10-13",
+              "link": "https://dbushell.com/notes/2025-10-13T15:25Z/"
+            }
+          ]
+        },
+        {
+          "title": "Curly Tail, Curly Braces",
+          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
+          "items": [
+            {
+              "title": "The Localhost Podcast CLI Tool",
+              "date": "2025-10-18",
+              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
+            },
+            {
+              "title": "Buying Tech Books in South Africa",
+              "date": "2025-05-16",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
+            },
+            {
+              "title": "My Exobrain",
+              "date": "2025-05-03",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
+            },
+            {
+              "title": "New Songbook Added to this Blog",
+              "date": "2024-06-25",
+              "link": "https://www.worthe-it.co.za/blog/2024-06-26-new-songbook-added-to-this-blog.html"
+            },
+            {
+              "title": "My approach to Advent of Code puzzles",
+              "date": "2024-02-25",
+              "link": "https://www.worthe-it.co.za/blog/2024-02-26-my-approach-to-advent-of-code-puzzles.html"
+            }
+          ]
+        },
+        {
           "title": "James Shore",
           "feedUrl": "https://www.jamesshore.com/v2/feed",
           "items": [
@@ -31,32 +119,6 @@
               "title": "The Best Product Engineering Org in the World",
               "date": "2025-01-10",
               "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-10-18",
-              "link": "https://dbushell.com/notes/2025-10-18T06:12Z/"
-            },
-            {
-              "date": "2025-10-17",
-              "link": "https://dbushell.com/notes/2025-10-17T06:48Z/"
-            },
-            {
-              "date": "2025-10-15",
-              "link": "https://dbushell.com/notes/2025-10-15T05:33Z/"
-            },
-            {
-              "date": "2025-10-13",
-              "link": "https://dbushell.com/notes/2025-10-13T15:25Z/"
-            },
-            {
-              "date": "2025-10-11",
-              "link": "https://dbushell.com/notes/2025-10-11T16:04Z/"
             }
           ]
         },
@@ -464,6 +526,37 @@
           ]
         },
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
+            },
+            {
+              "title": "Web Standards and the Fall of the House of Iamus",
+              "date": "2025-09-21",
+              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -805,37 +898,6 @@
           ]
         },
         {
-          "title": "Cecilie Vennevik's blog",
-          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
-          "items": [
-            {
-              "title": "Crystal Spire #11: We need to test",
-              "date": "2025-10-04",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-11-we-need-to-test/"
-            },
-            {
-              "title": "Crystal Spire #10: Finishing the easy bit",
-              "date": "2025-08-16",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-10-finishing-the-easy-bit/"
-            },
-            {
-              "title": "Crystal Spire #9: Buffing the Worm's nails",
-              "date": "2025-08-09",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-09-buffing-the-worms-nails/"
-            },
-            {
-              "title": "Crystal Spire #8: Facing our enemies",
-              "date": "2025-02-01",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-08-facing-our-enemies/"
-            },
-            {
-              "title": "Crystal Spire #7: Armor",
-              "date": "2024-08-24",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-07-armor/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -863,6 +925,37 @@
               "title": "Recently",
               "date": "2025-07-04",
               "link": "https://macwright.com/2025/07/04/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "Cecilie Vennevik's blog",
+          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
+          "items": [
+            {
+              "title": "Crystal Spire #11: We need to test",
+              "date": "2025-10-04",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-11-we-need-to-test/"
+            },
+            {
+              "title": "Crystal Spire #10: Finishing the easy bit",
+              "date": "2025-08-16",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-10-finishing-the-easy-bit/"
+            },
+            {
+              "title": "Crystal Spire #9: Buffing the Worm's nails",
+              "date": "2025-08-09",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-09-buffing-the-worms-nails/"
+            },
+            {
+              "title": "Crystal Spire #8: Facing our enemies",
+              "date": "2025-02-01",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-08-facing-our-enemies/"
+            },
+            {
+              "title": "Crystal Spire #7: Armor",
+              "date": "2024-08-24",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-07-armor/"
             }
           ]
         },
@@ -1859,37 +1952,6 @@
           ]
         },
         {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "Buying Tech Books in South Africa",
-              "date": "2025-05-16",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
-            },
-            {
-              "title": "My Exobrain",
-              "date": "2025-05-03",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
-            },
-            {
-              "title": "New Songbook Added to this Blog",
-              "date": "2024-06-25",
-              "link": "https://www.worthe-it.co.za/blog/2024-06-26-new-songbook-added-to-this-blog.html"
-            },
-            {
-              "title": "My approach to Advent of Code puzzles",
-              "date": "2024-02-25",
-              "link": "https://www.worthe-it.co.za/blog/2024-02-26-my-approach-to-advent-of-code-puzzles.html"
-            },
-            {
-              "title": "Make the computer do it!",
-              "date": "2023-10-24",
-              "link": "https://www.worthe-it.co.za/blog/2023-10-25-make-the-computer-do-it.html"
-            }
-          ]
-        },
-        {
           "title": "Hazel Weakly",
           "feedUrl": "https://hazelweakly.me/atom.xml",
           "items": [
@@ -2041,37 +2103,6 @@
               "title": "Five for Friday – February 7, 2025",
               "date": "2025-02-08",
               "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
-            }
-          ]
-        },
-        {
-          "title": "The Code Whisperer",
-          "feedUrl": "https://blog.thecodewhisperer.com/feed.xml",
-          "items": [
-            {
-              "title": "Saff Squeeze: Example 1",
-              "date": "2024-12-19",
-              "link": "https://blog.thecodewhisperer.com/permalink/saff-squeeze-example-1"
-            },
-            {
-              "title": "Refactoring Just Enough",
-              "date": "2024-06-21",
-              "link": "https://blog.thecodewhisperer.com/permalink/refactoring-just-enough"
-            },
-            {
-              "title": "TDD: You're Probably Doing It Just Fine",
-              "date": "2024-03-25",
-              "link": "https://blog.thecodewhisperer.com/permalink/tdd-youre-probably-doing-it-just-fine"
-            },
-            {
-              "title": "TDD: For Those Who Don't Know How to Design Software",
-              "date": "2024-01-08",
-              "link": "https://blog.thecodewhisperer.com/permalink/tdd-for-those-who-dont-know-how-to-design-software"
-            },
-            {
-              "title": "A Guard Clause Is Maybe a Tiny Parser",
-              "date": "2023-12-20",
-              "link": "https://blog.thecodewhisperer.com/permalink/a-guard-clause-is-maybe-a-tiny-parser"
             }
           ]
         },
@@ -2461,9 +2492,8 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-19T03:43:54.331Z",
+  "fetchDate": "2025-10-20T03:46:24.670Z",
   "errors": [
-    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

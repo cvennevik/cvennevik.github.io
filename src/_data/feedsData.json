@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "2ality – JavaScript and more",
+          "feedUrl": "https://2ality.com/feeds/posts.atom",
+          "items": [
+            {
+              "title": "[Web dev for beginners] CSS layout: flexbox, grid, media queries and container queries",
+              "date": "2025-10-22",
+              "link": "https://2ality.com/2025/10/css-layout.html"
+            },
+            {
+              "title": "[Web dev for beginners] CSS: Learn the essentials quickly",
+              "date": "2025-10-10",
+              "link": "https://2ality.com/2025/10/css-basics.html"
+            },
+            {
+              "title": "Taking SVG “screenshots” of HTML elements",
+              "date": "2025-09-29",
+              "link": "https://2ality.com/2025/09/svg-screenshots.html"
+            },
+            {
+              "title": "CSS wish: inner breakpoints",
+              "date": "2025-09-26",
+              "link": "https://2ality.com/2025/09/css-inner-breakpoints.html"
+            },
+            {
+              "title": "[Web dev for beginners] HTML: Learn the essentials quickly",
+              "date": "2025-09-23",
+              "link": "https://2ality.com/2025/09/html-basics.html"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Fixing temporal input styling in Safari",
+              "date": "2025-10-21",
+              "link": "https://gomakethings.com/fixing-temporal-input-styling-in-safari/"
+            },
+            {
+              "title": "Implicit labels aren't",
+              "date": "2025-10-17",
+              "link": "https://gomakethings.com/implicit-labels-arent/"
+            },
+            {
+              "title": "A verdant digital garden",
+              "date": "2025-10-16",
+              "link": "https://gomakethings.com/a-verdant-digital-garden/"
+            },
+            {
+              "title": "The AI Mandate",
+              "date": "2025-10-14",
+              "link": "https://gomakethings.com/the-ai-mandate/"
+            },
+            {
+              "title": "What does it mean to be Indigenous?",
+              "date": "2025-10-13",
+              "link": "https://gomakethings.com/what-does-it-mean-to-be-indigenous/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
+              "date": "2025-10-21",
+              "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/"
+            },
+            {
+              "title": "The Phase Change",
+              "date": "2025-10-16",
+              "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/"
+            },
+            {
+              "title": "Three ways formally verified code can go wrong in practice",
+              "date": "2025-10-10",
+              "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/"
+            },
+            {
+              "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
+              "date": "2025-09-25",
+              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/"
+            },
+            {
+              "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
+              "date": "2025-09-10",
+              "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/"
+            }
+          ]
+        },
+        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -61,37 +154,6 @@
           ]
         },
         {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Cyberpunk: Edgerunners (2022)",
-              "date": "2025-10-20",
-              "link": "https://flamedfury.com/posts/cyberpunk-edgerunners-2022/"
-            },
-            {
-              "title": "The Long Play Podcast",
-              "date": "2025-10-15",
-              "link": "https://flamedfury.com/posts/the-long-play-podcast/"
-            },
-            {
-              "title": "Open Homes",
-              "date": "2025-10-13",
-              "link": "https://flamedfury.com/posts/open-homes/"
-            },
-            {
-              "title": "Peacemaker (2022) Season 1",
-              "date": "2025-10-10",
-              "link": "https://flamedfury.com/posts/peacemaker-2022-season-1/"
-            },
-            {
-              "title": "Hot Wheels Monster Trucks Live",
-              "date": "2025-10-08",
-              "link": "https://flamedfury.com/posts/hot-wheels-monster-trucks-live/"
-            }
-          ]
-        },
-        {
           "title": "ntietz.com blog - technically a blog",
           "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
@@ -119,37 +181,6 @@
               "title": "That boolean should probably be something else",
               "date": "2025-06-30",
               "link": "https://ntietz.com/blog/that-boolean-should-probably-be-something-else/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Write Code That Runs in the Browser, or Write Code the Browser Runs",
-              "date": "2025-10-19",
-              "link": "https://blog.jim-nielsen.com/2025/more-control-equals-less-performance/"
-            },
-            {
-              "title": "Research Alt",
-              "date": "2025-10-11",
-              "link": "https://blog.jim-nielsen.com/2025/research-alt/"
-            },
-            {
-              "title": "Social Share Imagery via a Data Attribute",
-              "date": "2025-10-07",
-              "link": "https://blog.jim-nielsen.com/2025/og-images-via-data-attributes/"
-            },
-            {
-              "title": "Doing It Manually",
-              "date": "2025-10-02",
-              "link": "https://blog.jim-nielsen.com/2025/doing-in-manually/"
-            },
-            {
-              "title": "Running Software on Software You’ve Never Run",
-              "date": "2025-09-28",
-              "link": "https://blog.jim-nielsen.com/2025/run-software-on-software-youve-never-run/"
             }
           ]
         },
@@ -243,37 +274,6 @@
               "title": "The Best Product Engineering Org in the World",
               "date": "2025-01-10",
               "link": "https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Implicit labels aren't",
-              "date": "2025-10-17",
-              "link": "https://gomakethings.com/implicit-labels-arent/"
-            },
-            {
-              "title": "A verdant digital garden",
-              "date": "2025-10-16",
-              "link": "https://gomakethings.com/a-verdant-digital-garden/"
-            },
-            {
-              "title": "The AI Mandate",
-              "date": "2025-10-14",
-              "link": "https://gomakethings.com/the-ai-mandate/"
-            },
-            {
-              "title": "What does it mean to be Indigenous?",
-              "date": "2025-10-13",
-              "link": "https://gomakethings.com/what-does-it-mean-to-be-indigenous/"
-            },
-            {
-              "title": "AI is a failed technology",
-              "date": "2025-10-09",
-              "link": "https://gomakethings.com/ai-is-a-failed-technology/"
             }
           ]
         },
@@ -398,37 +398,6 @@
               "title": "Not My Cup of Tea",
               "date": "2025-10-02",
               "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "The Phase Change",
-              "date": "2025-10-16",
-              "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/"
-            },
-            {
-              "title": "Three ways formally verified code can go wrong in practice",
-              "date": "2025-10-10",
-              "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/"
-            },
-            {
-              "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
-              "date": "2025-09-25",
-              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/"
-            },
-            {
-              "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
-              "date": "2025-09-10",
-              "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/"
-            },
-            {
-              "title": "The Angels and Demons of Nondeterminism",
-              "date": "2025-09-04",
-              "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/"
             }
           ]
         },
@@ -708,37 +677,6 @@
               "title": "How to add a directory to your PATH",
               "date": "2025-02-13",
               "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            }
-          ]
-        },
-        {
-          "title": "2ality – JavaScript and more",
-          "feedUrl": "https://2ality.com/feeds/posts.atom",
-          "items": [
-            {
-              "title": "[Web development for beginners] CSS: Learn the essentials quickly",
-              "date": "2025-10-10",
-              "link": "https://2ality.com/2025/10/css-basics.html"
-            },
-            {
-              "title": "Taking SVG “screenshots” of HTML elements",
-              "date": "2025-09-29",
-              "link": "https://2ality.com/2025/09/svg-screenshots.html"
-            },
-            {
-              "title": "CSS wish: inner breakpoints",
-              "date": "2025-09-26",
-              "link": "https://2ality.com/2025/09/css-inner-breakpoints.html"
-            },
-            {
-              "title": "[Web development for beginners] HTML: Learn the essentials quickly",
-              "date": "2025-09-23",
-              "link": "https://2ality.com/2025/09/html-basics.html"
-            },
-            {
-              "title": "[Web development for beginners] Getting started",
-              "date": "2025-09-22",
-              "link": "https://2ality.com/2025/09/learning-web-dev-getting-started.html"
             }
           ]
         },
@@ -1952,37 +1890,6 @@
           ]
         },
         {
-          "title": "Hazel Weakly",
-          "feedUrl": "https://hazelweakly.me/atom.xml",
-          "items": [
-            {
-              "title": "Stop Building AI Tools Backwards",
-              "date": "2025-05-16",
-              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
-            },
-            {
-              "title": "The Future of Observability: Observability 3.0",
-              "date": "2024-12-09",
-              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
-            },
-            {
-              "title": "You Have One Voice",
-              "date": "2024-10-21",
-              "link": "https://hazelweakly.me/blog/you-have-one-voice/"
-            },
-            {
-              "title": "OpenTelemetry Challenges: Handling Long-Running Spans",
-              "date": "2024-10-10",
-              "link": "https://hazelweakly.me/blog/opentelemetry-challenges-handling-long-running-spans/"
-            },
-            {
-              "title": "The 4 Evolutions of Your Observability Journey",
-              "date": "2024-10-03",
-              "link": "https://hazelweakly.me/blog/the-four-evolutions-of-your-observability-journey/"
-            }
-          ]
-        },
-        {
           "title": "molily",
           "feedUrl": "https://molily.de/feed.xml",
           "items": [
@@ -2492,11 +2399,14 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-21T03:36:22.082Z",
+  "fetchDate": "2025-10-22T03:42:18.154Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
+    "https://blog.jim-nielsen.com/feed.xml",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml",
+    "https://flamedfury.com/feed.xml",
+    "https://hazelweakly.me/atom.xml"
   ]
 }

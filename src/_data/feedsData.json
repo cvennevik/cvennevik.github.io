@@ -4,6 +4,156 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Disable AI In Firefox",
+              "date": "2025-10-24",
+              "link": "https://flamedfury.com/posts/disable-ai-in-firefox/"
+            },
+            {
+              "title": "Cyberpunk: Edgerunners (2022)",
+              "date": "2025-10-20",
+              "link": "https://flamedfury.com/posts/cyberpunk-edgerunners-2022/"
+            },
+            {
+              "title": "The Long Play Podcast",
+              "date": "2025-10-15",
+              "link": "https://flamedfury.com/posts/the-long-play-podcast/"
+            },
+            {
+              "title": "Open Homes",
+              "date": "2025-10-13",
+              "link": "https://flamedfury.com/posts/open-homes/"
+            },
+            {
+              "title": "Peacemaker (2022) Season 1",
+              "date": "2025-10-10",
+              "link": "https://flamedfury.com/posts/peacemaker-2022-season-1/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Is it Time to Regulate React?",
+              "date": "2025-10-23",
+              "link": "https://dbushell.com/2025/10/23/react-regulation/"
+            },
+            {
+              "title": "Croissant Favicons and Tauri Troubles",
+              "date": "2025-10-16",
+              "link": "https://dbushell.com/2025/10/16/croissant-favicons-tauri-troubles/"
+            },
+            {
+              "title": "RSS Club #004: Ghost of Autumn",
+              "date": "2025-10-12",
+              "link": "https://dbushell.com/2025/10/12/RSS004/"
+            },
+            {
+              "title": "What is a Linux?",
+              "date": "2025-10-10",
+              "link": "https://dbushell.com/2025/10/10/what-is-a-linux/"
+            },
+            {
+              "title": "Email: The Final Form",
+              "date": "2025-10-07",
+              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "AI Browsers: Living on the Frontier of Security",
+              "date": "2025-10-23",
+              "link": "https://blog.jim-nielsen.com/2025/ai-browsers-frontier-security/"
+            },
+            {
+              "title": "Write Code That Runs in the Browser, or Write Code the Browser Runs",
+              "date": "2025-10-19",
+              "link": "https://blog.jim-nielsen.com/2025/more-control-equals-less-performance/"
+            },
+            {
+              "title": "Research Alt",
+              "date": "2025-10-11",
+              "link": "https://blog.jim-nielsen.com/2025/research-alt/"
+            },
+            {
+              "title": "Social Share Imagery via a Data Attribute",
+              "date": "2025-10-07",
+              "link": "https://blog.jim-nielsen.com/2025/og-images-via-data-attributes/"
+            },
+            {
+              "title": "Doing It Manually",
+              "date": "2025-10-02",
+              "link": "https://blog.jim-nielsen.com/2025/doing-in-manually/"
+            }
+          ]
+        },
+        {
+          "title": "Good Tech Things",
+          "feedUrl": "https://newsletter.goodtechthings.com/feed",
+          "items": [
+            {
+              "title": "When everybody's down, nobody is",
+              "date": "2025-10-23",
+              "link": "https://newsletter.goodtechthings.com/p/when-everybodys-down-nobody-is"
+            },
+            {
+              "title": "Harsh truths to save you from ChatGPT psychosis",
+              "date": "2025-08-14",
+              "link": "https://newsletter.goodtechthings.com/p/harsh-truths-to-save-you-from-chatgpt"
+            },
+            {
+              "title": "Breaking some huge personal news",
+              "date": "2025-02-07",
+              "link": "https://newsletter.goodtechthings.com/p/breaking-some-huge-personal-news"
+            },
+            {
+              "title": "I'm glad I took the off-ramp from software engineering",
+              "date": "2025-01-22",
+              "link": "https://newsletter.goodtechthings.com/p/you-get-10-years-to-be-a-software"
+            },
+            {
+              "title": "Notes on Nix",
+              "date": "2025-01-20",
+              "link": "https://newsletter.goodtechthings.com/p/notes-on-nix"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-10-23",
+              "link": "https://dbushell.com/notes/2025-10-23T07:36Z/"
+            },
+            {
+              "date": "2025-10-20",
+              "link": "https://dbushell.com/notes/2025-10-20T04:58Z/"
+            },
+            {
+              "date": "2025-10-19",
+              "link": "https://dbushell.com/notes/2025-10-19T07:54Z/"
+            },
+            {
+              "date": "2025-10-18",
+              "link": "https://dbushell.com/notes/2025-10-18T06:12Z/"
+            },
+            {
+              "date": "2025-10-17",
+              "link": "https://dbushell.com/notes/2025-10-17T06:48Z/"
+            }
+          ]
+        },
+        {
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
@@ -314,63 +464,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-10-20",
-              "link": "https://dbushell.com/notes/2025-10-20T04:58Z/"
-            },
-            {
-              "date": "2025-10-19",
-              "link": "https://dbushell.com/notes/2025-10-19T07:54Z/"
-            },
-            {
-              "date": "2025-10-18",
-              "link": "https://dbushell.com/notes/2025-10-18T06:12Z/"
-            },
-            {
-              "date": "2025-10-17",
-              "link": "https://dbushell.com/notes/2025-10-17T06:48Z/"
-            },
-            {
-              "date": "2025-10-15",
-              "link": "https://dbushell.com/notes/2025-10-15T05:33Z/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Cyberpunk: Edgerunners (2022)",
-              "date": "2025-10-20",
-              "link": "https://flamedfury.com/posts/cyberpunk-edgerunners-2022/"
-            },
-            {
-              "title": "The Long Play Podcast",
-              "date": "2025-10-15",
-              "link": "https://flamedfury.com/posts/the-long-play-podcast/"
-            },
-            {
-              "title": "Open Homes",
-              "date": "2025-10-13",
-              "link": "https://flamedfury.com/posts/open-homes/"
-            },
-            {
-              "title": "Peacemaker (2022) Season 1",
-              "date": "2025-10-10",
-              "link": "https://flamedfury.com/posts/peacemaker-2022-season-1/"
-            },
-            {
-              "title": "Hot Wheels Monster Trucks Live",
-              "date": "2025-10-08",
-              "link": "https://flamedfury.com/posts/hot-wheels-monster-trucks-live/"
-            }
-          ]
-        },
-        {
           "title": "ntietz.com blog - technically a blog",
           "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
@@ -398,37 +491,6 @@
               "title": "That boolean should probably be something else",
               "date": "2025-06-30",
               "link": "https://ntietz.com/blog/that-boolean-should-probably-be-something-else/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Write Code That Runs in the Browser, or Write Code the Browser Runs",
-              "date": "2025-10-19",
-              "link": "https://blog.jim-nielsen.com/2025/more-control-equals-less-performance/"
-            },
-            {
-              "title": "Research Alt",
-              "date": "2025-10-11",
-              "link": "https://blog.jim-nielsen.com/2025/research-alt/"
-            },
-            {
-              "title": "Social Share Imagery via a Data Attribute",
-              "date": "2025-10-07",
-              "link": "https://blog.jim-nielsen.com/2025/og-images-via-data-attributes/"
-            },
-            {
-              "title": "Doing It Manually",
-              "date": "2025-10-02",
-              "link": "https://blog.jim-nielsen.com/2025/doing-in-manually/"
-            },
-            {
-              "title": "Running Software on Software You’ve Never Run",
-              "date": "2025-09-28",
-              "link": "https://blog.jim-nielsen.com/2025/run-software-on-software-youve-never-run/"
             }
           ]
         },
@@ -553,37 +615,6 @@
               "title": "Subjectivity: Who is to say what's right?",
               "date": "2025-07-21",
               "link": "http://agileotter.blogspot.com/2025/07/who-are-you-to-say-whats-right.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Croissant Favicons and Tauri Troubles",
-              "date": "2025-10-16",
-              "link": "https://dbushell.com/2025/10/16/croissant-favicons-tauri-troubles/"
-            },
-            {
-              "title": "RSS Club #004: Ghost of Autumn",
-              "date": "2025-10-12",
-              "link": "https://dbushell.com/2025/10/12/RSS004/"
-            },
-            {
-              "title": "What is a Linux?",
-              "date": "2025-10-10",
-              "link": "https://dbushell.com/2025/10/10/what-is-a-linux/"
-            },
-            {
-              "title": "Email: The Final Form",
-              "date": "2025-10-07",
-              "link": "https://dbushell.com/2025/10/07/email-the-final-form/"
-            },
-            {
-              "title": "Not My Cup of Tea",
-              "date": "2025-10-02",
-              "link": "https://dbushell.com/2025/10/02/not-my-cup-of-tea/"
             }
           ]
         },
@@ -743,37 +774,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Notes on switching to Helix from vim",
-              "date": "2025-10-10",
-              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
-            },
-            {
-              "title": "New zine: The Secret Rules of the Terminal",
-              "date": "2025-06-26",
-              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
-            },
-            {
-              "title": "Using `make` to compile C programs (for non-C-programmers)",
-              "date": "2025-06-10",
-              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
-            },
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            }
-          ]
-        },
-        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -801,6 +801,37 @@
               "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
               "date": "2025-02-15",
               "link": "https://www.felienne.com/archives/8749"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Notes on switching to Helix from vim",
+              "date": "2025-10-10",
+              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
+            },
+            {
+              "title": "New zine: The Secret Rules of the Terminal",
+              "date": "2025-06-26",
+              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
+            },
+            {
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
+              "date": "2025-06-10",
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
+            },
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
             }
           ]
         },
@@ -1611,37 +1642,6 @@
           ]
         },
         {
-          "title": "Good Tech Things",
-          "feedUrl": "https://newsletter.goodtechthings.com/feed",
-          "items": [
-            {
-              "title": "Harsh truths to save you from ChatGPT psychosis",
-              "date": "2025-08-14",
-              "link": "https://newsletter.goodtechthings.com/p/harsh-truths-to-save-you-from-chatgpt"
-            },
-            {
-              "title": "Breaking some huge personal news",
-              "date": "2025-02-07",
-              "link": "https://newsletter.goodtechthings.com/p/breaking-some-huge-personal-news"
-            },
-            {
-              "title": "I'm glad I took the off-ramp from software engineering",
-              "date": "2025-01-22",
-              "link": "https://newsletter.goodtechthings.com/p/you-get-10-years-to-be-a-software"
-            },
-            {
-              "title": "Notes on Nix",
-              "date": "2025-01-20",
-              "link": "https://newsletter.goodtechthings.com/p/notes-on-nix"
-            },
-            {
-              "title": "Why are tech people suddenly so into homeschooling?",
-              "date": "2025-01-14",
-              "link": "https://newsletter.goodtechthings.com/p/why-are-tech-people-suddenly-so-into"
-            }
-          ]
-        },
-        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -2430,7 +2430,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-23T03:34:29.766Z",
+  "fetchDate": "2025-10-24T03:31:11.892Z",
   "errors": [
     "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",

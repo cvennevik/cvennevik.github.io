@@ -35,6 +35,68 @@
           ]
         },
         {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Golfing Weekend",
+              "date": "2025-10-27",
+              "link": "https://flamedfury.com/posts/golfing-weekend/"
+            },
+            {
+              "title": "Disable AI In Firefox",
+              "date": "2025-10-24",
+              "link": "https://flamedfury.com/posts/disable-ai-in-firefox/"
+            },
+            {
+              "title": "Cyberpunk: Edgerunners (2022)",
+              "date": "2025-10-20",
+              "link": "https://flamedfury.com/posts/cyberpunk-edgerunners-2022/"
+            },
+            {
+              "title": "The Long Play Podcast",
+              "date": "2025-10-15",
+              "link": "https://flamedfury.com/posts/the-long-play-podcast/"
+            },
+            {
+              "title": "Open Homes",
+              "date": "2025-10-13",
+              "link": "https://flamedfury.com/posts/open-homes/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "I'm taking a break",
+              "date": "2025-10-27",
+              "link": "https://buttondown.com/hillelwayne/archive/im-taking-a-break/"
+            },
+            {
+              "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
+              "date": "2025-10-21",
+              "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/"
+            },
+            {
+              "title": "The Phase Change",
+              "date": "2025-10-16",
+              "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/"
+            },
+            {
+              "title": "Three ways formally verified code can go wrong in practice",
+              "date": "2025-10-10",
+              "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/"
+            },
+            {
+              "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
+              "date": "2025-09-25",
+              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -185,37 +247,6 @@
           ]
         },
         {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Disable AI In Firefox",
-              "date": "2025-10-24",
-              "link": "https://flamedfury.com/posts/disable-ai-in-firefox/"
-            },
-            {
-              "title": "Cyberpunk: Edgerunners (2022)",
-              "date": "2025-10-20",
-              "link": "https://flamedfury.com/posts/cyberpunk-edgerunners-2022/"
-            },
-            {
-              "title": "The Long Play Podcast",
-              "date": "2025-10-15",
-              "link": "https://flamedfury.com/posts/the-long-play-podcast/"
-            },
-            {
-              "title": "Open Homes",
-              "date": "2025-10-13",
-              "link": "https://flamedfury.com/posts/open-homes/"
-            },
-            {
-              "title": "Peacemaker (2022) Season 1",
-              "date": "2025-10-10",
-              "link": "https://flamedfury.com/posts/peacemaker-2022-season-1/"
-            }
-          ]
-        },
-        {
           "title": "Good Tech Things",
           "feedUrl": "https://newsletter.goodtechthings.com/feed",
           "items": [
@@ -247,37 +278,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "OpenAI, ARIA, and SEO: Making the Web Worse",
-              "date": "2025-10-22",
-              "link": "https://adrianroselli.com/2025/10/openai-aria-and-seo-making-the-web-worse.html"
-            },
-            {
-              "title": "Talkin’ Tables at A11yTO Conf",
-              "date": "2025-10-17",
-              "link": "https://adrianroselli.com/2025/10/talkin-tables-at-a11yto-conf.html"
-            },
-            {
-              "title": "Custom Carets and Users: When The Caret Is No Longer a Stick (Yes, That’s a Poor Attempt at a Pun)",
-              "date": "2025-09-21",
-              "link": "https://adrianroselli.com/2025/09/custom-carets-and-users-when-the-caret-is-no-longer-a-stick-yes-thats-a-poor-attempt-at-a-pun.html"
-            },
-            {
-              "title": "My Thoughts on the State of Surveys",
-              "date": "2025-08-14",
-              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
-            },
-            {
-              "title": "1.2.5: Adversarial Conformance",
-              "date": "2025-08-02",
-              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -305,6 +305,37 @@
               "title": "Dynamo, DynamoDB, and Aurora DSQL",
               "date": "2025-08-15",
               "link": "http://brooker.co.za/blog/2025/08/15/dynamo-dynamodb-dsql.html"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "OpenAI, ARIA, and SEO: Making the Web Worse",
+              "date": "2025-10-22",
+              "link": "https://adrianroselli.com/2025/10/openai-aria-and-seo-making-the-web-worse.html"
+            },
+            {
+              "title": "Talkin’ Tables at A11yTO Conf",
+              "date": "2025-10-17",
+              "link": "https://adrianroselli.com/2025/10/talkin-tables-at-a11yto-conf.html"
+            },
+            {
+              "title": "Custom Carets and Users: When The Caret Is No Longer a Stick (Yes, That’s a Poor Attempt at a Pun)",
+              "date": "2025-09-21",
+              "link": "https://adrianroselli.com/2025/09/custom-carets-and-users-when-the-caret-is-no-longer-a-stick-yes-thats-a-poor-attempt-at-a-pun.html"
+            },
+            {
+              "title": "My Thoughts on the State of Surveys",
+              "date": "2025-08-14",
+              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
+            },
+            {
+              "title": "1.2.5: Adversarial Conformance",
+              "date": "2025-08-02",
+              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
             }
           ]
         },
@@ -429,37 +460,6 @@
               "title": "OpenTelemetry Challenges: Handling Long-Running Spans",
               "date": "2024-10-10",
               "link": "https://hazelweakly.me/blog/opentelemetry-challenges-handling-long-running-spans/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
-              "date": "2025-10-21",
-              "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/"
-            },
-            {
-              "title": "The Phase Change",
-              "date": "2025-10-16",
-              "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/"
-            },
-            {
-              "title": "Three ways formally verified code can go wrong in practice",
-              "date": "2025-10-10",
-              "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/"
-            },
-            {
-              "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
-              "date": "2025-09-25",
-              "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/"
-            },
-            {
-              "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
-              "date": "2025-09-10",
-              "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/"
             }
           ]
         },
@@ -650,37 +650,6 @@
           ]
         },
         {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "Got opinions on observability? I could use your help (once more, with feeling)",
-              "date": "2025-10-13",
-              "link": "https://charity.wtf/2025/10/13/got-opinions-on-observability-i-could-use-your-help-once-more-with-feeling/"
-            },
-            {
-              "title": "Are you an experienced software buyer? I could use some help.",
-              "date": "2025-09-19",
-              "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
-            },
-            {
-              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
-              "date": "2025-07-24",
-              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
-            },
-            {
-              "title": "Thoughts on Motivation and My 40-Year Career",
-              "date": "2025-07-09",
-              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
-            },
-            {
-              "title": "In Praise of “Normal” Engineers",
-              "date": "2025-06-19",
-              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
-            }
-          ]
-        },
-        {
           "title": "einarwh",
           "feedUrl": "https://einarwh.no/feed/atom.xml",
           "items": [
@@ -708,6 +677,37 @@
               "title": "Socio-technical is a big word",
               "date": "2025-06-16",
               "link": "https://einarwh.no/blog/2025/06/16/sociotechnical-is-a-big-word/"
+            }
+          ]
+        },
+        {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "Got opinions on observability? I could use your help (once more, with feeling)",
+              "date": "2025-10-13",
+              "link": "https://charity.wtf/2025/10/13/got-opinions-on-observability-i-could-use-your-help-once-more-with-feeling/"
+            },
+            {
+              "title": "Are you an experienced software buyer? I could use some help.",
+              "date": "2025-09-19",
+              "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
+            },
+            {
+              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
+              "date": "2025-07-24",
+              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
+            },
+            {
+              "title": "Thoughts on Motivation and My 40-Year Career",
+              "date": "2025-07-09",
+              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
+            },
+            {
+              "title": "In Praise of “Normal” Engineers",
+              "date": "2025-06-19",
+              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
             }
           ]
         },
@@ -894,6 +894,37 @@
               "title": "Verktøykall i språkmodeller",
               "date": "2025-07-01",
               "link": "https://www.kodemaker.no/blogg/2025-07-01-verktoykall/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "The Drifter",
+              "date": "2025-10-05",
+              "link": "https://robinrendle.com/notes/the-drifter/"
+            },
+            {
+              "title": "A Few Nice Words about Viewfinder",
+              "date": "2025-09-20",
+              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
+            },
+            {
+              "title": "Ditch those words!",
+              "date": "2025-09-13",
+              "link": "https://robinrendle.com/notes/ditch-those-words/"
+            },
+            {
+              "title": "Poverty, By America",
+              "date": "2025-09-07",
+              "link": "https://robinrendle.com/notes/notes-on-poverty/"
+            },
+            {
+              "title": "Fix the Signal",
+              "date": "2025-08-23",
+              "link": "https://robinrendle.com/notes/fix-the-signal/"
             }
           ]
         },
@@ -2399,9 +2430,8 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-27T03:50:06.913Z",
+  "fetchDate": "2025-10-28T03:39:23.881Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
     "https://2ality.com/feeds/posts.atom",
     "https://cutlefish.substack.com/feed",
     "https://www.worthe-it.co.za/atom.xml",

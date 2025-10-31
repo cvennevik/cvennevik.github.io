@@ -4,33 +4,90 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
             {
-              "title": "'The Intelligence Illusion: Why generative models are bad for business' ebook Halloween sale",
-              "date": "2025-10-29",
-              "link": "https://www.baldurbjarnason.com/2025/halloween-sale/"
+              "title": "Better Alt Text",
+              "date": "2025-11-01",
+              "link": "https://dbushell.com/2025/11/01/better-alt-text/"
             },
             {
-              "title": "You need to use the tools of the job you've chosen to do",
-              "date": "2025-10-29",
-              "link": "https://www.baldurbjarnason.com/2025/use-the-tools-of-the-job-youve-chosen/"
+              "title": "Custom Cursor Accessibility",
+              "date": "2025-10-27",
+              "link": "https://dbushell.com/2025/10/27/custom-cursor-accessibility/"
             },
             {
-              "title": "Old DVDs (media notes)",
+              "title": "Is it Time to Regulate React?",
+              "date": "2025-10-23",
+              "link": "https://dbushell.com/2025/10/23/react-regulation/"
+            },
+            {
+              "title": "Croissant Favicons and Tauri Troubles",
+              "date": "2025-10-16",
+              "link": "https://dbushell.com/2025/10/16/croissant-favicons-tauri-troubles/"
+            },
+            {
+              "title": "RSS Club #004: Ghost of Autumn",
+              "date": "2025-10-12",
+              "link": "https://dbushell.com/2025/10/12/RSS004/"
+            }
+          ]
+        },
+        {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "How many pillars of observability can you fit on the head of a pin?",
+              "date": "2025-10-30",
+              "link": "https://charity.wtf/2025/10/30/the-pillar-is-a-lie/"
+            },
+            {
+              "title": "Got opinions on observability? I could use your help (once more, with feeling)",
+              "date": "2025-10-13",
+              "link": "https://charity.wtf/2025/10/13/got-opinions-on-observability-i-could-use-your-help-once-more-with-feeling/"
+            },
+            {
+              "title": "Are you an experienced software buyer? I could use some help.",
+              "date": "2025-09-19",
+              "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
+            },
+            {
+              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
+              "date": "2025-07-24",
+              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
+            },
+            {
+              "title": "Thoughts on Motivation and My 40-Year Career",
+              "date": "2025-07-09",
+              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-10-30",
+              "link": "https://dbushell.com/notes/2025-10-30T06:20Z/"
+            },
+            {
               "date": "2025-10-28",
-              "link": "https://www.baldurbjarnason.com/notes/2025/old-dvds/"
+              "link": "https://dbushell.com/notes/2025-10-28T07:14Z/"
             },
             {
-              "title": "Last days of autumn",
-              "date": "2025-10-28",
-              "link": "https://www.baldurbjarnason.com/notes/photos/last-days-of-autumn-2025/"
+              "date": "2025-10-25",
+              "link": "https://dbushell.com/notes/2025-10-25T06:28Z/"
             },
             {
-              "title": "The inevitability of anger",
-              "date": "2025-10-20",
-              "link": "https://www.baldurbjarnason.com/2025/the-inevitability-of-anger/"
+              "date": "2025-10-24",
+              "link": "https://dbushell.com/notes/2025-10-24T09:27Z/"
+            },
+            {
+              "date": "2025-10-24",
+              "link": "https://dbushell.com/notes/2025-10-24T04:44Z/"
             }
           ]
         },
@@ -62,6 +119,37 @@
               "title": "A verdant digital garden",
               "date": "2025-10-16",
               "link": "https://gomakethings.com/a-verdant-digital-garden/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "'The Intelligence Illusion: Why generative models are bad for business' ebook Halloween sale",
+              "date": "2025-10-29",
+              "link": "https://www.baldurbjarnason.com/2025/halloween-sale/"
+            },
+            {
+              "title": "You need to use the tools of the job you've chosen to do",
+              "date": "2025-10-29",
+              "link": "https://www.baldurbjarnason.com/2025/use-the-tools-of-the-job-youve-chosen/"
+            },
+            {
+              "title": "Old DVDs (media notes)",
+              "date": "2025-10-28",
+              "link": "https://www.baldurbjarnason.com/notes/2025/old-dvds/"
+            },
+            {
+              "title": "Last days of autumn",
+              "date": "2025-10-28",
+              "link": "https://www.baldurbjarnason.com/notes/photos/last-days-of-autumn-2025/"
+            },
+            {
+              "title": "The inevitability of anger",
+              "date": "2025-10-20",
+              "link": "https://www.baldurbjarnason.com/2025/the-inevitability-of-anger/"
             }
           ]
         },
@@ -190,32 +278,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-10-28",
-              "link": "https://dbushell.com/notes/2025-10-28T07:14Z/"
-            },
-            {
-              "date": "2025-10-25",
-              "link": "https://dbushell.com/notes/2025-10-25T06:28Z/"
-            },
-            {
-              "date": "2025-10-24",
-              "link": "https://dbushell.com/notes/2025-10-24T09:27Z/"
-            },
-            {
-              "date": "2025-10-24",
-              "link": "https://dbushell.com/notes/2025-10-24T04:44Z/"
-            },
-            {
-              "date": "2025-10-23",
-              "link": "https://dbushell.com/notes/2025-10-23T07:36Z/"
-            }
-          ]
-        },
-        {
           "title": "fLaMEd fury",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -243,37 +305,6 @@
               "title": "The Long Play Podcast",
               "date": "2025-10-15",
               "link": "https://flamedfury.com/posts/the-long-play-podcast/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Custom Cursor Accessibility",
-              "date": "2025-10-27",
-              "link": "https://dbushell.com/2025/10/27/custom-cursor-accessibility/"
-            },
-            {
-              "title": "Is it Time to Regulate React?",
-              "date": "2025-10-23",
-              "link": "https://dbushell.com/2025/10/23/react-regulation/"
-            },
-            {
-              "title": "Croissant Favicons and Tauri Troubles",
-              "date": "2025-10-16",
-              "link": "https://dbushell.com/2025/10/16/croissant-favicons-tauri-troubles/"
-            },
-            {
-              "title": "RSS Club #004: Ghost of Autumn",
-              "date": "2025-10-12",
-              "link": "https://dbushell.com/2025/10/12/RSS004/"
-            },
-            {
-              "title": "What is a Linux?",
-              "date": "2025-10-10",
-              "link": "https://dbushell.com/2025/10/10/what-is-a-linux/"
             }
           ]
         },
@@ -495,37 +526,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "OpenAI, ARIA, and SEO: Making the Web Worse",
-              "date": "2025-10-22",
-              "link": "https://adrianroselli.com/2025/10/openai-aria-and-seo-making-the-web-worse.html"
-            },
-            {
-              "title": "Talkin’ Tables at A11yTO Conf",
-              "date": "2025-10-17",
-              "link": "https://adrianroselli.com/2025/10/talkin-tables-at-a11yto-conf.html"
-            },
-            {
-              "title": "Custom Carets and Users: When The Caret Is No Longer a Stick (Yes, That’s a Poor Attempt at a Pun)",
-              "date": "2025-09-21",
-              "link": "https://adrianroselli.com/2025/09/custom-carets-and-users-when-the-caret-is-no-longer-a-stick-yes-thats-a-poor-attempt-at-a-pun.html"
-            },
-            {
-              "title": "My Thoughts on the State of Surveys",
-              "date": "2025-08-14",
-              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
-            },
-            {
-              "title": "1.2.5: Adversarial Conformance",
-              "date": "2025-08-02",
-              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -553,6 +553,37 @@
               "title": "Dynamo, DynamoDB, and Aurora DSQL",
               "date": "2025-08-15",
               "link": "http://brooker.co.za/blog/2025/08/15/dynamo-dynamodb-dsql.html"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "OpenAI, ARIA, and SEO: Making the Web Worse",
+              "date": "2025-10-22",
+              "link": "https://adrianroselli.com/2025/10/openai-aria-and-seo-making-the-web-worse.html"
+            },
+            {
+              "title": "Talkin’ Tables at A11yTO Conf",
+              "date": "2025-10-17",
+              "link": "https://adrianroselli.com/2025/10/talkin-tables-at-a11yto-conf.html"
+            },
+            {
+              "title": "Custom Carets and Users: When The Caret Is No Longer a Stick (Yes, That’s a Poor Attempt at a Pun)",
+              "date": "2025-09-21",
+              "link": "https://adrianroselli.com/2025/09/custom-carets-and-users-when-the-caret-is-no-longer-a-stick-yes-thats-a-poor-attempt-at-a-pun.html"
+            },
+            {
+              "title": "My Thoughts on the State of Surveys",
+              "date": "2025-08-14",
+              "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
+            },
+            {
+              "title": "1.2.5: Adversarial Conformance",
+              "date": "2025-08-02",
+              "link": "https://adrianroselli.com/2025/08/1-2-5-adversarial-conformance.html"
             }
           ]
         },
@@ -774,37 +805,6 @@
           ]
         },
         {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "Got opinions on observability? I could use your help (once more, with feeling)",
-              "date": "2025-10-13",
-              "link": "https://charity.wtf/2025/10/13/got-opinions-on-observability-i-could-use-your-help-once-more-with-feeling/"
-            },
-            {
-              "title": "Are you an experienced software buyer? I could use some help.",
-              "date": "2025-09-19",
-              "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
-            },
-            {
-              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
-              "date": "2025-07-24",
-              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
-            },
-            {
-              "title": "Thoughts on Motivation and My 40-Year Career",
-              "date": "2025-07-09",
-              "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
-            },
-            {
-              "title": "In Praise of “Normal” Engineers",
-              "date": "2025-06-19",
-              "link": "https://charity.wtf/2025/06/19/in-praise-of-normal-engineers/"
-            }
-          ]
-        },
-        {
           "title": "einarwh",
           "feedUrl": "https://einarwh.no/feed/atom.xml",
           "items": [
@@ -929,37 +929,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Notes on switching to Helix from vim",
-              "date": "2025-10-10",
-              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
-            },
-            {
-              "title": "New zine: The Secret Rules of the Terminal",
-              "date": "2025-06-26",
-              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
-            },
-            {
-              "title": "Using `make` to compile C programs (for non-C-programmers)",
-              "date": "2025-06-10",
-              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
-            },
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            }
-          ]
-        },
-        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -987,6 +956,37 @@
               "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
               "date": "2025-02-15",
               "link": "https://www.felienne.com/archives/8749"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Notes on switching to Helix from vim",
+              "date": "2025-10-10",
+              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
+            },
+            {
+              "title": "New zine: The Secret Rules of the Terminal",
+              "date": "2025-06-26",
+              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
+            },
+            {
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
+              "date": "2025-06-10",
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
+            },
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-10-30T03:41:08.337Z",
+  "fetchDate": "2025-10-31T03:42:11.234Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://www.worthe-it.co.za/atom.xml",

@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "DSQL: Keeping Your Pager Quiet",
+              "date": "2025-11-02",
+              "link": "http://brooker.co.za/blog/2025/11/02/thinking-dsql.html"
+            },
+            {
+              "title": "Fixing UUIDv7 (for database use-cases)",
+              "date": "2025-10-22",
+              "link": "http://brooker.co.za/blog/2025/10/22/uuidv7.html"
+            },
+            {
+              "title": "Is Systems Research Really Just About Making Numbers Bigger?",
+              "date": "2025-10-12",
+              "link": "http://brooker.co.za/blog/2025/10/12/barbarians.html"
+            },
+            {
+              "title": "Locality, and Temporal-Spatial Hypothesis",
+              "date": "2025-10-05",
+              "link": "http://brooker.co.za/blog/2025/10/05/locality.html"
+            },
+            {
+              "title": "Seven Years of Firecracker",
+              "date": "2025-09-18",
+              "link": "http://brooker.co.za/blog/2025/09/18/firecracker.html"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2025-11-02",
+              "link": "https://macwright.com/2025/11/02/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-10-04",
+              "link": "https://macwright.com/2025/10/04/recently.html"
+            },
+            {
+              "title": "Porteur bag 2",
+              "date": "2025-09-27",
+              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
+            },
+            {
+              "title": "Cooking with glasses",
+              "date": "2025-09-21",
+              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-08-29",
+              "link": "https://macwright.com/2025/08/29/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Technology Executive Fireside Chat with Thierry de Pauw",
+              "date": "2025-11-02",
+              "link": "https://thinkinglabs.io/articles/2025/11/02/technology-executive-fireside-chat-with-thierry-de-pauw.html"
+            },
+            {
+              "title": "QA Therapy - All about TDD",
+              "date": "2025-11-01",
+              "link": "https://thinkinglabs.io/articles/2025/11/01/qa-therapy-all-about-tdd.html"
+            },
+            {
+              "title": "A Tester’s Growth-Path to Test Automation",
+              "date": "2025-09-22",
+              "link": "https://thinkinglabs.io/articles/2025/09/22/a-testers-growth-path-to-test-automation.html"
+            },
+            {
+              "title": "So, Yes, Trunk-based Development! Now What?",
+              "date": "2025-08-10",
+              "link": "https://thinkinglabs.io/articles/2025/08/10/so-yes-trunk-based-development-now-what.html"
+            },
+            {
+              "title": "Why do Teams think Single-branch Development Does not Work?",
+              "date": "2025-08-06",
+              "link": "https://thinkinglabs.io/articles/2025/08/06/why-do-teams-think-single-branch-development-does-not-work.html"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -35,33 +128,64 @@
           ]
         },
         {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
             {
-              "title": "QA Therapy - All about TDD",
+              "title": "0055: consulting, sql needed structure, slow forum, on the line, out of thin air, papers, other stuff",
               "date": "2025-11-01",
-              "link": "https://thinkinglabs.io/articles/2025/11/01/qa-therapy-all-about-tdd.html"
+              "link": "https://www.scattered-thoughts.net/log/0055/"
             },
             {
-              "title": "A Tester’s Growth-Path to Test Automation",
-              "date": "2025-09-22",
-              "link": "https://thinkinglabs.io/articles/2025/09/22/a-testers-growth-path-to-test-automation.html"
+              "title": "SQL needed structure",
+              "date": "2025-09-04",
+              "link": "https://www.scattered-thoughts.net/writing/sql-needed-structure/"
             },
             {
-              "title": "So, Yes, Trunk-based Development! Now What?",
-              "date": "2025-08-10",
-              "link": "https://thinkinglabs.io/articles/2025/08/10/so-yes-trunk-based-development-now-what.html"
+              "title": "0054: zest namespaces, store tags after payloads, go allocation probe, everyones got one, pprof labelguns, go value types, go perf probe, tpde, anyblox, books",
+              "date": "2025-09-02",
+              "link": "https://www.scattered-thoughts.net/log/0054/"
             },
             {
-              "title": "Why do Teams think Single-branch Development Does not Work?",
-              "date": "2025-08-06",
-              "link": "https://thinkinglabs.io/articles/2025/08/06/why-do-teams-think-single-branch-development-does-not-work.html"
+              "title": "Everyone's got one",
+              "date": "2025-08-05",
+              "link": "https://www.scattered-thoughts.net/writing/everyones-got-one/"
             },
             {
-              "title": "Why do Teams not practice Continuous Integration?",
-              "date": "2025-07-26",
-              "link": "https://thinkinglabs.io/articles/2025/07/26/why-do-teams-not-practice-continuous-integration.html"
+              "title": "Go allocation probe",
+              "date": "2025-07-18",
+              "link": "https://www.scattered-thoughts.net/writing/go-allocation-probe/"
+            }
+          ]
+        },
+        {
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
+          "items": [
+            {
+              "title": "The five areas of Agile",
+              "date": "2025-11-01",
+              "link": "https://smallsheds.garden/blog/2025/the-five-areas-of-agile/"
+            },
+            {
+              "title": "How adding a flex-wrap almost spiraled out of control",
+              "date": "2025-08-23",
+              "link": "https://smallsheds.garden/blog/2025/how-adding-a-flex-wrap-almost-spiraled-out-of-control/"
+            },
+            {
+              "title": "Some of the things I did after being off for a few weeks",
+              "date": "2025-07-01",
+              "link": "https://smallsheds.garden/blog/2025/some-of-the-things-i-did-after-being-off-for-a-few-weeks/"
+            },
+            {
+              "title": "How essential are your testers?",
+              "date": "2025-05-20",
+              "link": "https://smallsheds.garden/blog/2025/how-essential-are-your-testers/"
+            },
+            {
+              "title": "Five levels of note-taking in meetings",
+              "date": "2025-04-20",
+              "link": "https://smallsheds.garden/blog/2025/five-levels-of-note-taking-in-meetings/"
             }
           ]
         },
@@ -274,37 +398,6 @@
               "title": "MCP — Model Context Protocol",
               "date": "2025-07-02",
               "link": "https://www.kodemaker.no/blogg/2025-07-02-mcp/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "An Abundance of Inspiration",
-              "date": "2025-10-28",
-              "link": "https://robinrendle.com/notes/an-abundance-of-inspiration/"
-            },
-            {
-              "title": "The Drifter",
-              "date": "2025-10-05",
-              "link": "https://robinrendle.com/notes/the-drifter/"
-            },
-            {
-              "title": "A Few Nice Words about Viewfinder",
-              "date": "2025-09-20",
-              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
-            },
-            {
-              "title": "Ditch those words!",
-              "date": "2025-09-13",
-              "link": "https://robinrendle.com/notes/ditch-those-words/"
-            },
-            {
-              "title": "Poverty, By America",
-              "date": "2025-09-07",
-              "link": "https://robinrendle.com/notes/notes-on-poverty/"
             }
           ]
         },
@@ -619,37 +712,6 @@
           ]
         },
         {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Fixing UUIDv7 (for database use-cases)",
-              "date": "2025-10-22",
-              "link": "http://brooker.co.za/blog/2025/10/22/uuidv7.html"
-            },
-            {
-              "title": "Is Systems Research Really Just About Making Numbers Bigger?",
-              "date": "2025-10-12",
-              "link": "http://brooker.co.za/blog/2025/10/12/barbarians.html"
-            },
-            {
-              "title": "Locality, and Temporal-Spatial Hypothesis",
-              "date": "2025-10-05",
-              "link": "http://brooker.co.za/blog/2025/10/05/locality.html"
-            },
-            {
-              "title": "Seven Years of Firecracker",
-              "date": "2025-09-18",
-              "link": "http://brooker.co.za/blog/2025/09/18/firecracker.html"
-            },
-            {
-              "title": "Dynamo, DynamoDB, and Aurora DSQL",
-              "date": "2025-08-15",
-              "link": "http://brooker.co.za/blog/2025/08/15/dynamo-dynamodb-dsql.html"
-            }
-          ]
-        },
-        {
           "title": "Evan Boehs in the blog",
           "feedUrl": "https://boehs.org/in/blog.xml",
           "items": [
@@ -960,37 +1022,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            },
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
-            }
-          ]
-        },
-        {
           "title": "Fynn Ellie Be",
           "feedUrl": "https://fynn.be/feed.xml",
           "items": [
@@ -1142,37 +1173,6 @@
               "title": "You Can Choose Tools That Make You Happy",
               "date": "2025-05-20",
               "link": "https://borretti.me/article/you-can-choose-tools-that-make-you-happy"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2025-10-04",
-              "link": "https://macwright.com/2025/10/04/recently.html"
-            },
-            {
-              "title": "Porteur bag 2",
-              "date": "2025-09-27",
-              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
-            },
-            {
-              "title": "Cooking with glasses",
-              "date": "2025-09-21",
-              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-08-29",
-              "link": "https://macwright.com/2025/08/29/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-07-04",
-              "link": "https://macwright.com/2025/07/04/recently.html"
             }
           ]
         },
@@ -1580,37 +1580,6 @@
           ]
         },
         {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "SQL needed structure",
-              "date": "2025-09-04",
-              "link": "https://www.scattered-thoughts.net/writing/sql-needed-structure/"
-            },
-            {
-              "title": "0054: zest namespaces, store tags after payloads, go allocation probe, everyones got one, pprof labelguns, go value types, go perf probe, tpde, anyblox, books",
-              "date": "2025-09-02",
-              "link": "https://www.scattered-thoughts.net/log/0054/"
-            },
-            {
-              "title": "Everyone's got one",
-              "date": "2025-08-05",
-              "link": "https://www.scattered-thoughts.net/writing/everyones-got-one/"
-            },
-            {
-              "title": "Go allocation probe",
-              "date": "2025-07-18",
-              "link": "https://www.scattered-thoughts.net/writing/go-allocation-probe/"
-            },
-            {
-              "title": "Store tags after payloads",
-              "date": "2025-07-13",
-              "link": "https://www.scattered-thoughts.net/writing/store-tags-after-payloads/"
-            }
-          ]
-        },
-        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -1704,37 +1673,6 @@
           ]
         },
         {
-          "title": "Joep Schuurkes",
-          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
-          "items": [
-            {
-              "title": "How adding a flex-wrap almost spiraled out of control",
-              "date": "2025-08-23",
-              "link": "https://smallsheds.garden/blog/2025/how-adding-a-flex-wrap-almost-spiraled-out-of-control/"
-            },
-            {
-              "title": "Some of the things I did after being off for a few weeks",
-              "date": "2025-07-01",
-              "link": "https://smallsheds.garden/blog/2025/some-of-the-things-i-did-after-being-off-for-a-few-weeks/"
-            },
-            {
-              "title": "How essential are your testers?",
-              "date": "2025-05-20",
-              "link": "https://smallsheds.garden/blog/2025/how-essential-are-your-testers/"
-            },
-            {
-              "title": "Five levels of note-taking in meetings",
-              "date": "2025-04-20",
-              "link": "https://smallsheds.garden/blog/2025/five-levels-of-note-taking-in-meetings/"
-            },
-            {
-              "title": "Benchmarking counterstring implementations in TypeScript",
-              "date": "2025-02-22",
-              "link": "https://smallsheds.garden/blog/2025/benchmarking-counterstring-implementations-in-typescript/"
-            }
-          ]
-        },
-        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -1824,37 +1762,6 @@
               "title": "\n      Tech debt metaphor maximalism\n    ",
               "date": "2023-07-11",
               "link": "https://apenwarr.ca/log/20230605"
-            }
-          ]
-        },
-        {
-          "title": "Kyle Shevlin's Blog RSS Feed",
-          "feedUrl": "https://kyleshevlin.com/rss.xml",
-          "items": [
-            {
-              "title": "Prefer Gaps To Margins",
-              "date": "2025-06-23",
-              "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
-            },
-            {
-              "title": "&ldquo;Refactor&rdquo; is Not a Scary Word",
-              "date": "2025-02-27",
-              "link": "https://kyleshevlin.com/refactor-is-not-a-scary-word/"
-            },
-            {
-              "title": "Fun Coding Exercise: Pyramid Slide Down",
-              "date": "2025-01-27",
-              "link": "https://kyleshevlin.com/fun-coding-exercise-pyramid-slide-down/"
-            },
-            {
-              "title": "Algorithm: Sliding Window",
-              "date": "2025-01-16",
-              "link": "https://kyleshevlin.com/algorithm-sliding-window/"
-            },
-            {
-              "title": "The Consciousness Lottery",
-              "date": "2024-11-19",
-              "link": "https://kyleshevlin.com/consciousness-lottery/"
             }
           ]
         },
@@ -2492,11 +2399,14 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-02T03:44:01.422Z",
+  "fetchDate": "2025-11-03T03:48:47.964Z",
   "errors": [
+    "https://infrequently.org/feed/",
+    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml",
+    "https://kyleshevlin.com/rss.xml"
   ]
 }

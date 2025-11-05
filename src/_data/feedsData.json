@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "Evaluating Fable’s pay-per-project service offering",
+              "date": "2025-11-05",
+              "link": "https://ericwbailey.website/published/evaluating-fables-pay-per-project-service-offering/"
+            },
+            {
+              "title": "On inclusive personas and inclusive user research",
+              "date": "2025-07-31",
+              "link": "https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research/"
+            },
+            {
+              "title": "Newsletters that regularly hit my inbox these days",
+              "date": "2025-07-14",
+              "link": "https://ericwbailey.website/published/newsletters-that-regularly-hit-my-inbox-these-days/"
+            },
+            {
+              "title": "You MUST listen to RFC 2119",
+              "date": "2025-06-30",
+              "link": "https://ericwbailey.website/published/you-must-listen-to-rfc-2119/"
+            },
+            {
+              "title": "Quality is a trap",
+              "date": "2025-06-25",
+              "link": "https://ericwbailey.website/published/quality-is-a-trap/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Pull Request Templates",
+              "date": "2025-11-04",
+              "link": "https://gomakethings.com/pull-request-templates/"
+            },
+            {
+              "title": "Cloud4eva",
+              "date": "2025-11-03",
+              "link": "https://gomakethings.com/cloud4eva/"
+            },
+            {
+              "title": "Just use a button",
+              "date": "2025-10-31",
+              "link": "https://gomakethings.com/just-use-a-button/"
+            },
+            {
+              "title": "Natural selection in action",
+              "date": "2025-10-29",
+              "link": "https://gomakethings.com/natural-selection-in-action/"
+            },
+            {
+              "title": "The straight line from JS frameworks to AI",
+              "date": "2025-10-28",
+              "link": "https://gomakethings.com/the-straight-line-from-js-frameworks-to-ai/"
+            }
+          ]
+        },
+        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -31,6 +93,63 @@
               "title": "My Thoughts on the State of Surveys",
               "date": "2025-08-14",
               "link": "https://adrianroselli.com/2025/08/my-thoughts-on-the-state-of-surveys.html"
+            }
+          ]
+        },
+        {
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
+          "items": [
+            {
+              "title": "`SocketAddrV6` is not roundtrip serializable",
+              "date": "2025-11-04",
+              "link": "https://sunshowers.io/posts/socketaddrv6-not-roundtrip/"
+            },
+            {
+              "title": "Cancelling async Rust",
+              "date": "2025-10-03",
+              "link": "https://sunshowers.io/posts/cancelling-async-rust/"
+            },
+            {
+              "title": "I didn't transition for the metaphysics",
+              "date": "2025-05-14",
+              "link": "https://sunshowers.io/posts/transition-metaphysics/"
+            },
+            {
+              "title": "Demystifying monads in Rust through property-based testing",
+              "date": "2025-02-19",
+              "link": "https://sunshowers.io/posts/monads-through-pbt/"
+            },
+            {
+              "title": "Free will quite clearly doesn't exist",
+              "date": "2025-01-29",
+              "link": "https://sunshowers.io/posts/there-is-no-free-will/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-11-04",
+              "link": "https://dbushell.com/notes/2025-11-04T07:50Z/"
+            },
+            {
+              "date": "2025-11-04",
+              "link": "https://dbushell.com/notes/2025-11-04T07:04Z/"
+            },
+            {
+              "date": "2025-11-04",
+              "link": "https://dbushell.com/notes/2025-11-04T06:42Z/"
+            },
+            {
+              "date": "2025-11-04",
+              "link": "https://dbushell.com/notes/2025-11-04T05:56Z/"
+            },
+            {
+              "date": "2025-11-03",
+              "link": "https://dbushell.com/notes/2025-11-03T08:10Z/"
             }
           ]
         },
@@ -97,37 +216,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Cloud4eva",
-              "date": "2025-11-03",
-              "link": "https://gomakethings.com/cloud4eva/"
-            },
-            {
-              "title": "Just use a button",
-              "date": "2025-10-31",
-              "link": "https://gomakethings.com/just-use-a-button/"
-            },
-            {
-              "title": "Natural selection in action",
-              "date": "2025-10-29",
-              "link": "https://gomakethings.com/natural-selection-in-action/"
-            },
-            {
-              "title": "The straight line from JS frameworks to AI",
-              "date": "2025-10-28",
-              "link": "https://gomakethings.com/the-straight-line-from-js-frameworks-to-ai/"
-            },
-            {
-              "title": "Fixing temporal input styling in Safari",
-              "date": "2025-10-21",
-              "link": "https://gomakethings.com/fixing-temporal-input-styling-in-safari/"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -186,32 +274,6 @@
               "title": "So, Yes, Trunk-based Development! Now What?",
               "date": "2025-08-10",
               "link": "https://thinkinglabs.io/articles/2025/08/10/so-yes-trunk-based-development-now-what.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-11-03",
-              "link": "https://dbushell.com/notes/2025-11-03T08:10Z/"
-            },
-            {
-              "date": "2025-10-30",
-              "link": "https://dbushell.com/notes/2025-10-30T06:20Z/"
-            },
-            {
-              "date": "2025-10-28",
-              "link": "https://dbushell.com/notes/2025-10-28T07:14Z/"
-            },
-            {
-              "date": "2025-10-25",
-              "link": "https://dbushell.com/notes/2025-10-25T06:28Z/"
-            },
-            {
-              "date": "2025-10-24",
-              "link": "https://dbushell.com/notes/2025-10-24T09:27Z/"
             }
           ]
         },
@@ -1115,37 +1177,6 @@
           ]
         },
         {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "Leaving WordPress",
-              "date": "2025-10-10",
-              "link": "https://www.felienne.com/archives/8938"
-            },
-            {
-              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
-              "date": "2025-03-09",
-              "link": "https://www.felienne.com/archives/8880"
-            },
-            {
-              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
-              "date": "2025-03-03",
-              "link": "https://www.felienne.com/archives/8853"
-            },
-            {
-              "title": "Who owns your cloned AI voice – Week 8’s AI news",
-              "date": "2025-02-23",
-              "link": "https://www.felienne.com/archives/8808"
-            },
-            {
-              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
-              "date": "2025-02-15",
-              "link": "https://www.felienne.com/archives/8749"
-            }
-          ]
-        },
-        {
           "title": "Julia Evans",
           "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
@@ -1173,6 +1204,37 @@
               "title": "How to add a directory to your PATH",
               "date": "2025-02-13",
               "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "Leaving WordPress",
+              "date": "2025-10-10",
+              "link": "https://www.felienne.com/archives/8938"
+            },
+            {
+              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
+              "date": "2025-03-09",
+              "link": "https://www.felienne.com/archives/8880"
+            },
+            {
+              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
+              "date": "2025-03-03",
+              "link": "https://www.felienne.com/archives/8853"
+            },
+            {
+              "title": "Who owns your cloned AI voice – Week 8’s AI news",
+              "date": "2025-02-23",
+              "link": "https://www.felienne.com/archives/8808"
+            },
+            {
+              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
+              "date": "2025-02-15",
+              "link": "https://www.felienne.com/archives/8749"
             }
           ]
         },
@@ -1266,37 +1328,6 @@
               "title": "Crystal Spire #7: Armor",
               "date": "2024-08-24",
               "link": "https://www.cvennevik.no/blog/crystal-spire-07-armor/"
-            }
-          ]
-        },
-        {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "Cancelling async Rust",
-              "date": "2025-10-03",
-              "link": "https://sunshowers.io/posts/cancelling-async-rust/"
-            },
-            {
-              "title": "I didn't transition for the metaphysics",
-              "date": "2025-05-14",
-              "link": "https://sunshowers.io/posts/transition-metaphysics/"
-            },
-            {
-              "title": "Demystifying monads in Rust through property-based testing",
-              "date": "2025-02-19",
-              "link": "https://sunshowers.io/posts/monads-through-pbt/"
-            },
-            {
-              "title": "Free will quite clearly doesn't exist",
-              "date": "2025-01-29",
-              "link": "https://sunshowers.io/posts/there-is-no-free-will/"
-            },
-            {
-              "title": "Why nextest is process-per-test",
-              "date": "2025-01-07",
-              "link": "https://sunshowers.io/posts/nextest-process-per-test/"
             }
           ]
         },
@@ -1731,37 +1762,6 @@
               "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
               "date": "2024-01-08",
               "link": "https://verraes.net/2024/01/critical-software-redesign/"
-            }
-          ]
-        },
-        {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "On inclusive personas and inclusive user research",
-              "date": "2025-07-31",
-              "link": "https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research/"
-            },
-            {
-              "title": "Newsletters that regularly hit my inbox these days",
-              "date": "2025-07-14",
-              "link": "https://ericwbailey.website/published/newsletters-that-regularly-hit-my-inbox-these-days/"
-            },
-            {
-              "title": "You MUST listen to RFC 2119",
-              "date": "2025-06-30",
-              "link": "https://ericwbailey.website/published/you-must-listen-to-rfc-2119/"
-            },
-            {
-              "title": "Quality is a trap",
-              "date": "2025-06-25",
-              "link": "https://ericwbailey.website/published/quality-is-a-trap/"
-            },
-            {
-              "title": "Organizing a design system via folksonomy",
-              "date": "2025-05-15",
-              "link": "https://ericwbailey.website/published/organizing-a-design-system-via-folksonomy/"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-04T03:40:35.624Z",
+  "fetchDate": "2025-11-05T03:42:19.558Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

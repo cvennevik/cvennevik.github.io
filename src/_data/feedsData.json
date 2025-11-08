@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "For sale: strong opinions; never published",
+              "date": "2025-11-07",
+              "link": "https://www.baldurbjarnason.com/2025/strong-opinions-never-published/"
+            },
+            {
+              "title": "First signs of winter",
+              "date": "2025-11-03",
+              "link": "https://www.baldurbjarnason.com/notes/photos/signs-of-winter-2025/"
+            },
+            {
+              "title": "Notes on strategy and audience as a media business",
+              "date": "2025-10-31",
+              "link": "https://www.baldurbjarnason.com/2025/strategy-and-audience/"
+            },
+            {
+              "title": "Retro photos: millennial Reykjavík",
+              "date": "2025-10-31",
+              "link": "https://www.baldurbjarnason.com/notes/photos/retro-photos-millenial-reykjavik/"
+            },
+            {
+              "title": "'The Intelligence Illusion: Why generative models are bad for business' ebook Halloween sale",
+              "date": "2025-10-29",
+              "link": "https://www.baldurbjarnason.com/2025/halloween-sale/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Down The Atomic Rabbit Hole",
+              "date": "2025-11-07",
+              "link": "https://blog.jim-nielsen.com/2025/my-atomic-rabbithole/"
+            },
+            {
+              "title": "Browser APIs: The Web’s Free SaaS",
+              "date": "2025-11-02",
+              "link": "https://blog.jim-nielsen.com/2025/browser-apis-as-sass/"
+            },
+            {
+              "title": "Don’t Forget These Tags to Make HTML Work Like You Expect",
+              "date": "2025-10-26",
+              "link": "https://blog.jim-nielsen.com/2025/dont-forget-these-html-tags/"
+            },
+            {
+              "title": "Everything Is Broken",
+              "date": "2025-10-24",
+              "link": "https://blog.jim-nielsen.com/2025/everything-is-broken/"
+            },
+            {
+              "title": "AI Browsers: Living on the Frontier of Security",
+              "date": "2025-10-23",
+              "link": "https://blog.jim-nielsen.com/2025/ai-browsers-frontier-security/"
+            }
+          ]
+        },
+        {
+          "title": "The Code Whisperer",
+          "feedUrl": "https://blog.thecodewhisperer.com/feed.xml",
+          "items": [
+            {
+              "title": "Clarifying the Rule of Three in Refactoring",
+              "date": "2025-11-07",
+              "link": "https://blog.thecodewhisperer.com/permalink/clarifying-the-rule-of-three-in-refactoring"
+            },
+            {
+              "title": "Going Further with One Outcome Per Test",
+              "date": "2025-10-19",
+              "link": "https://blog.thecodewhisperer.com/permalink/going-further-with-one-outcome-per-test"
+            },
+            {
+              "title": "Saff Squeeze: Example 1",
+              "date": "2024-12-19",
+              "link": "https://blog.thecodewhisperer.com/permalink/saff-squeeze-example-1"
+            },
+            {
+              "title": "Refactoring Just Enough",
+              "date": "2024-06-21",
+              "link": "https://blog.thecodewhisperer.com/permalink/refactoring-just-enough"
+            },
+            {
+              "title": "TDD: You're Probably Doing It Just Fine",
+              "date": "2024-03-25",
+              "link": "https://blog.thecodewhisperer.com/permalink/tdd-youre-probably-doing-it-just-fine"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-11-07",
+              "link": "https://dbushell.com/notes/2025-11-07T11:17Z/"
+            },
+            {
+              "date": "2025-11-06",
+              "link": "https://dbushell.com/notes/2025-11-06T19:07Z/"
+            },
+            {
+              "date": "2025-11-04",
+              "link": "https://dbushell.com/notes/2025-11-04T07:50Z/"
+            },
+            {
+              "date": "2025-11-04",
+              "link": "https://dbushell.com/notes/2025-11-04T07:04Z/"
+            },
+            {
+              "date": "2025-11-04",
+              "link": "https://dbushell.com/notes/2025-11-04T06:42Z/"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -62,32 +181,6 @@
               "title": "QA Therapy - All about TDD",
               "date": "2025-11-01",
               "link": "https://thinkinglabs.io/articles/2025/11/01/qa-therapy-all-about-tdd.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-11-06",
-              "link": "https://dbushell.com/notes/2025-11-06T19:07Z/"
-            },
-            {
-              "date": "2025-11-04",
-              "link": "https://dbushell.com/notes/2025-11-04T07:50Z/"
-            },
-            {
-              "date": "2025-11-04",
-              "link": "https://dbushell.com/notes/2025-11-04T07:04Z/"
-            },
-            {
-              "date": "2025-11-04",
-              "link": "https://dbushell.com/notes/2025-11-04T06:42Z/"
-            },
-            {
-              "date": "2025-11-04",
-              "link": "https://dbushell.com/notes/2025-11-04T05:56Z/"
             }
           ]
         },
@@ -278,37 +371,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "First signs of winter",
-              "date": "2025-11-03",
-              "link": "https://www.baldurbjarnason.com/notes/photos/signs-of-winter-2025/"
-            },
-            {
-              "title": "Notes on strategy and audience as a media business",
-              "date": "2025-10-31",
-              "link": "https://www.baldurbjarnason.com/2025/strategy-and-audience/"
-            },
-            {
-              "title": "Retro photos: millennial Reykjavík",
-              "date": "2025-10-31",
-              "link": "https://www.baldurbjarnason.com/notes/photos/retro-photos-millenial-reykjavik/"
-            },
-            {
-              "title": "'The Intelligence Illusion: Why generative models are bad for business' ebook Halloween sale",
-              "date": "2025-10-29",
-              "link": "https://www.baldurbjarnason.com/2025/halloween-sale/"
-            },
-            {
-              "title": "You need to use the tools of the job you've chosen to do",
-              "date": "2025-10-29",
-              "link": "https://www.baldurbjarnason.com/2025/use-the-tools-of-the-job-youve-chosen/"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -336,37 +398,6 @@
               "title": "Hvis man først skal vibe code, hvorfor ikke spille AI-en god?",
               "date": "2025-08-09",
               "link": "https://www.kodemaker.no/blogg/2025-08-09-cursor-rules-mcp/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Browser APIs: The Web’s Free SaaS",
-              "date": "2025-11-02",
-              "link": "https://blog.jim-nielsen.com/2025/browser-apis-as-sass/"
-            },
-            {
-              "title": "Don’t Forget These Tags to Make HTML Work Like You Expect",
-              "date": "2025-10-26",
-              "link": "https://blog.jim-nielsen.com/2025/dont-forget-these-html-tags/"
-            },
-            {
-              "title": "Everything Is Broken",
-              "date": "2025-10-24",
-              "link": "https://blog.jim-nielsen.com/2025/everything-is-broken/"
-            },
-            {
-              "title": "AI Browsers: Living on the Frontier of Security",
-              "date": "2025-10-23",
-              "link": "https://blog.jim-nielsen.com/2025/ai-browsers-frontier-security/"
-            },
-            {
-              "title": "Write Code That Runs in the Browser, or Write Code the Browser Runs",
-              "date": "2025-10-19",
-              "link": "https://blog.jim-nielsen.com/2025/more-control-equals-less-performance/"
             }
           ]
         },
@@ -929,37 +960,6 @@
           ]
         },
         {
-          "title": "The Code Whisperer",
-          "feedUrl": "https://blog.thecodewhisperer.com/feed.xml",
-          "items": [
-            {
-              "title": "Going Further with One Outcome Per Test",
-              "date": "2025-10-19",
-              "link": "https://blog.thecodewhisperer.com/permalink/going-further-with-one-outcome-per-test"
-            },
-            {
-              "title": "Saff Squeeze: Example 1",
-              "date": "2024-12-19",
-              "link": "https://blog.thecodewhisperer.com/permalink/saff-squeeze-example-1"
-            },
-            {
-              "title": "Refactoring Just Enough",
-              "date": "2024-06-21",
-              "link": "https://blog.thecodewhisperer.com/permalink/refactoring-just-enough"
-            },
-            {
-              "title": "TDD: You're Probably Doing It Just Fine",
-              "date": "2024-03-25",
-              "link": "https://blog.thecodewhisperer.com/permalink/tdd-youre-probably-doing-it-just-fine"
-            },
-            {
-              "title": "TDD: For Those Who Don't Know How to Design Software",
-              "date": "2024-01-08",
-              "link": "https://blog.thecodewhisperer.com/permalink/tdd-for-those-who-dont-know-how-to-design-software"
-            }
-          ]
-        },
-        {
           "title": "Curly Tail, Curly Braces",
           "feedUrl": "https://www.worthe-it.co.za/atom.xml",
           "items": [
@@ -1208,37 +1208,6 @@
           ]
         },
         {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "Leaving WordPress",
-              "date": "2025-10-10",
-              "link": "https://www.felienne.com/archives/8938"
-            },
-            {
-              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
-              "date": "2025-03-09",
-              "link": "https://www.felienne.com/archives/8880"
-            },
-            {
-              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
-              "date": "2025-03-03",
-              "link": "https://www.felienne.com/archives/8853"
-            },
-            {
-              "title": "Who owns your cloned AI voice – Week 8’s AI news",
-              "date": "2025-02-23",
-              "link": "https://www.felienne.com/archives/8808"
-            },
-            {
-              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
-              "date": "2025-02-15",
-              "link": "https://www.felienne.com/archives/8749"
-            }
-          ]
-        },
-        {
           "title": "Julia Evans",
           "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
@@ -1266,6 +1235,37 @@
               "title": "How to add a directory to your PATH",
               "date": "2025-02-13",
               "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "Leaving WordPress",
+              "date": "2025-10-10",
+              "link": "https://www.felienne.com/archives/8938"
+            },
+            {
+              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
+              "date": "2025-03-09",
+              "link": "https://www.felienne.com/archives/8880"
+            },
+            {
+              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
+              "date": "2025-03-03",
+              "link": "https://www.felienne.com/archives/8853"
+            },
+            {
+              "title": "Who owns your cloned AI voice – Week 8’s AI news",
+              "date": "2025-02-23",
+              "link": "https://www.felienne.com/archives/8808"
+            },
+            {
+              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
+              "date": "2025-02-15",
+              "link": "https://www.felienne.com/archives/8749"
             }
           ]
         },
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-07T03:41:43.168Z",
+  "fetchDate": "2025-11-08T03:33:35.422Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

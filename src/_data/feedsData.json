@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-11-08",
+              "link": "https://dbushell.com/notes/2025-11-08T07:08Z/"
+            },
+            {
+              "date": "2025-11-07",
+              "link": "https://dbushell.com/notes/2025-11-07T11:17Z/"
+            },
+            {
+              "date": "2025-11-06",
+              "link": "https://dbushell.com/notes/2025-11-06T19:07Z/"
+            },
+            {
+              "date": "2025-11-04",
+              "link": "https://dbushell.com/notes/2025-11-04T07:50Z/"
+            },
+            {
+              "date": "2025-11-04",
+              "link": "https://dbushell.com/notes/2025-11-04T07:04Z/"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Even if it's arbitrary",
+              "date": "2025-11-08",
+              "link": "https://garoof.no/notes/even-if-its-arbitrary.html"
+            },
+            {
+              "title": "AI then",
+              "date": "2025-09-03",
+              "link": "https://garoof.no/notes/ai.html"
+            },
+            {
+              "title": "What if dependencies were injected?",
+              "date": "2025-08-24",
+              "link": "https://garoof.no/java/ioc.html"
+            },
+            {
+              "title": "Using Java types for keywordy args",
+              "date": "2025-08-02",
+              "link": "https://garoof.no/java/keywordy-types.html"
+            },
+            {
+              "title": "Smalltalk syntax is nice",
+              "date": "2025-08-01",
+              "link": "https://garoof.no/notes/smalltalk-syntax.html"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Outside sad is better than inside sad",
+              "date": "2025-11-08",
+              "link": "https://anniemueller.com/posts/outside-sad-is-better-than-inside-sad"
+            },
+            {
+              "title": "Who’s in charge here anyway",
+              "date": "2025-11-04",
+              "link": "https://anniemueller.com/posts/whos-in-charge-here-anyway"
+            },
+            {
+              "title": "Duck duck duck dichotomy",
+              "date": "2025-11-01",
+              "link": "https://anniemueller.com/posts/duck-duck-duck-dichotomy"
+            },
+            {
+              "title": "Love letters 11-13",
+              "date": "2025-10-24",
+              "link": "https://anniemueller.com/posts/love-letters-11-13"
+            },
+            {
+              "title": "Make rules, break rules",
+              "date": "2025-10-22",
+              "link": "https://anniemueller.com/posts/make-rules-break-rules"
+            }
+          ]
+        },
+        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -35,37 +123,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Down The Atomic Rabbit Hole",
-              "date": "2025-11-07",
-              "link": "https://blog.jim-nielsen.com/2025/my-atomic-rabbithole/"
-            },
-            {
-              "title": "Browser APIs: The Web’s Free SaaS",
-              "date": "2025-11-02",
-              "link": "https://blog.jim-nielsen.com/2025/browser-apis-as-sass/"
-            },
-            {
-              "title": "Don’t Forget These Tags to Make HTML Work Like You Expect",
-              "date": "2025-10-26",
-              "link": "https://blog.jim-nielsen.com/2025/dont-forget-these-html-tags/"
-            },
-            {
-              "title": "Everything Is Broken",
-              "date": "2025-10-24",
-              "link": "https://blog.jim-nielsen.com/2025/everything-is-broken/"
-            },
-            {
-              "title": "AI Browsers: Living on the Frontier of Security",
-              "date": "2025-10-23",
-              "link": "https://blog.jim-nielsen.com/2025/ai-browsers-frontier-security/"
-            }
-          ]
-        },
-        {
           "title": "The Code Whisperer",
           "feedUrl": "https://blog.thecodewhisperer.com/feed.xml",
           "items": [
@@ -93,32 +150,6 @@
               "title": "TDD: You're Probably Doing It Just Fine",
               "date": "2024-03-25",
               "link": "https://blog.thecodewhisperer.com/permalink/tdd-youre-probably-doing-it-just-fine"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-11-07",
-              "link": "https://dbushell.com/notes/2025-11-07T11:17Z/"
-            },
-            {
-              "date": "2025-11-06",
-              "link": "https://dbushell.com/notes/2025-11-06T19:07Z/"
-            },
-            {
-              "date": "2025-11-04",
-              "link": "https://dbushell.com/notes/2025-11-04T07:50Z/"
-            },
-            {
-              "date": "2025-11-04",
-              "link": "https://dbushell.com/notes/2025-11-04T07:04Z/"
-            },
-            {
-              "date": "2025-11-04",
-              "link": "https://dbushell.com/notes/2025-11-04T06:42Z/"
             }
           ]
         },
@@ -336,37 +367,6 @@
               "title": "Free will quite clearly doesn't exist",
               "date": "2025-01-29",
               "link": "https://sunshowers.io/posts/there-is-no-free-will/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Who’s in charge here anyway",
-              "date": "2025-11-04",
-              "link": "https://anniemueller.com/posts/whos-in-charge-here-anyway"
-            },
-            {
-              "title": "Duck duck duck dichotomy",
-              "date": "2025-11-01",
-              "link": "https://anniemueller.com/posts/duck-duck-duck-dichotomy"
-            },
-            {
-              "title": "Love letters 11-13",
-              "date": "2025-10-24",
-              "link": "https://anniemueller.com/posts/love-letters-11-13"
-            },
-            {
-              "title": "Make rules, break rules",
-              "date": "2025-10-22",
-              "link": "https://anniemueller.com/posts/make-rules-break-rules"
-            },
-            {
-              "title": "Reading notes: August, September",
-              "date": "2025-10-10",
-              "link": "https://anniemueller.com/posts/reading-notes-august-september"
             }
           ]
         },
@@ -615,37 +615,6 @@
               "title": "Thoughts on Motivation and My 40-Year Career",
               "date": "2025-07-09",
               "link": "https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "An Abundance of Inspiration",
-              "date": "2025-10-28",
-              "link": "https://robinrendle.com/notes/an-abundance-of-inspiration/"
-            },
-            {
-              "title": "The Drifter",
-              "date": "2025-10-05",
-              "link": "https://robinrendle.com/notes/the-drifter/"
-            },
-            {
-              "title": "A Few Nice Words about Viewfinder",
-              "date": "2025-09-20",
-              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
-            },
-            {
-              "title": "Ditch those words!",
-              "date": "2025-09-13",
-              "link": "https://robinrendle.com/notes/ditch-those-words/"
-            },
-            {
-              "title": "Poverty, By America",
-              "date": "2025-09-07",
-              "link": "https://robinrendle.com/notes/notes-on-poverty/"
             }
           ]
         },
@@ -1146,37 +1115,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            },
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
-            }
-          ]
-        },
-        {
           "title": "Fynn Ellie Be",
           "feedUrl": "https://fynn.be/feed.xml",
           "items": [
@@ -1669,37 +1607,6 @@
               "title": "Circadian Rebellion",
               "date": "2025-06-11",
               "link": "https://frills.dev/blog/2025/june/circadian-rebellion/"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "AI then",
-              "date": "2025-09-03",
-              "link": "https://garoof.no/notes/ai.html"
-            },
-            {
-              "title": "What if dependencies were injected?",
-              "date": "2025-08-24",
-              "link": "https://garoof.no/java/ioc.html"
-            },
-            {
-              "title": "Using Java types for keywordy args",
-              "date": "2025-08-02",
-              "link": "https://garoof.no/java/keywordy-types.html"
-            },
-            {
-              "title": "Smalltalk syntax is nice",
-              "date": "2025-08-01",
-              "link": "https://garoof.no/notes/smalltalk-syntax.html"
-            },
-            {
-              "title": "Sums and products in Java",
-              "date": "2025-07-19",
-              "link": "https://garoof.no/java/sums-and-products.html"
             }
           ]
         },
@@ -2492,11 +2399,14 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-08T03:33:35.422Z",
+  "fetchDate": "2025-11-09T03:42:08.343Z",
   "errors": [
+    "https://robinrendle.com/feed.xml",
+    "https://blog.jim-nielsen.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml",
+    "https://infrequently.org/feed/"
   ]
 }

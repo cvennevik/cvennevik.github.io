@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jessitron",
+          "feedUrl": "https://jessitron.com/feed/",
+          "items": [
+            {
+              "title": "What is special about MCP?",
+              "date": "2025-11-09",
+              "link": "https://jessitron.com/2025/11/09/what-is-special-about-mcp/"
+            },
+            {
+              "title": "Ritual & its Consequences: book summary",
+              "date": "2025-10-05",
+              "link": "https://jessitron.com/2025/10/05/ritual-its-consequences-book-summary/"
+            },
+            {
+              "title": "When efficiency isn’t wasteful",
+              "date": "2025-09-21",
+              "link": "https://jessitron.com/2025/09/21/when-efficiency-is-wasteful/"
+            },
+            {
+              "title": "Fixing Without Understanding",
+              "date": "2025-05-19",
+              "link": "https://jessitron.com/2025/05/18/fixing-without-understanding/"
+            },
+            {
+              "title": "Augmented Coding: Better with Principles",
+              "date": "2025-05-18",
+              "link": "https://jessitron.com/2025/05/18/augmented-coding-better-with-principles/"
+            }
+          ]
+        },
+        {
+          "title": "draganstepanovic.com",
+          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
+          "items": [
+            {
+              "title": "There's a huge difference between",
+              "date": "2025-11-09",
+              "link": "https://dragan-stepanovic.github.io//2025/11/09/there-is-a-huge-difference.html"
+            },
+            {
+              "title": "If you can't change design cheaply",
+              "date": "2025-10-25",
+              "link": "https://dragan-stepanovic.github.io//2025/10/25/if-you-cant-change-design-cheaply.html"
+            },
+            {
+              "title": "It's not about reducing the costs per se",
+              "date": "2025-09-27",
+              "link": "https://dragan-stepanovic.github.io//2025/09/27/reducing-costs.html"
+            },
+            {
+              "title": "Dynamics between transaction cost and batch size is simple, but often counterintuitive.",
+              "date": "2025-06-19",
+              "link": "https://dragan-stepanovic.github.io//2025/06/19/working-together-works.html"
+            },
+            {
+              "title": "Managing  interdependence over decoupling",
+              "date": "2025-04-03",
+              "link": "https://dragan-stepanovic.github.io//2025/04/03/interdependence-over-independence.html"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Pixels",
+              "date": "2025-11-09",
+              "link": "https://garoof.no/notes/pixels.html"
+            },
+            {
+              "title": "Even if it's arbitrary",
+              "date": "2025-11-08",
+              "link": "https://garoof.no/notes/even-if-its-arbitrary.html"
+            },
+            {
+              "title": "AI then",
+              "date": "2025-09-03",
+              "link": "https://garoof.no/notes/ai.html"
+            },
+            {
+              "title": "What if dependencies were injected?",
+              "date": "2025-08-24",
+              "link": "https://garoof.no/java/ioc.html"
+            },
+            {
+              "title": "Using Java types for keywordy args",
+              "date": "2025-08-02",
+              "link": "https://garoof.no/java/keywordy-types.html"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -26,37 +119,6 @@
             {
               "date": "2025-11-04",
               "link": "https://dbushell.com/notes/2025-11-04T07:04Z/"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Even if it's arbitrary",
-              "date": "2025-11-08",
-              "link": "https://garoof.no/notes/even-if-its-arbitrary.html"
-            },
-            {
-              "title": "AI then",
-              "date": "2025-09-03",
-              "link": "https://garoof.no/notes/ai.html"
-            },
-            {
-              "title": "What if dependencies were injected?",
-              "date": "2025-08-24",
-              "link": "https://garoof.no/java/ioc.html"
-            },
-            {
-              "title": "Using Java types for keywordy args",
-              "date": "2025-08-02",
-              "link": "https://garoof.no/java/keywordy-types.html"
-            },
-            {
-              "title": "Smalltalk syntax is nice",
-              "date": "2025-08-01",
-              "link": "https://garoof.no/notes/smalltalk-syntax.html"
             }
           ]
         },
@@ -119,6 +181,37 @@
               "title": "'The Intelligence Illusion: Why generative models are bad for business' ebook Halloween sale",
               "date": "2025-10-29",
               "link": "https://www.baldurbjarnason.com/2025/halloween-sale/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Down The Atomic Rabbit Hole",
+              "date": "2025-11-07",
+              "link": "https://blog.jim-nielsen.com/2025/my-atomic-rabbithole/"
+            },
+            {
+              "title": "Browser APIs: The Web’s Free SaaS",
+              "date": "2025-11-02",
+              "link": "https://blog.jim-nielsen.com/2025/browser-apis-as-sass/"
+            },
+            {
+              "title": "Don’t Forget These Tags to Make HTML Work Like You Expect",
+              "date": "2025-10-26",
+              "link": "https://blog.jim-nielsen.com/2025/dont-forget-these-html-tags/"
+            },
+            {
+              "title": "Everything Is Broken",
+              "date": "2025-10-24",
+              "link": "https://blog.jim-nielsen.com/2025/everything-is-broken/"
+            },
+            {
+              "title": "AI Browsers: Living on the Frontier of Security",
+              "date": "2025-10-23",
+              "link": "https://blog.jim-nielsen.com/2025/ai-browsers-frontier-security/"
             }
           ]
         },
@@ -225,6 +318,11 @@
               "link": "https://flamedfury.com/posts/anitya-live-at-the-civic/"
             },
             {
+              "title": "Yeah, I Wish A Brother Would",
+              "date": "2025-11-06",
+              "link": "https://flamedfury.com/posts/yeah-i-wish-a-brother-would/"
+            },
+            {
               "title": "Armageddon Expo 2025",
               "date": "2025-10-28",
               "link": "https://flamedfury.com/posts/armageddon-expo-2025/"
@@ -238,11 +336,6 @@
               "title": "Disable AI In Firefox",
               "date": "2025-10-24",
               "link": "https://flamedfury.com/posts/disable-ai-in-firefox/"
-            },
-            {
-              "title": "Cyberpunk: Edgerunners (2022)",
-              "date": "2025-10-20",
-              "link": "https://flamedfury.com/posts/cyberpunk-edgerunners-2022/"
             }
           ]
         },
@@ -619,6 +712,37 @@
           ]
         },
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "An Abundance of Inspiration",
+              "date": "2025-10-28",
+              "link": "https://robinrendle.com/notes/an-abundance-of-inspiration/"
+            },
+            {
+              "title": "The Drifter",
+              "date": "2025-10-05",
+              "link": "https://robinrendle.com/notes/the-drifter/"
+            },
+            {
+              "title": "A Few Nice Words about Viewfinder",
+              "date": "2025-09-20",
+              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
+            },
+            {
+              "title": "Ditch those words!",
+              "date": "2025-09-13",
+              "link": "https://robinrendle.com/notes/ditch-those-words/"
+            },
+            {
+              "title": "Poverty, By America",
+              "date": "2025-09-07",
+              "link": "https://robinrendle.com/notes/notes-on-poverty/"
+            }
+          ]
+        },
+        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -770,37 +894,6 @@
               "title": "Calm and Steady - The Joy and Overload of Starting Something New",
               "date": "2025-03-10",
               "link": "https://www.lisihocke.com/2025/03/calm-and-steady-the-joy-and-overload-of-starting-something-new.html"
-            }
-          ]
-        },
-        {
-          "title": "draganstepanovic.com",
-          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
-          "items": [
-            {
-              "title": "If you can't change design cheaply",
-              "date": "2025-10-25",
-              "link": "https://dragan-stepanovic.github.io//2025/10/25/if-you-cant-change-design-cheaply.html"
-            },
-            {
-              "title": "It's not about reducing the costs per se",
-              "date": "2025-09-27",
-              "link": "https://dragan-stepanovic.github.io//2025/09/27/reducing-costs.html"
-            },
-            {
-              "title": "Dynamics between transaction cost and batch size is simple, but often counterintuitive.",
-              "date": "2025-06-19",
-              "link": "https://dragan-stepanovic.github.io//2025/06/19/working-together-works.html"
-            },
-            {
-              "title": "Managing  interdependence over decoupling",
-              "date": "2025-04-03",
-              "link": "https://dragan-stepanovic.github.io//2025/04/03/interdependence-over-independence.html"
-            },
-            {
-              "title": "Working together (pair/mob/ensemble) helps with fixing inefficiencies in the system",
-              "date": "2025-03-04",
-              "link": "https://dragan-stepanovic.github.io//2025/03/04/pain-together.html"
             }
           ]
         },
@@ -1115,6 +1208,37 @@
           ]
         },
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
+            },
+            {
+              "title": "Web Standards and the Fall of the House of Iamus",
+              "date": "2025-09-21",
+              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
+            }
+          ]
+        },
+        {
           "title": "Fynn Ellie Be",
           "feedUrl": "https://fynn.be/feed.xml",
           "items": [
@@ -1204,37 +1328,6 @@
               "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
               "date": "2025-02-15",
               "link": "https://www.felienne.com/archives/8749"
-            }
-          ]
-        },
-        {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "Ritual & its Consequences: book summary",
-              "date": "2025-10-05",
-              "link": "https://jessitron.com/2025/10/05/ritual-its-consequences-book-summary/"
-            },
-            {
-              "title": "When efficiency isn’t wasteful",
-              "date": "2025-09-21",
-              "link": "https://jessitron.com/2025/09/21/when-efficiency-is-wasteful/"
-            },
-            {
-              "title": "Fixing Without Understanding",
-              "date": "2025-05-19",
-              "link": "https://jessitron.com/2025/05/18/fixing-without-understanding/"
-            },
-            {
-              "title": "Augmented Coding: Better with Principles",
-              "date": "2025-05-18",
-              "link": "https://jessitron.com/2025/05/18/augmented-coding-better-with-principles/"
-            },
-            {
-              "title": "Augmented Coding: an Experience Report",
-              "date": "2025-04-20",
-              "link": "https://jessitron.com/2025/04/20/augmented-coding-an-experience-report/"
             }
           ]
         },
@@ -2399,14 +2492,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-09T03:42:08.343Z",
+  "fetchDate": "2025-11-10T03:49:07.241Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
-    "https://blog.jim-nielsen.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://infrequently.org/feed/"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

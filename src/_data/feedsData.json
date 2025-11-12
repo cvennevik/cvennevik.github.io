@@ -4,6 +4,156 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Review your own git pull requests",
+              "date": "2025-11-11",
+              "link": "https://gomakethings.com/review-your-own-git-pull-requests/"
+            },
+            {
+              "title": "Pull Request Templates",
+              "date": "2025-11-04",
+              "link": "https://gomakethings.com/pull-request-templates/"
+            },
+            {
+              "title": "Cloud4eva",
+              "date": "2025-11-03",
+              "link": "https://gomakethings.com/cloud4eva/"
+            },
+            {
+              "title": "Just use a button",
+              "date": "2025-10-31",
+              "link": "https://gomakethings.com/just-use-a-button/"
+            },
+            {
+              "title": "Natural selection in action",
+              "date": "2025-10-29",
+              "link": "https://gomakethings.com/natural-selection-in-action/"
+            }
+          ]
+        },
+        {
+          "title": "A Tester's Journey",
+          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Attempting to Stay Calm and Steady - Concluding Remarks",
+              "date": "2025-11-11",
+              "link": "https://www.lisihocke.com/2025/11/attempting-to-stay-calm-and-steady-concluding-remarks.html"
+            },
+            {
+              "title": "NDC Porto 2025 - Filled to the Brim",
+              "date": "2025-10-26",
+              "link": "https://www.lisihocke.com/2025/10/ndc-porto-2025-filled-to-the-brim.html"
+            },
+            {
+              "title": "Open Security Conference 2025 - Marvelous Momentum",
+              "date": "2025-10-13",
+              "link": "https://www.lisihocke.com/2025/10/open-security-conference-2025-marvelous-momentum.html"
+            },
+            {
+              "title": "The Calmness Tide - It Comes and Goes in Waves",
+              "date": "2025-08-19",
+              "link": "https://www.lisihocke.com/2025/08/the-calmness-tide-it-comes-and-goes-in-waves.html"
+            },
+            {
+              "title": "SoCraTes 2025 - Coming Home",
+              "date": "2025-08-03",
+              "link": "https://www.lisihocke.com/2025/08/socrates-2025-coming-home.html"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Write Custom Extensions for htmx to Make it Your Own Personal Toolkit",
+              "date": "2025-11-11",
+              "link": "https://thathtml.blog/2025/11/htmx-extensions-your-personal-toolkit/"
+            },
+            {
+              "title": "Add Terrific DX to Your UI Web Components with nimble-html",
+              "date": "2025-10-17",
+              "link": "https://thathtml.blog/2025/10/nimble-html-adds-great-dx-to-ui-components/"
+            },
+            {
+              "title": "Give “fetch” a Bit More Oomph with “ffetch”",
+              "date": "2025-09-18",
+              "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
+            },
+            {
+              "title": "Announcing Reciprocate, a Sweet Solution for Making Your HTML Web Components Reactive",
+              "date": "2025-09-08",
+              "link": "https://thathtml.blog/2025/09/reciprocate-reactivity-for-html-web-components/"
+            },
+            {
+              "title": "Declarative HTML Binding in Only 20 Lines of Code! (and Signals)",
+              "date": "2025-08-08",
+              "link": "https://thathtml.blog/2025/08/declarative-html-binding-with-signals/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-11-11",
+              "link": "https://dbushell.com/notes/2025-11-11T07:27Z/"
+            },
+            {
+              "date": "2025-11-11",
+              "link": "https://dbushell.com/notes/2025-11-11T06:21Z/"
+            },
+            {
+              "date": "2025-11-10",
+              "link": "https://dbushell.com/notes/2025-11-10T07:50Z/"
+            },
+            {
+              "date": "2025-11-08",
+              "link": "https://dbushell.com/notes/2025-11-08T07:08Z/"
+            },
+            {
+              "date": "2025-11-07",
+              "link": "https://dbushell.com/notes/2025-11-07T11:17Z/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Val Town 2023-2025 Retrospective",
+              "date": "2025-11-11",
+              "link": "https://macwright.com/2025/11/11/val-town.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-11-02",
+              "link": "https://macwright.com/2025/11/02/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-10-04",
+              "link": "https://macwright.com/2025/10/04/recently.html"
+            },
+            {
+              "title": "Porteur bag 2",
+              "date": "2025-09-27",
+              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
+            },
+            {
+              "title": "Cooking with glasses",
+              "date": "2025-09-21",
+              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,32 +181,6 @@
               "title": "Is it Time to Regulate React?",
               "date": "2025-10-23",
               "link": "https://dbushell.com/2025/10/23/react-regulation/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-11-10",
-              "link": "https://dbushell.com/notes/2025-11-10T07:50Z/"
-            },
-            {
-              "date": "2025-11-08",
-              "link": "https://dbushell.com/notes/2025-11-08T07:08Z/"
-            },
-            {
-              "date": "2025-11-07",
-              "link": "https://dbushell.com/notes/2025-11-07T11:17Z/"
-            },
-            {
-              "date": "2025-11-06",
-              "link": "https://dbushell.com/notes/2025-11-06T19:07Z/"
-            },
-            {
-              "date": "2025-11-04",
-              "link": "https://dbushell.com/notes/2025-11-04T07:50Z/"
             }
           ]
         },
@@ -433,37 +557,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Pull Request Templates",
-              "date": "2025-11-04",
-              "link": "https://gomakethings.com/pull-request-templates/"
-            },
-            {
-              "title": "Cloud4eva",
-              "date": "2025-11-03",
-              "link": "https://gomakethings.com/cloud4eva/"
-            },
-            {
-              "title": "Just use a button",
-              "date": "2025-10-31",
-              "link": "https://gomakethings.com/just-use-a-button/"
-            },
-            {
-              "title": "Natural selection in action",
-              "date": "2025-10-29",
-              "link": "https://gomakethings.com/natural-selection-in-action/"
-            },
-            {
-              "title": "The straight line from JS frameworks to AI",
-              "date": "2025-10-28",
-              "link": "https://gomakethings.com/the-straight-line-from-js-frameworks-to-ai/"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -584,37 +677,6 @@
               "title": "Seven Years of Firecracker",
               "date": "2025-09-18",
               "link": "http://brooker.co.za/blog/2025/09/18/firecracker.html"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2025-11-02",
-              "link": "https://macwright.com/2025/11/02/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-10-04",
-              "link": "https://macwright.com/2025/10/04/recently.html"
-            },
-            {
-              "title": "Porteur bag 2",
-              "date": "2025-09-27",
-              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
-            },
-            {
-              "title": "Cooking with glasses",
-              "date": "2025-09-21",
-              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-08-29",
-              "link": "https://macwright.com/2025/08/29/recently.html"
             }
           ]
         },
@@ -867,37 +929,6 @@
           ]
         },
         {
-          "title": "A Tester's Journey",
-          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "NDC Porto 2025 - Filled to the Brim",
-              "date": "2025-10-26",
-              "link": "https://www.lisihocke.com/2025/10/ndc-porto-2025-filled-to-the-brim.html"
-            },
-            {
-              "title": "Open Security Conference 2025 - Marvelous Momentum",
-              "date": "2025-10-13",
-              "link": "https://www.lisihocke.com/2025/10/open-security-conference-2025-marvelous-momentum.html"
-            },
-            {
-              "title": "The Calmness Tide - It Comes and Goes in Waves",
-              "date": "2025-08-19",
-              "link": "https://www.lisihocke.com/2025/08/the-calmness-tide-it-comes-and-goes-in-waves.html"
-            },
-            {
-              "title": "SoCraTes 2025 - Coming Home",
-              "date": "2025-08-03",
-              "link": "https://www.lisihocke.com/2025/08/socrates-2025-coming-home.html"
-            },
-            {
-              "title": "Calm and Steady - The Joy and Overload of Starting Something New",
-              "date": "2025-03-10",
-              "link": "https://www.lisihocke.com/2025/03/calm-and-steady-the-joy-and-overload-of-starting-something-new.html"
-            }
-          ]
-        },
-        {
           "title": "Good Tech Things",
           "feedUrl": "https://newsletter.goodtechthings.com/feed",
           "items": [
@@ -1084,37 +1115,6 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Add Terrific DX to Your UI Web Components with nimble-html",
-              "date": "2025-10-17",
-              "link": "https://thathtml.blog/2025/10/nimble-html-adds-great-dx-to-ui-components/"
-            },
-            {
-              "title": "Give “fetch” a Bit More Oomph with “ffetch”",
-              "date": "2025-09-18",
-              "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
-            },
-            {
-              "title": "Announcing Reciprocate, a Sweet Solution for Making Your HTML Web Components Reactive",
-              "date": "2025-09-08",
-              "link": "https://thathtml.blog/2025/09/reciprocate-reactivity-for-html-web-components/"
-            },
-            {
-              "title": "Declarative HTML Binding in Only 20 Lines of Code! (and Signals)",
-              "date": "2025-08-08",
-              "link": "https://thathtml.blog/2025/08/declarative-html-binding-with-signals/"
-            },
-            {
-              "title": "Friends at Last: Tailwind &amp; CSS…whodathunkit?!",
-              "date": "2025-08-04",
-              "link": "https://thathtml.blog/2025/08/tailwind-and-css-friends-at-last/"
-            }
-          ]
-        },
-        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
@@ -1204,37 +1204,6 @@
               "title": "Using the 8BitDo Micro game controller with a Mac",
               "date": "2025-07-24",
               "link": "https://rosswintle.uk/2025/07/using-the-8bitdo-micro-game-controller-with-a-mac/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            },
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
             }
           ]
         },
@@ -1762,6 +1731,37 @@
               "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
               "date": "2024-01-08",
               "link": "https://verraes.net/2024/01/critical-software-redesign/"
+            }
+          ]
+        },
+        {
+          "title": "Sara Joy",
+          "feedUrl": "https://sarajoy.dev/rss.xml",
+          "items": [
+            {
+              "title": "Farmors Chokladkaka",
+              "date": "2025-07-21",
+              "link": "https://sarajoy.dev/blog/farmors-chokladkaka/"
+            },
+            {
+              "title": "Work with Illustrators & Designers",
+              "date": "2025-07-17",
+              "link": "https://sarajoy.dev/blog/whimsica11y-logo/"
+            },
+            {
+              "title": "Those annoying long URLs causing overflow?",
+              "date": "2025-05-22",
+              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
+            },
+            {
+              "title": "Come to the light-dark() Side",
+              "date": "2024-10-26",
+              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
+            },
+            {
+              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
+              "date": "2024-09-30",
+              "link": "https://sarajoy.dev/blog/see-and-point/"
             }
           ]
         },
@@ -2461,12 +2461,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-11T03:44:23.809Z",
+  "fetchDate": "2025-11-12T03:42:52.136Z",
   "errors": [
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://sarajoy.dev/rss.xml"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

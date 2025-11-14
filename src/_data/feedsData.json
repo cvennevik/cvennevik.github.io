@@ -4,33 +4,33 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
           "items": [
             {
-              "title": "Tahoe’s Terrible Icons: The B-Sides",
-              "date": "2025-11-12",
-              "link": "https://blog.jim-nielsen.com/2025/tahoes-terrible-icons-b-sides/"
+              "title": "Agda on NixOS",
+              "date": "2025-11-14",
+              "link": "https://borretti.me/article/agda-on-nixos"
             },
             {
-              "title": "Leveraging a Web Component For Comparing iOS and macOS Icons",
-              "date": "2025-11-09",
-              "link": "https://blog.jim-nielsen.com/2025/comparing-icons-in-my-collection/"
+              "title": "Hashcards: A Plain-Text Spaced Repetition System",
+              "date": "2025-10-05",
+              "link": "https://borretti.me/article/hashcards-plain-text-spaced-repetition"
             },
             {
-              "title": "Down The Atomic Rabbit Hole",
-              "date": "2025-11-07",
-              "link": "https://blog.jim-nielsen.com/2025/my-atomic-rabbithole/"
+              "title": "Adding Planets to Celestia on macOS",
+              "date": "2025-07-29",
+              "link": "https://borretti.me/article/adding-planets-to-celestia-on-macos"
             },
             {
-              "title": "Browser APIs: The Web’s Free SaaS",
-              "date": "2025-11-02",
-              "link": "https://blog.jim-nielsen.com/2025/browser-apis-as-sass/"
+              "title": "Notes on Managing ADHD",
+              "date": "2025-06-12",
+              "link": "https://borretti.me/article/notes-on-managing-adhd"
             },
             {
-              "title": "Don’t Forget These Tags to Make HTML Work Like You Expect",
-              "date": "2025-10-26",
-              "link": "https://blog.jim-nielsen.com/2025/dont-forget-these-html-tags/"
+              "title": "Inboxes are Underrated",
+              "date": "2025-05-24",
+              "link": "https://borretti.me/article/inboxes-are-underrated"
             }
           ]
         },
@@ -38,6 +38,11 @@
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Open source is still broken",
+              "date": "2025-11-13",
+              "link": "https://gomakethings.com/open-source-is-still-broken/"
+            },
             {
               "title": "HTML is for lovers",
               "date": "2025-11-12",
@@ -57,11 +62,37 @@
               "title": "Cloud4eva",
               "date": "2025-11-03",
               "link": "https://gomakethings.com/cloud4eva/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "My new business + tech podcast",
+              "date": "2025-11-13",
+              "link": "https://anniemueller.com/posts/my-new-business-tech-podcast"
             },
             {
-              "title": "Just use a button",
-              "date": "2025-10-31",
-              "link": "https://gomakethings.com/just-use-a-button/"
+              "title": "Outside sad is better than inside sad",
+              "date": "2025-11-08",
+              "link": "https://anniemueller.com/posts/outside-sad-is-better-than-inside-sad"
+            },
+            {
+              "title": "Who’s in charge here anyway",
+              "date": "2025-11-04",
+              "link": "https://anniemueller.com/posts/whos-in-charge-here-anyway"
+            },
+            {
+              "title": "Duck duck duck dichotomy",
+              "date": "2025-11-01",
+              "link": "https://anniemueller.com/posts/duck-duck-duck-dichotomy"
+            },
+            {
+              "title": "Love letters 11-13",
+              "date": "2025-10-24",
+              "link": "https://anniemueller.com/posts/love-letters-11-13"
             }
           ]
         },
@@ -150,37 +181,6 @@
             {
               "date": "2025-11-08",
               "link": "https://dbushell.com/notes/2025-11-08T07:08Z/"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Val Town 2023-2025 Retrospective",
-              "date": "2025-11-11",
-              "link": "https://macwright.com/2025/11/11/val-town.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-11-02",
-              "link": "https://macwright.com/2025/11/02/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-10-04",
-              "link": "https://macwright.com/2025/10/04/recently.html"
-            },
-            {
-              "title": "Porteur bag 2",
-              "date": "2025-09-27",
-              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
-            },
-            {
-              "title": "Cooking with glasses",
-              "date": "2025-09-21",
-              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
             }
           ]
         },
@@ -429,37 +429,6 @@
               "title": "Using Java types for keywordy args",
               "date": "2025-08-02",
               "link": "https://garoof.no/java/keywordy-types.html"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Outside sad is better than inside sad",
-              "date": "2025-11-08",
-              "link": "https://anniemueller.com/posts/outside-sad-is-better-than-inside-sad"
-            },
-            {
-              "title": "Who’s in charge here anyway",
-              "date": "2025-11-04",
-              "link": "https://anniemueller.com/posts/whos-in-charge-here-anyway"
-            },
-            {
-              "title": "Duck duck duck dichotomy",
-              "date": "2025-11-01",
-              "link": "https://anniemueller.com/posts/duck-duck-duck-dichotomy"
-            },
-            {
-              "title": "Love letters 11-13",
-              "date": "2025-10-24",
-              "link": "https://anniemueller.com/posts/love-letters-11-13"
-            },
-            {
-              "title": "Make rules, break rules",
-              "date": "2025-10-22",
-              "link": "https://anniemueller.com/posts/make-rules-break-rules"
             }
           ]
         },
@@ -960,6 +929,37 @@
           ]
         },
         {
+          "title": "Hazel Weakly",
+          "feedUrl": "https://hazelweakly.me/atom.xml",
+          "items": [
+            {
+              "title": "Scaling Innovation: Building Ecosystems",
+              "date": "2025-10-21",
+              "link": "https://hazelweakly.me/blog/scaling-innovation-building-ecosystems/"
+            },
+            {
+              "title": "Stop Building AI Tools Backwards",
+              "date": "2025-05-16",
+              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
+            },
+            {
+              "title": "The Future of Observability: Observability 3.0",
+              "date": "2024-12-09",
+              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
+            },
+            {
+              "title": "You Have One Voice",
+              "date": "2024-10-21",
+              "link": "https://hazelweakly.me/blog/you-have-one-voice/"
+            },
+            {
+              "title": "OpenTelemetry Challenges: Handling Long-Running Spans",
+              "date": "2024-10-10",
+              "link": "https://hazelweakly.me/blog/opentelemetry-challenges-handling-long-running-spans/"
+            }
+          ]
+        },
+        {
           "title": "ntietz.com blog - technically a blog",
           "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
@@ -1146,37 +1146,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            },
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
-            }
-          ]
-        },
-        {
           "title": "Fynn Ellie Be",
           "feedUrl": "https://fynn.be/feed.xml",
           "items": [
@@ -1266,37 +1235,6 @@
               "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
               "date": "2025-02-15",
               "link": "https://www.felienne.com/archives/8749"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Hashcards: A Plain-Text Spaced Repetition System",
-              "date": "2025-10-05",
-              "link": "https://borretti.me/article/hashcards-plain-text-spaced-repetition"
-            },
-            {
-              "title": "Adding Planets to Celestia on macOS",
-              "date": "2025-07-29",
-              "link": "https://borretti.me/article/adding-planets-to-celestia-on-macos"
-            },
-            {
-              "title": "Notes on Managing ADHD",
-              "date": "2025-06-12",
-              "link": "https://borretti.me/article/notes-on-managing-adhd"
-            },
-            {
-              "title": "Inboxes are Underrated",
-              "date": "2025-05-24",
-              "link": "https://borretti.me/article/inboxes-are-underrated"
-            },
-            {
-              "title": "You Can Choose Tools That Make You Happy",
-              "date": "2025-05-20",
-              "link": "https://borretti.me/article/you-can-choose-tools-that-make-you-happy"
             }
           ]
         },
@@ -1793,37 +1731,6 @@
               "title": "The Consciousness Lottery",
               "date": "2024-11-19",
               "link": "https://kyleshevlin.com/consciousness-lottery/"
-            }
-          ]
-        },
-        {
-          "title": "HeydonWorks",
-          "feedUrl": "https://heydonworks.com/feed.xml",
-          "items": [
-            {
-              "title": "Accessible Rickrolling",
-              "date": "2025-06-12",
-              "link": "https://heydonworks.com/article/accessible-rick-rolling/"
-            },
-            {
-              "title": "Hel: A 3-Axis, Obliterated Variable Font",
-              "date": "2025-06-10",
-              "link": "https://heydonworks.com/article/hel-variable-font/"
-            },
-            {
-              "title": "Pride, shame, and accessibility",
-              "date": "2025-06-09",
-              "link": "https://heydonworks.com/article/pride-shame-and-accessibility/"
-            },
-            {
-              "title": "Skune: A hand drawn variable font",
-              "date": "2025-06-09",
-              "link": "https://heydonworks.com/article/skune-hand-drawn-variable-font/"
-            },
-            {
-              "title": "Advertising? On my blog?",
-              "date": "2025-05-30",
-              "link": "https://heydonworks.com/article/advertising-on-this-blog/"
             }
           ]
         },
@@ -2430,13 +2337,16 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-13T03:46:38.315Z",
+  "fetchDate": "2025-11-14T03:44:26.897Z",
   "errors": [
+    "https://blog.jim-nielsen.com/feed.xml",
     "https://cutlefish.substack.com/feed",
+    "https://heydonworks.com/feed.xml",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://boehs.org/in/blog.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://hazelweakly.me/atom.xml"
+    "https://macwright.com/rss.xml",
+    "https://infrequently.org/feed/"
   ]
 }

@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Podcast Notes: Feross Aboukhadijeh on The Changelog",
+              "date": "2025-11-19",
+              "link": "https://blog.jim-nielsen.com/2025/notes-from-changelog-with-feross/"
+            },
+            {
+              "title": "Data Storage As Files on Disk Paired With an LLM",
+              "date": "2025-11-16",
+              "link": "https://blog.jim-nielsen.com/2025/files-on-disk-scripted-with-ai/"
+            },
+            {
+              "title": "Tahoe’s Terrible Icons: The B-Sides",
+              "date": "2025-11-12",
+              "link": "https://blog.jim-nielsen.com/2025/tahoes-terrible-icons-b-sides/"
+            },
+            {
+              "title": "Leveraging a Web Component For Comparing iOS and macOS Icons",
+              "date": "2025-11-09",
+              "link": "https://blog.jim-nielsen.com/2025/comparing-icons-in-my-collection/"
+            },
+            {
+              "title": "Down The Atomic Rabbit Hole",
+              "date": "2025-11-07",
+              "link": "https://blog.jim-nielsen.com/2025/my-atomic-rabbithole/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "AI and cigarettes",
+              "date": "2025-11-19",
+              "link": "https://gomakethings.com/ai-and-cigarettes/"
+            },
+            {
+              "title": "Typescript without Typescript",
+              "date": "2025-11-18",
+              "link": "https://gomakethings.com/typescript-without-typescript/"
+            },
+            {
+              "title": "Open source is still broken",
+              "date": "2025-11-13",
+              "link": "https://gomakethings.com/open-source-is-still-broken/"
+            },
+            {
+              "title": "HTML is for lovers",
+              "date": "2025-11-12",
+              "link": "https://gomakethings.com/html-is-for-lovers/"
+            },
+            {
+              "title": "Review your own git pull requests",
+              "date": "2025-11-11",
+              "link": "https://gomakethings.com/review-your-own-git-pull-requests/"
+            }
+          ]
+        },
+        {
           "title": "More Questions Than Answers",
           "feedUrl": "https://unremarkabletester.com/feed/",
           "items": [
@@ -35,33 +97,59 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
             {
-              "title": "Typescript without Typescript",
-              "date": "2025-11-18",
-              "link": "https://gomakethings.com/typescript-without-typescript/"
+              "title": "Performance tuning i frontend med React",
+              "date": "2025-11-19",
+              "link": "https://www.kodemaker.no/blogg/2025-11-19-frontend-performance/"
             },
             {
-              "title": "Open source is still broken",
-              "date": "2025-11-13",
-              "link": "https://gomakethings.com/open-source-is-still-broken/"
-            },
-            {
-              "title": "HTML is for lovers",
+              "title": "Kodemaker Geekend",
               "date": "2025-11-12",
-              "link": "https://gomakethings.com/html-is-for-lovers/"
+              "link": "https://www.kodemaker.no/blogg/2025-11-12-geekend/"
             },
             {
-              "title": "Review your own git pull requests",
+              "title": "Privatisering uten marked?",
+              "date": "2025-11-03",
+              "link": "https://www.kodemaker.no/blogg/2025-11-03-marked/"
+            },
+            {
+              "title": "Hvordan få det (litt) roligere i et småbarnshjem med Raspberry Pi",
+              "date": "2025-10-29",
+              "link": "https://www.kodemaker.no/blogg/2025-10-29/"
+            },
+            {
+              "title": "JavaZone 2025",
+              "date": "2025-10-09",
+              "link": "https://www.kodemaker.no/blogg/2025-10-javazone-2025/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-11-19",
+              "link": "https://dbushell.com/notes/2025-11-19T06:47Z/"
+            },
+            {
+              "date": "2025-11-19",
+              "link": "https://dbushell.com/notes/2025-11-19T06:11Z/"
+            },
+            {
+              "date": "2025-11-18",
+              "link": "https://dbushell.com/notes/2025-11-18T06:50Z/"
+            },
+            {
+              "date": "2025-11-12",
+              "link": "https://dbushell.com/notes/2025-11-12T06:21Z/"
+            },
+            {
               "date": "2025-11-11",
-              "link": "https://gomakethings.com/review-your-own-git-pull-requests/"
-            },
-            {
-              "title": "Pull Request Templates",
-              "date": "2025-11-04",
-              "link": "https://gomakethings.com/pull-request-templates/"
+              "link": "https://dbushell.com/notes/2025-11-11T07:27Z/"
             }
           ]
         },
@@ -128,32 +216,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-11-18",
-              "link": "https://dbushell.com/notes/2025-11-18T06:50Z/"
-            },
-            {
-              "date": "2025-11-12",
-              "link": "https://dbushell.com/notes/2025-11-12T06:21Z/"
-            },
-            {
-              "date": "2025-11-11",
-              "link": "https://dbushell.com/notes/2025-11-11T07:27Z/"
-            },
-            {
-              "date": "2025-11-11",
-              "link": "https://dbushell.com/notes/2025-11-11T06:21Z/"
-            },
-            {
-              "date": "2025-11-10",
-              "link": "https://dbushell.com/notes/2025-11-10T07:50Z/"
-            }
-          ]
-        },
-        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -185,33 +247,33 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
-              "title": "Data Storage As Files on Disk Paired With an LLM",
-              "date": "2025-11-16",
-              "link": "https://blog.jim-nielsen.com/2025/files-on-disk-scripted-with-ai/"
+              "title": "Clap Your Hands Say Yeah",
+              "date": "2025-11-17",
+              "link": "https://flamedfury.com/posts/clap-your-hands-say-yeah/"
             },
             {
-              "title": "Tahoe’s Terrible Icons: The B-Sides",
-              "date": "2025-11-12",
-              "link": "https://blog.jim-nielsen.com/2025/tahoes-terrible-icons-b-sides/"
+              "title": "Insanity",
+              "date": "2025-11-10",
+              "link": "https://flamedfury.com/posts/insanity/"
             },
             {
-              "title": "Leveraging a Web Component For Comparing iOS and macOS Icons",
-              "date": "2025-11-09",
-              "link": "https://blog.jim-nielsen.com/2025/comparing-icons-in-my-collection/"
+              "title": "Anitya Live At The Civic",
+              "date": "2025-11-06",
+              "link": "https://flamedfury.com/posts/anitya-live-at-the-civic/"
             },
             {
-              "title": "Down The Atomic Rabbit Hole",
-              "date": "2025-11-07",
-              "link": "https://blog.jim-nielsen.com/2025/my-atomic-rabbithole/"
+              "title": "Yeah, I Wish A Brother Would",
+              "date": "2025-11-06",
+              "link": "https://flamedfury.com/posts/yeah-i-wish-a-brother-would/"
             },
             {
-              "title": "Browser APIs: The Web’s Free SaaS",
-              "date": "2025-11-02",
-              "link": "https://blog.jim-nielsen.com/2025/browser-apis-as-sass/"
+              "title": "Armageddon Expo 2025",
+              "date": "2025-10-28",
+              "link": "https://flamedfury.com/posts/armageddon-expo-2025/"
             }
           ]
         },
@@ -464,33 +526,33 @@
           ]
         },
         {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
           "items": [
             {
-              "title": "Kodemaker Geekend",
-              "date": "2025-11-12",
-              "link": "https://www.kodemaker.no/blogg/2025-11-12-geekend/"
+              "title": "Val Town 2023-2025 Retrospective",
+              "date": "2025-11-11",
+              "link": "https://macwright.com/2025/11/11/val-town.html"
             },
             {
-              "title": "Privatisering uten marked?",
-              "date": "2025-11-03",
-              "link": "https://www.kodemaker.no/blogg/2025-11-03-marked/"
+              "title": "Recently",
+              "date": "2025-11-02",
+              "link": "https://macwright.com/2025/11/02/recently.html"
             },
             {
-              "title": "Hvordan få det (litt) roligere i et småbarnshjem med Raspberry Pi",
-              "date": "2025-10-29",
-              "link": "https://www.kodemaker.no/blogg/2025-10-29/"
+              "title": "Recently",
+              "date": "2025-10-04",
+              "link": "https://macwright.com/2025/10/04/recently.html"
             },
             {
-              "title": "JavaZone 2025",
-              "date": "2025-10-09",
-              "link": "https://www.kodemaker.no/blogg/2025-10-javazone-2025/"
+              "title": "Porteur bag 2",
+              "date": "2025-09-27",
+              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
             },
             {
-              "title": "Tidsklemma: Familie, jobb, to programmeringsspråk og en roman",
-              "date": "2025-08-20",
-              "link": "https://www.kodemaker.no/blogg/2025-08-20-tidsklemma/"
+              "title": "Cooking with glasses",
+              "date": "2025-09-21",
+              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
             }
           ]
         },
@@ -526,37 +588,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Val Town 2023-2025 Retrospective",
-              "date": "2025-11-11",
-              "link": "https://macwright.com/2025/11/11/val-town.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-11-02",
-              "link": "https://macwright.com/2025/11/02/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-10-04",
-              "link": "https://macwright.com/2025/10/04/recently.html"
-            },
-            {
-              "title": "Porteur bag 2",
-              "date": "2025-09-27",
-              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
-            },
-            {
-              "title": "Cooking with glasses",
-              "date": "2025-09-21",
-              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
-            }
-          ]
-        },
-        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -584,37 +615,6 @@
               "title": "Declarative HTML Binding in Only 20 Lines of Code! (and Signals)",
               "date": "2025-08-08",
               "link": "https://thathtml.blog/2025/08/declarative-html-binding-with-signals/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Insanity",
-              "date": "2025-11-10",
-              "link": "https://flamedfury.com/posts/insanity/"
-            },
-            {
-              "title": "Anitya Live At The Civic",
-              "date": "2025-11-06",
-              "link": "https://flamedfury.com/posts/anitya-live-at-the-civic/"
-            },
-            {
-              "title": "Yeah, I Wish A Brother Would",
-              "date": "2025-11-06",
-              "link": "https://flamedfury.com/posts/yeah-i-wish-a-brother-would/"
-            },
-            {
-              "title": "Armageddon Expo 2025",
-              "date": "2025-10-28",
-              "link": "https://flamedfury.com/posts/armageddon-expo-2025/"
-            },
-            {
-              "title": "Golfing Weekend",
-              "date": "2025-10-27",
-              "link": "https://flamedfury.com/posts/golfing-weekend/"
             }
           ]
         },
@@ -1022,37 +1022,6 @@
           ]
         },
         {
-          "title": "Marvin Hagemeister",
-          "feedUrl": "https://marvinh.dev/feed.xml",
-          "items": [
-            {
-              "title": "Building From First Principles",
-              "date": "2025-10-28",
-              "link": "https://marvinh.dev/blog/building-from-first-principles/"
-            },
-            {
-              "title": "The missing link in JavaScript tools",
-              "date": "2025-09-11",
-              "link": "https://marvinh.dev/blog/unifying-js-tools/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Semver",
-              "date": "2025-08-10",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
-              "date": "2025-02-23",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
-            },
-            {
-              "title": "The modern way to write JavaScript servers",
-              "date": "2025-01-25",
-              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -1084,6 +1053,37 @@
           ]
         },
         {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Building From First Principles",
+              "date": "2025-10-28",
+              "link": "https://marvinh.dev/blog/building-from-first-principles/"
+            },
+            {
+              "title": "The missing link in JavaScript tools",
+              "date": "2025-09-11",
+              "link": "https://marvinh.dev/blog/unifying-js-tools/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Semver",
+              "date": "2025-08-10",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
+              "date": "2025-02-23",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
+            },
+            {
+              "title": "The modern way to write JavaScript servers",
+              "date": "2025-01-25",
+              "link": "https://marvinh.dev/blog/modern-way-to-write-javascript-servers/"
+            }
+          ]
+        },
+        {
           "title": "2ality – JavaScript and more",
           "feedUrl": "https://2ality.com/feeds/posts.atom",
           "items": [
@@ -1111,37 +1111,6 @@
               "title": "Taking SVG “screenshots” of HTML elements",
               "date": "2025-09-29",
               "link": "https://2ality.com/2025/09/svg-screenshots.html"
-            }
-          ]
-        },
-        {
-          "title": "Good Tech Things",
-          "feedUrl": "https://newsletter.goodtechthings.com/feed",
-          "items": [
-            {
-              "title": "When everybody's down, nobody is",
-              "date": "2025-10-23",
-              "link": "https://newsletter.goodtechthings.com/p/when-everybodys-down-nobody-is"
-            },
-            {
-              "title": "Harsh truths to save you from ChatGPT psychosis",
-              "date": "2025-08-14",
-              "link": "https://newsletter.goodtechthings.com/p/harsh-truths-to-save-you-from-chatgpt"
-            },
-            {
-              "title": "Breaking some huge personal news",
-              "date": "2025-02-07",
-              "link": "https://newsletter.goodtechthings.com/p/breaking-some-huge-personal-news"
-            },
-            {
-              "title": "I'm glad I took the off-ramp from software engineering",
-              "date": "2025-01-22",
-              "link": "https://newsletter.goodtechthings.com/p/you-get-10-years-to-be-a-software"
-            },
-            {
-              "title": "Notes on Nix",
-              "date": "2025-01-20",
-              "link": "https://newsletter.goodtechthings.com/p/notes-on-nix"
             }
           ]
         },
@@ -1797,6 +1766,37 @@
           ]
         },
         {
+          "title": "Sara Joy",
+          "feedUrl": "https://sarajoy.dev/rss.xml",
+          "items": [
+            {
+              "title": "Farmors Chokladkaka",
+              "date": "2025-07-21",
+              "link": "https://sarajoy.dev/blog/farmors-chokladkaka/"
+            },
+            {
+              "title": "Work with Illustrators & Designers",
+              "date": "2025-07-17",
+              "link": "https://sarajoy.dev/blog/whimsica11y-logo/"
+            },
+            {
+              "title": "Those annoying long URLs causing overflow?",
+              "date": "2025-05-22",
+              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
+            },
+            {
+              "title": "Come to the light-dark() Side",
+              "date": "2024-10-26",
+              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
+            },
+            {
+              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
+              "date": "2024-09-30",
+              "link": "https://sarajoy.dev/blog/see-and-point/"
+            }
+          ]
+        },
+        {
           "title": "apenwarr",
           "feedUrl": "https://apenwarr.ca/log/rss.php",
           "items": [
@@ -2430,13 +2430,13 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-19T03:43:06.264Z",
+  "fetchDate": "2025-11-20T03:42:00.826Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
+    "https://newsletter.goodtechthings.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://boehs.org/in/blog.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://sarajoy.dev/rss.xml"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Safari strikes again",
+              "date": "2025-11-20",
+              "link": "https://gomakethings.com/safari-strikes-again/"
+            },
+            {
+              "title": "AI and cigarettes",
+              "date": "2025-11-19",
+              "link": "https://gomakethings.com/ai-and-cigarettes/"
+            },
+            {
+              "title": "Typescript without Typescript",
+              "date": "2025-11-18",
+              "link": "https://gomakethings.com/typescript-without-typescript/"
+            },
+            {
+              "title": "Open source is still broken",
+              "date": "2025-11-13",
+              "link": "https://gomakethings.com/open-source-is-still-broken/"
+            },
+            {
+              "title": "HTML is for lovers",
+              "date": "2025-11-12",
+              "link": "https://gomakethings.com/html-is-for-lovers/"
+            }
+          ]
+        },
+        {
+          "title": "apenwarr",
+          "feedUrl": "https://apenwarr.ca/log/rss.php",
+          "items": [
+            {
+              "title": "\n      Systems design 3: LLMs and the semantic revolution\n    ",
+              "date": "2025-11-20",
+              "link": "https://apenwarr.ca/log/20251120"
+            },
+            {
+              "title": "\n      Billionaire math\n    ",
+              "date": "2025-07-11",
+              "link": "https://apenwarr.ca/log/20250711"
+            },
+            {
+              "title": "\n      The evasive evitability of enshittification\n    ",
+              "date": "2025-06-15",
+              "link": "https://apenwarr.ca/log/20250530"
+            },
+            {
+              "title": "\n      NPS, the good parts\n    ",
+              "date": "2023-12-05",
+              "link": "https://apenwarr.ca/log/20231204"
+            },
+            {
+              "title": "\n      Interesting\n    ",
+              "date": "2023-10-06",
+              "link": "https://apenwarr.ca/log/20231006"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Who are they always texting?",
+              "date": "2025-11-20",
+              "link": "https://thejollyteapot.com/2025/11/20/who-are-they-always-texting/"
+            },
+            {
+              "title": "October 2025 blend of links",
+              "date": "2025-10-28",
+              "link": "https://thejollyteapot.com/october-2025-blend/"
+            },
+            {
+              "title": "Not my kind of web browser",
+              "date": "2025-10-22",
+              "link": "https://thejollyteapot.com/2025/10/22/not-my-kind-of-web-browser/"
+            },
+            {
+              "title": "Uninstalling apps (part 2)",
+              "date": "2025-10-11",
+              "link": "https://thejollyteapot.com/2025/10/11/uninstalling-apps-part-2/"
+            },
+            {
+              "title": "September 2025 blend of links",
+              "date": "2025-09-20",
+              "link": "https://thejollyteapot.com/september-2025-blend/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -31,37 +124,6 @@
               "title": "Down The Atomic Rabbit Hole",
               "date": "2025-11-07",
               "link": "https://blog.jim-nielsen.com/2025/my-atomic-rabbithole/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "AI and cigarettes",
-              "date": "2025-11-19",
-              "link": "https://gomakethings.com/ai-and-cigarettes/"
-            },
-            {
-              "title": "Typescript without Typescript",
-              "date": "2025-11-18",
-              "link": "https://gomakethings.com/typescript-without-typescript/"
-            },
-            {
-              "title": "Open source is still broken",
-              "date": "2025-11-13",
-              "link": "https://gomakethings.com/open-source-is-still-broken/"
-            },
-            {
-              "title": "HTML is for lovers",
-              "date": "2025-11-12",
-              "link": "https://gomakethings.com/html-is-for-lovers/"
-            },
-            {
-              "title": "Review your own git pull requests",
-              "date": "2025-11-11",
-              "link": "https://gomakethings.com/review-your-own-git-pull-requests/"
             }
           ]
         },
@@ -1022,37 +1084,6 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "October 2025 blend of links",
-              "date": "2025-10-28",
-              "link": "https://thejollyteapot.com/october-2025-blend/"
-            },
-            {
-              "title": "Not my kind of web browser",
-              "date": "2025-10-22",
-              "link": "https://thejollyteapot.com/2025/10/22/not-my-kind-of-web-browser/"
-            },
-            {
-              "title": "Uninstalling apps (part 2)",
-              "date": "2025-10-11",
-              "link": "https://thejollyteapot.com/2025/10/11/uninstalling-apps-part-2/"
-            },
-            {
-              "title": "September 2025 blend of links",
-              "date": "2025-09-20",
-              "link": "https://thejollyteapot.com/september-2025-blend/"
-            },
-            {
-              "title": "Reading my blog",
-              "date": "2025-09-15",
-              "link": "https://thejollyteapot.com/2025/09/15/reading-my-blog/"
-            }
-          ]
-        },
-        {
           "title": "Marvin Hagemeister",
           "feedUrl": "https://marvinh.dev/feed.xml",
           "items": [
@@ -1111,6 +1142,37 @@
               "title": "Taking SVG “screenshots” of HTML elements",
               "date": "2025-09-29",
               "link": "https://2ality.com/2025/09/svg-screenshots.html"
+            }
+          ]
+        },
+        {
+          "title": "Good Tech Things",
+          "feedUrl": "https://newsletter.goodtechthings.com/feed",
+          "items": [
+            {
+              "title": "When everybody's down, nobody is",
+              "date": "2025-10-23",
+              "link": "https://newsletter.goodtechthings.com/p/when-everybodys-down-nobody-is"
+            },
+            {
+              "title": "Harsh truths to save you from ChatGPT psychosis",
+              "date": "2025-08-14",
+              "link": "https://newsletter.goodtechthings.com/p/harsh-truths-to-save-you-from-chatgpt"
+            },
+            {
+              "title": "Breaking some huge personal news",
+              "date": "2025-02-07",
+              "link": "https://newsletter.goodtechthings.com/p/breaking-some-huge-personal-news"
+            },
+            {
+              "title": "I'm glad I took the off-ramp from software engineering",
+              "date": "2025-01-22",
+              "link": "https://newsletter.goodtechthings.com/p/you-get-10-years-to-be-a-software"
+            },
+            {
+              "title": "Notes on Nix",
+              "date": "2025-01-20",
+              "link": "https://newsletter.goodtechthings.com/p/notes-on-nix"
             }
           ]
         },
@@ -1270,37 +1332,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            },
-            {
-              "title": "Web Standards and the Fall of the House of Iamus",
-              "date": "2025-09-21",
-              "link": "https://infrequently.org/2025/09/standards-and-the-fall-of-iamus/"
-            }
-          ]
-        },
-        {
           "title": "Fynn Ellie Be",
           "feedUrl": "https://fynn.be/feed.xml",
           "items": [
@@ -1328,37 +1359,6 @@
               "title": "Tackling Temporal Troubles",
               "date": "2025-06-10",
               "link": "https://fynn.be/talks/tackling-temporal-troubles/"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Notes on switching to Helix from vim",
-              "date": "2025-10-10",
-              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
-            },
-            {
-              "title": "New zine: The Secret Rules of the Terminal",
-              "date": "2025-06-26",
-              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
-            },
-            {
-              "title": "Using `make` to compile C programs (for non-C-programmers)",
-              "date": "2025-06-10",
-              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
-            },
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
             }
           ]
         },
@@ -1793,37 +1793,6 @@
               "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
               "date": "2024-09-30",
               "link": "https://sarajoy.dev/blog/see-and-point/"
-            }
-          ]
-        },
-        {
-          "title": "apenwarr",
-          "feedUrl": "https://apenwarr.ca/log/rss.php",
-          "items": [
-            {
-              "title": "\n      Billionaire math\n    ",
-              "date": "2025-07-11",
-              "link": "https://apenwarr.ca/log/20250711"
-            },
-            {
-              "title": "\n      The evasive evitability of enshittification\n    ",
-              "date": "2025-06-15",
-              "link": "https://apenwarr.ca/log/20250530"
-            },
-            {
-              "title": "\n      NPS, the good parts\n    ",
-              "date": "2023-12-05",
-              "link": "https://apenwarr.ca/log/20231204"
-            },
-            {
-              "title": "\n      Interesting\n    ",
-              "date": "2023-10-06",
-              "link": "https://apenwarr.ca/log/20231006"
-            },
-            {
-              "title": "\n      Tech debt metaphor maximalism\n    ",
-              "date": "2023-07-11",
-              "link": "https://apenwarr.ca/log/20230605"
             }
           ]
         },
@@ -2430,13 +2399,14 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-20T03:42:00.826Z",
+  "fetchDate": "2025-11-21T03:41:48.600Z",
   "errors": [
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://newsletter.goodtechthings.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://boehs.org/in/blog.xml",
-    "https://mikegrindle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml",
+    "https://jvns.ca/atom.xml"
   ]
 }

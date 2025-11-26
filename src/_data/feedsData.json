@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "Stolen Focus",
+              "date": "2025-11-26",
+              "link": "https://moonbase.lgbt/blog/stolen-focus/"
+            },
+            {
+              "title": "No Seatbelt, No Job!",
+              "date": "2025-09-25",
+              "link": "https://moonbase.lgbt/blog/no-seatbelt-no-job/"
+            },
+            {
+              "title": "Misadventures running Clone Hero on Linux",
+              "date": "2025-08-25",
+              "link": "https://moonbase.lgbt/blog/clone-hero-linux/"
+            },
+            {
+              "title": "UED: Unthinkable",
+              "date": "2025-08-01",
+              "link": "https://moonbase.lgbt/blog/ued-unthinkable/"
+            },
+            {
+              "title": "UED: Ad Nauseam",
+              "date": "2025-07-30",
+              "link": "https://moonbase.lgbt/blog/ued-ad-nauseam/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Async SvelteKit Data and Side Effects",
+              "date": "2025-11-25",
+              "link": "https://dbushell.com/2025/11/25/async-sveltekit-data-and-side-effects/"
+            },
+            {
+              "title": "Croissant Update and Dexie",
+              "date": "2025-11-21",
+              "link": "https://dbushell.com/2025/11/21/croissant-update-and-dexie/"
+            },
+            {
+              "title": "Vivaldi, Yea or Nay?",
+              "date": "2025-11-14",
+              "link": "https://dbushell.com/2025/11/14/vivaldi-browser/"
+            },
+            {
+              "title": "Reimagine the Date Picker",
+              "date": "2025-11-10",
+              "link": "https://dbushell.com/2025/11/10/pikaday/"
+            },
+            {
+              "title": "Better Alt Text",
+              "date": "2025-11-01",
+              "link": "https://dbushell.com/2025/11/01/better-alt-text/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "A garden in bloom",
+              "date": "2025-11-25",
+              "link": "https://gomakethings.com/a-garden-in-bloom/"
+            },
+            {
+              "title": "You're doing JavaScript testing wrong",
+              "date": "2025-11-24",
+              "link": "https://gomakethings.com/youre-doing-javascript-testing-wrong/"
+            },
+            {
+              "title": "Essentials",
+              "date": "2025-11-21",
+              "link": "https://gomakethings.com/essentials/"
+            },
+            {
+              "title": "Safari strikes again",
+              "date": "2025-11-20",
+              "link": "https://gomakethings.com/safari-strikes-again/"
+            },
+            {
+              "title": "AI and cigarettes",
+              "date": "2025-11-19",
+              "link": "https://gomakethings.com/ai-and-cigarettes/"
+            }
+          ]
+        },
+        {
+          "title": ".:. brainsik",
+          "feedUrl": "https://brainsik.net/index.xml",
+          "items": [
+            {
+              "title": "Using a local LLM to convert grep output to Caddy config",
+              "date": "2025-11-25",
+              "link": "https://brainsik.net/2025/local-llm-convert-grep-to-caddy-config/"
+            },
+            {
+              "title": "Scraping Public Messages",
+              "date": "2025-05-21",
+              "link": "https://brainsik.net/2025/scraping-public-messages/"
+            },
+            {
+              "title": "The LLM Journey Begins?",
+              "date": "2025-01-07",
+              "link": "https://brainsik.net/2025/llm-journey-begins/"
+            },
+            {
+              "title": "Successfully Migrating to Caddy from Nginx",
+              "date": "2024-07-09",
+              "link": "https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/"
+            },
+            {
+              "title": "GPG Key Transition 2022",
+              "date": "2023-01-01",
+              "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
+            }
+          ]
+        },
+        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -62,37 +186,6 @@
               "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
               "date": "2025-07-24",
               "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "You're doing JavaScript testing wrong",
-              "date": "2025-11-24",
-              "link": "https://gomakethings.com/youre-doing-javascript-testing-wrong/"
-            },
-            {
-              "title": "Essentials",
-              "date": "2025-11-21",
-              "link": "https://gomakethings.com/essentials/"
-            },
-            {
-              "title": "Safari strikes again",
-              "date": "2025-11-20",
-              "link": "https://gomakethings.com/safari-strikes-again/"
-            },
-            {
-              "title": "AI and cigarettes",
-              "date": "2025-11-19",
-              "link": "https://gomakethings.com/ai-and-cigarettes/"
-            },
-            {
-              "title": "Typescript without Typescript",
-              "date": "2025-11-18",
-              "link": "https://gomakethings.com/typescript-without-typescript/"
             }
           ]
         },
@@ -345,33 +438,33 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
             {
-              "title": "Croissant Update and Dexie",
+              "title": "The dichotomy of print versus the web",
               "date": "2025-11-21",
-              "link": "https://dbushell.com/2025/11/21/croissant-update-and-dexie/"
+              "link": "https://www.baldurbjarnason.com/2025/the-dichotomy-of-print-vs-web/"
             },
             {
-              "title": "Vivaldi, Yea or Nay?",
-              "date": "2025-11-14",
-              "link": "https://dbushell.com/2025/11/14/vivaldi-browser/"
+              "title": "Kötturinn og ég, ný íslensk myndasaga",
+              "date": "2025-11-21",
+              "link": "https://www.baldurbjarnason.com/2025/kotturinn-og-eg/"
             },
             {
-              "title": "Reimagine the Date Picker",
-              "date": "2025-11-10",
-              "link": "https://dbushell.com/2025/11/10/pikaday/"
+              "title": "For sale: strong opinions; never published",
+              "date": "2025-11-07",
+              "link": "https://www.baldurbjarnason.com/2025/strong-opinions-never-published/"
             },
             {
-              "title": "Better Alt Text",
-              "date": "2025-11-01",
-              "link": "https://dbushell.com/2025/11/01/better-alt-text/"
+              "title": "Steamy Hveragerði",
+              "date": "2025-11-03",
+              "link": "https://www.baldurbjarnason.com/notes/photos/steamy-town-2025/"
             },
             {
-              "title": "Intent to Deprecate and Remove Google Chrome",
-              "date": "2025-11-01",
-              "link": "https://dbushell.com/2025/11/01/intent-to-deprecate-and-remove-google-chrome/"
+              "title": "First signs of winter",
+              "date": "2025-11-03",
+              "link": "https://www.baldurbjarnason.com/notes/photos/signs-of-winter-2025/"
             }
           ]
         },
@@ -403,37 +496,6 @@
               "title": "Algorithm: Sliding Window",
               "date": "2025-01-16",
               "link": "https://kyleshevlin.com/algorithm-sliding-window/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "The dichotomy of print versus the web",
-              "date": "2025-11-21",
-              "link": "https://www.baldurbjarnason.com/2025/the-dichotomy-of-print-vs-web/"
-            },
-            {
-              "title": "Kötturinn og ég, ný íslensk myndasaga",
-              "date": "2025-11-21",
-              "link": "https://www.baldurbjarnason.com/2025/kotturinn-og-eg/"
-            },
-            {
-              "title": "For sale: strong opinions; never published",
-              "date": "2025-11-07",
-              "link": "https://www.baldurbjarnason.com/2025/strong-opinions-never-published/"
-            },
-            {
-              "title": "Steamy Hveragerði",
-              "date": "2025-11-03",
-              "link": "https://www.baldurbjarnason.com/notes/photos/steamy-town-2025/"
-            },
-            {
-              "title": "First signs of winter",
-              "date": "2025-11-03",
-              "link": "https://www.baldurbjarnason.com/notes/photos/signs-of-winter-2025/"
             }
           ]
         },
@@ -832,37 +894,6 @@
               "title": "One way to do applied research",
               "date": "2024-11-07",
               "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "My new business + tech podcast",
-              "date": "2025-11-13",
-              "link": "https://anniemueller.com/posts/my-new-business-tech-podcast"
-            },
-            {
-              "title": "Outside sad is better than inside sad",
-              "date": "2025-11-08",
-              "link": "https://anniemueller.com/posts/outside-sad-is-better-than-inside-sad"
-            },
-            {
-              "title": "Who’s in charge here anyway",
-              "date": "2025-11-04",
-              "link": "https://anniemueller.com/posts/whos-in-charge-here-anyway"
-            },
-            {
-              "title": "Duck duck duck dichotomy",
-              "date": "2025-11-01",
-              "link": "https://anniemueller.com/posts/duck-duck-duck-dichotomy"
-            },
-            {
-              "title": "Love letters 11-13",
-              "date": "2025-10-24",
-              "link": "https://anniemueller.com/posts/love-letters-11-13"
             }
           ]
         },
@@ -1673,37 +1704,6 @@
           ]
         },
         {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "No Seatbelt, No Job!",
-              "date": "2025-09-25",
-              "link": "https://moonbase.lgbt/blog/no-seatbelt-no-job/"
-            },
-            {
-              "title": "Misadventures running Clone Hero on Linux",
-              "date": "2025-08-25",
-              "link": "https://moonbase.lgbt/blog/clone-hero-linux/"
-            },
-            {
-              "title": "UED: Unthinkable",
-              "date": "2025-08-01",
-              "link": "https://moonbase.lgbt/blog/ued-unthinkable/"
-            },
-            {
-              "title": "UED: Ad Nauseam",
-              "date": "2025-07-30",
-              "link": "https://moonbase.lgbt/blog/ued-ad-nauseam/"
-            },
-            {
-              "title": "Rachel’s iPod",
-              "date": "2025-07-21",
-              "link": "https://moonbase.lgbt/blog/rachels-ipod/"
-            }
-          ]
-        },
-        {
           "title": "Untested · Rafał Pastuszak",
           "feedUrl": "https://untested.sonnet.io/feed.xml",
           "items": [
@@ -1979,37 +1979,6 @@
               "title": "No, dynamic type systems are not inherently more open",
               "date": "2020-01-19",
               "link": "https://lexi-lambda.github.io/blog/2020/01/19/no-dynamic-type-systems-are-not-inherently-more-open/"
-            }
-          ]
-        },
-        {
-          "title": ".:. brainsik",
-          "feedUrl": "https://brainsik.net/index.xml",
-          "items": [
-            {
-              "title": "Scraping Public Messages",
-              "date": "2025-05-21",
-              "link": "https://brainsik.net/2025/scraping-public-messages/"
-            },
-            {
-              "title": "The LLM Journey Begins?",
-              "date": "2025-01-07",
-              "link": "https://brainsik.net/2025/llm-journey-begins/"
-            },
-            {
-              "title": "Successfully Migrating to Caddy from Nginx",
-              "date": "2024-07-09",
-              "link": "https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/"
-            },
-            {
-              "title": "GPG Key Transition 2022",
-              "date": "2023-01-01",
-              "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
-            },
-            {
-              "title": "The problem with moving phones from copper to fiber: power",
-              "date": "2014-08-15",
-              "link": "https://brainsik.net/2014/moving-phones-from-copper-to-fiber/"
             }
           ]
         },
@@ -2461,12 +2430,13 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-25T03:46:49.317Z",
+  "fetchDate": "2025-11-26T03:46:18.703Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://boehs.org/in/blog.xml",
-    "https://mikegrindle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml",
+    "https://anniemueller.com/posts_feed"
   ]
 }

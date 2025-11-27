@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "iOS Web Browser Latency",
+              "date": "2025-11-27",
+              "link": "https://dbushell.com/2025/11/27/ios-web-browser-latency/"
+            },
+            {
+              "title": "Async SvelteKit Data and Side Effects",
+              "date": "2025-11-25",
+              "link": "https://dbushell.com/2025/11/25/async-sveltekit-data-and-side-effects/"
+            },
+            {
+              "title": "Croissant Update and Dexie",
+              "date": "2025-11-21",
+              "link": "https://dbushell.com/2025/11/21/croissant-update-and-dexie/"
+            },
+            {
+              "title": "Vivaldi, Yea or Nay?",
+              "date": "2025-11-14",
+              "link": "https://dbushell.com/2025/11/14/vivaldi-browser/"
+            },
+            {
+              "title": "Reimagine the Date Picker",
+              "date": "2025-11-10",
+              "link": "https://dbushell.com/2025/11/10/pikaday/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "The End of the ‘Everything Bundle’ – Black Friday Sale",
+              "date": "2025-11-26",
+              "link": "https://www.baldurbjarnason.com/bundle/ebooks/"
+            },
+            {
+              "title": "The dichotomy of print versus the web",
+              "date": "2025-11-21",
+              "link": "https://www.baldurbjarnason.com/2025/the-dichotomy-of-print-vs-web/"
+            },
+            {
+              "title": "Kötturinn og ég, ný íslensk myndasaga",
+              "date": "2025-11-21",
+              "link": "https://www.baldurbjarnason.com/2025/kotturinn-og-eg/"
+            },
+            {
+              "title": "For sale: strong opinions; never published",
+              "date": "2025-11-07",
+              "link": "https://www.baldurbjarnason.com/2025/strong-opinions-never-published/"
+            },
+            {
+              "title": "Steamy Hveragerði",
+              "date": "2025-11-03",
+              "link": "https://www.baldurbjarnason.com/notes/photos/steamy-town-2025/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Notes From an Interview With Jony Ive",
+              "date": "2025-11-26",
+              "link": "https://blog.jim-nielsen.com/2025/notes-from-interview-with-jony-ive/"
+            },
+            {
+              "title": "My Number One “Resource Not Found”",
+              "date": "2025-11-23",
+              "link": "https://blog.jim-nielsen.com/2025/top-resource-not-found/"
+            },
+            {
+              "title": "Podcast Notes: Feross Aboukhadijeh on The Changelog",
+              "date": "2025-11-19",
+              "link": "https://blog.jim-nielsen.com/2025/notes-from-changelog-with-feross/"
+            },
+            {
+              "title": "Data Storage As Files on Disk Paired With an LLM",
+              "date": "2025-11-16",
+              "link": "https://blog.jim-nielsen.com/2025/files-on-disk-scripted-with-ai/"
+            },
+            {
+              "title": "Tahoe’s Terrible Icons: The B-Sides",
+              "date": "2025-11-12",
+              "link": "https://blog.jim-nielsen.com/2025/tahoes-terrible-icons-b-sides/"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "Koselig med peis og lowcode",
+              "date": "2025-11-26",
+              "link": "https://www.kodemaker.no/blogg/2025-11-26-lowcode-ha-peis/"
+            },
+            {
+              "title": "Performance tuning i frontend med React",
+              "date": "2025-11-19",
+              "link": "https://www.kodemaker.no/blogg/2025-11-19-frontend-performance/"
+            },
+            {
+              "title": "Kodemaker Geekend",
+              "date": "2025-11-12",
+              "link": "https://www.kodemaker.no/blogg/2025-11-12-geekend/"
+            },
+            {
+              "title": "Privatisering uten marked?",
+              "date": "2025-11-03",
+              "link": "https://www.kodemaker.no/blogg/2025-11-03-marked/"
+            },
+            {
+              "title": "Hvordan få det (litt) roligere i et småbarnshjem med Raspberry Pi",
+              "date": "2025-10-29",
+              "link": "https://www.kodemaker.no/blogg/2025-10-29/"
+            }
+          ]
+        },
+        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -35,33 +159,33 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
-              "title": "Async SvelteKit Data and Side Effects",
+              "title": "Personal Websites Aren’t Dead",
+              "date": "2025-11-26",
+              "link": "https://flamedfury.com/posts/personal-websites-arent-dead/"
+            },
+            {
+              "title": "No More Open Homes",
               "date": "2025-11-25",
-              "link": "https://dbushell.com/2025/11/25/async-sveltekit-data-and-side-effects/"
+              "link": "https://flamedfury.com/posts/no-more-open-homes/"
             },
             {
-              "title": "Croissant Update and Dexie",
-              "date": "2025-11-21",
-              "link": "https://dbushell.com/2025/11/21/croissant-update-and-dexie/"
+              "title": "Clap Your Hands Say Yeah",
+              "date": "2025-11-17",
+              "link": "https://flamedfury.com/posts/clap-your-hands-say-yeah/"
             },
             {
-              "title": "Vivaldi, Yea or Nay?",
-              "date": "2025-11-14",
-              "link": "https://dbushell.com/2025/11/14/vivaldi-browser/"
-            },
-            {
-              "title": "Reimagine the Date Picker",
+              "title": "Insanity",
               "date": "2025-11-10",
-              "link": "https://dbushell.com/2025/11/10/pikaday/"
+              "link": "https://flamedfury.com/posts/insanity/"
             },
             {
-              "title": "Better Alt Text",
-              "date": "2025-11-01",
-              "link": "https://dbushell.com/2025/11/01/better-alt-text/"
+              "title": "Anitya Live At The Civic",
+              "date": "2025-11-06",
+              "link": "https://flamedfury.com/posts/anitya-live-at-the-civic/"
             }
           ]
         },
@@ -124,37 +248,6 @@
               "title": "GPG Key Transition 2022",
               "date": "2023-01-01",
               "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
             }
           ]
         },
@@ -283,33 +376,33 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
             {
-              "title": "My Number One “Resource Not Found”",
-              "date": "2025-11-23",
-              "link": "https://blog.jim-nielsen.com/2025/top-resource-not-found/"
+              "title": "The amazing ways Playtiles uses the web for retro gaming",
+              "date": "2025-11-22",
+              "link": "https://rosswintle.uk/2025/11/the-amazing-ways-playtiles-uses-the-web-for-retro-gaming/"
             },
             {
-              "title": "Podcast Notes: Feross Aboukhadijeh on The Changelog",
-              "date": "2025-11-19",
-              "link": "https://blog.jim-nielsen.com/2025/notes-from-changelog-with-feross/"
+              "title": "Software can be finished",
+              "date": "2025-10-13",
+              "link": "https://rosswintle.uk/2025/10/software-can-be-finished/"
             },
             {
-              "title": "Data Storage As Files on Disk Paired With an LLM",
-              "date": "2025-11-16",
-              "link": "https://blog.jim-nielsen.com/2025/files-on-disk-scripted-with-ai/"
+              "title": "LoopConf and 25 Lessons",
+              "date": "2025-10-04",
+              "link": "https://rosswintle.uk/2025/10/loopconf-and-25-lessons/"
             },
             {
-              "title": "Tahoe’s Terrible Icons: The B-Sides",
-              "date": "2025-11-12",
-              "link": "https://blog.jim-nielsen.com/2025/tahoes-terrible-icons-b-sides/"
+              "title": "De-clouding: Music",
+              "date": "2025-09-05",
+              "link": "https://rosswintle.uk/2025/09/de-clouding-music/"
             },
             {
-              "title": "Leveraging a Web Component For Comparing iOS and macOS Icons",
-              "date": "2025-11-09",
-              "link": "https://blog.jim-nielsen.com/2025/comparing-icons-in-my-collection/"
+              "title": "Hello RSS Club!",
+              "date": "2025-08-03",
+              "link": "https://rosswintle.uk/rss-club/hello-rss-club/"
             }
           ]
         },
@@ -341,37 +434,6 @@
               "title": "Talkin’ Tables at A11yTO Conf",
               "date": "2025-10-17",
               "link": "https://adrianroselli.com/2025/10/talkin-tables-at-a11yto-conf.html"
-            }
-          ]
-        },
-        {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "The amazing ways Playtiles uses the web for retro gaming",
-              "date": "2025-11-22",
-              "link": "https://rosswintle.uk/2025/11/the-amazing-ways-playtiles-uses-the-web-for-retro-gaming/"
-            },
-            {
-              "title": "Software can be finished",
-              "date": "2025-10-13",
-              "link": "https://rosswintle.uk/2025/10/software-can-be-finished/"
-            },
-            {
-              "title": "LoopConf and 25 Lessons",
-              "date": "2025-10-04",
-              "link": "https://rosswintle.uk/2025/10/loopconf-and-25-lessons/"
-            },
-            {
-              "title": "De-clouding: Music",
-              "date": "2025-09-05",
-              "link": "https://rosswintle.uk/2025/09/de-clouding-music/"
-            },
-            {
-              "title": "Hello RSS Club!",
-              "date": "2025-08-03",
-              "link": "https://rosswintle.uk/rss-club/hello-rss-club/"
             }
           ]
         },
@@ -434,37 +496,6 @@
               "title": "The Calmness Tide - It Comes and Goes in Waves",
               "date": "2025-08-19",
               "link": "https://www.lisihocke.com/2025/08/the-calmness-tide-it-comes-and-goes-in-waves.html"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "The dichotomy of print versus the web",
-              "date": "2025-11-21",
-              "link": "https://www.baldurbjarnason.com/2025/the-dichotomy-of-print-vs-web/"
-            },
-            {
-              "title": "Kötturinn og ég, ný íslensk myndasaga",
-              "date": "2025-11-21",
-              "link": "https://www.baldurbjarnason.com/2025/kotturinn-og-eg/"
-            },
-            {
-              "title": "For sale: strong opinions; never published",
-              "date": "2025-11-07",
-              "link": "https://www.baldurbjarnason.com/2025/strong-opinions-never-published/"
-            },
-            {
-              "title": "Steamy Hveragerði",
-              "date": "2025-11-03",
-              "link": "https://www.baldurbjarnason.com/notes/photos/steamy-town-2025/"
-            },
-            {
-              "title": "First signs of winter",
-              "date": "2025-11-03",
-              "link": "https://www.baldurbjarnason.com/notes/photos/signs-of-winter-2025/"
             }
           ]
         },
@@ -619,37 +650,6 @@
           ]
         },
         {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Performance tuning i frontend med React",
-              "date": "2025-11-19",
-              "link": "https://www.kodemaker.no/blogg/2025-11-19-frontend-performance/"
-            },
-            {
-              "title": "Kodemaker Geekend",
-              "date": "2025-11-12",
-              "link": "https://www.kodemaker.no/blogg/2025-11-12-geekend/"
-            },
-            {
-              "title": "Privatisering uten marked?",
-              "date": "2025-11-03",
-              "link": "https://www.kodemaker.no/blogg/2025-11-03-marked/"
-            },
-            {
-              "title": "Hvordan få det (litt) roligere i et småbarnshjem med Raspberry Pi",
-              "date": "2025-10-29",
-              "link": "https://www.kodemaker.no/blogg/2025-10-29/"
-            },
-            {
-              "title": "JavaZone 2025",
-              "date": "2025-10-09",
-              "link": "https://www.kodemaker.no/blogg/2025-10-javazone-2025/"
-            }
-          ]
-        },
-        {
           "title": "Hazel Weakly",
           "feedUrl": "https://hazelweakly.me/atom.xml",
           "items": [
@@ -708,37 +708,6 @@
               "title": "Fixing Without Understanding",
               "date": "2025-05-19",
               "link": "https://jessitron.com/2025/05/18/fixing-without-understanding/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Clap Your Hands Say Yeah",
-              "date": "2025-11-17",
-              "link": "https://flamedfury.com/posts/clap-your-hands-say-yeah/"
-            },
-            {
-              "title": "Insanity",
-              "date": "2025-11-10",
-              "link": "https://flamedfury.com/posts/insanity/"
-            },
-            {
-              "title": "Anitya Live At The Civic",
-              "date": "2025-11-06",
-              "link": "https://flamedfury.com/posts/anitya-live-at-the-civic/"
-            },
-            {
-              "title": "Yeah, I Wish A Brother Would",
-              "date": "2025-11-06",
-              "link": "https://flamedfury.com/posts/yeah-i-wish-a-brother-would/"
-            },
-            {
-              "title": "Armageddon Expo 2025",
-              "date": "2025-10-28",
-              "link": "https://flamedfury.com/posts/armageddon-expo-2025/"
             }
           ]
         },
@@ -2430,13 +2399,14 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-26T03:46:18.703Z",
+  "fetchDate": "2025-11-27T03:44:30.134Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://boehs.org/in/blog.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://anniemueller.com/posts_feed"
+    "https://anniemueller.com/posts_feed",
+    "https://infrequently.org/feed/"
   ]
 }

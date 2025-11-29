@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Actual Burnout",
+              "date": "2025-11-28",
+              "link": "https://frills.dev/blog/2025/november/actual-burnout/"
+            },
+            {
+              "title": "Indie Web Burnout",
+              "date": "2025-09-09",
+              "link": "https://frills.dev/blog/2025/september/indie-web-burnout/"
+            },
+            {
+              "title": "WCAG doesn't round",
+              "date": "2025-06-30",
+              "link": "https://tarnoff.info/2025/06/05/quick-tip-wcag-doesnt-round/"
+            },
+            {
+              "title": "Feedback Is Not an Attack",
+              "date": "2025-06-25",
+              "link": "https://ashley.dev/posts/feedback-is-not-an-attack/"
+            },
+            {
+              "title": "Changelog –\n        12 Jun 2025\n      ",
+              "date": "2025-06-12",
+              "link": "https://frills.dev/changelog/250612/"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Contain The Web With Firefox Containers",
+              "date": "2025-11-28",
+              "link": "https://flamedfury.com/posts/contain-the-web-with-firefox-containers/"
+            },
+            {
+              "title": "Personal Websites Aren’t Dead",
+              "date": "2025-11-26",
+              "link": "https://flamedfury.com/posts/personal-websites-arent-dead/"
+            },
+            {
+              "title": "No More Open Homes",
+              "date": "2025-11-25",
+              "link": "https://flamedfury.com/posts/no-more-open-homes/"
+            },
+            {
+              "title": "Clap Your Hands Say Yeah",
+              "date": "2025-11-17",
+              "link": "https://flamedfury.com/posts/clap-your-hands-say-yeah/"
+            },
+            {
+              "title": "Insanity",
+              "date": "2025-11-10",
+              "link": "https://flamedfury.com/posts/insanity/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -216,37 +278,6 @@
           ]
         },
         {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Personal Websites Aren’t Dead",
-              "date": "2025-11-26",
-              "link": "https://flamedfury.com/posts/personal-websites-arent-dead/"
-            },
-            {
-              "title": "No More Open Homes",
-              "date": "2025-11-25",
-              "link": "https://flamedfury.com/posts/no-more-open-homes/"
-            },
-            {
-              "title": "Clap Your Hands Say Yeah",
-              "date": "2025-11-17",
-              "link": "https://flamedfury.com/posts/clap-your-hands-say-yeah/"
-            },
-            {
-              "title": "Insanity",
-              "date": "2025-11-10",
-              "link": "https://flamedfury.com/posts/insanity/"
-            },
-            {
-              "title": "Anitya Live At The Civic",
-              "date": "2025-11-06",
-              "link": "https://flamedfury.com/posts/anitya-live-at-the-civic/"
-            }
-          ]
-        },
-        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -309,6 +340,37 @@
           ]
         },
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Performance Inequality Gap, 2026",
+              "date": "2025-11-24",
+              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
+            },
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
+            }
+          ]
+        },
+        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -340,37 +402,6 @@
           ]
         },
         {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Automating updates to a digital vigil",
-              "date": "2025-11-24",
-              "link": "https://ntietz.com/blog/automating-updates-to-a-digital-vigil/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Interview with a new hosting provider founder",
-              "date": "2025-10-20",
-              "link": "https://ntietz.com/blog/andromeda-industries-interview/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Custom for designing, off-the-shelf for shipping",
-              "date": "2025-09-15",
-              "link": "https://ntietz.com/blog/custom-for-designing-offtheshelf-for-shipping/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Visualizing distributions with pepperoni pizza (and javascript)",
-              "date": "2025-08-18",
-              "link": "https://ntietz.com/blog/visualizing-distributions-with-pepperoni-pizza/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Covers as a way of learning music and code",
-              "date": "2025-07-21",
-              "link": "https://ntietz.com/blog/covers-as-a-way-of-learning/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -398,6 +429,37 @@
               "title": "The Phase Change",
               "date": "2025-10-16",
               "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Automating updates to a digital vigil",
+              "date": "2025-11-24",
+              "link": "https://ntietz.com/blog/automating-updates-to-a-digital-vigil/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Interview with a new hosting provider founder",
+              "date": "2025-10-20",
+              "link": "https://ntietz.com/blog/andromeda-industries-interview/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Custom for designing, off-the-shelf for shipping",
+              "date": "2025-09-15",
+              "link": "https://ntietz.com/blog/custom-for-designing-offtheshelf-for-shipping/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Visualizing distributions with pepperoni pizza (and javascript)",
+              "date": "2025-08-18",
+              "link": "https://ntietz.com/blog/visualizing-distributions-with-pepperoni-pizza/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Covers as a way of learning music and code",
+              "date": "2025-07-21",
+              "link": "https://ntietz.com/blog/covers-as-a-way-of-learning/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -650,6 +712,37 @@
           ]
         },
         {
+          "title": "Hazel Weakly",
+          "feedUrl": "https://hazelweakly.me/atom.xml",
+          "items": [
+            {
+              "title": "To Be a Leader of Systems",
+              "date": "2025-11-18",
+              "link": "https://hazelweakly.me/blog/to-be-a-leader-of-systems/"
+            },
+            {
+              "title": "Scaling Innovation: Building Ecosystems",
+              "date": "2025-10-21",
+              "link": "https://hazelweakly.me/blog/scaling-innovation-building-ecosystems/"
+            },
+            {
+              "title": "Stop Building AI Tools Backwards",
+              "date": "2025-05-16",
+              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
+            },
+            {
+              "title": "The Future of Observability: Observability 3.0",
+              "date": "2024-12-09",
+              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
+            },
+            {
+              "title": "You Have One Voice",
+              "date": "2024-10-21",
+              "link": "https://hazelweakly.me/blog/you-have-one-voice/"
+            }
+          ]
+        },
+        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -867,37 +960,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Val Town 2023-2025 Retrospective",
-              "date": "2025-11-11",
-              "link": "https://macwright.com/2025/11/11/val-town.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-11-02",
-              "link": "https://macwright.com/2025/11/02/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-10-04",
-              "link": "https://macwright.com/2025/10/04/recently.html"
-            },
-            {
-              "title": "Porteur bag 2",
-              "date": "2025-09-27",
-              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
-            },
-            {
-              "title": "Cooking with glasses",
-              "date": "2025-09-21",
-              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
-            }
-          ]
-        },
-        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -929,6 +991,37 @@
           ]
         },
         {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Val Town 2023-2025 Retrospective",
+              "date": "2025-11-11",
+              "link": "https://macwright.com/2025/11/11/val-town.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-11-02",
+              "link": "https://macwright.com/2025/11/02/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-10-04",
+              "link": "https://macwright.com/2025/10/04/recently.html"
+            },
+            {
+              "title": "Porteur bag 2",
+              "date": "2025-09-27",
+              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
+            },
+            {
+              "title": "Cooking with glasses",
+              "date": "2025-09-21",
+              "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
+            }
+          ]
+        },
+        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -956,6 +1049,37 @@
               "title": "Using Java types for keywordy args",
               "date": "2025-08-02",
               "link": "https://garoof.no/java/keywordy-types.html"
+            }
+          ]
+        },
+        {
+          "title": "Dragan Stepanović",
+          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
+          "items": [
+            {
+              "title": "There's a huge difference between",
+              "date": "2025-11-09",
+              "link": "https://draganstepanovic.com/2025/11/09/there-is-a-huge-difference.html"
+            },
+            {
+              "title": "If you can't change design cheaply",
+              "date": "2025-10-25",
+              "link": "https://draganstepanovic.com/2025/10/25/if-you-cant-change-design-cheaply.html"
+            },
+            {
+              "title": "It's not about reducing the costs per se",
+              "date": "2025-09-27",
+              "link": "https://draganstepanovic.com/2025/09/27/reducing-costs.html"
+            },
+            {
+              "title": "Dynamics between transaction cost and batch size is simple, but often counterintuitive.",
+              "date": "2025-06-19",
+              "link": "https://draganstepanovic.com/2025/06/19/working-together-works.html"
+            },
+            {
+              "title": "Managing  interdependence over decoupling",
+              "date": "2025-04-03",
+              "link": "https://draganstepanovic.com/2025/04/03/interdependence-over-independence.html"
             }
           ]
         },
@@ -1704,37 +1828,6 @@
           ]
         },
         {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Indie Web Burnout",
-              "date": "2025-09-09",
-              "link": "https://frills.dev/blog/2025/september/indie-web-burnout/"
-            },
-            {
-              "title": "WCAG doesn't round",
-              "date": "2025-06-30",
-              "link": "https://tarnoff.info/2025/06/05/quick-tip-wcag-doesnt-round/"
-            },
-            {
-              "title": "Feedback Is Not an Attack",
-              "date": "2025-06-25",
-              "link": "https://ashley.dev/posts/feedback-is-not-an-attack/"
-            },
-            {
-              "title": "Changelog –\n        12 Jun 2025\n      ",
-              "date": "2025-06-12",
-              "link": "https://frills.dev/changelog/250612/"
-            },
-            {
-              "title": "Circadian Rebellion",
-              "date": "2025-06-11",
-              "link": "https://frills.dev/blog/2025/june/circadian-rebellion/"
-            }
-          ]
-        },
-        {
           "title": "leanrada.com notes",
           "feedUrl": "https://leanrada.com/rss.xml",
           "items": [
@@ -2368,15 +2461,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-28T03:43:22.485Z",
+  "fetchDate": "2025-11-29T03:43:13.872Z",
   "errors": [
-    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://boehs.org/in/blog.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://dragan-stepanovic.github.io/feed.xml",
-    "https://hazelweakly.me/atom.xml"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

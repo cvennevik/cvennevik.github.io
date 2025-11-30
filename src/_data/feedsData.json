@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "A Tester's Journey",
+          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Agile Testing Days 2025 - Taking Things Easier",
+              "date": "2025-11-29",
+              "link": "https://www.lisihocke.com/2025/11/agile-testing-days-2025-taking-things-easier.html"
+            },
+            {
+              "title": "BSides Munich 2025 - On First Times",
+              "date": "2025-11-22",
+              "link": "https://www.lisihocke.com/2025/11/bsides-munich-2025-on-first-times.html"
+            },
+            {
+              "title": "Attempting to Stay Calm and Steady - Concluding Remarks",
+              "date": "2025-11-11",
+              "link": "https://www.lisihocke.com/2025/11/attempting-to-stay-calm-and-steady-concluding-remarks.html"
+            },
+            {
+              "title": "NDC Porto 2025 - Filled to the Brim",
+              "date": "2025-10-26",
+              "link": "https://www.lisihocke.com/2025/10/ndc-porto-2025-filled-to-the-brim.html"
+            },
+            {
+              "title": "Open Security Conference 2025 - Marvelous Momentum",
+              "date": "2025-10-13",
+              "link": "https://www.lisihocke.com/2025/10/open-security-conference-2025-marvelous-momentum.html"
+            }
+          ]
+        },
+        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
@@ -185,37 +216,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Notes From an Interview With Jony Ive",
-              "date": "2025-11-26",
-              "link": "https://blog.jim-nielsen.com/2025/notes-from-interview-with-jony-ive/"
-            },
-            {
-              "title": "My Number One “Resource Not Found”",
-              "date": "2025-11-23",
-              "link": "https://blog.jim-nielsen.com/2025/top-resource-not-found/"
-            },
-            {
-              "title": "Podcast Notes: Feross Aboukhadijeh on The Changelog",
-              "date": "2025-11-19",
-              "link": "https://blog.jim-nielsen.com/2025/notes-from-changelog-with-feross/"
-            },
-            {
-              "title": "Data Storage As Files on Disk Paired With an LLM",
-              "date": "2025-11-16",
-              "link": "https://blog.jim-nielsen.com/2025/files-on-disk-scripted-with-ai/"
-            },
-            {
-              "title": "Tahoe’s Terrible Icons: The B-Sides",
-              "date": "2025-11-12",
-              "link": "https://blog.jim-nielsen.com/2025/tahoes-terrible-icons-b-sides/"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -340,37 +340,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            }
-          ]
-        },
-        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -402,37 +371,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "One more week to the Logic for Programmers Food Drive",
-              "date": "2025-11-24",
-              "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/"
-            },
-            {
-              "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
-              "date": "2025-11-10",
-              "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/"
-            },
-            {
-              "title": "I'm taking a break",
-              "date": "2025-10-27",
-              "link": "https://buttondown.com/hillelwayne/archive/im-taking-a-break/"
-            },
-            {
-              "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
-              "date": "2025-10-21",
-              "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/"
-            },
-            {
-              "title": "The Phase Change",
-              "date": "2025-10-16",
-              "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/"
-            }
-          ]
-        },
-        {
           "title": "ntietz.com blog - technically a blog",
           "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
@@ -460,6 +398,37 @@
               "title": "Covers as a way of learning music and code",
               "date": "2025-07-21",
               "link": "https://ntietz.com/blog/covers-as-a-way-of-learning/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "One more week to the Logic for Programmers Food Drive",
+              "date": "2025-11-24",
+              "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/"
+            },
+            {
+              "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
+              "date": "2025-11-10",
+              "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/"
+            },
+            {
+              "title": "I'm taking a break",
+              "date": "2025-10-27",
+              "link": "https://buttondown.com/hillelwayne/archive/im-taking-a-break/"
+            },
+            {
+              "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
+              "date": "2025-10-21",
+              "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/"
+            },
+            {
+              "title": "The Phase Change",
+              "date": "2025-10-16",
+              "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/"
             }
           ]
         },
@@ -553,37 +522,6 @@
               "title": "Writing at the Speed of Thought",
               "date": "2025-05-12",
               "link": "https://www.youtube.com/watch?v=sqm4-B07LsE"
-            }
-          ]
-        },
-        {
-          "title": "A Tester's Journey",
-          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "BSides Munich 2025 - On First Times",
-              "date": "2025-11-22",
-              "link": "https://www.lisihocke.com/2025/11/bsides-munich-2025-on-first-times.html"
-            },
-            {
-              "title": "Attempting to Stay Calm and Steady - Concluding Remarks",
-              "date": "2025-11-11",
-              "link": "https://www.lisihocke.com/2025/11/attempting-to-stay-calm-and-steady-concluding-remarks.html"
-            },
-            {
-              "title": "NDC Porto 2025 - Filled to the Brim",
-              "date": "2025-10-26",
-              "link": "https://www.lisihocke.com/2025/10/ndc-porto-2025-filled-to-the-brim.html"
-            },
-            {
-              "title": "Open Security Conference 2025 - Marvelous Momentum",
-              "date": "2025-10-13",
-              "link": "https://www.lisihocke.com/2025/10/open-security-conference-2025-marvelous-momentum.html"
-            },
-            {
-              "title": "The Calmness Tide - It Comes and Goes in Waves",
-              "date": "2025-08-19",
-              "link": "https://www.lisihocke.com/2025/08/the-calmness-tide-it-comes-and-goes-in-waves.html"
             }
           ]
         },
@@ -960,37 +898,6 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Write Custom Extensions for htmx to Make it Your Own Personal Toolkit",
-              "date": "2025-11-11",
-              "link": "https://thathtml.blog/2025/11/htmx-extensions-your-personal-toolkit/"
-            },
-            {
-              "title": "Add Terrific DX to Your UI Web Components with nimble-html",
-              "date": "2025-10-17",
-              "link": "https://thathtml.blog/2025/10/nimble-html-adds-great-dx-to-ui-components/"
-            },
-            {
-              "title": "Give “fetch” a Bit More Oomph with “ffetch”",
-              "date": "2025-09-18",
-              "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
-            },
-            {
-              "title": "Announcing Reciprocate, a Sweet Solution for Making Your HTML Web Components Reactive",
-              "date": "2025-09-08",
-              "link": "https://thathtml.blog/2025/09/reciprocate-reactivity-for-html-web-components/"
-            },
-            {
-              "title": "Declarative HTML Binding in Only 20 Lines of Code! (and Signals)",
-              "date": "2025-08-08",
-              "link": "https://thathtml.blog/2025/08/declarative-html-binding-with-signals/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -1018,6 +925,37 @@
               "title": "Cooking with glasses",
               "date": "2025-09-21",
               "link": "https://macwright.com/2025/09/21/cooking-with-glasses.html"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Write Custom Extensions for htmx to Make it Your Own Personal Toolkit",
+              "date": "2025-11-11",
+              "link": "https://thathtml.blog/2025/11/htmx-extensions-your-personal-toolkit/"
+            },
+            {
+              "title": "Add Terrific DX to Your UI Web Components with nimble-html",
+              "date": "2025-10-17",
+              "link": "https://thathtml.blog/2025/10/nimble-html-adds-great-dx-to-ui-components/"
+            },
+            {
+              "title": "Give “fetch” a Bit More Oomph with “ffetch”",
+              "date": "2025-09-18",
+              "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
+            },
+            {
+              "title": "Announcing Reciprocate, a Sweet Solution for Making Your HTML Web Components Reactive",
+              "date": "2025-09-08",
+              "link": "https://thathtml.blog/2025/09/reciprocate-reactivity-for-html-web-components/"
+            },
+            {
+              "title": "Declarative HTML Binding in Only 20 Lines of Code! (and Signals)",
+              "date": "2025-08-08",
+              "link": "https://thathtml.blog/2025/08/declarative-html-binding-with-signals/"
             }
           ]
         },
@@ -2461,12 +2399,14 @@
       ]
     }
   ],
-  "fetchDate": "2025-11-29T03:43:13.872Z",
+  "fetchDate": "2025-11-30T03:55:55.228Z",
   "errors": [
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://boehs.org/in/blog.xml",
-    "https://mikegrindle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml",
+    "https://blog.jim-nielsen.com/feed.xml"
   ]
 }

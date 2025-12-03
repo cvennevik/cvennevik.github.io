@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "Bruk Python for skripting!",
+              "date": "2025-12-03",
+              "link": "https://www.kodemaker.no/blogg/2025-12-03-bruk-python-for-skripting/"
+            },
+            {
+              "title": "Koselig med peis og lowcode",
+              "date": "2025-11-26",
+              "link": "https://www.kodemaker.no/blogg/2025-11-26-lowcode-ha-peis/"
+            },
+            {
+              "title": "Performance tuning i frontend med React",
+              "date": "2025-11-19",
+              "link": "https://www.kodemaker.no/blogg/2025-11-19-frontend-performance/"
+            },
+            {
+              "title": "Kodemaker Geekend",
+              "date": "2025-11-12",
+              "link": "https://www.kodemaker.no/blogg/2025-11-12-geekend/"
+            },
+            {
+              "title": "Privatisering uten marked?",
+              "date": "2025-11-03",
+              "link": "https://www.kodemaker.no/blogg/2025-11-03-marked/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "My no-fuss code linting and formatting setup",
+              "date": "2025-12-02",
+              "link": "https://gomakethings.com/my-no-fuss-code-linting-and-formatting-setup/"
+            },
             {
               "title": "Building empathy",
               "date": "2025-12-01",
@@ -26,11 +62,6 @@
               "title": "Essentials",
               "date": "2025-11-21",
               "link": "https://gomakethings.com/essentials/"
-            },
-            {
-              "title": "Safari strikes again",
-              "date": "2025-11-20",
-              "link": "https://gomakethings.com/safari-strikes-again/"
             }
           ]
         },
@@ -38,6 +69,11 @@
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
+            {
+              "title": "You Can’t Make Something Accessible to Everyone",
+              "date": "2025-12-02",
+              "link": "https://adrianroselli.com/2025/12/you-cant-make-something-accessible-to-everyone.html"
+            },
             {
               "title": "Web Design / Dev Advent Calendars for 2025",
               "date": "2025-12-01",
@@ -57,42 +93,37 @@
               "title": "Shopify Needs a Mirrorfy",
               "date": "2025-11-04",
               "link": "https://adrianroselli.com/2025/11/shopify-needs-a-mirrorfy.html"
-            },
-            {
-              "title": "OpenAI, ARIA, and SEO: Making the Web Worse",
-              "date": "2025-10-22",
-              "link": "https://adrianroselli.com/2025/10/openai-aria-and-seo-making-the-web-worse.html"
             }
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
             {
-              "title": "Mere Being - 026 - November - Zen Center, Being Cold",
-              "date": "2025-12-01",
-              "link": "https://www.simplermachines.com/mere-being-026-november-zen-center-being-cold/"
+              "title": "In defense of lock poisoning in Rust",
+              "date": "2025-12-02",
+              "link": "https://sunshowers.io/posts/on-poisoning/"
             },
             {
-              "title": "Mere Being - 025 - October - Minnesota, Quail Egg, Cabbage",
-              "date": "2025-11-06",
-              "link": "https://www.simplermachines.com/mere-being-025-october-minnesota-quail-egg-cabbage/"
+              "title": "`SocketAddrV6` is not roundtrip serializable",
+              "date": "2025-11-04",
+              "link": "https://sunshowers.io/posts/socketaddrv6-not-roundtrip/"
             },
             {
-              "title": "Mere Being - 024 - September - Moving, Football, Laughter",
-              "date": "2025-10-02",
-              "link": "https://www.simplermachines.com/mere-being-024/"
+              "title": "Cancelling async Rust",
+              "date": "2025-10-03",
+              "link": "https://sunshowers.io/posts/cancelling-async-rust/"
             },
             {
-              "title": "Mere Being - 023 - August",
-              "date": "2025-08-30",
-              "link": "https://www.simplermachines.com/mere-being-023-august/"
+              "title": "I didn't transition for the metaphysics",
+              "date": "2025-05-14",
+              "link": "https://sunshowers.io/posts/transition-metaphysics/"
             },
             {
-              "title": "Nat's Current Prompts",
-              "date": "2025-07-11",
-              "link": "https://www.simplermachines.com/nats-current-prompts/"
+              "title": "Demystifying monads in Rust through property-based testing",
+              "date": "2025-02-19",
+              "link": "https://sunshowers.io/posts/monads-through-pbt/"
             }
           ]
         },
@@ -100,6 +131,14 @@
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2025-12-02",
+              "link": "https://dbushell.com/notes/2025-12-02T18:46Z/"
+            },
+            {
+              "date": "2025-12-02",
+              "link": "https://dbushell.com/notes/2025-12-02T07:27Z/"
+            },
             {
               "date": "2025-12-01",
               "link": "https://dbushell.com/notes/2025-12-01T15:14Z/"
@@ -111,14 +150,6 @@
             {
               "date": "2025-11-30",
               "link": "https://dbushell.com/notes/2025-11-30T10:42Z/"
-            },
-            {
-              "date": "2025-11-30",
-              "link": "https://dbushell.com/notes/2025-11-30T08:45Z/"
-            },
-            {
-              "date": "2025-11-27",
-              "link": "https://dbushell.com/notes/2025-11-27T06:18Z/"
             }
           ]
         },
@@ -150,6 +181,37 @@
               "title": "Porteur bag 2",
               "date": "2025-09-27",
               "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "Mere Being - 026 - November - Zen Center, Being Cold",
+              "date": "2025-12-01",
+              "link": "https://www.simplermachines.com/mere-being-026-november-zen-center-being-cold/"
+            },
+            {
+              "title": "Mere Being - 025 - October - Minnesota, Quail Egg, Cabbage",
+              "date": "2025-11-06",
+              "link": "https://www.simplermachines.com/mere-being-025-october-minnesota-quail-egg-cabbage/"
+            },
+            {
+              "title": "Mere Being - 024 - September - Moving, Football, Laughter",
+              "date": "2025-10-02",
+              "link": "https://www.simplermachines.com/mere-being-024/"
+            },
+            {
+              "title": "Mere Being - 023 - August",
+              "date": "2025-08-30",
+              "link": "https://www.simplermachines.com/mere-being-023-august/"
+            },
+            {
+              "title": "Nat's Current Prompts",
+              "date": "2025-07-11",
+              "link": "https://www.simplermachines.com/nats-current-prompts/"
             }
           ]
         },
@@ -429,37 +491,6 @@
               "title": "Steamy Hveragerði",
               "date": "2025-11-03",
               "link": "https://www.baldurbjarnason.com/notes/photos/steamy-town-2025/"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Koselig med peis og lowcode",
-              "date": "2025-11-26",
-              "link": "https://www.kodemaker.no/blogg/2025-11-26-lowcode-ha-peis/"
-            },
-            {
-              "title": "Performance tuning i frontend med React",
-              "date": "2025-11-19",
-              "link": "https://www.kodemaker.no/blogg/2025-11-19-frontend-performance/"
-            },
-            {
-              "title": "Kodemaker Geekend",
-              "date": "2025-11-12",
-              "link": "https://www.kodemaker.no/blogg/2025-11-12-geekend/"
-            },
-            {
-              "title": "Privatisering uten marked?",
-              "date": "2025-11-03",
-              "link": "https://www.kodemaker.no/blogg/2025-11-03-marked/"
-            },
-            {
-              "title": "Hvordan få det (litt) roligere i et småbarnshjem med Raspberry Pi",
-              "date": "2025-10-29",
-              "link": "https://www.kodemaker.no/blogg/2025-10-29/"
             }
           ]
         },
@@ -1208,37 +1239,6 @@
           ]
         },
         {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "`SocketAddrV6` is not roundtrip serializable",
-              "date": "2025-11-04",
-              "link": "https://sunshowers.io/posts/socketaddrv6-not-roundtrip/"
-            },
-            {
-              "title": "Cancelling async Rust",
-              "date": "2025-10-03",
-              "link": "https://sunshowers.io/posts/cancelling-async-rust/"
-            },
-            {
-              "title": "I didn't transition for the metaphysics",
-              "date": "2025-05-14",
-              "link": "https://sunshowers.io/posts/transition-metaphysics/"
-            },
-            {
-              "title": "Demystifying monads in Rust through property-based testing",
-              "date": "2025-02-19",
-              "link": "https://sunshowers.io/posts/monads-through-pbt/"
-            },
-            {
-              "title": "Free will quite clearly doesn't exist",
-              "date": "2025-01-29",
-              "link": "https://sunshowers.io/posts/there-is-no-free-will/"
-            }
-          ]
-        },
-        {
           "title": "Scattered Thoughts",
           "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
@@ -1394,6 +1394,37 @@
           ]
         },
         {
+          "title": "Evan Boehs in the blog",
+          "feedUrl": "https://boehs.org/in/blog.xml",
+          "items": [
+            {
+              "title": "US-EAST-1: All for One, One for All",
+              "date": "2025-10-22",
+              "link": "https://boehs.org/node/us-east-1"
+            },
+            {
+              "title": "The 3DS Still Holds Up",
+              "date": "2025-06-24",
+              "link": "https://boehs.org/node/3ds"
+            },
+            {
+              "title": "Is AI Really Killing Critical Thought?",
+              "date": "2025-06-24",
+              "link": "https://boehs.org/node/ai-and-critical-thinking"
+            },
+            {
+              "title": "You Want to Geofence My GPU???",
+              "date": "2025-05-15",
+              "link": "https://boehs.org/node/gpu-geofence"
+            },
+            {
+              "title": "How Did the Blog Do in 2024?",
+              "date": "2025-04-04",
+              "link": "https://boehs.org/node/the-blog-in-2024"
+            }
+          ]
+        },
+        {
           "title": "Curly Tail, Curly Braces",
           "feedUrl": "https://www.worthe-it.co.za/atom.xml",
           "items": [
@@ -1514,37 +1545,6 @@
               "title": "Tackling Temporal Troubles",
               "date": "2025-06-10",
               "link": "https://fynn.be/talks/tackling-temporal-troubles/"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Notes on switching to Helix from vim",
-              "date": "2025-10-10",
-              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
-            },
-            {
-              "title": "New zine: The Secret Rules of the Terminal",
-              "date": "2025-06-26",
-              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
-            },
-            {
-              "title": "Using `make` to compile C programs (for non-C-programmers)",
-              "date": "2025-06-10",
-              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
-            },
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
             }
           ]
         },
@@ -2045,37 +2045,6 @@
           ]
         },
         {
-          "title": "Tooth of the Weasel",
-          "feedUrl": "https://angryweasel.com/blog/feed/",
-          "items": [
-            {
-              "title": "Five for Friday – March 14, 2025",
-              "date": "2025-03-14",
-              "link": "https://angryweasel.com/blog/five-for-friday-march-14-2025/"
-            },
-            {
-              "title": "Five for Friday – March 7, 2025",
-              "date": "2025-03-07",
-              "link": "https://angryweasel.com/blog/five-for-friday-march-7-2025/"
-            },
-            {
-              "title": "Five for Friday – February 21, 2025",
-              "date": "2025-02-21",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-21-2025/"
-            },
-            {
-              "title": "Five for Friday – February 14, 2025",
-              "date": "2025-02-14",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-14-2025/"
-            },
-            {
-              "title": "Five for Friday – February 7, 2025",
-              "date": "2025-02-08",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
-            }
-          ]
-        },
-        {
           "title": "lalaland",
           "feedUrl": "https://lalaland.mataroa.blog/rss/",
           "items": [
@@ -2430,13 +2399,14 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-02T03:50:52.613Z",
+  "fetchDate": "2025-12-03T03:49:47.210Z",
   "errors": [
     "https://infrequently.org/feed/",
+    "https://angryweasel.com/blog/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://boehs.org/in/blog.xml",
-    "https://mikegrindle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml",
+    "https://jvns.ca/atom.xml"
   ]
 }

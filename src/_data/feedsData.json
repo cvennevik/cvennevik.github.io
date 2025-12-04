@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Flobots",
+              "date": "2025-12-03",
+              "link": "https://gomakethings.com/flobots/"
+            },
+            {
+              "title": "My no-fuss code linting and formatting setup",
+              "date": "2025-12-02",
+              "link": "https://gomakethings.com/my-no-fuss-code-linting-and-formatting-setup/"
+            },
+            {
+              "title": "Building empathy",
+              "date": "2025-12-01",
+              "link": "https://gomakethings.com/building-empathy/"
+            },
+            {
+              "title": "A garden in bloom",
+              "date": "2025-11-25",
+              "link": "https://gomakethings.com/a-garden-in-bloom/"
+            },
+            {
+              "title": "You're doing JavaScript testing wrong",
+              "date": "2025-11-24",
+              "link": "https://gomakethings.com/youre-doing-javascript-testing-wrong/"
+            }
+          ]
+        },
+        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -35,33 +66,90 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
             {
-              "title": "My no-fuss code linting and formatting setup",
+              "date": "2025-12-03",
+              "link": "https://dbushell.com/notes/2025-12-03T18:48Z/"
+            },
+            {
+              "date": "2025-12-03",
+              "link": "https://dbushell.com/notes/2025-12-03T07:27Z/"
+            },
+            {
               "date": "2025-12-02",
-              "link": "https://gomakethings.com/my-no-fuss-code-linting-and-formatting-setup/"
+              "link": "https://dbushell.com/notes/2025-12-02T18:46Z/"
             },
             {
-              "title": "Building empathy",
+              "date": "2025-12-02",
+              "link": "https://dbushell.com/notes/2025-12-02T07:27Z/"
+            },
+            {
               "date": "2025-12-01",
-              "link": "https://gomakethings.com/building-empathy/"
+              "link": "https://dbushell.com/notes/2025-12-01T15:14Z/"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "The Nuances of JavaScript Typing using JSDoc",
+              "date": "2025-12-03",
+              "link": "https://thathtml.blog/2025/12/nuances-of-typing-with-jsdoc/"
             },
             {
-              "title": "A garden in bloom",
-              "date": "2025-11-25",
-              "link": "https://gomakethings.com/a-garden-in-bloom/"
+              "title": "Write Custom Extensions for htmx to Make it Your Own Personal Toolkit",
+              "date": "2025-11-11",
+              "link": "https://thathtml.blog/2025/11/htmx-extensions-your-personal-toolkit/"
             },
             {
-              "title": "You're doing JavaScript testing wrong",
-              "date": "2025-11-24",
-              "link": "https://gomakethings.com/youre-doing-javascript-testing-wrong/"
+              "title": "Add Terrific DX to Your UI Web Components with nimble-html",
+              "date": "2025-10-17",
+              "link": "https://thathtml.blog/2025/10/nimble-html-adds-great-dx-to-ui-components/"
             },
             {
-              "title": "Essentials",
-              "date": "2025-11-21",
-              "link": "https://gomakethings.com/essentials/"
+              "title": "Give “fetch” a Bit More Oomph with “ffetch”",
+              "date": "2025-09-18",
+              "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
+            },
+            {
+              "title": "Announcing Reciprocate, a Sweet Solution for Making Your HTML Web Components Reactive",
+              "date": "2025-09-08",
+              "link": "https://thathtml.blog/2025/09/reciprocate-reactivity-for-html-web-components/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Grow, Like a Tree Not a Cancer",
+              "date": "2025-12-02",
+              "link": "https://blog.jim-nielsen.com/2025/grow-like-a-tree-not-a-cancer/"
+            },
+            {
+              "title": "Malicious Traffic and Static Sites",
+              "date": "2025-11-30",
+              "link": "https://blog.jim-nielsen.com/2025/malicious-traffic-on-static-sites/"
+            },
+            {
+              "title": "Notes From an Interview With Jony Ive",
+              "date": "2025-11-26",
+              "link": "https://blog.jim-nielsen.com/2025/notes-from-interview-with-jony-ive/"
+            },
+            {
+              "title": "My Number One “Resource Not Found”",
+              "date": "2025-11-23",
+              "link": "https://blog.jim-nielsen.com/2025/top-resource-not-found/"
+            },
+            {
+              "title": "Podcast Notes: Feross Aboukhadijeh on The Changelog",
+              "date": "2025-11-19",
+              "link": "https://blog.jim-nielsen.com/2025/notes-from-changelog-with-feross/"
             }
           ]
         },
@@ -128,28 +216,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
+              "title": "Ain&apos;t Enough To Go &apos;Round In This World",
               "date": "2025-12-02",
-              "link": "https://dbushell.com/notes/2025-12-02T18:46Z/"
+              "link": "https://flamedfury.com/posts/aint-enough-to-go-round-in-this-world/"
             },
             {
-              "date": "2025-12-02",
-              "link": "https://dbushell.com/notes/2025-12-02T07:27Z/"
+              "title": "Contain The Web With Firefox Containers",
+              "date": "2025-11-28",
+              "link": "https://flamedfury.com/posts/contain-the-web-with-firefox-containers/"
             },
             {
-              "date": "2025-12-01",
-              "link": "https://dbushell.com/notes/2025-12-01T15:14Z/"
+              "title": "Personal Websites Aren’t Dead",
+              "date": "2025-11-26",
+              "link": "https://flamedfury.com/posts/personal-websites-arent-dead/"
             },
             {
-              "date": "2025-12-01",
-              "link": "https://dbushell.com/notes/2025-12-01T10:41Z/"
+              "title": "No More Open Homes",
+              "date": "2025-11-25",
+              "link": "https://flamedfury.com/posts/no-more-open-homes/"
             },
             {
-              "date": "2025-11-30",
-              "link": "https://dbushell.com/notes/2025-11-30T10:42Z/"
+              "title": "Clap Your Hands Say Yeah",
+              "date": "2025-11-17",
+              "link": "https://flamedfury.com/posts/clap-your-hands-say-yeah/"
             }
           ]
         },
@@ -278,37 +371,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Malicious Traffic and Static Sites",
-              "date": "2025-11-30",
-              "link": "https://blog.jim-nielsen.com/2025/malicious-traffic-on-static-sites/"
-            },
-            {
-              "title": "Notes From an Interview With Jony Ive",
-              "date": "2025-11-26",
-              "link": "https://blog.jim-nielsen.com/2025/notes-from-interview-with-jony-ive/"
-            },
-            {
-              "title": "My Number One “Resource Not Found”",
-              "date": "2025-11-23",
-              "link": "https://blog.jim-nielsen.com/2025/top-resource-not-found/"
-            },
-            {
-              "title": "Podcast Notes: Feross Aboukhadijeh on The Changelog",
-              "date": "2025-11-19",
-              "link": "https://blog.jim-nielsen.com/2025/notes-from-changelog-with-feross/"
-            },
-            {
-              "title": "Data Storage As Files on Disk Paired With an LLM",
-              "date": "2025-11-16",
-              "link": "https://blog.jim-nielsen.com/2025/files-on-disk-scripted-with-ai/"
-            }
-          ]
-        },
-        {
           "title": "A Tester's Journey",
           "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
           "items": [
@@ -367,37 +429,6 @@
               "title": "Changelog –\n        12 Jun 2025\n      ",
               "date": "2025-06-12",
               "link": "https://frills.dev/changelog/250612/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Contain The Web With Firefox Containers",
-              "date": "2025-11-28",
-              "link": "https://flamedfury.com/posts/contain-the-web-with-firefox-containers/"
-            },
-            {
-              "title": "Personal Websites Aren’t Dead",
-              "date": "2025-11-26",
-              "link": "https://flamedfury.com/posts/personal-websites-arent-dead/"
-            },
-            {
-              "title": "No More Open Homes",
-              "date": "2025-11-25",
-              "link": "https://flamedfury.com/posts/no-more-open-homes/"
-            },
-            {
-              "title": "Clap Your Hands Say Yeah",
-              "date": "2025-11-17",
-              "link": "https://flamedfury.com/posts/clap-your-hands-say-yeah/"
-            },
-            {
-              "title": "Insanity",
-              "date": "2025-11-10",
-              "link": "https://flamedfury.com/posts/insanity/"
             }
           ]
         },
@@ -584,6 +615,37 @@
               "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
               "date": "2025-07-24",
               "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Performance Inequality Gap, 2026",
+              "date": "2025-11-24",
+              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
+            },
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
             }
           ]
         },
@@ -1053,37 +1115,6 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Write Custom Extensions for htmx to Make it Your Own Personal Toolkit",
-              "date": "2025-11-11",
-              "link": "https://thathtml.blog/2025/11/htmx-extensions-your-personal-toolkit/"
-            },
-            {
-              "title": "Add Terrific DX to Your UI Web Components with nimble-html",
-              "date": "2025-10-17",
-              "link": "https://thathtml.blog/2025/10/nimble-html-adds-great-dx-to-ui-components/"
-            },
-            {
-              "title": "Give “fetch” a Bit More Oomph with “ffetch”",
-              "date": "2025-09-18",
-              "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
-            },
-            {
-              "title": "Announcing Reciprocate, a Sweet Solution for Making Your HTML Web Components Reactive",
-              "date": "2025-09-08",
-              "link": "https://thathtml.blog/2025/09/reciprocate-reactivity-for-html-web-components/"
-            },
-            {
-              "title": "Declarative HTML Binding in Only 20 Lines of Code! (and Signals)",
-              "date": "2025-08-08",
-              "link": "https://thathtml.blog/2025/08/declarative-html-binding-with-signals/"
-            }
-          ]
-        },
-        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -1545,6 +1576,37 @@
               "title": "Tackling Temporal Troubles",
               "date": "2025-06-10",
               "link": "https://fynn.be/talks/tackling-temporal-troubles/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Notes on switching to Helix from vim",
+              "date": "2025-10-10",
+              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
+            },
+            {
+              "title": "New zine: The Secret Rules of the Terminal",
+              "date": "2025-06-26",
+              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
+            },
+            {
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
+              "date": "2025-06-10",
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
+            },
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
             }
           ]
         },
@@ -2045,6 +2107,37 @@
           ]
         },
         {
+          "title": "Tooth of the Weasel",
+          "feedUrl": "https://angryweasel.com/blog/feed/",
+          "items": [
+            {
+              "title": "Five for Friday – March 14, 2025",
+              "date": "2025-03-14",
+              "link": "https://angryweasel.com/blog/five-for-friday-march-14-2025/"
+            },
+            {
+              "title": "Five for Friday – March 7, 2025",
+              "date": "2025-03-07",
+              "link": "https://angryweasel.com/blog/five-for-friday-march-7-2025/"
+            },
+            {
+              "title": "Five for Friday – February 21, 2025",
+              "date": "2025-02-21",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-21-2025/"
+            },
+            {
+              "title": "Five for Friday – February 14, 2025",
+              "date": "2025-02-14",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-14-2025/"
+            },
+            {
+              "title": "Five for Friday – February 7, 2025",
+              "date": "2025-02-08",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
+            }
+          ]
+        },
+        {
           "title": "lalaland",
           "feedUrl": "https://lalaland.mataroa.blog/rss/",
           "items": [
@@ -2399,14 +2492,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-03T03:49:47.210Z",
+  "fetchDate": "2025-12-04T03:51:22.864Z",
   "errors": [
-    "https://infrequently.org/feed/",
-    "https://angryweasel.com/blog/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://jvns.ca/atom.xml"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

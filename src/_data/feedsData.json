@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-12-05",
+              "link": "https://dbushell.com/notes/2025-12-05T07:55Z/"
+            },
+            {
+              "date": "2025-12-04",
+              "link": "https://dbushell.com/notes/2025-12-04T09:19Z/"
+            },
+            {
+              "date": "2025-12-03",
+              "link": "https://dbushell.com/notes/2025-12-03T18:48Z/"
+            },
+            {
+              "date": "2025-12-03",
+              "link": "https://dbushell.com/notes/2025-12-03T07:27Z/"
+            },
+            {
+              "date": "2025-12-02",
+              "link": "https://dbushell.com/notes/2025-12-02T18:46Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Fish bowl",
+              "date": "2025-12-05",
+              "link": "https://anniemueller.com/posts/fish-bowl"
+            },
+            {
+              "title": "My new business + tech podcast",
+              "date": "2025-11-13",
+              "link": "https://anniemueller.com/posts/my-new-business-tech-podcast"
+            },
+            {
+              "title": "Outside sad is better than inside sad",
+              "date": "2025-11-08",
+              "link": "https://anniemueller.com/posts/outside-sad-is-better-than-inside-sad"
+            },
+            {
+              "title": "Who’s in charge here anyway",
+              "date": "2025-11-04",
+              "link": "https://anniemueller.com/posts/whos-in-charge-here-anyway"
+            },
+            {
+              "title": "Duck duck duck dichotomy",
+              "date": "2025-11-01",
+              "link": "https://anniemueller.com/posts/duck-duck-duck-dichotomy"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -93,32 +150,6 @@
               "title": "Barbie",
               "date": "2023-08-07",
               "link": "https://coding-is-like-cooking.info/2023/08/barbie/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-12-04",
-              "link": "https://dbushell.com/notes/2025-12-04T09:19Z/"
-            },
-            {
-              "date": "2025-12-03",
-              "link": "https://dbushell.com/notes/2025-12-03T18:48Z/"
-            },
-            {
-              "date": "2025-12-03",
-              "link": "https://dbushell.com/notes/2025-12-03T07:27Z/"
-            },
-            {
-              "date": "2025-12-02",
-              "link": "https://dbushell.com/notes/2025-12-02T18:46Z/"
-            },
-            {
-              "date": "2025-12-02",
-              "link": "https://dbushell.com/notes/2025-12-02T07:27Z/"
             }
           ]
         },
@@ -1111,37 +1142,6 @@
               "title": "One way to do applied research",
               "date": "2024-11-07",
               "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "My new business + tech podcast",
-              "date": "2025-11-13",
-              "link": "https://anniemueller.com/posts/my-new-business-tech-podcast"
-            },
-            {
-              "title": "Outside sad is better than inside sad",
-              "date": "2025-11-08",
-              "link": "https://anniemueller.com/posts/outside-sad-is-better-than-inside-sad"
-            },
-            {
-              "title": "Who’s in charge here anyway",
-              "date": "2025-11-04",
-              "link": "https://anniemueller.com/posts/whos-in-charge-here-anyway"
-            },
-            {
-              "title": "Duck duck duck dichotomy",
-              "date": "2025-11-01",
-              "link": "https://anniemueller.com/posts/duck-duck-duck-dichotomy"
-            },
-            {
-              "title": "Love letters 11-13",
-              "date": "2025-10-24",
-              "link": "https://anniemueller.com/posts/love-letters-11-13"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-05T03:51:10.718Z",
+  "fetchDate": "2025-12-06T03:42:08.637Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

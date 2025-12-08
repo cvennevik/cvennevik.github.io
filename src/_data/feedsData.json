@@ -4,9 +4,44 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "2025 Year in Review",
+              "date": "2025-12-07",
+              "link": "https://macwright.com/2025/12/07/year-in-review.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-12-01",
+              "link": "https://macwright.com/2025/12/01/recently.html"
+            },
+            {
+              "title": "Val Town 2023-2025 Retrospective",
+              "date": "2025-11-11",
+              "link": "https://macwright.com/2025/11/11/val-town.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-11-02",
+              "link": "https://macwright.com/2025/11/02/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-10-04",
+              "link": "https://macwright.com/2025/10/04/recently.html"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2025-12-07",
+              "link": "https://dbushell.com/notes/2025-12-07T09:56Z/"
+            },
             {
               "date": "2025-12-06",
               "link": "https://dbushell.com/notes/2025-12-06T11:23Z/"
@@ -22,10 +57,6 @@
             {
               "date": "2025-12-03",
               "link": "https://dbushell.com/notes/2025-12-03T18:48Z/"
-            },
-            {
-              "date": "2025-12-03",
-              "link": "https://dbushell.com/notes/2025-12-03T07:27Z/"
             }
           ]
         },
@@ -33,6 +64,11 @@
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
+            {
+              "title": "All feelings mean something but it might be something dumb",
+              "date": "2025-12-07",
+              "link": "https://anniemueller.com/posts/all-feelings-mean-something-but-it-might-be-something-dumb"
+            },
             {
               "title": "Dishonesty is a rejection of life",
               "date": "2025-12-06",
@@ -52,11 +88,37 @@
               "title": "Outside sad is better than inside sad",
               "date": "2025-11-08",
               "link": "https://anniemueller.com/posts/outside-sad-is-better-than-inside-sad"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "0056: consulting, zest progress, existentialize, modular borrowing, do we understand sql, zjit updates, books",
+              "date": "2025-12-06",
+              "link": "https://www.scattered-thoughts.net/log/0056/"
             },
             {
-              "title": "Who’s in charge here anyway",
-              "date": "2025-11-04",
-              "link": "https://anniemueller.com/posts/whos-in-charge-here-anyway"
+              "title": "0055: consulting, sql needed structure, slow forum, on the line, out of thin air, papers, other stuff",
+              "date": "2025-11-01",
+              "link": "https://www.scattered-thoughts.net/log/0055/"
+            },
+            {
+              "title": "SQL needed structure",
+              "date": "2025-09-04",
+              "link": "https://www.scattered-thoughts.net/writing/sql-needed-structure/"
+            },
+            {
+              "title": "0054: zest namespaces, store tags after payloads, go allocation probe, everyones got one, pprof labelguns, go value types, go perf probe, tpde, anyblox, books",
+              "date": "2025-09-02",
+              "link": "https://www.scattered-thoughts.net/log/0054/"
+            },
+            {
+              "title": "Everyone's got one",
+              "date": "2025-08-05",
+              "link": "https://www.scattered-thoughts.net/writing/everyones-got-one/"
             }
           ]
         },
@@ -123,37 +185,6 @@
           ]
         },
         {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Pixels from images",
-              "date": "2025-12-04",
-              "link": "https://garoof.no/notes/pixels-from-images.html"
-            },
-            {
-              "title": "Pixels",
-              "date": "2025-11-09",
-              "link": "https://garoof.no/notes/pixels.html"
-            },
-            {
-              "title": "Even if it's arbitrary",
-              "date": "2025-11-08",
-              "link": "https://garoof.no/notes/even-if-its-arbitrary.html"
-            },
-            {
-              "title": "AI then",
-              "date": "2025-09-03",
-              "link": "https://garoof.no/notes/ai.html"
-            },
-            {
-              "title": "What if dependencies were injected?",
-              "date": "2025-08-24",
-              "link": "https://garoof.no/java/ioc.html"
-            }
-          ]
-        },
-        {
           "title": "Coding Is Like Cooking",
           "feedUrl": "https://coding-is-like-cooking.info/feed/",
           "items": [
@@ -181,6 +212,37 @@
               "title": "Barbie",
               "date": "2023-08-07",
               "link": "https://coding-is-like-cooking.info/2023/08/barbie/"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Pixels from images",
+              "date": "2025-12-04",
+              "link": "https://garoof.no/notes/pixels-from-images.html"
+            },
+            {
+              "title": "Pixels",
+              "date": "2025-11-09",
+              "link": "https://garoof.no/notes/pixels.html"
+            },
+            {
+              "title": "Even if it's arbitrary",
+              "date": "2025-11-08",
+              "link": "https://garoof.no/notes/even-if-its-arbitrary.html"
+            },
+            {
+              "title": "AI then",
+              "date": "2025-09-03",
+              "link": "https://garoof.no/notes/ai.html"
+            },
+            {
+              "title": "What if dependencies were injected?",
+              "date": "2025-08-24",
+              "link": "https://garoof.no/java/ioc.html"
             }
           ]
         },
@@ -340,6 +402,37 @@
           ]
         },
         {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Ain&apos;t Enough To Go &apos;Round In This World",
+              "date": "2025-12-02",
+              "link": "https://flamedfury.com/posts/aint-enough-to-go-round-in-this-world/"
+            },
+            {
+              "title": "Contain The Web With Firefox Containers",
+              "date": "2025-11-28",
+              "link": "https://flamedfury.com/posts/contain-the-web-with-firefox-containers/"
+            },
+            {
+              "title": "Personal Websites Aren’t Dead",
+              "date": "2025-11-26",
+              "link": "https://flamedfury.com/posts/personal-websites-arent-dead/"
+            },
+            {
+              "title": "No More Open Homes",
+              "date": "2025-11-25",
+              "link": "https://flamedfury.com/posts/no-more-open-homes/"
+            },
+            {
+              "title": "Clap Your Hands Say Yeah",
+              "date": "2025-11-17",
+              "link": "https://flamedfury.com/posts/clap-your-hands-say-yeah/"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -367,37 +460,6 @@
               "title": "Nat's Current Prompts",
               "date": "2025-07-11",
               "link": "https://www.simplermachines.com/nats-current-prompts/"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2025-12-01",
-              "link": "https://macwright.com/2025/12/01/recently.html"
-            },
-            {
-              "title": "Val Town 2023-2025 Retrospective",
-              "date": "2025-11-11",
-              "link": "https://macwright.com/2025/11/11/val-town.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-11-02",
-              "link": "https://macwright.com/2025/11/02/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-10-04",
-              "link": "https://macwright.com/2025/10/04/recently.html"
-            },
-            {
-              "title": "Porteur bag 2",
-              "date": "2025-09-27",
-              "link": "https://macwright.com/2025/09/27/porteur-bag-2.html"
             }
           ]
         },
@@ -650,37 +712,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            }
-          ]
-        },
-        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -708,6 +739,37 @@
               "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
               "date": "2025-07-24",
               "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Performance Inequality Gap, 2026",
+              "date": "2025-11-24",
+              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
+            },
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
             }
           ]
         },
@@ -925,37 +987,6 @@
               "title": "Three Ingredients for Tasty Platform Capabilities",
               "date": "2024-05-01",
               "link": "https://unremarkabletester.com/2024/05/01/three-ingredients-for-tasty-platform-capabilities/"
-            }
-          ]
-        },
-        {
-          "title": "Hazel Weakly",
-          "feedUrl": "https://hazelweakly.me/atom.xml",
-          "items": [
-            {
-              "title": "To Be a Leader of Systems",
-              "date": "2025-11-18",
-              "link": "https://hazelweakly.me/blog/to-be-a-leader-of-systems/"
-            },
-            {
-              "title": "Scaling Innovation: Building Ecosystems",
-              "date": "2025-10-21",
-              "link": "https://hazelweakly.me/blog/scaling-innovation-building-ecosystems/"
-            },
-            {
-              "title": "Stop Building AI Tools Backwards",
-              "date": "2025-05-16",
-              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
-            },
-            {
-              "title": "The Future of Observability: Observability 3.0",
-              "date": "2024-12-09",
-              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
-            },
-            {
-              "title": "You Have One Voice",
-              "date": "2024-10-21",
-              "link": "https://hazelweakly.me/blog/you-have-one-voice/"
             }
           ]
         },
@@ -1270,37 +1301,6 @@
           ]
         },
         {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "0055: consulting, sql needed structure, slow forum, on the line, out of thin air, papers, other stuff",
-              "date": "2025-11-01",
-              "link": "https://www.scattered-thoughts.net/log/0055/"
-            },
-            {
-              "title": "SQL needed structure",
-              "date": "2025-09-04",
-              "link": "https://www.scattered-thoughts.net/writing/sql-needed-structure/"
-            },
-            {
-              "title": "0054: zest namespaces, store tags after payloads, go allocation probe, everyones got one, pprof labelguns, go value types, go perf probe, tpde, anyblox, books",
-              "date": "2025-09-02",
-              "link": "https://www.scattered-thoughts.net/log/0054/"
-            },
-            {
-              "title": "Everyone's got one",
-              "date": "2025-08-05",
-              "link": "https://www.scattered-thoughts.net/writing/everyones-got-one/"
-            },
-            {
-              "title": "Go allocation probe",
-              "date": "2025-07-18",
-              "link": "https://www.scattered-thoughts.net/writing/go-allocation-probe/"
-            }
-          ]
-        },
-        {
           "title": "Marvin Hagemeister",
           "feedUrl": "https://marvinh.dev/feed.xml",
           "items": [
@@ -1549,37 +1549,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Notes on switching to Helix from vim",
-              "date": "2025-10-10",
-              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
-            },
-            {
-              "title": "New zine: The Secret Rules of the Terminal",
-              "date": "2025-06-26",
-              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
-            },
-            {
-              "title": "Using `make` to compile C programs (for non-C-programmers)",
-              "date": "2025-06-10",
-              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
-            },
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            }
-          ]
-        },
-        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -1607,6 +1576,37 @@
               "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
               "date": "2025-02-15",
               "link": "https://www.felienne.com/archives/8749"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Notes on switching to Helix from vim",
+              "date": "2025-10-10",
+              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
+            },
+            {
+              "title": "New zine: The Secret Rules of the Terminal",
+              "date": "2025-06-26",
+              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
+            },
+            {
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
+              "date": "2025-06-10",
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
+            },
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
             }
           ]
         },
@@ -2461,12 +2461,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-07T03:55:27.294Z",
+  "fetchDate": "2025-12-08T03:53:42.800Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
+    "https://hazelweakly.me/atom.xml",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://flamedfury.com/feed.xml"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Prefiguration",
+              "date": "2025-12-08",
+              "link": "https://gomakethings.com/prefiguration/"
+            },
+            {
+              "title": "'Tis the season",
+              "date": "2025-12-04",
+              "link": "https://gomakethings.com/tis-the-season/"
+            },
+            {
+              "title": "Flobots",
+              "date": "2025-12-03",
+              "link": "https://gomakethings.com/flobots/"
+            },
+            {
+              "title": "My no-fuss code linting and formatting setup",
+              "date": "2025-12-02",
+              "link": "https://gomakethings.com/my-no-fuss-code-linting-and-formatting-setup/"
+            },
+            {
+              "title": "Building empathy",
+              "date": "2025-12-01",
+              "link": "https://gomakethings.com/building-empathy/"
+            }
+          ]
+        },
+        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
+            {
+              "title": "A brief history of specifiers and protocols",
+              "date": "2025-12-08",
+              "link": "https://macwright.com/2025/12/08/module-specifiers-and-protocols.html"
+            },
             {
               "title": "2025 Year in Review",
               "date": "2025-12-07",
@@ -26,11 +62,37 @@
               "title": "Recently",
               "date": "2025-11-02",
               "link": "https://macwright.com/2025/11/02/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "Coding Is Like Cooking",
+          "feedUrl": "https://coding-is-like-cooking.info/feed/",
+          "items": [
+            {
+              "title": "Test Desiderata 2.0",
+              "date": "2025-12-08",
+              "link": "https://coding-is-like-cooking.info/2025/12/test-desiderata-2-0/"
             },
             {
-              "title": "Recently",
-              "date": "2025-10-04",
-              "link": "https://macwright.com/2025/10/04/recently.html"
+              "title": "What is more important to learn – Design or Coding?",
+              "date": "2025-12-04",
+              "link": "https://coding-is-like-cooking.info/2025/12/what-is-more-important-to-learn-design-or-coding/"
+            },
+            {
+              "title": "The Microskills Theory of Programming",
+              "date": "2025-10-31",
+              "link": "https://coding-is-like-cooking.info/2025/10/the-microskills-theory-of-programming/"
+            },
+            {
+              "title": "Turn off your AI Assistant for Code Katas",
+              "date": "2025-07-14",
+              "link": "https://coding-is-like-cooking.info/2025/07/turn-off-your-ai-assistant-for-code-katas/"
+            },
+            {
+              "title": "Smooth Ensemble with AWS AppStream – How To Guide",
+              "date": "2025-04-21",
+              "link": "https://coding-is-like-cooking.info/2025/04/smooth-ensemble-with-aws-appstream-how-to-guide/"
             }
           ]
         },
@@ -38,6 +100,14 @@
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2025-12-08",
+              "link": "https://dbushell.com/notes/2025-12-08T12:48Z/"
+            },
+            {
+              "date": "2025-12-08",
+              "link": "https://dbushell.com/notes/2025-12-08T05:41Z/"
+            },
             {
               "date": "2025-12-07",
               "link": "https://dbushell.com/notes/2025-12-07T09:56Z/"
@@ -49,14 +119,37 @@
             {
               "date": "2025-12-05",
               "link": "https://dbushell.com/notes/2025-12-05T07:55Z/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Icons in Menus Everywhere — Send Help",
+              "date": "2025-12-07",
+              "link": "https://blog.jim-nielsen.com/2025/icons-in-menus/"
             },
             {
-              "date": "2025-12-04",
-              "link": "https://dbushell.com/notes/2025-12-04T09:19Z/"
+              "title": "Grow, Like a Tree Not a Cancer",
+              "date": "2025-12-02",
+              "link": "https://blog.jim-nielsen.com/2025/grow-like-a-tree-not-a-cancer/"
             },
             {
-              "date": "2025-12-03",
-              "link": "https://dbushell.com/notes/2025-12-03T18:48Z/"
+              "title": "Malicious Traffic and Static Sites",
+              "date": "2025-11-30",
+              "link": "https://blog.jim-nielsen.com/2025/malicious-traffic-on-static-sites/"
+            },
+            {
+              "title": "Notes From an Interview With Jony Ive",
+              "date": "2025-11-26",
+              "link": "https://blog.jim-nielsen.com/2025/notes-from-interview-with-jony-ive/"
+            },
+            {
+              "title": "My Number One “Resource Not Found”",
+              "date": "2025-11-23",
+              "link": "https://blog.jim-nielsen.com/2025/top-resource-not-found/"
             }
           ]
         },
@@ -154,68 +247,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "'Tis the season",
-              "date": "2025-12-04",
-              "link": "https://gomakethings.com/tis-the-season/"
-            },
-            {
-              "title": "Flobots",
-              "date": "2025-12-03",
-              "link": "https://gomakethings.com/flobots/"
-            },
-            {
-              "title": "My no-fuss code linting and formatting setup",
-              "date": "2025-12-02",
-              "link": "https://gomakethings.com/my-no-fuss-code-linting-and-formatting-setup/"
-            },
-            {
-              "title": "Building empathy",
-              "date": "2025-12-01",
-              "link": "https://gomakethings.com/building-empathy/"
-            },
-            {
-              "title": "A garden in bloom",
-              "date": "2025-11-25",
-              "link": "https://gomakethings.com/a-garden-in-bloom/"
-            }
-          ]
-        },
-        {
-          "title": "Coding Is Like Cooking",
-          "feedUrl": "https://coding-is-like-cooking.info/feed/",
-          "items": [
-            {
-              "title": "What is more important to learn – Design or Coding?",
-              "date": "2025-12-04",
-              "link": "https://coding-is-like-cooking.info/2025/12/what-is-more-important-to-learn-design-or-coding/"
-            },
-            {
-              "title": "The Microskills Theory of Programming",
-              "date": "2025-10-31",
-              "link": "https://coding-is-like-cooking.info/2025/10/the-microskills-theory-of-programming/"
-            },
-            {
-              "title": "Turn off your AI Assistant for Code Katas",
-              "date": "2025-07-14",
-              "link": "https://coding-is-like-cooking.info/2025/07/turn-off-your-ai-assistant-for-code-katas/"
-            },
-            {
-              "title": "Smooth Ensemble with AWS AppStream – How To Guide",
-              "date": "2025-04-21",
-              "link": "https://coding-is-like-cooking.info/2025/04/smooth-ensemble-with-aws-appstream-how-to-guide/"
-            },
-            {
-              "title": "Barbie",
-              "date": "2023-08-07",
-              "link": "https://coding-is-like-cooking.info/2023/08/barbie/"
-            }
-          ]
-        },
-        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -305,37 +336,6 @@
               "title": "Announcing Reciprocate, a Sweet Solution for Making Your HTML Web Components Reactive",
               "date": "2025-09-08",
               "link": "https://thathtml.blog/2025/09/reciprocate-reactivity-for-html-web-components/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Grow, Like a Tree Not a Cancer",
-              "date": "2025-12-02",
-              "link": "https://blog.jim-nielsen.com/2025/grow-like-a-tree-not-a-cancer/"
-            },
-            {
-              "title": "Malicious Traffic and Static Sites",
-              "date": "2025-11-30",
-              "link": "https://blog.jim-nielsen.com/2025/malicious-traffic-on-static-sites/"
-            },
-            {
-              "title": "Notes From an Interview With Jony Ive",
-              "date": "2025-11-26",
-              "link": "https://blog.jim-nielsen.com/2025/notes-from-interview-with-jony-ive/"
-            },
-            {
-              "title": "My Number One “Resource Not Found”",
-              "date": "2025-11-23",
-              "link": "https://blog.jim-nielsen.com/2025/top-resource-not-found/"
-            },
-            {
-              "title": "Podcast Notes: Feross Aboukhadijeh on The Changelog",
-              "date": "2025-11-19",
-              "link": "https://blog.jim-nielsen.com/2025/notes-from-changelog-with-feross/"
             }
           ]
         },
@@ -491,37 +491,6 @@
               "title": "Visualizing distributions with pepperoni pizza (and javascript)",
               "date": "2025-08-18",
               "link": "https://ntietz.com/blog/visualizing-distributions-with-pepperoni-pizza/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Monumental and Important Artifacts",
-              "date": "2025-11-30",
-              "link": "https://robinrendle.com/notes/Monumental-and-Important-Artifacts/"
-            },
-            {
-              "title": "An Abundance of Inspiration",
-              "date": "2025-10-28",
-              "link": "https://robinrendle.com/notes/an-abundance-of-inspiration/"
-            },
-            {
-              "title": "The Drifter",
-              "date": "2025-10-05",
-              "link": "https://robinrendle.com/notes/the-drifter/"
-            },
-            {
-              "title": "A Few Nice Words about Viewfinder",
-              "date": "2025-09-20",
-              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
-            },
-            {
-              "title": "Ditch those words!",
-              "date": "2025-09-13",
-              "link": "https://robinrendle.com/notes/ditch-those-words/"
             }
           ]
         },
@@ -987,6 +956,37 @@
               "title": "Three Ingredients for Tasty Platform Capabilities",
               "date": "2024-05-01",
               "link": "https://unremarkabletester.com/2024/05/01/three-ingredients-for-tasty-platform-capabilities/"
+            }
+          ]
+        },
+        {
+          "title": "Hazel Weakly",
+          "feedUrl": "https://hazelweakly.me/atom.xml",
+          "items": [
+            {
+              "title": "To Be a Leader of Systems",
+              "date": "2025-11-18",
+              "link": "https://hazelweakly.me/blog/to-be-a-leader-of-systems/"
+            },
+            {
+              "title": "Scaling Innovation: Building Ecosystems",
+              "date": "2025-10-21",
+              "link": "https://hazelweakly.me/blog/scaling-innovation-building-ecosystems/"
+            },
+            {
+              "title": "Stop Building AI Tools Backwards",
+              "date": "2025-05-16",
+              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
+            },
+            {
+              "title": "The Future of Observability: Observability 3.0",
+              "date": "2024-12-09",
+              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
+            },
+            {
+              "title": "You Have One Voice",
+              "date": "2024-10-21",
+              "link": "https://hazelweakly.me/blog/you-have-one-voice/"
             }
           ]
         },
@@ -1549,37 +1549,6 @@
           ]
         },
         {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "Leaving WordPress",
-              "date": "2025-10-10",
-              "link": "https://www.felienne.com/archives/8938"
-            },
-            {
-              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
-              "date": "2025-03-09",
-              "link": "https://www.felienne.com/archives/8880"
-            },
-            {
-              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
-              "date": "2025-03-03",
-              "link": "https://www.felienne.com/archives/8853"
-            },
-            {
-              "title": "Who owns your cloned AI voice – Week 8’s AI news",
-              "date": "2025-02-23",
-              "link": "https://www.felienne.com/archives/8808"
-            },
-            {
-              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
-              "date": "2025-02-15",
-              "link": "https://www.felienne.com/archives/8749"
-            }
-          ]
-        },
-        {
           "title": "Julia Evans",
           "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
@@ -1607,6 +1576,37 @@
               "title": "How to add a directory to your PATH",
               "date": "2025-02-13",
               "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
+            }
+          ]
+        },
+        {
+          "title": "Felienne Hermans",
+          "feedUrl": "https://www.felienne.com/feed",
+          "items": [
+            {
+              "title": "Leaving WordPress",
+              "date": "2025-10-10",
+              "link": "https://www.felienne.com/archives/8938"
+            },
+            {
+              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
+              "date": "2025-03-09",
+              "link": "https://www.felienne.com/archives/8880"
+            },
+            {
+              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
+              "date": "2025-03-03",
+              "link": "https://www.felienne.com/archives/8853"
+            },
+            {
+              "title": "Who owns your cloned AI voice – Week 8’s AI news",
+              "date": "2025-02-23",
+              "link": "https://www.felienne.com/archives/8808"
+            },
+            {
+              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
+              "date": "2025-02-15",
+              "link": "https://www.felienne.com/archives/8749"
             }
           ]
         },
@@ -2461,11 +2461,11 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-08T03:53:42.800Z",
+  "fetchDate": "2025-12-09T03:49:40.071Z",
   "errors": [
+    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://hazelweakly.me/atom.xml",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml"
   ]

@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "I Wish People Were More Public",
+              "date": "2025-12-10",
+              "link": "https://borretti.me/article/i-wish-people-were-more-public"
+            },
+            {
+              "title": "Ad-Hoc Emacs Packages with Nix",
+              "date": "2025-11-16",
+              "link": "https://borretti.me/article/ad-hoc-emacs-packages-with-nix"
+            },
+            {
+              "title": "Linux on the Fujitsu Lifebook U729",
+              "date": "2025-11-15",
+              "link": "https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729"
+            },
+            {
+              "title": "Agda on NixOS",
+              "date": "2025-11-14",
+              "link": "https://borretti.me/article/agda-on-nixos"
+            },
+            {
+              "title": "Hashcards: A Plain-Text Spaced Repetition System",
+              "date": "2025-10-05",
+              "link": "https://borretti.me/article/hashcards-plain-text-spaced-repetition"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Mid-winter photos",
+              "date": "2025-12-09",
+              "link": "https://www.baldurbjarnason.com/notes/photos/mid-winter-2025/"
+            },
+            {
+              "title": "But, I worry, because I can see the cracks in the wall",
+              "date": "2025-12-09",
+              "link": "https://www.baldurbjarnason.com/2025/but-i-worry/"
+            },
+            {
+              "title": "The ‘Everything Bundle’",
+              "date": "2025-11-26",
+              "link": "https://www.baldurbjarnason.com/bundle/ebooks/"
+            },
+            {
+              "title": "Steamy Hveragerði",
+              "date": "2025-11-21",
+              "link": "https://www.baldurbjarnason.com/notes/photos/steamy-town-2025/"
+            },
+            {
+              "title": "The dichotomy of print versus the web",
+              "date": "2025-11-21",
+              "link": "https://www.baldurbjarnason.com/2025/the-dichotomy-of-print-vs-web/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Theme selector",
+              "date": "2025-12-09",
+              "link": "https://macwright.com/2025/12/09/theme-selector.html"
+            },
+            {
+              "title": "A brief history of specifiers and protocols",
+              "date": "2025-12-08",
+              "link": "https://macwright.com/2025/12/08/module-specifiers-and-protocols.html"
+            },
+            {
+              "title": "2025 Year in Review",
+              "date": "2025-12-07",
+              "link": "https://macwright.com/2025/12/07/year-in-review.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2025-12-01",
+              "link": "https://macwright.com/2025/12/01/recently.html"
+            },
+            {
+              "title": "Val Town 2023-2025 Retrospective",
+              "date": "2025-11-11",
+              "link": "https://macwright.com/2025/11/11/val-town.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-12-09",
+              "link": "https://dbushell.com/notes/2025-12-09T13:29Z/"
+            },
+            {
+              "date": "2025-12-09",
+              "link": "https://dbushell.com/notes/2025-12-09T05:09Z/"
+            },
+            {
+              "date": "2025-12-08",
+              "link": "https://dbushell.com/notes/2025-12-08T12:48Z/"
+            },
+            {
+              "date": "2025-12-08",
+              "link": "https://dbushell.com/notes/2025-12-08T05:41Z/"
+            },
+            {
+              "date": "2025-12-07",
+              "link": "https://dbushell.com/notes/2025-12-07T09:56Z/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -31,37 +150,6 @@
               "title": "Building empathy",
               "date": "2025-12-01",
               "link": "https://gomakethings.com/building-empathy/"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "A brief history of specifiers and protocols",
-              "date": "2025-12-08",
-              "link": "https://macwright.com/2025/12/08/module-specifiers-and-protocols.html"
-            },
-            {
-              "title": "2025 Year in Review",
-              "date": "2025-12-07",
-              "link": "https://macwright.com/2025/12/07/year-in-review.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-12-01",
-              "link": "https://macwright.com/2025/12/01/recently.html"
-            },
-            {
-              "title": "Val Town 2023-2025 Retrospective",
-              "date": "2025-11-11",
-              "link": "https://macwright.com/2025/11/11/val-town.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2025-11-02",
-              "link": "https://macwright.com/2025/11/02/recently.html"
             }
           ]
         },
@@ -97,28 +185,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
             {
+              "title": "Testing types - beyond definitions",
               "date": "2025-12-08",
-              "link": "https://dbushell.com/notes/2025-12-08T12:48Z/"
+              "link": "https://smallsheds.garden/blog/2025/testing-types-beyond-definitions/"
             },
             {
-              "date": "2025-12-08",
-              "link": "https://dbushell.com/notes/2025-12-08T05:41Z/"
+              "title": "We do not all have the same job",
+              "date": "2025-11-15",
+              "link": "https://smallsheds.garden/blog/2025/we-do-not-all-have-the-same-job/"
             },
             {
-              "date": "2025-12-07",
-              "link": "https://dbushell.com/notes/2025-12-07T09:56Z/"
+              "title": "The five areas of Agile",
+              "date": "2025-11-01",
+              "link": "https://smallsheds.garden/blog/2025/the-five-areas-of-agile/"
             },
             {
-              "date": "2025-12-06",
-              "link": "https://dbushell.com/notes/2025-12-06T11:23Z/"
+              "title": "How adding a flex-wrap almost spiraled out of control",
+              "date": "2025-08-23",
+              "link": "https://smallsheds.garden/blog/2025/how-adding-a-flex-wrap-almost-spiraled-out-of-control/"
             },
             {
-              "date": "2025-12-05",
-              "link": "https://dbushell.com/notes/2025-12-05T07:55Z/"
+              "title": "Some of the things I did after being off for a few weeks",
+              "date": "2025-07-01",
+              "link": "https://smallsheds.garden/blog/2025/some-of-the-things-i-did-after-being-off-for-a-few-weeks/"
             }
           ]
         },
@@ -495,6 +588,37 @@
           ]
         },
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Monumental and Important Artifacts",
+              "date": "2025-11-30",
+              "link": "https://robinrendle.com/notes/Monumental-and-Important-Artifacts/"
+            },
+            {
+              "title": "An Abundance of Inspiration",
+              "date": "2025-10-28",
+              "link": "https://robinrendle.com/notes/an-abundance-of-inspiration/"
+            },
+            {
+              "title": "The Drifter",
+              "date": "2025-10-05",
+              "link": "https://robinrendle.com/notes/the-drifter/"
+            },
+            {
+              "title": "A Few Nice Words about Viewfinder",
+              "date": "2025-09-20",
+              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
+            },
+            {
+              "title": "Ditch those words!",
+              "date": "2025-09-13",
+              "link": "https://robinrendle.com/notes/ditch-those-words/"
+            }
+          ]
+        },
+        {
           "title": "A Tester's Journey",
           "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
           "items": [
@@ -584,37 +708,6 @@
               "title": "Not my kind of web browser",
               "date": "2025-10-22",
               "link": "https://thejollyteapot.com/2025/10/22/not-my-kind-of-web-browser/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "The ‘Everything Bundle’",
-              "date": "2025-11-26",
-              "link": "https://www.baldurbjarnason.com/bundle/ebooks/"
-            },
-            {
-              "title": "The dichotomy of print versus the web",
-              "date": "2025-11-21",
-              "link": "https://www.baldurbjarnason.com/2025/the-dichotomy-of-print-vs-web/"
-            },
-            {
-              "title": "Kötturinn og ég, ný íslensk myndasaga",
-              "date": "2025-11-21",
-              "link": "https://www.baldurbjarnason.com/2025/kotturinn-og-eg/"
-            },
-            {
-              "title": "For sale: strong opinions; never published",
-              "date": "2025-11-07",
-              "link": "https://www.baldurbjarnason.com/2025/strong-opinions-never-published/"
-            },
-            {
-              "title": "Steamy Hveragerði",
-              "date": "2025-11-03",
-              "link": "https://www.baldurbjarnason.com/notes/photos/steamy-town-2025/"
             }
           ]
         },
@@ -1022,37 +1115,6 @@
           ]
         },
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Ad-Hoc Emacs Packages with Nix",
-              "date": "2025-11-16",
-              "link": "https://borretti.me/article/ad-hoc-emacs-packages-with-nix"
-            },
-            {
-              "title": "Linux on the Fujitsu Lifebook U729",
-              "date": "2025-11-15",
-              "link": "https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729"
-            },
-            {
-              "title": "Agda on NixOS",
-              "date": "2025-11-14",
-              "link": "https://borretti.me/article/agda-on-nixos"
-            },
-            {
-              "title": "Hashcards: A Plain-Text Spaced Repetition System",
-              "date": "2025-10-05",
-              "link": "https://borretti.me/article/hashcards-plain-text-spaced-repetition"
-            },
-            {
-              "title": "Adding Planets to Celestia on macOS",
-              "date": "2025-07-29",
-              "link": "https://borretti.me/article/adding-planets-to-celestia-on-macos"
-            }
-          ]
-        },
-        {
           "title": "Musings about software",
           "feedUrl": "https://www.softwaremaxims.com/feed.xml",
           "items": [
@@ -1080,37 +1142,6 @@
               "title": "Remove Constraints To Get Results",
               "date": "2023-06-06",
               "link": "https://softwaremaxims.com/blog/remove-constraints"
-            }
-          ]
-        },
-        {
-          "title": "Joep Schuurkes",
-          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
-          "items": [
-            {
-              "title": "We do not all have the same job",
-              "date": "2025-11-15",
-              "link": "https://smallsheds.garden/blog/2025/we-do-not-all-have-the-same-job/"
-            },
-            {
-              "title": "The five areas of Agile",
-              "date": "2025-11-01",
-              "link": "https://smallsheds.garden/blog/2025/the-five-areas-of-agile/"
-            },
-            {
-              "title": "How adding a flex-wrap almost spiraled out of control",
-              "date": "2025-08-23",
-              "link": "https://smallsheds.garden/blog/2025/how-adding-a-flex-wrap-almost-spiraled-out-of-control/"
-            },
-            {
-              "title": "Some of the things I did after being off for a few weeks",
-              "date": "2025-07-01",
-              "link": "https://smallsheds.garden/blog/2025/some-of-the-things-i-did-after-being-off-for-a-few-weeks/"
-            },
-            {
-              "title": "How essential are your testers?",
-              "date": "2025-05-20",
-              "link": "https://smallsheds.garden/blog/2025/how-essential-are-your-testers/"
             }
           ]
         },
@@ -2461,9 +2492,8 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-09T03:49:40.071Z",
+  "fetchDate": "2025-12-10T03:53:52.694Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

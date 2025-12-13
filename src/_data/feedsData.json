@@ -4,28 +4,33 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
             {
-              "date": "2025-12-11",
-              "link": "https://dbushell.com/notes/2025-12-11T10:16Z/"
+              "title": "Wrapping up Advent of Code 2025",
+              "date": "2025-12-12",
+              "link": "https://dbushell.com/2025/12/12/advent-of-code-2025/"
             },
             {
-              "date": "2025-12-10",
-              "link": "https://dbushell.com/notes/2025-12-10T14:50Z/"
+              "title": "Deleting Code for Performance",
+              "date": "2025-12-04",
+              "link": "https://dbushell.com/2025/12/04/deleting-code-for-performance/"
             },
             {
-              "date": "2025-12-09",
-              "link": "https://dbushell.com/notes/2025-12-09T13:29Z/"
+              "title": "iOS Web Browser Latency",
+              "date": "2025-11-27",
+              "link": "https://dbushell.com/2025/11/27/ios-web-browser-latency/"
             },
             {
-              "date": "2025-12-09",
-              "link": "https://dbushell.com/notes/2025-12-09T05:09Z/"
+              "title": "Async SvelteKit Data and Side Effects",
+              "date": "2025-11-25",
+              "link": "https://dbushell.com/2025/11/25/async-sveltekit-data-and-side-effects/"
             },
             {
-              "date": "2025-12-08",
-              "link": "https://dbushell.com/notes/2025-12-08T12:48Z/"
+              "title": "Croissant Update and Dexie",
+              "date": "2025-11-21",
+              "link": "https://dbushell.com/2025/11/21/croissant-update-and-dexie/"
             }
           ]
         },
@@ -33,6 +38,11 @@
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Helping people find work",
+              "date": "2025-12-12",
+              "link": "https://gomakethings.com/helping-people-find-work/"
+            },
             {
               "title": "Creating a toggle switch with just CSS",
               "date": "2025-12-10",
@@ -52,11 +62,94 @@
               "title": "Flobots",
               "date": "2025-12-03",
               "link": "https://gomakethings.com/flobots/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Typefaces as clothes",
+              "date": "2025-12-12",
+              "link": "https://thejollyteapot.com/2025/12/12/typefaces-as-clothes/"
             },
             {
-              "title": "My no-fuss code linting and formatting setup",
-              "date": "2025-12-02",
-              "link": "https://gomakethings.com/my-no-fuss-code-linting-and-formatting-setup/"
+              "title": "November 2025 blend of links",
+              "date": "2025-11-27",
+              "link": "https://thejollyteapot.com/november-2025-blend/"
+            },
+            {
+              "title": "Praise the Backup",
+              "date": "2025-11-24",
+              "link": "https://thejollyteapot.com/2025/11/24/praise-the-backup/"
+            },
+            {
+              "title": "Who are they always texting?",
+              "date": "2025-11-20",
+              "link": "https://thejollyteapot.com/2025/11/20/who-are-they-always-texting/"
+            },
+            {
+              "title": "October 2025 blend of links",
+              "date": "2025-10-28",
+              "link": "https://thejollyteapot.com/october-2025-blend/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-12-12",
+              "link": "https://dbushell.com/notes/2025-12-12T09:57Z/"
+            },
+            {
+              "date": "2025-12-12",
+              "link": "https://dbushell.com/notes/2025-12-12T05:01Z/"
+            },
+            {
+              "date": "2025-12-11",
+              "link": "https://dbushell.com/notes/2025-12-11T10:16Z/"
+            },
+            {
+              "date": "2025-12-10",
+              "link": "https://dbushell.com/notes/2025-12-10T14:50Z/"
+            },
+            {
+              "date": "2025-12-09",
+              "link": "https://dbushell.com/notes/2025-12-09T13:29Z/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Telling myself stories",
+              "date": "2025-12-12",
+              "link": "https://anniemueller.com/posts/telling-myself-stories"
+            },
+            {
+              "title": "Gratitude knows that there is always a gift",
+              "date": "2025-12-10",
+              "link": "https://anniemueller.com/posts/gratitude-knows-that-there-is-always-a-gift"
+            },
+            {
+              "title": "All feelings mean something but it might be something dumb",
+              "date": "2025-12-07",
+              "link": "https://anniemueller.com/posts/all-feelings-mean-something-but-it-might-be-something-dumb"
+            },
+            {
+              "title": "Dishonesty is a rejection of life",
+              "date": "2025-12-06",
+              "link": "https://anniemueller.com/posts/dishonesty-is-a-rejection-of-life"
+            },
+            {
+              "title": "Fish bowl",
+              "date": "2025-12-05",
+              "link": "https://anniemueller.com/posts/fish-bowl"
             }
           ]
         },
@@ -88,37 +181,6 @@
               "title": "Hashcards: A Plain-Text Spaced Repetition System",
               "date": "2025-10-05",
               "link": "https://borretti.me/article/hashcards-plain-text-spaced-repetition"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "Gratitude knows that there is always a gift",
-              "date": "2025-12-10",
-              "link": "https://anniemueller.com/posts/gratitude-knows-that-there-is-always-a-gift"
-            },
-            {
-              "title": "All feelings mean something but it might be something dumb",
-              "date": "2025-12-07",
-              "link": "https://anniemueller.com/posts/all-feelings-mean-something-but-it-might-be-something-dumb"
-            },
-            {
-              "title": "Dishonesty is a rejection of life",
-              "date": "2025-12-06",
-              "link": "https://anniemueller.com/posts/dishonesty-is-a-rejection-of-life"
-            },
-            {
-              "title": "Fish bowl",
-              "date": "2025-12-05",
-              "link": "https://anniemueller.com/posts/fish-bowl"
-            },
-            {
-              "title": "My new business + tech podcast",
-              "date": "2025-11-13",
-              "link": "https://anniemueller.com/posts/my-new-business-tech-podcast"
             }
           ]
         },
@@ -336,37 +398,6 @@
               "title": "Everyone's got one",
               "date": "2025-08-05",
               "link": "https://www.scattered-thoughts.net/writing/everyones-got-one/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Deleting Code for Performance",
-              "date": "2025-12-04",
-              "link": "https://dbushell.com/2025/12/04/deleting-code-for-performance/"
-            },
-            {
-              "title": "iOS Web Browser Latency",
-              "date": "2025-11-27",
-              "link": "https://dbushell.com/2025/11/27/ios-web-browser-latency/"
-            },
-            {
-              "title": "Async SvelteKit Data and Side Effects",
-              "date": "2025-11-25",
-              "link": "https://dbushell.com/2025/11/25/async-sveltekit-data-and-side-effects/"
-            },
-            {
-              "title": "Croissant Update and Dexie",
-              "date": "2025-11-21",
-              "link": "https://dbushell.com/2025/11/21/croissant-update-and-dexie/"
-            },
-            {
-              "title": "Vivaldi, Yea or Nay?",
-              "date": "2025-11-14",
-              "link": "https://dbushell.com/2025/11/14/vivaldi-browser/"
             }
           ]
         },
@@ -650,37 +681,6 @@
           ]
         },
         {
-          "title": "A Tester's Journey",
-          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Agile Testing Days 2025 - Taking Things Easier",
-              "date": "2025-11-29",
-              "link": "https://www.lisihocke.com/2025/11/agile-testing-days-2025-taking-things-easier.html"
-            },
-            {
-              "title": "BSides Munich 2025 - On First Times",
-              "date": "2025-11-22",
-              "link": "https://www.lisihocke.com/2025/11/bsides-munich-2025-on-first-times.html"
-            },
-            {
-              "title": "Attempting to Stay Calm and Steady - Concluding Remarks",
-              "date": "2025-11-11",
-              "link": "https://www.lisihocke.com/2025/11/attempting-to-stay-calm-and-steady-concluding-remarks.html"
-            },
-            {
-              "title": "NDC Porto 2025 - Filled to the Brim",
-              "date": "2025-10-26",
-              "link": "https://www.lisihocke.com/2025/10/ndc-porto-2025-filled-to-the-brim.html"
-            },
-            {
-              "title": "Open Security Conference 2025 - Marvelous Momentum",
-              "date": "2025-10-13",
-              "link": "https://www.lisihocke.com/2025/10/open-security-conference-2025-marvelous-momentum.html"
-            }
-          ]
-        },
-        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
@@ -708,37 +708,6 @@
               "title": "Changelog –\n        12 Jun 2025\n      ",
               "date": "2025-06-12",
               "link": "https://frills.dev/changelog/250612/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "November 2025 blend of links",
-              "date": "2025-11-27",
-              "link": "https://thejollyteapot.com/november-2025-blend/"
-            },
-            {
-              "title": "Praise the Backup",
-              "date": "2025-11-24",
-              "link": "https://thejollyteapot.com/2025/11/24/praise-the-backup/"
-            },
-            {
-              "title": "Who are they always texting?",
-              "date": "2025-11-20",
-              "link": "https://thejollyteapot.com/2025/11/20/who-are-they-always-texting/"
-            },
-            {
-              "title": "October 2025 blend of links",
-              "date": "2025-10-28",
-              "link": "https://thejollyteapot.com/october-2025-blend/"
-            },
-            {
-              "title": "Not my kind of web browser",
-              "date": "2025-10-22",
-              "link": "https://thejollyteapot.com/2025/10/22/not-my-kind-of-web-browser/"
             }
           ]
         },
@@ -805,37 +774,6 @@
           ]
         },
         {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "From Cloudwashing to O11ywashing",
-              "date": "2025-11-24",
-              "link": "https://charity.wtf/2025/11/24/from-cloudwashing-to-o11ywashing/"
-            },
-            {
-              "title": "How many pillars of observability can you fit on the head of a pin?",
-              "date": "2025-10-30",
-              "link": "https://charity.wtf/2025/10/30/the-pillar-is-a-lie/"
-            },
-            {
-              "title": "Got opinions on observability? I could use your help (once more, with feeling)",
-              "date": "2025-10-13",
-              "link": "https://charity.wtf/2025/10/13/got-opinions-on-observability-i-could-use-your-help-once-more-with-feeling/"
-            },
-            {
-              "title": "Are you an experienced software buyer? I could use some help.",
-              "date": "2025-09-19",
-              "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
-            },
-            {
-              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
-              "date": "2025-07-24",
-              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
-            }
-          ]
-        },
-        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -863,6 +801,37 @@
               "title": "Comforting Myths",
               "date": "2025-09-23",
               "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
+            }
+          ]
+        },
+        {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "From Cloudwashing to O11ywashing",
+              "date": "2025-11-24",
+              "link": "https://charity.wtf/2025/11/24/from-cloudwashing-to-o11ywashing/"
+            },
+            {
+              "title": "How many pillars of observability can you fit on the head of a pin?",
+              "date": "2025-10-30",
+              "link": "https://charity.wtf/2025/10/30/the-pillar-is-a-lie/"
+            },
+            {
+              "title": "Got opinions on observability? I could use your help (once more, with feeling)",
+              "date": "2025-10-13",
+              "link": "https://charity.wtf/2025/10/13/got-opinions-on-observability-i-could-use-your-help-once-more-with-feeling/"
+            },
+            {
+              "title": "Are you an experienced software buyer? I could use some help.",
+              "date": "2025-09-19",
+              "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
+            },
+            {
+              "title": "How We Migrated the Parse API From Ruby to Golang (Resurrected)",
+              "date": "2025-07-24",
+              "link": "https://charity.wtf/2025/07/24/how-we-migrated-the-parse-api-from-ruby-to-golang-resurrected/"
             }
           ]
         },
@@ -1049,6 +1018,37 @@
               "title": "Three Ingredients for Tasty Platform Capabilities",
               "date": "2024-05-01",
               "link": "https://unremarkabletester.com/2024/05/01/three-ingredients-for-tasty-platform-capabilities/"
+            }
+          ]
+        },
+        {
+          "title": "Hazel Weakly",
+          "feedUrl": "https://hazelweakly.me/atom.xml",
+          "items": [
+            {
+              "title": "To Be a Leader of Systems",
+              "date": "2025-11-18",
+              "link": "https://hazelweakly.me/blog/to-be-a-leader-of-systems/"
+            },
+            {
+              "title": "Scaling Innovation: Building Ecosystems",
+              "date": "2025-10-21",
+              "link": "https://hazelweakly.me/blog/scaling-innovation-building-ecosystems/"
+            },
+            {
+              "title": "Stop Building AI Tools Backwards",
+              "date": "2025-05-16",
+              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
+            },
+            {
+              "title": "The Future of Observability: Observability 3.0",
+              "date": "2024-12-09",
+              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
+            },
+            {
+              "title": "You Have One Voice",
+              "date": "2024-10-21",
+              "link": "https://hazelweakly.me/blog/you-have-one-voice/"
             }
           ]
         },
@@ -2461,12 +2461,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-12T03:55:43.615Z",
+  "fetchDate": "2025-12-13T03:47:30.660Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://hazelweakly.me/atom.xml"
+    "https://www.lisihocke.com/feeds/posts/default"
   ]
 }

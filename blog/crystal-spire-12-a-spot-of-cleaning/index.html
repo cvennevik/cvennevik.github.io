@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="dark light">
+        <title>Crystal Spire #12: A spot of cleaning - Cecilie Vennevik</title>
+        <link rel="icon" type="image/jpg" href="/img/logo-32px.jpg" sizes="32x32">
+        <link rel="icon" type="image/jpg" href="/img/logo-48px.jpg" sizes="48x48">
+        <link rel="icon" type="image/jpg" href="/img/logo-64px.jpg" sizes="64x64">
+        <meta name="author" content="Cecilie Vennevik">
+        <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/rss.xml" type="application/rss+xml">
+        <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/atom.xml" type="application/atom+xml">
+        <link rel="stylesheet" href="/css/site.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                
+                <img src="/img/logo-250px.jpg" alt="Seal-in-a-glass logo">
+                <nav aria-labelledby="navbar-label">
+                    <span id="navbar-label">You are here.</span>
+                    <ol class="crumbs">
+                        
+<li>
+    <a href="/">Home</a>
+    <span aria-hidden="true">/</span>
+</li>
+<li>
+    <a href="/blog/">Blog</a>
+    <span aria-hidden="true">/</span>
+</li>
+<li>Post</li>
+
+                    </ol>
+                </nav>
+                
+            </div>
+        </header>
+        <main>
+            
+<article>
+    <h1>Crystal Spire #12: A spot of cleaning</h1>
+    <i>December 14, 2025</i>
+    <p>Last time, the process of adding tests felt sloppy and clumsy. This time I want to put in some effort to make the process feel &quot;neat&quot; and &quot;elegant&quot; instead.</p>
+<p>To begin, let's review the code and see if we can make it easier to work with. Points to note:</p>
+<ol>
+<li>The inline style block in <code>tests.html</code> could be extracted to a separate CSS file. It adds one more file, but leaves <code>tests.html</code> to act as glue between the different files, and gives us a natural spot to add more styles in the future.</li>
+<li><code>tests.js</code> immediately runs code to render the page, making it impossible to reuse the file if we add another page with test code. We should extract a <code>render()</code> function like we did in <code>index.js</code>.</li>
+<li>Taking that point more broadly, I think the global state and side effects in <code>index.js</code> and <code>tests.js</code> are design liabilities. I would rather convert them into libraries of pure functions, and add a little more glue code to <code>index.html</code> and <code>tests.html</code> to render the page.</li>
+<li>We should consider converting the code from classic scripts to module scripts. Explicit imports and exports may come in handy.</li>
+</ol>
+<p>That looks like enough points to get started with. Point 1: Extract <code>tests.css</code>.</p>
+<pre><code class="language-css">/* tests.css */
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+</code></pre>
+<pre><code class="language-html">&lt;!-- tests.html --&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Crystal Spire - Tests&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;./tests.css&quot;&gt;
+&lt;/head&gt;
+</code></pre>
+<p>Commit: <em>&quot;Extract tests.css from tests.html&quot;</em>. Then onto point 2.</p>
+<pre><code class="language-js">// tests.js
+function renderTests() {
+    document.body.innerHTML = `
+    ...
+    `;
+}
+</code></pre>
+<pre><code class="language-html">&lt;!-- tests.html --&gt;
+&lt;script&gt;renderTests()&lt;/script&gt;
+</code></pre>
+<p>Can't name it <code>render()</code> because that would collide with the same function from <code>index.js</code>. Another point towards using module scripts. Commit: <em>&quot;tests.js: Extract renderTests() function&quot;</em>.</p>
+<p>Point 3 takes a bit of design judgement. We have a test suite, we want to run it, and we want to render the results. I do not know it should be decomposed (should we have a test suite object? a &quot;run tests&quot; function? a results object?), so let's make it all a single function.</p>
+<pre><code class="language-js">// tests.js
+function runAndRenderTests() {
+    let testCases = [
+        // ...
+    ];
+
+    for (let testCase of testCases) {
+        testCase.actualOutput = getActions(testCase.input);
+        testCase.passed = deepEqual(testCase.actualOutput, testCase.expectedOutput);
+    }
+
+    passedTestCases = testCases.filter(x =&gt; x.passed);
+    failedTestCases = testCases.filter(x =&gt; !x.passed);
+
+    return `
+        ...
+    `;
+}
+</code></pre>
+<pre><code class="language-html">&lt;!-- tests.html --&gt;
+&lt;script&gt;document.body.innerHTML = runAndRenderTests()&lt;/script&gt;
+</code></pre>
+<p>Commit: <em>&quot;tests.js: Convert to runAndRenderTests() function&quot;</em>.</p>
+<p>Then onto <code>index.js</code>. Currently it deserializes <code>window.location.search</code> directly to get the game state. If we instead do that in <code>index.html</code> and pass the game state to the render function, that opens for rendering any game state we want.</p>
+<pre><code class="language-html">&lt;!-- index.html --&gt;
+&lt;script&gt;
+let gameState = window.location.search ? deserialize(window.location.search) : defaultGameState;
+document.body.innerHTML = render(gameState);
+&lt;/script&gt;
+</code></pre>
+<pre><code class="language-js">// index.js
+function render(gameState) {
+    return `
+        ...
+    `;
+}
+</code></pre>
+<p>Not a lot of code to change! Commit: <em>&quot;Make gameState a parameter to the render function&quot;</em>.</p>
+<p>Finally, point 4 about <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules">JavaScript modules</a>. They have been broadly available since... what, 2018? I'm trying to find any downsides to switching to them, and the only things I can find is being forced into <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode">strict mode</a>, and a vague memory of some functionality having stricter security limitations when using modules? Both of these things sound like <em>upsides</em> in our case, so everything is pointing us towards modules.</p>
+<p>Let's just add a little <code>type=&quot;module&quot;</code> to our inline script in <code>index.html</code>, and...</p>
+<pre><code class="language-html">&lt;script type=&quot;module&quot;&gt;
+import { render, deserialize } from './index.js';
+let gameState = window.location.search ? deserialize(window.location.search) : defaultGameState;
+document.body.innerHTML = render(gameState);
+&lt;/script&gt;
+</code></pre>
+<pre><code>Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at file:///home/cvennevik/dev/crystal-spire/index.js. (Reason: CORS request not http).
+</code></pre>
+<p>Well fuck.</p>
+<p>So if we use JavaScript modules, the browser enforces the Same Origin Policy on imports. And anything on the file system counts as a remote resource, so it blocks the request. That means our app becomes unusable as plain files on the file system, and requires a web server to function.</p>
+<p>Given how we value being able to develop and run our code with minimal dependencies, adding a web server is <em>way</em> too steep a cost to pay for adopting modules. We have to scrap it and stick to classic scripts.</p>
+<p>Maybe we should adopt &quot;strict mode&quot;, however. It looks like it will help catch mistakes loudly instead of silently. All it takes is adding <code>'use strict';</code> to the top of <code>index.js</code> and <code>tests.js</code>, and... Wait, what's this?</p>
+<pre><code>Uncaught ReferenceError: assignment to undeclared variable passedTestCases
+</code></pre>
+<p>Ah! Two of the variables in tests.js are undeclared. Whoops! Thank you for pointing it out, strict mode, we'll fix it right away. Commit: <em>&quot;Use strict mode, fix undeclared variables&quot;</em>.</p>
+<p>This post has already stretched over two days, so let's wrap it here. The code looks to be in good shape for further development now.</p>
+<p>Next time: property-based testing, maybe?</p>
+<hr>
+<p><em><a href="/crystal-spire/v12/">View this app version</a></em> | <em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/2c7260b737ce03f66eefc577f63307263e0e1350">Last commit: Use strict mode, fix undeclared variables</a></em></p>
+
+</article>
+<hr>
+
+
+
+
+<p>
+<a href="/blog/crystal-spire-11-we-need-to-test/">Previous post: Crystal Spire #11: We need to test</a>
+</p>
+
+
+        </main>
+    </body>
+</html>

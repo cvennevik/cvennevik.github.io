@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "The “A” in “AI” Stands For Amnesia",
+              "date": "2025-12-16",
+              "link": "https://blog.jim-nielsen.com/2025/a-in-ai-stands-for-amnesia/"
+            },
+            {
+              "title": "It’s Uncomfortable To Sit With “I Don’t Know”",
+              "date": "2025-12-14",
+              "link": "https://blog.jim-nielsen.com/2025/uncomfortable-i-dont-know/"
+            },
+            {
+              "title": "Icons in Menus Everywhere — Send Help",
+              "date": "2025-12-07",
+              "link": "https://blog.jim-nielsen.com/2025/icons-in-menus/"
+            },
+            {
+              "title": "Grow, Like a Tree Not a Cancer",
+              "date": "2025-12-02",
+              "link": "https://blog.jim-nielsen.com/2025/grow-like-a-tree-not-a-cancer/"
+            },
+            {
+              "title": "Malicious Traffic and Static Sites",
+              "date": "2025-11-30",
+              "link": "https://blog.jim-nielsen.com/2025/malicious-traffic-on-static-sites/"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "On the success of 'natural language programming'",
+              "date": "2025-12-16",
+              "link": "http://brooker.co.za/blog/2025/12/16/natural-language.html"
+            },
+            {
+              "title": "What Does a Database for SSDs Look Like?",
+              "date": "2025-12-15",
+              "link": "http://brooker.co.za/blog/2025/12/15/database-for-ssd.html"
+            },
+            {
+              "title": "What Now? Handling Errors in Large Systems",
+              "date": "2025-11-20",
+              "link": "http://brooker.co.za/blog/2025/11/20/what-now.html"
+            },
+            {
+              "title": "Why Strong Consistency?",
+              "date": "2025-11-18",
+              "link": "http://brooker.co.za/blog/2025/11/18/consistency.html"
+            },
+            {
+              "title": "DSQL: Simplifying Architectures",
+              "date": "2025-11-02",
+              "link": "http://brooker.co.za/blog/2025/11/02/thinking-dsql.html"
+            }
+          ]
+        },
+        {
           "title": "A Tester's Journey",
           "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
           "items": [
@@ -66,37 +128,6 @@
           ]
         },
         {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "What Does a Database for SSDs Look Like?",
-              "date": "2025-12-15",
-              "link": "http://brooker.co.za/blog/2025/12/15/database-for-ssd.html"
-            },
-            {
-              "title": "What Now? Handling Errors in Large Systems",
-              "date": "2025-11-20",
-              "link": "http://brooker.co.za/blog/2025/11/20/what-now.html"
-            },
-            {
-              "title": "Why Strong Consistency?",
-              "date": "2025-11-18",
-              "link": "http://brooker.co.za/blog/2025/11/18/consistency.html"
-            },
-            {
-              "title": "DSQL: Simplifying Architectures",
-              "date": "2025-11-02",
-              "link": "http://brooker.co.za/blog/2025/11/02/thinking-dsql.html"
-            },
-            {
-              "title": "Fixing UUIDv7 (for database use-cases)",
-              "date": "2025-10-22",
-              "link": "http://brooker.co.za/blog/2025/10/22/uuidv7.html"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -155,68 +186,6 @@
               "title": "Are you an experienced software buyer? I could use some help.",
               "date": "2025-09-19",
               "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "So Many Websites",
-              "date": "2025-12-14",
-              "link": "https://robinrendle.com/notes/So-Many-Websites/"
-            },
-            {
-              "title": "Monumental and Important Artifacts",
-              "date": "2025-11-30",
-              "link": "https://robinrendle.com/notes/Monumental-and-Important-Artifacts/"
-            },
-            {
-              "title": "An Abundance of Inspiration",
-              "date": "2025-10-28",
-              "link": "https://robinrendle.com/notes/an-abundance-of-inspiration/"
-            },
-            {
-              "title": "The Drifter",
-              "date": "2025-10-05",
-              "link": "https://robinrendle.com/notes/the-drifter/"
-            },
-            {
-              "title": "A Few Nice Words about Viewfinder",
-              "date": "2025-09-20",
-              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "It’s Uncomfortable To Sit With “I Don’t Know”",
-              "date": "2025-12-14",
-              "link": "https://blog.jim-nielsen.com/2025/uncomfortable-i-dont-know/"
-            },
-            {
-              "title": "Icons in Menus Everywhere — Send Help",
-              "date": "2025-12-07",
-              "link": "https://blog.jim-nielsen.com/2025/icons-in-menus/"
-            },
-            {
-              "title": "Grow, Like a Tree Not a Cancer",
-              "date": "2025-12-02",
-              "link": "https://blog.jim-nielsen.com/2025/grow-like-a-tree-not-a-cancer/"
-            },
-            {
-              "title": "Malicious Traffic and Static Sites",
-              "date": "2025-11-30",
-              "link": "https://blog.jim-nielsen.com/2025/malicious-traffic-on-static-sites/"
-            },
-            {
-              "title": "Notes From an Interview With Jony Ive",
-              "date": "2025-11-26",
-              "link": "https://blog.jim-nielsen.com/2025/notes-from-interview-with-jony-ive/"
             }
           ]
         },
@@ -743,37 +712,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "You Can’t Make Something Accessible to Everyone",
-              "date": "2025-12-02",
-              "link": "https://adrianroselli.com/2025/12/you-cant-make-something-accessible-to-everyone.html"
-            },
-            {
-              "title": "Web Design / Dev Advent Calendars for 2025",
-              "date": "2025-12-01",
-              "link": "https://adrianroselli.com/2025/12/web-design-dev-advent-calendars-for-2025.html"
-            },
-            {
-              "title": "The Value of Selecting Selects by Value",
-              "date": "2025-11-22",
-              "link": "https://adrianroselli.com/2025/11/the-value-of-selecting-selects-by-value.html"
-            },
-            {
-              "title": "Pre-order “Digital Accessibility Ethics”",
-              "date": "2025-11-12",
-              "link": "https://adrianroselli.com/2025/11/pre-order-digital-accessibility-ethics.html"
-            },
-            {
-              "title": "Shopify Needs a Mirrorfy",
-              "date": "2025-11-04",
-              "link": "https://adrianroselli.com/2025/11/shopify-needs-a-mirrorfy.html"
-            }
-          ]
-        },
-        {
           "title": "sunshowers",
           "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
@@ -801,6 +739,37 @@
               "title": "Demystifying monads in Rust through property-based testing",
               "date": "2025-02-19",
               "link": "https://sunshowers.io/posts/monads-through-pbt/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "You Can’t Make Something Accessible to Everyone",
+              "date": "2025-12-02",
+              "link": "https://adrianroselli.com/2025/12/you-cant-make-something-accessible-to-everyone.html"
+            },
+            {
+              "title": "Web Design / Dev Advent Calendars for 2025",
+              "date": "2025-12-01",
+              "link": "https://adrianroselli.com/2025/12/web-design-dev-advent-calendars-for-2025.html"
+            },
+            {
+              "title": "The Value of Selecting Selects by Value",
+              "date": "2025-11-22",
+              "link": "https://adrianroselli.com/2025/11/the-value-of-selecting-selects-by-value.html"
+            },
+            {
+              "title": "Pre-order “Digital Accessibility Ethics”",
+              "date": "2025-11-12",
+              "link": "https://adrianroselli.com/2025/11/pre-order-digital-accessibility-ethics.html"
+            },
+            {
+              "title": "Shopify Needs a Mirrorfy",
+              "date": "2025-11-04",
+              "link": "https://adrianroselli.com/2025/11/shopify-needs-a-mirrorfy.html"
             }
           ]
         },
@@ -1607,6 +1576,37 @@
               "title": "Tackling Temporal Troubles",
               "date": "2025-06-10",
               "link": "https://fynn.be/talks/tackling-temporal-troubles/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Notes on switching to Helix from vim",
+              "date": "2025-10-10",
+              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
+            },
+            {
+              "title": "New zine: The Secret Rules of the Terminal",
+              "date": "2025-06-26",
+              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
+            },
+            {
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
+              "date": "2025-06-10",
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
+            },
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
             }
           ]
         },
@@ -2461,12 +2461,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-16T03:56:01.861Z",
+  "fetchDate": "2025-12-17T03:53:07.957Z",
   "errors": [
+    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://jvns.ca/atom.xml"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

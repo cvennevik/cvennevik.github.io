@@ -4,9 +4,107 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "Hello World (xpost from substack)",
+              "date": "2025-12-19",
+              "link": "https://charity.wtf/2025/12/19/hello-world-xpost-from-substack/"
+            },
+            {
+              "title": "Moving from WordPress to Substack",
+              "date": "2025-12-14",
+              "link": "https://charity.wtf/2025/12/14/moving-from-wordpress-to-substack/"
+            },
+            {
+              "title": "From Cloudwashing to O11ywashing",
+              "date": "2025-11-24",
+              "link": "https://charity.wtf/2025/11/24/from-cloudwashing-to-o11ywashing/"
+            },
+            {
+              "title": "How many pillars of observability can you fit on the head of a pin?",
+              "date": "2025-10-30",
+              "link": "https://charity.wtf/2025/10/30/the-pillar-is-a-lie/"
+            },
+            {
+              "title": "Got opinions on observability? I could use your help (once more, with feeling)",
+              "date": "2025-10-13",
+              "link": "https://charity.wtf/2025/10/13/got-opinions-on-observability-i-could-use-your-help-once-more-with-feeling/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "I Survived 2025",
+              "date": "2025-12-18",
+              "link": "https://dbushell.com/2025/12/18/year-in-review/"
+            },
+            {
+              "title": "Wrapping up Advent of Code 2025",
+              "date": "2025-12-12",
+              "link": "https://dbushell.com/2025/12/12/advent-of-code-2025/"
+            },
+            {
+              "title": "Deleting Code for Performance",
+              "date": "2025-12-04",
+              "link": "https://dbushell.com/2025/12/04/deleting-code-for-performance/"
+            },
+            {
+              "title": "iOS Web Browser Latency",
+              "date": "2025-11-27",
+              "link": "https://dbushell.com/2025/11/27/ios-web-browser-latency/"
+            },
+            {
+              "title": "Async SvelteKit Data and Side Effects",
+              "date": "2025-11-25",
+              "link": "https://dbushell.com/2025/11/25/async-sveltekit-data-and-side-effects/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "You Might Also Like: My Notes Blog",
+              "date": "2025-12-18",
+              "link": "https://blog.jim-nielsen.com/2025/you-might-also-like-my-notes-blog/"
+            },
+            {
+              "title": "The “A” in “AI” Stands For Amnesia",
+              "date": "2025-12-16",
+              "link": "https://blog.jim-nielsen.com/2025/a-in-ai-stands-for-amnesia/"
+            },
+            {
+              "title": "It’s Uncomfortable To Sit With “I Don’t Know”",
+              "date": "2025-12-14",
+              "link": "https://blog.jim-nielsen.com/2025/uncomfortable-i-dont-know/"
+            },
+            {
+              "title": "Icons in Menus Everywhere — Send Help",
+              "date": "2025-12-07",
+              "link": "https://blog.jim-nielsen.com/2025/icons-in-menus/"
+            },
+            {
+              "title": "Grow, Like a Tree Not a Cancer",
+              "date": "2025-12-02",
+              "link": "https://blog.jim-nielsen.com/2025/grow-like-a-tree-not-a-cancer/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "My HTML Web Component boilerplate for 2026",
+              "date": "2025-12-18",
+              "link": "https://gomakethings.com/my-html-web-component-boilerplate-for-2026/"
+            },
             {
               "title": "Be a firework",
               "date": "2025-12-17",
@@ -26,11 +124,63 @@
               "title": "Creating a toggle switch with just CSS",
               "date": "2025-12-10",
               "link": "https://gomakethings.com/creating-a-toggle-switch-with-just-css/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-12-18",
+              "link": "https://dbushell.com/notes/2025-12-18T13:37Z/"
             },
             {
-              "title": "Prefiguration",
-              "date": "2025-12-08",
-              "link": "https://gomakethings.com/prefiguration/"
+              "date": "2025-12-12",
+              "link": "https://dbushell.com/notes/2025-12-12T09:57Z/"
+            },
+            {
+              "date": "2025-12-12",
+              "link": "https://dbushell.com/notes/2025-12-12T05:01Z/"
+            },
+            {
+              "date": "2025-12-11",
+              "link": "https://dbushell.com/notes/2025-12-11T10:16Z/"
+            },
+            {
+              "date": "2025-12-10",
+              "link": "https://dbushell.com/notes/2025-12-10T14:50Z/"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "The Web Platform is a Triumph of Object-Oriented Programming",
+              "date": "2025-12-18",
+              "link": "https://thathtml.blog/2025/12/the-dom-is-a-triumph-of-object-oriented-programming/"
+            },
+            {
+              "title": "The Nuances of JavaScript Typing using JSDoc",
+              "date": "2025-12-03",
+              "link": "https://thathtml.blog/2025/12/nuances-of-typing-with-jsdoc/"
+            },
+            {
+              "title": "Write Custom Extensions for htmx to Make it Your Own Personal Toolkit",
+              "date": "2025-11-11",
+              "link": "https://thathtml.blog/2025/11/htmx-extensions-your-personal-toolkit/"
+            },
+            {
+              "title": "Add Terrific DX to Your UI Web Components with nimble-html",
+              "date": "2025-10-17",
+              "link": "https://thathtml.blog/2025/10/nimble-html-adds-great-dx-to-ui-components/"
+            },
+            {
+              "title": "Give “fetch” a Bit More Oomph with “ffetch”",
+              "date": "2025-09-18",
+              "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
             }
           ]
         },
@@ -62,37 +212,6 @@
               "title": "Personal Websites Aren’t Dead",
               "date": "2025-11-26",
               "link": "https://flamedfury.com/posts/personal-websites-arent-dead/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "The “A” in “AI” Stands For Amnesia",
-              "date": "2025-12-16",
-              "link": "https://blog.jim-nielsen.com/2025/a-in-ai-stands-for-amnesia/"
-            },
-            {
-              "title": "It’s Uncomfortable To Sit With “I Don’t Know”",
-              "date": "2025-12-14",
-              "link": "https://blog.jim-nielsen.com/2025/uncomfortable-i-dont-know/"
-            },
-            {
-              "title": "Icons in Menus Everywhere — Send Help",
-              "date": "2025-12-07",
-              "link": "https://blog.jim-nielsen.com/2025/icons-in-menus/"
-            },
-            {
-              "title": "Grow, Like a Tree Not a Cancer",
-              "date": "2025-12-02",
-              "link": "https://blog.jim-nielsen.com/2025/grow-like-a-tree-not-a-cancer/"
-            },
-            {
-              "title": "Malicious Traffic and Static Sites",
-              "date": "2025-11-30",
-              "link": "https://blog.jim-nielsen.com/2025/malicious-traffic-on-static-sites/"
             }
           ]
         },
@@ -186,37 +305,6 @@
               "title": "Kodemaker Geekend",
               "date": "2025-11-12",
               "link": "https://www.kodemaker.no/blogg/2025-11-12-geekend/"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "Moving from WordPress to Substack",
-              "date": "2025-12-14",
-              "link": "https://charity.wtf/2025/12/14/moving-from-wordpress-to-substack/"
-            },
-            {
-              "title": "From Cloudwashing to O11ywashing",
-              "date": "2025-11-24",
-              "link": "https://charity.wtf/2025/11/24/from-cloudwashing-to-o11ywashing/"
-            },
-            {
-              "title": "How many pillars of observability can you fit on the head of a pin?",
-              "date": "2025-10-30",
-              "link": "https://charity.wtf/2025/10/30/the-pillar-is-a-lie/"
-            },
-            {
-              "title": "Got opinions on observability? I could use your help (once more, with feeling)",
-              "date": "2025-10-13",
-              "link": "https://charity.wtf/2025/10/13/got-opinions-on-observability-i-could-use-your-help-once-more-with-feeling/"
-            },
-            {
-              "title": "Are you an experienced software buyer? I could use some help.",
-              "date": "2025-09-19",
-              "link": "https://charity.wtf/2025/09/19/are-you-an-experienced-software-buyer-i-could-use-some-help/"
             }
           ]
         },
@@ -376,37 +464,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Wrapping up Advent of Code 2025",
-              "date": "2025-12-12",
-              "link": "https://dbushell.com/2025/12/12/advent-of-code-2025/"
-            },
-            {
-              "title": "Deleting Code for Performance",
-              "date": "2025-12-04",
-              "link": "https://dbushell.com/2025/12/04/deleting-code-for-performance/"
-            },
-            {
-              "title": "iOS Web Browser Latency",
-              "date": "2025-11-27",
-              "link": "https://dbushell.com/2025/11/27/ios-web-browser-latency/"
-            },
-            {
-              "title": "Async SvelteKit Data and Side Effects",
-              "date": "2025-11-25",
-              "link": "https://dbushell.com/2025/11/25/async-sveltekit-data-and-side-effects/"
-            },
-            {
-              "title": "Croissant Update and Dexie",
-              "date": "2025-11-21",
-              "link": "https://dbushell.com/2025/11/21/croissant-update-and-dexie/"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -434,32 +491,6 @@
               "title": "October 2025 blend of links",
               "date": "2025-10-28",
               "link": "https://thejollyteapot.com/october-2025-blend/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-12-12",
-              "link": "https://dbushell.com/notes/2025-12-12T09:57Z/"
-            },
-            {
-              "date": "2025-12-12",
-              "link": "https://dbushell.com/notes/2025-12-12T05:01Z/"
-            },
-            {
-              "date": "2025-12-11",
-              "link": "https://dbushell.com/notes/2025-12-11T10:16Z/"
-            },
-            {
-              "date": "2025-12-10",
-              "link": "https://dbushell.com/notes/2025-12-10T14:50Z/"
-            },
-            {
-              "date": "2025-12-09",
-              "link": "https://dbushell.com/notes/2025-12-09T13:29Z/"
             }
           ]
         },
@@ -708,37 +739,6 @@
               "title": "What if dependencies were injected?",
               "date": "2025-08-24",
               "link": "https://garoof.no/java/ioc.html"
-            }
-          ]
-        },
-        {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "The Nuances of JavaScript Typing using JSDoc",
-              "date": "2025-12-03",
-              "link": "https://thathtml.blog/2025/12/nuances-of-typing-with-jsdoc/"
-            },
-            {
-              "title": "Write Custom Extensions for htmx to Make it Your Own Personal Toolkit",
-              "date": "2025-11-11",
-              "link": "https://thathtml.blog/2025/11/htmx-extensions-your-personal-toolkit/"
-            },
-            {
-              "title": "Add Terrific DX to Your UI Web Components with nimble-html",
-              "date": "2025-10-17",
-              "link": "https://thathtml.blog/2025/10/nimble-html-adds-great-dx-to-ui-components/"
-            },
-            {
-              "title": "Give “fetch” a Bit More Oomph with “ffetch”",
-              "date": "2025-09-18",
-              "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
-            },
-            {
-              "title": "Announcing Reciprocate, a Sweet Solution for Making Your HTML Web Components Reactive",
-              "date": "2025-09-08",
-              "link": "https://thathtml.blog/2025/09/reciprocate-reactivity-for-html-web-components/"
             }
           ]
         },
@@ -2461,7 +2461,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-18T03:54:21.150Z",
+  "fetchDate": "2025-12-19T03:55:45.309Z",
   "errors": [
     "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",

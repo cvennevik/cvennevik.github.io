@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Kyle Shevlin's Blog RSS Feed",
+          "feedUrl": "https://kyleshevlin.com/rss.xml",
+          "items": [
+            {
+              "title": "Nothing is Something",
+              "date": "2025-12-20",
+              "link": "https://kyleshevlin.com/nothing-is-something/"
+            },
+            {
+              "title": "<code>data</code> Attributes for Testing",
+              "date": "2025-11-21",
+              "link": "https://kyleshevlin.com/data-attributes-for-testing/"
+            },
+            {
+              "title": "Prefer Gaps To Margins",
+              "date": "2025-06-23",
+              "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
+            },
+            {
+              "title": "&ldquo;Refactor&rdquo; is Not a Scary Word",
+              "date": "2025-02-27",
+              "link": "https://kyleshevlin.com/refactor-is-not-a-scary-word/"
+            },
+            {
+              "title": "Fun Coding Exercise: Pyramid Slide Down",
+              "date": "2025-01-27",
+              "link": "https://kyleshevlin.com/fun-coding-exercise-pyramid-slide-down/"
+            }
+          ]
+        },
+        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -31,6 +62,130 @@
               "title": "Got opinions on observability? I could use your help (once more, with feeling)",
               "date": "2025-10-13",
               "link": "https://charity.wtf/2025/10/13/got-opinions-on-observability-i-could-use-your-help-once-more-with-feeling/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Challenging fate with goodwill (and a holiday sale)",
+              "date": "2025-12-19",
+              "link": "https://www.baldurbjarnason.com/2025/challenging-fate/"
+            },
+            {
+              "title": "Mid-winter photos",
+              "date": "2025-12-09",
+              "link": "https://www.baldurbjarnason.com/notes/photos/mid-winter-2025/"
+            },
+            {
+              "title": "But, I worry, because I can see the cracks in the wall",
+              "date": "2025-12-09",
+              "link": "https://www.baldurbjarnason.com/2025/but-i-worry/"
+            },
+            {
+              "title": "The ‘Everything Bundle’",
+              "date": "2025-11-26",
+              "link": "https://www.baldurbjarnason.com/bundle/ebooks/"
+            },
+            {
+              "title": "Steamy Hveragerði",
+              "date": "2025-11-21",
+              "link": "https://www.baldurbjarnason.com/notes/photos/steamy-town-2025/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "ADHD restlessness",
+              "date": "2025-12-19",
+              "link": "https://gomakethings.com/adhd-restlessness/"
+            },
+            {
+              "title": "My HTML Web Component boilerplate for 2026",
+              "date": "2025-12-18",
+              "link": "https://gomakethings.com/my-html-web-component-boilerplate-for-2026/"
+            },
+            {
+              "title": "Be a firework",
+              "date": "2025-12-17",
+              "link": "https://gomakethings.com/be-a-firework/"
+            },
+            {
+              "title": "Forced Colors Mode",
+              "date": "2025-12-15",
+              "link": "https://gomakethings.com/forced-colors-mode/"
+            },
+            {
+              "title": "Helping people find work",
+              "date": "2025-12-12",
+              "link": "https://gomakethings.com/helping-people-find-work/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "The Club Racer Treatment",
+              "date": "2025-12-19",
+              "link": "https://thejollyteapot.com/2025/12/19/the-club-racer-treatment/"
+            },
+            {
+              "title": "Typefaces as clothes",
+              "date": "2025-12-12",
+              "link": "https://thejollyteapot.com/2025/12/12/typefaces-as-clothes/"
+            },
+            {
+              "title": "November 2025 blend of links",
+              "date": "2025-11-27",
+              "link": "https://thejollyteapot.com/november-2025-blend/"
+            },
+            {
+              "title": "Praise the Backup",
+              "date": "2025-11-24",
+              "link": "https://thejollyteapot.com/2025/11/24/praise-the-backup/"
+            },
+            {
+              "title": "Who are they always texting?",
+              "date": "2025-11-20",
+              "link": "https://thejollyteapot.com/2025/11/20/who-are-they-always-texting/"
+            }
+          ]
+        },
+        {
+          "title": "Coding Is Like Cooking",
+          "feedUrl": "https://coding-is-like-cooking.info/feed/",
+          "items": [
+            {
+              "title": "Teaching Refactoring – insights from the Green Path",
+              "date": "2025-12-19",
+              "link": "https://coding-is-like-cooking.info/2025/12/teaching-refactoring-insights-from-the-green-path/"
+            },
+            {
+              "title": "Test Desiderata 2.0",
+              "date": "2025-12-08",
+              "link": "https://coding-is-like-cooking.info/2025/12/test-desiderata-2-0/"
+            },
+            {
+              "title": "What is more important to learn – Design or Coding?",
+              "date": "2025-12-04",
+              "link": "https://coding-is-like-cooking.info/2025/12/what-is-more-important-to-learn-design-or-coding/"
+            },
+            {
+              "title": "The Microskills Theory of Programming",
+              "date": "2025-10-31",
+              "link": "https://coding-is-like-cooking.info/2025/10/the-microskills-theory-of-programming/"
+            },
+            {
+              "title": "Turn off your AI Assistant for Code Katas",
+              "date": "2025-07-14",
+              "link": "https://coding-is-like-cooking.info/2025/07/turn-off-your-ai-assistant-for-code-katas/"
             }
           ]
         },
@@ -93,37 +248,6 @@
               "title": "Grow, Like a Tree Not a Cancer",
               "date": "2025-12-02",
               "link": "https://blog.jim-nielsen.com/2025/grow-like-a-tree-not-a-cancer/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "My HTML Web Component boilerplate for 2026",
-              "date": "2025-12-18",
-              "link": "https://gomakethings.com/my-html-web-component-boilerplate-for-2026/"
-            },
-            {
-              "title": "Be a firework",
-              "date": "2025-12-17",
-              "link": "https://gomakethings.com/be-a-firework/"
-            },
-            {
-              "title": "Forced Colors Mode",
-              "date": "2025-12-15",
-              "link": "https://gomakethings.com/forced-colors-mode/"
-            },
-            {
-              "title": "Helping people find work",
-              "date": "2025-12-12",
-              "link": "https://gomakethings.com/helping-people-find-work/"
-            },
-            {
-              "title": "Creating a toggle switch with just CSS",
-              "date": "2025-12-10",
-              "link": "https://gomakethings.com/creating-a-toggle-switch-with-just-css/"
             }
           ]
         },
@@ -309,37 +433,6 @@
           ]
         },
         {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "So Many Websites",
-              "date": "2025-12-14",
-              "link": "https://robinrendle.com/notes/So-Many-Websites/"
-            },
-            {
-              "title": "Monumental and Important Artifacts",
-              "date": "2025-11-30",
-              "link": "https://robinrendle.com/notes/Monumental-and-Important-Artifacts/"
-            },
-            {
-              "title": "An Abundance of Inspiration",
-              "date": "2025-10-28",
-              "link": "https://robinrendle.com/notes/an-abundance-of-inspiration/"
-            },
-            {
-              "title": "The Drifter",
-              "date": "2025-10-05",
-              "link": "https://robinrendle.com/notes/the-drifter/"
-            },
-            {
-              "title": "A Few Nice Words about Viewfinder",
-              "date": "2025-09-20",
-              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
-            }
-          ]
-        },
-        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -402,37 +495,6 @@
           ]
         },
         {
-          "title": "Dragan Stepanović",
-          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
-          "items": [
-            {
-              "title": "Heavy AI machinery and design",
-              "date": "2025-12-14",
-              "link": "https://draganstepanovic.com/2025/12/14/heavy-ai-machinery.html"
-            },
-            {
-              "title": "There's a huge difference between",
-              "date": "2025-11-09",
-              "link": "https://draganstepanovic.com/2025/11/09/there-is-a-huge-difference.html"
-            },
-            {
-              "title": "If you can't change design cheaply",
-              "date": "2025-10-25",
-              "link": "https://draganstepanovic.com/2025/10/25/if-you-cant-change-design-cheaply.html"
-            },
-            {
-              "title": "It's not about reducing the costs per se",
-              "date": "2025-09-27",
-              "link": "https://draganstepanovic.com/2025/09/27/reducing-costs.html"
-            },
-            {
-              "title": "Dynamics between transaction cost and batch size is simple, but often counterintuitive.",
-              "date": "2025-06-19",
-              "link": "https://draganstepanovic.com/2025/06/19/working-together-works.html"
-            }
-          ]
-        },
-        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -464,33 +526,33 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "title": "Dragan Stepanović",
+          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
           "items": [
             {
-              "title": "Typefaces as clothes",
-              "date": "2025-12-12",
-              "link": "https://thejollyteapot.com/2025/12/12/typefaces-as-clothes/"
+              "title": "Heavy AI machinery and design",
+              "date": "2025-12-14",
+              "link": "https://draganstepanovic.com/2025/12/14/heavy-ai-machinery.html"
             },
             {
-              "title": "November 2025 blend of links",
-              "date": "2025-11-27",
-              "link": "https://thejollyteapot.com/november-2025-blend/"
+              "title": "There's a huge difference between",
+              "date": "2025-11-09",
+              "link": "https://draganstepanovic.com/2025/11/09/there-is-a-huge-difference.html"
             },
             {
-              "title": "Praise the Backup",
-              "date": "2025-11-24",
-              "link": "https://thejollyteapot.com/2025/11/24/praise-the-backup/"
+              "title": "If you can't change design cheaply",
+              "date": "2025-10-25",
+              "link": "https://draganstepanovic.com/2025/10/25/if-you-cant-change-design-cheaply.html"
             },
             {
-              "title": "Who are they always texting?",
-              "date": "2025-11-20",
-              "link": "https://thejollyteapot.com/2025/11/20/who-are-they-always-texting/"
+              "title": "It's not about reducing the costs per se",
+              "date": "2025-09-27",
+              "link": "https://draganstepanovic.com/2025/09/27/reducing-costs.html"
             },
             {
-              "title": "October 2025 blend of links",
-              "date": "2025-10-28",
-              "link": "https://thejollyteapot.com/october-2025-blend/"
+              "title": "Dynamics between transaction cost and batch size is simple, but often counterintuitive.",
+              "date": "2025-06-19",
+              "link": "https://draganstepanovic.com/2025/06/19/working-together-works.html"
             }
           ]
         },
@@ -557,37 +619,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Mid-winter photos",
-              "date": "2025-12-09",
-              "link": "https://www.baldurbjarnason.com/notes/photos/mid-winter-2025/"
-            },
-            {
-              "title": "But, I worry, because I can see the cracks in the wall",
-              "date": "2025-12-09",
-              "link": "https://www.baldurbjarnason.com/2025/but-i-worry/"
-            },
-            {
-              "title": "The ‘Everything Bundle’",
-              "date": "2025-11-26",
-              "link": "https://www.baldurbjarnason.com/bundle/ebooks/"
-            },
-            {
-              "title": "Steamy Hveragerði",
-              "date": "2025-11-21",
-              "link": "https://www.baldurbjarnason.com/notes/photos/steamy-town-2025/"
-            },
-            {
-              "title": "The dichotomy of print versus the web",
-              "date": "2025-11-21",
-              "link": "https://www.baldurbjarnason.com/2025/the-dichotomy-of-print-vs-web/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -615,37 +646,6 @@
               "title": "Val Town 2023-2025 Retrospective",
               "date": "2025-11-11",
               "link": "https://macwright.com/2025/11/11/val-town.html"
-            }
-          ]
-        },
-        {
-          "title": "Coding Is Like Cooking",
-          "feedUrl": "https://coding-is-like-cooking.info/feed/",
-          "items": [
-            {
-              "title": "Test Desiderata 2.0",
-              "date": "2025-12-08",
-              "link": "https://coding-is-like-cooking.info/2025/12/test-desiderata-2-0/"
-            },
-            {
-              "title": "What is more important to learn – Design or Coding?",
-              "date": "2025-12-04",
-              "link": "https://coding-is-like-cooking.info/2025/12/what-is-more-important-to-learn-design-or-coding/"
-            },
-            {
-              "title": "The Microskills Theory of Programming",
-              "date": "2025-10-31",
-              "link": "https://coding-is-like-cooking.info/2025/10/the-microskills-theory-of-programming/"
-            },
-            {
-              "title": "Turn off your AI Assistant for Code Katas",
-              "date": "2025-07-14",
-              "link": "https://coding-is-like-cooking.info/2025/07/turn-off-your-ai-assistant-for-code-katas/"
-            },
-            {
-              "title": "Smooth Ensemble with AWS AppStream – How To Guide",
-              "date": "2025-04-21",
-              "link": "https://coding-is-like-cooking.info/2025/04/smooth-ensemble-with-aws-appstream-how-to-guide/"
             }
           ]
         },
@@ -987,37 +987,6 @@
               "title": "Writing at the Speed of Thought",
               "date": "2025-05-12",
               "link": "https://www.youtube.com/watch?v=sqm4-B07LsE"
-            }
-          ]
-        },
-        {
-          "title": "Kyle Shevlin's Blog RSS Feed",
-          "feedUrl": "https://kyleshevlin.com/rss.xml",
-          "items": [
-            {
-              "title": "<code>data</code> Attributes for Testing",
-              "date": "2025-11-21",
-              "link": "https://kyleshevlin.com/data-attributes-for-testing/"
-            },
-            {
-              "title": "Prefer Gaps To Margins",
-              "date": "2025-06-23",
-              "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
-            },
-            {
-              "title": "&ldquo;Refactor&rdquo; is Not a Scary Word",
-              "date": "2025-02-27",
-              "link": "https://kyleshevlin.com/refactor-is-not-a-scary-word/"
-            },
-            {
-              "title": "Fun Coding Exercise: Pyramid Slide Down",
-              "date": "2025-01-27",
-              "link": "https://kyleshevlin.com/fun-coding-exercise-pyramid-slide-down/"
-            },
-            {
-              "title": "Algorithm: Sliding Window",
-              "date": "2025-01-16",
-              "link": "https://kyleshevlin.com/algorithm-sliding-window/"
             }
           ]
         },
@@ -2461,9 +2430,10 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-19T03:55:45.309Z",
+  "fetchDate": "2025-12-20T03:47:27.294Z",
   "errors": [
     "https://infrequently.org/feed/",
+    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

@@ -8,7 +8,61 @@
     <name>Cecilie Vennevik</name>
   </author>
   <icon>https://www.cvennevik.no/img/logo-100px.jpg</icon>
-  <updated>2025-12-14T12:00:00.000Z</updated>
+  <updated>2025-12-21T19:49:00.000Z</updated>
+  <entry>
+    <title type="html">Crystal Spire #13: Haha, just kidding... unless?</title>
+    <link href="https://www.cvennevik.no/blog/crystal-spire-13-haha-just-kidding-unless/"/>
+    <id>https://www.cvennevik.no/blog/crystal-spire-13-haha-just-kidding-unless/</id>
+    <published>2025-12-21T19:49:00.000Z</published>
+    <updated>2025-12-21T19:49:00.000Z</updated>
+    <content type="html"><![CDATA[<p>I want property-based tests for our project. Just a few hurdles to overcome:</p>
+<ul>
+<li>I have never written a property-based test before.</li>
+<li>The most visible and actively maintained property-based testing library for JavaScript, <a href="https://fast-check.dev/">fast-check</a>, gives zero indication of being able to run standalone in a browser, and I don't want to add Node as a dependency if we can get away with it.</li>
+<li>From what I can tell, implementing a decent property-based testing library is complicated.</li>
+</ul>
+<p>There's a ways we can go about this:</p>
+<ol>
+<li>Implement our own testing library. We'd be able to ensure it satisfies our requirements, and it would be a great learning experience. On the other hand, implementing a good enough library may take so much effort, it would take years before this series returns to actually implementing a Slay the Spire solver. It would be a massive <a href="https://projects.csail.mit.edu/gsb/old-archive/gsb-archive/gsb2000-02-11.html">yak shave</a>.</li>
+<li>Find a way to run an existing library in the browser. It would let us get on with writing tests, and doing any property-based testing at all is still a great learning experience. On the other hand, the project wouldn't be as &quot;pure&quot; in terms of solving everything ourselves, and we'd be taking on a large amount of JavaScript to run our tests. Also it may not be possible.</li>
+<li>Give up on running this project with just a browser and start relying on Node.</li>
+<li>Give up on property-based tests and go back to example-based testing.</li>
+</ol>
+<p>Option 1 seems inappropriately ambitious. Option 2 seems potentially doable, although it may not give us the best tool for the job. Option 3 would mean getting access to a local JavaScript runtime and a package manager, which in turn gives us access to some of the best tools for both this job and many other jobs, but...</p>
+<p>Okay, let's take a moment to consider. <em>Why</em> do I value keeping this project buildless and free of external dependencies?</p>
+<ul>
+<li>I want the code to be accessible to newcomers who do not already have all kinds of toolchains installed.</li>
+<li>I want the code to be easy to copy into different contexts, without assuming a given framework or runtime.</li>
+<li>I want the software to be <a href="https://dubroy.com/blog/cold-blooded-software/">cold-blooded</a>, so I can leave it for months and years and pick it up again just the way I left it.</li>
+</ul>
+<p>Not having to install anything extra to run the code is good! Building on a stable platform is good! Yet some things that are worth doing are not practical to do without extra dependencies. Some things require a web server. Some things require a database. Some things require a local JavaScript runtime like Node. Scratch that, <em>a lof of things</em> require a local JavaScript runtime like Node.</p>
+<p>I also wonder if now, by the end of 2025, that Node qualifies as <a href="https://mcfunley.com/choose-boring-technology">boring technology</a>. It's 16 years old, ubiquitious, and seemingly fairly stable by now. I also wonder if property-based testing does <em>not</em> count as boring technology, and that we cannot realistically adopt it without paying the tax of an npm dependency.</p>
+<p>And, unexpectedly, this self-imposed restriction is making me feel <em>lonely</em>. My setup today is a weird fringe thing that modern libraries and browser security mechanisms do not make space for. I have to make awkward workarounds and compromises and give up things that are table stakes for most developers. Doing web application development with no tooling, as it turns out, is not a path I want to invite others to follow. Certainly not for a project with such limited development time as this one.</p>
+<p>Okay. Enough crisis of faith. It's time to bite the bullet.</p>
+<p>Commit: <em>&quot;Add package.json&quot;</em></p>
+<p>Commit: <em>&quot;Add node_modules to .gitignore&quot;</em></p>
+<p>And we add our first dependency to <code>package.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;crystal-spire&quot;,
+  &quot;version&quot;: &quot;1.0.0&quot;,
+  &quot;devDependencies&quot;: {
+    &quot;fast-check&quot;: &quot;^4.5.2&quot;
+  }
+}
+</code></pre>
+<pre><code>&gt; npm i
+
+added 2 packages, and audited 3 packages in 658ms
+</code></pre>
+<p>Oh hey, <code>fast-check</code> actually only has a single transitive dependency, so our <code>node_modules</code> directory has a grand total of <em>two</em> packages in it. That's pretty neat!</p>
+<p>Commit: <em>&quot;Add fast-check to devDependencies&quot;</em></p>
+<p>That's enough excitement for one post. I still don't feel comfortable with this decision, but I accept the risk of regret.</p>
+<p>Next time: property-based testing, for real this time.</p>
+<hr>
+<p><em><a href="/crystal-spire/v12/">View this app version</a></em> | <em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/7183037e5a9185f72cd023a585041bf2a7cc10d6">Last commit: Add fast-check to devDependencies</a></em></p>
+]]></content>
+  </entry>
+  
   <entry>
     <title type="html">Crystal Spire #12: A spot of cleaning</title>
     <link href="https://www.cvennevik.no/blog/crystal-spire-12-a-spot-of-cleaning/"/>

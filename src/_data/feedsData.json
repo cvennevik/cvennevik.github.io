@@ -35,6 +35,37 @@
           ]
         },
         {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "SSH-nøkler med 1Password",
+              "date": "2025-12-24",
+              "link": "https://www.kodemaker.no/blogg/2025-12-24-ssh-keys-1password/"
+            },
+            {
+              "title": "Ende-til-ende testing når alle lag er i bevegelse",
+              "date": "2025-12-15",
+              "link": "https://www.kodemaker.no/blogg/2025-12-15-alt-er-i-bevegelse/"
+            },
+            {
+              "title": "Bruk Python for skripting!",
+              "date": "2025-12-03",
+              "link": "https://www.kodemaker.no/blogg/2025-12-03-bruk-python-for-skripting/"
+            },
+            {
+              "title": "Koselig med peis og lowcode",
+              "date": "2025-11-26",
+              "link": "https://www.kodemaker.no/blogg/2025-11-26-lowcode-ha-peis/"
+            },
+            {
+              "title": "Performance tuning i frontend med React",
+              "date": "2025-11-19",
+              "link": "https://www.kodemaker.no/blogg/2025-11-19-frontend-performance/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -526,37 +557,6 @@
           ]
         },
         {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Ende-til-ende testing når alle lag er i bevegelse",
-              "date": "2025-12-15",
-              "link": "https://www.kodemaker.no/blogg/2025-12-15-alt-er-i-bevegelse/"
-            },
-            {
-              "title": "Bruk Python for skripting!",
-              "date": "2025-12-03",
-              "link": "https://www.kodemaker.no/blogg/2025-12-03-bruk-python-for-skripting/"
-            },
-            {
-              "title": "Koselig med peis og lowcode",
-              "date": "2025-11-26",
-              "link": "https://www.kodemaker.no/blogg/2025-11-26-lowcode-ha-peis/"
-            },
-            {
-              "title": "Performance tuning i frontend med React",
-              "date": "2025-11-19",
-              "link": "https://www.kodemaker.no/blogg/2025-11-19-frontend-performance/"
-            },
-            {
-              "title": "Kodemaker Geekend",
-              "date": "2025-11-12",
-              "link": "https://www.kodemaker.no/blogg/2025-11-12-geekend/"
-            }
-          ]
-        },
-        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -956,37 +956,6 @@
               "title": "GPG Key Transition 2022",
               "date": "2023-01-01",
               "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
             }
           ]
         },
@@ -1607,6 +1576,37 @@
               "title": "Tackling Temporal Troubles",
               "date": "2025-06-10",
               "link": "https://fynn.be/talks/tackling-temporal-troubles/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Notes on switching to Helix from vim",
+              "date": "2025-10-10",
+              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
+            },
+            {
+              "title": "New zine: The Secret Rules of the Terminal",
+              "date": "2025-06-26",
+              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
+            },
+            {
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
+              "date": "2025-06-10",
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
+            },
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
             }
           ]
         },
@@ -2461,12 +2461,12 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-24T03:55:59.205Z",
+  "fetchDate": "2025-12-25T03:58:18.773Z",
   "errors": [
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://jvns.ca/atom.xml"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

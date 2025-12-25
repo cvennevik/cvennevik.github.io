@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="dark light">
+        <title>Crystal Spire #14: End of the Yak - Cecilie Vennevik</title>
+        <link rel="icon" type="image/jpg" href="/img/logo-32px.jpg" sizes="32x32">
+        <link rel="icon" type="image/jpg" href="/img/logo-48px.jpg" sizes="48x48">
+        <link rel="icon" type="image/jpg" href="/img/logo-64px.jpg" sizes="64x64">
+        <meta name="author" content="Cecilie Vennevik">
+        <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/rss.xml" type="application/rss+xml">
+        <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/atom.xml" type="application/atom+xml">
+        <link rel="stylesheet" href="/css/site.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                
+                <img src="/img/logo-250px.jpg" alt="Seal-in-a-glass logo">
+                <nav aria-labelledby="navbar-label">
+                    <span id="navbar-label">You are here.</span>
+                    <ol class="crumbs">
+                        
+<li>
+    <a href="/">Home</a>
+    <span aria-hidden="true">/</span>
+</li>
+<li>
+    <a href="/blog/">Blog</a>
+    <span aria-hidden="true">/</span>
+</li>
+<li>Post</li>
+
+                    </ol>
+                </nav>
+                
+            </div>
+        </header>
+        <main>
+            
+<article>
+    <h1>Crystal Spire #14: End of the Yak</h1>
+    <i>December 25, 2025</i>
+    <p>Happy holidays! Today we're doing property-based testing.</p>
+<hr>
+<p>Let's kick things off by scrapping our own self-written test runner and switching to Node's. Having our own tests page is cute, but having less code to maintain is cuter.</p>
+<p>I have not used Node's test runner before, so I'll have to reference <a href="https://nodejs.org/api/test.html">the documentation</a>. It looks like the <code>node:test</code> module exports a <code>test()</code> function (also aliased to <code>it()</code>) and a <code>suite()</code> function (also aliased to <code>describe()</code>). Tests fail when they throw an exception, and succeed when they don't. You can write assertions for tests by using the <code>node:assert</code> module. You run the tests by calling <code>node --test</code> on the command line, and it automatically discovers test files with names matching one of several patterns with &quot;test&quot; in it.</p>
+<p>Let's convert our <code>tests.js</code> to a <code>test.js</code> file for Node. First, we rename it to <code>test.js</code>. Then we import <code>assert</code>, <code>describe</code> and <code>it</code> at the top of the file:</p>
+<pre><code class="language-js">import assert from 'node:assert';
+import { describe, it } from 'node:test';
+</code></pre>
+<p>Oh man it feels good being able to import things. Anyway. Next we declare a test suite with <code>describe()</code>:</p>
+<pre><code class="language-js">describe('getActions()', () =&gt; {
+
+});
+</code></pre>
+<p>Then - we'd better see the test runner in action as soon as we can - we write a failing test:</p>
+<pre><code class="language-js">describe('getActions()', () =&gt; {
+    it('fails', () =&gt; {
+        assert.equal(true, false);
+    });
+});
+</code></pre>
+<p>And we run it with <code>node --test</code>:</p>
+<pre><code>$ node --test
+(node:49267) Warning: To load an ES module, set &quot;type&quot;: &quot;module&quot; in the package.json or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/home/cvennevik/dev/crystal-spire/test.js:1
+import assert from 'node:assert';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+</code></pre>
+<p>Ah. <code>test.js</code> is not an ES module, so it can't import. I might want to add <code>&quot;type&quot;: &quot;module&quot;</code> to the package, but that may have unexpected consequences - let's rename it to <code>test.mjs</code> for the moment. Then rerun <code>node --test</code>:</p>
+<pre><code>$ node --test
+▶ getActions()
+  ✖ fails (1.473907ms)
+    AssertionError [ERR_ASSERTION]: true == false
+</code></pre>
+<p>Yay! A failing test! Then we can change it to pass:</p>
+<pre><code class="language-js">it('passes', () =&gt; {
+    assert.equal(true, true);
+});
+</code></pre>
+<pre><code>$ node --test
+▶ getActions()
+  ✔ passes (0.736913ms)
+</code></pre>
+<p>Beautiful. Now to convert the actual test. We take our array of test cases:</p>
+<pre><code class="language-js">let testCases = [
+    {
+        name: 'Can Play Defend and End Turn',
+        input: {
+            // ... a game state ...
+        },
+        expectedOutput: [{ name: 'Play Defend' }, { name: 'End Turn' }]
+    },
+    {
+        name: 'Can Play Strike and End Turn',
+        input: {
+            // ... another game state ...
+        },
+        expectedOutput: [{ name: 'Play Strike', enemyIndex: 0 }, { name: 'End Turn' }]
+    }
+];
+
+for (let testCase of testCases) {
+    testCase.actualOutput = getActions(testCase.input);
+    testCase.passed = deepEqual(testCase.actualOutput, testCase.expectedOutput);
+}
+</code></pre>
+<p>...and we add equivalent Node tests:</p>
+<pre><code class="language-js">describe('getActions()', () =&gt; {
+    it('can play Defend and End Turn', () =&gt; {
+        let gameState = { /* ... a game state ... */ };
+        let actions = getActions(gameState);
+        assert.deepEqual(actions, [{ name: 'Play Defend' }, { name: 'End Turn' }]);
+    });
+
+    it('can play Strike and End Turn', () =&gt; {
+        let gameState = { /* ... another game state ... */ };
+        let actions = getActions(gameState);
+        assert.deepEqual(actions, [{ name: 'Play Strike', enemyIndex: 0 }, { name: 'End Turn' }]);
+    });
+});
+</code></pre>
+<p>Then we try to run them:</p>
+<pre><code>$ node --test
+▶ getActions()
+  ✖ can play Defend and End Turn (0.831261ms)
+    ReferenceError [Error]: getActions is not defined
+</code></pre>
+<p>Ah. Right. We need to import <code>getActions</code>. Hm.</p>
+<p>I am not entirely sure how to go about this. I think if we use <code>export</code> in <code>index.js</code>, that will give us an error in the browser, since it's not a module. Let's try it to verify:</p>
+<pre><code class="language-js">export function getActions(gameState) {
+    // ...
+}
+</code></pre>
+<pre><code>Uncaught SyntaxError: export declarations may only appear at top level of a module
+</code></pre>
+<p>Yeah. So that doesn't work. I know there's another way to do exports with Node, though, which is to assign exports to <code>module.exports</code>, and we might be able to do that without the browser complaining. Pop this little bad boy at the end of <code>index.js</code>:</p>
+<pre><code class="language-js">// Export in Node.js for testing
+if (module !== undefined &amp;&amp; 'exports' in module) {
+    module.exports = { getActions };
+}
+</code></pre>
+<p>It works! Our page works as normal now. Okay, well, we do still get a nasty <code>Uncaught ReferenceError: module is not defined</code> in the console still, so actually, the if-check doesn't work at all. I've heard of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis"><code>globalThis</code></a> being an environment-neutral way to access global variables, though, maybe we can access <code>module.exports</code> that way?</p>
+<pre><code class="language-js">// Export in Node.js for testing
+if ('module' in globalThis &amp;&amp; 'exports' in globalThis.module) {
+    globalThis.module.exports = { getActions };
+}
+</code></pre>
+<p>Browser doesn't complain, so that's one out of two steps passed. Now to try and import it in the test:</p>
+<pre><code class="language-js">import { getActions } from './index.js';
+</code></pre>
+<pre><code>$ node --test
+file:///home/cvennevik/dev/crystal-spire/test.mjs:3
+import { getActions } from './index.js';
+         ^^^^^^^^^^
+SyntaxError: Named export 'getActions' not found. The requested module './index.js' is a CommonJS module, which may not support all module.exports as named exports.
+</code></pre>
+<p>Ah. The code fails to actually export <code>getActions</code>. Wow, modules aren't straightforward to half-use. I think we need to take a proper research timeout.</p>
+<p>...</p>
+<p>Okay. Several important facts learned with a few web searches:</p>
+<ul>
+<li><code>module.exports</code> is used by <a href="https://nodejs.org/api/modules.html">CommonJS modules</a>, as opposed to <code>import</code>/<code>export</code> which are used by <a href="https://nodejs.org/api/esm.html">ECMAScript modules</a>.
+<ul>
+<li>If we use <code>module.exports</code> in one file and <code>import</code> in another, then we're mixing CommonJS and ES modules, and we have to rely on Node's <a href="https://nodejs.org/api/esm.html#interoperability-with-commonjs">CommonJS/ES module interoperability</a>.</li>
+</ul>
+</li>
+<li>CommonJS modules are <a href="https://nodejs.org/api/modules.html#the-module-wrapper">executed inside a function wrapper</a>, and variables like <code>module</code> and <code>require</code> are parameters of that function. That explains why we can't access those variables through <code>globalThis</code>.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof">The <code>typeof</code> operator</a> works on undeclared variables!</li>
+</ul>
+<p>Putting this all together, we can solve the export problem like this:</p>
+<pre><code class="language-js">// Export in Node.js for testing
+if (typeof module === 'object' &amp;&amp; module != null &amp;&amp; 'exports' in module) {
+    module.exports = { getActions };
+}
+</code></pre>
+<p>The HTML page loads without error! What about the command line tests?</p>
+<pre><code>$ node --test
+▶ getActions()
+  ✔ can play Defend and End Turn (1.18629ms)
+  ✔ can play Strike and End Turn (0.149797ms)
+▶ getActions() (2.403152ms)
+ℹ tests 2
+ℹ suites 1
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 58.991965
+</code></pre>
+<p>Oh bless. It actually works. That was significantly more work that I thought this would be.</p>
+<p>Halfway there. The other half is saying goodbye to the old test code:</p>
+<ul>
+<li>We remove the link to <code>tests.html</code> from our rendered HTML.</li>
+<li>We remove <code>tests.html</code>.</li>
+<li>We remove <code>tests.css</code>.</li>
+<li>We remove the leftover code from <code>test.mjs</code>.</li>
+</ul>
+<p>And a couple finishing touches to <code>package.json</code>:</p>
+<ul>
+<li>Add <code>&quot;type&quot;: &quot;commonjs&quot;</code> to explicitly declare that <code>.js</code> files are CommonJS modules, as I saw recommended in the Node.js documentation.
+<ul>
+<li>We can still use <code>.mjs</code> for ES modules, like we do with <code>test.mjs</code>.</li>
+</ul>
+</li>
+<li>Add a &quot;test&quot; script for <code>node --test</code> to document how we run our tests, and to make the <code>npm test</code> command work.</li>
+</ul>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;crystal-spire&quot;,
+  &quot;version&quot;: &quot;1.0.0&quot;,
+  &quot;type&quot;: &quot;commonjs&quot;,
+  &quot;scripts&quot;: {
+    &quot;test&quot;: &quot;node --test&quot;
+  },
+  &quot;devDependencies&quot;: {
+    &quot;fast-check&quot;: &quot;^4.5.2&quot;
+  }
+}
+</code></pre>
+<p>And commit: <em>&quot;Migrate tests to Node.js test runner&quot;</em>.</p>
+<p>Whew.</p>
+<hr>
+<p>I said we're doing property-based testing today, and I'm sticking to my word. We're not stopping until we're there.</p>
+<p>From my understanding, property-based testing is about writing properties that should hold for any possible input, then running the code against random possible inputs to test that the properties hold.</p>
+<p>Let's begin by reading through <a href="https://fast-check.dev/docs/introduction/getting-started/"><code>fast-check</code>'s Getting Started guide</a>...</p>
+<ul>
+<li><code>fast-check</code> &quot;works in any test runner without needing any specific change&quot;.
+<ul>
+<li>...putting a pin in that thought, but moving on...</li>
+</ul>
+</li>
+<li>It suggests importing the library like <code>import fc from 'fast-check'</code>.</li>
+<li>Inside any test in your test runner of choice, you call <code>fc.assert</code>, which &quot;takes a <strong>property</strong> and runs it multiple times&quot;.
+<ul>
+<li>In case of failure, it will try to &quot;shrink&quot; the input value to the simplest possible value that causes the failure. This is neat.</li>
+</ul>
+</li>
+<li>Inside <code>fc.assert</code>, we declare properties using <code>fc.property</code>, which takes a list of <strong>arbitraries</strong> to generate inputs with, and a <strong>predicate</strong> to test the inputs with.</li>
+</ul>
+<p>Okay! This seems like a manageable set of concepts. It looks like the final piece we need is defining our own arbitraries. Browsing the <a href="https://fast-check.dev/docs/core-blocks/arbitraries/">arbitraries documentation</a>, <code>fast-check</code> has:</p>
+<ul>
+<li>Primitives, like <code>fc.boolean()</code>, <code>fc.integer()</code>, <code>fc.string()</code>, and so on, with parameters to customize their range of values.</li>
+<li>Composites, like <code>fc.tuple()</code>, <code>fc.array()</code>, <code>fc.func()</code>, <code>fc.object()</code>, and so on.</li>
+<li>Combiners, like <code>fc.constant()</code>, <code>fc.subarray()</code>, <code>fc.option()</code>, and chaining methods like <code>.filter()</code> and <code>.map()</code>.</li>
+</ul>
+<p>Let's jump into the deep end, then, and define an arbitrary for game states. For generating objects with specific properties, we'll want to use <code>fc.record()</code>:</p>
+<pre><code class="language-js">let arbGameState = fc.record({
+    hp: 'todo',
+    maxHp: 'todo',
+    block: 'todo',
+    energy: 'todo',
+    maxEnergy: 'todo',
+    hand: 'todo',
+    drawPile: 'todo',
+    discardPile: 'todo',
+    relics: 'todo',
+    enemies: 'todo'
+});
+</code></pre>
+<p>For the numbers, we can use <code>fc.nat()</code> for all non-negative integer values:</p>
+<pre><code class="language-js">let arbGameState = fc.record({
+    hp: fc.nat(),
+    maxHp: fc.nat(),
+    block: fc.nat(),
+    energy: fc.nat(),
+    maxEnergy: fc.nat(),
+    hand: 'todo',
+    drawPile: 'todo',
+    discardPile: 'todo',
+    relics: 'todo',
+    enemies: 'todo'
+});
+</code></pre>
+<p>...although, no, this will generate invalid states where <code>hp</code> is greater than <code>maxHp</code>, and weird states where <code>energy</code> is in the hundreds of millions.</p>
+<p>We could pass a max value to some of these, but for the sake of finding available moves, some of these never matter, so let's leave those a constant instead:</p>
+<pre><code class="language-js">let arbGameState = fc.record({
+    hp: fc.nat({ max: 80 }),
+    maxHp: fc.constant(80),
+    block: fc.constant(0),
+    energy: fc.nat({ max: 999 }),
+    maxEnergy: fc.constant(3),
+    hand: 'todo',
+    drawPile: 'todo',
+    discardPile: 'todo',
+    relics: 'todo',
+    enemies: 'todo'
+});
+</code></pre>
+<p>Then we have the hand and piles. We can define an arbitrary for cards:</p>
+<pre><code class="language-js">let arbCard = fc.constantFrom('Strike', 'Defend', 'Bash');
+</code></pre>
+<p>Then define arrays using <code>fc.array()</code> - though, again, only cards in hand matter here, so <code>drawPile</code> and <code>discardPile</code> can be left as constant empty arrays, and relics also don't matter, so let's throw an empty array in there at the same time:</p>
+<pre><code class="language-js">let arbGameState = fc.record({
+    hp: fc.nat({ max: 80 }),
+    maxHp: fc.constant(80),
+    block: fc.constant(0),
+    energy: fc.nat({ max: 999 }),
+    maxEnergy: fc.constant(3),
+    hand: fc.array(arbCard, { minLength: 0, maxLength: 10 }),
+    drawPile: fc.constant([]),
+    discardPile: fc.constant([]),
+    relics: fc.constant([]),
+    enemies: 'todo'
+});
+</code></pre>
+<p>Finally, the <code>enemies</code> array. That will need an arbitrary for enemies:</p>
+<pre><code class="language-js">let arbEnemy = fc.record({
+    name: 'todo',
+    hp: 'todo',
+    maxHp: 'todo',
+    block: 'todo',
+    nextMove: 'todo',
+    moveHistory: 'todo',
+    buffs: 'todo',
+    debuffs: 'todo'
+});
+</code></pre>
+<p>...and I don't know of any relevant enemy variations, so let's make them all constants:</p>
+<pre><code class="language-js">let arbEnemy = fc.record({
+    name: fc.constant('Jaw Worm'),
+    hp: fc.constant(42),
+    maxHp: fc.constant(42),
+    block: fc.constant(0),
+    nextMove: fc.constant([]),
+    moveHistory: fc.constant([]),
+    buffs: fc.constant([]),
+    debuffs: fc.constant([])
+});
+</code></pre>
+<p>Then we can use it with <code>fc.array()</code> to specify <code>enemies</code>. I'm not sure whether the minimum number of enemies should be one or zero. I think killing the last enemy gets you to a game state with zero enemies, so let's make the lower bound zero:</p>
+<pre><code class="language-js">let arbGameState = fc.record({
+    hp: fc.nat({ max: 80 }),
+    maxHp: fc.constant(80),
+    block: fc.constant(0),
+    energy: fc.nat({ max: 999 }),
+    maxEnergy: fc.constant(3),
+    hand: fc.array(arbCard, { minLength: 0, maxLength: 10 }),
+    drawPile: fc.constant([]),
+    discardPile: fc.constant([]),
+    relics: fc.constant([]),
+    enemies: fc.array(arbEnemy, { minLength: 0, maxLength: 5 })
+});
+</code></pre>
+<p>There! We have an arbitrary for game states that hopefully works.</p>
+<p>Now we write our first property-based test. Let's test for a property that I suspect will not pass: &quot;If the player has zero HP, the only available action is defeat.&quot;</p>
+<pre><code class="language-js">it('only has Defeat available when HP is zero', () =&gt; {
+    fc.assert(
+        fc.property(arbGameState, gameState =&gt; {
+            if (gameState.hp === 0) {
+                let actions = getActions(gameState);
+                assert.deepEqual(actions, [{ name: 'Defeat' }]);
+            }
+        })
+    );
+})
+</code></pre>
+<p>I don't think this is the ideal way to write the test - maybe, instead, the arbitrary should have <code>hp</code> as a constant of zero. But I think this will still work, and it's readable, and we can reconsider our approach when we have more tests.</p>
+<p>Deep breath. Time to run it. Does it work?</p>
+<pre><code>$ node --test
+▶ getActions()
+  ✔ can play Defend and End Turn (1.208453ms)
+  ✔ can play Strike and End Turn (0.146097ms)
+  ✖ only has Defeat available when HP is zero (7.154977ms)
+    Error: Property failed after 10 tests
+    { seed: -288422701, path: &quot;9:0:0:0:0&quot;, endOnFailure: true }
+    Counterexample: [{&quot;hp&quot;:0,&quot;maxHp&quot;:80,&quot;block&quot;:0,&quot;energy&quot;:0,&quot;maxEnergy&quot;:3,&quot;hand&quot;:[],&quot;drawPile&quot;:[],&quot;discardPile&quot;:[],&quot;relics&quot;:[],&quot;enemies&quot;:[]}]
+    Shrunk 4 time(s)
+</code></pre>
+<p>Haha!! It's alive!! We're doing property-based testing!!</p>
+<p>Ahem. Now we can implement the fix:</p>
+<pre><code class="language-js">function getActions(gameState) {
+    if (gameState.hp === 0) {
+        return [{ name: 'Defeat' }];
+    }
+    // ...
+}
+</code></pre>
+<p>Then rerun the test:</p>
+<pre><code>$ node --test
+▶ getActions()
+  ✔ can play Defend and End Turn (1.166435ms)
+  ✔ can play Strike and End Turn (0.140492ms)
+  ✔ only has Defeat available when HP is zero (7.334557ms)
+</code></pre>
+<p>We're green. We TDD'd with PBT. Our yak is shaved.</p>
+<p>Commit: <em>&quot;Add 'Defeat' action&quot;</em>.</p>
+<hr>
+<p>I am really excited! We can finally return to implementing our solver, with the support of a testing tool I've wanted to try out for years. I'm stoked to figure out the design for this. Last time I did this in C# it got really involved, with a lot of files and a lot of tests. This time, I think we'll go with quite different strategies for both implementation and testing. I don't know what they will be yet! It'll be fun to find out!</p>
+<p>See you next time :)</p>
+<hr>
+<p><em><a href="/crystal-spire/v14/">View this app version</a></em> | <em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/1d04289fe180582797ccd23e595212791dafb02c">Last commit: Add 'Defeat' action</a></em></p>
+
+</article>
+<hr>
+
+
+
+
+<p>
+<a href="/blog/crystal-spire-13-haha-just-kidding-unless/">Previous post: Crystal Spire #13: Haha, just kidding... unless?</a>
+</p>
+
+
+        </main>
+    </body>
+</html>

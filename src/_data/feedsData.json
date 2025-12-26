@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Cecilie Vennevik's blog",
+          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
+          "items": [
+            {
+              "title": "Crystal Spire #14: End of the Yak",
+              "date": "2025-12-25",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-14-end-of-the-yak/"
+            },
+            {
+              "title": "Crystal Spire #13: Haha, just kidding... unless?",
+              "date": "2025-12-21",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-13-haha-just-kidding-unless/"
+            },
+            {
+              "title": "Crystal Spire #12: A spot of cleaning",
+              "date": "2025-12-14",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-12-a-spot-of-cleaning/"
+            },
+            {
+              "title": "Crystal Spire #11: We need to test",
+              "date": "2025-10-04",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-11-we-need-to-test/"
+            },
+            {
+              "title": "Crystal Spire #10: Finishing the easy bit",
+              "date": "2025-08-16",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-10-finishing-the-easy-bit/"
+            }
+          ]
+        },
+        {
           "title": "charity.wtf",
           "feedUrl": "https://charity.wtf/feed/",
           "items": [
@@ -62,6 +93,37 @@
               "title": "Performance tuning i frontend med React",
               "date": "2025-11-19",
               "link": "https://www.kodemaker.no/blogg/2025-11-19-frontend-performance/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "This is just a place",
+              "date": "2025-12-23",
+              "link": "https://robinrendle.com/notes/this-is-just-a-place/"
+            },
+            {
+              "title": "So Many Websites",
+              "date": "2025-12-14",
+              "link": "https://robinrendle.com/notes/So-Many-Websites/"
+            },
+            {
+              "title": "Monumental and Important Artifacts",
+              "date": "2025-11-30",
+              "link": "https://robinrendle.com/notes/Monumental-and-Important-Artifacts/"
+            },
+            {
+              "title": "An Abundance of Inspiration",
+              "date": "2025-10-28",
+              "link": "https://robinrendle.com/notes/an-abundance-of-inspiration/"
+            },
+            {
+              "title": "The Drifter",
+              "date": "2025-10-05",
+              "link": "https://robinrendle.com/notes/the-drifter/"
             }
           ]
         },
@@ -128,37 +190,6 @@
           ]
         },
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Books I Enjoyed in 2025",
-              "date": "2025-12-22",
-              "link": "https://borretti.me/article/books-i-enjoyed-in-2025"
-            },
-            {
-              "title": "Coarse is Better",
-              "date": "2025-12-21",
-              "link": "https://borretti.me/article/coarse-is-better"
-            },
-            {
-              "title": "I Wish People Were More Public",
-              "date": "2025-12-10",
-              "link": "https://borretti.me/article/i-wish-people-were-more-public"
-            },
-            {
-              "title": "Ad-Hoc Emacs Packages with Nix",
-              "date": "2025-11-16",
-              "link": "https://borretti.me/article/ad-hoc-emacs-packages-with-nix"
-            },
-            {
-              "title": "Linux on the Fujitsu Lifebook U729",
-              "date": "2025-11-15",
-              "link": "https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729"
-            }
-          ]
-        },
-        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -190,6 +221,37 @@
           ]
         },
         {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Books I Enjoyed in 2025",
+              "date": "2025-12-22",
+              "link": "https://borretti.me/article/books-i-enjoyed-in-2025"
+            },
+            {
+              "title": "Coarse is Better",
+              "date": "2025-12-21",
+              "link": "https://borretti.me/article/coarse-is-better"
+            },
+            {
+              "title": "I Wish People Were More Public",
+              "date": "2025-12-10",
+              "link": "https://borretti.me/article/i-wish-people-were-more-public"
+            },
+            {
+              "title": "Ad-Hoc Emacs Packages with Nix",
+              "date": "2025-11-16",
+              "link": "https://borretti.me/article/ad-hoc-emacs-packages-with-nix"
+            },
+            {
+              "title": "Linux on the Fujitsu Lifebook U729",
+              "date": "2025-11-15",
+              "link": "https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -217,37 +279,6 @@
               "title": "Icons in Menus Everywhere — Send Help",
               "date": "2025-12-07",
               "link": "https://blog.jim-nielsen.com/2025/icons-in-menus/"
-            }
-          ]
-        },
-        {
-          "title": "Cecilie Vennevik's blog",
-          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
-          "items": [
-            {
-              "title": "Crystal Spire #13: Haha, just kidding... unless?",
-              "date": "2025-12-21",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-13-haha-just-kidding-unless/"
-            },
-            {
-              "title": "Crystal Spire #12: A spot of cleaning",
-              "date": "2025-12-14",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-12-a-spot-of-cleaning/"
-            },
-            {
-              "title": "Crystal Spire #11: We need to test",
-              "date": "2025-10-04",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-11-we-need-to-test/"
-            },
-            {
-              "title": "Crystal Spire #10: Finishing the easy bit",
-              "date": "2025-08-16",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-10-finishing-the-easy-bit/"
-            },
-            {
-              "title": "Crystal Spire #9: Buffing the Worm's nails",
-              "date": "2025-08-09",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-09-buffing-the-worms-nails/"
             }
           ]
         },
@@ -553,37 +584,6 @@
               "title": "NDC Porto 2025 - Filled to the Brim",
               "date": "2025-10-26",
               "link": "https://www.lisihocke.com/2025/10/ndc-porto-2025-filled-to-the-brim.html"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "So Many Websites",
-              "date": "2025-12-14",
-              "link": "https://robinrendle.com/notes/So-Many-Websites/"
-            },
-            {
-              "title": "Monumental and Important Artifacts",
-              "date": "2025-11-30",
-              "link": "https://robinrendle.com/notes/Monumental-and-Important-Artifacts/"
-            },
-            {
-              "title": "An Abundance of Inspiration",
-              "date": "2025-10-28",
-              "link": "https://robinrendle.com/notes/an-abundance-of-inspiration/"
-            },
-            {
-              "title": "The Drifter",
-              "date": "2025-10-05",
-              "link": "https://robinrendle.com/notes/the-drifter/"
-            },
-            {
-              "title": "A Few Nice Words about Viewfinder",
-              "date": "2025-09-20",
-              "link": "https://robinrendle.com/notes/a-few-nice-words-about-viewfinder/"
             }
           ]
         },
@@ -956,6 +956,37 @@
               "title": "GPG Key Transition 2022",
               "date": "2023-01-01",
               "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Performance Inequality Gap, 2026",
+              "date": "2025-11-24",
+              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
+            },
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
             }
           ]
         },
@@ -1580,37 +1611,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Notes on switching to Helix from vim",
-              "date": "2025-10-10",
-              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
-            },
-            {
-              "title": "New zine: The Secret Rules of the Terminal",
-              "date": "2025-06-26",
-              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
-            },
-            {
-              "title": "Using `make` to compile C programs (for non-C-programmers)",
-              "date": "2025-06-10",
-              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
-            },
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            }
-          ]
-        },
-        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -1638,6 +1638,37 @@
               "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
               "date": "2025-02-15",
               "link": "https://www.felienne.com/archives/8749"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Notes on switching to Helix from vim",
+              "date": "2025-10-10",
+              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
+            },
+            {
+              "title": "New zine: The Secret Rules of the Terminal",
+              "date": "2025-06-26",
+              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
+            },
+            {
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
+              "date": "2025-06-10",
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
+            },
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
             }
           ]
         },
@@ -2461,9 +2492,8 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-25T03:58:18.773Z",
+  "fetchDate": "2025-12-26T03:56:12.491Z",
   "errors": [
-    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

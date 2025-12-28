@@ -5,8 +5,448 @@
     <link>https://www.cvennevik.no/blog/</link>
     <description>Recent posts on Cecilie Vennevik's blog</description>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Dec 2025 16:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 11:00:00 GMT</lastBuildDate>
     <atom:link href="https://www.cvennevik.no/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Crystal Spire #15: Back into actions</title>
+      <link>https://www.cvennevik.no/blog/crystal-spire-15-back-into-actions/</link>
+      <pubDate>Sun, 28 Dec 2025 11:00:00 GMT</pubDate>
+      <guid>https://www.cvennevik.no/blog/crystal-spire-15-back-into-actions/</guid>
+      <content:encoded><![CDATA[<p>I am really excited! We can finally return to implementing our solver, with the support of a testing tool I've wanted to try out for years. I'm stoked to figure out the design for this. Last time I did this in C# it got really involved, with a lot of files and a lot of tests. This time, I think we'll go with quite different strategies for both implementation and testing. I don't know what they will be yet! It'll be fun to find out!</p>
+<p>See you next time :)</p>
+<hr>
+<p>Good day, one and all. It's time to make progress on our Slay the Spire solver. I'm not entirely clear on what needs doing, so let's make a list:</p>
+<ol>
+<li>Finish implementing <code>getActions()</code>.</li>
+<li>Implement a function to resolve actions - something like <code>resolveAction(gameState, action)</code>?</li>
+<li>Compute and render real actions on the page.</li>
+<li>Something something implement a solver.</li>
+</ol>
+<ul>
+<li>We'll think more about this one when we get to it.</li>
+</ul>
+<p>Having it written down helps! It also helps clarifying the design here - I think every action returned by <code>getActions()</code> should be valid input to <code>resolveAction()</code>. Hence, &quot;Defeat&quot; and &quot;Victory&quot; do not make any sense as actions, instead there should be no actions available when you win or lose.</p>
+<p>Let's update the test we wrote last time to expect an empty list instead:</p>
+<pre><code class="language-js">it('offers no actions when HP is zero', () =&gt; {
+    fc.assert(
+        fc.property(arbGameState, gameState =&gt; {
+            if (gameState.hp === 0) {
+                let actions = getActions(gameState);
+                assert.deepEqual(actions, []);
+            }
+        })
+    );
+});
+</code></pre>
+<pre><code>$ node --test
+▶ getActions()
+  ✔ can play Defend and End Turn (1.181773ms)
+  ✔ can play Strike and End Turn (0.146242ms)
+  ✖ offers no actions HP is zero (7.617366ms)
+    Error: Property failed after 23 tests
+    { seed: -1695486517, path: &quot;22:0:0:0&quot;, endOnFailure: true }
+    Counterexample: [{&quot;hp&quot;:0,&quot;maxHp&quot;:80,&quot;block&quot;:0,&quot;energy&quot;:0,&quot;maxEnergy&quot;:3,&quot;hand&quot;:[],&quot;drawPile&quot;:[],&quot;discardPile&quot;:[],&quot;relics&quot;:[],&quot;enemies&quot;:[]}]
+    Shrunk 3 time(s)
+</code></pre>
+<p>Nice. Writing these tests feels really smooth. Then we update getActions to match:</p>
+<pre><code class="language-js">if (gameState.hp === 0) {
+    return [];
+}
+</code></pre>
+<p>Tests pass! Commit: <em>&quot;getActions(): return no actions when dead&quot;</em>.</p>
+<p>Our solver will have to implement a separate function to check for victory and defeat now, but that sounds sensible. Oh, speaking of victory, we win when there are no enemies left:</p>
+<pre><code class="language-js">    it('offers no actions when no enemies are left', () =&gt; {
+        fc.assert(
+            fc.property(arbGameState, gameState =&gt; {
+                if (gameState.enemies.length === 0) {
+                    let actions = getActions(gameState);
+                    assert.deepEqual(actions, []);
+                }
+            })
+        );
+    });
+</code></pre>
+<p>Test failed, so then we update the implementation:</p>
+<pre><code class="language-js">if (gameState.hp === 0 || gameState.enemies.length === 0) {
+    return [];
+}
+</code></pre>
+<p>Tests pass, commit: <em>&quot;getActions(): return no actions when no enemies left&quot;</em>.</p>
+<p>I'm noticing that our test logic looks suspiciously similar to our implementation logic. I'm also noticing that we have an <code>if</code>-check in our test. I have gotten the impression that tests should be as simple and explicit as possible, to make sure you understand what they are asserting, and to minimize the risk of logic errors. This is typically easy with example-based testing - given a specific input, expect a specific output, no logic to check for. But now we're asserting for properties that only hold for certain conditions, so we cannot write the test quite that simply. I'm smelling the risk of writing slightly tricky logic into the test, introducing an error, and writing that very same error into the implementation.</p>
+<p>Maybe we can mitigate this risk by specifying the logic differently in our tests and our implementation. Maybe <a href="https://fast-check.dev/docs/core-blocks/arbitraries/combiners/any/#map">that <code>.map()</code> chaining method</a> can help us here.</p>
+<pre><code class="language-js">it('offers no actions when HP is zero', () =&gt; {
+    fc.assert(
+        fc.property(arbGameState.map(x =&gt; ({ ...x, hp: 0 })), gameState =&gt; {
+            let actions = getActions(gameState);
+            assert.deepEqual(actions, []);
+        })
+    );
+});
+
+it('offers no actions when no enemies are left', () =&gt; {
+    fc.assert(
+        fc.property(arbGameState.map(x =&gt; ({ ...x, enemies: [] })), gameState =&gt; {
+            let actions = getActions(gameState);
+            assert.deepEqual(actions, []);
+        })
+    );
+});
+</code></pre>
+<p>Yeah, that works. I mean, ideally, we'd change the game state arbitrary so that it didn't produce a variety of values for <code>hp</code> and <code>enemies</code> that we just discard, but this looks like an improvement. Speaking of improvement, I think &quot;it returns no actions&quot; sounds better than &quot;offers no actions&quot;, so let's change that as well. Commit: <em>&quot;Refactor property-based tests&quot;</em>.</p>
+<p>While we're at it, let's rewrite the other tests too: &quot;can play Defend and End Turn&quot; and &quot;can play Strike and End Turn&quot;. These tests do not translate as cleanly, and I believe we need to test for a full handful of properties to replace them.</p>
+<p>Given that both the player and enemies are alive:</p>
+<ul>
+<li>You can end the turn.</li>
+<li>If you have Defend in hand and at least 1 Energy, you can play Defend.</li>
+<li>If you have Strike in hand and at least 1 Energy, you can play Strike on any of the enemies.</li>
+<li>If you have Bash in hand and at least 2 Energy, you can play Bash on any of the enemies.</li>
+<li>You never get duplicate actions.</li>
+</ul>
+<p>There, work cut out for us. And we'll need a more powerful way to specify arbitrary game state variants to do it. How about a little arbitrary factory?</p>
+<pre><code class="language-js">function getArbGameState(options = {}) {
+    let defaults = {
+        hp: fc.integer({ min: 1, max: 80 }),
+        maxHp: fc.constant(80),
+        block: fc.constant(0),
+        energy: fc.nat({ max: 999 }),
+        maxEnergy: fc.constant(3),
+        hand: fc.array(arbCard, { minLength: 0, maxLength: 10 }),
+        drawPile: fc.constant([]),
+        discardPile: fc.constant([]),
+        relics: fc.constant([]),
+        enemies: fc.array(arbEnemy, { minLength: 1, maxLength: 5 })
+    };
+    return fc.record({ ...defaults, ...options });
+}
+</code></pre>
+<p>Now we have a set of useful defaults (the player is alive, enemies are alive) with an optional parameter to specify new arbitraries for any property. Then we update our tests:</p>
+<pre><code class="language-js">it('returns no actions when HP is zero', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState({ hp: fc.constant(0) }), gameState =&gt; {
+            let actions = getActions(gameState);
+            assert.deepEqual(actions, []);
+        })
+    );
+});
+
+it('returns no actions when no enemies are left', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState({ enemies: fc.constant([]) }), gameState =&gt; {
+            let actions = getActions(gameState);
+            assert.deepEqual(actions, []);
+        })
+    );
+});
+</code></pre>
+<p>Tests pass! Commit: <em>&quot;tests: add getArbGameState() function&quot;</em>.</p>
+<p>Now we can write all the tests we want. First, we can always end the turn:</p>
+<pre><code class="language-js">it('returns End Turn', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), gameState =&gt; {
+            let actions = getActions(gameState);
+            // ... how do we assert this??
+        })
+    );
+});
+</code></pre>
+<p>Okay we're not quite there yet. Uh. We want to assert that actions contains an object with one specific property with a specific value. It sounds like we need our <code>deepEqual()</code> function again. Time to dig through the Git log to recover it... <a href="https://codeberg.org/cvennevik/crystal-spire/commit/09da913d5bc97495c5417f97726a65803ef52a46#diff-df6a091d1844505b07e077d5ec678869b3067b5a">Ah, found it</a>.</p>
+<p>Lil' copy-paste back into the project, and we can write:</p>
+<pre><code class="language-js">it('returns End Turn', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), gameState =&gt; {
+            let actions = getActions(gameState);
+            return actions.some(x =&gt; deepEqual(x, { name: 'End Turn' }));
+        })
+    );
+});
+</code></pre>
+<p>Nice! That passes. Though, I haven't seen it fail, and we're returning true/false now instead of using an <code>assert</code> function, so I'm paranoid that it doesn't actually test it properly. Let me just change the implementation to call it 'Finish Turn' instead to see that it fails... Okay yeah it fails, loudly, this works fine, undo the text change.</p>
+<p>Next, let's ensure there are never any duplicate actions.</p>
+<pre><code class="language-js">it('does not return duplicate actions', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), gameState =&gt; {
+            let actions = getActions(gameState);
+            return actions.every(x =&gt; {
+                let matches = actions.filter(y =&gt; deepEqual(x, y));
+                return matches.length === 1;
+            });
+        })
+    );
+});
+</code></pre>
+<p>Passes - the quadratic complexity makes me frown, but it's the simplest solution I see, and I'll take a simple test over a slightly more efficient test. Let's return the &quot;Play Bash&quot; action twice to make sure it fails... Yeah, it fails, undo the error.</p>
+<p>Cool! Next up, Defend.</p>
+<pre><code class="language-js">it('returns Play Defend', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState({
+            hand: fc.array(arbCard, { minLength: 0, maxLength: 9 }).map(x =&gt; x.concat('Defend')),
+            energy: fc.integer({ min: 1, max: 999 })
+        }), gameState =&gt; {
+            let actions = getActions(gameState);
+            return actions.some(x =&gt; deepEqual(x, { name: 'Play Defend' }));
+        })
+    );
+});
+</code></pre>
+<p>Passes! That way of specifying &quot;any hand of cards including Defend&quot; is clunky, though, and we'll have to repeat that pattern. Can we improve it? Do the docs offer a cleaner solution? ...three minutes of browsing say &quot;no&quot;. Let's extract a function, then.</p>
+<pre><code class="language-js">function getArbHand(options = {}) {
+    let includedCards = options?.with ?? [];
+    let constraints = { minLength: 0, maxLength: 10 - includedCards.length };
+    return fc.array(arbCard, constraints).map(x =&gt; x.concat(includedCards));
+}
+</code></pre>
+<pre><code class="language-js">it('returns Play Defend', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState({
+            hand: getArbHand({ with: ['Defend'] }),
+            energy: fc.integer({ min: 1, max: 999 })
+        }), gameState =&gt; {
+            let actions = getActions(gameState);
+            return actions.some(x =&gt; deepEqual(x, { name: 'Play Defend' }));
+        })
+    );
+});
+</code></pre>
+<p>Passes! We move on.</p>
+<p>Next, Strike. This one's different, because when we have multiple enemies, we can have multiple actions with different targets. Our current code doesn't even support multiple targets yet. We can start with a test constrained to a single enemy:</p>
+<pre><code class="language-js">it('returns Play Strike', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState({
+            hand: getArbHand({ with: ['Strike'] }),
+            energy: fc.integer({ min: 1, max: 999 }),
+            enemies: fc.tuple(arbEnemy)
+        }), gameState =&gt; {
+            let actions = getActions(gameState);
+            return actions.some(x =&gt; deepEqual(x, { name: 'Play Strike', enemyIndex: 0 }));
+        })
+    );
+});
+</code></pre>
+<p>Cool, that passes. But we also want to assert there are not additional &quot;Play Strike&quot; actions with invalid enemy indexes. Maybe like this?</p>
+<pre><code class="language-js">it('returns Play Strike', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState({
+            hand: getArbHand({ with: ['Strike'] }),
+            energy: fc.integer({ min: 1, max: 999 }),
+            enemies: fc.tuple(arbEnemy)
+        }), gameState =&gt; {
+            let actions = getActions(gameState);
+            let strikeActions = actions.filter(x =&gt; x.name === 'Play Strike').toSorted((a, b) =&gt; a.enemyIndex - b.enemyIndex);
+            assert.deepEqual(strikeActions, [{ name: 'Play Strike', enemyIndex: 0 }]);
+        })
+    );
+});
+</code></pre>
+<p>Oof, it's getting a bit involved, but it works. We can complicate the code even more so it tests multiple enemies:</p>
+<pre><code class="language-js">it('returns Play Strike', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState({
+            hand: getArbHand({ with: ['Strike'] }),
+            energy: fc.integer({ min: 1, max: 999 })
+        }), gameState =&gt; {
+            let actions = getActions(gameState);
+            let strikeActions = actions
+                .filter(x =&gt; x.name === 'Play Strike')
+                .toSorted((a, b) =&gt; a.enemyIndex - b.enemyIndex);
+            let expectedStrikeActions = [...gameState.enemies.entries()]
+                .map(([idx, _value]) =&gt; ({ name: 'Play Strike', enemyIndex: idx }))
+                .toSorted((a, b) =&gt; a.enemyIndex - b.enemyIndex);
+            assert.deepEqual(strikeActions, expectedStrikeActions);
+        })
+    );
+});
+</code></pre>
+<p>Oof, ouch, this is setting off my &quot;test is too complicated&quot; sensors. I would never do this with example-based testing. But, I mean, it works:</p>
+<pre><code>AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+    
+    [
+      {
+        enemyIndex: 0,
+        name: 'Play Strike'
+      }
+    ]
+    
+    should loosely deep-equal
+    
+    [
+      {
+        enemyIndex: 0,
+        name: 'Play Strike'
+      },
+      {
+        enemyIndex: 1,
+        name: 'Play Strike'
+      }
+    ]
+</code></pre>
+<p>Sooo... Maybe it's fine? Maybe it's fine. We can fix the implementation now:</p>
+<pre><code class="language-js">if (gameState.hand.includes('Strike') &amp;&amp; gameState.energy &gt;= 1) {
+    for (let i = 0; i &lt; gameState.enemies.length; i++) {
+        actions.push({ name: 'Play Strike', enemyIndex: i });
+    }
+}
+</code></pre>
+<p>Green! Onwards to Bash. It works the same way as Strike, except it costs two energy:</p>
+<pre><code class="language-js">it('returns Play Bash', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState({
+            hand: getArbHand({ with: ['Bash'] }),
+            energy: fc.integer({ min: 2, max: 999 })
+        }), gameState =&gt; {
+            let actions = getActions(gameState);
+            let bashActions = actions
+                .filter(x =&gt; x.name === 'Play Bash')
+                .toSorted((a, b) =&gt; a.enemyIndex - b.enemyIndex);
+            let expectedBashActions = [...gameState.enemies.entries()]
+                .map(([idx, _value]) =&gt; ({ name: 'Play Bash', enemyIndex: idx }))
+                .toSorted((a, b) =&gt; a.enemyIndex - b.enemyIndex);
+            assert.deepEqual(bashActions, expectedBashActions);
+        })
+    );
+});
+</code></pre>
+<p>Yup, fails as expected. Implement fix:</p>
+<pre><code class="language-js">if (gameState.hand.includes('Bash') &amp;&amp; gameState.energy &gt;= 2) {
+    for (let i = 0; i &lt; gameState.enemies.length; i++) {
+        actions.push({ name: 'Play Bash', enemyIndex: i });
+    }
+}
+</code></pre>
+<p>And the tests pass! I think this means <code>getActions()</code> is fully implemented for our Jaw Worm fight. Yay!</p>
+<p>I notice now that these tests only assert the presence of actions when they should be there, and not the absence of actions when they should not be there. For instance, our tests pass if we do not require energy to play Bash. I mean. We could test this too. We could... maybe...</p>
+<pre><code class="language-js">it('returns Play Bash', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), gameState =&gt; {
+            let actions = getActions(gameState);
+            let bashActions = actions
+                .filter(x =&gt; x.name === 'Play Bash')
+                .toSorted((a, b) =&gt; a.enemyIndex - b.enemyIndex);
+            let canPlayBash = gameState.hand.includes('Bash') &amp;&amp; gameState.energy &gt;= 2;
+            let expectedBashActions = canPlayBash
+                ? [...gameState.enemies.entries()]
+                    .map(([idx, _value]) =&gt; ({ name: 'Play Bash', enemyIndex: idx }))
+                    .toSorted((a, b) =&gt; a.enemyIndex - b.enemyIndex)
+                : [];
+            assert.deepEqual(bashActions, expectedBashActions);
+        })
+    );
+});
+</code></pre>
+<p>Lord almighty. I mean, um, both arrays are already sorted by enemyIndex, so we could trim the sorting...?</p>
+<pre><code class="language-js">it('returns Play Bash', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), gameState =&gt; {
+            let actions = getActions(gameState);
+            let bashActions = actions.filter(x =&gt; x.name === 'Play Bash');
+            let canPlayBash = gameState.hand.includes('Bash') &amp;&amp; gameState.energy &gt;= 2;
+            let expectedBashActions = canPlayBash
+                ? [...gameState.enemies.entries()]
+                    .map(([idx, _value]) =&gt; ({ name: 'Play Bash', enemyIndex: idx }))
+                : [];
+            assert.deepEqual(bashActions, expectedBashActions);
+        })
+    );
+});
+</code></pre>
+<p>You know what? Sure. Let's go with this. It's significantly less transparent than splitting it up into multiple tests, but it asserts exactly when we can play Bash, and it does it in a single test. We might get punished for this later, but we will take that punishment when it happens.</p>
+<p>Let's rewrite the rest of the tests to the same style, extract a <code>getIndexes()</code> function, inline a few variables, and give the remaining variables similar names:</p>
+<pre><code class="language-js">function getIndexes(array) {
+    return [...array.entries()].map(([idx, _value]) =&gt; idx);
+}
+
+describe('getActions()', () =&gt; {
+    it('returns no actions when HP is zero', () =&gt; {
+        fc.assert(
+            fc.property(getArbGameState({ hp: fc.constant(0) }), gameState =&gt; {
+                let actions = getActions(gameState);
+                assert.deepEqual(actions, []);
+            })
+        );
+    });
+
+    it('returns no actions when no enemies are left', () =&gt; {
+        fc.assert(
+            fc.property(getArbGameState({ enemies: fc.constant([]) }), gameState =&gt; {
+                let actions = getActions(gameState);
+                assert.deepEqual(actions, []);
+            })
+        );
+    });
+
+    it('does not return duplicate actions', () =&gt; {
+        fc.assert(
+            fc.property(getArbGameState(), gameState =&gt; {
+                let actions = getActions(gameState);
+                return actions.every(x =&gt; {
+                    let matches = actions.filter(y =&gt; deepEqual(x, y));
+                    return matches.length === 1;
+                });
+            })
+        );
+    });
+
+    it('returns End Turn', () =&gt; {
+        fc.assert(
+            fc.property(getArbGameState(), gameState =&gt; {
+                let actions = getActions(gameState).filter(x =&gt; x.name === 'End Turn');
+                let expectedActions = [{ name: 'End Turn' }];
+                assert.deepEqual(actions, expectedActions);
+            })
+        );
+    });
+
+    it('returns Play Defend', () =&gt; {
+        fc.assert(
+            fc.property(getArbGameState(), gameState =&gt; {
+                let actions = getActions(gameState).filter(x =&gt; x.name === 'Play Defend');
+                let expectedActions = gameState.hand.includes('Defend') &amp;&amp; gameState.energy &gt;= 1
+                    ? [{ name: 'Play Defend' }]
+                    : [];
+                assert.deepEqual(actions, expectedActions);
+            })
+        );
+    });
+
+    it('returns Play Strike', () =&gt; {
+        fc.assert(
+            fc.property(getArbGameState(), gameState =&gt; {
+                let actions = getActions(gameState).filter(x =&gt; x.name === 'Play Strike');
+                let expectedActions = gameState.hand.includes('Strike') &amp;&amp; gameState.energy &gt;= 1
+                    ? getIndexes(gameState.enemies).map(idx =&gt; ({ name: 'Play Strike', enemyIndex: idx }))
+                    : [];
+                assert.deepEqual(actions, expectedActions);
+            })
+        );
+    });
+
+    it('returns Play Bash', () =&gt; {
+        fc.assert(
+            fc.property(getArbGameState(), gameState =&gt; {
+                let actions = getActions(gameState).filter(x =&gt; x.name === 'Play Bash');
+                let expectedActions = gameState.hand.includes('Bash') &amp;&amp; gameState.energy &gt;= 2
+                    ? getIndexes(gameState.enemies).map(idx =&gt; ({ name: 'Play Bash', enemyIndex: idx }))
+                    : [];
+                assert.deepEqual(actions, expectedActions);
+            })
+        );
+    });
+});
+</code></pre>
+<p>That looks like a fairly comprehensive test suite to me. Commit: <em>&quot;getActions(): support targetting different enemies&quot;</em>.</p>
+<hr>
+<p>We can now cross <code>getActions()</code> off our to-do list. The list is now:</p>
+<ol>
+<li>Implement <code>resolveAction(gameState, action)</code>.</li>
+<li>Compute and render real actions on the page.</li>
+<li>Implement a solver.</li>
+</ol>
+<p><code>resolveAction()</code> is going to be significantly more complicated. That's good. We can handle a challenge.</p>
+<p>Until next time!</p>
+<hr>
+<p><em><a href="/crystal-spire/v15/">View this app version</a></em> | <em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/95e799fc29b6452b2210ccc71cd6302adfdc225b">Last commit: getActions(): support targetting different enemies</a></em></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Crystal Spire #14: End of the Yak</title>
       <link>https://www.cvennevik.no/blog/crystal-spire-14-end-of-the-yak/</link>

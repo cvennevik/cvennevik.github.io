@@ -12,10 +12,7 @@
       <link>https://www.cvennevik.no/blog/crystal-spire-15-back-into-actions/</link>
       <pubDate>Sun, 28 Dec 2025 11:00:00 GMT</pubDate>
       <guid>https://www.cvennevik.no/blog/crystal-spire-15-back-into-actions/</guid>
-      <content:encoded><![CDATA[<p>I am really excited! We can finally return to implementing our solver, with the support of a testing tool I've wanted to try out for years. I'm stoked to figure out the design for this. Last time I did this in C# it got really involved, with a lot of files and a lot of tests. This time, I think we'll go with quite different strategies for both implementation and testing. I don't know what they will be yet! It'll be fun to find out!</p>
-<p>See you next time :)</p>
-<hr>
-<p>Good day, one and all. It's time to make progress on our Slay the Spire solver. I'm not entirely clear on what needs doing, so let's make a list:</p>
+      <content:encoded><![CDATA[<p>Good day, one and all. It's time to make progress on our Slay the Spire solver. I'm not entirely clear on what needs doing, so let's make a list:</p>
 <ol>
 <li>Finish implementing <code>getActions()</code>.</li>
 <li>Implement a function to resolve actions - something like <code>resolveAction(gameState, action)</code>?</li>

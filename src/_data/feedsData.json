@@ -8,6 +8,11 @@
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
             {
+              "title": "1Password Dependency Breaks Syntax Highlighting",
+              "date": "2025-12-27",
+              "link": "https://borretti.me/article/1password-dependency-breaks-syntax-highlighting"
+            },
+            {
               "title": "Using the Brother DS-640 Scanner on NixOS",
               "date": "2025-12-27",
               "link": "https://borretti.me/article/using-the-brother-ds-640-scanner-on-nixos"
@@ -26,11 +31,6 @@
               "title": "I Wish People Were More Public",
               "date": "2025-12-10",
               "link": "https://borretti.me/article/i-wish-people-were-more-public"
-            },
-            {
-              "title": "Ad-Hoc Emacs Packages with Nix",
-              "date": "2025-11-16",
-              "link": "https://borretti.me/article/ad-hoc-emacs-packages-with-nix"
             }
           ]
         },
@@ -1111,6 +1111,37 @@
               "title": "Three Ingredients for Tasty Platform Capabilities",
               "date": "2024-05-01",
               "link": "https://unremarkabletester.com/2024/05/01/three-ingredients-for-tasty-platform-capabilities/"
+            }
+          ]
+        },
+        {
+          "title": "Hazel Weakly",
+          "feedUrl": "https://hazelweakly.me/atom.xml",
+          "items": [
+            {
+              "title": "To Be a Leader of Systems",
+              "date": "2025-11-18",
+              "link": "https://hazelweakly.me/blog/to-be-a-leader-of-systems/"
+            },
+            {
+              "title": "Scaling Innovation: Building Ecosystems",
+              "date": "2025-10-21",
+              "link": "https://hazelweakly.me/blog/scaling-innovation-building-ecosystems/"
+            },
+            {
+              "title": "Stop Building AI Tools Backwards",
+              "date": "2025-05-16",
+              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
+            },
+            {
+              "title": "The Future of Observability: Observability 3.0",
+              "date": "2024-12-09",
+              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
+            },
+            {
+              "title": "You Have One Voice",
+              "date": "2024-10-21",
+              "link": "https://hazelweakly.me/blog/you-have-one-voice/"
             }
           ]
         },
@@ -2461,11 +2492,10 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-27T03:53:59.504Z",
+  "fetchDate": "2025-12-28T04:05:46.242Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://hazelweakly.me/atom.xml",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml"
   ]

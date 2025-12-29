@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "drcathicks",
+          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
+          "items": [
+            {
+              "title": "Cat's review of 2025",
+              "date": "2025-12-28",
+              "link": "https://www.drcathicks.com/post/cat-s-review-of-2025"
+            },
+            {
+              "title": "Some Craft Conf breakfast session citations",
+              "date": "2025-06-10",
+              "link": "https://www.drcathicks.com/post/some-craft-conf-breakfast-session-citations"
+            },
+            {
+              "title": "Thank you, Developer Success Lab",
+              "date": "2025-05-07",
+              "link": "https://www.drcathicks.com/post/thank-you-developer-success-lab"
+            },
+            {
+              "title": "Cat @ VirtualDDD: \"a barn burner of a talk\" References &#38; Resources",
+              "date": "2025-04-16",
+              "link": "https://www.drcathicks.com/post/cat-virtualddd-a-barn-burner-of-a-talk-references-resources"
+            },
+            {
+              "title": "Citation as Pilgrimage",
+              "date": "2025-02-28",
+              "link": "https://www.drcathicks.com/post/citation-as-pilgrimage"
+            }
+          ]
+        },
+        {
+          "title": "Cecilie Vennevik's blog",
+          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
+          "items": [
+            {
+              "title": "Crystal Spire #15: Back into actions",
+              "date": "2025-12-28",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-15-back-into-actions/"
+            },
+            {
+              "title": "Crystal Spire #14: End of the Yak",
+              "date": "2025-12-25",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-14-end-of-the-yak/"
+            },
+            {
+              "title": "Crystal Spire #13: Haha, just kidding... unless?",
+              "date": "2025-12-21",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-13-haha-just-kidding-unless/"
+            },
+            {
+              "title": "Crystal Spire #12: A spot of cleaning",
+              "date": "2025-12-14",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-12-a-spot-of-cleaning/"
+            },
+            {
+              "title": "Crystal Spire #11: We need to test",
+              "date": "2025-10-04",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-11-we-need-to-test/"
+            }
+          ]
+        },
+        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -31,37 +93,6 @@
               "title": "I Wish People Were More Public",
               "date": "2025-12-10",
               "link": "https://borretti.me/article/i-wish-people-were-more-public"
-            }
-          ]
-        },
-        {
-          "title": "Cecilie Vennevik's blog",
-          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
-          "items": [
-            {
-              "title": "Crystal Spire #14: End of the Yak",
-              "date": "2025-12-25",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-14-end-of-the-yak/"
-            },
-            {
-              "title": "Crystal Spire #13: Haha, just kidding... unless?",
-              "date": "2025-12-21",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-13-haha-just-kidding-unless/"
-            },
-            {
-              "title": "Crystal Spire #12: A spot of cleaning",
-              "date": "2025-12-14",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-12-a-spot-of-cleaning/"
-            },
-            {
-              "title": "Crystal Spire #11: We need to test",
-              "date": "2025-10-04",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-11-we-need-to-test/"
-            },
-            {
-              "title": "Crystal Spire #10: Finishing the easy bit",
-              "date": "2025-08-16",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-10-finishing-the-easy-bit/"
             }
           ]
         },
@@ -469,32 +500,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-12-18",
-              "link": "https://dbushell.com/notes/2025-12-18T13:37Z/"
-            },
-            {
-              "date": "2025-12-12",
-              "link": "https://dbushell.com/notes/2025-12-12T09:57Z/"
-            },
-            {
-              "date": "2025-12-12",
-              "link": "https://dbushell.com/notes/2025-12-12T05:01Z/"
-            },
-            {
-              "date": "2025-12-11",
-              "link": "https://dbushell.com/notes/2025-12-11T10:16Z/"
-            },
-            {
-              "date": "2025-12-10",
-              "link": "https://dbushell.com/notes/2025-12-10T14:50Z/"
-            }
-          ]
-        },
-        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -522,6 +527,32 @@
               "title": "Give “fetch” a Bit More Oomph with “ffetch”",
               "date": "2025-09-18",
               "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-12-18",
+              "link": "https://dbushell.com/notes/2025-12-18T13:37Z/"
+            },
+            {
+              "date": "2025-12-12",
+              "link": "https://dbushell.com/notes/2025-12-12T09:57Z/"
+            },
+            {
+              "date": "2025-12-12",
+              "link": "https://dbushell.com/notes/2025-12-12T05:01Z/"
+            },
+            {
+              "date": "2025-12-11",
+              "link": "https://dbushell.com/notes/2025-12-11T10:16Z/"
+            },
+            {
+              "date": "2025-12-10",
+              "link": "https://dbushell.com/notes/2025-12-10T14:50Z/"
             }
           ]
         },
@@ -1983,37 +2014,6 @@
           ]
         },
         {
-          "title": "drcathicks",
-          "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
-          "items": [
-            {
-              "title": "Some Craft Conf breakfast session citations",
-              "date": "2025-06-10",
-              "link": "https://www.drcathicks.com/post/some-craft-conf-breakfast-session-citations"
-            },
-            {
-              "title": "Thank you, Developer Success Lab",
-              "date": "2025-05-07",
-              "link": "https://www.drcathicks.com/post/thank-you-developer-success-lab"
-            },
-            {
-              "title": "Cat @ VirtualDDD: \"a barn burner of a talk\" References &#38; Resources",
-              "date": "2025-04-16",
-              "link": "https://www.drcathicks.com/post/cat-virtualddd-a-barn-burner-of-a-talk-references-resources"
-            },
-            {
-              "title": "Citation as Pilgrimage",
-              "date": "2025-02-28",
-              "link": "https://www.drcathicks.com/post/citation-as-pilgrimage"
-            },
-            {
-              "title": "Ways to listen to (rather than read about) the psychology of software teams!",
-              "date": "2025-02-21",
-              "link": "https://www.drcathicks.com/post/ways-to-listen-to-rather-than-read-about-the-psychology-of-software-teams"
-            }
-          ]
-        },
-        {
           "title": "Alexis King’s Blog",
           "feedUrl": "https://lexi-lambda.github.io/feeds/all.atom.xml",
           "items": [
@@ -2492,7 +2492,7 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-28T04:05:46.242Z",
+  "fetchDate": "2025-12-29T04:08:36.087Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

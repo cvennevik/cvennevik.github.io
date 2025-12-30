@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Dungeon Crawler Carl",
+              "date": "2025-12-29",
+              "link": "https://gomakethings.com/dungeon-crawler-carl/"
+            },
+            {
+              "title": "No, seriously, the shadow DOM sucks",
+              "date": "2025-12-23",
+              "link": "https://gomakethings.com/no-seriously-the-shadow-dom-sucks/"
+            },
+            {
+              "title": "Death to the shadow DOM!",
+              "date": "2025-12-22",
+              "link": "https://gomakethings.com/death-to-the-shadow-dom/"
+            },
+            {
+              "title": "ADHD restlessness",
+              "date": "2025-12-19",
+              "link": "https://gomakethings.com/adhd-restlessness/"
+            },
+            {
+              "title": "My HTML Web Component boilerplate for 2026",
+              "date": "2025-12-18",
+              "link": "https://gomakethings.com/my-html-web-component-boilerplate-for-2026/"
+            }
+          ]
+        },
+        {
+          "title": "HeydonWorks",
+          "feedUrl": "https://heydonworks.com/feed.xml",
+          "items": [
+            {
+              "title": "How To Dynamically Install Custom Elements",
+              "date": "2025-12-29",
+              "link": "https://heydonworks.com/article/dynamically-loading-custom-elements/"
+            },
+            {
+              "title": "Accessible Rickrolling",
+              "date": "2025-06-12",
+              "link": "https://heydonworks.com/article/accessible-rick-rolling/"
+            },
+            {
+              "title": "Hel: A 3-Axis, Obliterated Variable Font",
+              "date": "2025-06-10",
+              "link": "https://heydonworks.com/article/hel-variable-font/"
+            },
+            {
+              "title": "Pride, shame, and accessibility",
+              "date": "2025-06-09",
+              "link": "https://heydonworks.com/article/pride-shame-and-accessibility/"
+            },
+            {
+              "title": "Skune: A hand drawn variable font",
+              "date": "2025-06-09",
+              "link": "https://heydonworks.com/article/skune-hand-drawn-variable-font/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "My Use of ‘AI’ on this Site",
+              "date": "2025-12-29",
+              "link": "https://adrianroselli.com/2025/12/my-use-of-ai-on-this-site.html"
+            },
+            {
+              "title": "You Can’t Make Something Accessible to Everyone",
+              "date": "2025-12-02",
+              "link": "https://adrianroselli.com/2025/12/you-cant-make-something-accessible-to-everyone.html"
+            },
+            {
+              "title": "Web Design / Dev Advent Calendars for 2025",
+              "date": "2025-12-01",
+              "link": "https://adrianroselli.com/2025/12/web-design-dev-advent-calendars-for-2025.html"
+            },
+            {
+              "title": "The Value of Selecting Selects by Value",
+              "date": "2025-11-22",
+              "link": "https://adrianroselli.com/2025/11/the-value-of-selecting-selects-by-value.html"
+            },
+            {
+              "title": "Pre-order “Digital Accessibility Ethics”",
+              "date": "2025-11-12",
+              "link": "https://adrianroselli.com/2025/11/pre-order-digital-accessibility-ethics.html"
+            }
+          ]
+        },
+        {
           "title": "drcathicks",
           "feedUrl": "https://www.drcathicks.com/blog-feed.xml",
           "items": [
@@ -190,37 +283,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "No, seriously, the shadow DOM sucks",
-              "date": "2025-12-23",
-              "link": "https://gomakethings.com/no-seriously-the-shadow-dom-sucks/"
-            },
-            {
-              "title": "Death to the shadow DOM!",
-              "date": "2025-12-22",
-              "link": "https://gomakethings.com/death-to-the-shadow-dom/"
-            },
-            {
-              "title": "ADHD restlessness",
-              "date": "2025-12-19",
-              "link": "https://gomakethings.com/adhd-restlessness/"
-            },
-            {
-              "title": "My HTML Web Component boilerplate for 2026",
-              "date": "2025-12-18",
-              "link": "https://gomakethings.com/my-html-web-component-boilerplate-for-2026/"
-            },
-            {
-              "title": "Be a firework",
-              "date": "2025-12-17",
-              "link": "https://gomakethings.com/be-a-firework/"
-            }
-          ]
-        },
-        {
           "title": "fLaMEd fury",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -279,37 +341,6 @@
               "title": "All feelings mean something but it might be something dumb",
               "date": "2025-12-07",
               "link": "https://anniemueller.com/posts/all-feelings-mean-something-but-it-might-be-something-dumb"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Leading Global Research and Advisory Firm Recommends Against Using AI Browsers",
-              "date": "2025-12-21",
-              "link": "https://blog.jim-nielsen.com/2025/dont-use-ai-browsers-they-say/"
-            },
-            {
-              "title": "You Might Also Like: My Notes Blog",
-              "date": "2025-12-18",
-              "link": "https://blog.jim-nielsen.com/2025/you-might-also-like-my-notes-blog/"
-            },
-            {
-              "title": "The “A” in “AI” Stands For Amnesia",
-              "date": "2025-12-16",
-              "link": "https://blog.jim-nielsen.com/2025/a-in-ai-stands-for-amnesia/"
-            },
-            {
-              "title": "It’s Uncomfortable To Sit With “I Don’t Know”",
-              "date": "2025-12-14",
-              "link": "https://blog.jim-nielsen.com/2025/uncomfortable-i-dont-know/"
-            },
-            {
-              "title": "Icons in Menus Everywhere — Send Help",
-              "date": "2025-12-07",
-              "link": "https://blog.jim-nielsen.com/2025/icons-in-menus/"
             }
           ]
         },
@@ -805,37 +836,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "You Can’t Make Something Accessible to Everyone",
-              "date": "2025-12-02",
-              "link": "https://adrianroselli.com/2025/12/you-cant-make-something-accessible-to-everyone.html"
-            },
-            {
-              "title": "Web Design / Dev Advent Calendars for 2025",
-              "date": "2025-12-01",
-              "link": "https://adrianroselli.com/2025/12/web-design-dev-advent-calendars-for-2025.html"
-            },
-            {
-              "title": "The Value of Selecting Selects by Value",
-              "date": "2025-11-22",
-              "link": "https://adrianroselli.com/2025/11/the-value-of-selecting-selects-by-value.html"
-            },
-            {
-              "title": "Pre-order “Digital Accessibility Ethics”",
-              "date": "2025-11-12",
-              "link": "https://adrianroselli.com/2025/11/pre-order-digital-accessibility-ethics.html"
-            },
-            {
-              "title": "Shopify Needs a Mirrorfy",
-              "date": "2025-11-04",
-              "link": "https://adrianroselli.com/2025/11/shopify-needs-a-mirrorfy.html"
-            }
-          ]
-        },
-        {
           "title": "sunshowers",
           "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
@@ -987,37 +987,6 @@
               "title": "GPG Key Transition 2022",
               "date": "2023-01-01",
               "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
             }
           ]
         },
@@ -1642,37 +1611,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Notes on switching to Helix from vim",
-              "date": "2025-10-10",
-              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
-            },
-            {
-              "title": "New zine: The Secret Rules of the Terminal",
-              "date": "2025-06-26",
-              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
-            },
-            {
-              "title": "Using `make` to compile C programs (for non-C-programmers)",
-              "date": "2025-06-10",
-              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
-            },
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            }
-          ]
-        },
-        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -1979,37 +1917,6 @@
               "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
               "date": "2024-09-30",
               "link": "https://sarajoy.dev/blog/see-and-point/"
-            }
-          ]
-        },
-        {
-          "title": "HeydonWorks",
-          "feedUrl": "https://heydonworks.com/feed.xml",
-          "items": [
-            {
-              "title": "Accessible Rickrolling",
-              "date": "2025-06-12",
-              "link": "https://heydonworks.com/article/accessible-rick-rolling/"
-            },
-            {
-              "title": "Hel: A 3-Axis, Obliterated Variable Font",
-              "date": "2025-06-10",
-              "link": "https://heydonworks.com/article/hel-variable-font/"
-            },
-            {
-              "title": "Pride, shame, and accessibility",
-              "date": "2025-06-09",
-              "link": "https://heydonworks.com/article/pride-shame-and-accessibility/"
-            },
-            {
-              "title": "Skune: A hand drawn variable font",
-              "date": "2025-06-09",
-              "link": "https://heydonworks.com/article/skune-hand-drawn-variable-font/"
-            },
-            {
-              "title": "Advertising? On my blog?",
-              "date": "2025-05-30",
-              "link": "https://heydonworks.com/article/advertising-on-this-blog/"
             }
           ]
         },
@@ -2492,11 +2399,14 @@
       ]
     }
   ],
-  "fetchDate": "2025-12-29T04:08:36.087Z",
+  "fetchDate": "2025-12-30T03:59:37.017Z",
   "errors": [
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml",
+    "https://blog.jim-nielsen.com/feed.xml",
+    "https://jvns.ca/atom.xml"
   ]
 }

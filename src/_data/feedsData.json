@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "To be defeated by ever greater things",
+              "date": "2026-01-02",
+              "link": "https://anniemueller.com/posts/to-be-defeated-by-ever-greater-things"
+            },
+            {
+              "title": "To sigh a deep sigh of releasing",
+              "date": "2025-12-22",
+              "link": "https://anniemueller.com/posts/to-sigh-a-deep-sigh-of-releasing"
+            },
+            {
+              "title": "Do you want to read a detailed post about eyelid surgery? Here it is. With photos.",
+              "date": "2025-12-14",
+              "link": "https://anniemueller.com/posts/do-you-want-to-read-a-detailed-post-about-eyelid-surgery-here-it-is-with-photos"
+            },
+            {
+              "title": "Telling myself stories",
+              "date": "2025-12-12",
+              "link": "https://anniemueller.com/posts/telling-myself-stories"
+            },
+            {
+              "title": "Gratitude knows that there is always a gift",
+              "date": "2025-12-10",
+              "link": "https://anniemueller.com/posts/gratitude-knows-that-there-is-always-a-gift"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -496,37 +527,6 @@
               "title": "The Drifter",
               "date": "2025-10-05",
               "link": "https://robinrendle.com/notes/the-drifter/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "To sigh a deep sigh of releasing",
-              "date": "2025-12-22",
-              "link": "https://anniemueller.com/posts/to-sigh-a-deep-sigh-of-releasing"
-            },
-            {
-              "title": "Do you want to read a detailed post about eyelid surgery? Here it is. With photos.",
-              "date": "2025-12-14",
-              "link": "https://anniemueller.com/posts/do-you-want-to-read-a-detailed-post-about-eyelid-surgery-here-it-is-with-photos"
-            },
-            {
-              "title": "Telling myself stories",
-              "date": "2025-12-12",
-              "link": "https://anniemueller.com/posts/telling-myself-stories"
-            },
-            {
-              "title": "Gratitude knows that there is always a gift",
-              "date": "2025-12-10",
-              "link": "https://anniemueller.com/posts/gratitude-knows-that-there-is-always-a-gift"
-            },
-            {
-              "title": "All feelings mean something but it might be something dumb",
-              "date": "2025-12-07",
-              "link": "https://anniemueller.com/posts/all-feelings-mean-something-but-it-might-be-something-dumb"
             }
           ]
         },
@@ -1704,37 +1704,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Notes on switching to Helix from vim",
-              "date": "2025-10-10",
-              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
-            },
-            {
-              "title": "New zine: The Secret Rules of the Terminal",
-              "date": "2025-06-26",
-              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
-            },
-            {
-              "title": "Using `make` to compile C programs (for non-C-programmers)",
-              "date": "2025-06-10",
-              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
-            },
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            }
-          ]
-        },
-        {
           "title": "artemis.sh",
           "feedUrl": "https://artemis.sh/feed.xml",
           "items": [
@@ -2461,12 +2430,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-01-02T04:02:09.092Z",
+  "fetchDate": "2026-01-03T03:53:46.342Z",
   "errors": [
-    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
+    "https://infrequently.org/feed/",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml",
+    "https://jvns.ca/atom.xml"
   ]
 }

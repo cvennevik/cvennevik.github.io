@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "New year, new me, new web browsing setup?",
+              "date": "2026-01-03",
+              "link": "https://thejollyteapot.com/2026/01/03/new-year-new-me-new-web-browsing-setup/"
+            },
+            {
+              "title": "December 2025 blend of links",
+              "date": "2025-12-30",
+              "link": "https://thejollyteapot.com/december-2025-blend/"
+            },
+            {
+              "title": "The Club Racer Treatment",
+              "date": "2025-12-19",
+              "link": "https://thejollyteapot.com/2025/12/19/the-club-racer-treatment/"
+            },
+            {
+              "title": "Typefaces as clothes",
+              "date": "2025-12-12",
+              "link": "https://thejollyteapot.com/2025/12/12/typefaces-as-clothes/"
+            },
+            {
+              "title": "November 2025 blend of links",
+              "date": "2025-11-27",
+              "link": "https://thejollyteapot.com/november-2025-blend/"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "A thing that happened when introducing more purely functional objects in Java",
+              "date": "2026-01-03",
+              "link": "https://garoof.no/java/purely-functional-objects.html"
+            },
+            {
+              "title": "Pixels from images",
+              "date": "2025-12-04",
+              "link": "https://garoof.no/notes/pixels-from-images.html"
+            },
+            {
+              "title": "Pixels",
+              "date": "2025-11-09",
+              "link": "https://garoof.no/notes/pixels.html"
+            },
+            {
+              "title": "Even if it's arbitrary",
+              "date": "2025-11-08",
+              "link": "https://garoof.no/notes/even-if-its-arbitrary.html"
+            },
+            {
+              "title": "AI then",
+              "date": "2025-09-03",
+              "link": "https://garoof.no/notes/ai.html"
+            }
+          ]
+        },
+        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -217,37 +279,6 @@
               "title": "Pride, shame, and accessibility",
               "date": "2025-06-09",
               "link": "https://heydonworks.com/article/pride-shame-and-accessibility/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "December 2025 blend of links",
-              "date": "2025-12-30",
-              "link": "https://thejollyteapot.com/december-2025-blend/"
-            },
-            {
-              "title": "The Club Racer Treatment",
-              "date": "2025-12-19",
-              "link": "https://thejollyteapot.com/2025/12/19/the-club-racer-treatment/"
-            },
-            {
-              "title": "Typefaces as clothes",
-              "date": "2025-12-12",
-              "link": "https://thejollyteapot.com/2025/12/12/typefaces-as-clothes/"
-            },
-            {
-              "title": "November 2025 blend of links",
-              "date": "2025-11-27",
-              "link": "https://thejollyteapot.com/november-2025-blend/"
-            },
-            {
-              "title": "Praise the Backup",
-              "date": "2025-11-24",
-              "link": "https://thejollyteapot.com/2025/11/24/praise-the-backup/"
             }
           ]
         },
@@ -655,32 +686,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2025-12-18",
-              "link": "https://dbushell.com/notes/2025-12-18T13:37Z/"
-            },
-            {
-              "date": "2025-12-12",
-              "link": "https://dbushell.com/notes/2025-12-12T09:57Z/"
-            },
-            {
-              "date": "2025-12-12",
-              "link": "https://dbushell.com/notes/2025-12-12T05:01Z/"
-            },
-            {
-              "date": "2025-12-11",
-              "link": "https://dbushell.com/notes/2025-12-11T10:16Z/"
-            },
-            {
-              "date": "2025-12-10",
-              "link": "https://dbushell.com/notes/2025-12-10T14:50Z/"
-            }
-          ]
-        },
-        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -708,6 +713,32 @@
               "title": "Give “fetch” a Bit More Oomph with “ffetch”",
               "date": "2025-09-18",
               "link": "https://thathtml.blog/2025/09/give-fetch-a-bit-more-oomph/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2025-12-18",
+              "link": "https://dbushell.com/notes/2025-12-18T13:37Z/"
+            },
+            {
+              "date": "2025-12-12",
+              "link": "https://dbushell.com/notes/2025-12-12T09:57Z/"
+            },
+            {
+              "date": "2025-12-12",
+              "link": "https://dbushell.com/notes/2025-12-12T05:01Z/"
+            },
+            {
+              "date": "2025-12-11",
+              "link": "https://dbushell.com/notes/2025-12-11T10:16Z/"
+            },
+            {
+              "date": "2025-12-10",
+              "link": "https://dbushell.com/notes/2025-12-10T14:50Z/"
             }
           ]
         },
@@ -929,37 +960,6 @@
           ]
         },
         {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "Pixels from images",
-              "date": "2025-12-04",
-              "link": "https://garoof.no/notes/pixels-from-images.html"
-            },
-            {
-              "title": "Pixels",
-              "date": "2025-11-09",
-              "link": "https://garoof.no/notes/pixels.html"
-            },
-            {
-              "title": "Even if it's arbitrary",
-              "date": "2025-11-08",
-              "link": "https://garoof.no/notes/even-if-its-arbitrary.html"
-            },
-            {
-              "title": "AI then",
-              "date": "2025-09-03",
-              "link": "https://garoof.no/notes/ai.html"
-            },
-            {
-              "title": "What if dependencies were injected?",
-              "date": "2025-08-24",
-              "link": "https://garoof.no/java/ioc.html"
-            }
-          ]
-        },
-        {
           "title": "sunshowers",
           "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
@@ -1080,6 +1080,37 @@
               "title": "GPG Key Transition 2022",
               "date": "2023-01-01",
               "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Performance Inequality Gap, 2026",
+              "date": "2025-11-24",
+              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
+            },
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
             }
           ]
         },
@@ -1700,6 +1731,37 @@
               "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
               "date": "2025-02-15",
               "link": "https://www.felienne.com/archives/8749"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Notes on switching to Helix from vim",
+              "date": "2025-10-10",
+              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
+            },
+            {
+              "title": "New zine: The Secret Rules of the Terminal",
+              "date": "2025-06-26",
+              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
+            },
+            {
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
+              "date": "2025-06-10",
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
+            },
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
+            },
+            {
+              "title": "How to add a directory to your PATH",
+              "date": "2025-02-13",
+              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
             }
           ]
         },
@@ -2430,13 +2492,11 @@
       ]
     }
   ],
-  "fetchDate": "2026-01-03T03:53:46.342Z",
+  "fetchDate": "2026-01-04T04:09:02.618Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
-    "https://infrequently.org/feed/",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://jvns.ca/atom.xml"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "App Defaults 2026",
+              "date": "2026-01-08",
+              "link": "https://dbushell.com/2026/01/08/app-defaults/"
+            },
+            {
+              "title": "I Survived 2025",
+              "date": "2025-12-18",
+              "link": "https://dbushell.com/2025/12/18/year-in-review/"
+            },
+            {
+              "title": "Wrapping up Advent of Code 2025",
+              "date": "2025-12-12",
+              "link": "https://dbushell.com/2025/12/12/advent-of-code-2025/"
+            },
+            {
+              "title": "Deleting Code for Performance",
+              "date": "2025-12-04",
+              "link": "https://dbushell.com/2025/12/04/deleting-code-for-performance/"
+            },
+            {
+              "title": "iOS Web Browser Latency",
+              "date": "2025-11-27",
+              "link": "https://dbushell.com/2025/11/27/ios-web-browser-latency/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-01-08",
+              "link": "https://dbushell.com/notes/2026-01-08T07:01Z/"
+            },
+            {
+              "date": "2026-01-07",
+              "link": "https://dbushell.com/notes/2026-01-07T11:12Z/"
+            },
+            {
+              "date": "2026-01-06",
+              "link": "https://dbushell.com/notes/2026-01-06T10:31Z/"
+            },
+            {
+              "date": "2026-01-05",
+              "link": "https://dbushell.com/notes/2026-01-05T13:07Z/"
+            },
+            {
+              "date": "2026-01-05",
+              "link": "https://dbushell.com/notes/2026-01-05T08:42Z/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "The AI Security Shakedown",
+              "date": "2026-01-07",
+              "link": "https://blog.jim-nielsen.com/2026/ai-security-shakedown/"
+            },
+            {
+              "title": "A Letter of Feedback To Anyone Who Makes Software I Use",
+              "date": "2026-01-04",
+              "link": "https://blog.jim-nielsen.com/2026/feedback-for-those-who-make-software/"
+            },
+            {
+              "title": "Creating “Edit” Links That Open Plain-Text Source Files in a Native App",
+              "date": "2026-01-04",
+              "link": "https://blog.jim-nielsen.com/2026/os-as-cms/"
+            },
+            {
+              "title": "To Make Software Is To Translate Human Intent Into Computational Precision",
+              "date": "2025-12-28",
+              "link": "https://blog.jim-nielsen.com/2025/making-software-is-translating-intent/"
+            },
+            {
+              "title": "Leading Global Research and Advisory Firm Recommends Against Using AI Browsers",
+              "date": "2025-12-21",
+              "link": "https://blog.jim-nielsen.com/2025/dont-use-ai-browsers-they-say/"
+            }
+          ]
+        },
+        {
           "title": "Nathan Knowler",
           "feedUrl": "https://knowler.dev/feed.xml",
           "items": [
@@ -31,32 +119,6 @@
               "title": "Polyfilling hidden=until-found",
               "date": "2025-01-04",
               "link": "https://knowler.dev/blog/polyfilling-hidden-until-found"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-01-07",
-              "link": "https://dbushell.com/notes/2026-01-07T11:12Z/"
-            },
-            {
-              "date": "2026-01-06",
-              "link": "https://dbushell.com/notes/2026-01-06T10:31Z/"
-            },
-            {
-              "date": "2026-01-05",
-              "link": "https://dbushell.com/notes/2026-01-05T13:07Z/"
-            },
-            {
-              "date": "2026-01-05",
-              "link": "https://dbushell.com/notes/2026-01-05T08:42Z/"
-            },
-            {
-              "date": "2025-12-18",
-              "link": "https://dbushell.com/notes/2025-12-18T13:37Z/"
             }
           ]
         },
@@ -336,37 +398,6 @@
               "title": "Custom for designing, off-the-shelf for shipping",
               "date": "2025-09-15",
               "link": "https://ntietz.com/blog/custom-for-designing-offtheshelf-for-shipping/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "A Letter of Feedback To Anyone Who Makes Software I Use",
-              "date": "2026-01-04",
-              "link": "https://blog.jim-nielsen.com/2026/feedback-for-those-who-make-software/"
-            },
-            {
-              "title": "Creating “Edit” Links That Open Plain-Text Source Files in a Native App",
-              "date": "2026-01-04",
-              "link": "https://blog.jim-nielsen.com/2026/os-as-cms/"
-            },
-            {
-              "title": "To Make Software Is To Translate Human Intent Into Computational Precision",
-              "date": "2025-12-28",
-              "link": "https://blog.jim-nielsen.com/2025/making-software-is-translating-intent/"
-            },
-            {
-              "title": "Leading Global Research and Advisory Firm Recommends Against Using AI Browsers",
-              "date": "2025-12-21",
-              "link": "https://blog.jim-nielsen.com/2025/dont-use-ai-browsers-they-say/"
-            },
-            {
-              "title": "You Might Also Like: My Notes Blog",
-              "date": "2025-12-18",
-              "link": "https://blog.jim-nielsen.com/2025/you-might-also-like-my-notes-blog/"
             }
           ]
         },
@@ -801,37 +832,6 @@
               "title": "How adding a flex-wrap almost spiraled out of control",
               "date": "2025-08-23",
               "link": "https://smallsheds.garden/blog/2025/how-adding-a-flex-wrap-almost-spiraled-out-of-control/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "I Survived 2025",
-              "date": "2025-12-18",
-              "link": "https://dbushell.com/2025/12/18/year-in-review/"
-            },
-            {
-              "title": "Wrapping up Advent of Code 2025",
-              "date": "2025-12-12",
-              "link": "https://dbushell.com/2025/12/12/advent-of-code-2025/"
-            },
-            {
-              "title": "Deleting Code for Performance",
-              "date": "2025-12-04",
-              "link": "https://dbushell.com/2025/12/04/deleting-code-for-performance/"
-            },
-            {
-              "title": "iOS Web Browser Latency",
-              "date": "2025-11-27",
-              "link": "https://dbushell.com/2025/11/27/ios-web-browser-latency/"
-            },
-            {
-              "title": "Async SvelteKit Data and Side Effects",
-              "date": "2025-11-25",
-              "link": "https://dbushell.com/2025/11/25/async-sveltekit-data-and-side-effects/"
             }
           ]
         },
@@ -1673,37 +1673,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Notes on switching to Helix from vim",
-              "date": "2025-10-10",
-              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
-            },
-            {
-              "title": "New zine: The Secret Rules of the Terminal",
-              "date": "2025-06-26",
-              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
-            },
-            {
-              "title": "Using `make` to compile C programs (for non-C-programmers)",
-              "date": "2025-06-10",
-              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
-            },
-            {
-              "title": "Standards for ANSI escape codes",
-              "date": "2025-03-07",
-              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
-            },
-            {
-              "title": "How to add a directory to your PATH",
-              "date": "2025-02-13",
-              "link": "https://jvns.ca/blog/2025/02/13/how-to-add-a-directory-to-your-path/"
-            }
-          ]
-        },
-        {
           "title": "Felienne Hermans",
           "feedUrl": "https://www.felienne.com/feed",
           "items": [
@@ -1713,24 +1682,24 @@
               "link": "https://www.felienne.com/archives/8938"
             },
             {
-              "title": "AI in Education, Research, and Women’s Day! – AI in Week 10",
-              "date": "2025-03-09",
-              "link": "https://www.felienne.com/archives/8880"
+              "title": "What does it mean for a university to have an opinion?",
+              "date": "2025-01-13",
+              "link": "https://www.felienne.com/archives/8575"
             },
             {
-              "title": "Netflix’s Ponzi scheme, and stop using American tech platforms is possible – Week 9’s AI news",
-              "date": "2025-03-03",
-              "link": "https://www.felienne.com/archives/8853"
+              "title": "Charlie Chaplin and the death of the internet",
+              "date": "2025-01-06",
+              "link": "https://www.felienne.com/archives/8542"
             },
             {
-              "title": "Who owns your cloned AI voice – Week 8’s AI news",
-              "date": "2025-02-23",
-              "link": "https://www.felienne.com/archives/8808"
+              "title": "Paper: Feminism in Programming Language Design",
+              "date": "2024-10-17",
+              "link": "https://www.felienne.com/archives/8470"
             },
             {
-              "title": "Scarlett vs. Deepfakes, Math In or Out of the Classroom, and Online Dating – Week 7’s AI News",
-              "date": "2025-02-15",
-              "link": "https://www.felienne.com/archives/8749"
+              "title": "Soon all UX will be a Skinner box",
+              "date": "2024-09-11",
+              "link": "https://www.felienne.com/archives/8440"
             }
           ]
         },
@@ -2430,13 +2399,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-01-08T04:01:51.650Z",
+  "fetchDate": "2026-01-09T04:00:49.848Z",
   "errors": [
     "https://feedpress.me/baldurbjarnason",
+    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://robinrendle.com/feed.xml"
+    "https://jvns.ca/atom.xml"
   ]
 }

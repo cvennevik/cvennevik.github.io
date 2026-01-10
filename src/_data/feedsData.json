@@ -8,6 +8,11 @@
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
             {
+              "title": "Death to Scroll Fade!",
+              "date": "2026-01-09",
+              "link": "https://dbushell.com/2026/01/09/death-to-scroll-fade/"
+            },
+            {
               "title": "App Defaults 2026",
               "date": "2026-01-08",
               "link": "https://dbushell.com/2026/01/08/app-defaults/"
@@ -26,11 +31,68 @@
               "title": "Deleting Code for Performance",
               "date": "2025-12-04",
               "link": "https://dbushell.com/2025/12/04/deleting-code-for-performance/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Brief Note on Application Keyboard Shortcuts",
+              "date": "2026-01-09",
+              "link": "https://adrianroselli.com/2026/01/brief-note-on-application-keyboard-shortcuts.html"
             },
             {
-              "title": "iOS Web Browser Latency",
-              "date": "2025-11-27",
-              "link": "https://dbushell.com/2025/11/27/ios-web-browser-latency/"
+              "title": "How I Evaluate an ACR (VPAT®)",
+              "date": "2026-01-06",
+              "link": "https://adrianroselli.com/2026/01/how-i-evaluate-an-acr-vpat.html"
+            },
+            {
+              "title": "My Use of ‘AI’ on this Site",
+              "date": "2025-12-29",
+              "link": "https://adrianroselli.com/2025/12/my-use-of-ai-on-this-site.html"
+            },
+            {
+              "title": "You Can’t Make Something Accessible to Everyone",
+              "date": "2025-12-02",
+              "link": "https://adrianroselli.com/2025/12/you-cant-make-something-accessible-to-everyone.html"
+            },
+            {
+              "title": "Web Design / Dev Advent Calendars for 2025",
+              "date": "2025-12-01",
+              "link": "https://adrianroselli.com/2025/12/web-design-dev-advent-calendars-for-2025.html"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "What is Continuous Delivery?",
+              "date": "2026-01-09",
+              "link": "https://thinkinglabs.io/articles/2026/01/09/what-is-continuous-delivery.html"
+            },
+            {
+              "title": "a Junior, a Senior and I - on Team Practices",
+              "date": "2025-11-06",
+              "link": "https://thinkinglabs.io/articles/2025/11/06/a-junior-a-senior-and-i-on-team-practices.html"
+            },
+            {
+              "title": "a Junior, a Senior and I - on Metrics",
+              "date": "2025-11-06",
+              "link": "https://thinkinglabs.io/articles/2025/11/06/a-junior-a-senior-and-i-on-metrics.html"
+            },
+            {
+              "title": "a Junior, a Senior and I - on Team Efficiency",
+              "date": "2025-11-03",
+              "link": "https://thinkinglabs.io/articles/2025/11/03/a-junior-a-senior-and-i-on-team-efficiency.html"
+            },
+            {
+              "title": "Technology Executive Fireside Chat with Thierry de Pauw",
+              "date": "2025-11-02",
+              "link": "https://thinkinglabs.io/articles/2025/11/02/technology-executive-fireside-chat-with-thierry-de-pauw.html"
             }
           ]
         },
@@ -38,6 +100,10 @@
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2026-01-09",
+              "link": "https://dbushell.com/notes/2026-01-09T14:44Z/"
+            },
             {
               "date": "2026-01-08",
               "link": "https://dbushell.com/notes/2026-01-08T07:01Z/"
@@ -53,10 +119,37 @@
             {
               "date": "2026-01-05",
               "link": "https://dbushell.com/notes/2026-01-05T13:07Z/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "A data model for Git (and other docs updates)",
+              "date": "2026-01-08",
+              "link": "https://jvns.ca/blog/2026/01/08/a-data-model-for-git/"
             },
             {
-              "date": "2026-01-05",
-              "link": "https://dbushell.com/notes/2026-01-05T08:42Z/"
+              "title": "Notes on switching to Helix from vim",
+              "date": "2025-10-10",
+              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
+            },
+            {
+              "title": "New zine: The Secret Rules of the Terminal",
+              "date": "2025-06-26",
+              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
+            },
+            {
+              "title": "Using `make` to compile C programs (for non-C-programmers)",
+              "date": "2025-06-10",
+              "link": "https://jvns.ca/blog/2025/06/10/how-to-compile-a-c-program/"
+            },
+            {
+              "title": "Standards for ANSI escape codes",
+              "date": "2025-03-07",
+              "link": "https://jvns.ca/blog/2025/03/07/escape-code-standards/"
             }
           ]
         },
@@ -150,37 +243,6 @@
               "title": "The Microskills Theory of Programming",
               "date": "2025-10-31",
               "link": "https://coding-is-like-cooking.info/2025/10/the-microskills-theory-of-programming/"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "How I Evaluate an ACR (VPAT®)",
-              "date": "2026-01-06",
-              "link": "https://adrianroselli.com/2026/01/how-i-evaluate-an-acr-vpat.html"
-            },
-            {
-              "title": "My Use of ‘AI’ on this Site",
-              "date": "2025-12-29",
-              "link": "https://adrianroselli.com/2025/12/my-use-of-ai-on-this-site.html"
-            },
-            {
-              "title": "You Can’t Make Something Accessible to Everyone",
-              "date": "2025-12-02",
-              "link": "https://adrianroselli.com/2025/12/you-cant-make-something-accessible-to-everyone.html"
-            },
-            {
-              "title": "Web Design / Dev Advent Calendars for 2025",
-              "date": "2025-12-01",
-              "link": "https://adrianroselli.com/2025/12/web-design-dev-advent-calendars-for-2025.html"
-            },
-            {
-              "title": "The Value of Selecting Selects by Value",
-              "date": "2025-11-22",
-              "link": "https://adrianroselli.com/2025/11/the-value-of-selecting-selects-by-value.html"
             }
           ]
         },
@@ -553,6 +615,37 @@
               "title": "Gratitude knows that there is always a gift",
               "date": "2025-12-10",
               "link": "https://anniemueller.com/posts/gratitude-knows-that-there-is-always-a-gift"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "A foggy respite",
+              "date": "2025-12-31",
+              "link": "https://www.baldurbjarnason.com/2025/a-foggy-respite/"
+            },
+            {
+              "title": "Challenging fate with goodwill (and a holiday sale)",
+              "date": "2025-12-19",
+              "link": "https://www.baldurbjarnason.com/2025/challenging-fate/"
+            },
+            {
+              "title": "Mid-winter photos",
+              "date": "2025-12-09",
+              "link": "https://www.baldurbjarnason.com/notes/photos/mid-winter-2025/"
+            },
+            {
+              "title": "But, I worry, because I can see the cracks in the wall",
+              "date": "2025-12-09",
+              "link": "https://www.baldurbjarnason.com/2025/but-i-worry/"
+            },
+            {
+              "title": "The ‘Everything Bundle’",
+              "date": "2025-11-26",
+              "link": "https://www.baldurbjarnason.com/bundle/ebooks/"
             }
           ]
         },
@@ -1115,37 +1208,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -1421,37 +1483,6 @@
               "title": "TDD: You're Probably Doing It Just Fine",
               "date": "2024-03-25",
               "link": "https://blog.thecodewhisperer.com/permalink/tdd-youre-probably-doing-it-just-fine"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "a Junior, a Senior and I - on Team Practices",
-              "date": "2025-11-06",
-              "link": "https://thinkinglabs.io/articles/2025/11/06/a-junior-a-senior-and-i-on-team-practices.html"
-            },
-            {
-              "title": "a Junior, a Senior and I - on Metrics",
-              "date": "2025-11-06",
-              "link": "https://thinkinglabs.io/articles/2025/11/06/a-junior-a-senior-and-i-on-metrics.html"
-            },
-            {
-              "title": "a Junior, a Senior and I - on Team Efficiency",
-              "date": "2025-11-03",
-              "link": "https://thinkinglabs.io/articles/2025/11/03/a-junior-a-senior-and-i-on-team-efficiency.html"
-            },
-            {
-              "title": "Technology Executive Fireside Chat with Thierry de Pauw",
-              "date": "2025-11-02",
-              "link": "https://thinkinglabs.io/articles/2025/11/02/technology-executive-fireside-chat-with-thierry-de-pauw.html"
-            },
-            {
-              "title": "QA Therapy - All about TDD",
-              "date": "2025-11-01",
-              "link": "https://thinkinglabs.io/articles/2025/11/01/qa-therapy-all-about-tdd.html"
             }
           ]
         },
@@ -2399,14 +2430,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-01-09T04:00:49.848Z",
+  "fetchDate": "2026-01-10T03:54:56.325Z",
   "errors": [
-    "https://feedpress.me/baldurbjarnason",
+    "https://infrequently.org/feed/",
     "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://jvns.ca/atom.xml"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

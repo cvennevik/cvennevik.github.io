@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "People not people",
+              "date": "2026-01-10",
+              "link": "https://robinrendle.com/notes/people-not-people/"
+            },
+            {
+              "title": "v19",
+              "date": "2026-01-06",
+              "link": "https://robinrendle.com/notes/v19/"
+            },
+            {
+              "title": "This is just a place",
+              "date": "2025-12-23",
+              "link": "https://robinrendle.com/notes/this-is-just-a-place/"
+            },
+            {
+              "title": "So Many Websites",
+              "date": "2025-12-14",
+              "link": "https://robinrendle.com/notes/So-Many-Websites/"
+            },
+            {
+              "title": "Monumental and Important Artifacts",
+              "date": "2025-11-30",
+              "link": "https://robinrendle.com/notes/Monumental-and-Important-Artifacts/"
+            }
+          ]
+        },
+        {
+          "title": "Jessitron",
+          "feedUrl": "https://jessitron.com/feed/",
+          "items": [
+            {
+              "title": "AI-coding trick: ask it how it knows",
+              "date": "2026-01-10",
+              "link": "https://jessitron.com/2026/01/10/ai-coding-trick-ask-it-how-it-knows/"
+            },
+            {
+              "title": "Speak So They Can Hear You",
+              "date": "2025-11-17",
+              "link": "https://jessitron.com/2025/11/16/speak-so-they-can-hear-you/"
+            },
+            {
+              "title": "What is special about MCP?",
+              "date": "2025-11-09",
+              "link": "https://jessitron.com/2025/11/09/what-is-special-about-mcp/"
+            },
+            {
+              "title": "Ritual & its Consequences: book summary",
+              "date": "2025-10-05",
+              "link": "https://jessitron.com/2025/10/05/ritual-its-consequences-book-summary/"
+            },
+            {
+              "title": "When efficiency isn’t wasteful",
+              "date": "2025-09-21",
+              "link": "https://jessitron.com/2025/09/21/when-efficiency-is-wasteful/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-01-10",
+              "link": "https://dbushell.com/notes/2026-01-10T12:53Z/"
+            },
+            {
+              "date": "2026-01-10",
+              "link": "https://dbushell.com/notes/2026-01-10T10:04Z/"
+            },
+            {
+              "date": "2026-01-10",
+              "link": "https://dbushell.com/notes/2026-01-10T09:32Z/"
+            },
+            {
+              "date": "2026-01-09",
+              "link": "https://dbushell.com/notes/2026-01-09T14:44Z/"
+            },
+            {
+              "date": "2026-01-08",
+              "link": "https://dbushell.com/notes/2026-01-08T07:01Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -93,32 +181,6 @@
               "title": "Technology Executive Fireside Chat with Thierry de Pauw",
               "date": "2025-11-02",
               "link": "https://thinkinglabs.io/articles/2025/11/02/technology-executive-fireside-chat-with-thierry-de-pauw.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-01-09",
-              "link": "https://dbushell.com/notes/2026-01-09T14:44Z/"
-            },
-            {
-              "date": "2026-01-08",
-              "link": "https://dbushell.com/notes/2026-01-08T07:01Z/"
-            },
-            {
-              "date": "2026-01-07",
-              "link": "https://dbushell.com/notes/2026-01-07T11:12Z/"
-            },
-            {
-              "date": "2026-01-06",
-              "link": "https://dbushell.com/notes/2026-01-06T10:31Z/"
-            },
-            {
-              "date": "2026-01-05",
-              "link": "https://dbushell.com/notes/2026-01-05T13:07Z/"
             }
           ]
         },
@@ -1332,37 +1394,6 @@
           ]
         },
         {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "Speak So They Can Hear You",
-              "date": "2025-11-17",
-              "link": "https://jessitron.com/2025/11/16/speak-so-they-can-hear-you/"
-            },
-            {
-              "title": "What is special about MCP?",
-              "date": "2025-11-09",
-              "link": "https://jessitron.com/2025/11/09/what-is-special-about-mcp/"
-            },
-            {
-              "title": "Ritual & its Consequences: book summary",
-              "date": "2025-10-05",
-              "link": "https://jessitron.com/2025/10/05/ritual-its-consequences-book-summary/"
-            },
-            {
-              "title": "When efficiency isn’t wasteful",
-              "date": "2025-09-21",
-              "link": "https://jessitron.com/2025/09/21/when-efficiency-is-wasteful/"
-            },
-            {
-              "title": "Fixing Without Understanding",
-              "date": "2025-05-19",
-              "link": "https://jessitron.com/2025/05/18/fixing-without-understanding/"
-            }
-          ]
-        },
-        {
           "title": "Musings about software",
           "feedUrl": "https://www.softwaremaxims.com/feed.xml",
           "items": [
@@ -2430,10 +2461,9 @@
       ]
     }
   ],
-  "fetchDate": "2026-01-10T03:54:56.325Z",
+  "fetchDate": "2026-01-11T04:08:12.504Z",
   "errors": [
     "https://infrequently.org/feed/",
-    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

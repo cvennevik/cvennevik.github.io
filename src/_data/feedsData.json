@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Letting Claude Play Text Adventures",
+              "date": "2026-01-12",
+              "link": "https://borretti.me/article/letting-claude-play-text-adventures"
+            },
+            {
+              "title": "There Is No New Aesthetics",
+              "date": "2026-01-05",
+              "link": "https://borretti.me/article/there-is-no-new-aesthetics"
+            },
+            {
+              "title": "1Password Dependency Breaks Syntax Highlighting",
+              "date": "2025-12-27",
+              "link": "https://borretti.me/article/1password-dependency-breaks-syntax-highlighting"
+            },
+            {
+              "title": "Using the Brother DS-640 Scanner on NixOS",
+              "date": "2025-12-27",
+              "link": "https://borretti.me/article/using-the-brother-ds-640-scanner-on-nixos"
+            },
+            {
+              "title": "Books I Enjoyed in 2025",
+              "date": "2025-12-22",
+              "link": "https://borretti.me/article/books-i-enjoyed-in-2025"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "The frustration of a perfect setup",
+              "date": "2026-01-11",
+              "link": "https://thejollyteapot.com/2026/01/11/the-frustration-of-a-perfect-setup/"
+            },
+            {
+              "title": "New year, new me, new web browsing setup?",
+              "date": "2026-01-03",
+              "link": "https://thejollyteapot.com/2026/01/03/new-year-new-me-new-web-browsing-setup/"
+            },
+            {
+              "title": "December 2025 blend of links",
+              "date": "2025-12-30",
+              "link": "https://thejollyteapot.com/december-2025-blend/"
+            },
+            {
+              "title": "The Club Racer Treatment",
+              "date": "2025-12-19",
+              "link": "https://thejollyteapot.com/2025/12/19/the-club-racer-treatment/"
+            },
+            {
+              "title": "Typefaces as clothes",
+              "date": "2025-12-12",
+              "link": "https://thejollyteapot.com/2025/12/12/typefaces-as-clothes/"
+            }
+          ]
+        },
+        {
+          "title": "Musings about software",
+          "feedUrl": "https://www.softwaremaxims.com/feed.xml",
+          "items": [
+            {
+              "title": "The Hobbyist Maintainer Economic Gravity Well",
+              "date": "2026-01-11",
+              "link": "https://softwaremaxims.com/blog/hobbyist-gravity-well"
+            },
+            {
+              "title": "How FOSS Won and Why It Matters",
+              "date": "2025-11-16",
+              "link": "https://softwaremaxims.com/blog/how-foss-won-consequences"
+            },
+            {
+              "title": "You Are All On The Hobbyists Maintainers’ Turf Now",
+              "date": "2024-04-01",
+              "link": "https://softwaremaxims.com/blog/open-source-hobbyists-turf"
+            },
+            {
+              "title": "Where did the Rust go?",
+              "date": "2023-08-23",
+              "link": "https://softwaremaxims.com/blog/memory-safety-end-history"
+            },
+            {
+              "title": "The Cloud Is Not Optional",
+              "date": "2023-07-14",
+              "link": "https://softwaremaxims.com/blog/cloud-not-optional"
+            }
+          ]
+        },
+        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -402,37 +495,6 @@
           ]
         },
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "There Is No New Aesthetics",
-              "date": "2026-01-05",
-              "link": "https://borretti.me/article/there-is-no-new-aesthetics"
-            },
-            {
-              "title": "1Password Dependency Breaks Syntax Highlighting",
-              "date": "2025-12-27",
-              "link": "https://borretti.me/article/1password-dependency-breaks-syntax-highlighting"
-            },
-            {
-              "title": "Using the Brother DS-640 Scanner on NixOS",
-              "date": "2025-12-27",
-              "link": "https://borretti.me/article/using-the-brother-ds-640-scanner-on-nixos"
-            },
-            {
-              "title": "Books I Enjoyed in 2025",
-              "date": "2025-12-22",
-              "link": "https://borretti.me/article/books-i-enjoyed-in-2025"
-            },
-            {
-              "title": "Coarse is Better",
-              "date": "2025-12-21",
-              "link": "https://borretti.me/article/coarse-is-better"
-            }
-          ]
-        },
-        {
           "title": "Hazel Weakly",
           "feedUrl": "https://hazelweakly.me/atom.xml",
           "items": [
@@ -584,37 +646,6 @@
               "title": "Attempting to Stay Calm and Steady - Concluding Remarks",
               "date": "2025-11-11",
               "link": "https://www.lisihocke.com/2025/11/attempting-to-stay-calm-and-steady-concluding-remarks.html"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "New year, new me, new web browsing setup?",
-              "date": "2026-01-03",
-              "link": "https://thejollyteapot.com/2026/01/03/new-year-new-me-new-web-browsing-setup/"
-            },
-            {
-              "title": "December 2025 blend of links",
-              "date": "2025-12-30",
-              "link": "https://thejollyteapot.com/december-2025-blend/"
-            },
-            {
-              "title": "The Club Racer Treatment",
-              "date": "2025-12-19",
-              "link": "https://thejollyteapot.com/2025/12/19/the-club-racer-treatment/"
-            },
-            {
-              "title": "Typefaces as clothes",
-              "date": "2025-12-12",
-              "link": "https://thejollyteapot.com/2025/12/12/typefaces-as-clothes/"
-            },
-            {
-              "title": "November 2025 blend of links",
-              "date": "2025-11-27",
-              "link": "https://thejollyteapot.com/november-2025-blend/"
             }
           ]
         },
@@ -1270,6 +1301,37 @@
           ]
         },
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Performance Inequality Gap, 2026",
+              "date": "2025-11-24",
+              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
+            },
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
+            }
+          ]
+        },
+        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -1390,37 +1452,6 @@
               "title": "Three Ingredients for Tasty Platform Capabilities",
               "date": "2024-05-01",
               "link": "https://unremarkabletester.com/2024/05/01/three-ingredients-for-tasty-platform-capabilities/"
-            }
-          ]
-        },
-        {
-          "title": "Musings about software",
-          "feedUrl": "https://www.softwaremaxims.com/feed.xml",
-          "items": [
-            {
-              "title": "How FOSS Won and Why It Matters",
-              "date": "2025-11-16",
-              "link": "https://softwaremaxims.com/blog/how-foss-won-consequences"
-            },
-            {
-              "title": "You Are All On The Hobbyists Maintainers’ Turf Now",
-              "date": "2024-04-01",
-              "link": "https://softwaremaxims.com/blog/open-source-hobbyists-turf"
-            },
-            {
-              "title": "Where did the Rust go?",
-              "date": "2023-08-23",
-              "link": "https://softwaremaxims.com/blog/memory-safety-end-history"
-            },
-            {
-              "title": "The Cloud Is Not Optional",
-              "date": "2023-07-14",
-              "link": "https://softwaremaxims.com/blog/cloud-not-optional"
-            },
-            {
-              "title": "Remove Constraints To Get Results",
-              "date": "2023-06-06",
-              "link": "https://softwaremaxims.com/blog/remove-constraints"
             }
           ]
         },
@@ -2461,9 +2492,8 @@
       ]
     }
   ],
-  "fetchDate": "2026-01-11T04:08:12.504Z",
+  "fetchDate": "2026-01-12T04:09:04.780Z",
   "errors": [
-    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

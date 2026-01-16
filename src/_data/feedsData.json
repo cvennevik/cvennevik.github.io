@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "When the tech leopard eats your face",
+              "date": "2026-01-15",
+              "link": "https://gomakethings.com/when-the-tech-leopard-eats-your-face/"
+            },
+            {
+              "title": "Who stole your cookie?",
+              "date": "2026-01-14",
+              "link": "https://gomakethings.com/who-stole-your-cookie/"
+            },
+            {
+              "title": "Mutual aid and asking people what they need",
+              "date": "2026-01-12",
+              "link": "https://gomakethings.com/mutual-aid-and-asking-people-what-they-need/"
+            },
+            {
+              "title": "A year of revolution",
+              "date": "2026-01-05",
+              "link": "https://gomakethings.com/a-year-of-revolution/"
+            },
+            {
+              "title": "Dungeon Crawler Carl",
+              "date": "2025-12-29",
+              "link": "https://gomakethings.com/dungeon-crawler-carl/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Coping Mechanisms for Introverts",
+              "date": "2026-01-15",
+              "link": "https://thinkinglabs.io/articles/2026/01/15/coping-mechanisms-for-introverts.html"
+            },
+            {
+              "title": "On the Effectiveness of Pair Programming",
+              "date": "2026-01-13",
+              "link": "https://thinkinglabs.io/articles/2026/01/13/on-the-effectiveness-of-pair-programming.html"
+            },
+            {
+              "title": "What is Continuous Delivery?",
+              "date": "2026-01-09",
+              "link": "https://thinkinglabs.io/articles/2026/01/09/what-is-continuous-delivery.html"
+            },
+            {
+              "title": "a Junior, a Senior and I - on Team Practices",
+              "date": "2025-11-06",
+              "link": "https://thinkinglabs.io/articles/2025/11/06/a-junior-a-senior-and-i-on-team-practices.html"
+            },
+            {
+              "title": "a Junior, a Senior and I - on Metrics",
+              "date": "2025-11-06",
+              "link": "https://thinkinglabs.io/articles/2025/11/06/a-junior-a-senior-and-i-on-metrics.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-01-15",
+              "link": "https://dbushell.com/notes/2026-01-15T15:15Z/"
+            },
+            {
+              "date": "2026-01-14",
+              "link": "https://dbushell.com/notes/2026-01-14T09:21Z/"
+            },
+            {
+              "date": "2026-01-13",
+              "link": "https://dbushell.com/notes/2026-01-13T09:34Z/"
+            },
+            {
+              "date": "2026-01-13",
+              "link": "https://dbushell.com/notes/2026-01-13T08:23Z/"
+            },
+            {
+              "date": "2026-01-12",
+              "link": "https://dbushell.com/notes/2026-01-12T07:49Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,94 +119,6 @@
               "title": "I Survived 2025",
               "date": "2025-12-18",
               "link": "https://dbushell.com/2025/12/18/year-in-review/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Who stole your cookie?",
-              "date": "2026-01-14",
-              "link": "https://gomakethings.com/who-stole-your-cookie/"
-            },
-            {
-              "title": "Mutual aid and asking people what they need",
-              "date": "2026-01-12",
-              "link": "https://gomakethings.com/mutual-aid-and-asking-people-what-they-need/"
-            },
-            {
-              "title": "A year of revolution",
-              "date": "2026-01-05",
-              "link": "https://gomakethings.com/a-year-of-revolution/"
-            },
-            {
-              "title": "Dungeon Crawler Carl",
-              "date": "2025-12-29",
-              "link": "https://gomakethings.com/dungeon-crawler-carl/"
-            },
-            {
-              "title": "No, seriously, the shadow DOM sucks",
-              "date": "2025-12-23",
-              "link": "https://gomakethings.com/no-seriously-the-shadow-dom-sucks/"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Live Region Support",
-              "date": "2026-01-14",
-              "link": "https://adrianroselli.com/2026/01/live-region-support.html"
-            },
-            {
-              "title": "Brief Note on Application Keyboard Shortcuts",
-              "date": "2026-01-09",
-              "link": "https://adrianroselli.com/2026/01/brief-note-on-application-keyboard-shortcuts.html"
-            },
-            {
-              "title": "How I Evaluate an ACR (VPAT®)",
-              "date": "2026-01-06",
-              "link": "https://adrianroselli.com/2026/01/how-i-evaluate-an-acr-vpat.html"
-            },
-            {
-              "title": "My Use of ‘AI’ on this Site",
-              "date": "2025-12-29",
-              "link": "https://adrianroselli.com/2025/12/my-use-of-ai-on-this-site.html"
-            },
-            {
-              "title": "You Can’t Make Something Accessible to Everyone",
-              "date": "2025-12-02",
-              "link": "https://adrianroselli.com/2025/12/you-cant-make-something-accessible-to-everyone.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-01-14",
-              "link": "https://dbushell.com/notes/2026-01-14T09:21Z/"
-            },
-            {
-              "date": "2026-01-13",
-              "link": "https://dbushell.com/notes/2026-01-13T09:34Z/"
-            },
-            {
-              "date": "2026-01-13",
-              "link": "https://dbushell.com/notes/2026-01-13T08:23Z/"
-            },
-            {
-              "date": "2026-01-12",
-              "link": "https://dbushell.com/notes/2026-01-12T07:49Z/"
-            },
-            {
-              "date": "2026-01-10",
-              "link": "https://dbushell.com/notes/2026-01-10T12:53Z/"
             }
           ]
         },
@@ -154,6 +154,37 @@
           ]
         },
         {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Live Region Support",
+              "date": "2026-01-14",
+              "link": "https://adrianroselli.com/2026/01/live-region-support.html"
+            },
+            {
+              "title": "Brief Note on Application Keyboard Shortcuts",
+              "date": "2026-01-09",
+              "link": "https://adrianroselli.com/2026/01/brief-note-on-application-keyboard-shortcuts.html"
+            },
+            {
+              "title": "How I Evaluate an ACR (VPAT®)",
+              "date": "2026-01-06",
+              "link": "https://adrianroselli.com/2026/01/how-i-evaluate-an-acr-vpat.html"
+            },
+            {
+              "title": "My Use of ‘AI’ on this Site",
+              "date": "2025-12-29",
+              "link": "https://adrianroselli.com/2025/12/my-use-of-ai-on-this-site.html"
+            },
+            {
+              "title": "You Can’t Make Something Accessible to Everyone",
+              "date": "2025-12-02",
+              "link": "https://adrianroselli.com/2025/12/you-cant-make-something-accessible-to-everyone.html"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -185,64 +216,33 @@
           ]
         },
         {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "title": "Jessitron",
+          "feedUrl": "https://jessitron.com/feed/",
           "items": [
             {
-              "title": "On the Effectiveness of Pair Programming",
-              "date": "2026-01-13",
-              "link": "https://thinkinglabs.io/articles/2026/01/13/on-the-effectiveness-of-pair-programming.html"
-            },
-            {
-              "title": "What is Continuous Delivery?",
-              "date": "2026-01-09",
-              "link": "https://thinkinglabs.io/articles/2026/01/09/what-is-continuous-delivery.html"
-            },
-            {
-              "title": "a Junior, a Senior and I - on Team Practices",
-              "date": "2025-11-06",
-              "link": "https://thinkinglabs.io/articles/2025/11/06/a-junior-a-senior-and-i-on-team-practices.html"
-            },
-            {
-              "title": "a Junior, a Senior and I - on Metrics",
-              "date": "2025-11-06",
-              "link": "https://thinkinglabs.io/articles/2025/11/06/a-junior-a-senior-and-i-on-metrics.html"
-            },
-            {
-              "title": "a Junior, a Senior and I - on Team Efficiency",
-              "date": "2025-11-03",
-              "link": "https://thinkinglabs.io/articles/2025/11/03/a-junior-a-senior-and-i-on-team-efficiency.html"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "My town looks okay, for now (photos)",
+              "title": "Working with AI: Do Things Right",
               "date": "2026-01-12",
-              "link": "https://www.baldurbjarnason.com/notes/photos/my-town-looks-okay-for-now/"
+              "link": "https://jessitron.com/2026/01/12/making-ai-do-things-right-introduce-determinism/"
             },
             {
-              "title": "A foggy respite",
-              "date": "2025-12-31",
-              "link": "https://www.baldurbjarnason.com/2025/a-foggy-respite/"
+              "title": "Working with AI: How does it Know?",
+              "date": "2026-01-10",
+              "link": "https://jessitron.com/2026/01/10/ai-coding-trick-ask-it-how-it-knows/"
             },
             {
-              "title": "Challenging fate with goodwill (and a holiday sale)",
-              "date": "2025-12-19",
-              "link": "https://www.baldurbjarnason.com/2025/challenging-fate/"
+              "title": "Speak So They Can Hear You",
+              "date": "2025-11-17",
+              "link": "https://jessitron.com/2025/11/16/speak-so-they-can-hear-you/"
             },
             {
-              "title": "Mid-winter photos",
-              "date": "2025-12-09",
-              "link": "https://www.baldurbjarnason.com/notes/photos/mid-winter-2025/"
+              "title": "What is special about MCP?",
+              "date": "2025-11-09",
+              "link": "https://jessitron.com/2025/11/09/what-is-special-about-mcp/"
             },
             {
-              "title": "But, I worry, because I can see the cracks in the wall",
-              "date": "2025-12-09",
-              "link": "https://www.baldurbjarnason.com/2025/but-i-worry/"
+              "title": "Ritual & its Consequences: book summary",
+              "date": "2025-10-05",
+              "link": "https://jessitron.com/2025/10/05/ritual-its-consequences-book-summary/"
             }
           ]
         },
@@ -274,37 +274,6 @@
               "title": "Why Strong Consistency?",
               "date": "2025-11-18",
               "link": "http://brooker.co.za/blog/2025/11/18/consistency.html"
-            }
-          ]
-        },
-        {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "Working with AI: Do Things Right",
-              "date": "2026-01-12",
-              "link": "https://jessitron.com/2026/01/12/making-ai-do-things-right-introduce-determinism/"
-            },
-            {
-              "title": "Working with AI: How does it Know?",
-              "date": "2026-01-10",
-              "link": "https://jessitron.com/2026/01/10/ai-coding-trick-ask-it-how-it-knows/"
-            },
-            {
-              "title": "Speak So They Can Hear You",
-              "date": "2025-11-17",
-              "link": "https://jessitron.com/2025/11/16/speak-so-they-can-hear-you/"
-            },
-            {
-              "title": "What is special about MCP?",
-              "date": "2025-11-09",
-              "link": "https://jessitron.com/2025/11/09/what-is-special-about-mcp/"
-            },
-            {
-              "title": "Ritual & its Consequences: book summary",
-              "date": "2025-10-05",
-              "link": "https://jessitron.com/2025/10/05/ritual-its-consequences-book-summary/"
             }
           ]
         },
@@ -1266,6 +1235,37 @@
               "title": "GPG Key Transition 2022",
               "date": "2023-01-01",
               "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Performance Inequality Gap, 2026",
+              "date": "2025-11-24",
+              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
+            },
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
+            },
+            {
+              "title": "Comforting Myths",
+              "date": "2025-09-23",
+              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
             }
           ]
         },
@@ -2430,13 +2430,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-01-15T04:03:11.726Z",
+  "fetchDate": "2026-01-16T04:01:43.805Z",
   "errors": [
-    "https://infrequently.org/feed/",
-    "https://robinrendle.com/feed.xml",
+    "https://feedpress.me/baldurbjarnason",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml",
+    "https://robinrendle.com/feed.xml"
   ]
 }

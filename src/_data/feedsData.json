@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Does AI help us care less?",
+              "date": "2026-01-16",
+              "link": "http://agileotter.blogspot.com/2026/01/does-ai-help-us-care-less.html"
+            },
+            {
+              "title": "I can't test that, it uses STDOUT (Python)",
+              "date": "2025-11-14",
+              "link": "http://agileotter.blogspot.com/2025/11/i-cant-test-that-it-uses-stdout-python.html"
+            },
+            {
+              "title": "What Shape Should My Code Take? (using FizzBuzz)",
+              "date": "2025-10-16",
+              "link": "http://agileotter.blogspot.com/2025/10/what-shape-should-my-code-take-using.html"
+            },
+            {
+              "title": "A vimrc starter",
+              "date": "2025-10-16",
+              "link": "http://agileotter.blogspot.com/2025/10/a-vimrc-starter.html"
+            },
+            {
+              "title": "Convenience Scripts for Projects",
+              "date": "2025-09-30",
+              "link": "http://agileotter.blogspot.com/2025/09/convenience-scripts-for-projectsw.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-01-16",
+              "link": "https://dbushell.com/notes/2026-01-16T06:35Z/"
+            },
+            {
+              "date": "2026-01-15",
+              "link": "https://dbushell.com/notes/2026-01-15T15:15Z/"
+            },
+            {
+              "date": "2026-01-14",
+              "link": "https://dbushell.com/notes/2026-01-14T09:21Z/"
+            },
+            {
+              "date": "2026-01-13",
+              "link": "https://dbushell.com/notes/2026-01-13T09:34Z/"
+            },
+            {
+              "date": "2026-01-13",
+              "link": "https://dbushell.com/notes/2026-01-13T08:23Z/"
+            }
+          ]
+        },
+        {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "De-Googling",
+              "date": "2026-01-16",
+              "link": "https://dubroy.com/blog/de-googling/"
+            },
+            {
+              "title": "devlog: garbage collection is useful",
+              "date": "2025-11-14",
+              "link": "https://dubroy.com/blog/garbage-collection-is-useful/"
+            },
+            {
+              "title": "Reflections on writing a book",
+              "date": "2025-03-24",
+              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
+            },
+            {
+              "title": "Make it happen",
+              "date": "2025-02-11",
+              "link": "https://dubroy.com/blog/make-it-happen/"
+            },
+            {
+              "title": "Five coding hats",
+              "date": "2025-02-03",
+              "link": "https://dubroy.com/blog/five-coding-hats/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -66,32 +154,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-01-15",
-              "link": "https://dbushell.com/notes/2026-01-15T15:15Z/"
-            },
-            {
-              "date": "2026-01-14",
-              "link": "https://dbushell.com/notes/2026-01-14T09:21Z/"
-            },
-            {
-              "date": "2026-01-13",
-              "link": "https://dbushell.com/notes/2026-01-13T09:34Z/"
-            },
-            {
-              "date": "2026-01-13",
-              "link": "https://dbushell.com/notes/2026-01-13T08:23Z/"
-            },
-            {
-              "date": "2026-01-12",
-              "link": "https://dbushell.com/notes/2026-01-12T07:49Z/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -119,37 +181,6 @@
               "title": "I Survived 2025",
               "date": "2025-12-18",
               "link": "https://dbushell.com/2025/12/18/year-in-review/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "My Gripes with Prolog",
-              "date": "2026-01-14",
-              "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/"
-            },
-            {
-              "title": "The Liskov Substitution Principle does more than you think",
-              "date": "2026-01-06",
-              "link": "https://buttondown.com/hillelwayne/archive/the-liskov-substitution-principle-does-more-than/"
-            },
-            {
-              "title": "Some Fun Software Facts",
-              "date": "2025-12-10",
-              "link": "https://buttondown.com/hillelwayne/archive/some-fun-software-facts/"
-            },
-            {
-              "title": "One more week to the Logic for Programmers Food Drive",
-              "date": "2025-11-24",
-              "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/"
-            },
-            {
-              "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
-              "date": "2025-11-10",
-              "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/"
             }
           ]
         },
@@ -185,6 +216,37 @@
           ]
         },
         {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "My Gripes with Prolog",
+              "date": "2026-01-14",
+              "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/"
+            },
+            {
+              "title": "The Liskov Substitution Principle does more than you think",
+              "date": "2026-01-06",
+              "link": "https://buttondown.com/hillelwayne/archive/the-liskov-substitution-principle-does-more-than/"
+            },
+            {
+              "title": "Some Fun Software Facts",
+              "date": "2025-12-10",
+              "link": "https://buttondown.com/hillelwayne/archive/some-fun-software-facts/"
+            },
+            {
+              "title": "One more week to the Logic for Programmers Food Drive",
+              "date": "2025-11-24",
+              "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/"
+            },
+            {
+              "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
+              "date": "2025-11-10",
+              "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -212,6 +274,37 @@
               "title": "Mere Being - 026 - November - Zen Center, Being Cold",
               "date": "2025-12-01",
               "link": "https://www.simplermachines.com/mere-being-026-november-zen-center-being-cold/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "My town looks okay, for now (photos)",
+              "date": "2026-01-12",
+              "link": "https://www.baldurbjarnason.com/notes/photos/my-town-looks-okay-for-now/"
+            },
+            {
+              "title": "A foggy respite",
+              "date": "2025-12-31",
+              "link": "https://www.baldurbjarnason.com/2025/a-foggy-respite/"
+            },
+            {
+              "title": "Challenging fate with goodwill (and a holiday sale)",
+              "date": "2025-12-19",
+              "link": "https://www.baldurbjarnason.com/2025/challenging-fate/"
+            },
+            {
+              "title": "Mid-winter photos",
+              "date": "2025-12-09",
+              "link": "https://www.baldurbjarnason.com/notes/photos/mid-winter-2025/"
+            },
+            {
+              "title": "But, I worry, because I can see the cracks in the wall",
+              "date": "2025-12-09",
+              "link": "https://www.baldurbjarnason.com/2025/but-i-worry/"
             }
           ]
         },
@@ -460,6 +553,37 @@
               "title": "The Cloud Is Not Optional",
               "date": "2023-07-14",
               "link": "https://softwaremaxims.com/blog/cloud-not-optional"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "People not people",
+              "date": "2026-01-10",
+              "link": "https://robinrendle.com/notes/people-not-people/"
+            },
+            {
+              "title": "v19",
+              "date": "2026-01-06",
+              "link": "https://robinrendle.com/notes/v19/"
+            },
+            {
+              "title": "This is just a place",
+              "date": "2025-12-23",
+              "link": "https://robinrendle.com/notes/this-is-just-a-place/"
+            },
+            {
+              "title": "So Many Websites",
+              "date": "2025-12-14",
+              "link": "https://robinrendle.com/notes/So-Many-Websites/"
+            },
+            {
+              "title": "Monumental and Important Artifacts",
+              "date": "2025-11-30",
+              "link": "https://robinrendle.com/notes/Monumental-and-Important-Artifacts/"
             }
           ]
         },
@@ -1390,68 +1514,6 @@
               "title": "Three Ingredients for Tasty Platform Capabilities",
               "date": "2024-05-01",
               "link": "https://unremarkabletester.com/2024/05/01/three-ingredients-for-tasty-platform-capabilities/"
-            }
-          ]
-        },
-        {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "I can't test that, it uses STDOUT (Python)",
-              "date": "2025-11-14",
-              "link": "http://agileotter.blogspot.com/2025/11/i-cant-test-that-it-uses-stdout-python.html"
-            },
-            {
-              "title": "What Shape Should My Code Take? (using FizzBuzz)",
-              "date": "2025-10-16",
-              "link": "http://agileotter.blogspot.com/2025/10/what-shape-should-my-code-take-using.html"
-            },
-            {
-              "title": "A vimrc starter",
-              "date": "2025-10-16",
-              "link": "http://agileotter.blogspot.com/2025/10/a-vimrc-starter.html"
-            },
-            {
-              "title": "Convenience Scripts for Projects",
-              "date": "2025-09-30",
-              "link": "http://agileotter.blogspot.com/2025/09/convenience-scripts-for-projectsw.html"
-            },
-            {
-              "title": "Why is working faster not working?",
-              "date": "2025-09-12",
-              "link": "http://agileotter.blogspot.com/2025/09/why-is-working-faster-not-working.html"
-            }
-          ]
-        },
-        {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "devlog: garbage collection is useful",
-              "date": "2025-11-14",
-              "link": "https://dubroy.com/blog/garbage-collection-is-useful/"
-            },
-            {
-              "title": "Reflections on writing a book",
-              "date": "2025-03-24",
-              "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
-            },
-            {
-              "title": "Make it happen",
-              "date": "2025-02-11",
-              "link": "https://dubroy.com/blog/make-it-happen/"
-            },
-            {
-              "title": "Five coding hats",
-              "date": "2025-02-03",
-              "link": "https://dubroy.com/blog/five-coding-hats/"
-            },
-            {
-              "title": "One way to do applied research",
-              "date": "2024-11-07",
-              "link": "https://dubroy.com/blog/one-way-to-do-applied-research/"
             }
           ]
         },
@@ -2430,13 +2492,11 @@
       ]
     }
   ],
-  "fetchDate": "2026-01-16T04:01:43.805Z",
+  "fetchDate": "2026-01-17T03:53:53.857Z",
   "errors": [
-    "https://feedpress.me/baldurbjarnason",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://robinrendle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

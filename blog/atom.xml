@@ -8,7 +8,358 @@
     <name>Cecilie Vennevik</name>
   </author>
   <icon>https://www.cvennevik.no/img/logo-100px.jpg</icon>
-  <updated>2025-12-28T11:00:00.000Z</updated>
+  <updated>2026-01-18T21:10:00.000Z</updated>
+  <entry>
+    <title type="html">Crystal Spire #16: Is this legal?</title>
+    <link href="https://www.cvennevik.no/blog/crystal-spire-16-is-this-legal/"/>
+    <id>https://www.cvennevik.no/blog/crystal-spire-16-is-this-legal/</id>
+    <published>2026-01-18T21:10:00.000Z</published>
+    <updated>2026-01-18T21:10:00.000Z</updated>
+    <content type="html"><![CDATA[<p>Good day, one and all. Today we start implementing <code>resolveAction()</code>.</p>
+<p>First, a little design talk: What is the interface of <code>resolveAction()</code>? It needs to take two parameters:</p>
+<ul>
+<li>A game state</li>
+<li>An action</li>
+</ul>
+<p>All actions resolve to a set of possible game states (at least one), with different probabilities. The combined probability of all the possible game states is 100%. To satisfy this, <code>resolveAction()</code> can return an array of objects, where each object has a <code>gameState</code> property and a <code>probability</code> property.</p>
+<p>So far, the design just seems like a repeat of my C# attempt at this problem. Same minds think alike, huh? But it will do.</p>
+<p>Ho-kay, let's test-drive this thing. First, a new test suite in <code>test.mjs</code>:</p>
+<pre><code class="language-js">describe('resolveAction()', () =&gt; {
+    // Tests go here
+});
+</code></pre>
+<p>Then... hm, I'm not quite sure how best to do this. We have a few general properties we want to assert, like &quot;the probability of all possible game states sums to 100%&quot;. Then there are properties like &quot;playing a card removes it from our hand&quot; or &quot;playing a card puts it in the discard pile&quot;, but these properties come with some big asterisks down the line when certain cards and abilities come into play. Even &quot;playing Defend gives you 5 armor&quot; comes with asterisks (what if you have Dexterity? or Frail? or you get damaged when you play a card?). All this is making me feel uncertain of how good a fit property-based testing actually is for our project. But hey, the arbitraries for generating test data are nice, and at worst we're bringing an example-based mindset to a property-based tool, which still does the job.</p>
+<p>Bah, we can handle the asterisks when we get to them. Let's test a simple action first: &quot;Play Defend&quot;.</p>
+<pre><code class="language-js">it('resolves Defend', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), gameState =&gt; {
+            let action = { name: 'Play Defend' };
+            let result = resolveAction(gameState, action);
+        })
+    );
+});
+</code></pre>
+<p>Now, the test fails because <code>resolveAction</code> is not defined yet, so let's implement and export that in <code>index.js</code>:</p>
+<pre><code class="language-js">function resolveAction(gameState, action) {
+    return []; // TODO: Implement this :)
+}
+</code></pre>
+<pre><code class="language-js">// Export in Node.js for testing
+if (typeof module === 'object' &amp;&amp; module != null &amp;&amp; 'exports' in module) {
+    module.exports = { getActions, resolveAction };
+}
+</code></pre>
+<p>Then import it in <code>test.mjs</code>:</p>
+<pre><code class="language-js">import { getActions, resolveAction } from './index.js';
+</code></pre>
+<p>Test passes! Let's expand it to actually assert some things about the result. How about asserting the sum of probabilities?</p>
+<pre><code class="language-js">it('resolves Defend', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), gameState =&gt; {
+            let action = { name: 'Play Defend' };
+            let result = resolveAction(gameState, action);
+            let sumOfProbabilities = result.reduce((acc, x) =&gt; acc + x.probability, 0);
+            assert.equal(sumOfProbabilities, 1);
+        })
+    );
+});
+</code></pre>
+<p>Fails - the sum is 0. Let's make <code>resolveAction()</code> slightly more correct:</p>
+<pre><code class="language-js">function resolveAction(gameState, action) {
+    return [{ gameState, probability: 1 }];
+}
+</code></pre>
+<p>Test passes! Yet it resolves all actions to the same game state. We need to assert some things about how it changes, like block increasing by 5.</p>
+<pre><code class="language-js">it('resolves Defend', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), gameState =&gt; {
+            let action = { name: 'Play Defend' };
+            let result = resolveAction(gameState, action);
+            let sumOfProbabilities = result.reduce((acc, x) =&gt; acc + x.probability, 0);
+            assert.equal(sumOfProbabilities, 1);
+            for (let outcome of result) {
+                assert.equal(outcome.gameState.block, gameState.block + 5);
+            }
+        })
+    );
+});
+</code></pre>
+<p>Oof, my test complexity senses are tingling. But hey, failing test. So, make it pass...</p>
+<pre><code class="language-js">function resolveAction(gameState, action) {
+    let resultingGameState = {
+        ...gameState,
+        block: gameState.block + 5
+    };
+    return [{ gameState: resultingGameState, probability: 1 }];
+}
+</code></pre>
+<p>Slowly getting somewhere. It also needs to reduce our energy by 1:</p>
+<pre><code class="language-js">assert.equal(outcome.gameState.energy, gameState.energy - 1);
+</code></pre>
+<pre><code class="language-js">function resolveAction(gameState, action) {
+    let resultingGameState = {
+        ...gameState,
+        block: gameState.block + 5,
+        energy: gameState.energy - 1
+    };
+    return [{ gameState: resultingGameState, probability: 1 }];
+}
+</code></pre>
+<p>A new fail and a new pass. Then, also, it needs to move Defend from our hand to the discard pile. Uh... How do we assert that?</p>
+<pre><code class="language-js">let firstDefendIndex = gameState.hand.indexOf('Defend');
+let expectedHand = gameState.hand.toSpliced(firstDefendIndex, 1);
+assert.deepEqual(outcome.gameState.hand, expectedHand);
+</code></pre>
+<p>Okay, yeah, this really looks like the wrong way to write this test, but I want to see where this train wreck will lead us.</p>
+<p>The test fails... for a hand containing just Strike. Mm. Right. Design question time: How should <code>resolveAction</code> handle illegal actions? Should it...</p>
+<ul>
+<li>...reject them with an exception?</li>
+<li>...return an error message?</li>
+<li>...return an empty array?</li>
+<li>...assume it will not receive illegal actions and resolve them anyway?</li>
+</ul>
+<p>The last option would be best for performance (no extra logic to run at the top of each call), but until we have a rules engine that even works, I really believe the code ought to help us catch errors. The error should describe what was wrong, so we want some sort of error message. Making <code>resolveAction()</code> return a string when it fails might be weird to handle... I think throwing an exception is the right option.</p>
+<p>You know, this legality thing sounds interesting enough that we should implement an <code>isLegalAction()</code> function first. Let's scrap all our changes and start over. New test:</p>
+<pre><code class="language-js">describe('isLegalAction()', () =&gt; {
+    it('handles Play Defend', () =&gt; {
+        fc.assert(
+            fc.property(getArbGameState(), gameState =&gt; {
+                let result = isLegalAction(gameState, { name: 'Play Defend' });
+            })
+        );
+    });
+});
+</code></pre>
+<p>Fails because <code>isLegalAction</code> is not defined, so let's implement, export and import it:</p>
+<pre><code class="language-js">function isLegalAction(gameState, action) {
+    return true; // TODO: specify laws
+}
+
+// ...
+
+// Export in Node.js for testing
+if (typeof module === 'object' &amp;&amp; module != null &amp;&amp; 'exports' in module) {
+    module.exports = { getActions, isLegalAction };
+}
+</code></pre>
+<p>Alright, now to assert what the result ought to be:</p>
+<pre><code class="language-js">describe('isLegalAction()', () =&gt; {
+    it('handles Play Defend', () =&gt; {
+        fc.assert(
+            fc.property(getArbGameState(), gameState =&gt; {
+                let result = isLegalAction(gameState, { name: 'Play Defend' });
+                let expectedResult = gameState.hand.includes('Defend') &amp;&amp; gameState.energy &gt;= 1;
+                assert.equal(result, expectedResult);
+            })
+        );
+    });
+});
+</code></pre>
+<p>Fails! Then let's implement it the simplest way to pass:</p>
+<pre><code class="language-js">function isLegalAction(gameState, action) {
+    return gameState.hand.includes('Defend') &amp;&amp; gameState.energy &gt;= 1;
+}
+</code></pre>
+<p>Test passes. Cool. Now to do Play Strike:</p>
+<pre><code class="language-js">it('handles Play Strike', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), fc.integer({ min: -1, max: 10 }), (gameState, enemyIndex) =&gt; {
+            let result = isLegalAction(gameState, { name: 'Play Strike', enemyIndex });
+            let expectedResult = gameState.hand.includes('Strike')
+                &amp;&amp; gameState.energy &gt;= 1
+                &amp;&amp; enemyIndex &gt;= 0
+                &amp;&amp; enemyIndex &lt; gameState.enemies.length;
+            assert.equal(result, expectedResult);
+        })
+    );
+});
+</code></pre>
+<p>Test fails, make it pass (with proper distinction between the two actions now):</p>
+<pre><code class="language-js">function isLegalAction(gameState, action) {
+    if (action.name === 'Play Strike') {
+        return gameState.hand.includes('Strike')
+            &amp;&amp; gameState.energy &gt;= 1
+            &amp;&amp; typeof action.enemyIndex === 'number'
+            &amp;&amp; gameState.enemies[action.enemyIndex] != null;
+    } else if (action.name === 'Play Defend') {
+        return gameState.hand.includes('Defend')
+            &amp;&amp; gameState.energy &gt;= 1;
+    } else {
+        return false;
+    }
+}
+</code></pre>
+<p>Test passes. Now we do Play Bash, same pattern:</p>
+<pre><code class="language-js">it('handles Play Bash', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), fc.integer({ min: -1, max: 10 }), (gameState, enemyIndex) =&gt; {
+            let result = isLegalAction(gameState, { name: 'Play Bash', enemyIndex });
+            let expectedResult = gameState.hand.includes('Bash')
+                &amp;&amp; gameState.energy &gt;= 2
+                &amp;&amp; enemyIndex &gt;= 0
+                &amp;&amp; enemyIndex &lt; gameState.enemies.length;
+            assert.equal(result, expectedResult);
+        })
+    );
+});
+</code></pre>
+<p>Red...</p>
+<pre><code class="language-js">/* ... */
+else if (action.name === 'Play Bash') {
+    return gameState.hand.includes('Bash')
+        &amp;&amp; gameState.energy &gt;= 2
+        &amp;&amp; typeof action.enemyIndex === 'number'
+        &amp;&amp; gameState.enemies[action.enemyIndex] != null;
+}
+/* ... */
+</code></pre>
+<p>...green. Now End Turn.</p>
+<pre><code class="language-js">it('handles End Turn', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), gameState =&gt; {
+            let result = isLegalAction(gameState, { name: 'End Turn' });
+            let expectedResult = true;
+            assert.equal(result, expectedResult);
+        })
+    );
+});
+</code></pre>
+<pre><code class="language-js">/* ... */
+else if (action.name === 'End Turn') {
+    return true;
+}
+/* ... */
+</code></pre>
+<p>Red, green. That's all we need for now. We could add tests and checks for the game being over, but I believe it's enough that <code>getActions()</code> checks for it. I think we can do a slight refactor before we commit, because this function really looks like it ought to be a switch statement:</p>
+<pre><code class="language-js">function isLegalAction(gameState, action) {
+    switch (action.name) {
+        case 'Play Strike':
+            return gameState.hand.includes('Strike')
+                &amp;&amp; gameState.energy &gt;= 1
+                &amp;&amp; typeof action.enemyIndex === 'number'
+                &amp;&amp; gameState.enemies[action.enemyIndex] != null;
+        case 'Play Bash':
+            return gameState.hand.includes('Bash')
+                &amp;&amp; gameState.energy &gt;= 2
+                &amp;&amp; typeof action.enemyIndex === 'number'
+                &amp;&amp; gameState.enemies[action.enemyIndex] != null;
+        case 'Play Defend':
+            return gameState.hand.includes('Defend')
+                &amp;&amp; gameState.energy &gt;= 1;
+        case 'End Turn':
+            return true;
+        default:
+            return false;
+    }
+}
+</code></pre>
+<p>Cool cool cool. Commit: <em>&quot;Add isLegalAction()&quot;</em></p>
+<hr>
+<p>Now - I see some potential here to go back and write the tests for <code>getActions()</code> a bit differently now, using this function. First we'll need an arbitrary to generate actions:</p>
+<pre><code class="language-js">let arbAction = fc.oneof(
+    fc.record({
+        name: fc.constant('Play Strike'),
+        enemyIndex: fc.integer({ min: 0, max: 9 })
+    }),
+    fc.record({
+        name: fc.constant('Play Bash'),
+        enemyIndex: fc.integer({ min: 0, max: 9 })
+    }),
+    fc.constant({ name: 'Play Defend' }),
+    fc.constant({ name: 'End Turn' })
+);
+</code></pre>
+<p>Hoping I'm using <code>fc.oneof()</code> correctly here. Then we write the test:</p>
+<pre><code class="language-js">it('returns legal actions', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), arbAction, (gameState, action) =&gt; {
+            let actions = getActions(gameState);
+            let matches = actions.filter(x =&gt; deepEqual(x, action)).length;
+            let expectedMatches = isLegalAction(gameState, action) ? 1 : 0;
+            assert.equal(matches, expectedMatches);
+        })
+    );
+});
+</code></pre>
+<p>Yes. Yes, here we have it. For every game state and action, if the action is legal, <code>getActions()</code> should return it, otherwise, it should not. This can replace our four action-specific tests <em>and</em> the duplicates test! Well, I hope it can, at least. The test passes, but let's prod at <code>getActions()</code> to see if this test actually catches bugs.</p>
+<ul>
+<li>If we don't return &quot;End Turn&quot;, it fails. Nice.</li>
+<li>If we change the &quot;Play Bash&quot; to check for 3 energy instead of 2, it passes.
+<ul>
+<li>Wait. Oh no.</li>
+</ul>
+</li>
+</ul>
+<p>Right, okay, the test's not quite as strong as I'd like. Does it not run enough times to hit the case where we have Bash in hand, two energy, and a valid target? Do we need to up the run count?</p>
+<pre><code class="language-js">it('returns legal actions', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), arbAction, (gameState, action) =&gt; {
+            let actions = getActions(gameState);
+            let matches = actions.filter(x =&gt; deepEqual(x, action)).length;
+            let expectedMatches = isLegalAction(gameState, action) ? 1 : 0;
+            assert.equal(matches, expectedMatches);
+        }),
+        { numRuns: 10000 }
+    );
+});
+</code></pre>
+<p>Apparently <code>numRuns</code> is 100 by default. A test that covers this much ground definitely ought to run more often than that. Give it a spin and... Yeah, there we go, property failed after 1674 tests. Now if we remove the error, it does take 160 milliseconds to pass instead of 4 milliseconds, so it has a cost, but it's still near-instant enough for my taste.</p>
+<p>I'm curious whether we could and should split it into two tests, though... I saw the docs say something about preconditions, using <code>.filter</code> or <code>fc.pre</code>. Let's try the latter one:</p>
+<pre><code class="language-js">it('returns legal actions', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), arbAction, (gameState, action) =&gt; {
+            fc.pre(isLegalAction(gameState, action));
+            let actions = getActions(gameState);
+            let matches = actions.filter(x =&gt; deepEqual(x, action)).length;
+            assert.equal(matches, 1);
+        }),
+        { numRuns: 5000 }
+    );
+});
+
+it('does not return illegal actions', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), arbAction, (gameState, action) =&gt; {
+            fc.pre(!isLegalAction(gameState, action));
+            let actions = getActions(gameState);
+            let matches = actions.filter(x =&gt; deepEqual(x, action)).length;
+            assert.equal(matches, 0);
+        }),
+        { numRuns: 5000 }
+    );
+});
+</code></pre>
+<p>One test for legal actions, one test for illegal actions. Tidy! <code>fc.pre()</code> cancels the test if the precondition does not hold. Unfortunately, this looks like it doubles the run time - I guess it generates a ton of extra cases now that get canceled. It was a fun experiment, but let's roll it back to a single test.</p>
+<p>I'm wondering now about test &quot;efficiency&quot; and distribution between different test cases. Maybe testing actions with enemyIndex above 5 is wasteful. And maybe we do not need to test &quot;End Turn&quot; so often. Apparently <code>fc.oneof</code> lets you pass weights?</p>
+<pre><code class="language-js">let arbAction = fc.oneof(
+    {
+        weight: 5,
+        arbitrary: fc.record({
+            name: fc.constant('Play Strike'),
+            enemyIndex: fc.integer({ min: 0, max: 5 })
+        })
+    },
+    {
+        weight: 5,
+        arbitrary: fc.record({
+            name: fc.constant('Play Bash'),
+            enemyIndex: fc.integer({ min: 0, max: 5 })
+        })
+    },
+    { weight: 2, arbitrary: fc.constant({ name: 'Play Defend' }) },
+    { weight: 1, arbitrary: fc.constant({ name: 'End Turn' }) }
+);
+</code></pre>
+<p>Testing this with the Bash energy change, and it doesn't really make a dramatic difference. If I turn the weight way up for &quot;Play Bash&quot; specifically, then it tends to find it in slightly fewer, but it's still within an order of magnitude. Let's roll this back too (but still lower the <code>enemyIndex</code> limit to 5).</p>
+<p>Enough experimenting, time to commit: <em>&quot;Replace getActions() tests with 'returns valid actions'&quot;</em></p>
+<hr>
+<p>Small progress, but I'm happy. We learned a bit more about how we can use fast-check, and we found a design for our code that makes more sense with property-based testing. I didn't have a <code>isValidAction</code> function when we did this in C#! The tests were way different! Exciting differences!</p>
+<p>Next time: implementing <code>resolveAction()</code>, for reals this time (probably)!</p>
+<hr>
+<p><em><a href="/crystal-spire/v16/">View this app version</a></em> | <em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/3622385a73d24475bc96e95c0882af4ae0dcec29">Last commit: Replace getActions() tests with 'returns valid actions'</a></em></p>
+]]></content>
+  </entry>
+  
   <entry>
     <title type="html">Crystal Spire #15: Back into actions</title>
     <link href="https://www.cvennevik.no/blog/crystal-spire-15-back-into-actions/"/>

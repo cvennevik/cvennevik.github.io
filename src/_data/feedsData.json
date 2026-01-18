@@ -8,6 +8,11 @@
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
             {
+              "title": "Bash Variable Expansion",
+              "date": "2026-01-17",
+              "link": "http://agileotter.blogspot.com/2026/01/bash-variable-expansion.html"
+            },
+            {
               "title": "Does AI help us care less?",
               "date": "2026-01-16",
               "link": "http://agileotter.blogspot.com/2026/01/does-ai-help-us-care-less.html"
@@ -26,11 +31,6 @@
               "title": "A vimrc starter",
               "date": "2025-10-16",
               "link": "http://agileotter.blogspot.com/2025/10/a-vimrc-starter.html"
-            },
-            {
-              "title": "Convenience Scripts for Projects",
-              "date": "2025-09-30",
-              "link": "http://agileotter.blogspot.com/2025/09/convenience-scripts-for-projectsw.html"
             }
           ]
         },
@@ -38,6 +38,10 @@
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2026-01-17",
+              "link": "https://dbushell.com/notes/2026-01-17T09:23Z/"
+            },
             {
               "date": "2026-01-16",
               "link": "https://dbushell.com/notes/2026-01-16T06:35Z/"
@@ -53,10 +57,6 @@
             {
               "date": "2026-01-13",
               "link": "https://dbushell.com/notes/2026-01-13T09:34Z/"
-            },
-            {
-              "date": "2026-01-13",
-              "link": "https://dbushell.com/notes/2026-01-13T08:23Z/"
             }
           ]
         },
@@ -309,37 +309,6 @@
           ]
         },
         {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "Working with AI: Do Things Right",
-              "date": "2026-01-12",
-              "link": "https://jessitron.com/2026/01/12/making-ai-do-things-right-introduce-determinism/"
-            },
-            {
-              "title": "Working with AI: How does it Know?",
-              "date": "2026-01-10",
-              "link": "https://jessitron.com/2026/01/10/ai-coding-trick-ask-it-how-it-knows/"
-            },
-            {
-              "title": "Speak So They Can Hear You",
-              "date": "2025-11-17",
-              "link": "https://jessitron.com/2025/11/16/speak-so-they-can-hear-you/"
-            },
-            {
-              "title": "What is special about MCP?",
-              "date": "2025-11-09",
-              "link": "https://jessitron.com/2025/11/09/what-is-special-about-mcp/"
-            },
-            {
-              "title": "Ritual & its Consequences: book summary",
-              "date": "2025-10-05",
-              "link": "https://jessitron.com/2025/10/05/ritual-its-consequences-book-summary/"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -367,6 +336,37 @@
               "title": "Why Strong Consistency?",
               "date": "2025-11-18",
               "link": "http://brooker.co.za/blog/2025/11/18/consistency.html"
+            }
+          ]
+        },
+        {
+          "title": "Jessitron",
+          "feedUrl": "https://jessitron.com/feed/",
+          "items": [
+            {
+              "title": "Working with AI: Do Things Right",
+              "date": "2026-01-12",
+              "link": "https://jessitron.com/2026/01/12/making-ai-do-things-right-introduce-determinism/"
+            },
+            {
+              "title": "Working with AI: How does it Know?",
+              "date": "2026-01-10",
+              "link": "https://jessitron.com/2026/01/10/ai-coding-trick-ask-it-how-it-knows/"
+            },
+            {
+              "title": "Speak So They Can Hear You",
+              "date": "2025-11-17",
+              "link": "https://jessitron.com/2025/11/16/speak-so-they-can-hear-you/"
+            },
+            {
+              "title": "What is special about MCP?",
+              "date": "2025-11-09",
+              "link": "https://jessitron.com/2025/11/09/what-is-special-about-mcp/"
+            },
+            {
+              "title": "Ritual & its Consequences: book summary",
+              "date": "2025-10-05",
+              "link": "https://jessitron.com/2025/10/05/ritual-its-consequences-book-summary/"
             }
           ]
         },
@@ -429,37 +429,6 @@
               "title": "Interview with a new hosting provider founder",
               "date": "2025-10-20",
               "link": "https://ntietz.com/blog/andromeda-industries-interview/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "In The Beginning There Was Slop",
-              "date": "2026-01-11",
-              "link": "https://blog.jim-nielsen.com/2026/in-the-beginning-slop/"
-            },
-            {
-              "title": "The AI Security Shakedown",
-              "date": "2026-01-07",
-              "link": "https://blog.jim-nielsen.com/2026/ai-security-shakedown/"
-            },
-            {
-              "title": "A Letter of Feedback To Anyone Who Makes Software I Use",
-              "date": "2026-01-04",
-              "link": "https://blog.jim-nielsen.com/2026/feedback-for-those-who-make-software/"
-            },
-            {
-              "title": "Creating “Edit” Links That Open Plain-Text Source Files in a Native App",
-              "date": "2026-01-04",
-              "link": "https://blog.jim-nielsen.com/2026/os-as-cms/"
-            },
-            {
-              "title": "To Make Software Is To Translate Human Intent Into Computational Precision",
-              "date": "2025-12-28",
-              "link": "https://blog.jim-nielsen.com/2025/making-software-is-translating-intent/"
             }
           ]
         },
@@ -553,37 +522,6 @@
               "title": "The Cloud Is Not Optional",
               "date": "2023-07-14",
               "link": "https://softwaremaxims.com/blog/cloud-not-optional"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "People not people",
-              "date": "2026-01-10",
-              "link": "https://robinrendle.com/notes/people-not-people/"
-            },
-            {
-              "title": "v19",
-              "date": "2026-01-06",
-              "link": "https://robinrendle.com/notes/v19/"
-            },
-            {
-              "title": "This is just a place",
-              "date": "2025-12-23",
-              "link": "https://robinrendle.com/notes/this-is-just-a-place/"
-            },
-            {
-              "title": "So Many Websites",
-              "date": "2025-12-14",
-              "link": "https://robinrendle.com/notes/So-Many-Websites/"
-            },
-            {
-              "title": "Monumental and Important Artifacts",
-              "date": "2025-11-30",
-              "link": "https://robinrendle.com/notes/Monumental-and-Important-Artifacts/"
             }
           ]
         },
@@ -1359,37 +1297,6 @@
               "title": "GPG Key Transition 2022",
               "date": "2023-01-01",
               "link": "https://brainsik.net/2022/gpg-key-transition-2022/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            },
-            {
-              "title": "Comforting Myths",
-              "date": "2025-09-23",
-              "link": "https://infrequently.org/2025/09/cupertinos-comforting-myths/"
             }
           ]
         },
@@ -2492,8 +2399,11 @@
       ]
     }
   ],
-  "fetchDate": "2026-01-17T03:53:53.857Z",
+  "fetchDate": "2026-01-18T04:03:58.938Z",
   "errors": [
+    "https://robinrendle.com/feed.xml",
+    "https://infrequently.org/feed/",
+    "https://blog.jim-nielsen.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",

@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Barriers from Links with ARIA",
+              "date": "2026-01-23",
+              "link": "https://adrianroselli.com/2026/01/barriers-from-links-with-aria.html"
+            },
+            {
+              "title": "Live Region Support",
+              "date": "2026-01-14",
+              "link": "https://adrianroselli.com/2026/01/live-region-support.html"
+            },
+            {
+              "title": "Brief Note on Application Keyboard Shortcuts",
+              "date": "2026-01-09",
+              "link": "https://adrianroselli.com/2026/01/brief-note-on-application-keyboard-shortcuts.html"
+            },
+            {
+              "title": "How I Evaluate an ACR (VPAT®)",
+              "date": "2026-01-06",
+              "link": "https://adrianroselli.com/2026/01/how-i-evaluate-an-acr-vpat.html"
+            },
+            {
+              "title": "My Use of ‘AI’ on this Site",
+              "date": "2025-12-29",
+              "link": "https://adrianroselli.com/2025/12/my-use-of-ai-on-this-site.html"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -11,6 +42,11 @@
               "title": "Hmmarkdown 2",
               "date": "2026-01-22",
               "link": "https://dbushell.com/2026/01/22/hmmarkdown2/"
+            },
+            {
+              "title": "Proton Spam and the AI Consent Problem",
+              "date": "2026-01-22",
+              "link": "https://dbushell.com/2026/01/22/proton-spam/"
             },
             {
               "title": "Winter 2026: Self-Hosted… Success!",
@@ -26,11 +62,94 @@
               "title": "RSS Club #005: Expedition 33",
               "date": "2026-01-12",
               "link": "https://dbushell.com/2026/01/12/RSS005/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "CTA Hierarchy in the Wild",
+              "date": "2026-01-22",
+              "link": "https://blog.jim-nielsen.com/2026/cta-hierarchy/"
             },
             {
-              "title": "Death to Scroll Fade!",
-              "date": "2026-01-09",
-              "link": "https://dbushell.com/2026/01/09/death-to-scroll-fade/"
+              "title": "New Year, New Website — Same Old Me",
+              "date": "2026-01-20",
+              "link": "https://blog.jim-nielsen.com/2026/new-year-new-website-same-me/"
+            },
+            {
+              "title": "Easy Measures Doing, Simple Measures Understanding",
+              "date": "2026-01-18",
+              "link": "https://blog.jim-nielsen.com/2026/easy-vs-simple/"
+            },
+            {
+              "title": "In The Beginning There Was Slop",
+              "date": "2026-01-11",
+              "link": "https://blog.jim-nielsen.com/2026/in-the-beginning-slop/"
+            },
+            {
+              "title": "The AI Security Shakedown",
+              "date": "2026-01-07",
+              "link": "https://blog.jim-nielsen.com/2026/ai-security-shakedown/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "It's hard to give a shit",
+              "date": "2026-01-22",
+              "link": "https://gomakethings.com/its-hard-to-give-a-shit/"
+            },
+            {
+              "title": "Claudette Colvin",
+              "date": "2026-01-19",
+              "link": "https://gomakethings.com/claudette-colvin/"
+            },
+            {
+              "title": "When the tech leopard eats your face",
+              "date": "2026-01-15",
+              "link": "https://gomakethings.com/when-the-tech-leopard-eats-your-face/"
+            },
+            {
+              "title": "Who stole your cookie?",
+              "date": "2026-01-14",
+              "link": "https://gomakethings.com/who-stole-your-cookie/"
+            },
+            {
+              "title": "Mutual aid and asking people what they need",
+              "date": "2026-01-12",
+              "link": "https://gomakethings.com/mutual-aid-and-asking-people-what-they-need/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-01-22",
+              "link": "https://dbushell.com/notes/2026-01-22T14:12Z/"
+            },
+            {
+              "date": "2026-01-21",
+              "link": "https://dbushell.com/notes/2026-01-21T09:43Z/"
+            },
+            {
+              "date": "2026-01-21",
+              "link": "https://dbushell.com/notes/2026-01-21T06:44Z/"
+            },
+            {
+              "date": "2026-01-20",
+              "link": "https://dbushell.com/notes/2026-01-20T07:06Z/"
+            },
+            {
+              "date": "2026-01-20",
+              "link": "https://dbushell.com/notes/2026-01-20T06:50Z/"
             }
           ]
         },
@@ -66,28 +185,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
           "items": [
             {
-              "date": "2026-01-21",
-              "link": "https://dbushell.com/notes/2026-01-21T09:43Z/"
-            },
-            {
-              "date": "2026-01-21",
-              "link": "https://dbushell.com/notes/2026-01-21T06:44Z/"
-            },
-            {
+              "title": "Naked Power",
               "date": "2026-01-20",
-              "link": "https://dbushell.com/notes/2026-01-20T07:06Z/"
+              "link": "https://infrequently.org/2026/01/naked-power/"
             },
             {
-              "date": "2026-01-20",
-              "link": "https://dbushell.com/notes/2026-01-20T06:50Z/"
+              "title": "The Performance Inequality Gap, 2026",
+              "date": "2025-11-24",
+              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
             },
             {
-              "date": "2026-01-19",
-              "link": "https://dbushell.com/notes/2026-01-19T08:04Z/"
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
             }
           ]
         },
@@ -150,37 +274,6 @@
               "title": "Mid-winter photos",
               "date": "2025-12-09",
               "link": "https://www.baldurbjarnason.com/notes/photos/mid-winter-2025/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "New Year, New Website — Same Old Me",
-              "date": "2026-01-20",
-              "link": "https://blog.jim-nielsen.com/2026/new-year-new-website-same-me/"
-            },
-            {
-              "title": "Easy Measures Doing, Simple Measures Understanding",
-              "date": "2026-01-18",
-              "link": "https://blog.jim-nielsen.com/2026/easy-vs-simple/"
-            },
-            {
-              "title": "In The Beginning There Was Slop",
-              "date": "2026-01-11",
-              "link": "https://blog.jim-nielsen.com/2026/in-the-beginning-slop/"
-            },
-            {
-              "title": "The AI Security Shakedown",
-              "date": "2026-01-07",
-              "link": "https://blog.jim-nielsen.com/2026/ai-security-shakedown/"
-            },
-            {
-              "title": "A Letter of Feedback To Anyone Who Makes Software I Use",
-              "date": "2026-01-04",
-              "link": "https://blog.jim-nielsen.com/2026/feedback-for-those-who-make-software/"
             }
           ]
         },
@@ -274,37 +367,6 @@
               "title": "Moving from WordPress to Substack",
               "date": "2025-12-14",
               "link": "https://charity.wtf/2025/12/14/moving-from-wordpress-to-substack/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Claudette Colvin",
-              "date": "2026-01-19",
-              "link": "https://gomakethings.com/claudette-colvin/"
-            },
-            {
-              "title": "When the tech leopard eats your face",
-              "date": "2026-01-15",
-              "link": "https://gomakethings.com/when-the-tech-leopard-eats-your-face/"
-            },
-            {
-              "title": "Who stole your cookie?",
-              "date": "2026-01-14",
-              "link": "https://gomakethings.com/who-stole-your-cookie/"
-            },
-            {
-              "title": "Mutual aid and asking people what they need",
-              "date": "2026-01-12",
-              "link": "https://gomakethings.com/mutual-aid-and-asking-people-what-they-need/"
-            },
-            {
-              "title": "A year of revolution",
-              "date": "2026-01-05",
-              "link": "https://gomakethings.com/a-year-of-revolution/"
             }
           ]
         },
@@ -553,37 +615,6 @@
               "title": "a Junior, a Senior and I - on Metrics",
               "date": "2025-11-06",
               "link": "https://thinkinglabs.io/articles/2025/11/06/a-junior-a-senior-and-i-on-metrics.html"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Live Region Support",
-              "date": "2026-01-14",
-              "link": "https://adrianroselli.com/2026/01/live-region-support.html"
-            },
-            {
-              "title": "Brief Note on Application Keyboard Shortcuts",
-              "date": "2026-01-09",
-              "link": "https://adrianroselli.com/2026/01/brief-note-on-application-keyboard-shortcuts.html"
-            },
-            {
-              "title": "How I Evaluate an ACR (VPAT®)",
-              "date": "2026-01-06",
-              "link": "https://adrianroselli.com/2026/01/how-i-evaluate-an-acr-vpat.html"
-            },
-            {
-              "title": "My Use of ‘AI’ on this Site",
-              "date": "2025-12-29",
-              "link": "https://adrianroselli.com/2025/12/my-use-of-ai-on-this-site.html"
-            },
-            {
-              "title": "You Can’t Make Something Accessible to Everyone",
-              "date": "2025-12-02",
-              "link": "https://adrianroselli.com/2025/12/you-cant-make-something-accessible-to-everyone.html"
             }
           ]
         },
@@ -925,37 +956,6 @@
               "title": "My own RSS reader",
               "date": "2025-05-15",
               "link": "https://leanrada.com/notes/my-own-rss-reader/?ref=rss"
-            }
-          ]
-        },
-        {
-          "title": "Marvin Hagemeister",
-          "feedUrl": "https://marvinh.dev/feed.xml",
-          "items": [
-            {
-              "title": "Signals vs Query-Based Compilers",
-              "date": "2026-01-04",
-              "link": "https://marvinh.dev/blog/signals-vs-query-based-compilers/"
-            },
-            {
-              "title": "Building From First Principles",
-              "date": "2025-10-28",
-              "link": "https://marvinh.dev/blog/building-from-first-principles/"
-            },
-            {
-              "title": "The missing link in JavaScript tools",
-              "date": "2025-09-11",
-              "link": "https://marvinh.dev/blog/unifying-js-tools/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Semver",
-              "date": "2025-08-10",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - Rust and JavaScript Plugins",
-              "date": "2025-02-23",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-11/"
             }
           ]
         },
@@ -1952,6 +1952,37 @@
           ]
         },
         {
+          "title": "Sara Joy",
+          "feedUrl": "https://sarajoy.dev/rss.xml",
+          "items": [
+            {
+              "title": "Farmors Chokladkaka",
+              "date": "2025-07-21",
+              "link": "https://sarajoy.dev/blog/farmors-chokladkaka/"
+            },
+            {
+              "title": "Work with Illustrators & Designers",
+              "date": "2025-07-17",
+              "link": "https://sarajoy.dev/blog/whimsica11y-logo/"
+            },
+            {
+              "title": "Those annoying long URLs causing overflow?",
+              "date": "2025-05-22",
+              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
+            },
+            {
+              "title": "Come to the light-dark() Side",
+              "date": "2024-10-26",
+              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
+            },
+            {
+              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
+              "date": "2024-09-30",
+              "link": "https://sarajoy.dev/blog/see-and-point/"
+            }
+          ]
+        },
+        {
           "title": "Alexis King’s Blog",
           "feedUrl": "https://lexi-lambda.github.io/feeds/all.atom.xml",
           "items": [
@@ -2430,13 +2461,12 @@
       ]
     }
   ],
-  "fetchDate": "2026-01-22T04:07:35.161Z",
+  "fetchDate": "2026-01-23T04:03:30.950Z",
   "errors": [
-    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://sarajoy.dev/rss.xml"
+    "https://marvinh.dev/feed.xml"
   ]
 }

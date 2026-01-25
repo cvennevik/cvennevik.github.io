@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="dark light">
+        <title>Crystal Spire #17: In my defense - Cecilie Vennevik</title>
+        <link rel="icon" type="image/jpg" href="/img/logo-32px.jpg" sizes="32x32">
+        <link rel="icon" type="image/jpg" href="/img/logo-48px.jpg" sizes="48x48">
+        <link rel="icon" type="image/jpg" href="/img/logo-64px.jpg" sizes="64x64">
+        <meta name="author" content="Cecilie Vennevik">
+        <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/rss.xml" type="application/rss+xml">
+        <link rel="alternate" title="Cecilie Vennevik's blog" href="/blog/atom.xml" type="application/atom+xml">
+        <link rel="stylesheet" href="/css/site.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                
+                <img src="/img/logo-250px.jpg" alt="Seal-in-a-glass logo">
+                <nav aria-labelledby="navbar-label">
+                    <span id="navbar-label">You are here.</span>
+                    <ol class="crumbs">
+                        
+<li>
+    <a href="/">Home</a>
+    <span aria-hidden="true">/</span>
+</li>
+<li>
+    <a href="/blog/">Blog</a>
+    <span aria-hidden="true">/</span>
+</li>
+<li>Post</li>
+
+                    </ol>
+                </nav>
+                
+            </div>
+        </header>
+        <main>
+            
+<article>
+    <h1>Crystal Spire #17: In my defense</h1>
+    <i>January 25, 2026</i>
+    <p>I'm pretty sure we'll actually implement <code>resolveAction()</code> now. But first: Remove this TODO comment that's now resolved.</p>
+<pre><code class="language-js">// TODO: Test
+function getActions(gameState) {
+</code></pre>
+<p>Commit: <em>&quot;Remove resolved TODO comment&quot;</em>.</p>
+<p>Alright. Okay. Let's start off by copy-pasting the part we got to last time, before we stumbled into the action legality issue, and merging it with our new <code>isLegalAction()</code> code:</p>
+<pre><code class="language-js">// index.js
+function resolveAction(gameState, action) {
+    let resultingGameState = {
+        ...gameState,
+        block: gameState.block + 5,
+        energy: gameState.energy - 1
+    };
+    return [{ gameState: resultingGameState, probability: 1 }];
+}
+
+// ... snipped code ...
+
+// Export in Node.js for testing
+if (typeof module === 'object' &amp;&amp; module != null &amp;&amp; 'exports' in module) {
+    module.exports = { getActions, isLegalAction, resolveAction };
+}
+</code></pre>
+<pre><code class="language-js">// test.mjs
+import { getActions, isLegalAction, resolveAction } from './index.js';
+
+// ... snipped code ...
+
+describe('resolveAction()', () =&gt; {
+    it('resolves Defend', () =&gt; {
+        fc.assert(
+            fc.property(getArbGameState(), gameState =&gt; {
+                let action = { name: 'Play Defend' };
+                let result = resolveAction(gameState, action);
+                let sumOfProbabilities = result.reduce((acc, x) =&gt; acc + x.probability, 0);
+                assert.equal(sumOfProbabilities, 1);
+                for (let outcome of result) {
+                    assert.equal(outcome.gameState.block, gameState.block + 5);
+                    assert.equal(outcome.gameState.energy, gameState.energy - 1);
+
+                    let firstDefendIndex = gameState.hand.indexOf('Defend');
+                    let expectedHand = gameState.hand.toSpliced(firstDefendIndex, 1);
+                    assert.deepEqual(outcome.gameState.hand, expectedHand);
+                }
+            })
+        );
+    });
+});
+</code></pre>
+<p>A few things to note:</p>
+<ul>
+<li><code>resolveAction()</code> only handles &quot;Play Defend&quot;, and even that is only half-implemented, we still need to move Defend from the hand to the discard pile.</li>
+<li>The test is currently <em>trying</em> to assert that Defend is removed from the hand.</li>
+<li>The test looks like a mess to me, oh moly.</li>
+<li>We are still trying to resolve &quot;Play Defend&quot; for game states where it isn't legal.</li>
+</ul>
+<p>Let's comment out that last section of the assertion loop (<em>shudder</em>) so we get a passing test, and make <code>resolveAction()</code> handle illegal actions in a helpful way. For ease of debugging, <code>resolveAction()</code> should always check if the action is legal, and if not, throw an error (this is inefficient, but we'll worry about performance when we have a working system).</p>
+<pre><code class="language-js">for (let outcome of result) {
+    assert.equal(outcome.gameState.block, gameState.block + 5);
+    assert.equal(outcome.gameState.energy, gameState.energy - 1);
+
+    // TODO:
+    // - Remove Defend from hand
+    // - Add Defend to discard pile
+    // let firstDefendIndex = gameState.hand.indexOf('Defend');
+    // let expectedHand = gameState.hand.toSpliced(firstDefendIndex, 1);
+    // assert.deepEqual(outcome.gameState.hand, expectedHand);
+}
+</code></pre>
+<p>Cool, passing tests. Add a new failing test: <code>resolveAction()</code> should throw errors for illegal moves.</p>
+<pre><code class="language-js">it('throws an error when the action is illegal', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), arbAction, (gameState, action) =&gt; {
+            fc.pre(!isLegalAction(gameState, action));
+
+            let error = null;
+            try {
+                resolveAction(gameState, action);
+            } catch (e) {
+                error = e;
+            }
+
+            assert.ok(error);
+            assert.match(error.message, /illegal action/);
+        })
+    );
+});
+</code></pre>
+<p><code>fc.pre()</code> comes in handy here to filter for illegal gameState-action combinations in one swing. Now, this test fails immediately on <code>assert.ok(error)</code> because error is falsy. Let's try to fix it in one swing:</p>
+<pre><code class="language-js">function resolveAction(gameState, action) {
+    if (!isLegalAction(gameState, action)) throw new Error('Cannot resolve an illegal action');
+
+    let resultingGameState = {
+        ...gameState,
+        block: gameState.block + 5,
+        energy: gameState.energy - 1
+    };
+
+    return [{ gameState: resultingGameState, probability: 1 }];
+}
+</code></pre>
+<p>Hey, the test passes now, but &quot;resolves Defend&quot; fails now. Let's make &quot;Play Defend&quot; being legal a precondition:</p>
+<pre><code class="language-js">it('resolves Defend', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), gameState =&gt; {
+            let action = { name: 'Play Defend' };
+            fc.pre(isLegalAction(gameState, action));
+            // ... rest of test ...
+        })
+    );
+});
+</code></pre>
+<p>There we go, test passes again. Though I'm curious - my editor told me the Error constructor has a second &quot;options&quot; parameter? Could we pass more useful context there, like what the illegal gameState plus action was?</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/Error">MDN says no</a>. That's disappointing. Maybe we can make an error subclass for that instead, then? Is that allowed?</p>
+<pre><code class="language-js">class IllegalActionError extends Error {
+    constructor(gameState, action) {
+        super('IllegalActionError: Tried to resolve a game state with an illegal action.')
+        this.gameState = gameState;
+        this.action = action;
+    }
+}
+</code></pre>
+<pre><code class="language-js">if (!isLegalAction(gameState, action)) throw new IllegalActionError(gameState, action);
+</code></pre>
+<p>That works, but will the properties show in my test runner when a test fails? Let's remove the if-check and always throw an error on <code>resolveAction()</code> to find out.</p>
+<pre><code>  Error: Property failed after 1 tests
+  { seed: 1896921034, path: &quot;0:0:1:0:4:3:3:3&quot;, endOnFailure: true }
+  Counterexample: [{&quot;hp&quot;:1,&quot;maxHp&quot;:80,&quot;block&quot;:0,&quot;energy&quot;:1,&quot;maxEnergy&quot;:3,&quot;hand&quot;:[&quot;Defend&quot;],&quot;drawPile&quot;:[],&quot;discardPile&quot;:[],&quot;relics&quot;:[],&quot;enemies&quot;:[{&quot;name&quot;:&quot;Jaw Worm&quot;,&quot;hp&quot;:42,&quot;maxHp&quot;:42,&quot;block&quot;:0,&quot;nextMove&quot;:[],&quot;moveHistory&quot;:[],&quot;buffs&quot;:[],&quot;debuffs&quot;:[]}]}]
+  Shrunk 7 time(s)
+  
+  Hint: Enable verbose mode in order to have the list of all failing values encountered during the run
+      -- snipped stack trace -- {
+    [cause]: Error: IllegalActionError: Tried to resolve a game state with an illegal action.
+        -- snipped stack trace -- {
+      gameState: { hp: 1, maxHp: 80, block: 0, energy: 1, maxEnergy: 3, hand: [Array], drawPile: [], discardPile: [], relics: [], enemies: [Array] },
+      action: { name: 'Play Defend' }
+    }
+  }
+</code></pre>
+<p>Hey! It does show up! That's lovely, let's keep it this way, I have a feeling it may come in handy later. Also, we can change our &quot;throws an error&quot; test to assert for a specific error class instead of a specific error message (right after returning the if-check and exporting and importing the class):</p>
+<pre><code class="language-js">it('throws an IllegalActionError when the action is illegal', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), arbAction, (gameState, action) =&gt; {
+            fc.pre(!isLegalAction(gameState, action));
+
+            let error = null;
+            try {
+                resolveAction(gameState, action);
+            } catch (e) {
+                error = e;
+            }
+
+            assert.ok(error instanceof IllegalActionError);
+        })
+    );
+});
+</code></pre>
+<p>Nice stuff, test passes. Okay. Back to resolving Defend. Reinstate the assertion to remove it from the hand:</p>
+<pre><code class="language-js">let firstDefendIndex = gameState.hand.indexOf('Defend');
+let expectedHand = gameState.hand.toSpliced(firstDefendIndex, 1);
+assert.deepEqual(outcome.gameState.hand, expectedHand);
+</code></pre>
+<p>Fails, Defend is still in hand. Implement the fix:</p>
+<pre><code class="language-js">function resolveAction(gameState, action) {
+    if (!isLegalAction(gameState, action)) throw new IllegalActionError(gameState, action);
+
+    let firstDefendIndex = gameState.hand.indexOf('Defend');
+    let resultingGameState = {
+        ...gameState,
+        block: gameState.block + 5,
+        energy: gameState.energy - 1,
+        hand: gameState.hand.toSpliced(firstDefendIndex, 1)
+    };
+
+    return [{ gameState: resultingGameState, probability: 1 }];
+}
+</code></pre>
+<p>Yeaurgh, the test and implementation are uncomfortably similar. Holding my nose and asserting the discard pile situation just the same:</p>
+<pre><code class="language-js">let expectedDiscardPile = [...gameState.discardPile, 'Defend'];
+assert.deepEqual(outcome.gameState.discardPile, expectedDiscardPile);
+</code></pre>
+<p>Test fails, implement fix:</p>
+<pre><code class="language-js">function resolveAction(gameState, action) {
+    if (!isLegalAction(gameState, action)) throw new IllegalActionError(gameState, action);
+
+    let firstDefendIndex = gameState.hand.indexOf('Defend');
+    let resultingGameState = {
+        ...gameState,
+        block: gameState.block + 5,
+        energy: gameState.energy - 1,
+        hand: gameState.hand.toSpliced(firstDefendIndex, 1),
+        discardPile: [...gameState.discardPile, 'Defend']
+    };
+
+    return [{ gameState: resultingGameState, probability: 1 }];
+}
+</code></pre>
+<p>Test passes. I think that's everything that happens when you play Defend. We can successfully resolve it now.</p>
+<p>Okay. Let's review the test code. What's the damage?</p>
+<pre><code class="language-js">it('resolves Defend', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), gameState =&gt; {
+            let action = { name: 'Play Defend' };
+            fc.pre(isLegalAction(gameState, action));
+
+            let result = resolveAction(gameState, action);
+            let sumOfProbabilities = result.reduce((acc, x) =&gt; acc + x.probability, 0);
+            assert.equal(sumOfProbabilities, 1);
+            for (let outcome of result) {
+                assert.equal(outcome.gameState.block, gameState.block + 5);
+                assert.equal(outcome.gameState.energy, gameState.energy - 1);
+
+                let firstDefendIndex = gameState.hand.indexOf('Defend');
+                let expectedHand = gameState.hand.toSpliced(firstDefendIndex, 1);
+                assert.deepEqual(outcome.gameState.hand, expectedHand);
+
+                let expectedDiscardPile = [...gameState.discardPile, 'Defend'];
+                assert.deepEqual(outcome.gameState.discardPile, expectedDiscardPile);
+            }
+        })
+    );
+});
+</code></pre>
+<p>I mean, it could be worse. But it could be better. We can make the result assertion stronger and assert it always returns one outcome:</p>
+<pre><code class="language-js">let result = resolveAction(gameState, action);
+assert.equal(result.length, 1);
+</code></pre>
+<p>That lets us simplify and get rid of the for-loop:</p>
+<pre><code class="language-js">it('resolves Defend', () =&gt; {
+    fc.assert(
+        fc.property(getArbGameState(), gameState =&gt; {
+            let action = { name: 'Play Defend' };
+            fc.pre(isLegalAction(gameState, action));
+
+            let result = resolveAction(gameState, action);
+            assert.equal(result.length, 1);
+
+            let outcome = result[0];
+            assert.equal(outcome.probability, 1);
+            assert.equal(outcome.gameState.block, gameState.block + 5);
+            assert.equal(outcome.gameState.energy, gameState.energy - 1);
+
+            let firstDefendIndex = gameState.hand.indexOf('Defend');
+            let expectedHand = gameState.hand.toSpliced(firstDefendIndex, 1);
+            assert.deepEqual(outcome.gameState.hand, expectedHand);
+
+            let expectedDiscardPile = [...gameState.discardPile, 'Defend'];
+            assert.deepEqual(outcome.gameState.discardPile, expectedDiscardPile);
+        })
+    );
+});
+</code></pre>
+<p>Okay. I'll take it. I don't see an immediate improvement to make here. I suspect we can add some helper functions to assert expected hands and discard piles when we have more tests that check the same thing, but adding them now seems premature.</p>
+<p>We've done a lot of work now, it's high time to commit, but let's leave one little TODO note since we still have a weird <code>resolveAction()</code> implementation:</p>
+<pre><code class="language-js">// TODO: Resolve other actions than Play Defend
+function resolveAction(gameState, action) {
+</code></pre>
+<p>There. Commit: <em>&quot;Implement resolveAction() for Play Defend&quot;</em>.</p>
+<hr>
+<p>Progress is slow, I will admit. Live-blogging the thought process and every little code change slows everything right down. I'm also not sure what I value more - progress on the project, or progress on this blog series.</p>
+<p>Factors to consider:</p>
+<ul>
+<li>I only have the opportunity to work on this 1-2 hours a week, at most.</li>
+<li>I have taken breaks for months at a time and will do it again.</li>
+<li>The blog posts make the progress of each work session more concrete and tangible.</li>
+<li>The blog posts help me recover my train of thought between long breaks.</li>
+<li>Writing forces me to justify my decisions and stay on track.</li>
+<li>Writing a blog post will always take some time!</li>
+<li>If I take a break from writing this style of post and make progress outside of them, it will break the continuous train of thought that you can follow along from the very start of the series.</li>
+</ul>
+<p>I see three options:</p>
+<ol>
+<li>Continue code-liveblogging like this, maybe taking slightly coarser steps.</li>
+<li>Change the series from a liveblogging style to more of a devlog style, only sharing select snippets of code.
+<ul>
+<li>This would split the coding and writing activities into two separate chunks, giving me a backlog of progress to write about. I think this would make it harder to sit down and knock out another post and a bit of progress.</li>
+</ul>
+</li>
+<li>Drop the series entirely and work in private.
+<ul>
+<li>This has the highest odds of killing the project. Having the project out in public on my website is a persistent encouragement to continue working on it.</li>
+</ul>
+</li>
+</ol>
+<p>In other words, there's no good option here but to keep trucking and tolerate that this be a slow-paced project. This does rhyme with how <a href="https://ronjeffries.com/">Ron Jeffries</a> (who inspired me to start this series) makes progress on his own projects, though he's written a <em>lot</em> more posts than me and hence accumulated a lot more progress.</p>
+<p>Ah well. As long as the time spent feels meaningful.</p>
+<hr>
+<p>Next time: Strike! Bash! Probably not End Turn quite yet because that's a whole can of worms!</p>
+<hr>
+<p><em><a href="/crystal-spire/v17/">View this app version</a></em> | <em><a href="https://codeberg.org/cvennevik/crystal-spire/src/commit/a86fd3833ad0b906710a156b3d504f3c482e469c">Last commit: Implement resolveAction() for Play Defend</a></em></p>
+
+</article>
+<hr>
+
+
+
+
+<p>
+<a href="/blog/crystal-spire-16-is-this-legal/">Previous post: Crystal Spire #16: Is this legal?</a>
+</p>
+
+
+        </main>
+    </body>
+</html>

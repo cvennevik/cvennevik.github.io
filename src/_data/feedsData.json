@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Dragan Stepanović",
+          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
+          "items": [
+            {
+              "title": "Production doesn't care",
+              "date": "2026-01-24",
+              "link": "https://draganstepanovic.com/2026/01/24/production-does-not-care.html"
+            },
+            {
+              "title": "Heavy AI machinery and design",
+              "date": "2025-12-14",
+              "link": "https://draganstepanovic.com/2025/12/14/heavy-ai-machinery.html"
+            },
+            {
+              "title": "There's a huge difference between",
+              "date": "2025-11-09",
+              "link": "https://draganstepanovic.com/2025/11/09/there-is-a-huge-difference.html"
+            },
+            {
+              "title": "If you can't change design cheaply",
+              "date": "2025-10-25",
+              "link": "https://draganstepanovic.com/2025/10/25/if-you-cant-change-design-cheaply.html"
+            },
+            {
+              "title": "It's not about reducing the costs per se",
+              "date": "2025-09-27",
+              "link": "https://draganstepanovic.com/2025/09/27/reducing-costs.html"
+            }
+          ]
+        },
+        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -212,37 +243,6 @@
               "title": "What Shape Should My Code Take? (using FizzBuzz)",
               "date": "2025-10-16",
               "link": "http://agileotter.blogspot.com/2025/10/what-shape-should-my-code-take-using.html"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Naked Power",
-              "date": "2026-01-20",
-              "link": "https://infrequently.org/2026/01/naked-power/"
-            },
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
             }
           ]
         },
@@ -1022,37 +1022,6 @@
           ]
         },
         {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "My 2025 In Review",
-              "date": "2025-12-31",
-              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
-            },
-            {
-              "title": "The Localhost Podcast CLI Tool",
-              "date": "2025-10-18",
-              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
-            },
-            {
-              "title": "Buying Tech Books in South Africa",
-              "date": "2025-05-16",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
-            },
-            {
-              "title": "My Exobrain",
-              "date": "2025-05-03",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
-            },
-            {
-              "title": "New Songbook Added to this Blog",
-              "date": "2024-06-25",
-              "link": "https://www.worthe-it.co.za/blog/2024-06-26-new-songbook-added-to-this-blog.html"
-            }
-          ]
-        },
-        {
           "title": "HeydonWorks",
           "feedUrl": "https://heydonworks.com/feed.xml",
           "items": [
@@ -1204,37 +1173,6 @@
               "title": "UED: Unthinkable",
               "date": "2025-08-01",
               "link": "https://moonbase.lgbt/blog/ued-unthinkable/"
-            }
-          ]
-        },
-        {
-          "title": "Dragan Stepanović",
-          "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
-          "items": [
-            {
-              "title": "Heavy AI machinery and design",
-              "date": "2025-12-14",
-              "link": "https://draganstepanovic.com/2025/12/14/heavy-ai-machinery.html"
-            },
-            {
-              "title": "There's a huge difference between",
-              "date": "2025-11-09",
-              "link": "https://draganstepanovic.com/2025/11/09/there-is-a-huge-difference.html"
-            },
-            {
-              "title": "If you can't change design cheaply",
-              "date": "2025-10-25",
-              "link": "https://draganstepanovic.com/2025/10/25/if-you-cant-change-design-cheaply.html"
-            },
-            {
-              "title": "It's not about reducing the costs per se",
-              "date": "2025-09-27",
-              "link": "https://draganstepanovic.com/2025/09/27/reducing-costs.html"
-            },
-            {
-              "title": "Dynamics between transaction cost and batch size is simple, but often counterintuitive.",
-              "date": "2025-06-19",
-              "link": "https://draganstepanovic.com/2025/06/19/working-together-works.html"
             }
           ]
         },
@@ -2430,13 +2368,15 @@
       ]
     }
   ],
-  "fetchDate": "2026-01-24T03:57:44.206Z",
+  "fetchDate": "2026-01-25T04:13:16.090Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
+    "https://infrequently.org/feed/",
     "https://blog.jim-nielsen.com/feed.xml",
     "https://cutlefish.substack.com/feed",
+    "https://www.worthe-it.co.za/atom.xml",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml",
+    "https://robinrendle.com/feed.xml"
   ]
 }

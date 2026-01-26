@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Cecilie Vennevik's blog",
+          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
+          "items": [
+            {
+              "title": "Crystal Spire #17: In my defense",
+              "date": "2026-01-25",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-17-in-my-defense/"
+            },
+            {
+              "title": "Crystal Spire #16: Is this legal?",
+              "date": "2026-01-18",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-16-is-this-legal/"
+            },
+            {
+              "title": "Crystal Spire #15: Back into actions",
+              "date": "2025-12-28",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-15-back-into-actions/"
+            },
+            {
+              "title": "Crystal Spire #14: End of the Yak",
+              "date": "2025-12-25",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-14-end-of-the-yak/"
+            },
+            {
+              "title": "Crystal Spire #13: Haha, just kidding... unless?",
+              "date": "2025-12-21",
+              "link": "https://www.cvennevik.no/blog/crystal-spire-13-haha-just-kidding-unless/"
+            }
+          ]
+        },
+        {
           "title": "Dragan Stepanović",
           "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
           "items": [
@@ -185,6 +216,37 @@
           ]
         },
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "CTA Hierarchy in the Wild",
+              "date": "2026-01-22",
+              "link": "https://blog.jim-nielsen.com/2026/cta-hierarchy/"
+            },
+            {
+              "title": "New Year, New Website — Same Old Me",
+              "date": "2026-01-20",
+              "link": "https://blog.jim-nielsen.com/2026/new-year-new-website-same-me/"
+            },
+            {
+              "title": "Easy Measures Doing, Simple Measures Understanding",
+              "date": "2026-01-18",
+              "link": "https://blog.jim-nielsen.com/2026/easy-vs-simple/"
+            },
+            {
+              "title": "In The Beginning There Was Slop",
+              "date": "2026-01-11",
+              "link": "https://blog.jim-nielsen.com/2026/in-the-beginning-slop/"
+            },
+            {
+              "title": "The AI Security Shakedown",
+              "date": "2026-01-07",
+              "link": "https://blog.jim-nielsen.com/2026/ai-security-shakedown/"
+            }
+          ]
+        },
+        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -243,6 +305,37 @@
               "title": "What Shape Should My Code Take? (using FizzBuzz)",
               "date": "2025-10-16",
               "link": "http://agileotter.blogspot.com/2025/10/what-shape-should-my-code-take-using.html"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "Naked Power",
+              "date": "2026-01-20",
+              "link": "https://infrequently.org/2026/01/naked-power/"
+            },
+            {
+              "title": "The Performance Inequality Gap, 2026",
+              "date": "2025-11-24",
+              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
+            },
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            },
+            {
+              "title": "Apple's Antitrust Playbook",
+              "date": "2025-09-25",
+              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
             }
           ]
         },
@@ -464,37 +557,6 @@
           ]
         },
         {
-          "title": "Cecilie Vennevik's blog",
-          "feedUrl": "https://www.cvennevik.no/blog/rss.xml",
-          "items": [
-            {
-              "title": "Crystal Spire #16: Is this legal?",
-              "date": "2026-01-18",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-16-is-this-legal/"
-            },
-            {
-              "title": "Crystal Spire #15: Back into actions",
-              "date": "2025-12-28",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-15-back-into-actions/"
-            },
-            {
-              "title": "Crystal Spire #14: End of the Yak",
-              "date": "2025-12-25",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-14-end-of-the-yak/"
-            },
-            {
-              "title": "Crystal Spire #13: Haha, just kidding... unless?",
-              "date": "2025-12-21",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-13-haha-just-kidding-unless/"
-            },
-            {
-              "title": "Crystal Spire #12: A spot of cleaning",
-              "date": "2025-12-14",
-              "link": "https://www.cvennevik.no/blog/crystal-spire-12-a-spot-of-cleaning/"
-            }
-          ]
-        },
-        {
           "title": "Joep Schuurkes",
           "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
@@ -708,6 +770,37 @@
               "title": "The Cloud Is Not Optional",
               "date": "2023-07-14",
               "link": "https://softwaremaxims.com/blog/cloud-not-optional"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "People not people",
+              "date": "2026-01-10",
+              "link": "https://robinrendle.com/notes/people-not-people/"
+            },
+            {
+              "title": "v19",
+              "date": "2026-01-06",
+              "link": "https://robinrendle.com/notes/v19/"
+            },
+            {
+              "title": "This is just a place",
+              "date": "2025-12-23",
+              "link": "https://robinrendle.com/notes/this-is-just-a-place/"
+            },
+            {
+              "title": "So Many Websites",
+              "date": "2025-12-14",
+              "link": "https://robinrendle.com/notes/So-Many-Websites/"
+            },
+            {
+              "title": "Monumental and Important Artifacts",
+              "date": "2025-11-30",
+              "link": "https://robinrendle.com/notes/Monumental-and-Important-Artifacts/"
             }
           ]
         },
@@ -2368,15 +2461,12 @@
       ]
     }
   ],
-  "fetchDate": "2026-01-25T04:13:16.090Z",
+  "fetchDate": "2026-01-26T04:14:32.158Z",
   "errors": [
-    "https://infrequently.org/feed/",
-    "https://blog.jim-nielsen.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://www.worthe-it.co.za/atom.xml",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://robinrendle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

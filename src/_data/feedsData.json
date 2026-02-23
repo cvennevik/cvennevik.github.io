@@ -4,9 +4,660 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "How AI Labs Proliferate",
+              "date": "2026-02-22",
+              "link": "https://blog.jim-nielsen.com/2026/how-ai-labs-proliferate/"
+            },
+            {
+              "title": "A Few Rambling Observations on Care",
+              "date": "2026-02-18",
+              "link": "https://blog.jim-nielsen.com/2026/observations-on-care/"
+            },
+            {
+              "title": "Unresponsive Buttons on My Fastest Hardware Ever",
+              "date": "2026-02-11",
+              "link": "https://blog.jim-nielsen.com/2026/unresponsive-buttons/"
+            },
+            {
+              "title": "A Brief History of App Icons From Apple’s Creator Studio",
+              "date": "2026-02-09",
+              "link": "https://blog.jim-nielsen.com/2026/history-of-creator-studio-icons/"
+            },
+            {
+              "title": "Study Finds Obvious Truth Everybody Knows",
+              "date": "2026-02-06",
+              "link": "https://blog.jim-nielsen.com/2026/study-finds-obvious-truth/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Color dithering",
+              "date": "2026-02-22",
+              "link": "https://macwright.com/2026/02/22/color-dithering.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-02-03",
+              "link": "https://macwright.com/2026/02/03/recently.html"
+            },
+            {
+              "title": "Sketches",
+              "date": "2026-01-31",
+              "link": "https://macwright.com/2026/01/31/sketches.html"
+            },
+            {
+              "title": "Theme selector",
+              "date": "2025-12-09",
+              "link": "https://macwright.com/2025/12/09/theme-selector.html"
+            },
+            {
+              "title": "A brief history of specifiers and protocols",
+              "date": "2025-12-08",
+              "link": "https://macwright.com/2025/12/08/module-specifiers-and-protocols.html"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "February 2026 blend of links",
+              "date": "2026-02-22",
+              "link": "https://thejollyteapot.com/february-2026-blend/"
+            },
+            {
+              "title": "Is the Mac having a BMW’s Neue Klasse moment?",
+              "date": "2026-02-13",
+              "link": "https://thejollyteapot.com/2026/02/13/is-the-mac-having-a-bmw-s-neue-klasse-moment/"
+            },
+            {
+              "title": "Tempted to stick with my old Mac a bit longer",
+              "date": "2026-01-23",
+              "link": "https://thejollyteapot.com/2026/01/23/tempted-to-stick-with-my-old-mac-a-bit-longer/"
+            },
+            {
+              "title": "January 2026 blend of links",
+              "date": "2026-01-19",
+              "link": "https://thejollyteapot.com/january-2026-blend/"
+            },
+            {
+              "title": "The frustration of a perfect setup",
+              "date": "2026-01-11",
+              "link": "https://thejollyteapot.com/2026/01/11/the-frustration-of-a-perfect-setup/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-02-22",
+              "link": "https://dbushell.com/notes/2026-02-22T10:19Z/"
+            },
+            {
+              "date": "2026-02-21",
+              "link": "https://dbushell.com/notes/2026-02-21T18:19Z/"
+            },
+            {
+              "date": "2026-02-20",
+              "link": "https://dbushell.com/notes/2026-02-20T13:55Z/"
+            },
+            {
+              "date": "2026-02-18",
+              "link": "https://dbushell.com/notes/2026-02-18T18:31Z/"
+            },
+            {
+              "date": "2026-02-18",
+              "link": "https://dbushell.com/notes/2026-02-18T12:52Z/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "pointer-box-offset",
+              "date": "2026-02-21",
+              "link": "https://robinrendle.com/notes/pointer-box-offset/"
+            },
+            {
+              "title": "Strange Pictures",
+              "date": "2026-02-01",
+              "link": "https://robinrendle.com/notes/strange-pictures/"
+            },
+            {
+              "title": "People not people",
+              "date": "2026-01-10",
+              "link": "https://robinrendle.com/notes/people-not-people/"
+            },
+            {
+              "title": "v19",
+              "date": "2026-01-06",
+              "link": "https://robinrendle.com/notes/v19/"
+            },
+            {
+              "title": "This is just a place",
+              "date": "2025-12-23",
+              "link": "https://robinrendle.com/notes/this-is-just-a-place/"
+            }
+          ]
+        },
+        {
+          "title": "Sara Joy",
+          "feedUrl": "https://sarajoy.dev/rss.xml",
+          "items": [
+            {
+              "title": "Just Try Harder",
+              "date": "2026-02-21",
+              "link": "https://sarajoy.dev/blog/just-try-harder/"
+            },
+            {
+              "title": "Farmors Chokladkaka",
+              "date": "2025-07-21",
+              "link": "https://sarajoy.dev/blog/farmors-chokladkaka/"
+            },
+            {
+              "title": "Work with Illustrators & Designers",
+              "date": "2025-07-17",
+              "link": "https://sarajoy.dev/blog/whimsica11y-logo/"
+            },
+            {
+              "title": "Those annoying long URLs causing overflow?",
+              "date": "2025-05-22",
+              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
+            },
+            {
+              "title": "Come to the light-dark() Side",
+              "date": "2024-10-26",
+              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Everything you never wanted to know about visually-hidden",
+              "date": "2026-02-20",
+              "link": "https://dbushell.com/2026/02/20/visually-hidden/"
+            },
+            {
+              "title": "Web font choice and loading strategy",
+              "date": "2026-02-17",
+              "link": "https://dbushell.com/2026/02/17/web-font-choice-and-loading-strategy/"
+            },
+            {
+              "title": "Declarative Dialog Menu with Invoker Commands",
+              "date": "2026-02-12",
+              "link": "https://dbushell.com/2026/02/12/declarative-dialog-menu-invoker-commands/"
+            },
+            {
+              "title": "Big Design, Bold Ideas",
+              "date": "2026-02-09",
+              "link": "https://dbushell.com/2026/02/09/big-design-and-bold-ideas/"
+            },
+            {
+              "title": "Mozilla Slopaganda",
+              "date": "2026-01-28",
+              "link": "https://dbushell.com/2026/01/28/mozilla-slopaganda/"
+            }
+          ]
+        },
+        {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "First I wrote the wrong book, then I wrote the right book (xpost)",
+              "date": "2026-02-19",
+              "link": "https://charity.wtf/2026/02/19/first-i-wrote-the-wrong-book-then-i-wrote-the-right-book-xpost/"
+            },
+            {
+              "title": "Martin Fowler told me the second edition should be shorter (it’s twice as long) (xpost)",
+              "date": "2026-02-18",
+              "link": "https://charity.wtf/2026/02/18/observability-engineering-a-book-so-nice-we-wrote-it-twice-xpost/"
+            },
+            {
+              "title": "Bring Back Ops Pride (xpost)",
+              "date": "2026-01-19",
+              "link": "https://charity.wtf/2026/01/19/bring-back-ops-pride-xpost/"
+            },
+            {
+              "title": "On Friday Deploys: Sometimes that Puppy Needs Murdering (xpost)",
+              "date": "2025-12-24",
+              "link": "https://charity.wtf/2025/12/24/on-friday-deploys-sometimes-that-puppy-needs-murdering-xpost/"
+            },
+            {
+              "title": "2025 was for AI what 2010 was for cloud (xpost)",
+              "date": "2025-12-22",
+              "link": "https://charity.wtf/2025/12/22/2025-was-for-ai-what-2010-was-for-cloud-xpost/"
+            }
+          ]
+        },
+        {
+          "title": "Jennifer++",
+          "feedUrl": "https://jenniferplusplus.com/rss/",
+          "items": [
+            {
+              "title": "Reviewing \"How AI Impacts Skill Formation\"",
+              "date": "2026-02-19",
+              "link": "https://jenniferplusplus.com/reviewing-how-ai-impacts-skill-formation/"
+            },
+            {
+              "title": "I want to go home",
+              "date": "2025-04-17",
+              "link": "https://jenniferplusplus.com/i-want-to-go-home/"
+            },
+            {
+              "title": "Gresham's law of programming",
+              "date": "2024-11-29",
+              "link": "https://jenniferplusplus.com/greshams-law-of-programming/"
+            },
+            {
+              "title": "Test using OpenTelemetry traces in Asp.Net",
+              "date": "2024-09-21",
+              "link": "https://jenniferplusplus.com/test-traces-in-aspnet/"
+            },
+            {
+              "title": "The free software commons",
+              "date": "2024-04-05",
+              "link": "https://jenniferplusplus.com/the-free-software-commons/"
+            }
+          ]
+        },
+        {
+          "title": "Good Tech Things",
+          "feedUrl": "https://newsletter.goodtechthings.com/feed",
+          "items": [
+            {
+              "title": "Speed Trap",
+              "date": "2026-02-19",
+              "link": "https://newsletter.goodtechthings.com/p/speed-trap"
+            },
+            {
+              "title": "When everybody's down, nobody is",
+              "date": "2025-10-23",
+              "link": "https://newsletter.goodtechthings.com/p/when-everybodys-down-nobody-is"
+            },
+            {
+              "title": "Harsh truths to save you from ChatGPT psychosis",
+              "date": "2025-08-14",
+              "link": "https://newsletter.goodtechthings.com/p/harsh-truths-to-save-you-from-chatgpt"
+            },
+            {
+              "title": "Breaking some huge personal news",
+              "date": "2025-02-07",
+              "link": "https://newsletter.goodtechthings.com/p/breaking-some-huge-personal-news"
+            },
+            {
+              "title": "I'm glad I took the off-ramp from software engineering",
+              "date": "2025-01-22",
+              "link": "https://newsletter.goodtechthings.com/p/you-get-10-years-to-be-a-software"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Notes on clarifying man pages",
+              "date": "2026-02-18",
+              "link": "https://jvns.ca/blog/2026/02/18/man-pages/"
+            },
+            {
+              "title": "Some notes on starting to use Django",
+              "date": "2026-01-27",
+              "link": "https://jvns.ca/blog/2026/01/27/some-notes-on-starting-to-use-django/"
+            },
+            {
+              "title": "A data model for Git (and other docs updates)",
+              "date": "2026-01-08",
+              "link": "https://jvns.ca/blog/2026/01/08/a-data-model-for-git/"
+            },
+            {
+              "title": "Notes on switching to Helix from vim",
+              "date": "2025-10-10",
+              "link": "https://jvns.ca/blog/2025/10/10/notes-on-switching-to-helix-from-vim/"
+            },
+            {
+              "title": "New zine: The Secret Rules of the Terminal",
+              "date": "2025-06-26",
+              "link": "https://jvns.ca/blog/2025/06/24/new-zine--the-secret-rules-of-the-terminal/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Training your replacement",
+              "date": "2026-02-18",
+              "link": "https://gomakethings.com/training-your-replacement/"
+            },
+            {
+              "title": "People need people",
+              "date": "2026-02-17",
+              "link": "https://gomakethings.com/people-need-people/"
+            },
+            {
+              "title": "Cutting the Discord",
+              "date": "2026-02-16",
+              "link": "https://gomakethings.com/cutting-the-discord/"
+            },
+            {
+              "title": "Container queries are rad AF!",
+              "date": "2026-02-04",
+              "link": "https://gomakethings.com/container-queries-are-rad-af/"
+            },
+            {
+              "title": "You don't need permission",
+              "date": "2026-01-26",
+              "link": "https://gomakethings.com/you-dont-need-permission/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[GR01.07] sled brake",
+              "date": "2026-02-18",
+              "link": "https://www.simplermachines.com/gr01-07-sled-brake/"
+            },
+            {
+              "title": "[GR01.06] November tree shrine",
+              "date": "2026-02-03",
+              "link": "https://www.simplermachines.com/gr01-06-november-tree-shrine/"
+            },
+            {
+              "title": "[GR01.05] hay bales for sledding",
+              "date": "2026-01-27",
+              "link": "https://www.simplermachines.com/gr01-05-hay-bales-for-sledding/"
+            },
+            {
+              "title": "[GR01.04] baseball diamond",
+              "date": "2026-01-20",
+              "link": "https://www.simplermachines.com/gr01-04-2/"
+            },
+            {
+              "title": "[GR01.03] frozen crabapples, 4 long blocks from where Renee Nicole Good was shot by ICE",
+              "date": "2026-01-13",
+              "link": "https://www.simplermachines.com/gr01-03-frozen-crabapples-4-long-blocks-from-where-renee-nicole-good-was-shot-by-ice/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Stream of Consciousness Driven Development",
+              "date": "2026-02-18",
+              "link": "https://buttondown.com/hillelwayne/archive/stream-of-consciousness-driven-development/"
+            },
+            {
+              "title": "Proving What's Possible",
+              "date": "2026-02-11",
+              "link": "https://buttondown.com/hillelwayne/archive/proving-whats-possible/"
+            },
+            {
+              "title": "Logic for Programmers New Release and Next Steps",
+              "date": "2026-02-04",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-new-release-and-next-steps/"
+            },
+            {
+              "title": "Refinement without Specification",
+              "date": "2026-01-20",
+              "link": "https://buttondown.com/hillelwayne/archive/refinement-without-specification/"
+            },
+            {
+              "title": "My Gripes with Prolog",
+              "date": "2026-01-14",
+              "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "0057: consulting, zest progress, reads that lasted, books, links",
+              "date": "2026-02-17",
+              "link": "https://www.scattered-thoughts.net/log/0057/"
+            },
+            {
+              "title": "2025",
+              "date": "2026-02-17",
+              "link": "https://www.scattered-thoughts.net/writing/2025/"
+            },
+            {
+              "title": "0056: consulting, zest progress, existentialize, modular borrowing, do we understand sql, zjit updates, books",
+              "date": "2025-12-06",
+              "link": "https://www.scattered-thoughts.net/log/0056/"
+            },
+            {
+              "title": "0055: consulting, sql needed structure, slow forum, on the line, out of thin air, papers, other stuff",
+              "date": "2025-11-01",
+              "link": "https://www.scattered-thoughts.net/log/0055/"
+            },
+            {
+              "title": "SQL needed structure",
+              "date": "2025-09-04",
+              "link": "https://www.scattered-thoughts.net/writing/sql-needed-structure/"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "A tiny, £20 keyboard! (And tips for using it on iOS)",
+              "date": "2026-02-16",
+              "link": "https://rosswintle.uk/2026/02/a-tiny-20-keyboard-and-tips-for-using-it-on-ios/"
+            },
+            {
+              "title": "YouSky: My one-person social network (Short version)",
+              "date": "2026-02-16",
+              "link": "https://rosswintle.uk/2026/02/yousky-my-one-person-social-network-short-version/"
+            },
+            {
+              "title": "Tick-tick: The best to-do app you maybe don’t know about",
+              "date": "2026-02-15",
+              "link": "https://rosswintle.uk/2026/02/tick-tick-the-best-to-do-app-you-maybe-dont-know-about/"
+            },
+            {
+              "title": "Non-plastic, non-scratch kitchen sponges are pretty good",
+              "date": "2026-02-15",
+              "link": "https://rosswintle.uk/2026/02/non-plastic-non-scratch-kitchen-sponges-are-pretty-good/"
+            },
+            {
+              "title": "LLMs helped/hindered me building a 1-person social media web app",
+              "date": "2026-01-19",
+              "link": "https://rosswintle.uk/2026/01/building-a-1-person-social-media-web-app-with-llms-ai/"
+            }
+          ]
+        },
+        {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "Here’s how to instruct a LLM to reference the ARIA Authoring Practices Guide",
+              "date": "2026-02-16",
+              "link": "https://ericwbailey.website/published/heres-how-to-instruct-a-llm-to-reference-the-aria-authoring-practices-guide/"
+            },
+            {
+              "title": "You probably shouldn’t be annotating focus order",
+              "date": "2026-02-04",
+              "link": "https://ericwbailey.website/published/you-probably-shouldnt-be-annotating-focus-order/"
+            },
+            {
+              "title": "How an accessibility designer adds keyboard shortcuts to a web app",
+              "date": "2026-01-28",
+              "link": "https://ericwbailey.website/published/how-an-accessibility-designer-adds-keyboard-shortcuts-to-a-web-app/"
+            },
+            {
+              "title": "Evaluating Fable’s pay-per-project offering",
+              "date": "2025-11-05",
+              "link": "https://ericwbailey.website/published/evaluating-fables-pay-per-project-offering/"
+            },
+            {
+              "title": "On inclusive personas and inclusive user research",
+              "date": "2025-07-31",
+              "link": "https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research/"
+            }
+          ]
+        },
+        {
+          "title": "Quantum Steps",
+          "feedUrl": "https://read.ceilfors.com/feed",
+          "items": [
+            {
+              "title": "AI-Enabled Teams #2: Clarifying Our AI Stance",
+              "date": "2026-02-16",
+              "link": "https://read.ceilfors.com/p/ai-enabled-teams-2-clarifying-our-ai-stance"
+            },
+            {
+              "title": "AI-Enabled Teams #1: Kicking Off the Series",
+              "date": "2026-02-09",
+              "link": "https://read.ceilfors.com/p/ai-enabled-teams-1-kicking-off-the"
+            },
+            {
+              "title": "How to become a Production Blocker in a CI Theatre",
+              "date": "2024-07-08",
+              "link": "https://read.ceilfors.com/p/how-to-become-a-production-blocker"
+            },
+            {
+              "title": "Seek concrete examples to deepen problem understanding: Lessons from Eric Evans (Part 2)",
+              "date": "2024-06-17",
+              "link": "https://read.ceilfors.com/p/concrete-examples-to-deepen-understanding"
+            },
+            {
+              "title": "The Unspoken Secrets of DDD: Lessons from Eric Evans ",
+              "date": "2024-06-07",
+              "link": "https://read.ceilfors.com/p/unspoken-secrets-of-ddd-lessons-from-eric-evans"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "TIL: Docker log rotation",
+              "date": "2026-02-16",
+              "link": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Using an engineering notebook",
+              "date": "2026-02-09",
+              "link": "https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Some good English word datasets",
+              "date": "2026-02-02",
+              "link": "https://ntietz.com/blog/good-english-word-datasets/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Making niche solutions is the point",
+              "date": "2026-01-26",
+              "link": "https://ntietz.com/blog/making-niche-solutions-is-the-point/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "3D printing my laptop ergonomic setup",
+              "date": "2026-01-19",
+              "link": "https://ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
+          "title": "Frills",
+          "feedUrl": "https://frills.dev/all.xml",
+          "items": [
+            {
+              "title": "Stardew Valley, In Person",
+              "date": "2026-02-15",
+              "link": "https://frills.dev/blog/2026/february/stardew-valley/"
+            },
+            {
+              "title": "We Mourn Our Craft",
+              "date": "2026-02-08",
+              "link": "https://nolanlawson.com/2026/02/07/we-mourn-our-craft/"
+            },
+            {
+              "title": "Actual Burnout",
+              "date": "2025-11-28",
+              "link": "https://frills.dev/blog/2025/november/actual-burnout/"
+            },
+            {
+              "title": "Indie Web Burnout",
+              "date": "2025-09-09",
+              "link": "https://frills.dev/blog/2025/september/indie-web-burnout/"
+            },
+            {
+              "title": "WCAG doesn't round",
+              "date": "2025-06-30",
+              "link": "https://tarnoff.info/2025/06/05/quick-tip-wcag-doesnt-round/"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Carl Cox On Waiheke",
+              "date": "2026-02-15",
+              "link": "https://flamedfury.com/posts/carl-cox-on-waiheke/"
+            },
+            {
+              "title": "The Guestbook Is Back",
+              "date": "2026-02-13",
+              "link": "https://flamedfury.com/posts/the-guestbook-is-back/"
+            },
+            {
+              "title": "Robin Hood (2025)",
+              "date": "2026-02-10",
+              "link": "https://flamedfury.com/posts/robin-hood-2025/"
+            },
+            {
+              "title": "Fresh 88x31 Buttons",
+              "date": "2026-02-09",
+              "link": "https://flamedfury.com/posts/fresh-88x31-buttons/"
+            },
+            {
+              "title": "The Summer Took Hold",
+              "date": "2026-02-09",
+              "link": "https://flamedfury.com/posts/the-summer-took-hold/"
+            }
+          ]
+        },
+        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
+            {
+              "title": "Believing In People",
+              "date": "2026-02-13",
+              "link": "http://agileotter.blogspot.com/2026/02/believing-in-people.html"
+            },
             {
               "title": "Do You Even Plan, Bro?",
               "date": "2026-02-06",
@@ -26,42 +677,161 @@
               "title": "Considering Spec Driven Development",
               "date": "2026-01-20",
               "link": "http://agileotter.blogspot.com/2026/01/considering-spec-driven-development.html"
-            },
-            {
-              "title": "Bash Variable Expansion",
-              "date": "2026-01-17",
-              "link": "http://agileotter.blogspot.com/2026/01/bash-variable-expansion.html"
             }
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
             {
-              "title": "Study Finds Obvious Truth Everybody Knows",
+              "title": "Contentment is a spectrum, too",
+              "date": "2026-02-11",
+              "link": "https://anniemueller.com/posts/contentment-is-a-spectrum-too"
+            },
+            {
+              "title": "This one goes out to the ones we love",
               "date": "2026-02-06",
-              "link": "https://blog.jim-nielsen.com/2026/study-finds-obvious-truth/"
+              "link": "https://anniemueller.com/posts/this-one-goes-out-to-the-ones-we-love"
             },
             {
-              "title": "Saying “No” In an Age of Abundance",
-              "date": "2026-02-03",
-              "link": "https://blog.jim-nielsen.com/2026/saying-no/"
+              "title": "Feeling something is okay I guess",
+              "date": "2026-01-31",
+              "link": "https://anniemueller.com/posts/feeling-something-is-okay-i-guess"
             },
             {
-              "title": "The Browser’s Little White Lies",
-              "date": "2026-02-01",
-              "link": "https://blog.jim-nielsen.com/2026/browsers-white-lies/"
+              "title": "To be defeated by ever greater things",
+              "date": "2026-01-02",
+              "link": "https://anniemueller.com/posts/to-be-defeated-by-ever-greater-things"
             },
             {
-              "title": "The Don’t “Contact Us” Page",
-              "date": "2026-01-28",
-              "link": "https://blog.jim-nielsen.com/2026/dont-contact-us-page/"
+              "title": "To sigh a deep sigh of releasing",
+              "date": "2025-12-22",
+              "link": "https://anniemueller.com/posts/to-sigh-a-deep-sigh-of-releasing"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "En Skeptiker Lærer AI-Utvikling Del 2: Bånn gass",
+              "date": "2026-02-10",
+              "link": "https://www.kodemaker.no/blogg/2026-02-10-en-skeptiker-laerer-ai-utvikling-del-2-bann-gass/"
             },
             {
-              "title": "You Can Just Say No to the Data",
-              "date": "2026-01-26",
-              "link": "https://blog.jim-nielsen.com/2026/say-no-to-data/"
+              "title": "En Skeptiker Lærer AI-Utvikling Del 1: Skepsis",
+              "date": "2026-02-04",
+              "link": "https://www.kodemaker.no/blogg/2026-02-04-en-skeptiker-laerer-ai-utvikling-del-1-skepsis/"
+            },
+            {
+              "title": "SSH-nøkler med 1Password",
+              "date": "2025-12-24",
+              "link": "https://www.kodemaker.no/blogg/2025-12-24-ssh-keys-1password/"
+            },
+            {
+              "title": "Ende-til-ende testing når alle lag er i bevegelse",
+              "date": "2025-12-15",
+              "link": "https://www.kodemaker.no/blogg/2025-12-15-alt-er-i-bevegelse/"
+            },
+            {
+              "title": "Bruk Python for skripting!",
+              "date": "2025-12-03",
+              "link": "https://www.kodemaker.no/blogg/2025-12-03-bruk-python-for-skripting/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Birds in February",
+              "date": "2026-02-09",
+              "link": "https://www.baldurbjarnason.com/notes/photos/birds-in-february-2026/"
+            },
+            {
+              "title": "Have I hardened against LLMs?",
+              "date": "2026-02-09",
+              "link": "https://www.baldurbjarnason.com/2026/have-i-hardened-against-ai/"
+            },
+            {
+              "title": "Black and white January",
+              "date": "2026-01-27",
+              "link": "https://www.baldurbjarnason.com/notes/photos/black-and-white-january-2026/"
+            },
+            {
+              "title": "Books as signifiers, the paradox of tolerance, and Nazi bars",
+              "date": "2026-01-27",
+              "link": "https://www.baldurbjarnason.com/2026/paradox-of-tolerance/"
+            },
+            {
+              "title": "'AI' is a dick move, redux",
+              "date": "2026-01-20",
+              "link": "https://www.baldurbjarnason.com/notes/2026/note-on-debating-llm-fans/"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "You Are Here",
+              "date": "2026-02-07",
+              "link": "http://brooker.co.za/blog/2026/02/07/you-are-here.html"
+            },
+            {
+              "title": "Pass@k is Mostly Bunk",
+              "date": "2026-01-21",
+              "link": "http://brooker.co.za/blog/2026/01/21/pass-k.html"
+            },
+            {
+              "title": "Agent Safety is a Box",
+              "date": "2026-01-12",
+              "link": "http://brooker.co.za/blog/2026/01/12/agent-box.html"
+            },
+            {
+              "title": "On the success of 'natural language programming'",
+              "date": "2025-12-16",
+              "link": "http://brooker.co.za/blog/2025/12/16/natural-language.html"
+            },
+            {
+              "title": "What Does a Database for SSDs Look Like?",
+              "date": "2025-12-15",
+              "link": "http://brooker.co.za/blog/2025/12/15/database-for-ssd.html"
+            }
+          ]
+        },
+        {
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
+          "items": [
+            {
+              "title": "Reflections after writing a release advice",
+              "date": "2026-02-07",
+              "link": "https://smallsheds.garden/blog/2026/reflections-after-writing-a-release-advice/"
+            },
+            {
+              "title": "Three basic truths about planning",
+              "date": "2026-01-17",
+              "link": "https://smallsheds.garden/blog/2026/three-basic-truths-about-planning/"
+            },
+            {
+              "title": "Not continuous everything!",
+              "date": "2025-12-20",
+              "link": "https://smallsheds.garden/blog/2025/not-continuous-everything/"
+            },
+            {
+              "title": "Testing types - beyond definitions",
+              "date": "2025-12-08",
+              "link": "https://smallsheds.garden/blog/2025/testing-types-beyond-definitions/"
+            },
+            {
+              "title": "We do not all have the same job",
+              "date": "2025-11-15",
+              "link": "https://smallsheds.garden/blog/2025/we-do-not-all-have-the-same-job/"
             }
           ]
         },
@@ -97,37 +867,6 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "This one goes out to the ones we love",
-              "date": "2026-02-06",
-              "link": "https://anniemueller.com/posts/this-one-goes-out-to-the-ones-we-love"
-            },
-            {
-              "title": "Feeling something is okay I guess",
-              "date": "2026-01-31",
-              "link": "https://anniemueller.com/posts/feeling-something-is-okay-i-guess"
-            },
-            {
-              "title": "To be defeated by ever greater things",
-              "date": "2026-01-02",
-              "link": "https://anniemueller.com/posts/to-be-defeated-by-ever-greater-things"
-            },
-            {
-              "title": "To sigh a deep sigh of releasing",
-              "date": "2025-12-22",
-              "link": "https://anniemueller.com/posts/to-sigh-a-deep-sigh-of-releasing"
-            },
-            {
-              "title": "Do you want to read a detailed post about eyelid surgery? Here it is. With photos.",
-              "date": "2025-12-14",
-              "link": "https://anniemueller.com/posts/do-you-want-to-read-a-detailed-post-about-eyelid-surgery-here-it-is-with-photos"
-            }
-          ]
-        },
-        {
           "title": "Patrick Dubroy's blog",
           "feedUrl": "https://dubroy.com/blog/rss.xml",
           "items": [
@@ -155,99 +894,6 @@
               "title": "Reflections on writing a book",
               "date": "2025-03-24",
               "link": "https://dubroy.com/blog/reflections-on-writing-a-book/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Container queries are rad AF!",
-              "date": "2026-02-04",
-              "link": "https://gomakethings.com/container-queries-are-rad-af/"
-            },
-            {
-              "title": "You don't need permission",
-              "date": "2026-01-26",
-              "link": "https://gomakethings.com/you-dont-need-permission/"
-            },
-            {
-              "title": "It's hard to give a shit",
-              "date": "2026-01-22",
-              "link": "https://gomakethings.com/its-hard-to-give-a-shit/"
-            },
-            {
-              "title": "Claudette Colvin",
-              "date": "2026-01-19",
-              "link": "https://gomakethings.com/claudette-colvin/"
-            },
-            {
-              "title": "When the tech leopard eats your face",
-              "date": "2026-01-15",
-              "link": "https://gomakethings.com/when-the-tech-leopard-eats-your-face/"
-            }
-          ]
-        },
-        {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "En Skeptiker Lærer AI-Utvikling Del 1: Skepsis",
-              "date": "2026-02-04",
-              "link": "https://www.kodemaker.no/blogg/2026-02-04-en-skeptiker-laerer-ai-utvikling-del-1-skepsis/"
-            },
-            {
-              "title": "SSH-nøkler med 1Password",
-              "date": "2025-12-24",
-              "link": "https://www.kodemaker.no/blogg/2025-12-24-ssh-keys-1password/"
-            },
-            {
-              "title": "Ende-til-ende testing når alle lag er i bevegelse",
-              "date": "2025-12-15",
-              "link": "https://www.kodemaker.no/blogg/2025-12-15-alt-er-i-bevegelse/"
-            },
-            {
-              "title": "Bruk Python for skripting!",
-              "date": "2025-12-03",
-              "link": "https://www.kodemaker.no/blogg/2025-12-03-bruk-python-for-skripting/"
-            },
-            {
-              "title": "Koselig med peis og lowcode",
-              "date": "2025-11-26",
-              "link": "https://www.kodemaker.no/blogg/2025-11-26-lowcode-ha-peis/"
-            }
-          ]
-        },
-        {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "You probably shouldn’t be annotating focus order",
-              "date": "2026-02-04",
-              "link": "https://ericwbailey.website/published/you-probably-shouldnt-be-annotating-focus-order/"
-            },
-            {
-              "title": "How an accessibility designer adds keyboard shortcuts to a web app",
-              "date": "2026-01-28",
-              "link": "https://ericwbailey.website/published/how-an-accessibility-designer-adds-keyboard-shortcuts-to-a-web-app/"
-            },
-            {
-              "title": "Evaluating Fable’s pay-per-project offering",
-              "date": "2025-11-05",
-              "link": "https://ericwbailey.website/published/evaluating-fables-pay-per-project-offering/"
-            },
-            {
-              "title": "On inclusive personas and inclusive user research",
-              "date": "2025-07-31",
-              "link": "https://ericwbailey.website/published/on-inclusive-personas-and-inclusive-user-research/"
-            },
-            {
-              "title": "Newsletters that regularly hit my inbox these days",
-              "date": "2025-07-14",
-              "link": "https://ericwbailey.website/published/newsletters-that-regularly-hit-my-inbox-these-days/"
             }
           ]
         },
@@ -283,99 +929,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Logic for Programmers New Release and Next Steps",
-              "date": "2026-02-04",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-new-release-and-next-steps/"
-            },
-            {
-              "title": "Refinement without Specification",
-              "date": "2026-01-20",
-              "link": "https://buttondown.com/hillelwayne/archive/refinement-without-specification/"
-            },
-            {
-              "title": "My Gripes with Prolog",
-              "date": "2026-01-14",
-              "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/"
-            },
-            {
-              "title": "The Liskov Substitution Principle does more than you think",
-              "date": "2026-01-06",
-              "link": "https://buttondown.com/hillelwayne/archive/the-liskov-substitution-principle-does-more-than/"
-            },
-            {
-              "title": "Some Fun Software Facts",
-              "date": "2025-12-10",
-              "link": "https://buttondown.com/hillelwayne/archive/some-fun-software-facts/"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2026-02-03",
-              "link": "https://macwright.com/2026/02/03/recently.html"
-            },
-            {
-              "title": "Sketches",
-              "date": "2026-01-31",
-              "link": "https://macwright.com/2026/01/31/sketches.html"
-            },
-            {
-              "title": "Theme selector",
-              "date": "2025-12-09",
-              "link": "https://macwright.com/2025/12/09/theme-selector.html"
-            },
-            {
-              "title": "A brief history of specifiers and protocols",
-              "date": "2025-12-08",
-              "link": "https://macwright.com/2025/12/08/module-specifiers-and-protocols.html"
-            },
-            {
-              "title": "2025 Year in Review",
-              "date": "2025-12-07",
-              "link": "https://macwright.com/2025/12/07/year-in-review.html"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[GR01.06] November tree shrine",
-              "date": "2026-02-03",
-              "link": "https://www.simplermachines.com/gr01-06-november-tree-shrine/"
-            },
-            {
-              "title": "[GR01.05] hay bales for sledding",
-              "date": "2026-01-27",
-              "link": "https://www.simplermachines.com/gr01-05-hay-bales-for-sledding/"
-            },
-            {
-              "title": "[GR01.04] baseball diamond",
-              "date": "2026-01-20",
-              "link": "https://www.simplermachines.com/gr01-04-2/"
-            },
-            {
-              "title": "[GR01.03] frozen crabapples, 4 long blocks from where Renee Nicole Good was shot by ICE",
-              "date": "2026-01-13",
-              "link": "https://www.simplermachines.com/gr01-03-frozen-crabapples-4-long-blocks-from-where-renee-nicole-good-was-shot-by-ice/"
-            },
-            {
-              "title": "[GR01.02] streetlights at sunset, before the lake finished freezing",
-              "date": "2026-01-06",
-              "link": "https://www.simplermachines.com/gr01-01-2/"
-            }
-          ]
-        },
-        {
           "title": "einarwh",
           "feedUrl": "https://einarwh.no/feed/atom.xml",
           "items": [
@@ -403,94 +956,6 @@
               "title": "Book heuristics",
               "date": "2025-06-20",
               "link": "https://einarwh.no/blog/2025/06/20/book-heuristics/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-02-02",
-              "link": "https://dbushell.com/notes/2026-02-02T07:01Z/"
-            },
-            {
-              "date": "2026-01-29",
-              "link": "https://dbushell.com/notes/2026-01-29T07:35Z/"
-            },
-            {
-              "date": "2026-01-27",
-              "link": "https://dbushell.com/notes/2026-01-27T19:51Z/"
-            },
-            {
-              "date": "2026-01-27",
-              "link": "https://dbushell.com/notes/2026-01-27T19:11Z/"
-            },
-            {
-              "date": "2026-01-27",
-              "link": "https://dbushell.com/notes/2026-01-27T08:32Z/"
-            }
-          ]
-        },
-        {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Some good English word datasets",
-              "date": "2026-02-02",
-              "link": "https://ntietz.com/blog/good-english-word-datasets/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Making niche solutions is the point",
-              "date": "2026-01-26",
-              "link": "https://ntietz.com/blog/making-niche-solutions-is-the-point/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "3D printing my laptop ergonomic setup",
-              "date": "2026-01-19",
-              "link": "https://ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Bayes theorem and how we talk about medical tests",
-              "date": "2026-01-12",
-              "link": "https://ntietz.com/blog/bayes-theorem-medical-tests/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Reflecting on 2025, preparing for 2026",
-              "date": "2026-01-05",
-              "link": "https://ntietz.com/blog/reflecting-on-2025-preparing-for-2026/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Strange Pictures",
-              "date": "2026-02-01",
-              "link": "https://robinrendle.com/notes/strange-pictures/"
-            },
-            {
-              "title": "People not people",
-              "date": "2026-01-10",
-              "link": "https://robinrendle.com/notes/people-not-people/"
-            },
-            {
-              "title": "v19",
-              "date": "2026-01-06",
-              "link": "https://robinrendle.com/notes/v19/"
-            },
-            {
-              "title": "This is just a place",
-              "date": "2025-12-23",
-              "link": "https://robinrendle.com/notes/this-is-just-a-place/"
-            },
-            {
-              "title": "So Many Websites",
-              "date": "2025-12-14",
-              "link": "https://robinrendle.com/notes/So-Many-Websites/"
             }
           ]
         },
@@ -557,37 +1022,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Mozilla Slopaganda",
-              "date": "2026-01-28",
-              "link": "https://dbushell.com/2026/01/28/mozilla-slopaganda/"
-            },
-            {
-              "title": "AI Policy and The Inevitable",
-              "date": "2026-01-26",
-              "link": "https://dbushell.com/2026/01/26/ai-policy-and-the-inevitable/"
-            },
-            {
-              "title": "Hmmarkdown 2",
-              "date": "2026-01-22",
-              "link": "https://dbushell.com/2026/01/22/hmmarkdown2/"
-            },
-            {
-              "title": "Proton Spam and the AI Consent Problem",
-              "date": "2026-01-22",
-              "link": "https://dbushell.com/2026/01/22/proton-spam/"
-            },
-            {
-              "title": "Winter 2026: Self-Hosted… Success!",
-              "date": "2026-01-19",
-              "link": "https://dbushell.com/2026/01/19/self-hosted-update-winter-2026/"
-            }
-          ]
-        },
-        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -615,68 +1049,6 @@
               "title": "No Seatbelt, No Job!",
               "date": "2025-09-25",
               "link": "https://moonbase.lgbt/blog/no-seatbelt-no-job/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Black and white January",
-              "date": "2026-01-27",
-              "link": "https://www.baldurbjarnason.com/notes/photos/black-and-white-january-2026/"
-            },
-            {
-              "title": "Books as signifiers, the paradox of tolerance, and Nazi bars",
-              "date": "2026-01-27",
-              "link": "https://www.baldurbjarnason.com/2026/paradox-of-tolerance/"
-            },
-            {
-              "title": "'AI' is a dick move, redux",
-              "date": "2026-01-20",
-              "link": "https://www.baldurbjarnason.com/notes/2026/note-on-debating-llm-fans/"
-            },
-            {
-              "title": "My town looks okay, for now (photos)",
-              "date": "2026-01-12",
-              "link": "https://www.baldurbjarnason.com/notes/photos/my-town-looks-okay-for-now/"
-            },
-            {
-              "title": "A foggy respite",
-              "date": "2025-12-31",
-              "link": "https://www.baldurbjarnason.com/2025/a-foggy-respite/"
-            }
-          ]
-        },
-        {
-          "title": "leanrada.com notes",
-          "feedUrl": "https://leanrada.com/rss.xml",
-          "items": [
-            {
-              "title": "Cool URLs don’t change with snapshot testing",
-              "date": "2026-01-25",
-              "link": "https://leanrada.com/notes/cool-urls-with-snapshot-testing/?ref=rss"
-            },
-            {
-              "title": "Implementing a Baybayin abugida input method on keyboard hardware",
-              "date": "2026-01-05",
-              "link": "https://leanrada.com/notes/baybayin_abugida_keyboard_qmk/?ref=rss"
-            },
-            {
-              "title": "Editing my website directly in the browser",
-              "date": "2025-09-01",
-              "link": "https://leanrada.com/notes/editing-website-in-browser/?ref=rss"
-            },
-            {
-              "title": "Making my GitHub heatmap widget",
-              "date": "2025-08-04",
-              "link": "https://leanrada.com/notes/github-heatmap-widget/?ref=rss"
-            },
-            {
-              "title": "Vibecoding Lima Gang, web-based map visualization",
-              "date": "2025-06-13",
-              "link": "https://leanrada.com/notes/vibecoding-lima-gang/?ref=rss"
             }
           ]
         },
@@ -712,157 +1084,33 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "title": "leanrada.com notes",
+          "feedUrl": "https://leanrada.com/rss.xml",
           "items": [
             {
-              "title": "Tempted to stick with my old Mac a bit longer",
-              "date": "2026-01-23",
-              "link": "https://thejollyteapot.com/2026/01/23/tempted-to-stick-with-my-old-mac-a-bit-longer/"
+              "title": "Cool URLs don’t change with snapshot testing",
+              "date": "2026-01-25",
+              "link": "https://leanrada.com/notes/cool-urls-with-snapshot-testing/?ref=rss"
             },
             {
-              "title": "January 2026 blend of links",
-              "date": "2026-01-19",
-              "link": "https://thejollyteapot.com/january-2026-blend/"
+              "title": "Implementing a Baybayin abugida input method on keyboard hardware",
+              "date": "2026-01-05",
+              "link": "https://leanrada.com/notes/baybayin_abugida_keyboard_qmk/?ref=rss"
             },
             {
-              "title": "The frustration of a perfect setup",
-              "date": "2026-01-11",
-              "link": "https://thejollyteapot.com/2026/01/11/the-frustration-of-a-perfect-setup/"
+              "title": "Editing my website directly in the browser",
+              "date": "2025-09-01",
+              "link": "https://leanrada.com/notes/editing-website-in-browser/?ref=rss"
             },
             {
-              "title": "New year, new me, new web browsing setup?",
-              "date": "2026-01-03",
-              "link": "https://thejollyteapot.com/2026/01/03/new-year-new-me-new-web-browsing-setup/"
+              "title": "Making my GitHub heatmap widget",
+              "date": "2025-08-04",
+              "link": "https://leanrada.com/notes/github-heatmap-widget/?ref=rss"
             },
             {
-              "title": "December 2025 blend of links",
-              "date": "2025-12-30",
-              "link": "https://thejollyteapot.com/december-2025-blend/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Pass@k is Mostly Bunk",
-              "date": "2026-01-21",
-              "link": "http://brooker.co.za/blog/2026/01/21/pass-k.html"
-            },
-            {
-              "title": "Agent Safety is a Box",
-              "date": "2026-01-12",
-              "link": "http://brooker.co.za/blog/2026/01/12/agent-box.html"
-            },
-            {
-              "title": "On the success of 'natural language programming'",
-              "date": "2025-12-16",
-              "link": "http://brooker.co.za/blog/2025/12/16/natural-language.html"
-            },
-            {
-              "title": "What Does a Database for SSDs Look Like?",
-              "date": "2025-12-15",
-              "link": "http://brooker.co.za/blog/2025/12/15/database-for-ssd.html"
-            },
-            {
-              "title": "What Now? Handling Errors in Large Systems",
-              "date": "2025-11-20",
-              "link": "http://brooker.co.za/blog/2025/11/20/what-now.html"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "Naked Power",
-              "date": "2026-01-20",
-              "link": "https://infrequently.org/2026/01/naked-power/"
-            },
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            },
-            {
-              "title": "Apple's Antitrust Playbook",
-              "date": "2025-09-25",
-              "link": "https://infrequently.org/2025/09/apples-antitrust-playbook/"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "Bring Back Ops Pride (xpost)",
-              "date": "2026-01-19",
-              "link": "https://charity.wtf/2026/01/19/bring-back-ops-pride-xpost/"
-            },
-            {
-              "title": "On Friday Deploys: Sometimes that Puppy Needs Murdering (xpost)",
-              "date": "2025-12-24",
-              "link": "https://charity.wtf/2025/12/24/on-friday-deploys-sometimes-that-puppy-needs-murdering-xpost/"
-            },
-            {
-              "title": "2025 was for AI what 2010 was for cloud (xpost)",
-              "date": "2025-12-22",
-              "link": "https://charity.wtf/2025/12/22/2025-was-for-ai-what-2010-was-for-cloud-xpost/"
-            },
-            {
-              "title": "Hello World (xpost from substack)",
-              "date": "2025-12-19",
-              "link": "https://charity.wtf/2025/12/19/hello-world-xpost-from-substack/"
-            },
-            {
-              "title": "Moving from WordPress to Substack",
-              "date": "2025-12-14",
-              "link": "https://charity.wtf/2025/12/14/moving-from-wordpress-to-substack/"
-            }
-          ]
-        },
-        {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "LLMs helped/hindered me building a 1-person social media web app",
-              "date": "2026-01-19",
-              "link": "https://rosswintle.uk/2026/01/building-a-1-person-social-media-web-app-with-llms-ai/"
-            },
-            {
-              "title": "Trust me: You don’t want to make little personal apps… especially not like that!",
-              "date": "2026-01-18",
-              "link": "https://rosswintle.uk/2026/01/trust-me-you-dont-want-to-make-little-personal-apps-especially-not-like-that/"
-            },
-            {
-              "title": "The amazing ways Playtiles uses the web for retro gaming",
-              "date": "2025-11-22",
-              "link": "https://rosswintle.uk/2025/11/the-amazing-ways-playtiles-uses-the-web-for-retro-gaming/"
-            },
-            {
-              "title": "Software can be finished",
-              "date": "2025-10-13",
-              "link": "https://rosswintle.uk/2025/10/software-can-be-finished/"
-            },
-            {
-              "title": "LoopConf and 25 Lessons",
-              "date": "2025-10-04",
-              "link": "https://rosswintle.uk/2025/10/loopconf-and-25-lessons/"
+              "title": "Vibecoding Lima Gang, web-based map visualization",
+              "date": "2025-06-13",
+              "link": "https://leanrada.com/notes/vibecoding-lima-gang/?ref=rss"
             }
           ]
         },
@@ -894,37 +1142,6 @@
               "title": "Oxidise Your Command Line (2025 Edition)",
               "date": "2025-05-22",
               "link": "https://www.youtube.com/watch?v=rWMQ-g2QDsI"
-            }
-          ]
-        },
-        {
-          "title": "Joep Schuurkes",
-          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
-          "items": [
-            {
-              "title": "Three basic truths about planning",
-              "date": "2026-01-17",
-              "link": "https://smallsheds.garden/blog/2026/three-basic-truths-about-planning/"
-            },
-            {
-              "title": "Not continuous everything!",
-              "date": "2025-12-20",
-              "link": "https://smallsheds.garden/blog/2025/not-continuous-everything/"
-            },
-            {
-              "title": "Testing types - beyond definitions",
-              "date": "2025-12-08",
-              "link": "https://smallsheds.garden/blog/2025/testing-types-beyond-definitions/"
-            },
-            {
-              "title": "We do not all have the same job",
-              "date": "2025-11-15",
-              "link": "https://smallsheds.garden/blog/2025/we-do-not-all-have-the-same-job/"
-            },
-            {
-              "title": "The five areas of Agile",
-              "date": "2025-11-01",
-              "link": "https://smallsheds.garden/blog/2025/the-five-areas-of-agile/"
             }
           ]
         },
@@ -1049,37 +1266,6 @@
               "title": "The Cloud Is Not Optional",
               "date": "2023-07-14",
               "link": "https://softwaremaxims.com/blog/cloud-not-optional"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Working Remotely From Martinborough",
-              "date": "2026-01-09",
-              "link": "https://flamedfury.com/posts/working-remotely-from-martinborough/"
-            },
-            {
-              "title": "New Year’s Eve in the Marlborough Sounds",
-              "date": "2026-01-05",
-              "link": "https://flamedfury.com/posts/new-years-eve-in-the-marlborough-sounds/"
-            },
-            {
-              "title": "Music I Listened to in 2025",
-              "date": "2025-12-31",
-              "link": "https://flamedfury.com/posts/music-i-listened-to-in-2025/"
-            },
-            {
-              "title": "Books I Read in 2025",
-              "date": "2025-12-31",
-              "link": "https://flamedfury.com/posts/books-i-read-in-2025/"
-            },
-            {
-              "title": "Orakei Korako Cave &amp; Geothermal Park",
-              "date": "2025-12-28",
-              "link": "https://flamedfury.com/posts/orakei-korako-cave-and-geothermal-park/"
             }
           ]
         },
@@ -1239,6 +1425,37 @@
           ]
         },
         {
+          "title": "Curly Tail, Curly Braces",
+          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
+          "items": [
+            {
+              "title": "My 2025 In Review",
+              "date": "2025-12-31",
+              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
+            },
+            {
+              "title": "The Localhost Podcast CLI Tool",
+              "date": "2025-10-18",
+              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
+            },
+            {
+              "title": "Buying Tech Books in South Africa",
+              "date": "2025-05-16",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
+            },
+            {
+              "title": "My Exobrain",
+              "date": "2025-05-03",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
+            },
+            {
+              "title": "New Songbook Added to this Blog",
+              "date": "2024-06-25",
+              "link": "https://www.worthe-it.co.za/blog/2024-06-26-new-songbook-added-to-this-blog.html"
+            }
+          ]
+        },
+        {
           "title": "HeydonWorks",
           "feedUrl": "https://heydonworks.com/feed.xml",
           "items": [
@@ -1332,37 +1549,6 @@
           ]
         },
         {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "0056: consulting, zest progress, existentialize, modular borrowing, do we understand sql, zjit updates, books",
-              "date": "2025-12-06",
-              "link": "https://www.scattered-thoughts.net/log/0056/"
-            },
-            {
-              "title": "0055: consulting, sql needed structure, slow forum, on the line, out of thin air, papers, other stuff",
-              "date": "2025-11-01",
-              "link": "https://www.scattered-thoughts.net/log/0055/"
-            },
-            {
-              "title": "SQL needed structure",
-              "date": "2025-09-04",
-              "link": "https://www.scattered-thoughts.net/writing/sql-needed-structure/"
-            },
-            {
-              "title": "0054: zest namespaces, store tags after payloads, go allocation probe, everyones got one, pprof labelguns, go value types, go perf probe, tpde, anyblox, books",
-              "date": "2025-09-02",
-              "link": "https://www.scattered-thoughts.net/log/0054/"
-            },
-            {
-              "title": "Everyone's got one",
-              "date": "2025-08-05",
-              "link": "https://www.scattered-thoughts.net/writing/everyones-got-one/"
-            }
-          ]
-        },
-        {
           "title": "sunshowers",
           "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
@@ -1390,37 +1576,6 @@
               "title": "Demystifying monads in Rust through property-based testing",
               "date": "2025-02-19",
               "link": "https://sunshowers.io/posts/monads-through-pbt/"
-            }
-          ]
-        },
-        {
-          "title": "Frills",
-          "feedUrl": "https://frills.dev/all.xml",
-          "items": [
-            {
-              "title": "Actual Burnout",
-              "date": "2025-11-28",
-              "link": "https://frills.dev/blog/2025/november/actual-burnout/"
-            },
-            {
-              "title": "Indie Web Burnout",
-              "date": "2025-09-09",
-              "link": "https://frills.dev/blog/2025/september/indie-web-burnout/"
-            },
-            {
-              "title": "WCAG doesn't round",
-              "date": "2025-06-30",
-              "link": "https://tarnoff.info/2025/06/05/quick-tip-wcag-doesnt-round/"
-            },
-            {
-              "title": "Feedback Is Not an Attack",
-              "date": "2025-06-25",
-              "link": "https://ashley.dev/posts/feedback-is-not-an-attack/"
-            },
-            {
-              "title": "Changelog –\n        12 Jun 2025\n      ",
-              "date": "2025-06-12",
-              "link": "https://frills.dev/changelog/250612/"
             }
           ]
         },
@@ -1576,37 +1731,6 @@
               "title": "Taking SVG “screenshots” of HTML elements",
               "date": "2025-09-29",
               "link": "https://2ality.com/2025/09/svg-screenshots.html"
-            }
-          ]
-        },
-        {
-          "title": "Good Tech Things",
-          "feedUrl": "https://newsletter.goodtechthings.com/feed",
-          "items": [
-            {
-              "title": "When everybody's down, nobody is",
-              "date": "2025-10-23",
-              "link": "https://newsletter.goodtechthings.com/p/when-everybodys-down-nobody-is"
-            },
-            {
-              "title": "Harsh truths to save you from ChatGPT psychosis",
-              "date": "2025-08-14",
-              "link": "https://newsletter.goodtechthings.com/p/harsh-truths-to-save-you-from-chatgpt"
-            },
-            {
-              "title": "Breaking some huge personal news",
-              "date": "2025-02-07",
-              "link": "https://newsletter.goodtechthings.com/p/breaking-some-huge-personal-news"
-            },
-            {
-              "title": "I'm glad I took the off-ramp from software engineering",
-              "date": "2025-01-22",
-              "link": "https://newsletter.goodtechthings.com/p/you-get-10-years-to-be-a-software"
-            },
-            {
-              "title": "Notes on Nix",
-              "date": "2025-01-20",
-              "link": "https://newsletter.goodtechthings.com/p/notes-on-nix"
             }
           ]
         },
@@ -1859,6 +1983,37 @@
           ]
         },
         {
+          "title": "Untested · Rafał Pastuszak",
+          "feedUrl": "https://untested.sonnet.io/feed.xml",
+          "items": [
+            {
+              "title": "DISOBEY",
+              "date": "2025-09-23",
+              "link": "https://untested.sonnet.io/notes/disobey/"
+            },
+            {
+              "title": "Ensō Themes – Accessible, Vampiric, Cozy",
+              "date": "2025-09-12",
+              "link": "https://untested.sonnet.io/notes/enso-themes-accessible-vampiric-cozy/"
+            },
+            {
+              "title": "433 - How to Make a Font that Says Nothing",
+              "date": "2025-07-22",
+              "link": "https://untested.sonnet.io/notes/433-how-to-make-a-font-that-says-nothing/"
+            },
+            {
+              "title": "How People Use Ensō",
+              "date": "2025-07-04",
+              "link": "https://untested.sonnet.io/notes/how-people-use-enso/"
+            },
+            {
+              "title": "New Ensō - first public beta",
+              "date": "2025-06-27",
+              "link": "https://untested.sonnet.io/notes/new-enso-first-public-beta/"
+            }
+          ]
+        },
+        {
           "title": "Mathias Verraes",
           "feedUrl": "https://verraes.net/feed.atom",
           "items": [
@@ -1886,37 +2041,6 @@
               "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
               "date": "2024-01-08",
               "link": "https://verraes.net/2024/01/critical-software-redesign/"
-            }
-          ]
-        },
-        {
-          "title": "Sara Joy",
-          "feedUrl": "https://sarajoy.dev/rss.xml",
-          "items": [
-            {
-              "title": "Farmors Chokladkaka",
-              "date": "2025-07-21",
-              "link": "https://sarajoy.dev/blog/farmors-chokladkaka/"
-            },
-            {
-              "title": "Work with Illustrators & Designers",
-              "date": "2025-07-17",
-              "link": "https://sarajoy.dev/blog/whimsica11y-logo/"
-            },
-            {
-              "title": "Those annoying long URLs causing overflow?",
-              "date": "2025-05-22",
-              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
-            },
-            {
-              "title": "Come to the light-dark() Side",
-              "date": "2024-10-26",
-              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
-            },
-            {
-              "title": "Doug Engelbart or: How We Learned to Stop Commanding and Love the Mouse",
-              "date": "2024-09-30",
-              "link": "https://sarajoy.dev/blog/see-and-point/"
             }
           ]
         },
@@ -1979,37 +2103,6 @@
               "title": "On browser compatibility and support baselines",
               "date": "2023-05-12",
               "link": "https://molily.de/browser-compatibility-baseline/"
-            }
-          ]
-        },
-        {
-          "title": "Jennifer++",
-          "feedUrl": "https://jenniferplusplus.com/rss/",
-          "items": [
-            {
-              "title": "I want to go home",
-              "date": "2025-04-17",
-              "link": "https://jenniferplusplus.com/i-want-to-go-home/"
-            },
-            {
-              "title": "Gresham's law of programming",
-              "date": "2024-11-29",
-              "link": "https://jenniferplusplus.com/greshams-law-of-programming/"
-            },
-            {
-              "title": "Test using OpenTelemetry traces in Asp.Net",
-              "date": "2024-09-21",
-              "link": "https://jenniferplusplus.com/test-traces-in-aspnet/"
-            },
-            {
-              "title": "The free software commons",
-              "date": "2024-04-05",
-              "link": "https://jenniferplusplus.com/the-free-software-commons/"
-            },
-            {
-              "title": "Letterbook - No universal translators",
-              "date": "2023-12-25",
-              "link": "https://jenniferplusplus.com/no-universal-translators/"
             }
           ]
         },
@@ -2155,37 +2248,6 @@
               "title": "Iteration Is The Only Way I Know",
               "date": "2023-10-28",
               "link": "https://nonlinear.garden/archive/iteration-is-the-only-way-i-know/"
-            }
-          ]
-        },
-        {
-          "title": "Quantum Steps",
-          "feedUrl": "https://read.ceilfors.com/feed",
-          "items": [
-            {
-              "title": "How to become a Production Blocker in a CI Theatre",
-              "date": "2024-07-08",
-              "link": "https://read.ceilfors.com/p/how-to-become-a-production-blocker"
-            },
-            {
-              "title": "Seek concrete examples to deepen problem understanding: Lessons from Eric Evans (Part 2)",
-              "date": "2024-06-17",
-              "link": "https://read.ceilfors.com/p/concrete-examples-to-deepen-understanding"
-            },
-            {
-              "title": "The Unspoken Secrets of DDD: Lessons from Eric Evans ",
-              "date": "2024-06-07",
-              "link": "https://read.ceilfors.com/p/unspoken-secrets-of-ddd-lessons-from-eric-evans"
-            },
-            {
-              "title": "Crossing the Road Together",
-              "date": "2023-11-24",
-              "link": "https://read.ceilfors.com/p/crossing-the-road-together"
-            },
-            {
-              "title": "Write Forgettable Code",
-              "date": "2023-11-17",
-              "link": "https://read.ceilfors.com/p/write-forgettable-code"
             }
           ]
         },
@@ -2368,15 +2430,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-02-07T04:26:42.879Z",
+  "fetchDate": "2026-02-23T04:55:46.346Z",
   "errors": [
+    "https://infrequently.org/feed/",
     "https://angryweasel.com/blog/feed/",
-    "https://www.worthe-it.co.za/atom.xml",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml",
-    "https://untested.sonnet.io/feed.xml",
-    "https://jvns.ca/atom.xml"
+    "https://mikegrindle.com/feed.xml"
   ]
 }

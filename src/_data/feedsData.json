@@ -4,6 +4,156 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-04-13",
+              "link": "https://dbushell.com/notes/2026-04-13T05:35Z/"
+            },
+            {
+              "date": "2026-04-09",
+              "link": "https://dbushell.com/notes/2026-04-09T05:29Z/"
+            },
+            {
+              "date": "2026-04-08",
+              "link": "https://dbushell.com/notes/2026-04-08T05:58Z/"
+            },
+            {
+              "date": "2026-04-07",
+              "link": "https://dbushell.com/notes/2026-04-07T05:48Z/"
+            },
+            {
+              "date": "2026-04-01",
+              "link": "https://dbushell.com/notes/2026-04-01T13:51Z/"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Happy Easter 2026",
+              "date": "2026-04-13",
+              "link": "https://flamedfury.com/posts/happy-easter-2026/"
+            },
+            {
+              "title": "Link Dump: March 2026",
+              "date": "2026-04-05",
+              "link": "https://flamedfury.com/posts/link-dump-march-2026/"
+            },
+            {
+              "title": "Bic Runga At Te Paepae Theatre",
+              "date": "2026-03-31",
+              "link": "https://flamedfury.com/posts/bic-runga-at-te-paepae-theatre/"
+            },
+            {
+              "title": "Moving My Bookmarks To Linkding",
+              "date": "2026-03-23",
+              "link": "https://flamedfury.com/posts/moving-my-bookmarks-to-linkding/"
+            },
+            {
+              "title": "MF DOOM: Long Island to Leeds",
+              "date": "2026-03-23",
+              "link": "https://flamedfury.com/posts/mf-doom-long-island-to-leeds/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "That’s a Skill Issue",
+              "date": "2026-04-12",
+              "link": "https://blog.jim-nielsen.com/2026/skill-issue/"
+            },
+            {
+              "title": "Fewer Computers, Fewer Problems: Going Local With Builds & Deployments",
+              "date": "2026-04-09",
+              "link": "https://blog.jim-nielsen.com/2026/fewer-computers-fewer-problems/"
+            },
+            {
+              "title": "Prototyping with LLMs",
+              "date": "2026-04-06",
+              "link": "https://blog.jim-nielsen.com/2026/prototyping-with-llm/"
+            },
+            {
+              "title": "I Tried Vibing an RSS Reader and My Dreams Did Not Come True",
+              "date": "2026-04-05",
+              "link": "https://blog.jim-nielsen.com/2026/vibe-dreams-didnt-come-true/"
+            },
+            {
+              "title": "The Blandness of Systematic Rules vs. The Delight of Localized Sensitivity",
+              "date": "2026-04-02",
+              "link": "https://blog.jim-nielsen.com/2026/systemic-vs-localized/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Don’t Let AI Invert The Testing Pyramid",
+              "date": "2026-04-12",
+              "link": "https://thinkinglabs.io/articles/2026/04/12/dont-let-ai-invert-the-testing-pyramid.html"
+            },
+            {
+              "title": "Coping Mechanisms for Introverts",
+              "date": "2026-01-15",
+              "link": "https://thinkinglabs.io/articles/2026/01/15/coping-mechanisms-for-introverts.html"
+            },
+            {
+              "title": "On the Effectiveness of Pair Programming",
+              "date": "2026-01-13",
+              "link": "https://thinkinglabs.io/articles/2026/01/13/on-the-effectiveness-of-pair-programming.html"
+            },
+            {
+              "title": "What is Continuous Delivery?",
+              "date": "2026-01-09",
+              "link": "https://thinkinglabs.io/articles/2026/01/09/what-is-continuous-delivery.html"
+            },
+            {
+              "title": "a Junior, a Senior and I - on Team Practices",
+              "date": "2025-11-06",
+              "link": "https://thinkinglabs.io/articles/2025/11/06/a-junior-a-senior-and-i-on-team-practices.html"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "increasing test coverage is not \"naturally additive\" wrt loc",
+              "date": "2026-04-12",
+              "link": "https://garoof.no/notes/coverage-not-additive.html"
+            },
+            {
+              "title": "A thing that happened when introducing more purely functional objects in Java",
+              "date": "2026-01-03",
+              "link": "https://garoof.no/java/purely-functional-objects.html"
+            },
+            {
+              "title": "Pixels from images",
+              "date": "2025-12-04",
+              "link": "https://garoof.no/notes/pixels-from-images.html"
+            },
+            {
+              "title": "Pixels",
+              "date": "2025-11-09",
+              "link": "https://garoof.no/notes/pixels.html"
+            },
+            {
+              "title": "Even if it's arbitrary",
+              "date": "2025-11-08",
+              "link": "https://garoof.no/notes/even-if-its-arbitrary.html"
+            }
+          ]
+        },
+        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -97,37 +247,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Fewer Computers, Fewer Problems: Going Local With Builds & Deployments",
-              "date": "2026-04-09",
-              "link": "https://blog.jim-nielsen.com/2026/fewer-computers-fewer-problems/"
-            },
-            {
-              "title": "Prototyping with LLMs",
-              "date": "2026-04-06",
-              "link": "https://blog.jim-nielsen.com/2026/prototyping-with-llm/"
-            },
-            {
-              "title": "I Tried Vibing an RSS Reader and My Dreams Did Not Come True",
-              "date": "2026-04-05",
-              "link": "https://blog.jim-nielsen.com/2026/vibe-dreams-didnt-come-true/"
-            },
-            {
-              "title": "The Blandness of Systematic Rules vs. The Delight of Localized Sensitivity",
-              "date": "2026-04-02",
-              "link": "https://blog.jim-nielsen.com/2026/systemic-vs-localized/"
-            },
-            {
-              "title": "Continuous, Continuous, Continuous",
-              "date": "2026-03-30",
-              "link": "https://blog.jim-nielsen.com/2026/continuous-continuous-continuous/"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -186,32 +305,6 @@
               "title": "Evaluating Fable’s pay-per-project offering",
               "date": "2025-11-05",
               "link": "https://ericwbailey.website/published/evaluating-fables-pay-per-project-offering/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-04-09",
-              "link": "https://dbushell.com/notes/2026-04-09T05:29Z/"
-            },
-            {
-              "date": "2026-04-08",
-              "link": "https://dbushell.com/notes/2026-04-08T05:58Z/"
-            },
-            {
-              "date": "2026-04-07",
-              "link": "https://dbushell.com/notes/2026-04-07T05:48Z/"
-            },
-            {
-              "date": "2026-04-01",
-              "link": "https://dbushell.com/notes/2026-04-01T13:51Z/"
-            },
-            {
-              "date": "2026-03-31",
-              "link": "https://dbushell.com/notes/2026-03-31T07:48Z/"
             }
           ]
         },
@@ -371,37 +464,6 @@
           ]
         },
         {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Link Dump: March 2026",
-              "date": "2026-04-05",
-              "link": "https://flamedfury.com/posts/link-dump-march-2026/"
-            },
-            {
-              "title": "Bic Runga At Te Paepae Theatre",
-              "date": "2026-03-31",
-              "link": "https://flamedfury.com/posts/bic-runga-at-te-paepae-theatre/"
-            },
-            {
-              "title": "Moving My Bookmarks To Linkding",
-              "date": "2026-03-23",
-              "link": "https://flamedfury.com/posts/moving-my-bookmarks-to-linkding/"
-            },
-            {
-              "title": "MF DOOM: Long Island to Leeds",
-              "date": "2026-03-23",
-              "link": "https://flamedfury.com/posts/mf-doom-long-island-to-leeds/"
-            },
-            {
-              "title": "Damn, I Can Still Read",
-              "date": "2026-03-17",
-              "link": "https://flamedfury.com/posts/damn-i-can-still-read/"
-            }
-          ]
-        },
-        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -460,37 +522,6 @@
               "title": "Not continuous everything!",
               "date": "2025-12-20",
               "link": "https://smallsheds.garden/blog/2025/not-continuous-everything/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Web Is An Antitrust Wedge",
-              "date": "2026-04-03",
-              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
-            },
-            {
-              "title": "Naked Power",
-              "date": "2026-01-20",
-              "link": "https://infrequently.org/2026/01/naked-power/"
-            },
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
             }
           ]
         },
@@ -1482,37 +1513,6 @@
           ]
         },
         {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "Coping Mechanisms for Introverts",
-              "date": "2026-01-15",
-              "link": "https://thinkinglabs.io/articles/2026/01/15/coping-mechanisms-for-introverts.html"
-            },
-            {
-              "title": "On the Effectiveness of Pair Programming",
-              "date": "2026-01-13",
-              "link": "https://thinkinglabs.io/articles/2026/01/13/on-the-effectiveness-of-pair-programming.html"
-            },
-            {
-              "title": "What is Continuous Delivery?",
-              "date": "2026-01-09",
-              "link": "https://thinkinglabs.io/articles/2026/01/09/what-is-continuous-delivery.html"
-            },
-            {
-              "title": "a Junior, a Senior and I - on Team Practices",
-              "date": "2025-11-06",
-              "link": "https://thinkinglabs.io/articles/2025/11/06/a-junior-a-senior-and-i-on-team-practices.html"
-            },
-            {
-              "title": "a Junior, a Senior and I - on Metrics",
-              "date": "2025-11-06",
-              "link": "https://thinkinglabs.io/articles/2025/11/06/a-junior-a-senior-and-i-on-metrics.html"
-            }
-          ]
-        },
-        {
           "title": "Kyle Shevlin's Blog RSS Feed",
           "feedUrl": "https://kyleshevlin.com/rss.xml",
           "items": [
@@ -1664,37 +1664,6 @@
               "title": "Attempting to Stay Calm and Steady - Concluding Remarks",
               "date": "2025-11-11",
               "link": "https://www.lisihocke.com/2025/11/attempting-to-stay-calm-and-steady-concluding-remarks.html"
-            }
-          ]
-        },
-        {
-          "title": "garoof dot nope",
-          "feedUrl": "https://garoof.no/feed.xml",
-          "items": [
-            {
-              "title": "A thing that happened when introducing more purely functional objects in Java",
-              "date": "2026-01-03",
-              "link": "https://garoof.no/java/purely-functional-objects.html"
-            },
-            {
-              "title": "Pixels from images",
-              "date": "2025-12-04",
-              "link": "https://garoof.no/notes/pixels-from-images.html"
-            },
-            {
-              "title": "Pixels",
-              "date": "2025-11-09",
-              "link": "https://garoof.no/notes/pixels.html"
-            },
-            {
-              "title": "Even if it's arbitrary",
-              "date": "2025-11-08",
-              "link": "https://garoof.no/notes/even-if-its-arbitrary.html"
-            },
-            {
-              "title": "AI then",
-              "date": "2025-09-03",
-              "link": "https://garoof.no/notes/ai.html"
             }
           ]
         },
@@ -1974,37 +1943,6 @@
               "title": "How Did the Blog Do in 2024?",
               "date": "2025-04-04",
               "link": "https://boehs.org/node/the-blog-in-2024"
-            }
-          ]
-        },
-        {
-          "title": "Fynn Ellie Be",
-          "feedUrl": "https://fynn.be/feed.xml",
-          "items": [
-            {
-              "title": "On drugs",
-              "date": "2025-10-11",
-              "link": "https://fynn.be/blog/on-drugs/"
-            },
-            {
-              "title": "Sunset v31",
-              "date": "2025-08-03",
-              "link": "https://fynn.be/sunset/v31/"
-            },
-            {
-              "title": "Sunset v30",
-              "date": "2025-07-07",
-              "link": "https://fynn.be/sunset/v30/"
-            },
-            {
-              "title": "Revisiting my German pronouns",
-              "date": "2025-07-05",
-              "link": "https://fynn.be/blog/revisiting-my-german-pronouns/"
-            },
-            {
-              "title": "Tackling Temporal Troubles",
-              "date": "2025-06-10",
-              "link": "https://fynn.be/talks/tackling-temporal-troubles/"
             }
           ]
         },
@@ -2466,12 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-04-12T05:20:56.626Z",
+  "fetchDate": "2026-04-14T05:21:06.952Z",
   "errors": [
-    "https://angryweasel.com/blog/feed/",
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
-    "https://mikegrindle.com/feed.xml"
+    "https://mikegrindle.com/feed.xml",
+    "https://fynn.be/feed.xml",
+    "https://angryweasel.com/blog/feed/"
   ]
 }

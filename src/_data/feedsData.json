@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-05-21",
+              "link": "https://dbushell.com/notes/2026-05-21T04:46Z/"
+            },
+            {
+              "date": "2026-05-20",
+              "link": "https://dbushell.com/notes/2026-05-20T12:47Z/"
+            },
+            {
+              "date": "2026-05-19",
+              "link": "https://dbushell.com/notes/2026-05-19T07:54Z/"
+            },
+            {
+              "date": "2026-05-17",
+              "link": "https://dbushell.com/notes/2026-05-17T18:21Z/"
+            },
+            {
+              "date": "2026-05-17",
+              "link": "https://dbushell.com/notes/2026-05-17T17:40Z/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Google just spat in my face",
+              "date": "2026-05-20",
+              "link": "https://dbushell.com/2026/05/20/google-just-spat-in-my-face/"
+            },
+            {
+              "title": "Web whetstones",
+              "date": "2026-05-18",
+              "link": "https://dbushell.com/2026/05/18/web-whetstone/"
+            },
+            {
+              "title": "Surveys will continue until diversity improves",
+              "date": "2026-05-15",
+              "link": "https://dbushell.com/2026/05/15/surveys-will-continue-until-diversity-improves/"
+            },
+            {
+              "title": "Unscrewing lightbulbs",
+              "date": "2026-05-08",
+              "link": "https://dbushell.com/2026/05/08/self-hosted-update-spring-2026/"
+            },
+            {
+              "title": "GitHub is sinking",
+              "date": "2026-04-29",
+              "link": "https://dbushell.com/2026/04/29/github-is-sinking/"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Agentic software development hypothesis",
+              "date": "2026-05-20",
+              "link": "http://brooker.co.za/blog/2026/05/20/hypothesis.html"
+            },
+            {
+              "title": "What's Easy Now? What's Hard Now?",
+              "date": "2026-05-18",
+              "link": "http://brooker.co.za/blog/2026/05/18/whats-easy-whats-hard.html"
+            },
+            {
+              "title": "It's time to be right.",
+              "date": "2026-04-30",
+              "link": "http://brooker.co.za/blog/2026/04/30/be-right.html"
+            },
+            {
+              "title": "Spec Driven Development isn't Waterfall",
+              "date": "2026-04-09",
+              "link": "http://brooker.co.za/blog/2026/04/09/waterfall-vs-spec.html"
+            },
+            {
+              "title": "What about juniors?",
+              "date": "2026-03-25",
+              "link": "http://brooker.co.za/blog/2026/03/25/ic-junior.html"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Assumptions weaken properties",
+              "date": "2026-05-20",
+              "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/"
+            },
+            {
+              "title": "Points are a weird and inconsistent unit of measure",
+              "date": "2026-05-13",
+              "link": "https://buttondown.com/hillelwayne/archive/points-are-a-weird-and-inconsistent-unit-of/"
+            },
+            {
+              "title": "New Logic for Programmers (and the future of this newsletter)",
+              "date": "2026-05-06",
+              "link": "https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/"
+            },
+            {
+              "title": "Illegal vs Unwanted States",
+              "date": "2026-04-28",
+              "link": "https://buttondown.com/hillelwayne/archive/illegal-vs-unwanted-states/"
+            },
+            {
+              "title": "People get confused when language implementations break language guarantees",
+              "date": "2026-04-21",
+              "link": "https://buttondown.com/hillelwayne/archive/people-get-confused-when-language-implementations/"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -66,63 +185,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-05-19",
-              "link": "https://dbushell.com/notes/2026-05-19T07:54Z/"
-            },
-            {
-              "date": "2026-05-17",
-              "link": "https://dbushell.com/notes/2026-05-17T18:21Z/"
-            },
-            {
-              "date": "2026-05-17",
-              "link": "https://dbushell.com/notes/2026-05-17T17:40Z/"
-            },
-            {
-              "date": "2026-05-17",
-              "link": "https://dbushell.com/notes/2026-05-17T07:01Z/"
-            },
-            {
-              "date": "2026-05-16",
-              "link": "https://dbushell.com/notes/2026-05-16T08:00Z/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Web whetstones",
-              "date": "2026-05-18",
-              "link": "https://dbushell.com/2026/05/18/web-whetstone/"
-            },
-            {
-              "title": "Surveys will continue until diversity improves",
-              "date": "2026-05-15",
-              "link": "https://dbushell.com/2026/05/15/surveys-will-continue-until-diversity-improves/"
-            },
-            {
-              "title": "Unscrewing lightbulbs",
-              "date": "2026-05-08",
-              "link": "https://dbushell.com/2026/05/08/self-hosted-update-spring-2026/"
-            },
-            {
-              "title": "GitHub is sinking",
-              "date": "2026-04-29",
-              "link": "https://dbushell.com/2026/04/29/github-is-sinking/"
-            },
-            {
-              "title": "Alternative thoughts",
-              "date": "2026-04-28",
-              "link": "https://dbushell.com/2026/04/28/alternative-thoughts/"
-            }
-          ]
-        },
-        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -150,37 +212,6 @@
               "title": "Collective Speed Is Not the Summation of Individual Speed",
               "date": "2026-04-26",
               "link": "https://blog.jim-nielsen.com/2026/collective-speed-isnt-the-sum-of-individual-speed/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "What's Easy Now? What's Hard Now?",
-              "date": "2026-05-18",
-              "link": "http://brooker.co.za/blog/2026/05/18/whats-easy-whats-hard.html"
-            },
-            {
-              "title": "It's time to be right.",
-              "date": "2026-04-30",
-              "link": "http://brooker.co.za/blog/2026/04/30/be-right.html"
-            },
-            {
-              "title": "Spec Driven Development isn't Waterfall",
-              "date": "2026-04-09",
-              "link": "http://brooker.co.za/blog/2026/04/09/waterfall-vs-spec.html"
-            },
-            {
-              "title": "What about juniors?",
-              "date": "2026-03-25",
-              "link": "http://brooker.co.za/blog/2026/03/25/ic-junior.html"
-            },
-            {
-              "title": "My heuristics are wrong. What now?",
-              "date": "2026-03-20",
-              "link": "http://brooker.co.za/blog/2026/03/20/ic-leadership.html"
             }
           ]
         },
@@ -402,37 +433,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Points are a weird and inconsistent unit of measure",
-              "date": "2026-05-13",
-              "link": "https://buttondown.com/hillelwayne/archive/points-are-a-weird-and-inconsistent-unit-of/"
-            },
-            {
-              "title": "New Logic for Programmers (and the future of this newsletter)",
-              "date": "2026-05-06",
-              "link": "https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/"
-            },
-            {
-              "title": "Illegal vs Unwanted States",
-              "date": "2026-04-28",
-              "link": "https://buttondown.com/hillelwayne/archive/illegal-vs-unwanted-states/"
-            },
-            {
-              "title": "People get confused when language implementations break language guarantees",
-              "date": "2026-04-21",
-              "link": "https://buttondown.com/hillelwayne/archive/people-get-confused-when-language-implementations/"
-            },
-            {
-              "title": "A sufficiently comprehensive spec is not (necessarily) code",
-              "date": "2026-04-15",
-              "link": "https://buttondown.com/hillelwayne/archive/a-sufficiently-comprehensive-spec-is-not/"
-            }
-          ]
-        },
-        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -619,6 +619,37 @@
           ]
         },
         {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Split Enz At Spark Arena",
+              "date": "2026-05-10",
+              "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
+            },
+            {
+              "title": "MGK At The Spark Arena",
+              "date": "2026-05-06",
+              "link": "https://flamedfury.com/posts/mgk-at-the-spark-arena/"
+            },
+            {
+              "title": "Hot Cross Buns",
+              "date": "2026-05-06",
+              "link": "https://flamedfury.com/posts/hot-cross-buns/"
+            },
+            {
+              "title": "There And Back Again",
+              "date": "2026-05-03",
+              "link": "https://flamedfury.com/posts/there-and-back-again/"
+            },
+            {
+              "title": "Happy Easter 2026",
+              "date": "2026-04-13",
+              "link": "https://flamedfury.com/posts/happy-easter-2026/"
+            }
+          ]
+        },
+        {
           "title": "garoof dot nope",
           "feedUrl": "https://garoof.no/feed.xml",
           "items": [
@@ -646,37 +677,6 @@
               "title": "Pixels from images",
               "date": "2025-12-04",
               "link": "https://garoof.no/notes/pixels-from-images.html"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "MGK At The Spark Arena",
-              "date": "2026-05-06",
-              "link": "https://flamedfury.com/posts/mgk-at-the-spark-arena/"
-            },
-            {
-              "title": "Hot Cross Buns",
-              "date": "2026-05-06",
-              "link": "https://flamedfury.com/posts/hot-cross-buns/"
-            },
-            {
-              "title": "Happy Easter 2026",
-              "date": "2026-04-13",
-              "link": "https://flamedfury.com/posts/happy-easter-2026/"
-            },
-            {
-              "title": "Link Dump: March 2026",
-              "date": "2026-04-05",
-              "link": "https://flamedfury.com/posts/link-dump-march-2026/"
-            },
-            {
-              "title": "Bic Runga At Te Paepae Theatre",
-              "date": "2026-03-31",
-              "link": "https://flamedfury.com/posts/bic-runga-at-te-paepae-theatre/"
             }
           ]
         },
@@ -2373,13 +2373,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-05-20T06:46:22.241Z",
+  "fetchDate": "2026-05-21T06:51:23.506Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://angryweasel.substack.com/feed",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml"

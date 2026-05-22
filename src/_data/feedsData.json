@@ -4,9 +4,44 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Book Notes: “Poor Charlie’s Almanack”",
+              "date": "2026-05-21",
+              "link": "https://blog.jim-nielsen.com/2026/book-notes-charlie-munger/"
+            },
+            {
+              "title": "Something’s Rotten in the State of macOS Icon Design",
+              "date": "2026-05-18",
+              "link": "https://blog.jim-nielsen.com/2026/rotten-macos-icon-design/"
+            },
+            {
+              "title": "Building Software Requires Digestion",
+              "date": "2026-05-12",
+              "link": "https://blog.jim-nielsen.com/2026/software-requires-digestion/"
+            },
+            {
+              "title": "Out With the JS, In With the HTML",
+              "date": "2026-05-10",
+              "link": "https://blog.jim-nielsen.com/2026/out-with-js-in-with-html/"
+            },
+            {
+              "title": "Reminder: You Can Stitch Together Lots of Little HTML Pages With Navigations For Interactions",
+              "date": "2026-05-03",
+              "link": "https://blog.jim-nielsen.com/2026/small-html-pages/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2026-05-21",
+              "link": "https://dbushell.com/notes/2026-05-21T13:04Z/"
+            },
             {
               "date": "2026-05-21",
               "link": "https://dbushell.com/notes/2026-05-21T04:46Z/"
@@ -22,10 +57,6 @@
             {
               "date": "2026-05-17",
               "link": "https://dbushell.com/notes/2026-05-17T18:21Z/"
-            },
-            {
-              "date": "2026-05-17",
-              "link": "https://dbushell.com/notes/2026-05-17T17:40Z/"
             }
           ]
         },
@@ -185,37 +216,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Something’s Rotten in the State of macOS Icon Design",
-              "date": "2026-05-18",
-              "link": "https://blog.jim-nielsen.com/2026/rotten-macos-icon-design/"
-            },
-            {
-              "title": "Building Software Requires Digestion",
-              "date": "2026-05-12",
-              "link": "https://blog.jim-nielsen.com/2026/software-requires-digestion/"
-            },
-            {
-              "title": "Out With the JS, In With the HTML",
-              "date": "2026-05-10",
-              "link": "https://blog.jim-nielsen.com/2026/out-with-js-in-with-html/"
-            },
-            {
-              "title": "Reminder: You Can Stitch Together Lots of Little HTML Pages With Navigations For Interactions",
-              "date": "2026-05-03",
-              "link": "https://blog.jim-nielsen.com/2026/small-html-pages/"
-            },
-            {
-              "title": "Collective Speed Is Not the Summation of Individual Speed",
-              "date": "2026-04-26",
-              "link": "https://blog.jim-nielsen.com/2026/collective-speed-isnt-the-sum-of-individual-speed/"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -336,37 +336,6 @@
               "title": "Contentment is a spectrum, too",
               "date": "2026-02-11",
               "link": "https://anniemueller.com/posts/contentment-is-a-spectrum-too"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Moving away from Tailwind, and learning to structure my CSS",
-              "date": "2026-05-15",
-              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
-            },
-            {
-              "title": "Links to CSS colour palettes",
-              "date": "2026-05-04",
-              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
-            },
-            {
-              "title": "Testing Vue components in the browser",
-              "date": "2026-05-02",
-              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
-            },
-            {
-              "title": "Examples for the tcpdump and dig man pages",
-              "date": "2026-03-10",
-              "link": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
-            },
-            {
-              "title": "Notes on clarifying man pages",
-              "date": "2026-02-18",
-              "link": "https://jvns.ca/blog/2026/02/18/man-pages/"
             }
           ]
         },
@@ -2373,15 +2342,16 @@
       ]
     }
   ],
-  "fetchDate": "2026-05-21T06:51:23.506Z",
+  "fetchDate": "2026-05-22T06:47:35.688Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-    "https://angryweasel.substack.com/feed",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
+    "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://jvns.ca/atom.xml"
   ]
 }

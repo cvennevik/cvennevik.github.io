@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Agile, YAGNI, Smaller Steps, Bikes and Automobiles...",
+              "date": "2026-05-27",
+              "link": "http://agileotter.blogspot.com/2026/05/agile-yagni-smaller-steps-bikes-and.html"
+            },
+            {
+              "title": "Pipeline Gates Calculator",
+              "date": "2026-03-28",
+              "link": "http://agileotter.blogspot.com/2026/03/pipeline-gates-populator.html"
+            },
+            {
+              "title": "Believing In People",
+              "date": "2026-02-13",
+              "link": "http://agileotter.blogspot.com/2026/02/believing-in-people.html"
+            },
+            {
+              "title": "Do You Even Plan, Bro?",
+              "date": "2026-02-06",
+              "link": "http://agileotter.blogspot.com/2026/02/do-you-even-plan-bro.html"
+            },
+            {
+              "title": "Working in Groups: Compromises or Contributions?",
+              "date": "2026-02-03",
+              "link": "http://agileotter.blogspot.com/2026/02/working-in-groups-compromises-or.html"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Crying to punk",
+              "date": "2026-05-27",
+              "link": "https://gomakethings.com/crying-to-punk/"
+            },
+            {
+              "title": "We are miracles",
+              "date": "2026-05-14",
+              "link": "https://gomakethings.com/we-are-miracles/"
+            },
+            {
+              "title": "Pruning, harvesting, replanting, and other forced metaphors",
+              "date": "2026-05-11",
+              "link": "https://gomakethings.com/pruning-harvesting-replanting-and-other-forced-metaphors/"
+            },
+            {
+              "title": "Which side are you on?",
+              "date": "2026-05-04",
+              "link": "https://gomakethings.com/which-side-are-you-on/"
+            },
+            {
+              "title": "Generative colors with CSS",
+              "date": "2026-04-29",
+              "link": "https://gomakethings.com/generative-colors-with-css/"
+            }
+          ]
+        },
+        {
+          "title": "Coding Is Like Cooking",
+          "feedUrl": "https://coding-is-like-cooking.info/feed/",
+          "items": [
+            {
+              "title": "The Death of the Senior Dev? How Agentic Workflows Changed EVERYTHING in 2026",
+              "date": "2026-05-27",
+              "link": "https://coding-is-like-cooking.info/2026/05/the-death-of-the-senior-dev-how-agentic-workflows-changed-everything-in-2026/"
+            },
+            {
+              "title": "It Doesn’t Help To Push AI Into A Crappy Process",
+              "date": "2026-04-29",
+              "link": "https://coding-is-like-cooking.info/2026/04/it-doesnt-help-to-push-ai-into-a-crappy-process/"
+            },
+            {
+              "title": "Test-Driven Development with Agentic AI",
+              "date": "2026-03-24",
+              "link": "https://coding-is-like-cooking.info/2026/03/test-driven-development-with-agentic-ai/"
+            },
+            {
+              "title": "Seven Testing Myths Every Developer Should STOP Believing",
+              "date": "2026-03-18",
+              "link": "https://coding-is-like-cooking.info/2026/03/seven-testing-myths-every-developer-should-stop-believing/"
+            },
+            {
+              "title": "Go Beyond the Test Pyramid: Test Desiderata 2.0",
+              "date": "2026-02-27",
+              "link": "https://coding-is-like-cooking.info/2026/02/go-beyond-the-test-pyramid-test-desiderata-2-0/"
+            }
+          ]
+        },
+        {
           "title": "einarwh",
           "feedUrl": "https://einarwh.no/feed/atom.xml",
           "items": [
@@ -190,37 +283,6 @@
           ]
         },
         {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Fast is better than slow",
-              "date": "2026-05-23",
-              "link": "https://dubroy.com/blog/fast-is-better-than-slow/"
-            },
-            {
-              "title": "devlog: compatibility packages",
-              "date": "2026-02-06",
-              "link": "https://dubroy.com/blog/compatibility-packages/"
-            },
-            {
-              "title": "Look for what's true",
-              "date": "2026-01-28",
-              "link": "https://dubroy.com/blog/look-for-whats-true/"
-            },
-            {
-              "title": "De-Googling",
-              "date": "2026-01-16",
-              "link": "https://dubroy.com/blog/de-googling/"
-            },
-            {
-              "title": "devlog: garbage collection is useful",
-              "date": "2025-11-14",
-              "link": "https://dubroy.com/blog/garbage-collection-is-useful/"
-            }
-          ]
-        },
-        {
           "title": "fLaMEd fury",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -252,33 +314,33 @@
           ]
         },
         {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
           "items": [
             {
-              "title": "Hack Your Brain with Relationship Anarchy",
-              "date": "2026-05-22",
-              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
+              "title": "Fast is better than slow",
+              "date": "2026-05-23",
+              "link": "https://dubroy.com/blog/fast-is-better-than-slow/"
             },
             {
-              "title": "Savepoint: A CLI for TDD",
-              "date": "2026-05-14",
-              "link": "https://www.youtube.com/watch?v=ZBa3BK4Efcw"
+              "title": "devlog: compatibility packages",
+              "date": "2026-02-06",
+              "link": "https://dubroy.com/blog/compatibility-packages/"
             },
             {
-              "title": "Obsidian for Learning Part II: Process",
-              "date": "2026-03-24",
-              "link": "https://www.youtube.com/watch?v=Tyw6quANpiY"
+              "title": "Look for what's true",
+              "date": "2026-01-28",
+              "link": "https://dubroy.com/blog/look-for-whats-true/"
             },
             {
-              "title": "Hack your Brain with Powerlifting",
-              "date": "2026-01-19",
-              "link": "https://www.youtube.com/watch?v=WxN9VzwoGGw"
+              "title": "De-Googling",
+              "date": "2026-01-16",
+              "link": "https://dubroy.com/blog/de-googling/"
             },
             {
-              "title": "Misusing Macros for fn and Profit (Live @EuroRust '25!)",
-              "date": "2025-11-22",
-              "link": "https://www.youtube.com/watch?v=9-CIInQhBUs"
+              "title": "devlog: garbage collection is useful",
+              "date": "2025-11-14",
+              "link": "https://dubroy.com/blog/garbage-collection-is-useful/"
             }
           ]
         },
@@ -619,37 +681,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "We are miracles",
-              "date": "2026-05-14",
-              "link": "https://gomakethings.com/we-are-miracles/"
-            },
-            {
-              "title": "Pruning, harvesting, replanting, and other forced metaphors",
-              "date": "2026-05-11",
-              "link": "https://gomakethings.com/pruning-harvesting-replanting-and-other-forced-metaphors/"
-            },
-            {
-              "title": "Which side are you on?",
-              "date": "2026-05-04",
-              "link": "https://gomakethings.com/which-side-are-you-on/"
-            },
-            {
-              "title": "Generative colors with CSS",
-              "date": "2026-04-29",
-              "link": "https://gomakethings.com/generative-colors-with-css/"
-            },
-            {
-              "title": "Anti-work",
-              "date": "2026-04-28",
-              "link": "https://gomakethings.com/anti-work/"
-            }
-          ]
-        },
-        {
           "title": "Curly Tail, Curly Braces",
           "feedUrl": "https://www.worthe-it.co.za/atom.xml",
           "items": [
@@ -898,37 +929,6 @@
           ]
         },
         {
-          "title": "Coding Is Like Cooking",
-          "feedUrl": "https://coding-is-like-cooking.info/feed/",
-          "items": [
-            {
-              "title": "It Doesn’t Help To Push AI Into A Crappy Process",
-              "date": "2026-04-29",
-              "link": "https://coding-is-like-cooking.info/2026/04/it-doesnt-help-to-push-ai-into-a-crappy-process/"
-            },
-            {
-              "title": "Test-Driven Development with Agentic AI",
-              "date": "2026-03-24",
-              "link": "https://coding-is-like-cooking.info/2026/03/test-driven-development-with-agentic-ai/"
-            },
-            {
-              "title": "Seven Testing Myths Every Developer Should STOP Believing",
-              "date": "2026-03-18",
-              "link": "https://coding-is-like-cooking.info/2026/03/seven-testing-myths-every-developer-should-stop-believing/"
-            },
-            {
-              "title": "Go Beyond the Test Pyramid: Test Desiderata 2.0",
-              "date": "2026-02-27",
-              "link": "https://coding-is-like-cooking.info/2026/02/go-beyond-the-test-pyramid-test-desiderata-2-0/"
-            },
-            {
-              "title": "The kind of training that Actually Works for Learning Agentic AI",
-              "date": "2026-02-04",
-              "link": "https://coding-is-like-cooking.info/2026/02/the-kind-of-training-that-actually-works-for-learning-agentic-ai/"
-            }
-          ]
-        },
-        {
           "title": "Scattered Thoughts",
           "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
@@ -1142,37 +1142,6 @@
               "title": "Drinking from the Bluesky Firehose",
               "date": "2024-11-22",
               "link": "https://jakelazaroff.com/words/drinking-from-the-bluesky-firehose/"
-            }
-          ]
-        },
-        {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Pipeline Gates Calculator",
-              "date": "2026-03-28",
-              "link": "http://agileotter.blogspot.com/2026/03/pipeline-gates-populator.html"
-            },
-            {
-              "title": "Believing In People",
-              "date": "2026-02-13",
-              "link": "http://agileotter.blogspot.com/2026/02/believing-in-people.html"
-            },
-            {
-              "title": "Do You Even Plan, Bro?",
-              "date": "2026-02-06",
-              "link": "http://agileotter.blogspot.com/2026/02/do-you-even-plan-bro.html"
-            },
-            {
-              "title": "Working in Groups: Compromises or Contributions?",
-              "date": "2026-02-03",
-              "link": "http://agileotter.blogspot.com/2026/02/working-in-groups-compromises-or.html"
-            },
-            {
-              "title": "The Big Release Downward Spiral",
-              "date": "2026-02-03",
-              "link": "http://agileotter.blogspot.com/2026/02/the-big-release-downward-spiral.html"
             }
           ]
         },
@@ -2309,37 +2278,6 @@
           ]
         },
         {
-          "title": "CodeAesthetic",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
-          "items": [
-            {
-              "title": "Dear Functional Bros",
-              "date": "2023-12-23",
-              "link": "https://www.youtube.com/watch?v=nuML9SmdbJ4"
-            },
-            {
-              "title": "Dependency Injection, The Best Pattern",
-              "date": "2023-08-04",
-              "link": "https://www.youtube.com/watch?v=J1f5b4vcxCQ"
-            },
-            {
-              "title": "Premature Optimization",
-              "date": "2023-02-10",
-              "link": "https://www.youtube.com/watch?v=tKbV6BpH-C8"
-            },
-            {
-              "title": "Don't Write Comments",
-              "date": "2023-01-16",
-              "link": "https://www.youtube.com/watch?v=Bf7vDBBOBUA"
-            },
-            {
-              "title": "The Flaws of Inheritance",
-              "date": "2022-12-22",
-              "link": "https://www.youtube.com/watch?v=hxGOiiR9ZKg"
-            }
-          ]
-        },
-        {
           "title": "Hello world",
           "feedUrl": "https://qristin.wordpress.com/feed/",
           "items": [
@@ -2404,14 +2342,16 @@
       ]
     }
   ],
-  "fetchDate": "2026-05-27T07:01:53.651Z",
+  "fetchDate": "2026-05-28T06:52:53.126Z",
   "errors": [
-    "https://2ality.com/feeds/posts.atom",
+    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
+    "https://2ality.com/feeds/posts.atom",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
     "https://angryweasel.substack.com/feed",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml",
-    "https://robinrendle.com/feed.xml"
+    "https://fynn.be/feed.xml"
   ]
 }

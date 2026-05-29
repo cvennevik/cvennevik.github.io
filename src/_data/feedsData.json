@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "How to add icons to external links with CSS",
+              "date": "2026-05-28",
+              "link": "https://gomakethings.com/articles/how-to-add-icons-to-external-links-with-css/"
+            },
+            {
+              "title": "Crying to punk",
+              "date": "2026-05-27",
+              "link": "https://gomakethings.com/articles/crying-to-punk/"
+            },
+            {
+              "title": "We are miracles",
+              "date": "2026-05-14",
+              "link": "https://gomakethings.com/articles/we-are-miracles/"
+            },
+            {
+              "title": "Pruning, harvesting, replanting, and other forced metaphors",
+              "date": "2026-05-11",
+              "link": "https://gomakethings.com/articles/pruning-harvesting-replanting-and-other-forced-metaphors/"
+            },
+            {
+              "title": "Which side are you on?",
+              "date": "2026-05-04",
+              "link": "https://gomakethings.com/articles/which-side-are-you-on/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Knowing about things is cheaper than knowing things",
+              "date": "2026-05-28",
+              "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/"
+            },
+            {
+              "title": "Assumptions weaken properties",
+              "date": "2026-05-20",
+              "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/"
+            },
+            {
+              "title": "Points are a weird and inconsistent unit of measure",
+              "date": "2026-05-13",
+              "link": "https://buttondown.com/hillelwayne/archive/points-are-a-weird-and-inconsistent-unit-of/"
+            },
+            {
+              "title": "New Logic for Programmers (and the future of this newsletter)",
+              "date": "2026-05-06",
+              "link": "https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/"
+            },
+            {
+              "title": "Illegal vs Unwanted States",
+              "date": "2026-04-28",
+              "link": "https://buttondown.com/hillelwayne/archive/illegal-vs-unwanted-states/"
+            }
+          ]
+        },
+        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
@@ -31,37 +93,6 @@
               "title": "Working in Groups: Compromises or Contributions?",
               "date": "2026-02-03",
               "link": "http://agileotter.blogspot.com/2026/02/working-in-groups-compromises-or.html"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Crying to punk",
-              "date": "2026-05-27",
-              "link": "https://gomakethings.com/crying-to-punk/"
-            },
-            {
-              "title": "We are miracles",
-              "date": "2026-05-14",
-              "link": "https://gomakethings.com/we-are-miracles/"
-            },
-            {
-              "title": "Pruning, harvesting, replanting, and other forced metaphors",
-              "date": "2026-05-11",
-              "link": "https://gomakethings.com/pruning-harvesting-replanting-and-other-forced-metaphors/"
-            },
-            {
-              "title": "Which side are you on?",
-              "date": "2026-05-04",
-              "link": "https://gomakethings.com/which-side-are-you-on/"
-            },
-            {
-              "title": "Generative colors with CSS",
-              "date": "2026-04-29",
-              "link": "https://gomakethings.com/generative-colors-with-css/"
             }
           ]
         },
@@ -283,37 +314,6 @@
           ]
         },
         {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Split Enz At Spark Arena",
-              "date": "2026-05-23",
-              "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
-            },
-            {
-              "title": "MGK At The Spark Arena",
-              "date": "2026-05-06",
-              "link": "https://flamedfury.com/posts/mgk-at-the-spark-arena/"
-            },
-            {
-              "title": "Hot Cross Buns",
-              "date": "2026-05-06",
-              "link": "https://flamedfury.com/posts/hot-cross-buns/"
-            },
-            {
-              "title": "Happy Easter 2026",
-              "date": "2026-04-13",
-              "link": "https://flamedfury.com/posts/happy-easter-2026/"
-            },
-            {
-              "title": "Link Dump: March 2026",
-              "date": "2026-04-05",
-              "link": "https://flamedfury.com/posts/link-dump-march-2026/"
-            }
-          ]
-        },
-        {
           "title": "Patrick Dubroy's blog",
           "feedUrl": "https://dubroy.com/blog/rss.xml",
           "items": [
@@ -341,6 +341,37 @@
               "title": "devlog: garbage collection is useful",
               "date": "2025-11-14",
               "link": "https://dubroy.com/blog/garbage-collection-is-useful/"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Split Enz At Spark Arena",
+              "date": "2026-05-23",
+              "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
+            },
+            {
+              "title": "MGK At The Spark Arena",
+              "date": "2026-05-06",
+              "link": "https://flamedfury.com/posts/mgk-at-the-spark-arena/"
+            },
+            {
+              "title": "Hot Cross Buns",
+              "date": "2026-05-06",
+              "link": "https://flamedfury.com/posts/hot-cross-buns/"
+            },
+            {
+              "title": "Happy Easter 2026",
+              "date": "2026-04-13",
+              "link": "https://flamedfury.com/posts/happy-easter-2026/"
+            },
+            {
+              "title": "Link Dump: March 2026",
+              "date": "2026-04-05",
+              "link": "https://flamedfury.com/posts/link-dump-march-2026/"
             }
           ]
         },
@@ -460,37 +491,6 @@
               "title": "What about juniors?",
               "date": "2026-03-25",
               "link": "http://brooker.co.za/blog/2026/03/25/ic-junior.html"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Assumptions weaken properties",
-              "date": "2026-05-20",
-              "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/"
-            },
-            {
-              "title": "Points are a weird and inconsistent unit of measure",
-              "date": "2026-05-13",
-              "link": "https://buttondown.com/hillelwayne/archive/points-are-a-weird-and-inconsistent-unit-of/"
-            },
-            {
-              "title": "New Logic for Programmers (and the future of this newsletter)",
-              "date": "2026-05-06",
-              "link": "https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/"
-            },
-            {
-              "title": "Illegal vs Unwanted States",
-              "date": "2026-04-28",
-              "link": "https://buttondown.com/hillelwayne/archive/illegal-vs-unwanted-states/"
-            },
-            {
-              "title": "People get confused when language implementations break language guarantees",
-              "date": "2026-04-21",
-              "link": "https://buttondown.com/hillelwayne/archive/people-get-confused-when-language-implementations/"
             }
           ]
         },
@@ -677,6 +677,37 @@
               "title": "Ravens in March",
               "date": "2026-03-16",
               "link": "https://www.baldurbjarnason.com/notes/photos/ravens-in-march-2026/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Sustained attention/revision",
+              "date": "2026-05-12",
+              "link": "https://robinrendle.com/notes/sustained-attention-revision/"
+            },
+            {
+              "title": "Misery is not wisdom",
+              "date": "2026-05-10",
+              "link": "https://robinrendle.com/notes/misery-is-not-wisdom/"
+            },
+            {
+              "title": "Uncertainty is healthy",
+              "date": "2026-04-25",
+              "link": "https://robinrendle.com/notes/uncertainty-is-healthy/"
+            },
+            {
+              "title": "Software is a feeling",
+              "date": "2026-03-29",
+              "link": "https://robinrendle.com/notes/software-is-a-feeling/"
+            },
+            {
+              "title": "Landslide; a ghost story",
+              "date": "2026-03-21",
+              "link": "https://robinrendle.com/notes/landslide-a-ghost-story/"
             }
           ]
         },
@@ -2342,14 +2373,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-05-28T06:52:53.126Z",
+  "fetchDate": "2026-05-29T06:53:20.253Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-    "https://angryweasel.substack.com/feed",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
+    "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml"

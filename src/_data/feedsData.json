@@ -4,9 +4,168 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Time for an 8th Virtue: Coherence",
+              "date": "2026-06-03",
+              "link": "http://agileotter.blogspot.com/2026/06/time-for-8th-virtue-coherence.html"
+            },
+            {
+              "title": "Agile, YAGNI, Smaller Steps, Bikes and Automobiles...",
+              "date": "2026-05-27",
+              "link": "http://agileotter.blogspot.com/2026/05/agile-yagni-smaller-steps-bikes-and.html"
+            },
+            {
+              "title": "Pipeline Gates Calculator",
+              "date": "2026-03-28",
+              "link": "http://agileotter.blogspot.com/2026/03/pipeline-gates-populator.html"
+            },
+            {
+              "title": "Believing In People",
+              "date": "2026-02-13",
+              "link": "http://agileotter.blogspot.com/2026/02/believing-in-people.html"
+            },
+            {
+              "title": "Do You Even Plan, Bro?",
+              "date": "2026-02-06",
+              "link": "http://agileotter.blogspot.com/2026/02/do-you-even-plan-bro.html"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Link Dump: May 2026",
+              "date": "2026-06-03",
+              "link": "https://flamedfury.com/posts/link-dump-may-2026/"
+            },
+            {
+              "title": "Split Enz At Spark Arena",
+              "date": "2026-05-23",
+              "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
+            },
+            {
+              "title": "MGK At The Spark Arena",
+              "date": "2026-05-06",
+              "link": "https://flamedfury.com/posts/mgk-at-the-spark-arena/"
+            },
+            {
+              "title": "Hot Cross Buns",
+              "date": "2026-05-06",
+              "link": "https://flamedfury.com/posts/hot-cross-buns/"
+            },
+            {
+              "title": "Happy Easter 2026",
+              "date": "2026-04-13",
+              "link": "https://flamedfury.com/posts/happy-easter-2026/"
+            }
+          ]
+        },
+        {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy (xpost)",
+              "date": "2026-06-02",
+              "link": "https://charity.wtf/2026/06/02/ai-enthusiasts-are-in-a-race-against-time-ai-skeptics-are-in-a-race-against-entropy-xpost/"
+            },
+            {
+              "title": "Your Data is Made Powerful By Context (so stop destroying it already) (xpost)",
+              "date": "2026-03-09",
+              "link": "https://charity.wtf/2026/03/09/your-data-is-made-powerful-by-context-so-stop-destroying-it-already-xpost/"
+            },
+            {
+              "title": "My (hypothetical) SRECon26 keynote (xpost)",
+              "date": "2026-03-03",
+              "link": "https://charity.wtf/2026/03/03/my-hypothetical-srecon26-keynote-xpost/"
+            },
+            {
+              "title": "First I wrote the wrong book, then I wrote the right book (xpost)",
+              "date": "2026-02-19",
+              "link": "https://charity.wtf/2026/02/19/first-i-wrote-the-wrong-book-then-i-wrote-the-right-book-xpost/"
+            },
+            {
+              "title": "Martin Fowler told me the second edition should be shorter (it’s twice as long) (xpost)",
+              "date": "2026-02-18",
+              "link": "https://charity.wtf/2026/02/18/observability-engineering-a-book-so-nice-we-wrote-it-twice-xpost/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "An Ode to the Exacting Pedantry of Computers",
+              "date": "2026-06-02",
+              "link": "https://blog.jim-nielsen.com/2026/pedantry-of-computing/"
+            },
+            {
+              "title": "Book Notes: “Poor Charlie’s Almanack”",
+              "date": "2026-05-21",
+              "link": "https://blog.jim-nielsen.com/2026/book-notes-charlie-munger/"
+            },
+            {
+              "title": "Something’s Rotten in the State of macOS Icon Design",
+              "date": "2026-05-18",
+              "link": "https://blog.jim-nielsen.com/2026/rotten-macos-icon-design/"
+            },
+            {
+              "title": "Building Software Requires Digestion",
+              "date": "2026-05-12",
+              "link": "https://blog.jim-nielsen.com/2026/software-requires-digestion/"
+            },
+            {
+              "title": "Out With the JS, In With the HTML",
+              "date": "2026-05-10",
+              "link": "https://blog.jim-nielsen.com/2026/out-with-js-in-with-html/"
+            }
+          ]
+        },
+        {
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
+          "items": [
+            {
+              "title": "iddqd, or the hardest kind of unsafe Rust",
+              "date": "2026-06-02",
+              "link": "https://sunshowers.io/posts/iddqd-unsafe/"
+            },
+            {
+              "title": "In defense of lock poisoning in Rust",
+              "date": "2025-12-02",
+              "link": "https://sunshowers.io/posts/on-poisoning/"
+            },
+            {
+              "title": "`SocketAddrV6` is not roundtrip serializable",
+              "date": "2025-11-04",
+              "link": "https://sunshowers.io/posts/socketaddrv6-not-roundtrip/"
+            },
+            {
+              "title": "Cancelling async Rust",
+              "date": "2025-10-03",
+              "link": "https://sunshowers.io/posts/cancelling-async-rust/"
+            },
+            {
+              "title": "I didn't transition for the metaphysics",
+              "date": "2025-05-14",
+              "link": "https://sunshowers.io/posts/transition-metaphysics/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2026-06-02",
+              "link": "https://dbushell.com/notes/2026-06-02T17:34Z/"
+            },
             {
               "date": "2026-06-02",
               "link": "https://dbushell.com/notes/2026-06-02T05:39Z/"
@@ -22,10 +181,6 @@
             {
               "date": "2026-05-29",
               "link": "https://dbushell.com/notes/2026-05-29T13:41Z/"
-            },
-            {
-              "date": "2026-05-26",
-              "link": "https://dbushell.com/notes/2026-05-26T07:00Z/"
             }
           ]
         },
@@ -57,6 +212,37 @@
               "title": "GOOSE IT UP",
               "date": "2026-04-20",
               "link": "https://anniemueller.com/posts/goose-it-up"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Logic for Programmers extra credits",
+              "date": "2026-06-02",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/"
+            },
+            {
+              "title": "Knowing about things is cheaper than knowing things",
+              "date": "2026-05-28",
+              "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/"
+            },
+            {
+              "title": "Assumptions weaken properties",
+              "date": "2026-05-20",
+              "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/"
+            },
+            {
+              "title": "Points are a weird and inconsistent unit of measure",
+              "date": "2026-05-13",
+              "link": "https://buttondown.com/hillelwayne/archive/points-are-a-weird-and-inconsistent-unit-of/"
+            },
+            {
+              "title": "New Logic for Programmers (and the future of this newsletter)",
+              "date": "2026-05-06",
+              "link": "https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/"
             }
           ]
         },
@@ -185,37 +371,6 @@
           ]
         },
         {
-          "title": "apenwarr",
-          "feedUrl": "https://apenwarr.ca/log/rss.php",
-          "items": [
-            {
-              "title": "\n      The software industry: annealing, but wrong\n    ",
-              "date": "2026-05-31",
-              "link": "https://apenwarr.ca/log/20260531"
-            },
-            {
-              "title": "\n      Every layer of review makes you 10x slower\n    ",
-              "date": "2026-03-17",
-              "link": "https://apenwarr.ca/log/20260316"
-            },
-            {
-              "title": "\n      Systems design 3: LLMs and the semantic revolution\n    ",
-              "date": "2025-11-20",
-              "link": "https://apenwarr.ca/log/20251120"
-            },
-            {
-              "title": "\n      Billionaire math\n    ",
-              "date": "2025-07-11",
-              "link": "https://apenwarr.ca/log/20250711"
-            },
-            {
-              "title": "\n      The evasive evitability of enshittification\n    ",
-              "date": "2025-06-15",
-              "link": "https://apenwarr.ca/log/20250530"
-            }
-          ]
-        },
-        {
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
@@ -243,6 +398,37 @@
               "title": "Misery is not wisdom",
               "date": "2026-05-10",
               "link": "https://robinrendle.com/notes/misery-is-not-wisdom/"
+            }
+          ]
+        },
+        {
+          "title": "apenwarr",
+          "feedUrl": "https://apenwarr.ca/log/rss.php",
+          "items": [
+            {
+              "title": "\n      The software industry: annealing, but wrong\n    ",
+              "date": "2026-05-31",
+              "link": "https://apenwarr.ca/log/20260531"
+            },
+            {
+              "title": "\n      Every layer of review makes you 10x slower\n    ",
+              "date": "2026-03-17",
+              "link": "https://apenwarr.ca/log/20260316"
+            },
+            {
+              "title": "\n      Systems design 3: LLMs and the semantic revolution\n    ",
+              "date": "2025-11-20",
+              "link": "https://apenwarr.ca/log/20251120"
+            },
+            {
+              "title": "\n      Billionaire math\n    ",
+              "date": "2025-07-11",
+              "link": "https://apenwarr.ca/log/20250711"
+            },
+            {
+              "title": "\n      The evasive evitability of enshittification\n    ",
+              "date": "2025-06-15",
+              "link": "https://apenwarr.ca/log/20250530"
             }
           ]
         },
@@ -305,68 +491,6 @@
               "title": "Three basic truths about planning",
               "date": "2026-01-17",
               "link": "https://smallsheds.garden/blog/2026/three-basic-truths-about-planning/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Knowing about things is cheaper than knowing things",
-              "date": "2026-05-28",
-              "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/"
-            },
-            {
-              "title": "Assumptions weaken properties",
-              "date": "2026-05-20",
-              "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/"
-            },
-            {
-              "title": "Points are a weird and inconsistent unit of measure",
-              "date": "2026-05-13",
-              "link": "https://buttondown.com/hillelwayne/archive/points-are-a-weird-and-inconsistent-unit-of/"
-            },
-            {
-              "title": "New Logic for Programmers (and the future of this newsletter)",
-              "date": "2026-05-06",
-              "link": "https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/"
-            },
-            {
-              "title": "Illegal vs Unwanted States",
-              "date": "2026-04-28",
-              "link": "https://buttondown.com/hillelwayne/archive/illegal-vs-unwanted-states/"
-            }
-          ]
-        },
-        {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Agile, YAGNI, Smaller Steps, Bikes and Automobiles...",
-              "date": "2026-05-27",
-              "link": "http://agileotter.blogspot.com/2026/05/agile-yagni-smaller-steps-bikes-and.html"
-            },
-            {
-              "title": "Pipeline Gates Calculator",
-              "date": "2026-03-28",
-              "link": "http://agileotter.blogspot.com/2026/03/pipeline-gates-populator.html"
-            },
-            {
-              "title": "Believing In People",
-              "date": "2026-02-13",
-              "link": "http://agileotter.blogspot.com/2026/02/believing-in-people.html"
-            },
-            {
-              "title": "Do You Even Plan, Bro?",
-              "date": "2026-02-06",
-              "link": "http://agileotter.blogspot.com/2026/02/do-you-even-plan-bro.html"
-            },
-            {
-              "title": "Working in Groups: Compromises or Contributions?",
-              "date": "2026-02-03",
-              "link": "http://agileotter.blogspot.com/2026/02/working-in-groups-compromises-or.html"
             }
           ]
         },
@@ -526,37 +650,6 @@
           ]
         },
         {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Split Enz At Spark Arena",
-              "date": "2026-05-23",
-              "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
-            },
-            {
-              "title": "MGK At The Spark Arena",
-              "date": "2026-05-06",
-              "link": "https://flamedfury.com/posts/mgk-at-the-spark-arena/"
-            },
-            {
-              "title": "Hot Cross Buns",
-              "date": "2026-05-06",
-              "link": "https://flamedfury.com/posts/hot-cross-buns/"
-            },
-            {
-              "title": "Happy Easter 2026",
-              "date": "2026-04-13",
-              "link": "https://flamedfury.com/posts/happy-easter-2026/"
-            },
-            {
-              "title": "Link Dump: March 2026",
-              "date": "2026-04-05",
-              "link": "https://flamedfury.com/posts/link-dump-march-2026/"
-            }
-          ]
-        },
-        {
           "title": "Patrick Dubroy's blog",
           "feedUrl": "https://dubroy.com/blog/rss.xml",
           "items": [
@@ -615,37 +708,6 @@
               "title": "Misusing Macros for fn and Profit (Live @EuroRust '25!)",
               "date": "2025-11-22",
               "link": "https://www.youtube.com/watch?v=9-CIInQhBUs"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Book Notes: “Poor Charlie’s Almanack”",
-              "date": "2026-05-21",
-              "link": "https://blog.jim-nielsen.com/2026/book-notes-charlie-munger/"
-            },
-            {
-              "title": "Something’s Rotten in the State of macOS Icon Design",
-              "date": "2026-05-18",
-              "link": "https://blog.jim-nielsen.com/2026/rotten-macos-icon-design/"
-            },
-            {
-              "title": "Building Software Requires Digestion",
-              "date": "2026-05-12",
-              "link": "https://blog.jim-nielsen.com/2026/software-requires-digestion/"
-            },
-            {
-              "title": "Out With the JS, In With the HTML",
-              "date": "2026-05-10",
-              "link": "https://blog.jim-nielsen.com/2026/out-with-js-in-with-html/"
-            },
-            {
-              "title": "Reminder: You Can Stitch Together Lots of Little HTML Pages With Navigations For Interactions",
-              "date": "2026-05-03",
-              "link": "https://blog.jim-nielsen.com/2026/small-html-pages/"
             }
           ]
         },
@@ -1177,37 +1239,6 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Web Is An Antitrust Wedge",
-              "date": "2026-04-03",
-              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
-            },
-            {
-              "title": "Naked Power",
-              "date": "2026-01-20",
-              "link": "https://infrequently.org/2026/01/naked-power/"
-            },
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
-            }
-          ]
-        },
-        {
           "title": "Blog on Hillel Wayne",
           "feedUrl": "https://www.hillelwayne.com/post/index.xml",
           "items": [
@@ -1359,37 +1390,6 @@
               "title": "Refactoring Just Enough",
               "date": "2024-06-21",
               "link": "https://blog.thecodewhisperer.com/permalink/refactoring-just-enough"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "Your Data is Made Powerful By Context (so stop destroying it already) (xpost)",
-              "date": "2026-03-09",
-              "link": "https://charity.wtf/2026/03/09/your-data-is-made-powerful-by-context-so-stop-destroying-it-already-xpost/"
-            },
-            {
-              "title": "My (hypothetical) SRECon26 keynote (xpost)",
-              "date": "2026-03-03",
-              "link": "https://charity.wtf/2026/03/03/my-hypothetical-srecon26-keynote-xpost/"
-            },
-            {
-              "title": "First I wrote the wrong book, then I wrote the right book (xpost)",
-              "date": "2026-02-19",
-              "link": "https://charity.wtf/2026/02/19/first-i-wrote-the-wrong-book-then-i-wrote-the-right-book-xpost/"
-            },
-            {
-              "title": "Martin Fowler told me the second edition should be shorter (it’s twice as long) (xpost)",
-              "date": "2026-02-18",
-              "link": "https://charity.wtf/2026/02/18/observability-engineering-a-book-so-nice-we-wrote-it-twice-xpost/"
-            },
-            {
-              "title": "Bring Back Ops Pride (xpost)",
-              "date": "2026-01-19",
-              "link": "https://charity.wtf/2026/01/19/bring-back-ops-pride-xpost/"
             }
           ]
         },
@@ -1823,37 +1823,6 @@
           ]
         },
         {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "In defense of lock poisoning in Rust",
-              "date": "2025-12-02",
-              "link": "https://sunshowers.io/posts/on-poisoning/"
-            },
-            {
-              "title": "`SocketAddrV6` is not roundtrip serializable",
-              "date": "2025-11-04",
-              "link": "https://sunshowers.io/posts/socketaddrv6-not-roundtrip/"
-            },
-            {
-              "title": "Cancelling async Rust",
-              "date": "2025-10-03",
-              "link": "https://sunshowers.io/posts/cancelling-async-rust/"
-            },
-            {
-              "title": "I didn't transition for the metaphysics",
-              "date": "2025-05-14",
-              "link": "https://sunshowers.io/posts/transition-metaphysics/"
-            },
-            {
-              "title": "Demystifying monads in Rust through property-based testing",
-              "date": "2025-02-19",
-              "link": "https://sunshowers.io/posts/monads-through-pbt/"
-            }
-          ]
-        },
-        {
           "title": ".:. brainsik",
           "feedUrl": "https://brainsik.net/index.xml",
           "items": [
@@ -2098,37 +2067,6 @@
               "title": "No, dynamic type systems are not inherently more open",
               "date": "2020-01-19",
               "link": "https://lexi-lambda.github.io/blog/2020/01/19/no-dynamic-type-systems-are-not-inherently-more-open/"
-            }
-          ]
-        },
-        {
-          "title": "Work with Alan",
-          "feedUrl": "https://angryweasel.com/blog/feed/",
-          "items": [
-            {
-              "title": "Five for Friday – March 14, 2025",
-              "date": "2025-03-14",
-              "link": "https://angryweasel.com/blog/five-for-friday-march-14-2025/"
-            },
-            {
-              "title": "Five for Friday – March 7, 2025",
-              "date": "2025-03-07",
-              "link": "https://angryweasel.com/blog/five-for-friday-march-7-2025/"
-            },
-            {
-              "title": "Five for Friday – February 21, 2025",
-              "date": "2025-02-21",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-21-2025/"
-            },
-            {
-              "title": "Five for Friday – February 14, 2025",
-              "date": "2025-02-14",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-14-2025/"
-            },
-            {
-              "title": "Five for Friday – February 7, 2025",
-              "date": "2025-02-08",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
             }
           ]
         },
@@ -2435,13 +2373,15 @@
       ]
     }
   ],
-  "fetchDate": "2026-06-02T07:22:18.360Z",
+  "fetchDate": "2026-06-03T08:14:34.538Z",
   "errors": [
+    "https://angryweasel.com/blog/feed/",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://infrequently.org/feed/"
   ]
 }

@@ -4,33 +4,126 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
             {
-              "title": "How To Read More",
-              "date": "2026-06-04",
-              "link": "https://borretti.me/article/how-to-read-more"
+              "title": "The unifying theory in short",
+              "date": "2026-06-05",
+              "link": "http://agileotter.blogspot.com/2026/06/the-unifying-theory-in-short.html"
             },
             {
-              "title": "Human Bottlenecks",
+              "title": "The Faros Whiplash and The Systems View",
+              "date": "2026-06-03",
+              "link": "http://agileotter.blogspot.com/2026/06/draft-faros-whiplash-and-systems-view.html"
+            },
+            {
+              "title": "Time for an 8th Virtue: Coherence",
+              "date": "2026-06-03",
+              "link": "http://agileotter.blogspot.com/2026/06/time-for-8th-virtue-coherence.html"
+            },
+            {
+              "title": "Agile, YAGNI, Smaller Steps, Bikes and Automobiles...",
+              "date": "2026-05-27",
+              "link": "http://agileotter.blogspot.com/2026/05/agile-yagni-smaller-steps-bikes-and.html"
+            },
+            {
+              "title": "Pipeline Gates Calculator",
+              "date": "2026-03-28",
+              "link": "http://agileotter.blogspot.com/2026/03/pipeline-gates-populator.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Are you standard.site?",
+              "date": "2026-06-05",
+              "link": "https://dbushell.com/2026/06/05/are-you-standard-site/"
+            },
+            {
+              "title": "Challenge and opportunity",
+              "date": "2026-06-01",
+              "link": "https://dbushell.com/2026/06/01/challenge-and-opportunity/"
+            },
+            {
+              "title": "Google just spat in my face",
+              "date": "2026-05-20",
+              "link": "https://dbushell.com/2026/05/20/google-just-spat-in-my-face/"
+            },
+            {
+              "title": "Web whetstones",
               "date": "2026-05-18",
-              "link": "https://borretti.me/article/human-bottlenecks"
+              "link": "https://dbushell.com/2026/05/18/web-whetstone/"
             },
             {
-              "title": "The Applicability of Spaced Repetition",
-              "date": "2026-05-17",
-              "link": "https://borretti.me/article/the-applicability-of-spaced-repetition"
+              "title": "Surveys will continue until diversity improves",
+              "date": "2026-05-15",
+              "link": "https://dbushell.com/2026/05/15/surveys-will-continue-until-diversity-improves/"
+            }
+          ]
+        },
+        {
+          "title": "Kyle Shevlin's Blog RSS Feed",
+          "feedUrl": "https://kyleshevlin.com/rss.xml",
+          "items": [
+            {
+              "title": "&ldquo;Help&rdquo; Doesn't Mean What it Meant",
+              "date": "2026-06-05",
+              "link": "https://kyleshevlin.com/help-doesnt-mean-what-it-meant/"
             },
             {
-              "title": "Notes on the Hantavirus Outbreak",
-              "date": "2026-05-08",
-              "link": "https://borretti.me/article/notes-on-the-hantavirus-outbreak"
+              "title": "<code>AsyncData</code>",
+              "date": "2026-01-11",
+              "link": "https://kyleshevlin.com/async-data/"
             },
             {
-              "title": "Some Data Should Be Code",
-              "date": "2026-01-31",
-              "link": "https://borretti.me/article/some-data-should-be-code"
+              "title": "Nothing is Something",
+              "date": "2025-12-20",
+              "link": "https://kyleshevlin.com/nothing-is-something/"
+            },
+            {
+              "title": "<code>data</code> Attributes for Testing",
+              "date": "2025-11-21",
+              "link": "https://kyleshevlin.com/data-attributes-for-testing/"
+            },
+            {
+              "title": "Prefer Gaps To Margins",
+              "date": "2025-06-23",
+              "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "Why I don't use story points",
+              "date": "2026-06-05",
+              "link": "https://www.simplermachines.com/why-i-dont-use-story-points/"
+            },
+            {
+              "title": "[GR02.05] camellias, several",
+              "date": "2026-06-05",
+              "link": "https://www.simplermachines.com/gr02-05/"
+            },
+            {
+              "title": "Mere Being - 031 - May - a paid membership program",
+              "date": "2026-06-01",
+              "link": "https://www.simplermachines.com/mere-being-031-may-a-paid-membership-program/"
+            },
+            {
+              "title": "Something is Very Wrong in San Francisco",
+              "date": "2026-05-31",
+              "link": "https://www.simplermachines.com/something-is-very-wrong-in-san-francisco/"
+            },
+            {
+              "title": "[GR02.04] jacaranda",
+              "date": "2026-05-26",
+              "link": "https://www.simplermachines.com/gr02-04-jacaranda/"
             }
           ]
         },
@@ -66,33 +159,59 @@
           ]
         },
         {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
           "items": [
             {
-              "title": "Draft: The Faros Whiplash and The Systems View",
+              "title": "How To Read More",
+              "date": "2026-06-04",
+              "link": "https://borretti.me/article/how-to-read-more"
+            },
+            {
+              "title": "Human Bottlenecks",
+              "date": "2026-05-18",
+              "link": "https://borretti.me/article/human-bottlenecks"
+            },
+            {
+              "title": "The Applicability of Spaced Repetition",
+              "date": "2026-05-17",
+              "link": "https://borretti.me/article/the-applicability-of-spaced-repetition"
+            },
+            {
+              "title": "Notes on the Hantavirus Outbreak",
+              "date": "2026-05-08",
+              "link": "https://borretti.me/article/notes-on-the-hantavirus-outbreak"
+            },
+            {
+              "title": "Some Data Should Be Code",
+              "date": "2026-01-31",
+              "link": "https://borretti.me/article/some-data-should-be-code"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
               "date": "2026-06-03",
-              "link": "http://agileotter.blogspot.com/2026/06/draft-faros-whiplash-and-systems-view.html"
+              "link": "https://dbushell.com/notes/2026-06-03T13:45Z/"
             },
             {
-              "title": "Time for an 8th Virtue: Coherence",
-              "date": "2026-06-03",
-              "link": "http://agileotter.blogspot.com/2026/06/time-for-8th-virtue-coherence.html"
+              "date": "2026-06-02",
+              "link": "https://dbushell.com/notes/2026-06-02T17:34Z/"
             },
             {
-              "title": "Agile, YAGNI, Smaller Steps, Bikes and Automobiles...",
-              "date": "2026-05-27",
-              "link": "http://agileotter.blogspot.com/2026/05/agile-yagni-smaller-steps-bikes-and.html"
+              "date": "2026-06-02",
+              "link": "https://dbushell.com/notes/2026-06-02T05:39Z/"
             },
             {
-              "title": "Pipeline Gates Calculator",
-              "date": "2026-03-28",
-              "link": "http://agileotter.blogspot.com/2026/03/pipeline-gates-populator.html"
+              "date": "2026-05-31",
+              "link": "https://dbushell.com/notes/2026-05-31T17:29Z/"
             },
             {
-              "title": "Believing In People",
-              "date": "2026-02-13",
-              "link": "http://agileotter.blogspot.com/2026/02/believing-in-people.html"
+              "date": "2026-05-31",
+              "link": "https://dbushell.com/notes/2026-05-31T11:22Z/"
             }
           ]
         },
@@ -124,32 +243,6 @@
               "title": "The Web Platform is a Triumph of Object-Oriented Programming",
               "date": "2025-12-18",
               "link": "https://thathtml.blog/2025/12/the-dom-is-a-triumph-of-object-oriented-programming/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-06-03",
-              "link": "https://dbushell.com/notes/2026-06-03T13:45Z/"
-            },
-            {
-              "date": "2026-06-02",
-              "link": "https://dbushell.com/notes/2026-06-02T17:34Z/"
-            },
-            {
-              "date": "2026-06-02",
-              "link": "https://dbushell.com/notes/2026-06-02T05:39Z/"
-            },
-            {
-              "date": "2026-05-31",
-              "link": "https://dbushell.com/notes/2026-05-31T17:29Z/"
-            },
-            {
-              "date": "2026-05-31",
-              "link": "https://dbushell.com/notes/2026-05-31T11:22Z/"
             }
           ]
         },
@@ -340,37 +433,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Challenge and opportunity",
-              "date": "2026-06-01",
-              "link": "https://dbushell.com/2026/06/01/challenge-and-opportunity/"
-            },
-            {
-              "title": "Google just spat in my face",
-              "date": "2026-05-20",
-              "link": "https://dbushell.com/2026/05/20/google-just-spat-in-my-face/"
-            },
-            {
-              "title": "Web whetstones",
-              "date": "2026-05-18",
-              "link": "https://dbushell.com/2026/05/18/web-whetstone/"
-            },
-            {
-              "title": "Surveys will continue until diversity improves",
-              "date": "2026-05-15",
-              "link": "https://dbushell.com/2026/05/15/surveys-will-continue-until-diversity-improves/"
-            },
-            {
-              "title": "Unscrewing lightbulbs",
-              "date": "2026-05-08",
-              "link": "https://dbushell.com/2026/05/08/self-hosted-update-spring-2026/"
-            }
-          ]
-        },
-        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -433,33 +495,33 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
             {
-              "title": "Mere Being - 031 - May - a paid membership program",
-              "date": "2026-06-01",
-              "link": "https://www.simplermachines.com/mere-being-031-may-a-paid-membership-program/"
-            },
-            {
-              "title": "Something is Very Wrong in San Francisco",
+              "title": "Indian Street Lettering",
               "date": "2026-05-31",
-              "link": "https://www.simplermachines.com/something-is-very-wrong-in-san-francisco/"
+              "link": "https://robinrendle.com/notes/indian-street-lettering/"
             },
             {
-              "title": "[GR02.04] jacaranda",
-              "date": "2026-05-26",
-              "link": "https://www.simplermachines.com/gr02-04-jacaranda/"
+              "title": "fragcoord.xyz",
+              "date": "2026-05-25",
+              "link": "https://robinrendle.com/notes/fragcoord.xyz/"
             },
             {
-              "title": "notes from o11ycon 2026",
-              "date": "2026-05-22",
-              "link": "https://www.simplermachines.com/notes-from-o11ycon-2026/"
+              "title": "The Wave",
+              "date": "2026-05-25",
+              "link": "https://robinrendle.com/notes/the-wave/"
             },
             {
-              "title": "[GR02.03] hibiscus",
-              "date": "2026-05-19",
-              "link": "https://www.simplermachines.com/gr02-03-hibiscus/"
+              "title": "Sustained attention/revision",
+              "date": "2026-05-12",
+              "link": "https://robinrendle.com/notes/sustained-attention-revision/"
+            },
+            {
+              "title": "Misery is not wisdom",
+              "date": "2026-05-10",
+              "link": "https://robinrendle.com/notes/misery-is-not-wisdom/"
             }
           ]
         },
@@ -1208,6 +1270,37 @@
           ]
         },
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Web Is An Antitrust Wedge",
+              "date": "2026-04-03",
+              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
+            },
+            {
+              "title": "Naked Power",
+              "date": "2026-01-20",
+              "link": "https://infrequently.org/2026/01/naked-power/"
+            },
+            {
+              "title": "The Performance Inequality Gap, 2026",
+              "date": "2025-11-24",
+              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
+            },
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
+            },
+            {
+              "title": "11ty Hacks for Fun and Performance",
+              "date": "2025-10-04",
+              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
+            }
+          ]
+        },
+        {
           "title": "Blog on Hillel Wayne",
           "feedUrl": "https://www.hillelwayne.com/post/index.xml",
           "items": [
@@ -1602,37 +1695,6 @@
               "title": "Crystal Spire #13: Haha, just kidding... unless?",
               "date": "2025-12-21",
               "link": "https://www.cvennevik.no/blog/crystal-spire-13-haha-just-kidding-unless/"
-            }
-          ]
-        },
-        {
-          "title": "Kyle Shevlin's Blog RSS Feed",
-          "feedUrl": "https://kyleshevlin.com/rss.xml",
-          "items": [
-            {
-              "title": "<code>AsyncData</code>",
-              "date": "2026-01-11",
-              "link": "https://kyleshevlin.com/async-data/"
-            },
-            {
-              "title": "Nothing is Something",
-              "date": "2025-12-20",
-              "link": "https://kyleshevlin.com/nothing-is-something/"
-            },
-            {
-              "title": "<code>data</code> Attributes for Testing",
-              "date": "2025-11-21",
-              "link": "https://kyleshevlin.com/data-attributes-for-testing/"
-            },
-            {
-              "title": "Prefer Gaps To Margins",
-              "date": "2025-06-23",
-              "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
-            },
-            {
-              "title": "&ldquo;Refactor&rdquo; is Not a Scary Word",
-              "date": "2025-02-27",
-              "link": "https://kyleshevlin.com/refactor-is-not-a-scary-word/"
             }
           ]
         },
@@ -2373,15 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-06-05T07:06:54.276Z",
+  "fetchDate": "2026-06-06T06:28:35.329Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml",
-    "https://robinrendle.com/feed.xml",
-    "https://infrequently.org/feed/"
+    "https://fynn.be/feed.xml"
   ]
 }

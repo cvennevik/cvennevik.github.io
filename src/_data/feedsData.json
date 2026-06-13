@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-06-13",
+              "link": "https://dbushell.com/notes/2026-06-13T05:30Z/"
+            },
+            {
+              "date": "2026-06-12",
+              "link": "https://dbushell.com/notes/2026-06-12T07:39Z/"
+            },
+            {
+              "date": "2026-06-09",
+              "link": "https://dbushell.com/notes/2026-06-09T06:51Z/"
+            },
+            {
+              "date": "2026-06-09",
+              "link": "https://dbushell.com/notes/2026-06-09T05:48Z/"
+            },
+            {
+              "date": "2026-06-07",
+              "link": "https://dbushell.com/notes/2026-06-07T07:00Z/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Apple deepfakes",
+              "date": "2026-06-12",
+              "link": "https://dbushell.com/2026/06/12/apple-deepfakes/"
+            },
+            {
+              "title": "Are you standard.site?",
+              "date": "2026-06-05",
+              "link": "https://dbushell.com/2026/06/05/are-you-standard-site/"
+            },
+            {
+              "title": "Challenge and opportunity",
+              "date": "2026-06-01",
+              "link": "https://dbushell.com/2026/06/01/challenge-and-opportunity/"
+            },
+            {
+              "title": "Google just spat in my face",
+              "date": "2026-05-20",
+              "link": "https://dbushell.com/2026/05/20/google-just-spat-in-my-face/"
+            },
+            {
+              "title": "Web whetstones",
+              "date": "2026-05-18",
+              "link": "https://dbushell.com/2026/05/18/web-whetstone/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "The Tech Debt Snowball Method",
+              "date": "2026-06-12",
+              "link": "https://www.simplermachines.com/the-tech-debt-snowball-2/"
+            },
+            {
+              "title": "[GR02.07] camellias, senescent",
+              "date": "2026-06-10",
+              "link": "https://www.simplermachines.com/gr02-07-camellias-senescent/"
+            },
+            {
+              "title": "Why I don't use story points",
+              "date": "2026-06-05",
+              "link": "https://www.simplermachines.com/why-i-dont-use-story-points/"
+            },
+            {
+              "title": "[GR02.05] camellias, several",
+              "date": "2026-06-05",
+              "link": "https://www.simplermachines.com/gr02-05/"
+            },
+            {
+              "title": "Mere Being - 031 - May - a paid membership program",
+              "date": "2026-06-01",
+              "link": "https://www.simplermachines.com/mere-being-031-may-a-paid-membership-program/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -97,33 +185,33 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
             {
-              "title": "[GR02.07] camellias, senescent",
+              "title": "Home Brew Presents: Last Week",
               "date": "2026-06-10",
-              "link": "https://www.simplermachines.com/gr02-07-camellias-senescent/"
+              "link": "https://flamedfury.com/posts/home-brew-presents-last-week/"
             },
             {
-              "title": "Why I don't use story points",
-              "date": "2026-06-05",
-              "link": "https://www.simplermachines.com/why-i-dont-use-story-points/"
+              "title": "Link Dump: May 2026",
+              "date": "2026-06-03",
+              "link": "https://flamedfury.com/posts/link-dump-may-2026/"
             },
             {
-              "title": "[GR02.05] camellias, several",
-              "date": "2026-06-05",
-              "link": "https://www.simplermachines.com/gr02-05/"
+              "title": "Split Enz At Spark Arena",
+              "date": "2026-05-23",
+              "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
             },
             {
-              "title": "Mere Being - 031 - May - a paid membership program",
-              "date": "2026-06-01",
-              "link": "https://www.simplermachines.com/mere-being-031-may-a-paid-membership-program/"
+              "title": "MGK At The Spark Arena",
+              "date": "2026-05-06",
+              "link": "https://flamedfury.com/posts/mgk-at-the-spark-arena/"
             },
             {
-              "title": "Something is Very Wrong in San Francisco",
-              "date": "2026-05-31",
-              "link": "https://www.simplermachines.com/something-is-very-wrong-in-san-francisco/"
+              "title": "Hot Cross Buns",
+              "date": "2026-05-06",
+              "link": "https://flamedfury.com/posts/hot-cross-buns/"
             }
           ]
         },
@@ -159,63 +247,6 @@
           ]
         },
         {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Home Brew Presents: Last Week",
-              "date": "2026-06-10",
-              "link": "https://flamedfury.com/posts/home-brew-presents-last-week/"
-            },
-            {
-              "title": "Link Dump: May 2026",
-              "date": "2026-06-03",
-              "link": "https://flamedfury.com/posts/link-dump-may-2026/"
-            },
-            {
-              "title": "Split Enz At Spark Arena",
-              "date": "2026-05-23",
-              "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
-            },
-            {
-              "title": "MGK At The Spark Arena",
-              "date": "2026-05-06",
-              "link": "https://flamedfury.com/posts/mgk-at-the-spark-arena/"
-            },
-            {
-              "title": "Hot Cross Buns",
-              "date": "2026-05-06",
-              "link": "https://flamedfury.com/posts/hot-cross-buns/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-06-09",
-              "link": "https://dbushell.com/notes/2026-06-09T06:51Z/"
-            },
-            {
-              "date": "2026-06-09",
-              "link": "https://dbushell.com/notes/2026-06-09T05:48Z/"
-            },
-            {
-              "date": "2026-06-07",
-              "link": "https://dbushell.com/notes/2026-06-07T07:00Z/"
-            },
-            {
-              "date": "2026-06-03",
-              "link": "https://dbushell.com/notes/2026-06-03T13:45Z/"
-            },
-            {
-              "date": "2026-06-02",
-              "link": "https://dbushell.com/notes/2026-06-02T17:34Z/"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -243,6 +274,37 @@
               "title": "YouSky: My one-person social network (Short version)",
               "date": "2026-02-16",
               "link": "https://rosswintle.uk/2026/02/yousky-my-one-person-social-network-short-version/"
+            }
+          ]
+        },
+        {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Cross-Document State Management (An In-Depth Tutorial)",
+              "date": "2026-06-08",
+              "link": "https://thathtml.blog/2026/06/cross-document-state-management/"
+            },
+            {
+              "title": "Designing an Autogenerated Live Color Scale in CSS",
+              "date": "2026-06-03",
+              "link": "https://thathtml.blog/2026/06/building-a-generated-color-scheme/"
+            },
+            {
+              "title": "The Best Introduction Guide to SVG You Will Read",
+              "date": "2026-05-01",
+              "link": "https://thathtml.blog/2026/05/best-svg-intro-guide/"
+            },
+            {
+              "title": "Masonry Layout Solved! Hello CSS Grid Lanes",
+              "date": "2026-04-28",
+              "link": "https://thathtml.blog/2026/04/masonry-now-css-grid-lanes/"
+            },
+            {
+              "title": "Two Paradigms for Enhancing HTML Tags",
+              "date": "2026-04-24",
+              "link": "https://thathtml.blog/2026/04/two-paradigms-for-enhancing-html-tags/"
             }
           ]
         },
@@ -402,37 +464,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Are you standard.site?",
-              "date": "2026-06-05",
-              "link": "https://dbushell.com/2026/06/05/are-you-standard-site/"
-            },
-            {
-              "title": "Challenge and opportunity",
-              "date": "2026-06-01",
-              "link": "https://dbushell.com/2026/06/01/challenge-and-opportunity/"
-            },
-            {
-              "title": "Google just spat in my face",
-              "date": "2026-05-20",
-              "link": "https://dbushell.com/2026/05/20/google-just-spat-in-my-face/"
-            },
-            {
-              "title": "Web whetstones",
-              "date": "2026-05-18",
-              "link": "https://dbushell.com/2026/05/18/web-whetstone/"
-            },
-            {
-              "title": "Surveys will continue until diversity improves",
-              "date": "2026-05-15",
-              "link": "https://dbushell.com/2026/05/15/surveys-will-continue-until-diversity-improves/"
-            }
-          ]
-        },
-        {
           "title": "Kyle Shevlin's Blog RSS Feed",
           "feedUrl": "https://kyleshevlin.com/rss.xml",
           "items": [
@@ -495,37 +526,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2026-06-04",
-              "link": "https://macwright.com/2026/06/04/recently.html"
-            },
-            {
-              "title": "Intermezzo bag",
-              "date": "2026-05-05",
-              "link": "https://macwright.com/2026/05/05/intermezzo-bag.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2026-05-04",
-              "link": "https://macwright.com/2026/05/04/recently.html"
-            },
-            {
-              "title": "Eleventy",
-              "date": "2026-04-17",
-              "link": "https://macwright.com/2026/04/17/eleventy.html"
-            },
-            {
-              "title": "In the Atmosphere",
-              "date": "2026-04-05",
-              "link": "https://macwright.com/2026/04/05/in-the-atmosphere.html"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -557,33 +557,33 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
           "items": [
             {
-              "title": "Designing an Autogenerated Live Color Scale in CSS",
-              "date": "2026-06-03",
-              "link": "https://thathtml.blog/2026/06/building-a-generated-color-scheme/"
+              "title": "Recently",
+              "date": "2026-06-04",
+              "link": "https://macwright.com/2026/06/04/recently.html"
             },
             {
-              "title": "The Best Introduction Guide to SVG You Will Read",
-              "date": "2026-05-01",
-              "link": "https://thathtml.blog/2026/05/best-svg-intro-guide/"
+              "title": "Intermezzo bag",
+              "date": "2026-05-05",
+              "link": "https://macwright.com/2026/05/05/intermezzo-bag.html"
             },
             {
-              "title": "Masonry Layout Solved! Hello CSS Grid Lanes",
-              "date": "2026-04-28",
-              "link": "https://thathtml.blog/2026/04/masonry-now-css-grid-lanes/"
+              "title": "Recently",
+              "date": "2026-05-04",
+              "link": "https://macwright.com/2026/05/04/recently.html"
             },
             {
-              "title": "Two Paradigms for Enhancing HTML Tags",
-              "date": "2026-04-24",
-              "link": "https://thathtml.blog/2026/04/two-paradigms-for-enhancing-html-tags/"
+              "title": "Eleventy",
+              "date": "2026-04-17",
+              "link": "https://macwright.com/2026/04/17/eleventy.html"
             },
             {
-              "title": "The Web Platform is a Triumph of Object-Oriented Programming",
-              "date": "2025-12-18",
-              "link": "https://thathtml.blog/2025/12/the-dom-is-a-triumph-of-object-oriented-programming/"
+              "title": "In the Atmosphere",
+              "date": "2026-04-05",
+              "link": "https://macwright.com/2026/04/05/in-the-atmosphere.html"
             }
           ]
         },
@@ -2373,7 +2373,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-06-12T07:20:22.885Z",
+  "fetchDate": "2026-06-13T06:57:55.736Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

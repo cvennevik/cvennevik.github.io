@@ -4,33 +4,121 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
           "items": [
             {
-              "title": "Make Believe",
+              "title": "AI demands more engineering discipline. Not less (xpost)",
+              "date": "2026-06-15",
+              "link": "https://charity.wtf/2026/06/15/ai-demands-more-engineering-discipline-not-less-xpost/"
+            },
+            {
+              "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy (xpost)",
+              "date": "2026-06-02",
+              "link": "https://charity.wtf/2026/06/02/ai-enthusiasts-are-in-a-race-against-time-ai-skeptics-are-in-a-race-against-entropy-xpost/"
+            },
+            {
+              "title": "Your Data is Made Powerful By Context (so stop destroying it already) (xpost)",
+              "date": "2026-03-09",
+              "link": "https://charity.wtf/2026/03/09/your-data-is-made-powerful-by-context-so-stop-destroying-it-already-xpost/"
+            },
+            {
+              "title": "My (hypothetical) SRECon26 keynote (xpost)",
+              "date": "2026-03-03",
+              "link": "https://charity.wtf/2026/03/03/my-hypothetical-srecon26-keynote-xpost/"
+            },
+            {
+              "title": "First I wrote the wrong book, then I wrote the right book (xpost)",
+              "date": "2026-02-19",
+              "link": "https://charity.wtf/2026/02/19/first-i-wrote-the-wrong-book-then-i-wrote-the-right-book-xpost/"
+            }
+          ]
+        },
+        {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "The case for an accessibility designer vibe coding when all his coworkers are also vibe coding",
+              "date": "2026-06-15",
+              "link": "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/"
+            },
+            {
+              "title": "Evolved antennas, LLM-generated code, and a potential antifuture",
+              "date": "2026-05-11",
+              "link": "https://ericwbailey.website/published/evolved-antennas-llm-generated-code-and-a-potential-antifuture/"
+            },
+            {
+              "title": "A compelling title that is cryptic enough to get you to take action on it",
+              "date": "2026-04-09",
+              "link": "https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/"
+            },
+            {
+              "title": "Here’s how to instruct a LLM to reference the ARIA Authoring Practices Guide",
+              "date": "2026-02-16",
+              "link": "https://ericwbailey.website/published/heres-how-to-instruct-a-llm-to-reference-the-aria-authoring-practices-guide/"
+            },
+            {
+              "title": "You probably shouldn’t be annotating focus order",
+              "date": "2026-02-04",
+              "link": "https://ericwbailey.website/published/you-probably-shouldnt-be-annotating-focus-order/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-06-15",
+              "link": "https://dbushell.com/notes/2026-06-15T04:47Z/"
+            },
+            {
               "date": "2026-06-13",
-              "link": "https://robinrendle.com/notes/make-believe/"
+              "link": "https://dbushell.com/notes/2026-06-13T07:52Z/"
             },
             {
-              "title": "Indian Street Lettering",
-              "date": "2026-05-31",
-              "link": "https://robinrendle.com/notes/indian-street-lettering/"
+              "date": "2026-06-13",
+              "link": "https://dbushell.com/notes/2026-06-13T05:30Z/"
             },
             {
-              "title": "fragcoord.xyz",
-              "date": "2026-05-25",
-              "link": "https://robinrendle.com/notes/fragcoord.xyz/"
+              "date": "2026-06-12",
+              "link": "https://dbushell.com/notes/2026-06-12T07:39Z/"
             },
             {
-              "title": "The Wave",
-              "date": "2026-05-25",
-              "link": "https://robinrendle.com/notes/the-wave/"
+              "date": "2026-06-09",
+              "link": "https://dbushell.com/notes/2026-06-09T06:51Z/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Stand for something",
+              "date": "2026-06-14",
+              "link": "https://gomakethings.com/articles/stand-for-something/"
             },
             {
-              "title": "Sustained attention/revision",
-              "date": "2026-05-12",
-              "link": "https://robinrendle.com/notes/sustained-attention-revision/"
+              "title": "Expanding the digital garden",
+              "date": "2026-06-11",
+              "link": "https://gomakethings.com/articles/expanding-the-digital-garden/"
+            },
+            {
+              "title": "AI is not a person",
+              "date": "2026-06-08",
+              "link": "https://gomakethings.com/articles/ai-is-not-a-person/"
+            },
+            {
+              "title": "How to detect when an element's visibility changes with JavaScript",
+              "date": "2026-06-08",
+              "link": "https://gomakethings.com/articles/how-to-detect-when-an-elements-visibility-changes-with-javascript/"
+            },
+            {
+              "title": "AI is not inevitable",
+              "date": "2026-06-07",
+              "link": "https://gomakethings.com/articles/ai-is-not-inevitable/"
             }
           ]
         },
@@ -128,32 +216,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-06-13",
-              "link": "https://dbushell.com/notes/2026-06-13T07:52Z/"
-            },
-            {
-              "date": "2026-06-13",
-              "link": "https://dbushell.com/notes/2026-06-13T05:30Z/"
-            },
-            {
-              "date": "2026-06-12",
-              "link": "https://dbushell.com/notes/2026-06-12T07:39Z/"
-            },
-            {
-              "date": "2026-06-09",
-              "link": "https://dbushell.com/notes/2026-06-09T06:51Z/"
-            },
-            {
-              "date": "2026-06-09",
-              "link": "https://dbushell.com/notes/2026-06-09T05:48Z/"
-            }
-          ]
-        },
-        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -181,37 +243,6 @@
               "title": "Mere Being - 031 - May - a paid membership program",
               "date": "2026-06-01",
               "link": "https://www.simplermachines.com/mere-being-031-may-a-paid-membership-program/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Expanding the digital garden",
-              "date": "2026-06-11",
-              "link": "https://gomakethings.com/articles/expanding-the-digital-garden/"
-            },
-            {
-              "title": "AI is not a person",
-              "date": "2026-06-08",
-              "link": "https://gomakethings.com/articles/ai-is-not-a-person/"
-            },
-            {
-              "title": "How to detect when an element's visibility changes with JavaScript",
-              "date": "2026-06-08",
-              "link": "https://gomakethings.com/articles/how-to-detect-when-an-elements-visibility-changes-with-javascript/"
-            },
-            {
-              "title": "AI is not inevitable",
-              "date": "2026-06-07",
-              "link": "https://gomakethings.com/articles/ai-is-not-inevitable/"
-            },
-            {
-              "title": "Overflow bug with .visually-hidden class",
-              "date": "2026-06-01",
-              "link": "https://gomakethings.com/articles/overflow-bug-with-.visually-hidden-class/"
             }
           ]
         },
@@ -278,37 +309,6 @@
           ]
         },
         {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Home Brew Presents: Last Week",
-              "date": "2026-06-10",
-              "link": "https://flamedfury.com/posts/home-brew-presents-last-week/"
-            },
-            {
-              "title": "Link Dump: May 2026",
-              "date": "2026-06-03",
-              "link": "https://flamedfury.com/posts/link-dump-may-2026/"
-            },
-            {
-              "title": "Split Enz At Spark Arena",
-              "date": "2026-05-23",
-              "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
-            },
-            {
-              "title": "MGK At The Spark Arena",
-              "date": "2026-05-06",
-              "link": "https://flamedfury.com/posts/mgk-at-the-spark-arena/"
-            },
-            {
-              "title": "Hot Cross Buns",
-              "date": "2026-05-06",
-              "link": "https://flamedfury.com/posts/hot-cross-buns/"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -336,6 +336,37 @@
               "title": "Points are a weird and inconsistent unit of measure",
               "date": "2026-05-13",
               "link": "https://buttondown.com/hillelwayne/archive/points-are-a-weird-and-inconsistent-unit-of/"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Home Brew Presents: Last Week",
+              "date": "2026-06-10",
+              "link": "https://flamedfury.com/posts/home-brew-presents-last-week/"
+            },
+            {
+              "title": "Link Dump: May 2026",
+              "date": "2026-06-03",
+              "link": "https://flamedfury.com/posts/link-dump-may-2026/"
+            },
+            {
+              "title": "Split Enz At Spark Arena",
+              "date": "2026-05-23",
+              "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
+            },
+            {
+              "title": "MGK At The Spark Arena",
+              "date": "2026-05-06",
+              "link": "https://flamedfury.com/posts/mgk-at-the-spark-arena/"
+            },
+            {
+              "title": "Hot Cross Buns",
+              "date": "2026-05-06",
+              "link": "https://flamedfury.com/posts/hot-cross-buns/"
             }
           ]
         },
@@ -433,37 +464,6 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "Software will never feel the same",
-              "date": "2026-06-07",
-              "link": "https://thejollyteapot.com/2026/06/07/software-will-never-feel-the-same/"
-            },
-            {
-              "title": "May 2026 blend of links",
-              "date": "2026-05-19",
-              "link": "https://thejollyteapot.com/may-2026-blend/"
-            },
-            {
-              "title": "Another rant about web browsing",
-              "date": "2026-05-17",
-              "link": "https://thejollyteapot.com/2026/05/17/another-rant-about-web-browsing/"
-            },
-            {
-              "title": "We need something better than touchscreens in cars",
-              "date": "2026-05-10",
-              "link": "https://thejollyteapot.com/2026/05/10/we-need-something-better-than-touchscreens-in-cars/"
-            },
-            {
-              "title": "The whole joy of it all",
-              "date": "2026-05-04",
-              "link": "https://thejollyteapot.com/2026/05/04/the-whole-joy-of-it-all/"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -491,6 +491,37 @@
               "title": "Coping Mechanisms for Introverts",
               "date": "2026-01-15",
               "link": "https://thinkinglabs.io/articles/2026/01/15/coping-mechanisms-for-introverts.html"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Software will never feel the same",
+              "date": "2026-06-07",
+              "link": "https://thejollyteapot.com/2026/06/07/software-will-never-feel-the-same/"
+            },
+            {
+              "title": "May 2026 blend of links",
+              "date": "2026-05-19",
+              "link": "https://thejollyteapot.com/may-2026-blend/"
+            },
+            {
+              "title": "Another rant about web browsing",
+              "date": "2026-05-17",
+              "link": "https://thejollyteapot.com/2026/05/17/another-rant-about-web-browsing/"
+            },
+            {
+              "title": "We need something better than touchscreens in cars",
+              "date": "2026-05-10",
+              "link": "https://thejollyteapot.com/2026/05/10/we-need-something-better-than-touchscreens-in-cars/"
+            },
+            {
+              "title": "The whole joy of it all",
+              "date": "2026-05-04",
+              "link": "https://thejollyteapot.com/2026/05/04/the-whole-joy-of-it-all/"
             }
           ]
         },
@@ -646,37 +677,6 @@
               "title": "In the Atmosphere",
               "date": "2026-04-05",
               "link": "https://macwright.com/2026/04/05/in-the-atmosphere.html"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy (xpost)",
-              "date": "2026-06-02",
-              "link": "https://charity.wtf/2026/06/02/ai-enthusiasts-are-in-a-race-against-time-ai-skeptics-are-in-a-race-against-entropy-xpost/"
-            },
-            {
-              "title": "Your Data is Made Powerful By Context (so stop destroying it already) (xpost)",
-              "date": "2026-03-09",
-              "link": "https://charity.wtf/2026/03/09/your-data-is-made-powerful-by-context-so-stop-destroying-it-already-xpost/"
-            },
-            {
-              "title": "My (hypothetical) SRECon26 keynote (xpost)",
-              "date": "2026-03-03",
-              "link": "https://charity.wtf/2026/03/03/my-hypothetical-srecon26-keynote-xpost/"
-            },
-            {
-              "title": "First I wrote the wrong book, then I wrote the right book (xpost)",
-              "date": "2026-02-19",
-              "link": "https://charity.wtf/2026/02/19/first-i-wrote-the-wrong-book-then-i-wrote-the-right-book-xpost/"
-            },
-            {
-              "title": "Martin Fowler told me the second edition should be shorter (it’s twice as long) (xpost)",
-              "date": "2026-02-18",
-              "link": "https://charity.wtf/2026/02/18/observability-engineering-a-book-so-nice-we-wrote-it-twice-xpost/"
             }
           ]
         },
@@ -1084,37 +1084,6 @@
           ]
         },
         {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "It's been 15 years, what have I learned?",
-              "date": "2026-05-12",
-              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
-            },
-            {
-              "title": "My 2025 In Review",
-              "date": "2025-12-31",
-              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
-            },
-            {
-              "title": "The Localhost Podcast CLI Tool",
-              "date": "2025-10-18",
-              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
-            },
-            {
-              "title": "Buying Tech Books in South Africa",
-              "date": "2025-05-16",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
-            },
-            {
-              "title": "My Exobrain",
-              "date": "2025-05-03",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -1142,37 +1111,6 @@
               "title": "En Skeptiker Lærer AI-Utvikling Del 1: Skepsis",
               "date": "2026-02-04",
               "link": "https://www.kodemaker.no/blogg/2026-02-04-en-skeptiker-laerer-ai-utvikling-del-1-skepsis/"
-            }
-          ]
-        },
-        {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "Evolved antennas, LLM-generated code, and a potential antifuture",
-              "date": "2026-05-11",
-              "link": "https://ericwbailey.website/published/evolved-antennas-llm-generated-code-and-a-potential-antifuture/"
-            },
-            {
-              "title": "A compelling title that is cryptic enough to get you to take action on it",
-              "date": "2026-04-09",
-              "link": "https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/"
-            },
-            {
-              "title": "Here’s how to instruct a LLM to reference the ARIA Authoring Practices Guide",
-              "date": "2026-02-16",
-              "link": "https://ericwbailey.website/published/heres-how-to-instruct-a-llm-to-reference-the-aria-authoring-practices-guide/"
-            },
-            {
-              "title": "You probably shouldn’t be annotating focus order",
-              "date": "2026-02-04",
-              "link": "https://ericwbailey.website/published/you-probably-shouldnt-be-annotating-focus-order/"
-            },
-            {
-              "title": "How an accessibility designer adds keyboard shortcuts to a web app",
-              "date": "2026-01-28",
-              "link": "https://ericwbailey.website/published/how-an-accessibility-designer-adds-keyboard-shortcuts-to-a-web-app/"
             }
           ]
         },
@@ -1266,37 +1204,6 @@
               "title": "Planet of the Beavers",
               "date": "2023-10-06",
               "link": "https://molily.de/planet-of-the-beavers/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Web Is An Antitrust Wedge",
-              "date": "2026-04-03",
-              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
-            },
-            {
-              "title": "Naked Power",
-              "date": "2026-01-20",
-              "link": "https://infrequently.org/2026/01/naked-power/"
-            },
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
             }
           ]
         },
@@ -2102,37 +2009,6 @@
           ]
         },
         {
-          "title": "Work with Alan",
-          "feedUrl": "https://angryweasel.com/blog/feed/",
-          "items": [
-            {
-              "title": "Five for Friday – March 14, 2025",
-              "date": "2025-03-14",
-              "link": "https://angryweasel.com/blog/five-for-friday-march-14-2025/"
-            },
-            {
-              "title": "Five for Friday – March 7, 2025",
-              "date": "2025-03-07",
-              "link": "https://angryweasel.com/blog/five-for-friday-march-7-2025/"
-            },
-            {
-              "title": "Five for Friday – February 21, 2025",
-              "date": "2025-02-21",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-21-2025/"
-            },
-            {
-              "title": "Five for Friday – February 14, 2025",
-              "date": "2025-02-14",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-14-2025/"
-            },
-            {
-              "title": "Five for Friday – February 7, 2025",
-              "date": "2025-02-08",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
-            }
-          ]
-        },
-        {
           "title": "lalaland",
           "feedUrl": "https://lalaland.mataroa.blog/rss/",
           "items": [
@@ -2435,13 +2311,17 @@
       ]
     }
   ],
-  "fetchDate": "2026-06-14T07:20:44.804Z",
+  "fetchDate": "2026-06-15T09:18:41.304Z",
   "errors": [
-    "https://2ality.com/feeds/posts.atom",
+    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
+    "https://angryweasel.com/blog/feed/",
+    "https://2ality.com/feeds/posts.atom",
+    "https://www.worthe-it.co.za/atom.xml",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://infrequently.org/feed/"
   ]
 }

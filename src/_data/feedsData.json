@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Beyond the Shades of Conway’s Law - Validation: The Research &amp; Reality Check",
+              "date": "2026-06-20",
+              "link": "https://thinkinglabs.io/articles/2026/06/20/beyond-shades-of-conways-law-validation.html"
+            },
+            {
+              "title": "Beyond the Shades of Conway’s Law - Foundations: The Origin &amp; The Mirroring Principle",
+              "date": "2026-06-07",
+              "link": "https://thinkinglabs.io/articles/2026/06/07/beyond-shades-of-conways-law-foundations.html"
+            },
+            {
+              "title": "Notes - Optimising Continuous Delivery",
+              "date": "2026-05-24",
+              "link": "https://thinkinglabs.io/notes/2026/05/24/pipelineconf-optimising-continuous-delivery-dave-farley.html"
+            },
+            {
+              "title": "Beyond the Shades of Conway’s Law",
+              "date": "2026-04-24",
+              "link": "https://thinkinglabs.io/articles/2026/04/24/beyond-the-shades-of-conways-law.html"
+            },
+            {
+              "title": "Don’t Let AI Invert The Testing Pyramid",
+              "date": "2026-04-12",
+              "link": "https://thinkinglabs.io/articles/2026/04/12/dont-let-ai-invert-the-testing-pyramid.html"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "June 2026 blend of links",
+              "date": "2026-06-20",
+              "link": "https://thejollyteapot.com/june-2026-blend/"
+            },
+            {
+              "title": "Software will never feel the same",
+              "date": "2026-06-07",
+              "link": "https://thejollyteapot.com/2026/06/07/software-will-never-feel-the-same/"
+            },
+            {
+              "title": "May 2026 blend of links",
+              "date": "2026-05-19",
+              "link": "https://thejollyteapot.com/may-2026-blend/"
+            },
+            {
+              "title": "Another rant about web browsing",
+              "date": "2026-05-17",
+              "link": "https://thejollyteapot.com/2026/05/17/another-rant-about-web-browsing/"
+            },
+            {
+              "title": "We need something better than touchscreens in cars",
+              "date": "2026-05-10",
+              "link": "https://thejollyteapot.com/2026/05/10/we-need-something-better-than-touchscreens-in-cars/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-06-20",
+              "link": "https://dbushell.com/notes/2026-06-20T14:00Z/"
+            },
+            {
+              "date": "2026-06-19",
+              "link": "https://dbushell.com/notes/2026-06-19T12:42Z/"
+            },
+            {
+              "date": "2026-06-17",
+              "link": "https://dbushell.com/notes/2026-06-17T18:03Z/"
+            },
+            {
+              "date": "2026-06-16",
+              "link": "https://dbushell.com/notes/2026-06-16T06:37Z/"
+            },
+            {
+              "date": "2026-06-15",
+              "link": "https://dbushell.com/notes/2026-06-15T04:47Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -66,37 +154,6 @@
           ]
         },
         {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Meet Alice. Alice is impatient.",
-              "date": "2026-06-19",
-              "link": "http://brooker.co.za/blog/2026/06/19/waiting.html"
-            },
-            {
-              "title": "Is this blog written by AI?",
-              "date": "2026-06-18",
-              "link": "http://brooker.co.za/blog/2026/06/18/my-blog-and-ai.html"
-            },
-            {
-              "title": "Agentic software development hypothesis",
-              "date": "2026-05-20",
-              "link": "http://brooker.co.za/blog/2026/05/20/hypothesis.html"
-            },
-            {
-              "title": "What's Easy Now? What's Hard Now?",
-              "date": "2026-05-18",
-              "link": "http://brooker.co.za/blog/2026/05/18/whats-easy-whats-hard.html"
-            },
-            {
-              "title": "It's time to be right.",
-              "date": "2026-04-30",
-              "link": "http://brooker.co.za/blog/2026/04/30/be-right.html"
-            }
-          ]
-        },
-        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -128,28 +185,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
             {
+              "title": "Meet Alice. Alice is impatient.",
               "date": "2026-06-19",
-              "link": "https://dbushell.com/notes/2026-06-19T12:42Z/"
+              "link": "http://brooker.co.za/blog/2026/06/19/waiting.html"
             },
             {
-              "date": "2026-06-17",
-              "link": "https://dbushell.com/notes/2026-06-17T18:03Z/"
+              "title": "Is this blog written by AI?",
+              "date": "2026-06-18",
+              "link": "http://brooker.co.za/blog/2026/06/18/my-blog-and-ai.html"
             },
             {
-              "date": "2026-06-16",
-              "link": "https://dbushell.com/notes/2026-06-16T06:37Z/"
+              "title": "Agentic software development hypothesis",
+              "date": "2026-05-20",
+              "link": "http://brooker.co.za/blog/2026/05/20/hypothesis.html"
             },
             {
-              "date": "2026-06-15",
-              "link": "https://dbushell.com/notes/2026-06-15T04:47Z/"
+              "title": "What's Easy Now? What's Hard Now?",
+              "date": "2026-05-18",
+              "link": "http://brooker.co.za/blog/2026/05/18/whats-easy-whats-hard.html"
             },
             {
-              "date": "2026-06-13",
-              "link": "https://dbushell.com/notes/2026-06-13T07:52Z/"
+              "title": "It's time to be right.",
+              "date": "2026-04-30",
+              "link": "http://brooker.co.za/blog/2026/04/30/be-right.html"
             }
           ]
         },
@@ -247,37 +309,6 @@
           ]
         },
         {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Where I've been, and the future of this blog",
-              "date": "2026-06-17",
-              "link": "https://ntietz.com/blog/where-ive-been/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Let yourself fall down more",
-              "date": "2026-03-09",
-              "link": "https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "You can't always fix it",
-              "date": "2026-03-02",
-              "link": "https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Binding port 0 to avoid port collisions",
-              "date": "2026-02-23",
-              "link": "https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "TIL: Docker log rotation",
-              "date": "2026-02-16",
-              "link": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -305,6 +336,37 @@
               "title": "Assumptions weaken properties",
               "date": "2026-05-20",
               "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Where I've been, and the future of this blog",
+              "date": "2026-06-17",
+              "link": "https://ntietz.com/blog/where-ive-been/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Let yourself fall down more",
+              "date": "2026-03-09",
+              "link": "https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "You can't always fix it",
+              "date": "2026-03-02",
+              "link": "https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Binding port 0 to avoid port collisions",
+              "date": "2026-02-23",
+              "link": "https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "TIL: Docker log rotation",
+              "date": "2026-02-16",
+              "link": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -557,37 +619,6 @@
           ]
         },
         {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "Turbo Admin 1.21",
-              "date": "2026-06-08",
-              "link": "https://rosswintle.uk/2026/06/turbo-admin-1-21/"
-            },
-            {
-              "title": "The Writing Triangle",
-              "date": "2026-06-01",
-              "link": "https://rosswintle.uk/2026/06/the-writing-triangle/"
-            },
-            {
-              "title": "Turbo Admin (and life) update",
-              "date": "2026-03-08",
-              "link": "https://rosswintle.uk/2026/03/turbo-admin-and-life-update/"
-            },
-            {
-              "title": "A tiny, £20 keyboard! (And tips for using it on iOS)",
-              "date": "2026-02-16",
-              "link": "https://rosswintle.uk/2026/02/a-tiny-20-keyboard-and-tips-for-using-it-on-ios/"
-            },
-            {
-              "title": "YouSky: My one-person social network (Short version)",
-              "date": "2026-02-16",
-              "link": "https://rosswintle.uk/2026/02/yousky-my-one-person-social-network-short-version/"
-            }
-          ]
-        },
-        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -619,64 +650,33 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
             {
-              "title": "Software will never feel the same",
-              "date": "2026-06-07",
-              "link": "https://thejollyteapot.com/2026/06/07/software-will-never-feel-the-same/"
+              "title": "Turbo Admin 1.21",
+              "date": "2026-06-08",
+              "link": "https://rosswintle.uk/2026/06/turbo-admin-1-21/"
             },
             {
-              "title": "May 2026 blend of links",
-              "date": "2026-05-19",
-              "link": "https://thejollyteapot.com/may-2026-blend/"
+              "title": "The Writing Triangle",
+              "date": "2026-06-01",
+              "link": "https://rosswintle.uk/2026/06/the-writing-triangle/"
             },
             {
-              "title": "Another rant about web browsing",
-              "date": "2026-05-17",
-              "link": "https://thejollyteapot.com/2026/05/17/another-rant-about-web-browsing/"
+              "title": "Turbo Admin (and life) update",
+              "date": "2026-03-08",
+              "link": "https://rosswintle.uk/2026/03/turbo-admin-and-life-update/"
             },
             {
-              "title": "We need something better than touchscreens in cars",
-              "date": "2026-05-10",
-              "link": "https://thejollyteapot.com/2026/05/10/we-need-something-better-than-touchscreens-in-cars/"
+              "title": "A tiny, £20 keyboard! (And tips for using it on iOS)",
+              "date": "2026-02-16",
+              "link": "https://rosswintle.uk/2026/02/a-tiny-20-keyboard-and-tips-for-using-it-on-ios/"
             },
             {
-              "title": "The whole joy of it all",
-              "date": "2026-05-04",
-              "link": "https://thejollyteapot.com/2026/05/04/the-whole-joy-of-it-all/"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "Beyond the Shades of Conway’s Law - Foundations: The Origin &amp; The Mirroring Principle",
-              "date": "2026-06-07",
-              "link": "https://thinkinglabs.io/articles/2026/06/07/beyond-shades-of-conways-law-foundations.html"
-            },
-            {
-              "title": "Notes - Optimising Continuous Delivery",
-              "date": "2026-05-24",
-              "link": "https://thinkinglabs.io/notes/2026/05/24/pipelineconf-optimising-continuous-delivery-dave-farley.html"
-            },
-            {
-              "title": "Beyond the Shades of Conway’s Law",
-              "date": "2026-04-24",
-              "link": "https://thinkinglabs.io/articles/2026/04/24/beyond-the-shades-of-conways-law.html"
-            },
-            {
-              "title": "Don’t Let AI Invert The Testing Pyramid",
-              "date": "2026-04-12",
-              "link": "https://thinkinglabs.io/articles/2026/04/12/dont-let-ai-invert-the-testing-pyramid.html"
-            },
-            {
-              "title": "Coping Mechanisms for Introverts",
-              "date": "2026-01-15",
-              "link": "https://thinkinglabs.io/articles/2026/01/15/coping-mechanisms-for-introverts.html"
+              "title": "YouSky: My one-person social network (Short version)",
+              "date": "2026-02-16",
+              "link": "https://rosswintle.uk/2026/02/yousky-my-one-person-social-network-short-version/"
             }
           ]
         },
@@ -1146,6 +1146,37 @@
           ]
         },
         {
+          "title": "Curly Tail, Curly Braces",
+          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
+          "items": [
+            {
+              "title": "It's been 15 years, what have I learned?",
+              "date": "2026-05-12",
+              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
+            },
+            {
+              "title": "My 2025 In Review",
+              "date": "2025-12-31",
+              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
+            },
+            {
+              "title": "The Localhost Podcast CLI Tool",
+              "date": "2025-10-18",
+              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
+            },
+            {
+              "title": "Buying Tech Books in South Africa",
+              "date": "2025-05-16",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
+            },
+            {
+              "title": "My Exobrain",
+              "date": "2025-05-03",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
+            }
+          ]
+        },
+        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -1266,37 +1297,6 @@
               "title": "Planet of the Beavers",
               "date": "2023-10-06",
               "link": "https://molily.de/planet-of-the-beavers/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Web Is An Antitrust Wedge",
-              "date": "2026-04-03",
-              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
-            },
-            {
-              "title": "Naked Power",
-              "date": "2026-01-20",
-              "link": "https://infrequently.org/2026/01/naked-power/"
-            },
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
             }
           ]
         },
@@ -1730,37 +1730,6 @@
           ]
         },
         {
-          "title": "Hazel Weakly",
-          "feedUrl": "https://hazelweakly.me/atom.xml",
-          "items": [
-            {
-              "title": "Observations of Leadership (Part Two)",
-              "date": "2026-01-05",
-              "link": "https://hazelweakly.me/blog/observations-of-leadership-part-two/"
-            },
-            {
-              "title": "To Be a Leader of Systems",
-              "date": "2025-11-18",
-              "link": "https://hazelweakly.me/blog/to-be-a-leader-of-systems/"
-            },
-            {
-              "title": "Scaling Innovation: Building Ecosystems",
-              "date": "2025-10-21",
-              "link": "https://hazelweakly.me/blog/scaling-innovation-building-ecosystems/"
-            },
-            {
-              "title": "Stop Building AI Tools Backwards",
-              "date": "2025-05-16",
-              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
-            },
-            {
-              "title": "The Future of Observability: Observability 3.0",
-              "date": "2024-12-09",
-              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
-            }
-          ]
-        },
-        {
           "title": "HeydonWorks",
           "feedUrl": "https://heydonworks.com/feed.xml",
           "items": [
@@ -2071,6 +2040,37 @@
           ]
         },
         {
+          "title": "Work with Alan",
+          "feedUrl": "https://angryweasel.com/blog/feed/",
+          "items": [
+            {
+              "title": "Five for Friday – March 14, 2025",
+              "date": "2025-03-14",
+              "link": "https://angryweasel.com/blog/five-for-friday-march-14-2025/"
+            },
+            {
+              "title": "Five for Friday – March 7, 2025",
+              "date": "2025-03-07",
+              "link": "https://angryweasel.com/blog/five-for-friday-march-7-2025/"
+            },
+            {
+              "title": "Five for Friday – February 21, 2025",
+              "date": "2025-02-21",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-21-2025/"
+            },
+            {
+              "title": "Five for Friday – February 14, 2025",
+              "date": "2025-02-14",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-14-2025/"
+            },
+            {
+              "title": "Five for Friday – February 7, 2025",
+              "date": "2025-02-08",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
+            }
+          ]
+        },
+        {
           "title": "lalaland",
           "feedUrl": "https://lalaland.mataroa.blog/rss/",
           "items": [
@@ -2373,15 +2373,15 @@
       ]
     }
   ],
-  "fetchDate": "2026-06-20T06:59:23.997Z",
+  "fetchDate": "2026-06-21T07:57:53.378Z",
   "errors": [
-    "https://angryweasel.com/blog/feed/",
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
-    "https://www.worthe-it.co.za/atom.xml",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://hazelweakly.me/atom.xml"
   ]
 }

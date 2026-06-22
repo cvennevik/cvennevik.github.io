@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-06-22",
+              "link": "https://dbushell.com/notes/2026-06-22T07:43Z/"
+            },
+            {
+              "date": "2026-06-21",
+              "link": "https://dbushell.com/notes/2026-06-21T10:53Z/"
+            },
+            {
+              "date": "2026-06-20",
+              "link": "https://dbushell.com/notes/2026-06-20T14:00Z/"
+            },
+            {
+              "date": "2026-06-19",
+              "link": "https://dbushell.com/notes/2026-06-19T12:42Z/"
+            },
+            {
+              "date": "2026-06-17",
+              "link": "https://dbushell.com/notes/2026-06-17T18:03Z/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Several short sentences on writing",
+              "date": "2026-06-21",
+              "link": "https://robinrendle.com/notes/several-short-sentences-on-writing/"
+            },
+            {
+              "title": "Make Believe",
+              "date": "2026-06-13",
+              "link": "https://robinrendle.com/notes/make-believe/"
+            },
+            {
+              "title": "Indian Street Lettering",
+              "date": "2026-05-31",
+              "link": "https://robinrendle.com/notes/indian-street-lettering/"
+            },
+            {
+              "title": "fragcoord.xyz",
+              "date": "2026-05-25",
+              "link": "https://robinrendle.com/notes/fragcoord.xyz/"
+            },
+            {
+              "title": "The Wave",
+              "date": "2026-05-25",
+              "link": "https://robinrendle.com/notes/the-wave/"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "0060: SF",
+              "date": "2026-06-21",
+              "link": "https://www.scattered-thoughts.net/log/0060/"
+            },
+            {
+              "title": "0059: NYC and SF?",
+              "date": "2026-06-05",
+              "link": "https://www.scattered-thoughts.net/log/0059/"
+            },
+            {
+              "title": "Borrow-checking without type-checking",
+              "date": "2026-04-22",
+              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/"
+            },
+            {
+              "title": "0058: borrow-checking surprises, books, links",
+              "date": "2026-04-07",
+              "link": "https://www.scattered-thoughts.net/log/0058/"
+            },
+            {
+              "title": "Borrow-checking surprises",
+              "date": "2026-04-07",
+              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-surprises/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "On Vulgar Materialism",
+              "date": "2026-06-21",
+              "link": "https://borretti.me/article/on-vulgar-materialism"
+            },
+            {
+              "title": "Human Routers of Machine Words",
+              "date": "2026-06-13",
+              "link": "https://borretti.me/article/human-routers-of-machine-words"
+            },
+            {
+              "title": "How To Read More",
+              "date": "2026-06-04",
+              "link": "https://borretti.me/article/how-to-read-more"
+            },
+            {
+              "title": "Human Bottlenecks",
+              "date": "2026-05-18",
+              "link": "https://borretti.me/article/human-bottlenecks"
+            },
+            {
+              "title": "The Applicability of Spaced Repetition",
+              "date": "2026-05-17",
+              "link": "https://borretti.me/article/the-applicability-of-spaced-repetition"
+            }
+          ]
+        },
+        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -66,28 +185,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
             {
-              "date": "2026-06-20",
-              "link": "https://dbushell.com/notes/2026-06-20T14:00Z/"
-            },
-            {
+              "title": "Full Page Paralysis",
               "date": "2026-06-19",
-              "link": "https://dbushell.com/notes/2026-06-19T12:42Z/"
+              "link": "https://blog.jim-nielsen.com/2026/full-page-paralysis/"
             },
             {
-              "date": "2026-06-17",
-              "link": "https://dbushell.com/notes/2026-06-17T18:03Z/"
+              "title": "Being “Good” at Things",
+              "date": "2026-06-10",
+              "link": "https://blog.jim-nielsen.com/2026/good-at-things/"
             },
             {
-              "date": "2026-06-16",
-              "link": "https://dbushell.com/notes/2026-06-16T06:37Z/"
+              "title": "Coding Is Designing",
+              "date": "2026-06-07",
+              "link": "https://blog.jim-nielsen.com/2026/code-is-design/"
             },
             {
-              "date": "2026-06-15",
-              "link": "https://dbushell.com/notes/2026-06-15T04:47Z/"
+              "title": "An Ode to the Exacting Pedantry of Computers",
+              "date": "2026-06-02",
+              "link": "https://blog.jim-nielsen.com/2026/pedantry-of-computing/"
+            },
+            {
+              "title": "Book Notes: “Poor Charlie’s Almanack”",
+              "date": "2026-05-21",
+              "link": "https://blog.jim-nielsen.com/2026/book-notes-charlie-munger/"
             }
           ]
         },
@@ -119,37 +243,6 @@
               "title": "Challenge and opportunity",
               "date": "2026-06-01",
               "link": "https://dbushell.com/2026/06/01/challenge-and-opportunity/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Full Page Paralysis",
-              "date": "2026-06-19",
-              "link": "https://blog.jim-nielsen.com/2026/full-page-paralysis/"
-            },
-            {
-              "title": "Being “Good” at Things",
-              "date": "2026-06-10",
-              "link": "https://blog.jim-nielsen.com/2026/good-at-things/"
-            },
-            {
-              "title": "Coding Is Designing",
-              "date": "2026-06-07",
-              "link": "https://blog.jim-nielsen.com/2026/code-is-design/"
-            },
-            {
-              "title": "An Ode to the Exacting Pedantry of Computers",
-              "date": "2026-06-02",
-              "link": "https://blog.jim-nielsen.com/2026/pedantry-of-computing/"
-            },
-            {
-              "title": "Book Notes: “Poor Charlie’s Almanack”",
-              "date": "2026-05-21",
-              "link": "https://blog.jim-nielsen.com/2026/book-notes-charlie-munger/"
             }
           ]
         },
@@ -526,68 +619,6 @@
           ]
         },
         {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Make Believe",
-              "date": "2026-06-13",
-              "link": "https://robinrendle.com/notes/make-believe/"
-            },
-            {
-              "title": "Indian Street Lettering",
-              "date": "2026-05-31",
-              "link": "https://robinrendle.com/notes/indian-street-lettering/"
-            },
-            {
-              "title": "fragcoord.xyz",
-              "date": "2026-05-25",
-              "link": "https://robinrendle.com/notes/fragcoord.xyz/"
-            },
-            {
-              "title": "The Wave",
-              "date": "2026-05-25",
-              "link": "https://robinrendle.com/notes/the-wave/"
-            },
-            {
-              "title": "Sustained attention/revision",
-              "date": "2026-05-12",
-              "link": "https://robinrendle.com/notes/sustained-attention-revision/"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Human Routers of Machine Words",
-              "date": "2026-06-13",
-              "link": "https://borretti.me/article/human-routers-of-machine-words"
-            },
-            {
-              "title": "How To Read More",
-              "date": "2026-06-04",
-              "link": "https://borretti.me/article/how-to-read-more"
-            },
-            {
-              "title": "Human Bottlenecks",
-              "date": "2026-05-18",
-              "link": "https://borretti.me/article/human-bottlenecks"
-            },
-            {
-              "title": "The Applicability of Spaced Repetition",
-              "date": "2026-05-17",
-              "link": "https://borretti.me/article/the-applicability-of-spaced-repetition"
-            },
-            {
-              "title": "Notes on the Hantavirus Outbreak",
-              "date": "2026-05-08",
-              "link": "https://borretti.me/article/notes-on-the-hantavirus-outbreak"
-            }
-          ]
-        },
-        {
           "title": "A Tester's Journey",
           "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
           "items": [
@@ -615,37 +646,6 @@
               "title": "Agile Testing Days 2025 - Taking Things Easier",
               "date": "2025-11-29",
               "link": "https://www.lisihocke.com/2025/11/agile-testing-days-2025-taking-things-easier.html"
-            }
-          ]
-        },
-        {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "Cross-Document State Management (An In-Depth Tutorial)",
-              "date": "2026-06-08",
-              "link": "https://thathtml.blog/2026/06/cross-document-state-management/"
-            },
-            {
-              "title": "Designing an Autogenerated Live Color Scale in CSS",
-              "date": "2026-06-03",
-              "link": "https://thathtml.blog/2026/06/building-a-generated-color-scheme/"
-            },
-            {
-              "title": "The Best Introduction Guide to SVG You Will Read",
-              "date": "2026-05-01",
-              "link": "https://thathtml.blog/2026/05/best-svg-intro-guide/"
-            },
-            {
-              "title": "Masonry Layout Solved! Hello CSS Grid Lanes",
-              "date": "2026-04-28",
-              "link": "https://thathtml.blog/2026/04/masonry-now-css-grid-lanes/"
-            },
-            {
-              "title": "Two Paradigms for Enhancing HTML Tags",
-              "date": "2026-04-24",
-              "link": "https://thathtml.blog/2026/04/two-paradigms-for-enhancing-html-tags/"
             }
           ]
         },
@@ -681,6 +681,37 @@
           ]
         },
         {
+          "title": "That HTML Blog",
+          "feedUrl": "https://thathtml.blog/feed.xml",
+          "items": [
+            {
+              "title": "Cross-Document State Management (An In-Depth Tutorial)",
+              "date": "2026-06-08",
+              "link": "https://thathtml.blog/2026/06/cross-document-state-management/"
+            },
+            {
+              "title": "Designing an Autogenerated Live Color Scale in CSS",
+              "date": "2026-06-03",
+              "link": "https://thathtml.blog/2026/06/building-a-generated-color-scheme/"
+            },
+            {
+              "title": "The Best Introduction Guide to SVG You Will Read",
+              "date": "2026-05-01",
+              "link": "https://thathtml.blog/2026/05/best-svg-intro-guide/"
+            },
+            {
+              "title": "Masonry Layout Solved! Hello CSS Grid Lanes",
+              "date": "2026-04-28",
+              "link": "https://thathtml.blog/2026/04/masonry-now-css-grid-lanes/"
+            },
+            {
+              "title": "Two Paradigms for Enhancing HTML Tags",
+              "date": "2026-04-24",
+              "link": "https://thathtml.blog/2026/04/two-paradigms-for-enhancing-html-tags/"
+            }
+          ]
+        },
+        {
           "title": "Kyle Shevlin's Blog RSS Feed",
           "feedUrl": "https://kyleshevlin.com/rss.xml",
           "items": [
@@ -708,37 +739,6 @@
               "title": "Prefer Gaps To Margins",
               "date": "2025-06-23",
               "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
-            }
-          ]
-        },
-        {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "0059: NYC and SF?",
-              "date": "2026-06-05",
-              "link": "https://www.scattered-thoughts.net/log/0059/"
-            },
-            {
-              "title": "Borrow-checking without type-checking",
-              "date": "2026-04-22",
-              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/"
-            },
-            {
-              "title": "0058: borrow-checking surprises, books, links",
-              "date": "2026-04-07",
-              "link": "https://www.scattered-thoughts.net/log/0058/"
-            },
-            {
-              "title": "Borrow-checking surprises",
-              "date": "2026-04-07",
-              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-surprises/"
-            },
-            {
-              "title": "0057: consulting, zest progress, reads that lasted, books, links",
-              "date": "2026-02-17",
-              "link": "https://www.scattered-thoughts.net/log/0057/"
             }
           ]
         },
@@ -1730,6 +1730,37 @@
           ]
         },
         {
+          "title": "Hazel Weakly",
+          "feedUrl": "https://hazelweakly.me/atom.xml",
+          "items": [
+            {
+              "title": "Observations of Leadership (Part Two)",
+              "date": "2026-01-05",
+              "link": "https://hazelweakly.me/blog/observations-of-leadership-part-two/"
+            },
+            {
+              "title": "To Be a Leader of Systems",
+              "date": "2025-11-18",
+              "link": "https://hazelweakly.me/blog/to-be-a-leader-of-systems/"
+            },
+            {
+              "title": "Scaling Innovation: Building Ecosystems",
+              "date": "2025-10-21",
+              "link": "https://hazelweakly.me/blog/scaling-innovation-building-ecosystems/"
+            },
+            {
+              "title": "Stop Building AI Tools Backwards",
+              "date": "2025-05-16",
+              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
+            },
+            {
+              "title": "The Future of Observability: Observability 3.0",
+              "date": "2024-12-09",
+              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
+            }
+          ]
+        },
+        {
           "title": "HeydonWorks",
           "feedUrl": "https://heydonworks.com/feed.xml",
           "items": [
@@ -2373,15 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-06-21T07:57:53.378Z",
+  "fetchDate": "2026-06-22T08:55:33.626Z",
   "errors": [
-    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml",
-    "https://hazelweakly.me/atom.xml"
+    "https://infrequently.org/feed/"
   ]
 }

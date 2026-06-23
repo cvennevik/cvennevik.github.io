@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Consistency, But in Excellence Not Appearance",
+              "date": "2026-06-22",
+              "link": "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/"
+            },
+            {
+              "title": "Full Page Paralysis",
+              "date": "2026-06-19",
+              "link": "https://blog.jim-nielsen.com/2026/full-page-paralysis/"
+            },
+            {
+              "title": "Being “Good” at Things",
+              "date": "2026-06-10",
+              "link": "https://blog.jim-nielsen.com/2026/good-at-things/"
+            },
+            {
+              "title": "Coding Is Designing",
+              "date": "2026-06-07",
+              "link": "https://blog.jim-nielsen.com/2026/code-is-design/"
+            },
+            {
+              "title": "An Ode to the Exacting Pedantry of Computers",
+              "date": "2026-06-02",
+              "link": "https://blog.jim-nielsen.com/2026/pedantry-of-computing/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -26,6 +57,37 @@
             {
               "date": "2026-06-17",
               "link": "https://dbushell.com/notes/2026-06-17T18:03Z/"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "I Am A Link Curator",
+              "date": "2026-06-22",
+              "link": "https://flamedfury.com/posts/i-am-a-link-curator/"
+            },
+            {
+              "title": "Create A Static Site Using 11ty &amp; Deploy to Neocities (2026 Refresh)",
+              "date": "2026-06-16",
+              "link": "https://flamedfury.com/guides/11ty-homepage-neocities-2026/"
+            },
+            {
+              "title": "Home Brew Presents: Last Week",
+              "date": "2026-06-10",
+              "link": "https://flamedfury.com/posts/home-brew-presents-last-week/"
+            },
+            {
+              "title": "Link Dump: May 2026",
+              "date": "2026-06-03",
+              "link": "https://flamedfury.com/posts/link-dump-may-2026/"
+            },
+            {
+              "title": "Split Enz At Spark Arena",
+              "date": "2026-05-23",
+              "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
             }
           ]
         },
@@ -123,37 +185,6 @@
           ]
         },
         {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "Beyond the Shades of Conway’s Law - Validation: The Research &amp; Reality Check",
-              "date": "2026-06-20",
-              "link": "https://thinkinglabs.io/articles/2026/06/20/beyond-shades-of-conways-law-validation.html"
-            },
-            {
-              "title": "Beyond the Shades of Conway’s Law - Foundations: The Origin &amp; The Mirroring Principle",
-              "date": "2026-06-07",
-              "link": "https://thinkinglabs.io/articles/2026/06/07/beyond-shades-of-conways-law-foundations.html"
-            },
-            {
-              "title": "Notes - Optimising Continuous Delivery",
-              "date": "2026-05-24",
-              "link": "https://thinkinglabs.io/notes/2026/05/24/pipelineconf-optimising-continuous-delivery-dave-farley.html"
-            },
-            {
-              "title": "Beyond the Shades of Conway’s Law",
-              "date": "2026-04-24",
-              "link": "https://thinkinglabs.io/articles/2026/04/24/beyond-the-shades-of-conways-law.html"
-            },
-            {
-              "title": "Don’t Let AI Invert The Testing Pyramid",
-              "date": "2026-04-12",
-              "link": "https://thinkinglabs.io/articles/2026/04/12/dont-let-ai-invert-the-testing-pyramid.html"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -185,33 +216,33 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
             {
-              "title": "Full Page Paralysis",
-              "date": "2026-06-19",
-              "link": "https://blog.jim-nielsen.com/2026/full-page-paralysis/"
+              "title": "Beyond the Shades of Conway’s Law - Validation: The Research &amp; Reality Check",
+              "date": "2026-06-20",
+              "link": "https://thinkinglabs.io/articles/2026/06/20/beyond-shades-of-conways-law-validation.html"
             },
             {
-              "title": "Being “Good” at Things",
-              "date": "2026-06-10",
-              "link": "https://blog.jim-nielsen.com/2026/good-at-things/"
-            },
-            {
-              "title": "Coding Is Designing",
+              "title": "Beyond the Shades of Conway’s Law - Foundations: The Origin &amp; The Mirroring Principle",
               "date": "2026-06-07",
-              "link": "https://blog.jim-nielsen.com/2026/code-is-design/"
+              "link": "https://thinkinglabs.io/articles/2026/06/07/beyond-shades-of-conways-law-foundations.html"
             },
             {
-              "title": "An Ode to the Exacting Pedantry of Computers",
-              "date": "2026-06-02",
-              "link": "https://blog.jim-nielsen.com/2026/pedantry-of-computing/"
+              "title": "Notes - Optimising Continuous Delivery",
+              "date": "2026-05-24",
+              "link": "https://thinkinglabs.io/notes/2026/05/24/pipelineconf-optimising-continuous-delivery-dave-farley.html"
             },
             {
-              "title": "Book Notes: “Poor Charlie’s Almanack”",
-              "date": "2026-05-21",
-              "link": "https://blog.jim-nielsen.com/2026/book-notes-charlie-munger/"
+              "title": "Beyond the Shades of Conway’s Law",
+              "date": "2026-04-24",
+              "link": "https://thinkinglabs.io/articles/2026/04/24/beyond-the-shades-of-conways-law.html"
+            },
+            {
+              "title": "Don’t Let AI Invert The Testing Pyramid",
+              "date": "2026-04-12",
+              "link": "https://thinkinglabs.io/articles/2026/04/12/dont-let-ai-invert-the-testing-pyramid.html"
             }
           ]
         },
@@ -247,37 +278,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "Want to be happier at work? Try joining a church",
-              "date": "2026-06-19",
-              "link": "https://www.simplermachines.com/want-to-be-happier-at-work-try-joining-a-church/"
-            },
-            {
-              "title": "[GR02.06] camellia, single",
-              "date": "2026-06-16",
-              "link": "https://www.simplermachines.com/gr02-06-camellia-single/"
-            },
-            {
-              "title": "The Tech Debt Snowball Method",
-              "date": "2026-06-12",
-              "link": "https://www.simplermachines.com/the-tech-debt-snowball-2/"
-            },
-            {
-              "title": "[GR02.07] camellias, senescent",
-              "date": "2026-06-10",
-              "link": "https://www.simplermachines.com/gr02-07-camellias-senescent/"
-            },
-            {
-              "title": "Why I don't use story points",
-              "date": "2026-06-05",
-              "link": "https://www.simplermachines.com/why-i-dont-use-story-points/"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -305,6 +305,37 @@
               "title": "It's time to be right.",
               "date": "2026-04-30",
               "link": "http://brooker.co.za/blog/2026/04/30/be-right.html"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "Want to be happier at work? Try joining a church",
+              "date": "2026-06-19",
+              "link": "https://www.simplermachines.com/want-to-be-happier-at-work-try-joining-a-church/"
+            },
+            {
+              "title": "[GR02.06] camellia, single",
+              "date": "2026-06-16",
+              "link": "https://www.simplermachines.com/gr02-06-camellia-single/"
+            },
+            {
+              "title": "The Tech Debt Snowball Method",
+              "date": "2026-06-12",
+              "link": "https://www.simplermachines.com/the-tech-debt-snowball-2/"
+            },
+            {
+              "title": "[GR02.07] camellias, senescent",
+              "date": "2026-06-10",
+              "link": "https://www.simplermachines.com/gr02-07-camellias-senescent/"
+            },
+            {
+              "title": "Why I don't use story points",
+              "date": "2026-06-05",
+              "link": "https://www.simplermachines.com/why-i-dont-use-story-points/"
             }
           ]
         },
@@ -491,37 +522,6 @@
               "title": "Time for an 8th Virtue: Coherence",
               "date": "2026-06-03",
               "link": "http://agileotter.blogspot.com/2026/06/time-for-8th-virtue-coherence.html"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "Create A Static Site Using 11ty &amp; Deploy to Neocities (2026 Refresh)",
-              "date": "2026-06-16",
-              "link": "https://flamedfury.com/guides/11ty-homepage-neocities-2026/"
-            },
-            {
-              "title": "Home Brew Presents: Last Week",
-              "date": "2026-06-10",
-              "link": "https://flamedfury.com/posts/home-brew-presents-last-week/"
-            },
-            {
-              "title": "Link Dump: May 2026",
-              "date": "2026-06-03",
-              "link": "https://flamedfury.com/posts/link-dump-may-2026/"
-            },
-            {
-              "title": "Split Enz At Spark Arena",
-              "date": "2026-05-23",
-              "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
-            },
-            {
-              "title": "MGK At The Spark Arena",
-              "date": "2026-05-06",
-              "link": "https://flamedfury.com/posts/mgk-at-the-spark-arena/"
             }
           ]
         },
@@ -1022,37 +1022,6 @@
           ]
         },
         {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-          "items": [
-            {
-              "title": "Hack Your Brain with Relationship Anarchy",
-              "date": "2026-05-22",
-              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
-            },
-            {
-              "title": "Savepoint: A CLI for TDD",
-              "date": "2026-05-14",
-              "link": "https://www.youtube.com/watch?v=ZBa3BK4Efcw"
-            },
-            {
-              "title": "Obsidian for Learning Part II: Process",
-              "date": "2026-03-24",
-              "link": "https://www.youtube.com/watch?v=Tyw6quANpiY"
-            },
-            {
-              "title": "Hack your Brain with Powerlifting",
-              "date": "2026-01-19",
-              "link": "https://www.youtube.com/watch?v=WxN9VzwoGGw"
-            },
-            {
-              "title": "Misusing Macros for fn and Profit (Live @EuroRust '25!)",
-              "date": "2025-11-22",
-              "link": "https://www.youtube.com/watch?v=9-CIInQhBUs"
-            }
-          ]
-        },
-        {
           "title": "Marvin Hagemeister",
           "feedUrl": "https://marvinh.dev/feed.xml",
           "items": [
@@ -1084,37 +1053,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Moving away from Tailwind, and learning to structure my CSS",
-              "date": "2026-05-15",
-              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
-            },
-            {
-              "title": "Links to CSS colour palettes",
-              "date": "2026-05-04",
-              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
-            },
-            {
-              "title": "Testing Vue components in the browser",
-              "date": "2026-05-02",
-              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
-            },
-            {
-              "title": "Examples for the tcpdump and dig man pages",
-              "date": "2026-03-10",
-              "link": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
-            },
-            {
-              "title": "Notes on clarifying man pages",
-              "date": "2026-02-18",
-              "link": "https://jvns.ca/blog/2026/02/18/man-pages/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -1142,37 +1080,6 @@
               "title": "Ravens in March",
               "date": "2026-03-16",
               "link": "https://www.baldurbjarnason.com/notes/photos/ravens-in-march-2026/"
-            }
-          ]
-        },
-        {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "It's been 15 years, what have I learned?",
-              "date": "2026-05-12",
-              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
-            },
-            {
-              "title": "My 2025 In Review",
-              "date": "2025-12-31",
-              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
-            },
-            {
-              "title": "The Localhost Podcast CLI Tool",
-              "date": "2025-10-18",
-              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
-            },
-            {
-              "title": "Buying Tech Books in South Africa",
-              "date": "2025-05-16",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
-            },
-            {
-              "title": "My Exobrain",
-              "date": "2025-05-03",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
             }
           ]
         },
@@ -2071,37 +1978,6 @@
           ]
         },
         {
-          "title": "Work with Alan",
-          "feedUrl": "https://angryweasel.com/blog/feed/",
-          "items": [
-            {
-              "title": "Five for Friday – March 14, 2025",
-              "date": "2025-03-14",
-              "link": "https://angryweasel.com/blog/five-for-friday-march-14-2025/"
-            },
-            {
-              "title": "Five for Friday – March 7, 2025",
-              "date": "2025-03-07",
-              "link": "https://angryweasel.com/blog/five-for-friday-march-7-2025/"
-            },
-            {
-              "title": "Five for Friday – February 21, 2025",
-              "date": "2025-02-21",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-21-2025/"
-            },
-            {
-              "title": "Five for Friday – February 14, 2025",
-              "date": "2025-02-14",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-14-2025/"
-            },
-            {
-              "title": "Five for Friday – February 7, 2025",
-              "date": "2025-02-08",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
-            }
-          ]
-        },
-        {
           "title": "lalaland",
           "feedUrl": "https://lalaland.mataroa.blog/rss/",
           "items": [
@@ -2309,37 +2185,6 @@
           ]
         },
         {
-          "title": "CodeAesthetic",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
-          "items": [
-            {
-              "title": "Dear Functional Bros",
-              "date": "2023-12-23",
-              "link": "https://www.youtube.com/watch?v=nuML9SmdbJ4"
-            },
-            {
-              "title": "Dependency Injection, The Best Pattern",
-              "date": "2023-08-04",
-              "link": "https://www.youtube.com/watch?v=J1f5b4vcxCQ"
-            },
-            {
-              "title": "Premature Optimization",
-              "date": "2023-02-10",
-              "link": "https://www.youtube.com/watch?v=tKbV6BpH-C8"
-            },
-            {
-              "title": "Don't Write Comments",
-              "date": "2023-01-16",
-              "link": "https://www.youtube.com/watch?v=Bf7vDBBOBUA"
-            },
-            {
-              "title": "The Flaws of Inheritance",
-              "date": "2022-12-22",
-              "link": "https://www.youtube.com/watch?v=hxGOiiR9ZKg"
-            }
-          ]
-        },
-        {
           "title": "Hello world",
           "feedUrl": "https://qristin.wordpress.com/feed/",
           "items": [
@@ -2404,14 +2249,19 @@
       ]
     }
   ],
-  "fetchDate": "2026-06-22T08:55:33.626Z",
+  "fetchDate": "2026-06-23T06:49:20.863Z",
   "errors": [
-    "https://cutlefish.substack.com/feed",
+    "https://infrequently.org/feed/",
+    "https://angryweasel.com/blog/feed/",
     "https://2ality.com/feeds/posts.atom",
+    "https://cutlefish.substack.com/feed",
+    "https://www.worthe-it.co.za/atom.xml",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://angryweasel.substack.com/feed",
     "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml",
-    "https://infrequently.org/feed/"
+    "https://jvns.ca/atom.xml"
   ]
 }

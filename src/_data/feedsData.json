@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[GR02.07] I don't know what kind of flower this is",
+              "date": "2026-06-24",
+              "link": "https://www.simplermachines.com/gr02-07-what-kind-of-flower/"
+            },
+            {
+              "title": "Want to be happier at work? Try joining a church",
+              "date": "2026-06-19",
+              "link": "https://www.simplermachines.com/want-to-be-happier-at-work-try-joining-a-church/"
+            },
+            {
+              "title": "[GR02.06] camellia, single",
+              "date": "2026-06-16",
+              "link": "https://www.simplermachines.com/gr02-06-camellia-single/"
+            },
+            {
+              "title": "The Tech Debt Snowball Method",
+              "date": "2026-06-12",
+              "link": "https://www.simplermachines.com/the-tech-debt-snowball-2/"
+            },
+            {
+              "title": "[GR02.07] camellias, senescent",
+              "date": "2026-06-10",
+              "link": "https://www.simplermachines.com/gr02-07-camellias-senescent/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-06-24",
+              "link": "https://dbushell.com/notes/2026-06-24T05:31Z/"
+            },
+            {
+              "date": "2026-06-23",
+              "link": "https://dbushell.com/notes/2026-06-23T15:44Z/"
+            },
+            {
+              "date": "2026-06-22",
+              "link": "https://dbushell.com/notes/2026-06-22T07:43Z/"
+            },
+            {
+              "date": "2026-06-21",
+              "link": "https://dbushell.com/notes/2026-06-21T10:53Z/"
+            },
+            {
+              "date": "2026-06-20",
+              "link": "https://dbushell.com/notes/2026-06-20T14:00Z/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -31,32 +88,6 @@
               "title": "An Ode to the Exacting Pedantry of Computers",
               "date": "2026-06-02",
               "link": "https://blog.jim-nielsen.com/2026/pedantry-of-computing/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-06-22",
-              "link": "https://dbushell.com/notes/2026-06-22T07:43Z/"
-            },
-            {
-              "date": "2026-06-21",
-              "link": "https://dbushell.com/notes/2026-06-21T10:53Z/"
-            },
-            {
-              "date": "2026-06-20",
-              "link": "https://dbushell.com/notes/2026-06-20T14:00Z/"
-            },
-            {
-              "date": "2026-06-19",
-              "link": "https://dbushell.com/notes/2026-06-19T12:42Z/"
-            },
-            {
-              "date": "2026-06-17",
-              "link": "https://dbushell.com/notes/2026-06-17T18:03Z/"
             }
           ]
         },
@@ -123,37 +154,6 @@
           ]
         },
         {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "0060: SF",
-              "date": "2026-06-21",
-              "link": "https://www.scattered-thoughts.net/log/0060/"
-            },
-            {
-              "title": "0059: NYC and SF?",
-              "date": "2026-06-05",
-              "link": "https://www.scattered-thoughts.net/log/0059/"
-            },
-            {
-              "title": "Borrow-checking without type-checking",
-              "date": "2026-04-22",
-              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/"
-            },
-            {
-              "title": "0058: borrow-checking surprises, books, links",
-              "date": "2026-04-07",
-              "link": "https://www.scattered-thoughts.net/log/0058/"
-            },
-            {
-              "title": "Borrow-checking surprises",
-              "date": "2026-04-07",
-              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-surprises/"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -181,6 +181,37 @@
               "title": "The Applicability of Spaced Repetition",
               "date": "2026-05-17",
               "link": "https://borretti.me/article/the-applicability-of-spaced-repetition"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "0060: SF",
+              "date": "2026-06-21",
+              "link": "https://www.scattered-thoughts.net/log/0060/"
+            },
+            {
+              "title": "0059: NYC and SF?",
+              "date": "2026-06-05",
+              "link": "https://www.scattered-thoughts.net/log/0059/"
+            },
+            {
+              "title": "Borrow-checking without type-checking",
+              "date": "2026-04-22",
+              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/"
+            },
+            {
+              "title": "0058: borrow-checking surprises, books, links",
+              "date": "2026-04-07",
+              "link": "https://www.scattered-thoughts.net/log/0058/"
+            },
+            {
+              "title": "Borrow-checking surprises",
+              "date": "2026-04-07",
+              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-surprises/"
             }
           ]
         },
@@ -305,37 +336,6 @@
               "title": "It's time to be right.",
               "date": "2026-04-30",
               "link": "http://brooker.co.za/blog/2026/04/30/be-right.html"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "Want to be happier at work? Try joining a church",
-              "date": "2026-06-19",
-              "link": "https://www.simplermachines.com/want-to-be-happier-at-work-try-joining-a-church/"
-            },
-            {
-              "title": "[GR02.06] camellia, single",
-              "date": "2026-06-16",
-              "link": "https://www.simplermachines.com/gr02-06-camellia-single/"
-            },
-            {
-              "title": "The Tech Debt Snowball Method",
-              "date": "2026-06-12",
-              "link": "https://www.simplermachines.com/the-tech-debt-snowball-2/"
-            },
-            {
-              "title": "[GR02.07] camellias, senescent",
-              "date": "2026-06-10",
-              "link": "https://www.simplermachines.com/gr02-07-camellias-senescent/"
-            },
-            {
-              "title": "Why I don't use story points",
-              "date": "2026-06-05",
-              "link": "https://www.simplermachines.com/why-i-dont-use-story-points/"
             }
           ]
         },
@@ -1053,6 +1053,37 @@
           ]
         },
         {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Moving away from Tailwind, and learning to structure my CSS",
+              "date": "2026-05-15",
+              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
+            },
+            {
+              "title": "Links to CSS colour palettes",
+              "date": "2026-05-04",
+              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
+            },
+            {
+              "title": "Testing Vue components in the browser",
+              "date": "2026-05-02",
+              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
+            },
+            {
+              "title": "Examples for the tcpdump and dig man pages",
+              "date": "2026-03-10",
+              "link": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
+            },
+            {
+              "title": "Notes on clarifying man pages",
+              "date": "2026-02-18",
+              "link": "https://jvns.ca/blog/2026/02/18/man-pages/"
+            }
+          ]
+        },
+        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -1080,6 +1111,37 @@
               "title": "Ravens in March",
               "date": "2026-03-16",
               "link": "https://www.baldurbjarnason.com/notes/photos/ravens-in-march-2026/"
+            }
+          ]
+        },
+        {
+          "title": "Curly Tail, Curly Braces",
+          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
+          "items": [
+            {
+              "title": "It's been 15 years, what have I learned?",
+              "date": "2026-05-12",
+              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
+            },
+            {
+              "title": "My 2025 In Review",
+              "date": "2025-12-31",
+              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
+            },
+            {
+              "title": "The Localhost Podcast CLI Tool",
+              "date": "2025-10-18",
+              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
+            },
+            {
+              "title": "Buying Tech Books in South Africa",
+              "date": "2025-05-16",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
+            },
+            {
+              "title": "My Exobrain",
+              "date": "2025-05-03",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
             }
           ]
         },
@@ -1173,6 +1235,37 @@
               "title": "Breaking some huge personal news",
               "date": "2025-02-07",
               "link": "https://newsletter.goodtechthings.com/p/breaking-some-huge-personal-news"
+            }
+          ]
+        },
+        {
+          "title": "Pablo's logbook",
+          "feedUrl": "https://blog.codemanship.dev/rss.xml",
+          "items": [
+            {
+              "title": "Rant Code",
+              "date": "2026-04-17",
+              "link": "https://blog.codemanship.dev/rant-code"
+            },
+            {
+              "title": "Flow State",
+              "date": "2025-11-26",
+              "link": "https://blog.codemanship.dev/flow-state"
+            },
+            {
+              "title": "My code is a liar",
+              "date": "2025-11-20",
+              "link": "https://blog.codemanship.dev/my-code-is-a-liar"
+            },
+            {
+              "title": "Separating the important from the urgent",
+              "date": "2025-09-08",
+              "link": "https://blog.codemanship.dev/separating-the-important-from-the-urgent"
+            },
+            {
+              "title": "Agile in the age of Scrum",
+              "date": "2025-08-27",
+              "link": "https://blog.codemanship.dev/agile-in-the-age-of-scrum"
             }
           ]
         },
@@ -1978,6 +2071,37 @@
           ]
         },
         {
+          "title": "Work with Alan",
+          "feedUrl": "https://angryweasel.com/blog/feed/",
+          "items": [
+            {
+              "title": "Five for Friday – March 14, 2025",
+              "date": "2025-03-14",
+              "link": "https://angryweasel.com/blog/five-for-friday-march-14-2025/"
+            },
+            {
+              "title": "Five for Friday – March 7, 2025",
+              "date": "2025-03-07",
+              "link": "https://angryweasel.com/blog/five-for-friday-march-7-2025/"
+            },
+            {
+              "title": "Five for Friday – February 21, 2025",
+              "date": "2025-02-21",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-21-2025/"
+            },
+            {
+              "title": "Five for Friday – February 14, 2025",
+              "date": "2025-02-14",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-14-2025/"
+            },
+            {
+              "title": "Five for Friday – February 7, 2025",
+              "date": "2025-02-08",
+              "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
+            }
+          ]
+        },
+        {
           "title": "lalaland",
           "feedUrl": "https://lalaland.mataroa.blog/rss/",
           "items": [
@@ -2249,19 +2373,15 @@
       ]
     }
   ],
-  "fetchDate": "2026-06-23T06:49:20.863Z",
+  "fetchDate": "2026-06-24T06:47:08.358Z",
   "errors": [
     "https://infrequently.org/feed/",
-    "https://angryweasel.com/blog/feed/",
-    "https://2ality.com/feeds/posts.atom",
     "https://cutlefish.substack.com/feed",
-    "https://www.worthe-it.co.za/atom.xml",
+    "https://2ality.com/feeds/posts.atom",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml",
-    "https://jvns.ca/atom.xml"
+    "https://fynn.be/feed.xml"
   ]
 }

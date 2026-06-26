@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Navigating the maze",
+              "date": "2026-06-25",
+              "link": "https://gomakethings.com/articles/navigating-the-maze/"
+            },
+            {
+              "title": "Resistance is your duty",
+              "date": "2026-06-18",
+              "link": "https://gomakethings.com/articles/resistance-is-your-duty/"
+            },
+            {
+              "title": "Stand for something",
+              "date": "2026-06-14",
+              "link": "https://gomakethings.com/articles/stand-for-something/"
+            },
+            {
+              "title": "Expanding the digital garden",
+              "date": "2026-06-11",
+              "link": "https://gomakethings.com/articles/expanding-the-digital-garden/"
+            },
+            {
+              "title": "AI is not a person",
+              "date": "2026-06-08",
+              "link": "https://gomakethings.com/articles/ai-is-not-a-person/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "See a good bird",
+              "date": "2026-06-25",
+              "link": "https://www.simplermachines.com/see-a-good-bird/"
+            },
+            {
+              "title": "[GR02.07] I don't know what kind of flower this is",
+              "date": "2026-06-24",
+              "link": "https://www.simplermachines.com/gr02-07-what-kind-of-flower/"
+            },
+            {
+              "title": "Want to be happier at work? Try joining a church",
+              "date": "2026-06-19",
+              "link": "https://www.simplermachines.com/want-to-be-happier-at-work-try-joining-a-church/"
+            },
+            {
+              "title": "[GR02.06] camellia, single",
+              "date": "2026-06-16",
+              "link": "https://www.simplermachines.com/gr02-06-camellia-single/"
+            },
+            {
+              "title": "The Tech Debt Snowball Method",
+              "date": "2026-06-12",
+              "link": "https://www.simplermachines.com/the-tech-debt-snowball-2/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "No-One Escapes the Permanent Underclass",
+              "date": "2026-06-25",
+              "link": "https://borretti.me/article/no-one-escapes-the-permanent-underclass"
+            },
+            {
+              "title": "On Vulgar Materialism",
+              "date": "2026-06-21",
+              "link": "https://borretti.me/article/on-vulgar-materialism"
+            },
+            {
+              "title": "Human Routers of Machine Words",
+              "date": "2026-06-13",
+              "link": "https://borretti.me/article/human-routers-of-machine-words"
+            },
+            {
+              "title": "How To Read More",
+              "date": "2026-06-04",
+              "link": "https://borretti.me/article/how-to-read-more"
+            },
+            {
+              "title": "Human Bottlenecks",
+              "date": "2026-05-18",
+              "link": "https://borretti.me/article/human-bottlenecks"
+            }
+          ]
+        },
+        {
           "title": "Coding Is Like Cooking",
           "feedUrl": "https://coding-is-like-cooking.info/feed/",
           "items": [
@@ -35,33 +128,28 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
             {
-              "title": "Blogging Can Just Be Stating The Obvious",
+              "date": "2026-06-25",
+              "link": "https://dbushell.com/notes/2026-06-25T11:10Z/"
+            },
+            {
               "date": "2026-06-24",
-              "link": "https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/"
+              "link": "https://dbushell.com/notes/2026-06-24T10:10Z/"
             },
             {
-              "title": "Consistency, But in Excellence Not Appearance",
+              "date": "2026-06-24",
+              "link": "https://dbushell.com/notes/2026-06-24T05:31Z/"
+            },
+            {
+              "date": "2026-06-23",
+              "link": "https://dbushell.com/notes/2026-06-23T15:44Z/"
+            },
+            {
               "date": "2026-06-22",
-              "link": "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/"
-            },
-            {
-              "title": "Full Page Paralysis",
-              "date": "2026-06-19",
-              "link": "https://blog.jim-nielsen.com/2026/full-page-paralysis/"
-            },
-            {
-              "title": "Being “Good” at Things",
-              "date": "2026-06-10",
-              "link": "https://blog.jim-nielsen.com/2026/good-at-things/"
-            },
-            {
-              "title": "Coding Is Designing",
-              "date": "2026-06-07",
-              "link": "https://blog.jim-nielsen.com/2026/code-is-design/"
+              "link": "https://dbushell.com/notes/2026-06-22T07:43Z/"
             }
           ]
         },
@@ -97,37 +185,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[GR02.07] I don't know what kind of flower this is",
-              "date": "2026-06-24",
-              "link": "https://www.simplermachines.com/gr02-07-what-kind-of-flower/"
-            },
-            {
-              "title": "Want to be happier at work? Try joining a church",
-              "date": "2026-06-19",
-              "link": "https://www.simplermachines.com/want-to-be-happier-at-work-try-joining-a-church/"
-            },
-            {
-              "title": "[GR02.06] camellia, single",
-              "date": "2026-06-16",
-              "link": "https://www.simplermachines.com/gr02-06-camellia-single/"
-            },
-            {
-              "title": "The Tech Debt Snowball Method",
-              "date": "2026-06-12",
-              "link": "https://www.simplermachines.com/the-tech-debt-snowball-2/"
-            },
-            {
-              "title": "[GR02.07] camellias, senescent",
-              "date": "2026-06-10",
-              "link": "https://www.simplermachines.com/gr02-07-camellias-senescent/"
-            }
-          ]
-        },
-        {
           "title": "Scattered Thoughts",
           "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
@@ -155,32 +212,6 @@
               "title": "0058: borrow-checking surprises, books, links",
               "date": "2026-04-07",
               "link": "https://www.scattered-thoughts.net/log/0058/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-06-24",
-              "link": "https://dbushell.com/notes/2026-06-24T10:10Z/"
-            },
-            {
-              "date": "2026-06-24",
-              "link": "https://dbushell.com/notes/2026-06-24T05:31Z/"
-            },
-            {
-              "date": "2026-06-23",
-              "link": "https://dbushell.com/notes/2026-06-23T15:44Z/"
-            },
-            {
-              "date": "2026-06-22",
-              "link": "https://dbushell.com/notes/2026-06-22T07:43Z/"
-            },
-            {
-              "date": "2026-06-21",
-              "link": "https://dbushell.com/notes/2026-06-21T10:53Z/"
             }
           ]
         },
@@ -243,68 +274,6 @@
               "title": "Split Enz At Spark Arena",
               "date": "2026-05-23",
               "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Several short sentences on writing",
-              "date": "2026-06-21",
-              "link": "https://robinrendle.com/notes/several-short-sentences-on-writing/"
-            },
-            {
-              "title": "Make Believe",
-              "date": "2026-06-13",
-              "link": "https://robinrendle.com/notes/make-believe/"
-            },
-            {
-              "title": "Indian Street Lettering",
-              "date": "2026-05-31",
-              "link": "https://robinrendle.com/notes/indian-street-lettering/"
-            },
-            {
-              "title": "fragcoord.xyz",
-              "date": "2026-05-25",
-              "link": "https://robinrendle.com/notes/fragcoord.xyz/"
-            },
-            {
-              "title": "The Wave",
-              "date": "2026-05-25",
-              "link": "https://robinrendle.com/notes/the-wave/"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "On Vulgar Materialism",
-              "date": "2026-06-21",
-              "link": "https://borretti.me/article/on-vulgar-materialism"
-            },
-            {
-              "title": "Human Routers of Machine Words",
-              "date": "2026-06-13",
-              "link": "https://borretti.me/article/human-routers-of-machine-words"
-            },
-            {
-              "title": "How To Read More",
-              "date": "2026-06-04",
-              "link": "https://borretti.me/article/how-to-read-more"
-            },
-            {
-              "title": "Human Bottlenecks",
-              "date": "2026-05-18",
-              "link": "https://borretti.me/article/human-bottlenecks"
-            },
-            {
-              "title": "The Applicability of Spaced Repetition",
-              "date": "2026-05-17",
-              "link": "https://borretti.me/article/the-applicability-of-spaced-repetition"
             }
           ]
         },
@@ -433,37 +402,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Resistance is your duty",
-              "date": "2026-06-18",
-              "link": "https://gomakethings.com/articles/resistance-is-your-duty/"
-            },
-            {
-              "title": "Stand for something",
-              "date": "2026-06-14",
-              "link": "https://gomakethings.com/articles/stand-for-something/"
-            },
-            {
-              "title": "Expanding the digital garden",
-              "date": "2026-06-11",
-              "link": "https://gomakethings.com/articles/expanding-the-digital-garden/"
-            },
-            {
-              "title": "AI is not a person",
-              "date": "2026-06-08",
-              "link": "https://gomakethings.com/articles/ai-is-not-a-person/"
-            },
-            {
-              "title": "How to detect when an element's visibility changes with JavaScript",
-              "date": "2026-06-08",
-              "link": "https://gomakethings.com/articles/how-to-detect-when-an-elements-visibility-changes-with-javascript/"
-            }
-          ]
-        },
-        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -495,37 +433,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Logic for Programmers v0.15, Livecoding",
-              "date": "2026-06-17",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
-            },
-            {
-              "title": "Nontrailing separators do not spark joy",
-              "date": "2026-06-10",
-              "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/"
-            },
-            {
-              "title": "Logic for Programmers extra credits",
-              "date": "2026-06-02",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/"
-            },
-            {
-              "title": "Knowing about things is cheaper than knowing things",
-              "date": "2026-05-28",
-              "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/"
-            },
-            {
-              "title": "Assumptions weaken properties",
-              "date": "2026-05-20",
-              "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/"
-            }
-          ]
-        },
-        {
           "title": "ntietz.com blog - technically a blog",
           "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
@@ -553,6 +460,37 @@
               "title": "TIL: Docker log rotation",
               "date": "2026-02-16",
               "link": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Logic for Programmers v0.15, Livecoding",
+              "date": "2026-06-17",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
+            },
+            {
+              "title": "Nontrailing separators do not spark joy",
+              "date": "2026-06-10",
+              "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/"
+            },
+            {
+              "title": "Logic for Programmers extra credits",
+              "date": "2026-06-02",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/"
+            },
+            {
+              "title": "Knowing about things is cheaper than knowing things",
+              "date": "2026-05-28",
+              "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/"
+            },
+            {
+              "title": "Assumptions weaken properties",
+              "date": "2026-05-20",
+              "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/"
             }
           ]
         },
@@ -1115,6 +1053,37 @@
           ]
         },
         {
+          "title": "Curly Tail, Curly Braces",
+          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
+          "items": [
+            {
+              "title": "It's been 15 years, what have I learned?",
+              "date": "2026-05-12",
+              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
+            },
+            {
+              "title": "My 2025 In Review",
+              "date": "2025-12-31",
+              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
+            },
+            {
+              "title": "The Localhost Podcast CLI Tool",
+              "date": "2025-10-18",
+              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
+            },
+            {
+              "title": "Buying Tech Books in South Africa",
+              "date": "2025-05-16",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
+            },
+            {
+              "title": "My Exobrain",
+              "date": "2025-05-03",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
+            }
+          ]
+        },
+        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -1266,37 +1235,6 @@
               "title": "Planet of the Beavers",
               "date": "2023-10-06",
               "link": "https://molily.de/planet-of-the-beavers/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Web Is An Antitrust Wedge",
-              "date": "2026-04-03",
-              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
-            },
-            {
-              "title": "Naked Power",
-              "date": "2026-01-20",
-              "link": "https://infrequently.org/2026/01/naked-power/"
-            },
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            },
-            {
-              "title": "The App Store Was Always Authoritarian",
-              "date": "2025-10-11",
-              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
-            },
-            {
-              "title": "11ty Hacks for Fun and Performance",
-              "date": "2025-10-04",
-              "link": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance/"
             }
           ]
         },
@@ -2373,8 +2311,10 @@
       ]
     }
   ],
-  "fetchDate": "2026-06-25T06:45:33.911Z",
+  "fetchDate": "2026-06-26T06:53:21.229Z",
   "errors": [
+    "https://robinrendle.com/feed.xml",
+    "https://blog.jim-nielsen.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
@@ -2382,6 +2322,6 @@
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml",
-    "https://www.worthe-it.co.za/atom.xml"
+    "https://infrequently.org/feed/"
   ]
 }

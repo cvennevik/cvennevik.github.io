@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "ARIA, anti-patterns, and you",
+              "date": "2026-06-26",
+              "link": "https://dbushell.com/2026/06/26/aria-anti-patterns-and-you/"
+            },
+            {
+              "title": "Life is too short for lowercase ASCII",
+              "date": "2026-06-19",
+              "link": "https://dbushell.com/2026/06/19/css-methodology/"
+            },
+            {
+              "title": "RSS Club #008: Duck duck, swan?",
+              "date": "2026-06-13",
+              "link": "https://dbushell.com/2026/06/13/RSS008/"
+            },
+            {
+              "title": "Apple deepfakes",
+              "date": "2026-06-12",
+              "link": "https://dbushell.com/2026/06/12/apple-deepfakes/"
+            },
+            {
+              "title": "Are you standard.site?",
+              "date": "2026-06-05",
+              "link": "https://dbushell.com/2026/06/05/are-you-standard-site/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "My Om Malik Story",
+              "date": "2026-06-25",
+              "link": "https://blog.jim-nielsen.com/2026/tribute-to-om/"
+            },
+            {
+              "title": "Blogging Can Just Be Stating The Obvious",
+              "date": "2026-06-24",
+              "link": "https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/"
+            },
+            {
+              "title": "Consistency, But in Excellence Not Appearance",
+              "date": "2026-06-22",
+              "link": "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/"
+            },
+            {
+              "title": "Full Page Paralysis",
+              "date": "2026-06-19",
+              "link": "https://blog.jim-nielsen.com/2026/full-page-paralysis/"
+            },
+            {
+              "title": "Being “Good” at Things",
+              "date": "2026-06-10",
+              "link": "https://blog.jim-nielsen.com/2026/good-at-things/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -97,6 +159,32 @@
           ]
         },
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-06-25",
+              "link": "https://dbushell.com/notes/2026-06-25T11:10Z/"
+            },
+            {
+              "date": "2026-06-24",
+              "link": "https://dbushell.com/notes/2026-06-24T10:10Z/"
+            },
+            {
+              "date": "2026-06-24",
+              "link": "https://dbushell.com/notes/2026-06-24T05:31Z/"
+            },
+            {
+              "date": "2026-06-23",
+              "link": "https://dbushell.com/notes/2026-06-23T15:44Z/"
+            },
+            {
+              "date": "2026-06-22",
+              "link": "https://dbushell.com/notes/2026-06-22T07:43Z/"
+            }
+          ]
+        },
+        {
           "title": "Coding Is Like Cooking",
           "feedUrl": "https://coding-is-like-cooking.info/feed/",
           "items": [
@@ -124,32 +212,6 @@
               "title": "Seven Testing Myths Every Developer Should STOP Believing",
               "date": "2026-03-18",
               "link": "https://coding-is-like-cooking.info/2026/03/seven-testing-myths-every-developer-should-stop-believing/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-06-25",
-              "link": "https://dbushell.com/notes/2026-06-25T11:10Z/"
-            },
-            {
-              "date": "2026-06-24",
-              "link": "https://dbushell.com/notes/2026-06-24T10:10Z/"
-            },
-            {
-              "date": "2026-06-24",
-              "link": "https://dbushell.com/notes/2026-06-24T05:31Z/"
-            },
-            {
-              "date": "2026-06-23",
-              "link": "https://dbushell.com/notes/2026-06-23T15:44Z/"
-            },
-            {
-              "date": "2026-06-22",
-              "link": "https://dbushell.com/notes/2026-06-22T07:43Z/"
             }
           ]
         },
@@ -340,37 +402,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Life is too short for lowercase ASCII",
-              "date": "2026-06-19",
-              "link": "https://dbushell.com/2026/06/19/css-methodology/"
-            },
-            {
-              "title": "RSS Club #008: Duck duck, swan?",
-              "date": "2026-06-13",
-              "link": "https://dbushell.com/2026/06/13/RSS008/"
-            },
-            {
-              "title": "Apple deepfakes",
-              "date": "2026-06-12",
-              "link": "https://dbushell.com/2026/06/12/apple-deepfakes/"
-            },
-            {
-              "title": "Are you standard.site?",
-              "date": "2026-06-05",
-              "link": "https://dbushell.com/2026/06/05/are-you-standard-site/"
-            },
-            {
-              "title": "Challenge and opportunity",
-              "date": "2026-06-01",
-              "link": "https://dbushell.com/2026/06/01/challenge-and-opportunity/"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -433,37 +464,6 @@
           ]
         },
         {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Where I've been, and the future of this blog",
-              "date": "2026-06-17",
-              "link": "https://ntietz.com/blog/where-ive-been/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Let yourself fall down more",
-              "date": "2026-03-09",
-              "link": "https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "You can't always fix it",
-              "date": "2026-03-02",
-              "link": "https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Binding port 0 to avoid port collisions",
-              "date": "2026-02-23",
-              "link": "https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "TIL: Docker log rotation",
-              "date": "2026-02-16",
-              "link": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -491,6 +491,37 @@
               "title": "Assumptions weaken properties",
               "date": "2026-05-20",
               "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Where I've been, and the future of this blog",
+              "date": "2026-06-17",
+              "link": "https://ntietz.com/blog/where-ive-been/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Let yourself fall down more",
+              "date": "2026-03-09",
+              "link": "https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "You can't always fix it",
+              "date": "2026-03-02",
+              "link": "https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Binding port 0 to avoid port collisions",
+              "date": "2026-02-23",
+              "link": "https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "TIL: Docker log rotation",
+              "date": "2026-02-16",
+              "link": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -956,6 +987,37 @@
               "title": "devlog: garbage collection is useful",
               "date": "2025-11-14",
               "link": "https://dubroy.com/blog/garbage-collection-is-useful/"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Hack Your Brain with Relationship Anarchy",
+              "date": "2026-05-22",
+              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
+            },
+            {
+              "title": "Savepoint: A CLI for TDD",
+              "date": "2026-05-14",
+              "link": "https://www.youtube.com/watch?v=ZBa3BK4Efcw"
+            },
+            {
+              "title": "Obsidian for Learning Part II: Process",
+              "date": "2026-03-24",
+              "link": "https://www.youtube.com/watch?v=Tyw6quANpiY"
+            },
+            {
+              "title": "Hack your Brain with Powerlifting",
+              "date": "2026-01-19",
+              "link": "https://www.youtube.com/watch?v=WxN9VzwoGGw"
+            },
+            {
+              "title": "Misusing Macros for fn and Profit (Live @EuroRust '25!)",
+              "date": "2025-11-22",
+              "link": "https://www.youtube.com/watch?v=9-CIInQhBUs"
             }
           ]
         },
@@ -2247,6 +2309,37 @@
           ]
         },
         {
+          "title": "CodeAesthetic",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
+          "items": [
+            {
+              "title": "Dear Functional Bros",
+              "date": "2023-12-23",
+              "link": "https://www.youtube.com/watch?v=nuML9SmdbJ4"
+            },
+            {
+              "title": "Dependency Injection, The Best Pattern",
+              "date": "2023-08-04",
+              "link": "https://www.youtube.com/watch?v=J1f5b4vcxCQ"
+            },
+            {
+              "title": "Premature Optimization",
+              "date": "2023-02-10",
+              "link": "https://www.youtube.com/watch?v=tKbV6BpH-C8"
+            },
+            {
+              "title": "Don't Write Comments",
+              "date": "2023-01-16",
+              "link": "https://www.youtube.com/watch?v=Bf7vDBBOBUA"
+            },
+            {
+              "title": "The Flaws of Inheritance",
+              "date": "2022-12-22",
+              "link": "https://www.youtube.com/watch?v=hxGOiiR9ZKg"
+            }
+          ]
+        },
+        {
           "title": "Hello world",
           "feedUrl": "https://qristin.wordpress.com/feed/",
           "items": [
@@ -2311,17 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-06-26T06:53:21.229Z",
+  "fetchDate": "2026-06-27T06:29:24.032Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
-    "https://blog.jim-nielsen.com/feed.xml",
-    "https://cutlefish.substack.com/feed",
+    "https://infrequently.org/feed/",
     "https://2ality.com/feeds/posts.atom",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+    "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml",
-    "https://infrequently.org/feed/"
+    "https://robinrendle.com/feed.xml"
   ]
 }

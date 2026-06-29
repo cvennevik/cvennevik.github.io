@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-06-29",
+              "link": "https://dbushell.com/notes/2026-06-29T06:17Z/"
+            },
+            {
+              "date": "2026-06-25",
+              "link": "https://dbushell.com/notes/2026-06-25T11:10Z/"
+            },
+            {
+              "date": "2026-06-24",
+              "link": "https://dbushell.com/notes/2026-06-24T10:10Z/"
+            },
+            {
+              "date": "2026-06-24",
+              "link": "https://dbushell.com/notes/2026-06-24T05:31Z/"
+            },
+            {
+              "date": "2026-06-23",
+              "link": "https://dbushell.com/notes/2026-06-23T15:44Z/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Notes from Bryan Cantrill’s “Intelligence is not Enough”",
+              "date": "2026-06-28",
+              "link": "https://blog.jim-nielsen.com/2026/intelligence-isnt-enough/"
+            },
+            {
+              "title": "My Om Malik Story",
+              "date": "2026-06-25",
+              "link": "https://blog.jim-nielsen.com/2026/tribute-to-om/"
+            },
+            {
+              "title": "Blogging Can Just Be Stating The Obvious",
+              "date": "2026-06-24",
+              "link": "https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/"
+            },
+            {
+              "title": "Consistency, But in Excellence Not Appearance",
+              "date": "2026-06-22",
+              "link": "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/"
+            },
+            {
+              "title": "Full Page Paralysis",
+              "date": "2026-06-19",
+              "link": "https://blog.jim-nielsen.com/2026/full-page-paralysis/"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "Zig and the Zig Guy",
+              "date": "2026-06-28",
+              "link": "https://rosswintle.uk/2026/06/zig-and-the-zig-guy/"
+            },
+            {
+              "title": "Turbo Admin 1.21",
+              "date": "2026-06-08",
+              "link": "https://rosswintle.uk/2026/06/turbo-admin-1-21/"
+            },
+            {
+              "title": "The Writing Triangle",
+              "date": "2026-06-01",
+              "link": "https://rosswintle.uk/2026/06/the-writing-triangle/"
+            },
+            {
+              "title": "Turbo Admin (and life) update",
+              "date": "2026-03-08",
+              "link": "https://rosswintle.uk/2026/03/turbo-admin-and-life-update/"
+            },
+            {
+              "title": "A tiny, £20 keyboard! (And tips for using it on iOS)",
+              "date": "2026-02-16",
+              "link": "https://rosswintle.uk/2026/02/a-tiny-20-keyboard-and-tips-for-using-it-on-ios/"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "📷 Soar",
+              "date": "2026-06-28",
+              "link": "https://moonbase.lgbt/blog/soar/"
+            },
+            {
+              "title": "📝 LEGO Racers 2 All Cheat Codes [real] [not clickbait]",
+              "date": "2026-05-26",
+              "link": "https://moonbase.lgbt/blog/lego-racers-2-cheats/"
+            },
+            {
+              "title": "📷 Grids in Manchester",
+              "date": "2026-04-25",
+              "link": "https://moonbase.lgbt/blog/manchester-grids/"
+            },
+            {
+              "title": "📝 Little Blue Marble",
+              "date": "2026-04-04",
+              "link": "https://moonbase.lgbt/blog/little-blue-marble/"
+            },
+            {
+              "title": "📷 Macro Moss",
+              "date": "2026-03-30",
+              "link": "https://moonbase.lgbt/blog/macro-moss/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -66,37 +185,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "My Om Malik Story",
-              "date": "2026-06-25",
-              "link": "https://blog.jim-nielsen.com/2026/tribute-to-om/"
-            },
-            {
-              "title": "Blogging Can Just Be Stating The Obvious",
-              "date": "2026-06-24",
-              "link": "https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/"
-            },
-            {
-              "title": "Consistency, But in Excellence Not Appearance",
-              "date": "2026-06-22",
-              "link": "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/"
-            },
-            {
-              "title": "Full Page Paralysis",
-              "date": "2026-06-19",
-              "link": "https://blog.jim-nielsen.com/2026/full-page-paralysis/"
-            },
-            {
-              "title": "Being “Good” at Things",
-              "date": "2026-06-10",
-              "link": "https://blog.jim-nielsen.com/2026/good-at-things/"
-            }
-          ]
-        },
-        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -155,32 +243,6 @@
               "title": "Human Bottlenecks",
               "date": "2026-05-18",
               "link": "https://borretti.me/article/human-bottlenecks"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-06-25",
-              "link": "https://dbushell.com/notes/2026-06-25T11:10Z/"
-            },
-            {
-              "date": "2026-06-24",
-              "link": "https://dbushell.com/notes/2026-06-24T10:10Z/"
-            },
-            {
-              "date": "2026-06-24",
-              "link": "https://dbushell.com/notes/2026-06-24T05:31Z/"
-            },
-            {
-              "date": "2026-06-23",
-              "link": "https://dbushell.com/notes/2026-06-23T15:44Z/"
-            },
-            {
-              "date": "2026-06-22",
-              "link": "https://dbushell.com/notes/2026-06-22T07:43Z/"
             }
           ]
         },
@@ -340,37 +402,6 @@
           ]
         },
         {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Several short sentences about writing",
-              "date": "2026-06-21",
-              "link": "https://robinrendle.com/notes/several-short-sentences-about-writing/"
-            },
-            {
-              "title": "Make Believe",
-              "date": "2026-06-13",
-              "link": "https://robinrendle.com/notes/make-believe/"
-            },
-            {
-              "title": "Indian Street Lettering",
-              "date": "2026-05-31",
-              "link": "https://robinrendle.com/notes/indian-street-lettering/"
-            },
-            {
-              "title": "fragcoord.xyz",
-              "date": "2026-05-25",
-              "link": "https://robinrendle.com/notes/fragcoord.xyz/"
-            },
-            {
-              "title": "The Wave",
-              "date": "2026-05-25",
-              "link": "https://robinrendle.com/notes/the-wave/"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -495,37 +526,6 @@
           ]
         },
         {
-          "title": "ntietz.com blog - technically a blog",
-          "feedUrl": "https://ntietz.com/atom.xml",
-          "items": [
-            {
-              "title": "Where I've been, and the future of this blog",
-              "date": "2026-06-17",
-              "link": "https://ntietz.com/blog/where-ive-been/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Let yourself fall down more",
-              "date": "2026-03-09",
-              "link": "https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "You can't always fix it",
-              "date": "2026-03-02",
-              "link": "https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "Binding port 0 to avoid port collisions",
-              "date": "2026-02-23",
-              "link": "https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&utm_medium=feed"
-            },
-            {
-              "title": "TIL: Docker log rotation",
-              "date": "2026-02-16",
-              "link": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -553,6 +553,37 @@
               "title": "Assumptions weaken properties",
               "date": "2026-05-20",
               "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Where I've been, and the future of this blog",
+              "date": "2026-06-17",
+              "link": "https://ntietz.com/blog/where-ive-been/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Let yourself fall down more",
+              "date": "2026-03-09",
+              "link": "https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "You can't always fix it",
+              "date": "2026-03-02",
+              "link": "https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Binding port 0 to avoid port collisions",
+              "date": "2026-02-23",
+              "link": "https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "TIL: Docker log rotation",
+              "date": "2026-02-16",
+              "link": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&utm_medium=feed"
             }
           ]
         },
@@ -677,37 +708,6 @@
               "title": "Agile Testing Days 2025 - Taking Things Easier",
               "date": "2025-11-29",
               "link": "https://www.lisihocke.com/2025/11/agile-testing-days-2025-taking-things-easier.html"
-            }
-          ]
-        },
-        {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "Turbo Admin 1.21",
-              "date": "2026-06-08",
-              "link": "https://rosswintle.uk/2026/06/turbo-admin-1-21/"
-            },
-            {
-              "title": "The Writing Triangle",
-              "date": "2026-06-01",
-              "link": "https://rosswintle.uk/2026/06/the-writing-triangle/"
-            },
-            {
-              "title": "Turbo Admin (and life) update",
-              "date": "2026-03-08",
-              "link": "https://rosswintle.uk/2026/03/turbo-admin-and-life-update/"
-            },
-            {
-              "title": "A tiny, £20 keyboard! (And tips for using it on iOS)",
-              "date": "2026-02-16",
-              "link": "https://rosswintle.uk/2026/02/a-tiny-20-keyboard-and-tips-for-using-it-on-ios/"
-            },
-            {
-              "title": "YouSky: My one-person social network (Short version)",
-              "date": "2026-02-16",
-              "link": "https://rosswintle.uk/2026/02/yousky-my-one-person-social-network-short-version/"
             }
           ]
         },
@@ -960,37 +960,6 @@
           ]
         },
         {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "📝 LEGO Racers 2 All Cheat Codes [real] [not clickbait]",
-              "date": "2026-05-26",
-              "link": "https://moonbase.lgbt/blog/lego-racers-2-cheats/"
-            },
-            {
-              "title": "📷 Grids in Manchester",
-              "date": "2026-04-25",
-              "link": "https://moonbase.lgbt/blog/manchester-grids/"
-            },
-            {
-              "title": "📝 Little Blue Marble",
-              "date": "2026-04-04",
-              "link": "https://moonbase.lgbt/blog/little-blue-marble/"
-            },
-            {
-              "title": "📷 Macro Moss",
-              "date": "2026-03-30",
-              "link": "https://moonbase.lgbt/blog/macro-moss/"
-            },
-            {
-              "title": "📕 UED: Cathedral",
-              "date": "2026-03-26",
-              "link": "https://moonbase.lgbt/blog/ued-cathedral/"
-            }
-          ]
-        },
-        {
           "title": "Patrick Dubroy's blog",
           "feedUrl": "https://dubroy.com/blog/rss.xml",
           "items": [
@@ -1080,37 +1049,6 @@
               "title": "The missing link in JavaScript tools",
               "date": "2025-09-11",
               "link": "https://marvinh.dev/blog/unifying-js-tools/"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Moving away from Tailwind, and learning to structure my CSS",
-              "date": "2026-05-15",
-              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
-            },
-            {
-              "title": "Links to CSS colour palettes",
-              "date": "2026-05-04",
-              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
-            },
-            {
-              "title": "Testing Vue components in the browser",
-              "date": "2026-05-02",
-              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
-            },
-            {
-              "title": "Examples for the tcpdump and dig man pages",
-              "date": "2026-03-10",
-              "link": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
-            },
-            {
-              "title": "Notes on clarifying man pages",
-              "date": "2026-02-18",
-              "link": "https://jvns.ca/blog/2026/02/18/man-pages/"
             }
           ]
         },
@@ -2466,12 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-06-28T07:00:25.740Z",
+  "fetchDate": "2026-06-29T07:27:53.646Z",
   "errors": [
-    "https://cutlefish.substack.com/feed",
+    "https://robinrendle.com/feed.xml",
     "https://2ality.com/feeds/posts.atom",
+    "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://jvns.ca/atom.xml"
   ]
 }

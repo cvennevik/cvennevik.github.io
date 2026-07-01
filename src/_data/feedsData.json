@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Unfinished, part deux",
+              "date": "2026-06-30",
+              "link": "https://thejollyteapot.com/2026/06/30/unfinished-part-deux/"
+            },
+            {
+              "title": "June 2026 blend of links",
+              "date": "2026-06-20",
+              "link": "https://thejollyteapot.com/june-2026-blend/"
+            },
+            {
+              "title": "Software will never feel the same",
+              "date": "2026-06-07",
+              "link": "https://thejollyteapot.com/2026/06/07/software-will-never-feel-the-same/"
+            },
+            {
+              "title": "May 2026 blend of links",
+              "date": "2026-05-19",
+              "link": "https://thejollyteapot.com/may-2026-blend/"
+            },
+            {
+              "title": "Another rant about web browsing",
+              "date": "2026-05-17",
+              "link": "https://thejollyteapot.com/2026/05/17/another-rant-about-web-browsing/"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Obsidian for Writers",
+              "date": "2026-06-29",
+              "link": "https://www.youtube.com/watch?v=BTuGvfQGOrY"
+            },
+            {
+              "title": "Hack Your Brain with Relationship Anarchy",
+              "date": "2026-05-22",
+              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
+            },
+            {
+              "title": "Savepoint: A CLI for TDD",
+              "date": "2026-05-14",
+              "link": "https://www.youtube.com/watch?v=ZBa3BK4Efcw"
+            },
+            {
+              "title": "Obsidian for Learning Part II: Process",
+              "date": "2026-03-24",
+              "link": "https://www.youtube.com/watch?v=Tyw6quANpiY"
+            },
+            {
+              "title": "Hack your Brain with Powerlifting",
+              "date": "2026-01-19",
+              "link": "https://www.youtube.com/watch?v=WxN9VzwoGGw"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -433,37 +495,6 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "June 2026 blend of links",
-              "date": "2026-06-20",
-              "link": "https://thejollyteapot.com/june-2026-blend/"
-            },
-            {
-              "title": "Software will never feel the same",
-              "date": "2026-06-07",
-              "link": "https://thejollyteapot.com/2026/06/07/software-will-never-feel-the-same/"
-            },
-            {
-              "title": "May 2026 blend of links",
-              "date": "2026-05-19",
-              "link": "https://thejollyteapot.com/may-2026-blend/"
-            },
-            {
-              "title": "Another rant about web browsing",
-              "date": "2026-05-17",
-              "link": "https://thejollyteapot.com/2026/05/17/another-rant-about-web-browsing/"
-            },
-            {
-              "title": "We need something better than touchscreens in cars",
-              "date": "2026-05-10",
-              "link": "https://thejollyteapot.com/2026/05/10/we-need-something-better-than-touchscreens-in-cars/"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -646,37 +677,6 @@
               "title": "Time for an 8th Virtue: Coherence",
               "date": "2026-06-03",
               "link": "http://agileotter.blogspot.com/2026/06/time-for-8th-virtue-coherence.html"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "∪ of Target Audiences (Accessibility, SEO, AEO/GEO)",
-              "date": "2026-06-15",
-              "link": "https://adrianroselli.com/2026/06/union-of-target-audiences-accessibility-seo-aeo-geo.html"
-            },
-            {
-              "title": "headingoffset is Not the Document Outline Algorithm",
-              "date": "2026-06-11",
-              "link": "https://adrianroselli.com/2026/06/headingoffset-is-not-the-document-outline-algorithm.html"
-            },
-            {
-              "title": "Maybe Don’t Rely on Google’s “Modern Web Guidance”",
-              "date": "2026-05-25",
-              "link": "https://adrianroselli.com/2026/05/maybe-dont-rely-on-googles-modern-web-guidance.html"
-            },
-            {
-              "title": "WCAG3 Contrast as of April 2026",
-              "date": "2026-04-10",
-              "link": "https://adrianroselli.com/2026/04/wcag3-contrast-as-of-april-2026.html"
-            },
-            {
-              "title": "Accessibility Law of Headlines",
-              "date": "2026-03-26",
-              "link": "https://adrianroselli.com/2026/03/accessibility-law-of-headlines.html"
             }
           ]
         },
@@ -2340,6 +2340,37 @@
           ]
         },
         {
+          "title": "CodeAesthetic",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
+          "items": [
+            {
+              "title": "Dear Functional Bros",
+              "date": "2023-12-23",
+              "link": "https://www.youtube.com/watch?v=nuML9SmdbJ4"
+            },
+            {
+              "title": "Dependency Injection, The Best Pattern",
+              "date": "2023-08-04",
+              "link": "https://www.youtube.com/watch?v=J1f5b4vcxCQ"
+            },
+            {
+              "title": "Premature Optimization",
+              "date": "2023-02-10",
+              "link": "https://www.youtube.com/watch?v=tKbV6BpH-C8"
+            },
+            {
+              "title": "Don't Write Comments",
+              "date": "2023-01-16",
+              "link": "https://www.youtube.com/watch?v=Bf7vDBBOBUA"
+            },
+            {
+              "title": "The Flaws of Inheritance",
+              "date": "2022-12-22",
+              "link": "https://www.youtube.com/watch?v=hxGOiiR9ZKg"
+            }
+          ]
+        },
+        {
           "title": "Hello world",
           "feedUrl": "https://qristin.wordpress.com/feed/",
           "items": [
@@ -2404,14 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-06-30T06:54:09.182Z",
+  "fetchDate": "2026-07-01T07:09:10.191Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
     "https://angryweasel.substack.com/feed",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://adrianroselli.com/feed"
   ]
 }

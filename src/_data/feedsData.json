@@ -4,33 +4,183 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
           "items": [
             {
-              "title": "Recently",
-              "date": "2026-07-01",
-              "link": "https://macwright.com/2026/07/01/recently.html"
+              "title": "In defense of AI mandates (xpost)",
+              "date": "2026-07-02",
+              "link": "https://charity.wtf/2026/07/02/in-defense-of-ai-mandates-xpost/"
             },
             {
-              "title": "Recently",
-              "date": "2026-06-04",
-              "link": "https://macwright.com/2026/06/04/recently.html"
+              "title": "Make AI Boring Again (xpost)",
+              "date": "2026-06-24",
+              "link": "https://charity.wtf/2026/06/24/make-ai-boring-again-xpost/"
             },
             {
-              "title": "Intermezzo bag",
-              "date": "2026-05-05",
-              "link": "https://macwright.com/2026/05/05/intermezzo-bag.html"
+              "title": "AI demands more engineering discipline. Not less (xpost)",
+              "date": "2026-06-15",
+              "link": "https://charity.wtf/2026/06/15/ai-demands-more-engineering-discipline-not-less-xpost/"
             },
             {
-              "title": "Recently",
-              "date": "2026-05-04",
-              "link": "https://macwright.com/2026/05/04/recently.html"
+              "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy (xpost)",
+              "date": "2026-06-02",
+              "link": "https://charity.wtf/2026/06/02/ai-enthusiasts-are-in-a-race-against-time-ai-skeptics-are-in-a-race-against-entropy-xpost/"
             },
             {
-              "title": "Eleventy",
-              "date": "2026-04-17",
-              "link": "https://macwright.com/2026/04/17/eleventy.html"
+              "title": "Your Data is Made Powerful By Context (so stop destroying it already) (xpost)",
+              "date": "2026-03-09",
+              "link": "https://charity.wtf/2026/03/09/your-data-is-made-powerful-by-context-so-stop-destroying-it-already-xpost/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "The modern app",
+              "date": "2026-07-02",
+              "link": "https://dbushell.com/2026/07/02/the-modern-app/"
+            },
+            {
+              "title": "ARIA, anti-patterns, and you",
+              "date": "2026-06-26",
+              "link": "https://dbushell.com/2026/06/26/aria-anti-patterns-and-you/"
+            },
+            {
+              "title": "Life is too short for lowercase ASCII",
+              "date": "2026-06-19",
+              "link": "https://dbushell.com/2026/06/19/css-methodology/"
+            },
+            {
+              "title": "RSS Club #008: Duck duck, swan?",
+              "date": "2026-06-13",
+              "link": "https://dbushell.com/2026/06/13/RSS008/"
+            },
+            {
+              "title": "Apple deepfakes",
+              "date": "2026-06-12",
+              "link": "https://dbushell.com/2026/06/12/apple-deepfakes/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "This Page Left Intentionally Blank",
+              "date": "2026-07-02",
+              "link": "https://blog.jim-nielsen.com/2026/intentionally-blank/"
+            },
+            {
+              "title": "Notes from Bryan Cantrill’s “Intelligence is not Enough”",
+              "date": "2026-06-28",
+              "link": "https://blog.jim-nielsen.com/2026/intelligence-isnt-enough/"
+            },
+            {
+              "title": "My Om Malik Story",
+              "date": "2026-06-25",
+              "link": "https://blog.jim-nielsen.com/2026/tribute-to-om/"
+            },
+            {
+              "title": "Blogging Can Just Be Stating The Obvious",
+              "date": "2026-06-24",
+              "link": "https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/"
+            },
+            {
+              "title": "Consistency, But in Excellence Not Appearance",
+              "date": "2026-06-22",
+              "link": "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/"
+            }
+          ]
+        },
+        {
+          "title": "Mathias Verraes",
+          "feedUrl": "https://verraes.net/feed.atom",
+          "items": [
+            {
+              "title": "Software Design in the Agentic Age: Place Your Bets",
+              "date": "2026-07-02",
+              "link": "https://verraes.net/2026/07/software-design-in-the-agentic-age/"
+            },
+            {
+              "title": "No, Your Domains and Bounded Contexts Don’t Map 1 on 1",
+              "date": "2025-08-28",
+              "link": "https://verraes.net/2025/08/domain-and-bounded-contexts-dont-map-one-on-one/"
+            },
+            {
+              "title": "Two Hard Problems with Distributed Systems",
+              "date": "2025-08-14",
+              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
+            },
+            {
+              "title": "Submitting talks to a tech conference Call for Papers",
+              "date": "2025-06-10",
+              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
+            },
+            {
+              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
+              "date": "2024-03-10",
+              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-07-02",
+              "link": "https://dbushell.com/notes/2026-07-02T18:25Z/"
+            },
+            {
+              "date": "2026-06-29",
+              "link": "https://dbushell.com/notes/2026-06-29T06:17Z/"
+            },
+            {
+              "date": "2026-06-25",
+              "link": "https://dbushell.com/notes/2026-06-25T11:10Z/"
+            },
+            {
+              "date": "2026-06-24",
+              "link": "https://dbushell.com/notes/2026-06-24T10:10Z/"
+            },
+            {
+              "date": "2026-06-24",
+              "link": "https://dbushell.com/notes/2026-06-24T05:31Z/"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Link Dump: June 2026",
+              "date": "2026-07-02",
+              "link": "https://flamedfury.com/posts/link-dump-june-2026/"
+            },
+            {
+              "title": "Outer Banks (2020) Seasons One &amp; Two",
+              "date": "2026-06-24",
+              "link": "https://flamedfury.com/posts/outer-banks-2020-seasons-one-and-two/"
+            },
+            {
+              "title": "Create A Static Site Using 11ty &amp; Deploy to Neocities (2026 Refresh)",
+              "date": "2026-06-16",
+              "link": "https://flamedfury.com/guides/11ty-homepage-neocities-2026/"
+            },
+            {
+              "title": "Home Brew Presents: Last Week",
+              "date": "2026-06-10",
+              "link": "https://flamedfury.com/posts/home-brew-presents-last-week/"
+            },
+            {
+              "title": "Kelly Tarlton&apos;s",
+              "date": "2026-06-06",
+              "link": "https://flamedfury.com/posts/kelly-tarltons/"
             }
           ]
         },
@@ -62,6 +212,37 @@
               "title": "Borrow-checking without type-checking",
               "date": "2026-04-22",
               "link": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2026-07-01",
+              "link": "https://macwright.com/2026/07/01/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-06-04",
+              "link": "https://macwright.com/2026/06/04/recently.html"
+            },
+            {
+              "title": "Intermezzo bag",
+              "date": "2026-05-05",
+              "link": "https://macwright.com/2026/05/05/intermezzo-bag.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-05-04",
+              "link": "https://macwright.com/2026/05/04/recently.html"
+            },
+            {
+              "title": "Eleventy",
+              "date": "2026-04-17",
+              "link": "https://macwright.com/2026/04/17/eleventy.html"
             }
           ]
         },
@@ -128,28 +309,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
             {
+              "title": "Obsidian for Writers",
               "date": "2026-06-29",
-              "link": "https://dbushell.com/notes/2026-06-29T06:17Z/"
+              "link": "https://www.youtube.com/watch?v=BTuGvfQGOrY"
             },
             {
-              "date": "2026-06-25",
-              "link": "https://dbushell.com/notes/2026-06-25T11:10Z/"
+              "title": "Hack Your Brain with Relationship Anarchy",
+              "date": "2026-05-22",
+              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
             },
             {
-              "date": "2026-06-24",
-              "link": "https://dbushell.com/notes/2026-06-24T10:10Z/"
+              "title": "Savepoint: A CLI for TDD",
+              "date": "2026-05-14",
+              "link": "https://www.youtube.com/watch?v=ZBa3BK4Efcw"
             },
             {
-              "date": "2026-06-24",
-              "link": "https://dbushell.com/notes/2026-06-24T05:31Z/"
+              "title": "Obsidian for Learning Part II: Process",
+              "date": "2026-03-24",
+              "link": "https://www.youtube.com/watch?v=Tyw6quANpiY"
             },
             {
-              "date": "2026-06-23",
-              "link": "https://dbushell.com/notes/2026-06-23T15:44Z/"
+              "title": "Hack your Brain with Powerlifting",
+              "date": "2026-01-19",
+              "link": "https://www.youtube.com/watch?v=WxN9VzwoGGw"
             }
           ]
         },
@@ -181,37 +367,6 @@
               "title": "A solid tradition // Week 23 — 2026",
               "date": "2026-06-08",
               "link": "https://anniemueller.com/posts/a-solid-tradition-week-23-2026"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Notes from Bryan Cantrill’s “Intelligence is not Enough”",
-              "date": "2026-06-28",
-              "link": "https://blog.jim-nielsen.com/2026/intelligence-isnt-enough/"
-            },
-            {
-              "title": "My Om Malik Story",
-              "date": "2026-06-25",
-              "link": "https://blog.jim-nielsen.com/2026/tribute-to-om/"
-            },
-            {
-              "title": "Blogging Can Just Be Stating The Obvious",
-              "date": "2026-06-24",
-              "link": "https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/"
-            },
-            {
-              "title": "Consistency, But in Excellence Not Appearance",
-              "date": "2026-06-22",
-              "link": "https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/"
-            },
-            {
-              "title": "Full Page Paralysis",
-              "date": "2026-06-19",
-              "link": "https://blog.jim-nielsen.com/2026/full-page-paralysis/"
             }
           ]
         },
@@ -309,37 +464,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "ARIA, anti-patterns, and you",
-              "date": "2026-06-26",
-              "link": "https://dbushell.com/2026/06/26/aria-anti-patterns-and-you/"
-            },
-            {
-              "title": "Life is too short for lowercase ASCII",
-              "date": "2026-06-19",
-              "link": "https://dbushell.com/2026/06/19/css-methodology/"
-            },
-            {
-              "title": "RSS Club #008: Duck duck, swan?",
-              "date": "2026-06-13",
-              "link": "https://dbushell.com/2026/06/13/RSS008/"
-            },
-            {
-              "title": "Apple deepfakes",
-              "date": "2026-06-12",
-              "link": "https://dbushell.com/2026/06/12/apple-deepfakes/"
-            },
-            {
-              "title": "Are you standard.site?",
-              "date": "2026-06-05",
-              "link": "https://dbushell.com/2026/06/05/are-you-standard-site/"
-            }
-          ]
-        },
-        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -429,68 +553,6 @@
               "title": "Seven Testing Myths Every Developer Should STOP Believing",
               "date": "2026-03-18",
               "link": "https://coding-is-like-cooking.info/2026/03/seven-testing-myths-every-developer-should-stop-believing/"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "Make AI Boring Again (xpost)",
-              "date": "2026-06-24",
-              "link": "https://charity.wtf/2026/06/24/make-ai-boring-again-xpost/"
-            },
-            {
-              "title": "AI demands more engineering discipline. Not less (xpost)",
-              "date": "2026-06-15",
-              "link": "https://charity.wtf/2026/06/15/ai-demands-more-engineering-discipline-not-less-xpost/"
-            },
-            {
-              "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy (xpost)",
-              "date": "2026-06-02",
-              "link": "https://charity.wtf/2026/06/02/ai-enthusiasts-are-in-a-race-against-time-ai-skeptics-are-in-a-race-against-entropy-xpost/"
-            },
-            {
-              "title": "Your Data is Made Powerful By Context (so stop destroying it already) (xpost)",
-              "date": "2026-03-09",
-              "link": "https://charity.wtf/2026/03/09/your-data-is-made-powerful-by-context-so-stop-destroying-it-already-xpost/"
-            },
-            {
-              "title": "My (hypothetical) SRECon26 keynote (xpost)",
-              "date": "2026-03-03",
-              "link": "https://charity.wtf/2026/03/03/my-hypothetical-srecon26-keynote-xpost/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "I Am A Link Curator",
-              "date": "2026-06-22",
-              "link": "https://flamedfury.com/posts/i-am-a-link-curator/"
-            },
-            {
-              "title": "Create A Static Site Using 11ty &amp; Deploy to Neocities (2026 Refresh)",
-              "date": "2026-06-16",
-              "link": "https://flamedfury.com/guides/11ty-homepage-neocities-2026/"
-            },
-            {
-              "title": "Home Brew Presents: Last Week",
-              "date": "2026-06-10",
-              "link": "https://flamedfury.com/posts/home-brew-presents-last-week/"
-            },
-            {
-              "title": "Link Dump: May 2026",
-              "date": "2026-06-03",
-              "link": "https://flamedfury.com/posts/link-dump-may-2026/"
-            },
-            {
-              "title": "Split Enz At Spark Arena",
-              "date": "2026-05-23",
-              "link": "https://flamedfury.com/posts/split-enz-at-spark-arena/"
             }
           ]
         },
@@ -1084,37 +1146,6 @@
           ]
         },
         {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "It's been 15 years, what have I learned?",
-              "date": "2026-05-12",
-              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
-            },
-            {
-              "title": "My 2025 In Review",
-              "date": "2025-12-31",
-              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
-            },
-            {
-              "title": "The Localhost Podcast CLI Tool",
-              "date": "2025-10-18",
-              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
-            },
-            {
-              "title": "Buying Tech Books in South Africa",
-              "date": "2025-05-16",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
-            },
-            {
-              "title": "My Exobrain",
-              "date": "2025-05-03",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -1699,6 +1730,37 @@
           ]
         },
         {
+          "title": "Hazel Weakly",
+          "feedUrl": "https://hazelweakly.me/atom.xml",
+          "items": [
+            {
+              "title": "Observations of Leadership (Part Two)",
+              "date": "2026-01-05",
+              "link": "https://hazelweakly.me/blog/observations-of-leadership-part-two/"
+            },
+            {
+              "title": "To Be a Leader of Systems",
+              "date": "2025-11-18",
+              "link": "https://hazelweakly.me/blog/to-be-a-leader-of-systems/"
+            },
+            {
+              "title": "Scaling Innovation: Building Ecosystems",
+              "date": "2025-10-21",
+              "link": "https://hazelweakly.me/blog/scaling-innovation-building-ecosystems/"
+            },
+            {
+              "title": "Stop Building AI Tools Backwards",
+              "date": "2025-05-16",
+              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
+            },
+            {
+              "title": "The Future of Observability: Observability 3.0",
+              "date": "2024-12-09",
+              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
+            }
+          ]
+        },
+        {
           "title": "HeydonWorks",
           "feedUrl": "https://heydonworks.com/feed.xml",
           "items": [
@@ -1947,37 +2009,6 @@
           ]
         },
         {
-          "title": "Mathias Verraes",
-          "feedUrl": "https://verraes.net/feed.atom",
-          "items": [
-            {
-              "title": "No, Your Domains and Bounded Contexts Don’t Map 1 on 1",
-              "date": "2025-08-28",
-              "link": "https://verraes.net/2025/08/domain-and-bounded-contexts-dont-map-one-on-one/"
-            },
-            {
-              "title": "Two Hard Problems with Distributed Systems",
-              "date": "2025-08-14",
-              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
-            },
-            {
-              "title": "Submitting talks to a tech conference Call for Papers",
-              "date": "2025-06-10",
-              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
-            },
-            {
-              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
-              "date": "2024-03-10",
-              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
-            },
-            {
-              "title": "Critical Software Redesign: Creating the Environment for Large Scale Change",
-              "date": "2024-01-08",
-              "link": "https://verraes.net/2024/01/critical-software-redesign/"
-            }
-          ]
-        },
-        {
           "title": "Alexis King’s Blog",
           "feedUrl": "https://lexi-lambda.github.io/feeds/all.atom.xml",
           "items": [
@@ -2005,37 +2036,6 @@
               "title": "No, dynamic type systems are not inherently more open",
               "date": "2020-01-19",
               "link": "https://lexi-lambda.github.io/blog/2020/01/19/no-dynamic-type-systems-are-not-inherently-more-open/"
-            }
-          ]
-        },
-        {
-          "title": "Work with Alan",
-          "feedUrl": "https://angryweasel.com/blog/feed/",
-          "items": [
-            {
-              "title": "Five for Friday – March 14, 2025",
-              "date": "2025-03-14",
-              "link": "https://angryweasel.com/blog/five-for-friday-march-14-2025/"
-            },
-            {
-              "title": "Five for Friday – March 7, 2025",
-              "date": "2025-03-07",
-              "link": "https://angryweasel.com/blog/five-for-friday-march-7-2025/"
-            },
-            {
-              "title": "Five for Friday – February 21, 2025",
-              "date": "2025-02-21",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-21-2025/"
-            },
-            {
-              "title": "Five for Friday – February 14, 2025",
-              "date": "2025-02-14",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-14-2025/"
-            },
-            {
-              "title": "Five for Friday – February 7, 2025",
-              "date": "2025-02-08",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
             }
           ]
         },
@@ -2247,6 +2247,37 @@
           ]
         },
         {
+          "title": "CodeAesthetic",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
+          "items": [
+            {
+              "title": "Dear Functional Bros",
+              "date": "2023-12-23",
+              "link": "https://www.youtube.com/watch?v=nuML9SmdbJ4"
+            },
+            {
+              "title": "Dependency Injection, The Best Pattern",
+              "date": "2023-08-04",
+              "link": "https://www.youtube.com/watch?v=J1f5b4vcxCQ"
+            },
+            {
+              "title": "Premature Optimization",
+              "date": "2023-02-10",
+              "link": "https://www.youtube.com/watch?v=tKbV6BpH-C8"
+            },
+            {
+              "title": "Don't Write Comments",
+              "date": "2023-01-16",
+              "link": "https://www.youtube.com/watch?v=Bf7vDBBOBUA"
+            },
+            {
+              "title": "The Flaws of Inheritance",
+              "date": "2022-12-22",
+              "link": "https://www.youtube.com/watch?v=hxGOiiR9ZKg"
+            }
+          ]
+        },
+        {
           "title": "Hello world",
           "feedUrl": "https://qristin.wordpress.com/feed/",
           "items": [
@@ -2311,17 +2342,16 @@
       ]
     }
   ],
-  "fetchDate": "2026-07-02T06:39:19.834Z",
+  "fetchDate": "2026-07-03T06:29:02.583Z",
   "errors": [
-    "https://infrequently.org/feed/",
+    "https://angryweasel.com/blog/feed/",
     "https://cutlefish.substack.com/feed",
+    "https://www.worthe-it.co.za/atom.xml",
     "https://2ality.com/feeds/posts.atom",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+    "https://infrequently.org/feed/",
     "https://angryweasel.substack.com/feed",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml",
-    "https://jvns.ca/atom.xml",
-    "https://hazelweakly.me/atom.xml"
+    "https://jvns.ca/atom.xml"
   ]
 }

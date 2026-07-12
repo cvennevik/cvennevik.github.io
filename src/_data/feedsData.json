@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Neo beginnings",
+              "date": "2026-07-11",
+              "link": "https://thejollyteapot.com/2026/07/11/neo-beginnings/"
+            },
+            {
+              "title": "A peculiar bug in Safari",
+              "date": "2026-07-04",
+              "link": "https://thejollyteapot.com/2026/07/04/a-peculiar-bug-in-safari/"
+            },
+            {
+              "title": "Unfinished, part deux",
+              "date": "2026-06-30",
+              "link": "https://thejollyteapot.com/2026/06/30/unfinished-part-deux/"
+            },
+            {
+              "title": "June 2026 blend of links",
+              "date": "2026-06-20",
+              "link": "https://thejollyteapot.com/june-2026-blend/"
+            },
+            {
+              "title": "Software will never feel the same",
+              "date": "2026-06-07",
+              "link": "https://thejollyteapot.com/2026/06/07/software-will-never-feel-the-same/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -163,7 +194,7 @@
           "feedUrl": "https://brainsik.net/index.xml",
           "items": [
             {
-              "title": "Serving a Podman Container Via Tailscale",
+              "title": "Notes: Serving a Podman Container Via Tailscale",
               "date": "2026-07-08",
               "link": "https://brainsik.net/2026/serving-a-podman-container-via-tailscale/"
             },
@@ -305,68 +336,6 @@
               "title": "\n      Billionaire math\n    ",
               "date": "2025-07-11",
               "link": "https://apenwarr.ca/log/20250711"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "A peculiar bug in Safari",
-              "date": "2026-07-04",
-              "link": "https://thejollyteapot.com/2026/07/04/a-peculiar-bug-in-safari/"
-            },
-            {
-              "title": "Unfinished, part deux",
-              "date": "2026-06-30",
-              "link": "https://thejollyteapot.com/2026/06/30/unfinished-part-deux/"
-            },
-            {
-              "title": "June 2026 blend of links",
-              "date": "2026-06-20",
-              "link": "https://thejollyteapot.com/june-2026-blend/"
-            },
-            {
-              "title": "Software will never feel the same",
-              "date": "2026-06-07",
-              "link": "https://thejollyteapot.com/2026/06/07/software-will-never-feel-the-same/"
-            },
-            {
-              "title": "May 2026 blend of links",
-              "date": "2026-05-19",
-              "link": "https://thejollyteapot.com/may-2026-blend/"
-            }
-          ]
-        },
-        {
-          "title": "",
-          "feedUrl": "https://danluu.com/atom.xml",
-          "items": [
-            {
-              "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
-              "date": "2026-07-03",
-              "link": "https://danluu.com/ai-coding/"
-            },
-            {
-              "title": "Steve Ballmer was an underrated CEO",
-              "date": "2024-10-28",
-              "link": "https://danluu.com/ballmer/"
-            },
-            {
-              "title": "How good can you be at Codenames without knowing any words?",
-              "date": "2024-08-11",
-              "link": "https://danluu.com/codenames/"
-            },
-            {
-              "title": "A discussion of discussions on AI bias",
-              "date": "2024-06-16",
-              "link": "https://danluu.com/ai-bias/"
-            },
-            {
-              "title": "What the FTC got wrong in the Google antitrust investigation",
-              "date": "2024-05-26",
-              "link": "https://danluu.com/ftc-google-antitrust/"
             }
           ]
         },
@@ -2247,6 +2216,37 @@
           ]
         },
         {
+          "title": "",
+          "feedUrl": "https://danluu.com/atom.xml",
+          "items": [
+            {
+              "title": "Steve Ballmer was an underrated CEO",
+              "date": "2024-10-28",
+              "link": "https://danluu.com/ballmer/"
+            },
+            {
+              "title": "How good can you be at Codenames without knowing any words?",
+              "date": "2024-08-11",
+              "link": "https://danluu.com/codenames/"
+            },
+            {
+              "title": "A discussion of discussions on AI bias",
+              "date": "2024-06-16",
+              "link": "https://danluu.com/ai-bias/"
+            },
+            {
+              "title": "What the FTC got wrong in the Google antitrust investigation",
+              "date": "2024-05-26",
+              "link": "https://danluu.com/ftc-google-antitrust/"
+            },
+            {
+              "title": "How web bloat impacts users with slow devices",
+              "date": "2024-03-16",
+              "link": "https://danluu.com/slow-device/"
+            }
+          ]
+        },
+        {
           "title": "GeePawHill.org",
           "feedUrl": "https://www.geepawhill.org/feed/",
           "items": [
@@ -2466,7 +2466,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-07-11T05:37:25.471Z",
+  "fetchDate": "2026-07-12T05:54:29.722Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

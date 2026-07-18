@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Learning a few things about running SQLite",
+              "date": "2026-07-17",
+              "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
+            },
+            {
+              "title": "Moving away from Tailwind, and learning to structure my CSS",
+              "date": "2026-05-15",
+              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
+            },
+            {
+              "title": "Links to CSS colour palettes",
+              "date": "2026-05-04",
+              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
+            },
+            {
+              "title": "Testing Vue components in the browser",
+              "date": "2026-05-02",
+              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
+            },
+            {
+              "title": "Examples for the tcpdump and dig man pages",
+              "date": "2026-03-10",
+              "link": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-07-17",
+              "link": "https://dbushell.com/notes/2026-07-17T11:00Z/"
+            },
+            {
+              "date": "2026-07-16",
+              "link": "https://dbushell.com/notes/2026-07-16T07:02Z/"
+            },
+            {
+              "date": "2026-07-08",
+              "link": "https://dbushell.com/notes/2026-07-08T10:57Z/"
+            },
+            {
+              "date": "2026-07-06",
+              "link": "https://dbushell.com/notes/2026-07-06T07:30Z/"
+            },
+            {
+              "date": "2026-07-06",
+              "link": "https://dbushell.com/notes/2026-07-06T07:21Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -97,6 +154,37 @@
           ]
         },
         {
+          "title": "Curly Tail, Curly Braces",
+          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
+          "items": [
+            {
+              "title": "Separating End to End Tests in Rust with Cargo Features",
+              "date": "2026-07-16",
+              "link": "https://www.worthe-it.co.za/blog/2026-07-17-separating-end-to-end-tests-in-rust-with-cargo-features.html"
+            },
+            {
+              "title": "It's been 15 years, what have I learned?",
+              "date": "2026-05-12",
+              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
+            },
+            {
+              "title": "My 2025 In Review",
+              "date": "2025-12-31",
+              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
+            },
+            {
+              "title": "The Localhost Podcast CLI Tool",
+              "date": "2025-10-18",
+              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
+            },
+            {
+              "title": "Buying Tech Books in South Africa",
+              "date": "2025-05-16",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -155,32 +243,6 @@
               "title": "2025 - The Year in Review",
               "date": "2025-12-16",
               "link": "https://www.lisihocke.com/2025/12/2025-the-year-in-review.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-07-16",
-              "link": "https://dbushell.com/notes/2026-07-16T07:02Z/"
-            },
-            {
-              "date": "2026-07-08",
-              "link": "https://dbushell.com/notes/2026-07-08T10:57Z/"
-            },
-            {
-              "date": "2026-07-06",
-              "link": "https://dbushell.com/notes/2026-07-06T07:30Z/"
-            },
-            {
-              "date": "2026-07-06",
-              "link": "https://dbushell.com/notes/2026-07-06T07:21Z/"
-            },
-            {
-              "date": "2026-07-03",
-              "link": "https://dbushell.com/notes/2026-07-03T10:18Z/"
             }
           ]
         },
@@ -247,37 +309,6 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "I have no idea who celebrities are anymore ",
-              "date": "2026-07-14",
-              "link": "https://anniemueller.com/posts/i-have-no-idea-who-celebrities-are-anymore"
-            },
-            {
-              "title": "Exclamatory birthday edition // W26 — 2026",
-              "date": "2026-06-29",
-              "link": "https://anniemueller.com/posts/exclamatory-birthday-edition-w26-2026"
-            },
-            {
-              "title": "A bundle of bones // W24 + 25 — 2026",
-              "date": "2026-06-24",
-              "link": "https://anniemueller.com/posts/a-bundle-of-bones-w24-plus-25-2026"
-            },
-            {
-              "title": "Do not bargain to be loved",
-              "date": "2026-06-19",
-              "link": "https://anniemueller.com/posts/do-not-bargain-to-be-loved"
-            },
-            {
-              "title": "This is it",
-              "date": "2026-06-18",
-              "link": "https://anniemueller.com/posts/this-is-it"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -305,6 +336,37 @@
               "title": "Knowing about things is cheaper than knowing things",
               "date": "2026-05-28",
               "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "I have no idea who celebrities are anymore ",
+              "date": "2026-07-14",
+              "link": "https://anniemueller.com/posts/i-have-no-idea-who-celebrities-are-anymore"
+            },
+            {
+              "title": "Exclamatory birthday edition // W26 — 2026",
+              "date": "2026-06-29",
+              "link": "https://anniemueller.com/posts/exclamatory-birthday-edition-w26-2026"
+            },
+            {
+              "title": "A bundle of bones // W24 + 25 — 2026",
+              "date": "2026-06-24",
+              "link": "https://anniemueller.com/posts/a-bundle-of-bones-w24-plus-25-2026"
+            },
+            {
+              "title": "Do not bargain to be loved",
+              "date": "2026-06-19",
+              "link": "https://anniemueller.com/posts/do-not-bargain-to-be-loved"
+            },
+            {
+              "title": "This is it",
+              "date": "2026-06-18",
+              "link": "https://anniemueller.com/posts/this-is-it"
             }
           ]
         },
@@ -712,6 +774,37 @@
           ]
         },
         {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Obsidian for Writers",
+              "date": "2026-06-29",
+              "link": "https://www.youtube.com/watch?v=BTuGvfQGOrY"
+            },
+            {
+              "title": "Hack Your Brain with Relationship Anarchy",
+              "date": "2026-05-22",
+              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
+            },
+            {
+              "title": "Savepoint: A CLI for TDD",
+              "date": "2026-05-14",
+              "link": "https://www.youtube.com/watch?v=ZBa3BK4Efcw"
+            },
+            {
+              "title": "Obsidian for Learning Part II: Process",
+              "date": "2026-03-24",
+              "link": "https://www.youtube.com/watch?v=Tyw6quANpiY"
+            },
+            {
+              "title": "Hack your Brain with Powerlifting",
+              "date": "2026-01-19",
+              "link": "https://www.youtube.com/watch?v=WxN9VzwoGGw"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -991,37 +1084,6 @@
           ]
         },
         {
-          "title": "Kyle Shevlin's Blog RSS Feed",
-          "feedUrl": "https://kyleshevlin.com/rss.xml",
-          "items": [
-            {
-              "title": "&ldquo;Help&rdquo; Doesn't Mean What it Meant",
-              "date": "2026-06-05",
-              "link": "https://kyleshevlin.com/help-doesnt-mean-what-it-meant/"
-            },
-            {
-              "title": "<code>AsyncData</code>",
-              "date": "2026-01-11",
-              "link": "https://kyleshevlin.com/async-data/"
-            },
-            {
-              "title": "Nothing is Something",
-              "date": "2025-12-20",
-              "link": "https://kyleshevlin.com/nothing-is-something/"
-            },
-            {
-              "title": "<code>data</code> Attributes for Testing",
-              "date": "2025-11-21",
-              "link": "https://kyleshevlin.com/data-attributes-for-testing/"
-            },
-            {
-              "title": "Prefer Gaps To Margins",
-              "date": "2025-06-23",
-              "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
-            }
-          ]
-        },
-        {
           "title": "sunshowers",
           "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
@@ -1177,37 +1239,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Moving away from Tailwind, and learning to structure my CSS",
-              "date": "2026-05-15",
-              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
-            },
-            {
-              "title": "Links to CSS colour palettes",
-              "date": "2026-05-04",
-              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
-            },
-            {
-              "title": "Testing Vue components in the browser",
-              "date": "2026-05-02",
-              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
-            },
-            {
-              "title": "Examples for the tcpdump and dig man pages",
-              "date": "2026-03-10",
-              "link": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
-            },
-            {
-              "title": "Notes on clarifying man pages",
-              "date": "2026-02-18",
-              "link": "https://jvns.ca/blog/2026/02/18/man-pages/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -1235,37 +1266,6 @@
               "title": "Ravens in March",
               "date": "2026-03-16",
               "link": "https://www.baldurbjarnason.com/notes/photos/ravens-in-march-2026/"
-            }
-          ]
-        },
-        {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "It's been 15 years, what have I learned?",
-              "date": "2026-05-12",
-              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
-            },
-            {
-              "title": "My 2025 In Review",
-              "date": "2025-12-31",
-              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
-            },
-            {
-              "title": "The Localhost Podcast CLI Tool",
-              "date": "2025-10-18",
-              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
-            },
-            {
-              "title": "Buying Tech Books in South Africa",
-              "date": "2025-05-16",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
-            },
-            {
-              "title": "My Exobrain",
-              "date": "2025-05-03",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-04-my-exobrain.html"
             }
           ]
         },
@@ -2340,6 +2340,37 @@
           ]
         },
         {
+          "title": "CodeAesthetic",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
+          "items": [
+            {
+              "title": "Dear Functional Bros",
+              "date": "2023-12-23",
+              "link": "https://www.youtube.com/watch?v=nuML9SmdbJ4"
+            },
+            {
+              "title": "Dependency Injection, The Best Pattern",
+              "date": "2023-08-04",
+              "link": "https://www.youtube.com/watch?v=J1f5b4vcxCQ"
+            },
+            {
+              "title": "Premature Optimization",
+              "date": "2023-02-10",
+              "link": "https://www.youtube.com/watch?v=tKbV6BpH-C8"
+            },
+            {
+              "title": "Don't Write Comments",
+              "date": "2023-01-16",
+              "link": "https://www.youtube.com/watch?v=Bf7vDBBOBUA"
+            },
+            {
+              "title": "The Flaws of Inheritance",
+              "date": "2022-12-22",
+              "link": "https://www.youtube.com/watch?v=hxGOiiR9ZKg"
+            }
+          ]
+        },
+        {
           "title": "Hello world",
           "feedUrl": "https://qristin.wordpress.com/feed/",
           "items": [
@@ -2404,14 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-07-17T05:39:38.480Z",
+  "fetchDate": "2026-07-18T05:22:11.576Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
     "https://angryweasel.substack.com/feed",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://kyleshevlin.com/rss.xml"
   ]
 }

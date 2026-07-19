@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Make It Work vs. Make It Good",
+              "date": "2026-07-18",
+              "link": "https://blog.jim-nielsen.com/2026/make-it-work-make-it-good/"
+            },
+            {
+              "title": "Podcast Notes: Iain McGilchrist on “The Great Simplification”",
+              "date": "2026-07-16",
+              "link": "https://blog.jim-nielsen.com/2026/podcast-notes-iain-mcgilchrist/"
+            },
+            {
+              "title": "What’s an Icon in 2026?",
+              "date": "2026-07-12",
+              "link": "https://blog.jim-nielsen.com/2026/icons-as-software/"
+            },
+            {
+              "title": "Family Feud: Mac-assed Mac App Edition",
+              "date": "2026-07-08",
+              "link": "https://blog.jim-nielsen.com/2026/mac-assed-family-feud/"
+            },
+            {
+              "title": "Making a Shuffle Button",
+              "date": "2026-07-05",
+              "link": "https://blog.jim-nielsen.com/2026/notes-shuffle/"
+            }
+          ]
+        },
+        {
+          "title": "Musings about software",
+          "feedUrl": "https://www.softwaremaxims.com/feed.xml",
+          "items": [
+            {
+              "title": "Reviewing AI Code Is Not A Viable Argument",
+              "date": "2026-07-18",
+              "link": "https://softwaremaxims.com/blog/reviewing-ai-code"
+            },
+            {
+              "title": "The Hobbyist Maintainer Economic Gravity Well",
+              "date": "2026-01-11",
+              "link": "https://softwaremaxims.com/blog/hobbyist-gravity-well"
+            },
+            {
+              "title": "How FOSS Won and Why It Matters",
+              "date": "2025-11-16",
+              "link": "https://softwaremaxims.com/blog/how-foss-won-consequences"
+            },
+            {
+              "title": "You Are All On The Hobbyists Maintainers’ Turf Now",
+              "date": "2024-04-01",
+              "link": "https://softwaremaxims.com/blog/open-source-hobbyists-turf"
+            },
+            {
+              "title": "Where did the Rust go?",
+              "date": "2023-08-23",
+              "link": "https://softwaremaxims.com/blog/memory-safety-end-history"
+            }
+          ]
+        },
+        {
           "title": "Julia Evans",
           "feedUrl": "https://jvns.ca/atom.xml",
           "items": [
@@ -92,37 +154,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Podcast Notes: Iain McGilchrist on “The Great Simplification”",
-              "date": "2026-07-16",
-              "link": "https://blog.jim-nielsen.com/2026/podcast-notes-iain-mcgilchrist/"
-            },
-            {
-              "title": "What’s an Icon in 2026?",
-              "date": "2026-07-12",
-              "link": "https://blog.jim-nielsen.com/2026/icons-as-software/"
-            },
-            {
-              "title": "Family Feud: Mac-assed Mac App Edition",
-              "date": "2026-07-08",
-              "link": "https://blog.jim-nielsen.com/2026/mac-assed-family-feud/"
-            },
-            {
-              "title": "Making a Shuffle Button",
-              "date": "2026-07-05",
-              "link": "https://blog.jim-nielsen.com/2026/notes-shuffle/"
-            },
-            {
-              "title": "This Page Left Intentionally Blank",
-              "date": "2026-07-02",
-              "link": "https://blog.jim-nielsen.com/2026/intentionally-blank/"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -150,37 +181,6 @@
               "title": "Turbo Admin (and life) update",
               "date": "2026-03-08",
               "link": "https://rosswintle.uk/2026/03/turbo-admin-and-life-update/"
-            }
-          ]
-        },
-        {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "Separating End to End Tests in Rust with Cargo Features",
-              "date": "2026-07-16",
-              "link": "https://www.worthe-it.co.za/blog/2026-07-17-separating-end-to-end-tests-in-rust-with-cargo-features.html"
-            },
-            {
-              "title": "It's been 15 years, what have I learned?",
-              "date": "2026-05-12",
-              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
-            },
-            {
-              "title": "My 2025 In Review",
-              "date": "2025-12-31",
-              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
-            },
-            {
-              "title": "The Localhost Podcast CLI Tool",
-              "date": "2025-10-18",
-              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
-            },
-            {
-              "title": "Buying Tech Books in South Africa",
-              "date": "2025-05-16",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
             }
           ]
         },
@@ -309,37 +309,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "I'm still alive",
-              "date": "2026-07-14",
-              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
-            },
-            {
-              "title": "Logic for Programmers v0.15, Livecoding",
-              "date": "2026-06-17",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
-            },
-            {
-              "title": "Nontrailing separators do not spark joy",
-              "date": "2026-06-10",
-              "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/"
-            },
-            {
-              "title": "Logic for Programmers extra credits",
-              "date": "2026-06-02",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/"
-            },
-            {
-              "title": "Knowing about things is cheaper than knowing things",
-              "date": "2026-05-28",
-              "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/"
-            }
-          ]
-        },
-        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -367,6 +336,37 @@
               "title": "This is it",
               "date": "2026-06-18",
               "link": "https://anniemueller.com/posts/this-is-it"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "I'm still alive",
+              "date": "2026-07-14",
+              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
+            },
+            {
+              "title": "Logic for Programmers v0.15, Livecoding",
+              "date": "2026-06-17",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
+            },
+            {
+              "title": "Nontrailing separators do not spark joy",
+              "date": "2026-06-10",
+              "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/"
+            },
+            {
+              "title": "Logic for Programmers extra credits",
+              "date": "2026-06-02",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/"
+            },
+            {
+              "title": "Knowing about things is cheaper than knowing things",
+              "date": "2026-05-28",
+              "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/"
             }
           ]
         },
@@ -681,37 +681,6 @@
           ]
         },
         {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "Artificial adventures",
-              "date": "2026-07-01",
-              "link": "https://www.scattered-thoughts.net/writing/artificial-adventures/"
-            },
-            {
-              "title": "I'm not a cat",
-              "date": "2026-06-24",
-              "link": "https://www.scattered-thoughts.net/writing/im-not-a-cat/"
-            },
-            {
-              "title": "0060: SF",
-              "date": "2026-06-21",
-              "link": "https://www.scattered-thoughts.net/log/0060/"
-            },
-            {
-              "title": "0059: NYC and SF?",
-              "date": "2026-06-05",
-              "link": "https://www.scattered-thoughts.net/log/0059/"
-            },
-            {
-              "title": "Borrow-checking without type-checking",
-              "date": "2026-04-22",
-              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -739,6 +708,37 @@
               "title": "Eleventy",
               "date": "2026-04-17",
               "link": "https://macwright.com/2026/04/17/eleventy.html"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "Artificial adventures",
+              "date": "2026-07-01",
+              "link": "https://www.scattered-thoughts.net/writing/artificial-adventures/"
+            },
+            {
+              "title": "I'm not a cat",
+              "date": "2026-06-24",
+              "link": "https://www.scattered-thoughts.net/writing/im-not-a-cat/"
+            },
+            {
+              "title": "0060: SF",
+              "date": "2026-06-21",
+              "link": "https://www.scattered-thoughts.net/log/0060/"
+            },
+            {
+              "title": "0059: NYC and SF?",
+              "date": "2026-06-05",
+              "link": "https://www.scattered-thoughts.net/log/0059/"
+            },
+            {
+              "title": "Borrow-checking without type-checking",
+              "date": "2026-04-22",
+              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/"
             }
           ]
         },
@@ -1080,6 +1080,37 @@
               "title": "Two Paradigms for Enhancing HTML Tags",
               "date": "2026-04-24",
               "link": "https://thathtml.blog/2026/04/two-paradigms-for-enhancing-html-tags/"
+            }
+          ]
+        },
+        {
+          "title": "Kyle Shevlin's Blog RSS Feed",
+          "feedUrl": "https://kyleshevlin.com/rss.xml",
+          "items": [
+            {
+              "title": "&ldquo;Help&rdquo; Doesn't Mean What it Meant",
+              "date": "2026-06-05",
+              "link": "https://kyleshevlin.com/help-doesnt-mean-what-it-meant/"
+            },
+            {
+              "title": "<code>AsyncData</code>",
+              "date": "2026-01-11",
+              "link": "https://kyleshevlin.com/async-data/"
+            },
+            {
+              "title": "Nothing is Something",
+              "date": "2025-12-20",
+              "link": "https://kyleshevlin.com/nothing-is-something/"
+            },
+            {
+              "title": "<code>data</code> Attributes for Testing",
+              "date": "2025-11-21",
+              "link": "https://kyleshevlin.com/data-attributes-for-testing/"
+            },
+            {
+              "title": "Prefer Gaps To Margins",
+              "date": "2025-06-23",
+              "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
             }
           ]
         },
@@ -1792,37 +1823,6 @@
           ]
         },
         {
-          "title": "Musings about software",
-          "feedUrl": "https://www.softwaremaxims.com/feed.xml",
-          "items": [
-            {
-              "title": "The Hobbyist Maintainer Economic Gravity Well",
-              "date": "2026-01-11",
-              "link": "https://softwaremaxims.com/blog/hobbyist-gravity-well"
-            },
-            {
-              "title": "How FOSS Won and Why It Matters",
-              "date": "2025-11-16",
-              "link": "https://softwaremaxims.com/blog/how-foss-won-consequences"
-            },
-            {
-              "title": "You Are All On The Hobbyists Maintainers’ Turf Now",
-              "date": "2024-04-01",
-              "link": "https://softwaremaxims.com/blog/open-source-hobbyists-turf"
-            },
-            {
-              "title": "Where did the Rust go?",
-              "date": "2023-08-23",
-              "link": "https://softwaremaxims.com/blog/memory-safety-end-history"
-            },
-            {
-              "title": "The Cloud Is Not Optional",
-              "date": "2023-07-14",
-              "link": "https://softwaremaxims.com/blog/cloud-not-optional"
-            }
-          ]
-        },
-        {
           "title": "Nathan Knowler",
           "feedUrl": "https://knowler.dev/feed.xml",
           "items": [
@@ -2133,37 +2133,6 @@
           ]
         },
         {
-          "title": "Work with Alan",
-          "feedUrl": "https://angryweasel.com/blog/feed/",
-          "items": [
-            {
-              "title": "Five for Friday – March 14, 2025",
-              "date": "2025-03-14",
-              "link": "https://angryweasel.com/blog/five-for-friday-march-14-2025/"
-            },
-            {
-              "title": "Five for Friday – March 7, 2025",
-              "date": "2025-03-07",
-              "link": "https://angryweasel.com/blog/five-for-friday-march-7-2025/"
-            },
-            {
-              "title": "Five for Friday – February 21, 2025",
-              "date": "2025-02-21",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-21-2025/"
-            },
-            {
-              "title": "Five for Friday – February 14, 2025",
-              "date": "2025-02-14",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-14-2025/"
-            },
-            {
-              "title": "Five for Friday – February 7, 2025",
-              "date": "2025-02-08",
-              "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
-            }
-          ]
-        },
-        {
           "title": "lalaland",
           "feedUrl": "https://lalaland.mataroa.blog/rss/",
           "items": [
@@ -2435,13 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-07-18T05:22:11.576Z",
+  "fetchDate": "2026-07-19T05:48:52.516Z",
   "errors": [
-    "https://cutlefish.substack.com/feed",
+    "https://angryweasel.com/blog/feed/",
     "https://2ality.com/feeds/posts.atom",
+    "https://www.worthe-it.co.za/atom.xml",
+    "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml",
-    "https://kyleshevlin.com/rss.xml"
+    "https://fynn.be/feed.xml"
   ]
 }

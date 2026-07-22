@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Some more things about Django I've been enjoying",
+              "date": "2026-07-21",
+              "link": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
+            },
+            {
+              "title": "Learning a few things about running SQLite",
+              "date": "2026-07-17",
+              "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
+            },
+            {
+              "title": "Moving away from Tailwind, and learning to structure my CSS",
+              "date": "2026-05-15",
+              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
+            },
+            {
+              "title": "Links to CSS colour palettes",
+              "date": "2026-05-04",
+              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
+            },
+            {
+              "title": "Testing Vue components in the browser",
+              "date": "2026-05-02",
+              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
+            }
+          ]
+        },
+        {
+          "title": "Good Tech Things",
+          "feedUrl": "https://newsletter.goodtechthings.com/feed",
+          "items": [
+            {
+              "title": "A love letter to time travel stories",
+              "date": "2026-07-21",
+              "link": "https://newsletter.goodtechthings.com/p/a-love-letter-to-time-travel-stories"
+            },
+            {
+              "title": "Paradox, Inc",
+              "date": "2026-04-22",
+              "link": "https://newsletter.goodtechthings.com/p/paradox-inc"
+            },
+            {
+              "title": "Speed Trap",
+              "date": "2026-02-19",
+              "link": "https://newsletter.goodtechthings.com/p/speed-trap"
+            },
+            {
+              "title": "When everybody's down, nobody is",
+              "date": "2025-10-23",
+              "link": "https://newsletter.goodtechthings.com/p/when-everybodys-down-nobody-is"
+            },
+            {
+              "title": "Harsh truths to save you from ChatGPT psychosis",
+              "date": "2025-08-14",
+              "link": "https://newsletter.goodtechthings.com/p/harsh-truths-to-save-you-from-chatgpt"
+            }
+          ]
+        },
+        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -62,6 +124,37 @@
               "title": "Back to Building - Make Problems Smaller",
               "date": "2026-01-04",
               "link": "https://www.lisihocke.com/2026/01/back-to-building-make-problems-smaller.html"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Sinistral Hands",
+              "date": "2026-07-19",
+              "link": "https://robinrendle.com/notes/sinistral-hands/"
+            },
+            {
+              "title": "EP-1320 Medieval",
+              "date": "2026-07-12",
+              "link": "https://robinrendle.com/notes/ep1320-medieval/"
+            },
+            {
+              "title": "Several short sentences about writing",
+              "date": "2026-06-21",
+              "link": "https://robinrendle.com/notes/several-short-sentences-about-writing/"
+            },
+            {
+              "title": "Make Believe",
+              "date": "2026-06-13",
+              "link": "https://robinrendle.com/notes/make-believe/"
+            },
+            {
+              "title": "Indian Street Lettering",
+              "date": "2026-05-31",
+              "link": "https://robinrendle.com/notes/indian-street-lettering/"
             }
           ]
         },
@@ -155,37 +248,6 @@
               "title": "Where did the Rust go?",
               "date": "2023-08-23",
               "link": "https://softwaremaxims.com/blog/memory-safety-end-history"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Learning a few things about running SQLite",
-              "date": "2026-07-17",
-              "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
-            },
-            {
-              "title": "Moving away from Tailwind, and learning to structure my CSS",
-              "date": "2026-05-15",
-              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
-            },
-            {
-              "title": "Links to CSS colour palettes",
-              "date": "2026-05-04",
-              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
-            },
-            {
-              "title": "Testing Vue components in the browser",
-              "date": "2026-05-02",
-              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
-            },
-            {
-              "title": "Examples for the tcpdump and dig man pages",
-              "date": "2026-03-10",
-              "link": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/"
             }
           ]
         },
@@ -495,6 +557,37 @@
           ]
         },
         {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Link + Popover Navigation",
+              "date": "2026-07-09",
+              "link": "https://adrianroselli.com/2026/07/link-popover-navigation.html"
+            },
+            {
+              "title": "Focusgroup Tests",
+              "date": "2026-07-05",
+              "link": "https://adrianroselli.com/2026/07/focusgroup-tests.html"
+            },
+            {
+              "title": "∪ of Target Audiences (Accessibility, SEO, AEO/GEO)",
+              "date": "2026-06-15",
+              "link": "https://adrianroselli.com/2026/06/union-of-target-audiences-accessibility-seo-aeo-geo.html"
+            },
+            {
+              "title": "headingoffset is Not the Document Outline Algorithm",
+              "date": "2026-06-11",
+              "link": "https://adrianroselli.com/2026/06/headingoffset-is-not-the-document-outline-algorithm.html"
+            },
+            {
+              "title": "Maybe Don’t Rely on Google’s “Modern Web Guidance”",
+              "date": "2026-05-25",
+              "link": "https://adrianroselli.com/2026/05/maybe-dont-rely-on-googles-modern-web-guidance.html"
+            }
+          ]
+        },
+        {
           "title": ".:. brainsik",
           "feedUrl": "https://brainsik.net/index.xml",
           "items": [
@@ -553,6 +646,37 @@
               "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy",
               "date": "2026-06-02",
               "link": "https://charity.wtf/p/ai-enthusiasts-are-in-a-race-against"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "Abject Praise",
+              "date": "2026-07-06",
+              "link": "https://infrequently.org/2026/07/abject-praise/"
+            },
+            {
+              "title": "The Web Is An Antitrust Wedge",
+              "date": "2026-04-03",
+              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
+            },
+            {
+              "title": "Naked Power",
+              "date": "2026-01-20",
+              "link": "https://infrequently.org/2026/01/naked-power/"
+            },
+            {
+              "title": "The Performance Inequality Gap, 2026",
+              "date": "2025-11-24",
+              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
+            },
+            {
+              "title": "The App Store Was Always Authoritarian",
+              "date": "2025-10-11",
+              "link": "https://infrequently.org/2025/10/the-app-store-was-always-authoritarian/"
             }
           ]
         },
@@ -681,37 +805,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2026-07-01",
-              "link": "https://macwright.com/2026/07/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2026-06-04",
-              "link": "https://macwright.com/2026/06/04/recently.html"
-            },
-            {
-              "title": "Intermezzo bag",
-              "date": "2026-05-05",
-              "link": "https://macwright.com/2026/05/05/intermezzo-bag.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2026-05-04",
-              "link": "https://macwright.com/2026/05/04/recently.html"
-            },
-            {
-              "title": "Eleventy",
-              "date": "2026-04-17",
-              "link": "https://macwright.com/2026/04/17/eleventy.html"
-            }
-          ]
-        },
-        {
           "title": "Scattered Thoughts",
           "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
@@ -743,6 +836,37 @@
           ]
         },
         {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2026-07-01",
+              "link": "https://macwright.com/2026/07/01/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-06-04",
+              "link": "https://macwright.com/2026/06/04/recently.html"
+            },
+            {
+              "title": "Intermezzo bag",
+              "date": "2026-05-05",
+              "link": "https://macwright.com/2026/05/05/intermezzo-bag.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-05-04",
+              "link": "https://macwright.com/2026/05/04/recently.html"
+            },
+            {
+              "title": "Eleventy",
+              "date": "2026-04-17",
+              "link": "https://macwright.com/2026/04/17/eleventy.html"
+            }
+          ]
+        },
+        {
           "title": "Joep Schuurkes",
           "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
@@ -770,6 +894,37 @@
               "title": "Reflections after writing a release advice",
               "date": "2026-02-07",
               "link": "https://smallsheds.garden/blog/2026/reflections-after-writing-a-release-advice/"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Obsidian for Writers",
+              "date": "2026-06-29",
+              "link": "https://www.youtube.com/watch?v=BTuGvfQGOrY"
+            },
+            {
+              "title": "Hack Your Brain with Relationship Anarchy",
+              "date": "2026-05-22",
+              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
+            },
+            {
+              "title": "Savepoint: A CLI for TDD",
+              "date": "2026-05-14",
+              "link": "https://www.youtube.com/watch?v=ZBa3BK4Efcw"
+            },
+            {
+              "title": "Obsidian for Learning Part II: Process",
+              "date": "2026-03-24",
+              "link": "https://www.youtube.com/watch?v=Tyw6quANpiY"
+            },
+            {
+              "title": "Hack your Brain with Powerlifting",
+              "date": "2026-01-19",
+              "link": "https://www.youtube.com/watch?v=WxN9VzwoGGw"
             }
           ]
         },
@@ -1266,37 +1421,6 @@
               "title": "“Decoding Leadership” Podcast",
               "date": "2025-04-18",
               "link": "https://www.jamesshore.com/v2/presentations/2025/decoding-leadership-podcast"
-            }
-          ]
-        },
-        {
-          "title": "Good Tech Things",
-          "feedUrl": "https://newsletter.goodtechthings.com/feed",
-          "items": [
-            {
-              "title": "Paradox, Inc",
-              "date": "2026-04-22",
-              "link": "https://newsletter.goodtechthings.com/p/paradox-inc"
-            },
-            {
-              "title": "Speed Trap",
-              "date": "2026-02-19",
-              "link": "https://newsletter.goodtechthings.com/p/speed-trap"
-            },
-            {
-              "title": "When everybody's down, nobody is",
-              "date": "2025-10-23",
-              "link": "https://newsletter.goodtechthings.com/p/when-everybodys-down-nobody-is"
-            },
-            {
-              "title": "Harsh truths to save you from ChatGPT psychosis",
-              "date": "2025-08-14",
-              "link": "https://newsletter.goodtechthings.com/p/harsh-truths-to-save-you-from-chatgpt"
-            },
-            {
-              "title": "Breaking some huge personal news",
-              "date": "2025-02-07",
-              "link": "https://newsletter.goodtechthings.com/p/breaking-some-huge-personal-news"
             }
           ]
         },
@@ -2311,17 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-07-21T05:47:42.545Z",
+  "fetchDate": "2026-07-22T05:46:41.213Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
-    "https://infrequently.org/feed/",
-    "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+    "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml",
-    "https://adrianroselli.com/feed"
+    "https://fynn.be/feed.xml"
   ]
 }

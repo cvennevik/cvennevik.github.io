@@ -4,33 +4,121 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
             {
-              "title": "Some more things about Django I've been enjoying",
-              "date": "2026-07-21",
-              "link": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
+              "date": "2026-07-23",
+              "link": "https://dbushell.com/notes/2026-07-23T05:06Z/"
             },
             {
-              "title": "Learning a few things about running SQLite",
               "date": "2026-07-17",
-              "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
+              "link": "https://dbushell.com/notes/2026-07-17T11:00Z/"
             },
             {
-              "title": "Moving away from Tailwind, and learning to structure my CSS",
-              "date": "2026-05-15",
-              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
+              "date": "2026-07-16",
+              "link": "https://dbushell.com/notes/2026-07-16T07:02Z/"
             },
             {
-              "title": "Links to CSS colour palettes",
-              "date": "2026-05-04",
-              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
+              "date": "2026-07-08",
+              "link": "https://dbushell.com/notes/2026-07-08T10:57Z/"
             },
             {
-              "title": "Testing Vue components in the browser",
-              "date": "2026-05-02",
-              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
+              "date": "2026-07-06",
+              "link": "https://dbushell.com/notes/2026-07-06T07:30Z/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[GR02.10] tiny pink flowers",
+              "date": "2026-07-22",
+              "link": "https://www.simplermachines.com/gr02-10-tiny-pink-flowers/"
+            },
+            {
+              "title": "Divination-Driven Decision-Making",
+              "date": "2026-07-16",
+              "link": "https://www.simplermachines.com/divination-driven-dec/"
+            },
+            {
+              "title": "Concourse Lives!",
+              "date": "2026-07-10",
+              "link": "https://www.simplermachines.com/concourse-lives/"
+            },
+            {
+              "title": "[GR02.09] chrysanthemum",
+              "date": "2026-07-07",
+              "link": "https://www.simplermachines.com/gr02-09-chrysanthemum/"
+            },
+            {
+              "title": "[GR02.08] lilies and plastic",
+              "date": "2026-07-06",
+              "link": "https://www.simplermachines.com/gr02-08-bo/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "July 2026 blend of links",
+              "date": "2026-07-22",
+              "link": "https://thejollyteapot.com/july-2026-blend/"
+            },
+            {
+              "title": "Neo beginnings",
+              "date": "2026-07-11",
+              "link": "https://thejollyteapot.com/2026/07/11/neo-beginnings/"
+            },
+            {
+              "title": "A peculiar bug in Safari",
+              "date": "2026-07-04",
+              "link": "https://thejollyteapot.com/2026/07/04/a-peculiar-bug-in-safari/"
+            },
+            {
+              "title": "Unfinished, part deux",
+              "date": "2026-06-30",
+              "link": "https://thejollyteapot.com/2026/06/30/unfinished-part-deux/"
+            },
+            {
+              "title": "June 2026 blend of links",
+              "date": "2026-06-20",
+              "link": "https://thejollyteapot.com/june-2026-blend/"
+            }
+          ]
+        },
+        {
+          "title": ".:. brainsik",
+          "feedUrl": "https://brainsik.net/index.xml",
+          "items": [
+            {
+              "title": "Migrating Debian 13 to Systemd Networking",
+              "date": "2026-07-22",
+              "link": "https://brainsik.net/2026/migrating-debian-13-to-systemd-networking/"
+            },
+            {
+              "title": "Notes: Serving a Podman Container Via Tailscale",
+              "date": "2026-07-08",
+              "link": "https://brainsik.net/2026/serving-a-podman-container-via-tailscale/"
+            },
+            {
+              "title": "Using a local LLM to convert grep output to Caddy config",
+              "date": "2025-11-25",
+              "link": "https://brainsik.net/2025/local-llm-convert-grep-to-caddy-config/"
+            },
+            {
+              "title": "Scraping Public Messages",
+              "date": "2025-05-21",
+              "link": "https://brainsik.net/2025/scraping-public-messages/"
+            },
+            {
+              "title": "The LLM Journey Begins?",
+              "date": "2025-01-07",
+              "link": "https://brainsik.net/2025/llm-journey-begins/"
             }
           ]
         },
@@ -252,32 +340,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-07-17",
-              "link": "https://dbushell.com/notes/2026-07-17T11:00Z/"
-            },
-            {
-              "date": "2026-07-16",
-              "link": "https://dbushell.com/notes/2026-07-16T07:02Z/"
-            },
-            {
-              "date": "2026-07-08",
-              "link": "https://dbushell.com/notes/2026-07-08T10:57Z/"
-            },
-            {
-              "date": "2026-07-06",
-              "link": "https://dbushell.com/notes/2026-07-06T07:30Z/"
-            },
-            {
-              "date": "2026-07-06",
-              "link": "https://dbushell.com/notes/2026-07-06T07:21Z/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -371,37 +433,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "Divination-Driven Decision-Making",
-              "date": "2026-07-16",
-              "link": "https://www.simplermachines.com/divination-driven-dec/"
-            },
-            {
-              "title": "Concourse Lives!",
-              "date": "2026-07-10",
-              "link": "https://www.simplermachines.com/concourse-lives/"
-            },
-            {
-              "title": "[GR02.09] chrysanthemum",
-              "date": "2026-07-07",
-              "link": "https://www.simplermachines.com/gr02-09-chrysanthemum/"
-            },
-            {
-              "title": "[GR02.08] lilies and plastic",
-              "date": "2026-07-06",
-              "link": "https://www.simplermachines.com/gr02-08-bo/"
-            },
-            {
-              "title": "Testing Problems are Design Problems",
-              "date": "2026-07-06",
-              "link": "https://www.simplermachines.com/testing-problems-are-design-problems/"
-            }
-          ]
-        },
-        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
@@ -464,37 +495,6 @@
           ]
         },
         {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "I have no idea who celebrities are anymore ",
-              "date": "2026-07-14",
-              "link": "https://anniemueller.com/posts/i-have-no-idea-who-celebrities-are-anymore"
-            },
-            {
-              "title": "Exclamatory birthday edition // W26 — 2026",
-              "date": "2026-06-29",
-              "link": "https://anniemueller.com/posts/exclamatory-birthday-edition-w26-2026"
-            },
-            {
-              "title": "A bundle of bones // W24 + 25 — 2026",
-              "date": "2026-06-24",
-              "link": "https://anniemueller.com/posts/a-bundle-of-bones-w24-plus-25-2026"
-            },
-            {
-              "title": "Do not bargain to be loved",
-              "date": "2026-06-19",
-              "link": "https://anniemueller.com/posts/do-not-bargain-to-be-loved"
-            },
-            {
-              "title": "This is it",
-              "date": "2026-06-18",
-              "link": "https://anniemueller.com/posts/this-is-it"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -526,33 +526,33 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
             {
-              "title": "Neo beginnings",
-              "date": "2026-07-11",
-              "link": "https://thejollyteapot.com/2026/07/11/neo-beginnings/"
+              "title": "I have no idea who celebrities are anymore ",
+              "date": "2026-07-14",
+              "link": "https://anniemueller.com/posts/i-have-no-idea-who-celebrities-are-anymore"
             },
             {
-              "title": "A peculiar bug in Safari",
-              "date": "2026-07-04",
-              "link": "https://thejollyteapot.com/2026/07/04/a-peculiar-bug-in-safari/"
+              "title": "Exclamatory birthday edition // W26 — 2026",
+              "date": "2026-06-29",
+              "link": "https://anniemueller.com/posts/exclamatory-birthday-edition-w26-2026"
             },
             {
-              "title": "Unfinished, part deux",
-              "date": "2026-06-30",
-              "link": "https://thejollyteapot.com/2026/06/30/unfinished-part-deux/"
+              "title": "A bundle of bones // W24 + 25 — 2026",
+              "date": "2026-06-24",
+              "link": "https://anniemueller.com/posts/a-bundle-of-bones-w24-plus-25-2026"
             },
             {
-              "title": "June 2026 blend of links",
-              "date": "2026-06-20",
-              "link": "https://thejollyteapot.com/june-2026-blend/"
+              "title": "Do not bargain to be loved",
+              "date": "2026-06-19",
+              "link": "https://anniemueller.com/posts/do-not-bargain-to-be-loved"
             },
             {
-              "title": "Software will never feel the same",
-              "date": "2026-06-07",
-              "link": "https://thejollyteapot.com/2026/06/07/software-will-never-feel-the-same/"
+              "title": "This is it",
+              "date": "2026-06-18",
+              "link": "https://anniemueller.com/posts/this-is-it"
             }
           ]
         },
@@ -584,37 +584,6 @@
               "title": "Maybe Don’t Rely on Google’s “Modern Web Guidance”",
               "date": "2026-05-25",
               "link": "https://adrianroselli.com/2026/05/maybe-dont-rely-on-googles-modern-web-guidance.html"
-            }
-          ]
-        },
-        {
-          "title": ".:. brainsik",
-          "feedUrl": "https://brainsik.net/index.xml",
-          "items": [
-            {
-              "title": "Notes: Serving a Podman Container Via Tailscale",
-              "date": "2026-07-08",
-              "link": "https://brainsik.net/2026/serving-a-podman-container-via-tailscale/"
-            },
-            {
-              "title": "Using a local LLM to convert grep output to Caddy config",
-              "date": "2025-11-25",
-              "link": "https://brainsik.net/2025/local-llm-convert-grep-to-caddy-config/"
-            },
-            {
-              "title": "Scraping Public Messages",
-              "date": "2025-05-21",
-              "link": "https://brainsik.net/2025/scraping-public-messages/"
-            },
-            {
-              "title": "The LLM Journey Begins?",
-              "date": "2025-01-07",
-              "link": "https://brainsik.net/2025/llm-journey-begins/"
-            },
-            {
-              "title": "Successfully Migrating to Caddy from Nginx",
-              "date": "2024-07-09",
-              "link": "https://brainsik.net/2024/successfully-migrating-to-caddy-from-nginx/"
             }
           ]
         },
@@ -805,37 +774,6 @@
           ]
         },
         {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "Artificial adventures",
-              "date": "2026-07-01",
-              "link": "https://www.scattered-thoughts.net/writing/artificial-adventures/"
-            },
-            {
-              "title": "I'm not a cat",
-              "date": "2026-06-24",
-              "link": "https://www.scattered-thoughts.net/writing/im-not-a-cat/"
-            },
-            {
-              "title": "0060: SF",
-              "date": "2026-06-21",
-              "link": "https://www.scattered-thoughts.net/log/0060/"
-            },
-            {
-              "title": "0059: NYC and SF?",
-              "date": "2026-06-05",
-              "link": "https://www.scattered-thoughts.net/log/0059/"
-            },
-            {
-              "title": "Borrow-checking without type-checking",
-              "date": "2026-04-22",
-              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/"
-            }
-          ]
-        },
-        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -863,6 +801,37 @@
               "title": "Eleventy",
               "date": "2026-04-17",
               "link": "https://macwright.com/2026/04/17/eleventy.html"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "Artificial adventures",
+              "date": "2026-07-01",
+              "link": "https://www.scattered-thoughts.net/writing/artificial-adventures/"
+            },
+            {
+              "title": "I'm not a cat",
+              "date": "2026-06-24",
+              "link": "https://www.scattered-thoughts.net/writing/im-not-a-cat/"
+            },
+            {
+              "title": "0060: SF",
+              "date": "2026-06-21",
+              "link": "https://www.scattered-thoughts.net/log/0060/"
+            },
+            {
+              "title": "0059: NYC and SF?",
+              "date": "2026-06-05",
+              "link": "https://www.scattered-thoughts.net/log/0059/"
+            },
+            {
+              "title": "Borrow-checking without type-checking",
+              "date": "2026-04-22",
+              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/"
             }
           ]
         },
@@ -1730,37 +1699,6 @@
           ]
         },
         {
-          "title": "Sara Joy",
-          "feedUrl": "https://sarajoy.dev/rss.xml",
-          "items": [
-            {
-              "title": "Just Try Harder",
-              "date": "2026-02-21",
-              "link": "https://sarajoy.dev/blog/just-try-harder/"
-            },
-            {
-              "title": "Farmors Chokladkaka",
-              "date": "2025-07-21",
-              "link": "https://sarajoy.dev/blog/farmors-chokladkaka/"
-            },
-            {
-              "title": "Work with Illustrators & Designers",
-              "date": "2025-07-17",
-              "link": "https://sarajoy.dev/blog/whimsica11y-logo/"
-            },
-            {
-              "title": "Those annoying long URLs causing overflow?",
-              "date": "2025-05-22",
-              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
-            },
-            {
-              "title": "Come to the light-dark() Side",
-              "date": "2024-10-26",
-              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
-            }
-          ]
-        },
-        {
           "title": "Frills",
           "feedUrl": "https://frills.dev/all.xml",
           "items": [
@@ -2435,13 +2373,15 @@
       ]
     }
   ],
-  "fetchDate": "2026-07-22T05:46:41.213Z",
+  "fetchDate": "2026-07-23T05:50:16.395Z",
   "errors": [
     "https://2ality.com/feeds/posts.atom",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://sarajoy.dev/rss.xml",
+    "https://jvns.ca/atom.xml"
   ]
 }

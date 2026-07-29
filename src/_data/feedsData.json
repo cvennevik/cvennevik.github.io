@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Mathias Verraes",
+          "feedUrl": "https://verraes.net/feed.atom",
+          "items": [
+            {
+              "title": "Loosely Coupled: Is Software Design Still Relevant?",
+              "date": "2026-07-28",
+              "link": "https://verraes.net/2026/07/loosely-coupled-podcast/"
+            },
+            {
+              "title": "Software Design in the Agentic Age: Place Your Bets",
+              "date": "2026-07-02",
+              "link": "https://verraes.net/2026/07/software-design-in-the-agentic-age/"
+            },
+            {
+              "title": "No, Your Domains and Bounded Contexts Don’t Map 1 on 1",
+              "date": "2025-08-28",
+              "link": "https://verraes.net/2025/08/domain-and-bounded-contexts-dont-map-one-on-one/"
+            },
+            {
+              "title": "Two Hard Problems with Distributed Systems",
+              "date": "2025-08-14",
+              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
+            },
+            {
+              "title": "Submitting talks to a tech conference Call for Papers",
+              "date": "2025-06-10",
+              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[GR02.12] outside a restaurant in Tahoe",
+              "date": "2026-07-28",
+              "link": "https://www.simplermachines.com/gr02-12-outside-a-restaurant-in-tahoe/"
+            },
+            {
+              "title": "[GR02.11] lavender, I think",
+              "date": "2026-07-24",
+              "link": "https://www.simplermachines.com/gr02-11-lavender-i-think/"
+            },
+            {
+              "title": "Why AI writing is so exhausting",
+              "date": "2026-07-24",
+              "link": "https://www.simplermachines.com/why-ai-writing-is-so-exhausting/"
+            },
+            {
+              "title": "[GR02.10] tiny pink flowers",
+              "date": "2026-07-22",
+              "link": "https://www.simplermachines.com/gr02-10-tiny-pink-flowers/"
+            },
+            {
+              "title": "Divination-Driven Decision-Making",
+              "date": "2026-07-16",
+              "link": "https://www.simplermachines.com/divination-driven-dec/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "When The Future Doesn’t Need Us",
+              "date": "2026-07-28",
+              "link": "https://borretti.me/article/when-the-future-doesnt-need-us"
+            },
+            {
+              "title": "No-One Escapes the Permanent Underclass",
+              "date": "2026-06-25",
+              "link": "https://borretti.me/article/no-one-escapes-the-permanent-underclass"
+            },
+            {
+              "title": "On Vulgar Materialism",
+              "date": "2026-06-21",
+              "link": "https://borretti.me/article/on-vulgar-materialism"
+            },
+            {
+              "title": "Human Routers of Machine Words",
+              "date": "2026-06-13",
+              "link": "https://borretti.me/article/human-routers-of-machine-words"
+            },
+            {
+              "title": "How To Read More",
+              "date": "2026-06-04",
+              "link": "https://borretti.me/article/how-to-read-more"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -66,32 +159,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-07-27",
-              "link": "https://dbushell.com/notes/2026-07-27T15:44Z/"
-            },
-            {
-              "date": "2026-07-26",
-              "link": "https://dbushell.com/notes/2026-07-26T08:20Z/"
-            },
-            {
-              "date": "2026-07-23",
-              "link": "https://dbushell.com/notes/2026-07-23T09:29Z/"
-            },
-            {
-              "date": "2026-07-23",
-              "link": "https://dbushell.com/notes/2026-07-23T05:06Z/"
-            },
-            {
-              "date": "2026-07-17",
-              "link": "https://dbushell.com/notes/2026-07-17T11:00Z/"
-            }
-          ]
-        },
-        {
           "title": "Coding Is Like Cooking",
           "feedUrl": "https://coding-is-like-cooking.info/feed/",
           "items": [
@@ -123,6 +190,32 @@
           ]
         },
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-07-27",
+              "link": "https://dbushell.com/notes/2026-07-27T15:44Z/"
+            },
+            {
+              "date": "2026-07-26",
+              "link": "https://dbushell.com/notes/2026-07-26T08:20Z/"
+            },
+            {
+              "date": "2026-07-23",
+              "link": "https://dbushell.com/notes/2026-07-23T09:29Z/"
+            },
+            {
+              "date": "2026-07-23",
+              "link": "https://dbushell.com/notes/2026-07-23T05:06Z/"
+            },
+            {
+              "date": "2026-07-17",
+              "link": "https://dbushell.com/notes/2026-07-17T11:00Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -150,37 +243,6 @@
               "title": "Behold the perfect algorithm!",
               "date": "2026-07-06",
               "link": "https://dbushell.com/2026/07/06/behold-the-perfect-algorithm/"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[GR02.11] lavender, I think",
-              "date": "2026-07-24",
-              "link": "https://www.simplermachines.com/gr02-11-lavender-i-think/"
-            },
-            {
-              "title": "Why AI writing is so exhausting",
-              "date": "2026-07-24",
-              "link": "https://www.simplermachines.com/why-ai-writing-is-so-exhausting/"
-            },
-            {
-              "title": "[GR02.10] tiny pink flowers",
-              "date": "2026-07-22",
-              "link": "https://www.simplermachines.com/gr02-10-tiny-pink-flowers/"
-            },
-            {
-              "title": "Divination-Driven Decision-Making",
-              "date": "2026-07-16",
-              "link": "https://www.simplermachines.com/divination-driven-dec/"
-            },
-            {
-              "title": "Concourse Lives!",
-              "date": "2026-07-10",
-              "link": "https://www.simplermachines.com/concourse-lives/"
             }
           ]
         },
@@ -712,37 +774,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "I'm still alive",
-              "date": "2026-07-14",
-              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
-            },
-            {
-              "title": "Logic for Programmers v0.15, Livecoding",
-              "date": "2026-06-17",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
-            },
-            {
-              "title": "Nontrailing separators do not spark joy",
-              "date": "2026-06-10",
-              "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/"
-            },
-            {
-              "title": "Logic for Programmers extra credits",
-              "date": "2026-06-02",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/"
-            },
-            {
-              "title": "Knowing about things is cheaper than knowing things",
-              "date": "2026-05-28",
-              "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/"
-            }
-          ]
-        },
-        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -770,6 +801,37 @@
               "title": "This is it",
               "date": "2026-06-18",
               "link": "https://anniemueller.com/posts/this-is-it"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "I'm still alive",
+              "date": "2026-07-14",
+              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
+            },
+            {
+              "title": "Logic for Programmers v0.15, Livecoding",
+              "date": "2026-06-17",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
+            },
+            {
+              "title": "Nontrailing separators do not spark joy",
+              "date": "2026-06-10",
+              "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/"
+            },
+            {
+              "title": "Logic for Programmers extra credits",
+              "date": "2026-06-02",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/"
+            },
+            {
+              "title": "Knowing about things is cheaper than knowing things",
+              "date": "2026-05-28",
+              "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/"
             }
           ]
         },
@@ -898,37 +960,6 @@
           ]
         },
         {
-          "title": "Mathias Verraes",
-          "feedUrl": "https://verraes.net/feed.atom",
-          "items": [
-            {
-              "title": "Software Design in the Agentic Age: Place Your Bets",
-              "date": "2026-07-02",
-              "link": "https://verraes.net/2026/07/software-design-in-the-agentic-age/"
-            },
-            {
-              "title": "No, Your Domains and Bounded Contexts Don’t Map 1 on 1",
-              "date": "2025-08-28",
-              "link": "https://verraes.net/2025/08/domain-and-bounded-contexts-dont-map-one-on-one/"
-            },
-            {
-              "title": "Two Hard Problems with Distributed Systems",
-              "date": "2025-08-14",
-              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
-            },
-            {
-              "title": "Submitting talks to a tech conference Call for Papers",
-              "date": "2025-06-10",
-              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
-            },
-            {
-              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
-              "date": "2024-03-10",
-              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
-            }
-          ]
-        },
-        {
           "title": "Scattered Thoughts",
           "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
           "items": [
@@ -1018,37 +1049,6 @@
               "title": "Expanding the digital garden",
               "date": "2026-06-11",
               "link": "https://gomakethings.com/articles/expanding-the-digital-garden/"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "No-One Escapes the Permanent Underclass",
-              "date": "2026-06-25",
-              "link": "https://borretti.me/article/no-one-escapes-the-permanent-underclass"
-            },
-            {
-              "title": "On Vulgar Materialism",
-              "date": "2026-06-21",
-              "link": "https://borretti.me/article/on-vulgar-materialism"
-            },
-            {
-              "title": "Human Routers of Machine Words",
-              "date": "2026-06-13",
-              "link": "https://borretti.me/article/human-routers-of-machine-words"
-            },
-            {
-              "title": "How To Read More",
-              "date": "2026-06-04",
-              "link": "https://borretti.me/article/how-to-read-more"
-            },
-            {
-              "title": "Human Bottlenecks",
-              "date": "2026-05-18",
-              "link": "https://borretti.me/article/human-bottlenecks"
             }
           ]
         },
@@ -1854,6 +1854,37 @@
           ]
         },
         {
+          "title": "Hazel Weakly",
+          "feedUrl": "https://hazelweakly.me/atom.xml",
+          "items": [
+            {
+              "title": "Observations of Leadership (Part Two)",
+              "date": "2026-01-05",
+              "link": "https://hazelweakly.me/blog/observations-of-leadership-part-two/"
+            },
+            {
+              "title": "To Be a Leader of Systems",
+              "date": "2025-11-18",
+              "link": "https://hazelweakly.me/blog/to-be-a-leader-of-systems/"
+            },
+            {
+              "title": "Scaling Innovation: Building Ecosystems",
+              "date": "2025-10-21",
+              "link": "https://hazelweakly.me/blog/scaling-innovation-building-ecosystems/"
+            },
+            {
+              "title": "Stop Building AI Tools Backwards",
+              "date": "2025-05-16",
+              "link": "https://hazelweakly.me/blog/stop-building-ai-tools-backwards/"
+            },
+            {
+              "title": "The Future of Observability: Observability 3.0",
+              "date": "2024-12-09",
+              "link": "https://hazelweakly.me/blog/the-future-of-observability-observability-3-0/"
+            }
+          ]
+        },
+        {
           "title": "HeydonWorks",
           "feedUrl": "https://heydonworks.com/feed.xml",
           "items": [
@@ -2373,7 +2404,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-07-28T05:43:48.237Z",
+  "fetchDate": "2026-07-29T05:48:51.863Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
@@ -2381,7 +2412,6 @@
     "https://angryweasel.substack.com/feed",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml",
-    "https://hazelweakly.me/atom.xml"
+    "https://fynn.be/feed.xml"
   ]
 }

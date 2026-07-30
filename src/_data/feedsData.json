@@ -4,6 +4,130 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Blog on Hillel Wayne",
+          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
+          "items": [
+            {
+              "title": "Logic for Programmers is Now Available",
+              "date": "2026-07-29",
+              "link": "https://www.hillelwayne.com/post/lfp/"
+            },
+            {
+              "title": "Chicago vs New York Pizza is the Wrong Argument",
+              "date": "2026-04-01",
+              "link": "https://www.hillelwayne.com/post/pizza/"
+            },
+            {
+              "title": "Some Silly Z3 Scripts I Wrote",
+              "date": "2026-02-23",
+              "link": "https://www.hillelwayne.com/post/z3-examples/"
+            },
+            {
+              "title": "A Very Early History of Algebraic Data Types",
+              "date": "2025-09-25",
+              "link": "https://www.hillelwayne.com/post/algdt-history/"
+            },
+            {
+              "title": "Gamer Games for Non-Gamers",
+              "date": "2025-04-01",
+              "link": "https://www.hillelwayne.com/post/vidja-games/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "The AI Aesthetic",
+              "date": "2026-07-29",
+              "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/"
+            },
+            {
+              "title": "Can the Tide of AI Investment Lift All Boats on the Web?",
+              "date": "2026-07-27",
+              "link": "https://blog.jim-nielsen.com/2026/tide-lifts-all-boats/"
+            },
+            {
+              "title": "Podcast Notes: Ed Catmull on David Senra",
+              "date": "2026-07-24",
+              "link": "https://blog.jim-nielsen.com/2026/podcast-notes-ed-catmull/"
+            },
+            {
+              "title": "Make It Work vs. Make It Good",
+              "date": "2026-07-18",
+              "link": "https://blog.jim-nielsen.com/2026/make-it-work-make-it-good/"
+            },
+            {
+              "title": "Podcast Notes: Iain McGilchrist on “The Great Simplification”",
+              "date": "2026-07-16",
+              "link": "https://blog.jim-nielsen.com/2026/podcast-notes-iain-mcgilchrist/"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Lorenz and Little: How Much Does Your Tail Cost?",
+              "date": "2026-07-29",
+              "link": "http://brooker.co.za/blog/2026/07/29/lorenz-and-little.html"
+            },
+            {
+              "title": "Aurora DSQL: Scalable, Multi-Region OLTP",
+              "date": "2026-07-19",
+              "link": "http://brooker.co.za/blog/2026/07/19/dsql-paper.html"
+            },
+            {
+              "title": "Meet Alice. Alice is impatient.",
+              "date": "2026-06-19",
+              "link": "http://brooker.co.za/blog/2026/06/19/waiting.html"
+            },
+            {
+              "title": "Is this blog written by AI?",
+              "date": "2026-06-18",
+              "link": "http://brooker.co.za/blog/2026/06/18/my-blog-and-ai.html"
+            },
+            {
+              "title": "Agentic software development hypothesis",
+              "date": "2026-05-20",
+              "link": "http://brooker.co.za/blog/2026/05/20/hypothesis.html"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Logic for Programmers is Done",
+              "date": "2026-07-29",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-is-done/"
+            },
+            {
+              "title": "I'm still alive",
+              "date": "2026-07-14",
+              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
+            },
+            {
+              "title": "Logic for Programmers v0.15, Livecoding",
+              "date": "2026-06-17",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
+            },
+            {
+              "title": "Nontrailing separators do not spark joy",
+              "date": "2026-06-10",
+              "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/"
+            },
+            {
+              "title": "Logic for Programmers extra credits",
+              "date": "2026-06-02",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/"
+            }
+          ]
+        },
+        {
           "title": "Mathias Verraes",
           "feedUrl": "https://verraes.net/feed.atom",
           "items": [
@@ -97,37 +221,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Can the Tide of AI Investment Lift All Boats on the Web?",
-              "date": "2026-07-27",
-              "link": "https://blog.jim-nielsen.com/2026/tide-lifts-all-boats/"
-            },
-            {
-              "title": "Podcast Notes: Ed Catmull on David Senra",
-              "date": "2026-07-24",
-              "link": "https://blog.jim-nielsen.com/2026/podcast-notes-ed-catmull/"
-            },
-            {
-              "title": "Make It Work vs. Make It Good",
-              "date": "2026-07-18",
-              "link": "https://blog.jim-nielsen.com/2026/make-it-work-make-it-good/"
-            },
-            {
-              "title": "Podcast Notes: Iain McGilchrist on “The Great Simplification”",
-              "date": "2026-07-16",
-              "link": "https://blog.jim-nielsen.com/2026/podcast-notes-iain-mcgilchrist/"
-            },
-            {
-              "title": "What’s an Icon in 2026?",
-              "date": "2026-07-12",
-              "link": "https://blog.jim-nielsen.com/2026/icons-as-software/"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -212,37 +305,6 @@
             {
               "date": "2026-07-17",
               "link": "https://dbushell.com/notes/2026-07-17T11:00Z/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Businessing 101",
-              "date": "2026-07-24",
-              "link": "https://dbushell.com/2026/07/24/businessing/"
-            },
-            {
-              "title": "Choose your own dark mode",
-              "date": "2026-07-16",
-              "link": "https://dbushell.com/2026/07/16/choose-your-own-dark-mode/"
-            },
-            {
-              "title": "Astro is fine I guess",
-              "date": "2026-07-10",
-              "link": "https://dbushell.com/2026/07/10/astro-is-fine/"
-            },
-            {
-              "title": "Select your starter class",
-              "date": "2026-07-08",
-              "link": "https://dbushell.com/2026/07/08/select-your-starter-class/"
-            },
-            {
-              "title": "Behold the perfect algorithm!",
-              "date": "2026-07-06",
-              "link": "https://dbushell.com/2026/07/06/behold-the-perfect-algorithm/"
             }
           ]
         },
@@ -433,37 +495,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Some more things about Django I've been enjoying",
-              "date": "2026-07-21",
-              "link": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
-            },
-            {
-              "title": "Learning a few things about running SQLite",
-              "date": "2026-07-17",
-              "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
-            },
-            {
-              "title": "Moving away from Tailwind, and learning to structure my CSS",
-              "date": "2026-05-15",
-              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
-            },
-            {
-              "title": "Links to CSS colour palettes",
-              "date": "2026-05-04",
-              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
-            },
-            {
-              "title": "Testing Vue components in the browser",
-              "date": "2026-05-02",
-              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
-            }
-          ]
-        },
-        {
           "title": "Good Tech Things",
           "feedUrl": "https://newsletter.goodtechthings.com/feed",
           "items": [
@@ -588,37 +619,6 @@
           ]
         },
         {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Aurora DSQL: Scalable, Multi-Region OLTP",
-              "date": "2026-07-19",
-              "link": "http://brooker.co.za/blog/2026/07/19/dsql-paper.html"
-            },
-            {
-              "title": "Meet Alice. Alice is impatient.",
-              "date": "2026-06-19",
-              "link": "http://brooker.co.za/blog/2026/06/19/waiting.html"
-            },
-            {
-              "title": "Is this blog written by AI?",
-              "date": "2026-06-18",
-              "link": "http://brooker.co.za/blog/2026/06/18/my-blog-and-ai.html"
-            },
-            {
-              "title": "Agentic software development hypothesis",
-              "date": "2026-05-20",
-              "link": "http://brooker.co.za/blog/2026/05/20/hypothesis.html"
-            },
-            {
-              "title": "What's Easy Now? What's Hard Now?",
-              "date": "2026-05-18",
-              "link": "http://brooker.co.za/blog/2026/05/18/whats-easy-whats-hard.html"
-            }
-          ]
-        },
-        {
           "title": "Musings about software",
           "feedUrl": "https://www.softwaremaxims.com/feed.xml",
           "items": [
@@ -650,37 +650,6 @@
           ]
         },
         {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "A real-life, jargon-free sourdough bread process",
-              "date": "2026-07-16",
-              "link": "https://rosswintle.uk/2026/07/a-real-life-jargon-free-sourdough-bread-process/"
-            },
-            {
-              "title": "Zig and the Zig Guy",
-              "date": "2026-06-28",
-              "link": "https://rosswintle.uk/2026/06/zig-and-the-zig-guy/"
-            },
-            {
-              "title": "Turbo Admin 1.21",
-              "date": "2026-06-08",
-              "link": "https://rosswintle.uk/2026/06/turbo-admin-1-21/"
-            },
-            {
-              "title": "The Writing Triangle",
-              "date": "2026-06-01",
-              "link": "https://rosswintle.uk/2026/06/the-writing-triangle/"
-            },
-            {
-              "title": "Turbo Admin (and life) update",
-              "date": "2026-03-08",
-              "link": "https://rosswintle.uk/2026/03/turbo-admin-and-life-update/"
-            }
-          ]
-        },
-        {
           "title": "Curly Tail, Curly Braces",
           "feedUrl": "https://www.worthe-it.co.za/atom.xml",
           "items": [
@@ -708,6 +677,37 @@
               "title": "Buying Tech Books in South Africa",
               "date": "2025-05-16",
               "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "A real-life, jargon-free sourdough bread process",
+              "date": "2026-07-16",
+              "link": "https://rosswintle.uk/2026/07/a-real-life-jargon-free-sourdough-bread-process/"
+            },
+            {
+              "title": "Zig and the Zig Guy",
+              "date": "2026-06-28",
+              "link": "https://rosswintle.uk/2026/06/zig-and-the-zig-guy/"
+            },
+            {
+              "title": "Turbo Admin 1.21",
+              "date": "2026-06-08",
+              "link": "https://rosswintle.uk/2026/06/turbo-admin-1-21/"
+            },
+            {
+              "title": "The Writing Triangle",
+              "date": "2026-06-01",
+              "link": "https://rosswintle.uk/2026/06/the-writing-triangle/"
+            },
+            {
+              "title": "Turbo Admin (and life) update",
+              "date": "2026-03-08",
+              "link": "https://rosswintle.uk/2026/03/turbo-admin-and-life-update/"
             }
           ]
         },
@@ -801,37 +801,6 @@
               "title": "This is it",
               "date": "2026-06-18",
               "link": "https://anniemueller.com/posts/this-is-it"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "I'm still alive",
-              "date": "2026-07-14",
-              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
-            },
-            {
-              "title": "Logic for Programmers v0.15, Livecoding",
-              "date": "2026-06-17",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
-            },
-            {
-              "title": "Nontrailing separators do not spark joy",
-              "date": "2026-06-10",
-              "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/"
-            },
-            {
-              "title": "Logic for Programmers extra credits",
-              "date": "2026-06-02",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/"
-            },
-            {
-              "title": "Knowing about things is cheaper than knowing things",
-              "date": "2026-05-28",
-              "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/"
             }
           ]
         },
@@ -1155,6 +1124,11 @@
               "link": "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/"
             },
             {
+              "title": "Announcing What Can’t I Press?",
+              "date": "2026-06-15",
+              "link": "https://ericwbailey.website/published/announcing-what-cant-i-press/"
+            },
+            {
               "title": "Evolved antennas, LLM-generated code, and a potential antifuture",
               "date": "2026-05-11",
               "link": "https://ericwbailey.website/published/evolved-antennas-llm-generated-code-and-a-potential-antifuture/"
@@ -1168,11 +1142,6 @@
               "title": "Here’s how to instruct a LLM to reference the ARIA Authoring Practices Guide",
               "date": "2026-02-16",
               "link": "https://ericwbailey.website/published/heres-how-to-instruct-a-llm-to-reference-the-aria-authoring-practices-guide/"
-            },
-            {
-              "title": "You probably shouldn’t be annotating focus order",
-              "date": "2026-02-04",
-              "link": "https://ericwbailey.website/published/you-probably-shouldnt-be-annotating-focus-order/"
             }
           ]
         },
@@ -1483,37 +1452,6 @@
               "title": "Planet of the Beavers",
               "date": "2023-10-06",
               "link": "https://molily.de/planet-of-the-beavers/"
-            }
-          ]
-        },
-        {
-          "title": "Blog on Hillel Wayne",
-          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
-          "items": [
-            {
-              "title": "Chicago vs New York Pizza is the Wrong Argument",
-              "date": "2026-04-01",
-              "link": "https://www.hillelwayne.com/post/pizza/"
-            },
-            {
-              "title": "Some Silly Z3 Scripts I Wrote",
-              "date": "2026-02-23",
-              "link": "https://www.hillelwayne.com/post/z3-examples/"
-            },
-            {
-              "title": "A Very Early History of Algebraic Data Types",
-              "date": "2025-09-25",
-              "link": "https://www.hillelwayne.com/post/algdt-history/"
-            },
-            {
-              "title": "Gamer Games for Non-Gamers",
-              "date": "2025-04-01",
-              "link": "https://www.hillelwayne.com/post/vidja-games/"
-            },
-            {
-              "title": "A Perplexing Javascript Parsing Puzzle",
-              "date": "2025-03-12",
-              "link": "https://www.hillelwayne.com/post/javascript-puzzle/"
             }
           ]
         },
@@ -2404,14 +2342,16 @@
       ]
     }
   ],
-  "fetchDate": "2026-07-29T05:48:51.863Z",
+  "fetchDate": "2026-07-30T05:37:27.839Z",
   "errors": [
+    "https://dbushell.com/rss.xml",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
     "https://angryweasel.substack.com/feed",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://jvns.ca/atom.xml"
   ]
 }

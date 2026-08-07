@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "The Contracting Circle",
+              "date": "2026-08-07",
+              "link": "https://borretti.me/article/the-contracting-circle"
+            },
+            {
+              "title": "Review: Job-Less Utopia",
+              "date": "2026-08-03",
+              "link": "https://borretti.me/article/review-job-less-utopia"
+            },
+            {
+              "title": "Mathematics Without Mathematicians",
+              "date": "2026-08-02",
+              "link": "https://borretti.me/article/mathematics-without-mathematicians"
+            },
+            {
+              "title": "When The Future Doesn’t Need Us",
+              "date": "2026-07-28",
+              "link": "https://borretti.me/article/when-the-future-doesnt-need-us"
+            },
+            {
+              "title": "No-One Escapes the Permanent Underclass",
+              "date": "2026-06-25",
+              "link": "https://borretti.me/article/no-one-escapes-the-permanent-underclass"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "What I'm Watching for on Every NFL Team in 2026",
+              "date": "2026-08-06",
+              "link": "https://www.simplermachines.com/what-im-watching-for-on-every-nfl-team-in-2026/"
+            },
+            {
+              "title": "[GR02.12] kitchen tulips, again",
+              "date": "2026-08-05",
+              "link": "https://www.simplermachines.com/gr02-12-kitchen-tulips-again/"
+            },
+            {
+              "title": "Mere Being - 033 - July - Game Changers, Ethnographies, Hollandaise Sauce",
+              "date": "2026-08-05",
+              "link": "https://www.simplermachines.com/mere-being-033-july-game-changers-ethnographies-hollandaise-sauce/"
+            },
+            {
+              "title": "How I use Capacities as a Zettelkasten",
+              "date": "2026-07-30",
+              "link": "https://www.simplermachines.com/how-i-use-capacities-as-a-zettelkasten/"
+            },
+            {
+              "title": "[GR02.12] outside a restaurant in Tahoe",
+              "date": "2026-07-28",
+              "link": "https://www.simplermachines.com/gr02-12-outside-a-restaurant-in-tahoe/"
+            }
+          ]
+        },
+        {
           "title": "fLaMEd fury",
           "feedUrl": "https://flamedfury.com/feed.xml",
           "items": [
@@ -31,37 +93,6 @@
               "title": "Open Tabs July 2026",
               "date": "2026-08-01",
               "link": "https://flamedfury.com/posts/open-tabs-july-2026/"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[GR02.12] kitchen tulips, again",
-              "date": "2026-08-05",
-              "link": "https://www.simplermachines.com/gr02-12-kitchen-tulips-again/"
-            },
-            {
-              "title": "Mere Being - 033 - July - Game Changers, Ethnographies, Hollandaise Sauce",
-              "date": "2026-08-05",
-              "link": "https://www.simplermachines.com/mere-being-033-july-game-changers-ethnographies-hollandaise-sauce/"
-            },
-            {
-              "title": "How I use Capacities as a Zettelkasten",
-              "date": "2026-07-30",
-              "link": "https://www.simplermachines.com/how-i-use-capacities-as-a-zettelkasten/"
-            },
-            {
-              "title": "[GR02.12] outside a restaurant in Tahoe",
-              "date": "2026-07-28",
-              "link": "https://www.simplermachines.com/gr02-12-outside-a-restaurant-in-tahoe/"
-            },
-            {
-              "title": "[GR02.11] lavender, I think",
-              "date": "2026-07-24",
-              "link": "https://www.simplermachines.com/gr02-11-lavender-i-think/"
             }
           ]
         },
@@ -150,37 +181,6 @@
               "title": "Do not bargain to be loved",
               "date": "2026-06-19",
               "link": "https://anniemueller.com/posts/do-not-bargain-to-be-loved"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Review: Job-Less Utopia",
-              "date": "2026-08-03",
-              "link": "https://borretti.me/article/review-job-less-utopia"
-            },
-            {
-              "title": "Mathematics Without Mathematicians",
-              "date": "2026-08-02",
-              "link": "https://borretti.me/article/mathematics-without-mathematicians"
-            },
-            {
-              "title": "When The Future Doesn’t Need Us",
-              "date": "2026-07-28",
-              "link": "https://borretti.me/article/when-the-future-doesnt-need-us"
-            },
-            {
-              "title": "No-One Escapes the Permanent Underclass",
-              "date": "2026-06-25",
-              "link": "https://borretti.me/article/no-one-escapes-the-permanent-underclass"
-            },
-            {
-              "title": "On Vulgar Materialism",
-              "date": "2026-06-21",
-              "link": "https://borretti.me/article/on-vulgar-materialism"
             }
           ]
         },
@@ -619,37 +619,6 @@
           ]
         },
         {
-          "title": "",
-          "feedUrl": "https://danluu.com/atom.xml",
-          "items": [
-            {
-              "title": "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires",
-              "date": "2026-07-23",
-              "link": "https://danluu.com/exercise-7/"
-            },
-            {
-              "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
-              "date": "2026-07-03",
-              "link": "https://danluu.com/ai-coding/"
-            },
-            {
-              "title": "Steve Ballmer was an underrated CEO",
-              "date": "2024-10-28",
-              "link": "https://danluu.com/ballmer/"
-            },
-            {
-              "title": "How good can you be at Codenames without knowing any words?",
-              "date": "2024-08-11",
-              "link": "https://danluu.com/codenames/"
-            },
-            {
-              "title": "A discussion of discussions on AI bias",
-              "date": "2024-06-16",
-              "link": "https://danluu.com/ai-bias/"
-            }
-          ]
-        },
-        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -677,6 +646,37 @@
               "title": "The Performance Inequality Gap, 2026",
               "date": "2025-11-24",
               "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
+            }
+          ]
+        },
+        {
+          "title": "",
+          "feedUrl": "https://danluu.com/atom.xml",
+          "items": [
+            {
+              "title": "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires",
+              "date": "2026-07-23",
+              "link": "https://danluu.com/exercise-7/"
+            },
+            {
+              "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
+              "date": "2026-07-03",
+              "link": "https://danluu.com/ai-coding/"
+            },
+            {
+              "title": "Steve Ballmer was an underrated CEO",
+              "date": "2024-10-28",
+              "link": "https://danluu.com/ballmer/"
+            },
+            {
+              "title": "How good can you be at Codenames without knowing any words?",
+              "date": "2024-08-11",
+              "link": "https://danluu.com/codenames/"
+            },
+            {
+              "title": "A discussion of discussions on AI bias",
+              "date": "2024-06-16",
+              "link": "https://danluu.com/ai-bias/"
             }
           ]
         },
@@ -2278,6 +2278,37 @@
           ]
         },
         {
+          "title": "CodeAesthetic",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
+          "items": [
+            {
+              "title": "Dear Functional Bros",
+              "date": "2023-12-23",
+              "link": "https://www.youtube.com/watch?v=nuML9SmdbJ4"
+            },
+            {
+              "title": "Dependency Injection, The Best Pattern",
+              "date": "2023-08-04",
+              "link": "https://www.youtube.com/watch?v=J1f5b4vcxCQ"
+            },
+            {
+              "title": "Premature Optimization",
+              "date": "2023-02-10",
+              "link": "https://www.youtube.com/watch?v=tKbV6BpH-C8"
+            },
+            {
+              "title": "Don't Write Comments",
+              "date": "2023-01-16",
+              "link": "https://www.youtube.com/watch?v=Bf7vDBBOBUA"
+            },
+            {
+              "title": "The Flaws of Inheritance",
+              "date": "2022-12-22",
+              "link": "https://www.youtube.com/watch?v=hxGOiiR9ZKg"
+            }
+          ]
+        },
+        {
           "title": "Hello world",
           "feedUrl": "https://qristin.wordpress.com/feed/",
           "items": [
@@ -2342,15 +2373,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-08-06T05:45:57.031Z",
+  "fetchDate": "2026-08-07T04:51:25.536Z",
   "errors": [
     "https://angryweasel.com/blog/feed/",
-    "https://cutlefish.substack.com/feed",
-    "https://2ality.com/feeds/posts.atom",
     "https://www.worthe-it.co.za/atom.xml",
+    "https://2ality.com/feeds/posts.atom",
+    "https://cutlefish.substack.com/feed",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
     "https://angryweasel.substack.com/feed",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml"
   ]

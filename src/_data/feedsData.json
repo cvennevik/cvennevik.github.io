@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Should a Dialog Close When Clicked Outside?",
+              "date": "2026-08-12",
+              "link": "https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html"
+            },
+            {
+              "title": "Link + Popover Navigation",
+              "date": "2026-07-09",
+              "link": "https://adrianroselli.com/2026/07/link-popover-navigation.html"
+            },
+            {
+              "title": "Focusgroup Tests",
+              "date": "2026-07-05",
+              "link": "https://adrianroselli.com/2026/07/focusgroup-tests.html"
+            },
+            {
+              "title": "∪ of Target Audiences (Accessibility, SEO, AEO/GEO)",
+              "date": "2026-06-15",
+              "link": "https://adrianroselli.com/2026/06/union-of-target-audiences-accessibility-seo-aeo-geo.html"
+            },
+            {
+              "title": "headingoffset is Not the Document Outline Algorithm",
+              "date": "2026-06-11",
+              "link": "https://adrianroselli.com/2026/06/headingoffset-is-not-the-document-outline-algorithm.html"
+            }
+          ]
+        },
+        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -35,11 +66,68 @@
           ]
         },
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-08-12",
+              "link": "https://dbushell.com/notes/2026-08-12T08:21Z/"
+            },
+            {
+              "date": "2026-08-11",
+              "link": "https://dbushell.com/notes/2026-08-11T05:54Z/"
+            },
+            {
+              "date": "2026-08-10",
+              "link": "https://dbushell.com/notes/2026-08-10T08:33Z/"
+            },
+            {
+              "date": "2026-08-09",
+              "link": "https://dbushell.com/notes/2026-08-09T08:32Z/"
+            },
+            {
+              "date": "2026-08-04",
+              "link": "https://dbushell.com/notes/2026-08-04T05:12Z/"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "HTML Day 2026",
+              "date": "2026-08-12",
+              "link": "https://flamedfury.com/posts/html-day-2026/"
+            },
+            {
+              "title": "My first HWC",
+              "date": "2026-08-06",
+              "link": "https://flamedfury.com/posts/my-first-hwc/"
+            },
+            {
+              "title": "Winter is here",
+              "date": "2026-08-05",
+              "link": "https://flamedfury.com/posts/winter-is-here/"
+            },
+            {
+              "title": "Taylor Swift Moshpit",
+              "date": "2026-08-02",
+              "link": "https://flamedfury.com/posts/taylor-swift-moshpit/"
+            },
+            {
+              "title": "Miley Cyrus, what's going on?",
+              "date": "2026-08-01",
+              "link": "https://flamedfury.com/posts/miley-cyrus-whats-going-on/"
+            }
+          ]
+        },
+        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
             {
-              "title": "Progressive Admission - pattern for data processing",
+              "title": "Progressive Admission Pattern - story slicing",
               "date": "2026-08-11",
               "link": "http://agileotter.blogspot.com/2026/08/progressive-admission-pattern-for-data.html"
             },
@@ -159,32 +247,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-08-11",
-              "link": "https://dbushell.com/notes/2026-08-11T05:54Z/"
-            },
-            {
-              "date": "2026-08-10",
-              "link": "https://dbushell.com/notes/2026-08-10T08:33Z/"
-            },
-            {
-              "date": "2026-08-09",
-              "link": "https://dbushell.com/notes/2026-08-09T08:32Z/"
-            },
-            {
-              "date": "2026-08-04",
-              "link": "https://dbushell.com/notes/2026-08-04T05:12Z/"
-            },
-            {
-              "date": "2026-08-02",
-              "link": "https://dbushell.com/notes/2026-08-02T11:09Z/"
-            }
-          ]
-        },
-        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -216,6 +278,37 @@
           ]
         },
         {
+          "title": "",
+          "feedUrl": "https://danluu.com/atom.xml",
+          "items": [
+            {
+              "title": "How do programming languages impact token efficiency and correctness?",
+              "date": "2026-08-09",
+              "link": "https://danluu.com/pl-tokens/"
+            },
+            {
+              "title": "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires",
+              "date": "2026-07-23",
+              "link": "https://danluu.com/exercise-7/"
+            },
+            {
+              "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
+              "date": "2026-07-03",
+              "link": "https://danluu.com/ai-coding/"
+            },
+            {
+              "title": "Steve Ballmer was an underrated CEO",
+              "date": "2024-10-28",
+              "link": "https://danluu.com/ballmer/"
+            },
+            {
+              "title": "How good can you be at Codenames without knowing any words?",
+              "date": "2024-08-11",
+              "link": "https://danluu.com/codenames/"
+            }
+          ]
+        },
+        {
           "title": "molily",
           "feedUrl": "https://molily.de/feed.xml",
           "items": [
@@ -243,37 +336,6 @@
               "title": "Full circle development",
               "date": "2023-11-10",
               "link": "https://molily.de/full-circle-development/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "My first HWC",
-              "date": "2026-08-06",
-              "link": "https://flamedfury.com/posts/my-first-hwc/"
-            },
-            {
-              "title": "Winter is here",
-              "date": "2026-08-05",
-              "link": "https://flamedfury.com/posts/winter-is-here/"
-            },
-            {
-              "title": "Taylor Swift Moshpit",
-              "date": "2026-08-02",
-              "link": "https://flamedfury.com/posts/taylor-swift-moshpit/"
-            },
-            {
-              "title": "Miley Cyrus, what's going on?",
-              "date": "2026-08-01",
-              "link": "https://flamedfury.com/posts/miley-cyrus-whats-going-on/"
-            },
-            {
-              "title": "Open Tabs July 2026",
-              "date": "2026-08-01",
-              "link": "https://flamedfury.com/posts/open-tabs-july-2026/"
             }
           ]
         },
@@ -371,6 +433,37 @@
           ]
         },
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Reading matters deeply",
+              "date": "2026-08-02",
+              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
+            },
+            {
+              "title": "Show me the work",
+              "date": "2026-08-01",
+              "link": "https://robinrendle.com/notes/show-me-the-work/"
+            },
+            {
+              "title": "Sinistral Hands",
+              "date": "2026-07-19",
+              "link": "https://robinrendle.com/notes/sinistral-hands/"
+            },
+            {
+              "title": "EP-1320 Medieval",
+              "date": "2026-07-12",
+              "link": "https://robinrendle.com/notes/ep1320-medieval/"
+            },
+            {
+              "title": "Several short sentences about writing",
+              "date": "2026-06-21",
+              "link": "https://robinrendle.com/notes/several-short-sentences-about-writing/"
+            }
+          ]
+        },
+        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -398,6 +491,37 @@
               "title": "Unfinished, part deux",
               "date": "2026-06-30",
               "link": "https://thejollyteapot.com/2026/06/30/unfinished-part-deux/"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Rust: Don't Panic",
+              "date": "2026-07-31",
+              "link": "https://www.youtube.com/watch?v=usRlRCNIOG0"
+            },
+            {
+              "title": "Obsidian for Writers",
+              "date": "2026-06-29",
+              "link": "https://www.youtube.com/watch?v=BTuGvfQGOrY"
+            },
+            {
+              "title": "Hack Your Brain with Relationship Anarchy",
+              "date": "2026-05-22",
+              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
+            },
+            {
+              "title": "Savepoint: A CLI for TDD",
+              "date": "2026-05-14",
+              "link": "https://www.youtube.com/watch?v=ZBa3BK4Efcw"
+            },
+            {
+              "title": "Obsidian for Learning Part II: Process",
+              "date": "2026-03-24",
+              "link": "https://www.youtube.com/watch?v=Tyw6quANpiY"
             }
           ]
         },
@@ -681,37 +805,6 @@
           ]
         },
         {
-          "title": "",
-          "feedUrl": "https://danluu.com/atom.xml",
-          "items": [
-            {
-              "title": "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires",
-              "date": "2026-07-23",
-              "link": "https://danluu.com/exercise-7/"
-            },
-            {
-              "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
-              "date": "2026-07-03",
-              "link": "https://danluu.com/ai-coding/"
-            },
-            {
-              "title": "Steve Ballmer was an underrated CEO",
-              "date": "2024-10-28",
-              "link": "https://danluu.com/ballmer/"
-            },
-            {
-              "title": "How good can you be at Codenames without knowing any words?",
-              "date": "2024-08-11",
-              "link": "https://danluu.com/codenames/"
-            },
-            {
-              "title": "A discussion of discussions on AI bias",
-              "date": "2024-06-16",
-              "link": "https://danluu.com/ai-bias/"
-            }
-          ]
-        },
-        {
           "title": "artemis.sh",
           "feedUrl": "https://artemis.sh/feed.xml",
           "items": [
@@ -987,37 +1080,6 @@
               "title": "Buying Tech Books in South Africa",
               "date": "2025-05-16",
               "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Link + Popover Navigation",
-              "date": "2026-07-09",
-              "link": "https://adrianroselli.com/2026/07/link-popover-navigation.html"
-            },
-            {
-              "title": "Focusgroup Tests",
-              "date": "2026-07-05",
-              "link": "https://adrianroselli.com/2026/07/focusgroup-tests.html"
-            },
-            {
-              "title": "∪ of Target Audiences (Accessibility, SEO, AEO/GEO)",
-              "date": "2026-06-15",
-              "link": "https://adrianroselli.com/2026/06/union-of-target-audiences-accessibility-seo-aeo-geo.html"
-            },
-            {
-              "title": "headingoffset is Not the Document Outline Algorithm",
-              "date": "2026-06-11",
-              "link": "https://adrianroselli.com/2026/06/headingoffset-is-not-the-document-outline-algorithm.html"
-            },
-            {
-              "title": "Maybe Don’t Rely on Google’s “Modern Web Guidance”",
-              "date": "2026-05-25",
-              "link": "https://adrianroselli.com/2026/05/maybe-dont-rely-on-googles-modern-web-guidance.html"
             }
           ]
         },
@@ -2342,15 +2404,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-08-12T04:44:29.065Z",
+  "fetchDate": "2026-08-13T04:47:58.460Z",
   "errors": [
     "https://infrequently.org/feed/",
-    "https://robinrendle.com/feed.xml",
-    "https://2ality.com/feeds/posts.atom",
     "https://cutlefish.substack.com/feed",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-    "https://angryweasel.substack.com/feed",
+    "https://2ality.com/feeds/posts.atom",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
+    "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml"
   ]

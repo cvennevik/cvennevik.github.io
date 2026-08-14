@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "Let's not call it \"tech debt,\" it's just \"mess\"",
+              "date": "2026-08-13",
+              "link": "https://www.simplermachines.com/lets-not-call-it-tech-debt-its-just-mess/"
+            },
+            {
+              "title": "[GR02.13] lake irises",
+              "date": "2026-08-11",
+              "link": "https://www.simplermachines.com/gr02-13-lake-irises/"
+            },
+            {
+              "title": "What I'm Watching for on Every NFL Team in 2026",
+              "date": "2026-08-06",
+              "link": "https://www.simplermachines.com/what-im-watching-for-on-every-nfl-team-in-2026/"
+            },
+            {
+              "title": "[GR02.12] kitchen tulips, again",
+              "date": "2026-08-05",
+              "link": "https://www.simplermachines.com/gr02-12-kitchen-tulips-again/"
+            },
+            {
+              "title": "Mere Being - 033 - July - Game Changers, Ethnographies, Hollandaise Sauce",
+              "date": "2026-08-05",
+              "link": "https://www.simplermachines.com/mere-being-033-july-game-changers-ethnographies-hollandaise-sauce/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-08-13",
+              "link": "https://dbushell.com/notes/2026-08-13T10:14Z/"
+            },
+            {
+              "date": "2026-08-12",
+              "link": "https://dbushell.com/notes/2026-08-12T08:21Z/"
+            },
+            {
+              "date": "2026-08-11",
+              "link": "https://dbushell.com/notes/2026-08-11T05:54Z/"
+            },
+            {
+              "date": "2026-08-10",
+              "link": "https://dbushell.com/notes/2026-08-10T08:33Z/"
+            },
+            {
+              "date": "2026-08-09",
+              "link": "https://dbushell.com/notes/2026-08-09T08:32Z/"
+            }
+          ]
+        },
+        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -62,32 +119,6 @@
               "title": "When The Future Doesn’t Need Us",
               "date": "2026-07-28",
               "link": "https://borretti.me/article/when-the-future-doesnt-need-us"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-08-12",
-              "link": "https://dbushell.com/notes/2026-08-12T08:21Z/"
-            },
-            {
-              "date": "2026-08-11",
-              "link": "https://dbushell.com/notes/2026-08-11T05:54Z/"
-            },
-            {
-              "date": "2026-08-10",
-              "link": "https://dbushell.com/notes/2026-08-10T08:33Z/"
-            },
-            {
-              "date": "2026-08-09",
-              "link": "https://dbushell.com/notes/2026-08-09T08:32Z/"
-            },
-            {
-              "date": "2026-08-04",
-              "link": "https://dbushell.com/notes/2026-08-04T05:12Z/"
             }
           ]
         },
@@ -216,37 +247,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[GR02.13] lake irises",
-              "date": "2026-08-11",
-              "link": "https://www.simplermachines.com/gr02-13-lake-irises/"
-            },
-            {
-              "title": "What I'm Watching for on Every NFL Team in 2026",
-              "date": "2026-08-06",
-              "link": "https://www.simplermachines.com/what-im-watching-for-on-every-nfl-team-in-2026/"
-            },
-            {
-              "title": "[GR02.12] kitchen tulips, again",
-              "date": "2026-08-05",
-              "link": "https://www.simplermachines.com/gr02-12-kitchen-tulips-again/"
-            },
-            {
-              "title": "Mere Being - 033 - July - Game Changers, Ethnographies, Hollandaise Sauce",
-              "date": "2026-08-05",
-              "link": "https://www.simplermachines.com/mere-being-033-july-game-changers-ethnographies-hollandaise-sauce/"
-            },
-            {
-              "title": "How I use Capacities as a Zettelkasten",
-              "date": "2026-07-30",
-              "link": "https://www.simplermachines.com/how-i-use-capacities-as-a-zettelkasten/"
-            }
-          ]
-        },
-        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -282,7 +282,7 @@
           "feedUrl": "https://danluu.com/atom.xml",
           "items": [
             {
-              "title": "How do programming languages impact token efficiency and correctness?",
+              "title": "What's the best programming language for coding agents?",
               "date": "2026-08-09",
               "link": "https://danluu.com/pl-tokens/"
             },
@@ -336,37 +336,6 @@
               "title": "Full circle development",
               "date": "2023-11-10",
               "link": "https://molily.de/full-circle-development/"
-            }
-          ]
-        },
-        {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "Here’s yet another metaphor about tech debt",
-              "date": "2026-08-04",
-              "link": "https://ericwbailey.website/published/heres-yet-another-metaphor-about-tech-debt/"
-            },
-            {
-              "title": "The case for an accessibility designer vibe coding when all his coworkers are also vibe coding",
-              "date": "2026-06-15",
-              "link": "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/"
-            },
-            {
-              "title": "Announcing What Can’t I Press?",
-              "date": "2026-06-15",
-              "link": "https://ericwbailey.website/published/announcing-what-cant-i-press/"
-            },
-            {
-              "title": "Evolved antennas, LLM-generated code, and a potential antifuture",
-              "date": "2026-05-11",
-              "link": "https://ericwbailey.website/published/evolved-antennas-llm-generated-code-and-a-potential-antifuture/"
-            },
-            {
-              "title": "A compelling title that is cryptic enough to get you to take action on it",
-              "date": "2026-04-09",
-              "link": "https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/"
             }
           ]
         },
@@ -433,37 +402,6 @@
           ]
         },
         {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Reading matters deeply",
-              "date": "2026-08-02",
-              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
-            },
-            {
-              "title": "Show me the work",
-              "date": "2026-08-01",
-              "link": "https://robinrendle.com/notes/show-me-the-work/"
-            },
-            {
-              "title": "Sinistral Hands",
-              "date": "2026-07-19",
-              "link": "https://robinrendle.com/notes/sinistral-hands/"
-            },
-            {
-              "title": "EP-1320 Medieval",
-              "date": "2026-07-12",
-              "link": "https://robinrendle.com/notes/ep1320-medieval/"
-            },
-            {
-              "title": "Several short sentences about writing",
-              "date": "2026-06-21",
-              "link": "https://robinrendle.com/notes/several-short-sentences-about-writing/"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -491,37 +429,6 @@
               "title": "Unfinished, part deux",
               "date": "2026-06-30",
               "link": "https://thejollyteapot.com/2026/06/30/unfinished-part-deux/"
-            }
-          ]
-        },
-        {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-          "items": [
-            {
-              "title": "Rust: Don't Panic",
-              "date": "2026-07-31",
-              "link": "https://www.youtube.com/watch?v=usRlRCNIOG0"
-            },
-            {
-              "title": "Obsidian for Writers",
-              "date": "2026-06-29",
-              "link": "https://www.youtube.com/watch?v=BTuGvfQGOrY"
-            },
-            {
-              "title": "Hack Your Brain with Relationship Anarchy",
-              "date": "2026-05-22",
-              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
-            },
-            {
-              "title": "Savepoint: A CLI for TDD",
-              "date": "2026-05-14",
-              "link": "https://www.youtube.com/watch?v=ZBa3BK4Efcw"
-            },
-            {
-              "title": "Obsidian for Learning Part II: Process",
-              "date": "2026-03-24",
-              "link": "https://www.youtube.com/watch?v=Tyw6quANpiY"
             }
           ]
         },
@@ -805,6 +712,37 @@
           ]
         },
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Absolute State of Management",
+              "date": "2026-07-23",
+              "link": "https://infrequently.org/2026/07/state-management/"
+            },
+            {
+              "title": "Abject Praise",
+              "date": "2026-07-06",
+              "link": "https://infrequently.org/2026/07/abject-praise/"
+            },
+            {
+              "title": "The Web Is An Antitrust Wedge",
+              "date": "2026-04-03",
+              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
+            },
+            {
+              "title": "Naked Power",
+              "date": "2026-01-20",
+              "link": "https://infrequently.org/2026/01/naked-power/"
+            },
+            {
+              "title": "The Performance Inequality Gap, 2026",
+              "date": "2025-11-24",
+              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
+            }
+          ]
+        },
+        {
           "title": "artemis.sh",
           "feedUrl": "https://artemis.sh/feed.xml",
           "items": [
@@ -863,37 +801,6 @@
               "title": "The LLM Journey Begins?",
               "date": "2025-01-07",
               "link": "https://brainsik.net/2025/llm-journey-begins/"
-            }
-          ]
-        },
-        {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Some more things about Django I've been enjoying",
-              "date": "2026-07-21",
-              "link": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
-            },
-            {
-              "title": "Learning a few things about running SQLite",
-              "date": "2026-07-17",
-              "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
-            },
-            {
-              "title": "Moving away from Tailwind, and learning to structure my CSS",
-              "date": "2026-05-15",
-              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
-            },
-            {
-              "title": "Links to CSS colour palettes",
-              "date": "2026-05-04",
-              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
-            },
-            {
-              "title": "Testing Vue components in the browser",
-              "date": "2026-05-02",
-              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
             }
           ]
         },
@@ -2404,14 +2311,17 @@
       ]
     }
   ],
-  "fetchDate": "2026-08-13T04:47:58.460Z",
+  "fetchDate": "2026-08-14T04:45:40.515Z",
   "errors": [
-    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+    "https://ericwbailey.website/feed/feed.xml",
     "https://angryweasel.substack.com/feed",
+    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://robinrendle.com/feed.xml",
+    "https://jvns.ca/atom.xml"
   ]
 }

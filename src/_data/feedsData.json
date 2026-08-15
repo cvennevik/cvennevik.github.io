@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Oh Hey, It’s Not Just Me",
+              "date": "2026-08-14",
+              "link": "https://blog.jim-nielsen.com/2026/its-not-just-me/"
+            },
+            {
+              "title": "The Fruits of AI",
+              "date": "2026-08-11",
+              "link": "https://blog.jim-nielsen.com/2026/fruit-of-ai/"
+            },
+            {
+              "title": "A License to Act",
+              "date": "2026-08-09",
+              "link": "https://blog.jim-nielsen.com/2026/license-to-act/"
+            },
+            {
+              "title": "The AI Aesthetic",
+              "date": "2026-07-29",
+              "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/"
+            },
+            {
+              "title": "Can the Tide of AI Investment Lift All Boats on the Web?",
+              "date": "2026-07-27",
+              "link": "https://blog.jim-nielsen.com/2026/tide-lifts-all-boats/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Technology optimism hour",
+              "date": "2026-08-14",
+              "link": "https://macwright.com/2026/08/14/optimism-hour.html"
+            },
+            {
+              "title": "Printing tiny photos for paper journals",
+              "date": "2026-07-24",
+              "link": "https://macwright.com/2026/07/24/printing-for-journals.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-07-01",
+              "link": "https://macwright.com/2026/07/01/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-06-04",
+              "link": "https://macwright.com/2026/06/04/recently.html"
+            },
+            {
+              "title": "Intermezzo bag",
+              "date": "2026-05-05",
+              "link": "https://macwright.com/2026/05/05/intermezzo-bag.html"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -57,37 +119,6 @@
             {
               "date": "2026-08-09",
               "link": "https://dbushell.com/notes/2026-08-09T08:32Z/"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Should a Dialog Close When Clicked Outside?",
-              "date": "2026-08-12",
-              "link": "https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html"
-            },
-            {
-              "title": "Link + Popover Navigation",
-              "date": "2026-07-09",
-              "link": "https://adrianroselli.com/2026/07/link-popover-navigation.html"
-            },
-            {
-              "title": "Focusgroup Tests",
-              "date": "2026-07-05",
-              "link": "https://adrianroselli.com/2026/07/focusgroup-tests.html"
-            },
-            {
-              "title": "∪ of Target Audiences (Accessibility, SEO, AEO/GEO)",
-              "date": "2026-06-15",
-              "link": "https://adrianroselli.com/2026/06/union-of-target-audiences-accessibility-seo-aeo-geo.html"
-            },
-            {
-              "title": "headingoffset is Not the Document Outline Algorithm",
-              "date": "2026-06-11",
-              "link": "https://adrianroselli.com/2026/06/headingoffset-is-not-the-document-outline-algorithm.html"
             }
           ]
         },
@@ -212,37 +243,6 @@
               "title": "Choose your own dark mode",
               "date": "2026-07-16",
               "link": "https://dbushell.com/2026/07/16/choose-your-own-dark-mode/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "The Fruits of AI",
-              "date": "2026-08-11",
-              "link": "https://blog.jim-nielsen.com/2026/fruit-of-ai/"
-            },
-            {
-              "title": "A License to Act",
-              "date": "2026-08-09",
-              "link": "https://blog.jim-nielsen.com/2026/license-to-act/"
-            },
-            {
-              "title": "The AI Aesthetic",
-              "date": "2026-07-29",
-              "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/"
-            },
-            {
-              "title": "Can the Tide of AI Investment Lift All Boats on the Web?",
-              "date": "2026-07-27",
-              "link": "https://blog.jim-nielsen.com/2026/tide-lifts-all-boats/"
-            },
-            {
-              "title": "Podcast Notes: Ed Catmull on David Senra",
-              "date": "2026-07-24",
-              "link": "https://blog.jim-nielsen.com/2026/podcast-notes-ed-catmull/"
             }
           ]
         },
@@ -429,6 +429,37 @@
               "title": "Unfinished, part deux",
               "date": "2026-06-30",
               "link": "https://thejollyteapot.com/2026/06/30/unfinished-part-deux/"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "Rust: Don't Panic",
+              "date": "2026-07-31",
+              "link": "https://www.youtube.com/watch?v=usRlRCNIOG0"
+            },
+            {
+              "title": "Obsidian for Writers",
+              "date": "2026-06-29",
+              "link": "https://www.youtube.com/watch?v=BTuGvfQGOrY"
+            },
+            {
+              "title": "Hack Your Brain with Relationship Anarchy",
+              "date": "2026-05-22",
+              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
+            },
+            {
+              "title": "Savepoint: A CLI for TDD",
+              "date": "2026-05-14",
+              "link": "https://www.youtube.com/watch?v=ZBa3BK4Efcw"
+            },
+            {
+              "title": "Obsidian for Learning Part II: Process",
+              "date": "2026-03-24",
+              "link": "https://www.youtube.com/watch?v=Tyw6quANpiY"
             }
           ]
         },
@@ -681,68 +712,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Printing tiny photos for paper journals",
-              "date": "2026-07-24",
-              "link": "https://macwright.com/2026/07/24/printing-for-journals.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2026-07-01",
-              "link": "https://macwright.com/2026/07/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2026-06-04",
-              "link": "https://macwright.com/2026/06/04/recently.html"
-            },
-            {
-              "title": "Intermezzo bag",
-              "date": "2026-05-05",
-              "link": "https://macwright.com/2026/05/05/intermezzo-bag.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2026-05-04",
-              "link": "https://macwright.com/2026/05/04/recently.html"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "The Absolute State of Management",
-              "date": "2026-07-23",
-              "link": "https://infrequently.org/2026/07/state-management/"
-            },
-            {
-              "title": "Abject Praise",
-              "date": "2026-07-06",
-              "link": "https://infrequently.org/2026/07/abject-praise/"
-            },
-            {
-              "title": "The Web Is An Antitrust Wedge",
-              "date": "2026-04-03",
-              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
-            },
-            {
-              "title": "Naked Power",
-              "date": "2026-01-20",
-              "link": "https://infrequently.org/2026/01/naked-power/"
-            },
-            {
-              "title": "The Performance Inequality Gap, 2026",
-              "date": "2025-11-24",
-              "link": "https://infrequently.org/2025/11/performance-inequality-gap-2026/"
-            }
-          ]
-        },
-        {
           "title": "artemis.sh",
           "feedUrl": "https://artemis.sh/feed.xml",
           "items": [
@@ -801,6 +770,37 @@
               "title": "The LLM Journey Begins?",
               "date": "2025-01-07",
               "link": "https://brainsik.net/2025/llm-journey-begins/"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Some more things about Django I've been enjoying",
+              "date": "2026-07-21",
+              "link": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
+            },
+            {
+              "title": "Learning a few things about running SQLite",
+              "date": "2026-07-17",
+              "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
+            },
+            {
+              "title": "Moving away from Tailwind, and learning to structure my CSS",
+              "date": "2026-05-15",
+              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
+            },
+            {
+              "title": "Links to CSS colour palettes",
+              "date": "2026-05-04",
+              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
+            },
+            {
+              "title": "Testing Vue components in the browser",
+              "date": "2026-05-02",
+              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
             }
           ]
         },
@@ -1487,37 +1487,6 @@
           ]
         },
         {
-          "title": "The Code Whisperer",
-          "feedUrl": "https://blog.thecodewhisperer.com/feed.xml",
-          "items": [
-            {
-              "title": "A Tale of map and parseInt in Three Acts, or WAT You Will",
-              "date": "2026-03-19",
-              "link": "https://blog.thecodewhisperer.com/permalink/a-tale-of-map-and-parseInt-in-three-acts"
-            },
-            {
-              "title": "Clarifying the Rule of Three in Refactoring",
-              "date": "2025-11-07",
-              "link": "https://blog.thecodewhisperer.com/permalink/clarifying-the-rule-of-three-in-refactoring"
-            },
-            {
-              "title": "Going Further with One Outcome Per Test",
-              "date": "2025-10-19",
-              "link": "https://blog.thecodewhisperer.com/permalink/going-further-with-one-outcome-per-test"
-            },
-            {
-              "title": "Saff Squeeze: Example 1",
-              "date": "2024-12-19",
-              "link": "https://blog.thecodewhisperer.com/permalink/saff-squeeze-example-1"
-            },
-            {
-              "title": "Refactoring Just Enough",
-              "date": "2024-06-21",
-              "link": "https://blog.thecodewhisperer.com/permalink/refactoring-just-enough"
-            }
-          ]
-        },
-        {
           "title": "Quantum Steps",
           "feedUrl": "https://read.ceilfors.com/feed",
           "items": [
@@ -2123,37 +2092,6 @@
           ]
         },
         {
-          "title": "GeePawHill.org",
-          "feedUrl": "https://www.geepawhill.org/feed/",
-          "items": [
-            {
-              "title": "Basic Concepts of the “Making App”",
-              "date": "2024-10-02",
-              "link": "https://www.geepawhill.org/2024/10/01/basic-concepts-of-the-making-app/"
-            },
-            {
-              "title": "Optimize for Our Humans",
-              "date": "2024-02-23",
-              "link": "https://www.geepawhill.org/2024/02/23/optimize-for-our-humans/"
-            },
-            {
-              "title": "Why Only Change Frames?",
-              "date": "2023-02-02",
-              "link": "https://www.geepawhill.org/2023/02/02/why-only-change-frames/"
-            },
-            {
-              "title": "The Frame-Changing Triad",
-              "date": "2023-01-26",
-              "link": "https://www.geepawhill.org/2023/01/26/the-frame-changing-triad/"
-            },
-            {
-              "title": "Changing The Frame",
-              "date": "2023-01-20",
-              "link": "https://www.geepawhill.org/2023/01/20/changing-the-frame/"
-            }
-          ]
-        },
-        {
           "title": "Nonlinear.Garden",
           "feedUrl": "https://nonlinear.garden/rss.xml",
           "items": [
@@ -2247,6 +2185,37 @@
           ]
         },
         {
+          "title": "CodeAesthetic",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
+          "items": [
+            {
+              "title": "Dear Functional Bros",
+              "date": "2023-12-23",
+              "link": "https://www.youtube.com/watch?v=nuML9SmdbJ4"
+            },
+            {
+              "title": "Dependency Injection, The Best Pattern",
+              "date": "2023-08-04",
+              "link": "https://www.youtube.com/watch?v=J1f5b4vcxCQ"
+            },
+            {
+              "title": "Premature Optimization",
+              "date": "2023-02-10",
+              "link": "https://www.youtube.com/watch?v=tKbV6BpH-C8"
+            },
+            {
+              "title": "Don't Write Comments",
+              "date": "2023-01-16",
+              "link": "https://www.youtube.com/watch?v=Bf7vDBBOBUA"
+            },
+            {
+              "title": "The Flaws of Inheritance",
+              "date": "2022-12-22",
+              "link": "https://www.youtube.com/watch?v=hxGOiiR9ZKg"
+            }
+          ]
+        },
+        {
           "title": "Hello world",
           "feedUrl": "https://qristin.wordpress.com/feed/",
           "items": [
@@ -2311,17 +2280,18 @@
       ]
     }
   ],
-  "fetchDate": "2026-08-14T04:45:40.515Z",
+  "fetchDate": "2026-08-15T03:36:37.944Z",
   "errors": [
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
     "https://ericwbailey.website/feed/feed.xml",
     "https://angryweasel.substack.com/feed",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml",
+    "https://adrianroselli.com/feed",
+    "https://www.geepawhill.org/feed/",
     "https://robinrendle.com/feed.xml",
-    "https://jvns.ca/atom.xml"
+    "https://blog.thecodewhisperer.com/feed.xml"
   ]
 }

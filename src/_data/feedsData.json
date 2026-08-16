@@ -4,6 +4,32 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-08-15",
+              "link": "https://dbushell.com/notes/2026-08-15T06:22Z/"
+            },
+            {
+              "date": "2026-08-13",
+              "link": "https://dbushell.com/notes/2026-08-13T10:14Z/"
+            },
+            {
+              "date": "2026-08-12",
+              "link": "https://dbushell.com/notes/2026-08-12T08:21Z/"
+            },
+            {
+              "date": "2026-08-11",
+              "link": "https://dbushell.com/notes/2026-08-11T05:54Z/"
+            },
+            {
+              "date": "2026-08-10",
+              "link": "https://dbushell.com/notes/2026-08-10T08:33Z/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -97,28 +123,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
           "items": [
             {
-              "date": "2026-08-13",
-              "link": "https://dbushell.com/notes/2026-08-13T10:14Z/"
-            },
-            {
+              "title": "Should a Dialog Close When Clicked Outside?",
               "date": "2026-08-12",
-              "link": "https://dbushell.com/notes/2026-08-12T08:21Z/"
+              "link": "https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html"
             },
             {
-              "date": "2026-08-11",
-              "link": "https://dbushell.com/notes/2026-08-11T05:54Z/"
+              "title": "Link + Popover Navigation",
+              "date": "2026-07-09",
+              "link": "https://adrianroselli.com/2026/07/link-popover-navigation.html"
             },
             {
-              "date": "2026-08-10",
-              "link": "https://dbushell.com/notes/2026-08-10T08:33Z/"
+              "title": "Focusgroup Tests",
+              "date": "2026-07-05",
+              "link": "https://adrianroselli.com/2026/07/focusgroup-tests.html"
             },
             {
-              "date": "2026-08-09",
-              "link": "https://dbushell.com/notes/2026-08-09T08:32Z/"
+              "title": "∪ of Target Audiences (Accessibility, SEO, AEO/GEO)",
+              "date": "2026-06-15",
+              "link": "https://adrianroselli.com/2026/06/union-of-target-audiences-accessibility-seo-aeo-geo.html"
+            },
+            {
+              "title": "headingoffset is Not the Document Outline Algorithm",
+              "date": "2026-06-11",
+              "link": "https://adrianroselli.com/2026/06/headingoffset-is-not-the-document-outline-algorithm.html"
             }
           ]
         },
@@ -336,6 +367,37 @@
               "title": "Full circle development",
               "date": "2023-11-10",
               "link": "https://molily.de/full-circle-development/"
+            }
+          ]
+        },
+        {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "Here’s yet another metaphor about tech debt",
+              "date": "2026-08-04",
+              "link": "https://ericwbailey.website/published/heres-yet-another-metaphor-about-tech-debt/"
+            },
+            {
+              "title": "The case for an accessibility designer vibe coding when all his coworkers are also vibe coding",
+              "date": "2026-06-15",
+              "link": "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/"
+            },
+            {
+              "title": "Announcing What Can’t I Press?",
+              "date": "2026-06-15",
+              "link": "https://ericwbailey.website/published/announcing-what-cant-i-press/"
+            },
+            {
+              "title": "Evolved antennas, LLM-generated code, and a potential antifuture",
+              "date": "2026-05-11",
+              "link": "https://ericwbailey.website/published/evolved-antennas-llm-generated-code-and-a-potential-antifuture/"
+            },
+            {
+              "title": "A compelling title that is cryptic enough to get you to take action on it",
+              "date": "2026-04-09",
+              "link": "https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/"
             }
           ]
         },
@@ -1487,6 +1549,37 @@
           ]
         },
         {
+          "title": "The Code Whisperer",
+          "feedUrl": "https://blog.thecodewhisperer.com/feed.xml",
+          "items": [
+            {
+              "title": "A Tale of map and parseInt in Three Acts, or WAT You Will",
+              "date": "2026-03-19",
+              "link": "https://blog.thecodewhisperer.com/permalink/a-tale-of-map-and-parseInt-in-three-acts"
+            },
+            {
+              "title": "Clarifying the Rule of Three in Refactoring",
+              "date": "2025-11-07",
+              "link": "https://blog.thecodewhisperer.com/permalink/clarifying-the-rule-of-three-in-refactoring"
+            },
+            {
+              "title": "Going Further with One Outcome Per Test",
+              "date": "2025-10-19",
+              "link": "https://blog.thecodewhisperer.com/permalink/going-further-with-one-outcome-per-test"
+            },
+            {
+              "title": "Saff Squeeze: Example 1",
+              "date": "2024-12-19",
+              "link": "https://blog.thecodewhisperer.com/permalink/saff-squeeze-example-1"
+            },
+            {
+              "title": "Refactoring Just Enough",
+              "date": "2024-06-21",
+              "link": "https://blog.thecodewhisperer.com/permalink/refactoring-just-enough"
+            }
+          ]
+        },
+        {
           "title": "Quantum Steps",
           "feedUrl": "https://read.ceilfors.com/feed",
           "items": [
@@ -2092,6 +2185,37 @@
           ]
         },
         {
+          "title": "GeePawHill.org",
+          "feedUrl": "https://www.geepawhill.org/feed/",
+          "items": [
+            {
+              "title": "Basic Concepts of the “Making App”",
+              "date": "2024-10-02",
+              "link": "https://www.geepawhill.org/2024/10/01/basic-concepts-of-the-making-app/"
+            },
+            {
+              "title": "Optimize for Our Humans",
+              "date": "2024-02-23",
+              "link": "https://www.geepawhill.org/2024/02/23/optimize-for-our-humans/"
+            },
+            {
+              "title": "Why Only Change Frames?",
+              "date": "2023-02-02",
+              "link": "https://www.geepawhill.org/2023/02/02/why-only-change-frames/"
+            },
+            {
+              "title": "The Frame-Changing Triad",
+              "date": "2023-01-26",
+              "link": "https://www.geepawhill.org/2023/01/26/the-frame-changing-triad/"
+            },
+            {
+              "title": "Changing The Frame",
+              "date": "2023-01-20",
+              "link": "https://www.geepawhill.org/2023/01/20/changing-the-frame/"
+            }
+          ]
+        },
+        {
           "title": "Nonlinear.Garden",
           "feedUrl": "https://nonlinear.garden/rss.xml",
           "items": [
@@ -2280,18 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-08-15T03:36:37.944Z",
+  "fetchDate": "2026-08-16T03:45:05.475Z",
   "errors": [
     "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
-    "https://ericwbailey.website/feed/feed.xml",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml",
-    "https://adrianroselli.com/feed",
-    "https://www.geepawhill.org/feed/",
-    "https://robinrendle.com/feed.xml",
-    "https://blog.thecodewhisperer.com/feed.xml"
+    "https://robinrendle.com/feed.xml"
   ]
 }

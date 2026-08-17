@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "The day of small things",
+              "date": "2026-08-15",
+              "link": "https://robinrendle.com/notes/the-day-of-small-things/"
+            },
+            {
+              "title": "Reading matters deeply",
+              "date": "2026-08-02",
+              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
+            },
+            {
+              "title": "Show me the work",
+              "date": "2026-08-01",
+              "link": "https://robinrendle.com/notes/show-me-the-work/"
+            },
+            {
+              "title": "Sinistral Hands",
+              "date": "2026-07-19",
+              "link": "https://robinrendle.com/notes/sinistral-hands/"
+            },
+            {
+              "title": "EP-1320 Medieval",
+              "date": "2026-07-12",
+              "link": "https://robinrendle.com/notes/ep1320-medieval/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -836,37 +867,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Some more things about Django I've been enjoying",
-              "date": "2026-07-21",
-              "link": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
-            },
-            {
-              "title": "Learning a few things about running SQLite",
-              "date": "2026-07-17",
-              "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
-            },
-            {
-              "title": "Moving away from Tailwind, and learning to structure my CSS",
-              "date": "2026-05-15",
-              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
-            },
-            {
-              "title": "Links to CSS colour palettes",
-              "date": "2026-05-04",
-              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
-            },
-            {
-              "title": "Testing Vue components in the browser",
-              "date": "2026-05-02",
-              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
-            }
-          ]
-        },
-        {
           "title": "Good Tech Things",
           "feedUrl": "https://newsletter.goodtechthings.com/feed",
           "items": [
@@ -894,6 +894,37 @@
               "title": "Harsh truths to save you from ChatGPT psychosis",
               "date": "2025-08-14",
               "link": "https://newsletter.goodtechthings.com/p/harsh-truths-to-save-you-from-chatgpt"
+            }
+          ]
+        },
+        {
+          "title": "Julia Evans",
+          "feedUrl": "https://jvns.ca/atom.xml",
+          "items": [
+            {
+              "title": "Some more things about Django I've been enjoying",
+              "date": "2026-07-21",
+              "link": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
+            },
+            {
+              "title": "Learning a few things about running SQLite",
+              "date": "2026-07-17",
+              "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
+            },
+            {
+              "title": "Moving away from Tailwind, and learning to structure my CSS",
+              "date": "2026-05-15",
+              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
+            },
+            {
+              "title": "Links to CSS colour palettes",
+              "date": "2026-05-04",
+              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
+            },
+            {
+              "title": "Testing Vue components in the browser",
+              "date": "2026-05-02",
+              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
             }
           ]
         },
@@ -1297,37 +1328,6 @@
               "title": "TIL: Docker log rotation",
               "date": "2026-02-16",
               "link": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Kyle Shevlin's Blog RSS Feed",
-          "feedUrl": "https://kyleshevlin.com/rss.xml",
-          "items": [
-            {
-              "title": "&ldquo;Help&rdquo; Doesn't Mean What it Meant",
-              "date": "2026-06-05",
-              "link": "https://kyleshevlin.com/help-doesnt-mean-what-it-meant/"
-            },
-            {
-              "title": "<code>AsyncData</code>",
-              "date": "2026-01-11",
-              "link": "https://kyleshevlin.com/async-data/"
-            },
-            {
-              "title": "Nothing is Something",
-              "date": "2025-12-20",
-              "link": "https://kyleshevlin.com/nothing-is-something/"
-            },
-            {
-              "title": "<code>data</code> Attributes for Testing",
-              "date": "2025-11-21",
-              "link": "https://kyleshevlin.com/data-attributes-for-testing/"
-            },
-            {
-              "title": "Prefer Gaps To Margins",
-              "date": "2025-06-23",
-              "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
             }
           ]
         },
@@ -2404,7 +2404,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-08-16T03:45:05.475Z",
+  "fetchDate": "2026-08-17T03:46:30.669Z",
   "errors": [
     "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
@@ -2412,6 +2412,6 @@
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml",
-    "https://robinrendle.com/feed.xml"
+    "https://kyleshevlin.com/rss.xml"
   ]
 }

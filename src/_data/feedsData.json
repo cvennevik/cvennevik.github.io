@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "How to apply CSS only if there are a certain number of nested elements",
+              "date": "2026-08-22",
+              "link": "https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/"
+            },
+            {
+              "title": "On fresh starts",
+              "date": "2026-08-20",
+              "link": "https://gomakethings.com/articles/on-fresh-starts/"
+            },
+            {
+              "title": "The spirit of giving",
+              "date": "2026-08-19",
+              "link": "https://gomakethings.com/articles/the-spirit-of-giving/"
+            },
+            {
+              "title": "Propaganda",
+              "date": "2026-08-18",
+              "link": "https://gomakethings.com/articles/propaganda/"
+            },
+            {
+              "title": "Rebuilding communities",
+              "date": "2026-08-10",
+              "link": "https://gomakethings.com/articles/rebuilding-communities/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "A Syncthing and SQLite Gotcha",
+              "date": "2026-08-22",
+              "link": "https://borretti.me/article/a-syncthing-and-sqlite-gotcha"
+            },
+            {
+              "title": "Our Servants Will Do That For Us",
+              "date": "2026-08-19",
+              "link": "https://borretti.me/article/our-servants-will-do-that-for-us"
+            },
+            {
+              "title": "AI Alignment as a Thought-Terminating Cliche",
+              "date": "2026-08-17",
+              "link": "https://borretti.me/article/ai-alignment-as-thought-terminating-cliche"
+            },
+            {
+              "title": "Books I Enjoyed In 2026H1",
+              "date": "2026-08-11",
+              "link": "https://borretti.me/article/books-i-enjoyed-in-2026-h1"
+            },
+            {
+              "title": "The Contracting Circle",
+              "date": "2026-08-06",
+              "link": "https://borretti.me/article/the-contracting-circle"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 5/60] It's a pretty big canyon",
+              "date": "2026-08-22",
+              "link": "https://www.simplermachines.com/nmd-exq-5-60-its-a-pretty-big-canyon/"
+            },
+            {
+              "title": "Most Integration Failures Are Stupid",
+              "date": "2026-08-20",
+              "link": "https://www.simplermachines.com/most-integration-failures-are-stupid/"
+            },
+            {
+              "title": "[NMD EXQ 3/60] The internet at the Grand Canyon is very bad",
+              "date": "2026-08-20",
+              "link": "https://www.simplermachines.com/nmd-exq-3-60-the-internet-at-the-grand-canyon-is-very-bad/"
+            },
+            {
+              "title": "[NMD EXQ 3/60] THE HIGHWAY OF THE GRAND ARMY OF THE REPUBLIC",
+              "date": "2026-08-19",
+              "link": "https://www.simplermachines.com/nmd-exq-3-60-the-highway-of-the-grand-army-of-the-republic/"
+            },
+            {
+              "title": "[GR02.14] Bi-Rite marigolds",
+              "date": "2026-08-17",
+              "link": "https://www.simplermachines.com/gr02-14-bi-rite-marigolds/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,68 +124,6 @@
               "title": "Businessing 101",
               "date": "2026-07-24",
               "link": "https://dbushell.com/2026/07/24/businessing/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "On fresh starts",
-              "date": "2026-08-20",
-              "link": "https://gomakethings.com/articles/on-fresh-starts/"
-            },
-            {
-              "title": "The spirit of giving",
-              "date": "2026-08-19",
-              "link": "https://gomakethings.com/articles/the-spirit-of-giving/"
-            },
-            {
-              "title": "Propaganda",
-              "date": "2026-08-18",
-              "link": "https://gomakethings.com/articles/propaganda/"
-            },
-            {
-              "title": "Rebuilding communities",
-              "date": "2026-08-10",
-              "link": "https://gomakethings.com/articles/rebuilding-communities/"
-            },
-            {
-              "title": "Anarchy and modern convenience",
-              "date": "2026-08-09",
-              "link": "https://gomakethings.com/articles/anarchy-and-modern-convenience/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "A Sloppy Interface Is a Security Liability ￼",
-              "date": "2026-08-20",
-              "link": "https://blog.jim-nielsen.com/2026/sloppy-ui-is-security-liability/"
-            },
-            {
-              "title": "Oops, Should’ve Thought of That",
-              "date": "2026-08-16",
-              "link": "https://blog.jim-nielsen.com/2026/oops-shouldve-thought-of-that/"
-            },
-            {
-              "title": "Oh Hey, It’s Not Just Me",
-              "date": "2026-08-14",
-              "link": "https://blog.jim-nielsen.com/2026/its-not-just-me/"
-            },
-            {
-              "title": "The Fruits of AI",
-              "date": "2026-08-11",
-              "link": "https://blog.jim-nielsen.com/2026/fruit-of-ai/"
-            },
-            {
-              "title": "A License to Act",
-              "date": "2026-08-09",
-              "link": "https://blog.jim-nielsen.com/2026/license-to-act/"
             }
           ]
         },
@@ -128,64 +159,33 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
             {
-              "title": "Most Integration Failures Are Stupid",
+              "title": "A Sloppy Interface Is a Security Liability ￼",
               "date": "2026-08-20",
-              "link": "https://www.simplermachines.com/most-integration-failures-are-stupid/"
+              "link": "https://blog.jim-nielsen.com/2026/sloppy-ui-is-security-liability/"
             },
             {
-              "title": "[NMD EXQ 3/60] The internet at the Grand Canyon is very bad",
-              "date": "2026-08-20",
-              "link": "https://www.simplermachines.com/nmd-exq-3-60-the-internet-at-the-grand-canyon-is-very-bad/"
+              "title": "Oops, Should’ve Thought of That",
+              "date": "2026-08-16",
+              "link": "https://blog.jim-nielsen.com/2026/oops-shouldve-thought-of-that/"
             },
             {
-              "title": "[NMD EXQ 3/60] THE HIGHWAY OF THE GRAND ARMY OF THE REPUBLIC",
-              "date": "2026-08-19",
-              "link": "https://www.simplermachines.com/nmd-exq-3-60-the-highway-of-the-grand-army-of-the-republic/"
+              "title": "Oh Hey, It’s Not Just Me",
+              "date": "2026-08-14",
+              "link": "https://blog.jim-nielsen.com/2026/its-not-just-me/"
             },
             {
-              "title": "[GR02.14] Bi-Rite marigolds",
-              "date": "2026-08-17",
-              "link": "https://www.simplermachines.com/gr02-14-bi-rite-marigolds/"
+              "title": "The Fruits of AI",
+              "date": "2026-08-11",
+              "link": "https://blog.jim-nielsen.com/2026/fruit-of-ai/"
             },
             {
-              "title": "Let's not call it \"tech debt,\" it's just \"mess\"",
-              "date": "2026-08-13",
-              "link": "https://www.simplermachines.com/lets-not-call-it-tech-debt-its-just-mess/"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Our Servants Will Do That For Us",
-              "date": "2026-08-20",
-              "link": "https://borretti.me/article/our-servants-will-do-that-for-us"
-            },
-            {
-              "title": "AI Alignment as a Thought-Terminating Cliche",
-              "date": "2026-08-18",
-              "link": "https://borretti.me/article/ai-alignment-as-thought-terminating-cliche"
-            },
-            {
-              "title": "Books I Enjoyed In 2026H1",
-              "date": "2026-08-12",
-              "link": "https://borretti.me/article/books-i-enjoyed-in-2026-h1"
-            },
-            {
-              "title": "The Contracting Circle",
-              "date": "2026-08-07",
-              "link": "https://borretti.me/article/the-contracting-circle"
-            },
-            {
-              "title": "Review: Job-Less Utopia",
-              "date": "2026-08-03",
-              "link": "https://borretti.me/article/review-job-less-utopia"
+              "title": "A License to Act",
+              "date": "2026-08-09",
+              "link": "https://blog.jim-nielsen.com/2026/license-to-act/"
             }
           ]
         },
@@ -247,6 +247,37 @@
           ]
         },
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Wicked Reason Removing Code Beats Better Scheduling",
+              "date": "2026-08-19",
+              "link": "https://infrequently.org/2026/08/notes-on-performance-remediation-strategies/"
+            },
+            {
+              "title": "The Absolute State of Management",
+              "date": "2026-07-23",
+              "link": "https://infrequently.org/2026/07/state-management/"
+            },
+            {
+              "title": "Abject Praise",
+              "date": "2026-07-06",
+              "link": "https://infrequently.org/2026/07/abject-praise/"
+            },
+            {
+              "title": "The Web Is An Antitrust Wedge",
+              "date": "2026-04-03",
+              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
+            },
+            {
+              "title": "Naked Power",
+              "date": "2026-01-20",
+              "link": "https://infrequently.org/2026/01/naked-power/"
+            }
+          ]
+        },
+        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -274,6 +305,37 @@
               "title": "Kodemaker åpen fagdag 2026",
               "date": "2026-02-12",
               "link": "https://www.kodemaker.no/blogg/2026-02-12-kodemaker-apen-fagdag/"
+            }
+          ]
+        },
+        {
+          "title": "Coding Is Like Cooking",
+          "feedUrl": "https://coding-is-like-cooking.info/feed/",
+          "items": [
+            {
+              "title": "How to Stop AI from Ruining Your Codebase",
+              "date": "2026-08-19",
+              "link": "https://coding-is-like-cooking.info/2026/08/how-to-stop-ai-from-ruining-your-codebase/"
+            },
+            {
+              "title": "The Most Important AI Coding Advice You Haven’t Heard Yet",
+              "date": "2026-07-27",
+              "link": "https://coding-is-like-cooking.info/2026/07/the-most-important-ai-coding-advice-you-havent-heard-yet/"
+            },
+            {
+              "title": "I Stopped Coding and Started Architecting Agents (And Why You Should Too)",
+              "date": "2026-06-25",
+              "link": "https://coding-is-like-cooking.info/2026/06/i-stopped-coding-and-started-architecting-agents-and-why-you-should-too/"
+            },
+            {
+              "title": "The Death of the Senior Dev? How Agentic Workflows Changed EVERYTHING in 2026",
+              "date": "2026-05-27",
+              "link": "https://coding-is-like-cooking.info/2026/05/the-death-of-the-senior-dev-how-agentic-workflows-changed-everything-in-2026/"
+            },
+            {
+              "title": "It Doesn’t Help To Push AI Into A Crappy Process",
+              "date": "2026-04-29",
+              "link": "https://coding-is-like-cooking.info/2026/04/it-doesnt-help-to-push-ai-into-a-crappy-process/"
             }
           ]
         },
@@ -309,33 +371,33 @@
           ]
         },
         {
-          "title": "Coding Is Like Cooking",
-          "feedUrl": "https://coding-is-like-cooking.info/feed/",
+          "title": "molily",
+          "feedUrl": "https://molily.de/feed.xml",
           "items": [
             {
-              "title": "How to Stop AI from Ruining Your Codebase",
-              "date": "2026-08-19",
-              "link": "https://coding-is-like-cooking.info/2026/08/how-to-stop-ai-from-ruining-your-codebase/"
+              "title": "My practical approach to surfing the web safely",
+              "date": "2026-08-18",
+              "link": "https://molily.de/safe-websurfing/"
             },
             {
-              "title": "The Most Important AI Coding Advice You Haven’t Heard Yet",
-              "date": "2026-07-27",
-              "link": "https://coding-is-like-cooking.info/2026/07/the-most-important-ai-coding-advice-you-havent-heard-yet/"
+              "title": "My bookmarking tool",
+              "date": "2026-08-07",
+              "link": "https://molily.de/bookmarking-tool/"
             },
             {
-              "title": "I Stopped Coding and Started Architecting Agents (And Why You Should Too)",
-              "date": "2026-06-25",
-              "link": "https://coding-is-like-cooking.info/2026/06/i-stopped-coding-and-started-architecting-agents-and-why-you-should-too/"
+              "title": "The Power of Understanding",
+              "date": "2026-04-07",
+              "link": "https://molily.de/understanding/"
             },
             {
-              "title": "The Death of the Senior Dev? How Agentic Workflows Changed EVERYTHING in 2026",
-              "date": "2026-05-27",
-              "link": "https://coding-is-like-cooking.info/2026/05/the-death-of-the-senior-dev-how-agentic-workflows-changed-everything-in-2026/"
+              "title": "On the environmental impact of AI",
+              "date": "2025-05-09",
+              "link": "https://molily.de/ai-environment/"
             },
             {
-              "title": "It Doesn’t Help To Push AI Into A Crappy Process",
-              "date": "2026-04-29",
-              "link": "https://coding-is-like-cooking.info/2026/04/it-doesnt-help-to-push-ai-into-a-crappy-process/"
+              "title": "Something went wrong",
+              "date": "2024-09-10",
+              "link": "https://molily.de/something-went-wrong/"
             }
           ]
         },
@@ -522,37 +584,6 @@
               "title": "How good can you be at Codenames without knowing any words?",
               "date": "2024-08-11",
               "link": "https://danluu.com/codenames/"
-            }
-          ]
-        },
-        {
-          "title": "molily",
-          "feedUrl": "https://molily.de/feed.xml",
-          "items": [
-            {
-              "title": "My bookmarking tool",
-              "date": "2026-08-07",
-              "link": "https://molily.de/bookmarking-tool/"
-            },
-            {
-              "title": "The Power of Understanding",
-              "date": "2026-04-07",
-              "link": "https://molily.de/understanding/"
-            },
-            {
-              "title": "On the environmental impact of AI",
-              "date": "2025-05-09",
-              "link": "https://molily.de/ai-environment/"
-            },
-            {
-              "title": "Something went wrong",
-              "date": "2024-09-10",
-              "link": "https://molily.de/something-went-wrong/"
-            },
-            {
-              "title": "Full circle development",
-              "date": "2023-11-10",
-              "link": "https://molily.de/full-circle-development/"
             }
           ]
         },
@@ -1022,37 +1053,6 @@
           ]
         },
         {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "Separating End to End Tests in Rust with Cargo Features",
-              "date": "2026-07-16",
-              "link": "https://www.worthe-it.co.za/blog/2026-07-17-separating-end-to-end-tests-in-rust-with-cargo-features.html"
-            },
-            {
-              "title": "It's been 15 years, what have I learned?",
-              "date": "2026-05-12",
-              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
-            },
-            {
-              "title": "My 2025 In Review",
-              "date": "2025-12-31",
-              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
-            },
-            {
-              "title": "The Localhost Podcast CLI Tool",
-              "date": "2025-10-18",
-              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
-            },
-            {
-              "title": "Buying Tech Books in South Africa",
-              "date": "2025-05-16",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -1080,6 +1080,37 @@
               "title": "Turbo Admin (and life) update",
               "date": "2026-03-08",
               "link": "https://rosswintle.uk/2026/03/turbo-admin-and-life-update/"
+            }
+          ]
+        },
+        {
+          "title": "Curly Tail, Curly Braces",
+          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
+          "items": [
+            {
+              "title": "Separating End to End Tests in Rust with Cargo Features",
+              "date": "2026-07-16",
+              "link": "https://www.worthe-it.co.za/blog/2026-07-17-separating-end-to-end-tests-in-rust-with-cargo-features.html"
+            },
+            {
+              "title": "It's been 15 years, what have I learned?",
+              "date": "2026-05-12",
+              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
+            },
+            {
+              "title": "My 2025 In Review",
+              "date": "2025-12-31",
+              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
+            },
+            {
+              "title": "The Localhost Podcast CLI Tool",
+              "date": "2025-10-18",
+              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
+            },
+            {
+              "title": "Buying Tech Books in South Africa",
+              "date": "2025-05-16",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
             }
           ]
         },
@@ -2309,6 +2340,37 @@
           ]
         },
         {
+          "title": "CodeAesthetic",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
+          "items": [
+            {
+              "title": "Dear Functional Bros",
+              "date": "2023-12-23",
+              "link": "https://www.youtube.com/watch?v=nuML9SmdbJ4"
+            },
+            {
+              "title": "Dependency Injection, The Best Pattern",
+              "date": "2023-08-04",
+              "link": "https://www.youtube.com/watch?v=J1f5b4vcxCQ"
+            },
+            {
+              "title": "Premature Optimization",
+              "date": "2023-02-10",
+              "link": "https://www.youtube.com/watch?v=tKbV6BpH-C8"
+            },
+            {
+              "title": "Don't Write Comments",
+              "date": "2023-01-16",
+              "link": "https://www.youtube.com/watch?v=Bf7vDBBOBUA"
+            },
+            {
+              "title": "The Flaws of Inheritance",
+              "date": "2022-12-22",
+              "link": "https://www.youtube.com/watch?v=hxGOiiR9ZKg"
+            }
+          ]
+        },
+        {
           "title": "Hello world",
           "feedUrl": "https://qristin.wordpress.com/feed/",
           "items": [
@@ -2373,15 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-08-22T03:38:09.141Z",
+  "fetchDate": "2026-08-23T03:47:05.373Z",
   "errors": [
-    "https://infrequently.org/feed/",
-    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
-    "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://robinrendle.com/feed.xml"
   ]
 }

@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Getting an LLM to Make Me a Tool for Enriching the Color Metadata in My Icon Collection",
+              "date": "2026-08-23",
+              "link": "https://blog.jim-nielsen.com/2026/use-llm-to-add-color-metadata/"
+            },
+            {
+              "title": "A Sloppy Interface Is a Security Liability ￼",
+              "date": "2026-08-20",
+              "link": "https://blog.jim-nielsen.com/2026/sloppy-ui-is-security-liability/"
+            },
+            {
+              "title": "Oops, Should’ve Thought of That",
+              "date": "2026-08-16",
+              "link": "https://blog.jim-nielsen.com/2026/oops-shouldve-thought-of-that/"
+            },
+            {
+              "title": "Oh Hey, It’s Not Just Me",
+              "date": "2026-08-14",
+              "link": "https://blog.jim-nielsen.com/2026/its-not-just-me/"
+            },
+            {
+              "title": "The Fruits of AI",
+              "date": "2026-08-11",
+              "link": "https://blog.jim-nielsen.com/2026/fruit-of-ai/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 7/60] Jackass Joe's UFO Jerky",
+              "date": "2026-08-23",
+              "link": "https://www.simplermachines.com/nmd-exq-7-60-jackass-joes-ufo-jerky/"
+            },
+            {
+              "title": "[NMD EXQ 5/60] It's a pretty big canyon",
+              "date": "2026-08-22",
+              "link": "https://www.simplermachines.com/nmd-exq-5-60-its-a-pretty-big-canyon/"
+            },
+            {
+              "title": "Most Integration Failures Are Stupid",
+              "date": "2026-08-20",
+              "link": "https://www.simplermachines.com/most-integration-failures-are-stupid/"
+            },
+            {
+              "title": "[NMD EXQ 3/60] The internet at the Grand Canyon is very bad",
+              "date": "2026-08-20",
+              "link": "https://www.simplermachines.com/nmd-exq-3-60-the-internet-at-the-grand-canyon-is-very-bad/"
+            },
+            {
+              "title": "[NMD EXQ 3/60] THE HIGHWAY OF THE GRAND ARMY OF THE REPUBLIC",
+              "date": "2026-08-19",
+              "link": "https://www.simplermachines.com/nmd-exq-3-60-the-highway-of-the-grand-army-of-the-republic/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -66,68 +128,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[NMD EXQ 5/60] It's a pretty big canyon",
-              "date": "2026-08-22",
-              "link": "https://www.simplermachines.com/nmd-exq-5-60-its-a-pretty-big-canyon/"
-            },
-            {
-              "title": "Most Integration Failures Are Stupid",
-              "date": "2026-08-20",
-              "link": "https://www.simplermachines.com/most-integration-failures-are-stupid/"
-            },
-            {
-              "title": "[NMD EXQ 3/60] The internet at the Grand Canyon is very bad",
-              "date": "2026-08-20",
-              "link": "https://www.simplermachines.com/nmd-exq-3-60-the-internet-at-the-grand-canyon-is-very-bad/"
-            },
-            {
-              "title": "[NMD EXQ 3/60] THE HIGHWAY OF THE GRAND ARMY OF THE REPUBLIC",
-              "date": "2026-08-19",
-              "link": "https://www.simplermachines.com/nmd-exq-3-60-the-highway-of-the-grand-army-of-the-republic/"
-            },
-            {
-              "title": "[GR02.14] Bi-Rite marigolds",
-              "date": "2026-08-17",
-              "link": "https://www.simplermachines.com/gr02-14-bi-rite-marigolds/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Ruminations on notifications",
-              "date": "2026-08-20",
-              "link": "https://dbushell.com/2026/08/20/ruminations-on-notifications/"
-            },
-            {
-              "title": "Valley Fold Ltd",
-              "date": "2026-08-11",
-              "link": "https://dbushell.com/2026/08/11/valley-fold-logo-brand-design/"
-            },
-            {
-              "title": "They don’t make ’em like Sublime Text anymore",
-              "date": "2026-08-07",
-              "link": "https://dbushell.com/2026/08/07/sublime-text/"
-            },
-            {
-              "title": "End of the contact form saga",
-              "date": "2026-07-31",
-              "link": "https://dbushell.com/2026/07/31/contact-form-saga/"
-            },
-            {
-              "title": "Businessing 101",
-              "date": "2026-07-24",
-              "link": "https://dbushell.com/2026/07/24/businessing/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -155,37 +155,6 @@
               "title": "The old world of tech is dying and the new cannot be born",
               "date": "2026-05-14",
               "link": "https://www.baldurbjarnason.com/2026/the-old-world-of-tech-is-dying/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "A Sloppy Interface Is a Security Liability ￼",
-              "date": "2026-08-20",
-              "link": "https://blog.jim-nielsen.com/2026/sloppy-ui-is-security-liability/"
-            },
-            {
-              "title": "Oops, Should’ve Thought of That",
-              "date": "2026-08-16",
-              "link": "https://blog.jim-nielsen.com/2026/oops-shouldve-thought-of-that/"
-            },
-            {
-              "title": "Oh Hey, It’s Not Just Me",
-              "date": "2026-08-14",
-              "link": "https://blog.jim-nielsen.com/2026/its-not-just-me/"
-            },
-            {
-              "title": "The Fruits of AI",
-              "date": "2026-08-11",
-              "link": "https://blog.jim-nielsen.com/2026/fruit-of-ai/"
-            },
-            {
-              "title": "A License to Act",
-              "date": "2026-08-09",
-              "link": "https://blog.jim-nielsen.com/2026/license-to-act/"
             }
           ]
         },
@@ -309,37 +278,6 @@
           ]
         },
         {
-          "title": "Coding Is Like Cooking",
-          "feedUrl": "https://coding-is-like-cooking.info/feed/",
-          "items": [
-            {
-              "title": "How to Stop AI from Ruining Your Codebase",
-              "date": "2026-08-19",
-              "link": "https://coding-is-like-cooking.info/2026/08/how-to-stop-ai-from-ruining-your-codebase/"
-            },
-            {
-              "title": "The Most Important AI Coding Advice You Haven’t Heard Yet",
-              "date": "2026-07-27",
-              "link": "https://coding-is-like-cooking.info/2026/07/the-most-important-ai-coding-advice-you-havent-heard-yet/"
-            },
-            {
-              "title": "I Stopped Coding and Started Architecting Agents (And Why You Should Too)",
-              "date": "2026-06-25",
-              "link": "https://coding-is-like-cooking.info/2026/06/i-stopped-coding-and-started-architecting-agents-and-why-you-should-too/"
-            },
-            {
-              "title": "The Death of the Senior Dev? How Agentic Workflows Changed EVERYTHING in 2026",
-              "date": "2026-05-27",
-              "link": "https://coding-is-like-cooking.info/2026/05/the-death-of-the-senior-dev-how-agentic-workflows-changed-everything-in-2026/"
-            },
-            {
-              "title": "It Doesn’t Help To Push AI Into A Crappy Process",
-              "date": "2026-04-29",
-              "link": "https://coding-is-like-cooking.info/2026/04/it-doesnt-help-to-push-ai-into-a-crappy-process/"
-            }
-          ]
-        },
-        {
           "title": "Pablo's logbook",
           "feedUrl": "https://blog.codemanship.dev/rss.xml",
           "items": [
@@ -367,6 +305,37 @@
               "title": "Separating the important from the urgent",
               "date": "2025-09-08",
               "link": "https://blog.codemanship.dev/separating-the-important-from-the-urgent"
+            }
+          ]
+        },
+        {
+          "title": "Coding Is Like Cooking",
+          "feedUrl": "https://coding-is-like-cooking.info/feed/",
+          "items": [
+            {
+              "title": "How to Stop AI from Ruining Your Codebase",
+              "date": "2026-08-19",
+              "link": "https://coding-is-like-cooking.info/2026/08/how-to-stop-ai-from-ruining-your-codebase/"
+            },
+            {
+              "title": "The Most Important AI Coding Advice You Haven’t Heard Yet",
+              "date": "2026-07-27",
+              "link": "https://coding-is-like-cooking.info/2026/07/the-most-important-ai-coding-advice-you-havent-heard-yet/"
+            },
+            {
+              "title": "I Stopped Coding and Started Architecting Agents (And Why You Should Too)",
+              "date": "2026-06-25",
+              "link": "https://coding-is-like-cooking.info/2026/06/i-stopped-coding-and-started-architecting-agents-and-why-you-should-too/"
+            },
+            {
+              "title": "The Death of the Senior Dev? How Agentic Workflows Changed EVERYTHING in 2026",
+              "date": "2026-05-27",
+              "link": "https://coding-is-like-cooking.info/2026/05/the-death-of-the-senior-dev-how-agentic-workflows-changed-everything-in-2026/"
+            },
+            {
+              "title": "It Doesn’t Help To Push AI Into A Crappy Process",
+              "date": "2026-04-29",
+              "link": "https://coding-is-like-cooking.info/2026/04/it-doesnt-help-to-push-ai-into-a-crappy-process/"
             }
           ]
         },
@@ -1053,37 +1022,6 @@
           ]
         },
         {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "A real-life, jargon-free sourdough bread process",
-              "date": "2026-07-16",
-              "link": "https://rosswintle.uk/2026/07/a-real-life-jargon-free-sourdough-bread-process/"
-            },
-            {
-              "title": "Zig and the Zig Guy",
-              "date": "2026-06-28",
-              "link": "https://rosswintle.uk/2026/06/zig-and-the-zig-guy/"
-            },
-            {
-              "title": "Turbo Admin 1.21",
-              "date": "2026-06-08",
-              "link": "https://rosswintle.uk/2026/06/turbo-admin-1-21/"
-            },
-            {
-              "title": "The Writing Triangle",
-              "date": "2026-06-01",
-              "link": "https://rosswintle.uk/2026/06/the-writing-triangle/"
-            },
-            {
-              "title": "Turbo Admin (and life) update",
-              "date": "2026-03-08",
-              "link": "https://rosswintle.uk/2026/03/turbo-admin-and-life-update/"
-            }
-          ]
-        },
-        {
           "title": "Curly Tail, Curly Braces",
           "feedUrl": "https://www.worthe-it.co.za/atom.xml",
           "items": [
@@ -1111,6 +1049,37 @@
               "title": "Buying Tech Books in South Africa",
               "date": "2025-05-16",
               "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "A real-life, jargon-free sourdough bread process",
+              "date": "2026-07-16",
+              "link": "https://rosswintle.uk/2026/07/a-real-life-jargon-free-sourdough-bread-process/"
+            },
+            {
+              "title": "Zig and the Zig Guy",
+              "date": "2026-06-28",
+              "link": "https://rosswintle.uk/2026/06/zig-and-the-zig-guy/"
+            },
+            {
+              "title": "Turbo Admin 1.21",
+              "date": "2026-06-08",
+              "link": "https://rosswintle.uk/2026/06/turbo-admin-1-21/"
+            },
+            {
+              "title": "The Writing Triangle",
+              "date": "2026-06-01",
+              "link": "https://rosswintle.uk/2026/06/the-writing-triangle/"
+            },
+            {
+              "title": "Turbo Admin (and life) update",
+              "date": "2026-03-08",
+              "link": "https://rosswintle.uk/2026/03/turbo-admin-and-life-update/"
             }
           ]
         },
@@ -2435,13 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-08-23T03:47:05.373Z",
+  "fetchDate": "2026-08-24T03:51:34.840Z",
   "errors": [
+    "https://dbushell.com/rss.xml",
+    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml",
-    "https://robinrendle.com/feed.xml"
+    "https://fynn.be/feed.xml"
   ]
 }

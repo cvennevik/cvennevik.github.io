@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Placemark is now fully open source",
+              "date": "2026-08-25",
+              "link": "https://macwright.com/2026/08/25/placemark-fully-open-source.html"
+            },
+            {
+              "title": "Technology optimism hour",
+              "date": "2026-08-14",
+              "link": "https://macwright.com/2026/08/14/optimism-hour.html"
+            },
+            {
+              "title": "Printing tiny photos for paper journals",
+              "date": "2026-07-24",
+              "link": "https://macwright.com/2026/07/24/printing-for-journals.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-07-01",
+              "link": "https://macwright.com/2026/07/01/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-06-04",
+              "link": "https://macwright.com/2026/06/04/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[GR02.15] Flowerboy Project Coffee",
+              "date": "2026-08-25",
+              "link": "https://www.simplermachines.com/gr02-15-flowerboy-project-coffee/"
+            },
+            {
+              "title": "[NMD EXQ 9/60] Walked the dog",
+              "date": "2026-08-25",
+              "link": "https://www.simplermachines.com/nmd-exq-9-60-walked-the-dog/"
+            },
+            {
+              "title": "[NMD EXQ 8/60] The new place",
+              "date": "2026-08-24",
+              "link": "https://www.simplermachines.com/nmd-exq-8-60-the-new-place/"
+            },
+            {
+              "title": "[NMD EXQ 7/60] Jackass Joe's UFO Jerky",
+              "date": "2026-08-23",
+              "link": "https://www.simplermachines.com/nmd-exq-7-60-jackass-joes-ufo-jerky/"
+            },
+            {
+              "title": "[NMD EXQ 5/60] It's a pretty big canyon",
+              "date": "2026-08-22",
+              "link": "https://www.simplermachines.com/nmd-exq-5-60-its-a-pretty-big-canyon/"
+            }
+          ]
+        },
+        {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "A proposal for new Netflix content rating icons",
+              "date": "2026-08-25",
+              "link": "https://ericwbailey.website/published/a-proposal-for-new-netflix-content-rating-icons/"
+            },
+            {
+              "title": "Here’s yet another metaphor about tech debt",
+              "date": "2026-08-04",
+              "link": "https://ericwbailey.website/published/heres-yet-another-metaphor-about-tech-debt/"
+            },
+            {
+              "title": "The case for an accessibility designer vibe coding when all his coworkers are also vibe coding",
+              "date": "2026-06-15",
+              "link": "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/"
+            },
+            {
+              "title": "Announcing What Can’t I Press?",
+              "date": "2026-06-15",
+              "link": "https://ericwbailey.website/published/announcing-what-cant-i-press/"
+            },
+            {
+              "title": "Evolved antennas, LLM-generated code, and a potential antifuture",
+              "date": "2026-05-11",
+              "link": "https://ericwbailey.website/published/evolved-antennas-llm-generated-code-and-a-potential-antifuture/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -31,37 +124,6 @@
               "title": "Propaganda",
               "date": "2026-08-18",
               "link": "https://gomakethings.com/articles/propaganda/"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[NMD EXQ 8/60] The new place",
-              "date": "2026-08-24",
-              "link": "https://www.simplermachines.com/nmd-exq-8-60-the-new-place/"
-            },
-            {
-              "title": "[NMD EXQ 7/60] Jackass Joe's UFO Jerky",
-              "date": "2026-08-23",
-              "link": "https://www.simplermachines.com/nmd-exq-7-60-jackass-joes-ufo-jerky/"
-            },
-            {
-              "title": "[NMD EXQ 5/60] It's a pretty big canyon",
-              "date": "2026-08-22",
-              "link": "https://www.simplermachines.com/nmd-exq-5-60-its-a-pretty-big-canyon/"
-            },
-            {
-              "title": "Most Integration Failures Are Stupid",
-              "date": "2026-08-20",
-              "link": "https://www.simplermachines.com/most-integration-failures-are-stupid/"
-            },
-            {
-              "title": "[NMD EXQ 3/60] The internet at the Grand Canyon is very bad",
-              "date": "2026-08-20",
-              "link": "https://www.simplermachines.com/nmd-exq-3-60-the-internet-at-the-grand-canyon-is-very-bad/"
             }
           ]
         },
@@ -97,33 +159,33 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
             {
-              "title": "Getting an LLM to Make Me a Tool for Enriching the Color Metadata in My Icon Collection",
+              "title": "Small things like these",
               "date": "2026-08-23",
-              "link": "https://blog.jim-nielsen.com/2026/use-llm-to-add-color-metadata/"
+              "link": "https://robinrendle.com/notes/small-things-like-these/"
             },
             {
-              "title": "A Sloppy Interface Is a Security Liability ￼",
-              "date": "2026-08-20",
-              "link": "https://blog.jim-nielsen.com/2026/sloppy-ui-is-security-liability/"
+              "title": "Cybernetics and Ghosts",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/cybernetics-and-ghosts/"
             },
             {
-              "title": "Oops, Should’ve Thought of That",
-              "date": "2026-08-16",
-              "link": "https://blog.jim-nielsen.com/2026/oops-shouldve-thought-of-that/"
+              "title": "The day of small things",
+              "date": "2026-08-15",
+              "link": "https://robinrendle.com/notes/the-day-of-small-things/"
             },
             {
-              "title": "Oh Hey, It’s Not Just Me",
-              "date": "2026-08-14",
-              "link": "https://blog.jim-nielsen.com/2026/its-not-just-me/"
+              "title": "Reading matters deeply",
+              "date": "2026-08-02",
+              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
             },
             {
-              "title": "The Fruits of AI",
-              "date": "2026-08-11",
-              "link": "https://blog.jim-nielsen.com/2026/fruit-of-ai/"
+              "title": "Show me the work",
+              "date": "2026-08-01",
+              "link": "https://robinrendle.com/notes/show-me-the-work/"
             }
           ]
         },
@@ -155,6 +217,37 @@
               "title": "The Contracting Circle",
               "date": "2026-08-06",
               "link": "https://borretti.me/article/the-contracting-circle"
+            }
+          ]
+        },
+        {
+          "title": "",
+          "feedUrl": "https://danluu.com/atom.xml",
+          "items": [
+            {
+              "title": "There's no reason for software to be slow anymore",
+              "date": "2026-08-21",
+              "link": "https://danluu.com/perf-opt/"
+            },
+            {
+              "title": "The benchmarkpocalypse",
+              "date": "2026-08-17",
+              "link": "https://danluu.com/benchpocalypse/"
+            },
+            {
+              "title": "How does programming language affect token efficiency and correctness?",
+              "date": "2026-08-09",
+              "link": "https://danluu.com/pl-tokens/"
+            },
+            {
+              "title": "Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires",
+              "date": "2026-07-23",
+              "link": "https://danluu.com/exercise-7/"
+            },
+            {
+              "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
+              "date": "2026-07-03",
+              "link": "https://danluu.com/ai-coding/"
             }
           ]
         },
@@ -243,6 +336,37 @@
             {
               "date": "2026-08-15",
               "link": "https://dbushell.com/notes/2026-08-15T06:22Z/"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Wicked Reason Removing Code Beats Better Scheduling",
+              "date": "2026-08-19",
+              "link": "https://infrequently.org/2026/08/notes-on-performance-remediation-strategies/"
+            },
+            {
+              "title": "The Absolute State of Management",
+              "date": "2026-07-23",
+              "link": "https://infrequently.org/2026/07/state-management/"
+            },
+            {
+              "title": "Abject Praise",
+              "date": "2026-07-06",
+              "link": "https://infrequently.org/2026/07/abject-praise/"
+            },
+            {
+              "title": "The Web Is An Antitrust Wedge",
+              "date": "2026-04-03",
+              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
+            },
+            {
+              "title": "Naked Power",
+              "date": "2026-01-20",
+              "link": "https://infrequently.org/2026/01/naked-power/"
             }
           ]
         },
@@ -464,37 +588,6 @@
           ]
         },
         {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Technology optimism hour",
-              "date": "2026-08-14",
-              "link": "https://macwright.com/2026/08/14/optimism-hour.html"
-            },
-            {
-              "title": "Printing tiny photos for paper journals",
-              "date": "2026-07-24",
-              "link": "https://macwright.com/2026/07/24/printing-for-journals.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2026-07-01",
-              "link": "https://macwright.com/2026/07/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2026-06-04",
-              "link": "https://macwright.com/2026/06/04/recently.html"
-            },
-            {
-              "title": "Intermezzo bag",
-              "date": "2026-05-05",
-              "link": "https://macwright.com/2026/05/05/intermezzo-bag.html"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -553,68 +646,6 @@
               "title": "Miley Cyrus, what's going on?",
               "date": "2026-08-01",
               "link": "https://flamedfury.com/posts/miley-cyrus-whats-going-on/"
-            }
-          ]
-        },
-        {
-          "title": "",
-          "feedUrl": "https://danluu.com/atom.xml",
-          "items": [
-            {
-              "title": "What's the best programming language for coding agents?",
-              "date": "2026-08-09",
-              "link": "https://danluu.com/pl-tokens/"
-            },
-            {
-              "title": "Exercises in benchmarking and evals, part 7: DeepSWE, Senior SWE-Bench, napkin math, and winter tires",
-              "date": "2026-07-23",
-              "link": "https://danluu.com/exercise-7/"
-            },
-            {
-              "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
-              "date": "2026-07-03",
-              "link": "https://danluu.com/ai-coding/"
-            },
-            {
-              "title": "Steve Ballmer was an underrated CEO",
-              "date": "2024-10-28",
-              "link": "https://danluu.com/ballmer/"
-            },
-            {
-              "title": "How good can you be at Codenames without knowing any words?",
-              "date": "2024-08-11",
-              "link": "https://danluu.com/codenames/"
-            }
-          ]
-        },
-        {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "Here’s yet another metaphor about tech debt",
-              "date": "2026-08-04",
-              "link": "https://ericwbailey.website/published/heres-yet-another-metaphor-about-tech-debt/"
-            },
-            {
-              "title": "The case for an accessibility designer vibe coding when all his coworkers are also vibe coding",
-              "date": "2026-06-15",
-              "link": "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/"
-            },
-            {
-              "title": "Announcing What Can’t I Press?",
-              "date": "2026-06-15",
-              "link": "https://ericwbailey.website/published/announcing-what-cant-i-press/"
-            },
-            {
-              "title": "Evolved antennas, LLM-generated code, and a potential antifuture",
-              "date": "2026-05-11",
-              "link": "https://ericwbailey.website/published/evolved-antennas-llm-generated-code-and-a-potential-antifuture/"
-            },
-            {
-              "title": "A compelling title that is cryptic enough to get you to take action on it",
-              "date": "2026-04-09",
-              "link": "https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/"
             }
           ]
         },
@@ -898,37 +929,6 @@
           ]
         },
         {
-          "title": "Julia Evans",
-          "feedUrl": "https://jvns.ca/atom.xml",
-          "items": [
-            {
-              "title": "Some more things about Django I've been enjoying",
-              "date": "2026-07-21",
-              "link": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/"
-            },
-            {
-              "title": "Learning a few things about running SQLite",
-              "date": "2026-07-17",
-              "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
-            },
-            {
-              "title": "Moving away from Tailwind, and learning to structure my CSS",
-              "date": "2026-05-15",
-              "link": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/"
-            },
-            {
-              "title": "Links to CSS colour palettes",
-              "date": "2026-05-04",
-              "link": "https://jvns.ca/blog/2026/05/04/css-colour-palettes/"
-            },
-            {
-              "title": "Testing Vue components in the browser",
-              "date": "2026-05-02",
-              "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
-            }
-          ]
-        },
-        {
           "title": "A Tester's Journey",
           "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
           "items": [
@@ -991,37 +991,6 @@
           ]
         },
         {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "Separating End to End Tests in Rust with Cargo Features",
-              "date": "2026-07-16",
-              "link": "https://www.worthe-it.co.za/blog/2026-07-17-separating-end-to-end-tests-in-rust-with-cargo-features.html"
-            },
-            {
-              "title": "It's been 15 years, what have I learned?",
-              "date": "2026-05-12",
-              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
-            },
-            {
-              "title": "My 2025 In Review",
-              "date": "2025-12-31",
-              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
-            },
-            {
-              "title": "The Localhost Podcast CLI Tool",
-              "date": "2025-10-18",
-              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
-            },
-            {
-              "title": "Buying Tech Books in South Africa",
-              "date": "2025-05-16",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -1049,6 +1018,37 @@
               "title": "Turbo Admin (and life) update",
               "date": "2026-03-08",
               "link": "https://rosswintle.uk/2026/03/turbo-admin-and-life-update/"
+            }
+          ]
+        },
+        {
+          "title": "Curly Tail, Curly Braces",
+          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
+          "items": [
+            {
+              "title": "Separating End to End Tests in Rust with Cargo Features",
+              "date": "2026-07-16",
+              "link": "https://www.worthe-it.co.za/blog/2026-07-17-separating-end-to-end-tests-in-rust-with-cargo-features.html"
+            },
+            {
+              "title": "It's been 15 years, what have I learned?",
+              "date": "2026-05-12",
+              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
+            },
+            {
+              "title": "My 2025 In Review",
+              "date": "2025-12-31",
+              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
+            },
+            {
+              "title": "The Localhost Podcast CLI Tool",
+              "date": "2025-10-18",
+              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
+            },
+            {
+              "title": "Buying Tech Books in South Africa",
+              "date": "2025-05-16",
+              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
             }
           ]
         },
@@ -2342,9 +2342,9 @@
       ]
     }
   ],
-  "fetchDate": "2026-08-25T03:46:06.210Z",
+  "fetchDate": "2026-08-26T03:50:46.988Z",
   "errors": [
-    "https://infrequently.org/feed/",
+    "https://blog.jim-nielsen.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
@@ -2352,6 +2352,6 @@
     "https://www.youtube.com/feeds/videos.xml?channel_id=UCaSCt8s_4nfkRglWCvNSDrg",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml",
-    "https://robinrendle.com/feed.xml"
+    "https://jvns.ca/atom.xml"
   ]
 }

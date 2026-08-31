@@ -4,33 +4,126 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
             {
-              "title": "[NMD EXQ 12/60] Solar company or dispensary?",
-              "date": "2026-08-29",
-              "link": "https://www.simplermachines.com/nmd-exq-12-60-solar-company-or-dispensary/"
+              "title": "My Experience Has Nuance, Yours Is a Data Point",
+              "date": "2026-08-31",
+              "link": "https://blog.jim-nielsen.com/2026/nuance-for-me-none-for-you/"
             },
             {
-              "title": "[NMD EXQ 11/60] Guests",
-              "date": "2026-08-28",
-              "link": "https://www.simplermachines.com/nmd-exq-11-60-guests/"
-            },
-            {
-              "title": "Super Bowls Georg should not be counted",
+              "title": "A Calendar View For My Blog",
               "date": "2026-08-27",
-              "link": "https://www.simplermachines.com/super-bowls-georg-should-not-be-counted/"
+              "link": "https://blog.jim-nielsen.com/2026/blog-calendar-view/"
             },
             {
-              "title": "[GR02.15] Flowerboy Project Coffee",
+              "title": "Have You Heard the Good News About Microlighter?",
               "date": "2026-08-25",
-              "link": "https://www.simplermachines.com/gr02-15-flowerboy-project-coffee/"
+              "link": "https://blog.jim-nielsen.com/2026/shipping-microlighter/"
             },
             {
-              "title": "[NMD EXQ 9/60] Walked the dog",
+              "title": "Getting an LLM to Make Me a Tool for Enriching the Color Metadata in My Icon Collection",
+              "date": "2026-08-23",
+              "link": "https://blog.jim-nielsen.com/2026/use-llm-to-add-color-metadata/"
+            },
+            {
+              "title": "A Sloppy Interface Is a Security Liability ￼",
+              "date": "2026-08-20",
+              "link": "https://blog.jim-nielsen.com/2026/sloppy-ui-is-security-liability/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "It's embarrassing",
+              "date": "2026-08-30",
+              "link": "https://gomakethings.com/articles/its-embarrassing/"
+            },
+            {
+              "title": "AI is fucking awful (the guide)",
+              "date": "2026-08-30",
+              "link": "https://gomakethings.com/articles/ai-is-fucking-awful-the-guide/"
+            },
+            {
+              "title": "The Best of Us",
+              "date": "2026-08-26",
+              "link": "https://gomakethings.com/articles/the-best-of-us/"
+            },
+            {
+              "title": "Make Care Visible",
+              "date": "2026-08-24",
+              "link": "https://gomakethings.com/articles/make-care-visible/"
+            },
+            {
+              "title": "How to apply CSS only if there are a certain number of nested elements",
+              "date": "2026-08-22",
+              "link": "https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/"
+            }
+          ]
+        },
+        {
+          "title": "Jessitron",
+          "feedUrl": "https://jessitron.com/feed/",
+          "items": [
+            {
+              "title": "Who are we Now?",
+              "date": "2026-08-30",
+              "link": "https://jessitron.com/2026/08/30/who-are-we-now/"
+            },
+            {
+              "title": "Symmathesy and AI with Kent Beck",
+              "date": "2026-06-17",
+              "link": "https://jessitron.com/2026/06/17/symmathesy-and-ai-with-kent-beck/"
+            },
+            {
+              "title": "Verum Factum and the Creator’s Confidence",
+              "date": "2026-06-06",
+              "link": "https://jessitron.com/2026/06/06/verum-factum-and-the-creators-confidence/"
+            },
+            {
+              "title": "What is it like to be you?",
+              "date": "2026-05-10",
+              "link": "https://jessitron.com/2026/05/10/what-is-it-like-to-be-you/"
+            },
+            {
+              "title": "Span or Attribute? in OpenTelemetry custom instrumentation",
+              "date": "2026-04-29",
+              "link": "https://jessitron.com/2026/04/29/span-or-attribute-in-opentelemetry-custom-instrumentation/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "On Inevitability",
+              "date": "2026-08-30",
+              "link": "https://borretti.me/article/on-inevitability"
+            },
+            {
+              "title": "Futurism Is Always Extreme",
               "date": "2026-08-25",
-              "link": "https://www.simplermachines.com/nmd-exq-9-60-walked-the-dog/"
+              "link": "https://borretti.me/article/futurism-is-always-extreme"
+            },
+            {
+              "title": "A Syncthing and SQLite Gotcha",
+              "date": "2026-08-22",
+              "link": "https://borretti.me/article/a-syncthing-and-sqlite-gotcha"
+            },
+            {
+              "title": "Our Servants Will Do That For Us",
+              "date": "2026-08-19",
+              "link": "https://borretti.me/article/our-servants-will-do-that-for-us"
+            },
+            {
+              "title": "AI Alignment as a Thought-Terminating Cliche",
+              "date": "2026-08-17",
+              "link": "https://borretti.me/article/ai-alignment-as-thought-terminating-cliche"
             }
           ]
         },
@@ -66,6 +159,37 @@
           ]
         },
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 12/60] Solar company or dispensary?",
+              "date": "2026-08-29",
+              "link": "https://www.simplermachines.com/nmd-exq-12-60-solar-company-or-dispensary/"
+            },
+            {
+              "title": "[NMD EXQ 11/60] Guests",
+              "date": "2026-08-28",
+              "link": "https://www.simplermachines.com/nmd-exq-11-60-guests/"
+            },
+            {
+              "title": "Super Bowls Georg should not be counted",
+              "date": "2026-08-27",
+              "link": "https://www.simplermachines.com/super-bowls-georg-should-not-be-counted/"
+            },
+            {
+              "title": "[GR02.15] Flowerboy Project Coffee",
+              "date": "2026-08-25",
+              "link": "https://www.simplermachines.com/gr02-15-flowerboy-project-coffee/"
+            },
+            {
+              "title": "[NMD EXQ 9/60] Walked the dog",
+              "date": "2026-08-25",
+              "link": "https://www.simplermachines.com/nmd-exq-9-60-walked-the-dog/"
+            }
+          ]
+        },
+        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -97,37 +221,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "A Calendar View For My Blog",
-              "date": "2026-08-27",
-              "link": "https://blog.jim-nielsen.com/2026/blog-calendar-view/"
-            },
-            {
-              "title": "Have You Heard the Good News About Microlighter?",
-              "date": "2026-08-25",
-              "link": "https://blog.jim-nielsen.com/2026/shipping-microlighter/"
-            },
-            {
-              "title": "Getting an LLM to Make Me a Tool for Enriching the Color Metadata in My Icon Collection",
-              "date": "2026-08-23",
-              "link": "https://blog.jim-nielsen.com/2026/use-llm-to-add-color-metadata/"
-            },
-            {
-              "title": "A Sloppy Interface Is a Security Liability ￼",
-              "date": "2026-08-20",
-              "link": "https://blog.jim-nielsen.com/2026/sloppy-ui-is-security-liability/"
-            },
-            {
-              "title": "Oops, Should’ve Thought of That",
-              "date": "2026-08-16",
-              "link": "https://blog.jim-nielsen.com/2026/oops-shouldve-thought-of-that/"
-            }
-          ]
-        },
-        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
@@ -155,37 +248,6 @@
               "title": "Do agents think you're doing agile wrong?",
               "date": "2026-06-16",
               "link": "http://agileotter.blogspot.com/2026/06/do-agents-think-youre-doing-agile-wrong.html"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "The Best of Us",
-              "date": "2026-08-26",
-              "link": "https://gomakethings.com/articles/the-best-of-us/"
-            },
-            {
-              "title": "Make Care Visible",
-              "date": "2026-08-24",
-              "link": "https://gomakethings.com/articles/make-care-visible/"
-            },
-            {
-              "title": "How to apply CSS only if there are a certain number of nested elements",
-              "date": "2026-08-22",
-              "link": "https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/"
-            },
-            {
-              "title": "On fresh starts",
-              "date": "2026-08-20",
-              "link": "https://gomakethings.com/articles/on-fresh-starts/"
-            },
-            {
-              "title": "The spirit of giving",
-              "date": "2026-08-19",
-              "link": "https://gomakethings.com/articles/the-spirit-of-giving/"
             }
           ]
         },
@@ -314,37 +376,6 @@
           ]
         },
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Futurism Is Always Extreme",
-              "date": "2026-08-25",
-              "link": "https://borretti.me/article/futurism-is-always-extreme"
-            },
-            {
-              "title": "A Syncthing and SQLite Gotcha",
-              "date": "2026-08-22",
-              "link": "https://borretti.me/article/a-syncthing-and-sqlite-gotcha"
-            },
-            {
-              "title": "Our Servants Will Do That For Us",
-              "date": "2026-08-19",
-              "link": "https://borretti.me/article/our-servants-will-do-that-for-us"
-            },
-            {
-              "title": "AI Alignment as a Thought-Terminating Cliche",
-              "date": "2026-08-17",
-              "link": "https://borretti.me/article/ai-alignment-as-thought-terminating-cliche"
-            },
-            {
-              "title": "Books I Enjoyed In 2026H1",
-              "date": "2026-08-11",
-              "link": "https://borretti.me/article/books-i-enjoyed-in-2026-h1"
-            }
-          ]
-        },
-        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -403,37 +434,6 @@
               "title": "When everybody's down, nobody is",
               "date": "2025-10-23",
               "link": "https://newsletter.goodtechthings.com/p/when-everybodys-down-nobody-is"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Small things like these",
-              "date": "2026-08-23",
-              "link": "https://robinrendle.com/notes/small-things-like-these/"
-            },
-            {
-              "title": "Cybernetics and Ghosts",
-              "date": "2026-08-23",
-              "link": "https://robinrendle.com/notes/cybernetics-and-ghosts/"
-            },
-            {
-              "title": "The day of small things",
-              "date": "2026-08-15",
-              "link": "https://robinrendle.com/notes/the-day-of-small-things/"
-            },
-            {
-              "title": "Reading matters deeply",
-              "date": "2026-08-02",
-              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
-            },
-            {
-              "title": "Show me the work",
-              "date": "2026-08-01",
-              "link": "https://robinrendle.com/notes/show-me-the-work/"
             }
           ]
         },
@@ -526,6 +526,37 @@
           ]
         },
         {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Wicked Reason Removing Code Beats Better Scheduling",
+              "date": "2026-08-19",
+              "link": "https://infrequently.org/2026/08/notes-on-performance-remediation-strategies/"
+            },
+            {
+              "title": "The Absolute State of Management",
+              "date": "2026-07-23",
+              "link": "https://infrequently.org/2026/07/state-management/"
+            },
+            {
+              "title": "Abject Praise",
+              "date": "2026-07-06",
+              "link": "https://infrequently.org/2026/07/abject-praise/"
+            },
+            {
+              "title": "The Web Is An Antitrust Wedge",
+              "date": "2026-04-03",
+              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
+            },
+            {
+              "title": "Naked Power",
+              "date": "2026-01-20",
+              "link": "https://infrequently.org/2026/01/naked-power/"
+            }
+          ]
+        },
+        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -553,6 +584,37 @@
               "title": "Kodemaker åpen fagdag 2026",
               "date": "2026-02-12",
               "link": "https://www.kodemaker.no/blogg/2026-02-12-kodemaker-apen-fagdag/"
+            }
+          ]
+        },
+        {
+          "title": "Pablo's logbook",
+          "feedUrl": "https://blog.codemanship.dev/rss.xml",
+          "items": [
+            {
+              "title": "The wrong unit",
+              "date": "2026-08-19",
+              "link": "https://blog.codemanship.dev/smaller-steps-six-ai-coding-agents"
+            },
+            {
+              "title": "Rant Code",
+              "date": "2026-04-17",
+              "link": "https://blog.codemanship.dev/rant-code"
+            },
+            {
+              "title": "Flow State",
+              "date": "2025-11-26",
+              "link": "https://blog.codemanship.dev/flow-state"
+            },
+            {
+              "title": "My code is a liar",
+              "date": "2025-11-20",
+              "link": "https://blog.codemanship.dev/my-code-is-a-liar"
+            },
+            {
+              "title": "Separating the important from the urgent",
+              "date": "2025-09-08",
+              "link": "https://blog.codemanship.dev/separating-the-important-from-the-urgent"
             }
           ]
         },
@@ -1270,37 +1332,6 @@
           ]
         },
         {
-          "title": "Jessitron",
-          "feedUrl": "https://jessitron.com/feed/",
-          "items": [
-            {
-              "title": "Symmathesy and AI with Kent Beck",
-              "date": "2026-06-17",
-              "link": "https://jessitron.com/2026/06/17/symmathesy-and-ai-with-kent-beck/"
-            },
-            {
-              "title": "Verum Factum and the Creator’s Confidence",
-              "date": "2026-06-06",
-              "link": "https://jessitron.com/2026/06/06/verum-factum-and-the-creators-confidence/"
-            },
-            {
-              "title": "What is it like to be you?",
-              "date": "2026-05-10",
-              "link": "https://jessitron.com/2026/05/10/what-is-it-like-to-be-you/"
-            },
-            {
-              "title": "Span or Attribute? in OpenTelemetry custom instrumentation",
-              "date": "2026-04-29",
-              "link": "https://jessitron.com/2026/04/29/span-or-attribute-in-opentelemetry-custom-instrumentation/"
-            },
-            {
-              "title": "Communication is hard, but sometimes I can fix it.",
-              "date": "2026-04-28",
-              "link": "https://jessitron.com/2026/04/27/communication-is-hard-but-sometimes-i-can-fix-it/"
-            }
-          ]
-        },
-        {
           "title": "ntietz.com blog - technically a blog",
           "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
@@ -1328,37 +1359,6 @@
               "title": "TIL: Docker log rotation",
               "date": "2026-02-16",
               "link": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&utm_medium=feed"
-            }
-          ]
-        },
-        {
-          "title": "Kyle Shevlin's Blog RSS Feed",
-          "feedUrl": "https://kyleshevlin.com/rss.xml",
-          "items": [
-            {
-              "title": "&ldquo;Help&rdquo; Doesn't Mean What it Meant",
-              "date": "2026-06-05",
-              "link": "https://kyleshevlin.com/help-doesnt-mean-what-it-meant/"
-            },
-            {
-              "title": "<code>AsyncData</code>",
-              "date": "2026-01-11",
-              "link": "https://kyleshevlin.com/async-data/"
-            },
-            {
-              "title": "Nothing is Something",
-              "date": "2025-12-20",
-              "link": "https://kyleshevlin.com/nothing-is-something/"
-            },
-            {
-              "title": "<code>data</code> Attributes for Testing",
-              "date": "2025-11-21",
-              "link": "https://kyleshevlin.com/data-attributes-for-testing/"
-            },
-            {
-              "title": "Prefer Gaps To Margins",
-              "date": "2025-06-23",
-              "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
             }
           ]
         },
@@ -2404,14 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-08-30T08:54:48.304Z",
+  "fetchDate": "2026-08-31T09:17:43.730Z",
   "errors": [
-    "https://cutlefish.substack.com/feed",
+    "https://robinrendle.com/feed.xml",
     "https://2ality.com/feeds/posts.atom",
+    "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
-    "https://blog.codemanship.dev/rss.xml",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml",
-    "https://infrequently.org/feed/"
+    "https://kyleshevlin.com/rss.xml"
   ]
 }

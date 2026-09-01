@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Fine, I’ll build my own text editor!",
+              "date": "2026-09-01",
+              "link": "https://dbushell.com/2026/09/01/text-editor/"
+            },
+            {
+              "title": "Ruminations on notifications",
+              "date": "2026-08-20",
+              "link": "https://dbushell.com/2026/08/20/ruminations-on-notifications/"
+            },
+            {
+              "title": "Valley Fold Ltd",
+              "date": "2026-08-11",
+              "link": "https://dbushell.com/2026/08/11/valley-fold-logo-brand-design/"
+            },
+            {
+              "title": "They don’t make ’em like Sublime Text anymore",
+              "date": "2026-08-07",
+              "link": "https://dbushell.com/2026/08/07/sublime-text/"
+            },
+            {
+              "title": "End of the contact form saga",
+              "date": "2026-07-31",
+              "link": "https://dbushell.com/2026/07/31/contact-form-saga/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -31,6 +62,63 @@
               "title": "A Sloppy Interface Is a Security Liability ￼",
               "date": "2026-08-20",
               "link": "https://blog.jim-nielsen.com/2026/sloppy-ui-is-security-liability/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Beyond the Shades of Conway’s Law - Mechanics: The Mathematical &amp; Geometrical Shades",
+              "date": "2026-08-31",
+              "link": "https://thinkinglabs.io/articles/2026/08/31/beyond-shades-of-conways-law-mechanics.html"
+            },
+            {
+              "title": "Talks - Continuous Delivery! It is not what you think it is",
+              "date": "2026-08-28",
+              "link": "https://thinkinglabs.io/talks/2026/08/28/continuous-delivery-it-is-not-what-you-think-it-is.html"
+            },
+            {
+              "title": "Beyond the Shades of Conway’s Law - Validation: The Research &amp; Reality Check",
+              "date": "2026-06-20",
+              "link": "https://thinkinglabs.io/articles/2026/06/20/beyond-shades-of-conways-law-validation.html"
+            },
+            {
+              "title": "Beyond the Shades of Conway’s Law - Foundations: The Origin &amp; The Mirroring Principle",
+              "date": "2026-06-07",
+              "link": "https://thinkinglabs.io/articles/2026/06/07/beyond-shades-of-conways-law-foundations.html"
+            },
+            {
+              "title": "Notes - Optimising Continuous Delivery",
+              "date": "2026-05-24",
+              "link": "https://thinkinglabs.io/notes/2026/05/24/pipelineconf-optimising-continuous-delivery-dave-farley.html"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-08-31",
+              "link": "https://dbushell.com/notes/2026-08-31T10:53Z/"
+            },
+            {
+              "date": "2026-08-28",
+              "link": "https://dbushell.com/notes/2026-08-28T10:28Z/"
+            },
+            {
+              "date": "2026-08-20",
+              "link": "https://dbushell.com/notes/2026-08-20T14:20Z/"
+            },
+            {
+              "date": "2026-08-18",
+              "link": "https://dbushell.com/notes/2026-08-18T17:54Z/"
+            },
+            {
+              "date": "2026-08-18",
+              "link": "https://dbushell.com/notes/2026-08-18T06:31Z/"
             }
           ]
         },
@@ -128,37 +216,6 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "August 2026 blend of links",
-              "date": "2026-08-29",
-              "link": "https://thejollyteapot.com/august-2026-blend/"
-            },
-            {
-              "title": "Just a tool",
-              "date": "2026-08-01",
-              "link": "https://thejollyteapot.com/2026/08/01/just-a-tool/"
-            },
-            {
-              "title": "July 2026 blend of links",
-              "date": "2026-07-22",
-              "link": "https://thejollyteapot.com/july-2026-blend/"
-            },
-            {
-              "title": "Neo beginnings",
-              "date": "2026-07-11",
-              "link": "https://thejollyteapot.com/2026/07/11/neo-beginnings/"
-            },
-            {
-              "title": "A peculiar bug in Safari",
-              "date": "2026-07-04",
-              "link": "https://thejollyteapot.com/2026/07/04/a-peculiar-bug-in-safari/"
-            }
-          ]
-        },
-        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -186,6 +243,37 @@
               "title": "[NMD EXQ 9/60] Walked the dog",
               "date": "2026-08-25",
               "link": "https://www.simplermachines.com/nmd-exq-9-60-walked-the-dog/"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "August 2026 blend of links",
+              "date": "2026-08-29",
+              "link": "https://thejollyteapot.com/august-2026-blend/"
+            },
+            {
+              "title": "Just a tool",
+              "date": "2026-08-01",
+              "link": "https://thejollyteapot.com/2026/08/01/just-a-tool/"
+            },
+            {
+              "title": "July 2026 blend of links",
+              "date": "2026-07-22",
+              "link": "https://thejollyteapot.com/july-2026-blend/"
+            },
+            {
+              "title": "Neo beginnings",
+              "date": "2026-07-11",
+              "link": "https://thejollyteapot.com/2026/07/11/neo-beginnings/"
+            },
+            {
+              "title": "A peculiar bug in Safari",
+              "date": "2026-07-04",
+              "link": "https://thejollyteapot.com/2026/07/04/a-peculiar-bug-in-safari/"
             }
           ]
         },
@@ -438,6 +526,37 @@
           ]
         },
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Small things like these",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/small-things-like-these/"
+            },
+            {
+              "title": "Cybernetics and Ghosts",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/cybernetics-and-ghosts/"
+            },
+            {
+              "title": "The day of small things",
+              "date": "2026-08-15",
+              "link": "https://robinrendle.com/notes/the-day-of-small-things/"
+            },
+            {
+              "title": "Reading matters deeply",
+              "date": "2026-08-02",
+              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
+            },
+            {
+              "title": "Show me the work",
+              "date": "2026-08-01",
+              "link": "https://robinrendle.com/notes/show-me-the-work/"
+            }
+          ]
+        },
+        {
           "title": "",
           "feedUrl": "https://danluu.com/atom.xml",
           "items": [
@@ -465,63 +584,6 @@
               "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding from Galapagos Island",
               "date": "2026-07-03",
               "link": "https://danluu.com/ai-coding/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Ruminations on notifications",
-              "date": "2026-08-20",
-              "link": "https://dbushell.com/2026/08/20/ruminations-on-notifications/"
-            },
-            {
-              "title": "Valley Fold Ltd",
-              "date": "2026-08-11",
-              "link": "https://dbushell.com/2026/08/11/valley-fold-logo-brand-design/"
-            },
-            {
-              "title": "They don’t make ’em like Sublime Text anymore",
-              "date": "2026-08-07",
-              "link": "https://dbushell.com/2026/08/07/sublime-text/"
-            },
-            {
-              "title": "End of the contact form saga",
-              "date": "2026-07-31",
-              "link": "https://dbushell.com/2026/07/31/contact-form-saga/"
-            },
-            {
-              "title": "Businessing 101",
-              "date": "2026-07-24",
-              "link": "https://dbushell.com/2026/07/24/businessing/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-08-20",
-              "link": "https://dbushell.com/notes/2026-08-20T14:20Z/"
-            },
-            {
-              "date": "2026-08-18",
-              "link": "https://dbushell.com/notes/2026-08-18T17:54Z/"
-            },
-            {
-              "date": "2026-08-18",
-              "link": "https://dbushell.com/notes/2026-08-18T06:31Z/"
-            },
-            {
-              "date": "2026-08-18",
-              "link": "https://dbushell.com/notes/2026-08-18T05:51Z/"
-            },
-            {
-              "date": "2026-08-15",
-              "link": "https://dbushell.com/notes/2026-08-15T06:22Z/"
             }
           ]
         },
@@ -650,37 +712,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Vim wants you to control, VSCode wants you to consume",
-              "date": "2026-08-18",
-              "link": "https://buttondown.com/hillelwayne/archive/vim-wants-you-to-control-vscode-wants-you-to/"
-            },
-            {
-              "title": "Logic for Programmers is Done",
-              "date": "2026-07-29",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-is-done/"
-            },
-            {
-              "title": "I'm still alive",
-              "date": "2026-07-14",
-              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
-            },
-            {
-              "title": "Logic for Programmers v0.15, Livecoding",
-              "date": "2026-06-17",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
-            },
-            {
-              "title": "Nontrailing separators do not spark joy",
-              "date": "2026-06-10",
-              "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/"
-            }
-          ]
-        },
-        {
           "title": "molily",
           "feedUrl": "https://molily.de/feed.xml",
           "items": [
@@ -708,6 +739,37 @@
               "title": "Something went wrong",
               "date": "2024-09-10",
               "link": "https://molily.de/something-went-wrong/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "Vim wants you to control, VSCode wants you to consume",
+              "date": "2026-08-18",
+              "link": "https://buttondown.com/hillelwayne/archive/vim-wants-you-to-control-vscode-wants-you-to/"
+            },
+            {
+              "title": "Logic for Programmers is Done",
+              "date": "2026-07-29",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-is-done/"
+            },
+            {
+              "title": "I'm still alive",
+              "date": "2026-07-14",
+              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
+            },
+            {
+              "title": "Logic for Programmers v0.15, Livecoding",
+              "date": "2026-06-17",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
+            },
+            {
+              "title": "Nontrailing separators do not spark joy",
+              "date": "2026-06-10",
+              "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/"
             }
           ]
         },
@@ -1301,37 +1363,6 @@
           ]
         },
         {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "Beyond the Shades of Conway’s Law - Validation: The Research &amp; Reality Check",
-              "date": "2026-06-20",
-              "link": "https://thinkinglabs.io/articles/2026/06/20/beyond-shades-of-conways-law-validation.html"
-            },
-            {
-              "title": "Beyond the Shades of Conway’s Law - Foundations: The Origin &amp; The Mirroring Principle",
-              "date": "2026-06-07",
-              "link": "https://thinkinglabs.io/articles/2026/06/07/beyond-shades-of-conways-law-foundations.html"
-            },
-            {
-              "title": "Notes - Optimising Continuous Delivery",
-              "date": "2026-05-24",
-              "link": "https://thinkinglabs.io/notes/2026/05/24/pipelineconf-optimising-continuous-delivery-dave-farley.html"
-            },
-            {
-              "title": "Beyond the Shades of Conway’s Law",
-              "date": "2026-04-24",
-              "link": "https://thinkinglabs.io/articles/2026/04/24/beyond-the-shades-of-conways-law.html"
-            },
-            {
-              "title": "Don’t Let AI Invert The Testing Pyramid",
-              "date": "2026-04-12",
-              "link": "https://thinkinglabs.io/articles/2026/04/12/dont-let-ai-invert-the-testing-pyramid.html"
-            }
-          ]
-        },
-        {
           "title": "ntietz.com blog - technically a blog",
           "feedUrl": "https://ntietz.com/atom.xml",
           "items": [
@@ -1359,6 +1390,37 @@
               "title": "TIL: Docker log rotation",
               "date": "2026-02-16",
               "link": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
+          "title": "Kyle Shevlin's Blog RSS Feed",
+          "feedUrl": "https://kyleshevlin.com/rss.xml",
+          "items": [
+            {
+              "title": "&ldquo;Help&rdquo; Doesn't Mean What it Meant",
+              "date": "2026-06-05",
+              "link": "https://kyleshevlin.com/help-doesnt-mean-what-it-meant/"
+            },
+            {
+              "title": "<code>AsyncData</code>",
+              "date": "2026-01-11",
+              "link": "https://kyleshevlin.com/async-data/"
+            },
+            {
+              "title": "Nothing is Something",
+              "date": "2025-12-20",
+              "link": "https://kyleshevlin.com/nothing-is-something/"
+            },
+            {
+              "title": "<code>data</code> Attributes for Testing",
+              "date": "2025-11-21",
+              "link": "https://kyleshevlin.com/data-attributes-for-testing/"
+            },
+            {
+              "title": "Prefer Gaps To Margins",
+              "date": "2025-06-23",
+              "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
             }
           ]
         },
@@ -2404,14 +2466,12 @@
       ]
     }
   ],
-  "fetchDate": "2026-08-31T09:17:43.730Z",
+  "fetchDate": "2026-09-01T08:16:18.102Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
-    "https://2ality.com/feeds/posts.atom",
     "https://cutlefish.substack.com/feed",
+    "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml",
-    "https://kyleshevlin.com/rss.xml"
+    "https://fynn.be/feed.xml"
   ]
 }

@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Blog on Hillel Wayne",
+          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
+          "items": [
+            {
+              "title": "A Crash Course in Predicate Logic",
+              "date": "2026-09-01",
+              "link": "https://www.hillelwayne.com/post/predicate-logic/"
+            },
+            {
+              "title": "Logic for Programmers is Now Available",
+              "date": "2026-07-29",
+              "link": "https://www.hillelwayne.com/post/lfp/"
+            },
+            {
+              "title": "Chicago vs New York Pizza is the Wrong Argument",
+              "date": "2026-04-01",
+              "link": "https://www.hillelwayne.com/post/pizza/"
+            },
+            {
+              "title": "Some Silly Z3 Scripts I Wrote",
+              "date": "2026-02-23",
+              "link": "https://www.hillelwayne.com/post/z3-examples/"
+            },
+            {
+              "title": "A Very Early History of Algebraic Data Types",
+              "date": "2025-09-25",
+              "link": "https://www.hillelwayne.com/post/algdt-history/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -39,6 +70,11 @@
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
             {
+              "title": "Nobody Believes It, Everybody Does It",
+              "date": "2026-09-01",
+              "link": "https://blog.jim-nielsen.com/2026/nobody-believes-it-everybody-does-it/"
+            },
+            {
               "title": "My Experience Has Nuance, Yours Is a Data Point",
               "date": "2026-08-31",
               "link": "https://blog.jim-nielsen.com/2026/nuance-for-me-none-for-you/"
@@ -57,11 +93,130 @@
               "title": "Getting an LLM to Make Me a Tool for Enriching the Color Metadata in My Icon Collection",
               "date": "2026-08-23",
               "link": "https://blog.jim-nielsen.com/2026/use-llm-to-add-color-metadata/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Evaluating a Success Criterion",
+              "date": "2026-09-01",
+              "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
             },
             {
-              "title": "A Sloppy Interface Is a Security Liability ￼",
-              "date": "2026-08-20",
-              "link": "https://blog.jim-nielsen.com/2026/sloppy-ui-is-security-liability/"
+              "title": "The 2.1.1 “specific timings” Clause",
+              "date": "2026-08-26",
+              "link": "https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html"
+            },
+            {
+              "title": "Should a Dialog Close When Clicked Outside?",
+              "date": "2026-08-12",
+              "link": "https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html"
+            },
+            {
+              "title": "Link + Popover Navigation",
+              "date": "2026-07-09",
+              "link": "https://adrianroselli.com/2026/07/link-popover-navigation.html"
+            },
+            {
+              "title": "Focusgroup Tests",
+              "date": "2026-07-05",
+              "link": "https://adrianroselli.com/2026/07/focusgroup-tests.html"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2026-09-01",
+              "link": "https://macwright.com/2026/09/01/recently.html"
+            },
+            {
+              "title": "Placemark is now fully open source",
+              "date": "2026-08-25",
+              "link": "https://macwright.com/2026/08/25/placemark-fully-open-source.html"
+            },
+            {
+              "title": "Technology optimism hour",
+              "date": "2026-08-14",
+              "link": "https://macwright.com/2026/08/14/optimism-hour.html"
+            },
+            {
+              "title": "Printing tiny photos for paper journals",
+              "date": "2026-07-24",
+              "link": "https://macwright.com/2026/07/24/printing-for-journals.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-07-01",
+              "link": "https://macwright.com/2026/07/01/recently.html"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 14/60] Mountain Thunderstorm",
+              "date": "2026-09-01",
+              "link": "https://www.simplermachines.com/nmd-exq-14-60-mountain-thunderstorm/"
+            },
+            {
+              "title": "[NMD EXQ 12/60] Solar company or dispensary?",
+              "date": "2026-08-29",
+              "link": "https://www.simplermachines.com/nmd-exq-12-60-solar-company-or-dispensary/"
+            },
+            {
+              "title": "[NMD EXQ 11/60] Guests",
+              "date": "2026-08-28",
+              "link": "https://www.simplermachines.com/nmd-exq-11-60-guests/"
+            },
+            {
+              "title": "Super Bowls Georg should not be counted",
+              "date": "2026-08-27",
+              "link": "https://www.simplermachines.com/super-bowls-georg-should-not-be-counted/"
+            },
+            {
+              "title": "[GR02.15] Flowerboy Project Coffee",
+              "date": "2026-08-25",
+              "link": "https://www.simplermachines.com/gr02-15-flowerboy-project-coffee/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "New Post: A Crash Course in Predicate Logic",
+              "date": "2026-09-01",
+              "link": "https://buttondown.com/hillelwayne/archive/new-post-a-crash-course-in-predicate-logic/"
+            },
+            {
+              "title": "Vim wants you to control, VSCode wants you to consume",
+              "date": "2026-08-18",
+              "link": "https://buttondown.com/hillelwayne/archive/vim-wants-you-to-control-vscode-wants-you-to/"
+            },
+            {
+              "title": "Logic for Programmers is Done",
+              "date": "2026-07-29",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-is-done/"
+            },
+            {
+              "title": "I'm still alive",
+              "date": "2026-07-14",
+              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
+            },
+            {
+              "title": "Logic for Programmers v0.15, Livecoding",
+              "date": "2026-06-17",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
             }
           ]
         },
@@ -216,37 +371,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[NMD EXQ 12/60] Solar company or dispensary?",
-              "date": "2026-08-29",
-              "link": "https://www.simplermachines.com/nmd-exq-12-60-solar-company-or-dispensary/"
-            },
-            {
-              "title": "[NMD EXQ 11/60] Guests",
-              "date": "2026-08-28",
-              "link": "https://www.simplermachines.com/nmd-exq-11-60-guests/"
-            },
-            {
-              "title": "Super Bowls Georg should not be counted",
-              "date": "2026-08-27",
-              "link": "https://www.simplermachines.com/super-bowls-georg-should-not-be-counted/"
-            },
-            {
-              "title": "[GR02.15] Flowerboy Project Coffee",
-              "date": "2026-08-25",
-              "link": "https://www.simplermachines.com/gr02-15-flowerboy-project-coffee/"
-            },
-            {
-              "title": "[NMD EXQ 9/60] Walked the dog",
-              "date": "2026-08-25",
-              "link": "https://www.simplermachines.com/nmd-exq-9-60-walked-the-dog/"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -367,68 +491,6 @@
               "title": "The Writing Triangle",
               "date": "2026-06-01",
               "link": "https://rosswintle.uk/2026/06/the-writing-triangle/"
-            }
-          ]
-        },
-        {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "The 2.1.1 “specific timings” Clause",
-              "date": "2026-08-26",
-              "link": "https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html"
-            },
-            {
-              "title": "Should a Dialog Close When Clicked Outside?",
-              "date": "2026-08-12",
-              "link": "https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html"
-            },
-            {
-              "title": "Link + Popover Navigation",
-              "date": "2026-07-09",
-              "link": "https://adrianroselli.com/2026/07/link-popover-navigation.html"
-            },
-            {
-              "title": "Focusgroup Tests",
-              "date": "2026-07-05",
-              "link": "https://adrianroselli.com/2026/07/focusgroup-tests.html"
-            },
-            {
-              "title": "∪ of Target Audiences (Accessibility, SEO, AEO/GEO)",
-              "date": "2026-06-15",
-              "link": "https://adrianroselli.com/2026/06/union-of-target-audiences-accessibility-seo-aeo-geo.html"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Placemark is now fully open source",
-              "date": "2026-08-25",
-              "link": "https://macwright.com/2026/08/25/placemark-fully-open-source.html"
-            },
-            {
-              "title": "Technology optimism hour",
-              "date": "2026-08-14",
-              "link": "https://macwright.com/2026/08/14/optimism-hour.html"
-            },
-            {
-              "title": "Printing tiny photos for paper journals",
-              "date": "2026-07-24",
-              "link": "https://macwright.com/2026/07/24/printing-for-journals.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2026-07-01",
-              "link": "https://macwright.com/2026/07/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2026-06-04",
-              "link": "https://macwright.com/2026/06/04/recently.html"
             }
           ]
         },
@@ -743,37 +805,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "Vim wants you to control, VSCode wants you to consume",
-              "date": "2026-08-18",
-              "link": "https://buttondown.com/hillelwayne/archive/vim-wants-you-to-control-vscode-wants-you-to/"
-            },
-            {
-              "title": "Logic for Programmers is Done",
-              "date": "2026-07-29",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-is-done/"
-            },
-            {
-              "title": "I'm still alive",
-              "date": "2026-07-14",
-              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
-            },
-            {
-              "title": "Logic for Programmers v0.15, Livecoding",
-              "date": "2026-06-17",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
-            },
-            {
-              "title": "Nontrailing separators do not spark joy",
-              "date": "2026-06-10",
-              "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/"
-            }
-          ]
-        },
-        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -925,37 +956,6 @@
               "title": "The Best Product Engineering Org in the World [video]",
               "date": "2025-04-18",
               "link": "https://www.jamesshore.com/v2/presentations/2025/the-best-product-engineering-org-in-the-world"
-            }
-          ]
-        },
-        {
-          "title": "Blog on Hillel Wayne",
-          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
-          "items": [
-            {
-              "title": "Logic for Programmers is Now Available",
-              "date": "2026-07-29",
-              "link": "https://www.hillelwayne.com/post/lfp/"
-            },
-            {
-              "title": "Chicago vs New York Pizza is the Wrong Argument",
-              "date": "2026-04-01",
-              "link": "https://www.hillelwayne.com/post/pizza/"
-            },
-            {
-              "title": "Some Silly Z3 Scripts I Wrote",
-              "date": "2026-02-23",
-              "link": "https://www.hillelwayne.com/post/z3-examples/"
-            },
-            {
-              "title": "A Very Early History of Algebraic Data Types",
-              "date": "2025-09-25",
-              "link": "https://www.hillelwayne.com/post/algdt-history/"
-            },
-            {
-              "title": "Gamer Games for Non-Gamers",
-              "date": "2025-04-01",
-              "link": "https://www.hillelwayne.com/post/vidja-games/"
             }
           ]
         },
@@ -2466,7 +2466,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-09-01T08:16:18.102Z",
+  "fetchDate": "2026-09-02T07:36:17.245Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

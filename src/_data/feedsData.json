@@ -4,6 +4,63 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-09-06",
+              "link": "https://dbushell.com/notes/2026-09-06T06:05Z/"
+            },
+            {
+              "date": "2026-09-03",
+              "link": "https://dbushell.com/notes/2026-09-03T06:55Z/"
+            },
+            {
+              "date": "2026-08-31",
+              "link": "https://dbushell.com/notes/2026-08-31T10:53Z/"
+            },
+            {
+              "date": "2026-08-28",
+              "link": "https://dbushell.com/notes/2026-08-28T10:28Z/"
+            },
+            {
+              "date": "2026-08-20",
+              "link": "https://dbushell.com/notes/2026-08-20T14:20Z/"
+            }
+          ]
+        },
+        {
+          "title": "A Tester's Journey",
+          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "SoCraTes 2026 - Managing Energy",
+              "date": "2026-09-05",
+              "link": "https://www.lisihocke.com/2026/09/socrates-2026-managing-energy.html"
+            },
+            {
+              "title": "OWASP Global AppSec EU 2026 - Achievement Unlocked",
+              "date": "2026-07-20",
+              "link": "https://www.lisihocke.com/2026/07/owasp-global-appsec-eu-2026-achievement-unlocked.html"
+            },
+            {
+              "title": "SoCraTes UK 2026 - Instant Connection",
+              "date": "2026-07-16",
+              "link": "https://www.lisihocke.com/2026/07/socrates-uk-2026-instant-connection.html"
+            },
+            {
+              "title": "Elbsides 2026 - A Welcoming First Time",
+              "date": "2026-06-13",
+              "link": "https://www.lisihocke.com/2026/06/elbsides-2026-a-welcoming-first-time.html"
+            },
+            {
+              "title": "BSides Luxembourg 2026 - True Community Spirit",
+              "date": "2026-05-18",
+              "link": "https://www.lisihocke.com/2026/05/bsides-luxembourg-2026-true-community-spirit.html"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,6 +88,37 @@
               "title": "Valley Fold Ltd",
               "date": "2026-08-11",
               "link": "https://dbushell.com/2026/08/11/valley-fold-logo-brand-design/"
+            }
+          ]
+        },
+        {
+          "title": "Curly Tail, Curly Braces",
+          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
+          "items": [
+            {
+              "title": "Saying Goodbye to my Git Server's CGit Frontend",
+              "date": "2026-09-04",
+              "link": "https://www.worthe-it.co.za/blog/2026-09-05-saying-goodbye-to-my-git-servers-cgit-frontend.html"
+            },
+            {
+              "title": "Separating End to End Tests in Rust with Cargo Features",
+              "date": "2026-07-16",
+              "link": "https://www.worthe-it.co.za/blog/2026-07-17-separating-end-to-end-tests-in-rust-with-cargo-features.html"
+            },
+            {
+              "title": "It's been 15 years, what have I learned?",
+              "date": "2026-05-12",
+              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
+            },
+            {
+              "title": "My 2025 In Review",
+              "date": "2025-12-31",
+              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
+            },
+            {
+              "title": "The Localhost Podcast CLI Tool",
+              "date": "2025-10-18",
+              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
             }
           ]
         },
@@ -128,28 +216,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "Blog on Hillel Wayne",
+          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
           "items": [
             {
-              "date": "2026-09-03",
-              "link": "https://dbushell.com/notes/2026-09-03T06:55Z/"
+              "title": "A Crash Course in Predicate Logic",
+              "date": "2026-09-01",
+              "link": "https://www.hillelwayne.com/post/predicate-logic/"
             },
             {
-              "date": "2026-08-31",
-              "link": "https://dbushell.com/notes/2026-08-31T10:53Z/"
+              "title": "Logic for Programmers is Now Available",
+              "date": "2026-07-29",
+              "link": "https://www.hillelwayne.com/post/lfp/"
             },
             {
-              "date": "2026-08-28",
-              "link": "https://dbushell.com/notes/2026-08-28T10:28Z/"
+              "title": "Chicago vs New York Pizza is the Wrong Argument",
+              "date": "2026-04-01",
+              "link": "https://www.hillelwayne.com/post/pizza/"
             },
             {
-              "date": "2026-08-20",
-              "link": "https://dbushell.com/notes/2026-08-20T14:20Z/"
+              "title": "Some Silly Z3 Scripts I Wrote",
+              "date": "2026-02-23",
+              "link": "https://www.hillelwayne.com/post/z3-examples/"
             },
             {
-              "date": "2026-08-18",
-              "link": "https://dbushell.com/notes/2026-08-18T17:54Z/"
+              "title": "A Very Early History of Algebraic Data Types",
+              "date": "2025-09-25",
+              "link": "https://www.hillelwayne.com/post/algdt-history/"
             }
           ]
         },
@@ -181,37 +274,6 @@
               "title": "How does programming language affect token efficiency and correctness?",
               "date": "2026-08-09",
               "link": "https://danluu.com/pl-tokens/"
-            }
-          ]
-        },
-        {
-          "title": "Blog on Hillel Wayne",
-          "feedUrl": "https://www.hillelwayne.com/post/index.xml",
-          "items": [
-            {
-              "title": "A Crash Course in Predicate Logic",
-              "date": "2026-09-01",
-              "link": "https://www.hillelwayne.com/post/predicate-logic/"
-            },
-            {
-              "title": "Logic for Programmers is Now Available",
-              "date": "2026-07-29",
-              "link": "https://www.hillelwayne.com/post/lfp/"
-            },
-            {
-              "title": "Chicago vs New York Pizza is the Wrong Argument",
-              "date": "2026-04-01",
-              "link": "https://www.hillelwayne.com/post/pizza/"
-            },
-            {
-              "title": "Some Silly Z3 Scripts I Wrote",
-              "date": "2026-02-23",
-              "link": "https://www.hillelwayne.com/post/z3-examples/"
-            },
-            {
-              "title": "A Very Early History of Algebraic Data Types",
-              "date": "2025-09-25",
-              "link": "https://www.hillelwayne.com/post/algdt-history/"
             }
           ]
         },
@@ -1146,37 +1208,6 @@
           ]
         },
         {
-          "title": "A Tester's Journey",
-          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "OWASP Global AppSec EU 2026 - Achievement Unlocked",
-              "date": "2026-07-20",
-              "link": "https://www.lisihocke.com/2026/07/owasp-global-appsec-eu-2026-achievement-unlocked.html"
-            },
-            {
-              "title": "SoCraTes UK 2026 - Instant Connection",
-              "date": "2026-07-16",
-              "link": "https://www.lisihocke.com/2026/07/socrates-uk-2026-instant-connection.html"
-            },
-            {
-              "title": "Elbsides 2026 - A Welcoming First Time",
-              "date": "2026-06-13",
-              "link": "https://www.lisihocke.com/2026/06/elbsides-2026-a-welcoming-first-time.html"
-            },
-            {
-              "title": "BSides Luxembourg 2026 - True Community Spirit",
-              "date": "2026-05-18",
-              "link": "https://www.lisihocke.com/2026/05/bsides-luxembourg-2026-true-community-spirit.html"
-            },
-            {
-              "title": "Back to Building - Make Problems Smaller",
-              "date": "2026-01-04",
-              "link": "https://www.lisihocke.com/2026/01/back-to-building-make-problems-smaller.html"
-            }
-          ]
-        },
-        {
           "title": "Musings about software",
           "feedUrl": "https://www.softwaremaxims.com/feed.xml",
           "items": [
@@ -1204,37 +1235,6 @@
               "title": "Where did the Rust go?",
               "date": "2023-08-23",
               "link": "https://softwaremaxims.com/blog/memory-safety-end-history"
-            }
-          ]
-        },
-        {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "Separating End to End Tests in Rust with Cargo Features",
-              "date": "2026-07-16",
-              "link": "https://www.worthe-it.co.za/blog/2026-07-17-separating-end-to-end-tests-in-rust-with-cargo-features.html"
-            },
-            {
-              "title": "It's been 15 years, what have I learned?",
-              "date": "2026-05-12",
-              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
-            },
-            {
-              "title": "My 2025 In Review",
-              "date": "2025-12-31",
-              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
-            },
-            {
-              "title": "The Localhost Podcast CLI Tool",
-              "date": "2025-10-18",
-              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
-            },
-            {
-              "title": "Buying Tech Books in South Africa",
-              "date": "2025-05-16",
-              "link": "https://www.worthe-it.co.za/blog/2025-05-17-buying-tech-books-in-south-africa.html"
             }
           ]
         },
@@ -2466,7 +2466,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-09-05T07:23:24.406Z",
+  "fetchDate": "2026-09-06T07:36:25.987Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

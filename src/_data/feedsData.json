@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Skiing in Tūroa",
+              "date": "2026-09-07",
+              "link": "https://flamedfury.com/posts/skiing-in-turoa/"
+            },
+            {
+              "title": "HTML Day 2026",
+              "date": "2026-08-12",
+              "link": "https://flamedfury.com/posts/html-day-2026/"
+            },
+            {
+              "title": "My first HWC",
+              "date": "2026-08-06",
+              "link": "https://flamedfury.com/posts/my-first-hwc/"
+            },
+            {
+              "title": "Winter is here",
+              "date": "2026-08-05",
+              "link": "https://flamedfury.com/posts/winter-is-here/"
+            },
+            {
+              "title": "Taylor Swift Moshpit",
+              "date": "2026-08-02",
+              "link": "https://flamedfury.com/posts/taylor-swift-moshpit/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -925,37 +956,6 @@
               "title": "The Best Introduction Guide to SVG You Will Read",
               "date": "2026-05-01",
               "link": "https://thathtml.blog/2026/05/best-svg-intro-guide/"
-            }
-          ]
-        },
-        {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "HTML Day 2026",
-              "date": "2026-08-12",
-              "link": "https://flamedfury.com/posts/html-day-2026/"
-            },
-            {
-              "title": "My first HWC",
-              "date": "2026-08-06",
-              "link": "https://flamedfury.com/posts/my-first-hwc/"
-            },
-            {
-              "title": "Winter is here",
-              "date": "2026-08-05",
-              "link": "https://flamedfury.com/posts/winter-is-here/"
-            },
-            {
-              "title": "Taylor Swift Moshpit",
-              "date": "2026-08-02",
-              "link": "https://flamedfury.com/posts/taylor-swift-moshpit/"
-            },
-            {
-              "title": "Miley Cyrus, what's going on?",
-              "date": "2026-08-01",
-              "link": "https://flamedfury.com/posts/miley-cyrus-whats-going-on/"
             }
           ]
         },
@@ -2466,7 +2466,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-09-06T07:36:25.987Z",
+  "fetchDate": "2026-09-07T07:54:26.917Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

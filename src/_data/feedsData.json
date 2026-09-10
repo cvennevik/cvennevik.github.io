@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Don’t Let Anyone Take Away Your Big Box of Cables",
+              "date": "2026-09-09",
+              "link": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/"
+            },
+            {
+              "title": "The Bulldozing of an Interface",
+              "date": "2026-09-08",
+              "link": "https://blog.jim-nielsen.com/2026/bulldoze-ui/"
+            },
+            {
+              "title": "Can We Stop With the Uptime Percentages?",
+              "date": "2026-09-03",
+              "link": "https://blog.jim-nielsen.com/2026/stop-with-the-uptime-percentage/"
+            },
+            {
+              "title": "Nobody Believes It, Everybody Does It",
+              "date": "2026-09-01",
+              "link": "https://blog.jim-nielsen.com/2026/nobody-believes-it-everybody-does-it/"
+            },
+            {
+              "title": "My Experience Has Nuance, Yours Is a Data Point",
+              "date": "2026-08-31",
+              "link": "https://blog.jim-nielsen.com/2026/nuance-for-me-none-for-you/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "The Other Road",
+              "date": "2026-09-09",
+              "link": "https://borretti.me/article/the-other-road"
+            },
+            {
+              "title": "The Education of a Doomer",
+              "date": "2026-09-07",
+              "link": "https://borretti.me/article/the-education-of-a-doomer"
+            },
+            {
+              "title": "On Inevitability",
+              "date": "2026-08-30",
+              "link": "https://borretti.me/article/on-inevitability"
+            },
+            {
+              "title": "Futurism Is Always Extreme",
+              "date": "2026-08-25",
+              "link": "https://borretti.me/article/futurism-is-always-extreme"
+            },
+            {
+              "title": "A Syncthing and SQLite Gotcha",
+              "date": "2026-08-22",
+              "link": "https://borretti.me/article/a-syncthing-and-sqlite-gotcha"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,37 +93,6 @@
               "title": "Ruminations on notifications",
               "date": "2026-08-20",
               "link": "https://dbushell.com/2026/08/20/ruminations-on-notifications/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "The Bulldozing of an Interface",
-              "date": "2026-09-08",
-              "link": "https://blog.jim-nielsen.com/2026/bulldoze-ui/"
-            },
-            {
-              "title": "Can We Stop With the Uptime Percentages?",
-              "date": "2026-09-03",
-              "link": "https://blog.jim-nielsen.com/2026/stop-with-the-uptime-percentage/"
-            },
-            {
-              "title": "Nobody Believes It, Everybody Does It",
-              "date": "2026-09-01",
-              "link": "https://blog.jim-nielsen.com/2026/nobody-believes-it-everybody-does-it/"
-            },
-            {
-              "title": "My Experience Has Nuance, Yours Is a Data Point",
-              "date": "2026-08-31",
-              "link": "https://blog.jim-nielsen.com/2026/nuance-for-me-none-for-you/"
-            },
-            {
-              "title": "A Calendar View For My Blog",
-              "date": "2026-08-27",
-              "link": "https://blog.jim-nielsen.com/2026/blog-calendar-view/"
             }
           ]
         },
@@ -97,37 +128,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[GR02.16] one more camellia",
-              "date": "2026-09-08",
-              "link": "https://www.simplermachines.com/gr02-16-one-more-camellia/"
-            },
-            {
-              "title": "Reviews of the Disney/NFL t-shirt collaboration",
-              "date": "2026-09-03",
-              "link": "https://www.simplermachines.com/reviews-of-the-disney-nfl-t-shirt-collaboration/"
-            },
-            {
-              "title": "[NMD EXQ 16/60] After a walk from the old place",
-              "date": "2026-09-03",
-              "link": "https://www.simplermachines.com/nmd-exq-16-60-after-a-walk-from-the-old-place/"
-            },
-            {
-              "title": "Mere Being - 034 - August - Diane's place, State Fair,",
-              "date": "2026-09-03",
-              "link": "https://www.simplermachines.com/mere-being-034-august-dianes-place-state-fair/"
-            },
-            {
-              "title": "[NMD EXQ 15/60] Two homes? No home?",
-              "date": "2026-09-02",
-              "link": "https://www.simplermachines.com/nmd-exq-15-60-two-homes-no-home/"
-            }
-          ]
-        },
-        {
           "title": "James Shore",
           "feedUrl": "https://www.jamesshore.com/v2/feed",
           "items": [
@@ -159,6 +159,37 @@
           ]
         },
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[GR02.16] one more camellia",
+              "date": "2026-09-08",
+              "link": "https://www.simplermachines.com/gr02-16-one-more-camellia/"
+            },
+            {
+              "title": "Reviews of the Disney/NFL t-shirt collaboration",
+              "date": "2026-09-03",
+              "link": "https://www.simplermachines.com/reviews-of-the-disney-nfl-t-shirt-collaboration/"
+            },
+            {
+              "title": "[NMD EXQ 16/60] After a walk from the old place",
+              "date": "2026-09-03",
+              "link": "https://www.simplermachines.com/nmd-exq-16-60-after-a-walk-from-the-old-place/"
+            },
+            {
+              "title": "Mere Being - 034 - August - Diane's place, State Fair,",
+              "date": "2026-09-03",
+              "link": "https://www.simplermachines.com/mere-being-034-august-dianes-place-state-fair/"
+            },
+            {
+              "title": "[NMD EXQ 15/60] Two homes? No home?",
+              "date": "2026-09-02",
+              "link": "https://www.simplermachines.com/nmd-exq-15-60-two-homes-no-home/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -181,37 +212,6 @@
             {
               "date": "2026-08-31",
               "link": "https://dbushell.com/notes/2026-08-31T10:53Z/"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "The Education of a Doomer",
-              "date": "2026-09-07",
-              "link": "https://borretti.me/article/the-education-of-a-doomer"
-            },
-            {
-              "title": "On Inevitability",
-              "date": "2026-08-30",
-              "link": "https://borretti.me/article/on-inevitability"
-            },
-            {
-              "title": "Futurism Is Always Extreme",
-              "date": "2026-08-25",
-              "link": "https://borretti.me/article/futurism-is-always-extreme"
-            },
-            {
-              "title": "A Syncthing and SQLite Gotcha",
-              "date": "2026-08-22",
-              "link": "https://borretti.me/article/a-syncthing-and-sqlite-gotcha"
-            },
-            {
-              "title": "Our Servants Will Do That For Us",
-              "date": "2026-08-19",
-              "link": "https://borretti.me/article/our-servants-will-do-that-for-us"
             }
           ]
         },
@@ -2466,7 +2466,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-09-09T07:51:17.501Z",
+  "fetchDate": "2026-09-10T07:51:17.362Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

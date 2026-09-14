@@ -4,33 +4,64 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
           "items": [
             {
-              "title": "[NMD EXQ 22/60] Temporary office, no internet",
-              "date": "2026-09-12",
-              "link": "https://www.simplermachines.com/nmd-exq-22-60-temporary-office-no-internet/"
+              "title": "Confessions of an Unrepentant Slop Snob",
+              "date": "2026-09-14",
+              "link": "https://charity.wtf/p/confessions-of-an-unrepentant-slop"
             },
             {
-              "title": "[NMD EXQ 21/60] Wacky wild",
-              "date": "2026-09-11",
-              "link": "https://www.simplermachines.com/nmd-exq-21-60-wacky-wild/"
+              "title": "Have you heard? Clickhouse is winning the observability wars!",
+              "date": "2026-07-08",
+              "link": "https://charity.wtf/p/have-you-heard-clickhouse-is-winning"
             },
             {
-              "title": "The Paperclip Maximizers are Already Here",
-              "date": "2026-09-10",
-              "link": "https://www.simplermachines.com/the-paperclip-maximizers-are-already-here/"
+              "title": "In defense of AI mandates",
+              "date": "2026-07-02",
+              "link": "https://charity.wtf/p/in-defense-of-ai-mandates"
             },
             {
-              "title": "[GR02.16] one more camellia",
-              "date": "2026-09-08",
-              "link": "https://www.simplermachines.com/gr02-16-one-more-camellia/"
+              "title": "Is it ethical to use AI?",
+              "date": "2026-06-24",
+              "link": "https://charity.wtf/p/make-ai-boring-again"
             },
             {
-              "title": "Reviews of the Disney/NFL t-shirt collaboration",
-              "date": "2026-09-03",
-              "link": "https://www.simplermachines.com/reviews-of-the-disney-nfl-t-shirt-collaboration/"
+              "title": "AI demands more engineering discipline. Not less",
+              "date": "2026-06-15",
+              "link": "https://charity.wtf/p/ai-demands-more-engineering-discipline"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Abolish patents",
+              "date": "2026-09-13",
+              "link": "https://gomakethings.com/articles/abolish-patents/"
+            },
+            {
+              "title": "It's embarrassing",
+              "date": "2026-08-30",
+              "link": "https://gomakethings.com/articles/its-embarrassing/"
+            },
+            {
+              "title": "AI is fucking awful (the guide)",
+              "date": "2026-08-30",
+              "link": "https://gomakethings.com/articles/ai-is-fucking-awful-the-guide/"
+            },
+            {
+              "title": "The Best of Us",
+              "date": "2026-08-26",
+              "link": "https://gomakethings.com/articles/the-best-of-us/"
+            },
+            {
+              "title": "Make Care Visible",
+              "date": "2026-08-24",
+              "link": "https://gomakethings.com/articles/make-care-visible/"
             }
           ]
         },
@@ -38,6 +69,11 @@
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
+            {
+              "title": "Preserving Netlify Analytics Data Beyond 30 Days",
+              "date": "2026-09-13",
+              "link": "https://blog.jim-nielsen.com/2026/preserving-netlify-analytics-data/"
+            },
             {
               "title": "An Ode to Links",
               "date": "2026-09-10",
@@ -57,11 +93,63 @@
               "title": "Can We Stop With the Uptime Percentages?",
               "date": "2026-09-03",
               "link": "https://blog.jim-nielsen.com/2026/stop-with-the-uptime-percentage/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 23/60] This is just to say -- squirrels",
+              "date": "2026-09-13",
+              "link": "https://www.simplermachines.com/nmd-exq-23-60-this-is-just-to-say-squirrels/"
             },
             {
-              "title": "Nobody Believes It, Everybody Does It",
-              "date": "2026-09-01",
-              "link": "https://blog.jim-nielsen.com/2026/nobody-believes-it-everybody-does-it/"
+              "title": "[NMD EXQ 22/60] Temporary office, no internet",
+              "date": "2026-09-12",
+              "link": "https://www.simplermachines.com/nmd-exq-22-60-temporary-office-no-internet/"
+            },
+            {
+              "title": "[NMD EXQ 21/60] Wacky wild",
+              "date": "2026-09-11",
+              "link": "https://www.simplermachines.com/nmd-exq-21-60-wacky-wild/"
+            },
+            {
+              "title": "The Paperclip Maximizers are Already Here",
+              "date": "2026-09-10",
+              "link": "https://www.simplermachines.com/the-paperclip-maximizers-are-already-here/"
+            },
+            {
+              "title": "[GR02.16] one more camellia",
+              "date": "2026-09-08",
+              "link": "https://www.simplermachines.com/gr02-16-one-more-camellia/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-09-13",
+              "link": "https://dbushell.com/notes/2026-09-13T13:53Z/"
+            },
+            {
+              "date": "2026-09-13",
+              "link": "https://dbushell.com/notes/2026-09-13T11:02Z/"
+            },
+            {
+              "date": "2026-09-11",
+              "link": "https://dbushell.com/notes/2026-09-11T09:27Z/"
+            },
+            {
+              "date": "2026-09-11",
+              "link": "https://dbushell.com/notes/2026-09-11T05:45Z/"
+            },
+            {
+              "date": "2026-09-10",
+              "link": "https://dbushell.com/notes/2026-09-10T07:51Z/"
             }
           ]
         },
@@ -252,6 +340,37 @@
           ]
         },
         {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "Skiing in Tūroa",
+              "date": "2026-09-07",
+              "link": "https://flamedfury.com/posts/skiing-in-turoa/"
+            },
+            {
+              "title": "HTML Day 2026",
+              "date": "2026-08-12",
+              "link": "https://flamedfury.com/posts/html-day-2026/"
+            },
+            {
+              "title": "My first HWC",
+              "date": "2026-08-06",
+              "link": "https://flamedfury.com/posts/my-first-hwc/"
+            },
+            {
+              "title": "Winter is here",
+              "date": "2026-08-05",
+              "link": "https://flamedfury.com/posts/winter-is-here/"
+            },
+            {
+              "title": "Taylor Swift Moshpit",
+              "date": "2026-08-02",
+              "link": "https://flamedfury.com/posts/taylor-swift-moshpit/"
+            }
+          ]
+        },
+        {
           "title": "A Tester's Journey",
           "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
           "items": [
@@ -310,6 +429,37 @@
               "title": "The Localhost Podcast CLI Tool",
               "date": "2025-10-18",
               "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
+            }
+          ]
+        },
+        {
+          "title": "garoof dot nope",
+          "feedUrl": "https://garoof.no/feed.xml",
+          "items": [
+            {
+              "title": "Abstractions as things with holes in them",
+              "date": "2026-09-04",
+              "link": "https://garoof.no/notes/abstraction.html"
+            },
+            {
+              "title": "dumb notes on finding more pathier paths",
+              "date": "2026-05-31",
+              "link": "https://garoof.no/notes/pathy-paths.html"
+            },
+            {
+              "title": "using svg animate elements to animate some arrows, messages",
+              "date": "2026-05-09",
+              "link": "https://garoof.no/notes/svg-animate-arrows.html"
+            },
+            {
+              "title": "bool unbool and something to do with tests, coverage, listening",
+              "date": "2026-04-26",
+              "link": "https://garoof.no/notes/bool-unbool-coverage.html"
+            },
+            {
+              "title": "increasing test coverage is not \"naturally additive\" wrt loc",
+              "date": "2026-04-12",
+              "link": "https://garoof.no/notes/coverage-not-additive.html"
             }
           ]
         },
@@ -376,6 +526,37 @@
           ]
         },
         {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "New Post: A Crash Course in Predicate Logic",
+              "date": "2026-09-01",
+              "link": "https://buttondown.com/hillelwayne/archive/new-post-a-crash-course-in-predicate-logic/"
+            },
+            {
+              "title": "Vim wants you to control, VSCode wants you to consume",
+              "date": "2026-08-18",
+              "link": "https://buttondown.com/hillelwayne/archive/vim-wants-you-to-control-vscode-wants-you-to/"
+            },
+            {
+              "title": "Logic for Programmers is Done",
+              "date": "2026-07-29",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-is-done/"
+            },
+            {
+              "title": "I'm still alive",
+              "date": "2026-07-14",
+              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
+            },
+            {
+              "title": "Logic for Programmers v0.15, Livecoding",
+              "date": "2026-06-17",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
+            }
+          ]
+        },
+        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -403,37 +584,6 @@
               "title": "Notes - Optimising Continuous Delivery",
               "date": "2026-05-24",
               "link": "https://thinkinglabs.io/notes/2026/05/24/pipelineconf-optimising-continuous-delivery-dave-farley.html"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "It's embarrassing",
-              "date": "2026-08-30",
-              "link": "https://gomakethings.com/articles/its-embarrassing/"
-            },
-            {
-              "title": "AI is fucking awful (the guide)",
-              "date": "2026-08-30",
-              "link": "https://gomakethings.com/articles/ai-is-fucking-awful-the-guide/"
-            },
-            {
-              "title": "The Best of Us",
-              "date": "2026-08-26",
-              "link": "https://gomakethings.com/articles/the-best-of-us/"
-            },
-            {
-              "title": "Make Care Visible",
-              "date": "2026-08-24",
-              "link": "https://gomakethings.com/articles/make-care-visible/"
-            },
-            {
-              "title": "How to apply CSS only if there are a certain number of nested elements",
-              "date": "2026-08-22",
-              "link": "https://gomakethings.com/articles/how-to-apply-css-only-if-there-are-a-certain-number-of-nested-elements/"
             }
           ]
         },
@@ -748,37 +898,6 @@
           ]
         },
         {
-          "title": "Coding Is Like Cooking",
-          "feedUrl": "https://coding-is-like-cooking.info/feed/",
-          "items": [
-            {
-              "title": "How to Stop AI from Ruining Your Codebase",
-              "date": "2026-08-19",
-              "link": "https://coding-is-like-cooking.info/2026/08/how-to-stop-ai-from-ruining-your-codebase/"
-            },
-            {
-              "title": "The Most Important AI Coding Advice You Haven’t Heard Yet",
-              "date": "2026-07-27",
-              "link": "https://coding-is-like-cooking.info/2026/07/the-most-important-ai-coding-advice-you-havent-heard-yet/"
-            },
-            {
-              "title": "I Stopped Coding and Started Architecting Agents (And Why You Should Too)",
-              "date": "2026-06-25",
-              "link": "https://coding-is-like-cooking.info/2026/06/i-stopped-coding-and-started-architecting-agents-and-why-you-should-too/"
-            },
-            {
-              "title": "The Death of the Senior Dev? How Agentic Workflows Changed EVERYTHING in 2026",
-              "date": "2026-05-27",
-              "link": "https://coding-is-like-cooking.info/2026/05/the-death-of-the-senior-dev-how-agentic-workflows-changed-everything-in-2026/"
-            },
-            {
-              "title": "It Doesn’t Help To Push AI Into A Crappy Process",
-              "date": "2026-04-29",
-              "link": "https://coding-is-like-cooking.info/2026/04/it-doesnt-help-to-push-ai-into-a-crappy-process/"
-            }
-          ]
-        },
-        {
           "title": "Pablo's logbook",
           "feedUrl": "https://blog.codemanship.dev/rss.xml",
           "items": [
@@ -810,6 +929,68 @@
           ]
         },
         {
+          "title": "Coding Is Like Cooking",
+          "feedUrl": "https://coding-is-like-cooking.info/feed/",
+          "items": [
+            {
+              "title": "How to Stop AI from Ruining Your Codebase",
+              "date": "2026-08-19",
+              "link": "https://coding-is-like-cooking.info/2026/08/how-to-stop-ai-from-ruining-your-codebase/"
+            },
+            {
+              "title": "The Most Important AI Coding Advice You Haven’t Heard Yet",
+              "date": "2026-07-27",
+              "link": "https://coding-is-like-cooking.info/2026/07/the-most-important-ai-coding-advice-you-havent-heard-yet/"
+            },
+            {
+              "title": "I Stopped Coding and Started Architecting Agents (And Why You Should Too)",
+              "date": "2026-06-25",
+              "link": "https://coding-is-like-cooking.info/2026/06/i-stopped-coding-and-started-architecting-agents-and-why-you-should-too/"
+            },
+            {
+              "title": "The Death of the Senior Dev? How Agentic Workflows Changed EVERYTHING in 2026",
+              "date": "2026-05-27",
+              "link": "https://coding-is-like-cooking.info/2026/05/the-death-of-the-senior-dev-how-agentic-workflows-changed-everything-in-2026/"
+            },
+            {
+              "title": "It Doesn’t Help To Push AI Into A Crappy Process",
+              "date": "2026-04-29",
+              "link": "https://coding-is-like-cooking.info/2026/04/it-doesnt-help-to-push-ai-into-a-crappy-process/"
+            }
+          ]
+        },
+        {
+          "title": "molily",
+          "feedUrl": "https://molily.de/feed.xml",
+          "items": [
+            {
+              "title": "My practical approach to surfing the web safely",
+              "date": "2026-08-18",
+              "link": "https://molily.de/safe-websurfing/"
+            },
+            {
+              "title": "My bookmarking tool",
+              "date": "2026-08-07",
+              "link": "https://molily.de/bookmarking-tool/"
+            },
+            {
+              "title": "The Power of Understanding",
+              "date": "2026-04-07",
+              "link": "https://molily.de/understanding/"
+            },
+            {
+              "title": "On the environmental impact of AI",
+              "date": "2025-05-09",
+              "link": "https://molily.de/ai-environment/"
+            },
+            {
+              "title": "Something went wrong",
+              "date": "2024-09-10",
+              "link": "https://molily.de/something-went-wrong/"
+            }
+          ]
+        },
+        {
           "title": "That HTML Blog",
           "feedUrl": "https://thathtml.blog/feed.xml",
           "items": [
@@ -837,6 +1018,37 @@
               "title": "The Best Introduction Guide to SVG You Will Read",
               "date": "2026-05-01",
               "link": "https://thathtml.blog/2026/05/best-svg-intro-guide/"
+            }
+          ]
+        },
+        {
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
+          "items": [
+            {
+              "title": "Waiting to be found by only you",
+              "date": "2026-08-04",
+              "link": "https://anniemueller.com/posts/waiting-to-be-found-by-only-you"
+            },
+            {
+              "title": "I have no idea who celebrities are anymore ",
+              "date": "2026-07-14",
+              "link": "https://anniemueller.com/posts/i-have-no-idea-who-celebrities-are-anymore"
+            },
+            {
+              "title": "Exclamatory birthday edition // W26 — 2026",
+              "date": "2026-06-29",
+              "link": "https://anniemueller.com/posts/exclamatory-birthday-edition-w26-2026"
+            },
+            {
+              "title": "A bundle of bones // W24 + 25 — 2026",
+              "date": "2026-06-24",
+              "link": "https://anniemueller.com/posts/a-bundle-of-bones-w24-plus-25-2026"
+            },
+            {
+              "title": "Do not bargain to be loved",
+              "date": "2026-06-19",
+              "link": "https://anniemueller.com/posts/do-not-bargain-to-be-loved"
             }
           ]
         },
@@ -1151,6 +1363,68 @@
           ]
         },
         {
+          "title": "Joep Schuurkes",
+          "feedUrl": "https://smallsheds.garden/blog/feed.atom",
+          "items": [
+            {
+              "title": "How do I know my testers are doing a good job?",
+              "date": "2026-06-30",
+              "link": "https://smallsheds.garden/blog/2026/how-do-i-know-my-testers-are-doing-a-good-job/"
+            },
+            {
+              "title": "Thinking in threes about software testing",
+              "date": "2026-05-30",
+              "link": "https://smallsheds.garden/blog/2026/thinking-in-threes-about-software-testing/"
+            },
+            {
+              "title": "On the acceptance of GenAI",
+              "date": "2026-04-04",
+              "link": "https://smallsheds.garden/blog/2026/on-the-acceptance-of-genai/"
+            },
+            {
+              "title": "It's clearly a bug, but what is the bug exactly?",
+              "date": "2026-03-07",
+              "link": "https://smallsheds.garden/blog/2026/its-clearly-a-bug-but-what-is-the-bug-exactly/"
+            },
+            {
+              "title": "Reflections after writing a release advice",
+              "date": "2026-02-07",
+              "link": "https://smallsheds.garden/blog/2026/reflections-after-writing-a-release-advice/"
+            }
+          ]
+        },
+        {
+          "title": "ntietz.com blog - technically a blog",
+          "feedUrl": "https://ntietz.com/atom.xml",
+          "items": [
+            {
+              "title": "Where I've been, and the future of this blog",
+              "date": "2026-06-17",
+              "link": "https://ntietz.com/blog/where-ive-been/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Let yourself fall down more",
+              "date": "2026-03-09",
+              "link": "https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "You can't always fix it",
+              "date": "2026-03-02",
+              "link": "https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "Binding port 0 to avoid port collisions",
+              "date": "2026-02-23",
+              "link": "https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&utm_medium=feed"
+            },
+            {
+              "title": "TIL: Docker log rotation",
+              "date": "2026-02-16",
+              "link": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&utm_medium=feed"
+            }
+          ]
+        },
+        {
           "title": "Kyle Shevlin's Blog RSS Feed",
           "feedUrl": "https://kyleshevlin.com/rss.xml",
           "items": [
@@ -1240,6 +1514,68 @@
               "title": "The asymmetry of politeness",
               "date": "2026-03-22",
               "link": "https://einarwh.no/blog/2026/03/22/the-asymmetry-of-politeness/"
+            }
+          ]
+        },
+        {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "Fast is better than slow",
+              "date": "2026-05-23",
+              "link": "https://dubroy.com/blog/fast-is-better-than-slow/"
+            },
+            {
+              "title": "devlog: compatibility packages",
+              "date": "2026-02-06",
+              "link": "https://dubroy.com/blog/compatibility-packages/"
+            },
+            {
+              "title": "Look for what's true",
+              "date": "2026-01-28",
+              "link": "https://dubroy.com/blog/look-for-whats-true/"
+            },
+            {
+              "title": "De-Googling",
+              "date": "2026-01-16",
+              "link": "https://dubroy.com/blog/de-googling/"
+            },
+            {
+              "title": "devlog: garbage collection is useful",
+              "date": "2025-11-14",
+              "link": "https://dubroy.com/blog/garbage-collection-is-useful/"
+            }
+          ]
+        },
+        {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Speeding up the JavaScript ecosystem - oxlint and oxfmt",
+              "date": "2026-05-17",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-13/"
+            },
+            {
+              "title": "DDoS'ing the human brain",
+              "date": "2026-04-03",
+              "link": "https://marvinh.dev/blog/ddosing-the-human-brain/"
+            },
+            {
+              "title": "Signals vs Query-Based Compilers",
+              "date": "2026-01-04",
+              "link": "https://marvinh.dev/blog/signals-vs-query-based-compilers/"
+            },
+            {
+              "title": "Building From First Principles",
+              "date": "2025-10-28",
+              "link": "https://marvinh.dev/blog/building-from-first-principles/"
+            },
+            {
+              "title": "The missing link in JavaScript tools",
+              "date": "2025-09-11",
+              "link": "https://marvinh.dev/blog/unifying-js-tools/"
             }
           ]
         },
@@ -1390,6 +1726,37 @@
               "title": "Test using OpenTelemetry traces in Asp.Net",
               "date": "2024-09-21",
               "link": "https://jenniferplusplus.com/test-traces-in-aspnet/"
+            }
+          ]
+        },
+        {
+          "title": "Sara Joy",
+          "feedUrl": "https://sarajoy.dev/rss.xml",
+          "items": [
+            {
+              "title": "Just Try Harder",
+              "date": "2026-02-21",
+              "link": "https://sarajoy.dev/blog/just-try-harder/"
+            },
+            {
+              "title": "Farmors Chokladkaka",
+              "date": "2025-07-21",
+              "link": "https://sarajoy.dev/blog/farmors-chokladkaka/"
+            },
+            {
+              "title": "Work with Illustrators & Designers",
+              "date": "2025-07-17",
+              "link": "https://sarajoy.dev/blog/whimsica11y-logo/"
+            },
+            {
+              "title": "Those annoying long URLs causing overflow?",
+              "date": "2025-05-22",
+              "link": "https://sarajoy.dev/blog/short/2025-05-22-those-annoying-long-urls-causing-overflow/"
+            },
+            {
+              "title": "Come to the light-dark() Side",
+              "date": "2024-10-26",
+              "link": "https://sarajoy.dev/blog/come-to-the-light-dark-side/"
             }
           ]
         },
@@ -1735,6 +2102,37 @@
           ]
         },
         {
+          "title": "Untested · Rafał Pastuszak",
+          "feedUrl": "https://untested.sonnet.io/feed.xml",
+          "items": [
+            {
+              "title": "DISOBEY",
+              "date": "2025-09-23",
+              "link": "https://untested.sonnet.io/notes/disobey/"
+            },
+            {
+              "title": "Ensō Themes – Accessible, Vampiric, Cozy",
+              "date": "2025-09-12",
+              "link": "https://untested.sonnet.io/notes/enso-themes-accessible-vampiric-cozy/"
+            },
+            {
+              "title": "433 - How to Make a Font that Says Nothing",
+              "date": "2025-07-22",
+              "link": "https://untested.sonnet.io/notes/433-how-to-make-a-font-that-says-nothing/"
+            },
+            {
+              "title": "How People Use Ensō",
+              "date": "2025-07-04",
+              "link": "https://untested.sonnet.io/notes/how-people-use-enso/"
+            },
+            {
+              "title": "New Ensō - first public beta",
+              "date": "2025-06-27",
+              "link": "https://untested.sonnet.io/notes/new-enso-first-public-beta/"
+            }
+          ]
+        },
+        {
           "title": "Alexis King’s Blog",
           "feedUrl": "https://lexi-lambda.github.io/feeds/all.atom.xml",
           "items": [
@@ -1793,6 +2191,27 @@
               "title": "Five for Friday – February 7, 2025",
               "date": "2025-02-08",
               "link": "https://angryweasel.com/blog/five-for-friday-february-7-2025/"
+            }
+          ]
+        },
+        {
+          "title": "lalaland",
+          "feedUrl": "https://lalaland.mataroa.blog/rss/",
+          "items": [
+            {
+              "title": "adventurous",
+              "date": "2024-12-05",
+              "link": "https://fum.lol/blog/advent-2024/"
+            },
+            {
+              "title": "much ado about email",
+              "date": "2024-09-18",
+              "link": "https://fum.lol/blog/much-ado-about-email/"
+            },
+            {
+              "title": "on beginnings",
+              "date": "2024-06-30",
+              "link": "https://fum.lol/blog/beginnings/"
             }
           ]
         },
@@ -2047,26 +2466,12 @@
       ]
     }
   ],
-  "fetchDate": "2026-09-13T07:59:05.112Z",
+  "fetchDate": "2026-09-14T08:31:49.150Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
-    "https://charity.wtf/feed/",
-    "https://anniemueller.com/posts_feed",
-    "https://smallsheds.garden/blog/feed.atom",
-    "https://dbushell.com/notes/rss.xml",
-    "https://lalaland.mataroa.blog/rss/",
-    "https://marvinh.dev/feed.xml",
-    "https://dubroy.com/blog/rss.xml",
-    "https://garoof.no/feed.xml",
-    "https://flamedfury.com/feed.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://sarajoy.dev/rss.xml",
-    "https://molily.de/feed.xml",
-    "https://ntietz.com/atom.xml",
-    "https://untested.sonnet.io/feed.xml",
-    "https://fynn.be/feed.xml",
-    "https://buttondown.email/hillelwayne/rss"
+    "https://fynn.be/feed.xml"
   ]
 }

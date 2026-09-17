@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Love for tiny utility programs",
+              "date": "2026-09-16",
+              "link": "https://thejollyteapot.com/2026/09/16/love-for-tiny-utility-programs/"
+            },
+            {
+              "title": "August 2026 blend of links",
+              "date": "2026-08-29",
+              "link": "https://thejollyteapot.com/august-2026-blend/"
+            },
+            {
+              "title": "Just a tool",
+              "date": "2026-08-01",
+              "link": "https://thejollyteapot.com/2026/08/01/just-a-tool/"
+            },
+            {
+              "title": "July 2026 blend of links",
+              "date": "2026-07-22",
+              "link": "https://thejollyteapot.com/july-2026-blend/"
+            },
+            {
+              "title": "Neo beginnings",
+              "date": "2026-07-11",
+              "link": "https://thejollyteapot.com/2026/07/11/neo-beginnings/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -30,33 +61,33 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
             {
-              "title": "Bottlenecks Get a Bad Rap",
-              "date": "2026-09-15",
-              "link": "https://blog.jim-nielsen.com/2026/bottlenecks/"
+              "title": "The LLMs yearn for the spines",
+              "date": "2026-09-16",
+              "link": "https://buttondown.com/hillelwayne/archive/the-llms-yearn-for-the-spines/"
             },
             {
-              "title": "Preserving Netlify Analytics Data Beyond 30 Days",
-              "date": "2026-09-13",
-              "link": "https://blog.jim-nielsen.com/2026/preserving-netlify-analytics-data/"
+              "title": "New Post: A Crash Course in Predicate Logic",
+              "date": "2026-09-01",
+              "link": "https://buttondown.com/hillelwayne/archive/new-post-a-crash-course-in-predicate-logic/"
             },
             {
-              "title": "An Ode to Links",
-              "date": "2026-09-10",
-              "link": "https://blog.jim-nielsen.com/2026/ode-to-links/"
+              "title": "Vim wants you to control, VSCode wants you to consume",
+              "date": "2026-08-18",
+              "link": "https://buttondown.com/hillelwayne/archive/vim-wants-you-to-control-vscode-wants-you-to/"
             },
             {
-              "title": "Don’t Let Anyone Take Away Your Big Box of Cables",
-              "date": "2026-09-09",
-              "link": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/"
+              "title": "Logic for Programmers is Done",
+              "date": "2026-07-29",
+              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-is-done/"
             },
             {
-              "title": "The Bulldozing of an Interface",
-              "date": "2026-09-08",
-              "link": "https://blog.jim-nielsen.com/2026/bulldoze-ui/"
+              "title": "I'm still alive",
+              "date": "2026-07-14",
+              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
             }
           ]
         },
@@ -88,6 +119,37 @@
               "title": "AI is fucking awful (the guide)",
               "date": "2026-08-30",
               "link": "https://gomakethings.com/articles/ai-is-fucking-awful-the-guide/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Bottlenecks Get a Bad Rap",
+              "date": "2026-09-15",
+              "link": "https://blog.jim-nielsen.com/2026/bottlenecks/"
+            },
+            {
+              "title": "Preserving Netlify Analytics Data Beyond 30 Days",
+              "date": "2026-09-13",
+              "link": "https://blog.jim-nielsen.com/2026/preserving-netlify-analytics-data/"
+            },
+            {
+              "title": "An Ode to Links",
+              "date": "2026-09-10",
+              "link": "https://blog.jim-nielsen.com/2026/ode-to-links/"
+            },
+            {
+              "title": "Don’t Let Anyone Take Away Your Big Box of Cables",
+              "date": "2026-09-09",
+              "link": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/"
+            },
+            {
+              "title": "The Bulldozing of an Interface",
+              "date": "2026-09-08",
+              "link": "https://blog.jim-nielsen.com/2026/bulldoze-ui/"
             }
           ]
         },
@@ -557,37 +619,6 @@
           ]
         },
         {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "New Post: A Crash Course in Predicate Logic",
-              "date": "2026-09-01",
-              "link": "https://buttondown.com/hillelwayne/archive/new-post-a-crash-course-in-predicate-logic/"
-            },
-            {
-              "title": "Vim wants you to control, VSCode wants you to consume",
-              "date": "2026-08-18",
-              "link": "https://buttondown.com/hillelwayne/archive/vim-wants-you-to-control-vscode-wants-you-to/"
-            },
-            {
-              "title": "Logic for Programmers is Done",
-              "date": "2026-07-29",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-is-done/"
-            },
-            {
-              "title": "I'm still alive",
-              "date": "2026-07-14",
-              "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
-            },
-            {
-              "title": "Logic for Programmers v0.15, Livecoding",
-              "date": "2026-06-17",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/"
-            }
-          ]
-        },
-        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -615,37 +646,6 @@
               "title": "Notes - Optimising Continuous Delivery",
               "date": "2026-05-24",
               "link": "https://thinkinglabs.io/notes/2026/05/24/pipelineconf-optimising-continuous-delivery-dave-farley.html"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "August 2026 blend of links",
-              "date": "2026-08-29",
-              "link": "https://thejollyteapot.com/august-2026-blend/"
-            },
-            {
-              "title": "Just a tool",
-              "date": "2026-08-01",
-              "link": "https://thejollyteapot.com/2026/08/01/just-a-tool/"
-            },
-            {
-              "title": "July 2026 blend of links",
-              "date": "2026-07-22",
-              "link": "https://thejollyteapot.com/july-2026-blend/"
-            },
-            {
-              "title": "Neo beginnings",
-              "date": "2026-07-11",
-              "link": "https://thejollyteapot.com/2026/07/11/neo-beginnings/"
-            },
-            {
-              "title": "A peculiar bug in Safari",
-              "date": "2026-07-04",
-              "link": "https://thejollyteapot.com/2026/07/04/a-peculiar-bug-in-safari/"
             }
           ]
         },
@@ -801,6 +801,37 @@
               "title": "When everybody's down, nobody is",
               "date": "2025-10-23",
               "link": "https://newsletter.goodtechthings.com/p/when-everybodys-down-nobody-is"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Small things like these",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/small-things-like-these/"
+            },
+            {
+              "title": "Cybernetics and Ghosts",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/cybernetics-and-ghosts/"
+            },
+            {
+              "title": "The day of small things",
+              "date": "2026-08-15",
+              "link": "https://robinrendle.com/notes/the-day-of-small-things/"
+            },
+            {
+              "title": "Reading matters deeply",
+              "date": "2026-08-02",
+              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
+            },
+            {
+              "title": "Show me the work",
+              "date": "2026-08-01",
+              "link": "https://robinrendle.com/notes/show-me-the-work/"
             }
           ]
         },
@@ -2435,11 +2466,10 @@
       ]
     }
   ],
-  "fetchDate": "2026-09-16T08:15:32.877Z",
+  "fetchDate": "2026-09-17T08:21:45.062Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
-    "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
+    "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml"

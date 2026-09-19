@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-09-19",
+              "link": "https://dbushell.com/notes/2026-09-19T06:00Z/"
+            },
+            {
+              "date": "2026-09-18",
+              "link": "https://dbushell.com/notes/2026-09-18T09:32Z/"
+            },
+            {
+              "date": "2026-09-16",
+              "link": "https://dbushell.com/notes/2026-09-16T05:01Z/"
+            },
+            {
+              "date": "2026-09-15",
+              "link": "https://dbushell.com/notes/2026-09-15T04:59Z/"
+            },
+            {
+              "date": "2026-09-14",
+              "link": "https://dbushell.com/notes/2026-09-14T14:05Z/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "“Programming” monitor",
+              "date": "2026-09-18",
+              "link": "https://dbushell.com/2026/09/18/benq-rd280ug-review/"
+            },
+            {
+              "title": "RSS Club #009: Domains",
+              "date": "2026-09-12",
+              "link": "https://dbushell.com/2026/09/12/RSS009/"
+            },
+            {
+              "title": "CodePen: exposed!",
+              "date": "2026-09-08",
+              "link": "https://dbushell.com/2026/09/08/codepen/"
+            },
+            {
+              "title": "Abattoirs of taste",
+              "date": "2026-09-04",
+              "link": "https://dbushell.com/2026/09/04/abattoirs-of-taste/"
+            },
+            {
+              "title": "Plagiarism ain’t cool bro :(",
+              "date": "2026-09-04",
+              "link": "https://dbushell.com/2026/09/04/plagiarism/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Do You Prefer Artificial?",
+              "date": "2026-09-18",
+              "link": "https://blog.jim-nielsen.com/2026/who-wants-artificial/"
+            },
+            {
+              "title": "Bottlenecks Get a Bad Rap",
+              "date": "2026-09-15",
+              "link": "https://blog.jim-nielsen.com/2026/bottlenecks/"
+            },
+            {
+              "title": "Preserving Netlify Analytics Data Beyond 30 Days",
+              "date": "2026-09-13",
+              "link": "https://blog.jim-nielsen.com/2026/preserving-netlify-analytics-data/"
+            },
+            {
+              "title": "An Ode to Links",
+              "date": "2026-09-10",
+              "link": "https://blog.jim-nielsen.com/2026/ode-to-links/"
+            },
+            {
+              "title": "Don’t Let Anyone Take Away Your Big Box of Cables",
+              "date": "2026-09-09",
+              "link": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "Why I Moved to Minnesota Draft 0",
+              "date": "2026-09-18",
+              "link": "https://www.simplermachines.com/why-i-moved-to-minnesota-draft-0/"
+            },
+            {
+              "title": "[NMD EXQ 27/60] Settling in",
+              "date": "2026-09-18",
+              "link": "https://www.simplermachines.com/nmd-exq-27-60-settling-in/"
+            },
+            {
+              "title": "Process Doesn't Matter",
+              "date": "2026-09-17",
+              "link": "https://www.simplermachines.com/process-doesnt-matter/"
+            },
+            {
+              "title": "[NMD EXQ 25/60] Mesquite smoke",
+              "date": "2026-09-15",
+              "link": "https://www.simplermachines.com/nmd-exq-25-60-mesquite-smoke/"
+            },
+            {
+              "title": "[NMD EXQ 24/60] Geometry",
+              "date": "2026-09-14",
+              "link": "https://www.simplermachines.com/nmd-exq-24-60-geometry/"
+            }
+          ]
+        },
+        {
           "title": "Eric Bailey",
           "feedUrl": "https://ericwbailey.website/feed/feed.xml",
           "items": [
@@ -97,37 +216,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "Process Doesn't Matter",
-              "date": "2026-09-17",
-              "link": "https://www.simplermachines.com/process-doesnt-matter/"
-            },
-            {
-              "title": "[NMD EXQ 25/60] Mesquite smoke",
-              "date": "2026-09-15",
-              "link": "https://www.simplermachines.com/nmd-exq-25-60-mesquite-smoke/"
-            },
-            {
-              "title": "[NMD EXQ 24/60] Geometry",
-              "date": "2026-09-14",
-              "link": "https://www.simplermachines.com/nmd-exq-24-60-geometry/"
-            },
-            {
-              "title": "[NMD EXQ 23/60] This is just to say -- squirrels",
-              "date": "2026-09-13",
-              "link": "https://www.simplermachines.com/nmd-exq-23-60-this-is-just-to-say-squirrels/"
-            },
-            {
-              "title": "[NMD EXQ 22/60] Temporary office, no internet",
-              "date": "2026-09-12",
-              "link": "https://www.simplermachines.com/nmd-exq-22-60-temporary-office-no-internet/"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -159,32 +247,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-09-16",
-              "link": "https://dbushell.com/notes/2026-09-16T05:01Z/"
-            },
-            {
-              "date": "2026-09-15",
-              "link": "https://dbushell.com/notes/2026-09-15T04:59Z/"
-            },
-            {
-              "date": "2026-09-14",
-              "link": "https://dbushell.com/notes/2026-09-14T14:05Z/"
-            },
-            {
-              "date": "2026-09-13",
-              "link": "https://dbushell.com/notes/2026-09-13T13:53Z/"
-            },
-            {
-              "date": "2026-09-13",
-              "link": "https://dbushell.com/notes/2026-09-13T11:02Z/"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -212,37 +274,6 @@
               "title": "I'm still alive",
               "date": "2026-07-14",
               "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Bottlenecks Get a Bad Rap",
-              "date": "2026-09-15",
-              "link": "https://blog.jim-nielsen.com/2026/bottlenecks/"
-            },
-            {
-              "title": "Preserving Netlify Analytics Data Beyond 30 Days",
-              "date": "2026-09-13",
-              "link": "https://blog.jim-nielsen.com/2026/preserving-netlify-analytics-data/"
-            },
-            {
-              "title": "An Ode to Links",
-              "date": "2026-09-10",
-              "link": "https://blog.jim-nielsen.com/2026/ode-to-links/"
-            },
-            {
-              "title": "Don’t Let Anyone Take Away Your Big Box of Cables",
-              "date": "2026-09-09",
-              "link": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/"
-            },
-            {
-              "title": "The Bulldozing of an Interface",
-              "date": "2026-09-08",
-              "link": "https://blog.jim-nielsen.com/2026/bulldoze-ui/"
             }
           ]
         },
@@ -336,37 +367,6 @@
               "title": "AI demands more engineering discipline. Not less",
               "date": "2026-06-15",
               "link": "https://charity.wtf/p/ai-demands-more-engineering-discipline"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "RSS Club #009: Domains",
-              "date": "2026-09-12",
-              "link": "https://dbushell.com/2026/09/12/RSS009/"
-            },
-            {
-              "title": "CodePen: exposed!",
-              "date": "2026-09-08",
-              "link": "https://dbushell.com/2026/09/08/codepen/"
-            },
-            {
-              "title": "Abattoirs of taste",
-              "date": "2026-09-04",
-              "link": "https://dbushell.com/2026/09/04/abattoirs-of-taste/"
-            },
-            {
-              "title": "Plagiarism ain’t cool bro :(",
-              "date": "2026-09-04",
-              "link": "https://dbushell.com/2026/09/04/plagiarism/"
-            },
-            {
-              "title": "Fine, I’ll build my own text editor!",
-              "date": "2026-09-01",
-              "link": "https://dbushell.com/2026/09/01/text-editor/"
             }
           ]
         },
@@ -805,6 +805,68 @@
           ]
         },
         {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Small things like these",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/small-things-like-these/"
+            },
+            {
+              "title": "Cybernetics and Ghosts",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/cybernetics-and-ghosts/"
+            },
+            {
+              "title": "The day of small things",
+              "date": "2026-08-15",
+              "link": "https://robinrendle.com/notes/the-day-of-small-things/"
+            },
+            {
+              "title": "Reading matters deeply",
+              "date": "2026-08-02",
+              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
+            },
+            {
+              "title": "Show me the work",
+              "date": "2026-08-01",
+              "link": "https://robinrendle.com/notes/show-me-the-work/"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "The Wicked Reason Removing Code Beats Better Scheduling",
+              "date": "2026-08-19",
+              "link": "https://infrequently.org/2026/08/notes-on-performance-remediation-strategies/"
+            },
+            {
+              "title": "The Absolute State of Management",
+              "date": "2026-07-23",
+              "link": "https://infrequently.org/2026/07/state-management/"
+            },
+            {
+              "title": "Abject Praise",
+              "date": "2026-07-06",
+              "link": "https://infrequently.org/2026/07/abject-praise/"
+            },
+            {
+              "title": "The Web Is An Antitrust Wedge",
+              "date": "2026-04-03",
+              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
+            },
+            {
+              "title": "Naked Power",
+              "date": "2026-01-20",
+              "link": "https://infrequently.org/2026/01/naked-power/"
+            }
+          ]
+        },
+        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -836,37 +898,6 @@
           ]
         },
         {
-          "title": "Pablo's logbook",
-          "feedUrl": "https://blog.codemanship.dev/rss.xml",
-          "items": [
-            {
-              "title": "The wrong unit",
-              "date": "2026-08-19",
-              "link": "https://blog.codemanship.dev/smaller-steps-six-ai-coding-agents"
-            },
-            {
-              "title": "Rant Code",
-              "date": "2026-04-17",
-              "link": "https://blog.codemanship.dev/rant-code"
-            },
-            {
-              "title": "Flow State",
-              "date": "2025-11-26",
-              "link": "https://blog.codemanship.dev/flow-state"
-            },
-            {
-              "title": "My code is a liar",
-              "date": "2025-11-20",
-              "link": "https://blog.codemanship.dev/my-code-is-a-liar"
-            },
-            {
-              "title": "Separating the important from the urgent",
-              "date": "2025-09-08",
-              "link": "https://blog.codemanship.dev/separating-the-important-from-the-urgent"
-            }
-          ]
-        },
-        {
           "title": "Coding Is Like Cooking",
           "feedUrl": "https://coding-is-like-cooking.info/feed/",
           "items": [
@@ -894,6 +925,37 @@
               "title": "It Doesn’t Help To Push AI Into A Crappy Process",
               "date": "2026-04-29",
               "link": "https://coding-is-like-cooking.info/2026/04/it-doesnt-help-to-push-ai-into-a-crappy-process/"
+            }
+          ]
+        },
+        {
+          "title": "Pablo's logbook",
+          "feedUrl": "https://blog.codemanship.dev/rss.xml",
+          "items": [
+            {
+              "title": "The wrong unit",
+              "date": "2026-08-19",
+              "link": "https://blog.codemanship.dev/smaller-steps-six-ai-coding-agents"
+            },
+            {
+              "title": "Rant Code",
+              "date": "2026-04-17",
+              "link": "https://blog.codemanship.dev/rant-code"
+            },
+            {
+              "title": "Flow State",
+              "date": "2025-11-26",
+              "link": "https://blog.codemanship.dev/flow-state"
+            },
+            {
+              "title": "My code is a liar",
+              "date": "2025-11-20",
+              "link": "https://blog.codemanship.dev/my-code-is-a-liar"
+            },
+            {
+              "title": "Separating the important from the urgent",
+              "date": "2025-09-08",
+              "link": "https://blog.codemanship.dev/separating-the-important-from-the-urgent"
             }
           ]
         },
@@ -2404,10 +2466,8 @@
       ]
     }
   ],
-  "fetchDate": "2026-09-18T07:57:16.870Z",
+  "fetchDate": "2026-09-19T07:47:39.345Z",
   "errors": [
-    "https://robinrendle.com/feed.xml",
-    "https://infrequently.org/feed/",
     "https://2ality.com/feeds/posts.atom",
     "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",

@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "The iPhone Model Hall of Fame",
+              "date": "2026-09-20",
+              "link": "https://blog.jim-nielsen.com/2026/iphone-hall-of-fame/"
+            },
+            {
+              "title": "Do You Prefer Artificial?",
+              "date": "2026-09-18",
+              "link": "https://blog.jim-nielsen.com/2026/who-wants-artificial/"
+            },
+            {
+              "title": "Bottlenecks Get a Bad Rap",
+              "date": "2026-09-15",
+              "link": "https://blog.jim-nielsen.com/2026/bottlenecks/"
+            },
+            {
+              "title": "Preserving Netlify Analytics Data Beyond 30 Days",
+              "date": "2026-09-13",
+              "link": "https://blog.jim-nielsen.com/2026/preserving-netlify-analytics-data/"
+            },
+            {
+              "title": "An Ode to Links",
+              "date": "2026-09-10",
+              "link": "https://blog.jim-nielsen.com/2026/ode-to-links/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Weeds can't grow where they can't take root",
+              "date": "2026-09-20",
+              "link": "https://gomakethings.com/articles/weeds-cant-grow-where-they-cant-take-root/"
+            },
             {
               "title": "Running a business made me hate capitalism",
               "date": "2026-09-19",
@@ -26,11 +62,68 @@
               "title": "Abolish patents",
               "date": "2026-09-13",
               "link": "https://gomakethings.com/articles/abolish-patents/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Notes - Thriving in complexity",
+              "date": "2026-09-20",
+              "link": "https://thinkinglabs.io/notes/2026/09/20/kandinsky-thriving-in-complexity-trond-hjorteland.html"
             },
             {
-              "title": "It's embarrassing",
-              "date": "2026-08-30",
-              "link": "https://gomakethings.com/articles/its-embarrassing/"
+              "title": "Beyond the Shades of Conway’s Law - Strategy: Reversing the Law",
+              "date": "2026-09-20",
+              "link": "https://thinkinglabs.io/articles/2026/09/20/beyond-shades-of-conways-law-strategy.html"
+            },
+            {
+              "title": "Beyond the Shades of Conway’s Law - Mechanics: The Mathematical &amp; Geometrical Shades",
+              "date": "2026-08-31",
+              "link": "https://thinkinglabs.io/articles/2026/08/31/beyond-shades-of-conways-law-mechanics.html"
+            },
+            {
+              "title": "Talks - Continuous Delivery! It is not what you think it is",
+              "date": "2026-08-28",
+              "link": "https://thinkinglabs.io/talks/2026/08/28/continuous-delivery-it-is-not-what-you-think-it-is.html"
+            },
+            {
+              "title": "Beyond the Shades of Conway’s Law - Validation: The Research &amp; Reality Check",
+              "date": "2026-06-20",
+              "link": "https://thinkinglabs.io/articles/2026/06/20/beyond-shades-of-conways-law-validation.html"
+            }
+          ]
+        },
+        {
+          "title": "Scattered Thoughts",
+          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
+          "items": [
+            {
+              "title": "0061: i'm not a cat, artificial adventures, synthetic sagas, anthropic, sponsors",
+              "date": "2026-09-20",
+              "link": "https://www.scattered-thoughts.net/log/0061/"
+            },
+            {
+              "title": "Synthetic sagas",
+              "date": "2026-09-20",
+              "link": "https://www.scattered-thoughts.net/writing/synthetic-sagas/"
+            },
+            {
+              "title": "Artificial adventures",
+              "date": "2026-07-01",
+              "link": "https://www.scattered-thoughts.net/writing/artificial-adventures/"
+            },
+            {
+              "title": "I'm not a cat",
+              "date": "2026-06-24",
+              "link": "https://www.scattered-thoughts.net/writing/im-not-a-cat/"
+            },
+            {
+              "title": "0060: SF",
+              "date": "2026-06-21",
+              "link": "https://www.scattered-thoughts.net/log/0060/"
             }
           ]
         },
@@ -88,37 +181,6 @@
               "title": "Plagiarism ain’t cool bro :(",
               "date": "2026-09-04",
               "link": "https://dbushell.com/2026/09/04/plagiarism/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Do You Prefer Artificial?",
-              "date": "2026-09-18",
-              "link": "https://blog.jim-nielsen.com/2026/who-wants-artificial/"
-            },
-            {
-              "title": "Bottlenecks Get a Bad Rap",
-              "date": "2026-09-15",
-              "link": "https://blog.jim-nielsen.com/2026/bottlenecks/"
-            },
-            {
-              "title": "Preserving Netlify Analytics Data Beyond 30 Days",
-              "date": "2026-09-13",
-              "link": "https://blog.jim-nielsen.com/2026/preserving-netlify-analytics-data/"
-            },
-            {
-              "title": "An Ode to Links",
-              "date": "2026-09-10",
-              "link": "https://blog.jim-nielsen.com/2026/ode-to-links/"
-            },
-            {
-              "title": "Don’t Let Anyone Take Away Your Big Box of Cables",
-              "date": "2026-09-09",
-              "link": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/"
             }
           ]
         },
@@ -712,37 +774,6 @@
           ]
         },
         {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "Beyond the Shades of Conway’s Law - Mechanics: The Mathematical &amp; Geometrical Shades",
-              "date": "2026-08-31",
-              "link": "https://thinkinglabs.io/articles/2026/08/31/beyond-shades-of-conways-law-mechanics.html"
-            },
-            {
-              "title": "Talks - Continuous Delivery! It is not what you think it is",
-              "date": "2026-08-28",
-              "link": "https://thinkinglabs.io/talks/2026/08/28/continuous-delivery-it-is-not-what-you-think-it-is.html"
-            },
-            {
-              "title": "Beyond the Shades of Conway’s Law - Validation: The Research &amp; Reality Check",
-              "date": "2026-06-20",
-              "link": "https://thinkinglabs.io/articles/2026/06/20/beyond-shades-of-conways-law-validation.html"
-            },
-            {
-              "title": "Beyond the Shades of Conway’s Law - Foundations: The Origin &amp; The Mirroring Principle",
-              "date": "2026-06-07",
-              "link": "https://thinkinglabs.io/articles/2026/06/07/beyond-shades-of-conways-law-foundations.html"
-            },
-            {
-              "title": "Notes - Optimising Continuous Delivery",
-              "date": "2026-05-24",
-              "link": "https://thinkinglabs.io/notes/2026/05/24/pipelineconf-optimising-continuous-delivery-dave-farley.html"
-            }
-          ]
-        },
-        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
@@ -867,33 +898,33 @@
           ]
         },
         {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
             {
-              "title": "The Wicked Reason Removing Code Beats Better Scheduling",
-              "date": "2026-08-19",
-              "link": "https://infrequently.org/2026/08/notes-on-performance-remediation-strategies/"
+              "title": "Small things like these",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/small-things-like-these/"
             },
             {
-              "title": "The Absolute State of Management",
-              "date": "2026-07-23",
-              "link": "https://infrequently.org/2026/07/state-management/"
+              "title": "Cybernetics and Ghosts",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/cybernetics-and-ghosts/"
             },
             {
-              "title": "Abject Praise",
-              "date": "2026-07-06",
-              "link": "https://infrequently.org/2026/07/abject-praise/"
+              "title": "The day of small things",
+              "date": "2026-08-15",
+              "link": "https://robinrendle.com/notes/the-day-of-small-things/"
             },
             {
-              "title": "The Web Is An Antitrust Wedge",
-              "date": "2026-04-03",
-              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
+              "title": "Reading matters deeply",
+              "date": "2026-08-02",
+              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
             },
             {
-              "title": "Naked Power",
-              "date": "2026-01-20",
-              "link": "https://infrequently.org/2026/01/naked-power/"
+              "title": "Show me the work",
+              "date": "2026-08-01",
+              "link": "https://robinrendle.com/notes/show-me-the-work/"
             }
           ]
         },
@@ -1239,37 +1270,6 @@
           ]
         },
         {
-          "title": "Musings about software",
-          "feedUrl": "https://www.softwaremaxims.com/feed.xml",
-          "items": [
-            {
-              "title": "Reviewing AI Code Is Not A Viable Argument",
-              "date": "2026-07-18",
-              "link": "https://softwaremaxims.com/blog/reviewing-ai-code"
-            },
-            {
-              "title": "The Hobbyist Maintainer Economic Gravity Well",
-              "date": "2026-01-11",
-              "link": "https://softwaremaxims.com/blog/hobbyist-gravity-well"
-            },
-            {
-              "title": "How FOSS Won and Why It Matters",
-              "date": "2025-11-16",
-              "link": "https://softwaremaxims.com/blog/how-foss-won-consequences"
-            },
-            {
-              "title": "You Are All On The Hobbyists Maintainers’ Turf Now",
-              "date": "2024-04-01",
-              "link": "https://softwaremaxims.com/blog/open-source-hobbyists-turf"
-            },
-            {
-              "title": "Where did the Rust go?",
-              "date": "2023-08-23",
-              "link": "https://softwaremaxims.com/blog/memory-safety-end-history"
-            }
-          ]
-        },
-        {
           "title": "apenwarr",
           "feedUrl": "https://apenwarr.ca/log/rss.php",
           "items": [
@@ -1328,37 +1328,6 @@
               "title": "📝 Little Blue Marble",
               "date": "2026-04-04",
               "link": "https://moonbase.lgbt/blog/little-blue-marble/"
-            }
-          ]
-        },
-        {
-          "title": "Scattered Thoughts",
-          "feedUrl": "https://www.scattered-thoughts.net/atom.xml",
-          "items": [
-            {
-              "title": "Artificial adventures",
-              "date": "2026-07-01",
-              "link": "https://www.scattered-thoughts.net/writing/artificial-adventures/"
-            },
-            {
-              "title": "I'm not a cat",
-              "date": "2026-06-24",
-              "link": "https://www.scattered-thoughts.net/writing/im-not-a-cat/"
-            },
-            {
-              "title": "0060: SF",
-              "date": "2026-06-21",
-              "link": "https://www.scattered-thoughts.net/log/0060/"
-            },
-            {
-              "title": "0059: NYC and SF?",
-              "date": "2026-06-05",
-              "link": "https://www.scattered-thoughts.net/log/0059/"
-            },
-            {
-              "title": "Borrow-checking without type-checking",
-              "date": "2026-04-22",
-              "link": "https://www.scattered-thoughts.net/writing/borrow-checking-without-type-checking/"
             }
           ]
         },
@@ -2404,14 +2373,15 @@
       ]
     }
   ],
-  "fetchDate": "2026-09-20T08:17:01.716Z",
+  "fetchDate": "2026-09-21T08:34:33.932Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://tis.so/feed.rss",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
+    "https://infrequently.org/feed/",
     "https://fynn.be/feed.xml",
-    "https://robinrendle.com/feed.xml"
+    "https://www.softwaremaxims.com/feed.xml"
   ]
 }

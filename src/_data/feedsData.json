@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "I said no and Apple said yes",
+              "date": "2026-09-22",
+              "link": "https://dbushell.com/2026/09/22/apple-intelligence/"
+            },
+            {
+              "title": "“Programming” monitor",
+              "date": "2026-09-18",
+              "link": "https://dbushell.com/2026/09/18/benq-rd280ug-review/"
+            },
+            {
+              "title": "RSS Club #009: Domains",
+              "date": "2026-09-12",
+              "link": "https://dbushell.com/2026/09/12/RSS009/"
+            },
+            {
+              "title": "CodePen: exposed!",
+              "date": "2026-09-08",
+              "link": "https://dbushell.com/2026/09/08/codepen/"
+            },
+            {
+              "title": "Abattoirs of taste",
+              "date": "2026-09-04",
+              "link": "https://dbushell.com/2026/09/04/abattoirs-of-taste/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
+            {
+              "title": "A Great Story Capturing the Essence of Being Online in 2026",
+              "date": "2026-09-21",
+              "link": "https://blog.jim-nielsen.com/2026/online-in-2026/"
+            },
             {
               "title": "The iPhone Model Hall of Fame",
               "date": "2026-09-20",
@@ -26,11 +62,68 @@
               "title": "Preserving Netlify Analytics Data Beyond 30 Days",
               "date": "2026-09-13",
               "link": "https://blog.jim-nielsen.com/2026/preserving-netlify-analytics-data/"
+            }
+          ]
+        },
+        {
+          "title": "charity.wtf",
+          "feedUrl": "https://charity.wtf/feed/",
+          "items": [
+            {
+              "title": "Where do AI norms come from?",
+              "date": "2026-09-21",
+              "link": "https://charity.wtf/p/where-do-ai-norms-come-from"
             },
             {
-              "title": "An Ode to Links",
-              "date": "2026-09-10",
-              "link": "https://blog.jim-nielsen.com/2026/ode-to-links/"
+              "title": "Confessions of an Unrepentant Slop Snob",
+              "date": "2026-09-14",
+              "link": "https://charity.wtf/p/confessions-of-an-unrepentant-slop"
+            },
+            {
+              "title": "Have you heard? Clickhouse is winning the observability wars!",
+              "date": "2026-07-08",
+              "link": "https://charity.wtf/p/have-you-heard-clickhouse-is-winning"
+            },
+            {
+              "title": "In defense of AI mandates",
+              "date": "2026-07-02",
+              "link": "https://charity.wtf/p/in-defense-of-ai-mandates"
+            },
+            {
+              "title": "Is it ethical to use AI?",
+              "date": "2026-06-24",
+              "link": "https://charity.wtf/p/make-ai-boring-again"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "From PrismJS to Better PrismJS to MicroLighter in Three Painless* Steps",
+              "date": "2026-09-20",
+              "link": "https://infrequently.org/2026/09/microlighter/"
+            },
+            {
+              "title": "The Wicked Reason Removing Code Beats Better Scheduling",
+              "date": "2026-08-19",
+              "link": "https://infrequently.org/2026/08/notes-on-performance-remediation-strategies/"
+            },
+            {
+              "title": "The Absolute State of Management",
+              "date": "2026-07-23",
+              "link": "https://infrequently.org/2026/07/state-management/"
+            },
+            {
+              "title": "Abject Praise",
+              "date": "2026-07-06",
+              "link": "https://infrequently.org/2026/07/abject-praise/"
+            },
+            {
+              "title": "The Web Is An Antitrust Wedge",
+              "date": "2026-04-03",
+              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
             }
           ]
         },
@@ -150,37 +243,6 @@
             {
               "date": "2026-09-14",
               "link": "https://dbushell.com/notes/2026-09-14T14:05Z/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "“Programming” monitor",
-              "date": "2026-09-18",
-              "link": "https://dbushell.com/2026/09/18/benq-rd280ug-review/"
-            },
-            {
-              "title": "RSS Club #009: Domains",
-              "date": "2026-09-12",
-              "link": "https://dbushell.com/2026/09/12/RSS009/"
-            },
-            {
-              "title": "CodePen: exposed!",
-              "date": "2026-09-08",
-              "link": "https://dbushell.com/2026/09/08/codepen/"
-            },
-            {
-              "title": "Abattoirs of taste",
-              "date": "2026-09-04",
-              "link": "https://dbushell.com/2026/09/04/abattoirs-of-taste/"
-            },
-            {
-              "title": "Plagiarism ain’t cool bro :(",
-              "date": "2026-09-04",
-              "link": "https://dbushell.com/2026/09/04/plagiarism/"
             }
           ]
         },
@@ -429,37 +491,6 @@
               "title": "Easy DIY Game Table",
               "date": "2026-02-25",
               "link": "https://www.jamesshore.com/v2/projects/easy-diy-game-table"
-            }
-          ]
-        },
-        {
-          "title": "charity.wtf",
-          "feedUrl": "https://charity.wtf/feed/",
-          "items": [
-            {
-              "title": "Confessions of an Unrepentant Slop Snob",
-              "date": "2026-09-14",
-              "link": "https://charity.wtf/p/confessions-of-an-unrepentant-slop"
-            },
-            {
-              "title": "Have you heard? Clickhouse is winning the observability wars!",
-              "date": "2026-07-08",
-              "link": "https://charity.wtf/p/have-you-heard-clickhouse-is-winning"
-            },
-            {
-              "title": "In defense of AI mandates",
-              "date": "2026-07-02",
-              "link": "https://charity.wtf/p/in-defense-of-ai-mandates"
-            },
-            {
-              "title": "Is it ethical to use AI?",
-              "date": "2026-06-24",
-              "link": "https://charity.wtf/p/make-ai-boring-again"
-            },
-            {
-              "title": "AI demands more engineering discipline. Not less",
-              "date": "2026-06-15",
-              "link": "https://charity.wtf/p/ai-demands-more-engineering-discipline"
             }
           ]
         },
@@ -1022,37 +1053,6 @@
           ]
         },
         {
-          "title": "That HTML Blog",
-          "feedUrl": "https://thathtml.blog/feed.xml",
-          "items": [
-            {
-              "title": "So Many Ways to Design Systematize a Component",
-              "date": "2026-08-16",
-              "link": "https://thathtml.blog/2026/08/design-systematize-a-component/"
-            },
-            {
-              "title": "Liquid Glass 2.0 in CSS (Aqua’s Revenge)",
-              "date": "2026-07-30",
-              "link": "https://thathtml.blog/2026/07/liquid-glass-in-css-liquid-aqua/"
-            },
-            {
-              "title": "Cross-Document State Management (An In-Depth Tutorial)",
-              "date": "2026-06-08",
-              "link": "https://thathtml.blog/2026/06/cross-document-state-management/"
-            },
-            {
-              "title": "Designing an Autogenerated Live Color Scale in CSS",
-              "date": "2026-06-03",
-              "link": "https://thathtml.blog/2026/06/building-a-generated-color-scheme/"
-            },
-            {
-              "title": "The Best Introduction Guide to SVG You Will Read",
-              "date": "2026-05-01",
-              "link": "https://thathtml.blog/2026/05/best-svg-intro-guide/"
-            }
-          ]
-        },
-        {
           "title": "annie's blog",
           "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
@@ -1266,6 +1266,37 @@
               "title": "Testing Vue components in the browser",
               "date": "2026-05-02",
               "link": "https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/"
+            }
+          ]
+        },
+        {
+          "title": "Musings about software",
+          "feedUrl": "https://www.softwaremaxims.com/feed.xml",
+          "items": [
+            {
+              "title": "Reviewing AI Code Is Not A Viable Argument",
+              "date": "2026-07-18",
+              "link": "https://softwaremaxims.com/blog/reviewing-ai-code"
+            },
+            {
+              "title": "The Hobbyist Maintainer Economic Gravity Well",
+              "date": "2026-01-11",
+              "link": "https://softwaremaxims.com/blog/hobbyist-gravity-well"
+            },
+            {
+              "title": "How FOSS Won and Why It Matters",
+              "date": "2025-11-16",
+              "link": "https://softwaremaxims.com/blog/how-foss-won-consequences"
+            },
+            {
+              "title": "You Are All On The Hobbyists Maintainers’ Turf Now",
+              "date": "2024-04-01",
+              "link": "https://softwaremaxims.com/blog/open-source-hobbyists-turf"
+            },
+            {
+              "title": "Where did the Rust go?",
+              "date": "2023-08-23",
+              "link": "https://softwaremaxims.com/blog/memory-safety-end-history"
             }
           ]
         },
@@ -2040,37 +2071,6 @@
           ]
         },
         {
-          "title": "Untested · Rafał Pastuszak",
-          "feedUrl": "https://untested.sonnet.io/feed.xml",
-          "items": [
-            {
-              "title": "DISOBEY",
-              "date": "2025-09-23",
-              "link": "https://untested.sonnet.io/notes/disobey/"
-            },
-            {
-              "title": "Ensō Themes – Accessible, Vampiric, Cozy",
-              "date": "2025-09-12",
-              "link": "https://untested.sonnet.io/notes/enso-themes-accessible-vampiric-cozy/"
-            },
-            {
-              "title": "433 - How to Make a Font that Says Nothing",
-              "date": "2025-07-22",
-              "link": "https://untested.sonnet.io/notes/433-how-to-make-a-font-that-says-nothing/"
-            },
-            {
-              "title": "How People Use Ensō",
-              "date": "2025-07-04",
-              "link": "https://untested.sonnet.io/notes/how-people-use-enso/"
-            },
-            {
-              "title": "New Ensō - first public beta",
-              "date": "2025-06-27",
-              "link": "https://untested.sonnet.io/notes/new-enso-first-public-beta/"
-            }
-          ]
-        },
-        {
           "title": "Alexis King’s Blog",
           "feedUrl": "https://lexi-lambda.github.io/feeds/all.atom.xml",
           "items": [
@@ -2373,15 +2373,15 @@
       ]
     }
   ],
-  "fetchDate": "2026-09-21T08:34:33.932Z",
+  "fetchDate": "2026-09-22T08:13:38.444Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://tis.so/feed.rss",
     "https://angryweasel.substack.com/feed",
+    "https://thathtml.blog/feed.xml",
     "https://mikegrindle.com/feed.xml",
-    "https://infrequently.org/feed/",
     "https://fynn.be/feed.xml",
-    "https://www.softwaremaxims.com/feed.xml"
+    "https://untested.sonnet.io/feed.xml"
   ]
 }

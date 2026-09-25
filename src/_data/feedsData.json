@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "What is a Text?",
+              "date": "2026-09-24",
+              "link": "https://www.simplermachines.com/what-is-a-text/"
+            },
+            {
+              "title": "[NMD EXQ 30/60] Tools for living",
+              "date": "2026-09-24",
+              "link": "https://www.simplermachines.com/nmd-exq-30-60-tools-for-living/"
+            },
+            {
+              "title": "Why I Moved to Minnesota Draft 0",
+              "date": "2026-09-18",
+              "link": "https://www.simplermachines.com/why-i-moved-to-minnesota-draft-0/"
+            },
+            {
+              "title": "[NMD EXQ 27/60] Settling in",
+              "date": "2026-09-18",
+              "link": "https://www.simplermachines.com/nmd-exq-27-60-settling-in/"
+            },
+            {
+              "title": "Process Doesn't Matter",
+              "date": "2026-09-17",
+              "link": "https://www.simplermachines.com/process-doesnt-matter/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -367,37 +398,6 @@
               "title": "0060: SF",
               "date": "2026-06-21",
               "link": "https://www.scattered-thoughts.net/log/0060/"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "Why I Moved to Minnesota Draft 0",
-              "date": "2026-09-18",
-              "link": "https://www.simplermachines.com/why-i-moved-to-minnesota-draft-0/"
-            },
-            {
-              "title": "[NMD EXQ 27/60] Settling in",
-              "date": "2026-09-18",
-              "link": "https://www.simplermachines.com/nmd-exq-27-60-settling-in/"
-            },
-            {
-              "title": "Process Doesn't Matter",
-              "date": "2026-09-17",
-              "link": "https://www.simplermachines.com/process-doesnt-matter/"
-            },
-            {
-              "title": "[NMD EXQ 25/60] Mesquite smoke",
-              "date": "2026-09-15",
-              "link": "https://www.simplermachines.com/nmd-exq-25-60-mesquite-smoke/"
-            },
-            {
-              "title": "[NMD EXQ 24/60] Geometry",
-              "date": "2026-09-14",
-              "link": "https://www.simplermachines.com/nmd-exq-24-60-geometry/"
             }
           ]
         },
@@ -2435,7 +2435,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-09-24T08:07:04.469Z",
+  "fetchDate": "2026-09-25T08:30:41.835Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

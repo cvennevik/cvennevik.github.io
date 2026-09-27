@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "The Ticket Is Not The Work",
+              "date": "2026-09-26",
+              "link": "http://agileotter.blogspot.com/2026/09/the-ticket-is-not-work.html"
+            },
+            {
+              "title": "Spreadsheets",
+              "date": "2026-08-26",
+              "link": "http://agileotter.blogspot.com/2026/08/spreadsheets.html"
+            },
+            {
+              "title": "Eight Code Virtues",
+              "date": "2026-08-19",
+              "link": "http://agileotter.blogspot.com/2026/08/eight-code-virtues-draft.html"
+            },
+            {
+              "title": "Progressive Admission Pattern - story slicing",
+              "date": "2026-08-11",
+              "link": "http://agileotter.blogspot.com/2026/08/progressive-admission-pattern-for-data.html"
+            },
+            {
+              "title": "2006 \"Sooner Not Faster\" article",
+              "date": "2026-07-15",
+              "link": "http://agileotter.blogspot.com/2026/07/2006-sooner-not-faster-article.html"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 32/60] Yes -- it's chairs",
+              "date": "2026-09-26",
+              "link": "https://www.simplermachines.com/nmd-exq-32-60-yes-its-chairs/"
+            },
+            {
+              "title": "[NMD EXQ 31/60] My beautiful tomato children",
+              "date": "2026-09-25",
+              "link": "https://www.simplermachines.com/nmd-exq-31-60-my-beautiful-tomato-children/"
+            },
+            {
+              "title": "What is a Text?",
+              "date": "2026-09-24",
+              "link": "https://www.simplermachines.com/what-is-a-text/"
+            },
+            {
+              "title": "[NMD EXQ 30/60] Tools for living",
+              "date": "2026-09-24",
+              "link": "https://www.simplermachines.com/nmd-exq-30-60-tools-for-living/"
+            },
+            {
+              "title": "Why I Moved to Minnesota Draft 0",
+              "date": "2026-09-18",
+              "link": "https://www.simplermachines.com/why-i-moved-to-minnesota-draft-0/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -62,37 +124,6 @@
               "title": "Do You Prefer Artificial?",
               "date": "2026-09-18",
               "link": "https://blog.jim-nielsen.com/2026/who-wants-artificial/"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[NMD EXQ 31/60] My beautiful tomato children",
-              "date": "2026-09-25",
-              "link": "https://www.simplermachines.com/nmd-exq-31-60-my-beautiful-tomato-children/"
-            },
-            {
-              "title": "What is a Text?",
-              "date": "2026-09-24",
-              "link": "https://www.simplermachines.com/what-is-a-text/"
-            },
-            {
-              "title": "[NMD EXQ 30/60] Tools for living",
-              "date": "2026-09-24",
-              "link": "https://www.simplermachines.com/nmd-exq-30-60-tools-for-living/"
-            },
-            {
-              "title": "Why I Moved to Minnesota Draft 0",
-              "date": "2026-09-18",
-              "link": "https://www.simplermachines.com/why-i-moved-to-minnesota-draft-0/"
-            },
-            {
-              "title": "[NMD EXQ 27/60] Settling in",
-              "date": "2026-09-18",
-              "link": "https://www.simplermachines.com/nmd-exq-27-60-settling-in/"
             }
           ]
         },
@@ -433,37 +464,6 @@
           ]
         },
         {
-          "title": "fLaMEd fury",
-          "feedUrl": "https://flamedfury.com/feed.xml",
-          "items": [
-            {
-              "title": "What a time to be alive",
-              "date": "2026-09-18",
-              "link": "https://flamedfury.com/posts/what-a-time-to-be-alive/"
-            },
-            {
-              "title": "London Hardhouse Reunion 2026",
-              "date": "2026-09-18",
-              "link": "https://flamedfury.com/posts/london-hardhouse-reunion-2026/"
-            },
-            {
-              "title": "Open Tabs August 2026",
-              "date": "2026-09-18",
-              "link": "https://flamedfury.com/posts/open-tabs-august-2026/"
-            },
-            {
-              "title": "Beervana 2026",
-              "date": "2026-09-18",
-              "link": "https://flamedfury.com/posts/beervana-2026/"
-            },
-            {
-              "title": "Skiing in Tūroa",
-              "date": "2026-09-07",
-              "link": "https://flamedfury.com/posts/skiing-in-turoa/"
-            }
-          ]
-        },
-        {
           "title": "Joep Schuurkes",
           "feedUrl": "https://smallsheds.garden/blog/feed.atom",
           "items": [
@@ -491,6 +491,37 @@
               "title": "It's clearly a bug, but what is the bug exactly?",
               "date": "2026-03-07",
               "link": "https://smallsheds.garden/blog/2026/its-clearly-a-bug-but-what-is-the-bug-exactly/"
+            }
+          ]
+        },
+        {
+          "title": "fLaMEd fury",
+          "feedUrl": "https://flamedfury.com/feed.xml",
+          "items": [
+            {
+              "title": "What a time to be alive",
+              "date": "2026-09-18",
+              "link": "https://flamedfury.com/posts/what-a-time-to-be-alive/"
+            },
+            {
+              "title": "London Hardhouse Reunion 2026",
+              "date": "2026-09-18",
+              "link": "https://flamedfury.com/posts/london-hardhouse-reunion-2026/"
+            },
+            {
+              "title": "Open Tabs August 2026",
+              "date": "2026-09-18",
+              "link": "https://flamedfury.com/posts/open-tabs-august-2026/"
+            },
+            {
+              "title": "Beervana 2026",
+              "date": "2026-09-18",
+              "link": "https://flamedfury.com/posts/beervana-2026/"
+            },
+            {
+              "title": "Skiing in Tūroa",
+              "date": "2026-09-07",
+              "link": "https://flamedfury.com/posts/skiing-in-turoa/"
             }
           ]
         },
@@ -863,37 +894,6 @@
               "title": "Recently",
               "date": "2026-07-01",
               "link": "https://macwright.com/2026/07/01/recently.html"
-            }
-          ]
-        },
-        {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Spreadsheets",
-              "date": "2026-08-26",
-              "link": "http://agileotter.blogspot.com/2026/08/spreadsheets.html"
-            },
-            {
-              "title": "Eight Code Virtues",
-              "date": "2026-08-19",
-              "link": "http://agileotter.blogspot.com/2026/08/eight-code-virtues-draft.html"
-            },
-            {
-              "title": "Progressive Admission Pattern - story slicing",
-              "date": "2026-08-11",
-              "link": "http://agileotter.blogspot.com/2026/08/progressive-admission-pattern-for-data.html"
-            },
-            {
-              "title": "2006 \"Sooner Not Faster\" article",
-              "date": "2026-07-15",
-              "link": "http://agileotter.blogspot.com/2026/07/2006-sooner-not-faster-article.html"
-            },
-            {
-              "title": "Do agents think you're doing agile wrong?",
-              "date": "2026-06-16",
-              "link": "http://agileotter.blogspot.com/2026/06/do-agents-think-youre-doing-agile-wrong.html"
             }
           ]
         },
@@ -2435,7 +2435,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-09-26T08:17:35.011Z",
+  "fetchDate": "2026-09-27T08:55:03.413Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

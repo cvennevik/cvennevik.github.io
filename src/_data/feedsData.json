@@ -4,6 +4,32 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-09-29",
+              "link": "https://dbushell.com/notes/2026-09-29T04:40Z/"
+            },
+            {
+              "date": "2026-09-28",
+              "link": "https://dbushell.com/notes/2026-09-28T08:15Z/"
+            },
+            {
+              "date": "2026-09-28",
+              "link": "https://dbushell.com/notes/2026-09-28T05:49Z/"
+            },
+            {
+              "date": "2026-09-24",
+              "link": "https://dbushell.com/notes/2026-09-24T05:10Z/"
+            },
+            {
+              "date": "2026-09-22",
+              "link": "https://dbushell.com/notes/2026-09-22T18:36Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -35,28 +61,157 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
             {
+              "title": "Old winter photos revisited",
               "date": "2026-09-28",
-              "link": "https://dbushell.com/notes/2026-09-28T08:15Z/"
+              "link": "https://www.baldurbjarnason.com/notes/photos/old-winter-photos-revisited/"
             },
             {
+              "title": "Parasocial media: why influencers really aren't your friend",
               "date": "2026-09-28",
-              "link": "https://dbushell.com/notes/2026-09-28T05:49Z/"
+              "link": "https://www.baldurbjarnason.com/2026/04-parasocial-relationships/"
             },
             {
-              "date": "2026-09-24",
-              "link": "https://dbushell.com/notes/2026-09-24T05:10Z/"
-            },
-            {
+              "title": "Why is social media so humourless?",
               "date": "2026-09-22",
-              "link": "https://dbushell.com/notes/2026-09-22T18:36Z/"
+              "link": "https://www.baldurbjarnason.com/2026/03-why-is-social-media-so-humourless/"
             },
             {
-              "date": "2026-09-19",
-              "link": "https://dbushell.com/notes/2026-09-19T06:00Z/"
+              "title": "Old foggy photos revisited",
+              "date": "2026-09-22",
+              "link": "https://www.baldurbjarnason.com/notes/photos/old-foggy-photos-revisited/"
+            },
+            {
+              "title": "Why are short videos bad for learning?",
+              "date": "2026-09-17",
+              "link": "https://www.baldurbjarnason.com/2026/02-why-are-short-videos-bad-for-learning/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "#Corpowid and #Skynet Technologies Will Get You Sued",
+              "date": "2026-09-28",
+              "link": "https://adrianroselli.com/2026/09/corpowid-and-skynet-technologies-will-get-you-sued.html"
+            },
+            {
+              "title": "Support for `headers` Attribute",
+              "date": "2026-09-08",
+              "link": "https://adrianroselli.com/2026/09/support-for-headers-attribute.html"
+            },
+            {
+              "title": "Evaluating a Success Criterion",
+              "date": "2026-09-01",
+              "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
+            },
+            {
+              "title": "The 2.1.1 “specific timings” Clause",
+              "date": "2026-08-26",
+              "link": "https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html"
+            },
+            {
+              "title": "Should a Dialog Close When Clicked Outside?",
+              "date": "2026-08-12",
+              "link": "https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Small Decisions: Engineering a Leading Model",
+              "date": "2026-09-28",
+              "link": "http://brooker.co.za/blog/2026/09/28/engineering-system-one.html"
+            },
+            {
+              "title": "Lorenz and Little: How Much Does Your Tail Cost?",
+              "date": "2026-07-29",
+              "link": "http://brooker.co.za/blog/2026/07/29/lorenz-and-little.html"
+            },
+            {
+              "title": "Aurora DSQL: Scalable, Multi-Region OLTP",
+              "date": "2026-07-19",
+              "link": "http://brooker.co.za/blog/2026/07/19/dsql-paper.html"
+            },
+            {
+              "title": "Meet Alice. Alice is impatient.",
+              "date": "2026-06-19",
+              "link": "http://brooker.co.za/blog/2026/06/19/waiting.html"
+            },
+            {
+              "title": "Is this blog written by AI?",
+              "date": "2026-06-18",
+              "link": "http://brooker.co.za/blog/2026/06/18/my-blog-and-ai.html"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 33/60] Another shot of geometry",
+              "date": "2026-09-28",
+              "link": "https://www.simplermachines.com/nmd-exq-33-60-another-shot-of-geometry/"
+            },
+            {
+              "title": "[NMD EXQ 33/60] Mildly mid-century",
+              "date": "2026-09-27",
+              "link": "https://www.simplermachines.com/nmd-exq-33-60-mildly-mid-century/"
+            },
+            {
+              "title": "[NMD EXQ 32/60] Yes -- it's chairs",
+              "date": "2026-09-26",
+              "link": "https://www.simplermachines.com/nmd-exq-32-60-yes-its-chairs/"
+            },
+            {
+              "title": "[NMD EXQ 31/60] My beautiful tomato children",
+              "date": "2026-09-25",
+              "link": "https://www.simplermachines.com/nmd-exq-31-60-my-beautiful-tomato-children/"
+            },
+            {
+              "title": "What is a Text?",
+              "date": "2026-09-24",
+              "link": "https://www.simplermachines.com/what-is-a-text/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Continuous Compliance",
+              "date": "2026-09-28",
+              "link": "https://thinkinglabs.io/articles/2026/09/28/continuous-compliance.html"
+            },
+            {
+              "title": "Notes - Continuous Compliance",
+              "date": "2026-09-27",
+              "link": "https://thinkinglabs.io/notes/2026/09/27/socrates-2026-continuous-compliance.html"
+            },
+            {
+              "title": "Notes - Thriving in complexity",
+              "date": "2026-09-20",
+              "link": "https://thinkinglabs.io/notes/2026/09/20/kandinsky-thriving-in-complexity-trond-hjorteland.html"
+            },
+            {
+              "title": "Beyond the Shades of Conway’s Law - Strategy: Reversing the Law",
+              "date": "2026-09-20",
+              "link": "https://thinkinglabs.io/articles/2026/09/20/beyond-shades-of-conways-law-strategy.html"
+            },
+            {
+              "title": "Beyond the Shades of Conway’s Law - Mechanics: The Mathematical &amp; Geometrical Shades",
+              "date": "2026-08-31",
+              "link": "https://thinkinglabs.io/articles/2026/08/31/beyond-shades-of-conways-law-mechanics.html"
             }
           ]
         },
@@ -154,64 +309,33 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
+          "title": "annie's blog",
+          "feedUrl": "https://anniemueller.com/posts_feed",
           "items": [
             {
-              "title": "[NMD EXQ 33/60] Mildly mid-century",
+              "title": "I can wear a sweater // W39",
               "date": "2026-09-27",
-              "link": "https://www.simplermachines.com/nmd-exq-33-60-mildly-mid-century/"
+              "link": "https://anniemueller.com/posts/i-can-wear-a-sweater-w39"
             },
             {
-              "title": "[NMD EXQ 32/60] Yes -- it's chairs",
-              "date": "2026-09-26",
-              "link": "https://www.simplermachines.com/nmd-exq-32-60-yes-its-chairs/"
+              "title": "Waiting to be found by only you",
+              "date": "2026-08-04",
+              "link": "https://anniemueller.com/posts/waiting-to-be-found-by-only-you"
             },
             {
-              "title": "[NMD EXQ 31/60] My beautiful tomato children",
-              "date": "2026-09-25",
-              "link": "https://www.simplermachines.com/nmd-exq-31-60-my-beautiful-tomato-children/"
+              "title": "I have no idea who celebrities are anymore ",
+              "date": "2026-07-14",
+              "link": "https://anniemueller.com/posts/i-have-no-idea-who-celebrities-are-anymore"
             },
             {
-              "title": "What is a Text?",
-              "date": "2026-09-24",
-              "link": "https://www.simplermachines.com/what-is-a-text/"
+              "title": "Exclamatory birthday edition // W26",
+              "date": "2026-06-29",
+              "link": "https://anniemueller.com/posts/exclamatory-birthday-edition-w26"
             },
             {
-              "title": "[NMD EXQ 30/60] Tools for living",
-              "date": "2026-09-24",
-              "link": "https://www.simplermachines.com/nmd-exq-30-60-tools-for-living/"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "Notes - Continuous Compliance",
-              "date": "2026-09-27",
-              "link": "https://thinkinglabs.io/notes/2026/09/27/socrates-2026-continuous-compliance.html"
-            },
-            {
-              "title": "Notes - Thriving in complexity",
-              "date": "2026-09-20",
-              "link": "https://thinkinglabs.io/notes/2026/09/20/kandinsky-thriving-in-complexity-trond-hjorteland.html"
-            },
-            {
-              "title": "Beyond the Shades of Conway’s Law - Strategy: Reversing the Law",
-              "date": "2026-09-20",
-              "link": "https://thinkinglabs.io/articles/2026/09/20/beyond-shades-of-conways-law-strategy.html"
-            },
-            {
-              "title": "Beyond the Shades of Conway’s Law - Mechanics: The Mathematical &amp; Geometrical Shades",
-              "date": "2026-08-31",
-              "link": "https://thinkinglabs.io/articles/2026/08/31/beyond-shades-of-conways-law-mechanics.html"
-            },
-            {
-              "title": "Talks - Continuous Delivery! It is not what you think it is",
-              "date": "2026-08-28",
-              "link": "https://thinkinglabs.io/talks/2026/08/28/continuous-delivery-it-is-not-what-you-think-it-is.html"
+              "title": "A bundle of bones // W24 + 25",
+              "date": "2026-06-24",
+              "link": "https://anniemueller.com/posts/a-bundle-of-bones-w24-plus-25"
             }
           ]
         },
@@ -243,37 +367,6 @@
               "title": "There's a huge difference between",
               "date": "2025-11-09",
               "link": "https://draganstepanovic.com/2025/11/09/there-is-a-huge-difference.html"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "I can wear a sweater // W39",
-              "date": "2026-09-27",
-              "link": "https://anniemueller.com/posts/i-can-wear-a-sweater-w39"
-            },
-            {
-              "title": "Waiting to be found by only you",
-              "date": "2026-08-04",
-              "link": "https://anniemueller.com/posts/waiting-to-be-found-by-only-you"
-            },
-            {
-              "title": "I have no idea who celebrities are anymore ",
-              "date": "2026-07-14",
-              "link": "https://anniemueller.com/posts/i-have-no-idea-who-celebrities-are-anymore"
-            },
-            {
-              "title": "Exclamatory birthday edition // W26",
-              "date": "2026-06-29",
-              "link": "https://anniemueller.com/posts/exclamatory-birthday-edition-w26"
-            },
-            {
-              "title": "A bundle of bones // W24 + 25",
-              "date": "2026-06-24",
-              "link": "https://anniemueller.com/posts/a-bundle-of-bones-w24-plus-25"
             }
           ]
         },
@@ -367,37 +460,6 @@
               "title": "The Death of the Senior Dev? How Agentic Workflows Changed EVERYTHING in 2026",
               "date": "2026-05-27",
               "link": "https://coding-is-like-cooking.info/2026/05/the-death-of-the-senior-dev-how-agentic-workflows-changed-everything-in-2026/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Why is social media so humourless?",
-              "date": "2026-09-22",
-              "link": "https://www.baldurbjarnason.com/2026/03-why-is-social-media-so-humourless/"
-            },
-            {
-              "title": "Old foggy photos revisited",
-              "date": "2026-09-22",
-              "link": "https://www.baldurbjarnason.com/notes/photos/old-foggy-photos-revisited/"
-            },
-            {
-              "title": "Why are short videos bad for learning?",
-              "date": "2026-09-17",
-              "link": "https://www.baldurbjarnason.com/2026/02-why-are-short-videos-bad-for-learning/"
-            },
-            {
-              "title": "Black and white archive photos",
-              "date": "2026-09-17",
-              "link": "https://www.baldurbjarnason.com/notes/photos/black-and-white-archive-photos-2026/"
-            },
-            {
-              "title": "Getting out of your own way when making video",
-              "date": "2026-09-14",
-              "link": "https://www.baldurbjarnason.com/2026/getting-out-of-your-own-way/"
             }
           ]
         },
@@ -836,37 +898,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "Support for `headers` Attribute",
-              "date": "2026-09-08",
-              "link": "https://adrianroselli.com/2026/09/support-for-headers-attribute.html"
-            },
-            {
-              "title": "Evaluating a Success Criterion",
-              "date": "2026-09-01",
-              "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
-            },
-            {
-              "title": "The 2.1.1 “specific timings” Clause",
-              "date": "2026-08-26",
-              "link": "https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html"
-            },
-            {
-              "title": "Should a Dialog Close When Clicked Outside?",
-              "date": "2026-08-12",
-              "link": "https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html"
-            },
-            {
-              "title": "Link + Popover Navigation",
-              "date": "2026-07-09",
-              "link": "https://adrianroselli.com/2026/07/link-popover-navigation.html"
-            }
-          ]
-        },
-        {
           "title": "A Tester's Journey",
           "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
           "items": [
@@ -1266,37 +1297,6 @@
               "title": "Cool URLs don’t change with snapshot testing",
               "date": "2026-01-25",
               "link": "https://leanrada.com/notes/cool-urls-with-snapshot-testing/?ref=rss"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Lorenz and Little: How Much Does Your Tail Cost?",
-              "date": "2026-07-29",
-              "link": "http://brooker.co.za/blog/2026/07/29/lorenz-and-little.html"
-            },
-            {
-              "title": "Aurora DSQL: Scalable, Multi-Region OLTP",
-              "date": "2026-07-19",
-              "link": "http://brooker.co.za/blog/2026/07/19/dsql-paper.html"
-            },
-            {
-              "title": "Meet Alice. Alice is impatient.",
-              "date": "2026-06-19",
-              "link": "http://brooker.co.za/blog/2026/06/19/waiting.html"
-            },
-            {
-              "title": "Is this blog written by AI?",
-              "date": "2026-06-18",
-              "link": "http://brooker.co.za/blog/2026/06/18/my-blog-and-ai.html"
-            },
-            {
-              "title": "Agentic software development hypothesis",
-              "date": "2026-05-20",
-              "link": "http://brooker.co.za/blog/2026/05/20/hypothesis.html"
             }
           ]
         },
@@ -2435,7 +2435,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-09-28T09:20:15.132Z",
+  "fetchDate": "2026-09-29T09:26:45.836Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

@@ -4,6 +4,32 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-10-02",
+              "link": "https://dbushell.com/notes/2026-10-02T17:01Z/"
+            },
+            {
+              "date": "2026-09-29",
+              "link": "https://dbushell.com/notes/2026-09-29T04:40Z/"
+            },
+            {
+              "date": "2026-09-28",
+              "link": "https://dbushell.com/notes/2026-09-28T08:15Z/"
+            },
+            {
+              "date": "2026-09-28",
+              "link": "https://dbushell.com/notes/2026-09-28T05:49Z/"
+            },
+            {
+              "date": "2026-09-24",
+              "link": "https://dbushell.com/notes/2026-09-24T05:10Z/"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -217,32 +243,6 @@
               "title": "Are You Getting Your Money’s Worth from AI?",
               "date": "2026-09-08",
               "link": "https://www.jamesshore.com/v2/blog/2026/are-you-getting-your-moneys-worth-from-ai"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-09-29",
-              "link": "https://dbushell.com/notes/2026-09-29T04:40Z/"
-            },
-            {
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/notes/2026-09-28T08:15Z/"
-            },
-            {
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/notes/2026-09-28T05:49Z/"
-            },
-            {
-              "date": "2026-09-24",
-              "link": "https://dbushell.com/notes/2026-09-24T05:10Z/"
-            },
-            {
-              "date": "2026-09-22",
-              "link": "https://dbushell.com/notes/2026-09-22T18:36Z/"
             }
           ]
         },
@@ -615,6 +615,37 @@
               "title": "Is it ethical to use AI?",
               "date": "2026-06-24",
               "link": "https://charity.wtf/p/make-ai-boring-again"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "From PrismJS to Better PrismJS to MicroLighter in Three Painless* Steps",
+              "date": "2026-09-20",
+              "link": "https://infrequently.org/2026/09/microlighter/"
+            },
+            {
+              "title": "The Wicked Reason Removing Code Beats Better Scheduling",
+              "date": "2026-08-19",
+              "link": "https://infrequently.org/2026/08/notes-on-performance-remediation-strategies/"
+            },
+            {
+              "title": "The Absolute State of Management",
+              "date": "2026-07-23",
+              "link": "https://infrequently.org/2026/07/state-management/"
+            },
+            {
+              "title": "Abject Praise",
+              "date": "2026-07-06",
+              "link": "https://infrequently.org/2026/07/abject-praise/"
+            },
+            {
+              "title": "The Web Is An Antitrust Wedge",
+              "date": "2026-04-03",
+              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
             }
           ]
         },
@@ -1111,6 +1142,37 @@
               "title": "When everybody's down, nobody is",
               "date": "2025-10-23",
               "link": "https://newsletter.goodtechthings.com/p/when-everybodys-down-nobody-is"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "Small things like these",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/small-things-like-these/"
+            },
+            {
+              "title": "Cybernetics and Ghosts",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/cybernetics-and-ghosts/"
+            },
+            {
+              "title": "The day of small things",
+              "date": "2026-08-15",
+              "link": "https://robinrendle.com/notes/the-day-of-small-things/"
+            },
+            {
+              "title": "Reading matters deeply",
+              "date": "2026-08-02",
+              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
+            },
+            {
+              "title": "Show me the work",
+              "date": "2026-08-01",
+              "link": "https://robinrendle.com/notes/show-me-the-work/"
             }
           ]
         },
@@ -2404,10 +2466,8 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-02T09:19:28.642Z",
+  "fetchDate": "2026-10-03T08:50:52.453Z",
   "errors": [
-    "https://infrequently.org/feed/",
-    "https://robinrendle.com/feed.xml",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",

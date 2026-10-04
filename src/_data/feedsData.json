@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Friendship ended with Deno, now Node is my best friend",
+              "date": "2026-10-03",
+              "link": "https://dbushell.com/2026/10/03/deno-to-node/"
+            },
+            {
+              "title": "Shin honkaku",
+              "date": "2026-09-28",
+              "link": "https://dbushell.com/2026/09/28/shin-honkaku/"
+            },
+            {
+              "title": "Leaving them behind",
+              "date": "2026-09-28",
+              "link": "https://dbushell.com/2026/09/28/leaving-them-behind/"
+            },
+            {
+              "title": "Removing the fancy button",
+              "date": "2026-09-25",
+              "link": "https://dbushell.com/2026/09/25/pausing-standard-site/"
+            },
+            {
+              "title": "I said no and Apple said yes",
+              "date": "2026-09-22",
+              "link": "https://dbushell.com/2026/09/22/apple-intelligence/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -26,6 +57,37 @@
             {
               "date": "2026-09-24",
               "link": "https://dbushell.com/notes/2026-09-24T05:10Z/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Recently",
+              "date": "2026-10-01",
+              "link": "https://macwright.com/2026/10/01/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-09-01",
+              "link": "https://macwright.com/2026/09/01/recently.html"
+            },
+            {
+              "title": "Placemark is now fully open source",
+              "date": "2026-08-25",
+              "link": "https://macwright.com/2026/08/25/placemark-fully-open-source.html"
+            },
+            {
+              "title": "Technology optimism hour",
+              "date": "2026-08-14",
+              "link": "https://macwright.com/2026/08/14/optimism-hour.html"
+            },
+            {
+              "title": "Printing tiny photos for paper journals",
+              "date": "2026-07-24",
+              "link": "https://macwright.com/2026/07/24/printing-for-journals.html"
             }
           ]
         },
@@ -247,37 +309,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Shin honkaku",
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/2026/09/28/shin-honkaku/"
-            },
-            {
-              "title": "Leaving them behind",
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/2026/09/28/leaving-them-behind/"
-            },
-            {
-              "title": "Removing the fancy button",
-              "date": "2026-09-25",
-              "link": "https://dbushell.com/2026/09/25/pausing-standard-site/"
-            },
-            {
-              "title": "I said no and Apple said yes",
-              "date": "2026-09-22",
-              "link": "https://dbushell.com/2026/09/22/apple-intelligence/"
-            },
-            {
-              "title": "“Programming” monitor",
-              "date": "2026-09-18",
-              "link": "https://dbushell.com/2026/09/18/benq-rd280ug-review/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -309,37 +340,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "#Corpowid and #Skynet Technologies Will Get You Sued",
-              "date": "2026-09-28",
-              "link": "https://adrianroselli.com/2026/09/corpowid-and-skynet-technologies-will-get-you-sued.html"
-            },
-            {
-              "title": "Support for `headers` Attribute",
-              "date": "2026-09-08",
-              "link": "https://adrianroselli.com/2026/09/support-for-headers-attribute.html"
-            },
-            {
-              "title": "Evaluating a Success Criterion",
-              "date": "2026-09-01",
-              "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
-            },
-            {
-              "title": "The 2.1.1 “specific timings” Clause",
-              "date": "2026-08-26",
-              "link": "https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html"
-            },
-            {
-              "title": "Should a Dialog Close When Clicked Outside?",
-              "date": "2026-08-12",
-              "link": "https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -367,6 +367,37 @@
               "title": "Is this blog written by AI?",
               "date": "2026-06-18",
               "link": "http://brooker.co.za/blog/2026/06/18/my-blog-and-ai.html"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "#Corpowid and #Skynet Technologies Will Get You Sued",
+              "date": "2026-09-28",
+              "link": "https://adrianroselli.com/2026/09/corpowid-and-skynet-technologies-will-get-you-sued.html"
+            },
+            {
+              "title": "Support for `headers` Attribute",
+              "date": "2026-09-08",
+              "link": "https://adrianroselli.com/2026/09/support-for-headers-attribute.html"
+            },
+            {
+              "title": "Evaluating a Success Criterion",
+              "date": "2026-09-01",
+              "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
+            },
+            {
+              "title": "The 2.1.1 “specific timings” Clause",
+              "date": "2026-08-26",
+              "link": "https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html"
+            },
+            {
+              "title": "Should a Dialog Close When Clicked Outside?",
+              "date": "2026-08-12",
+              "link": "https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html"
             }
           ]
         },
@@ -460,37 +491,6 @@
               "title": "Hel: A 3-Axis, Obliterated Variable Font",
               "date": "2025-06-10",
               "link": "https://heydonworks.com/article/hel-variable-font/"
-            }
-          ]
-        },
-        {
-          "title": "annie's blog",
-          "feedUrl": "https://anniemueller.com/posts_feed",
-          "items": [
-            {
-              "title": "I can wear a sweater // W39",
-              "date": "2026-09-27",
-              "link": "https://anniemueller.com/posts/i-can-wear-a-sweater-w39"
-            },
-            {
-              "title": "Waiting to be found by only you",
-              "date": "2026-08-04",
-              "link": "https://anniemueller.com/posts/waiting-to-be-found-by-only-you"
-            },
-            {
-              "title": "I have no idea who celebrities are anymore ",
-              "date": "2026-07-14",
-              "link": "https://anniemueller.com/posts/i-have-no-idea-who-celebrities-are-anymore"
-            },
-            {
-              "title": "Exclamatory birthday edition // W26",
-              "date": "2026-06-29",
-              "link": "https://anniemueller.com/posts/exclamatory-birthday-edition-w26"
-            },
-            {
-              "title": "A bundle of bones // W24 + 25",
-              "date": "2026-06-24",
-              "link": "https://anniemueller.com/posts/a-bundle-of-bones-w24-plus-25"
             }
           ]
         },
@@ -1018,37 +1018,6 @@
               "title": "A Very Early History of Algebraic Data Types",
               "date": "2025-09-25",
               "link": "https://www.hillelwayne.com/post/algdt-history/"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2026-09-01",
-              "link": "https://macwright.com/2026/09/01/recently.html"
-            },
-            {
-              "title": "Placemark is now fully open source",
-              "date": "2026-08-25",
-              "link": "https://macwright.com/2026/08/25/placemark-fully-open-source.html"
-            },
-            {
-              "title": "Technology optimism hour",
-              "date": "2026-08-14",
-              "link": "https://macwright.com/2026/08/14/optimism-hour.html"
-            },
-            {
-              "title": "Printing tiny photos for paper journals",
-              "date": "2026-07-24",
-              "link": "https://macwright.com/2026/07/24/printing-for-journals.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2026-07-01",
-              "link": "https://macwright.com/2026/07/01/recently.html"
             }
           ]
         },
@@ -2466,12 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-03T08:50:52.453Z",
+  "fetchDate": "2026-10-04T09:18:57.211Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
+    "https://anniemueller.com/posts_feed",
     "https://fynn.be/feed.xml"
   ]
 }

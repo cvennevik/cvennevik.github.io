@@ -4,6 +4,156 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-10-05",
+              "link": "https://dbushell.com/notes/2026-10-05T08:46Z/"
+            },
+            {
+              "date": "2026-10-02",
+              "link": "https://dbushell.com/notes/2026-10-02T17:01Z/"
+            },
+            {
+              "date": "2026-09-29",
+              "link": "https://dbushell.com/notes/2026-09-29T04:40Z/"
+            },
+            {
+              "date": "2026-09-28",
+              "link": "https://dbushell.com/notes/2026-09-28T08:15Z/"
+            },
+            {
+              "date": "2026-09-28",
+              "link": "https://dbushell.com/notes/2026-09-28T05:49Z/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Radical books that aren't a slog",
+              "date": "2026-10-04",
+              "link": "https://gomakethings.com/articles/radical-books-that-arent-a-slog/"
+            },
+            {
+              "title": "Weeds can't grow where they can't take root",
+              "date": "2026-09-20",
+              "link": "https://gomakethings.com/articles/weeds-cant-grow-where-they-cant-take-root/"
+            },
+            {
+              "title": "Running a business made me hate capitalism",
+              "date": "2026-09-19",
+              "link": "https://gomakethings.com/articles/running-a-business-made-me-hate-capitalism/"
+            },
+            {
+              "title": "The most influential fictional cat",
+              "date": "2026-09-15",
+              "link": "https://gomakethings.com/articles/the-most-influential-fictional-cat/"
+            },
+            {
+              "title": "Depending on other people",
+              "date": "2026-09-14",
+              "link": "https://gomakethings.com/articles/depending-on-other-people/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "“I’m Embarrassed on Behalf of the Tech Industry”",
+              "date": "2026-10-04",
+              "link": "https://blog.jim-nielsen.com/2026/embarrassed-by-tech/"
+            },
+            {
+              "title": "Dear Software Makers",
+              "date": "2026-09-30",
+              "link": "https://blog.jim-nielsen.com/2026/dear-software-makers/"
+            },
+            {
+              "title": "VLM Enhanced Metadata For My Icon Galleries",
+              "date": "2026-09-29",
+              "link": "https://blog.jim-nielsen.com/2026/icon-galleries-vlm/"
+            },
+            {
+              "title": "Humane Interfaces",
+              "date": "2026-09-27",
+              "link": "https://blog.jim-nielsen.com/2026/humane-interfaces/"
+            },
+            {
+              "title": "Using an LLM to Automate the Process of Archiving New macOS App Icons",
+              "date": "2026-09-25",
+              "link": "https://blog.jim-nielsen.com/2026/faster-app-icon-retrieval/"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Strands Decider: Why Not an Encoder?",
+              "date": "2026-10-04",
+              "link": "http://brooker.co.za/blog/2026/10/04/encoders.html"
+            },
+            {
+              "title": "Small Decisions: Engineering a Leading Model",
+              "date": "2026-09-28",
+              "link": "http://brooker.co.za/blog/2026/09/28/engineering-system-one.html"
+            },
+            {
+              "title": "Lorenz and Little: How Much Does Your Tail Cost?",
+              "date": "2026-07-29",
+              "link": "http://brooker.co.za/blog/2026/07/29/lorenz-and-little.html"
+            },
+            {
+              "title": "Aurora DSQL: Scalable, Multi-Region OLTP",
+              "date": "2026-07-19",
+              "link": "http://brooker.co.za/blog/2026/07/19/dsql-paper.html"
+            },
+            {
+              "title": "Meet Alice. Alice is impatient.",
+              "date": "2026-06-19",
+              "link": "http://brooker.co.za/blog/2026/06/19/waiting.html"
+            }
+          ]
+        },
+        {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "Lazy websites",
+              "date": "2026-10-04",
+              "link": "https://thejollyteapot.com/2026/10/04/lazy-websites/"
+            },
+            {
+              "title": "September 2026 blend of links",
+              "date": "2026-09-29",
+              "link": "https://thejollyteapot.com/september-2026-blend/"
+            },
+            {
+              "title": "Love for tiny utility programs",
+              "date": "2026-09-16",
+              "link": "https://thejollyteapot.com/2026/09/16/love-for-tiny-utility-programs/"
+            },
+            {
+              "title": "August 2026 blend of links",
+              "date": "2026-08-29",
+              "link": "https://thejollyteapot.com/august-2026-blend/"
+            },
+            {
+              "title": "Just a tool",
+              "date": "2026-08-01",
+              "link": "https://thejollyteapot.com/2026/08/01/just-a-tool/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,32 +181,6 @@
               "title": "I said no and Apple said yes",
               "date": "2026-09-22",
               "link": "https://dbushell.com/2026/09/22/apple-intelligence/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-10-02",
-              "link": "https://dbushell.com/notes/2026-10-02T17:01Z/"
-            },
-            {
-              "date": "2026-09-29",
-              "link": "https://dbushell.com/notes/2026-09-29T04:40Z/"
-            },
-            {
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/notes/2026-09-28T08:15Z/"
-            },
-            {
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/notes/2026-09-28T05:49Z/"
-            },
-            {
-              "date": "2026-09-24",
-              "link": "https://dbushell.com/notes/2026-09-24T05:10Z/"
             }
           ]
         },
@@ -154,37 +278,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Dear Software Makers",
-              "date": "2026-09-30",
-              "link": "https://blog.jim-nielsen.com/2026/dear-software-makers/"
-            },
-            {
-              "title": "VLM Enhanced Metadata For My Icon Galleries",
-              "date": "2026-09-29",
-              "link": "https://blog.jim-nielsen.com/2026/icon-galleries-vlm/"
-            },
-            {
-              "title": "Humane Interfaces",
-              "date": "2026-09-27",
-              "link": "https://blog.jim-nielsen.com/2026/humane-interfaces/"
-            },
-            {
-              "title": "Using an LLM to Automate the Process of Archiving New macOS App Icons",
-              "date": "2026-09-25",
-              "link": "https://blog.jim-nielsen.com/2026/faster-app-icon-retrieval/"
-            },
-            {
-              "title": "Make Money to Make More Websites",
-              "date": "2026-09-23",
-              "link": "https://blog.jim-nielsen.com/2026/make-money-to-make-more-websites/"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -247,37 +340,6 @@
           ]
         },
         {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "September 2026 blend of links",
-              "date": "2026-09-29",
-              "link": "https://thejollyteapot.com/september-2026-blend/"
-            },
-            {
-              "title": "Love for tiny utility programs",
-              "date": "2026-09-16",
-              "link": "https://thejollyteapot.com/2026/09/16/love-for-tiny-utility-programs/"
-            },
-            {
-              "title": "August 2026 blend of links",
-              "date": "2026-08-29",
-              "link": "https://thejollyteapot.com/august-2026-blend/"
-            },
-            {
-              "title": "Just a tool",
-              "date": "2026-08-01",
-              "link": "https://thejollyteapot.com/2026/08/01/just-a-tool/"
-            },
-            {
-              "title": "July 2026 blend of links",
-              "date": "2026-07-22",
-              "link": "https://thejollyteapot.com/july-2026-blend/"
-            }
-          ]
-        },
-        {
           "title": "James Shore",
           "feedUrl": "https://www.jamesshore.com/v2/feed",
           "items": [
@@ -336,37 +398,6 @@
               "title": "Why are short videos bad for learning?",
               "date": "2026-09-17",
               "link": "https://www.baldurbjarnason.com/2026/02-why-are-short-videos-bad-for-learning/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Small Decisions: Engineering a Leading Model",
-              "date": "2026-09-28",
-              "link": "http://brooker.co.za/blog/2026/09/28/engineering-system-one.html"
-            },
-            {
-              "title": "Lorenz and Little: How Much Does Your Tail Cost?",
-              "date": "2026-07-29",
-              "link": "http://brooker.co.za/blog/2026/07/29/lorenz-and-little.html"
-            },
-            {
-              "title": "Aurora DSQL: Scalable, Multi-Region OLTP",
-              "date": "2026-07-19",
-              "link": "http://brooker.co.za/blog/2026/07/19/dsql-paper.html"
-            },
-            {
-              "title": "Meet Alice. Alice is impatient.",
-              "date": "2026-06-19",
-              "link": "http://brooker.co.za/blog/2026/06/19/waiting.html"
-            },
-            {
-              "title": "Is this blog written by AI?",
-              "date": "2026-06-18",
-              "link": "http://brooker.co.za/blog/2026/06/18/my-blog-and-ai.html"
             }
           ]
         },
@@ -646,37 +677,6 @@
               "title": "The Web Is An Antitrust Wedge",
               "date": "2026-04-03",
               "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Weeds can't grow where they can't take root",
-              "date": "2026-09-20",
-              "link": "https://gomakethings.com/articles/weeds-cant-grow-where-they-cant-take-root/"
-            },
-            {
-              "title": "Running a business made me hate capitalism",
-              "date": "2026-09-19",
-              "link": "https://gomakethings.com/articles/running-a-business-made-me-hate-capitalism/"
-            },
-            {
-              "title": "The most influential fictional cat",
-              "date": "2026-09-15",
-              "link": "https://gomakethings.com/articles/the-most-influential-fictional-cat/"
-            },
-            {
-              "title": "Depending on other people",
-              "date": "2026-09-14",
-              "link": "https://gomakethings.com/articles/depending-on-other-people/"
-            },
-            {
-              "title": "Abolish patents",
-              "date": "2026-09-13",
-              "link": "https://gomakethings.com/articles/abolish-patents/"
             }
           ]
         },
@@ -2435,7 +2435,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-04T09:18:57.211Z",
+  "fetchDate": "2026-10-05T09:59:18.773Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

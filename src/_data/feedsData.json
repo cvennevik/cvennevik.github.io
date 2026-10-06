@@ -4,35 +4,14 @@
       "name": "Feeds",
       "feeds": [
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-10-05",
-              "link": "https://dbushell.com/notes/2026-10-05T08:46Z/"
-            },
-            {
-              "date": "2026-10-02",
-              "link": "https://dbushell.com/notes/2026-10-02T17:01Z/"
-            },
-            {
-              "date": "2026-09-29",
-              "link": "https://dbushell.com/notes/2026-09-29T04:40Z/"
-            },
-            {
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/notes/2026-09-28T08:15Z/"
-            },
-            {
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/notes/2026-09-28T05:49Z/"
-            }
-          ]
-        },
-        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "No human is illegal",
+              "date": "2026-10-05",
+              "link": "https://gomakethings.com/articles/no-human-is-illegal/"
+            },
             {
               "title": "Radical books that aren't a slog",
               "date": "2026-10-04",
@@ -52,11 +31,32 @@
               "title": "The most influential fictional cat",
               "date": "2026-09-15",
               "link": "https://gomakethings.com/articles/the-most-influential-fictional-cat/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-10-05",
+              "link": "https://dbushell.com/notes/2026-10-05T14:32Z/"
             },
             {
-              "title": "Depending on other people",
-              "date": "2026-09-14",
-              "link": "https://gomakethings.com/articles/depending-on-other-people/"
+              "date": "2026-10-05",
+              "link": "https://dbushell.com/notes/2026-10-05T08:46Z/"
+            },
+            {
+              "date": "2026-10-02",
+              "link": "https://dbushell.com/notes/2026-10-02T17:01Z/"
+            },
+            {
+              "date": "2026-09-29",
+              "link": "https://dbushell.com/notes/2026-09-29T04:40Z/"
+            },
+            {
+              "date": "2026-09-28",
+              "link": "https://dbushell.com/notes/2026-09-28T08:15Z/"
             }
           ]
         },
@@ -2435,7 +2435,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-05T09:59:18.773Z",
+  "fetchDate": "2026-10-06T09:45:08.937Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

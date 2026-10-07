@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "A sustainable web career, for when all this blows over",
+              "date": "2026-10-07",
+              "link": "https://dbushell.com/2026/10/07/sustainable-web-career/"
+            },
+            {
+              "title": "Friendship ended with Deno, now Node is my best friend",
+              "date": "2026-10-03",
+              "link": "https://dbushell.com/2026/10/03/deno-to-node/"
+            },
+            {
+              "title": "Shin honkaku",
+              "date": "2026-09-28",
+              "link": "https://dbushell.com/2026/09/28/shin-honkaku/"
+            },
+            {
+              "title": "Leaving them behind",
+              "date": "2026-09-28",
+              "link": "https://dbushell.com/2026/09/28/leaving-them-behind/"
+            },
+            {
+              "title": "Removing the fancy button",
+              "date": "2026-09-25",
+              "link": "https://dbushell.com/2026/09/25/pausing-standard-site/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-10-07",
+              "link": "https://dbushell.com/notes/2026-10-07T03:51Z/"
+            },
+            {
+              "date": "2026-10-05",
+              "link": "https://dbushell.com/notes/2026-10-05T14:32Z/"
+            },
+            {
+              "date": "2026-10-05",
+              "link": "https://dbushell.com/notes/2026-10-05T08:46Z/"
+            },
+            {
+              "date": "2026-10-02",
+              "link": "https://dbushell.com/notes/2026-10-02T17:01Z/"
+            },
+            {
+              "date": "2026-09-29",
+              "link": "https://dbushell.com/notes/2026-09-29T04:40Z/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Old raven photos revisited",
+              "date": "2026-10-06",
+              "link": "https://www.baldurbjarnason.com/notes/photos/old-raven-photos-revisited/"
+            },
+            {
+              "title": "Software developers are not okay",
+              "date": "2026-10-06",
+              "link": "https://www.baldurbjarnason.com/2026/05-software-developers-are-not-okay/"
+            },
+            {
+              "title": "Old winter photos revisited",
+              "date": "2026-09-28",
+              "link": "https://www.baldurbjarnason.com/notes/photos/old-winter-photos-revisited/"
+            },
+            {
+              "title": "Parasocial media: why influencers really aren't your friend",
+              "date": "2026-09-28",
+              "link": "https://www.baldurbjarnason.com/2026/04-parasocial-relationships/"
+            },
+            {
+              "title": "Why is social media so humourless?",
+              "date": "2026-09-22",
+              "link": "https://www.baldurbjarnason.com/2026/03-why-is-social-media-so-humourless/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Apple’s App Icon HOA",
+              "date": "2026-10-06",
+              "link": "https://blog.jim-nielsen.com/2026/app-icon-hoa/"
+            },
+            {
+              "title": "“I’m Embarrassed on Behalf of the Tech Industry”",
+              "date": "2026-10-04",
+              "link": "https://blog.jim-nielsen.com/2026/embarrassed-by-tech/"
+            },
+            {
+              "title": "Dear Software Makers",
+              "date": "2026-09-30",
+              "link": "https://blog.jim-nielsen.com/2026/dear-software-makers/"
+            },
+            {
+              "title": "VLM Enhanced Metadata For My Icon Galleries",
+              "date": "2026-09-29",
+              "link": "https://blog.jim-nielsen.com/2026/icon-galleries-vlm/"
+            },
+            {
+              "title": "Humane Interfaces",
+              "date": "2026-09-27",
+              "link": "https://blog.jim-nielsen.com/2026/humane-interfaces/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -31,63 +150,6 @@
               "title": "The most influential fictional cat",
               "date": "2026-09-15",
               "link": "https://gomakethings.com/articles/the-most-influential-fictional-cat/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-10-05",
-              "link": "https://dbushell.com/notes/2026-10-05T14:32Z/"
-            },
-            {
-              "date": "2026-10-05",
-              "link": "https://dbushell.com/notes/2026-10-05T08:46Z/"
-            },
-            {
-              "date": "2026-10-02",
-              "link": "https://dbushell.com/notes/2026-10-02T17:01Z/"
-            },
-            {
-              "date": "2026-09-29",
-              "link": "https://dbushell.com/notes/2026-09-29T04:40Z/"
-            },
-            {
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/notes/2026-09-28T08:15Z/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "“I’m Embarrassed on Behalf of the Tech Industry”",
-              "date": "2026-10-04",
-              "link": "https://blog.jim-nielsen.com/2026/embarrassed-by-tech/"
-            },
-            {
-              "title": "Dear Software Makers",
-              "date": "2026-09-30",
-              "link": "https://blog.jim-nielsen.com/2026/dear-software-makers/"
-            },
-            {
-              "title": "VLM Enhanced Metadata For My Icon Galleries",
-              "date": "2026-09-29",
-              "link": "https://blog.jim-nielsen.com/2026/icon-galleries-vlm/"
-            },
-            {
-              "title": "Humane Interfaces",
-              "date": "2026-09-27",
-              "link": "https://blog.jim-nielsen.com/2026/humane-interfaces/"
-            },
-            {
-              "title": "Using an LLM to Automate the Process of Archiving New macOS App Icons",
-              "date": "2026-09-25",
-              "link": "https://blog.jim-nielsen.com/2026/faster-app-icon-retrieval/"
             }
           ]
         },
@@ -150,37 +212,6 @@
               "title": "Just a tool",
               "date": "2026-08-01",
               "link": "https://thejollyteapot.com/2026/08/01/just-a-tool/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Friendship ended with Deno, now Node is my best friend",
-              "date": "2026-10-03",
-              "link": "https://dbushell.com/2026/10/03/deno-to-node/"
-            },
-            {
-              "title": "Shin honkaku",
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/2026/09/28/shin-honkaku/"
-            },
-            {
-              "title": "Leaving them behind",
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/2026/09/28/leaving-them-behind/"
-            },
-            {
-              "title": "Removing the fancy button",
-              "date": "2026-09-25",
-              "link": "https://dbushell.com/2026/09/25/pausing-standard-site/"
-            },
-            {
-              "title": "I said no and Apple said yes",
-              "date": "2026-09-22",
-              "link": "https://dbushell.com/2026/09/22/apple-intelligence/"
             }
           ]
         },
@@ -367,37 +398,6 @@
               "title": "Are You Getting Your Money’s Worth from AI?",
               "date": "2026-09-08",
               "link": "https://www.jamesshore.com/v2/blog/2026/are-you-getting-your-moneys-worth-from-ai"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Old winter photos revisited",
-              "date": "2026-09-28",
-              "link": "https://www.baldurbjarnason.com/notes/photos/old-winter-photos-revisited/"
-            },
-            {
-              "title": "Parasocial media: why influencers really aren't your friend",
-              "date": "2026-09-28",
-              "link": "https://www.baldurbjarnason.com/2026/04-parasocial-relationships/"
-            },
-            {
-              "title": "Why is social media so humourless?",
-              "date": "2026-09-22",
-              "link": "https://www.baldurbjarnason.com/2026/03-why-is-social-media-so-humourless/"
-            },
-            {
-              "title": "Old foggy photos revisited",
-              "date": "2026-09-22",
-              "link": "https://www.baldurbjarnason.com/notes/photos/old-foggy-photos-revisited/"
-            },
-            {
-              "title": "Why are short videos bad for learning?",
-              "date": "2026-09-17",
-              "link": "https://www.baldurbjarnason.com/2026/02-why-are-short-videos-bad-for-learning/"
             }
           ]
         },
@@ -2009,37 +2009,6 @@
           ]
         },
         {
-          "title": "Felienne Hermans",
-          "feedUrl": "https://www.felienne.com/feed",
-          "items": [
-            {
-              "title": "Leaving WordPress",
-              "date": "2025-10-10",
-              "link": "https://www.felienne.com/archives/8938"
-            },
-            {
-              "title": "What does it mean for a university to have an opinion?",
-              "date": "2025-01-13",
-              "link": "https://www.felienne.com/archives/8575"
-            },
-            {
-              "title": "Charlie Chaplin and the death of the internet",
-              "date": "2025-01-06",
-              "link": "https://www.felienne.com/archives/8542"
-            },
-            {
-              "title": "Paper: Feminism in Programming Language Design",
-              "date": "2024-10-17",
-              "link": "https://www.felienne.com/archives/8470"
-            },
-            {
-              "title": "Soon all UX will be a Skinner box",
-              "date": "2024-09-11",
-              "link": "https://www.felienne.com/archives/8440"
-            }
-          ]
-        },
-        {
           "title": "Chelsea Troy",
           "feedUrl": "https://chelseatroy.com/feed/",
           "items": [
@@ -2435,13 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-06T09:45:08.937Z",
+  "fetchDate": "2026-10-07T09:46:13.495Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
-    "https://anniemueller.com/posts_feed",
-    "https://fynn.be/feed.xml"
+    "https://www.felienne.com/feed",
+    "https://fynn.be/feed.xml",
+    "https://anniemueller.com/posts_feed"
   ]
 }

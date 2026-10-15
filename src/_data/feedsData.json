@@ -4,6 +4,32 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-10-15",
+              "link": "https://dbushell.com/notes/2026-10-15T05:37Z/"
+            },
+            {
+              "date": "2026-10-15",
+              "link": "https://dbushell.com/notes/2026-10-15T05:15Z/"
+            },
+            {
+              "date": "2026-10-14",
+              "link": "https://dbushell.com/notes/2026-10-14T06:54Z/"
+            },
+            {
+              "date": "2026-10-10",
+              "link": "https://dbushell.com/notes/2026-10-10T10:30Z/"
+            },
+            {
+              "date": "2026-10-08",
+              "link": "https://dbushell.com/notes/2026-10-08T13:32Z/"
+            }
+          ]
+        },
+        {
           "title": "Jessitron",
           "feedUrl": "https://jessitron.com/feed/",
           "items": [
@@ -35,28 +61,64 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
             {
+              "title": "Anthropic's Scion is heavily inspired by Mononoke",
               "date": "2026-10-14",
-              "link": "https://dbushell.com/notes/2026-10-14T06:54Z/"
+              "link": "https://sunshowers.io/posts/anthropic-mononoke/"
             },
             {
-              "date": "2026-10-10",
-              "link": "https://dbushell.com/notes/2026-10-10T10:30Z/"
+              "title": "iddqd, or the hardest kind of unsafe Rust",
+              "date": "2026-06-02",
+              "link": "https://sunshowers.io/posts/iddqd-unsafe/"
             },
             {
-              "date": "2026-10-08",
-              "link": "https://dbushell.com/notes/2026-10-08T13:32Z/"
+              "title": "In defense of lock poisoning in Rust",
+              "date": "2025-12-02",
+              "link": "https://sunshowers.io/posts/on-poisoning/"
             },
             {
-              "date": "2026-10-07",
-              "link": "https://dbushell.com/notes/2026-10-07T03:51Z/"
+              "title": "`SocketAddrV6` is not roundtrip serializable",
+              "date": "2025-11-04",
+              "link": "https://sunshowers.io/posts/socketaddrv6-not-roundtrip/"
             },
             {
-              "date": "2026-10-05",
-              "link": "https://dbushell.com/notes/2026-10-05T14:32Z/"
+              "title": "Cancelling async Rust",
+              "date": "2025-10-03",
+              "link": "https://sunshowers.io/posts/cancelling-async-rust/"
+            }
+          ]
+        },
+        {
+          "title": "Coding Is Like Cooking",
+          "feedUrl": "https://coding-is-like-cooking.info/feed/",
+          "items": [
+            {
+              "title": "Agentic AI Coding BREAKS Mob Programming (Here’s How to Fix It)",
+              "date": "2026-10-14",
+              "link": "https://coding-is-like-cooking.info/2026/10/agentic-ai-coding-breaks-mob-programming-heres-how-to-fix-it/"
+            },
+            {
+              "title": "The Last Year Has Changed Everything I Knew About TDD After 20 Years",
+              "date": "2026-09-23",
+              "link": "https://coding-is-like-cooking.info/2026/09/the-last-year-has-changed-everything-i-knew-about-tdd-after-20-years/"
+            },
+            {
+              "title": "How to Stop AI from Ruining Your Codebase",
+              "date": "2026-08-19",
+              "link": "https://coding-is-like-cooking.info/2026/08/how-to-stop-ai-from-ruining-your-codebase/"
+            },
+            {
+              "title": "The Most Important AI Coding Advice You Haven’t Heard Yet",
+              "date": "2026-07-27",
+              "link": "https://coding-is-like-cooking.info/2026/07/the-most-important-ai-coding-advice-you-havent-heard-yet/"
+            },
+            {
+              "title": "I Stopped Coding and Started Architecting Agents (And Why You Should Too)",
+              "date": "2026-06-25",
+              "link": "https://coding-is-like-cooking.info/2026/06/i-stopped-coding-and-started-architecting-agents-and-why-you-should-too/"
             }
           ]
         },
@@ -805,37 +867,6 @@
           ]
         },
         {
-          "title": "Coding Is Like Cooking",
-          "feedUrl": "https://coding-is-like-cooking.info/feed/",
-          "items": [
-            {
-              "title": "The Last Year Has Changed Everything I Knew About TDD After 20 Years",
-              "date": "2026-09-23",
-              "link": "https://coding-is-like-cooking.info/2026/09/the-last-year-has-changed-everything-i-knew-about-tdd-after-20-years/"
-            },
-            {
-              "title": "How to Stop AI from Ruining Your Codebase",
-              "date": "2026-08-19",
-              "link": "https://coding-is-like-cooking.info/2026/08/how-to-stop-ai-from-ruining-your-codebase/"
-            },
-            {
-              "title": "The Most Important AI Coding Advice You Haven’t Heard Yet",
-              "date": "2026-07-27",
-              "link": "https://coding-is-like-cooking.info/2026/07/the-most-important-ai-coding-advice-you-havent-heard-yet/"
-            },
-            {
-              "title": "I Stopped Coding and Started Architecting Agents (And Why You Should Too)",
-              "date": "2026-06-25",
-              "link": "https://coding-is-like-cooking.info/2026/06/i-stopped-coding-and-started-architecting-agents-and-why-you-should-too/"
-            },
-            {
-              "title": "The Death of the Senior Dev? How Agentic Workflows Changed EVERYTHING in 2026",
-              "date": "2026-05-27",
-              "link": "https://coding-is-like-cooking.info/2026/05/the-death-of-the-senior-dev-how-agentic-workflows-changed-everything-in-2026/"
-            }
-          ]
-        },
-        {
           "title": "Infrequently Noted",
           "feedUrl": "https://infrequently.org/feed/",
           "items": [
@@ -1514,37 +1545,6 @@
               "title": "Prefer Gaps To Margins",
               "date": "2025-06-23",
               "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
-            }
-          ]
-        },
-        {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "iddqd, or the hardest kind of unsafe Rust",
-              "date": "2026-06-02",
-              "link": "https://sunshowers.io/posts/iddqd-unsafe/"
-            },
-            {
-              "title": "In defense of lock poisoning in Rust",
-              "date": "2025-12-02",
-              "link": "https://sunshowers.io/posts/on-poisoning/"
-            },
-            {
-              "title": "`SocketAddrV6` is not roundtrip serializable",
-              "date": "2025-11-04",
-              "link": "https://sunshowers.io/posts/socketaddrv6-not-roundtrip/"
-            },
-            {
-              "title": "Cancelling async Rust",
-              "date": "2025-10-03",
-              "link": "https://sunshowers.io/posts/cancelling-async-rust/"
-            },
-            {
-              "title": "I didn't transition for the metaphysics",
-              "date": "2025-05-14",
-              "link": "https://sunshowers.io/posts/transition-metaphysics/"
             }
           ]
         },
@@ -2435,13 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-14T08:21:51.013Z",
+  "fetchDate": "2026-10-15T07:58:26.013Z",
   "errors": [
-    "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
+    "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
-    "https://anniemueller.com/posts_feed",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://anniemueller.com/posts_feed"
   ]
 }

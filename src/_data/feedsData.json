@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "How to Find Energy for Creative Work",
+              "date": "2026-10-16",
+              "link": "https://www.simplermachines.com/how-to-find-energy-for-creative-work/"
+            },
+            {
+              "title": "On Writing Every Day",
+              "date": "2026-10-01",
+              "link": "https://www.simplermachines.com/on-writing-every-day/"
+            },
+            {
+              "title": "Mere Being - 035 - September - evening photographs, writing, chickpeas",
+              "date": "2026-10-01",
+              "link": "https://www.simplermachines.com/mere-being-035-september-evening-photographs-writing-chickpeas/"
+            },
+            {
+              "title": "[NMD EXQ 36/60] This might be a bismuth mine",
+              "date": "2026-09-30",
+              "link": "https://www.simplermachines.com/nmd-exq-36-60-this-might-be-a-bismuth-mine/"
+            },
+            {
+              "title": "[NMD EXQ 35/60] Two troubling dolls",
+              "date": "2026-09-29",
+              "link": "https://www.simplermachines.com/nmd-exq-35-60-two-troubling-dolls/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "We Need All the Disciplines",
+              "date": "2026-10-15",
+              "link": "https://blog.jim-nielsen.com/2026/we-need-all-disciplines/"
+            },
+            {
+              "title": "The Dock on Mac, From OS 10 to macOS 27",
+              "date": "2026-10-12",
+              "link": "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/"
+            },
+            {
+              "title": "The Fascinating World of Domains",
+              "date": "2026-10-11",
+              "link": "https://blog.jim-nielsen.com/2026/domains-article-on-wired/"
+            },
+            {
+              "title": "“Getting off the Modernization Treadmill”",
+              "date": "2026-10-08",
+              "link": "https://blog.jim-nielsen.com/2026/talk-notes-modernization-treadmill/"
+            },
+            {
+              "title": "Apple’s App Icon HOA",
+              "date": "2026-10-06",
+              "link": "https://blog.jim-nielsen.com/2026/app-icon-hoa/"
+            }
+          ]
+        },
+        {
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
+          "items": [
+            {
+              "title": "More on Anthropic's Scion ripping off Mononoke",
+              "date": "2026-10-15",
+              "link": "https://sunshowers.io/posts/anthropic-mononoke-2/"
+            },
+            {
+              "title": "Anthropic's Scion is heavily inspired by Mononoke",
+              "date": "2026-10-14",
+              "link": "https://sunshowers.io/posts/anthropic-mononoke/"
+            },
+            {
+              "title": "iddqd, or the hardest kind of unsafe Rust",
+              "date": "2026-06-02",
+              "link": "https://sunshowers.io/posts/iddqd-unsafe/"
+            },
+            {
+              "title": "In defense of lock poisoning in Rust",
+              "date": "2025-12-02",
+              "link": "https://sunshowers.io/posts/on-poisoning/"
+            },
+            {
+              "title": "`SocketAddrV6` is not roundtrip serializable",
+              "date": "2025-11-04",
+              "link": "https://sunshowers.io/posts/socketaddrv6-not-roundtrip/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -57,37 +150,6 @@
               "title": "Verum Factum and the Creator’s Confidence",
               "date": "2026-06-06",
               "link": "https://jessitron.com/2026/06/06/verum-factum-and-the-creators-confidence/"
-            }
-          ]
-        },
-        {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "Anthropic's Scion is heavily inspired by Mononoke",
-              "date": "2026-10-14",
-              "link": "https://sunshowers.io/posts/anthropic-mononoke/"
-            },
-            {
-              "title": "iddqd, or the hardest kind of unsafe Rust",
-              "date": "2026-06-02",
-              "link": "https://sunshowers.io/posts/iddqd-unsafe/"
-            },
-            {
-              "title": "In defense of lock poisoning in Rust",
-              "date": "2025-12-02",
-              "link": "https://sunshowers.io/posts/on-poisoning/"
-            },
-            {
-              "title": "`SocketAddrV6` is not roundtrip serializable",
-              "date": "2025-11-04",
-              "link": "https://sunshowers.io/posts/socketaddrv6-not-roundtrip/"
-            },
-            {
-              "title": "Cancelling async Rust",
-              "date": "2025-10-03",
-              "link": "https://sunshowers.io/posts/cancelling-async-rust/"
             }
           ]
         },
@@ -150,37 +212,6 @@
               "title": "Software developers are not okay",
               "date": "2026-10-06",
               "link": "https://www.baldurbjarnason.com/2026/05-software-developers-are-not-okay/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "The Dock on Mac, From OS 10 to macOS 27",
-              "date": "2026-10-12",
-              "link": "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/"
-            },
-            {
-              "title": "The Fascinating World of Domains",
-              "date": "2026-10-11",
-              "link": "https://blog.jim-nielsen.com/2026/domains-article-on-wired/"
-            },
-            {
-              "title": "“Getting off the Modernization Treadmill”",
-              "date": "2026-10-08",
-              "link": "https://blog.jim-nielsen.com/2026/talk-notes-modernization-treadmill/"
-            },
-            {
-              "title": "Apple’s App Icon HOA",
-              "date": "2026-10-06",
-              "link": "https://blog.jim-nielsen.com/2026/app-icon-hoa/"
-            },
-            {
-              "title": "“I’m Embarrassed on Behalf of the Tech Industry”",
-              "date": "2026-10-04",
-              "link": "https://blog.jim-nielsen.com/2026/embarrassed-by-tech/"
             }
           ]
         },
@@ -309,33 +340,33 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
             {
-              "title": "Decorative Images…",
-              "date": "2026-10-09",
-              "link": "https://adrianroselli.com/2026/10/decorative-images.html"
+              "title": "Obsidian For Learning Part III: Projects",
+              "date": "2026-10-08",
+              "link": "https://www.youtube.com/watch?v=VUGH0DMUesA"
             },
             {
-              "title": "#Corpowid and #Skynet Technologies Will Get You Sued",
-              "date": "2026-09-28",
-              "link": "https://adrianroselli.com/2026/09/corpowid-and-skynet-technologies-will-get-you-sued.html"
+              "title": "My 2026 Rust Toolkit",
+              "date": "2026-08-25",
+              "link": "https://www.youtube.com/watch?v=jlWnoRsGJNQ"
             },
             {
-              "title": "Support for `headers` Attribute",
-              "date": "2026-09-08",
-              "link": "https://adrianroselli.com/2026/09/support-for-headers-attribute.html"
+              "title": "Rust: Don't Panic",
+              "date": "2026-07-31",
+              "link": "https://www.youtube.com/watch?v=usRlRCNIOG0"
             },
             {
-              "title": "Evaluating a Success Criterion",
-              "date": "2026-09-01",
-              "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
+              "title": "Obsidian for Writers",
+              "date": "2026-06-29",
+              "link": "https://www.youtube.com/watch?v=BTuGvfQGOrY"
             },
             {
-              "title": "The 2.1.1 “specific timings” Clause",
-              "date": "2026-08-26",
-              "link": "https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html"
+              "title": "Hack Your Brain with Relationship Anarchy",
+              "date": "2026-05-22",
+              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
             }
           ]
         },
@@ -367,37 +398,6 @@
               "title": "Futurism Is Always Extreme",
               "date": "2026-08-25",
               "link": "https://borretti.me/article/futurism-is-always-extreme"
-            }
-          ]
-        },
-        {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-          "items": [
-            {
-              "title": "Obsidian For Learning Part III: Projects",
-              "date": "2026-10-08",
-              "link": "https://www.youtube.com/watch?v=VUGH0DMUesA"
-            },
-            {
-              "title": "My 2026 Rust Toolkit",
-              "date": "2026-08-25",
-              "link": "https://www.youtube.com/watch?v=jlWnoRsGJNQ"
-            },
-            {
-              "title": "Rust: Don't Panic",
-              "date": "2026-07-31",
-              "link": "https://www.youtube.com/watch?v=usRlRCNIOG0"
-            },
-            {
-              "title": "Obsidian for Writers",
-              "date": "2026-06-29",
-              "link": "https://www.youtube.com/watch?v=BTuGvfQGOrY"
-            },
-            {
-              "title": "Hack Your Brain with Relationship Anarchy",
-              "date": "2026-05-22",
-              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
             }
           ]
         },
@@ -553,37 +553,6 @@
               "title": "Printing tiny photos for paper journals",
               "date": "2026-07-24",
               "link": "https://macwright.com/2026/07/24/printing-for-journals.html"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "On Writing Every Day",
-              "date": "2026-10-01",
-              "link": "https://www.simplermachines.com/on-writing-every-day/"
-            },
-            {
-              "title": "Mere Being - 035 - September - evening photographs, writing, chickpeas",
-              "date": "2026-10-01",
-              "link": "https://www.simplermachines.com/mere-being-035-september-evening-photographs-writing-chickpeas/"
-            },
-            {
-              "title": "[NMD EXQ 36/60] This might be a bismuth mine",
-              "date": "2026-09-30",
-              "link": "https://www.simplermachines.com/nmd-exq-36-60-this-might-be-a-bismuth-mine/"
-            },
-            {
-              "title": "[NMD EXQ 35/60] Two troubling dolls",
-              "date": "2026-09-29",
-              "link": "https://www.simplermachines.com/nmd-exq-35-60-two-troubling-dolls/"
-            },
-            {
-              "title": "[NMD EXQ 33/60] Another shot of geometry",
-              "date": "2026-09-28",
-              "link": "https://www.simplermachines.com/nmd-exq-33-60-another-shot-of-geometry/"
             }
           ]
         },
@@ -2216,37 +2185,6 @@
           ]
         },
         {
-          "title": "GeePawHill.org",
-          "feedUrl": "https://www.geepawhill.org/feed/",
-          "items": [
-            {
-              "title": "Basic Concepts of the “Making App”",
-              "date": "2024-10-02",
-              "link": "https://www.geepawhill.org/2024/10/01/basic-concepts-of-the-making-app/"
-            },
-            {
-              "title": "Optimize for Our Humans",
-              "date": "2024-02-23",
-              "link": "https://www.geepawhill.org/2024/02/23/optimize-for-our-humans/"
-            },
-            {
-              "title": "Why Only Change Frames?",
-              "date": "2023-02-02",
-              "link": "https://www.geepawhill.org/2023/02/02/why-only-change-frames/"
-            },
-            {
-              "title": "The Frame-Changing Triad",
-              "date": "2023-01-26",
-              "link": "https://www.geepawhill.org/2023/01/26/the-frame-changing-triad/"
-            },
-            {
-              "title": "Changing The Frame",
-              "date": "2023-01-20",
-              "link": "https://www.geepawhill.org/2023/01/20/changing-the-frame/"
-            }
-          ]
-        },
-        {
           "title": "Nonlinear.Garden",
           "feedUrl": "https://nonlinear.garden/rss.xml",
           "items": [
@@ -2435,13 +2373,15 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-15T07:58:26.013Z",
+  "fetchDate": "2026-10-16T07:52:21.515Z",
   "errors": [
-    "https://2ality.com/feeds/posts.atom",
     "https://cutlefish.substack.com/feed",
+    "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
+    "https://anniemueller.com/posts_feed",
     "https://fynn.be/feed.xml",
-    "https://anniemueller.com/posts_feed"
+    "https://www.geepawhill.org/feed/",
+    "https://adrianroselli.com/feed"
   ]
 }

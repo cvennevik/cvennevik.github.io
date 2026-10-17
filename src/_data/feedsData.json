@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-10-17",
+              "link": "https://dbushell.com/notes/2026-10-17T06:44Z/"
+            },
+            {
+              "date": "2026-10-15",
+              "link": "https://dbushell.com/notes/2026-10-15T05:37Z/"
+            },
+            {
+              "date": "2026-10-15",
+              "link": "https://dbushell.com/notes/2026-10-15T05:15Z/"
+            },
+            {
+              "date": "2026-10-14",
+              "link": "https://dbushell.com/notes/2026-10-14T06:54Z/"
+            },
+            {
+              "date": "2026-10-10",
+              "link": "https://dbushell.com/notes/2026-10-10T10:30Z/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Cloudflare killed Deno and look I’m on TV!",
+              "date": "2026-10-16",
+              "link": "https://dbushell.com/2026/10/16/cloudflare-killed-deno/"
+            },
+            {
+              "title": "D-Bus Hell",
+              "date": "2026-10-11",
+              "link": "https://dbushell.com/2026/10/11/d-bus-hell/"
+            },
+            {
+              "title": "A sustainable web career, for when all this blows over",
+              "date": "2026-10-07",
+              "link": "https://dbushell.com/2026/10/07/sustainable-web-career/"
+            },
+            {
+              "title": "Friendship ended with Deno, now Node is my best friend",
+              "date": "2026-10-03",
+              "link": "https://dbushell.com/2026/10/03/deno-to-node/"
+            },
+            {
+              "title": "Shin honkaku",
+              "date": "2026-09-28",
+              "link": "https://dbushell.com/2026/09/28/shin-honkaku/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "The Village",
+              "date": "2026-10-16",
+              "link": "https://gomakethings.com/articles/the-village/"
+            },
+            {
+              "title": "We live in a world where...",
+              "date": "2026-10-10",
+              "link": "https://gomakethings.com/articles/we-live-in-a-world-where.../"
+            },
+            {
+              "title": "No human is illegal",
+              "date": "2026-10-05",
+              "link": "https://gomakethings.com/articles/no-human-is-illegal/"
+            },
+            {
+              "title": "Radical books that aren't a slog",
+              "date": "2026-10-04",
+              "link": "https://gomakethings.com/articles/radical-books-that-arent-a-slog/"
+            },
+            {
+              "title": "Weeds can't grow where they can't take root",
+              "date": "2026-09-20",
+              "link": "https://gomakethings.com/articles/weeds-cant-grow-where-they-cant-take-root/"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -93,32 +181,6 @@
               "title": "`SocketAddrV6` is not roundtrip serializable",
               "date": "2025-11-04",
               "link": "https://sunshowers.io/posts/socketaddrv6-not-roundtrip/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-10-15",
-              "link": "https://dbushell.com/notes/2026-10-15T05:37Z/"
-            },
-            {
-              "date": "2026-10-15",
-              "link": "https://dbushell.com/notes/2026-10-15T05:15Z/"
-            },
-            {
-              "date": "2026-10-14",
-              "link": "https://dbushell.com/notes/2026-10-14T06:54Z/"
-            },
-            {
-              "date": "2026-10-10",
-              "link": "https://dbushell.com/notes/2026-10-10T10:30Z/"
-            },
-            {
-              "date": "2026-10-08",
-              "link": "https://dbushell.com/notes/2026-10-08T13:32Z/"
             }
           ]
         },
@@ -216,37 +278,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "D-Bus Hell",
-              "date": "2026-10-11",
-              "link": "https://dbushell.com/2026/10/11/d-bus-hell/"
-            },
-            {
-              "title": "A sustainable web career, for when all this blows over",
-              "date": "2026-10-07",
-              "link": "https://dbushell.com/2026/10/07/sustainable-web-career/"
-            },
-            {
-              "title": "Friendship ended with Deno, now Node is my best friend",
-              "date": "2026-10-03",
-              "link": "https://dbushell.com/2026/10/03/deno-to-node/"
-            },
-            {
-              "title": "Shin honkaku",
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/2026/09/28/shin-honkaku/"
-            },
-            {
-              "title": "Leaving them behind",
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/2026/09/28/leaving-them-behind/"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -278,37 +309,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "We live in a world where...",
-              "date": "2026-10-10",
-              "link": "https://gomakethings.com/articles/we-live-in-a-world-where.../"
-            },
-            {
-              "title": "No human is illegal",
-              "date": "2026-10-05",
-              "link": "https://gomakethings.com/articles/no-human-is-illegal/"
-            },
-            {
-              "title": "Radical books that aren't a slog",
-              "date": "2026-10-04",
-              "link": "https://gomakethings.com/articles/radical-books-that-arent-a-slog/"
-            },
-            {
-              "title": "Weeds can't grow where they can't take root",
-              "date": "2026-09-20",
-              "link": "https://gomakethings.com/articles/weeds-cant-grow-where-they-cant-take-root/"
-            },
-            {
-              "title": "Running a business made me hate capitalism",
-              "date": "2026-09-19",
-              "link": "https://gomakethings.com/articles/running-a-business-made-me-hate-capitalism/"
-            }
-          ]
-        },
-        {
           "title": "A Tester's Journey",
           "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
           "items": [
@@ -336,6 +336,37 @@
               "title": "Elbsides 2026 - A Welcoming First Time",
               "date": "2026-06-13",
               "link": "https://www.lisihocke.com/2026/06/elbsides-2026-a-welcoming-first-time.html"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Decorative Images…",
+              "date": "2026-10-09",
+              "link": "https://adrianroselli.com/2026/10/decorative-images.html"
+            },
+            {
+              "title": "#Corpowid and #Skynet Technologies Will Get You Sued",
+              "date": "2026-09-28",
+              "link": "https://adrianroselli.com/2026/09/corpowid-and-skynet-technologies-will-get-you-sued.html"
+            },
+            {
+              "title": "Support for `headers` Attribute",
+              "date": "2026-09-08",
+              "link": "https://adrianroselli.com/2026/09/support-for-headers-attribute.html"
+            },
+            {
+              "title": "Evaluating a Success Criterion",
+              "date": "2026-09-01",
+              "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
+            },
+            {
+              "title": "The 2.1.1 “specific timings” Clause",
+              "date": "2026-08-26",
+              "link": "https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html"
             }
           ]
         },
@@ -452,7 +483,7 @@
               "link": "https://charity.wtf/p/confessions-of-an-unrepentant-slop"
             },
             {
-              "title": "Have you heard? Clickhouse is winning the observability wars!",
+              "title": "Have you heard? Clickhouse is winning the observability wars! <-- THIS IS SARCASM",
               "date": "2026-07-08",
               "link": "https://charity.wtf/p/have-you-heard-clickhouse-is-winning"
             },
@@ -1173,37 +1204,6 @@
               "title": "Kodemaker åpen fagdag 2026",
               "date": "2026-02-12",
               "link": "https://www.kodemaker.no/blogg/2026-02-12-kodemaker-apen-fagdag/"
-            }
-          ]
-        },
-        {
-          "title": "Pablo's logbook",
-          "feedUrl": "https://blog.codemanship.dev/rss.xml",
-          "items": [
-            {
-              "title": "The wrong unit",
-              "date": "2026-08-19",
-              "link": "https://blog.codemanship.dev/smaller-steps-six-ai-coding-agents"
-            },
-            {
-              "title": "Rant Code",
-              "date": "2026-04-17",
-              "link": "https://blog.codemanship.dev/rant-code"
-            },
-            {
-              "title": "Flow State",
-              "date": "2025-11-26",
-              "link": "https://blog.codemanship.dev/flow-state"
-            },
-            {
-              "title": "My code is a liar",
-              "date": "2025-11-20",
-              "link": "https://blog.codemanship.dev/my-code-is-a-liar"
-            },
-            {
-              "title": "Separating the important from the urgent",
-              "date": "2025-09-08",
-              "link": "https://blog.codemanship.dev/separating-the-important-from-the-urgent"
             }
           ]
         },
@@ -2185,6 +2185,37 @@
           ]
         },
         {
+          "title": "GeePawHill.org",
+          "feedUrl": "https://www.geepawhill.org/feed/",
+          "items": [
+            {
+              "title": "Basic Concepts of the “Making App”",
+              "date": "2024-10-02",
+              "link": "https://www.geepawhill.org/2024/10/01/basic-concepts-of-the-making-app/"
+            },
+            {
+              "title": "Optimize for Our Humans",
+              "date": "2024-02-23",
+              "link": "https://www.geepawhill.org/2024/02/23/optimize-for-our-humans/"
+            },
+            {
+              "title": "Why Only Change Frames?",
+              "date": "2023-02-02",
+              "link": "https://www.geepawhill.org/2023/02/02/why-only-change-frames/"
+            },
+            {
+              "title": "The Frame-Changing Triad",
+              "date": "2023-01-26",
+              "link": "https://www.geepawhill.org/2023/01/26/the-frame-changing-triad/"
+            },
+            {
+              "title": "Changing The Frame",
+              "date": "2023-01-20",
+              "link": "https://www.geepawhill.org/2023/01/20/changing-the-frame/"
+            }
+          ]
+        },
+        {
           "title": "Nonlinear.Garden",
           "feedUrl": "https://nonlinear.garden/rss.xml",
           "items": [
@@ -2373,15 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-16T07:52:21.515Z",
+  "fetchDate": "2026-10-17T07:30:23.085Z",
   "errors": [
-    "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
+    "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://anniemueller.com/posts_feed",
     "https://fynn.be/feed.xml",
-    "https://www.geepawhill.org/feed/",
-    "https://adrianroselli.com/feed"
+    "https://blog.codemanship.dev/rss.xml"
   ]
 }

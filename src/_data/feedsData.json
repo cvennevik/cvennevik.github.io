@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 39/60] Date night",
+              "date": "2026-10-19",
+              "link": "https://www.simplermachines.com/nmd-exq-39-60-date-night/"
+            },
+            {
+              "title": "How to Find Energy for Creative Work",
+              "date": "2026-10-16",
+              "link": "https://www.simplermachines.com/how-to-find-energy-for-creative-work/"
+            },
+            {
+              "title": "On Writing Every Day",
+              "date": "2026-10-01",
+              "link": "https://www.simplermachines.com/on-writing-every-day/"
+            },
+            {
+              "title": "Mere Being - 035 - September - evening photographs, writing, chickpeas",
+              "date": "2026-10-01",
+              "link": "https://www.simplermachines.com/mere-being-035-september-evening-photographs-writing-chickpeas/"
+            },
+            {
+              "title": "[NMD EXQ 36/60] This might be a bismuth mine",
+              "date": "2026-09-30",
+              "link": "https://www.simplermachines.com/nmd-exq-36-60-this-might-be-a-bismuth-mine/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-10-19",
+              "link": "https://dbushell.com/notes/2026-10-19T06:37Z/"
+            },
+            {
+              "date": "2026-10-17",
+              "link": "https://dbushell.com/notes/2026-10-17T06:44Z/"
+            },
+            {
+              "date": "2026-10-15",
+              "link": "https://dbushell.com/notes/2026-10-15T05:37Z/"
+            },
+            {
+              "date": "2026-10-15",
+              "link": "https://dbushell.com/notes/2026-10-15T05:15Z/"
+            },
+            {
+              "date": "2026-10-14",
+              "link": "https://dbushell.com/notes/2026-10-14T06:54Z/"
+            }
+          ]
+        },
+        {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Speculative Challenges of Spec-Driven Development",
+              "date": "2026-10-18",
+              "link": "http://agileotter.blogspot.com/2026/10/speculative-challenges-of-spec-driven.html"
+            },
+            {
+              "title": "Why redesign doesn't happen (enough)",
+              "date": "2026-09-29",
+              "link": "http://agileotter.blogspot.com/2026/09/why-redesign-doesnt-happen-enough.html"
+            },
+            {
+              "title": "The Ticket Is Not The Work",
+              "date": "2026-09-26",
+              "link": "http://agileotter.blogspot.com/2026/09/the-ticket-is-not-work.html"
+            },
+            {
+              "title": "Spreadsheets",
+              "date": "2026-08-26",
+              "link": "http://agileotter.blogspot.com/2026/08/spreadsheets.html"
+            },
+            {
+              "title": "Eight Code Virtues",
+              "date": "2026-08-19",
+              "link": "http://agileotter.blogspot.com/2026/08/eight-code-virtues-draft.html"
+            }
+          ]
+        },
+        {
+          "title": "Ross Wintle",
+          "feedUrl": "https://rosswintle.uk/feed/",
+          "items": [
+            {
+              "title": "LLMs are not like manufacturing machines",
+              "date": "2026-10-18",
+              "link": "https://rosswintle.uk/2026/10/llms-are-not-like-manufacturing-machines/"
+            },
+            {
+              "title": "The search for joy",
+              "date": "2026-10-11",
+              "link": "https://rosswintle.uk/2026/10/the-search-for-joy/"
+            },
+            {
+              "title": "My new favourite habit tracker is vibe coded (probably) and I don’t know what to do about it",
+              "date": "2026-08-26",
+              "link": "https://rosswintle.uk/2026/08/my-new-favourite-habit-tracker-is-vibe-coded-i-dont-know-what-to-do-about-it/"
+            },
+            {
+              "title": "A real-life, jargon-free sourdough bread process",
+              "date": "2026-07-16",
+              "link": "https://rosswintle.uk/2026/07/a-real-life-jargon-free-sourdough-bread-process/"
+            },
+            {
+              "title": "Zig and the Zig Guy",
+              "date": "2026-06-28",
+              "link": "https://rosswintle.uk/2026/06/zig-and-the-zig-guy/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -66,32 +185,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-10-17",
-              "link": "https://dbushell.com/notes/2026-10-17T06:44Z/"
-            },
-            {
-              "date": "2026-10-15",
-              "link": "https://dbushell.com/notes/2026-10-15T05:37Z/"
-            },
-            {
-              "date": "2026-10-15",
-              "link": "https://dbushell.com/notes/2026-10-15T05:15Z/"
-            },
-            {
-              "date": "2026-10-14",
-              "link": "https://dbushell.com/notes/2026-10-14T06:54Z/"
-            },
-            {
-              "date": "2026-10-10",
-              "link": "https://dbushell.com/notes/2026-10-10T10:30Z/"
-            }
-          ]
-        },
-        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -119,37 +212,6 @@
               "title": "Shin honkaku",
               "date": "2026-09-28",
               "link": "https://dbushell.com/2026/09/28/shin-honkaku/"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "How to Find Energy for Creative Work",
-              "date": "2026-10-16",
-              "link": "https://www.simplermachines.com/how-to-find-energy-for-creative-work/"
-            },
-            {
-              "title": "On Writing Every Day",
-              "date": "2026-10-01",
-              "link": "https://www.simplermachines.com/on-writing-every-day/"
-            },
-            {
-              "title": "Mere Being - 035 - September - evening photographs, writing, chickpeas",
-              "date": "2026-10-01",
-              "link": "https://www.simplermachines.com/mere-being-035-september-evening-photographs-writing-chickpeas/"
-            },
-            {
-              "title": "[NMD EXQ 36/60] This might be a bismuth mine",
-              "date": "2026-09-30",
-              "link": "https://www.simplermachines.com/nmd-exq-36-60-this-might-be-a-bismuth-mine/"
-            },
-            {
-              "title": "[NMD EXQ 35/60] Two troubling dolls",
-              "date": "2026-09-29",
-              "link": "https://www.simplermachines.com/nmd-exq-35-60-two-troubling-dolls/"
             }
           ]
         },
@@ -309,33 +371,33 @@
           ]
         },
         {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
           "items": [
             {
-              "title": "The search for joy",
-              "date": "2026-10-11",
-              "link": "https://rosswintle.uk/2026/10/the-search-for-joy/"
+              "title": "No Man Is an Island",
+              "date": "2026-10-08",
+              "link": "https://borretti.me/article/no-man-is-an-island"
             },
             {
-              "title": "My new favourite habit tracker is vibe coded (probably) and I don’t know what to do about it",
-              "date": "2026-08-26",
-              "link": "https://rosswintle.uk/2026/08/my-new-favourite-habit-tracker-is-vibe-coded-i-dont-know-what-to-do-about-it/"
+              "title": "The Other Road",
+              "date": "2026-09-09",
+              "link": "https://borretti.me/article/the-other-road"
             },
             {
-              "title": "A real-life, jargon-free sourdough bread process",
-              "date": "2026-07-16",
-              "link": "https://rosswintle.uk/2026/07/a-real-life-jargon-free-sourdough-bread-process/"
+              "title": "The Education of a Doomer",
+              "date": "2026-09-07",
+              "link": "https://borretti.me/article/the-education-of-a-doomer"
             },
             {
-              "title": "Zig and the Zig Guy",
-              "date": "2026-06-28",
-              "link": "https://rosswintle.uk/2026/06/zig-and-the-zig-guy/"
+              "title": "On Inevitability",
+              "date": "2026-08-30",
+              "link": "https://borretti.me/article/on-inevitability"
             },
             {
-              "title": "Turbo Admin 1.21",
-              "date": "2026-06-08",
-              "link": "https://rosswintle.uk/2026/06/turbo-admin-1-21/"
+              "title": "Futurism Is Always Extreme",
+              "date": "2026-08-25",
+              "link": "https://borretti.me/article/futurism-is-always-extreme"
             }
           ]
         },
@@ -367,37 +429,6 @@
               "title": "Hack Your Brain with Relationship Anarchy",
               "date": "2026-05-22",
               "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "No Man Is an Island",
-              "date": "2026-10-08",
-              "link": "https://borretti.me/article/no-man-is-an-island"
-            },
-            {
-              "title": "The Other Road",
-              "date": "2026-09-09",
-              "link": "https://borretti.me/article/the-other-road"
-            },
-            {
-              "title": "The Education of a Doomer",
-              "date": "2026-09-07",
-              "link": "https://borretti.me/article/the-education-of-a-doomer"
-            },
-            {
-              "title": "On Inevitability",
-              "date": "2026-08-30",
-              "link": "https://borretti.me/article/on-inevitability"
-            },
-            {
-              "title": "Futurism Is Always Extreme",
-              "date": "2026-08-25",
-              "link": "https://borretti.me/article/futurism-is-always-extreme"
             }
           ]
         },
@@ -619,37 +650,6 @@
           ]
         },
         {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Why redesign doesn't happen (enough)",
-              "date": "2026-09-29",
-              "link": "http://agileotter.blogspot.com/2026/09/why-redesign-doesnt-happen-enough.html"
-            },
-            {
-              "title": "The Ticket Is Not The Work",
-              "date": "2026-09-26",
-              "link": "http://agileotter.blogspot.com/2026/09/the-ticket-is-not-work.html"
-            },
-            {
-              "title": "Spreadsheets",
-              "date": "2026-08-26",
-              "link": "http://agileotter.blogspot.com/2026/08/spreadsheets.html"
-            },
-            {
-              "title": "Eight Code Virtues",
-              "date": "2026-08-19",
-              "link": "http://agileotter.blogspot.com/2026/08/eight-code-virtues-draft.html"
-            },
-            {
-              "title": "Progressive Admission Pattern - story slicing",
-              "date": "2026-08-11",
-              "link": "http://agileotter.blogspot.com/2026/08/progressive-admission-pattern-for-data.html"
-            }
-          ]
-        },
-        {
           "title": "James Shore",
           "feedUrl": "https://www.jamesshore.com/v2/feed",
           "items": [
@@ -832,6 +832,37 @@
               "title": "I refuse to play the imitation game",
               "date": "2026-04-15",
               "link": "https://einarwh.no/blog/2026/04/15/i-refuse-to-play-the-imitation-game/"
+            }
+          ]
+        },
+        {
+          "title": "Infrequently Noted",
+          "feedUrl": "https://infrequently.org/feed/",
+          "items": [
+            {
+              "title": "From PrismJS to Better PrismJS to MicroLighter in Three Painless* Steps",
+              "date": "2026-09-20",
+              "link": "https://infrequently.org/2026/09/microlighter/"
+            },
+            {
+              "title": "The Wicked Reason Removing Code Beats Better Scheduling",
+              "date": "2026-08-19",
+              "link": "https://infrequently.org/2026/08/notes-on-performance-remediation-strategies/"
+            },
+            {
+              "title": "The Absolute State of Management",
+              "date": "2026-07-23",
+              "link": "https://infrequently.org/2026/07/state-management/"
+            },
+            {
+              "title": "Abject Praise",
+              "date": "2026-07-06",
+              "link": "https://infrequently.org/2026/07/abject-praise/"
+            },
+            {
+              "title": "The Web Is An Antitrust Wedge",
+              "date": "2026-04-03",
+              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
             }
           ]
         },
@@ -2154,6 +2185,37 @@
           ]
         },
         {
+          "title": "GeePawHill.org",
+          "feedUrl": "https://www.geepawhill.org/feed/",
+          "items": [
+            {
+              "title": "Basic Concepts of the “Making App”",
+              "date": "2024-10-02",
+              "link": "https://www.geepawhill.org/2024/10/01/basic-concepts-of-the-making-app/"
+            },
+            {
+              "title": "Optimize for Our Humans",
+              "date": "2024-02-23",
+              "link": "https://www.geepawhill.org/2024/02/23/optimize-for-our-humans/"
+            },
+            {
+              "title": "Why Only Change Frames?",
+              "date": "2023-02-02",
+              "link": "https://www.geepawhill.org/2023/02/02/why-only-change-frames/"
+            },
+            {
+              "title": "The Frame-Changing Triad",
+              "date": "2023-01-26",
+              "link": "https://www.geepawhill.org/2023/01/26/the-frame-changing-triad/"
+            },
+            {
+              "title": "Changing The Frame",
+              "date": "2023-01-20",
+              "link": "https://www.geepawhill.org/2023/01/20/changing-the-frame/"
+            }
+          ]
+        },
+        {
           "title": "Nonlinear.Garden",
           "feedUrl": "https://nonlinear.garden/rss.xml",
           "items": [
@@ -2342,16 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-18T07:45:21.361Z",
+  "fetchDate": "2026-10-19T08:28:24.039Z",
   "errors": [
-    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://anniemueller.com/posts_feed",
     "https://fynn.be/feed.xml",
-    "https://www.geepawhill.org/feed/",
     "https://adrianroselli.com/feed"
   ]
 }

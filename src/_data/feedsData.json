@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "How not to migrate from Cloudflare DNS",
+              "date": "2026-10-20",
+              "link": "https://dbushell.com/2026/10/20/how-not-to-migrate-from-cloudflare-dns/"
+            },
+            {
+              "title": "Cloudflare killed Deno and look I’m on TV!",
+              "date": "2026-10-16",
+              "link": "https://dbushell.com/2026/10/16/cloudflare-killed-deno/"
+            },
+            {
+              "title": "D-Bus Hell",
+              "date": "2026-10-11",
+              "link": "https://dbushell.com/2026/10/11/d-bus-hell/"
+            },
+            {
+              "title": "A sustainable web career, for when all this blows over",
+              "date": "2026-10-07",
+              "link": "https://dbushell.com/2026/10/07/sustainable-web-career/"
+            },
+            {
+              "title": "Friendship ended with Deno, now Node is my best friend",
+              "date": "2026-10-03",
+              "link": "https://dbushell.com/2026/10/03/deno-to-node/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "No More Icons In Every Menu By Default",
+              "date": "2026-10-19",
+              "link": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/"
+            },
+            {
+              "title": "We Need All the Disciplines",
+              "date": "2026-10-15",
+              "link": "https://blog.jim-nielsen.com/2026/we-need-all-disciplines/"
+            },
+            {
+              "title": "The Dock on Mac, From OS 10 to macOS 27",
+              "date": "2026-10-12",
+              "link": "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/"
+            },
+            {
+              "title": "The Fascinating World of Domains",
+              "date": "2026-10-11",
+              "link": "https://blog.jim-nielsen.com/2026/domains-article-on-wired/"
+            },
+            {
+              "title": "“Getting off the Modernization Treadmill”",
+              "date": "2026-10-08",
+              "link": "https://blog.jim-nielsen.com/2026/talk-notes-modernization-treadmill/"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
@@ -185,68 +247,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Cloudflare killed Deno and look I’m on TV!",
-              "date": "2026-10-16",
-              "link": "https://dbushell.com/2026/10/16/cloudflare-killed-deno/"
-            },
-            {
-              "title": "D-Bus Hell",
-              "date": "2026-10-11",
-              "link": "https://dbushell.com/2026/10/11/d-bus-hell/"
-            },
-            {
-              "title": "A sustainable web career, for when all this blows over",
-              "date": "2026-10-07",
-              "link": "https://dbushell.com/2026/10/07/sustainable-web-career/"
-            },
-            {
-              "title": "Friendship ended with Deno, now Node is my best friend",
-              "date": "2026-10-03",
-              "link": "https://dbushell.com/2026/10/03/deno-to-node/"
-            },
-            {
-              "title": "Shin honkaku",
-              "date": "2026-09-28",
-              "link": "https://dbushell.com/2026/09/28/shin-honkaku/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "We Need All the Disciplines",
-              "date": "2026-10-15",
-              "link": "https://blog.jim-nielsen.com/2026/we-need-all-disciplines/"
-            },
-            {
-              "title": "The Dock on Mac, From OS 10 to macOS 27",
-              "date": "2026-10-12",
-              "link": "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/"
-            },
-            {
-              "title": "The Fascinating World of Domains",
-              "date": "2026-10-11",
-              "link": "https://blog.jim-nielsen.com/2026/domains-article-on-wired/"
-            },
-            {
-              "title": "“Getting off the Modernization Treadmill”",
-              "date": "2026-10-08",
-              "link": "https://blog.jim-nielsen.com/2026/talk-notes-modernization-treadmill/"
-            },
-            {
-              "title": "Apple’s App Icon HOA",
-              "date": "2026-10-06",
-              "link": "https://blog.jim-nielsen.com/2026/app-icon-hoa/"
-            }
-          ]
-        },
-        {
           "title": "sunshowers",
           "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
@@ -367,6 +367,37 @@
               "title": "Software developers are not okay",
               "date": "2026-10-06",
               "link": "https://www.baldurbjarnason.com/2026/05-software-developers-are-not-okay/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "Decorative Images…",
+              "date": "2026-10-09",
+              "link": "https://adrianroselli.com/2026/10/decorative-images.html"
+            },
+            {
+              "title": "#Corpowid and #Skynet Technologies Will Get You Sued",
+              "date": "2026-09-28",
+              "link": "https://adrianroselli.com/2026/09/corpowid-and-skynet-technologies-will-get-you-sued.html"
+            },
+            {
+              "title": "Support for `headers` Attribute",
+              "date": "2026-09-08",
+              "link": "https://adrianroselli.com/2026/09/support-for-headers-attribute.html"
+            },
+            {
+              "title": "Evaluating a Success Criterion",
+              "date": "2026-09-01",
+              "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
+            },
+            {
+              "title": "The 2.1.1 “specific timings” Clause",
+              "date": "2026-08-26",
+              "link": "https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html"
             }
           ]
         },
@@ -1146,37 +1177,6 @@
           ]
         },
         {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Jeg testet verktøyet som skal krympe AI-regningen",
-              "date": "2026-08-19",
-              "link": "https://www.kodemaker.no/blogg/2026-08-19-verktoyet-som-skal-krympe-ai-regningen/"
-            },
-            {
-              "title": "Min nye produktsjef er en lærende agent",
-              "date": "2026-07-27",
-              "link": "https://www.kodemaker.no/blogg/2026-07-27-min-nye-produktsjef/"
-            },
-            {
-              "title": "Da 3D-printeren møtte Claude",
-              "date": "2026-05-12",
-              "link": "https://www.kodemaker.no/blogg/2026-05-12-3d-printeren-moter-claude-code/"
-            },
-            {
-              "title": "FFSBS - Flinke Folk Som Bryr Seg",
-              "date": "2026-03-11",
-              "link": "https://www.kodemaker.no/blogg/2026-03-11-ffsbs/"
-            },
-            {
-              "title": "Kodemaker åpen fagdag 2026",
-              "date": "2026-02-12",
-              "link": "https://www.kodemaker.no/blogg/2026-02-12-kodemaker-apen-fagdag/"
-            }
-          ]
-        },
-        {
           "title": "Pablo's logbook",
           "feedUrl": "https://blog.codemanship.dev/rss.xml",
           "items": [
@@ -1204,6 +1204,37 @@
               "title": "Separating the important from the urgent",
               "date": "2025-09-08",
               "link": "https://blog.codemanship.dev/separating-the-important-from-the-urgent"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "Jeg testet verktøyet som skal krympe AI-regningen",
+              "date": "2026-08-19",
+              "link": "https://www.kodemaker.no/blogg/2026-08-19-verktoyet-som-skal-krympe-ai-regningen/"
+            },
+            {
+              "title": "Min nye produktsjef er en lærende agent",
+              "date": "2026-07-27",
+              "link": "https://www.kodemaker.no/blogg/2026-07-27-min-nye-produktsjef/"
+            },
+            {
+              "title": "Da 3D-printeren møtte Claude",
+              "date": "2026-05-12",
+              "link": "https://www.kodemaker.no/blogg/2026-05-12-3d-printeren-moter-claude-code/"
+            },
+            {
+              "title": "FFSBS - Flinke Folk Som Bryr Seg",
+              "date": "2026-03-11",
+              "link": "https://www.kodemaker.no/blogg/2026-03-11-ffsbs/"
+            },
+            {
+              "title": "Kodemaker åpen fagdag 2026",
+              "date": "2026-02-12",
+              "link": "https://www.kodemaker.no/blogg/2026-02-12-kodemaker-apen-fagdag/"
             }
           ]
         },
@@ -2404,14 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-19T08:28:24.039Z",
+  "fetchDate": "2026-10-20T08:09:48.303Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://anniemueller.com/posts_feed",
-    "https://fynn.be/feed.xml",
-    "https://adrianroselli.com/feed"
+    "https://fynn.be/feed.xml"
   ]
 }

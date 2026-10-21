@@ -4,6 +4,32 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-10-21",
+              "link": "https://dbushell.com/notes/2026-10-21T05:57Z/"
+            },
+            {
+              "date": "2026-10-20",
+              "link": "https://dbushell.com/notes/2026-10-20T16:03Z/"
+            },
+            {
+              "date": "2026-10-19",
+              "link": "https://dbushell.com/notes/2026-10-19T06:37Z/"
+            },
+            {
+              "date": "2026-10-17",
+              "link": "https://dbushell.com/notes/2026-10-17T06:44Z/"
+            },
+            {
+              "date": "2026-10-15",
+              "link": "https://dbushell.com/notes/2026-10-15T05:37Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,6 +57,68 @@
               "title": "Friendship ended with Deno, now Node is my best friend",
               "date": "2026-10-03",
               "link": "https://dbushell.com/2026/10/03/deno-to-node/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Documentation-Driven Development",
+              "date": "2026-10-20",
+              "link": "https://gomakethings.com/articles/documentation-driven-development/"
+            },
+            {
+              "title": "Life on Foot",
+              "date": "2026-10-17",
+              "link": "https://gomakethings.com/articles/life-on-foot/"
+            },
+            {
+              "title": "The Village",
+              "date": "2026-10-16",
+              "link": "https://gomakethings.com/articles/the-village/"
+            },
+            {
+              "title": "We live in a world where...",
+              "date": "2026-10-10",
+              "link": "https://gomakethings.com/articles/we-live-in-a-world-where.../"
+            },
+            {
+              "title": "No human is illegal",
+              "date": "2026-10-05",
+              "link": "https://gomakethings.com/articles/no-human-is-illegal/"
+            }
+          ]
+        },
+        {
+          "title": "Eric Bailey",
+          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
+          "items": [
+            {
+              "title": "The Accessibility Compat Data project has a homepage now, and you should support the project",
+              "date": "2026-10-20",
+              "link": "https://ericwbailey.website/published/the-accessibility-compat-data-project-has-a-homepage-now-and-you-should-support-the-project/"
+            },
+            {
+              "title": "GitHub repository landing pages now show an accessibility tab, if provided",
+              "date": "2026-10-01",
+              "link": "https://ericwbailey.website/published/github-repository-landing-pages-now-show-an-accessibility-tab-if-provided/"
+            },
+            {
+              "title": "CSS-Tricks could be a co-op",
+              "date": "2026-09-18",
+              "link": "https://ericwbailey.website/published/css-tricks-could-be-a-co-op/"
+            },
+            {
+              "title": "A proposal for new Netflix content rating icons",
+              "date": "2026-08-25",
+              "link": "https://ericwbailey.website/published/a-proposal-for-new-netflix-content-rating-icons/"
+            },
+            {
+              "title": "Here’s yet another metaphor about tech debt",
+              "date": "2026-08-04",
+              "link": "https://ericwbailey.website/published/heres-yet-another-metaphor-about-tech-debt/"
             }
           ]
         },
@@ -97,32 +185,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-10-19",
-              "link": "https://dbushell.com/notes/2026-10-19T06:37Z/"
-            },
-            {
-              "date": "2026-10-17",
-              "link": "https://dbushell.com/notes/2026-10-17T06:44Z/"
-            },
-            {
-              "date": "2026-10-15",
-              "link": "https://dbushell.com/notes/2026-10-15T05:37Z/"
-            },
-            {
-              "date": "2026-10-15",
-              "link": "https://dbushell.com/notes/2026-10-15T05:15Z/"
-            },
-            {
-              "date": "2026-10-14",
-              "link": "https://dbushell.com/notes/2026-10-14T06:54Z/"
-            }
-          ]
-        },
-        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
@@ -150,68 +212,6 @@
               "title": "Eight Code Virtues",
               "date": "2026-08-19",
               "link": "http://agileotter.blogspot.com/2026/08/eight-code-virtues-draft.html"
-            }
-          ]
-        },
-        {
-          "title": "Ross Wintle",
-          "feedUrl": "https://rosswintle.uk/feed/",
-          "items": [
-            {
-              "title": "LLMs are not like manufacturing machines",
-              "date": "2026-10-18",
-              "link": "https://rosswintle.uk/2026/10/llms-are-not-like-manufacturing-machines/"
-            },
-            {
-              "title": "The search for joy",
-              "date": "2026-10-11",
-              "link": "https://rosswintle.uk/2026/10/the-search-for-joy/"
-            },
-            {
-              "title": "My new favourite habit tracker is vibe coded (probably) and I don’t know what to do about it",
-              "date": "2026-08-26",
-              "link": "https://rosswintle.uk/2026/08/my-new-favourite-habit-tracker-is-vibe-coded-i-dont-know-what-to-do-about-it/"
-            },
-            {
-              "title": "A real-life, jargon-free sourdough bread process",
-              "date": "2026-07-16",
-              "link": "https://rosswintle.uk/2026/07/a-real-life-jargon-free-sourdough-bread-process/"
-            },
-            {
-              "title": "Zig and the Zig Guy",
-              "date": "2026-06-28",
-              "link": "https://rosswintle.uk/2026/06/zig-and-the-zig-guy/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Life on Foot",
-              "date": "2026-10-17",
-              "link": "https://gomakethings.com/articles/life-on-foot/"
-            },
-            {
-              "title": "The Village",
-              "date": "2026-10-16",
-              "link": "https://gomakethings.com/articles/the-village/"
-            },
-            {
-              "title": "We live in a world where...",
-              "date": "2026-10-10",
-              "link": "https://gomakethings.com/articles/we-live-in-a-world-where.../"
-            },
-            {
-              "title": "No human is illegal",
-              "date": "2026-10-05",
-              "link": "https://gomakethings.com/articles/no-human-is-illegal/"
-            },
-            {
-              "title": "Radical books that aren't a slog",
-              "date": "2026-10-04",
-              "link": "https://gomakethings.com/articles/radical-books-that-arent-a-slog/"
             }
           ]
         },
@@ -402,37 +402,6 @@
           ]
         },
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "No Man Is an Island",
-              "date": "2026-10-08",
-              "link": "https://borretti.me/article/no-man-is-an-island"
-            },
-            {
-              "title": "The Other Road",
-              "date": "2026-09-09",
-              "link": "https://borretti.me/article/the-other-road"
-            },
-            {
-              "title": "The Education of a Doomer",
-              "date": "2026-09-07",
-              "link": "https://borretti.me/article/the-education-of-a-doomer"
-            },
-            {
-              "title": "On Inevitability",
-              "date": "2026-08-30",
-              "link": "https://borretti.me/article/on-inevitability"
-            },
-            {
-              "title": "Futurism Is Always Extreme",
-              "date": "2026-08-25",
-              "link": "https://borretti.me/article/futurism-is-always-extreme"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -460,6 +429,37 @@
               "title": "Hack Your Brain with Relationship Anarchy",
               "date": "2026-05-22",
               "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "No Man Is an Island",
+              "date": "2026-10-08",
+              "link": "https://borretti.me/article/no-man-is-an-island"
+            },
+            {
+              "title": "The Other Road",
+              "date": "2026-09-09",
+              "link": "https://borretti.me/article/the-other-road"
+            },
+            {
+              "title": "The Education of a Doomer",
+              "date": "2026-09-07",
+              "link": "https://borretti.me/article/the-education-of-a-doomer"
+            },
+            {
+              "title": "On Inevitability",
+              "date": "2026-08-30",
+              "link": "https://borretti.me/article/on-inevitability"
+            },
+            {
+              "title": "Futurism Is Always Extreme",
+              "date": "2026-08-25",
+              "link": "https://borretti.me/article/futurism-is-always-extreme"
             }
           ]
         },
@@ -615,37 +615,6 @@
               "title": "Printing tiny photos for paper journals",
               "date": "2026-07-24",
               "link": "https://macwright.com/2026/07/24/printing-for-journals.html"
-            }
-          ]
-        },
-        {
-          "title": "Eric Bailey",
-          "feedUrl": "https://ericwbailey.website/feed/feed.xml",
-          "items": [
-            {
-              "title": "GitHub repository landing pages now show an accessibility tab, if provided",
-              "date": "2026-10-01",
-              "link": "https://ericwbailey.website/published/github-repository-landing-pages-now-show-an-accessibility-tab-if-provided/"
-            },
-            {
-              "title": "CSS-Tricks could be a co-op",
-              "date": "2026-09-18",
-              "link": "https://ericwbailey.website/published/css-tricks-could-be-a-co-op/"
-            },
-            {
-              "title": "A proposal for new Netflix content rating icons",
-              "date": "2026-08-25",
-              "link": "https://ericwbailey.website/published/a-proposal-for-new-netflix-content-rating-icons/"
-            },
-            {
-              "title": "Here’s yet another metaphor about tech debt",
-              "date": "2026-08-04",
-              "link": "https://ericwbailey.website/published/heres-yet-another-metaphor-about-tech-debt/"
-            },
-            {
-              "title": "The case for an accessibility designer vibe coding when all his coworkers are also vibe coding",
-              "date": "2026-06-15",
-              "link": "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/"
             }
           ]
         },
@@ -1177,37 +1146,6 @@
           ]
         },
         {
-          "title": "Pablo's logbook",
-          "feedUrl": "https://blog.codemanship.dev/rss.xml",
-          "items": [
-            {
-              "title": "The wrong unit",
-              "date": "2026-08-19",
-              "link": "https://blog.codemanship.dev/smaller-steps-six-ai-coding-agents"
-            },
-            {
-              "title": "Rant Code",
-              "date": "2026-04-17",
-              "link": "https://blog.codemanship.dev/rant-code"
-            },
-            {
-              "title": "Flow State",
-              "date": "2025-11-26",
-              "link": "https://blog.codemanship.dev/flow-state"
-            },
-            {
-              "title": "My code is a liar",
-              "date": "2025-11-20",
-              "link": "https://blog.codemanship.dev/my-code-is-a-liar"
-            },
-            {
-              "title": "Separating the important from the urgent",
-              "date": "2025-09-08",
-              "link": "https://blog.codemanship.dev/separating-the-important-from-the-urgent"
-            }
-          ]
-        },
-        {
           "title": "Kodemaker sin blogg",
           "feedUrl": "https://www.kodemaker.no/atom.xml",
           "items": [
@@ -1235,6 +1173,37 @@
               "title": "Kodemaker åpen fagdag 2026",
               "date": "2026-02-12",
               "link": "https://www.kodemaker.no/blogg/2026-02-12-kodemaker-apen-fagdag/"
+            }
+          ]
+        },
+        {
+          "title": "Pablo's logbook",
+          "feedUrl": "https://blog.codemanship.dev/rss.xml",
+          "items": [
+            {
+              "title": "The wrong unit",
+              "date": "2026-08-19",
+              "link": "https://blog.codemanship.dev/smaller-steps-six-ai-coding-agents"
+            },
+            {
+              "title": "Rant Code",
+              "date": "2026-04-17",
+              "link": "https://blog.codemanship.dev/rant-code"
+            },
+            {
+              "title": "Flow State",
+              "date": "2025-11-26",
+              "link": "https://blog.codemanship.dev/flow-state"
+            },
+            {
+              "title": "My code is a liar",
+              "date": "2025-11-20",
+              "link": "https://blog.codemanship.dev/my-code-is-a-liar"
+            },
+            {
+              "title": "Separating the important from the urgent",
+              "date": "2025-09-08",
+              "link": "https://blog.codemanship.dev/separating-the-important-from-the-urgent"
             }
           ]
         },
@@ -2435,13 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-20T08:09:48.303Z",
+  "fetchDate": "2026-10-21T08:15:13.340Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://anniemueller.com/posts_feed",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://rosswintle.uk/feed/"
   ]
 }

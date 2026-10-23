@@ -4,6 +4,68 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "How Not to Ruin Your Housing Market",
+              "date": "2026-10-23",
+              "link": "https://www.simplermachines.com/how-not-to-ruin-your-housing-market/"
+            },
+            {
+              "title": "[NMD EXQ 39/60] Date night",
+              "date": "2026-10-19",
+              "link": "https://www.simplermachines.com/nmd-exq-39-60-date-night/"
+            },
+            {
+              "title": "How to Find Energy for Creative Work",
+              "date": "2026-10-16",
+              "link": "https://www.simplermachines.com/how-to-find-energy-for-creative-work/"
+            },
+            {
+              "title": "On Writing Every Day",
+              "date": "2026-10-01",
+              "link": "https://www.simplermachines.com/on-writing-every-day/"
+            },
+            {
+              "title": "Mere Being - 035 - September - evening photographs, writing, chickpeas",
+              "date": "2026-10-01",
+              "link": "https://www.simplermachines.com/mere-being-035-september-evening-photographs-writing-chickpeas/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "NYC, New Webinar, Differential Testing",
+              "date": "2026-10-22",
+              "link": "https://buttondown.com/hillelwayne/archive/nyc-new-webinar-differential-testing/"
+            },
+            {
+              "title": "What TLA+ can and can't check",
+              "date": "2026-09-30",
+              "link": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/"
+            },
+            {
+              "title": "The LLMs yearn for the spines",
+              "date": "2026-09-16",
+              "link": "https://buttondown.com/hillelwayne/archive/the-llms-yearn-for-the-spines/"
+            },
+            {
+              "title": "New Post: A Crash Course in Predicate Logic",
+              "date": "2026-09-01",
+              "link": "https://buttondown.com/hillelwayne/archive/new-post-a-crash-course-in-predicate-logic/"
+            },
+            {
+              "title": "Vim wants you to control, VSCode wants you to consume",
+              "date": "2026-08-18",
+              "link": "https://buttondown.com/hillelwayne/archive/vim-wants-you-to-control-vscode-wants-you-to/"
+            }
+          ]
+        },
+        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -212,37 +274,6 @@
               "title": "London Hardhouse Reunion 2026",
               "date": "2026-09-18",
               "link": "https://flamedfury.com/posts/london-hardhouse-reunion-2026/"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[NMD EXQ 39/60] Date night",
-              "date": "2026-10-19",
-              "link": "https://www.simplermachines.com/nmd-exq-39-60-date-night/"
-            },
-            {
-              "title": "How to Find Energy for Creative Work",
-              "date": "2026-10-16",
-              "link": "https://www.simplermachines.com/how-to-find-energy-for-creative-work/"
-            },
-            {
-              "title": "On Writing Every Day",
-              "date": "2026-10-01",
-              "link": "https://www.simplermachines.com/on-writing-every-day/"
-            },
-            {
-              "title": "Mere Being - 035 - September - evening photographs, writing, chickpeas",
-              "date": "2026-10-01",
-              "link": "https://www.simplermachines.com/mere-being-035-september-evening-photographs-writing-chickpeas/"
-            },
-            {
-              "title": "[NMD EXQ 36/60] This might be a bismuth mine",
-              "date": "2026-09-30",
-              "link": "https://www.simplermachines.com/nmd-exq-36-60-this-might-be-a-bismuth-mine/"
             }
           ]
         },
@@ -464,37 +495,6 @@
           ]
         },
         {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "No Man Is an Island",
-              "date": "2026-10-08",
-              "link": "https://borretti.me/article/no-man-is-an-island"
-            },
-            {
-              "title": "The Other Road",
-              "date": "2026-09-09",
-              "link": "https://borretti.me/article/the-other-road"
-            },
-            {
-              "title": "The Education of a Doomer",
-              "date": "2026-09-07",
-              "link": "https://borretti.me/article/the-education-of-a-doomer"
-            },
-            {
-              "title": "On Inevitability",
-              "date": "2026-08-30",
-              "link": "https://borretti.me/article/on-inevitability"
-            },
-            {
-              "title": "Futurism Is Always Extreme",
-              "date": "2026-08-25",
-              "link": "https://borretti.me/article/futurism-is-always-extreme"
-            }
-          ]
-        },
-        {
           "title": "No Boilerplate",
           "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
           "items": [
@@ -522,6 +522,37 @@
               "title": "Hack Your Brain with Relationship Anarchy",
               "date": "2026-05-22",
               "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "No Man Is an Island",
+              "date": "2026-10-08",
+              "link": "https://borretti.me/article/no-man-is-an-island"
+            },
+            {
+              "title": "The Other Road",
+              "date": "2026-09-09",
+              "link": "https://borretti.me/article/the-other-road"
+            },
+            {
+              "title": "The Education of a Doomer",
+              "date": "2026-09-07",
+              "link": "https://borretti.me/article/the-education-of-a-doomer"
+            },
+            {
+              "title": "On Inevitability",
+              "date": "2026-08-30",
+              "link": "https://borretti.me/article/on-inevitability"
+            },
+            {
+              "title": "Futurism Is Always Extreme",
+              "date": "2026-08-25",
+              "link": "https://borretti.me/article/futurism-is-always-extreme"
             }
           ]
         },
@@ -646,37 +677,6 @@
               "title": "Printing tiny photos for paper journals",
               "date": "2026-07-24",
               "link": "https://macwright.com/2026/07/24/printing-for-journals.html"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "What TLA+ can and can't check",
-              "date": "2026-09-30",
-              "link": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/"
-            },
-            {
-              "title": "The LLMs yearn for the spines",
-              "date": "2026-09-16",
-              "link": "https://buttondown.com/hillelwayne/archive/the-llms-yearn-for-the-spines/"
-            },
-            {
-              "title": "New Post: A Crash Course in Predicate Logic",
-              "date": "2026-09-01",
-              "link": "https://buttondown.com/hillelwayne/archive/new-post-a-crash-course-in-predicate-logic/"
-            },
-            {
-              "title": "Vim wants you to control, VSCode wants you to consume",
-              "date": "2026-08-18",
-              "link": "https://buttondown.com/hillelwayne/archive/vim-wants-you-to-control-vscode-wants-you-to/"
-            },
-            {
-              "title": "Logic for Programmers is Done",
-              "date": "2026-07-29",
-              "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-is-done/"
             }
           ]
         },
@@ -1328,37 +1328,6 @@
               "title": "Submitting talks to a tech conference Call for Papers",
               "date": "2025-06-10",
               "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
-            }
-          ]
-        },
-        {
-          "title": "artemis.sh",
-          "feedUrl": "https://artemis.sh/feed.xml",
-          "items": [
-            {
-              "title": "Fast Synthesis of Basic Oscillators",
-              "date": "2026-07-23",
-              "link": "https://artemis.sh/2026/07/23/fast-synthesis-basic-oscillators.html"
-            },
-            {
-              "title": "Bidirectional I2S with PIO",
-              "date": "2026-03-22",
-              "link": "https://artemis.sh/2026/03/22/pio-i2s-bidirectional.html"
-            },
-            {
-              "title": "raspi3 luks - aes-xts vs xchacha,aes-adiantum",
-              "date": "2025-10-03",
-              "link": "https://artemis.sh/2025/10/03/pi3-cryptsetup-benchmarks.html"
-            },
-            {
-              "title": "Defragging my old Dell’s UEFI NVRAM",
-              "date": "2025-02-22",
-              "link": "https://artemis.sh/2025/02/22/uefi-nvram-defrag.html"
-            },
-            {
-              "title": "The Serenity of -j1",
-              "date": "2024-07-29",
-              "link": "https://artemis.sh/2024/07/29/the-serenity-of-j1.html"
             }
           ]
         },
@@ -2435,11 +2404,12 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-22T08:16:33.886Z",
+  "fetchDate": "2026-10-23T08:13:24.930Z",
   "errors": [
-    "https://2ality.com/feeds/posts.atom",
     "https://cutlefish.substack.com/feed",
+    "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
+    "https://artemis.sh/feed.xml",
     "https://mikegrindle.com/feed.xml",
     "https://anniemueller.com/posts_feed",
     "https://fynn.be/feed.xml"

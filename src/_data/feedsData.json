@@ -4,6 +4,125 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Danse Macabre",
+              "date": "2026-10-28",
+              "link": "https://dbushell.com/2026/10/28/danse-macabre/"
+            },
+            {
+              "title": "How not to migrate from Cloudflare DNS",
+              "date": "2026-10-20",
+              "link": "https://dbushell.com/2026/10/20/how-not-to-migrate-from-cloudflare-dns/"
+            },
+            {
+              "title": "Cloudflare killed Deno and look I’m on TV!",
+              "date": "2026-10-16",
+              "link": "https://dbushell.com/2026/10/16/cloudflare-killed-deno/"
+            },
+            {
+              "title": "D-Bus Hell",
+              "date": "2026-10-11",
+              "link": "https://dbushell.com/2026/10/11/d-bus-hell/"
+            },
+            {
+              "title": "A sustainable web career, for when all this blows over",
+              "date": "2026-10-07",
+              "link": "https://dbushell.com/2026/10/07/sustainable-web-career/"
+            }
+          ]
+        },
+        {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "Signal your virtues",
+              "date": "2026-10-27",
+              "link": "https://gomakethings.com/articles/signal-your-virtues/"
+            },
+            {
+              "title": "The SpeechRecognition API",
+              "date": "2026-10-21",
+              "link": "https://gomakethings.com/articles/the-speechrecognition-api/"
+            },
+            {
+              "title": "Documentation-Driven Development",
+              "date": "2026-10-20",
+              "link": "https://gomakethings.com/articles/documentation-driven-development/"
+            },
+            {
+              "title": "Life on Foot",
+              "date": "2026-10-17",
+              "link": "https://gomakethings.com/articles/life-on-foot/"
+            },
+            {
+              "title": "The Village",
+              "date": "2026-10-16",
+              "link": "https://gomakethings.com/articles/the-village/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "We Won’t “Just Hang Out”",
+              "date": "2026-10-27",
+              "link": "https://borretti.me/article/we-wont-just-hang-out"
+            },
+            {
+              "title": "No Man Is an Island",
+              "date": "2026-10-08",
+              "link": "https://borretti.me/article/no-man-is-an-island"
+            },
+            {
+              "title": "The Other Road",
+              "date": "2026-09-09",
+              "link": "https://borretti.me/article/the-other-road"
+            },
+            {
+              "title": "The Education of a Doomer",
+              "date": "2026-09-07",
+              "link": "https://borretti.me/article/the-education-of-a-doomer"
+            },
+            {
+              "title": "On Inevitability",
+              "date": "2026-08-30",
+              "link": "https://borretti.me/article/on-inevitability"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-10-27",
+              "link": "https://dbushell.com/notes/2026-10-27T08:43Z/"
+            },
+            {
+              "date": "2026-10-24",
+              "link": "https://dbushell.com/notes/2026-10-24T06:14Z/"
+            },
+            {
+              "date": "2026-10-21",
+              "link": "https://dbushell.com/notes/2026-10-21T05:57Z/"
+            },
+            {
+              "date": "2026-10-20",
+              "link": "https://dbushell.com/notes/2026-10-20T16:03Z/"
+            },
+            {
+              "date": "2026-10-19",
+              "link": "https://dbushell.com/notes/2026-10-19T06:37Z/"
+            }
+          ]
+        },
+        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -124,32 +243,6 @@
               "title": "Bug blindness",
               "date": "2026-08-30",
               "link": "https://danluu.com/bug-blind/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-10-24",
-              "link": "https://dbushell.com/notes/2026-10-24T06:14Z/"
-            },
-            {
-              "date": "2026-10-21",
-              "link": "https://dbushell.com/notes/2026-10-21T05:57Z/"
-            },
-            {
-              "date": "2026-10-20",
-              "link": "https://dbushell.com/notes/2026-10-20T16:03Z/"
-            },
-            {
-              "date": "2026-10-19",
-              "link": "https://dbushell.com/notes/2026-10-19T06:37Z/"
-            },
-            {
-              "date": "2026-10-17",
-              "link": "https://dbushell.com/notes/2026-10-17T06:44Z/"
             }
           ]
         },
@@ -309,37 +402,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "The SpeechRecognition API",
-              "date": "2026-10-21",
-              "link": "https://gomakethings.com/articles/the-speechrecognition-api/"
-            },
-            {
-              "title": "Documentation-Driven Development",
-              "date": "2026-10-20",
-              "link": "https://gomakethings.com/articles/documentation-driven-development/"
-            },
-            {
-              "title": "Life on Foot",
-              "date": "2026-10-17",
-              "link": "https://gomakethings.com/articles/life-on-foot/"
-            },
-            {
-              "title": "The Village",
-              "date": "2026-10-16",
-              "link": "https://gomakethings.com/articles/the-village/"
-            },
-            {
-              "title": "We live in a world where...",
-              "date": "2026-10-10",
-              "link": "https://gomakethings.com/articles/we-live-in-a-world-where.../"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -367,37 +429,6 @@
               "title": "Different modes of thinking",
               "date": "2026-10-07",
               "link": "https://www.baldurbjarnason.com/2026/modes-of-thinking/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "How not to migrate from Cloudflare DNS",
-              "date": "2026-10-20",
-              "link": "https://dbushell.com/2026/10/20/how-not-to-migrate-from-cloudflare-dns/"
-            },
-            {
-              "title": "Cloudflare killed Deno and look I’m on TV!",
-              "date": "2026-10-16",
-              "link": "https://dbushell.com/2026/10/16/cloudflare-killed-deno/"
-            },
-            {
-              "title": "D-Bus Hell",
-              "date": "2026-10-11",
-              "link": "https://dbushell.com/2026/10/11/d-bus-hell/"
-            },
-            {
-              "title": "A sustainable web career, for when all this blows over",
-              "date": "2026-10-07",
-              "link": "https://dbushell.com/2026/10/07/sustainable-web-career/"
-            },
-            {
-              "title": "Friendship ended with Deno, now Node is my best friend",
-              "date": "2026-10-03",
-              "link": "https://dbushell.com/2026/10/03/deno-to-node/"
             }
           ]
         },
@@ -646,37 +677,6 @@
               "title": "The 2.1.1 “specific timings” Clause",
               "date": "2026-08-26",
               "link": "https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "No Man Is an Island",
-              "date": "2026-10-08",
-              "link": "https://borretti.me/article/no-man-is-an-island"
-            },
-            {
-              "title": "The Other Road",
-              "date": "2026-09-09",
-              "link": "https://borretti.me/article/the-other-road"
-            },
-            {
-              "title": "The Education of a Doomer",
-              "date": "2026-09-07",
-              "link": "https://borretti.me/article/the-education-of-a-doomer"
-            },
-            {
-              "title": "On Inevitability",
-              "date": "2026-08-30",
-              "link": "https://borretti.me/article/on-inevitability"
-            },
-            {
-              "title": "Futurism Is Always Extreme",
-              "date": "2026-08-25",
-              "link": "https://borretti.me/article/futurism-is-always-extreme"
             }
           ]
         },
@@ -956,37 +956,6 @@
               "title": "I refuse to play the imitation game",
               "date": "2026-04-15",
               "link": "https://einarwh.no/blog/2026/04/15/i-refuse-to-play-the-imitation-game/"
-            }
-          ]
-        },
-        {
-          "title": "Infrequently Noted",
-          "feedUrl": "https://infrequently.org/feed/",
-          "items": [
-            {
-              "title": "From PrismJS to Better PrismJS to MicroLighter in Three Painless* Steps",
-              "date": "2026-09-20",
-              "link": "https://infrequently.org/2026/09/microlighter/"
-            },
-            {
-              "title": "The Wicked Reason Removing Code Beats Better Scheduling",
-              "date": "2026-08-19",
-              "link": "https://infrequently.org/2026/08/notes-on-performance-remediation-strategies/"
-            },
-            {
-              "title": "The Absolute State of Management",
-              "date": "2026-07-23",
-              "link": "https://infrequently.org/2026/07/state-management/"
-            },
-            {
-              "title": "Abject Praise",
-              "date": "2026-07-06",
-              "link": "https://infrequently.org/2026/07/abject-praise/"
-            },
-            {
-              "title": "The Web Is An Antitrust Wedge",
-              "date": "2026-04-03",
-              "link": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/"
             }
           ]
         },
@@ -1363,37 +1332,6 @@
           ]
         },
         {
-          "title": "Mathias Verraes",
-          "feedUrl": "https://verraes.net/feed.atom",
-          "items": [
-            {
-              "title": "Loosely Coupled: Is Software Design Still Relevant?",
-              "date": "2026-07-28",
-              "link": "https://verraes.net/2026/07/loosely-coupled-podcast/"
-            },
-            {
-              "title": "Software Design in the Agentic Age: Place Your Bets",
-              "date": "2026-07-02",
-              "link": "https://verraes.net/2026/07/software-design-in-the-agentic-age/"
-            },
-            {
-              "title": "No, Your Domains and Bounded Contexts Don’t Map 1 on 1",
-              "date": "2025-08-28",
-              "link": "https://verraes.net/2025/08/domain-and-bounded-contexts-dont-map-one-on-one/"
-            },
-            {
-              "title": "Two Hard Problems with Distributed Systems",
-              "date": "2025-08-14",
-              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
-            },
-            {
-              "title": "Submitting talks to a tech conference Call for Papers",
-              "date": "2025-06-10",
-              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
-            }
-          ]
-        },
-        {
           "title": ".:. brainsik",
           "feedUrl": "https://brainsik.net/index.xml",
           "items": [
@@ -1483,6 +1421,37 @@
               "title": "\n    Web Summit Vancouver 2026: AI needs an Android-like ecosystem\n    ",
               "date": "2026-05-20",
               "link": "https://apenwarr.ca/log/20260520/is-open-source-ai-rewriting-the-rules"
+            }
+          ]
+        },
+        {
+          "title": "Mathias Verraes",
+          "feedUrl": "https://verraes.net/feed.atom",
+          "items": [
+            {
+              "title": "Software Design in the Agentic Age: Place Your Bets",
+              "date": "2026-07-02",
+              "link": "https://verraes.net/2026/07/software-design-in-the-agentic-age/"
+            },
+            {
+              "title": "No, Your Domains and Bounded Contexts Don’t Map 1 on 1",
+              "date": "2025-08-28",
+              "link": "https://verraes.net/2025/08/domain-and-bounded-contexts-dont-map-one-on-one/"
+            },
+            {
+              "title": "Two Hard Problems with Distributed Systems",
+              "date": "2025-08-14",
+              "link": "https://verraes.net/2025/08/two-hard-problems-with-distributed-systems/"
+            },
+            {
+              "title": "Submitting talks to a tech conference Call for Papers",
+              "date": "2025-06-10",
+              "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
+            },
+            {
+              "title": "How to Fix a Bug: Tests, Hypotheses, Timeboxes",
+              "date": "2024-03-10",
+              "link": "https://verraes.net/2024/03/how-to-fix-a-bug-tests-hypotheses-timeboxes/"
             }
           ]
         },
@@ -2435,10 +2404,11 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-27T08:37:05.174Z",
+  "fetchDate": "2026-10-28T09:17:08.107Z",
   "errors": [
-    "https://2ality.com/feeds/posts.atom",
+    "https://infrequently.org/feed/",
     "https://cutlefish.substack.com/feed",
+    "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://anniemueller.com/posts_feed",

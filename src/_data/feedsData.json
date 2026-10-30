@@ -4,9 +4,48 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "The Jolly Teapot",
+          "feedUrl": "https://thejollyteapot.com/feed.rss",
+          "items": [
+            {
+              "title": "October 2026 blend of links",
+              "date": "2026-10-30",
+              "link": "https://thejollyteapot.com/October-2026-blend/"
+            },
+            {
+              "title": "The kitchen is only the cool spot because you're in it",
+              "date": "2026-10-25",
+              "link": "https://thejollyteapot.com/2026/10/25/the-kitchen-is-only-the-cool-spot-because-you-re-in-it/"
+            },
+            {
+              "title": "Lazy websites",
+              "date": "2026-10-04",
+              "link": "https://thejollyteapot.com/2026/10/04/lazy-websites/"
+            },
+            {
+              "title": "September 2026 blend of links",
+              "date": "2026-09-29",
+              "link": "https://thejollyteapot.com/september-2026-blend/"
+            },
+            {
+              "title": "Love for tiny utility programs",
+              "date": "2026-09-16",
+              "link": "https://thejollyteapot.com/2026/09/16/love-for-tiny-utility-programs/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2026-10-30",
+              "link": "https://dbushell.com/notes/2026-10-30T07:29Z/"
+            },
+            {
+              "date": "2026-10-30",
+              "link": "https://dbushell.com/notes/2026-10-30T07:16Z/"
+            },
             {
               "date": "2026-10-29",
               "link": "https://dbushell.com/notes/2026-10-29T08:20Z/"
@@ -18,14 +57,68 @@
             {
               "date": "2026-10-24",
               "link": "https://dbushell.com/notes/2026-10-24T06:14Z/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Celebrating SIM Cards",
+              "date": "2026-10-29",
+              "link": "https://blog.jim-nielsen.com/2026/celebrating-sim-cards/"
             },
             {
+              "title": "Why My Dad Didn’t Have a Cell Phone",
+              "date": "2026-10-25",
+              "link": "https://blog.jim-nielsen.com/2026/why-dad-didnt-have-cellphone/"
+            },
+            {
+              "title": "No Need for Retirement When Utopia Is Around the Corner",
               "date": "2026-10-21",
-              "link": "https://dbushell.com/notes/2026-10-21T05:57Z/"
+              "link": "https://blog.jim-nielsen.com/2026/skip-retirement-for-utopia/"
             },
             {
-              "date": "2026-10-20",
-              "link": "https://dbushell.com/notes/2026-10-20T16:03Z/"
+              "title": "No More Icons In Every Menu By Default",
+              "date": "2026-10-19",
+              "link": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/"
+            },
+            {
+              "title": "We Need All the Disciplines",
+              "date": "2026-10-15",
+              "link": "https://blog.jim-nielsen.com/2026/we-need-all-disciplines/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 43/60] We've been using the record player a lot more in the new place",
+              "date": "2026-10-29",
+              "link": "https://www.simplermachines.com/nmd-exq-43-60-weve-been-using-the-record-player-a-lot-more-in-the-new-place/"
+            },
+            {
+              "title": "How has the Impulse cooktop changed how I cook?",
+              "date": "2026-10-28",
+              "link": "https://www.simplermachines.com/how-has-the-impulse-cooktop-changed-how-i-cook/"
+            },
+            {
+              "title": "How Not to Ruin Your Housing Market",
+              "date": "2026-10-23",
+              "link": "https://www.simplermachines.com/how-not-to-ruin-your-housing-market/"
+            },
+            {
+              "title": "[NMD EXQ 39/60] Date night",
+              "date": "2026-10-19",
+              "link": "https://www.simplermachines.com/nmd-exq-39-60-date-night/"
+            },
+            {
+              "title": "How to Find Energy for Creative Work",
+              "date": "2026-10-16",
+              "link": "https://www.simplermachines.com/how-to-find-energy-for-creative-work/"
             }
           ]
         },
@@ -92,37 +185,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "How has the Impulse cooktop changed how I cook?",
-              "date": "2026-10-28",
-              "link": "https://www.simplermachines.com/how-has-the-impulse-cooktop-changed-how-i-cook/"
-            },
-            {
-              "title": "How Not to Ruin Your Housing Market",
-              "date": "2026-10-23",
-              "link": "https://www.simplermachines.com/how-not-to-ruin-your-housing-market/"
-            },
-            {
-              "title": "[NMD EXQ 39/60] Date night",
-              "date": "2026-10-19",
-              "link": "https://www.simplermachines.com/nmd-exq-39-60-date-night/"
-            },
-            {
-              "title": "How to Find Energy for Creative Work",
-              "date": "2026-10-16",
-              "link": "https://www.simplermachines.com/how-to-find-energy-for-creative-work/"
-            },
-            {
-              "title": "On Writing Every Day",
-              "date": "2026-10-01",
-              "link": "https://www.simplermachines.com/on-writing-every-day/"
-            }
-          ]
-        },
-        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -181,68 +243,6 @@
               "title": "On Inevitability",
               "date": "2026-08-30",
               "link": "https://borretti.me/article/on-inevitability"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Why My Dad Didn’t Have a Cell Phone",
-              "date": "2026-10-25",
-              "link": "https://blog.jim-nielsen.com/2026/why-dad-didnt-have-cellphone/"
-            },
-            {
-              "title": "No Need for Retirement When Utopia Is Around the Corner",
-              "date": "2026-10-21",
-              "link": "https://blog.jim-nielsen.com/2026/skip-retirement-for-utopia/"
-            },
-            {
-              "title": "No More Icons In Every Menu By Default",
-              "date": "2026-10-19",
-              "link": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/"
-            },
-            {
-              "title": "We Need All the Disciplines",
-              "date": "2026-10-15",
-              "link": "https://blog.jim-nielsen.com/2026/we-need-all-disciplines/"
-            },
-            {
-              "title": "The Dock on Mac, From OS 10 to macOS 27",
-              "date": "2026-10-12",
-              "link": "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/"
-            }
-          ]
-        },
-        {
-          "title": "The Jolly Teapot",
-          "feedUrl": "https://thejollyteapot.com/feed.rss",
-          "items": [
-            {
-              "title": "The kitchen is only the cool spot because you're in it",
-              "date": "2026-10-25",
-              "link": "https://thejollyteapot.com/2026/10/25/the-kitchen-is-only-the-cool-spot-because-you-re-in-it/"
-            },
-            {
-              "title": "Lazy websites",
-              "date": "2026-10-04",
-              "link": "https://thejollyteapot.com/2026/10/04/lazy-websites/"
-            },
-            {
-              "title": "September 2026 blend of links",
-              "date": "2026-09-29",
-              "link": "https://thejollyteapot.com/september-2026-blend/"
-            },
-            {
-              "title": "Love for tiny utility programs",
-              "date": "2026-09-16",
-              "link": "https://thejollyteapot.com/2026/09/16/love-for-tiny-utility-programs/"
-            },
-            {
-              "title": "August 2026 blend of links",
-              "date": "2026-08-29",
-              "link": "https://thejollyteapot.com/august-2026-blend/"
             }
           ]
         },
@@ -2435,13 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-29T09:18:07.527Z",
+  "fetchDate": "2026-10-30T09:34:24.073Z",
   "errors": [
-    "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
+    "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
-    "https://anniemueller.com/posts_feed",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://anniemueller.com/posts_feed"
   ]
 }

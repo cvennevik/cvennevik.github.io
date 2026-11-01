@@ -4,9 +4,44 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Tangled, hire a front-end accessibility expert",
+              "date": "2026-11-01",
+              "link": "https://dbushell.com/2026/11/01/tangled-accessibility/"
+            },
+            {
+              "title": "Danse Macabre",
+              "date": "2026-10-28",
+              "link": "https://dbushell.com/2026/10/28/danse-macabre/"
+            },
+            {
+              "title": "How not to migrate from Cloudflare DNS",
+              "date": "2026-10-20",
+              "link": "https://dbushell.com/2026/10/20/how-not-to-migrate-from-cloudflare-dns/"
+            },
+            {
+              "title": "Cloudflare killed Deno and look I’m on TV!",
+              "date": "2026-10-16",
+              "link": "https://dbushell.com/2026/10/16/cloudflare-killed-deno/"
+            },
+            {
+              "title": "D-Bus Hell",
+              "date": "2026-10-11",
+              "link": "https://dbushell.com/2026/10/11/d-bus-hell/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2026-11-01",
+              "link": "https://dbushell.com/notes/2026-11-01T07:21Z/"
+            },
             {
               "date": "2026-10-31",
               "link": "https://dbushell.com/notes/2026-10-31T07:23Z/"
@@ -22,10 +57,99 @@
             {
               "date": "2026-10-29",
               "link": "https://dbushell.com/notes/2026-10-29T08:20Z/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Writing is Magic; Machine Writing is Ash",
+              "date": "2026-10-31",
+              "link": "https://www.baldurbjarnason.com/2026/machine-writing-is-ash/"
             },
             {
-              "date": "2026-10-27",
-              "link": "https://dbushell.com/notes/2026-10-27T08:43Z/"
+              "title": "Out of the ‘AI’ Crisis – Premium Newsletter launch and Halloween Sale",
+              "date": "2026-10-28",
+              "link": "https://www.baldurbjarnason.com/2026/out-of-the-ai-crisis-halloween-sale-and-launch/"
+            },
+            {
+              "title": "Autumn comfort cat photos",
+              "date": "2026-10-21",
+              "link": "https://www.baldurbjarnason.com/notes/photos/autumn-comfort-cat-photos-2026/"
+            },
+            {
+              "title": "The 'AI' Software Crisis: Software Developers have been promoted into incompetence",
+              "date": "2026-10-21",
+              "link": "https://www.baldurbjarnason.com/2026/07-promoted-into-incompetence/"
+            },
+            {
+              "title": "It’s not our job to fix our employers",
+              "date": "2026-10-13",
+              "link": "https://www.baldurbjarnason.com/2026/06-its-not-our-job-to-fix-our-employers/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 44/60] Black velvet photographic background but as a chair",
+              "date": "2026-10-31",
+              "link": "https://www.simplermachines.com/nmd-exq-44-60-black-velvet-photographic-background-but-as-a-chair/"
+            },
+            {
+              "title": "[NMD EXQ 44/60] These could be Oakland flowers, but they're not",
+              "date": "2026-10-30",
+              "link": "https://www.simplermachines.com/nmd-exq-44-60-these-could-be-oakland-flowers-but-theyre-not/"
+            },
+            {
+              "title": "[NMD EXQ 43/60] We've been using the record player a lot more in the new place",
+              "date": "2026-10-29",
+              "link": "https://www.simplermachines.com/nmd-exq-43-60-weve-been-using-the-record-player-a-lot-more-in-the-new-place/"
+            },
+            {
+              "title": "How has the Impulse cooktop changed how I cook?",
+              "date": "2026-10-28",
+              "link": "https://www.simplermachines.com/how-has-the-impulse-cooktop-changed-how-i-cook/"
+            },
+            {
+              "title": "How Not to Ruin Your Housing Market",
+              "date": "2026-10-23",
+              "link": "https://www.simplermachines.com/how-not-to-ruin-your-housing-market/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Beyond the Shades of Conway’s Law - Scale: Conway’s Corollary",
+              "date": "2026-10-31",
+              "link": "https://thinkinglabs.io/articles/2026/10/31/beyond-shades-of-conways-law-scale.html"
+            },
+            {
+              "title": "Continuous Compliance",
+              "date": "2026-09-28",
+              "link": "https://thinkinglabs.io/articles/2026/09/28/continuous-compliance.html"
+            },
+            {
+              "title": "Notes - Continuous Compliance",
+              "date": "2026-09-27",
+              "link": "https://thinkinglabs.io/notes/2026/09/27/socrates-2026-continuous-compliance.html"
+            },
+            {
+              "title": "Notes - Thriving in complexity",
+              "date": "2026-09-20",
+              "link": "https://thinkinglabs.io/notes/2026/09/20/kandinsky-thriving-in-complexity-trond-hjorteland.html"
+            },
+            {
+              "title": "Beyond the Shades of Conway’s Law - Strategy: Reversing the Law",
+              "date": "2026-09-20",
+              "link": "https://thinkinglabs.io/articles/2026/09/20/beyond-shades-of-conways-law-strategy.html"
             }
           ]
         },
@@ -92,37 +216,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[NMD EXQ 44/60] These could be Oakland flowers, but they're not",
-              "date": "2026-10-30",
-              "link": "https://www.simplermachines.com/nmd-exq-44-60-these-could-be-oakland-flowers-but-theyre-not/"
-            },
-            {
-              "title": "[NMD EXQ 43/60] We've been using the record player a lot more in the new place",
-              "date": "2026-10-29",
-              "link": "https://www.simplermachines.com/nmd-exq-43-60-weve-been-using-the-record-player-a-lot-more-in-the-new-place/"
-            },
-            {
-              "title": "How has the Impulse cooktop changed how I cook?",
-              "date": "2026-10-28",
-              "link": "https://www.simplermachines.com/how-has-the-impulse-cooktop-changed-how-i-cook/"
-            },
-            {
-              "title": "How Not to Ruin Your Housing Market",
-              "date": "2026-10-23",
-              "link": "https://www.simplermachines.com/how-not-to-ruin-your-housing-market/"
-            },
-            {
-              "title": "[NMD EXQ 39/60] Date night",
-              "date": "2026-10-19",
-              "link": "https://www.simplermachines.com/nmd-exq-39-60-date-night/"
-            }
-          ]
-        },
-        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -150,68 +243,6 @@
               "title": "We Need All the Disciplines",
               "date": "2026-10-15",
               "link": "https://blog.jim-nielsen.com/2026/we-need-all-disciplines/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Danse Macabre",
-              "date": "2026-10-28",
-              "link": "https://dbushell.com/2026/10/28/danse-macabre/"
-            },
-            {
-              "title": "How not to migrate from Cloudflare DNS",
-              "date": "2026-10-20",
-              "link": "https://dbushell.com/2026/10/20/how-not-to-migrate-from-cloudflare-dns/"
-            },
-            {
-              "title": "Cloudflare killed Deno and look I’m on TV!",
-              "date": "2026-10-16",
-              "link": "https://dbushell.com/2026/10/16/cloudflare-killed-deno/"
-            },
-            {
-              "title": "D-Bus Hell",
-              "date": "2026-10-11",
-              "link": "https://dbushell.com/2026/10/11/d-bus-hell/"
-            },
-            {
-              "title": "A sustainable web career, for when all this blows over",
-              "date": "2026-10-07",
-              "link": "https://dbushell.com/2026/10/07/sustainable-web-career/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Out of the ‘AI’ Crisis – Premium Newsletter launch and Halloween Sale",
-              "date": "2026-10-28",
-              "link": "https://www.baldurbjarnason.com/2026/out-of-the-ai-crisis-halloween-sale-and-launch/"
-            },
-            {
-              "title": "Autumn comfort cat photos",
-              "date": "2026-10-21",
-              "link": "https://www.baldurbjarnason.com/notes/photos/autumn-comfort-cat-photos-2026/"
-            },
-            {
-              "title": "The 'AI' Software Crisis: Software Developers have been promoted into incompetence",
-              "date": "2026-10-21",
-              "link": "https://www.baldurbjarnason.com/2026/07-promoted-into-incompetence/"
-            },
-            {
-              "title": "It’s not our job to fix our employers",
-              "date": "2026-10-13",
-              "link": "https://www.baldurbjarnason.com/2026/06-its-not-our-job-to-fix-our-employers/"
-            },
-            {
-              "title": "Ravens and churches",
-              "date": "2026-10-13",
-              "link": "https://www.baldurbjarnason.com/notes/photos/the-raven-and-the-church/"
             }
           ]
         },
@@ -801,37 +832,6 @@
               "title": "Are You Getting Your Money’s Worth from AI?",
               "date": "2026-09-08",
               "link": "https://www.jamesshore.com/v2/blog/2026/are-you-getting-your-moneys-worth-from-ai"
-            }
-          ]
-        },
-        {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "Continuous Compliance",
-              "date": "2026-09-28",
-              "link": "https://thinkinglabs.io/articles/2026/09/28/continuous-compliance.html"
-            },
-            {
-              "title": "Notes - Continuous Compliance",
-              "date": "2026-09-27",
-              "link": "https://thinkinglabs.io/notes/2026/09/27/socrates-2026-continuous-compliance.html"
-            },
-            {
-              "title": "Notes - Thriving in complexity",
-              "date": "2026-09-20",
-              "link": "https://thinkinglabs.io/notes/2026/09/20/kandinsky-thriving-in-complexity-trond-hjorteland.html"
-            },
-            {
-              "title": "Beyond the Shades of Conway’s Law - Strategy: Reversing the Law",
-              "date": "2026-09-20",
-              "link": "https://thinkinglabs.io/articles/2026/09/20/beyond-shades-of-conways-law-strategy.html"
-            },
-            {
-              "title": "Beyond the Shades of Conway’s Law - Mechanics: The Mathematical &amp; Geometrical Shades",
-              "date": "2026-08-31",
-              "link": "https://thinkinglabs.io/articles/2026/08/31/beyond-shades-of-conways-law-mechanics.html"
             }
           ]
         },
@@ -2435,7 +2435,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-10-31T09:15:21.507Z",
+  "fetchDate": "2026-11-01T10:02:31.705Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "The Switch to AgileOtter.Dev",
+              "date": "2026-11-02",
+              "link": "http://agileotter.blogspot.com/2026/11/the-switch-to-agileotterdev.html"
+            },
+            {
+              "title": "Speculating on Challenges of Spec-Driven Development",
+              "date": "2026-10-18",
+              "link": "http://agileotter.blogspot.com/2026/10/speculative-challenges-of-spec-driven.html"
+            },
+            {
+              "title": "Why redesign doesn't happen (enough)",
+              "date": "2026-09-29",
+              "link": "http://agileotter.blogspot.com/2026/09/why-redesign-doesnt-happen-enough.html"
+            },
+            {
+              "title": "The Ticket Is Not The Work",
+              "date": "2026-09-26",
+              "link": "http://agileotter.blogspot.com/2026/09/the-ticket-is-not-work.html"
+            },
+            {
+              "title": "Spreadsheets",
+              "date": "2026-08-26",
+              "link": "http://agileotter.blogspot.com/2026/08/spreadsheets.html"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,6 +62,68 @@
               "title": "D-Bus Hell",
               "date": "2026-10-11",
               "link": "https://dbushell.com/2026/10/11/d-bus-hell/"
+            }
+          ]
+        },
+        {
+          "title": "macwright.com",
+          "feedUrl": "https://macwright.com/rss.xml",
+          "items": [
+            {
+              "title": "Cycling Vermont",
+              "date": "2026-11-01",
+              "link": "https://macwright.com/2026/11/01/cycling-vermont.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-10-01",
+              "link": "https://macwright.com/2026/10/01/recently.html"
+            },
+            {
+              "title": "Recently",
+              "date": "2026-09-01",
+              "link": "https://macwright.com/2026/09/01/recently.html"
+            },
+            {
+              "title": "Placemark is now fully open source",
+              "date": "2026-08-25",
+              "link": "https://macwright.com/2026/08/25/placemark-fully-open-source.html"
+            },
+            {
+              "title": "Technology optimism hour",
+              "date": "2026-08-14",
+              "link": "https://macwright.com/2026/08/14/optimism-hour.html"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 45/60] Japanese maple has gotten... long",
+              "date": "2026-11-01",
+              "link": "https://www.simplermachines.com/nmd-exq-45-60-japanese-maple-has-gotten-long/"
+            },
+            {
+              "title": "[NMD EXQ 44/60] Black velvet photographic background but as a chair",
+              "date": "2026-10-31",
+              "link": "https://www.simplermachines.com/nmd-exq-44-60-black-velvet-photographic-background-but-as-a-chair/"
+            },
+            {
+              "title": "[NMD EXQ 44/60] These could be Oakland flowers, but they're not",
+              "date": "2026-10-30",
+              "link": "https://www.simplermachines.com/nmd-exq-44-60-these-could-be-oakland-flowers-but-theyre-not/"
+            },
+            {
+              "title": "[NMD EXQ 43/60] We've been using the record player a lot more in the new place",
+              "date": "2026-10-29",
+              "link": "https://www.simplermachines.com/nmd-exq-43-60-weve-been-using-the-record-player-a-lot-more-in-the-new-place/"
+            },
+            {
+              "title": "How has the Impulse cooktop changed how I cook?",
+              "date": "2026-10-28",
+              "link": "https://www.simplermachines.com/how-has-the-impulse-cooktop-changed-how-i-cook/"
             }
           ]
         },
@@ -88,37 +181,6 @@
               "title": "It’s not our job to fix our employers",
               "date": "2026-10-13",
               "link": "https://www.baldurbjarnason.com/2026/06-its-not-our-job-to-fix-our-employers/"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[NMD EXQ 44/60] Black velvet photographic background but as a chair",
-              "date": "2026-10-31",
-              "link": "https://www.simplermachines.com/nmd-exq-44-60-black-velvet-photographic-background-but-as-a-chair/"
-            },
-            {
-              "title": "[NMD EXQ 44/60] These could be Oakland flowers, but they're not",
-              "date": "2026-10-30",
-              "link": "https://www.simplermachines.com/nmd-exq-44-60-these-could-be-oakland-flowers-but-theyre-not/"
-            },
-            {
-              "title": "[NMD EXQ 43/60] We've been using the record player a lot more in the new place",
-              "date": "2026-10-29",
-              "link": "https://www.simplermachines.com/nmd-exq-43-60-weve-been-using-the-record-player-a-lot-more-in-the-new-place/"
-            },
-            {
-              "title": "How has the Impulse cooktop changed how I cook?",
-              "date": "2026-10-28",
-              "link": "https://www.simplermachines.com/how-has-the-impulse-cooktop-changed-how-i-cook/"
-            },
-            {
-              "title": "How Not to Ruin Your Housing Market",
-              "date": "2026-10-23",
-              "link": "https://www.simplermachines.com/how-not-to-ruin-your-housing-market/"
             }
           ]
         },
@@ -526,37 +588,6 @@
           ]
         },
         {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Speculating on Challenges of Spec-Driven Development",
-              "date": "2026-10-18",
-              "link": "http://agileotter.blogspot.com/2026/10/speculative-challenges-of-spec-driven.html"
-            },
-            {
-              "title": "Why redesign doesn't happen (enough)",
-              "date": "2026-09-29",
-              "link": "http://agileotter.blogspot.com/2026/09/why-redesign-doesnt-happen-enough.html"
-            },
-            {
-              "title": "The Ticket Is Not The Work",
-              "date": "2026-09-26",
-              "link": "http://agileotter.blogspot.com/2026/09/the-ticket-is-not-work.html"
-            },
-            {
-              "title": "Spreadsheets",
-              "date": "2026-08-26",
-              "link": "http://agileotter.blogspot.com/2026/08/spreadsheets.html"
-            },
-            {
-              "title": "Eight Code Virtues",
-              "date": "2026-08-19",
-              "link": "http://agileotter.blogspot.com/2026/08/eight-code-virtues-draft.html"
-            }
-          ]
-        },
-        {
           "title": "Ross Wintle",
           "feedUrl": "https://rosswintle.uk/feed/",
           "items": [
@@ -770,37 +801,6 @@
               "title": "In defense of AI mandates",
               "date": "2026-07-02",
               "link": "https://charity.wtf/p/in-defense-of-ai-mandates"
-            }
-          ]
-        },
-        {
-          "title": "macwright.com",
-          "feedUrl": "https://macwright.com/rss.xml",
-          "items": [
-            {
-              "title": "Recently",
-              "date": "2026-10-01",
-              "link": "https://macwright.com/2026/10/01/recently.html"
-            },
-            {
-              "title": "Recently",
-              "date": "2026-09-01",
-              "link": "https://macwright.com/2026/09/01/recently.html"
-            },
-            {
-              "title": "Placemark is now fully open source",
-              "date": "2026-08-25",
-              "link": "https://macwright.com/2026/08/25/placemark-fully-open-source.html"
-            },
-            {
-              "title": "Technology optimism hour",
-              "date": "2026-08-14",
-              "link": "https://macwright.com/2026/08/14/optimism-hour.html"
-            },
-            {
-              "title": "Printing tiny photos for paper journals",
-              "date": "2026-07-24",
-              "link": "https://macwright.com/2026/07/24/printing-for-journals.html"
             }
           ]
         },
@@ -2435,7 +2435,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-01T10:02:31.705Z",
+  "fetchDate": "2026-11-02T10:30:11.080Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

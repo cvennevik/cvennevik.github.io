@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
+          "items": [
+            {
+              "title": "*sshole, or when are we finally going to get rid of C?",
+              "date": "2026-11-06",
+              "link": "https://sunshowers.io/posts/sshole/"
+            },
+            {
+              "title": "More on Anthropic's Scion ripping off Mononoke",
+              "date": "2026-10-15",
+              "link": "https://sunshowers.io/posts/anthropic-mononoke-2/"
+            },
+            {
+              "title": "Anthropic's Scion is heavily inspired by Mononoke",
+              "date": "2026-10-14",
+              "link": "https://sunshowers.io/posts/anthropic-mononoke/"
+            },
+            {
+              "title": "iddqd, or the hardest kind of unsafe Rust",
+              "date": "2026-06-02",
+              "link": "https://sunshowers.io/posts/iddqd-unsafe/"
+            },
+            {
+              "title": "In defense of lock poisoning in Rust",
+              "date": "2025-12-02",
+              "link": "https://sunshowers.io/posts/on-poisoning/"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
+            {
+              "title": "[NMD EXQ 48/60] Critter",
+              "date": "2026-11-06",
+              "link": "https://www.simplermachines.com/nmd-exq-48-60-critter/"
+            },
             {
               "title": "What do I listen to while I'm writing?",
               "date": "2026-11-06",
@@ -26,11 +62,6 @@
               "title": "[NMD EXQ 45/60] Japanese maple has gotten... long",
               "date": "2026-11-01",
               "link": "https://www.simplermachines.com/nmd-exq-45-60-japanese-maple-has-gotten-long/"
-            },
-            {
-              "title": "[NMD EXQ 44/60] Black velvet photographic background but as a chair",
-              "date": "2026-10-31",
-              "link": "https://www.simplermachines.com/nmd-exq-44-60-black-velvet-photographic-background-but-as-a-chair/"
             }
           ]
         },
@@ -309,6 +340,37 @@
           ]
         },
         {
+          "title": "",
+          "feedUrl": "https://danluu.com/atom.xml",
+          "items": [
+            {
+              "title": "Test and verification technique effectiveness with GPT-6 Astra",
+              "date": "2026-11-02",
+              "link": "https://danluu.com/astra-testing/"
+            },
+            {
+              "title": "“We should be more ambitious with the software we build”",
+              "date": "2026-10-24",
+              "link": "https://danluu.com/ambitious/"
+            },
+            {
+              "title": "There's no point at which turning your brain off will work",
+              "date": "2026-09-18",
+              "link": "https://danluu.com/brain-off/"
+            },
+            {
+              "title": "How well do agents use test and verification techniques?",
+              "date": "2026-09-07",
+              "link": "https://danluu.com/agentic-testing/"
+            },
+            {
+              "title": "Ed Zitron's AI prediction track record",
+              "date": "2026-09-01",
+              "link": "https://danluu.com/zitron/"
+            }
+          ]
+        },
+        {
           "title": "macwright.com",
           "feedUrl": "https://macwright.com/rss.xml",
           "items": [
@@ -495,37 +557,6 @@
           ]
         },
         {
-          "title": "",
-          "feedUrl": "https://danluu.com/atom.xml",
-          "items": [
-            {
-              "title": "“We should be more ambitious with the software we build”",
-              "date": "2026-10-24",
-              "link": "https://danluu.com/ambitious/"
-            },
-            {
-              "title": "There's no point at which turning your brain off will work",
-              "date": "2026-09-18",
-              "link": "https://danluu.com/brain-off/"
-            },
-            {
-              "title": "How well do agents use test and verification techniques?",
-              "date": "2026-09-07",
-              "link": "https://danluu.com/agentic-testing/"
-            },
-            {
-              "title": "Ed Zitron's AI prediction track record",
-              "date": "2026-09-01",
-              "link": "https://danluu.com/zitron/"
-            },
-            {
-              "title": "Bug blindness",
-              "date": "2026-08-30",
-              "link": "https://danluu.com/bug-blind/"
-            }
-          ]
-        },
-        {
           "title": "Marc Brooker's Blog",
           "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
@@ -677,37 +708,6 @@
               "title": "Zig and the Zig Guy",
               "date": "2026-06-28",
               "link": "https://rosswintle.uk/2026/06/zig-and-the-zig-guy/"
-            }
-          ]
-        },
-        {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "More on Anthropic's Scion ripping off Mononoke",
-              "date": "2026-10-15",
-              "link": "https://sunshowers.io/posts/anthropic-mononoke-2/"
-            },
-            {
-              "title": "Anthropic's Scion is heavily inspired by Mononoke",
-              "date": "2026-10-14",
-              "link": "https://sunshowers.io/posts/anthropic-mononoke/"
-            },
-            {
-              "title": "iddqd, or the hardest kind of unsafe Rust",
-              "date": "2026-06-02",
-              "link": "https://sunshowers.io/posts/iddqd-unsafe/"
-            },
-            {
-              "title": "In defense of lock poisoning in Rust",
-              "date": "2025-12-02",
-              "link": "https://sunshowers.io/posts/on-poisoning/"
-            },
-            {
-              "title": "`SocketAddrV6` is not roundtrip serializable",
-              "date": "2025-11-04",
-              "link": "https://sunshowers.io/posts/socketaddrv6-not-roundtrip/"
             }
           ]
         },
@@ -2435,7 +2435,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-06T10:21:42.648Z",
+  "fetchDate": "2026-11-07T09:36:17.906Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

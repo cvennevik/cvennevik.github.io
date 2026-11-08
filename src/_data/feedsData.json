@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "I was wrong about dark mode",
+              "date": "2026-11-09",
+              "link": "https://dbushell.com/2026/11/09/dark-mode/"
+            },
+            {
+              "title": "Death comes for XSLT",
+              "date": "2026-11-03",
+              "link": "https://dbushell.com/2026/11/03/xslt-rip/"
+            },
+            {
+              "title": "Tangled, hire a front-end accessibility expert",
+              "date": "2026-11-01",
+              "link": "https://dbushell.com/2026/11/01/tangled-accessibility/"
+            },
+            {
+              "title": "Danse Macabre",
+              "date": "2026-10-28",
+              "link": "https://dbushell.com/2026/10/28/danse-macabre/"
+            },
+            {
+              "title": "How not to migrate from Cloudflare DNS",
+              "date": "2026-10-20",
+              "link": "https://dbushell.com/2026/10/20/how-not-to-migrate-from-cloudflare-dns/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 49/60] A garden party",
+              "date": "2026-11-07",
+              "link": "https://www.simplermachines.com/nmd-exq-49-60-a-garden-party/"
+            },
+            {
+              "title": "[NMD EXQ 48/60] Critter",
+              "date": "2026-11-06",
+              "link": "https://www.simplermachines.com/nmd-exq-48-60-critter/"
+            },
+            {
+              "title": "What do I listen to while I'm writing?",
+              "date": "2026-11-06",
+              "link": "https://www.simplermachines.com/what-do-i-listen-to-while-im-writing/"
+            },
+            {
+              "title": "Mere Being - 035 - October",
+              "date": "2026-11-05",
+              "link": "https://www.simplermachines.com/mere-being-035-october/"
+            },
+            {
+              "title": "[NMD EXQ 46/60] Some terrible French pesto (it was not the fault of the French)",
+              "date": "2026-11-02",
+              "link": "https://www.simplermachines.com/nmd-exq-46-60-some-terrible-french-pesto-it-was-not-the-fault-of-the-french/"
+            }
+          ]
+        },
+        {
+          "title": "No Boilerplate",
+          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
+          "items": [
+            {
+              "title": "The 0rwx Framework",
+              "date": "2026-11-07",
+              "link": "https://www.youtube.com/watch?v=E6-1u_savRs"
+            },
+            {
+              "title": "Obsidian For Learning Part III: Projects",
+              "date": "2026-10-08",
+              "link": "https://www.youtube.com/watch?v=VUGH0DMUesA"
+            },
+            {
+              "title": "My 2026 Rust Toolkit",
+              "date": "2026-08-25",
+              "link": "https://www.youtube.com/watch?v=jlWnoRsGJNQ"
+            },
+            {
+              "title": "Rust: Don't Panic",
+              "date": "2026-07-31",
+              "link": "https://www.youtube.com/watch?v=usRlRCNIOG0"
+            },
+            {
+              "title": "Obsidian for Writers",
+              "date": "2026-06-29",
+              "link": "https://www.youtube.com/watch?v=BTuGvfQGOrY"
+            }
+          ]
+        },
+        {
           "title": "sunshowers",
           "feedUrl": "https://sunshowers.io/index.xml",
           "items": [
@@ -31,37 +124,6 @@
               "title": "In defense of lock poisoning in Rust",
               "date": "2025-12-02",
               "link": "https://sunshowers.io/posts/on-poisoning/"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[NMD EXQ 48/60] Critter",
-              "date": "2026-11-06",
-              "link": "https://www.simplermachines.com/nmd-exq-48-60-critter/"
-            },
-            {
-              "title": "What do I listen to while I'm writing?",
-              "date": "2026-11-06",
-              "link": "https://www.simplermachines.com/what-do-i-listen-to-while-im-writing/"
-            },
-            {
-              "title": "Mere Being - 035 - October",
-              "date": "2026-11-05",
-              "link": "https://www.simplermachines.com/mere-being-035-october/"
-            },
-            {
-              "title": "[NMD EXQ 46/60] Some terrible French pesto (it was not the fault of the French)",
-              "date": "2026-11-02",
-              "link": "https://www.simplermachines.com/nmd-exq-46-60-some-terrible-french-pesto-it-was-not-the-fault-of-the-french/"
-            },
-            {
-              "title": "[NMD EXQ 45/60] Japanese maple has gotten... long",
-              "date": "2026-11-01",
-              "link": "https://www.simplermachines.com/nmd-exq-45-60-japanese-maple-has-gotten-long/"
             }
           ]
         },
@@ -243,37 +305,6 @@
             {
               "date": "2026-10-30",
               "link": "https://dbushell.com/notes/2026-10-30T07:16Z/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Death comes for XSLT",
-              "date": "2026-11-03",
-              "link": "https://dbushell.com/2026/11/03/xslt-rip/"
-            },
-            {
-              "title": "Tangled, hire a front-end accessibility expert",
-              "date": "2026-11-01",
-              "link": "https://dbushell.com/2026/11/01/tangled-accessibility/"
-            },
-            {
-              "title": "Danse Macabre",
-              "date": "2026-10-28",
-              "link": "https://dbushell.com/2026/10/28/danse-macabre/"
-            },
-            {
-              "title": "How not to migrate from Cloudflare DNS",
-              "date": "2026-10-20",
-              "link": "https://dbushell.com/2026/10/20/how-not-to-migrate-from-cloudflare-dns/"
-            },
-            {
-              "title": "Cloudflare killed Deno and look I’m on TV!",
-              "date": "2026-10-16",
-              "link": "https://dbushell.com/2026/10/16/cloudflare-killed-deno/"
             }
           ]
         },
@@ -770,37 +801,6 @@
               "title": "The 2.1.1 “specific timings” Clause",
               "date": "2026-08-26",
               "link": "https://adrianroselli.com/2026/08/the-2-1-1-specific-timings-clause.html"
-            }
-          ]
-        },
-        {
-          "title": "No Boilerplate",
-          "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUMwY9iS8oMyWDYIe6_RmoA",
-          "items": [
-            {
-              "title": "Obsidian For Learning Part III: Projects",
-              "date": "2026-10-08",
-              "link": "https://www.youtube.com/watch?v=VUGH0DMUesA"
-            },
-            {
-              "title": "My 2026 Rust Toolkit",
-              "date": "2026-08-25",
-              "link": "https://www.youtube.com/watch?v=jlWnoRsGJNQ"
-            },
-            {
-              "title": "Rust: Don't Panic",
-              "date": "2026-07-31",
-              "link": "https://www.youtube.com/watch?v=usRlRCNIOG0"
-            },
-            {
-              "title": "Obsidian for Writers",
-              "date": "2026-06-29",
-              "link": "https://www.youtube.com/watch?v=BTuGvfQGOrY"
-            },
-            {
-              "title": "Hack Your Brain with Relationship Anarchy",
-              "date": "2026-05-22",
-              "link": "https://www.youtube.com/watch?v=vaKeCPgay9I"
             }
           ]
         },
@@ -2435,7 +2435,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-07T09:36:17.906Z",
+  "fetchDate": "2026-11-08T09:50:51.715Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

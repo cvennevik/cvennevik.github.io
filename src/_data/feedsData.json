@@ -4,6 +4,32 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-11-10",
+              "link": "https://dbushell.com/notes/2026-11-10T05:59Z/"
+            },
+            {
+              "date": "2026-11-08",
+              "link": "https://dbushell.com/notes/2026-11-08T13:14Z/"
+            },
+            {
+              "date": "2026-11-04",
+              "link": "https://dbushell.com/notes/2026-11-04T06:28Z/"
+            },
+            {
+              "date": "2026-11-01",
+              "link": "https://dbushell.com/notes/2026-11-01T07:21Z/"
+            },
+            {
+              "date": "2026-10-31",
+              "link": "https://dbushell.com/notes/2026-10-31T07:23Z/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,6 +57,37 @@
               "title": "How not to migrate from Cloudflare DNS",
               "date": "2026-10-20",
               "link": "https://dbushell.com/2026/10/20/how-not-to-migrate-from-cloudflare-dns/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 51/60] Late afternoon sun in the garden",
+              "date": "2026-11-09",
+              "link": "https://www.simplermachines.com/nmd-exq-51-60-late-afternoon-sun-in-the-garden/"
+            },
+            {
+              "title": "[NMD EXQ 49/60] A garden party",
+              "date": "2026-11-07",
+              "link": "https://www.simplermachines.com/nmd-exq-49-60-a-garden-party/"
+            },
+            {
+              "title": "[NMD EXQ 48/60] Critter",
+              "date": "2026-11-06",
+              "link": "https://www.simplermachines.com/nmd-exq-48-60-critter/"
+            },
+            {
+              "title": "What do I listen to while I'm writing?",
+              "date": "2026-11-06",
+              "link": "https://www.simplermachines.com/what-do-i-listen-to-while-im-writing/"
+            },
+            {
+              "title": "Mere Being - 035 - October",
+              "date": "2026-11-05",
+              "link": "https://www.simplermachines.com/mere-being-035-october/"
             }
           ]
         },
@@ -124,63 +181,6 @@
               "title": "Submitting talks to a tech conference Call for Papers",
               "date": "2025-06-10",
               "link": "https://verraes.net/2025/06/submitting-talks-to-conference-cfps/"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-11-08",
-              "link": "https://dbushell.com/notes/2026-11-08T13:14Z/"
-            },
-            {
-              "date": "2026-11-04",
-              "link": "https://dbushell.com/notes/2026-11-04T06:28Z/"
-            },
-            {
-              "date": "2026-11-01",
-              "link": "https://dbushell.com/notes/2026-11-01T07:21Z/"
-            },
-            {
-              "date": "2026-10-31",
-              "link": "https://dbushell.com/notes/2026-10-31T07:23Z/"
-            },
-            {
-              "date": "2026-10-30",
-              "link": "https://dbushell.com/notes/2026-10-30T07:29Z/"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[NMD EXQ 49/60] A garden party",
-              "date": "2026-11-07",
-              "link": "https://www.simplermachines.com/nmd-exq-49-60-a-garden-party/"
-            },
-            {
-              "title": "[NMD EXQ 48/60] Critter",
-              "date": "2026-11-06",
-              "link": "https://www.simplermachines.com/nmd-exq-48-60-critter/"
-            },
-            {
-              "title": "What do I listen to while I'm writing?",
-              "date": "2026-11-06",
-              "link": "https://www.simplermachines.com/what-do-i-listen-to-while-im-writing/"
-            },
-            {
-              "title": "Mere Being - 035 - October",
-              "date": "2026-11-05",
-              "link": "https://www.simplermachines.com/mere-being-035-october/"
-            },
-            {
-              "title": "[NMD EXQ 46/60] Some terrible French pesto (it was not the fault of the French)",
-              "date": "2026-11-02",
-              "link": "https://www.simplermachines.com/nmd-exq-46-60-some-terrible-french-pesto-it-was-not-the-fault-of-the-french/"
             }
           ]
         },
@@ -402,37 +402,6 @@
           ]
         },
         {
-          "title": "",
-          "feedUrl": "https://danluu.com/atom.xml",
-          "items": [
-            {
-              "title": "Test and verification technique effectiveness with GPT-6 Astra",
-              "date": "2026-11-02",
-              "link": "https://danluu.com/astra-testing/"
-            },
-            {
-              "title": "“We should be more ambitious with the software we build”",
-              "date": "2026-10-24",
-              "link": "https://danluu.com/ambitious/"
-            },
-            {
-              "title": "There's no point at which turning your brain off will work",
-              "date": "2026-09-18",
-              "link": "https://danluu.com/brain-off/"
-            },
-            {
-              "title": "How well do agents use test and verification techniques?",
-              "date": "2026-09-07",
-              "link": "https://danluu.com/agentic-testing/"
-            },
-            {
-              "title": "Ed Zitron's AI prediction track record",
-              "date": "2026-09-01",
-              "link": "https://danluu.com/zitron/"
-            }
-          ]
-        },
-        {
           "title": "Agile Otter Blog",
           "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
           "items": [
@@ -460,6 +429,37 @@
               "title": "Spreadsheets",
               "date": "2026-08-26",
               "link": "http://agileotter.blogspot.com/2026/08/spreadsheets.html"
+            }
+          ]
+        },
+        {
+          "title": "",
+          "feedUrl": "https://danluu.com/atom.xml",
+          "items": [
+            {
+              "title": "Test and verification technique effectiveness with GPT-6 Astra",
+              "date": "2026-11-02",
+              "link": "https://danluu.com/astra-testing/"
+            },
+            {
+              "title": "“We should be more ambitious with the software we build”",
+              "date": "2026-10-24",
+              "link": "https://danluu.com/ambitious/"
+            },
+            {
+              "title": "There's no point at which turning your brain off will work",
+              "date": "2026-09-18",
+              "link": "https://danluu.com/brain-off/"
+            },
+            {
+              "title": "How well do agents use test and verification techniques?",
+              "date": "2026-09-07",
+              "link": "https://danluu.com/agentic-testing/"
+            },
+            {
+              "title": "Ed Zitron's AI prediction track record",
+              "date": "2026-09-01",
+              "link": "https://danluu.com/zitron/"
             }
           ]
         },
@@ -2435,7 +2435,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-09T10:52:42.756Z",
+  "fetchDate": "2026-11-10T10:44:57.467Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

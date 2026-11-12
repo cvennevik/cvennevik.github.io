@@ -4,6 +4,99 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
+          "items": [
+            {
+              "title": "For and against",
+              "date": "2026-11-11",
+              "link": "https://gomakethings.com/articles/for-and-against/"
+            },
+            {
+              "title": "Signal your virtues",
+              "date": "2026-10-27",
+              "link": "https://gomakethings.com/articles/signal-your-virtues/"
+            },
+            {
+              "title": "The SpeechRecognition API",
+              "date": "2026-10-21",
+              "link": "https://gomakethings.com/articles/the-speechrecognition-api/"
+            },
+            {
+              "title": "Documentation-Driven Development",
+              "date": "2026-10-20",
+              "link": "https://gomakethings.com/articles/documentation-driven-development/"
+            },
+            {
+              "title": "Life on Foot",
+              "date": "2026-10-17",
+              "link": "https://gomakethings.com/articles/life-on-foot/"
+            }
+          ]
+        },
+        {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 53/60] Settling in to this desk",
+              "date": "2026-11-11",
+              "link": "https://www.simplermachines.com/nmd-exq-53-60-settling-in-to-this-desk/"
+            },
+            {
+              "title": "[NMD EXQ 52/60] Sliced red onions in a cast iron pan with steam rising from them with a wooden wedge to stir them",
+              "date": "2026-11-10",
+              "link": "https://www.simplermachines.com/nmd-exq-52-60-sliced-red-onions-in-a-cast-iron-pan-with-steam-rising-from-them-with-a-wooden-wedge-to-stir-them/"
+            },
+            {
+              "title": "[NMD EXQ 51/60] Late afternoon sun in the garden",
+              "date": "2026-11-09",
+              "link": "https://www.simplermachines.com/nmd-exq-51-60-late-afternoon-sun-in-the-garden/"
+            },
+            {
+              "title": "[NMD EXQ 49/60] A garden party",
+              "date": "2026-11-07",
+              "link": "https://www.simplermachines.com/nmd-exq-49-60-a-garden-party/"
+            },
+            {
+              "title": "[NMD EXQ 48/60] Critter",
+              "date": "2026-11-06",
+              "link": "https://www.simplermachines.com/nmd-exq-48-60-critter/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Possible Futures",
+              "date": "2026-11-11",
+              "link": "https://borretti.me/article/possible-futures"
+            },
+            {
+              "title": "We Won’t “Just Hang Out”",
+              "date": "2026-10-27",
+              "link": "https://borretti.me/article/we-wont-just-hang-out"
+            },
+            {
+              "title": "No Man Is an Island",
+              "date": "2026-10-08",
+              "link": "https://borretti.me/article/no-man-is-an-island"
+            },
+            {
+              "title": "The Other Road",
+              "date": "2026-09-09",
+              "link": "https://borretti.me/article/the-other-road"
+            },
+            {
+              "title": "The Education of a Doomer",
+              "date": "2026-09-07",
+              "link": "https://borretti.me/article/the-education-of-a-doomer"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
@@ -88,37 +181,6 @@
               "title": "Evaluating a Success Criterion",
               "date": "2026-09-01",
               "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
-            }
-          ]
-        },
-        {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[NMD EXQ 52/60] Sliced red onions in a cast iron pan with steam rising from them with a wooden wedge to stir them",
-              "date": "2026-11-10",
-              "link": "https://www.simplermachines.com/nmd-exq-52-60-sliced-red-onions-in-a-cast-iron-pan-with-steam-rising-from-them-with-a-wooden-wedge-to-stir-them/"
-            },
-            {
-              "title": "[NMD EXQ 51/60] Late afternoon sun in the garden",
-              "date": "2026-11-09",
-              "link": "https://www.simplermachines.com/nmd-exq-51-60-late-afternoon-sun-in-the-garden/"
-            },
-            {
-              "title": "[NMD EXQ 49/60] A garden party",
-              "date": "2026-11-07",
-              "link": "https://www.simplermachines.com/nmd-exq-49-60-a-garden-party/"
-            },
-            {
-              "title": "[NMD EXQ 48/60] Critter",
-              "date": "2026-11-06",
-              "link": "https://www.simplermachines.com/nmd-exq-48-60-critter/"
-            },
-            {
-              "title": "What do I listen to while I'm writing?",
-              "date": "2026-11-06",
-              "link": "https://www.simplermachines.com/what-do-i-listen-to-while-im-writing/"
             }
           ]
         },
@@ -619,68 +681,6 @@
           ]
         },
         {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Signal your virtues",
-              "date": "2026-10-27",
-              "link": "https://gomakethings.com/articles/signal-your-virtues/"
-            },
-            {
-              "title": "The SpeechRecognition API",
-              "date": "2026-10-21",
-              "link": "https://gomakethings.com/articles/the-speechrecognition-api/"
-            },
-            {
-              "title": "Documentation-Driven Development",
-              "date": "2026-10-20",
-              "link": "https://gomakethings.com/articles/documentation-driven-development/"
-            },
-            {
-              "title": "Life on Foot",
-              "date": "2026-10-17",
-              "link": "https://gomakethings.com/articles/life-on-foot/"
-            },
-            {
-              "title": "The Village",
-              "date": "2026-10-16",
-              "link": "https://gomakethings.com/articles/the-village/"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "We Won’t “Just Hang Out”",
-              "date": "2026-10-27",
-              "link": "https://borretti.me/article/we-wont-just-hang-out"
-            },
-            {
-              "title": "No Man Is an Island",
-              "date": "2026-10-08",
-              "link": "https://borretti.me/article/no-man-is-an-island"
-            },
-            {
-              "title": "The Other Road",
-              "date": "2026-09-09",
-              "link": "https://borretti.me/article/the-other-road"
-            },
-            {
-              "title": "The Education of a Doomer",
-              "date": "2026-09-07",
-              "link": "https://borretti.me/article/the-education-of-a-doomer"
-            },
-            {
-              "title": "On Inevitability",
-              "date": "2026-08-30",
-              "link": "https://borretti.me/article/on-inevitability"
-            }
-          ]
-        },
-        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -1111,6 +1111,37 @@
               "title": "It's clearly a bug, but what is the bug exactly?",
               "date": "2026-03-07",
               "link": "https://smallsheds.garden/blog/2026/its-clearly-a-bug-but-what-is-the-bug-exactly/"
+            }
+          ]
+        },
+        {
+          "title": "molily",
+          "feedUrl": "https://molily.de/feed.xml",
+          "items": [
+            {
+              "title": "The death of web development education",
+              "date": "2026-09-13",
+              "link": "https://molily.de/web-dev-education/"
+            },
+            {
+              "title": "My practical approach to surfing the web safely",
+              "date": "2026-08-18",
+              "link": "https://molily.de/safe-websurfing/"
+            },
+            {
+              "title": "My bookmarking tool",
+              "date": "2026-08-07",
+              "link": "https://molily.de/bookmarking-tool/"
+            },
+            {
+              "title": "The Power of Understanding",
+              "date": "2026-04-07",
+              "link": "https://molily.de/understanding/"
+            },
+            {
+              "title": "On the environmental impact of AI",
+              "date": "2025-05-09",
+              "link": "https://molily.de/ai-environment/"
             }
           ]
         },
@@ -2404,14 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-11T10:17:16.644Z",
+  "fetchDate": "2026-11-12T10:37:29.530Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://anniemueller.com/posts_feed",
-    "https://fynn.be/feed.xml",
-    "https://molily.de/feed.xml"
+    "https://fynn.be/feed.xml"
   ]
 }

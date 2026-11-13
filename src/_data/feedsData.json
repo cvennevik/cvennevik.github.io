@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "How to Learn to Meditate",
+              "date": "2026-11-13",
+              "link": "https://www.simplermachines.com/how-to-learn-to-meditate/"
+            },
+            {
+              "title": "[NMD EXQ 53/60] Settling in to this desk",
+              "date": "2026-11-11",
+              "link": "https://www.simplermachines.com/nmd-exq-53-60-settling-in-to-this-desk/"
+            },
+            {
+              "title": "[NMD EXQ 52/60] Sliced red onions in a cast iron pan with steam rising from them with a wooden wedge to stir them",
+              "date": "2026-11-10",
+              "link": "https://www.simplermachines.com/nmd-exq-52-60-sliced-red-onions-in-a-cast-iron-pan-with-steam-rising-from-them-with-a-wooden-wedge-to-stir-them/"
+            },
+            {
+              "title": "[NMD EXQ 51/60] Late afternoon sun in the garden",
+              "date": "2026-11-09",
+              "link": "https://www.simplermachines.com/nmd-exq-51-60-late-afternoon-sun-in-the-garden/"
+            },
+            {
+              "title": "[NMD EXQ 49/60] A garden party",
+              "date": "2026-11-07",
+              "link": "https://www.simplermachines.com/nmd-exq-49-60-a-garden-party/"
+            }
+          ]
+        },
+        {
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
+          "items": [
+            {
+              "title": "Contra \"Glue work considered harmful\"",
+              "date": "2026-11-12",
+              "link": "https://sunshowers.io/posts/glue-work/"
+            },
+            {
+              "title": "*sshole, or when are we finally going to get rid of C?",
+              "date": "2026-11-06",
+              "link": "https://sunshowers.io/posts/sshole/"
+            },
+            {
+              "title": "More on Anthropic's Scion ripping off Mononoke",
+              "date": "2026-10-15",
+              "link": "https://sunshowers.io/posts/anthropic-mononoke-2/"
+            },
+            {
+              "title": "Anthropic's Scion is heavily inspired by Mononoke",
+              "date": "2026-10-14",
+              "link": "https://sunshowers.io/posts/anthropic-mononoke/"
+            },
+            {
+              "title": "iddqd, or the hardest kind of unsafe Rust",
+              "date": "2026-06-02",
+              "link": "https://sunshowers.io/posts/iddqd-unsafe/"
+            }
+          ]
+        },
+        {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-11-12",
+              "link": "https://dbushell.com/notes/2026-11-12T18:19Z/"
+            },
+            {
+              "date": "2026-11-11",
+              "link": "https://dbushell.com/notes/2026-11-11T05:49Z/"
+            },
+            {
+              "date": "2026-11-10",
+              "link": "https://dbushell.com/notes/2026-11-10T05:59Z/"
+            },
+            {
+              "date": "2026-11-08",
+              "link": "https://dbushell.com/notes/2026-11-08T13:14Z/"
+            },
+            {
+              "date": "2026-11-04",
+              "link": "https://dbushell.com/notes/2026-11-04T06:28Z/"
+            }
+          ]
+        },
+        {
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
@@ -35,37 +123,6 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
-          "items": [
-            {
-              "title": "[NMD EXQ 53/60] Settling in to this desk",
-              "date": "2026-11-11",
-              "link": "https://www.simplermachines.com/nmd-exq-53-60-settling-in-to-this-desk/"
-            },
-            {
-              "title": "[NMD EXQ 52/60] Sliced red onions in a cast iron pan with steam rising from them with a wooden wedge to stir them",
-              "date": "2026-11-10",
-              "link": "https://www.simplermachines.com/nmd-exq-52-60-sliced-red-onions-in-a-cast-iron-pan-with-steam-rising-from-them-with-a-wooden-wedge-to-stir-them/"
-            },
-            {
-              "title": "[NMD EXQ 51/60] Late afternoon sun in the garden",
-              "date": "2026-11-09",
-              "link": "https://www.simplermachines.com/nmd-exq-51-60-late-afternoon-sun-in-the-garden/"
-            },
-            {
-              "title": "[NMD EXQ 49/60] A garden party",
-              "date": "2026-11-07",
-              "link": "https://www.simplermachines.com/nmd-exq-49-60-a-garden-party/"
-            },
-            {
-              "title": "[NMD EXQ 48/60] Critter",
-              "date": "2026-11-06",
-              "link": "https://www.simplermachines.com/nmd-exq-48-60-critter/"
-            }
-          ]
-        },
-        {
           "title": "Fernando Borretti",
           "feedUrl": "https://borretti.me/feed.xml",
           "items": [
@@ -93,32 +150,6 @@
               "title": "The Education of a Doomer",
               "date": "2026-09-07",
               "link": "https://borretti.me/article/the-education-of-a-doomer"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-11-11",
-              "link": "https://dbushell.com/notes/2026-11-11T05:49Z/"
-            },
-            {
-              "date": "2026-11-10",
-              "link": "https://dbushell.com/notes/2026-11-10T05:59Z/"
-            },
-            {
-              "date": "2026-11-08",
-              "link": "https://dbushell.com/notes/2026-11-08T13:14Z/"
-            },
-            {
-              "date": "2026-11-04",
-              "link": "https://dbushell.com/notes/2026-11-04T06:28Z/"
-            },
-            {
-              "date": "2026-11-01",
-              "link": "https://dbushell.com/notes/2026-11-01T07:21Z/"
             }
           ]
         },
@@ -340,37 +371,6 @@
           ]
         },
         {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "*sshole, or when are we finally going to get rid of C?",
-              "date": "2026-11-06",
-              "link": "https://sunshowers.io/posts/sshole/"
-            },
-            {
-              "title": "More on Anthropic's Scion ripping off Mononoke",
-              "date": "2026-10-15",
-              "link": "https://sunshowers.io/posts/anthropic-mononoke-2/"
-            },
-            {
-              "title": "Anthropic's Scion is heavily inspired by Mononoke",
-              "date": "2026-10-14",
-              "link": "https://sunshowers.io/posts/anthropic-mononoke/"
-            },
-            {
-              "title": "iddqd, or the hardest kind of unsafe Rust",
-              "date": "2026-06-02",
-              "link": "https://sunshowers.io/posts/iddqd-unsafe/"
-            },
-            {
-              "title": "In defense of lock poisoning in Rust",
-              "date": "2025-12-02",
-              "link": "https://sunshowers.io/posts/on-poisoning/"
-            }
-          ]
-        },
-        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -526,37 +526,6 @@
           ]
         },
         {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "The Switch to AgileOtter.Dev",
-              "date": "2026-11-02",
-              "link": "http://agileotter.blogspot.com/2026/11/the-switch-to-agileotterdev.html"
-            },
-            {
-              "title": "Speculating on Challenges of Spec-Driven Development",
-              "date": "2026-10-18",
-              "link": "http://agileotter.blogspot.com/2026/10/speculative-challenges-of-spec-driven.html"
-            },
-            {
-              "title": "Why redesign doesn't happen (enough)",
-              "date": "2026-09-29",
-              "link": "http://agileotter.blogspot.com/2026/09/why-redesign-doesnt-happen-enough.html"
-            },
-            {
-              "title": "The Ticket Is Not The Work",
-              "date": "2026-09-26",
-              "link": "http://agileotter.blogspot.com/2026/09/the-ticket-is-not-work.html"
-            },
-            {
-              "title": "Spreadsheets",
-              "date": "2026-08-26",
-              "link": "http://agileotter.blogspot.com/2026/08/spreadsheets.html"
-            }
-          ]
-        },
-        {
           "title": "",
           "feedUrl": "https://danluu.com/atom.xml",
           "items": [
@@ -584,6 +553,37 @@
               "title": "Ed Zitron's AI prediction track record",
               "date": "2026-09-01",
               "link": "https://danluu.com/zitron/"
+            }
+          ]
+        },
+        {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "The Switch to AgileOtter.Dev",
+              "date": "2026-11-02",
+              "link": "http://agileotter.blogspot.com/2026/11/the-switch-to-agileotterdev.html"
+            },
+            {
+              "title": "Speculating on Challenges of Spec-Driven Development",
+              "date": "2026-10-18",
+              "link": "http://agileotter.blogspot.com/2026/10/speculative-challenges-of-spec-driven.html"
+            },
+            {
+              "title": "Why redesign doesn't happen (enough)",
+              "date": "2026-09-29",
+              "link": "http://agileotter.blogspot.com/2026/09/why-redesign-doesnt-happen-enough.html"
+            },
+            {
+              "title": "The Ticket Is Not The Work",
+              "date": "2026-09-26",
+              "link": "http://agileotter.blogspot.com/2026/09/the-ticket-is-not-work.html"
+            },
+            {
+              "title": "Spreadsheets",
+              "date": "2026-08-26",
+              "link": "http://agileotter.blogspot.com/2026/08/spreadsheets.html"
             }
           ]
         },
@@ -2435,7 +2435,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-12T10:37:29.530Z",
+  "fetchDate": "2026-11-13T10:29:31.425Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

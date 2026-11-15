@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Visited links are purple",
+              "date": "2026-11-16",
+              "link": "https://dbushell.com/2026/11/16/visited-links/"
+            },
+            {
+              "title": "RSS Club #010: Chatbots",
+              "date": "2026-11-15",
+              "link": "https://dbushell.com/2026/11/15/RSS010/"
+            },
+            {
+              "title": "I was wrong about dark mode",
+              "date": "2026-11-09",
+              "link": "https://dbushell.com/2026/11/09/dark-mode/"
+            },
+            {
+              "title": "Death comes for XSLT",
+              "date": "2026-11-03",
+              "link": "https://dbushell.com/2026/11/03/xslt-rip/"
+            },
+            {
+              "title": "Tangled, hire a front-end accessibility expert",
+              "date": "2026-11-01",
+              "link": "https://dbushell.com/2026/11/01/tangled-accessibility/"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
+            {
+              "title": "[NMD EXQ 55/60] Majestic creature",
+              "date": "2026-11-15",
+              "link": "https://www.simplermachines.com/nmd-exq-55-60-majestic-creature/"
+            },
             {
               "title": "[NMD EXQ 53/60] St John's Presbyterian with mysterious concrete beams",
               "date": "2026-11-14",
@@ -26,11 +62,99 @@
               "title": "[NMD EXQ 52/60] Sliced red onions in a cast iron pan with steam rising from them with a wooden wedge to stir them",
               "date": "2026-11-10",
               "link": "https://www.simplermachines.com/nmd-exq-52-60-sliced-red-onions-in-a-cast-iron-pan-with-steam-rising-from-them-with-a-wooden-wedge-to-stir-them/"
+            }
+          ]
+        },
+        {
+          "title": "Robin Rendle",
+          "feedUrl": "https://robinrendle.com/feed.xml",
+          "items": [
+            {
+              "title": "The Notebook",
+              "date": "2026-11-14",
+              "link": "https://robinrendle.com/notes/the-notebook/"
             },
             {
-              "title": "[NMD EXQ 51/60] Late afternoon sun in the garden",
-              "date": "2026-11-09",
-              "link": "https://www.simplermachines.com/nmd-exq-51-60-late-afternoon-sun-in-the-garden/"
+              "title": "Small things like these",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/small-things-like-these/"
+            },
+            {
+              "title": "Cybernetics and Ghosts",
+              "date": "2026-08-23",
+              "link": "https://robinrendle.com/notes/cybernetics-and-ghosts/"
+            },
+            {
+              "title": "The day of small things",
+              "date": "2026-08-15",
+              "link": "https://robinrendle.com/notes/the-day-of-small-things/"
+            },
+            {
+              "title": "Reading matters deeply",
+              "date": "2026-08-02",
+              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
+            }
+          ]
+        },
+        {
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
+          "items": [
+            {
+              "title": "Designing nextest's install scripts",
+              "date": "2026-11-14",
+              "link": "https://sunshowers.io/posts/nextest-install-scripts/"
+            },
+            {
+              "title": "Contra \"Glue work considered harmful\"",
+              "date": "2026-11-12",
+              "link": "https://sunshowers.io/posts/glue-work/"
+            },
+            {
+              "title": "*sshole, or when are we finally going to get rid of C?",
+              "date": "2026-11-06",
+              "link": "https://sunshowers.io/posts/sshole/"
+            },
+            {
+              "title": "More on Anthropic's Scion ripping off Mononoke",
+              "date": "2026-10-15",
+              "link": "https://sunshowers.io/posts/anthropic-mononoke-2/"
+            },
+            {
+              "title": "Anthropic's Scion is heavily inspired by Mononoke",
+              "date": "2026-10-14",
+              "link": "https://sunshowers.io/posts/anthropic-mononoke/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "Taking AI Seriously",
+              "date": "2026-11-14",
+              "link": "https://borretti.me/article/taking-ai-seriously"
+            },
+            {
+              "title": "Possible Futures",
+              "date": "2026-11-11",
+              "link": "https://borretti.me/article/possible-futures"
+            },
+            {
+              "title": "We Won’t “Just Hang Out”",
+              "date": "2026-10-27",
+              "link": "https://borretti.me/article/we-wont-just-hang-out"
+            },
+            {
+              "title": "No Man Is an Island",
+              "date": "2026-10-08",
+              "link": "https://borretti.me/article/no-man-is-an-island"
+            },
+            {
+              "title": "The Other Road",
+              "date": "2026-09-09",
+              "link": "https://borretti.me/article/the-other-road"
             }
           ]
         },
@@ -57,37 +181,6 @@
             {
               "date": "2026-11-08",
               "link": "https://dbushell.com/notes/2026-11-08T13:14Z/"
-            }
-          ]
-        },
-        {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "Contra \"Glue work considered harmful\"",
-              "date": "2026-11-12",
-              "link": "https://sunshowers.io/posts/glue-work/"
-            },
-            {
-              "title": "*sshole, or when are we finally going to get rid of C?",
-              "date": "2026-11-06",
-              "link": "https://sunshowers.io/posts/sshole/"
-            },
-            {
-              "title": "More on Anthropic's Scion ripping off Mononoke",
-              "date": "2026-10-15",
-              "link": "https://sunshowers.io/posts/anthropic-mononoke-2/"
-            },
-            {
-              "title": "Anthropic's Scion is heavily inspired by Mononoke",
-              "date": "2026-10-14",
-              "link": "https://sunshowers.io/posts/anthropic-mononoke/"
-            },
-            {
-              "title": "iddqd, or the hardest kind of unsafe Rust",
-              "date": "2026-06-02",
-              "link": "https://sunshowers.io/posts/iddqd-unsafe/"
             }
           ]
         },
@@ -119,37 +212,6 @@
               "title": "Life on Foot",
               "date": "2026-10-17",
               "link": "https://gomakethings.com/articles/life-on-foot/"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Possible Futures",
-              "date": "2026-11-11",
-              "link": "https://borretti.me/article/possible-futures"
-            },
-            {
-              "title": "We Won’t “Just Hang Out”",
-              "date": "2026-10-27",
-              "link": "https://borretti.me/article/we-wont-just-hang-out"
-            },
-            {
-              "title": "No Man Is an Island",
-              "date": "2026-10-08",
-              "link": "https://borretti.me/article/no-man-is-an-island"
-            },
-            {
-              "title": "The Other Road",
-              "date": "2026-09-09",
-              "link": "https://borretti.me/article/the-other-road"
-            },
-            {
-              "title": "The Education of a Doomer",
-              "date": "2026-09-07",
-              "link": "https://borretti.me/article/the-education-of-a-doomer"
             }
           ]
         },
@@ -216,33 +278,33 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
           "items": [
             {
-              "title": "I was wrong about dark mode",
-              "date": "2026-11-09",
-              "link": "https://dbushell.com/2026/11/09/dark-mode/"
+              "title": "Building a bike computer from scratch",
+              "date": "2026-11-10",
+              "link": "https://marvinh.dev/blog/bike-computer/"
             },
             {
-              "title": "Death comes for XSLT",
-              "date": "2026-11-03",
-              "link": "https://dbushell.com/2026/11/03/xslt-rip/"
+              "title": "Speeding up the JavaScript ecosystem - oxlint and oxfmt",
+              "date": "2026-05-17",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-13/"
             },
             {
-              "title": "Tangled, hire a front-end accessibility expert",
-              "date": "2026-11-01",
-              "link": "https://dbushell.com/2026/11/01/tangled-accessibility/"
+              "title": "DDoS'ing the human brain",
+              "date": "2026-04-03",
+              "link": "https://marvinh.dev/blog/ddosing-the-human-brain/"
             },
             {
-              "title": "Danse Macabre",
-              "date": "2026-10-28",
-              "link": "https://dbushell.com/2026/10/28/danse-macabre/"
+              "title": "Signals vs Query-Based Compilers",
+              "date": "2026-01-04",
+              "link": "https://marvinh.dev/blog/signals-vs-query-based-compilers/"
             },
             {
-              "title": "How not to migrate from Cloudflare DNS",
-              "date": "2026-10-20",
-              "link": "https://dbushell.com/2026/10/20/how-not-to-migrate-from-cloudflare-dns/"
+              "title": "Building From First Principles",
+              "date": "2025-10-28",
+              "link": "https://marvinh.dev/blog/building-from-first-principles/"
             }
           ]
         },
@@ -1204,37 +1266,6 @@
               "title": "When everybody's down, nobody is",
               "date": "2025-10-23",
               "link": "https://newsletter.goodtechthings.com/p/when-everybodys-down-nobody-is"
-            }
-          ]
-        },
-        {
-          "title": "Robin Rendle",
-          "feedUrl": "https://robinrendle.com/feed.xml",
-          "items": [
-            {
-              "title": "Small things like these",
-              "date": "2026-08-23",
-              "link": "https://robinrendle.com/notes/small-things-like-these/"
-            },
-            {
-              "title": "Cybernetics and Ghosts",
-              "date": "2026-08-23",
-              "link": "https://robinrendle.com/notes/cybernetics-and-ghosts/"
-            },
-            {
-              "title": "The day of small things",
-              "date": "2026-08-15",
-              "link": "https://robinrendle.com/notes/the-day-of-small-things/"
-            },
-            {
-              "title": "Reading matters deeply",
-              "date": "2026-08-02",
-              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
-            },
-            {
-              "title": "Show me the work",
-              "date": "2026-08-01",
-              "link": "https://robinrendle.com/notes/show-me-the-work/"
             }
           ]
         },
@@ -2373,7 +2404,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-14T09:47:32.013Z",
+  "fetchDate": "2026-11-15T10:22:09.506Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
@@ -2381,7 +2412,6 @@
     "https://mikegrindle.com/feed.xml",
     "https://anniemueller.com/posts_feed",
     "https://fynn.be/feed.xml",
-    "https://marvinh.dev/feed.xml",
     "https://heydonworks.com/feed.xml"
   ]
 }

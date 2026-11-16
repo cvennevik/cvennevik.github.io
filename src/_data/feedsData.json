@@ -39,6 +39,11 @@
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
             {
+              "title": "[NMD EXQ 56/60] An office, mostly set up",
+              "date": "2026-11-16",
+              "link": "https://www.simplermachines.com/nmd-exq-56-60-an-office-mostly-set-up/"
+            },
+            {
               "title": "[NMD EXQ 55/60] Majestic creature",
               "date": "2026-11-15",
               "link": "https://www.simplermachines.com/nmd-exq-55-60-majestic-creature/"
@@ -57,11 +62,6 @@
               "title": "[NMD EXQ 53/60] Settling in to this desk",
               "date": "2026-11-11",
               "link": "https://www.simplermachines.com/nmd-exq-53-60-settling-in-to-this-desk/"
-            },
-            {
-              "title": "[NMD EXQ 52/60] Sliced red onions in a cast iron pan with steam rising from them with a wooden wedge to stir them",
-              "date": "2026-11-10",
-              "link": "https://www.simplermachines.com/nmd-exq-52-60-sliced-red-onions-in-a-cast-iron-pan-with-steam-rising-from-them-with-a-wooden-wedge-to-stir-them/"
             }
           ]
         },
@@ -69,6 +69,11 @@
           "title": "Robin Rendle",
           "feedUrl": "https://robinrendle.com/feed.xml",
           "items": [
+            {
+              "title": "Why You Should Read Children’s Books",
+              "date": "2026-11-15",
+              "link": "https://robinrendle.com/notes/why-you-should-read-childrens-books/"
+            },
             {
               "title": "The Notebook",
               "date": "2026-11-14",
@@ -88,11 +93,37 @@
               "title": "The day of small things",
               "date": "2026-08-15",
               "link": "https://robinrendle.com/notes/the-day-of-small-things/"
+            }
+          ]
+        },
+        {
+          "title": "Fernando Borretti",
+          "feedUrl": "https://borretti.me/feed.xml",
+          "items": [
+            {
+              "title": "ASI as a Black Box",
+              "date": "2026-11-15",
+              "link": "https://borretti.me/article/asi-as-a-black-box"
             },
             {
-              "title": "Reading matters deeply",
-              "date": "2026-08-02",
-              "link": "https://robinrendle.com/notes/reading-matters-deeply/"
+              "title": "Taking AI Seriously",
+              "date": "2026-11-14",
+              "link": "https://borretti.me/article/taking-ai-seriously"
+            },
+            {
+              "title": "Possible Futures",
+              "date": "2026-11-11",
+              "link": "https://borretti.me/article/possible-futures"
+            },
+            {
+              "title": "We Won’t “Just Hang Out”",
+              "date": "2026-10-27",
+              "link": "https://borretti.me/article/we-wont-just-hang-out"
+            },
+            {
+              "title": "No Man Is an Island",
+              "date": "2026-10-08",
+              "link": "https://borretti.me/article/no-man-is-an-island"
             }
           ]
         },
@@ -124,37 +155,6 @@
               "title": "Anthropic's Scion is heavily inspired by Mononoke",
               "date": "2026-10-14",
               "link": "https://sunshowers.io/posts/anthropic-mononoke/"
-            }
-          ]
-        },
-        {
-          "title": "Fernando Borretti",
-          "feedUrl": "https://borretti.me/feed.xml",
-          "items": [
-            {
-              "title": "Taking AI Seriously",
-              "date": "2026-11-14",
-              "link": "https://borretti.me/article/taking-ai-seriously"
-            },
-            {
-              "title": "Possible Futures",
-              "date": "2026-11-11",
-              "link": "https://borretti.me/article/possible-futures"
-            },
-            {
-              "title": "We Won’t “Just Hang Out”",
-              "date": "2026-10-27",
-              "link": "https://borretti.me/article/we-wont-just-hang-out"
-            },
-            {
-              "title": "No Man Is an Island",
-              "date": "2026-10-08",
-              "link": "https://borretti.me/article/no-man-is-an-island"
-            },
-            {
-              "title": "The Other Road",
-              "date": "2026-09-09",
-              "link": "https://borretti.me/article/the-other-road"
             }
           ]
         },
@@ -433,6 +433,37 @@
           ]
         },
         {
+          "title": "HeydonWorks",
+          "feedUrl": "https://heydonworks.com/feed.xml",
+          "items": [
+            {
+              "title": "I am not a developer or an accessibility specialist. Hire me?",
+              "date": "2026-11-05",
+              "link": "https://heydonworks.com/article/i-am-not-an-accessibility-specialist-hire-me/"
+            },
+            {
+              "title": "The AI Artist Paradox",
+              "date": "2026-09-27",
+              "link": "https://heydonworks.com/article/the-ai-art-paradox/"
+            },
+            {
+              "title": "Leveraging The Super Keyword In Custom Elements",
+              "date": "2025-12-30",
+              "link": "https://heydonworks.com/article/leveraging-the-super-keyword-in-custom-elements/"
+            },
+            {
+              "title": "How To Dynamically Install Custom Elements",
+              "date": "2025-12-29",
+              "link": "https://heydonworks.com/article/dynamically-loading-custom-elements/"
+            },
+            {
+              "title": "Accessible Rickrolling",
+              "date": "2025-06-12",
+              "link": "https://heydonworks.com/article/accessible-rick-rolling/"
+            }
+          ]
+        },
+        {
           "title": "ThinkingLabs",
           "feedUrl": "https://thinkinglabs.io/feed.xml",
           "items": [
@@ -561,7 +592,7 @@
           "feedUrl": "https://danluu.com/atom.xml",
           "items": [
             {
-              "title": "Test and verification technique effectiveness with GPT-6 Astra",
+              "title": "Test/verification technique effectiveness with Astra",
               "date": "2026-11-02",
               "link": "https://danluu.com/astra-testing/"
             },
@@ -576,7 +607,7 @@
               "link": "https://danluu.com/brain-off/"
             },
             {
-              "title": "How well do agents use test and verification techniques?",
+              "title": "How well do agents use test/verification techniques?",
               "date": "2026-09-07",
               "link": "https://danluu.com/agentic-testing/"
             },
@@ -2404,14 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-15T10:22:09.506Z",
+  "fetchDate": "2026-11-16T10:36:31.405Z",
   "errors": [
-    "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
+    "https://cutlefish.substack.com/feed",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://anniemueller.com/posts_feed",
-    "https://fynn.be/feed.xml",
-    "https://heydonworks.com/feed.xml"
+    "https://fynn.be/feed.xml"
   ]
 }

@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ 57/60] Real time vs. story time (with onions)",
+              "date": "2026-11-17",
+              "link": "https://www.simplermachines.com/nmd-exq-57-60-real-time-vs-story-time-with-onions/"
+            },
+            {
+              "title": "[NMD EXQ 56/60] An office, mostly set up",
+              "date": "2026-11-16",
+              "link": "https://www.simplermachines.com/nmd-exq-56-60-an-office-mostly-set-up/"
+            },
+            {
+              "title": "[NMD EXQ 55/60] Majestic creature",
+              "date": "2026-11-15",
+              "link": "https://www.simplermachines.com/nmd-exq-55-60-majestic-creature/"
+            },
+            {
+              "title": "[NMD EXQ 53/60] St John's Presbyterian with mysterious concrete beams",
+              "date": "2026-11-14",
+              "link": "https://www.simplermachines.com/nmd-exq-53-60-st-johns-presbyterian-with-mysterious-concrete-beams/"
+            },
+            {
+              "title": "How to Learn to Meditate",
+              "date": "2026-11-13",
+              "link": "https://www.simplermachines.com/how-to-learn-to-meditate/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -35,33 +66,64 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
           "items": [
             {
-              "title": "[NMD EXQ 56/60] An office, mostly set up",
+              "title": "What does it mean to understand what we built?",
               "date": "2026-11-16",
-              "link": "https://www.simplermachines.com/nmd-exq-56-60-an-office-mostly-set-up/"
+              "link": "http://brooker.co.za/blog/2026/11/16/understanding.html"
             },
             {
-              "title": "[NMD EXQ 55/60] Majestic creature",
-              "date": "2026-11-15",
-              "link": "https://www.simplermachines.com/nmd-exq-55-60-majestic-creature/"
+              "title": "Animations for System Builders: Metastability and Lost Writes",
+              "date": "2026-10-23",
+              "link": "http://brooker.co.za/blog/2026/10/23/animations.html"
             },
             {
-              "title": "[NMD EXQ 53/60] St John's Presbyterian with mysterious concrete beams",
-              "date": "2026-11-14",
-              "link": "https://www.simplermachines.com/nmd-exq-53-60-st-johns-presbyterian-with-mysterious-concrete-beams/"
+              "title": "Strands Decider: Why Not an Encoder?",
+              "date": "2026-10-04",
+              "link": "http://brooker.co.za/blog/2026/10/04/encoders.html"
             },
             {
-              "title": "How to Learn to Meditate",
-              "date": "2026-11-13",
-              "link": "https://www.simplermachines.com/how-to-learn-to-meditate/"
+              "title": "Small Decisions: Engineering a Leading Model",
+              "date": "2026-09-28",
+              "link": "http://brooker.co.za/blog/2026/09/28/engineering-system-one.html"
             },
             {
-              "title": "[NMD EXQ 53/60] Settling in to this desk",
-              "date": "2026-11-11",
-              "link": "https://www.simplermachines.com/nmd-exq-53-60-settling-in-to-this-desk/"
+              "title": "Lorenz and Little: How Much Does Your Tail Cost?",
+              "date": "2026-07-29",
+              "link": "http://brooker.co.za/blog/2026/07/29/lorenz-and-little.html"
+            }
+          ]
+        },
+        {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "📷 Duck (noun, verb)",
+              "date": "2026-11-16",
+              "link": "https://moonbase.lgbt/blog/duck-noun-verb/"
+            },
+            {
+              "title": "📷 Hanging out with some pigeons",
+              "date": "2026-10-25",
+              "link": "https://moonbase.lgbt/blog/hanging-out-with-some-pigeons/"
+            },
+            {
+              "title": "📝 My Grandfather’s Camera",
+              "date": "2026-07-03",
+              "link": "https://moonbase.lgbt/blog/my-grandfathers-camera/"
+            },
+            {
+              "title": "📷 Soar",
+              "date": "2026-06-28",
+              "link": "https://moonbase.lgbt/blog/soar/"
+            },
+            {
+              "title": "📝 LEGO Racers 2 All Cheat Codes [real] [not clickbait]",
+              "date": "2026-05-26",
+              "link": "https://moonbase.lgbt/blog/lego-racers-2-cheats/"
             }
           ]
         },
@@ -247,37 +309,6 @@
           ]
         },
         {
-          "title": "Adrian Roselli",
-          "feedUrl": "https://adrianroselli.com/feed",
-          "items": [
-            {
-              "title": "My Interop 2027 Picks",
-              "date": "2026-11-10",
-              "link": "https://adrianroselli.com/2026/11/my-interop-2027-picks.html"
-            },
-            {
-              "title": "Decorative Images…",
-              "date": "2026-10-09",
-              "link": "https://adrianroselli.com/2026/10/decorative-images.html"
-            },
-            {
-              "title": "#Corpowid and #Skynet Technologies Will Get You Sued",
-              "date": "2026-09-28",
-              "link": "https://adrianroselli.com/2026/09/corpowid-and-skynet-technologies-will-get-you-sued.html"
-            },
-            {
-              "title": "Support for `headers` Attribute",
-              "date": "2026-09-08",
-              "link": "https://adrianroselli.com/2026/09/support-for-headers-attribute.html"
-            },
-            {
-              "title": "Evaluating a Success Criterion",
-              "date": "2026-09-01",
-              "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
-            }
-          ]
-        },
-        {
           "title": "Marvin Hagemeister",
           "feedUrl": "https://marvinh.dev/feed.xml",
           "items": [
@@ -305,6 +336,37 @@
               "title": "Building From First Principles",
               "date": "2025-10-28",
               "link": "https://marvinh.dev/blog/building-from-first-principles/"
+            }
+          ]
+        },
+        {
+          "title": "Adrian Roselli",
+          "feedUrl": "https://adrianroselli.com/feed",
+          "items": [
+            {
+              "title": "My Interop 2027 Picks",
+              "date": "2026-11-10",
+              "link": "https://adrianroselli.com/2026/11/my-interop-2027-picks.html"
+            },
+            {
+              "title": "Decorative Images…",
+              "date": "2026-10-09",
+              "link": "https://adrianroselli.com/2026/10/decorative-images.html"
+            },
+            {
+              "title": "#Corpowid and #Skynet Technologies Will Get You Sued",
+              "date": "2026-09-28",
+              "link": "https://adrianroselli.com/2026/09/corpowid-and-skynet-technologies-will-get-you-sued.html"
+            },
+            {
+              "title": "Support for `headers` Attribute",
+              "date": "2026-09-08",
+              "link": "https://adrianroselli.com/2026/09/support-for-headers-attribute.html"
+            },
+            {
+              "title": "Evaluating a Success Criterion",
+              "date": "2026-09-01",
+              "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
             }
           ]
         },
@@ -708,99 +770,6 @@
               "title": "Love for tiny utility programs",
               "date": "2026-09-16",
               "link": "https://thejollyteapot.com/2026/09/16/love-for-tiny-utility-programs/"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "📷 Hanging out with some pigeons",
-              "date": "2026-10-25",
-              "link": "https://moonbase.lgbt/blog/hanging-out-with-some-pigeons/"
-            },
-            {
-              "title": "📝 My Grandfather’s Camera",
-              "date": "2026-07-03",
-              "link": "https://moonbase.lgbt/blog/my-grandfathers-camera/"
-            },
-            {
-              "title": "📷 Soar",
-              "date": "2026-06-28",
-              "link": "https://moonbase.lgbt/blog/soar/"
-            },
-            {
-              "title": "📝 LEGO Racers 2 All Cheat Codes [real] [not clickbait]",
-              "date": "2026-05-26",
-              "link": "https://moonbase.lgbt/blog/lego-racers-2-cheats/"
-            },
-            {
-              "title": "📷 Grids in Manchester",
-              "date": "2026-04-25",
-              "link": "https://moonbase.lgbt/blog/manchester-grids/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "Animations for System Builders: Metastability and Lost Writes",
-              "date": "2026-10-23",
-              "link": "http://brooker.co.za/blog/2026/10/23/animations.html"
-            },
-            {
-              "title": "Strands Decider: Why Not an Encoder?",
-              "date": "2026-10-04",
-              "link": "http://brooker.co.za/blog/2026/10/04/encoders.html"
-            },
-            {
-              "title": "Small Decisions: Engineering a Leading Model",
-              "date": "2026-09-28",
-              "link": "http://brooker.co.za/blog/2026/09/28/engineering-system-one.html"
-            },
-            {
-              "title": "Lorenz and Little: How Much Does Your Tail Cost?",
-              "date": "2026-07-29",
-              "link": "http://brooker.co.za/blog/2026/07/29/lorenz-and-little.html"
-            },
-            {
-              "title": "Aurora DSQL: Scalable, Multi-Region OLTP",
-              "date": "2026-07-19",
-              "link": "http://brooker.co.za/blog/2026/07/19/dsql-paper.html"
-            }
-          ]
-        },
-        {
-          "title": "artemis.sh",
-          "feedUrl": "https://artemis.sh/feed.xml",
-          "items": [
-            {
-              "title": "Setting up Encrypted ZFS on NetBSD",
-              "date": "2026-10-23",
-              "link": "https://artemis.sh/2026/10/23/netbsd-encrypted-zfs.html"
-            },
-            {
-              "title": "A Non-Exhaustive Guide to Setting The Damn Default Browser",
-              "date": "2026-08-17",
-              "link": "https://artemis.sh/2026/08/17/set-default-browser-linux.html"
-            },
-            {
-              "title": "Fast Synthesis of Basic Oscillators",
-              "date": "2026-07-23",
-              "link": "https://artemis.sh/2026/07/23/fast-synthesis-basic-oscillators.html"
-            },
-            {
-              "title": "Bidirectional I2S with PIO",
-              "date": "2026-03-22",
-              "link": "https://artemis.sh/2026/03/22/pio-i2s-bidirectional.html"
-            },
-            {
-              "title": "raspi3 luks - aes-xts vs xchacha,aes-adiantum",
-              "date": "2025-10-03",
-              "link": "https://artemis.sh/2025/10/03/pi3-cryptsetup-benchmarks.html"
             }
           ]
         },
@@ -2435,13 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-16T10:36:31.405Z",
+  "fetchDate": "2026-11-17T11:28:32.132Z",
   "errors": [
-    "https://2ality.com/feeds/posts.atom",
     "https://cutlefish.substack.com/feed",
+    "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://anniemueller.com/posts_feed",
-    "https://fynn.be/feed.xml"
+    "https://fynn.be/feed.xml",
+    "https://artemis.sh/feed.xml"
   ]
 }

@@ -4,9 +4,45 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Where we’re going, we don’t need chatbots",
+              "date": "2026-11-19",
+              "link": "https://dbushell.com/2026/11/19/we-dont-need-chatbots/"
+            },
+            {
+              "title": "Visited links are purple",
+              "date": "2026-11-16",
+              "link": "https://dbushell.com/2026/11/16/visited-links/"
+            },
+            {
+              "title": "RSS Club #010: Chatbots",
+              "date": "2026-11-15",
+              "link": "https://dbushell.com/2026/11/15/RSS010/"
+            },
+            {
+              "title": "I was wrong about dark mode",
+              "date": "2026-11-09",
+              "link": "https://dbushell.com/2026/11/09/dark-mode/"
+            },
+            {
+              "title": "Death comes for XSLT",
+              "date": "2026-11-03",
+              "link": "https://dbushell.com/2026/11/03/xslt-rip/"
+            }
+          ]
+        },
+        {
           "title": "Simpler Machines",
           "feedUrl": "https://www.simplermachines.com/rss/",
           "items": [
+            {
+              "title": "[NMD EXQ 59/60] Stripey stripey stripey",
+              "date": "2026-11-19",
+              "link": "https://www.simplermachines.com/nmd-exq-59-60-stripey-stripey-stripey/"
+            },
             {
               "title": "[NMD EXQ 58/60] Cooking outside",
               "date": "2026-11-18",
@@ -26,11 +62,68 @@
               "title": "[NMD EXQ 55/60] Majestic creature",
               "date": "2026-11-15",
               "link": "https://www.simplermachines.com/nmd-exq-55-60-majestic-creature/"
+            }
+          ]
+        },
+        {
+          "title": "ThinkingLabs",
+          "feedUrl": "https://thinkinglabs.io/feed.xml",
+          "items": [
+            {
+              "title": "Parent-Child Dynamics at Work: It Has To Be a Leadership Problem, right?",
+              "date": "2026-11-19",
+              "link": "https://thinkinglabs.io/articles/2026/11/19/parent-child-dynamics-at-work-it-has-to-be-a-leadership-problem.html"
             },
             {
-              "title": "[NMD EXQ 53/60] St John's Presbyterian with mysterious concrete beams",
-              "date": "2026-11-14",
-              "link": "https://www.simplermachines.com/nmd-exq-53-60-st-johns-presbyterian-with-mysterious-concrete-beams/"
+              "title": "Notes - Testing: the confusement is real",
+              "date": "2026-11-19",
+              "link": "https://thinkinglabs.io/notes/2026/11/19/agiletd-testing-the-confusion-is-real-joep-schuurkens.html"
+            },
+            {
+              "title": "Notes - The Great Liberation: Software Testing in the Age of AI",
+              "date": "2026-11-19",
+              "link": "https://thinkinglabs.io/notes/2026/11/19/agiletd-keynote-the-great-liberation-software-testing-in-the-age-of-ai-keith-klain.html"
+            },
+            {
+              "title": "Notes - Too Difficult: The Hidden Cost of Critical Thinking",
+              "date": "2026-11-17",
+              "link": "https://thinkinglabs.io/notes/2026/11/17/agiletd-too-difficult-the-hidden-cost-of-critical-thinking-anne-marie-charrett.html"
+            },
+            {
+              "title": "Notes - Mapping Bias to Testing in the LLM-era",
+              "date": "2026-11-17",
+              "link": "https://thinkinglabs.io/notes/2026/11/17/agiletd-mapping-biases-to-testing-in-the-LLM-era-maaike-brinkhof.html"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Autumn fields and horses",
+              "date": "2026-11-18",
+              "link": "https://www.baldurbjarnason.com/notes/photos/autumn-fields-and-horses-2026/"
+            },
+            {
+              "title": "‘AI’ might be the end of our careers",
+              "date": "2026-11-18",
+              "link": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/"
+            },
+            {
+              "title": "Looking back at snow",
+              "date": "2026-11-05",
+              "link": "https://www.baldurbjarnason.com/notes/photos/looking-back-at-snow/"
+            },
+            {
+              "title": "Automation, algorithms, and self-censorship",
+              "date": "2026-11-05",
+              "link": "https://www.baldurbjarnason.com/2026/automation-and-self-censorship/"
+            },
+            {
+              "title": "Writing is Magic; Machine Writing is Ash",
+              "date": "2026-10-31",
+              "link": "https://www.baldurbjarnason.com/2026/machine-writing-is-ash/"
             }
           ]
         },
@@ -38,6 +131,11 @@
           "title": "Go Make Things",
           "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
+            {
+              "title": "Life after coding",
+              "date": "2026-11-18",
+              "link": "https://gomakethings.com/articles/life-after-coding/"
+            },
             {
               "title": "Wasting Time",
               "date": "2026-11-17",
@@ -57,11 +155,99 @@
               "title": "The SpeechRecognition API",
               "date": "2026-10-21",
               "link": "https://gomakethings.com/articles/the-speechrecognition-api/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Email Dumpster Diving",
+              "date": "2026-11-18",
+              "link": "https://blog.jim-nielsen.com/2026/email-dumpster-diving/"
             },
             {
-              "title": "Documentation-Driven Development",
-              "date": "2026-10-20",
-              "link": "https://gomakethings.com/articles/documentation-driven-development/"
+              "title": "Making a Website in 2026",
+              "date": "2026-11-10",
+              "link": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/"
+            },
+            {
+              "title": "Addition By Subtraction",
+              "date": "2026-11-08",
+              "link": "https://blog.jim-nielsen.com/2026/addition-by-subtraction/"
+            },
+            {
+              "title": "“It Gives Great Demo”",
+              "date": "2026-11-04",
+              "link": "https://blog.jim-nielsen.com/2026/it-gives-great-demo/"
+            },
+            {
+              "title": "Celebrating SIM Cards",
+              "date": "2026-10-29",
+              "link": "https://blog.jim-nielsen.com/2026/celebrating-sim-cards/"
+            }
+          ]
+        },
+        {
+          "title": "Marc Brooker's Blog",
+          "feedUrl": "https://brooker.co.za/blog/rss.xml",
+          "items": [
+            {
+              "title": "Traffic mix matters",
+              "date": "2026-11-18",
+              "link": "http://brooker.co.za/blog/2026/11/18/workload-mix.html"
+            },
+            {
+              "title": "What does it mean to understand what we built?",
+              "date": "2026-11-16",
+              "link": "http://brooker.co.za/blog/2026/11/16/understanding.html"
+            },
+            {
+              "title": "Animations for System Builders: Metastability and Lost Writes",
+              "date": "2026-10-23",
+              "link": "http://brooker.co.za/blog/2026/10/23/animations.html"
+            },
+            {
+              "title": "Strands Decider: Why Not an Encoder?",
+              "date": "2026-10-04",
+              "link": "http://brooker.co.za/blog/2026/10/04/encoders.html"
+            },
+            {
+              "title": "Small Decisions: Engineering a Leading Model",
+              "date": "2026-09-28",
+              "link": "http://brooker.co.za/blog/2026/09/28/engineering-system-one.html"
+            }
+          ]
+        },
+        {
+          "title": "A Tester's Journey",
+          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "Open Security Conference 2026 - Paving the Future",
+              "date": "2026-11-18",
+              "link": "https://www.lisihocke.com/2026/11/open-security-conference-2026-paving-the-future.html"
+            },
+            {
+              "title": "Back to Building - A Quiet Fight and a Challenging Review",
+              "date": "2026-10-23",
+              "link": "https://www.lisihocke.com/2026/10/back-to-building-a-quiet-fight-and-a-challenging-review.html"
+            },
+            {
+              "title": "BREWTCON 2026 - Mixing Formats and Communities",
+              "date": "2026-10-17",
+              "link": "https://www.lisihocke.com/2026/10/brewtcon-2026-mixing-formats-and-communities.html"
+            },
+            {
+              "title": "HUSTEF 2026 - Finally Made It",
+              "date": "2026-10-10",
+              "link": "https://www.lisihocke.com/2026/10/hustef-2026-finally-made-it.html"
+            },
+            {
+              "title": "SoCraTes 2026 - Managing Energy",
+              "date": "2026-09-05",
+              "link": "https://www.lisihocke.com/2026/09/socrates-2026-managing-energy.html"
             }
           ]
         },
@@ -97,37 +283,6 @@
           ]
         },
         {
-          "title": "ThinkingLabs",
-          "feedUrl": "https://thinkinglabs.io/feed.xml",
-          "items": [
-            {
-              "title": "Notes - Too Difficult: The Hidden Cost of Critical Thinking",
-              "date": "2026-11-17",
-              "link": "https://thinkinglabs.io/notes/2026/11/17/agiletd-too-difficult-the-hidden-cost-of-critical-thinking-anne-marie-charrett.html"
-            },
-            {
-              "title": "Notes - Mapping Bias to Testing in the LLM-era",
-              "date": "2026-11-17",
-              "link": "https://thinkinglabs.io/notes/2026/11/17/agiletd-mapping-biases-to-testing-in-the-LLM-era-maaike-brinkhof.html"
-            },
-            {
-              "title": "Notes - Leading Test Strategy",
-              "date": "2026-11-17",
-              "link": "https://thinkinglabs.io/notes/2026/11/17/agiletd-leading-test-strategy-elizabeth-zagroba.html"
-            },
-            {
-              "title": "Notes - Keynote: That Wasn’t Supposed to Happen",
-              "date": "2026-11-17",
-              "link": "https://thinkinglabs.io/notes/2026/11/17/agiletd-keynote-that-wasnt-supposed-to-happen-elizabeth-hendrickson-and-joel-tosi.html"
-            },
-            {
-              "title": "Beyond the Shades of Conway’s Law - Dynamics: Conway’s Time Component",
-              "date": "2026-11-05",
-              "link": "https://thinkinglabs.io/articles/2026/11/05/beyond-shades-of-conways-law-dynamics.html"
-            }
-          ]
-        },
-        {
           "title": "Dragan Stepanović",
           "feedUrl": "https://dragan-stepanovic.github.io/feed.xml",
           "items": [
@@ -155,68 +310,6 @@
               "title": "Heavy AI machinery and design",
               "date": "2025-12-14",
               "link": "https://draganstepanovic.com/2025/12/14/heavy-ai-machinery.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Visited links are purple",
-              "date": "2026-11-16",
-              "link": "https://dbushell.com/2026/11/16/visited-links/"
-            },
-            {
-              "title": "RSS Club #010: Chatbots",
-              "date": "2026-11-15",
-              "link": "https://dbushell.com/2026/11/15/RSS010/"
-            },
-            {
-              "title": "I was wrong about dark mode",
-              "date": "2026-11-09",
-              "link": "https://dbushell.com/2026/11/09/dark-mode/"
-            },
-            {
-              "title": "Death comes for XSLT",
-              "date": "2026-11-03",
-              "link": "https://dbushell.com/2026/11/03/xslt-rip/"
-            },
-            {
-              "title": "Tangled, hire a front-end accessibility expert",
-              "date": "2026-11-01",
-              "link": "https://dbushell.com/2026/11/01/tangled-accessibility/"
-            }
-          ]
-        },
-        {
-          "title": "Marc Brooker's Blog",
-          "feedUrl": "https://brooker.co.za/blog/rss.xml",
-          "items": [
-            {
-              "title": "What does it mean to understand what we built?",
-              "date": "2026-11-16",
-              "link": "http://brooker.co.za/blog/2026/11/16/understanding.html"
-            },
-            {
-              "title": "Animations for System Builders: Metastability and Lost Writes",
-              "date": "2026-10-23",
-              "link": "http://brooker.co.za/blog/2026/10/23/animations.html"
-            },
-            {
-              "title": "Strands Decider: Why Not an Encoder?",
-              "date": "2026-10-04",
-              "link": "http://brooker.co.za/blog/2026/10/04/encoders.html"
-            },
-            {
-              "title": "Small Decisions: Engineering a Leading Model",
-              "date": "2026-09-28",
-              "link": "http://brooker.co.za/blog/2026/09/28/engineering-system-one.html"
-            },
-            {
-              "title": "Lorenz and Little: How Much Does Your Tail Cost?",
-              "date": "2026-07-29",
-              "link": "http://brooker.co.za/blog/2026/07/29/lorenz-and-little.html"
             }
           ]
         },
@@ -371,37 +464,6 @@
           ]
         },
         {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Making a Website in 2026",
-              "date": "2026-11-10",
-              "link": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/"
-            },
-            {
-              "title": "Addition By Subtraction",
-              "date": "2026-11-08",
-              "link": "https://blog.jim-nielsen.com/2026/addition-by-subtraction/"
-            },
-            {
-              "title": "“It Gives Great Demo”",
-              "date": "2026-11-04",
-              "link": "https://blog.jim-nielsen.com/2026/it-gives-great-demo/"
-            },
-            {
-              "title": "Celebrating SIM Cards",
-              "date": "2026-10-29",
-              "link": "https://blog.jim-nielsen.com/2026/celebrating-sim-cards/"
-            },
-            {
-              "title": "Why My Dad Didn’t Have a Cell Phone",
-              "date": "2026-10-25",
-              "link": "https://blog.jim-nielsen.com/2026/why-dad-didnt-have-cellphone/"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -429,6 +491,37 @@
               "title": "Evaluating a Success Criterion",
               "date": "2026-09-01",
               "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
+            }
+          ]
+        },
+        {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Building a bike computer from scratch",
+              "date": "2026-11-10",
+              "link": "https://marvinh.dev/blog/bike-computer/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - oxlint and oxfmt",
+              "date": "2026-05-17",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-13/"
+            },
+            {
+              "title": "DDoS'ing the human brain",
+              "date": "2026-04-03",
+              "link": "https://marvinh.dev/blog/ddosing-the-human-brain/"
+            },
+            {
+              "title": "Signals vs Query-Based Compilers",
+              "date": "2026-01-04",
+              "link": "https://marvinh.dev/blog/signals-vs-query-based-compilers/"
+            },
+            {
+              "title": "Building From First Principles",
+              "date": "2025-10-28",
+              "link": "https://marvinh.dev/blog/building-from-first-principles/"
             }
           ]
         },
@@ -522,37 +615,6 @@
               "title": "Obsidian for Writers",
               "date": "2026-06-29",
               "link": "https://www.youtube.com/watch?v=BTuGvfQGOrY"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Looking back at snow",
-              "date": "2026-11-05",
-              "link": "https://www.baldurbjarnason.com/notes/photos/looking-back-at-snow/"
-            },
-            {
-              "title": "Automation, algorithms, and self-censorship",
-              "date": "2026-11-05",
-              "link": "https://www.baldurbjarnason.com/2026/automation-and-self-censorship/"
-            },
-            {
-              "title": "Writing is Magic; Machine Writing is Ash",
-              "date": "2026-10-31",
-              "link": "https://www.baldurbjarnason.com/2026/machine-writing-is-ash/"
-            },
-            {
-              "title": "Out of the ‘AI’ Crisis – Premium Newsletter launch and Halloween Sale",
-              "date": "2026-10-28",
-              "link": "https://www.baldurbjarnason.com/2026/out-of-the-ai-crisis-halloween-sale-and-launch/"
-            },
-            {
-              "title": "Autumn comfort cat photos",
-              "date": "2026-10-21",
-              "link": "https://www.baldurbjarnason.com/notes/photos/autumn-comfort-cat-photos-2026/"
             }
           ]
         },
@@ -832,37 +894,6 @@
               "title": "raspi3 luks - aes-xts vs xchacha,aes-adiantum",
               "date": "2025-10-03",
               "link": "https://artemis.sh/2025/10/03/pi3-cryptsetup-benchmarks.html"
-            }
-          ]
-        },
-        {
-          "title": "A Tester's Journey",
-          "feedUrl": "https://www.lisihocke.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "Back to Building - A Quiet Fight and a Challenging Review",
-              "date": "2026-10-23",
-              "link": "https://www.lisihocke.com/2026/10/back-to-building-a-quiet-fight-and-a-challenging-review.html"
-            },
-            {
-              "title": "BREWTCON 2026 - Mixing Formats and Communities",
-              "date": "2026-10-17",
-              "link": "https://www.lisihocke.com/2026/10/brewtcon-2026-mixing-formats-and-communities.html"
-            },
-            {
-              "title": "HUSTEF 2026 - Finally Made It",
-              "date": "2026-10-10",
-              "link": "https://www.lisihocke.com/2026/10/hustef-2026-finally-made-it.html"
-            },
-            {
-              "title": "SoCraTes 2026 - Managing Energy",
-              "date": "2026-09-05",
-              "link": "https://www.lisihocke.com/2026/09/socrates-2026-managing-energy.html"
-            },
-            {
-              "title": "OWASP Global AppSec EU 2026 - Achievement Unlocked",
-              "date": "2026-07-20",
-              "link": "https://www.lisihocke.com/2026/07/owasp-global-appsec-eu-2026-achievement-unlocked.html"
             }
           ]
         },
@@ -2404,14 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-18T11:05:11.959Z",
+  "fetchDate": "2026-11-19T11:05:16.914Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
-    "https://anniemueller.com/posts_feed",
     "https://fynn.be/feed.xml",
-    "https://marvinh.dev/feed.xml"
+    "https://anniemueller.com/posts_feed"
   ]
 }

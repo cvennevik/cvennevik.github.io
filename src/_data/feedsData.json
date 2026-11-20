@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Simpler Machines",
+          "feedUrl": "https://www.simplermachines.com/rss/",
+          "items": [
+            {
+              "title": "[NMD EXQ] Farewell, & Thanks",
+              "date": "2026-11-20",
+              "link": "https://www.simplermachines.com/nmd-exq-farewell-thanks/"
+            },
+            {
+              "title": "[NMD EXQ 60/60] The view of San Francisco from Oakland",
+              "date": "2026-11-20",
+              "link": "https://www.simplermachines.com/nmd-exq-60-60-the-view-of-san-francisco-from-oakland/"
+            },
+            {
+              "title": "How to Shop at Costco as a Household of Two Adults",
+              "date": "2026-11-19",
+              "link": "https://www.simplermachines.com/how-to-shop-at-costco-as-a-household-of-two-adults/"
+            },
+            {
+              "title": "[NMD EXQ 59/60] Stripey stripey stripey",
+              "date": "2026-11-19",
+              "link": "https://www.simplermachines.com/nmd-exq-59-60-stripey-stripey-stripey/"
+            },
+            {
+              "title": "[NMD EXQ 58/60] Cooking outside",
+              "date": "2026-11-18",
+              "link": "https://www.simplermachines.com/nmd-exq-58-60-cooking-outside/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -35,33 +66,33 @@
           ]
         },
         {
-          "title": "Simpler Machines",
-          "feedUrl": "https://www.simplermachines.com/rss/",
+          "title": "Go Make Things",
+          "feedUrl": "https://gomakethings.com/feed/index.xml",
           "items": [
             {
-              "title": "[NMD EXQ 59/60] Stripey stripey stripey",
+              "title": "Yes, I want to pay for that",
               "date": "2026-11-19",
-              "link": "https://www.simplermachines.com/nmd-exq-59-60-stripey-stripey-stripey/"
+              "link": "https://gomakethings.com/articles/yes-i-want-to-pay-for-that/"
             },
             {
-              "title": "[NMD EXQ 58/60] Cooking outside",
+              "title": "Life after coding",
               "date": "2026-11-18",
-              "link": "https://www.simplermachines.com/nmd-exq-58-60-cooking-outside/"
+              "link": "https://gomakethings.com/articles/life-after-coding/"
             },
             {
-              "title": "[NMD EXQ 57/60] Real time vs. story time (with onions)",
+              "title": "Wasting Time",
               "date": "2026-11-17",
-              "link": "https://www.simplermachines.com/nmd-exq-57-60-real-time-vs-story-time-with-onions/"
+              "link": "https://gomakethings.com/articles/wasting-time/"
             },
             {
-              "title": "[NMD EXQ 56/60] An office, mostly set up",
-              "date": "2026-11-16",
-              "link": "https://www.simplermachines.com/nmd-exq-56-60-an-office-mostly-set-up/"
+              "title": "For and against",
+              "date": "2026-11-11",
+              "link": "https://gomakethings.com/articles/for-and-against/"
             },
             {
-              "title": "[NMD EXQ 55/60] Majestic creature",
-              "date": "2026-11-15",
-              "link": "https://www.simplermachines.com/nmd-exq-55-60-majestic-creature/"
+              "title": "Signal your virtues",
+              "date": "2026-10-27",
+              "link": "https://gomakethings.com/articles/signal-your-virtues/"
             }
           ]
         },
@@ -97,6 +128,68 @@
           ]
         },
         {
+          "title": "Luna’s Blog",
+          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
+          "items": [
+            {
+              "title": "📷 Yellow",
+              "date": "2026-11-19",
+              "link": "https://moonbase.lgbt/blog/yellow/"
+            },
+            {
+              "title": "📷 Duck (noun, verb)",
+              "date": "2026-11-16",
+              "link": "https://moonbase.lgbt/blog/duck-noun-verb/"
+            },
+            {
+              "title": "📷 Hanging out with some pigeons",
+              "date": "2026-10-25",
+              "link": "https://moonbase.lgbt/blog/hanging-out-with-some-pigeons/"
+            },
+            {
+              "title": "📝 My Grandfather’s Camera",
+              "date": "2026-07-03",
+              "link": "https://moonbase.lgbt/blog/my-grandfathers-camera/"
+            },
+            {
+              "title": "📷 Soar",
+              "date": "2026-06-28",
+              "link": "https://moonbase.lgbt/blog/soar/"
+            }
+          ]
+        },
+        {
+          "title": "Computer Things",
+          "feedUrl": "https://buttondown.email/hillelwayne/rss",
+          "items": [
+            {
+              "title": "My Least Favorite Example in Software Engineering",
+              "date": "2026-11-19",
+              "link": "https://buttondown.com/hillelwayne/archive/my-least-favorite-example-in-software-engineering/"
+            },
+            {
+              "title": "New Article, Annual LFP Charity Discount",
+              "date": "2026-11-03",
+              "link": "https://buttondown.com/hillelwayne/archive/new-article-annual-lfp-charity-discount/"
+            },
+            {
+              "title": "NYC, New Webinar, Differential Testing",
+              "date": "2026-10-22",
+              "link": "https://buttondown.com/hillelwayne/archive/nyc-new-webinar-differential-testing/"
+            },
+            {
+              "title": "What TLA+ can and can't check",
+              "date": "2026-09-30",
+              "link": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/"
+            },
+            {
+              "title": "The LLMs yearn for the spines",
+              "date": "2026-09-16",
+              "link": "https://buttondown.com/hillelwayne/archive/the-llms-yearn-for-the-spines/"
+            }
+          ]
+        },
+        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -124,37 +217,6 @@
               "title": "Writing is Magic; Machine Writing is Ash",
               "date": "2026-10-31",
               "link": "https://www.baldurbjarnason.com/2026/machine-writing-is-ash/"
-            }
-          ]
-        },
-        {
-          "title": "Go Make Things",
-          "feedUrl": "https://gomakethings.com/feed/index.xml",
-          "items": [
-            {
-              "title": "Life after coding",
-              "date": "2026-11-18",
-              "link": "https://gomakethings.com/articles/life-after-coding/"
-            },
-            {
-              "title": "Wasting Time",
-              "date": "2026-11-17",
-              "link": "https://gomakethings.com/articles/wasting-time/"
-            },
-            {
-              "title": "For and against",
-              "date": "2026-11-11",
-              "link": "https://gomakethings.com/articles/for-and-against/"
-            },
-            {
-              "title": "Signal your virtues",
-              "date": "2026-10-27",
-              "link": "https://gomakethings.com/articles/signal-your-virtues/"
-            },
-            {
-              "title": "The SpeechRecognition API",
-              "date": "2026-10-21",
-              "link": "https://gomakethings.com/articles/the-speechrecognition-api/"
             }
           ]
         },
@@ -310,37 +372,6 @@
               "title": "Heavy AI machinery and design",
               "date": "2025-12-14",
               "link": "https://draganstepanovic.com/2025/12/14/heavy-ai-machinery.html"
-            }
-          ]
-        },
-        {
-          "title": "Luna’s Blog",
-          "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
-          "items": [
-            {
-              "title": "📷 Duck (noun, verb)",
-              "date": "2026-11-16",
-              "link": "https://moonbase.lgbt/blog/duck-noun-verb/"
-            },
-            {
-              "title": "📷 Hanging out with some pigeons",
-              "date": "2026-10-25",
-              "link": "https://moonbase.lgbt/blog/hanging-out-with-some-pigeons/"
-            },
-            {
-              "title": "📝 My Grandfather’s Camera",
-              "date": "2026-07-03",
-              "link": "https://moonbase.lgbt/blog/my-grandfathers-camera/"
-            },
-            {
-              "title": "📷 Soar",
-              "date": "2026-06-28",
-              "link": "https://moonbase.lgbt/blog/soar/"
-            },
-            {
-              "title": "📝 LEGO Racers 2 All Cheat Codes [real] [not clickbait]",
-              "date": "2026-05-26",
-              "link": "https://moonbase.lgbt/blog/lego-racers-2-cheats/"
             }
           ]
         },
@@ -677,37 +708,6 @@
               "title": "The Most Important AI Coding Advice You Haven’t Heard Yet",
               "date": "2026-07-27",
               "link": "https://coding-is-like-cooking.info/2026/07/the-most-important-ai-coding-advice-you-havent-heard-yet/"
-            }
-          ]
-        },
-        {
-          "title": "Computer Things",
-          "feedUrl": "https://buttondown.email/hillelwayne/rss",
-          "items": [
-            {
-              "title": "New Article, Annual LFP Charity Discount",
-              "date": "2026-11-03",
-              "link": "https://buttondown.com/hillelwayne/archive/new-article-annual-lfp-charity-discount/"
-            },
-            {
-              "title": "NYC, New Webinar, Differential Testing",
-              "date": "2026-10-22",
-              "link": "https://buttondown.com/hillelwayne/archive/nyc-new-webinar-differential-testing/"
-            },
-            {
-              "title": "What TLA+ can and can't check",
-              "date": "2026-09-30",
-              "link": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/"
-            },
-            {
-              "title": "The LLMs yearn for the spines",
-              "date": "2026-09-16",
-              "link": "https://buttondown.com/hillelwayne/archive/the-llms-yearn-for-the-spines/"
-            },
-            {
-              "title": "New Post: A Crash Course in Predicate Logic",
-              "date": "2026-09-01",
-              "link": "https://buttondown.com/hillelwayne/archive/new-post-a-crash-course-in-predicate-logic/"
             }
           ]
         },
@@ -2435,13 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-19T11:05:16.914Z",
+  "fetchDate": "2026-11-20T10:53:10.107Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml",
-    "https://anniemueller.com/posts_feed"
+    "https://anniemueller.com/posts_feed",
+    "https://fynn.be/feed.xml"
   ]
 }

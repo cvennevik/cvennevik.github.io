@@ -4,6 +4,94 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-11-23",
+              "link": "https://dbushell.com/notes/2026-11-23T06:52Z/"
+            },
+            {
+              "date": "2026-11-14",
+              "link": "https://dbushell.com/notes/2026-11-14T06:44Z/"
+            },
+            {
+              "date": "2026-11-12",
+              "link": "https://dbushell.com/notes/2026-11-12T18:19Z/"
+            },
+            {
+              "date": "2026-11-11",
+              "link": "https://dbushell.com/notes/2026-11-11T05:49Z/"
+            },
+            {
+              "date": "2026-11-10",
+              "link": "https://dbushell.com/notes/2026-11-10T05:59Z/"
+            }
+          ]
+        },
+        {
+          "title": "artemis.sh",
+          "feedUrl": "https://artemis.sh/feed.xml",
+          "items": [
+            {
+              "title": "Disabling WiFi Powersaving on Linux",
+              "date": "2026-11-22",
+              "link": "https://artemis.sh/2026/11/22/disable-wifi-powersaving-linux.html"
+            },
+            {
+              "title": "Setting up Encrypted ZFS on NetBSD",
+              "date": "2026-10-23",
+              "link": "https://artemis.sh/2026/10/23/netbsd-encrypted-zfs.html"
+            },
+            {
+              "title": "A Non-Exhaustive Guide to Setting The Damn Default Browser",
+              "date": "2026-08-17",
+              "link": "https://artemis.sh/2026/08/17/set-default-browser-linux.html"
+            },
+            {
+              "title": "Fast Synthesis of Basic Oscillators",
+              "date": "2026-07-23",
+              "link": "https://artemis.sh/2026/07/23/fast-synthesis-basic-oscillators.html"
+            },
+            {
+              "title": "Bidirectional I2S with PIO",
+              "date": "2026-03-22",
+              "link": "https://artemis.sh/2026/03/22/pio-i2s-bidirectional.html"
+            }
+          ]
+        },
+        {
+          "title": "Patrick Dubroy's blog",
+          "feedUrl": "https://dubroy.com/blog/rss.xml",
+          "items": [
+            {
+              "title": "Playing to win",
+              "date": "2026-11-22",
+              "link": "https://dubroy.com/blog/playing-to-win/"
+            },
+            {
+              "title": "Fast is better than slow",
+              "date": "2026-05-23",
+              "link": "https://dubroy.com/blog/fast-is-better-than-slow/"
+            },
+            {
+              "title": "devlog: compatibility packages",
+              "date": "2026-02-06",
+              "link": "https://dubroy.com/blog/compatibility-packages/"
+            },
+            {
+              "title": "Look for what's true",
+              "date": "2026-01-28",
+              "link": "https://dubroy.com/blog/look-for-whats-true/"
+            },
+            {
+              "title": "De-Googling",
+              "date": "2026-01-16",
+              "link": "https://dubroy.com/blog/de-googling/"
+            }
+          ]
+        },
+        {
           "title": "Luna’s Blog",
           "feedUrl": "https://moonbase.lgbt/blog/atom.xml",
           "items": [
@@ -221,37 +309,6 @@
           ]
         },
         {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Autumn fields and horses",
-              "date": "2026-11-18",
-              "link": "https://www.baldurbjarnason.com/notes/photos/autumn-fields-and-horses-2026/"
-            },
-            {
-              "title": "‘AI’ might be the end of our careers",
-              "date": "2026-11-18",
-              "link": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/"
-            },
-            {
-              "title": "Looking back at snow",
-              "date": "2026-11-05",
-              "link": "https://www.baldurbjarnason.com/notes/photos/looking-back-at-snow/"
-            },
-            {
-              "title": "Automation, algorithms, and self-censorship",
-              "date": "2026-11-05",
-              "link": "https://www.baldurbjarnason.com/2026/automation-and-self-censorship/"
-            },
-            {
-              "title": "Writing is Magic; Machine Writing is Ash",
-              "date": "2026-10-31",
-              "link": "https://www.baldurbjarnason.com/2026/machine-writing-is-ash/"
-            }
-          ]
-        },
-        {
           "title": "Jim Nielsen’s Blog",
           "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
           "items": [
@@ -279,6 +336,37 @@
               "title": "Celebrating SIM Cards",
               "date": "2026-10-29",
               "link": "https://blog.jim-nielsen.com/2026/celebrating-sim-cards/"
+            }
+          ]
+        },
+        {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Autumn fields and horses",
+              "date": "2026-11-18",
+              "link": "https://www.baldurbjarnason.com/notes/photos/autumn-fields-and-horses-2026/"
+            },
+            {
+              "title": "‘AI’ might be the end of our careers",
+              "date": "2026-11-18",
+              "link": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/"
+            },
+            {
+              "title": "Looking back at snow",
+              "date": "2026-11-05",
+              "link": "https://www.baldurbjarnason.com/notes/photos/looking-back-at-snow/"
+            },
+            {
+              "title": "Automation, algorithms, and self-censorship",
+              "date": "2026-11-05",
+              "link": "https://www.baldurbjarnason.com/2026/automation-and-self-censorship/"
+            },
+            {
+              "title": "Writing is Magic; Machine Writing is Ash",
+              "date": "2026-10-31",
+              "link": "https://www.baldurbjarnason.com/2026/machine-writing-is-ash/"
             }
           ]
         },
@@ -469,32 +557,6 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-11-14",
-              "link": "https://dbushell.com/notes/2026-11-14T06:44Z/"
-            },
-            {
-              "date": "2026-11-12",
-              "link": "https://dbushell.com/notes/2026-11-12T18:19Z/"
-            },
-            {
-              "date": "2026-11-11",
-              "link": "https://dbushell.com/notes/2026-11-11T05:49Z/"
-            },
-            {
-              "date": "2026-11-10",
-              "link": "https://dbushell.com/notes/2026-11-10T05:59Z/"
-            },
-            {
-              "date": "2026-11-08",
-              "link": "https://dbushell.com/notes/2026-11-08T13:14Z/"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -522,37 +584,6 @@
               "title": "Evaluating a Success Criterion",
               "date": "2026-09-01",
               "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
-            }
-          ]
-        },
-        {
-          "title": "Marvin Hagemeister",
-          "feedUrl": "https://marvinh.dev/feed.xml",
-          "items": [
-            {
-              "title": "Building a bike computer from scratch",
-              "date": "2026-11-10",
-              "link": "https://marvinh.dev/blog/bike-computer/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - oxlint and oxfmt",
-              "date": "2026-05-17",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-13/"
-            },
-            {
-              "title": "DDoS'ing the human brain",
-              "date": "2026-04-03",
-              "link": "https://marvinh.dev/blog/ddosing-the-human-brain/"
-            },
-            {
-              "title": "Signals vs Query-Based Compilers",
-              "date": "2026-01-04",
-              "link": "https://marvinh.dev/blog/signals-vs-query-based-compilers/"
-            },
-            {
-              "title": "Building From First Principles",
-              "date": "2025-10-28",
-              "link": "https://marvinh.dev/blog/building-from-first-principles/"
             }
           ]
         },
@@ -863,37 +894,6 @@
               "title": "Love for tiny utility programs",
               "date": "2026-09-16",
               "link": "https://thejollyteapot.com/2026/09/16/love-for-tiny-utility-programs/"
-            }
-          ]
-        },
-        {
-          "title": "artemis.sh",
-          "feedUrl": "https://artemis.sh/feed.xml",
-          "items": [
-            {
-              "title": "Setting up Encrypted ZFS on NetBSD",
-              "date": "2026-10-23",
-              "link": "https://artemis.sh/2026/10/23/netbsd-encrypted-zfs.html"
-            },
-            {
-              "title": "A Non-Exhaustive Guide to Setting The Damn Default Browser",
-              "date": "2026-08-17",
-              "link": "https://artemis.sh/2026/08/17/set-default-browser-linux.html"
-            },
-            {
-              "title": "Fast Synthesis of Basic Oscillators",
-              "date": "2026-07-23",
-              "link": "https://artemis.sh/2026/07/23/fast-synthesis-basic-oscillators.html"
-            },
-            {
-              "title": "Bidirectional I2S with PIO",
-              "date": "2026-03-22",
-              "link": "https://artemis.sh/2026/03/22/pio-i2s-bidirectional.html"
-            },
-            {
-              "title": "raspi3 luks - aes-xts vs xchacha,aes-adiantum",
-              "date": "2025-10-03",
-              "link": "https://artemis.sh/2025/10/03/pi3-cryptsetup-benchmarks.html"
             }
           ]
         },
@@ -1576,37 +1576,6 @@
               "title": "Prefer Gaps To Margins",
               "date": "2025-06-23",
               "link": "https://kyleshevlin.com/prefer-gaps-to-margins/"
-            }
-          ]
-        },
-        {
-          "title": "Patrick Dubroy's blog",
-          "feedUrl": "https://dubroy.com/blog/rss.xml",
-          "items": [
-            {
-              "title": "Fast is better than slow",
-              "date": "2026-05-23",
-              "link": "https://dubroy.com/blog/fast-is-better-than-slow/"
-            },
-            {
-              "title": "devlog: compatibility packages",
-              "date": "2026-02-06",
-              "link": "https://dubroy.com/blog/compatibility-packages/"
-            },
-            {
-              "title": "Look for what's true",
-              "date": "2026-01-28",
-              "link": "https://dubroy.com/blog/look-for-whats-true/"
-            },
-            {
-              "title": "De-Googling",
-              "date": "2026-01-16",
-              "link": "https://dubroy.com/blog/de-googling/"
-            },
-            {
-              "title": "devlog: garbage collection is useful",
-              "date": "2025-11-14",
-              "link": "https://dubroy.com/blog/garbage-collection-is-useful/"
             }
           ]
         },
@@ -2435,13 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-22T10:41:03.001Z",
+  "fetchDate": "2026-11-23T11:45:49.271Z",
   "errors": [
-    "https://2ality.com/feeds/posts.atom",
     "https://cutlefish.substack.com/feed",
+    "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://fynn.be/feed.xml",
-    "https://anniemueller.com/posts_feed"
+    "https://anniemueller.com/posts_feed",
+    "https://marvinh.dev/feed.xml"
   ]
 }

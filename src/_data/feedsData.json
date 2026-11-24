@@ -4,9 +4,44 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (blog)",
+          "feedUrl": "https://dbushell.com/rss.xml",
+          "items": [
+            {
+              "title": "Ladybird is freakin’ awesome!",
+              "date": "2026-11-24",
+              "link": "https://dbushell.com/2026/11/24/ladybird-is-freakin-awesome/"
+            },
+            {
+              "title": "Where we’re going, we don’t need chatbots",
+              "date": "2026-11-19",
+              "link": "https://dbushell.com/2026/11/19/we-dont-need-chatbots/"
+            },
+            {
+              "title": "Visited links are purple",
+              "date": "2026-11-16",
+              "link": "https://dbushell.com/2026/11/16/visited-links/"
+            },
+            {
+              "title": "RSS Club #010: Chatbots",
+              "date": "2026-11-15",
+              "link": "https://dbushell.com/2026/11/15/RSS010/"
+            },
+            {
+              "title": "I was wrong about dark mode",
+              "date": "2026-11-09",
+              "link": "https://dbushell.com/2026/11/09/dark-mode/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (notes)",
           "feedUrl": "https://dbushell.com/notes/rss.xml",
           "items": [
+            {
+              "date": "2026-11-24",
+              "link": "https://dbushell.com/notes/2026-11-24T09:20Z/"
+            },
             {
               "date": "2026-11-23",
               "link": "https://dbushell.com/notes/2026-11-23T06:52Z/"
@@ -22,10 +57,68 @@
             {
               "date": "2026-11-11",
               "link": "https://dbushell.com/notes/2026-11-11T05:49Z/"
+            }
+          ]
+        },
+        {
+          "title": "Jim Nielsen’s Blog",
+          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+          "items": [
+            {
+              "title": "Am I A Design Engineer?",
+              "date": "2026-11-23",
+              "link": "https://blog.jim-nielsen.com/2026/am-i-a-design-engineer/"
             },
             {
+              "title": "Email Dumpster Diving",
+              "date": "2026-11-18",
+              "link": "https://blog.jim-nielsen.com/2026/email-dumpster-diving/"
+            },
+            {
+              "title": "Making a Website in 2026",
               "date": "2026-11-10",
-              "link": "https://dbushell.com/notes/2026-11-10T05:59Z/"
+              "link": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/"
+            },
+            {
+              "title": "Addition By Subtraction",
+              "date": "2026-11-08",
+              "link": "https://blog.jim-nielsen.com/2026/addition-by-subtraction/"
+            },
+            {
+              "title": "“It Gives Great Demo”",
+              "date": "2026-11-04",
+              "link": "https://blog.jim-nielsen.com/2026/it-gives-great-demo/"
+            }
+          ]
+        },
+        {
+          "title": "James Shore",
+          "feedUrl": "https://www.jamesshore.com/v2/feed",
+          "items": [
+            {
+              "title": "“Decoding Leadership” and the CTO Squeeze",
+              "date": "2026-11-23",
+              "link": "https://www.jamesshore.com/v2/presentations/2026/decoding-leadership-and-the-cto-squeeze"
+            },
+            {
+              "title": "AI DevOps Podcast on the Impact of AI",
+              "date": "2026-11-17",
+              "link": "https://www.jamesshore.com/v2/presentations/2026/ai-devops-podcast"
+            },
+            {
+              "title": "Assessing AI Impact: Notes for Your CFO",
+              "date": "2026-09-29",
+              "link": "https://www.jamesshore.com/v2/blog/2026/assessing-ai-impact-notes-for-your-cfo"
+            },
+            {
+              "title": "Modeling Software’s Business Impact",
+              "date": "2026-09-29",
+              "link": "https://www.jamesshore.com/v2/blog/2026/modeling-softwares-business-impact"
+            },
+            {
+              "title": "Measuring AI’s Unintended Consequences",
+              "date": "2026-09-22",
+              "link": "https://www.jamesshore.com/v2/blog/2026/measuring-ais-unintended-consequences"
             }
           ]
         },
@@ -247,37 +340,6 @@
           ]
         },
         {
-          "title": "dbushell.com (blog)",
-          "feedUrl": "https://dbushell.com/rss.xml",
-          "items": [
-            {
-              "title": "Where we’re going, we don’t need chatbots",
-              "date": "2026-11-19",
-              "link": "https://dbushell.com/2026/11/19/we-dont-need-chatbots/"
-            },
-            {
-              "title": "Visited links are purple",
-              "date": "2026-11-16",
-              "link": "https://dbushell.com/2026/11/16/visited-links/"
-            },
-            {
-              "title": "RSS Club #010: Chatbots",
-              "date": "2026-11-15",
-              "link": "https://dbushell.com/2026/11/15/RSS010/"
-            },
-            {
-              "title": "I was wrong about dark mode",
-              "date": "2026-11-09",
-              "link": "https://dbushell.com/2026/11/09/dark-mode/"
-            },
-            {
-              "title": "Death comes for XSLT",
-              "date": "2026-11-03",
-              "link": "https://dbushell.com/2026/11/03/xslt-rip/"
-            }
-          ]
-        },
-        {
           "title": "Computer Things",
           "feedUrl": "https://buttondown.email/hillelwayne/rss",
           "items": [
@@ -305,37 +367,6 @@
               "title": "The LLMs yearn for the spines",
               "date": "2026-09-16",
               "link": "https://buttondown.com/hillelwayne/archive/the-llms-yearn-for-the-spines/"
-            }
-          ]
-        },
-        {
-          "title": "Jim Nielsen’s Blog",
-          "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
-          "items": [
-            {
-              "title": "Email Dumpster Diving",
-              "date": "2026-11-18",
-              "link": "https://blog.jim-nielsen.com/2026/email-dumpster-diving/"
-            },
-            {
-              "title": "Making a Website in 2026",
-              "date": "2026-11-10",
-              "link": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/"
-            },
-            {
-              "title": "Addition By Subtraction",
-              "date": "2026-11-08",
-              "link": "https://blog.jim-nielsen.com/2026/addition-by-subtraction/"
-            },
-            {
-              "title": "“It Gives Great Demo”",
-              "date": "2026-11-04",
-              "link": "https://blog.jim-nielsen.com/2026/it-gives-great-demo/"
-            },
-            {
-              "title": "Celebrating SIM Cards",
-              "date": "2026-10-29",
-              "link": "https://blog.jim-nielsen.com/2026/celebrating-sim-cards/"
             }
           ]
         },
@@ -429,37 +460,6 @@
               "title": "SoCraTes 2026 - Managing Energy",
               "date": "2026-09-05",
               "link": "https://www.lisihocke.com/2026/09/socrates-2026-managing-energy.html"
-            }
-          ]
-        },
-        {
-          "title": "James Shore",
-          "feedUrl": "https://www.jamesshore.com/v2/feed",
-          "items": [
-            {
-              "title": "AI DevOps Podcast on the Impact of AI",
-              "date": "2026-11-17",
-              "link": "https://www.jamesshore.com/v2/presentations/2026/ai-devops-podcast"
-            },
-            {
-              "title": "Assessing AI Impact: Notes for Your CFO",
-              "date": "2026-09-29",
-              "link": "https://www.jamesshore.com/v2/blog/2026/assessing-ai-impact-notes-for-your-cfo"
-            },
-            {
-              "title": "Modeling Software’s Business Impact",
-              "date": "2026-09-29",
-              "link": "https://www.jamesshore.com/v2/blog/2026/modeling-softwares-business-impact"
-            },
-            {
-              "title": "Measuring AI’s Unintended Consequences",
-              "date": "2026-09-22",
-              "link": "https://www.jamesshore.com/v2/blog/2026/measuring-ais-unintended-consequences"
-            },
-            {
-              "title": "Measuring AI’s Impact on Delivery Speed",
-              "date": "2026-09-15",
-              "link": "https://www.jamesshore.com/v2/blog/2026/measuring-ais-impact-on-delivery-speed"
             }
           ]
         },
@@ -584,6 +584,37 @@
               "title": "Evaluating a Success Criterion",
               "date": "2026-09-01",
               "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
+            }
+          ]
+        },
+        {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Building a bike computer from scratch",
+              "date": "2026-11-10",
+              "link": "https://marvinh.dev/blog/bike-computer/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - oxlint and oxfmt",
+              "date": "2026-05-17",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-13/"
+            },
+            {
+              "title": "DDoS'ing the human brain",
+              "date": "2026-04-03",
+              "link": "https://marvinh.dev/blog/ddosing-the-human-brain/"
+            },
+            {
+              "title": "Signals vs Query-Based Compilers",
+              "date": "2026-01-04",
+              "link": "https://marvinh.dev/blog/signals-vs-query-based-compilers/"
+            },
+            {
+              "title": "Building From First Principles",
+              "date": "2025-10-28",
+              "link": "https://marvinh.dev/blog/building-from-first-principles/"
             }
           ]
         },
@@ -2404,14 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-23T11:45:49.271Z",
+  "fetchDate": "2026-11-24T13:15:00.297Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
-    "https://fynn.be/feed.xml",
     "https://anniemueller.com/posts_feed",
-    "https://marvinh.dev/feed.xml"
+    "https://fynn.be/feed.xml"
   ]
 }

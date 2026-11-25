@@ -8,6 +8,11 @@
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
             {
+              "title": "The year the web industry gave up",
+              "date": "2026-11-25",
+              "link": "https://dbushell.com/2026/11/25/web-industry/"
+            },
+            {
               "title": "Ladybird is freakin’ awesome!",
               "date": "2026-11-24",
               "link": "https://dbushell.com/2026/11/24/ladybird-is-freakin-awesome/"
@@ -26,11 +31,37 @@
               "title": "RSS Club #010: Chatbots",
               "date": "2026-11-15",
               "link": "https://dbushell.com/2026/11/15/RSS010/"
+            }
+          ]
+        },
+        {
+          "title": "Kodemaker sin blogg",
+          "feedUrl": "https://www.kodemaker.no/atom.xml",
+          "items": [
+            {
+              "title": "LGTM, men har du testet det?",
+              "date": "2026-11-25",
+              "link": "https://www.kodemaker.no/blogg/2026-11-26-pr-previews/"
             },
             {
-              "title": "I was wrong about dark mode",
-              "date": "2026-11-09",
-              "link": "https://dbushell.com/2026/11/09/dark-mode/"
+              "title": "Jeg testet verktøyet som skal krympe AI-regningen",
+              "date": "2026-08-19",
+              "link": "https://www.kodemaker.no/blogg/2026-08-19-verktoyet-som-skal-krympe-ai-regningen/"
+            },
+            {
+              "title": "Min nye produktsjef er en lærende agent",
+              "date": "2026-07-27",
+              "link": "https://www.kodemaker.no/blogg/2026-07-27-min-nye-produktsjef/"
+            },
+            {
+              "title": "Da 3D-printeren møtte Claude",
+              "date": "2026-05-12",
+              "link": "https://www.kodemaker.no/blogg/2026-05-12-3d-printeren-moter-claude-code/"
+            },
+            {
+              "title": "FFSBS - Flinke Folk Som Bryr Seg",
+              "date": "2026-03-11",
+              "link": "https://www.kodemaker.no/blogg/2026-03-11-ffsbs/"
             }
           ]
         },
@@ -1332,37 +1363,6 @@
           ]
         },
         {
-          "title": "Kodemaker sin blogg",
-          "feedUrl": "https://www.kodemaker.no/atom.xml",
-          "items": [
-            {
-              "title": "Jeg testet verktøyet som skal krympe AI-regningen",
-              "date": "2026-08-19",
-              "link": "https://www.kodemaker.no/blogg/2026-08-19-verktoyet-som-skal-krympe-ai-regningen/"
-            },
-            {
-              "title": "Min nye produktsjef er en lærende agent",
-              "date": "2026-07-27",
-              "link": "https://www.kodemaker.no/blogg/2026-07-27-min-nye-produktsjef/"
-            },
-            {
-              "title": "Da 3D-printeren møtte Claude",
-              "date": "2026-05-12",
-              "link": "https://www.kodemaker.no/blogg/2026-05-12-3d-printeren-moter-claude-code/"
-            },
-            {
-              "title": "FFSBS - Flinke Folk Som Bryr Seg",
-              "date": "2026-03-11",
-              "link": "https://www.kodemaker.no/blogg/2026-03-11-ffsbs/"
-            },
-            {
-              "title": "Kodemaker åpen fagdag 2026",
-              "date": "2026-02-12",
-              "link": "https://www.kodemaker.no/blogg/2026-02-12-kodemaker-apen-fagdag/"
-            }
-          ]
-        },
-        {
           "title": "Pablo's logbook",
           "feedUrl": "https://blog.codemanship.dev/rss.xml",
           "items": [
@@ -2435,7 +2435,7 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-24T13:15:00.297Z",
+  "fetchDate": "2026-11-25T12:05:04.770Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",

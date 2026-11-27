@@ -4,6 +4,37 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "Baldur Bjarnason's Notes on the Web",
+          "feedUrl": "https://feedpress.me/baldurbjarnason",
+          "items": [
+            {
+              "title": "Black Friday sale!",
+              "date": "2026-11-27",
+              "link": "https://www.baldurbjarnason.com/2026/black-friday-2026/"
+            },
+            {
+              "title": "Brief winter snow",
+              "date": "2026-11-25",
+              "link": "https://www.baldurbjarnason.com/notes/photos/brief-winter-snow/"
+            },
+            {
+              "title": "There’s hope on the other side (and a crass black friday sale!)",
+              "date": "2026-11-25",
+              "link": "https://www.baldurbjarnason.com/2026/theres-hope-on-the-other-side/"
+            },
+            {
+              "title": "Autumn fields and horses",
+              "date": "2026-11-18",
+              "link": "https://www.baldurbjarnason.com/notes/photos/autumn-fields-and-horses-2026/"
+            },
+            {
+              "title": "‘AI’ might be the end of our careers",
+              "date": "2026-11-18",
+              "link": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/"
+            }
+          ]
+        },
+        {
           "title": "dbushell.com (blog)",
           "feedUrl": "https://dbushell.com/rss.xml",
           "items": [
@@ -31,37 +62,6 @@
               "title": "RSS Club #010: Chatbots",
               "date": "2026-11-15",
               "link": "https://dbushell.com/2026/11/15/RSS010/"
-            }
-          ]
-        },
-        {
-          "title": "Baldur Bjarnason's Notes on the Web",
-          "feedUrl": "https://feedpress.me/baldurbjarnason",
-          "items": [
-            {
-              "title": "Brief winter snow",
-              "date": "2026-11-25",
-              "link": "https://www.baldurbjarnason.com/notes/photos/brief-winter-snow/"
-            },
-            {
-              "title": "There’s hope on the other side (and a crass black friday sale!)",
-              "date": "2026-11-25",
-              "link": "https://www.baldurbjarnason.com/2026/theres-hope-on-the-other-side/"
-            },
-            {
-              "title": "Autumn fields and horses",
-              "date": "2026-11-18",
-              "link": "https://www.baldurbjarnason.com/notes/photos/autumn-fields-and-horses-2026/"
-            },
-            {
-              "title": "‘AI’ might be the end of our careers",
-              "date": "2026-11-18",
-              "link": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/"
-            },
-            {
-              "title": "Looking back at snow",
-              "date": "2026-11-05",
-              "link": "https://www.baldurbjarnason.com/notes/photos/looking-back-at-snow/"
             }
           ]
         },
@@ -252,6 +252,32 @@
           ]
         },
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-11-25",
+              "link": "https://dbushell.com/notes/2026-11-25T17:45Z/"
+            },
+            {
+              "date": "2026-11-24",
+              "link": "https://dbushell.com/notes/2026-11-24T09:20Z/"
+            },
+            {
+              "date": "2026-11-23",
+              "link": "https://dbushell.com/notes/2026-11-23T06:52Z/"
+            },
+            {
+              "date": "2026-11-14",
+              "link": "https://dbushell.com/notes/2026-11-14T06:44Z/"
+            },
+            {
+              "date": "2026-11-12",
+              "link": "https://dbushell.com/notes/2026-11-12T18:19Z/"
+            }
+          ]
+        },
+        {
           "title": "Coding Is Like Cooking",
           "feedUrl": "https://coding-is-like-cooking.info/feed/",
           "items": [
@@ -283,28 +309,33 @@
           ]
         },
         {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "title": "Untested · Rafał Pastuszak",
+          "feedUrl": "https://untested.sonnet.io/feed.xml",
           "items": [
             {
+              "title": "Let me Give You Worms",
               "date": "2026-11-25",
-              "link": "https://dbushell.com/notes/2026-11-25T17:45Z/"
+              "link": "https://untested.sonnet.io/notes/let-me-give-you-worms/"
             },
             {
-              "date": "2026-11-24",
-              "link": "https://dbushell.com/notes/2026-11-24T09:20Z/"
+              "title": "DISOBEY",
+              "date": "2025-09-23",
+              "link": "https://untested.sonnet.io/notes/disobey/"
             },
             {
-              "date": "2026-11-23",
-              "link": "https://dbushell.com/notes/2026-11-23T06:52Z/"
+              "title": "Ensō Themes – Accessible, Vampiric, Cozy",
+              "date": "2025-09-12",
+              "link": "https://untested.sonnet.io/notes/enso-themes-accessible-vampiric-cozy/"
             },
             {
-              "date": "2026-11-14",
-              "link": "https://dbushell.com/notes/2026-11-14T06:44Z/"
+              "title": "433 - How to Make a Font that Says Nothing",
+              "date": "2025-07-22",
+              "link": "https://untested.sonnet.io/notes/433-how-to-make-a-font-that-says-nothing/"
             },
             {
-              "date": "2026-11-12",
-              "link": "https://dbushell.com/notes/2026-11-12T18:19Z/"
+              "title": "How People Use Ensō",
+              "date": "2025-07-04",
+              "link": "https://untested.sonnet.io/notes/how-people-use-enso/"
             }
           ]
         },
@@ -681,37 +712,6 @@
           ]
         },
         {
-          "title": "Marvin Hagemeister",
-          "feedUrl": "https://marvinh.dev/feed.xml",
-          "items": [
-            {
-              "title": "Building a bike computer from scratch",
-              "date": "2026-11-10",
-              "link": "https://marvinh.dev/blog/bike-computer/"
-            },
-            {
-              "title": "Speeding up the JavaScript ecosystem - oxlint and oxfmt",
-              "date": "2026-05-17",
-              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-13/"
-            },
-            {
-              "title": "DDoS'ing the human brain",
-              "date": "2026-04-03",
-              "link": "https://marvinh.dev/blog/ddosing-the-human-brain/"
-            },
-            {
-              "title": "Signals vs Query-Based Compilers",
-              "date": "2026-01-04",
-              "link": "https://marvinh.dev/blog/signals-vs-query-based-compilers/"
-            },
-            {
-              "title": "Building From First Principles",
-              "date": "2025-10-28",
-              "link": "https://marvinh.dev/blog/building-from-first-principles/"
-            }
-          ]
-        },
-        {
           "title": "Adrian Roselli",
           "feedUrl": "https://adrianroselli.com/feed",
           "items": [
@@ -739,6 +739,37 @@
               "title": "Evaluating a Success Criterion",
               "date": "2026-09-01",
               "link": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html"
+            }
+          ]
+        },
+        {
+          "title": "Marvin Hagemeister",
+          "feedUrl": "https://marvinh.dev/feed.xml",
+          "items": [
+            {
+              "title": "Building a bike computer from scratch",
+              "date": "2026-11-10",
+              "link": "https://marvinh.dev/blog/bike-computer/"
+            },
+            {
+              "title": "Speeding up the JavaScript ecosystem - oxlint and oxfmt",
+              "date": "2026-05-17",
+              "link": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-13/"
+            },
+            {
+              "title": "DDoS'ing the human brain",
+              "date": "2026-04-03",
+              "link": "https://marvinh.dev/blog/ddosing-the-human-brain/"
+            },
+            {
+              "title": "Signals vs Query-Based Compilers",
+              "date": "2026-01-04",
+              "link": "https://marvinh.dev/blog/signals-vs-query-based-compilers/"
+            },
+            {
+              "title": "Building From First Principles",
+              "date": "2025-10-28",
+              "link": "https://marvinh.dev/blog/building-from-first-principles/"
             }
           ]
         },
@@ -2071,37 +2102,6 @@
           ]
         },
         {
-          "title": "Untested · Rafał Pastuszak",
-          "feedUrl": "https://untested.sonnet.io/feed.xml",
-          "items": [
-            {
-              "title": "DISOBEY",
-              "date": "2025-09-23",
-              "link": "https://untested.sonnet.io/notes/disobey/"
-            },
-            {
-              "title": "Ensō Themes – Accessible, Vampiric, Cozy",
-              "date": "2025-09-12",
-              "link": "https://untested.sonnet.io/notes/enso-themes-accessible-vampiric-cozy/"
-            },
-            {
-              "title": "433 - How to Make a Font that Says Nothing",
-              "date": "2025-07-22",
-              "link": "https://untested.sonnet.io/notes/433-how-to-make-a-font-that-says-nothing/"
-            },
-            {
-              "title": "How People Use Ensō",
-              "date": "2025-07-04",
-              "link": "https://untested.sonnet.io/notes/how-people-use-enso/"
-            },
-            {
-              "title": "New Ensō - first public beta",
-              "date": "2025-06-27",
-              "link": "https://untested.sonnet.io/notes/new-enso-first-public-beta/"
-            }
-          ]
-        },
-        {
           "title": "Alexis King’s Blog",
           "feedUrl": "https://lexi-lambda.github.io/feeds/all.atom.xml",
           "items": [
@@ -2212,37 +2212,6 @@
               "title": "Wunderbaum testing",
               "date": "2023-11-23",
               "link": "https://chocolatedrivendevelopment.com/2023/11/23/wunderbaum/"
-            }
-          ]
-        },
-        {
-          "title": "GeePawHill.org",
-          "feedUrl": "https://www.geepawhill.org/feed/",
-          "items": [
-            {
-              "title": "Basic Concepts of the “Making App”",
-              "date": "2024-10-02",
-              "link": "https://www.geepawhill.org/2024/10/01/basic-concepts-of-the-making-app/"
-            },
-            {
-              "title": "Optimize for Our Humans",
-              "date": "2024-02-23",
-              "link": "https://www.geepawhill.org/2024/02/23/optimize-for-our-humans/"
-            },
-            {
-              "title": "Why Only Change Frames?",
-              "date": "2023-02-02",
-              "link": "https://www.geepawhill.org/2023/02/02/why-only-change-frames/"
-            },
-            {
-              "title": "The Frame-Changing Triad",
-              "date": "2023-01-26",
-              "link": "https://www.geepawhill.org/2023/01/26/the-frame-changing-triad/"
-            },
-            {
-              "title": "Changing The Frame",
-              "date": "2023-01-20",
-              "link": "https://www.geepawhill.org/2023/01/20/changing-the-frame/"
             }
           ]
         },
@@ -2435,13 +2404,14 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-26T11:51:56.285Z",
+  "fetchDate": "2026-11-27T11:44:26.482Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
+    "https://anniemueller.com/posts_feed",
     "https://fynn.be/feed.xml",
-    "https://anniemueller.com/posts_feed"
+    "https://www.geepawhill.org/feed/"
   ]
 }

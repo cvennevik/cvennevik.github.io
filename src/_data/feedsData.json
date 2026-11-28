@@ -4,6 +4,32 @@
       "name": "Feeds",
       "feeds": [
         {
+          "title": "dbushell.com (notes)",
+          "feedUrl": "https://dbushell.com/notes/rss.xml",
+          "items": [
+            {
+              "date": "2026-11-28",
+              "link": "https://dbushell.com/notes/2026-11-28T05:26Z/"
+            },
+            {
+              "date": "2026-11-25",
+              "link": "https://dbushell.com/notes/2026-11-25T17:45Z/"
+            },
+            {
+              "date": "2026-11-24",
+              "link": "https://dbushell.com/notes/2026-11-24T09:20Z/"
+            },
+            {
+              "date": "2026-11-23",
+              "link": "https://dbushell.com/notes/2026-11-23T06:52Z/"
+            },
+            {
+              "date": "2026-11-14",
+              "link": "https://dbushell.com/notes/2026-11-14T06:44Z/"
+            }
+          ]
+        },
+        {
           "title": "Baldur Bjarnason's Notes on the Web",
           "feedUrl": "https://feedpress.me/baldurbjarnason",
           "items": [
@@ -31,6 +57,37 @@
               "title": "‘AI’ might be the end of our careers",
               "date": "2026-11-18",
               "link": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/"
+            }
+          ]
+        },
+        {
+          "title": "Curly Tail, Curly Braces",
+          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
+          "items": [
+            {
+              "title": "Zonks",
+              "date": "2026-11-26",
+              "link": "https://www.worthe-it.co.za/blog/2026-11-27-zonks.html"
+            },
+            {
+              "title": "Saying Goodbye to my Git Server's CGit Frontend",
+              "date": "2026-09-04",
+              "link": "https://www.worthe-it.co.za/blog/2026-09-05-saying-goodbye-to-my-git-servers-cgit-frontend.html"
+            },
+            {
+              "title": "Separating End to End Tests in Rust with Cargo Features",
+              "date": "2026-07-16",
+              "link": "https://www.worthe-it.co.za/blog/2026-07-17-separating-end-to-end-tests-in-rust-with-cargo-features.html"
+            },
+            {
+              "title": "It's been 15 years, what have I learned?",
+              "date": "2026-05-12",
+              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
+            },
+            {
+              "title": "My 2025 In Review",
+              "date": "2025-12-31",
+              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
             }
           ]
         },
@@ -128,37 +185,6 @@
           ]
         },
         {
-          "title": "sunshowers",
-          "feedUrl": "https://sunshowers.io/index.xml",
-          "items": [
-            {
-              "title": "When science communicators spread misinformation",
-              "date": "2026-11-25",
-              "link": "https://sunshowers.io/posts/science-communicator-misinformation/"
-            },
-            {
-              "title": "Designing nextest's install scripts",
-              "date": "2026-11-14",
-              "link": "https://sunshowers.io/posts/nextest-install-scripts/"
-            },
-            {
-              "title": "Contra \"Glue work considered harmful\"",
-              "date": "2026-11-12",
-              "link": "https://sunshowers.io/posts/glue-work/"
-            },
-            {
-              "title": "*sshole, or when are we finally going to get rid of C?",
-              "date": "2026-11-06",
-              "link": "https://sunshowers.io/posts/sshole/"
-            },
-            {
-              "title": "More on Anthropic's Scion ripping off Mononoke",
-              "date": "2026-10-15",
-              "link": "https://sunshowers.io/posts/anthropic-mononoke-2/"
-            }
-          ]
-        },
-        {
           "title": "The Jolly Teapot",
           "feedUrl": "https://thejollyteapot.com/feed.rss",
           "items": [
@@ -186,6 +212,37 @@
               "title": "September 2026 blend of links",
               "date": "2026-09-29",
               "link": "https://thejollyteapot.com/september-2026-blend/"
+            }
+          ]
+        },
+        {
+          "title": "sunshowers",
+          "feedUrl": "https://sunshowers.io/index.xml",
+          "items": [
+            {
+              "title": "When science communicators spread misinformation",
+              "date": "2026-11-25",
+              "link": "https://sunshowers.io/posts/science-communicator-misinformation/"
+            },
+            {
+              "title": "Designing nextest's install scripts",
+              "date": "2026-11-14",
+              "link": "https://sunshowers.io/posts/nextest-install-scripts/"
+            },
+            {
+              "title": "Contra \"Glue work considered harmful\"",
+              "date": "2026-11-12",
+              "link": "https://sunshowers.io/posts/glue-work/"
+            },
+            {
+              "title": "*sshole, or when are we finally going to get rid of C?",
+              "date": "2026-11-06",
+              "link": "https://sunshowers.io/posts/sshole/"
+            },
+            {
+              "title": "More on Anthropic's Scion ripping off Mononoke",
+              "date": "2026-10-15",
+              "link": "https://sunshowers.io/posts/anthropic-mononoke-2/"
             }
           ]
         },
@@ -248,32 +305,6 @@
               "title": "HUSTEF 2026 - Finally Made It",
               "date": "2026-10-10",
               "link": "https://www.lisihocke.com/2026/10/hustef-2026-finally-made-it.html"
-            }
-          ]
-        },
-        {
-          "title": "dbushell.com (notes)",
-          "feedUrl": "https://dbushell.com/notes/rss.xml",
-          "items": [
-            {
-              "date": "2026-11-25",
-              "link": "https://dbushell.com/notes/2026-11-25T17:45Z/"
-            },
-            {
-              "date": "2026-11-24",
-              "link": "https://dbushell.com/notes/2026-11-24T09:20Z/"
-            },
-            {
-              "date": "2026-11-23",
-              "link": "https://dbushell.com/notes/2026-11-23T06:52Z/"
-            },
-            {
-              "date": "2026-11-14",
-              "link": "https://dbushell.com/notes/2026-11-14T06:44Z/"
-            },
-            {
-              "date": "2026-11-12",
-              "link": "https://dbushell.com/notes/2026-11-12T18:19Z/"
             }
           ]
         },
@@ -867,37 +898,6 @@
           ]
         },
         {
-          "title": "Agile Otter Blog",
-          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
-          "items": [
-            {
-              "title": "The Switch to AgileOtter.Dev",
-              "date": "2026-11-02",
-              "link": "http://agileotter.blogspot.com/2026/11/the-switch-to-agileotterdev.html"
-            },
-            {
-              "title": "Speculating on Challenges of Spec-Driven Development",
-              "date": "2026-10-18",
-              "link": "http://agileotter.blogspot.com/2026/10/speculative-challenges-of-spec-driven.html"
-            },
-            {
-              "title": "Why redesign doesn't happen (enough)",
-              "date": "2026-09-29",
-              "link": "http://agileotter.blogspot.com/2026/09/why-redesign-doesnt-happen-enough.html"
-            },
-            {
-              "title": "The Ticket Is Not The Work",
-              "date": "2026-09-26",
-              "link": "http://agileotter.blogspot.com/2026/09/the-ticket-is-not-work.html"
-            },
-            {
-              "title": "Spreadsheets",
-              "date": "2026-08-26",
-              "link": "http://agileotter.blogspot.com/2026/08/spreadsheets.html"
-            }
-          ]
-        },
-        {
           "title": "",
           "feedUrl": "https://danluu.com/atom.xml",
           "items": [
@@ -925,6 +925,37 @@
               "title": "Ed Zitron's AI prediction track record",
               "date": "2026-09-01",
               "link": "https://danluu.com/zitron/"
+            }
+          ]
+        },
+        {
+          "title": "Agile Otter Blog",
+          "feedUrl": "http://agileotter.blogspot.com/feeds/posts/default",
+          "items": [
+            {
+              "title": "The Switch to AgileOtter.Dev",
+              "date": "2026-11-02",
+              "link": "http://agileotter.blogspot.com/2026/11/the-switch-to-agileotterdev.html"
+            },
+            {
+              "title": "Speculating on Challenges of Spec-Driven Development",
+              "date": "2026-10-18",
+              "link": "http://agileotter.blogspot.com/2026/10/speculative-challenges-of-spec-driven.html"
+            },
+            {
+              "title": "Why redesign doesn't happen (enough)",
+              "date": "2026-09-29",
+              "link": "http://agileotter.blogspot.com/2026/09/why-redesign-doesnt-happen-enough.html"
+            },
+            {
+              "title": "The Ticket Is Not The Work",
+              "date": "2026-09-26",
+              "link": "http://agileotter.blogspot.com/2026/09/the-ticket-is-not-work.html"
+            },
+            {
+              "title": "Spreadsheets",
+              "date": "2026-08-26",
+              "link": "http://agileotter.blogspot.com/2026/08/spreadsheets.html"
             }
           ]
         },
@@ -1266,37 +1297,6 @@
               "title": "On the environmental impact of AI",
               "date": "2025-05-09",
               "link": "https://molily.de/ai-environment/"
-            }
-          ]
-        },
-        {
-          "title": "Curly Tail, Curly Braces",
-          "feedUrl": "https://www.worthe-it.co.za/atom.xml",
-          "items": [
-            {
-              "title": "Saying Goodbye to my Git Server's CGit Frontend",
-              "date": "2026-09-04",
-              "link": "https://www.worthe-it.co.za/blog/2026-09-05-saying-goodbye-to-my-git-servers-cgit-frontend.html"
-            },
-            {
-              "title": "Separating End to End Tests in Rust with Cargo Features",
-              "date": "2026-07-16",
-              "link": "https://www.worthe-it.co.za/blog/2026-07-17-separating-end-to-end-tests-in-rust-with-cargo-features.html"
-            },
-            {
-              "title": "It's been 15 years, what have I learned?",
-              "date": "2026-05-12",
-              "link": "https://www.worthe-it.co.za/blog/2026-05-13-its-been-15-years-what-have-i-learned.html"
-            },
-            {
-              "title": "My 2025 In Review",
-              "date": "2025-12-31",
-              "link": "https://www.worthe-it.co.za/blog/2026-01-01-my-2025-in-review.html"
-            },
-            {
-              "title": "The Localhost Podcast CLI Tool",
-              "date": "2025-10-18",
-              "link": "https://www.worthe-it.co.za/blog/2025-10-19-the-localhost-podcast-cli-tool.html"
             }
           ]
         },
@@ -2216,6 +2216,37 @@
           ]
         },
         {
+          "title": "GeePawHill.org",
+          "feedUrl": "https://www.geepawhill.org/feed/",
+          "items": [
+            {
+              "title": "Basic Concepts of the “Making App”",
+              "date": "2024-10-02",
+              "link": "https://www.geepawhill.org/2024/10/01/basic-concepts-of-the-making-app/"
+            },
+            {
+              "title": "Optimize for Our Humans",
+              "date": "2024-02-23",
+              "link": "https://www.geepawhill.org/2024/02/23/optimize-for-our-humans/"
+            },
+            {
+              "title": "Why Only Change Frames?",
+              "date": "2023-02-02",
+              "link": "https://www.geepawhill.org/2023/02/02/why-only-change-frames/"
+            },
+            {
+              "title": "The Frame-Changing Triad",
+              "date": "2023-01-26",
+              "link": "https://www.geepawhill.org/2023/01/26/the-frame-changing-triad/"
+            },
+            {
+              "title": "Changing The Frame",
+              "date": "2023-01-20",
+              "link": "https://www.geepawhill.org/2023/01/20/changing-the-frame/"
+            }
+          ]
+        },
+        {
           "title": "Nonlinear.Garden",
           "feedUrl": "https://nonlinear.garden/rss.xml",
           "items": [
@@ -2404,14 +2435,13 @@
       ]
     }
   ],
-  "fetchDate": "2026-11-27T11:44:26.482Z",
+  "fetchDate": "2026-11-28T11:19:36.218Z",
   "errors": [
     "https://cutlefish.substack.com/feed",
     "https://2ality.com/feeds/posts.atom",
     "https://angryweasel.substack.com/feed",
     "https://mikegrindle.com/feed.xml",
     "https://anniemueller.com/posts_feed",
-    "https://fynn.be/feed.xml",
-    "https://www.geepawhill.org/feed/"
+    "https://fynn.be/feed.xml"
   ]
 }
